@@ -1,0 +1,77 @@
+{
+ "source": "moneysmart",
+ "source_id": "american-express-platinum-credit-card",
+ "source_url": "https://www.moneysmart.sg/credit-cards/american-express-platinum-credit-card",
+ "name": "American Express Platinum Credit Card",
+ "bank": "American Express",
+ "card_id": "amex-platinum-credit",
+ "image_url": "https://photos.cdn-moneysmart.com/credit_cards/uploads/products/images/image_url_2024-01-14_Plat G_315x200 (1) (1).png",
+ "earn_rates": {},
+ "caps": {},
+ "highlights": [
+  "10 Membership Rewards Points for every full S$1.60 spend at participating Platinum 10Xcelerator Partners",
+  "2 Membership Rewards Points for every full S$1.60 on All Other Eligible Spend",
+  "No Expiry Date on Membership Rewards® Points",
+  "Own your style in your favourite brands or step up to the foodie life with up to S$200 Fashion and Dining Credit with successful payment of the Annual Membership fee",
+  "Enjoy up to 50% off your food bill at premium dining spots with Love Dining",
+  "Enjoy 1-for-1 first drink and complimentary drinks with purchase at some of the most bespoke bars in Singapore with Chillax by Platinum",
+  "Skip the S$15,000 qualification spend and enjoy a complimentary 12-month C4 tier Comoclub membership",
+  "At MoneySmart, we strive to keep our information accurate and up to date. This information may be different from what you see when you visit a financial institution, service provider, or specific product site. MoneySmart shall not be liable to compensate the Customer should the information is not as updated as our Partner",
+  "Please refer to the American Express website (go.amex/moneysmart) for the most up to date information on card benefits and its terms & conditions"
+ ],
+ "sign_up_offers": [],
+ "links": {
+  "product": "https://www.moneysmart.sg/credit-cards/american-express-platinum-credit-card"
+ },
+ "citation": {
+  "id": "moneysmart:42909b088c22",
+  "url": "https://www.moneysmart.sg/credit-cards?page=2",
+  "title": "American Express Platinum Credit Card",
+  "source_type": "aggregator",
+  "retrieved_at": "2026-09-27T05:27:14+00:00",
+  "sha256": "42909b088c22cb063c120b532d19af920cb3535c52f6bfc313193c6c6ea14746",
+  "snapshot": "data/raw/moneysmart/credit-cards-p2-5f055203.html"
+ },
+ "extra": {
+  "summary": "The American Express Platinum Credit Card is tailored for those who relish premium experiences, particularly in dining and upscale shopping. With 10 Membership Rewards points per S$1.60 spent at selected partners, it’s ideal for maximizing high-end purchases while benefiting from an elegant lifestyle through the Chillax by Platinum program with complimentary drinks at chic bars or discounts on spa services.",
+  "badges": [
+   "Ideal for Dining and Lifestyle"
+  ],
+  "network": [
+   "American Express"
+  ],
+  "mobile_wallets": [
+   "Google Pay",
+   "Apple Pay",
+   "Samsung Pay"
+  ],
+  "groups": {
+   "annual-interest-rate-and-fees": {
+    "Annual Interest Rate": "27.80% p.a. compounded if payment of the closing balance in your statements is not made in full; or 3% p.a. on top of prevailing interest rate in the event that your account has three or more defaults in the last 12 months",
+    "Annual Principal Fee": "S$327 (incl. of 9% GST)",
+    "Supplementary Annual Fee": "First 2 Supplementary Cards fee permanently waived. S$163.50 (incl. of 9% GST) for each subsequent Supplementary Card.",
+    "Fee Waiver": "Discretionary",
+    "Minimum Monthly Repayment": "3% or S$50, whichever is higher",
+    "Interest Free Period": "22 days"
+   },
+   "minimum-income-requirements": {
+    "Singaporean/PR Minimum Annual Income": "Card application is subjected to customers meeting the regulatory minimum income requirement and internal assessment.",
+    "Non-Singaporean Minimum Annual Income": "Card application is subjected to customers meeting the regulatory minimum income requirement and internal assessment."
+   },
+   "card-association": {
+    "American Express": "true"
+   },
+   "wireless-payment": {
+    "Google Pay": "true",
+    "Apple Pay": "true",
+    "Samsung Pay": "true"
+   }
+  },
+  "our_takes": {
+   "our-take": "The American Express Platinum Credit Card is tailored for those who relish premium experiences, particularly in dining and upscale shopping. With 10 Membership Rewards points per S$1.60 spent at selected partners, it’s ideal for maximizing high-end purchases while benefiting from an elegant lifestyle through the Chillax by Platinum program with complimentary drinks at chic bars or discounts on spa services. However, be mindful of a 3.25% foreign transaction fee that can add up if you frequently spend overseas—this card thrives when used domestically within Singapore's vibrant luxury scene.",
+   "good-for": "Affluent professionals looking for premium lifestyle perks like dining discounts and bespoke bar access.\nIndividuals seeking luxury experiences and statement credits at trending restaurants and fashion brands.\nGolf enthusiasts who want complimentary green fees at premier clubs across Southeast Asia.",
+   "things-to-note": "The annual fee is S$327; weigh whether the benefits outweigh this cost if you don't maximize rewards.\nA high 27.80% interest rate means carrying a balance can lead to significant debt, costing you more.\nForeign transaction fees of 3.25% and late payment fees of S$100 can quickly add up on this card."
+  },
+  "updated_at": "2026-09-02T12:06:56+08:00"
+ }
+}

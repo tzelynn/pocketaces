@@ -1,0 +1,105 @@
+{
+ "source": "singsaver",
+ "source_id": "dbs-esso-card",
+ "source_url": "https://www.singsaver.com.sg/credit-card/products/dbs-esso-card",
+ "name": "DBS Esso Card",
+ "bank": "DBS",
+ "card_id": "dbs-esso",
+ "image_url": "https://mhgprod.blob.core.windows.net/singsaver/strapi-uploads/xs_blt6c6e9e9276d8691c_8542294f34.png",
+ "annual_fee": 196.2,
+ "annual_fee_note": "S$ | First Year Waived",
+ "min_annual_income": 30000.0,
+ "earn_rates": {
+  "percent:local": {
+   "value": 0.4,
+   "unit": "percent",
+   "note": "S$7,500 = 750 Smiles Points = S$30 worth of Synergy fuel."
+  },
+  "percent:baseline": {
+   "value": 0.4,
+   "unit": "percent",
+   "note": "S$7,500 = 750 Smiles Points = S$30 worth of Synergy Fuel, equivalent to 0.4% cashback."
+  },
+  "percent:overseas": {
+   "value": 0.4,
+   "unit": "percent",
+   "note": "S$7,500 = 750 Smiles Points = S$30 worth of Synergy Fuel, equivalent to 0.4% cashback."
+  },
+  "points_per_dollar:baseline": {
+   "value": 1.0,
+   "unit": "points_per_dollar",
+   "note": "For every S$10 charged outside of Esso  Get S$10/S$30 worth of Synergy fuel with 300/750 Smiles Points."
+  },
+  "points_per_dollar:petrol": {
+   "value": 1.0,
+   "unit": "points_per_dollar",
+   "note": "For every 1 Litre of Synergy fuel  Get S$10/S$30 worth of Synergy fuel with 300/750 Smiles Points."
+  },
+  "percent:petrol": {
+   "value": 3.6,
+   "unit": "percent",
+   "note": "At Esso kiosks, with min. S$180 net fuel spend."
+  }
+ },
+ "caps": {},
+ "highlights": [
+  "18% discount at Esso + 3.6% cashback. 0.4% cashback on local and overseas spend.",
+  "pros: Enjoy up to 21.6% fuel savings and 2.4% Smiles Savings at All Esso stations.",
+  "pros: Auto-enrolment into the Esso Smiles Driver Rewards programme.",
+  "pros: Earn Smiles Points on all Esso fuel spend and card retail spend.",
+  "pros: Get interest-free payment plans for motor insurance and road tax.",
+  "pros: Enjoy faster payments at Pay-at-the-Pump Systems at Esso service stations.",
+  "cons: 18% instant fuel discounts not applicable when paying via mobile wallets, including Apple Pay, Samsung Pay, and Google Pay.",
+  "pros: Petrol savings",
+  "cons: Annual Fee required"
+ ],
+ "sign_up_offers": [],
+ "links": {},
+ "citation": {
+  "id": "singsaver:fa2c25ac592d",
+  "url": "https://www.singsaver.com.sg/credit-card/products/dbs-esso-card",
+  "title": "DBS Esso Card",
+  "source_type": "aggregator",
+  "retrieved_at": "2026-09-27T05:25:22+00:00",
+  "sha256": "fa2c25ac592d4f3bb097a27d303ae23be5a3f4563da9ef16c05715e2f97adcac",
+  "snapshot": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-dbs-esso-card-958b8a56.html"
+ },
+ "extra": {
+  "network": [
+   "Mastercard"
+  ],
+  "mobile_wallets": [
+   "Google Pay",
+   "Apple Pay",
+   "Samsung Pay",
+   "NETSPay"
+  ],
+  "fx_fee_percent": 3.25,
+  "miles_conversion_fee": null,
+  "categories": [
+   "category:all-credit-cards",
+   "category:buffet-promo",
+   "category:dining-promo",
+   "category:grocery-promo",
+   "category:installment",
+   "category:petrol-promo",
+   "category:promo",
+   "category:retail-promo",
+   "category:travel",
+   "needs:0-interest-rate",
+   "needs:all-cards-with-buffet-promo",
+   "needs:all-cards-with-dining-promo",
+   "needs:all-cards-with-grocery-promo",
+   "needs:all-cards-with-petrol-promo",
+   "needs:all-cards-with-promotion",
+   "needs:all-cards-with-retail-promo",
+   "needs:all-credit-cards",
+   "needs:all-installment-cards",
+   "needs:all-travel-cards",
+   "needs:long-tenure-installment",
+   "needs:online-booking-discount"
+  ],
+  "tag": null,
+  "description": "The DBS Esso Card promises up to 21.6% fuel savings. It consists of a base 18% instant fuel discount and bonus 3.6% fuel savings (min. S$180 nett fuel spend) at Esso kiosks. \nAll DBS Esso Cardholders are also auto-enrolled into the Esso Smiles Driver Rewards programme. This entitles you to earn up to 2.4% Smiles Savings (in the form of Smiles Points) in tandem with the above 21.6% fuel savings.\nOverall, it's one of the best petrol credit cards to enjoy fuel discounts while earning rewards if you pump petrol frequently with Esso."
+ }
+}

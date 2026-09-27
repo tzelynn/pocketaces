@@ -1,0 +1,238 @@
+{
+ "source": "singsaver",
+ "source_id": "citi-rewards-card",
+ "source_url": "https://www.singsaver.com.sg/credit-card/products/citi-rewards-card",
+ "name": "Citi Rewards Card",
+ "bank": "Citibank",
+ "card_id": "citi-rewards",
+ "image_url": "https://mhgprod.blob.core.windows.net/singsaver/strapi-uploads/l_bltea3680481263edcb_492d0be83f.png",
+ "annual_fee": 196.2,
+ "annual_fee_note": "S$ | First Year Waived",
+ "min_annual_income": 30000.0,
+ "earn_rates": {
+  "points_per_dollar:baseline": {
+   "value": 1.0,
+   "unit": "points_per_dollar",
+   "note": null
+  },
+  "points_per_dollar:grocery": {
+   "value": 1.0,
+   "unit": "points_per_dollar",
+   "note": null
+  },
+  "points_per_dollar:local_spending": {
+   "value": 10.0,
+   "unit": "points_per_dollar",
+   "note": "Up to | On Retail and Online spend, except mobile wallet and travel-related transactions."
+  },
+  "points_per_dollar:dining": {
+   "value": 1.0,
+   "unit": "points_per_dollar",
+   "note": null
+  },
+  "points_per_dollar:transport": {
+   "value": 1.0,
+   "unit": "points_per_dollar",
+   "note": null
+  },
+  "points_per_dollar:online_shopping": {
+   "value": 10.0,
+   "unit": "points_per_dollar",
+   "note": "Up to | Excluding mobile wallet and travel-related transactions."
+  },
+  "points_per_dollar:taxi_ride_sharing": {
+   "value": 1.0,
+   "unit": "points_per_dollar",
+   "note": null
+  },
+  "points_per_dollar:online_food_delivery": {
+   "value": 1.0,
+   "unit": "points_per_dollar",
+   "note": null
+  },
+  "points_per_dollar:retail": {
+   "value": 10.0,
+   "unit": "points_per_dollar",
+   "note": "Up to | On in-store shopping purchases only."
+  }
+ },
+ "caps": {
+  "rewards_bonus_cap": {
+   "value": 9000.0,
+   "note": "Cap of 9,000 bonus ThankYou Points per statement month (Equivalent to S$1,000 monthly spend)."
+  }
+ },
+ "highlights": [
+  "10 ThankYou points per dollar on Retail and Online spend, except mobile wallet and travel-related transactions and 1 ThankYou point per dollar on any other spend eligible spend. Cap of 9,000 bonus Thank you points per month.",
+  "pros: 10X rewards points for all online purchases except mobile wallet and travel-related transactions.",
+  "pros: 10X rewards points for in-store shopping purchases at department stores, clothing stores and more.",
+  "pros: 1X rewards points on all other purchases.",
+  "pros: Pair with amaze card to turn offline transactions into online transactions.",
+  "pros: No cap on base rewards points.",
+  "pros: Rewards points conversion rate: 440 Points = S$1",
+  "pros: Rewards points are rounded down to the nearest 10 points on all purchases.",
+  "pros: Use Citi PayAll to earn ThankYou PointSM when you pay your bills with your Citi Rewards Card.",
+  "pros: Up to S$1 million travel insurance coverage when you charge your travel tickets to this card. There will be a revision made to the Citi Credit Cards complimentary travel insurance. The Travel Insurance coverage in respect of a Trip charged to Citi Rewards Card will be updated to end on \n31 March 2026\n. For more information, please click \nhere\n.",
+  "pros: Read our \nfull review\n of the Citi Rewards Card",
+  "cons: Bonus rewards points capped at 9,000 points per statement month.",
+  "pros: Bonus air miles",
+  "pros: Travel insurance",
+  "pros: Annual Fee waiver",
+  "pros: High-value gift"
+ ],
+ "sign_up_offers": [
+  {
+   "kind": "exclusive_offer",
+   "title": "SingSaver Flash Deal",
+   "offer_id": "SG.2026-09-24.CC.CITI.6XCC.MYSTERYPHONE-FD",
+   "valid_from": "2026-09-23T16:00:00Z",
+   "valid_to": "2026-09-28T15:59:00Z",
+   "gifts": [
+    {
+     "title": "The latest smartphone (worth over S$1,8xx)",
+     "value_sgd": 1800
+    }
+   ],
+   "terms": "SingSaver Flash Deal promotion runs from 24 September 2026 to 28 September 2026.\nPromotion is valid for new Citi credit cardmembers only.\nBe the first eligible applicant at 3pm and 9pm every day during the flash deal period (2 total winners daily) to apply for select Citi credit cards via SingSaver and meet the min. spend criteria (S$500 within 30 days of card approval) to be eligible for the Flash Deal reward: \nlatest smartphone (worth over S$1,800)\nFlash Deal reward will be received \nin place of\n your selected SingSaver Exclusive Offer reward.\nRemaining applicants will receive the SingSaver Exclusive Offer reward selected in your Rewards Redemption Form.\nTerms and Conditions\n apply.",
+   "tnc_url": null,
+   "bundle_with": []
+  },
+  {
+   "kind": "exclusive_offer",
+   "title": "SingSaver Exclusive Offer",
+   "offer_id": "SG.2026-09-01.CC.CITI.PMRWCP.400CASH-25KMAXM-ASTRAIT-V8CYC-MCM20CAP-[DYSON-APPLE]",
+   "valid_from": "2026-09-24T16:00:00Z",
+   "valid_to": "2026-09-30T15:59:00Z",
+   "gifts": [
+    {
+     "title": "S$400 Cash via PayNow",
+     "value_sgd": 400
+    },
+    {
+     "title": "The Morning Coffee Machine + 20 Capsules Bundle (worth S$660)",
+     "value_sgd": 660
+    },
+    {
+     "title": "25,000 Max Miles by HeyMax (worth S$450)",
+     "value_sgd": 450
+    },
+    {
+     "title": "Dyson Airstrait™ straightener (worth S$799)",
+     "value_sgd": 799
+    },
+    {
+     "title": "Dyson V8 Cyclone Vacuum Cleaner (worth S$559)",
+     "value_sgd": 559
+    },
+    {
+     "title": "Dyson Airwrap™ multi-styler and dryer (worth S$799) (top up S$100)",
+     "value_sgd": 799
+    },
+    {
+     "title": "Dyson Clean+Wash Hygiene hard floor cleaner (worth S$729) (Top up S$150)",
+     "value_sgd": 729
+    },
+    {
+     "title": "Apple iPad (A16) 11\" 128GB WiFi (worth S$649) (Top up S$200)",
+     "value_sgd": 649
+    },
+    {
+     "title": "Apple Watch Series 12 Aluminum 42mm GPS (worth S$599) (Top-up S$140)",
+     "value_sgd": 599
+    },
+    {
+     "title": "Apple MacBook Neo (A18 Pro) 256GB w/ Magic Keyboard (worth S$999, top up S$580)",
+     "value_sgd": 999
+    },
+    {
+     "title": "Apple iPhone 18 Pro 256GB (worth S$1,899, top up S$1,330)",
+     "value_sgd": 1899
+    }
+   ],
+   "terms": "SingSaver Exclusive Offer promotion runs from 1 September 2026 to 30 September 2026.\nPromotion is valid for new Citi credit cardmembers only.\nApply for participating Citi credit cards and make a min. spend of S$500 within 30 days of card approval to be eligible for reward.\nFastest Reward Fulfilment:\n Receive your reward in as little as \n4 weeks\n!\nTerms and Conditions\n apply.",
+   "tnc_url": "https://singsaver.link/cc-rewards-campaign",
+   "bundle_with": []
+  },
+  {
+   "kind": "bundle_exclusive_offer",
+   "title": "SingSaver Card + Banking Bundle Offer",
+   "offer_id": "SG.2026-09-09.CITI.6XCC-B.500CASH.BUNDLE",
+   "valid_from": "2026-09-08T16:00:00Z",
+   "valid_to": "2026-09-30T15:59:00Z",
+   "gifts": [
+    {
+     "title": "S$500 Cash via PayNow",
+     "value_sgd": 500
+    }
+   ],
+   "terms": "This promotion runs from 9 September 2026 to 30 September 2026.\nEligible applicants must not hold an existing Citi credit card, or have closed one within the past 12 months from card account opening date.\nTo qualify for the S$500 Cash reward, applicants must:\nApply for a participating Citi credit card via SingSaver;\nMake a minimum spend of S$500 within 30 days of card approval; and\nHold a valid Citi banking account (existing or newly opened) by the end of the month following card approval.\nThe S$500 Cash reward replaces the standard SingSaver exclusive reward for your card—you receive one or the other, not the both. The S$500 Cash amount is the same regardless of which card you apply for.\nParticipating Citi banking account types are:\nExisting Citi banking relationship includes \nCitigold\n, \nCitigold Private Client\n, \nCiti Plus\n, \nCiti Priority\n, \nCitibanking\nNew Citi banking relationship is applicable for \nCitigold\n, \nCitigold Private Client\n, \nCiti Plus\nNew banking customers who open a Citigold account through SingSaver may qualify for an additional SingSaver Exclusive welcome gift (worth up to S$1,500 Cash or Apple iPhone 17)—this is a separate offer from the credit card reward (additional T&Cs apply).\nIn case you choose the S$500 cash reward option and there is no banking relationship by the last day of the following month from your card application date but you meet the criteria for the credit card only reward, you will get the default cash reward available for your chosen card on application date.\nTerms and Conditions\n apply.",
+   "tnc_url": null,
+   "bundle_with": [
+    "SG.CC.CITI.CITIBANK-M1-PLATINUM-VISA-CARD",
+    "SG.CC.CITI.CITI-SMRT-CARD",
+    "SG.CC.CITI.CITI-REWARDS-CARD"
+   ]
+  }
+ ],
+ "links": {
+  "apply": "https://www.singsaver.com.sg/apply-v3/17791"
+ },
+ "citation": {
+  "id": "singsaver:b0789316dd55",
+  "url": "https://www.singsaver.com.sg/credit-card/products/citi-rewards-card",
+  "title": "Citi Rewards Card",
+  "source_type": "aggregator",
+  "retrieved_at": "2026-09-27T05:25:13+00:00",
+  "sha256": "b0789316dd559638f190611945b0bc735044e08e02014feb04ca2a10dec396ba",
+  "snapshot": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-citi-rewards-card-3b64dfaf.html"
+ },
+ "extra": {
+  "network": [
+   "Mastercard"
+  ],
+  "mobile_wallets": [
+   "Google Pay",
+   "Apple Pay",
+   "Samsung Pay"
+  ],
+  "fx_fee_percent": 3.25,
+  "miles_conversion_fee": 25.0,
+  "categories": [
+   "category:airmiles",
+   "category:all-credit-cards",
+   "category:buffet-promo",
+   "category:dining-promo",
+   "category:grocery-promo",
+   "category:installment",
+   "category:overseas",
+   "category:petrol-promo",
+   "category:promo",
+   "category:retail-promo",
+   "category:rewards",
+   "category:travel",
+   "needs:0-interest-rate",
+   "needs:air-miles-conversion-rewards",
+   "needs:all-airmiles-cards",
+   "needs:all-cards-with-buffet-promo",
+   "needs:all-cards-with-dining-promo",
+   "needs:all-cards-with-grocery-promo",
+   "needs:all-cards-with-petrol-promo",
+   "needs:all-cards-with-promotion",
+   "needs:all-cards-with-retail-promo",
+   "needs:all-credit-cards",
+   "needs:all-installment-cards",
+   "needs:all-overseas-cards",
+   "needs:all-rewards-cards",
+   "needs:all-travel-cards",
+   "needs:annual-fee-waiver-airmiles",
+   "needs:free-travel-insurance",
+   "needs:high-value-gifts",
+   "needs:no-minimum-spend-required-airmiles",
+   "needs:no-minimum-spend-required-rewards",
+   "needs:online-booking-discount",
+   "needs:singsaver-exclusive"
+  ],
+  "tag": "Best for rewards on entertainment and shopping",
+  "description": "Citi Rewards Credit Card is the perfect everyday card for you offering great reward points on most everyday spends coupled with a wide variety of ways to redeem those points be it offsetting your purchases with points, using your points as cash rebate or redeem it with Citi ThankYou Rewards programme.\nReward yourself with 10 ThankYou Points on shopping transactions, online food delivery, online groceries, ride-hailing platforms with the Citi Rewards Credit Card. Once paired with the amaze card, you'll be able to earn 10 ThankYou Points on both local and overseas spend, up to S$1,000 per statement month."
+ }
+}

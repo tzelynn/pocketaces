@@ -1,0 +1,74 @@
+# Curated card record. Auto-drafted from staged sources; verify every value against the
+# official T&Cs (citations below), then set review.status: reviewed.
+id: dbs-womans
+bank: DBS
+name: DBS Woman's Card
+network: mastercard
+image_url: https://mhgprod.blob.core.windows.net/singsaver/strapi-uploads/xl_2026_01_DBS_WOMAN_MASTERCARD_CARD_4336a57c8c.png
+official_url: https://www.dbs.com.sg/personal/cards/credit-cards/dbs-woman-mastercard-card
+annual_fee:
+  amount:
+    amount: 163.5
+    currency: SGD
+  first_year_waived: true
+  waiver_notes: S$ | First Year Waived
+  sources: ['singsaver:96481af53ee9']
+min_annual_income:
+  amount: 30000.0
+  currency: SGD
+reward_currency:
+  kind: miles
+  name: Miles
+earn_rules:
+- id: local
+  label: local, hotel booking, flight booking, local online shopping, travel (SingSaver — verify)
+  rate: 2.0
+  unit: mpd
+  tier: bonus
+  eligibility:
+    tags: [hotels, flights, travel]
+    modes_required: [online]
+    description: Up to | 5X DBS Points per S$5 / 5X DBS Points per S$5, online only. / 5X DBS Points per
+      S$5 / Up to 5X DBS Points per S$5, online only.
+    sources: ['singsaver:96481af53ee9']
+  sources: ['singsaver:96481af53ee9']
+- id: retail
+  label: retail, dining, overseas (SingSaver — verify)
+  rate: 0.4
+  unit: mpd
+  tier: bonus
+  eligibility:
+    tags: [shopping, dining]
+    description: 1X DBS Point per S$5
+    sources: ['singsaver:96481af53ee9']
+  sources: ['singsaver:96481af53ee9']
+- id: base
+  label: baseline (SingSaver — verify)
+  rate: 0.4
+  unit: mpd
+  tier: base
+  eligibility:
+    all_spend: true
+    description: 1X DBS Point per S$5
+    sources: ['singsaver:96481af53ee9']
+  sources: ['singsaver:96481af53ee9']
+general_exclusions:
+  description: Auto-extracted from official T&Cs — confirm each code applies to this card
+citations:
+- id: singsaver:96481af53ee9
+  url: https://www.singsaver.com.sg/credit-card/products/dbs-womans-card
+  title: DBS Woman's Card
+  source_type: aggregator
+  retrieved_at: '2026-09-27T05:25:33+00:00'
+  sha256: 96481af53ee9116ca54441d846bb4524561436f7d9455800cbc8c464171600f5
+  snapshot: data/raw/singsaver/www-singsaver-com-sg-credit-card-products-dbs-womans-card-6a2fb697.html
+- id: moneysmart:fbcf8e7229a3
+  url: https://www.moneysmart.sg/credit-cards?page=3
+  title: DBS Woman's Card
+  source_type: aggregator
+  retrieved_at: '2026-09-27T05:27:18+00:00'
+  sha256: fbcf8e7229a38611c3c767cd8447164e413b1306df1f54bebee269e3abf15202
+  snapshot: data/raw/moneysmart/credit-cards-p3-707cb52c.html
+review:
+  status: draft
+updated_at: '2026-09-27'

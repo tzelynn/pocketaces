@@ -1,0 +1,475 @@
+{
+ "card_id": "boc-elite-miles-world-mastercard",
+ "product_pages": [
+  {
+   "id": "bank:bc70b8384642",
+   "url": "https://www.bankofchina.com/sg/bcservice/bc1/201909/t20190903_16537165.html",
+   "source_type": "official",
+   "retrieved_at": "2026-09-27T06:11:45+00:00",
+   "sha256": "bc70b83846425e409e1a2714672b0d5db21e22db1aa36016c4efec3130630047",
+   "snapshot": "data/raw/bank/www-bankofchina-com-sg-bcservice-bc1-201909-t20190903-16537165-html-ab383615.html"
+  }
+ ],
+ "documents": [
+  {
+   "url": "https://www.bankofchina.com/sg/bocinfo/bi5/201810/P020250701406428156884.pdf",
+   "citation": {
+    "id": "bank:fbd063643506",
+    "url": "https://www.bankofchina.com/sg/bocinfo/bi5/201810/P020250701406428156884.pdf",
+    "source_type": "official",
+    "retrieved_at": "2026-09-27T06:11:50+00:00",
+    "sha256": "fbd0636435062a62b8f306d5ab1bc26a3f665521a9e4c23c27eb6fe30d3b0973",
+    "snapshot": "data/raw/bank/www-bankofchina-com-sg-bocinfo-bi5-201810-P020250701406428156884-pdf-52a76187.pdf"
+   },
+   "text_path": "data/raw/bank/www-bankofchina-com-sg-bocinfo-bi5-201810-P020250701406428156884-pdf-52a76187.txt",
+   "sha256": "fbd0636435062a62b8f306d5ab1bc26a3f665521a9e4c23c27eb6fe30d3b0973",
+   "changed": false,
+   "new": false,
+   "no_text_layer": false,
+   "effective_dates": [
+    "1 July 2025"
+   ],
+   "mcc": {
+    "include": [],
+    "exclude": [
+     "4829",
+     "4900",
+     "5199",
+     "5960",
+     "5965",
+     "5993",
+     "6010",
+     "6011",
+     "6012",
+     "6050",
+     "6051",
+     "6211",
+     "6300",
+     "6381",
+     "6399",
+     "6513",
+     "6529",
+     "6530",
+     "6534",
+     "6540",
+     "7349",
+     "7511",
+     "7523",
+     "7995",
+     "8062",
+     "8211",
+     "8220",
+     "8241",
+     "8244",
+     "8249",
+     "8299",
+     "8398",
+     "8651",
+     "8661",
+     "8699",
+     "8999",
+     "9211",
+     "9222",
+     "9223",
+     "9311",
+     "9399",
+     "9402",
+     "9405"
+    ],
+    "unknown": [],
+    "conflicting": [],
+    "unrecognised": [
+     "6529",
+     "6530",
+     "6534"
+    ],
+    "hits": [
+     {
+      "code": "4829",
+      "polarity": "exclude",
+      "page": 3,
+      "line": "Quasi Cash/Financial 4829 Payment of funds for money transfers",
+      "reason": "2.2 BOC Bonus Points are not awarded on the following Excluded Transactions:",
+      "in_reference": true
+     },
+     {
+      "code": "4900",
+      "polarity": "exclude",
+      "page": 3,
+      "line": "limited to 4900 Utilities \u2013 electric, gas, water and",
+      "reason": "2.2 BOC Bonus Points are not awarded on the following Excluded Transactions:",
+      "in_reference": true
+     },
+     {
+      "code": "5199",
+      "polarity": "exclude",
+      "page": 3,
+      "line": "5199 Non-durable goods (not elsewhere",
+      "reason": "2.2 BOC Bonus Points are not awarded on the following Excluded Transactions:",
+      "in_reference": true
+     },
+     {
+      "code": "5960",
+      "polarity": "exclude",
+      "page": 3,
+      "line": "5960 Direct Marketing \u2013 Insurance",
+      "reason": "2.2 BOC Bonus Points are not awarded on the following Excluded Transactions:",
+      "in_reference": true
+     },
+     {
+      "code": "6010",
+      "polarity": "exclude",
+      "page": 3,
+      "line": "6010, 6011, Payments to financial institutions",
+      "reason": "2.2 BOC Bonus Points are not awarded on the following Excluded Transactions:",
+      "in_reference": true
+     },
+     {
+      "code": "6011",
+      "polarity": "exclude",
+      "page": 3,
+      "line": "6010, 6011, Payments to financial institutions",
+      "reason": "2.2 BOC Bonus Points are not awarded on the following Excluded Transactions:",
+      "in_reference": true
+     },
+     {
+      "code": "6012",
+      "polarity": "exclude",
+      "page": 3,
+      "line": "6012, 6050, (including banks and brokerages) for",
+      "reason": "2.2 BOC Bonus Points are not awarded on the following Excluded Transactions:",
+      "in_reference": true
+     },
+     {
+      "code": "6050",
+      "polarity": "exclude",
+      "page": 3,
+      "line": "6012, 6050, (including banks and brokerages) for",
+      "reason": "2.2 BOC Bonus Points are not awarded on the following Excluded Transactions:",
+      "in_reference": true
+     },
+     {
+      "code": "6051",
+      "polarity": "exclude",
+      "page": 3,
+      "line": "6051, 6211 financial services",
+      "reason": "2.2 BOC Bonus Points are not awarded on the following Excluded Transactions:",
+      "in_reference": true
+     },
+     {
+      "code": "6211",
+      "polarity": "exclude",
+      "page": 3,
+      "line": "6051, 6211 financial services",
+      "reason": "2.2 BOC Bonus Points are not awarded on the following Excluded Transactions:",
+      "in_reference": true
+     },
+     {
+      "code": "6300",
+      "polarity": "exclude",
+      "page": 3,
+      "line": "6300, 6381, Insurance Payments",
+      "reason": "2.2 BOC Bonus Points are not awarded on the following Excluded Transactions:",
+      "in_reference": true
+     },
+     {
+      "code": "6381",
+      "polarity": "exclude",
+      "page": 3,
+      "line": "6300, 6381, Insurance Payments",
+      "reason": "2.2 BOC Bonus Points are not awarded on the following Excluded Transactions:",
+      "in_reference": true
+     },
+     {
+      "code": "6399",
+      "polarity": "exclude",
+      "page": 3,
+      "line": "6399",
+      "reason": "2.2 BOC Bonus Points are not awarded on the following Excluded Transactions:",
+      "in_reference": true
+     },
+     {
+      "code": "6513",
+      "polarity": "exclude",
+      "page": 3,
+      "line": "6513 Real Estate agents and managers",
+      "reason": "2.2 BOC Bonus Points are not awarded on the following Excluded Transactions:",
+      "in_reference": true
+     },
+     {
+      "code": "6529",
+      "polarity": "exclude",
+      "page": 3,
+      "line": "6529, 6530, Payments of funds to prepaid",
+      "reason": "2.2 BOC Bonus Points are not awarded on the following Excluded Transactions:",
+      "in_reference": false
+     },
+     {
+      "code": "6530",
+      "polarity": "exclude",
+      "page": 3,
+      "line": "6529, 6530, Payments of funds to prepaid",
+      "reason": "2.2 BOC Bonus Points are not awarded on the following Excluded Transactions:",
+      "in_reference": false
+     },
+     {
+      "code": "6534",
+      "polarity": "exclude",
+      "page": 3,
+      "line": "6534, 6540 accounts and/or merchants who are",
+      "reason": "2.2 BOC Bonus Points are not awarded on the following Excluded Transactions:",
+      "in_reference": false
+     },
+     {
+      "code": "6540",
+      "polarity": "exclude",
+      "page": 3,
+      "line": "6534, 6540 accounts and/or merchants who are",
+      "reason": "2.2 BOC Bonus Points are not awarded on the following Excluded Transactions:",
+      "in_reference": true
+     },
+     {
+      "code": "7511",
+      "polarity": "exclude",
+      "page": 3,
+      "line": "7511 Quasi Cash \u2013 Truck Stop",
+      "reason": "2.2 BOC Bonus Points are not awarded on the following Excluded Transactions:",
+      "in_reference": true
+     },
+     {
+      "code": "7995",
+      "polarity": "exclude",
+      "page": 3,
+      "line": "7995 Betting, including lottery tickets,",
+      "reason": "2.2 BOC Bonus Points are not awarded on the following Excluded Transactions:",
+      "in_reference": true
+     },
+     {
+      "code": "7349",
+      "polarity": "exclude",
+      "page": 3,
+      "line": "Business Services such as but 7349 Cleaning, Maintenance and Janitorial",
+      "reason": "2.2 BOC Bonus Points are not awarded on the following Excluded Transactions:",
+      "in_reference": true
+     },
+     {
+      "code": "7523",
+      "polarity": "exclude",
+      "page": 3,
+      "line": "7523 Parking lots and garages",
+      "reason": "2.2 BOC Bonus Points are not awarded on the following Excluded Transactions:",
+      "in_reference": true
+     },
+     {
+      "code": "8211",
+      "polarity": "exclude",
+      "page": 3,
+      "line": "Education Institutions, such as 8211, 8220, Schools and Educational Services",
+      "reason": "2.2 BOC Bonus Points are not awarded on the following Excluded Transactions:",
+      "in_reference": true
+     },
+     {
+      "code": "8220",
+      "polarity": "exclude",
+      "page": 3,
+      "line": "Education Institutions, such as 8211, 8220, Schools and Educational Services",
+      "reason": "2.2 BOC Bonus Points are not awarded on the following Excluded Transactions:",
+      "in_reference": true
+     },
+     {
+      "code": "8241",
+      "polarity": "exclude",
+      "page": 3,
+      "line": "but not limited to 8241, 8244,",
+      "reason": "2.2 BOC Bonus Points are not awarded on the following Excluded Transactions:",
+      "in_reference": true
+     },
+     {
+      "code": "8244",
+      "polarity": "exclude",
+      "page": 3,
+      "line": "but not limited to 8241, 8244,",
+      "reason": "2.2 BOC Bonus Points are not awarded on the following Excluded Transactions:",
+      "in_reference": true
+     },
+     {
+      "code": "8249",
+      "polarity": "exclude",
+      "page": 3,
+      "line": "8249, 8299",
+      "reason": "2.2 BOC Bonus Points are not awarded on the following Excluded Transactions:",
+      "in_reference": true
+     },
+     {
+      "code": "8299",
+      "polarity": "exclude",
+      "page": 3,
+      "line": "8249, 8299",
+      "reason": "2.2 BOC Bonus Points are not awarded on the following Excluded Transactions:",
+      "in_reference": true
+     },
+     {
+      "code": "8062",
+      "polarity": "exclude",
+      "page": 3,
+      "line": "Professional Services and 8062 Hospitals",
+      "reason": "2.2 BOC Bonus Points are not awarded on the following Excluded Transactions:",
+      "in_reference": true
+     },
+     {
+      "code": "8398",
+      "polarity": "exclude",
+      "page": 3,
+      "line": "Membership Organisations, 8398 Charitable and Social Service",
+      "reason": "2.2 BOC Bonus Points are not awarded on the following Excluded Transactions:",
+      "in_reference": true
+     },
+     {
+      "code": "8651",
+      "polarity": "exclude",
+      "page": 3,
+      "line": "8651, 8661, Political Organisations, Religious",
+      "reason": "2.2 BOC Bonus Points are not awarded on the following Excluded Transactions:",
+      "in_reference": true
+     },
+     {
+      "code": "8661",
+      "polarity": "exclude",
+      "page": 3,
+      "line": "8651, 8661, Political Organisations, Religious",
+      "reason": "2.2 BOC Bonus Points are not awarded on the following Excluded Transactions:",
+      "in_reference": true
+     },
+     {
+      "code": "8699",
+      "polarity": "exclude",
+      "page": 3,
+      "line": "8699, 8999 Organisations and Membership",
+      "reason": "2.2 BOC Bonus Points are not awarded on the following Excluded Transactions:",
+      "in_reference": true
+     },
+     {
+      "code": "8999",
+      "polarity": "exclude",
+      "page": 3,
+      "line": "8699, 8999 Organisations and Membership",
+      "reason": "2.2 BOC Bonus Points are not awarded on the following Excluded Transactions:",
+      "in_reference": true
+     },
+     {
+      "code": "9211",
+      "polarity": "exclude",
+      "page": 4,
+      "line": "Government Services, such as 9211 Court Costs including Alimony and",
+      "reason": "2.2 BOC Bonus Points are not awarded on the following Excluded Transactions:",
+      "in_reference": true
+     },
+     {
+      "code": "9222",
+      "polarity": "exclude",
+      "page": 4,
+      "line": "9222 Fines",
+      "reason": "2.2 BOC Bonus Points are not awarded on the following Excluded Transactions:",
+      "in_reference": true
+     },
+     {
+      "code": "9223",
+      "polarity": "exclude",
+      "page": 4,
+      "line": "9223 Bail and Bond Payments",
+      "reason": "2.2 BOC Bonus Points are not awarded on the following Excluded Transactions:",
+      "in_reference": true
+     },
+     {
+      "code": "9311",
+      "polarity": "exclude",
+      "page": 4,
+      "line": "9311 Tax Payment",
+      "reason": "2.2 BOC Bonus Points are not awarded on the following Excluded Transactions:",
+      "in_reference": true
+     },
+     {
+      "code": "9399",
+      "polarity": "exclude",
+      "page": 4,
+      "line": "9399 Government Services \u2013 not elsewhere",
+      "reason": "2.2 BOC Bonus Points are not awarded on the following Excluded Transactions:",
+      "in_reference": true
+     },
+     {
+      "code": "9402",
+      "polarity": "exclude",
+      "page": 4,
+      "line": "9402 Postal Services \u2013 Government Only",
+      "reason": "2.2 BOC Bonus Points are not awarded on the following Excluded Transactions:",
+      "in_reference": true
+     },
+     {
+      "code": "9405",
+      "polarity": "exclude",
+      "page": 4,
+      "line": "9405 Intra-Government Purchases-",
+      "reason": "2.2 BOC Bonus Points are not awarded on the following Excluded Transactions:",
+      "in_reference": true
+     },
+     {
+      "code": "5965",
+      "polarity": "exclude",
+      "page": 4,
+      "line": "Payment to other 5965 Direct Marketing \u2013 Combination",
+      "reason": "2.2 BOC Bonus Points are not awarded on the following Excluded Transactions:",
+      "in_reference": true
+     },
+     {
+      "code": "5993",
+      "polarity": "exclude",
+      "page": 4,
+      "line": "5993 Cigar Stores and Stands",
+      "reason": "2.2 BOC Bonus Points are not awarded on the following Excluded Transactions:",
+      "in_reference": true
+     }
+    ]
+   },
+   "transaction_modes": {
+    "online": [
+     "1.6 \u201cEligible Transactions\u201d means all Card transactions eligible for the computation and award of BOC Bonus Points, and include retail purchases and online transactions charged to the Card Account but exclude the Excluded Transactions.",
+     "1.8 \u201cLocal Spend\u201d refers to all Card transactions charged in Singapore, including card transactions made overseas but effected/charged in Singapore dollars, all online transactions effected in Singapore dollars and all online transactions effected in foreign currencies at merchants with payment gateways in Singapore.",
+     "Page 1 of 9 v202505 1.9 \u201cOverseas Spend\u201d refers to all Card transactions charged overseas, including card transactions made overseas and effected/charged in foreign currencies, and online transactions effected in foreign currencies at merchants with payment gateways outside of Singapore."
+    ],
+    "mobile_wallet": [
+     "(b) The following transactions: Page 2 of 9 v202505 Category Merchant Description Category Code (\u201cMCC\u201d) Quasi Cash/Financial 4829 Payment of funds for money transfers Services, such as but not and remittance services limited to 4900 Utilities \u2013 electric, gas, water and sanitary 5199 Non-durable goods (not elsewhere classified) 5960 Direct Marketing \u2013 Insurance Services, Insurance Sales, Underwriti"
+    ],
+    "foreign_currency": [
+     "1.8 \u201cLocal Spend\u201d refers to all Card transactions charged in Singapore, including card transactions made overseas but effected/charged in Singapore dollars, all online transactions effected in Singapore dollars and all online transactions effected in foreign currencies at merchants with payment gateways in Singapore.",
+     "Page 1 of 9 v202505 1.9 \u201cOverseas Spend\u201d refers to all Card transactions charged overseas, including card transactions made overseas and effected/charged in foreign currencies, and online transactions effected in foreign currencies at merchants with payment gateways outside of Singapore.",
+     "2.1 A Cardmember will be awarded BOC Bonus Points for all Eligible Transactions made by the Cardmember or the Supplementary Cardmember with the Card at the following rates: Category BOC Bonus Points Equivalent Air Miles Every S$1 Local Spend 7 BOC Bonus Points 1.4 miles Every S$1 Overseas Spend 14 BOC Bonus Points 2.8 miles BOC Bonus Points may be used to redeem Air Miles, BOC Rewards Vouchers or "
+    ],
+    "local_currency": [
+     "1.8 \u201cLocal Spend\u201d refers to all Card transactions charged in Singapore, including card transactions made overseas but effected/charged in Singapore dollars, all online transactions effected in Singapore dollars and all online transactions effected in foreign currencies at merchants with payment gateways in Singapore."
+    ]
+   },
+   "non_mcc_exclusions": [
+    "annual fee",
+    "axs",
+    "cardup",
+    "cash advance",
+    "charit",
+    "education",
+    "government",
+    "hospital",
+    "interest",
+    "ipaymy",
+    "ipp",
+    "late payment charge",
+    "renthero",
+    "revolut",
+    "tax",
+    "top-up",
+    "utilit",
+    "youtrip"
+   ]
+  }
+ ],
+ "changed": false,
+ "removed_documents": []
+}

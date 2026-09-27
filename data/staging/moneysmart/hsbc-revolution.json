@@ -1,0 +1,141 @@
+{
+ "source": "moneysmart",
+ "source_id": "hsbc-revolution-credit-card",
+ "source_url": "https://www.moneysmart.sg/credit-cards/hsbc-revolution-credit-card",
+ "name": "HSBC Revolution Credit Card",
+ "bank": "HSBC",
+ "card_id": "hsbc-revolution",
+ "image_url": "https://photos.cdn-moneysmart.com/credit_cards/uploads/products/images/image_url_2026-04-07_HSBC Revo 2026 cardface Small.jpeg",
+ "annual_fee": 0.0,
+ "min_annual_income": 30000.0,
+ "earn_rates": {},
+ "caps": {},
+ "highlights": [
+  "S$1 = 20X Points (8 miles) on Contactless & Online Spending for cardholders who maintain at least S$50,000 average daily balance in your HSBC EGA SGD Account",
+  "S$1 = 10X Points (4 miles) on Contactless & Online Spending for all other cardholders",
+  "S$1 = 1X Point on All Other Spend",
+  "Double your rewards when you pair your HSBC Revolution Credit Card with the HSBC Everyday Global Account.",
+  "Earn up to 20x Reward points per dollar on your contactless and online spending - including dining, shopping, travel, ride-hailing, taxis and memberships, locally and abroad.",
+  "- Earn 10 Reward points for every SGD1 on eligible contactless payments and online transactions",
+  "- Earn 20 Reward points for every SGD1 on your eligible contactless and online spending in that calendar month, if you maintain an average daily balance of at least SGD50,000 in your sole HSBC Everyday Global Account (Singapore dollars SGD account)",
+  "That's equivalent to up to 8 miles for every dollar you spend.",
+  "1X Reward point for all other types of spending.",
+  "No min. spend required.",
+  "No annual fee",
+  "Unlock a higher monthly cap of 22,800 Bonus Points. Other terms and conditions apply.",
+  "Redeem from the widest selection of over 20,000 rewards, from flights and hotel stays to the latest gadgets, gift cards and more. Enjoy free, instant conversion of airline miles and hotels points at 20 transfer partners via HSBC Singapore app.",
+  "A new income criteria for HSBC Credit Card and Loan will take effect from 1 October 2025. \n*Learn More"
+ ],
+ "sign_up_offers": [
+  {
+   "kind": "MANUAL_GIFT",
+   "title": "S$400 Cash via PayNow",
+   "subtitle": null,
+   "is_cash": true,
+   "terms": "• Apply for a HSBC credit card by 30th Sept 2026\n• Spend a \nmin. of S$500 from Card Account Opening Date to end of the following calendar month.\n• Submit the Claim Form by 30th Oct 2026",
+   "campaign": "Credit Card | HSBC Revo, TravelOne | 250926"
+  },
+  {
+   "kind": "STORE_PRODUCT",
+   "title": "Shopee Voucher $450",
+   "subtitle": "worth S$450",
+   "is_cash": false,
+   "terms": "• Apply for a HSBC credit card by 30th Sept 2026\n• Spend a \nmin. of S$500 from Card Account Opening Date to end of the following calendar month.\n• Submit the Claim Form by 30th Oct 2026",
+   "campaign": "Credit Card | HSBC Revo, TravelOne | 250926"
+  },
+  {
+   "kind": "STORE_PRODUCT",
+   "title": "Apple iPhone 18 Pro (256GB, Burgundy)",
+   "subtitle": "worth S$1899",
+   "is_cash": false,
+   "terms": "• Apply for a HSBC credit card by 30th Sept 2026\n• Spend a \nmin. of S$500 from Card Account Opening Date to end of the following calendar month.\n• Submit the Claim Form by 30th Oct 2026",
+   "campaign": "Credit Card | HSBC Revo, TravelOne | 250926"
+  },
+  {
+   "kind": "STORE_PRODUCT",
+   "title": "Apple AirPods Pro 3",
+   "subtitle": "worth S$349",
+   "is_cash": false,
+   "terms": "• Apply for a HSBC credit card by 30th Sept 2026\n• Spend a \nmin. of S$500 from Card Account Opening Date to end of the following calendar month.\n• Submit the Claim Form by 30th Oct 2026",
+   "campaign": "Credit Card | HSBC Revo, TravelOne | 250926"
+  },
+  {
+   "kind": "STORE_PRODUCT",
+   "title": "Apple Watch Series 12, 42mm (GPS, Black Aluminium Case with Black Sport Band)",
+   "subtitle": "worth S$599",
+   "is_cash": false,
+   "terms": "• Apply for a HSBC credit card by 30th Sept 2026\n• Spend a \nmin. of S$500 from Card Account Opening Date to end of the following calendar month.\n• Submit the Claim Form by 30th Oct 2026",
+   "campaign": "Credit Card | HSBC Revo, TravelOne | 250926"
+  },
+  {
+   "kind": "STORE_PRODUCT",
+   "title": "Sony WH-1000XM6 Wireless Noise Cancelling Headphones (Black)",
+   "subtitle": "worth S$649",
+   "is_cash": false,
+   "terms": "• Apply for a HSBC credit card by 30th Sept 2026\n• Spend a \nmin. of S$500 from Card Account Opening Date to end of the following calendar month.\n• Submit the Claim Form by 30th Oct 2026",
+   "campaign": "Credit Card | HSBC Revo, TravelOne | 250926"
+  }
+ ],
+ "links": {
+  "product": "https://www.moneysmart.sg/credit-cards/hsbc-revolution-credit-card",
+  "review": "https://blog.moneysmart.sg/credit-cards/hsbc-revolution-card-review/"
+ },
+ "citation": {
+  "id": "moneysmart:eeee24fb93a9",
+  "url": "https://www.moneysmart.sg/credit-cards",
+  "title": "HSBC Revolution Credit Card",
+  "source_type": "aggregator",
+  "retrieved_at": "2026-09-27T05:27:12+00:00",
+  "sha256": "eeee24fb93a9d85ef8b9194c11bda960b5b99ee30b3689cdc59fb650badebce7",
+  "snapshot": "data/raw/moneysmart/credit-cards-p1-b55034ef.html"
+ },
+ "extra": {
+  "summary": "The HSBC Revolution card is excellent for online and contactless shoppers seeking fuss-free rewards. Earn up to 20x Reward points (equivalent to up to 8 miles) per dollar on your contactless and online spending when you pair your HSBC Revolution Credit Card with the HSBC Everyday Global Account. This makes it ideal for individuals who prefers higher rewards on key spending. Unlock higher monthly cap of 22,800 Bonus Points when you maintain the required ADB in your EGA SGD Account. While there's no annual fee, remember that points expire after 37 months, so redeem regularly.",
+  "badges": [
+   "Earn up to 8 miles per S$1  | Instant Activation*"
+  ],
+  "network": [
+   "Visa"
+  ],
+  "mobile_wallets": [
+   "Visa Contactless",
+   "Google Pay",
+   "Apple Pay"
+  ],
+  "groups": {
+   "annual-interest-rate-and-fees": {
+    "Annual Interest Rate": "27.80",
+    "Annual Principal Fee": "0",
+    "Supplementary Annual Fee": "0",
+    "Minimum Monthly Repayment": "3% or S$50, whichever is greater",
+    "Interest Free Period": "20 days"
+   },
+   "minimum-income-requirements": {
+    "Singaporean/PR Minimum Annual Income": "(a) Singaporeans, Singapore Permanent Residents: SGD 65,000 OR \n (b) Singapore Citizens / Permanent Residents with HSBC total relationship balance (“TRB”)* of at least SGD50,000: SGD 30,000 for salaried employees \n SGD 40,000 for self-employed or commission-based (*Total Relationship Balance (TRB) refers to the total value of your deposits, investments, and insurance with HSBC Bank (Singapore) Limited, calculated based on the average monthly balance over the last 3 months.)",
+    "Non-Singaporean Minimum Annual Income": "S$65,000"
+   },
+   "card-association": {
+    "Visa": "true"
+   },
+   "wireless-payment": {
+    "Visa Contactless": "true",
+    "Google Pay": "true",
+    "Apple Pay": "true"
+   },
+   "documents-required": {
+    "SG Citizens or PRs": "Apply via MyInfo",
+    "Passport Validity (Foreigners)": "6 months",
+    "Work Permit Validity (Foreigners)": "6 months",
+    "Utility or Telephone Bill": "With Full Name & Address",
+    "Income Tax Notice of Assessment": "true",
+    "Latest Original Computerised Payslip": "true"
+   }
+  },
+  "our_takes": {
+   "our-take": "The HSBC Revolution card is excellent for online and contactless shoppers seeking fuss-free rewards. Earn up to 20x Reward points (equivalent to up to 8 miles) per dollar on your contactless and online spending when you pair your HSBC Revolution Credit Card with the HSBC Everyday Global Account. This makes it ideal for individuals who prefers higher rewards on key spending. Unlock higher monthly cap of 22,800 Bonus Points when you maintain the required ADB in your EGA SGD Account. While there's no annual fee, remember that points expire after 37 months, so redeem regularly.",
+   "good-for": "Individuals who frequently shop online for fashion, electronics, and entertainment while earning up to 20X rewards points.\nHomeowners who want to earn rewards on dining and shopping purchases without worrying about annual fees or minimum spending.\nIndividuals seeking a fuss-free credit card to maximize rewards points on online transactions and daily spending with no annual fee.",
+   "things-to-note": "Late payments incur a S$100 fee; always pay on time, or set up automatic payments to avoid the penalty.\n27.8% annual interest rate applies, so carrying a balance can be very costly, quickly increasing your debt.\nWhile there's no annual fee, rewards points expire after 37 months, meaning you need to redeem them regularly."
+  },
+  "updated_at": "2026-07-09T16:11:21+08:00"
+ }
+}

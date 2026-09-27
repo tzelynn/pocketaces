@@ -1,0 +1,830 @@
+{
+ "card_id": "lazada-uob",
+ "product_pages": [
+  {
+   "id": "bank:9dee0aa1bee3",
+   "url": "https://www.uob.com.sg/personal/cards/cashback/lazada-uob-card.page",
+   "source_type": "official",
+   "retrieved_at": "2026-09-27T08:37:40+00:00",
+   "sha256": "9dee0aa1bee3df9d65dc792d31946c1c41b22f3ad16e72f499f3e95de2dcaadb",
+   "snapshot": "data/raw/bank/www-uob-com-sg-personal-cards-cashback-lazada-uob-card-page-084fb14e.html"
+  }
+ ],
+ "documents": [
+  {
+   "url": "https://www.uob.com.sg/web-resources/personal/pdf/personal/cards/credit-cards/lazada-uob-card/lazada-uob-tnc.pdf",
+   "citation": {
+    "id": "bank:0a9012338318",
+    "url": "https://www.uob.com.sg/web-resources/personal/pdf/personal/cards/credit-cards/lazada-uob-card/lazada-uob-tnc.pdf",
+    "source_type": "official",
+    "retrieved_at": "2026-09-27T08:37:42+00:00",
+    "sha256": "0a9012338318a41efff0eeac2484ce820d46e219d4b578df2ec936f36eae4443",
+    "snapshot": "data/raw/bank/www-uob-com-sg-web-resources-personal-pdf-personal-cards-credit-cards-lazada-uob-card-lazada-uob-tnc-pdf-1d3530d7.pdf"
+   },
+   "text_path": "data/raw/bank/www-uob-com-sg-web-resources-personal-pdf-personal-cards-credit-cards-lazada-uob-card-lazada-uob-tnc-pdf-1d3530d7.txt",
+   "sha256": "0a9012338318a41efff0eeac2484ce820d46e219d4b578df2ec936f36eae4443",
+   "changed": false,
+   "new": false,
+   "no_text_layer": false,
+   "effective_dates": [],
+   "mcc": {
+    "include": [
+     "4121",
+     "4829",
+     "5199",
+     "5462",
+     "5811",
+     "5812",
+     "5813",
+     "5814",
+     "5960",
+     "5965",
+     "5993",
+     "6012",
+     "6050",
+     "6051",
+     "6211",
+     "6300",
+     "6513",
+     "6529",
+     "6530",
+     "6534",
+     "6540",
+     "7349",
+     "7511",
+     "7523",
+     "7829",
+     "7841",
+     "7911",
+     "7922",
+     "7929",
+     "7932",
+     "7933",
+     "7941",
+     "7991",
+     "7992",
+     "7993",
+     "7994",
+     "7995",
+     "7996",
+     "7998",
+     "7999",
+     "8062",
+     "8211",
+     "8220",
+     "8241",
+     "8244",
+     "8249",
+     "8299",
+     "8398",
+     "8651",
+     "8661",
+     "8699",
+     "8999",
+     "9211",
+     "9222",
+     "9223",
+     "9311",
+     "9399",
+     "9402",
+     "9405"
+    ],
+    "exclude": [
+     "5262",
+     "5310",
+     "5311",
+     "5331",
+     "5399",
+     "5411",
+     "5732",
+     "5999"
+    ],
+    "unknown": [],
+    "conflicting": [],
+    "unrecognised": [
+     "6529",
+     "6530",
+     "6534"
+    ],
+    "hits": [
+     {
+      "code": "5462",
+      "polarity": "include",
+      "page": 1,
+      "line": "5462 Bakeries",
+      "reason": "such merchants fall within the following Merchant Category Codes (the \u201cMCC\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "5811",
+      "polarity": "include",
+      "page": 1,
+      "line": "5811, 5812, 5813 and 5814 Caterers, Eating places and Restaurants, Bars,",
+      "reason": "such merchants fall within the following Merchant Category Codes (the \u201cMCC\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "5812",
+      "polarity": "include",
+      "page": 1,
+      "line": "5811, 5812, 5813 and 5814 Caterers, Eating places and Restaurants, Bars,",
+      "reason": "such merchants fall within the following Merchant Category Codes (the \u201cMCC\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "5813",
+      "polarity": "include",
+      "page": 1,
+      "line": "5811, 5812, 5813 and 5814 Caterers, Eating places and Restaurants, Bars,",
+      "reason": "such merchants fall within the following Merchant Category Codes (the \u201cMCC\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "5814",
+      "polarity": "include",
+      "page": 1,
+      "line": "5811, 5812, 5813 and 5814 Caterers, Eating places and Restaurants, Bars,",
+      "reason": "such merchants fall within the following Merchant Category Codes (the \u201cMCC\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "7829",
+      "polarity": "include",
+      "page": 1,
+      "line": "7829 & 7932 Motion Picture Theaters, Theatrical Producers and",
+      "reason": "provided that such merchant fall within the following MCC:",
+      "in_reference": true
+     },
+     {
+      "code": "7932",
+      "polarity": "include",
+      "page": 1,
+      "line": "7829 & 7932 Motion Picture Theaters, Theatrical Producers and",
+      "reason": "provided that such merchant fall within the following MCC:",
+      "in_reference": true
+     },
+     {
+      "code": "7841",
+      "polarity": "include",
+      "page": 1,
+      "line": "7841 Video Tape Rental Stores",
+      "reason": "provided that such merchant fall within the following MCC:",
+      "in_reference": true
+     },
+     {
+      "code": "7911",
+      "polarity": "include",
+      "page": 1,
+      "line": "7911 Dance Halls/Studios/ Schools",
+      "reason": "provided that such merchant fall within the following MCC:",
+      "in_reference": true
+     },
+     {
+      "code": "7922",
+      "polarity": "include",
+      "page": 2,
+      "line": "7922 Theatrical Producers",
+      "reason": "provided that such merchant fall within the following MCC:",
+      "in_reference": true
+     },
+     {
+      "code": "7929",
+      "polarity": "include",
+      "page": 2,
+      "line": "7929 Bands, Orchestra and Entertainment Establishments",
+      "reason": "provided that such merchant fall within the following MCC:",
+      "in_reference": true
+     },
+     {
+      "code": "7932",
+      "polarity": "include",
+      "page": 2,
+      "line": "7932 and 7933 Bowling Alleys, Billards and Pool Establishments",
+      "reason": "provided that such merchant fall within the following MCC:",
+      "in_reference": true
+     },
+     {
+      "code": "7933",
+      "polarity": "include",
+      "page": 2,
+      "line": "7932 and 7933 Bowling Alleys, Billards and Pool Establishments",
+      "reason": "provided that such merchant fall within the following MCC:",
+      "in_reference": true
+     },
+     {
+      "code": "7941",
+      "polarity": "include",
+      "page": 2,
+      "line": "7941 and 7992 Athletic Fields, Commercial Sports, Professional Sports",
+      "reason": "provided that such merchant fall within the following MCC:",
+      "in_reference": true
+     },
+     {
+      "code": "7992",
+      "polarity": "include",
+      "page": 2,
+      "line": "7941 and 7992 Athletic Fields, Commercial Sports, Professional Sports",
+      "reason": "provided that such merchant fall within the following MCC:",
+      "in_reference": true
+     },
+     {
+      "code": "7991",
+      "polarity": "include",
+      "page": 2,
+      "line": "7991, 7996, 7998 and 7999 Tourist Attractions and Exhibits, Amusement Parks,",
+      "reason": "provided that such merchant fall within the following MCC:",
+      "in_reference": true
+     },
+     {
+      "code": "7996",
+      "polarity": "include",
+      "page": 2,
+      "line": "7991, 7996, 7998 and 7999 Tourist Attractions and Exhibits, Amusement Parks,",
+      "reason": "provided that such merchant fall within the following MCC:",
+      "in_reference": true
+     },
+     {
+      "code": "7998",
+      "polarity": "include",
+      "page": 2,
+      "line": "7991, 7996, 7998 and 7999 Tourist Attractions and Exhibits, Amusement Parks,",
+      "reason": "provided that such merchant fall within the following MCC:",
+      "in_reference": true
+     },
+     {
+      "code": "7999",
+      "polarity": "include",
+      "page": 2,
+      "line": "7991, 7996, 7998 and 7999 Tourist Attractions and Exhibits, Amusement Parks,",
+      "reason": "provided that such merchant fall within the following MCC:",
+      "in_reference": true
+     },
+     {
+      "code": "7993",
+      "polarity": "include",
+      "page": 2,
+      "line": "7993 and 7994 Video Game Arcades and Establishments and Video",
+      "reason": "provided that such merchant fall within the following MCC:",
+      "in_reference": true
+     },
+     {
+      "code": "7994",
+      "polarity": "include",
+      "page": 2,
+      "line": "7993 and 7994 Video Game Arcades and Establishments and Video",
+      "reason": "provided that such merchant fall within the following MCC:",
+      "in_reference": true
+     },
+     {
+      "code": "4121",
+      "polarity": "include",
+      "page": 2,
+      "line": "o Ride-hailing services provided that such merchant fall within MCC 4121",
+      "reason": "provided that such merchant fall within the following MCC:",
+      "in_reference": true
+     },
+     {
+      "code": "5262",
+      "polarity": "exclude",
+      "page": 2,
+      "line": "LAZADA*,AMAZE*LAZADA*,2C2P*LAZADA\u201d and MCC 5262, 5311, 5310, 5331, 5399, 5732,",
+      "reason": "(c) \u201cExclusions\u201d refers to the transactions described in Clause 5 below successfully charged to the Card",
+      "in_reference": true
+     },
+     {
+      "code": "5311",
+      "polarity": "exclude",
+      "page": 2,
+      "line": "LAZADA*,AMAZE*LAZADA*,2C2P*LAZADA\u201d and MCC 5262, 5311, 5310, 5331, 5399, 5732,",
+      "reason": "(c) \u201cExclusions\u201d refers to the transactions described in Clause 5 below successfully charged to the Card",
+      "in_reference": true
+     },
+     {
+      "code": "5310",
+      "polarity": "exclude",
+      "page": 2,
+      "line": "LAZADA*,AMAZE*LAZADA*,2C2P*LAZADA\u201d and MCC 5262, 5311, 5310, 5331, 5399, 5732,",
+      "reason": "(c) \u201cExclusions\u201d refers to the transactions described in Clause 5 below successfully charged to the Card",
+      "in_reference": true
+     },
+     {
+      "code": "5331",
+      "polarity": "exclude",
+      "page": 2,
+      "line": "LAZADA*,AMAZE*LAZADA*,2C2P*LAZADA\u201d and MCC 5262, 5311, 5310, 5331, 5399, 5732,",
+      "reason": "(c) \u201cExclusions\u201d refers to the transactions described in Clause 5 below successfully charged to the Card",
+      "in_reference": true
+     },
+     {
+      "code": "5399",
+      "polarity": "exclude",
+      "page": 2,
+      "line": "LAZADA*,AMAZE*LAZADA*,2C2P*LAZADA\u201d and MCC 5262, 5311, 5310, 5331, 5399, 5732,",
+      "reason": "(c) \u201cExclusions\u201d refers to the transactions described in Clause 5 below successfully charged to the Card",
+      "in_reference": true
+     },
+     {
+      "code": "5732",
+      "polarity": "exclude",
+      "page": 2,
+      "line": "LAZADA*,AMAZE*LAZADA*,2C2P*LAZADA\u201d and MCC 5262, 5311, 5310, 5331, 5399, 5732,",
+      "reason": "(c) \u201cExclusions\u201d refers to the transactions described in Clause 5 below successfully charged to the Card",
+      "in_reference": true
+     },
+     {
+      "code": "5999",
+      "polarity": "exclude",
+      "page": 2,
+      "line": "5999, but shall exclude RedMart and any Lazada Wallet top-up transactions.",
+      "reason": "(c) \u201cExclusions\u201d refers to the transactions described in Clause 5 below successfully charged to the Card",
+      "in_reference": true
+     },
+     {
+      "code": "5411",
+      "polarity": "exclude",
+      "page": 2,
+      "line": "with \u201cLAZADA*, REDMART*AMAZE* LAZADA*,AMAZE* REDMART*\u201d and MCC 5411, but shall",
+      "reason": "(c) \u201cExclusions\u201d refers to the transactions described in Clause 5 below successfully charged to the Card",
+      "in_reference": true
+     },
+     {
+      "code": "4829",
+      "polarity": "include",
+      "page": 5,
+      "line": "4829 Wire Transfer/Remittance",
+      "reason": "(h) any payment made with the following MCC;",
+      "in_reference": true
+     },
+     {
+      "code": "5199",
+      "polarity": "include",
+      "page": 5,
+      "line": "5199 Nondurable Goods",
+      "reason": "(h) any payment made with the following MCC;",
+      "in_reference": true
+     },
+     {
+      "code": "5960",
+      "polarity": "include",
+      "page": 5,
+      "line": "5960 Direct Marketing - Insurance Services",
+      "reason": "(h) any payment made with the following MCC;",
+      "in_reference": true
+     },
+     {
+      "code": "5965",
+      "polarity": "include",
+      "page": 5,
+      "line": "5965 Direct marketing \u2013 Combination Catalog and Retail Merchants (wef 1 October",
+      "reason": "(h) any payment made with the following MCC;",
+      "in_reference": true
+     },
+     {
+      "code": "5993",
+      "polarity": "include",
+      "page": 5,
+      "line": "5993 Cigar Stores and Stands (wef 1 October 2024)",
+      "reason": "(h) any payment made with the following MCC;",
+      "in_reference": true
+     },
+     {
+      "code": "6012",
+      "polarity": "include",
+      "page": 5,
+      "line": "6012 Member Financial Institution\u2013Merchandise and Services",
+      "reason": "(h) any payment made with the following MCC;",
+      "in_reference": true
+     },
+     {
+      "code": "6050",
+      "polarity": "include",
+      "page": 5,
+      "line": "6050 Quasi Cash\u2013Financial Institutions, Merchandise and Services",
+      "reason": "(h) any payment made with the following MCC;",
+      "in_reference": true
+     },
+     {
+      "code": "6051",
+      "polarity": "include",
+      "page": 5,
+      "line": "6051 Quasi Cash\u2013Merchant (Non-Financial Institutions \u2013 Foreign Currency, NonFiat",
+      "reason": "(h) any payment made with the following MCC;",
+      "in_reference": true
+     },
+     {
+      "code": "6211",
+      "polarity": "include",
+      "page": 5,
+      "line": "6211 Securities\u2013Brokers and Dealers",
+      "reason": "(h) any payment made with the following MCC;",
+      "in_reference": true
+     },
+     {
+      "code": "6300",
+      "polarity": "include",
+      "page": 5,
+      "line": "6300 Insurance Sales/Underwrite",
+      "reason": "(h) any payment made with the following MCC;",
+      "in_reference": true
+     },
+     {
+      "code": "6513",
+      "polarity": "include",
+      "page": 5,
+      "line": "6513 Real Estate Agents & Managers \u2013 Rentals",
+      "reason": "(h) any payment made with the following MCC;",
+      "in_reference": true
+     },
+     {
+      "code": "6529",
+      "polarity": "include",
+      "page": 5,
+      "line": "6529 Quasi Cash-Remote Stored Value Load-Financial Institute Rentals",
+      "reason": "(h) any payment made with the following MCC;",
+      "in_reference": false
+     },
+     {
+      "code": "6530",
+      "polarity": "include",
+      "page": 5,
+      "line": "6530 Quasi Cash-Remote Stored Value Load-Merchant Rentals",
+      "reason": "(h) any payment made with the following MCC;",
+      "in_reference": false
+     },
+     {
+      "code": "6534",
+      "polarity": "include",
+      "page": 5,
+      "line": "6534 Quasi Cash-Remote Money Transfers",
+      "reason": "(h) any payment made with the following MCC;",
+      "in_reference": false
+     },
+     {
+      "code": "6540",
+      "polarity": "include",
+      "page": 5,
+      "line": "6540 Stored Value Card Purchase/Load",
+      "reason": "(h) any payment made with the following MCC;",
+      "in_reference": true
+     },
+     {
+      "code": "7349",
+      "polarity": "include",
+      "page": 5,
+      "line": "7349 Clean/Maint/Janitorial Serv aka Property Management",
+      "reason": "(h) any payment made with the following MCC;",
+      "in_reference": true
+     },
+     {
+      "code": "7511",
+      "polarity": "include",
+      "page": 6,
+      "line": "7511 Quasi Cash \u2013 Truck Stop Trxns",
+      "reason": "(h) any payment made with the following MCC;",
+      "in_reference": true
+     },
+     {
+      "code": "7523",
+      "polarity": "include",
+      "page": 6,
+      "line": "7523 Automobile Parking Lots and Garages",
+      "reason": "(h) any payment made with the following MCC;",
+      "in_reference": true
+     },
+     {
+      "code": "7995",
+      "polarity": "include",
+      "page": 6,
+      "line": "7995 Gambling - Betting, including Lottery Tickets, Casino Gaming Chips, Off-Track",
+      "reason": "(h) any payment made with the following MCC;",
+      "in_reference": true
+     },
+     {
+      "code": "8062",
+      "polarity": "include",
+      "page": 6,
+      "line": "8062 Hospitals",
+      "reason": "(h) any payment made with the following MCC;",
+      "in_reference": true
+     },
+     {
+      "code": "8211",
+      "polarity": "include",
+      "page": 6,
+      "line": "8211 Schools, Elementary and Secondary",
+      "reason": "(h) any payment made with the following MCC;",
+      "in_reference": true
+     },
+     {
+      "code": "8220",
+      "polarity": "include",
+      "page": 6,
+      "line": "8220 Colleges, Universities, Professional Schools and Junior Colleges",
+      "reason": "(h) any payment made with the following MCC;",
+      "in_reference": true
+     },
+     {
+      "code": "8241",
+      "polarity": "include",
+      "page": 6,
+      "line": "8241 Schools, Correspondence",
+      "reason": "(h) any payment made with the following MCC;",
+      "in_reference": true
+     },
+     {
+      "code": "8244",
+      "polarity": "include",
+      "page": 6,
+      "line": "8244 Schools, Business and Secretarial",
+      "reason": "(h) any payment made with the following MCC;",
+      "in_reference": true
+     },
+     {
+      "code": "8249",
+      "polarity": "include",
+      "page": 6,
+      "line": "8249 Schools, Trade and Vocational",
+      "reason": "(h) any payment made with the following MCC;",
+      "in_reference": true
+     },
+     {
+      "code": "8299",
+      "polarity": "include",
+      "page": 6,
+      "line": "8299 Schools and Educational Services\u2013Not Elsewhere Classified",
+      "reason": "(h) any payment made with the following MCC;",
+      "in_reference": true
+     },
+     {
+      "code": "8398",
+      "polarity": "include",
+      "page": 6,
+      "line": "8398 Organizations, Charitable and Social Service",
+      "reason": "(h) any payment made with the following MCC;",
+      "in_reference": true
+     },
+     {
+      "code": "8661",
+      "polarity": "include",
+      "page": 6,
+      "line": "8661 Organizations, Religious",
+      "reason": "(h) any payment made with the following MCC;",
+      "in_reference": true
+     },
+     {
+      "code": "8651",
+      "polarity": "include",
+      "page": 6,
+      "line": "8651 Organisations, Political",
+      "reason": "(h) any payment made with the following MCC;",
+      "in_reference": true
+     },
+     {
+      "code": "8699",
+      "polarity": "include",
+      "page": 6,
+      "line": "8699 Membership Organizations (Not Elsewhere Classified) (wef 1 October 2024)",
+      "reason": "(h) any payment made with the following MCC;",
+      "in_reference": true
+     },
+     {
+      "code": "8999",
+      "polarity": "include",
+      "page": 6,
+      "line": "8999 Professional Services (Not Elsewhere Classified) (wef 1 October 2024)",
+      "reason": "(h) any payment made with the following MCC;",
+      "in_reference": true
+     },
+     {
+      "code": "9211",
+      "polarity": "include",
+      "page": 6,
+      "line": "9211 Court Costs including Alimony and Child Support",
+      "reason": "(h) any payment made with the following MCC;",
+      "in_reference": true
+     },
+     {
+      "code": "9222",
+      "polarity": "include",
+      "page": 6,
+      "line": "9222 Fines",
+      "reason": "(h) any payment made with the following MCC;",
+      "in_reference": true
+     },
+     {
+      "code": "9223",
+      "polarity": "include",
+      "page": 6,
+      "line": "9223 Bail and Bond Payments",
+      "reason": "(h) any payment made with the following MCC;",
+      "in_reference": true
+     },
+     {
+      "code": "9311",
+      "polarity": "include",
+      "page": 6,
+      "line": "9311 Tax Payment",
+      "reason": "(h) any payment made with the following MCC;",
+      "in_reference": true
+     },
+     {
+      "code": "9402",
+      "polarity": "include",
+      "page": 6,
+      "line": "9402 Postal Services\u2014Government Only",
+      "reason": "(h) any payment made with the following MCC;",
+      "in_reference": true
+     },
+     {
+      "code": "9405",
+      "polarity": "include",
+      "page": 6,
+      "line": "9405 Intra-Government Purchases\u2014Government Only",
+      "reason": "(h) any payment made with the following MCC;",
+      "in_reference": true
+     },
+     {
+      "code": "9399",
+      "polarity": "include",
+      "page": 6,
+      "line": "9399 Government Services\u2014not elsewhere classified",
+      "reason": "(h) any payment made with the following MCC;",
+      "in_reference": true
+     }
+    ]
+   },
+   "transaction_modes": {
+    "online": [
+     "(e) \u201cLazada Account\u201d means an online user account on Lazada\u2019s website or mobile application (collectively, \u201cLazada Website\u201d) from which users may purchase goods and/or services."
+    ],
+    "mobile_wallet": [
+     "(f) any Grab mobile wallet top-up transactions;"
+    ],
+    "foreign_currency": [
+     "(b) \u201cDining, Entertainment & Transport Spend\u201d refers to the following: \u2022 \u201cDining Spend\u201d refers to Card Transactions made at dining establishments, provided that such merchants fall within the following Merchant Category Codes (the \u201cMCC\u201d): MCC Description 5462 Bakeries 5811, 5812, 5813 and 5814 Caterers, Eating places and Restaurants, Bars, Taverns, Lounges and Nightclubs and Fast Food restaurants ",
+     "## RESTRICTED ## United Overseas Bank Limited Co.",
+     "(n) \u201cUOB\u201d refers to United Overseas Bank Limited.",
+     "and ## RESTRICTED ## United Overseas Bank Limited Co.",
+     "## RESTRICTED ## United Overseas Bank Limited Co.",
+     "MCC Description 4829 Wire Transfer/Remittance 5199 Nondurable Goods 5960 Direct Marketing - Insurance Services 5965 Direct marketing \u2013 Combination Catalog and Retail Merchants (wef 1 October 2024) 5993 Cigar Stores and Stands (wef 1 October 2024) 6012 Member Financial Institution\u2013Merchandise and Services 6050 Quasi Cash\u2013Financial Institutions, Merchandise and Services 6051 Quasi Cash\u2013Merchant (Non",
+     "General ## RESTRICTED ## United Overseas Bank Limited Co.",
+     "## RESTRICTED ## United Overseas Bank Limited Co.",
+     "Updated as at 1 September 2026 (Version 1.5) ## RESTRICTED ## United Overseas Bank Limited Co."
+    ]
+   },
+   "non_mcc_exclusions": [
+    "axs",
+    "cardup",
+    "cash advance",
+    "charit",
+    "e-wallet",
+    "education",
+    "government",
+    "hospital",
+    "instalment",
+    "interest",
+    "ipaymy",
+    "late payment charge",
+    "tax",
+    "top-up"
+   ]
+  },
+  {
+   "url": "https://www.uob.com.sg/assets/web-resources/personal/pdf/cards/cashback/lazada-uob-card/airpods4-lazada-tnc-cmpg.pdf",
+   "citation": {
+    "id": "bank:f96140a34d31",
+    "url": "https://www.uob.com.sg/assets/web-resources/personal/pdf/cards/cashback/lazada-uob-card/airpods4-lazada-tnc-cmpg.pdf",
+    "source_type": "official",
+    "retrieved_at": "2026-09-27T08:37:44+00:00",
+    "sha256": "f96140a34d31ccd27e351c48d5c3835e1ee8e305bca6b469b1119756bcf45c97",
+    "snapshot": "data/raw/bank/www-uob-com-sg-assets-web-resources-personal-pdf-cards-cashback-lazada-uob-card-airpods4-lazada-tnc-cmpg-pdf-92f0361e.pdf"
+   },
+   "text_path": "data/raw/bank/www-uob-com-sg-assets-web-resources-personal-pdf-cards-cashback-lazada-uob-card-airpods4-lazada-tnc-cmpg-pdf-92f0361e.txt",
+   "sha256": "f96140a34d31ccd27e351c48d5c3835e1ee8e305bca6b469b1119756bcf45c97",
+   "changed": false,
+   "new": false,
+   "no_text_layer": false,
+   "effective_dates": [],
+   "mcc": {
+    "include": [
+     "5262",
+     "5310",
+     "5311",
+     "5331",
+     "5399",
+     "5732",
+     "5999"
+    ],
+    "exclude": [],
+    "unknown": [],
+    "conflicting": [],
+    "unrecognised": [],
+    "hits": [
+     {
+      "code": "5262",
+      "polarity": "include",
+      "page": 2,
+      "line": "Codes (\u201cMCC\u201d) 5262, 5311, 5310, 5331, 5399, 5732, or 5999. Any Lazada Wallet top-up",
+      "reason": "Qualifying Spend Period with any of the following descriptions: LAZADA*, AMAZE*LAZADA*,",
+      "in_reference": true
+     },
+     {
+      "code": "5311",
+      "polarity": "include",
+      "page": 2,
+      "line": "Codes (\u201cMCC\u201d) 5262, 5311, 5310, 5331, 5399, 5732, or 5999. Any Lazada Wallet top-up",
+      "reason": "Qualifying Spend Period with any of the following descriptions: LAZADA*, AMAZE*LAZADA*,",
+      "in_reference": true
+     },
+     {
+      "code": "5310",
+      "polarity": "include",
+      "page": 2,
+      "line": "Codes (\u201cMCC\u201d) 5262, 5311, 5310, 5331, 5399, 5732, or 5999. Any Lazada Wallet top-up",
+      "reason": "Qualifying Spend Period with any of the following descriptions: LAZADA*, AMAZE*LAZADA*,",
+      "in_reference": true
+     },
+     {
+      "code": "5331",
+      "polarity": "include",
+      "page": 2,
+      "line": "Codes (\u201cMCC\u201d) 5262, 5311, 5310, 5331, 5399, 5732, or 5999. Any Lazada Wallet top-up",
+      "reason": "Qualifying Spend Period with any of the following descriptions: LAZADA*, AMAZE*LAZADA*,",
+      "in_reference": true
+     },
+     {
+      "code": "5399",
+      "polarity": "include",
+      "page": 2,
+      "line": "Codes (\u201cMCC\u201d) 5262, 5311, 5310, 5331, 5399, 5732, or 5999. Any Lazada Wallet top-up",
+      "reason": "Qualifying Spend Period with any of the following descriptions: LAZADA*, AMAZE*LAZADA*,",
+      "in_reference": true
+     },
+     {
+      "code": "5732",
+      "polarity": "include",
+      "page": 2,
+      "line": "Codes (\u201cMCC\u201d) 5262, 5311, 5310, 5331, 5399, 5732, or 5999. Any Lazada Wallet top-up",
+      "reason": "Qualifying Spend Period with any of the following descriptions: LAZADA*, AMAZE*LAZADA*,",
+      "in_reference": true
+     },
+     {
+      "code": "5999",
+      "polarity": "include",
+      "page": 2,
+      "line": "Codes (\u201cMCC\u201d) 5262, 5311, 5310, 5331, 5399, 5732, or 5999. Any Lazada Wallet top-up",
+      "reason": "Qualifying Spend Period with any of the following descriptions: LAZADA*, AMAZE*LAZADA*,",
+      "in_reference": true
+     }
+    ]
+   },
+   "transaction_modes": {
+    "online": [
+     "Without limiting the foregoing, UOB will not be liable or responsible for any undelivered, misdirected, corrupted, lost or delayed text, transmission or transaction or any delay or failure in posting any transaction or accessing any of UOB\u2019s online banking services or mobile banking services or third-party applications, howsoever caused."
+    ],
+    "foreign_currency": [
+     "This Promotion is only open to individuals who are new to United Overseas Bank Limited (\u201cUOB\u201d) credit cards as described in Clause 1.4(a) below."
+    ]
+   },
+   "non_mcc_exclusions": [
+    "top-up"
+   ]
+  },
+  {
+   "url": "https://www.uob.com.sg/assets/pdfs/add-on-card-terms-conditions.pdf",
+   "citation": {
+    "id": "bank:42358e29d735",
+    "url": "https://www.uob.com.sg/assets/pdfs/add-on-card-terms-conditions.pdf",
+    "source_type": "official",
+    "retrieved_at": "2026-09-27T08:37:46+00:00",
+    "sha256": "42358e29d7350a9750c477afebed16d22e101f969821263b9777733152bf0a95",
+    "snapshot": "data/raw/bank/www-uob-com-sg-assets-pdfs-add-on-card-terms-conditions-pdf-294d1c4b.pdf"
+   },
+   "text_path": "data/raw/bank/www-uob-com-sg-assets-pdfs-add-on-card-terms-conditions-pdf-294d1c4b.txt",
+   "sha256": "42358e29d7350a9750c477afebed16d22e101f969821263b9777733152bf0a95",
+   "changed": false,
+   "new": false,
+   "no_text_layer": false,
+   "effective_dates": [],
+   "mcc": {
+    "include": [],
+    "exclude": [],
+    "unknown": [],
+    "conflicting": [],
+    "unrecognised": [],
+    "hits": []
+   },
+   "transaction_modes": {
+    "recurring": [
+     "There must be minimum 1 and maximum 8 Singtel accounts charged to Singtel- UOB card on recurring basis at all times to enjoy all benefits and privileges including perpetual annual fee waiver, else an annual fee of S$196.20 will apply."
+    ]
+   },
+   "non_mcc_exclusions": [
+    "annual fee",
+    "tax"
+   ]
+  }
+ ],
+ "changed": false,
+ "removed_documents": []
+}

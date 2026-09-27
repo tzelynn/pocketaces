@@ -1,0 +1,82 @@
+{
+ "source": "moneysmart",
+ "source_id": "maybank-xl-rewards-card",
+ "source_url": "https://www.moneysmart.sg/credit-cards/maybank-xl-rewards-card",
+ "name": "Maybank XL Rewards Card",
+ "bank": "Maybank",
+ "card_id": "maybank-xl-rewards",
+ "image_url": "https://photos.cdn-moneysmart.com/credit_cards/uploads/products/images/image_url_2025-09-09_XL_Rewards cardface Medium.jpeg",
+ "earn_rates": {},
+ "caps": {},
+ "highlights": [
+  "4 miles per S$1 on Dine, Shop, Travel and Play categories",
+  "4 miles per S$1 on Foreign Currency Spend",
+  "500 Min Spend per month",
+  "4 air miles per dollar (10X TREATS Point)* whenever you spend in the Dine, Shop, Travel and Play categories, as well as in Foreign currencies.",
+  "Up to 10,000 bonus TREATS Points monthly.",
+  "Other transactions will earn 5 TREATS Points for every S$5 spent.",
+  "Credit Cards with one of the widest number of spending categories in the market:",
+  "Dine: Restaurants, fast food, bakeries, food deliveries, etc",
+  "Shop: Apparels, departmental store, sports apparels, online shopping, etc",
+  "Travel: airlines, online travel agencies, etc",
+  "Play: bars, ktv, cinemas, online streaming, video game arcade, etc",
+  "+all Foreign spend (overseas and online)"
+ ],
+ "sign_up_offers": [],
+ "links": {
+  "product": "https://www.moneysmart.sg/credit-cards/maybank-xl-rewards-card"
+ },
+ "citation": {
+  "id": "moneysmart:eeee24fb93a9",
+  "url": "https://www.moneysmart.sg/credit-cards",
+  "title": "Maybank XL Rewards Card",
+  "source_type": "aggregator",
+  "retrieved_at": "2026-09-27T05:27:12+00:00",
+  "sha256": "eeee24fb93a9d85ef8b9194c11bda960b5b99ee30b3689cdc59fb650badebce7",
+  "snapshot": "data/raw/moneysmart/credit-cards-p1-b55034ef.html"
+ },
+ "extra": {
+  "summary": "",
+  "badges": [],
+  "network": [
+   "Mastercard"
+  ],
+  "mobile_wallets": [
+   "Apple Pay",
+   "Samsung Pay"
+  ],
+  "groups": {
+   "annual-interest-rate-and-fees": {
+    "Annual Principal Fee": "S$87.20* (inclusive of GST), waived for first 2 years",
+    "Supplementary Annual Fee": "Free",
+    "Fee Waiver": "Subsequent waiver with min. spend of S$6,000 p.a.",
+    "Minimum Monthly Repayment": "3% of outstanding balance or S$20, whichever is higher, plus any outstanding amount \"Past Due\" from previous statements"
+   },
+   "minimum-income-requirements": {
+    "Singaporean/PR Minimum Annual Income": "30000",
+    "Non-Singaporean Minimum Annual Income": "S$45,000 for Malaysia Citizens, in employment for at least 1 year \nS$60,000 for Foreigner, in employment for at least 1 year"
+   },
+   "card-association": {
+    "Mastercard": "true"
+   },
+   "wireless-payment": {
+    "Apple Pay": "true",
+    "Samsung Pay": "true"
+   },
+   "documents-required": {
+    "SG Citizens or PRs": "Conveniently apply with Singpass",
+    "Passport Validity (Foreigners)": "6 months",
+    "Work Permit Validity (Foreigners)": "6 months",
+    "Utility or Telephone Bill": "with Full Name & Address",
+    "Income Tax Notice of Assessment": "true",
+    "Latest Original Computerised Payslip": "true"
+   }
+  },
+  "our_takes": {
+   "our-take": "The Maybank XL Rewards Card is a strong entry-level miles card for younger spenders who want to earn up to ~4 miles per S$1 on both lifestyle spending and all foreign-currency purchases. Its standout feature is the broad bonus coverage—dining, shopping, travel, entertainment, and FCY spend—making it practical for everyday use and overseas transactions. However, its value depends heavily on meeting the monthly minimum spend and managing bonus caps, as rewards drop sharply if these conditions aren’t met.",
+   "good-for": "Travellers and overseas online shoppers earning miles on FCY spend\nLifestyle spenders covering dining, shopping, and entertainment\nMiles collectors with consistent monthly spend\nYounger customers (21–39) starting a miles strategy",
+   "things-to-note": "You must meet a monthly minimum spend to unlock 4 mpd; otherwise earn the base rate\nBonus miles are capped monthly—extra spend earns fewer miles\nFX fees (~3.25%) apply despite bonus miles on FCY spend\nTREATS Points expire quickly unless redeemed or pooled\nCard is not available if you’re 40 or older"
+  },
+  "updated_at": "2025-10-31T16:32:17+08:00"
+ }
+}

@@ -1,0 +1,75 @@
+{
+ "source": "moneysmart",
+ "source_id": "ocbc-cashflo-card",
+ "source_url": "https://www.moneysmart.sg/credit-cards/ocbc-cashflo-card",
+ "name": "OCBC Great Eastern Cashflo Credit Card",
+ "bank": "OCBC",
+ "card_id": "ocbc-great-eastern-cashflo",
+ "image_url": "https://photos.cdn-moneysmart.com/credit_cards/uploads/products/images/image_url_2023-07-03_OCBC Cashflo.jpg",
+ "annual_fee": 163.5,
+ "min_annual_income": 15000.0,
+ "earn_rates": {},
+ "caps": {},
+ "highlights": [
+  "Up to 1.2% Cash Rebate if monthly bill is above S$1,000",
+  "Up to 0.3% Cash Rebate if your monthly bill is less than S$1,000",
+  "0% Interest when you split your bills into 3, 6 or 12-month instalments",
+  "Enjoy interest-free instalments",
+  "Earn up to 1.2% cash rebate every month",
+  "Stretch payments across 3, 6, or 12* months with 0% interest",
+  "2 years fee waiver, subsequent years waived with min. spend S$10,000 p.a."
+ ],
+ "sign_up_offers": [],
+ "links": {
+  "product": "https://www.moneysmart.sg/credit-cards/ocbc-cashflo-card"
+ },
+ "citation": {
+  "id": "moneysmart:49fcb3586f25",
+  "url": "https://www.moneysmart.sg/credit-cards?page=4",
+  "title": "OCBC Great Eastern Cashflo Credit Card",
+  "source_type": "aggregator",
+  "retrieved_at": "2026-09-27T05:27:20+00:00",
+  "sha256": "49fcb3586f252df0b2dacb9acecc465127e09c9defa7f151881c3db46d84649e",
+  "snapshot": "data/raw/moneysmart/credit-cards-p4-1a322210.html"
+ },
+ "extra": {
+  "summary": "",
+  "badges": [],
+  "network": [
+   "Mastercard"
+  ],
+  "mobile_wallets": [
+   "Google Pay",
+   "Apple Pay",
+   "Samsung Pay"
+  ],
+  "groups": {
+   "annual-interest-rate-and-fees": {
+    "Annual Interest Rate": "27.78",
+    "Annual Principal Fee": "163.50",
+    "Supplementary Annual Fee": "81.75",
+    "Fee Waiver": "Available",
+    "Minimum Monthly Repayment": "3% or S$50, whichever is higher",
+    "Interest Free Period": "23 days"
+   },
+   "minimum-income-requirements": {
+    "Singaporean/PR Minimum Annual Income": "•At least S$30,000 for Singaporeans and Singapore PRs aged between 21 and 54\n•At least S$15,000 for Singaporeans and Singapore PRs aged 55 and above",
+    "Non-Singaporean Minimum Annual Income": "•At least S$45,000 for foreigners"
+   },
+   "card-association": {
+    "Mastercard": "true"
+   },
+   "wireless-payment": {
+    "Google Pay": "true",
+    "Apple Pay": "true",
+    "Samsung Pay": "true"
+   }
+  },
+  "our_takes": {
+   "our-take": "The OCBC Great Eastern Cashflo card suits Great Eastern policyholders seeking payment flexibility. Its headline 1.2% cashback on spends above S$1,000 is decent, but the sub-1% rate below that threshold is less compelling. The key draw is the 0% interest instalment plan for Great Eastern premiums, easing large payments; however, note the 1% processing fee for 12-month plans. Factor in the S$10,000 annual spend for fee waiver, otherwise, a S$163.50 fee applies. If you're not an existing Great Eastern customer, other general cashback cards likely offer more value.",
+   "good-for": "Cardholders who want to stretch payments on larger purchases with interest-free installments at select merchants.\nGreat Eastern policyholders seeking a convenient way to manage and pay their insurance premiums efficiently.\nConsumers who spend over S$1,000 monthly, aiming to maximize cashback earnings on their retail expenses.",
+   "things-to-note": "Cashback is tiered; spending below S$1,000 monthly earns only 0.3%, limiting your rewards significantly for lower spend.\n27.78% annual interest rate applies if you don't pay your balance in full; debt can increase rapidly.\nS$150 fee applies if you terminate your card or accelerate payments, so consider this before closing the account."
+  },
+  "updated_at": "2024-09-16T12:18:27+08:00"
+ }
+}

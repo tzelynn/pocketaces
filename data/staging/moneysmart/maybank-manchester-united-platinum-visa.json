@@ -1,0 +1,72 @@
+{
+ "source": "moneysmart",
+ "source_id": "maybank-manchester-united-platinum-visa-card",
+ "source_url": "https://www.moneysmart.sg/credit-cards/maybank-manchester-united-platinum-visa-card",
+ "name": "Maybank Manchester United Platinum Visa Card",
+ "bank": "Maybank",
+ "card_id": "maybank-manchester-united-platinum-visa",
+ "image_url": "https://photos.cdn-moneysmart.com/credit_cards/uploads/products/images/image_url_2022-10-06_3. Maybank_Man Utd Credit Card_shadow.jpg",
+ "earn_rates": {},
+ "caps": {},
+ "highlights": [
+  "Earn 5X TREATS Points when Man. United win a Premier League match",
+  "Up to 3% Cashback when Man. United win a Premier League match",
+  "1% Unlimited Cashback on All Spends",
+  "1% Unlimited Cashback and 1X TREATS Points on all transactions",
+  "Up to 3% Cashback and 5X TREATS points when Manchester United wins a Premier League match",
+  "First 2 years annual fee waived, enjoy subsequent waiver at a minimum spend of S$3,600 per year"
+ ],
+ "sign_up_offers": [],
+ "links": {
+  "product": "https://www.moneysmart.sg/credit-cards/maybank-manchester-united-platinum-visa-card"
+ },
+ "citation": {
+  "id": "moneysmart:49fcb3586f25",
+  "url": "https://www.moneysmart.sg/credit-cards?page=4",
+  "title": "Maybank Manchester United Platinum Visa Card",
+  "source_type": "aggregator",
+  "retrieved_at": "2026-09-27T05:27:20+00:00",
+  "sha256": "49fcb3586f252df0b2dacb9acecc465127e09c9defa7f151881c3db46d84649e",
+  "snapshot": "data/raw/moneysmart/credit-cards-p4-1a322210.html"
+ },
+ "extra": {
+  "summary": "The Maybank Manchester United Visa Platinum Card is tailored for fans of Manchester United, offering exclusive rewards and privileges related to the football club. Cardholders can enjoy discounts on merchandise, match tickets, and access to special events, along with earning up to 3% Cashback when Manchester United wins.",
+  "badges": [],
+  "network": [
+   "Visa"
+  ],
+  "mobile_wallets": [
+   "Visa Contactless",
+   "Apple Pay",
+   "Samsung Pay"
+  ],
+  "groups": {
+   "annual-interest-rate-and-fees": {
+    "Annual Interest Rate": "27.90% p.a. subject to a minimum charge of S$3.00",
+    "Annual Principal Fee": "S$87.20 (2 years fee waiver)",
+    "Supplementary Annual Fee": "0",
+    "Fee Waiver": "Available with a minimum of S$3,600 spent",
+    "Minimum Monthly Repayment": "3% of outstanding balance or S$20, whichever is higher",
+    "Interest Free Period": "20 days"
+   },
+   "minimum-income-requirements": {
+    "Singaporean/PR Minimum Annual Income": "30000",
+    "Non-Singaporean Minimum Annual Income": "S$60000. Malaysia Citizens (in employment for at least 1 year): S$45,000"
+   },
+   "card-association": {
+    "Visa": "true"
+   },
+   "wireless-payment": {
+    "Visa Contactless": "true",
+    "Apple Pay": "true",
+    "Samsung Pay": "true"
+   }
+  },
+  "our_takes": {
+   "our-take": "If you're a die-hard Man U fan, this card boosts cashback to 3% and TREATS points 5x on match days when they win (capped at $20 extra cashback per win). Otherwise, it’s a basic 1% cashback card with 1x TREATS points, suitable if you want a simple card and don't mind limited perks. Note the $3,600 annual spend to waive the S$87.20 fee. High 27.9% interest and 2.25% foreign transaction fee are standard, so clear your balance and avoid using it overseas.",
+   "good-for": "Manchester United fans wanting to earn extra cashback on match days when the team wins.\nCardholders looking to easily waive annual fees by meeting a reasonable minimum spending requirement of S$3,600 per year.\nIndividuals who appreciate contactless payment options and mobile wallet compatibility for convenient everyday transactions and rewards.",
+   "things-to-note": "Late payment fees are high; expect 5% or S$100 (whichever is higher) if you miss the minimum payment.\nA 27.90% p.a. interest rate applies if you don't pay in full, significantly increasing debt over time.\nForeign currency transactions incur a 3.25% fee, impacting your spending while traveling overseas."
+  },
+  "updated_at": "2025-02-21T10:34:18+08:00"
+ }
+}

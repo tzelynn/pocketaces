@@ -1,0 +1,76 @@
+{
+ "source": "moneysmart",
+ "source_id": "hsbc-visa-infinite-credit-card",
+ "source_url": "https://www.moneysmart.sg/credit-cards/hsbc-visa-infinite-credit-card",
+ "name": "HSBC Visa Infinite Credit Card",
+ "bank": "HSBC",
+ "card_id": "hsbc-visa-infinite",
+ "image_url": "https://photos.cdn-moneysmart.com/credit_cards/uploads/products/images/image_url_2020-10-16_HSBC-Visa-Infinite@3x-min.png",
+ "annual_fee": 662.15,
+ "earn_rates": {},
+ "caps": {},
+ "highlights": [
+  "S$1 = Up to 1.25 Miles Local Spend",
+  "S$1 = Up to 2.25 Miles Overseas Spend",
+  "Dedicated Concierge Service for personalized assistance",
+  "Up to 2.25 air miles per S$1 spent",
+  "Present your HSBC Visa Infinite Credit Card, boarding pass and quote 'LoungeKey' to enjoy complimentary access to over 1,100 VIP airport lounges for you and your supplementary cardholders.",
+  "Dedicated concierge service for personalised assistance.",
+  "Complimentary limousine transfer and expedited immigration clearance",
+  "Automatic comprehensive travel insurance coverage (including COVID-19 coverage) up to USD2 million.",
+  "Up to 50% saving on Dining"
+ ],
+ "sign_up_offers": [],
+ "links": {
+  "product": "https://www.moneysmart.sg/credit-cards/hsbc-visa-infinite-credit-card"
+ },
+ "citation": {
+  "id": "moneysmart:49fcb3586f25",
+  "url": "https://www.moneysmart.sg/credit-cards?page=4",
+  "title": "HSBC Visa Infinite Credit Card",
+  "source_type": "aggregator",
+  "retrieved_at": "2026-09-27T05:27:20+00:00",
+  "sha256": "49fcb3586f252df0b2dacb9acecc465127e09c9defa7f151881c3db46d84649e",
+  "snapshot": "data/raw/moneysmart/credit-cards-p4-1a322210.html"
+ },
+ "extra": {
+  "summary": "",
+  "badges": [],
+  "network": [
+   "Visa"
+  ],
+  "mobile_wallets": [
+   "Visa Contactless",
+   "Google Pay",
+   "Apple Pay"
+  ],
+  "groups": {
+   "annual-interest-rate-and-fees": {
+    "Annual Interest Rate": "26.90",
+    "Annual Principal Fee": "662.15",
+    "Supplementary Annual Fee": "0",
+    "Fee Waiver": "Not Available",
+    "Minimum Monthly Repayment": "3% or S$50, whichever is higher",
+    "Interest Free Period": "20 days"
+   },
+   "minimum-income-requirements": {
+    "Singaporean/PR Minimum Annual Income": "120000",
+    "Non-Singaporean Minimum Annual Income": "120000"
+   },
+   "card-association": {
+    "Visa": "true"
+   },
+   "wireless-payment": {
+    "Visa Contactless": "true",
+    "Google Pay": "true",
+    "Apple Pay": "true"
+   }
+  },
+  "our_takes": {
+   "our-take": "The HSBC Visa Infinite card targets high-income earners seeking premium travel perks but demands careful spending habits. While it offers up to 2.25 miles per S$1 and lounge access, a S$2,000 monthly spend is required to unlock the limousine and expedited immigration services. Consider if your spending consistently meets this threshold. The high annual fee (S$662.15) makes this card best suited for those who fully utilize the travel benefits; otherwise, alternatives with lower fees and simpler rewards structures may be more suitable.",
+   "good-for": "Affluent travelers seeking complimentary airport lounge access and expedited immigration services for seamless international journeys.\nHigh-income earners who spend significantly on travel and dining to maximize rewards and concierge services.\nProfessionals who appreciate premium travel insurance coverage and exclusive perks like limousine transfers for added comfort.",
+   "things-to-note": "A steep S$662.15 annual fee applies; ensure benefits like lounge access and miles outweigh this cost.\nThe 26.90% APR can be costly; avoid interest by paying your balance in full each month.\n3.25% foreign transaction fee applies to overseas purchases; consider using alternative cards if frequent."
+  },
+  "updated_at": "2025-09-26T17:56:17+08:00"
+ }
+}

@@ -1,0 +1,89 @@
+{
+ "source": "moneysmart",
+ "source_id": "standard-chartered-simply-cash-credit-card-funds-transfer",
+ "source_url": "https://www.moneysmart.sg/credit-cards/standard-chartered-simply-cash-credit-card-funds-transfer",
+ "name": "Standard Chartered Simply Cash + Credit Card Funds Transfer",
+ "bank": "Standard Chartered",
+ "image_url": "https://photos.cdn-moneysmart.com/credit_cards/uploads/products/images/image_url_2025-08-07_SimplyCash_front (5).png",
+ "annual_fee": 196.2,
+ "earn_rates": {},
+ "caps": {},
+ "highlights": [
+  "0.6% Cashback with new Credit Card Funds Transfer applications",
+  "2% Cashback with min. of S$800 per month",
+  "From 0.99% Low Processing Fee",
+  "Apply here to enjoy the convenience of a single application for a Standard Chartered Simply Cash Credit Card & a Credit Card Funds Transfer!",
+  "Standard Chartered Credit Card Funds Transfer benefits:",
+  "Get extra cash at 0% interest with loan tenures from 3 to 12 months",
+  "One-time low processing fee from 0.99% (EIR from 3.62%)",
+  "Enjoy flexible repayment, choose to pay minimum amount due or full outstanding amount",
+  "Instant cash disbursement to any bank account or other bank's credit card",
+  "Standard Chartered Simply Cash Credit Card benefits:",
+  "Flat 1.5% cashback rate for all eligible purchases",
+  "Enjoy dining and shopping discount privileges at over 3,000 outlets in Asia with Standard Chartered’s The Good Life Program",
+  "1 year annual fee waiver, no minimum spend required"
+ ],
+ "sign_up_offers": [],
+ "links": {
+  "product": "https://www.moneysmart.sg/credit-cards/standard-chartered-simply-cash-credit-card-funds-transfer",
+  "review": "https://blog.moneysmart.sg/credit-cards/standard-chartered-simply-cash-credit-card-review/"
+ },
+ "citation": {
+  "id": "moneysmart:fbcf8e7229a3",
+  "url": "https://www.moneysmart.sg/credit-cards?page=3",
+  "title": "Standard Chartered Simply Cash + Credit Card Funds Transfer",
+  "source_type": "aggregator",
+  "retrieved_at": "2026-09-27T05:27:18+00:00",
+  "sha256": "fbcf8e7229a38611c3c767cd8447164e413b1306df1f54bebee269e3abf15202",
+  "snapshot": "data/raw/moneysmart/credit-cards-p3-707cb52c.html"
+ },
+ "extra": {
+  "summary": "The Standard Chartered Simply Cash + Credit Card Funds Transfer offers a limited time up to 2.6% unlimited cashback on most spending, making it ideal for those who dislike tracking bonus categories. The low processing fee and 0% interest Credit Card Funds Transfer is offers savings of up to 86% on interest charges as compared to other cards. Enjoy ease of application through this single flow journey which will enable you to get both the Simply Cash Credit Card as well as the Credit Card Funds Transfer!",
+  "badges": [
+   "SINGLE APPLICATION JOURNEY"
+  ],
+  "network": [
+   "Mastercard"
+  ],
+  "mobile_wallets": [
+   "Google Pay",
+   "Apple Pay",
+   "Samsung Pay"
+  ],
+  "groups": {
+   "annual-interest-rate-and-fees": {
+    "Annual Interest Rate": "27.90",
+    "Annual Principal Fee": "196.20",
+    "Supplementary Annual Fee": "0",
+    "Fee Waiver": "First 1 year waived",
+    "Minimum Monthly Repayment": "S$50 OR 1% of principal / interest, fees & charges / overlimit amount / past due amount, whichever is higher",
+    "Interest Free Period": "Available"
+   },
+   "minimum-income-requirements": {
+    "Singaporean/PR Minimum Annual Income": "30000",
+    "Non-Singaporean Minimum Annual Income": "90000"
+   },
+   "card-association": {
+    "Mastercard": "true"
+   },
+   "wireless-payment": {
+    "Google Pay": "true",
+    "Apple Pay": "true",
+    "Samsung Pay": "true"
+   },
+   "documents-required": {
+    "SG Citizens or PRs": "Apply via MyInfo and prepare the following, \n1. Copy of Passport (6 months validity), and page with address displayed (where applicable), \n2. Copy of Employment Pass, \n3. Either one of the following: utility bill, tax bill, latest bank /credit card statement, rental agreement showing your address, latest mobile phone statement, letter from employer stating current address, government-issued document stating current address",
+    "Passport Validity (Foreigners)": "6 months",
+    "Work Permit Validity (Foreigners)": "6 months",
+    "Utility or Telephone Bill": "true",
+    "Income Tax Notice of Assessment": "true"
+   }
+  },
+  "our_takes": {
+   "our-take": "The Standard Chartered Simply Cash + Credit Card Funds Transfer offers 1.5% unlimited cashback on most spending, making it ideal for those who dislike tracking bonus categories. The low processing fee and 0% interest Credit Card Funds Transfer is offers savings of up to 86% on interest charges as compared to other cards. Enjoy ease of application through this single flow journey which will enable you to get both the Simply Cash Credit Card as well as the Credit Card Funds Transfer!",
+   "good-for": "Credit Card Funds Transfer:\nThose who are looking for a interest-free, low one-time processing fee Credit Card Funds Transfer.\nSingle application journey for a Standard Chartered Simply Cash Credit Card + Funds Transfer.\nStandard Chartered Simply Cash Credit Card:\nThose who spend more than S$800 per month and want a flat cashback rate on all eligible purchases, without tracking spending categories or minimums.\nEnjoy first year annual fee waiver on your credit card.",
+   "things-to-note": "Credit Card Funds Transfer\nGet extra cash at 0% interest with loan tenures from 3 to 12 months.\nOne-time low processing fee from 0.99% (EIR from 3.62%).\nEnjoy flexible repayment, choose to pay minimum amount due or full outstanding amount.\nInstant cash disbursement to any bank account or other banks’ credit card.\nStandard Chartered Simply Cash Credit Card\nFlat 1.5% unlimited cashback rate for all eligible purchases\nEnjoy dining and shopping discount privileges at over 3,000 outlets in Asia with Standard Chartered’s The Good Life Program.\n1 year annual fee waiver, no minimum spend required."
+  },
+  "updated_at": "2026-03-05T16:29:03+08:00"
+ }
+}

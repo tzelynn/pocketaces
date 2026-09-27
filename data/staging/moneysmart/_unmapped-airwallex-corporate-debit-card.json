@@ -1,0 +1,104 @@
+{
+ "source": "moneysmart",
+ "source_id": "airwallex-corporate-debit-card",
+ "source_url": "https://www.moneysmart.sg/credit-cards/airwallex-corporate-debit-card",
+ "name": "Airwallex Corporate Debit Card",
+ "bank": "Airwallex",
+ "image_url": "https://photos.cdn-moneysmart.com/credit_cards/uploads/products/images/image_url_2025-10-06_airwallex card Medium.jpeg",
+ "annual_fee": 0.0,
+ "earn_rates": {},
+ "caps": {},
+ "highlights": [
+  "0 International Transaction Fees",
+  "No Minimum Spend required",
+  "0 Annual Fee",
+  "No annual card fees for Airwallex Corporate Cards",
+  "Real-time expense tracking & multi-currency payments",
+  "Unlimited virtual and physical cards for your business",
+  "Unlimited card issuance for employees",
+  "Real-time expense management on the Airwallex platform",
+  "Multi-currency payments at competitive FX rates",
+  "Works with Apple Pay, Google Pay, Samsung Pay",
+  "*Please note that this product is a Debit Card"
+ ],
+ "sign_up_offers": [
+  {
+   "kind": "MANUAL_GIFT",
+   "title": "S$300 Cash via PayNow",
+   "subtitle": null,
+   "is_cash": true,
+   "terms": "• Apply for an Airwallex account through MoneySmart by 30th Sept 2026\n• Complete your KYC and get approval\n• Fund your account within 30 days from approval\n• Submit your Claim Form by 30th Oct 2026",
+   "campaign": "Credit Card | Airwallex | 010926"
+  },
+  {
+   "kind": "STORE_PRODUCT",
+   "title": "Sony WH-1000XM5 Noise Cancelling Headphones",
+   "subtitle": "worth S$589",
+   "is_cash": false,
+   "terms": "• Apply for an Airwallex account through MoneySmart by 30th Sept 2026\n• Complete your KYC and get approval\n• Fund your account within 30 days from approval\n• Submit your Claim Form by 30th Oct 2026",
+   "campaign": "Credit Card | Airwallex | 010926"
+  },
+  {
+   "kind": "STORE_PRODUCT",
+   "title": "Apple Watch SE 3, 40mm (GPS, Midnight Aluminium Case with Midnight Sport Band)",
+   "subtitle": "worth S$349",
+   "is_cash": false,
+   "terms": "• Apply for an Airwallex account through MoneySmart by 30th Sept 2026\n• Complete your KYC and get approval\n• Fund your account within 30 days from approval\n• Submit your Claim Form by 30th Oct 2026",
+   "campaign": "Credit Card | Airwallex | 010926"
+  },
+  {
+   "kind": "STORE_PRODUCT",
+   "title": "Apple AirPods Pro 3",
+   "subtitle": "worth S$349",
+   "is_cash": false,
+   "terms": "• Apply for an Airwallex account through MoneySmart by 30th Sept 2026\n• Complete your KYC and get approval\n• Fund your account within 30 days from approval\n• Submit your Claim Form by 30th Oct 2026",
+   "campaign": "Credit Card | Airwallex | 010926"
+  },
+  {
+   "kind": "STORE_PRODUCT",
+   "title": "LEVEL8 Luminous Textured 2 Piece Set Luggage (Black)",
+   "subtitle": "worth S$639",
+   "is_cash": false,
+   "terms": "• Apply for an Airwallex account through MoneySmart by 30th Sept 2026\n• Complete your KYC and get approval\n• Fund your account within 30 days from approval\n• Submit your Claim Form by 30th Oct 2026",
+   "campaign": "Credit Card | Airwallex | 010926"
+  }
+ ],
+ "links": {
+  "product": "https://www.moneysmart.sg/credit-cards/airwallex-corporate-debit-card"
+ },
+ "citation": {
+  "id": "moneysmart:eeee24fb93a9",
+  "url": "https://www.moneysmart.sg/credit-cards",
+  "title": "Airwallex Corporate Debit Card",
+  "source_type": "aggregator",
+  "retrieved_at": "2026-09-27T05:27:12+00:00",
+  "sha256": "eeee24fb93a9d85ef8b9194c11bda960b5b99ee30b3689cdc59fb650badebce7",
+  "snapshot": "data/raw/moneysmart/credit-cards-p1-b55034ef.html"
+ },
+ "extra": {
+  "summary": "",
+  "badges": [
+   "Exclusive for Businesses only"
+  ],
+  "network": [
+   "Visa"
+  ],
+  "mobile_wallets": [],
+  "groups": {
+   "annual-interest-rate-and-fees": {
+    "Annual Interest Rate": "Not applicable (corporate charge card — settled monthly)",
+    "Annual Principal Fee": "0"
+   },
+   "card-association": {
+    "Visa": "true"
+   },
+   "documents-required": {}
+  },
+  "our_takes": {
+   "our-take": "The Airwallex Corporate Debit Card is a business-focused spending card built for companies with cross-border expenses and tight spend control needs. Its standout advantages are 0% foreign transaction fees, native multi-currency spending, and real-time card controls, making it practical for paying overseas suppliers, SaaS subscriptions, and business travel without FX surcharges. Unlike credit cards, it draws directly from your Airwallex balance—ideal for teams prioritising cost visibility and budget discipline over credit.",
+   "good-for": "Businesses paying overseas suppliers or FCY subscriptions\nFinance teams issuing cards with custom spend limits\nCompanies that prefer debit-based spending to avoid interest\nRemote teams using virtual cards for online tools",
+   "things-to-note": "This is a \ndebit card\n—spend comes from available balances only\nCashback (if any) is plan-dependent, not guaranteed\nPer active cardholder fees may apply under some plans\nNo ATM or cash withdrawals supported\nAuto FX conversion applies if you don’t hold the currency"
+  },
+  "updated_at": "2026-04-29T14:01:48+08:00"
+ }
+}

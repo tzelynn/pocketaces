@@ -1,0 +1,79 @@
+{
+ "source": "moneysmart",
+ "source_id": "maybank-world-mastercard",
+ "source_url": "https://www.moneysmart.sg/credit-cards/maybank-world-mastercard",
+ "name": "Maybank World Mastercard",
+ "bank": "Maybank",
+ "card_id": "maybank-world-mastercard",
+ "image_url": "https://photos.cdn-moneysmart.com/credit_cards/uploads/products/images/image_url_2022-10-06_5. Maybank_World Mastercard_shadow.jpg",
+ "annual_fee": 261.6,
+ "earn_rates": {},
+ "caps": {},
+ "highlights": [
+  "Up to 10X TREATS Points at selected retail, dining merchants and petrol stations",
+  "10 Points = 4 miles Rewards to Miles Conversion for Selected Airline Partners",
+  "Conversion Fee Waived for each conversion of points to frequent flyer miles",
+  "Earn 10X TREATS Points (equivalent to 4 air miles) at selected retail, dining merchants and petrol stations",
+  "Complimentary enrolment into Rewards Infinite Programme, where your TREATS Points never expire",
+  "First year annual fee waived",
+  "Conversion fee waived for each conversion of points to frequent flyer miles",
+  "Up to 19.1% exclusive savings on petrol",
+  "Complimentary green fees all year round at 100 participating golf clubs in 19 countries",
+  "Complimentary Plaza Premium airport lounge access",
+  "24/7 Mastercard Travel and Lifestyle Services",
+  "Redeem selected gift items at half the usual TREATS Points on your birthday month."
+ ],
+ "sign_up_offers": [],
+ "links": {
+  "product": "https://www.moneysmart.sg/credit-cards/maybank-world-mastercard"
+ },
+ "citation": {
+  "id": "moneysmart:49fcb3586f25",
+  "url": "https://www.moneysmart.sg/credit-cards?page=4",
+  "title": "Maybank World Mastercard",
+  "source_type": "aggregator",
+  "retrieved_at": "2026-09-27T05:27:20+00:00",
+  "sha256": "49fcb3586f252df0b2dacb9acecc465127e09c9defa7f151881c3db46d84649e",
+  "snapshot": "data/raw/moneysmart/credit-cards-p4-1a322210.html"
+ },
+ "extra": {
+  "summary": "",
+  "badges": [],
+  "network": [
+   "Mastercard"
+  ],
+  "mobile_wallets": [
+   "MasterCard PayPass",
+   "Apple Pay",
+   "Samsung Pay"
+  ],
+  "groups": {
+   "annual-interest-rate-and-fees": {
+    "Annual Interest Rate": "27.90% p.a. subject to a minimum charge of S$3.00",
+    "Annual Principal Fee": "261.60",
+    "Supplementary Annual Fee": "Free",
+    "Fee Waiver": "Waiver for first Year. Subsequent annual fee will be automatically waived with a total minimum spend of S$24,000 per annum",
+    "Minimum Monthly Repayment": "3% of outstanding balance or S$20, whichever is higher",
+    "Interest Free Period": "20 days"
+   },
+   "minimum-income-requirements": {
+    "Singaporean/PR Minimum Annual Income": "80000",
+    "Non-Singaporean Minimum Annual Income": "80000"
+   },
+   "card-association": {
+    "Mastercard": "true"
+   },
+   "wireless-payment": {
+    "MasterCard PayPass": "true",
+    "Apple Pay": "true",
+    "Samsung Pay": "true"
+   }
+  },
+  "our_takes": {
+   "our-take": "The Maybank World Mastercard rewards overseas spending (up to 2.8 miles per dollar), but only for big spenders who can hit the minimum spend of $800 or $4,000. The 10X TREATS Points (4mpd) at selected merchants can be valuable if they align with your spending habits. Otherwise, local spending earns a low 0.4 miles per dollar. While the first year fee is waived, the subsequent $261.60 annual fee is waived only with a hefty $24,000 annual spend. Consider if the lounge access and golf benefits justify the high spending requirements.",
+   "good-for": "Affluent individuals seeking premium rewards and exclusive lifestyle benefits like golf club access and airport lounge privileges.\nProfessionals who frequently travel overseas and spend a minimum of $800 to maximize TREATS Points.\nHigh-income earners with substantial retail spending habits looking to earn accelerated rewards at selected merchants.",
+   "things-to-note": "A 2.25% admin fee and 1% currency conversion fee apply to foreign transactions, increasing overseas spending costs.\nLate payment fees are high: 5% of the minimum repayment or $100, whichever is higher, if unpaid by the due date.\nInterest is high at 27.90% p.a., charged if you don't pay in full each month, subject to a $3 minimum."
+  },
+  "updated_at": "2025-08-27T17:43:26+08:00"
+ }
+}

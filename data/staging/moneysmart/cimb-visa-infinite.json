@@ -1,0 +1,78 @@
+{
+ "source": "moneysmart",
+ "source_id": "cimb-visa-infinite",
+ "source_url": "https://www.moneysmart.sg/credit-cards/cimb-visa-infinite",
+ "name": "CIMB Visa Infinite",
+ "bank": "CIMB",
+ "card_id": "cimb-visa-infinite",
+ "image_url": "https://photos.cdn-moneysmart.com/credit_cards/uploads/products/images/image_url_2020-10-16_CIMB-Visa-Infinite@3x-min.png",
+ "annual_fee": 0.0,
+ "earn_rates": {},
+ "caps": {},
+ "highlights": [
+  "2% Unlimited cashback on Travel, Overseas & Online Spend in Foreign Currency",
+  "2000 Min. spend per month",
+  "Unlimited Cashback cap",
+  "Unlimited 2%* Cashback on Travel, Overseas, Online Spend in Foreign Currencies. 1%* Cashback on all other spend.",
+  "* The 2% cashback consists of the base cashback of 1% and an additional 1% cashback.",
+  "Complimentary Travel Insurance up to S$1,000,000",
+  "Complimentary access to over 1,000 airport lounges via CIMB Airport Companion Programme",
+  "Visa Infinite Concierge",
+  "No annual fees for life",
+  "Apply for up to 4 supplementary cards and have annual fees waived for all supplementary cards",
+  "Access to over 1,000 regional deals with discounts up to 50%",
+  "At MoneySmart, we strive to keep our information accurate and up to date. This information may be different from what you see when you visit a financial institution, service provider, or specific product site. MoneySmart shall not be liable to compensate the Customer should the information is not as updated as our Partner."
+ ],
+ "sign_up_offers": [],
+ "links": {
+  "product": "https://www.moneysmart.sg/credit-cards/cimb-visa-infinite"
+ },
+ "citation": {
+  "id": "moneysmart:42909b088c22",
+  "url": "https://www.moneysmart.sg/credit-cards?page=2",
+  "title": "CIMB Visa Infinite",
+  "source_type": "aggregator",
+  "retrieved_at": "2026-09-27T05:27:14+00:00",
+  "sha256": "42909b088c22cb063c120b532d19af920cb3535c52f6bfc313193c6c6ea14746",
+  "snapshot": "data/raw/moneysmart/credit-cards-p2-5f055203.html"
+ },
+ "extra": {
+  "summary": "A great travel credit card with unlimited 2% cashback on Travel, Overseas Spending and Online Spend in Foreign Currencies. You can also enjoy complimentary lounge access with no annual fee!",
+  "badges": [
+   "Earn up to 2% unlimited cashback!"
+  ],
+  "network": [
+   "Visa"
+  ],
+  "mobile_wallets": [
+   "Visa Contactless",
+   "Samsung Pay"
+  ],
+  "groups": {
+   "annual-interest-rate-and-fees": {
+    "Annual Interest Rate": "27.8",
+    "Annual Principal Fee": "0",
+    "Supplementary Annual Fee": "Free",
+    "Fee Waiver": "Available",
+    "Minimum Monthly Repayment": "3% or S$50, whichever is higher",
+    "Interest Free Period": "23 days"
+   },
+   "minimum-income-requirements": {
+    "Singaporean/PR Minimum Annual Income": "120000"
+   },
+   "card-association": {
+    "Visa": "true"
+   },
+   "wireless-payment": {
+    "Visa Contactless": "true",
+    "Samsung Pay": "true"
+   }
+  },
+  "our_takes": {
+   "our-take": "The CIMB Visa Infinite card offers unlimited cashback – 2% on overseas, online (foreign currency), and travel spend, and 1% on everything else – appealing to frequent travellers. A S$2,000 monthly minimum spend is required, so it's best for consistent, higher spenders. Cashback expires monthly, demanding active tracking. Though travel insurance and lounge access add value, the real draw is the uncapped cashback, particularly for those who frequently transact in foreign currencies. Consider if your spending habits align with the S$2,000 minimum to maximize rewards, otherwise, the cashback is forfeited.",
+   "good-for": "Affluent individuals seeking unlimited cashback on overseas and online spending in foreign currencies, perfect for frequent international transactions.\nThose who enjoy complimentary travel insurance and airport lounge access, enhancing comfort and security during their journeys.\nHigh-income earners aiming to maximize cashback rewards on travel and other retail expenditures exceeding the minimum spend requirement.",
+   "things-to-note": "S$2,000 minimum monthly spend is required; failing to meet it forfeits cashback earnings.\nCashback expires monthly, so remember to redeem rewards to avoid losing them.\n27.8% annual interest rate applies; paying balances in full avoids hefty interest charges."
+  },
+  "updated_at": "2025-04-21T22:22:39+08:00"
+ }
+}

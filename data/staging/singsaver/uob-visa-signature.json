@@ -1,0 +1,193 @@
+{
+ "source": "singsaver",
+ "source_id": "uob-visa-signature-card",
+ "source_url": "https://www.singsaver.com.sg/credit-card/products/uob-visa-signature-card",
+ "name": "UOB Visa Signature Card",
+ "bank": "UOB",
+ "card_id": "uob-visa-signature",
+ "image_url": "https://mhgprod.blob.core.windows.net/singsaver/strapi-uploads/m_UOB_Visa_Signature_c4f87fbf6f.png",
+ "annual_fee": 218.0,
+ "annual_fee_note": "S$ | First Year Waived",
+ "min_annual_income": 30000.0,
+ "min_monthly_spend": 1000.0,
+ "earn_rates": {
+  "mpd:baseline": {
+   "value": 0.4,
+   "unit": "mpd",
+   "note": "Earn UNI$1 per S$5 spend (equivalent to 0.4 mpd) on all other categories."
+  },
+  "mpd:local": {
+   "value": 4.0,
+   "unit": "mpd",
+   "note": "Up to  | Receive 10X UNI$ per S$5 (equivalent to 4 mpd) on Local Petrol & Contactless spend including SimplyGo (Category 2). Capped at UNI$2,400 per statement month. Otherwise, earn 1X UNI$ for every S$5 spent (equivalent to 0.4 mpd)."
+  },
+  "mpd:overseas": {
+   "value": 4.0,
+   "unit": "mpd",
+   "note": "Up to  | Receive 10X UNI$ per S$5 (equivalent to 4 mpd) on Overseas spend in foreign currency (Category 1). Capped at UNI$2,400 per statement month. Otherwise, earn 1X UNI$ for every S$5 spent (equivalent to 0.4 mpd)."
+  },
+  "mpd:overseas_online_shopping": {
+   "value": 4.0,
+   "unit": "mpd",
+   "note": "Receive 10X UNI$ per S$5 (equivalent to 4 mpd) on Overseas spend in foreign currency (Category 1). Capped at UNI$2,400 per statement month. Otherwise, earn 1X UNI$ for every S$5 spent (equivalent to 0.4 mpd)."
+  },
+  "mpd:contactless_spend": {
+   "value": 4.0,
+   "unit": "mpd",
+   "note": "Receive 10X UNI$ per S$5 (equivalent to 4 mpd) on Local Petrol & Contactless spend including SimplyGo (Category 2). Capped at UNI$2,400 per statement month. Otherwise, earn 1X UNI$ for every S$5 spent (equivalent to 0.4 mpd)."
+  },
+  "mpd:petrol": {
+   "value": 4.0,
+   "unit": "mpd",
+   "note": "Receive 10X UNI$ per S$5 (equivalent to 4 mpd) on Local Petrol & Contactless spend including SimplyGo (Category 2). Capped at UNI$2,400 per statement month. Otherwise, earn 1X UNI$ for every S$5 spent (equivalent to 0.4 mpd)."
+  },
+  "points_per_dollar:baseline": {
+   "value": 1.0,
+   "unit": "points_per_dollar",
+   "note": "UNI$ | Earn UNI$1 per S$5 spend on all other categories."
+  },
+  "points_per_dollar:local_spending": {
+   "value": 10.0,
+   "unit": "points_per_dollar",
+   "note": "Up to UNI$ | On petrol, foreign currency transactions, and local Visa payWave (excluding SMART$ merchants) transactions."
+  },
+  "points_per_dollar:overseas_spending": {
+   "value": 10.0,
+   "unit": "points_per_dollar",
+   "note": "Up to UNI$ | Receive 10X UNI$ per S$5 on Overseas spend in foreign currency (Category 1). Capped at UNI$2,400 per statement month. Otherwise, earn 1X UNI$ for every S$5 spent."
+  },
+  "points_per_dollar:online_shopping": {
+   "value": 10.0,
+   "unit": "points_per_dollar",
+   "note": "UNI$ | Receive 10X UNI$ per S$5 on Overseas spend in foreign currency (Category 1). Capped at UNI$2,400 per statement month. Otherwise, earn 1X UNI$ for every S$5 spent."
+  },
+  "points_per_dollar:contactless_spend": {
+   "value": 10.0,
+   "unit": "points_per_dollar",
+   "note": "UNI$ | On petrol, foreign currency transactions, and local Visa payWave (excluding SMART$ merchants) transactions."
+  },
+  "points_per_dollar:petrol": {
+   "value": 10.0,
+   "unit": "points_per_dollar",
+   "note": "UNI$ | Receive 10X UNI$ per S$5 spent on  On petrol, foreign currency transactions, and local Visa payWave (excluding SMART$ merchants) transactions."
+  }
+ },
+ "caps": {
+  "airmiles_bonus_cap": {
+   "value": 9600.0,
+   "note": "Receive 10X UNI$ per S$5 (equivalent to 2% cashback) on Overseas spend in foreign currency (Category 1), and Local Petrol & Contactless spend including SimplyGo (Category 2). Capped at UNI$2,400 per statement month for each category, with UNI$1 = 2 miles."
+  },
+  "rewards_bonus_cap": {
+   "value": 4800.0,
+   "note": "UNI$ | Category 1 (Overseas spend) and Category 2 (Local Petrol & Contactless spend incl. SimplyGo) each capped at S$2,400 per statement month, for a total of UNI$4,800 points cap per statement month."
+  }
+ },
+ "highlights": [
+  "Receive 10X UNI$ per S$5 (equivalent to 4 miles per dollar) on Overseas spend in foreign currency (Category 1), and Local Petrol & Contactless spend including SimplyGo (Category 2). Capped at UNI$2,400 per statement month for each category. Otherwise, earn 1X UNI$ for every S$5 spent (equivalent to 0.4 miles per dollar).",
+  "pros: Earn 4 miles per dollar on overseas spend in foreign currency.",
+  "pros: Earn 4 miles per dollar on local petrol & contactless spend including SimplyGo.",
+  "pros: Enjoy complimentary travel insurance benefits, including coverage of up to S$500,000 for Public Conveyance Personal Accident.",
+  "cons: S$1,000 monthly minimum spend required to earn boosted rewards points rate.",
+  "cons: Rewards points capped at UNI$2,400 per category per statement month.",
+  "pros: Petrol rebate",
+  "pros: Overseas rebate",
+  "pros: Mobile contactless rebate",
+  "cons: Rebate cap applied"
+ ],
+ "sign_up_offers": [
+  {
+   "kind": "welcome_offer",
+   "title": "Welcome Offer",
+   "offer_id": "SG.2026-07-01.CC.UOBX.9XCC.100SAMSUNG.BAU",
+   "valid_from": "2026-06-30T16:00:00Z",
+   "valid_to": "2026-09-29T16:00:00Z",
+   "gifts": [
+    {
+     "title": "S$100 Samsung Voucher",
+     "value_sgd": 100
+    }
+   ],
+   "terms": "Welcome Offer promotion is valid from 1 July 2026 to 30 September 2026.\nPromotion is valid for new-to-UOB credit card customers only.\nSuccessfully apply to be the principal cardholder for select UOB Credit Cards within the promo period and spend a min. of S$1,000 within 30 days of card approval to be eligible for \nS$100 Samsung Voucher\n reward.\nPlus, receive a 10% discount when you use your UOB Credit Card on Samsung Singapore transactions via the Samsung online store with min. spend of S$1,000.\nSamsung reserves the right to amend or withdraw the discount promotion without prior notice.\nTerms and Conditions\n apply.",
+   "tnc_url": null,
+   "bundle_with": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "kind": "exclusive_offer",
+   "title": "SingSaver Flash Deal",
+   "offer_id": "SG.2026-09-02.CC.UOBX.9XCC.200CASH-STRAREN-90CASH",
+   "valid_from": "2026-09-01T16:00:00Z",
+   "valid_to": "2026-09-30T15:59:00Z",
+   "gifts": [
+    {
+     "title": "S$200 Cash via PayNow",
+     "value_sgd": 200
+    },
+    {
+     "title": "Samsonite Straren Spinner 67/24 (worth S$600)",
+     "value_sgd": 600
+    },
+    {
+     "title": "S$90 Cash via PayNow",
+     "value_sgd": 90
+    }
+   ],
+   "terms": "SingSaver Flash Deal promotion is valid from 2 September 2026 to 30 September 2026.\nPromotion is valid for new-to-UOB credit cardmembers only.\nBe one of the first 2 applicants at 2 PM & 10PM every day during the flash deal period to apply for selected UOB credit cards and make a min. spend of S$500 within the first 30 days of card approval to be eligible for the Flash Deal reward:\nS$200 Cash via PayNow\n; or a\nSamsonite Straren Spinner 67/24 (worth S$600)\n.\nRemaining applicants will receive \nS$90 Cash via PayNow\n.\nPromotion is stackable with UOB Welcome Offer (additional T&Cs apply).\nTerms and Conditions\n apply",
+   "tnc_url": null,
+   "bundle_with": []
+  }
+ ],
+ "links": {
+  "apply": "https://www.singsaver.com.sg/apply-v3/17467"
+ },
+ "citation": {
+  "id": "singsaver:eea43cb0180c",
+  "url": "https://www.singsaver.com.sg/credit-card/products/uob-visa-signature-card",
+  "title": "UOB Visa Signature Card",
+  "source_type": "aggregator",
+  "retrieved_at": "2026-09-27T05:27:09+00:00",
+  "sha256": "eea43cb0180c1e6dc36abf89df4a58e9e17e4e52e7f6093a692fbf91820590a2",
+  "snapshot": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-uob-visa-signature-card-19a37079.html"
+ },
+ "extra": {
+  "network": [
+   "VISA Signature"
+  ],
+  "mobile_wallets": [
+   "Google Pay",
+   "Apple Pay",
+   "Samsung Pay",
+   "NETSPay"
+  ],
+  "fx_fee_percent": 3.25,
+  "miles_conversion_fee": 27.0,
+  "categories": [
+   "category:airmiles",
+   "category:all-credit-cards",
+   "category:installment",
+   "category:petrol-promo",
+   "category:promo",
+   "needs:0-interest-rate",
+   "needs:0-processing-fee",
+   "needs:all-airmiles-cards",
+   "needs:all-cards-with-petrol-promo",
+   "needs:all-cards-with-promotion",
+   "needs:all-credit-cards",
+   "needs:all-installment-cards",
+   "needs:long-tenure-installment",
+   "needs:unlimited-airmiles"
+  ],
+  "tag": "Best for contactless, overseas, and petrol transactions",
+  "description": "Get rewarded when you're at home or abroad with the UOB Visa Signature Card. Earn UNI$10 for every S$5 you spend on overseas FCY transactions or petrol and contactless transactions locally—equivalent to 2% cashback or 4 mpd."
+ }
+}

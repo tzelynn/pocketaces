@@ -1,0 +1,69 @@
+{
+ "source": "singsaver",
+ "source_id": "citi-clear-card",
+ "source_url": "https://www.singsaver.com.sg/credit-card/products/citi-clear-card",
+ "name": "Citi Clear Card",
+ "bank": "Citibank",
+ "card_id": "citi-clear",
+ "image_url": "https://mhgprod.blob.core.windows.net/singsaver/strapi-uploads/s_bltb62c3c4ad1512b63_662a10bc42.png",
+ "annual_fee": 30.52,
+ "annual_fee_note": "S$ | With First Year Fee Waiver",
+ "min_annual_income": 0.0,
+ "earn_rates": {
+  "points_per_dollar:baseline": {
+   "value": 1.0,
+   "unit": "points_per_dollar",
+   "note": null
+  },
+  "points_per_dollar:local_spending": {
+   "value": 1.0,
+   "unit": "points_per_dollar",
+   "note": null
+  },
+  "points_per_dollar:overseas_spending": {
+   "value": 1.0,
+   "unit": "points_per_dollar",
+   "note": null
+  }
+ },
+ "caps": {},
+ "highlights": [
+  "1 reward point per dollar on all eligible spend",
+  "pros: Earn 1X Point* for every S$1 spend",
+  "pros: Enjoy exclusive dining deals at over 1,000 eateries in Singapore",
+  "pros: Enjoy online fashion, lifestyle and travel exclusives at your favourite online brands",
+  "pros: No min. annual income requirement",
+  "pros: Earn 1X Point* for every S$1 spend",
+  "pros: Enjoy exclusive dining deals at over 1,000 eateries in Singapore",
+  "pros: •\tEnjoy online fashion, lifestyle and travel exclusives at your favourite online brands"
+ ],
+ "sign_up_offers": [],
+ "links": {},
+ "citation": {
+  "id": "singsaver:eae254c9ba18",
+  "url": "https://www.singsaver.com.sg/credit-card/products/citi-clear-card",
+  "title": "Citi Clear Card",
+  "source_type": "aggregator",
+  "retrieved_at": "2026-09-27T05:25:07+00:00",
+  "sha256": "eae254c9ba18cdd91b790f8a32350f626e52b353f6e8f37f59ee58f76b47af3b",
+  "snapshot": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-citi-clear-card-7ddc9d26.html"
+ },
+ "extra": {
+  "network": [
+   "Mastercard"
+  ],
+  "mobile_wallets": [
+   "Google Pay",
+   "Apple Pay",
+   "Samsung Pay"
+  ],
+  "fx_fee_percent": 3.25,
+  "miles_conversion_fee": null,
+  "categories": [
+   "category:all-credit-cards",
+   "needs:all-credit-cards"
+  ],
+  "tag": "Best for young adults, everyday spend",
+  "description": "The Citi Clear Card is a new rewards points card designed for the student's everyday lifestyle. With no minimum income requirement, you can start earning 1X point per S$1 on almost any purchase, while also getting exclusive deals on dining, online fashion, lifestyle, and travel."
+ }
+}

@@ -1,0 +1,155 @@
+{
+ "source": "singsaver",
+ "source_id": "cimb-world-mastercard",
+ "source_url": "https://www.singsaver.com.sg/credit-card/products/cimb-world-mastercard",
+ "name": "CIMB World Mastercard",
+ "bank": "CIMB Bank",
+ "card_id": "cimb-world-mastercard",
+ "image_url": "https://mhgprod.blob.core.windows.net/singsaver/strapi-uploads/xs_blt877fcf76cc9256de_a4e635301b.png",
+ "annual_fee_note": "No Annual Fee",
+ "min_annual_income": 30000.0,
+ "min_monthly_spend": 1000.0,
+ "earn_rates": {
+  "percent:retail": {
+   "value": 2.0,
+   "unit": "percent",
+   "note": "With $1,000 min. spend posted in the same statement month. No cap."
+  },
+  "percent:transport": {
+   "value": 2.0,
+   "unit": "percent",
+   "note": "On Taxi and Automobile with $1,000 min. spend posted in the same statement month."
+  },
+  "percent:department_store": {
+   "value": 2.0,
+   "unit": "percent",
+   "note": "With $500 min. spend posted in the same statement month. Earn an addition 1% cashback on all spend with a min. spend of S$2,500 in the same statement month. No cap."
+  },
+  "percent:dining": {
+   "value": 2.0,
+   "unit": "percent",
+   "note": "With $1,000 min. spend posted in the same statement month. No cap."
+  },
+  "percent:overseas": {
+   "value": 3.0,
+   "unit": "percent",
+   "note": "Up to | For a limited time, earn 3% on overseas foreign currency spend (valid till 31 Jan 2025). Base rate 1%."
+  },
+  "percent:local": {
+   "value": 2.0,
+   "unit": "percent",
+   "note": "2% cashback on dining, entertainment, luxury goods and taxi with $1,000 min. spend posted in the same statement month. No cap."
+  },
+  "percent:baseline": {
+   "value": 1.0,
+   "unit": "percent",
+   "note": "With $500 min. spend posted in the same statement month. No cap."
+  }
+ },
+ "caps": {
+  "cashback_bonus_cap": {
+   "value": null,
+   "note": "No cap"
+  }
+ },
+ "highlights": [
+  "2% cashback on dining, retail, department stores, transport, and local purchases, and 1% cashback on foreign currency spending and all other expenses. A minimum spend of S$1,000 is required for cashback on dining, retail, transport, and local purchases. Additionally, a minimum spend of S$500 is required for department stores, and you can earn an additional 1% cashback if you spend more than S$2,500 in the same statement month. All qualifying cashbacks have no cap.",
+  "pros: Unlimited 2% cashback on dining, movies & digital entertainment, taxi, ride-hailing, automobile, and luxury goods.",
+  "pros: Unlimited 1% on all other eligible spend with no minimum spend.",
+  "pros: Enjoy 50% off green fees at 25 golf courses.",
+  "pros: Access to over 1,000 LoungeKey airport lounges globally.",
+  "pros: Can be used for bus and train rides with SimplyGo.",
+  "pros: No annual fees for life + up to 4 supplementary cards with no annual fees.",
+  "cons: Only Singapore citizens and Permanent Residents may apply.",
+  "cons: Minimum annual income requirement: S$30,000.",
+  "cons: Minimum spend of S$1,000 required for 2% cashback earn rate.",
+  "cons: Minimum spend of S$500 required for 1% cashback earn rate.",
+  "pros: No rebate cap",
+  "pros: Food delivery",
+  "pros: Annual Fee waiver",
+  "cons: Monthly spend required"
+ ],
+ "sign_up_offers": [
+  {
+   "kind": "exclusive_offer",
+   "title": "Stackable Welcome Offer",
+   "offer_id": "SG.2026-05-18.CC.CIMB.FANTHOM.BAU",
+   "valid_from": "2026-05-18T15:59:00Z",
+   "valid_to": "2026-09-30T15:59:00Z",
+   "gifts": [
+    {
+     "title": "Samsonite Black Label Fanthom Spinner 69/25 EXP TSA Luggage (worth S$1,150)",
+     "value_sgd": 1150
+    }
+   ],
+   "terms": "Welcome Offer promotion is valid from 19 May 2026 to 30 September 2026.\nPromotion is valid for new CIMB credit cardmembers only.\nApply and activate selected CIMB credit cards and make a min. spend of S$2,000 on eligible posted transactions within 60 days of card approval date to be eligible for reward.\nPromotion is stackable with SingSaver Exclusive Offer (additional T&Cs apply).\nTerms and Conditions\n apply.",
+   "tnc_url": null,
+   "bundle_with": []
+  },
+  {
+   "kind": "exclusive_offer",
+   "title": "SingSaver Exclusive Offer ",
+   "offer_id": "SG.2026-08-03.CC.CIMB.3XCC.50CASH.FANTHOM.BAUSTACK",
+   "valid_from": "2026-08-31T16:00:00Z",
+   "valid_to": "2026-09-30T15:59:00Z",
+   "gifts": [
+    {
+     "title": "S$50 Cash via PayNow",
+     "value_sgd": 50
+    }
+   ],
+   "terms": "SingSaver Exclusive Offer promotion is valid from 1 September 2026 to 30 September 2026.\nPromotion is valid for new CIMB credit cardmembers only.\nApply for select CIMB credit cards and make a min. spend of S$2,000 within 60 days of card approval to be eligible for reward.\nPromotion is stackable with other Welcome Offers from CIMB (\nadditional T&Cs apply\n).\nTerms and Conditions\n apply.",
+   "tnc_url": null,
+   "bundle_with": []
+  }
+ ],
+ "links": {
+  "apply": "https://www.singsaver.com.sg/apply-v3/17432"
+ },
+ "citation": {
+  "id": "singsaver:a7dfa0682bc7",
+  "url": "https://www.singsaver.com.sg/credit-card/products/cimb-world-mastercard",
+  "title": "CIMB World Mastercard",
+  "source_type": "aggregator",
+  "retrieved_at": "2026-09-27T05:25:03+00:00",
+  "sha256": "a7dfa0682bc748005e5c339c03f25d5940f182d77f3b1318192e884d444a83a6",
+  "snapshot": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-cimb-world-mastercard-21f648b0.html"
+ },
+ "extra": {
+  "network": [
+   "World Mastercard"
+  ],
+  "mobile_wallets": [
+   "Google Pay",
+   "Samsung Pay"
+  ],
+  "fx_fee_percent": 3.0,
+  "miles_conversion_fee": null,
+  "categories": [
+   "category:all-credit-cards",
+   "category:cashback",
+   "category:dining-promo",
+   "category:grocery-promo",
+   "category:installment",
+   "category:promo",
+   "category:retail-promo",
+   "category:travel",
+   "needs:0-interest-rate",
+   "needs:all-cards-with-dining-promo",
+   "needs:all-cards-with-grocery-promo",
+   "needs:all-cards-with-promotion",
+   "needs:all-cards-with-retail-promo",
+   "needs:all-cashback-cards",
+   "needs:all-credit-cards",
+   "needs:all-installment-cards",
+   "needs:all-travel-cards",
+   "needs:high-value-gifts",
+   "needs:long-tenure-installment",
+   "needs:online-booking-discount",
+   "needs:singsaver-exclusive",
+   "needs:unlimited-cashback"
+  ],
+  "tag": "Best for frequent spending on common spend categories",
+  "description": "Boasting the highest unlimited cashback in Singapore, the CIMB World Mastercard is a formidable card to own if you spend frequently on the following categories: dining, online food delivery, movies, digital entertainment, taxi rides, ride-hailing, automobile, and luxury goods"
+ }
+}

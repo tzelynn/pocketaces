@@ -1,0 +1,77 @@
+{
+ "source": "moneysmart",
+ "source_id": "uob-absolute-cashback-card",
+ "source_url": "https://www.moneysmart.sg/credit-cards/uob-absolute-cashback-card",
+ "name": "UOB Absolute Cashback Card",
+ "bank": "UOB",
+ "card_id": "uob-absolute-cashback",
+ "image_url": "https://photos.cdn-moneysmart.com/credit_cards/uploads/products/images/image_url_2021-09-29_Details - Logo - UOB Absolute Card.png",
+ "annual_fee": 196.2,
+ "earn_rates": {},
+ "caps": {},
+ "highlights": [
+  "1.7% Cash Back on Eligible Spend",
+  "0 Min. Spend per month",
+  "Unlimited Cash Back Cap",
+  "Enjoy 1.7% limitless cashback across your retail spend including groceries, insurance, as well as big purchases such as home furnishings, electronics and luxury shopping.",
+  "Enjoy 0.3% limitless cashback on generally excluded spend such as charity, education, healthcare, professional services, utilities and Grab mobile wallet top-ups.",
+  "For limited time only, enjoy up to 2% cashback on contactless spend locally & overseas till 31 Jan 2027.",
+  "No minimum spend and no spend exclusions (\"No spend exclusions\" does not include NETS transactions made with the UOB Absolute Cashback Card)",
+  "At MoneySmart, we strive to keep our information accurate and up to date. This information may be different from what you see when you visit a financial institution, service provider, or specific product site. MoneySmart shall not be liable to compensate the Customer should the information is not as updated as our Partner."
+ ],
+ "sign_up_offers": [],
+ "links": {
+  "product": "https://www.moneysmart.sg/credit-cards/uob-absolute-cashback-card",
+  "review": "https://blog.moneysmart.sg/credit-cards/uob-absolute-cashback-card/"
+ },
+ "citation": {
+  "id": "moneysmart:fbcf8e7229a3",
+  "url": "https://www.moneysmart.sg/credit-cards?page=3",
+  "title": "UOB Absolute Cashback Card",
+  "source_type": "aggregator",
+  "retrieved_at": "2026-09-27T05:27:18+00:00",
+  "sha256": "fbcf8e7229a38611c3c767cd8447164e413b1306df1f54bebee269e3abf15202",
+  "snapshot": "data/raw/moneysmart/credit-cards-p3-707cb52c.html"
+ },
+ "extra": {
+  "summary": "UOB Absolute Cashback shines with its straightforward 1.7% cashback on almost everything, local or overseas – ideal if you dislike tracking categories. While NETS transactions and specific spend like utilities earn a lower 0.3%, the lack of minimum spend and cashback caps are a huge plus. This card suits those seeking simplicity and high cashback on big-ticket items like electronics or home furnishings. ",
+  "badges": [
+   "Unlimited 1.7% Cashback"
+  ],
+  "network": [
+   "American Express"
+  ],
+  "mobile_wallets": [],
+  "groups": {
+   "annual-interest-rate-and-fees": {
+    "Annual Interest Rate": "27.80",
+    "Annual Principal Fee": "196.20",
+    "Supplementary Annual Fee": "1st supplementary card free; $98.10 for subsequent cards",
+    "Fee Waiver": "1st year fee waiver",
+    "Minimum Monthly Repayment": "3% or S$50, whichever is higher",
+    "Interest Free Period": "21 days"
+   },
+   "minimum-income-requirements": {
+    "Singaporean/PR Minimum Annual Income": "30000",
+    "Non-Singaporean Minimum Annual Income": "40000"
+   },
+   "card-association": {
+    "American Express": "true"
+   },
+   "documents-required": {
+    "SG Citizens or PRs": "Identity Card Proof",
+    "Passport Validity (Foreigners)": "At least 6 months' validity",
+    "Work Permit Validity (Foreigners)": "EP or S Pass only with at least 6 months’ validity",
+    "Utility or Telephone Bill": "Latest Billing Proof",
+    "Income Tax Notice of Assessment": "N/A",
+    "Latest Original Computerised Payslip": "Yes"
+   }
+  },
+  "our_takes": {
+   "our-take": "UOB Absolute Cashback shines with its straightforward 1.7% cashback on almost everything, local or overseas – ideal if you dislike tracking categories. While NETS transactions and specific spend like utilities earn a lower 0.3%, the lack of minimum spend and cashback caps are a huge plus. This card suits those seeking simplicity and high cashback on big-ticket items like electronics or home furnishings. The annual fee is waived in the first year. However, frequent users of NETS or specialized cashback cards for dining or groceries might find better value elsewhere.",
+   "good-for": "Cashback-focused individuals seeking 1.7% unlimited returns across all local and overseas retail spends, including big-ticket purchases.\nIdeal for those who dislike minimum spend requirements, maximizing cashback on everyday expenses without exclusions, beyond typical spending categories.\nPerfect for users wanting a straightforward cashback card with automatic statement offsets, eliminating complex calculations or redemption processes.",
+   "things-to-note": "High interest at 27.8% applies on unpaid amounts; carrying a balance can result in substantial charges.\nLate payment fees of S$100 occur if minimum payments aren't received by the due date.\nForeign transaction fees add 3.25% to non-SGD transactions, increasing the cost of overseas spending."
+  },
+  "updated_at": "2026-09-04T11:06:48+08:00"
+ }
+}

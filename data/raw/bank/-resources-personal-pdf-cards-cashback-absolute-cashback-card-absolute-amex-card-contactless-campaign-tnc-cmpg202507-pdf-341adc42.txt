@@ -1,0 +1,178 @@
+UOB Absolute Cashback Card – 3% Cashback on Contactless Spend Campaign (the “Promotion”)
+Terms and Conditions (the “Terms and Conditions”)
+1. Eligibility
+1.1 This Promotion is valid from 2 June to 31 July 2025, both dates inclusive (the “Promotion Period”).
+By participating in this Promotion, you agree to be bound by these Terms and Conditions.
+1.2 This Promotion is only to all principal holders of a UOB Absolute Cashback American Express®
+Card that is issued by United Overseas Bank Limited (“UOB” or the “Bank”) in Singapore (“Card”).
+1.3 To participate in this Promotion, you must successfully register to participate in this Promotion by
+sending in an SMS to 77862 using your Singapore mobile number registered with UOB during the
+Promotion Period in the following format (the “SMS Registration”):
+ABC<space>Last 4 alphanumeric digits of your NRIC or Passport Number
+Example: If your NRIC is S1234567A, you will need to send “ABC 567A” to 77862.
+1.4 All SMS Registrations for this Promotion which are not in the format prescribed in these Terms and
+Conditions, sent to an incorrect number, sent from a mobile number which is not registered with
+UOB, or sent outside of the Promotion Period will be null and void.
+1.5 During the Promotion Period, if you successfully charge a total of at least S$500 in Eligible
+Contactless Transactions (as defined below) to your Card, you shall be eligible to earn 3%
+Cashback on the total amount of the Eligible Contactless Transactions charged using your Card
+during this period. This is based on:
+(a) the base cashback of 1.7% awarded in accordance with the prevailing Terms and
+Conditions Governing the UOB Absolute Cashback Card (“Base Rebate”); and
+(b) a one-time bonus cash rebate of 1.3% (the “Bonus Rebate”) under this Promotion.
+The Base Rebate and Bonus Rebate are each a “Rebate”.
+1.6 The maximum Bonus Rebate amount that you may earn is capped at a total spend of S$3000 in
+Eligible Contactless Transactions during the Promotion Period – i.e. $39. For the avoidance of
+doubt, there is no cap on the Base Rebate that you may be eligible to earn on your Eligible
+Contactless Transactions.
+1.7 For the purposes of the Promotion:
+(a) “Eligible Contactless Transactions” refers to Dining Transactions, Shopping
+Transactions and Transport Transactions in which the purchase of goods and/or services
+are successfully charged to your Card via physical Card contactless payment at Point-Of-
+Sale terminals (whether in Singapore dollars or in foreign currency) and posted on UOB’s
+system but shall exclude the Excluded Transactions.
+(b) “Excluded Transactions” shall mean:-
+## RESTRICTED ##i. transactions via the internet and processed by the respective merchants/acquirers as
+an online transaction;
+ii. cash advance, late payment, personal loan, balance and/or funds transfer, SmartPay,
+funds to pre-paid cards or mobile wallets, fees, chargebacks, interests, reversals,
+interest charges and any finance charges;
+iii. balances owing on your Card account(s) accruing from months that do not fall within
+the Promotion Period;
+iv. any transaction that was subsequently cancelled, voided, disputed or reversed for any
+reason; and/or
+v. such other categories of transactions which UOB may exclude from time to time without
+notice or giving reasons.
+(c) “Dining Transactions” refers to food and beverage transactions (which are not Online
+Transactions, and excluding all food and beverage transactions within hotels and country
+clubs and grocery stores and supermarkets) which fall under any one of the following
+Merchant Category Codes (“MCC”):
+MCC Description
+5812 Eating Places and Restaurants
+5814 Quick Payment Service — Fast Food Restaurants
+(d) “Online Transactions” refers to transactions made via the internet and processed by the
+respective merchant / acquirers as an online transaction through American Express networks.
+(e) “Shopping Transactions” refers to shopping transactions which are not Online Transactions,
+and which fall under any one of the following MCC:
+MCC Description
+4816 Electronic Commerce
+5311 Department Stores
+5611 Men’s & Boys’ Clothing and Accessory Stores
+5621 Women’s Ready-to-Wear Stores
+5631 Women’s Accessory and Specialty Stores
+5641 Children’s and Infants’ Wear Stores
+5651 Family Clothing Stores
+5661 Shoe Stores
+5691 Men’s and Women’s Clothing Stores
+5699 Miscellaneous Apparel and Accessory Stores
+5732 Electronics Stores
+5734 Computer Software
+5944 Jewelry, Watch, Clock, and Silverware Stores
+5945 Hobby, Toy and Game Stores
+## RESTRICTED ##5946 Camera and Photographic Supply Stores
+5947 Gift, Card, Novelty, and Souvenir Stores
+5948 Luggage and Leather Goods Stores
+5949 Sewing, Needlework, Fabric, and Piece Good Stores
+5970 Artist Supply and Craft Stores
+5992 Florists
+5999 Miscellaneous & Specialty Retail Stores
+(f) “Transport Transactions” refers to transportation transactions which are not Online
+Transactions, and which fall under any one of the following MCC:
+MCC Description
+4011 Railroads
+4111 Local Commuter Transport
+4112 Passenger Rail
+4121 Taxicabs and Limousines
+4131 Bus Lines, Charter and Tour
+4784 Toll and Bridge Fees
+4789 Travel Services
+7523 Auto Parking Lot and Garages
+(g) Eligible Contactless Transactions incurred by the supplementary holder of your Card under
+this Promotion shall accrue to your Card for the purposes of this Promotion.
+(h) UOB reserves the right, at any time and at its discretion, to amend or vary the list above
+without any reasons, prior notification and/or assuming any liability to any party and shall not
+be liable to pay any compensation or enter into any correspondence in connection with the
+same.
+(i) MCCs are assigned to a merchant/business by the merchant’s acquiring bank, and not UOB
+as the issuer of the Card.
+1.8 If you are eligible to earn the Bonus Rebate, the Bonus Rebate will be credited to your Card account
+within two (2) months after the Promotion Period (or such other date as may be determined by UOB
+in its sole discretion) and reflected in your monthly UOB Credit Card statement. No advance
+crediting of the Bonus Rebate or the Base Rebate will be entertained.
+2. General
+2.1 Sending and receiving SMS is dependent on an SMS vendor, an independent telecommunication
+authority or service provider or such other third party which is engaged by UOB for the Promotion
+and UOB shall not be responsible or liable for any undelivered, lost or delayed SMS sent to and/or
+received by any person. You shall pay and be solely responsible for all fees and charges imposed
+by your service providers for the sending and/or receipt of any SMS in connection with the
+Promotion. The SMS vendor, independent telecommunication authority or service provider or such
+other third party is a third party and is independent and beyond the control of UOB. UOB shall not
+## RESTRICTED ##be responsible or liable in any manner whatsoever for the delay in the transmission or receipt of
+any SMS or for any lost SMS.
+2.2 You shall only be eligible to earn the Bonus Rebate for this Promotion once.
+2.3 UOB may substitute the rewards under the Promotion with any item of equivalent or similar value,
+without prior notice of reason or being liable to any person.
+2.4 The following persons shall not be eligible to participate in the Promotion:
+(a) individuals whose UOB account(s) is/are voluntarily or involuntarily suspended, cancelled,
+closed or terminated at any time;
+(b) individuals whose UOB account(s) is/are not active, valid, subsisting or in good standing
+or delinquent or unsatisfactorily conducted as may be determined by UOB at its sole
+discretion;
+(c) individuals who are mentally unsound, facing legal incapacity or are incapable of handling
+their affairs, deceased, insolvent, bankrupt or have any legal proceedings (or any threat)
+of any nature instituted against them; or
+(d) anyone whom UOB may decide to exclude, at its sole discretion, without any reason or
+prior notice at any time.
+2.5 UOB will not be liable or responsible for any injury, loss or damage whatsoever or for any charge,
+cost or expense of any kind whatsoever suffered or incurred as a result of or in connection with the
+redemption or usage of the Rebate or participation in this Promotion. Without limiting the foregoing,
+UOB will not be liable or responsible for any undelivered, misdirected, corrupted, lost or delayed
+text, transmission or transaction or any delay or failure in posting any transaction or accessing any
+of UOB’s online banking services or mobile banking services or third-party applications, howsoever
+caused.
+2.6 If your Card account is not validly subsisting and in good standing, is closed, terminated and/or
+suspended for any reason whatsoever during the Promotion Period or before any reward under
+this Promotion is credited, you will not be entitled to receive any such reward.
+2.7 UOB has the absolute right and unfettered discretion to make decisions on all matters relating to
+or in connection with the Promotion, including but not limited to the determination of whether you
+have met all the requirements of the Promotion, determination as to whether a transaction qualifies
+to be eligible and determination of the Rebate to be awarded to you under this Promotion. UOB’s
+decisions shall be final, conclusive and binding on all parties concerned and no payment or
+compensation will be given. The Bank shall not be obliged to give any reason or prior notice or
+enter into any correspondence with any person on any matter relating to the Promotion or its
+decision or to assume any liability to any person and no appeal, correspondence or claims will be
+entertained.
+2.8 If UOB determines that you are ineligible to participate in this Promotion or to receive any reward,
+UOB may in its sole discretion forfeit the reward, reverse or cancel any Rebate already credited to
+your Card account or charge to and debit an amount equal to the value of the reward from any of
+your accounts with UOB without prior notice to you. If the monies standing to the credit of your
+## RESTRICTED ##accounts are insufficient to reimburse UOB, you shall immediately reimburse UOB for the value of
+the reward through such means as UOB may determine in its sole discretion.
+2.9 These Terms and Conditions shall be read in conjunction with the prevailing UOB Cardmember
+Agreement, the Terms and Conditions Governing UOB Absolute Cashback Card and any other
+terms that may be relevant in connection with this Promotion (collectively the “Standard Terms”).
+In the event of any inconsistency between (i) the Terms and Conditions and the Standard Terms,
+the Terms and Conditions shall prevail to the extent of such inconsistency; and (ii) the Terms and
+Conditions and any advertising, promotional, publicity, brochure, marketing or other materials
+relating to or in connection with the Promotion, the Terms and Conditions shall prevail to the extent
+that such discrepancy relates to this Promotion.
+2.10 Notwithstanding anything in the Terms and Conditions, the Bank may, at any time and at its
+discretion terminate the Promotion and/or vary any of the Terms and Conditions without giving any
+reason or prior notice or assuming any liability to any person, and all persons shall be bound by
+these amendments.
+2.11 By participating in this Promotion and in addition to any other consent you have already provided
+to UOB and any right of UOB under applicable laws, you consent to UOB and the necessary third
+parties collecting, using and disclosing your information (including your personal data) for the
+purposes of this Promotion and to contact you, including by voice call or text message.
+2.12 These Terms and Conditions shall be governed by the laws of the Republic of Singapore and you
+hereby agree to submit to the exclusive jurisdiction of the courts of Singapore.
+2.13 A person who is not a party to the terms and conditions herein and/or any agreement governed by
+the terms and conditions herein shall have no rights under the Contracts (Rights of Third Parties)
+Act 2001 of Singapore to enforce any term of such agreement or any of the terms and conditions
+herein.
+2.14 This Promotion is not valid with other promotions unless otherwise expressly stated.
+Disclaimer: UOB Absolute Cashback American Express® Card is issued by United Overseas Bank Limited
+pursuant to a license from American Express®.
+United Overseas Bank Limited Co. Reg. No.193500026Z
+2 June 2025
+## RESTRICTED ##

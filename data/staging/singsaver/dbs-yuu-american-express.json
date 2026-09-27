@@ -1,0 +1,285 @@
+{
+ "source": "singsaver",
+ "source_id": "dbs-yuu-american-express-card",
+ "source_url": "https://www.singsaver.com.sg/credit-card/products/dbs-yuu-american-express-card",
+ "name": "DBS yuu American Express Card",
+ "bank": "DBS",
+ "card_id": "dbs-yuu-american-express",
+ "image_url": "https://mhgprod.blob.core.windows.net/singsaver/strapi-uploads/s_blt2021eb99d2638e83_0dae1fb7e0.png",
+ "annual_fee": 196.2,
+ "annual_fee_note": "S$ | First Year Waived",
+ "min_annual_income": 30000.0,
+ "earn_rates": {
+  "percent:overseas": {
+   "value": 0.5,
+   "unit": "percent",
+   "note": "1x yuu Point per S$1"
+  },
+  "percent:travel": {
+   "value": 0.5,
+   "unit": "percent",
+   "note": "1x yuu Point per S$1"
+  },
+  "percent:dining": {
+   "value": 18.0,
+   "unit": "percent",
+   "note": "Up to  | Up to 18% cash rebate at participating BreadTalk Group and Dairy Farm International Retail Group merchants. "
+  },
+  "percent:petrol": {
+   "value": 0.5,
+   "unit": "percent",
+   "note": "1x yuu Point per S$1"
+  },
+  "percent:local_online_shopping": {
+   "value": 18.0,
+   "unit": "percent",
+   "note": "Up to  | Up to 18% cash rebate on participating Dairy Farm International, BreadTalk Group, Mandai Wildlife Group, and Singtel merchants. "
+  },
+  "percent:overseas_online_shopping": {
+   "value": 0.5,
+   "unit": "percent",
+   "note": "1x yuu Point per S$1"
+  },
+  "percent:health": {
+   "value": 18.0,
+   "unit": "percent",
+   "note": "Up to  | Up to 18% cash rebate on participating Dairy Farm International, BreadTalk Group, Mandai Wildlife Group, and Singtel merchants."
+  },
+  "percent:department_store": {
+   "value": 18.0,
+   "unit": "percent",
+   "note": "Up to  | Up to 18% cash rebates when you spend min. S$800 and at 4 Participating Merchants per calendar month (incl. Cold Storage, Giant, Guardian, 7-Eleven, foodpanda, SimplyGo and many more)"
+  },
+  "percent:contactless_spend": {
+   "value": 18.0,
+   "unit": "percent",
+   "note": "Up to  | Up to 18% cash rebate on participating Dairy Farm International, BreadTalk Group, Mandai Wildlife Group, and Singtel merchants."
+  },
+  "points_per_dollar:baseline": {
+   "value": 1.0,
+   "unit": "points_per_dollar",
+   "note": "0.5% cash rebate (1x yuu point)"
+  },
+  "points_per_dollar:local_spending": {
+   "value": 36.0,
+   "unit": "points_per_dollar",
+   "note": "Up to   | Up to 36x yuu Points (up to 18% cash rebate) when you spend min. S$800 and at 4 Participating Merchants per calendar month (incl. Cold Storage, Giant, Guardian, 7-Eleven, foodpanda, SimplyGo and many more)"
+  },
+  "points_per_dollar:overseas_spending": {
+   "value": 1.0,
+   "unit": "points_per_dollar",
+   "note": null
+  },
+  "points_per_dollar:contactless_spend": {
+   "value": 36.0,
+   "unit": "points_per_dollar",
+   "note": "Up to  | Up to 36x yuu Points (up to 18% cash rebate) at participating BreadTalk Group, Dairy Farm International, Mandai Wildlife Group, and Singtel merchants.  "
+  },
+  "points_per_dollar:online_shopping": {
+   "value": 36.0,
+   "unit": "points_per_dollar",
+   "note": "Up to  | Up to 36x yuu Points (up to 18% cash rebate) at participating BreadTalk Group, Dairy Farm International, Mandai Wildlife Group, and Singtel merchants.  "
+  },
+  "points_per_dollar:retail": {
+   "value": 36.0,
+   "unit": "points_per_dollar",
+   "note": "Up to  | Up to 36x yuu Points (up to 18% cash rebate) at participating BreadTalk Group, Dairy Farm International, Mandai Wildlife Group, and Singtel merchants.  "
+  },
+  "points_per_dollar:dining": {
+   "value": 36.0,
+   "unit": "points_per_dollar",
+   "note": "Up to  | Up to 36x yuu Points (up to 18% cash rebate) at participating BreadTalk Group, Dairy Farm International, Mandai Wildlife Group, and Singtel merchants."
+  },
+  "points_per_dollar:grocery": {
+   "value": 36.0,
+   "unit": "points_per_dollar",
+   "note": "Up to  | Up to 36x yuu Points (up to 18% cash rebate) at participating BreadTalk Group, Dairy Farm International, Mandai Wildlife Group, and Singtel merchants."
+  },
+  "percent:transport": {
+   "value": 0.5,
+   "unit": "percent",
+   "note": "1x yuu Point per S$1"
+  },
+  "percent:baseline": {
+   "value": 0.5,
+   "unit": "percent",
+   "note": "1x yuu Point per S$1"
+  },
+  "percent:retail": {
+   "value": 0.5,
+   "unit": "percent",
+   "note": "1x yuu Point per S$1"
+  },
+  "percent:supermarket": {
+   "value": 18.0,
+   "unit": "percent",
+   "note": "Up to  | Up to 18% cash rebate at Giant."
+  },
+  "percent:local": {
+   "value": 18.0,
+   "unit": "percent",
+   "note": "Up to  | 36 yuu Points per S$1 when you pair the yuu card with the yuu app at a yuu merchant."
+  },
+  "mpd:baseline": {
+   "value": 0.28,
+   "unit": "mpd",
+   "note": "1x yuu Point per S$1"
+  },
+  "mpd:local": {
+   "value": 10.0,
+   "unit": "mpd",
+   "note": "Up to  | Up to 36x yuu Points (up to 10 mpd) when you spend min. S$800 and at 4 Participating Merchants per calendar month (incl. Cold Storage, Giant, Guardian, 7-Eleven, foodpanda, SimplyGo and many more)"
+  }
+ },
+ "caps": {
+  "rewards_bonus_cap": {
+   "value": 28800.0,
+   "note": "Spend a minimum of S$800 and at 4 participating merchants to earn 36x yuu Points (capped at 28,800 yuu Points, equivalent to S$144 cash rebates or 8,000 miles) per calendar month."
+  }
+ },
+ "highlights": [
+  "Earn up to 18% cash rebated on your daily spend at Cold Storage, Giant, Guardian, 7-Eleven, foodpanda, SimplyGo and more. Note: Bonus yuu Points are capped at 28,800 yuu Points (S$144) per calendar month.",
+  "pros: Up to 36X Points on yuu participating merchants.",
+  "pros: 1X Point on all other spend.",
+  "pros: S$1 spend = 1 yuu Point. No limit. No cap.",
+  "cons: Customers need to download the new rewards app as yuu Points awarded can only be tracked on yuu Rewards app.",
+  "cons: Redemptions of yuu Points capped at 15,600 points (S$78) per calendar month.",
+  "pros: Supermarket rebate",
+  "pros: Dining rebate",
+  "pros: Transport rebate",
+  "cons: Rebate cap applied",
+  "cons: Monthly spend required"
+ ],
+ "sign_up_offers": [
+  {
+   "kind": "welcome_offer",
+   "title": "Stackable Welcome Offer",
+   "offer_id": "SG.2026-04-01.CC.DBSX.CASHLINE.BAU",
+   "valid_from": "2026-08-31T16:00:00Z",
+   "valid_to": "2026-09-30T15:59:00Z",
+   "gifts": [
+    {
+     "title": "Up to S$200 Cashback on Cashline",
+     "value_sgd": 200
+    }
+   ],
+   "terms": "Stackable Welcome Offer promotion is valid from 1 September 2026 to 30 September 2026.\nPromotion is valid for new DBS / POSB credit cardmembers only.\nApply and get approved for selected credit cards from DBS and POSB during the promo period and select “Cashline” in your application on the DBS/POSB website (except foreigners) to be eligible for S$100 cash reward.\nReceive an additional S$100 cash with a minimum S$188 closing balance accumulated for Cashline withdrawals in the first two statement months upon account opening.\nTerms and Conditions\n apply.",
+   "tnc_url": null,
+   "bundle_with": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "kind": "exclusive_offer",
+   "title": "SingSaver Exclusive Offer",
+   "offer_id": "SG.2026-09-17.CC.DBSX.6XCC.288CASH-310GRAB-18KMAXM-MRMINI20-STRAREN-[DYSON-APPLE]",
+   "valid_from": "2026-09-16T16:00:00Z",
+   "valid_to": "2026-09-30T15:59:00Z",
+   "gifts": [
+    {
+     "title": "S$288 Cash via PayNow",
+     "value_sgd": 288
+    },
+    {
+     "title": "S$310 Grab Voucher",
+     "value_sgd": 310
+    },
+    {
+     "title": "18,000 Max Miles by HeyMax (worth S$324)",
+     "value_sgd": 324
+    },
+    {
+     "title": "Morning Mini Coffee Machine + 20 Capsules Bundle (worth S$425)",
+     "value_sgd": 425
+    },
+    {
+     "title": "Samsonite Straren Spinner 67/24 (worth S$600)",
+     "value_sgd": 600
+    },
+    {
+     "title": "Dyson V8 Cyclone Vacuum Cleaner (worth S$559, top up S$150)",
+     "value_sgd": 559
+    },
+    {
+     "title": "Dyson Airstrait™ hair straightener (worth S$799) (Top up S$200)",
+     "value_sgd": 799
+    },
+    {
+     "title": "Sony WH-1000XM6 Headphones (worth S$649) (top up S$200)",
+     "value_sgd": 649
+    },
+    {
+     "title": "Apple iPad (A16) 11\" 128GB WiFi (worth S$649) (Top up S$350)",
+     "value_sgd": 649
+    }
+   ],
+   "terms": "SingSaver Exclusive Offer promotion is valid from 17 September 2026 to 30 September 2026\nPromotion is valid for new DBS / POSB credit cardmembers only.\nApply for selected credit cards from DBS and POSB within the promo period using the promo code \"\nSINGSAVER\n\" during the application and make a min. spend of S$500 within 30 days from card approval date to be eligible for reward.\nHave a valid DBS PayLah! account by the end of the Qualifying Spend period to be eligible for the reward,\nSome rewards will require additional top-up to claim.\nPromotion does not stack with other welcome offers from DBS / POSB.\nTerms and Conditions\n apply.",
+   "tnc_url": null,
+   "bundle_with": []
+  }
+ ],
+ "links": {
+  "apply": "https://www.singsaver.com.sg/apply-v2b/17672"
+ },
+ "citation": {
+  "id": "singsaver:bfd746726f80",
+  "url": "https://www.singsaver.com.sg/credit-card/products/dbs-yuu-american-express-card",
+  "title": "DBS yuu American Express Card",
+  "source_type": "aggregator",
+  "retrieved_at": "2026-09-27T05:25:36+00:00",
+  "sha256": "bfd746726f80e740582cbd74d48c92f333e974bba6a7fd47ac49112a647ccbfe",
+  "snapshot": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-dbs-yuu-american-express-card-0a44e62a.html"
+ },
+ "extra": {
+  "network": [
+   "American Express"
+  ],
+  "mobile_wallets": [
+   "Google Pay",
+   "Samsung Pay",
+   "NETSPay"
+  ],
+  "fx_fee_percent": 3.25,
+  "miles_conversion_fee": null,
+  "categories": [
+   "category:all-credit-cards",
+   "category:buffet-promo",
+   "category:cashback",
+   "category:dining-promo",
+   "category:grocery-promo",
+   "category:installment",
+   "category:petrol-promo",
+   "category:promo",
+   "category:retail-promo",
+   "category:rewards",
+   "category:travel",
+   "needs:0-interest-rate",
+   "needs:all-cards-with-buffet-promo",
+   "needs:all-cards-with-dining-promo",
+   "needs:all-cards-with-grocery-promo",
+   "needs:all-cards-with-petrol-promo",
+   "needs:all-cards-with-promotion",
+   "needs:all-cards-with-retail-promo",
+   "needs:all-cashback-cards",
+   "needs:all-credit-cards",
+   "needs:all-installment-cards",
+   "needs:all-rewards-cards",
+   "needs:all-travel-cards",
+   "needs:high-cashback",
+   "needs:high-rewards-rebate",
+   "needs:long-tenure-installment",
+   "needs:online-booking-discount"
+  ],
+  "tag": null,
+  "description": "Spend with local merchants you love and be rewarded for it with the DBS yuu AMEX Card. What's more, you'll also enjoy 30% off hotel bookings, free trials on PressReader and 15% off Bloomingdale's!"
+ }
+}

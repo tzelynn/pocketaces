@@ -1,0 +1,161 @@
+{
+ "source": "singsaver",
+ "source_id": "maybank-platinum-visa-card",
+ "source_url": "https://www.singsaver.com.sg/credit-card/products/maybank-platinum-visa-card",
+ "name": "Maybank Platinum Visa Card",
+ "bank": "Maybank",
+ "card_id": "maybank-platinum-visa",
+ "image_url": "https://mhgprod.blob.core.windows.net/singsaver/strapi-uploads/xs_bltd34ddb6a380578f1_b448907c99.png",
+ "annual_fee": 20.0,
+ "annual_fee_note": "S$ | First Three Year Waived",
+ "min_annual_income": 30000.0,
+ "min_monthly_spend": 300.0,
+ "earn_rates": {
+  "percent:local": {
+   "value": 3.33,
+   "unit": "percent",
+   "note": "Up to | Quarterly cashback capped at S$30 with a minimum monthly spend of S$300 per quarter, and S$100 with a minimum monthly spend of S$1,000 per quarter. No quarterly cashback will be awarded if monthly minimum spend isn't met."
+  },
+  "percent:travel": {
+   "value": 3.33,
+   "unit": "percent",
+   "note": "Up to | Quarterly cashback capped at S$30 with a minimum monthly spend of S$300 per quarter, and S$100 with a minimum monthly spend of S$1,000 per quarter. No quarterly cashback will be awarded if monthly minimum spend isn't met."
+  },
+  "percent:dining": {
+   "value": 3.33,
+   "unit": "percent",
+   "note": "Up to | Quarterly cashback capped at S$30 with a minimum monthly spend of S$300 per quarter, and S$100 with a minimum monthly spend of S$1,000 per quarter. No quarterly cashback will be awarded if monthly minimum spend isn't met."
+  },
+  "percent:supermarket": {
+   "value": 3.33,
+   "unit": "percent",
+   "note": "Up to | Quarterly cashback capped at S$30 with a minimum monthly spend of S$300 per quarter, and S$100 with a minimum monthly spend of S$1,000 per quarter. No quarterly cashback will be awarded if monthly minimum spend isn't met."
+  },
+  "percent:petrol": {
+   "value": 3.33,
+   "unit": "percent",
+   "note": "Up to | Quarterly cashback capped at S$30 with a minimum monthly spend of S$300 per quarter, and S$100 with a minimum monthly spend of S$1,000 per quarter. No quarterly cashback will be awarded if monthly minimum spend isn't met."
+  },
+  "percent:retail": {
+   "value": 3.33,
+   "unit": "percent",
+   "note": "Up to | Quarterly cashback capped at S$30 with a minimum monthly spend of S$300 per quarter, and S$100 with a minimum monthly spend of S$1,000 per quarter. No quarterly cashback will be awarded if monthly minimum spend isn't met."
+  },
+  "percent:local_online_shopping": {
+   "value": 3.33,
+   "unit": "percent",
+   "note": "Up to | Quarterly cashback capped at S$30 with a minimum monthly spend of S$300 per quarter, and S$100 with a minimum monthly spend of S$1,000 per quarter. No quarterly cashback will be awarded if monthly minimum spend isn't met."
+  },
+  "percent:overseas_online_shopping": {
+   "value": 3.33,
+   "unit": "percent",
+   "note": "Up to | Quarterly cashback capped at S$30 with a minimum monthly spend of S$300 per quarter, and S$100 with a minimum monthly spend of S$1,000 per quarter. No quarterly cashback will be awarded if monthly minimum spend isn't met."
+  },
+  "percent:health": {
+   "value": 3.33,
+   "unit": "percent",
+   "note": "Up to | Quarterly cashback capped at S$30 with a minimum monthly spend of S$300 per quarter, and S$100 with a minimum monthly spend of S$1,000 per quarter. No quarterly cashback will be awarded if monthly minimum spend isn't met."
+  },
+  "percent:department_store": {
+   "value": 3.33,
+   "unit": "percent",
+   "note": "Up to | Quarterly cashback capped at S$30 with a minimum monthly spend of S$300 per quarter, and S$100 with a minimum monthly spend of S$1,000 per quarter. No quarterly cashback will be awarded if monthly minimum spend isn't met."
+  },
+  "percent:digital_wallet": {
+   "value": 3.33,
+   "unit": "percent",
+   "note": "Up to | Quarterly cashback capped at S$30 with a minimum monthly spend of S$300 per quarter, and S$100 with a minimum monthly spend of S$1,000 per quarter. No quarterly cashback will be awarded if monthly minimum spend isn't met."
+  },
+  "percent:insurance": {
+   "value": 3.33,
+   "unit": "percent",
+   "note": "Up to | Quarterly cashback capped at S$30 with a minimum monthly spend of S$300 per quarter, and S$100 with a minimum monthly spend of S$1,000 per quarter. No quarterly cashback will be awarded if monthly minimum spend isn't met."
+  },
+  "percent:online_bill_payment_spending": {
+   "value": 3.33,
+   "unit": "percent",
+   "note": "Up to | Quarterly cashback capped at S$30 with a minimum monthly spend of S$300 per quarter, and S$100 with a minimum monthly spend of S$1,000 per quarter. No quarterly cashback will be awarded if monthly minimum spend isn't met."
+  },
+  "percent:contactless_spend": {
+   "value": 3.33,
+   "unit": "percent",
+   "note": "Up to | Quarterly cashback capped at S$30 with a minimum monthly spend of S$300 per quarter, and S$100 with a minimum monthly spend of S$1,000 per quarter. No quarterly cashback will be awarded if monthly minimum spend isn't met."
+  },
+  "percent:transport": {
+   "value": 3.33,
+   "unit": "percent",
+   "note": "Up to | Quarterly cashback capped at S$30 with a minimum monthly spend of S$300 per quarter, and S$100 with a minimum monthly spend of S$1,000 per quarter. No quarterly cashback will be awarded if monthly minimum spend isn't met."
+  },
+  "percent:overseas": {
+   "value": 3.33,
+   "unit": "percent",
+   "note": "Up to | Quarterly cashback capped at S$30 with a minimum monthly spend of S$300 per quarter, and S$100 with a minimum monthly spend of S$1,000 per quarter. No quarterly cashback will be awarded if monthly minimum spend isn't met."
+  },
+  "percent:baseline": {
+   "value": 3.33,
+   "unit": "percent",
+   "note": "Quarterly cashback capped at S$30 with a minimum monthly spend of S$300 per quarter, and S$100 with a minimum monthly spend of S$1,000 per quarter. No quarterly cashback will be awarded if monthly minimum spend isn't met."
+  }
+ },
+ "caps": {},
+ "highlights": [
+  "Quarterly cashback capped at S$30 with a minimum monthly spend of S$300 per quarter, and S$100 with a minimum monthly spend of S$1,000 per quarter. No quarterly cashback will be awarded if monthly minimum spend isn't met.",
+  "pros: Get up to 3.33% cash rebate on all your local and foreign currency spend.",
+  "pros: Earn up to 3% p.a. with the Maybank Save Up Programme, with spends on this credit card being one of the categories.",
+  "pros: Complimentary travel insurance coverage of up to S$500,000.",
+  "pros: Quarterly service fee of S$20 (First 3 Years Free). Subsequently, quarterly service fee is waived when you charge to your Card once every 3 months.",
+  "cons: No quarterly cashback if minimum monthly spend is below S$300 each month in a quarter.",
+  "cons: Cashback cap: S$100 per quarter.",
+  "pros: Local spending rebate",
+  "pros: Overseas rebate",
+  "pros: Annual Fee waiver",
+  "cons: Rebate cap applied"
+ ],
+ "sign_up_offers": [],
+ "links": {},
+ "citation": {
+  "id": "singsaver:3103f3955f7a",
+  "url": "https://www.singsaver.com.sg/credit-card/products/maybank-platinum-visa-card",
+  "title": "Maybank Platinum Visa Card",
+  "source_type": "aggregator",
+  "retrieved_at": "2026-09-27T05:26:10+00:00",
+  "sha256": "3103f3955f7ac9f7a3d447260cb9dad07b64c1296791b1598496c5cfaab41ae7",
+  "snapshot": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-maybank-platinum-visa-card-2695f7da.html"
+ },
+ "extra": {
+  "network": [
+   "VISA Platinum"
+  ],
+  "mobile_wallets": [
+   "Apple Pay",
+   "Samsung Pay"
+  ],
+  "fx_fee_percent": 3.25,
+  "miles_conversion_fee": null,
+  "categories": [
+   "category:all-credit-cards",
+   "category:cashback",
+   "category:dining-promo",
+   "category:installment",
+   "category:overseas",
+   "category:promo",
+   "category:retail-promo",
+   "category:travel",
+   "needs:0-interest-rate",
+   "needs:all-cards-with-dining-promo",
+   "needs:all-cards-with-promotion",
+   "needs:all-cards-with-retail-promo",
+   "needs:all-cashback-cards",
+   "needs:all-credit-cards",
+   "needs:all-installment-cards",
+   "needs:all-overseas-cards",
+   "needs:all-travel-cards",
+   "needs:apple-premium-gifts",
+   "needs:free-travel-insurance",
+   "needs:long-tenure-installment",
+   "needs:online-booking-discount"
+  ],
+  "tag": null,
+  "description": "If you're not a big spender, the Maybank Platinum Card may be what you need — with just a min. spend of S$300 a month in a quarter; you'll receive up to 3.33% cashback, which is capped at S$30 per quarter.\nFor big spenders, you'll receive S$100 or S$200 quarterly cashback if you spend at least S$1,000 or S$2,000 per month respectively, in that quarter.  \nMoreover, it's also a card with very few exclusions; indeed, the Maybank Platinum Visa Card is one of the few credit cards which lets you earn rewards on insurance premiums. Your insurance payments can make up half of the monthly spend for each tier. For example, if you spend S$2,000 monthly in a quarter, your insurance payment is eligible for up to S$1,000 per month in a quarter. \nWhat's more, it has a low annual fee of just S$20 per quarter, which is waived for the first three years. Automatic fee waivers will also be granted when you charge your card at least once every three months.\nBut that's not all, you'll also enjoy 20.05% fuel savings when you link your Diamond Sky Fuel Card to your Maybank Platinum Visa Card. \nThe Maybank Platinum Visa Card also comes with extensive travel insurance coverage; you can get up to S$500,000 in coverage when you charge your full travel package to your card."
+ }
+}

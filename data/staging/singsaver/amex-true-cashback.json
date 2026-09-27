@@ -1,0 +1,139 @@
+{
+ "source": "singsaver",
+ "source_id": "american-express-true-cashback-card",
+ "source_url": "https://www.singsaver.com.sg/credit-card/products/american-express-true-cashback-card",
+ "name": "American Express True Cashback Card",
+ "bank": "American Express",
+ "card_id": "amex-true-cashback",
+ "image_url": "https://mhgprod.blob.core.windows.net/singsaver/strapi-uploads/xs_blt06a2800337838e73_3b64eb3de2.png",
+ "annual_fee": 174.4,
+ "annual_fee_note": "S$ | First Year Waived",
+ "earn_rates": {
+  "percent:local": {
+   "value": 1.5,
+   "unit": "percent",
+   "note": "For new Card Members, enjoy 3% Cashback on all eligible purchases, up to S$5,000 spend in the first 6 months. Earn 1.5% Cashback on all subsequent eligible purchases with no minimum spending."
+  },
+  "percent:baseline": {
+   "value": 1.5,
+   "unit": "percent",
+   "note": "For new Card Members, enjoy 3% Cashback on all eligible purchases, up to S$5,000 spend in the first 6 months. Earn 1.5% Cashback on all subsequent eligible purchases with no minimum spending."
+  },
+  "percent:overseas": {
+   "value": 1.5,
+   "unit": "percent",
+   "note": "For new Card Members, enjoy 3% Cashback on all eligible purchases, up to S$5,000 spend in the first 6 months. Earn 1.5% Cashback on all subsequent eligible purchases with no minimum spending."
+  },
+  "percent:dining": {
+   "value": 1.5,
+   "unit": "percent",
+   "note": "For new Card Members, enjoy 3% Cashback on all eligible purchases, up to S$5,000 spend in the first 6 months. Earn 1.5% Cashback on all subsequent eligible purchases with no minimum spending."
+  },
+  "percent:supermarket": {
+   "value": 1.5,
+   "unit": "percent",
+   "note": "For new Card Members, enjoy 3% Cashback on all eligible purchases, up to S$5,000 spend in the first 6 months. Earn 1.5% Cashback on all subsequent eligible purchases with no minimum spending."
+  },
+  "percent:retail": {
+   "value": 1.5,
+   "unit": "percent",
+   "note": "For new Card Members, enjoy 3% Cashback on all eligible purchases, up to S$5,000 spend in the first 6 months. Earn 1.5% Cashback on all subsequent eligible purchases with no minimum spending."
+  },
+  "percent:local_online_shopping": {
+   "value": 1.5,
+   "unit": "percent",
+   "note": "For new Card Members, enjoy 3% Cashback on all eligible purchases, up to S$5,000 spend in the first 6 months. Earn 1.5% Cashback on all subsequent eligible purchases with no minimum spending."
+  },
+  "percent:insurance": {
+   "value": 1.5,
+   "unit": "percent",
+   "note": "For new Card Members, enjoy 3% Cashback on all eligible purchases, up to S$5,000 spend in the first 6 months. Earn 1.5% Cashback on all subsequent eligible purchases with no minimum spending."
+  },
+  "percent:overseas_online_shopping": {
+   "value": 1.5,
+   "unit": "percent",
+   "note": "For new Card Members, enjoy 3% Cashback on all eligible purchases, up to S$5,000 spend in the first 6 months. Earn 1.5% Cashback on all subsequent eligible purchases with no minimum spending."
+  },
+  "percent:petrol": {
+   "value": 1.5,
+   "unit": "percent",
+   "note": "For new Card Members, enjoy 3% Cashback on all eligible purchases, up to S$5,000 spend in the first 6 months. Earn 1.5% Cashback on all subsequent eligible purchases with no minimum spending."
+  },
+  "percent:health": {
+   "value": 1.5,
+   "unit": "percent",
+   "note": "For new Card Members, enjoy 3% Cashback on all eligible purchases, up to S$5,000 spend in the first 6 months. Earn 1.5% Cashback on all subsequent eligible purchases with no minimum spending."
+  },
+  "percent:department_store": {
+   "value": 1.5,
+   "unit": "percent",
+   "note": "For new Card Members, enjoy 3% Cashback on all eligible purchases, up to S$5,000 spend in the first 6 months. Earn 1.5% Cashback on all subsequent eligible purchases with no minimum spending."
+  },
+  "percent:contactless_spend": {
+   "value": 1.5,
+   "unit": "percent",
+   "note": "For new Card Members, enjoy 3% Cashback on all eligible purchases, up to S$5,000 spend in the first 6 months. Earn 1.5% Cashback on all subsequent eligible purchases with no minimum spending."
+  },
+  "percent:transport": {
+   "value": 1.5,
+   "unit": "percent",
+   "note": "For new Card Members, enjoy 3% Cashback on all eligible purchases, up to S$5,000 spend in the first 6 months. Earn 1.5% Cashback on all subsequent eligible purchases with no minimum spending."
+  }
+ },
+ "caps": {
+  "rewards_bonus_cap": {
+   "value": null,
+   "note": "No cashback cap and no min. spend required. | No cap"
+  }
+ },
+ "highlights": [
+  "Enjoy 3% Cashback on all eligible purchases, up to S$5,000 spend in first 6 months; 1.5% Cashback on all subsequent eligible purchases with no minimum spending and no earn cap.",
+  "pros: 3% Cashback on all eligible purchases, up to S$5,000 spend in the first 6 months for new Card Members.",
+  "pros: 1.5% Cashback on all subsequent eligible purchases with no minimum spending.",
+  "pros: Cashback credited on the same statement month.",
+  "pros: Please refer to the American Express website (\ngo.amex/singsaver\n) for the most up to date information on card benefits and its terms & conditions."
+ ],
+ "sign_up_offers": [],
+ "links": {
+  "apply": "https://www.americanexpress.com/sg/campaigns/singsaver.html#tcc"
+ },
+ "citation": {
+  "id": "singsaver:c040761bd6a9",
+  "url": "https://www.singsaver.com.sg/credit-card/products/american-express-true-cashback-card",
+  "title": "American Express True Cashback Card",
+  "source_type": "aggregator",
+  "retrieved_at": "2026-09-27T05:24:47+00:00",
+  "sha256": "c040761bd6a9b8e70abb78cfe18136b39b809227f88f816cced867549dde78f2",
+  "snapshot": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-american-express-true-cashback-card-20904f88.html"
+ },
+ "extra": {
+  "network": [
+   "American Express"
+  ],
+  "mobile_wallets": [
+   "Google Pay",
+   "Apple Pay"
+  ],
+  "fx_fee_percent": 3.25,
+  "miles_conversion_fee": null,
+  "categories": [
+   "category:all-credit-cards",
+   "category:cashback",
+   "category:dining-promo",
+   "category:grocery-promo",
+   "category:petrol-promo",
+   "category:retail-promo",
+   "needs:all-cards-with-dining-promo",
+   "needs:all-cards-with-grocery-promo",
+   "needs:all-cards-with-petrol-promo",
+   "needs:all-cards-with-retail-promo",
+   "needs:all-cashback-cards",
+   "needs:all-credit-cards",
+   "needs:no-minimum-spend-required-cashback",
+   "needs:singsaver-exclusive",
+   "needs:unlimited-cashback"
+  ],
+  "tag": "Best for unlimited cashback on all spends",
+  "description": "Suited for big-ticket purchases, the American Express True Cashback Card allows you to earn up to 3% cashback on all eligible purchases on your first S$5,000 spent in the first 6 months."
+ }
+}

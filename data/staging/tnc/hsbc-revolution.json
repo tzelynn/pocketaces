@@ -1,0 +1,992 @@
+{
+ "card_id": "hsbc-revolution",
+ "product_pages": [
+  {
+   "id": "bank:f7238b110790",
+   "url": "https://www.hsbc.com.sg/credit-cards/products/revolution/",
+   "source_type": "official",
+   "retrieved_at": "2026-09-27T08:37:16+00:00",
+   "sha256": "f7238b110790cc333eaced806f4be5286b3380a74e1902ce4d4ccc2d6a9b1786",
+   "snapshot": "data/raw/bank/www-hsbc-com-sg-credit-cards-products-revolution-16ac427d.html"
+  }
+ ],
+ "documents": [
+  {
+   "url": "https://www.hsbc.com.sg/content/dam/hsbc/sg/documents/credit-cards/revolution/offers/revolution-credit-card-reward-points-terms-and-conditions.pdf",
+   "citation": {
+    "id": "bank:e3778406a7d0",
+    "url": "https://www.hsbc.com.sg/content/dam/hsbc/sg/documents/credit-cards/revolution/offers/revolution-credit-card-reward-points-terms-and-conditions.pdf",
+    "source_type": "official",
+    "retrieved_at": "2026-09-27T05:24:20+00:00",
+    "sha256": "e3778406a7d0c2cec70afffbf8cbfe1d23ed7ed0ff80aeb0537f8e410795703e",
+    "snapshot": "data/raw/bank/manual-hsbc-revolution-2a2b774d.pdf"
+   },
+   "text_path": "data/raw/bank/manual-hsbc-revolution-2a2b774d.txt",
+   "sha256": "e3778406a7d0c2cec70afffbf8cbfe1d23ed7ed0ff80aeb0537f8e410795703e",
+   "changed": false,
+   "new": false,
+   "no_text_layer": false,
+   "effective_dates": [
+    "1 April 2026"
+   ],
+   "mcc": {
+    "include": [
+     "3000-3350",
+     "3351-3500",
+     "3501-3999",
+     "4121",
+     "4411",
+     "4511",
+     "4816",
+     "5045",
+     "5262",
+     "5309",
+     "5310",
+     "5311",
+     "5331",
+     "5399",
+     "5441",
+     "5462",
+     "5611",
+     "5621",
+     "5631",
+     "5641",
+     "5651",
+     "5655",
+     "5661",
+     "5691",
+     "5699",
+     "5732",
+     "5733",
+     "5734",
+     "5735",
+     "5811",
+     "5812",
+     "5813",
+     "5912",
+     "5942",
+     "5944",
+     "5945",
+     "5946",
+     "5947",
+     "5948",
+     "5949",
+     "5964",
+     "5965",
+     "5966",
+     "5967",
+     "5968",
+     "5969",
+     "5970",
+     "5992",
+     "5999",
+     "7011",
+     "7997"
+    ],
+    "exclude": [
+     "4829",
+     "4900",
+     "5199",
+     "5960",
+     "6010",
+     "6011",
+     "6012",
+     "6050",
+     "6051",
+     "6211",
+     "6300",
+     "6513",
+     "6529",
+     "6530",
+     "6532",
+     "6533",
+     "6534",
+     "6536",
+     "6537",
+     "6538",
+     "6540",
+     "6555",
+     "7299",
+     "7349",
+     "7399",
+     "7511",
+     "7523",
+     "7801",
+     "7995",
+     "8062",
+     "8211",
+     "8220",
+     "8241",
+     "8244",
+     "8249",
+     "8299",
+     "8398",
+     "8651",
+     "8661",
+     "8999",
+     "9211",
+     "9222",
+     "9223",
+     "9311",
+     "9399",
+     "9402",
+     "9405",
+     "9754"
+    ],
+    "unknown": [],
+    "conflicting": [],
+    "unrecognised": [
+     "6529",
+     "6530",
+     "6532",
+     "6533",
+     "6534",
+     "6536",
+     "6537",
+     "6538",
+     "6555"
+    ],
+    "hits": [
+     {
+      "code": "4829",
+      "polarity": "exclude",
+      "page": 1,
+      "line": "1 4829 Money Transfer",
+      "reason": "Excluded Merchant Description",
+      "in_reference": true
+     },
+     {
+      "code": "4900",
+      "polarity": "exclude",
+      "page": 1,
+      "line": "2 4900 Utilities \u2013 Electric, Gas, Water and Sanitary",
+      "reason": "Excluded Merchant Description",
+      "in_reference": true
+     },
+     {
+      "code": "5199",
+      "polarity": "exclude",
+      "page": 1,
+      "line": "3 5199 Nondurable Good",
+      "reason": "Excluded Merchant Description",
+      "in_reference": true
+     },
+     {
+      "code": "5960",
+      "polarity": "exclude",
+      "page": 1,
+      "line": "4 5960 Direct Marketing \u2013 Insurance Services",
+      "reason": "Excluded Merchant Description",
+      "in_reference": true
+     },
+     {
+      "code": "6010",
+      "polarity": "exclude",
+      "page": 1,
+      "line": "5 6010 Financial Institutions \u2013 Manual Cash Disbursements",
+      "reason": "Excluded Merchant Description",
+      "in_reference": true
+     },
+     {
+      "code": "6011",
+      "polarity": "exclude",
+      "page": 1,
+      "line": "6 6011 Financial Institutions \u2013 Automated Cash Disbursements",
+      "reason": "Excluded Merchant Description",
+      "in_reference": true
+     },
+     {
+      "code": "6012",
+      "polarity": "exclude",
+      "page": 1,
+      "line": "7 6012 Financial Institutions \u2013 Merchandise, Services, and Debt Repayment",
+      "reason": "Excluded Merchant Description",
+      "in_reference": true
+     },
+     {
+      "code": "6050",
+      "polarity": "exclude",
+      "page": 2,
+      "line": "8 6050 Quasi Cash\u2014Customer Financial Institution",
+      "reason": "Excluded Merchant Description",
+      "in_reference": true
+     },
+     {
+      "code": "6051",
+      "polarity": "exclude",
+      "page": 2,
+      "line": "9 6051 Non-Financial Institutions \u2013 Foreign Currency, Non-Fiat Currency (for example:",
+      "reason": "Excluded Merchant Description",
+      "in_reference": true
+     },
+     {
+      "code": "6211",
+      "polarity": "exclude",
+      "page": 2,
+      "line": "10 6211 Security Brokers / Dealers",
+      "reason": "Excluded Merchant Description",
+      "in_reference": true
+     },
+     {
+      "code": "6300",
+      "polarity": "exclude",
+      "page": 2,
+      "line": "11 6300 Insurance Sales, Underwriting, and Premiums",
+      "reason": "Excluded Merchant Description",
+      "in_reference": true
+     },
+     {
+      "code": "6513",
+      "polarity": "exclude",
+      "page": 2,
+      "line": "12 6513 Real Estate Agents & Managers - Rentals",
+      "reason": "Excluded Merchant Description",
+      "in_reference": true
+     },
+     {
+      "code": "6529",
+      "polarity": "exclude",
+      "page": 2,
+      "line": "13 6529 Remote Stored Value Load \u2013 Member",
+      "reason": "Excluded Merchant Description",
+      "in_reference": false
+     },
+     {
+      "code": "6530",
+      "polarity": "exclude",
+      "page": 2,
+      "line": "14 6530 Remote Stored Value Load \u2013 Merchant",
+      "reason": "Excluded Merchant Description",
+      "in_reference": false
+     },
+     {
+      "code": "6532",
+      "polarity": "exclude",
+      "page": 2,
+      "line": "15 6532 PSP-Member-Payment Transaction",
+      "reason": "Excluded Merchant Description",
+      "in_reference": false
+     },
+     {
+      "code": "6533",
+      "polarity": "exclude",
+      "page": 2,
+      "line": "16 6533 PSP-Merchant-Payment Transaction",
+      "reason": "Excluded Merchant Description",
+      "in_reference": false
+     },
+     {
+      "code": "6534",
+      "polarity": "exclude",
+      "page": 2,
+      "line": "17 6534 Money Transfer Member",
+      "reason": "Excluded Merchant Description",
+      "in_reference": false
+     },
+     {
+      "code": "6536",
+      "polarity": "exclude",
+      "page": 2,
+      "line": "18 6536 Moneysend \u2013 Intracountry",
+      "reason": "Excluded Merchant Description",
+      "in_reference": false
+     },
+     {
+      "code": "6537",
+      "polarity": "exclude",
+      "page": 2,
+      "line": "19 6537 Moneysend \u2013 Intercountry",
+      "reason": "Excluded Merchant Description",
+      "in_reference": false
+     },
+     {
+      "code": "6538",
+      "polarity": "exclude",
+      "page": 2,
+      "line": "20 6538 Moneysend funding",
+      "reason": "Excluded Merchant Description",
+      "in_reference": false
+     },
+     {
+      "code": "6540",
+      "polarity": "exclude",
+      "page": 2,
+      "line": "21 6540 Non-Financial Institutions \u2013 Stored Value Card Purchase/Load",
+      "reason": "Excluded Merchant Description",
+      "in_reference": true
+     },
+     {
+      "code": "6555",
+      "polarity": "exclude",
+      "page": 2,
+      "line": "22 6555 Mastercard Imitated Rebate",
+      "reason": "Excluded Merchant Description",
+      "in_reference": false
+     },
+     {
+      "code": "7299",
+      "polarity": "exclude",
+      "page": 2,
+      "line": "23 7299 Other Services\u2013Not Elsewhere Classified",
+      "reason": "Excluded Merchant Description",
+      "in_reference": true
+     },
+     {
+      "code": "7399",
+      "polarity": "exclude",
+      "page": 2,
+      "line": "24 7399 Business Services (Not Elsewhere Classified",
+      "reason": "Excluded Merchant Description",
+      "in_reference": true
+     },
+     {
+      "code": "7349",
+      "polarity": "exclude",
+      "page": 2,
+      "line": "25 7349 CLEAN/MAINT/JANITORIAL SERV",
+      "reason": "Excluded Merchant Description",
+      "in_reference": true
+     },
+     {
+      "code": "7511",
+      "polarity": "exclude",
+      "page": 2,
+      "line": "26 7511 Quasi Cash \u2013 Truck Stop Trxns",
+      "reason": "Excluded Merchant Description",
+      "in_reference": true
+     },
+     {
+      "code": "7523",
+      "polarity": "exclude",
+      "page": 2,
+      "line": "27 7523 Automobile Parking Lots and Garages",
+      "reason": "Excluded Merchant Description",
+      "in_reference": true
+     },
+     {
+      "code": "7801",
+      "polarity": "exclude",
+      "page": 2,
+      "line": "28 7801 Government Licensed On-Line Casinos (On-Line Gambling) (US Region only)",
+      "reason": "Excluded Merchant Description",
+      "in_reference": true
+     },
+     {
+      "code": "7995",
+      "polarity": "exclude",
+      "page": 2,
+      "line": "29 7995 Betting, including Lottery Tickets, Casino Gaming Chips, Off-Track Betting, and",
+      "reason": "Excluded Merchant Description",
+      "in_reference": true
+     },
+     {
+      "code": "8062",
+      "polarity": "exclude",
+      "page": 2,
+      "line": "30 8062 Hospitals",
+      "reason": "Excluded Merchant Description",
+      "in_reference": true
+     },
+     {
+      "code": "8211",
+      "polarity": "exclude",
+      "page": 2,
+      "line": "31 8211 Elementary and Secondary Schools",
+      "reason": "Excluded Merchant Description",
+      "in_reference": true
+     },
+     {
+      "code": "8220",
+      "polarity": "exclude",
+      "page": 2,
+      "line": "32 8220 Colleges, Universities, Professional Schools, and Junior Colleges",
+      "reason": "Excluded Merchant Description",
+      "in_reference": true
+     },
+     {
+      "code": "8241",
+      "polarity": "exclude",
+      "page": 2,
+      "line": "33 8241 Correspondence Schools",
+      "reason": "Excluded Merchant Description",
+      "in_reference": true
+     },
+     {
+      "code": "8244",
+      "polarity": "exclude",
+      "page": 2,
+      "line": "34 8244 Business and Secretarial Schools",
+      "reason": "Excluded Merchant Description",
+      "in_reference": true
+     },
+     {
+      "code": "8249",
+      "polarity": "exclude",
+      "page": 2,
+      "line": "35 8249 Vocational and Trade Schools",
+      "reason": "Excluded Merchant Description",
+      "in_reference": true
+     },
+     {
+      "code": "8299",
+      "polarity": "exclude",
+      "page": 2,
+      "line": "36 8299 Schools and Educational Services (Not Elsewhere Classified)",
+      "reason": "Excluded Merchant Description",
+      "in_reference": true
+     },
+     {
+      "code": "8398",
+      "polarity": "exclude",
+      "page": 2,
+      "line": "37 8398 Charitable Social Service Organizations",
+      "reason": "Excluded Merchant Description",
+      "in_reference": true
+     },
+     {
+      "code": "8651",
+      "polarity": "exclude",
+      "page": 2,
+      "line": "38 8651 Political Organizations",
+      "reason": "Excluded Merchant Description",
+      "in_reference": true
+     },
+     {
+      "code": "8661",
+      "polarity": "exclude",
+      "page": 2,
+      "line": "39 8661 Religious Organizations",
+      "reason": "Excluded Merchant Description",
+      "in_reference": true
+     },
+     {
+      "code": "8999",
+      "polarity": "exclude",
+      "page": 2,
+      "line": "40 8999 Professional Services (Not Elsewhere Classified)",
+      "reason": "Excluded Merchant Description",
+      "in_reference": true
+     },
+     {
+      "code": "9211",
+      "polarity": "exclude",
+      "page": 2,
+      "line": "41 9211 Court Costs, Including Alimony and Child Support",
+      "reason": "Excluded Merchant Description",
+      "in_reference": true
+     },
+     {
+      "code": "9222",
+      "polarity": "exclude",
+      "page": 2,
+      "line": "42 9222 Fines",
+      "reason": "Excluded Merchant Description",
+      "in_reference": true
+     },
+     {
+      "code": "9223",
+      "polarity": "exclude",
+      "page": 2,
+      "line": "43 9223 Bail and Bond Payments",
+      "reason": "Excluded Merchant Description",
+      "in_reference": true
+     },
+     {
+      "code": "9311",
+      "polarity": "exclude",
+      "page": 2,
+      "line": "44 9311 Tax Payments",
+      "reason": "Excluded Merchant Description",
+      "in_reference": true
+     },
+     {
+      "code": "9399",
+      "polarity": "exclude",
+      "page": 2,
+      "line": "45 9399 Government Services (Not Elsewhere Classified)",
+      "reason": "Excluded Merchant Description",
+      "in_reference": true
+     },
+     {
+      "code": "9402",
+      "polarity": "exclude",
+      "page": 2,
+      "line": "46 9402 Postal Services \u2013 Government Only",
+      "reason": "Excluded Merchant Description",
+      "in_reference": true
+     },
+     {
+      "code": "9405",
+      "polarity": "exclude",
+      "page": 2,
+      "line": "47 9405 Intra-Government Purchases \u2013 Government Only",
+      "reason": "Excluded Merchant Description",
+      "in_reference": true
+     },
+     {
+      "code": "9754",
+      "polarity": "exclude",
+      "page": 2,
+      "line": "48 9754 Gambling-Horse Racing Dog Racing State Lotteries",
+      "reason": "Excluded Merchant Description",
+      "in_reference": true
+     },
+     {
+      "code": "3000-3350",
+      "polarity": "include",
+      "page": 3,
+      "line": "1 3000 to 3350, 4511 Airlines",
+      "reason": "following MCCs:",
+      "in_reference": null
+     },
+     {
+      "code": "4511",
+      "polarity": "include",
+      "page": 3,
+      "line": "1 3000 to 3350, 4511 Airlines",
+      "reason": "following MCCs:",
+      "in_reference": true
+     },
+     {
+      "code": "3351-3500",
+      "polarity": "include",
+      "page": 3,
+      "line": "as Airlines, Car 2 3351 to 3500 Car Rental Agencies",
+      "reason": "following MCCs:",
+      "in_reference": null
+     },
+     {
+      "code": "3501-3999",
+      "polarity": "include",
+      "page": 3,
+      "line": "Rental, Lodging 3 3501 to 3999, 7011 Lodging \u2013 Hotels, Motels, Resorts",
+      "reason": "following MCCs:",
+      "in_reference": null
+     },
+     {
+      "code": "7011",
+      "polarity": "include",
+      "page": 3,
+      "line": "Rental, Lodging 3 3501 to 3999, 7011 Lodging \u2013 Hotels, Motels, Resorts",
+      "reason": "following MCCs:",
+      "in_reference": true
+     },
+     {
+      "code": "4411",
+      "polarity": "include",
+      "page": 3,
+      "line": "4 4411 Cruise Lines",
+      "reason": "following MCCs:",
+      "in_reference": true
+     },
+     {
+      "code": "4816",
+      "polarity": "include",
+      "page": 3,
+      "line": "Department Stores 5 4816 Computer Network/Information Services",
+      "reason": "following MCCs:",
+      "in_reference": true
+     },
+     {
+      "code": "5045",
+      "polarity": "include",
+      "page": 3,
+      "line": "6 5045 Computers, Computer Peripheral Equipment, Software",
+      "reason": "following MCCs:",
+      "in_reference": true
+     },
+     {
+      "code": "5262",
+      "polarity": "include",
+      "page": 3,
+      "line": "7 5262 Marketplaces",
+      "reason": "following MCCs:",
+      "in_reference": true
+     },
+     {
+      "code": "5309",
+      "polarity": "include",
+      "page": 3,
+      "line": "8 5309 Duty Free Stores",
+      "reason": "following MCCs:",
+      "in_reference": true
+     },
+     {
+      "code": "5310",
+      "polarity": "include",
+      "page": 3,
+      "line": "9 5310 Discount Stores",
+      "reason": "following MCCs:",
+      "in_reference": true
+     },
+     {
+      "code": "5311",
+      "polarity": "include",
+      "page": 3,
+      "line": "10 5311 Department Stores",
+      "reason": "following MCCs:",
+      "in_reference": true
+     },
+     {
+      "code": "5331",
+      "polarity": "include",
+      "page": 3,
+      "line": "11 5331 Variety Stores",
+      "reason": "following MCCs:",
+      "in_reference": true
+     },
+     {
+      "code": "5399",
+      "polarity": "include",
+      "page": 3,
+      "line": "12 5399 Miscellaneous General Merchandise Stores",
+      "reason": "following MCCs:",
+      "in_reference": true
+     },
+     {
+      "code": "5611",
+      "polarity": "include",
+      "page": 3,
+      "line": "13 5611 Men\u2019s and Boys\u2019 Clothing and Accessories Stores",
+      "reason": "following MCCs:",
+      "in_reference": true
+     },
+     {
+      "code": "5621",
+      "polarity": "include",
+      "page": 3,
+      "line": "14 5621 Women\u2019s Ready to Wear Stores",
+      "reason": "following MCCs:",
+      "in_reference": true
+     },
+     {
+      "code": "5631",
+      "polarity": "include",
+      "page": 3,
+      "line": "15 5631 Women\u2019s Accessory and Specialty Stores",
+      "reason": "following MCCs:",
+      "in_reference": true
+     },
+     {
+      "code": "5641",
+      "polarity": "include",
+      "page": 3,
+      "line": "16 5641 Children\u2019s and Infants\u2019 Wear Stores",
+      "reason": "following MCCs:",
+      "in_reference": true
+     },
+     {
+      "code": "5651",
+      "polarity": "include",
+      "page": 3,
+      "line": "17 5651 Family Clothing Stores",
+      "reason": "following MCCs:",
+      "in_reference": true
+     },
+     {
+      "code": "5655",
+      "polarity": "include",
+      "page": 3,
+      "line": "18 5655 Sports Apparel, and Riding Apparel Stores",
+      "reason": "following MCCs:",
+      "in_reference": true
+     },
+     {
+      "code": "5661",
+      "polarity": "include",
+      "page": 3,
+      "line": "19 5661 Shoe Stores",
+      "reason": "following MCCs:",
+      "in_reference": true
+     },
+     {
+      "code": "5691",
+      "polarity": "include",
+      "page": 3,
+      "line": "20 5691 Men\u2019s and Women\u2019s Clothing Stores",
+      "reason": "following MCCs:",
+      "in_reference": true
+     },
+     {
+      "code": "5699",
+      "polarity": "include",
+      "page": 3,
+      "line": "21 5699 Accessory and Apparel Stores\u2013Miscellaneous",
+      "reason": "following MCCs:",
+      "in_reference": true
+     },
+     {
+      "code": "5732",
+      "polarity": "include",
+      "page": 3,
+      "line": "22 5732 Electronics Sales",
+      "reason": "following MCCs:",
+      "in_reference": true
+     },
+     {
+      "code": "5733",
+      "polarity": "include",
+      "page": 3,
+      "line": "23 5733 Music Stores\u2013Musical Instruments, Pianos and Sheet Music",
+      "reason": "following MCCs:",
+      "in_reference": true
+     },
+     {
+      "code": "5734",
+      "polarity": "include",
+      "page": 3,
+      "line": "24 5734 Computer Software Stores",
+      "reason": "following MCCs:",
+      "in_reference": true
+     },
+     {
+      "code": "5735",
+      "polarity": "include",
+      "page": 3,
+      "line": "25 5735 Record Shops",
+      "reason": "following MCCs:",
+      "in_reference": true
+     },
+     {
+      "code": "5912",
+      "polarity": "include",
+      "page": 3,
+      "line": "26 5912 Drug Stores and Pharmacies",
+      "reason": "following MCCs:",
+      "in_reference": true
+     },
+     {
+      "code": "5942",
+      "polarity": "include",
+      "page": 3,
+      "line": "27 5942 Book Stores",
+      "reason": "following MCCs:",
+      "in_reference": true
+     },
+     {
+      "code": "5944",
+      "polarity": "include",
+      "page": 3,
+      "line": "28 5944 Clock, Jewelry, Watch and Silverware Stores",
+      "reason": "following MCCs:",
+      "in_reference": true
+     },
+     {
+      "code": "5945",
+      "polarity": "include",
+      "page": 3,
+      "line": "29 5945 Game, Toy and Hobby Shops",
+      "reason": "following MCCs:",
+      "in_reference": true
+     },
+     {
+      "code": "5946",
+      "polarity": "include",
+      "page": 3,
+      "line": "30 5946 Camera and Photographic Supply Stores",
+      "reason": "following MCCs:",
+      "in_reference": true
+     },
+     {
+      "code": "5947",
+      "polarity": "include",
+      "page": 3,
+      "line": "31 5947 Card, Gift, Novelty and Souvenir Shops",
+      "reason": "following MCCs:",
+      "in_reference": true
+     },
+     {
+      "code": "5948",
+      "polarity": "include",
+      "page": 3,
+      "line": "32 5948 Leather Goods and Luggage Stores",
+      "reason": "following MCCs:",
+      "in_reference": true
+     },
+     {
+      "code": "5949",
+      "polarity": "include",
+      "page": 3,
+      "line": "33 5949 Fabric, Needlework, Piece Goods and Sewing Stores",
+      "reason": "following MCCs:",
+      "in_reference": true
+     },
+     {
+      "code": "5964",
+      "polarity": "include",
+      "page": 3,
+      "line": "34 5964 Direct Marketing\u2013Catalog Merchants",
+      "reason": "following MCCs:",
+      "in_reference": true
+     },
+     {
+      "code": "5965",
+      "polarity": "include",
+      "page": 3,
+      "line": "35 5965 Direct Marketing\u2013Combination Catalog and Retail Merchant",
+      "reason": "following MCCs:",
+      "in_reference": true
+     },
+     {
+      "code": "5966",
+      "polarity": "include",
+      "page": 3,
+      "line": "36 5966 Direct Marketing\u2013Outbound Telemarketing Merchants",
+      "reason": "following MCCs:",
+      "in_reference": true
+     },
+     {
+      "code": "5967",
+      "polarity": "include",
+      "page": 3,
+      "line": "37 5967 Direct Marketing\u2013Inbound Telemarketing Merchants",
+      "reason": "following MCCs:",
+      "in_reference": true
+     },
+     {
+      "code": "5968",
+      "polarity": "include",
+      "page": 3,
+      "line": "38 5968 Direct Marketing\u2013Continuity/Subscription Merchants",
+      "reason": "following MCCs:",
+      "in_reference": true
+     },
+     {
+      "code": "5969",
+      "polarity": "include",
+      "page": 4,
+      "line": "39 5969 Direct Marketing\u2013Other Direct Marketers\u2013Not Elsewhere Classified",
+      "reason": "following MCCs:",
+      "in_reference": true
+     },
+     {
+      "code": "5970",
+      "polarity": "include",
+      "page": 4,
+      "line": "40 5970 Artist Supply Stores, Craft Shops",
+      "reason": "following MCCs:",
+      "in_reference": true
+     },
+     {
+      "code": "5992",
+      "polarity": "include",
+      "page": 4,
+      "line": "41 5992 Florists",
+      "reason": "following MCCs:",
+      "in_reference": true
+     },
+     {
+      "code": "5999",
+      "polarity": "include",
+      "page": 4,
+      "line": "42 5999 Miscellaneous and Specialty Retail Stores",
+      "reason": "following MCCs:",
+      "in_reference": true
+     },
+     {
+      "code": "5441",
+      "polarity": "include",
+      "page": 4,
+      "line": "Dining excluding 43 5441 Candy, Nut and Confectionery Stores",
+      "reason": "following MCCs:",
+      "in_reference": true
+     },
+     {
+      "code": "5462",
+      "polarity": "include",
+      "page": 4,
+      "line": "44 5462 Bakeries",
+      "reason": "following MCCs:",
+      "in_reference": true
+     },
+     {
+      "code": "5811",
+      "polarity": "include",
+      "page": 4,
+      "line": "45 5811 Caterers",
+      "reason": "following MCCs:",
+      "in_reference": true
+     },
+     {
+      "code": "5812",
+      "polarity": "include",
+      "page": 4,
+      "line": "46 5812 Eating Places and Restaurants",
+      "reason": "following MCCs:",
+      "in_reference": true
+     },
+     {
+      "code": "5813",
+      "polarity": "include",
+      "page": 4,
+      "line": "47 5813",
+      "reason": "following MCCs:",
+      "in_reference": true
+     },
+     {
+      "code": "4121",
+      "polarity": "include",
+      "page": 4,
+      "line": "Others such as 48 4121 Taxicabs and Limousines",
+      "reason": "following MCCs:",
+      "in_reference": true
+     },
+     {
+      "code": "7997",
+      "polarity": "include",
+      "page": 4,
+      "line": "Membership Clubs 49 7997",
+      "reason": "following MCCs:",
+      "in_reference": true
+     }
+    ]
+   },
+   "transaction_modes": {
+    "online": [
+     "\u201cSelected Online Transactions\u201d refers to Qualifying Transactions made via the internet and processed by the respective merchants/merchant\u2019s acquiring bank as an online transaction type through the Visa Worldwide networks, including credential-on- file payments when the Cardholder stores the Card information with a merchant or payment facilitator to make future purchases.",
+     "HSBC determines whether a transaction is a Selected Online Transaction based on system indicators which are determined by the merchants and the merchant\u2019s acquiring bank.",
+     "\u201cEligible Transactions\u201d refers to Selected Contactless Payments and Selected Online Transactions that fall within any one of the following MCCs: Merchant Category Category Description Codes (MCC) 1 3000 to 3350, 4511 Airlines Travel related such as Airlines, Car 2 3351 to 3500 Car Rental Agencies Rental, Lodging 3 3501 to 3999, 7011 Lodging \u2013 Hotels, Motels, Resorts and Cruise Lines 4 4411 Cruise ",
+     "All information is correct at the time of publishing or posting online."
+    ],
+    "contactless": [
+     "\u201cSelected Contactless Payments\u201d refers to Qualifying Transactions made via Visa contactless through a contactless terminal mode which includes Visa payWave, Apple Pay, Google Pay and Samsung Pay.",
+     "\u201cEligible Transactions\u201d refers to Selected Contactless Payments and Selected Online Transactions that fall within any one of the following MCCs: Merchant Category Category Description Codes (MCC) 1 3000 to 3350, 4511 Airlines Travel related such as Airlines, Car 2 3351 to 3500 Car Rental Agencies Rental, Lodging 3 3501 to 3999, 7011 Lodging \u2013 Hotels, Motels, Resorts and Cruise Lines 4 4411 Cruise "
+    ],
+    "mobile_wallet": [
+     "\u201cSelected Contactless Payments\u201d refers to Qualifying Transactions made via Visa contactless through a contactless terminal mode which includes Visa payWave, Apple Pay, Google Pay and Samsung Pay."
+    ],
+    "recurring": [
+     "\u201cEligible Transactions\u201d refers to Selected Contactless Payments and Selected Online Transactions that fall within any one of the following MCCs: Merchant Category Category Description Codes (MCC) 1 3000 to 3350, 4511 Airlines Travel related such as Airlines, Car 2 3351 to 3500 Car Rental Agencies Rental, Lodging 3 3501 to 3999, 7011 Lodging \u2013 Hotels, Motels, Resorts and Cruise Lines 4 4411 Cruise "
+    ],
+    "foreign_currency": [
+     "Excluded Merchant Description Category Code (MCC) 1 4829 Money Transfer 2 4900 Utilities \u2013 Electric, Gas, Water and Sanitary 3 5199 Nondurable Good 4 5960 Direct Marketing \u2013 Insurance Services 5 6010 Financial Institutions \u2013 Manual Cash Disbursements 6 6011 Financial Institutions \u2013 Automated Cash Disbursements 7 6012 Financial Institutions \u2013 Merchandise, Services, and Debt Repayment Effective from"
+    ],
+    "local_currency": [
+     "\u201cEligible EGA Account\u201d refers to a sole HSBC Everyday Global Account (Singapore dollars SGD account) held by the Cardholder with HSBC."
+    ]
+   },
+   "non_mcc_exclusions": [
+    "axs",
+    "balance transfer",
+    "cardup",
+    "cash advance",
+    "charit",
+    "e-wallet",
+    "education",
+    "government",
+    "hospital",
+    "instalment",
+    "interest",
+    "ipaymy",
+    "late charge",
+    "revolut",
+    "tax",
+    "top-ups",
+    "utilit",
+    "youtrip"
+   ]
+  }
+ ],
+ "changed": false,
+ "removed_documents": []
+}

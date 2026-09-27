@@ -1,0 +1,402 @@
+{
+ "card_id": "trust-link",
+ "product_pages": [
+  {
+   "id": "bank:a5c0a5527f8d",
+   "url": "https://trustbank.sg/link-credit-card/",
+   "source_type": "official",
+   "retrieved_at": "2026-09-27T08:42:48+00:00",
+   "sha256": "a5c0a5527f8d3bc5478b8d2ffcd931c8e316d75f94d8383c41b26952f8435054",
+   "snapshot": "data/raw/bank/trustbank-sg-link-credit-card-36acbd47.html"
+  }
+ ],
+ "documents": [
+  {
+   "url": "https://trustbank.sg/legal/trust-link-credit-card-and-ntuc-link-credit-card-product-terms/",
+   "citation": {
+    "id": "bank:f7be83d6cefe",
+    "url": "https://trustbank.sg/legal/trust-link-credit-card-and-ntuc-link-credit-card-product-terms/",
+    "source_type": "official",
+    "retrieved_at": "2026-09-27T08:42:50+00:00",
+    "sha256": "f7be83d6cefe731a83f23eb3456225c087e4457843f5e7a56a41b34f6d8a885a",
+    "snapshot": "data/raw/bank/trustbank-sg-legal-trust-link-credit-card-and-ntuc-link-credit-card-product-terms-62c194d6.html"
+   },
+   "text_path": "data/raw/bank/trustbank-sg-legal-trust-link-credit-card-and-ntuc-link-credit-card-product-terms-62c194d6.txt",
+   "sha256": "f7be83d6cefe731a83f23eb3456225c087e4457843f5e7a56a41b34f6d8a885a",
+   "changed": false,
+   "new": true,
+   "no_text_layer": false,
+   "effective_dates": [],
+   "mcc": {
+    "include": [
+     "4829",
+     "4900",
+     "5960",
+     "6010",
+     "6011",
+     "6012",
+     "6051",
+     "6211",
+     "6300",
+     "6513",
+     "6540",
+     "7349",
+     "7399",
+     "7995",
+     "8211",
+     "8220",
+     "8241",
+     "8244",
+     "8249",
+     "8299",
+     "8398",
+     "8651",
+     "8661",
+     "9211",
+     "9222",
+     "9223",
+     "9311",
+     "9399",
+     "9402",
+     "9405"
+    ],
+    "exclude": [
+     "7399"
+    ],
+    "unknown": [],
+    "conflicting": [
+     "7399"
+    ],
+    "unrecognised": [],
+    "hits": [
+     {
+      "code": "4900",
+      "polarity": "include",
+      "page": 1,
+      "line": "Utilities, Rentals and Cleaning Services \u2013 4900, 6513, 7349.",
+      "reason": "Any transaction classified under any of the following Merchant Category Codes:",
+      "in_reference": true
+     },
+     {
+      "code": "6513",
+      "polarity": "include",
+      "page": 1,
+      "line": "Utilities, Rentals and Cleaning Services \u2013 4900, 6513, 7349.",
+      "reason": "Any transaction classified under any of the following Merchant Category Codes:",
+      "in_reference": true
+     },
+     {
+      "code": "7349",
+      "polarity": "include",
+      "page": 1,
+      "line": "Utilities, Rentals and Cleaning Services \u2013 4900, 6513, 7349.",
+      "reason": "Any transaction classified under any of the following Merchant Category Codes:",
+      "in_reference": true
+     },
+     {
+      "code": "4829",
+      "polarity": "include",
+      "page": 1,
+      "line": "Financial Institutions, Securities \u2013 Brokers, Quasi Cash, Insurance, Stored Value Card Purchase/Load and Wire Transfer \u2013 4829, 5960, 6010, 6011, 6012, 6051, 6211, 6300, 6540.",
+      "reason": "Any transaction classified under any of the following Merchant Category Codes:",
+      "in_reference": true
+     },
+     {
+      "code": "5960",
+      "polarity": "include",
+      "page": 1,
+      "line": "Financial Institutions, Securities \u2013 Brokers, Quasi Cash, Insurance, Stored Value Card Purchase/Load and Wire Transfer \u2013 4829, 5960, 6010, 6011, 6012, 6051, 6211, 6300, 6540.",
+      "reason": "Any transaction classified under any of the following Merchant Category Codes:",
+      "in_reference": true
+     },
+     {
+      "code": "6010",
+      "polarity": "include",
+      "page": 1,
+      "line": "Financial Institutions, Securities \u2013 Brokers, Quasi Cash, Insurance, Stored Value Card Purchase/Load and Wire Transfer \u2013 4829, 5960, 6010, 6011, 6012, 6051, 6211, 6300, 6540.",
+      "reason": "Any transaction classified under any of the following Merchant Category Codes:",
+      "in_reference": true
+     },
+     {
+      "code": "6011",
+      "polarity": "include",
+      "page": 1,
+      "line": "Financial Institutions, Securities \u2013 Brokers, Quasi Cash, Insurance, Stored Value Card Purchase/Load and Wire Transfer \u2013 4829, 5960, 6010, 6011, 6012, 6051, 6211, 6300, 6540.",
+      "reason": "Any transaction classified under any of the following Merchant Category Codes:",
+      "in_reference": true
+     },
+     {
+      "code": "6012",
+      "polarity": "include",
+      "page": 1,
+      "line": "Financial Institutions, Securities \u2013 Brokers, Quasi Cash, Insurance, Stored Value Card Purchase/Load and Wire Transfer \u2013 4829, 5960, 6010, 6011, 6012, 6051, 6211, 6300, 6540.",
+      "reason": "Any transaction classified under any of the following Merchant Category Codes:",
+      "in_reference": true
+     },
+     {
+      "code": "6051",
+      "polarity": "include",
+      "page": 1,
+      "line": "Financial Institutions, Securities \u2013 Brokers, Quasi Cash, Insurance, Stored Value Card Purchase/Load and Wire Transfer \u2013 4829, 5960, 6010, 6011, 6012, 6051, 6211, 6300, 6540.",
+      "reason": "Any transaction classified under any of the following Merchant Category Codes:",
+      "in_reference": true
+     },
+     {
+      "code": "6211",
+      "polarity": "include",
+      "page": 1,
+      "line": "Financial Institutions, Securities \u2013 Brokers, Quasi Cash, Insurance, Stored Value Card Purchase/Load and Wire Transfer \u2013 4829, 5960, 6010, 6011, 6012, 6051, 6211, 6300, 6540.",
+      "reason": "Any transaction classified under any of the following Merchant Category Codes:",
+      "in_reference": true
+     },
+     {
+      "code": "6300",
+      "polarity": "include",
+      "page": 1,
+      "line": "Financial Institutions, Securities \u2013 Brokers, Quasi Cash, Insurance, Stored Value Card Purchase/Load and Wire Transfer \u2013 4829, 5960, 6010, 6011, 6012, 6051, 6211, 6300, 6540.",
+      "reason": "Any transaction classified under any of the following Merchant Category Codes:",
+      "in_reference": true
+     },
+     {
+      "code": "6540",
+      "polarity": "include",
+      "page": 1,
+      "line": "Financial Institutions, Securities \u2013 Brokers, Quasi Cash, Insurance, Stored Value Card Purchase/Load and Wire Transfer \u2013 4829, 5960, 6010, 6011, 6012, 6051, 6211, 6300, 6540.",
+      "reason": "Any transaction classified under any of the following Merchant Category Codes:",
+      "in_reference": true
+     },
+     {
+      "code": "7995",
+      "polarity": "include",
+      "page": 1,
+      "line": "Gambling \u2013 7995.",
+      "reason": "Any transaction classified under any of the following Merchant Category Codes:",
+      "in_reference": true
+     },
+     {
+      "code": "8211",
+      "polarity": "include",
+      "page": 1,
+      "line": "Educational Institutions \u2013 8211, 8220, 8241, 8244, 8249, 8299.",
+      "reason": "Any transaction classified under any of the following Merchant Category Codes:",
+      "in_reference": true
+     },
+     {
+      "code": "8220",
+      "polarity": "include",
+      "page": 1,
+      "line": "Educational Institutions \u2013 8211, 8220, 8241, 8244, 8249, 8299.",
+      "reason": "Any transaction classified under any of the following Merchant Category Codes:",
+      "in_reference": true
+     },
+     {
+      "code": "8241",
+      "polarity": "include",
+      "page": 1,
+      "line": "Educational Institutions \u2013 8211, 8220, 8241, 8244, 8249, 8299.",
+      "reason": "Any transaction classified under any of the following Merchant Category Codes:",
+      "in_reference": true
+     },
+     {
+      "code": "8244",
+      "polarity": "include",
+      "page": 1,
+      "line": "Educational Institutions \u2013 8211, 8220, 8241, 8244, 8249, 8299.",
+      "reason": "Any transaction classified under any of the following Merchant Category Codes:",
+      "in_reference": true
+     },
+     {
+      "code": "8249",
+      "polarity": "include",
+      "page": 1,
+      "line": "Educational Institutions \u2013 8211, 8220, 8241, 8244, 8249, 8299.",
+      "reason": "Any transaction classified under any of the following Merchant Category Codes:",
+      "in_reference": true
+     },
+     {
+      "code": "8299",
+      "polarity": "include",
+      "page": 1,
+      "line": "Educational Institutions \u2013 8211, 8220, 8241, 8244, 8249, 8299.",
+      "reason": "Any transaction classified under any of the following Merchant Category Codes:",
+      "in_reference": true
+     },
+     {
+      "code": "8398",
+      "polarity": "include",
+      "page": 1,
+      "line": "Charitable services, political organisations, religious organisations and government payments \u2013 8398, 8651, 8661, 9211, 9222, 9223, 9311, 9399, 9402, 9405.",
+      "reason": "Any transaction classified under any of the following Merchant Category Codes:",
+      "in_reference": true
+     },
+     {
+      "code": "8651",
+      "polarity": "include",
+      "page": 1,
+      "line": "Charitable services, political organisations, religious organisations and government payments \u2013 8398, 8651, 8661, 9211, 9222, 9223, 9311, 9399, 9402, 9405.",
+      "reason": "Any transaction classified under any of the following Merchant Category Codes:",
+      "in_reference": true
+     },
+     {
+      "code": "8661",
+      "polarity": "include",
+      "page": 1,
+      "line": "Charitable services, political organisations, religious organisations and government payments \u2013 8398, 8651, 8661, 9211, 9222, 9223, 9311, 9399, 9402, 9405.",
+      "reason": "Any transaction classified under any of the following Merchant Category Codes:",
+      "in_reference": true
+     },
+     {
+      "code": "9211",
+      "polarity": "include",
+      "page": 1,
+      "line": "Charitable services, political organisations, religious organisations and government payments \u2013 8398, 8651, 8661, 9211, 9222, 9223, 9311, 9399, 9402, 9405.",
+      "reason": "Any transaction classified under any of the following Merchant Category Codes:",
+      "in_reference": true
+     },
+     {
+      "code": "9222",
+      "polarity": "include",
+      "page": 1,
+      "line": "Charitable services, political organisations, religious organisations and government payments \u2013 8398, 8651, 8661, 9211, 9222, 9223, 9311, 9399, 9402, 9405.",
+      "reason": "Any transaction classified under any of the following Merchant Category Codes:",
+      "in_reference": true
+     },
+     {
+      "code": "9223",
+      "polarity": "include",
+      "page": 1,
+      "line": "Charitable services, political organisations, religious organisations and government payments \u2013 8398, 8651, 8661, 9211, 9222, 9223, 9311, 9399, 9402, 9405.",
+      "reason": "Any transaction classified under any of the following Merchant Category Codes:",
+      "in_reference": true
+     },
+     {
+      "code": "9311",
+      "polarity": "include",
+      "page": 1,
+      "line": "Charitable services, political organisations, religious organisations and government payments \u2013 8398, 8651, 8661, 9211, 9222, 9223, 9311, 9399, 9402, 9405.",
+      "reason": "Any transaction classified under any of the following Merchant Category Codes:",
+      "in_reference": true
+     },
+     {
+      "code": "9399",
+      "polarity": "include",
+      "page": 1,
+      "line": "Charitable services, political organisations, religious organisations and government payments \u2013 8398, 8651, 8661, 9211, 9222, 9223, 9311, 9399, 9402, 9405.",
+      "reason": "Any transaction classified under any of the following Merchant Category Codes:",
+      "in_reference": true
+     },
+     {
+      "code": "9402",
+      "polarity": "include",
+      "page": 1,
+      "line": "Charitable services, political organisations, religious organisations and government payments \u2013 8398, 8651, 8661, 9211, 9222, 9223, 9311, 9399, 9402, 9405.",
+      "reason": "Any transaction classified under any of the following Merchant Category Codes:",
+      "in_reference": true
+     },
+     {
+      "code": "9405",
+      "polarity": "include",
+      "page": 1,
+      "line": "Charitable services, political organisations, religious organisations and government payments \u2013 8398, 8651, 8661, 9211, 9222, 9223, 9311, 9399, 9402, 9405.",
+      "reason": "Any transaction classified under any of the following Merchant Category Codes:",
+      "in_reference": true
+     },
+     {
+      "code": "7399",
+      "polarity": "include",
+      "page": 1,
+      "line": "Other services - 7399*.",
+      "reason": "Any transaction classified under any of the following Merchant Category Codes:",
+      "in_reference": true
+     },
+     {
+      "code": "7399",
+      "polarity": "exclude",
+      "page": 1,
+      "line": "*From 15 May 2026, MCC 7399 will be an ineligible transaction.",
+      "reason": "*From 15 May 2026, MCC 7399 will be an ineligible transaction.",
+      "in_reference": true
+     }
+    ]
+   },
+   "transaction_modes": {
+    "local_currency": [
+     "If we receive any payment in any other currency, we may convert such payment into Singapore dollars at the prevailing exchange rate determined by us at the relevant time."
+    ]
+   },
+   "non_mcc_exclusions": [
+    "axs",
+    "balance transfer",
+    "cash advance",
+    "charit",
+    "education",
+    "government",
+    "insurance premium",
+    "interest",
+    "tax",
+    "top-up",
+    "top-ups",
+    "utilit"
+   ]
+  },
+  {
+   "url": "https://trustbank.sg/legal/key-facts-sheet-credit-card/",
+   "citation": {
+    "id": "bank:fdf0a4026f11",
+    "url": "https://trustbank.sg/legal/key-facts-sheet-credit-card/",
+    "source_type": "official",
+    "retrieved_at": "2026-09-27T08:42:52+00:00",
+    "sha256": "fdf0a4026f1128a99e3644488ef9ede114f111bd7316f4266e2f7b8fb09e7d7c",
+    "snapshot": "data/raw/bank/trustbank-sg-legal-key-facts-sheet-credit-card-d36eadb6.html"
+   },
+   "text_path": "data/raw/bank/trustbank-sg-legal-key-facts-sheet-credit-card-d36eadb6.txt",
+   "sha256": "fdf0a4026f1128a99e3644488ef9ede114f111bd7316f4266e2f7b8fb09e7d7c",
+   "changed": false,
+   "new": true,
+   "no_text_layer": false,
+   "effective_dates": [],
+   "mcc": {
+    "include": [],
+    "exclude": [],
+    "unknown": [],
+    "conflicting": [],
+    "unrecognised": [],
+    "hits": []
+   },
+   "transaction_modes": {
+    "online": [
+     "Dynamic currency conversion (DCC) If your foreign currency transactions (including overseas and online transactions) are converted into Singapore dollars via DCC, this means that the process of conversion and the exchange rate applied will be determined by the relevant DCC service provider and not by us.",
+     "FPG groceries includes FairPrice, FairPrice Finest, FairPrice Xtra, FairPrice Xpress, FairPrice Online, Warehouse Club, Unity, and Cheers stores."
+    ],
+    "foreign_currency": [
+     "For overseas usage, you may also be able to get a cash advance depending on local regulation.",
+     "If you\u2019ve activated the overseas ATM withdrawal function on the Trust App and you use your credit card overseas to withdraw cash: (1) The foreign currency withdrawal amount will be converted from US dollars into Singapore dollars at the foreign exchange rate provided by Visa with no fee from Trust (and if it\u2019s not in US dollars, it\u2019ll first be converted to US dollars).",
+     "The overseas ATM operator may charge a fee for overseas withdrawals.",
+     "(Only applicable to main cardholders as supplementary cardholders cannot take out a cash advance.) Foreign currency transactions If you use your credit card to pay in a foreign currency (or get a refund in a foreign currency), here\u2019s what will happen: (1) The foreign currency amount will be converted from US dollars into Singapore dollars at the foreign exchange rate provided by Visa with no fee f",
+     "Please remember that some transactions may be processed overseas even if displayed in Singapore dollars.",
+     "We will consider these transactions as using your Trust card in a foreign currency.",
+     "Dynamic currency conversion (DCC) If your foreign currency transactions (including overseas and online transactions) are converted into Singapore dollars via DCC, this means that the process of conversion and the exchange rate applied will be determined by the relevant DCC service provider and not by us."
+    ],
+    "local_currency": [
+     "If you\u2019ve activated the overseas ATM withdrawal function on the Trust App and you use your credit card overseas to withdraw cash: (1) The foreign currency withdrawal amount will be converted from US dollars into Singapore dollars at the foreign exchange rate provided by Visa with no fee from Trust (and if it\u2019s not in US dollars, it\u2019ll first be converted to US dollars).",
+     "(Only applicable to main cardholders as supplementary cardholders cannot take out a cash advance.) Foreign currency transactions If you use your credit card to pay in a foreign currency (or get a refund in a foreign currency), here\u2019s what will happen: (1) The foreign currency amount will be converted from US dollars into Singapore dollars at the foreign exchange rate provided by Visa with no fee f",
+     "Please remember that some transactions may be processed overseas even if displayed in Singapore dollars.",
+     "Dynamic currency conversion (DCC) If your foreign currency transactions (including overseas and online transactions) are converted into Singapore dollars via DCC, this means that the process of conversion and the exchange rate applied will be determined by the relevant DCC service provider and not by us.",
+     "Local Eligible Spend refers to all Visa transactions on your credit card or debit card in Singapore Dollars, and where the transaction is processed in Singapore , excluding FPG spend and ineligible transactions.",
+     "Foreign Eligible Spend refers to all Visa transactions made on your credit card or debit card that are not in Singapore Dollars, or where the transaction is processed outside of Singapore (including transactions that are converted into Singapore dollars via Dynamic Currency Conversion (DCC)) , excluding FPG spend and ineligible transactions."
+    ]
+   },
+   "non_mcc_exclusions": [
+    "annual fee",
+    "balance transfer",
+    "cash advance",
+    "instalment",
+    "interest",
+    "late payment charge",
+    "top-up"
+   ]
+  }
+ ],
+ "changed": false,
+ "removed_documents": []
+}

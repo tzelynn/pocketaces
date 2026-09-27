@@ -1,0 +1,86 @@
+{
+ "source": "moneysmart",
+ "source_id": "uob-ladys-solitaire-card",
+ "source_url": "https://www.moneysmart.sg/credit-cards/uob-ladys-solitaire-card",
+ "name": "UOB Lady's Solitaire Card",
+ "bank": "UOB",
+ "card_id": "uob-ladys-solitaire",
+ "image_url": "https://photos.cdn-moneysmart.com/credit_cards/uploads/products/images/image_url_2024-05-09_Screenshot 2024-05-09 at 9.55.15 AM Medium Small.jpeg",
+ "annual_fee": 414.2,
+ "earn_rates": {},
+ "caps": {},
+ "highlights": [
+  "S$5 = 1X UNI$ (or 0.4 miles per S$1) Base Earn Rate",
+  "S$5 = Up to 25X UNI$ (equivalent to 10 miles per S$1) on Two Categories of Choice",
+  "0 Min. Spend",
+  "Up to 25X UNI$ for every S$5 spend (equiv. to 10 miles per S$1) on up to 2 of your preferred rewards category(ies) with no minimum spend required.",
+  "Choose from Beauty & Wellness, Dining, Entertainment, Family, Fashion, Transport and Travel.",
+  "10X UNI$ (4 miles per S$1) with no min. spend + additional up to 15X UNI$ (6 miles per S$1) when you save with UOB Lady's Savings Account",
+  "Flexibility to change your Preferred Rewards Category(ies) Spending every quarter.",
+  "UOB Lady's LuxePay Plan 6 or 12-month installment plan with no interest or processing fees",
+  "Free e-Commerce protection for online purchases up to USD$200",
+  "Earn up to 6.0% p.a. interest with UOB One Account"
+ ],
+ "sign_up_offers": [],
+ "links": {
+  "product": "https://www.moneysmart.sg/credit-cards/uob-ladys-solitaire-card",
+  "review": "https://blog.moneysmart.sg/credit-cards/uob-lady-card-review/"
+ },
+ "citation": {
+  "id": "moneysmart:fbcf8e7229a3",
+  "url": "https://www.moneysmart.sg/credit-cards?page=3",
+  "title": "UOB Lady's Solitaire Card",
+  "source_type": "aggregator",
+  "retrieved_at": "2026-09-27T05:27:18+00:00",
+  "sha256": "fbcf8e7229a38611c3c767cd8447164e413b1306df1f54bebee269e3abf15202",
+  "snapshot": "data/raw/moneysmart/credit-cards-p3-707cb52c.html"
+ },
+ "extra": {
+  "summary": "",
+  "badges": [],
+  "network": [
+   "Mastercard"
+  ],
+  "mobile_wallets": [
+   "Google Pay",
+   "Apple Pay",
+   "Samsung Pay"
+  ],
+  "groups": {
+   "annual-interest-rate-and-fees": {
+    "Annual Interest Rate": "27.8",
+    "Annual Principal Fee": "414.20",
+    "Supplementary Annual Fee": "1st and 2nd Supplementary Cards free, $196.20 for subsequent Supplementary Cards",
+    "Fee Waiver": "1st year fee waiver",
+    "Minimum Monthly Repayment": "3% or S$50, whichever is greater",
+    "Interest Free Period": "21 days"
+   },
+   "minimum-income-requirements": {
+    "Singaporean/PR Minimum Annual Income": "120000",
+    "Non-Singaporean Minimum Annual Income": "120000"
+   },
+   "card-association": {
+    "Mastercard": "true"
+   },
+   "wireless-payment": {
+    "Google Pay": "true",
+    "Apple Pay": "true",
+    "Samsung Pay": "true"
+   },
+   "documents-required": {
+    "SG Citizens or PRs": "Apply via MyInfo",
+    "Passport Validity (Foreigners)": "6 months",
+    "Work Permit Validity (Foreigners)": "6 months",
+    "Utility or Telephone Bill": "Yes",
+    "Income Tax Notice of Assessment": "Yes",
+    "Latest Original Computerised Payslip": "Yes"
+   }
+  },
+  "our_takes": {
+   "our-take": "The UOB Lady's Solitaire Card is best for those who concentrate their spending in up to two chosen categories, maximizing UNI$ earnings (equivalent to 10 miles per S$1). The flexibility to change categories quarterly is a real plus, aligning rewards with evolving spending habits. Consider pairing it with a UOB One Account for potentially boosted UNI$. However, the high interest rates and various fees (especially the S$100 late payment fee) demand disciplined repayment habits. This card rewards strategic spending, not impulsive purchases.",
+   "good-for": "Individuals who maximise rewards by strategically spending within preferred categories like fashion or beauty.\nCardholders aiming to accumulate UNI$ points and air miles through daily spending on dining and entertainment.\nProfessionals who enjoy the flexibility to change rewards categories quarterly, aligning with evolving spending habits.",
+   "things-to-note": "Missed payments incur S$100 fees and 27.8% interest, potentially increasing to 30.8%, so pay on time.\nForeign transaction fees add 3.25% to non-SGD and 1% to SGD transactions processed abroad.\nCash advances come with an 8% fee (minimum S$15) plus 28.5% annual interest, making them costly."
+  },
+  "updated_at": "2025-04-22T16:24:02+08:00"
+ }
+}

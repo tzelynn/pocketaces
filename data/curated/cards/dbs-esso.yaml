@@ -1,0 +1,64 @@
+# Curated card record. Auto-drafted from staged sources; verify every value against the
+# official T&Cs (citations below), then set review.status: reviewed.
+id: dbs-esso
+bank: DBS
+name: DBS Esso Card
+network: mastercard
+image_url: https://mhgprod.blob.core.windows.net/singsaver/strapi-uploads/xs_blt6c6e9e9276d8691c_8542294f34.png
+official_url: https://www.dbs.com.sg/personal/cards/credit-cards/dbs-esso-platinum-card
+annual_fee:
+  amount:
+    amount: 196.2
+    currency: SGD
+  first_year_waived: true
+  waiver_notes: S$ | First Year Waived
+  sources: ['singsaver:fa2c25ac592d']
+min_annual_income:
+  amount: 30000.0
+  currency: SGD
+reward_currency:
+  kind: points
+  name: Points
+earn_rules:
+- id: petrol
+  label: petrol (SingSaver — verify)
+  rate: 1.0
+  unit: points_per_dollar
+  tier: bonus
+  eligibility:
+    tags: [petrol]
+    description: For every 1 Litre of Synergy fuel  Get S$10/S$30 worth of Synergy fuel with 300/750 Smiles
+      Points.
+    sources: ['singsaver:fa2c25ac592d']
+  sources: ['singsaver:fa2c25ac592d']
+- id: base
+  label: baseline (SingSaver — verify)
+  rate: 1.0
+  unit: points_per_dollar
+  tier: base
+  eligibility:
+    all_spend: true
+    description: For every S$10 charged outside of Esso  Get S$10/S$30 worth of Synergy fuel with 300/750
+      Smiles Points.
+    sources: ['singsaver:fa2c25ac592d']
+  sources: ['singsaver:fa2c25ac592d']
+general_exclusions:
+  description: Auto-extracted from official T&Cs — confirm each code applies to this card
+citations:
+- id: singsaver:fa2c25ac592d
+  url: https://www.singsaver.com.sg/credit-card/products/dbs-esso-card
+  title: DBS Esso Card
+  source_type: aggregator
+  retrieved_at: '2026-09-27T05:25:22+00:00'
+  sha256: fa2c25ac592d4f3bb097a27d303ae23be5a3f4563da9ef16c05715e2f97adcac
+  snapshot: data/raw/singsaver/www-singsaver-com-sg-credit-card-products-dbs-esso-card-958b8a56.html
+- id: moneysmart:fbcf8e7229a3
+  url: https://www.moneysmart.sg/credit-cards?page=3
+  title: DBS Esso Card
+  source_type: aggregator
+  retrieved_at: '2026-09-27T05:27:18+00:00'
+  sha256: fbcf8e7229a38611c3c767cd8447164e413b1306df1f54bebee269e3abf15202
+  snapshot: data/raw/moneysmart/credit-cards-p3-707cb52c.html
+review:
+  status: draft
+updated_at: '2026-09-27'

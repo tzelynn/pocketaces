@@ -1,0 +1,141 @@
+{
+ "source": "moneysmart",
+ "source_id": "citibank-smrt-platinum-visa-card",
+ "source_url": "https://www.moneysmart.sg/credit-cards/citibank-smrt-platinum-visa-card",
+ "name": "Citi SMRT Card",
+ "bank": "Citibank",
+ "card_id": "citi-smrt",
+ "image_url": "https://photos.cdn-moneysmart.com/credit_cards/uploads/products/images/image_url_2025-01-02_SMRT-Visa_1397x885-(Name) Medium.jpeg",
+ "earn_rates": {},
+ "caps": {},
+ "highlights": [
+  "5% Savings on Online Purchases, Groceries, Taxi, Ride-hailing, SimplyGo & Malaysia Ringgit Spend",
+  "0.3% Savings on Other Retail Spend",
+  "500 Min. Spend per statement month to earn max rebates",
+  "No monthly rebates cap, although rebates are capped at 600 SMRT$ per year",
+  "Minimum spend of S$500 per statement month to earn maximum rebates across groceries, online shopping, taxi rides (including private hire operators such as Grab and Gojek), SimplyGo transactions and Malaysian Ringgit Spend",
+  "Earn 5% savings on Malaysian Ringgit Spend (Applies to both eligible retail and online spend). Valid from 1 Sept 2025 to 28 Feb 2026",
+  "Earn up to 5% SMRT$ on groceries [0.3% (base rate) + 4.7% (bonus rate)]",
+  "Earn up to 5% SMRT$ on online shopping [0.3% (base rate) + 4.7% (bonus rate)]",
+  "Earn up to 5% on taxis and private hire cars [0.3% (base rate) + 4.7% (bonus rate)]",
+  "Earn up to 5% SMRT$ for SimplyGo (tap to pay) transactions [0.3% (base rate) + 4.7% (bonus rate)]",
+  "Earn 0.3% SMRT$ on all other retail spends",
+  "Enjoy 2 year annual fee waiver",
+  "At MoneySmart, we strive to keep our information accurate and up to date. This information may be different from what you see when you visit a financial institution, service provider, or specific product site. MoneySmart shall not be liable to compensate the Customer should the information is not as updated as our Partner."
+ ],
+ "sign_up_offers": [
+  {
+   "kind": "MANUAL_GIFT",
+   "title": "S$400 Cash via PayNow",
+   "subtitle": null,
+   "is_cash": true,
+   "terms": "• Apply for a Citi Card by 30th Sept 2026\n• Spend a min. of S$500 within 30 days\n• Submit the Claim Form by 30th Oct 2026",
+   "campaign": "Credit Card | Citibank | 210926"
+  },
+  {
+   "kind": "STORE_PRODUCT",
+   "title": "Shopee Voucher $450",
+   "subtitle": "worth S$450",
+   "is_cash": false,
+   "terms": "• Apply for a Citi Card by 30th Sept 2026\n• Spend a min. of S$500 within 30 days\n• Submit the Claim Form by 30th Oct 2026",
+   "campaign": "Credit Card | Citibank | 210926"
+  },
+  {
+   "kind": "STORE_PRODUCT",
+   "title": "Apple iPhone 18 Pro (256GB, Burgundy)",
+   "subtitle": "worth S$1899",
+   "is_cash": false,
+   "terms": "• Apply for a Citi Card by 30th Sept 2026\n• Spend a min. of S$500 within 30 days\n• Submit the Claim Form by 30th Oct 2026",
+   "campaign": "Credit Card | Citibank | 210926"
+  },
+  {
+   "kind": "STORE_PRODUCT",
+   "title": "Apple AirPods Pro 3",
+   "subtitle": "worth S$349",
+   "is_cash": false,
+   "terms": "• Apply for a Citi Card by 30th Sept 2026\n• Spend a min. of S$500 within 30 days\n• Submit the Claim Form by 30th Oct 2026",
+   "campaign": "Credit Card | Citibank | 210926"
+  },
+  {
+   "kind": "STORE_PRODUCT",
+   "title": "Apple Watch Series 12, 42mm (GPS, Black Aluminium Case with Black Sport Band)",
+   "subtitle": "worth S$599",
+   "is_cash": false,
+   "terms": "• Apply for a Citi Card by 30th Sept 2026\n• Spend a min. of S$500 within 30 days\n• Submit the Claim Form by 30th Oct 2026",
+   "campaign": "Credit Card | Citibank | 210926"
+  },
+  {
+   "kind": "STORE_PRODUCT",
+   "title": "Sony WH-1000XM6 Wireless Noise Cancelling Headphones (Black)",
+   "subtitle": "worth S$649",
+   "is_cash": false,
+   "terms": "• Apply for a Citi Card by 30th Sept 2026\n• Spend a min. of S$500 within 30 days\n• Submit the Claim Form by 30th Oct 2026",
+   "campaign": "Credit Card | Citibank | 210926"
+  }
+ ],
+ "links": {
+  "product": "https://www.moneysmart.sg/credit-cards/citibank-smrt-platinum-visa-card",
+  "review": "https://blog.moneysmart.sg/credit-cards/citibank-smrt-card-review/"
+ },
+ "citation": {
+  "id": "moneysmart:eeee24fb93a9",
+  "url": "https://www.moneysmart.sg/credit-cards",
+  "title": "Citi SMRT Card",
+  "source_type": "aggregator",
+  "retrieved_at": "2026-09-27T05:27:12+00:00",
+  "sha256": "eeee24fb93a9d85ef8b9194c11bda960b5b99ee30b3689cdc59fb650badebce7",
+  "snapshot": "data/raw/moneysmart/credit-cards-p1-b55034ef.html"
+ },
+ "extra": {
+  "summary": "The Citi SMRT Card suits daily commuters and online shoppers seeking fuss-free rewards. Earn 5% SMRT$ rebate on groceries, online shopping, taxis, and SimplyGo and redeem SMRT$ for cash rebates to offset your spending. Rebates are capped at 600 SMRT$ annually. Consider this card if you frequently use SimplyGo and shop online.",
+  "badges": [
+   "FASTER REWARD FULFILMENT | EARN UP TO 5% SMRT$ "
+  ],
+  "network": [
+   "Visa"
+  ],
+  "mobile_wallets": [
+   "Visa Contactless",
+   "Google Pay",
+   "Apple Pay",
+   "Samsung Pay"
+  ],
+  "groups": {
+   "annual-interest-rate-and-fees": {
+    "Annual Interest Rate": "27.9%",
+    "Annual Principal Fee": "S$196.20 (incl. 9% GST)",
+    "Supplementary Annual Fee": "S$98.10 (incl. 9% GST)",
+    "Fee Waiver": "Available",
+    "Minimum Monthly Repayment": "Current balance if current balance is between S$0 to S$50. For current balance S$50 & above,  (i) 1% of the current balance; plus (ii) 1% of any outstanding unbilled instalment amounts; plus (iii) all interest charges (including interest charged under instalment plans); plus (iv) all upfront service fees for instalment plans; plus (v) late payment charges; or S$50 plus any overdue amounts.",
+    "Interest Free Period": "25 days"
+   },
+   "minimum-income-requirements": {
+    "Singaporean/PR Minimum Annual Income": "30000",
+    "Non-Singaporean Minimum Annual Income": "42000"
+   },
+   "card-association": {
+    "Visa": "true"
+   },
+   "wireless-payment": {
+    "Visa Contactless": "true",
+    "Google Pay": "true",
+    "Apple Pay": "true",
+    "Samsung Pay": "true"
+   },
+   "documents-required": {
+    "SG Citizens or PRs": "Apply via MyInfo",
+    "Passport Validity (Foreigners)": "6 months",
+    "Work Permit Validity (Foreigners)": "6 months",
+    "Utility or Telephone Bill": "With Full Name and Address",
+    "Income Tax Notice of Assessment": "true",
+    "Latest Original Computerised Payslip": "true"
+   }
+  },
+  "our_takes": {
+   "our-take": "The Citi SMRT Card suits daily commuters and online shoppers seeking fuss-free rewards. While the 5% SMRT$ rebate on groceries, online shopping, taxis, SimplyGo and Malaysian Ringgit Spend is attractive, maximizing it requires a S$500 monthly spend. Rebates are capped at 600 SMRT$ annually, effectively limiting high spenders. Redeem SMRT$ for cash rebates to offset your spending. Consider this card if you frequently use SimplyGo and shop online, but weigh the spend threshold against the rebate cap.",
+   "good-for": "Singaporeans who utilize public transportation via SimplyGo and want to earn rebates on their daily commutes.\nOnline shoppers seeking to maximize rewards on e-commerce purchases with no monthly rebate cap.\nBudget-conscious individuals aiming to earn cashback on groceries and taxi or ride-hailing services.",
+   "things-to-note": "Annual fees of S$196.20 apply; ensure the card's benefits outweigh the cost after waivers end.\nForeign transaction fees of 3.25% apply, so consider other options for overseas spending to save money.\n27.9% annual interest rate can accrue, so it's best to pay your balances in full each month."
+  },
+  "updated_at": "2025-10-02T10:17:06+08:00"
+ }
+}

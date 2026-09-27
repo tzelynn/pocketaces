@@ -1,0 +1,87 @@
+# Curated card record. Auto-drafted from staged sources; verify every value against the
+# official T&Cs (citations below), then set review.status: reviewed.
+id: dbs-womans-world
+bank: DBS
+name: DBS Woman's World Card
+network: mastercard
+image_url: https://mhgprod.blob.core.windows.net/singsaver/strapi-uploads/xl_2026_01_DBS_WOMAN_WORLD_MASTERCARD_CARD_4bda648ba7.png
+official_url: https://www.dbs.com.sg/personal/cards/credit-cards/dbs-woman-mastercard-card
+annual_fee:
+  amount:
+    amount: 196.2
+    currency: SGD
+  first_year_waived: true
+  waiver_notes: S$ | First Year Waived
+  sources: ['singsaver:5fff9a842eb7']
+min_annual_income:
+  amount: 80000.0
+  currency: SGD
+reward_currency:
+  kind: miles
+  name: Miles
+earn_rules:
+- id: local
+  label: local, retail, local online shopping, dining, hotel booking, flight booking, overseas online
+    shopping, supermarket, travel, online food delivery (SingSaver — verify)
+  rate: 4.0
+  unit: mpd
+  tier: bonus
+  eligibility:
+    tags: [shopping, dining, hotels, flights, groceries, travel]
+    modes_required: [online]
+    description: 10X DBS Points per S$5 / 10X DBS Points per S$5, online only. / Or 10X DBS Points per
+      S$5 / 10 X DBS Points per S$5, online only. / 10X DBS Points per S$5 on online transactions; otherwise
+      1.2 miles per dollar. (or 3X DBS Points). / 10X DBS Points per S$5 for online transactions; otherwise
+      1.2 miles per dollar. (or 3X DBS Points).
+    sources: ['singsaver:5fff9a842eb7']
+  sources: ['singsaver:5fff9a842eb7']
+- id: department-store
+  label: department store (SingSaver — verify)
+  rate: 0.4
+  unit: mpd
+  tier: bonus
+  eligibility:
+    tags: [shopping]
+    description: 1X DBS Point per S$5
+    sources: ['singsaver:5fff9a842eb7']
+  sources: ['singsaver:5fff9a842eb7']
+- id: base
+  label: baseline (SingSaver — verify)
+  rate: 0.4
+  unit: mpd
+  tier: base
+  eligibility:
+    all_spend: true
+    description: 1X DBS Point per S$5
+    sources: ['singsaver:5fff9a842eb7']
+  sources: ['singsaver:5fff9a842eb7']
+general_exclusions:
+  description: Auto-extracted from official T&Cs — confirm each code applies to this card
+notes:
+- 'Editorial review for cross-checking: Review: DBS Woman’s World Card (https://milelion.com/2026/08/11/review-dbs-womans-world-card/,
+  updated 2026-08-11)'
+citations:
+- id: singsaver:5fff9a842eb7
+  url: https://www.singsaver.com.sg/credit-card/products/dbs-womans-world-card
+  title: DBS Woman's World Card
+  source_type: aggregator
+  retrieved_at: '2026-09-27T05:25:34+00:00'
+  sha256: 5fff9a842eb76a67bf3cdcec23aa31e1cacde3143be21b6ae2bd8d18a09e6cc3
+  snapshot: data/raw/singsaver/www-singsaver-com-sg-credit-card-products-dbs-womans-world-card-5c983b31.html
+- id: moneysmart:fbcf8e7229a3
+  url: https://www.moneysmart.sg/credit-cards?page=3
+  title: DBS Woman's World Card
+  source_type: aggregator
+  retrieved_at: '2026-09-27T05:27:18+00:00'
+  sha256: fbcf8e7229a38611c3c767cd8447164e413b1306df1f54bebee269e3abf15202
+  snapshot: data/raw/moneysmart/credit-cards-p3-707cb52c.html
+- id: milelion:32616126a4a7
+  url: https://milelion.com/2026/08/11/review-dbs-womans-world-card/
+  title: 'Review: DBS Woman’s World Card'
+  source_type: editorial
+  retrieved_at: '2026-09-27T05:28:19+00:00'
+  sha256: 32616126a4a725ba23330243e1af4df31743764bd112935a6479d729b9582c20
+  snapshot: data/raw/milelion/post-72765-a61d53a6.json
+review:
+  status: draft
+updated_at: '2026-09-27'

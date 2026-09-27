@@ -1,0 +1,120 @@
+{
+ "source": "singsaver",
+ "source_id": "hsbc-visa-platinum-credit-card",
+ "source_url": "https://www.singsaver.com.sg/credit-card/products/hsbc-visa-platinum-credit-card",
+ "name": "HSBC Visa Platinum Credit Card",
+ "bank": "HSBC",
+ "card_id": "hsbc-visa-platinum",
+ "image_url": "https://mhgprod.blob.core.windows.net/singsaver/strapi-uploads/s_blt121f69116af1c213_3a3c2709dd.jpeg",
+ "annual_fee": 196.2,
+ "annual_fee_note": "S$ | First Two Years Waived",
+ "min_annual_income": 30000.0,
+ "min_monthly_spend": 600.0,
+ "earn_rates": {
+  "percent:local": {
+   "value": 5.0,
+   "unit": "percent",
+   "note": null
+  },
+  "percent:dining": {
+   "value": 5.0,
+   "unit": "percent",
+   "note": null
+  },
+  "percent:supermarket": {
+   "value": 5.0,
+   "unit": "percent",
+   "note": null
+  },
+  "percent:petrol": {
+   "value": 5.0,
+   "unit": "percent",
+   "note": null
+  },
+  "percent:baseline": {
+   "value": 5.0,
+   "unit": "percent",
+   "note": null
+  },
+  "percent:overseas": {
+   "value": 5.0,
+   "unit": "percent",
+   "note": null
+  },
+  "points_per_dollar:baseline": {
+   "value": 1.0,
+   "unit": "points_per_dollar",
+   "note": null
+  }
+ },
+ "caps": {},
+ "highlights": [
+  "pros: Borrow up to 90% of your available credit limit, enjoy interest rates as low as 2.6% p.a., and get flexible payment terms up to 60 months when you apply with promo code \nCIPSS\n. \nT&Cs apply.",
+  "pros: 5% cash rebate on local dining and groceries (including food deliveries and online groceries).",
+  "pros: Up to 17% instant discount plus 5% cash rebate on fuel spending at Caltex and Shell stations.",
+  "pros: 1X reward point per dollar spent.",
+  "pros: Receive complimentary access to ENTERTAINER with HSBC app, with over 1,000 1-for-1 deals on dining, lifestyle and travel worldwide.",
+  "cons: Min. spending of S$600 per month, for all 3 months in a quarter, required to earn 5% cash rebate.",
+  "cons: Cashback capped at S$250 per quarter.",
+  "cons: Cash rebates are credited quarterly instead of monthly.",
+  "pros: Dining rebate",
+  "pros: Supermarket rebate",
+  "pros: Petrol rebate",
+  "cons: Rebate cap applied"
+ ],
+ "sign_up_offers": [],
+ "links": {
+  "apply": "https://form-rewards.singsaver.com.sg/v2/?q=NTM1OCMzMTdlYTFmNTQzMWViMWU2YmZlYWM1M2ViNzI1NzU4Zg==&source=result-page&lang=en"
+ },
+ "citation": {
+  "id": "singsaver:db6ccfc3ed6c",
+  "url": "https://www.singsaver.com.sg/credit-card/products/hsbc-visa-platinum-credit-card",
+  "title": "HSBC Visa Platinum Credit Card",
+  "source_type": "aggregator",
+  "retrieved_at": "2026-09-27T05:25:53+00:00",
+  "sha256": "db6ccfc3ed6cba31e83ffbc3a4bf799d5576a84e23b0fcd09221bbdab8078800",
+  "snapshot": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-hsbc-visa-platinum-credit-card-e2ec0a9a.html"
+ },
+ "extra": {
+  "network": [
+   "VISA Platinum"
+  ],
+  "mobile_wallets": [
+   "Google Pay",
+   "Apple Pay"
+  ],
+  "fx_fee_percent": 3.25,
+  "miles_conversion_fee": 40.0,
+  "categories": [
+   "category:all-credit-cards",
+   "category:buffet-promo",
+   "category:cashback",
+   "category:dining-promo",
+   "category:grocery-promo",
+   "category:installment",
+   "category:petrol-promo",
+   "category:promo",
+   "category:retail-promo",
+   "category:rewards",
+   "category:travel",
+   "needs:0-interest-rate",
+   "needs:air-miles-conversion-rewards",
+   "needs:all-cards-with-buffet-promo",
+   "needs:all-cards-with-dining-promo",
+   "needs:all-cards-with-grocery-promo",
+   "needs:all-cards-with-petrol-promo",
+   "needs:all-cards-with-promotion",
+   "needs:all-cards-with-retail-promo",
+   "needs:all-cashback-cards",
+   "needs:all-credit-cards",
+   "needs:all-installment-cards",
+   "needs:all-rewards-cards",
+   "needs:all-travel-cards",
+   "needs:high-value-gifts",
+   "needs:no-minimum-spend-required-rewards",
+   "needs:online-booking-discount"
+  ],
+  "tag": null,
+  "description": "The HSBC Visa Platinum Credit Card is a rebate card that rewards you for spending on your family. Cardholders will enjoy 5% cash rebate on family expenses, which include dining, groceries and fuel. You'll also enjoy 1 Reward point for every dollar that you spend on this card. If paired with the HSBC Everyday+ Rewards Programme, you'll stand to earn an addition 1% cashback. This card also comes with a complimentary membership to the ENTERTAINER with HSBC."
+ }
+}

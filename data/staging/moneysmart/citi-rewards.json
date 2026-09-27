@@ -1,0 +1,142 @@
+{
+ "source": "moneysmart",
+ "source_id": "citibank-rewards-card",
+ "source_url": "https://www.moneysmart.sg/credit-cards/citibank-rewards-card",
+ "name": "Citi Rewards Card",
+ "bank": "Citibank",
+ "card_id": "citi-rewards",
+ "image_url": "https://photos.cdn-moneysmart.com/credit_cards/uploads/products/images/image_2026-08-04_image_url_2025-01-02_Citi Rewards MC Small.jpeg",
+ "annual_fee": 196.2,
+ "earn_rates": {},
+ "caps": {},
+ "highlights": [
+  "S$1= 10X Points on Online Grocery, Food Delivery, Ride-Hailing",
+  "S$1= 10X Points for in-store shopping purchases at Department Store, Clothing Stores",
+  "S$1= 1X Point for all other purchases",
+  "10X Points for online purchases (for online grocery, food delivery, ride-hailing and more). Excludes mobile wallet and travel-related transactions. Bank's T&Cs apply",
+  "10X Points for shopping purchases (for department store, clothing stores and more). Bank's T&Cs apply",
+  "1X Point for all other purchases Bank's T&Cs apply",
+  "For every 10X Points Eligible Transaction charged to the Eligible Card, an Eligible Cardholder will be awarded:",
+  "(i) 1 Base Point for every S$1 of a 10X Points Eligible Transaction (“Base Points”); and",
+  "(ii) 9 Bonus Points for every S$1 of a 10X Points Eligible Transaction (“Bonus Points”).",
+  "Points shall be calculated on the amount of each 10X Points Eligible Transaction, rounded down to the nearest S$1.",
+  "Base Points are not subject to any cap. However, Bonus Points are subject to a cap of 9,000 Bonus Points per statement month.",
+  "Rewards points expire at the end of 60 months (5 years). Each subsequent Points Validity Period will commence on the expiry of the previous one.",
+  "Offset your purchases with Citi Pay with Points or choose to redeem for merchandise or shopping vouchers through Citi ThankYouSM Rewards",
+  "With Citi PayAll, you can earn and accumulate Citi Miles, Citi ThankYouSM Points or Cash Back quickly when you pay your big-ticket bills such as rent, insurance premiums, education expenses, taxes, utilities and more.",
+  "At MoneySmart, we strive to keep our information accurate and up to date. This information may be different from what you see when you visit a financial institution, service provider, or specific product site. MoneySmart shall not be liable to compensate the Customer should the information is not as updated as our Partner."
+ ],
+ "sign_up_offers": [
+  {
+   "kind": "MANUAL_GIFT",
+   "title": "S$400 Cash via PayNow",
+   "subtitle": null,
+   "is_cash": true,
+   "terms": "• Apply for a Citi Card by 30th Sept 2026\n• Spend a min. of S$500 within 30 days\n• Submit the Claim Form by 30th Oct 2026",
+   "campaign": "Credit Card | Citibank | 210926"
+  },
+  {
+   "kind": "STORE_PRODUCT",
+   "title": "Shopee Voucher $450",
+   "subtitle": "worth S$450",
+   "is_cash": false,
+   "terms": "• Apply for a Citi Card by 30th Sept 2026\n• Spend a min. of S$500 within 30 days\n• Submit the Claim Form by 30th Oct 2026",
+   "campaign": "Credit Card | Citibank | 210926"
+  },
+  {
+   "kind": "STORE_PRODUCT",
+   "title": "Apple iPhone 18 Pro (256GB, Burgundy)",
+   "subtitle": "worth S$1899",
+   "is_cash": false,
+   "terms": "• Apply for a Citi Card by 30th Sept 2026\n• Spend a min. of S$500 within 30 days\n• Submit the Claim Form by 30th Oct 2026",
+   "campaign": "Credit Card | Citibank | 210926"
+  },
+  {
+   "kind": "STORE_PRODUCT",
+   "title": "Apple AirPods Pro 3",
+   "subtitle": "worth S$349",
+   "is_cash": false,
+   "terms": "• Apply for a Citi Card by 30th Sept 2026\n• Spend a min. of S$500 within 30 days\n• Submit the Claim Form by 30th Oct 2026",
+   "campaign": "Credit Card | Citibank | 210926"
+  },
+  {
+   "kind": "STORE_PRODUCT",
+   "title": "Apple Watch Series 12, 42mm (GPS, Black Aluminium Case with Black Sport Band)",
+   "subtitle": "worth S$599",
+   "is_cash": false,
+   "terms": "• Apply for a Citi Card by 30th Sept 2026\n• Spend a min. of S$500 within 30 days\n• Submit the Claim Form by 30th Oct 2026",
+   "campaign": "Credit Card | Citibank | 210926"
+  },
+  {
+   "kind": "STORE_PRODUCT",
+   "title": "Sony WH-1000XM6 Wireless Noise Cancelling Headphones (Black)",
+   "subtitle": "worth S$649",
+   "is_cash": false,
+   "terms": "• Apply for a Citi Card by 30th Sept 2026\n• Spend a min. of S$500 within 30 days\n• Submit the Claim Form by 30th Oct 2026",
+   "campaign": "Credit Card | Citibank | 210926"
+  }
+ ],
+ "links": {
+  "product": "https://www.moneysmart.sg/credit-cards/citibank-rewards-card",
+  "review": "https://blog.moneysmart.sg/credit-cards/citibank-rewards-card-review/"
+ },
+ "citation": {
+  "id": "moneysmart:eeee24fb93a9",
+  "url": "https://www.moneysmart.sg/credit-cards",
+  "title": "Citi Rewards Card",
+  "source_type": "aggregator",
+  "retrieved_at": "2026-09-27T05:27:12+00:00",
+  "sha256": "eeee24fb93a9d85ef8b9194c11bda960b5b99ee30b3689cdc59fb650badebce7",
+  "snapshot": "data/raw/moneysmart/credit-cards-p1-b55034ef.html"
+ },
+ "extra": {
+  "summary": "The Citi Rewards Card is ideal for online and shopping enthusiasts, especially families. Earn 10X points on online purchases (excluding travel) and at shopping outlets, capped at 9,000 bonus points monthly. Maximize rewards by strategically spending around S$1,000 monthly on groceries, food delivery, ride-hailing, and apparel. Points expire after 5 years but can offset purchases via Citi Pay with Points, or redeem vouchers",
+  "badges": [
+   "FASTER REWARD FULFILMENT | 10X POINTS FOR SPENDS"
+  ],
+  "network": [
+   "Mastercard"
+  ],
+  "mobile_wallets": [
+   "Google Pay",
+   "Apple Pay",
+   "Samsung Pay"
+  ],
+  "groups": {
+   "annual-interest-rate-and-fees": {
+    "Annual Interest Rate": "27.9%",
+    "Annual Principal Fee": "196.20",
+    "Supplementary Annual Fee": "98.10",
+    "Fee Waiver": "Available",
+    "Minimum Monthly Repayment": "1% plus 1% of any outstanding unbilled instalment amounts plus interest charges plus late payment charge or S$50, whichever is higher",
+    "Interest Free Period": "25 days"
+   },
+   "minimum-income-requirements": {
+    "Singaporean/PR Minimum Annual Income": "30000",
+    "Non-Singaporean Minimum Annual Income": "42000"
+   },
+   "card-association": {
+    "Mastercard": "true"
+   },
+   "wireless-payment": {
+    "Google Pay": "true",
+    "Apple Pay": "true",
+    "Samsung Pay": "true"
+   },
+   "documents-required": {
+    "SG Citizens or PRs": "Apply via MyInfo",
+    "Passport Validity (Foreigners)": "6 months",
+    "Work Permit Validity (Foreigners)": "6 months",
+    "Utility or Telephone Bill": "With Full Name and Address",
+    "Income Tax Notice of Assessment": "true",
+    "Latest Original Computerised Payslip": "true"
+   }
+  },
+  "our_takes": {
+   "our-take": "The Citi Rewards Card is ideal for online and shopping enthusiasts, especially families. Earn 10X points on online purchases (excluding travel) and at shopping outlets, capped at 9,000 bonus points monthly. Maximize rewards by strategically spending around S$1,000 monthly on groceries, food delivery, ride-hailing, and apparel. Points expire after 5 years but can offset purchases via Citi Pay with Points, or redeem vouchers. Consider alternatives if you prefer cashback or have minimal online/shopping expenditure.",
+   "good-for": "Online shoppers wanting 10X points on purchases like food delivery and ride-hailing services.\nFamilies seeking rewards on shopping for clothing, shoes, and department store purchases.\nCardholders who aim to earn points on utilities or rent payments via Citi PayAll.",
+   "things-to-note": "Bonus points are capped at 9,000 per month; excess spending will only earn base points. Plan spending to maximize rewards within the cap.\n27.9% annual interest rate applies if you don't pay your full balance monthly. Carrying a balance increases your debt significantly, avoid this.\nPoints expire after 60 months, so redeem them regularly to avoid losing your accumulated rewards, as they are non-transferable."
+  },
+  "updated_at": "2026-08-04T13:25:18+08:00"
+ }
+}

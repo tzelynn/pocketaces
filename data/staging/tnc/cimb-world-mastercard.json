@@ -1,0 +1,305 @@
+{
+ "card_id": "cimb-world-mastercard",
+ "product_pages": [
+  {
+   "id": "bank:b6fc247780a7",
+   "url": "https://www.cimb.com.sg/en/personal/banking-with-us/cards/credit-cards/cimb-world-mastercard.html",
+   "source_type": "official",
+   "retrieved_at": "2026-09-27T07:30:52+00:00",
+   "sha256": "b6fc247780a79b6f3b51612bf024aa2e38bd3768cef6c1a2885101dc4cf5e9bd",
+   "snapshot": "data/raw/bank/www-cimb-com-sg-en-personal-banking-with-us-cards-credit-cards-cimb-world-mastercard-html-d5d89870.html"
+  }
+ ],
+ "documents": [
+  {
+   "url": "https://www.cimb.com.sg/content/dam/cimbsg/personal/document/cards/terms-and-conditions/tnc-worldmastercard-wef-1nov22.pdf",
+   "citation": {
+    "id": "bank:7af607a42690",
+    "url": "https://www.cimb.com.sg/content/dam/cimbsg/personal/document/cards/terms-and-conditions/tnc-worldmastercard-wef-1nov22.pdf",
+    "source_type": "official",
+    "retrieved_at": "2026-09-27T07:30:54+00:00",
+    "sha256": "7af607a42690205cbb80ea07e6562579c71914ec8a0940c29e8f3dcf74d290d4",
+    "snapshot": "data/raw/bank/www-cimb-com-sg-content-dam-cimbsg-personal-document-cards-terms-and-conditions-tnc-worldmastercard-wef-1nov22-pdf-a4e59451.pdf"
+   },
+   "text_path": "data/raw/bank/www-cimb-com-sg-content-dam-cimbsg-personal-document-cards-terms-and-conditions-tnc-worldmastercard-wef-1nov22-pdf-a4e59451.txt",
+   "sha256": "7af607a42690205cbb80ea07e6562579c71914ec8a0940c29e8f3dcf74d290d4",
+   "changed": false,
+   "new": false,
+   "no_text_layer": false,
+   "effective_dates": [
+    "1 November 2022"
+   ],
+   "mcc": {
+    "include": [
+     "4121",
+     "5013",
+     "5094",
+     "5511",
+     "5521",
+     "5531",
+     "5532",
+     "5533",
+     "5592",
+     "5811",
+     "5812",
+     "5813",
+     "5814",
+     "5815",
+     "5816",
+     "5818",
+     "5944",
+     "5948",
+     "7531",
+     "7534",
+     "7535",
+     "7538",
+     "7832"
+    ],
+    "exclude": [],
+    "unknown": [],
+    "conflicting": [],
+    "unrecognised": [],
+    "hits": [
+     {
+      "code": "5811",
+      "polarity": "include",
+      "page": 2,
+      "line": "\uf0b7 MCC 5811 (Caterers);",
+      "reason": "3. Definitions of Eligible Categories",
+      "in_reference": true
+     },
+     {
+      "code": "5812",
+      "polarity": "include",
+      "page": 2,
+      "line": "\uf0b7 MCC 5812 (Restaurants and eating places);",
+      "reason": "3. Definitions of Eligible Categories",
+      "in_reference": true
+     },
+     {
+      "code": "5813",
+      "polarity": "include",
+      "page": 2,
+      "line": "\uf0b7 MCC 5813 (Bar, Lounge, Disco, Nightclub, Tavern-Alcoholic Drinks); and",
+      "reason": "3. Definitions of Eligible Categories",
+      "in_reference": true
+     },
+     {
+      "code": "5814",
+      "polarity": "include",
+      "page": 2,
+      "line": "\uf0b7 MCC 5814 (Fast Food Restaurants);",
+      "reason": "3. Definitions of Eligible Categories",
+      "in_reference": true
+     },
+     {
+      "code": "5814",
+      "polarity": "include",
+      "page": 2,
+      "line": "\uf0b7 GrabFood (Grab transactions under MCC 5814 classification - Fast Food",
+      "reason": "3. Definitions of Eligible Categories",
+      "in_reference": true
+     },
+     {
+      "code": "5814",
+      "polarity": "include",
+      "page": 2,
+      "line": "5814 (Fast Food Restaurants) will not be eligible. Top-ups of funds to service providers",
+      "reason": "3. Definitions of Eligible Categories",
+      "in_reference": true
+     },
+     {
+      "code": "5815",
+      "polarity": "include",
+      "page": 2,
+      "line": "\uf0b7 MCC 5815 (Digital Goods - Audiovisual Media)",
+      "reason": "transactions made under the following Merchant Category Code (MCC) classification:",
+      "in_reference": true
+     },
+     {
+      "code": "5816",
+      "polarity": "include",
+      "page": 2,
+      "line": "\uf0b7 MCC 5816 (Digital Goods - Games)",
+      "reason": "transactions made under the following Merchant Category Code (MCC) classification:",
+      "in_reference": true
+     },
+     {
+      "code": "5818",
+      "polarity": "include",
+      "page": 2,
+      "line": "\uf0b7 MCC 5818 (Digital Goods - Multi Category)",
+      "reason": "transactions made under the following Merchant Category Code (MCC) classification:",
+      "in_reference": true
+     },
+     {
+      "code": "7832",
+      "polarity": "include",
+      "page": 2,
+      "line": "\uf0b7 MCC 7832 (Motion Picture - Theaters)",
+      "reason": "transactions made under the following Merchant Category Code (MCC) classification:",
+      "in_reference": true
+     },
+     {
+      "code": "4121",
+      "polarity": "include",
+      "page": 2,
+      "line": "\uf0b7 MCC 4121 (Limousines And Taxicabs)",
+      "reason": "eligible.",
+      "in_reference": true
+     },
+     {
+      "code": "5013",
+      "polarity": "include",
+      "page": 2,
+      "line": "\uf0b7 MCC 5013 (Motor Vehicle Supplies And New Parts)",
+      "reason": "eligible.",
+      "in_reference": true
+     },
+     {
+      "code": "5511",
+      "polarity": "include",
+      "page": 2,
+      "line": "\uf0b7 MCC 5511 (Automobile and Truck Dealers - Sales, Service, Repairs, Parts, and",
+      "reason": "eligible.",
+      "in_reference": true
+     },
+     {
+      "code": "5521",
+      "polarity": "include",
+      "page": 2,
+      "line": "\uf0b7 MCC 5521 (Automobile And Truck Dealers (Used Only) Sales)",
+      "reason": "eligible.",
+      "in_reference": true
+     },
+     {
+      "code": "5531",
+      "polarity": "include",
+      "page": 2,
+      "line": "\uf0b7 MCC 5531 (Auto Store, Home Supply Stores)",
+      "reason": "eligible.",
+      "in_reference": true
+     },
+     {
+      "code": "5532",
+      "polarity": "include",
+      "page": 3,
+      "line": "\uf0b7 MCC 5532 (Automotive Tire Stores)",
+      "reason": "eligible.",
+      "in_reference": true
+     },
+     {
+      "code": "5533",
+      "polarity": "include",
+      "page": 3,
+      "line": "\uf0b7 MCC 5533 (Automotive Parts, Accessories Stores)",
+      "reason": "eligible.",
+      "in_reference": true
+     },
+     {
+      "code": "5592",
+      "polarity": "include",
+      "page": 3,
+      "line": "\uf0b7 MCC 5592 (Motor Home Dealers)",
+      "reason": "eligible.",
+      "in_reference": true
+     },
+     {
+      "code": "7531",
+      "polarity": "include",
+      "page": 3,
+      "line": "\uf0b7 MCC 7531 (Automotive Body Repair Shops)",
+      "reason": "eligible.",
+      "in_reference": true
+     },
+     {
+      "code": "7534",
+      "polarity": "include",
+      "page": 3,
+      "line": "\uf0b7 MCC 7534 (Tire Retreading And Repair Shops)",
+      "reason": "eligible.",
+      "in_reference": true
+     },
+     {
+      "code": "7535",
+      "polarity": "include",
+      "page": 3,
+      "line": "\uf0b7 MCC 7535 (Automotive Paint Shops)",
+      "reason": "eligible.",
+      "in_reference": true
+     },
+     {
+      "code": "7538",
+      "polarity": "include",
+      "page": 3,
+      "line": "\uf0b7 MCC 7538 (Automotive Service Shops)",
+      "reason": "eligible.",
+      "in_reference": true
+     },
+     {
+      "code": "5094",
+      "polarity": "include",
+      "page": 3,
+      "line": "\uf0b7 MCC 5094 (Precious Stones and Metals, Watches and Jewelry)",
+      "reason": "Goods, Watches and Jewellery stores classified under the following Merchant Category",
+      "in_reference": true
+     },
+     {
+      "code": "5944",
+      "polarity": "include",
+      "page": 3,
+      "line": "\uf0b7 MCC 5944 (Clock, Jewelry, Watch, and Silverware Store)",
+      "reason": "Goods, Watches and Jewellery stores classified under the following Merchant Category",
+      "in_reference": true
+     },
+     {
+      "code": "5948",
+      "polarity": "include",
+      "page": 3,
+      "line": "\uf0b7 MCC 5948 (Leather Goods and Luggage Stores)",
+      "reason": "Goods, Watches and Jewellery stores classified under the following Merchant Category",
+      "in_reference": true
+     }
+    ]
+   },
+   "transaction_modes": {
+    "online": [
+     "The CIMB World Mastercard award up to 2% cashback on the following four categories (\u201cEligible Categories\u201d) of spending as processed by the respective merchants/acquirers through the Mastercard worldwide networks: \uf0b7 Wine & Dine and Online Food Delivery (for selected merchants found under Clause 3a only) \uf0b7 Movies and Digital Entertainment \uf0b7 Taxi and Automobile \uf0b7 Luxury Goods b.",
+     "Online Food Delivery Service merchants whose main business nature category is within Wine & Dine category will be included.",
+     "Other Online Food Delivery transactions made at the following merchants will be included as well: \uf0b7 Deliveroo \uf0b7 Foodpanda \uf0b7 GrabFood (Grab transactions under MCC 5814 classification - Fast Food Restaurants only) \uf0b7 WhyQ \uf0b7 Airasia Food For the avoidance of doubt, transactions made on Grab that are not classified under MCC 5814 (Fast Food Restaurants) will not be eligible.",
+     "Movies and Digital Entertainment spending shall include all local and overseas transactions made under the following Merchant Category Code (MCC) classification: \uf0b7 MCC 5815 (Digital Goods - Audiovisual Media) \uf0b7 MCC 5816 (Digital Goods - Games) \uf0b7 MCC 5818 (Digital Goods - Multi Category) \uf0b7 MCC 7832 (Motion Picture - Theaters) On top of the above categories, Movies and Digital Entertainment transact",
+     "Exclusions from Retail Transactions, Minimum Spend Calculation and Cashback Eligibility \uf0b7 Any ez-Link/Transit Link top-up/reload \uf0b7 Any payments made to CardUp, iPaymy, Mileslife, SmoovPay and YouTrip \uf0b7 Any top-ups or payment of funds to payment service providers (this includes but is not limited to GrabPay, Singtel Dash, ShopeePay, Lazada top-ups) \uf0b7 Any payments to online trading platforms and bro"
+    ],
+    "recurring": [
+     "For the avoidance of doubt, transactions made for the following merchants on subscriptions with Starhub and Singtel will not be eligible."
+    ],
+    "foreign_currency": [
+     "Wine & Dine spending shall include all local and overseas transactions made at Caterers, Bars, Lounges, Clubs, Fast-Food Restaurants, Eating Places & Other Restaurants classified under the Merchant Category Code (MCC), except where they are made for Wedding Banquets and where such Bars, Lounges, Clubs, Restaurants, and other eating places are within hotels: \uf0b7 MCC 5811 (Caterers);",
+     "Movies and Digital Entertainment spending shall include all local and overseas transactions made under the following Merchant Category Code (MCC) classification: \uf0b7 MCC 5815 (Digital Goods - Audiovisual Media) \uf0b7 MCC 5816 (Digital Goods - Games) \uf0b7 MCC 5818 (Digital Goods - Multi Category) \uf0b7 MCC 7832 (Motion Picture - Theaters) On top of the above categories, Movies and Digital Entertainment transact",
+     "Taxi and Automobile spending shall include all local and overseas transactions made at Limousines, Taxicabs, Automotive Repair and Service shops classified under the following Merchant Category Code (MCC) Classifications.",
+     "Luxury Goods spending shall include all local and overseas transactions made at Leather Goods, Watches and Jewellery stores classified under the following Merchant Category Code (MCC) Classifications: \uf0b7 MCC 5094 (Precious Stones and Metals, Watches and Jewelry) \uf0b7 MCC 5944 (Clock, Jewelry, Watch, and Silverware Store) \uf0b7 MCC 5948 (Leather Goods and Luggage Stores) e."
+    ]
+   },
+   "non_mcc_exclusions": [
+    "axs",
+    "bill payment",
+    "cardup",
+    "cash advance",
+    "charit",
+    "government",
+    "grabpay",
+    "instalment",
+    "interest",
+    "ipaymy",
+    "late payment charge",
+    "tax",
+    "top-up",
+    "top-ups",
+    "utilit",
+    "youtrip"
+   ]
+  }
+ ],
+ "changed": false,
+ "removed_documents": []
+}

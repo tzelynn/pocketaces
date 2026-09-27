@@ -1,0 +1,99 @@
+{
+ "source": "moneysmart",
+ "source_id": "dbs-yuu-american-express-card",
+ "source_url": "https://www.moneysmart.sg/credit-cards/dbs-yuu-american-express-card",
+ "name": "DBS yuu American Express® Card",
+ "bank": "DBS",
+ "card_id": "dbs-yuu-american-express",
+ "image_url": "https://photos.cdn-moneysmart.com/credit_cards/uploads/products/images/image_url_2025-06-25_DBS YUU-Onboarding-AMX.png",
+ "earn_rates": {},
+ "caps": {},
+ "highlights": [
+  "5% Cash Rebates at participating merchants with no min. spend",
+  "Up to 18% Cash Rebates spend min. S$800 & at 4 participating merchants per calendar month",
+  "0.25% Cash Rebates on all other spend",
+  "Earn up to 18% cash rebates or 10 miles per S$1 on your daily spend",
+  "5% cash rebates or 2.8 miles per S$1 at participating merchants with no min. spend",
+  "13% cash rebates or 7.2 miles per S$1 when you hit min. S$800 and spend at 4 participating merchants per calendar month",
+  "Earn 0.25% cash rebates / 0.5x yuu Point on all other spend",
+  "Great for daily essentials like groceries, transport, dining, telco and recreation",
+  "Participating merchants include Cold Storage, Giant, Guardian, 7-Eleven, foodpanda, SimplyGo and many more!",
+  "At MoneySmart, we strive to keep our information accurate and up to date. This information may be different from what you see when you visit a financial institution, service provider, or specific product site. MoneySmart shall not be liable to compensate the Customer should the information is not as updated as our Partner."
+ ],
+ "sign_up_offers": [
+  {
+   "kind": "special_promotion",
+   "title": "Samsonite MINTER 80/30 Luggage",
+   "subtitle": null,
+   "is_cash": null,
+   "terms": "Valid for New Customers only\nUse promo code \nMINTER\n when applying\nCharge a min. of S$800 within 60 days from the date of card approval\nHave a valid DBS PayLah! account by the end of the Qualifying Spend period",
+   "campaign": null
+  },
+  {
+   "kind": "special_promotion",
+   "title": "S$288 Cashback",
+   "subtitle": null,
+   "is_cash": null,
+   "terms": "Valid for New Customers only\nUse promo code \nCASH288\n when applying\nCharge a min. of S$800 within 60 days from the date of card approval\nHave a valid DBS PayLah! account by the end of the Qualifying Spend period",
+   "campaign": null
+  }
+ ],
+ "links": {
+  "product": "https://www.moneysmart.sg/credit-cards/dbs-yuu-american-express-card"
+ },
+ "citation": {
+  "id": "moneysmart:fbcf8e7229a3",
+  "url": "https://www.moneysmart.sg/credit-cards?page=3",
+  "title": "DBS yuu American Express® Card",
+  "source_type": "aggregator",
+  "retrieved_at": "2026-09-27T05:27:18+00:00",
+  "sha256": "fbcf8e7229a38611c3c767cd8447164e413b1306df1f54bebee269e3abf15202",
+  "snapshot": "data/raw/moneysmart/credit-cards-p3-707cb52c.html"
+ },
+ "extra": {
+  "summary": "",
+  "badges": [],
+  "network": [
+   "American Express"
+  ],
+  "mobile_wallets": [
+   "Apple Pay",
+   "Samsung Pay"
+  ],
+  "groups": {
+   "annual-interest-rate-and-fees": {
+    "Annual Interest Rate": "27.80% p.a. chargeable on daily basis (subject to compounding)",
+    "Annual Principal Fee": "S$196.20 (inclusive of GST)",
+    "Supplementary Annual Fee": "S$98.10 (inclusive of GST)",
+    "Fee Waiver": "First year waived",
+    "Minimum Monthly Repayment": "3% of statement balance or S$50 (whichever is greater)",
+    "Interest Free Period": "25 days"
+   },
+   "minimum-income-requirements": {
+    "Singaporean/PR Minimum Annual Income": "30000",
+    "Non-Singaporean Minimum Annual Income": "45000"
+   },
+   "card-association": {
+    "American Express": "true"
+   },
+   "wireless-payment": {
+    "Apple Pay": "true",
+    "Samsung Pay": "true"
+   },
+   "documents-required": {
+    "SG Citizens or PRs": "Apply via MyInfo",
+    "Passport Validity (Foreigners)": "6 months",
+    "Work Permit Validity (Foreigners)": "6 months",
+    "Utility or Telephone Bill": "With Full Name and Address",
+    "Income Tax Notice of Assessment": "At least 1 year",
+    "Latest Original Computerised Payslip": "Yes"
+   }
+  },
+  "our_takes": {
+   "our-take": "The DBS yuu American Express Card is best for those heavily invested in the yuu rewards ecosystem, especially if you spend over S$800 monthly. Hitting that minimum unlocks up to 18% cash rebates (or 10 miles per S$1) at participating stores like Cold Storage, Giant and BreadTalk, which significantly boosts your rebates. For general spending outside the yuu network, the base 0.25% rebate is less competitive; this card truly shines for loyal yuu partners only. Points don't expire, providing flexibility in redemption. Consider if your spending aligns strongly with yuu merchants to maximize value.",
+   "good-for": "Cardholders who spend frequently at yuu merchants such as Cold Storage and Giant for groceries and essentials.\nPerfect for individuals who want to earn significant rebates on dining, recreation, and telco expenses with eligible spend.\nIdeal for users active on foodpanda, or using transportation services like Gojek, seeking rewards on everyday spending.",
+   "things-to-note": "Annual fee of S$196.20 applies after the first year; evaluate if card benefits justify the cost.\nA 27.80% p.a. interest rate can accrue if you carry a balance, increasing debt significantly.\nLate payment fees of S$100 apply for balances over S$200, so pay on time."
+  },
+  "updated_at": "2025-10-01T11:27:52+08:00"
+ }
+}

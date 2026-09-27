@@ -1,0 +1,214 @@
+{
+ "source": "singsaver",
+ "source_id": "ocbc-365-credit-card",
+ "source_url": "https://www.singsaver.com.sg/credit-card/products/ocbc-365-credit-card",
+ "name": "OCBC 365 Credit Card",
+ "bank": "OCBC",
+ "card_id": "ocbc-365",
+ "image_url": "https://mhgprod.blob.core.windows.net/singsaver/strapi-uploads/xs_blt6bd792da7d106572_f9e2aa1577.webp",
+ "annual_fee": 196.2,
+ "annual_fee_note": "S$ | First 2 Years Waived. Min. spend of S$10,000 per year for waiver of annual fee for subsequent years.",
+ "min_annual_income": 30000.0,
+ "min_monthly_spend": 800.0,
+ "earn_rates": {
+  "percent:local": {
+   "value": 6.0,
+   "unit": "percent",
+   "note": "Up to | With minimum spending of S$800 or S$1,600 per calendar month. Cashback capped at S$80 or S$160, depending on minimum spend."
+  },
+  "percent:baseline": {
+   "value": 0.25,
+   "unit": "percent",
+   "note": null
+  },
+  "percent:overseas": {
+   "value": 0.25,
+   "unit": "percent",
+   "note": null
+  },
+  "percent:health": {
+   "value": 3.0,
+   "unit": "percent",
+   "note": "Only for purchases made at pharmacies like Guardian or Watson. With minimum spending of $800 per calendar month."
+  },
+  "percent:online_bill_payment_spending": {
+   "value": 3.0,
+   "unit": "percent",
+   "note": "Only for streaming services like Netflix, Disney+, Spotify and Apple Music. With minimum spending of $800 per calendar month."
+  },
+  "percent:transport": {
+   "value": 3.0,
+   "unit": "percent",
+   "note": "Bus and train rides using SimplyGo. Local and overseas private hire rides (e.g. Grab (excluding GrabPay), Gojek and TADA). Local and overseas taxi rides (e.g. ComfortDelGro). With minimum spending of $800 per calendar month."
+  },
+  "percent:dining": {
+   "value": 5.0,
+   "unit": "percent",
+   "note": "Online food delivery, local and overseas dining with min. S$800 spend per calendar month."
+  },
+  "percent:petrol": {
+   "value": 6.0,
+   "unit": "percent",
+   "note": "With minimum spending of $800 per calendar month. 3% cashback on EV charging spend at Charging stations (e.g. SP Digital, Greenlots, Virta Charging Stations and City Energy)."
+  },
+  "percent:supermarket": {
+   "value": 3.0,
+   "unit": "percent",
+   "note": "With minimum spending of $800 per calendar month."
+  }
+ },
+ "caps": {
+  "rewards_bonus_cap": {
+   "value": 160.0,
+   "note": "Up to S$ | Meet S$1,600 min. monthly spend to unlock S$160 / month cashback cap. Otherwise, meet S$800 min. monthly spend to get S$80 / month cashback cap."
+  },
+  "cashback_bonus_cap": {
+   "value": 160.0,
+   "note": "Up to S$ | Meet S$1,600 min. monthly spend to unlock S$160 / month cashback cap. Otherwise, meet S$800 min. monthly spend to get S$80 / month cashback cap."
+  }
+ },
+ "highlights": [
+  "6% cashback on petrol and up to 6% on local spending, with 5% cashback on dining. You'll also earn 3% cashback on supermarkets, health expenses, transport, and online bill payments for streaming services like Netflix and Disney+, and other FCY spending earns 0.25% cashback. Note: all cashback is available with a minimum monthly spend of $800 on eligible purchases and S$160 monthly cashback cap with mininum spend of $1,600.",
+  "pros: 6% cashback on fuel spend at all other petrol stations.",
+  "pros: 5% cash rebate on dining spends all day, everyday (includes local/overseas dining and online food delivery).",
+  "pros: 3% cashback on drugstore purchases, streaming service subscriptions and EV charging expenses.",
+  "pros: 3% cashback on groceries at supermarkets (both local and overseas) and online groceries.",
+  "pros: 3% cashback on private hire (Grab/Gojek) and taxi rides (both local and overseas).",
+  "pros: 3% cashback on recurring telco and electricity bills.",
+  "pros: S$160 monthly cashback cap (up from S$80).",
+  "pros: Up to 22.92% fuel savings at Caltex (incl. 18% instant discount for all fuel) and 6% cashback on fuel spend at all other petrol stations.",
+  "pros: 2-year annual fee waiver.",
+  "pros: Earn up to 4.65% p.a. interest on first S$100,000 of OCBC 365 Account balance.",
+  "pros: Great for homemakers, working adults, cashback lovers, enjoy flexibility over min. spend (S$800 or S$1,600), drive frequently",
+  "pros: Read our full review of the \nOCBC 365 Credit Card\n  .",
+  "cons: High min. spend of either S$800 or S$1,600 per calendar month",
+  "cons: Min. annual spend of S$10,000 from date of issue to qualify for automatic annual fee waiver.",
+  "cons: S$80 monthly cashback cap with minium spend of $800.",
+  "cons: S$160 monthly cashback cap with mininum spend of $1,600.",
+  "cons: Operates on a whitelist basis. Only selected MCCs shown in the T&Cs qualify for bonus cashback.",
+  "cons: Interest on outstanding balance increased from 26.88% p.a. to 27.78% p.a.",
+  "pros: Petrol rebate",
+  "pros: Dining rebate",
+  "cons: Monthly spend required"
+ ],
+ "sign_up_offers": [
+  {
+   "kind": "exclusive_offer",
+   "title": "SingSaver Flash Deal",
+   "offer_id": "SG.2026-09-22.CC.OCBC.5XCC.AWS12-FD",
+   "valid_from": "2026-09-21T16:00:00Z",
+   "valid_to": "2026-09-27T15:59:00Z",
+   "gifts": [
+    {
+     "title": "Apple Watch Series 12 Aluminum 42mm GPS (worth S$599)",
+     "value_sgd": 599
+    }
+   ],
+   "terms": "SingSaver Flash Deal campaign runs from 22 September 2026 to 27 September 2026.\nPromotion is valid for new OCBC credit card members only.\nBe one of the first 3 cardmembers at \n2pm\n and \n8pm\n every day during the flash deal period to apply for select OCBC credit cards via SingSaver and spend at least S$400 in qualifying transactions within 30 days of card approval to be eligible for the Flash Deal reward: \nApple Watch Series 12 (Aluminum, 42mm, GPS) (worth S$599)\nFlash Deal reward will be received \nin place of\n your selected SingSaver Exclusive Offer reward.\nRemaining applicants will receive the SingSaver Exclusive Offer reward selected in your Rewards Redemption Form only.\nTerms and Conditions\n apply.",
+   "tnc_url": null,
+   "bundle_with": []
+  },
+  {
+   "kind": "exclusive_offer",
+   "title": "SingSaver Exclusive Offer",
+   "offer_id": "SG.2026-09-16.CC.OCBC.INF365.400CASH-440GRAB-25KMAXM-ASTRAIT-V8CYC-[DYSON-APPLE]",
+   "valid_from": "2026-09-15T16:00:00Z",
+   "valid_to": "2026-09-30T15:59:00Z",
+   "gifts": [
+    {
+     "title": "S$400 Cash via PayNow",
+     "value_sgd": 400
+    },
+    {
+     "title": "S$440 Grab Vouchers",
+     "value_sgd": 440
+    },
+    {
+     "title": "25,000 Max Miles by HeyMax (worth S$450)",
+     "value_sgd": 450
+    },
+    {
+     "title": "Dyson Airstrait™ straightener (worth S$799)",
+     "value_sgd": 799
+    },
+    {
+     "title": "Dyson V8 Cyclone Vacuum Cleaner (worth S$559)",
+     "value_sgd": 559
+    },
+    {
+     "title": "Dyson Airwrap™ multi-styler and dryer (worth S$799) (top up S$80)",
+     "value_sgd": 799
+    },
+    {
+     "title": "Dyson Clean+Wash Hygiene hard floor cleaner (worth S$729) (Top up S$150)",
+     "value_sgd": 729
+    },
+    {
+     "title": "Apple iPad (A16) 11\" 128GB WiFi (worth S$649) (Top up S$200)",
+     "value_sgd": 649
+    },
+    {
+     "title": "Apple Watch Series 12 Aluminum 42mm GPS (worth S$599) (Top-up S$150)",
+     "value_sgd": 599
+    },
+    {
+     "title": "Apple MacBook Neo (A18 Pro) 256GB w/ Magic Keyboard (worth S$999, top up S$570)",
+     "value_sgd": 999
+    },
+    {
+     "title": "Apple iPhone 18 Pro (worth S$1,899, top up S$1,350)",
+     "value_sgd": 1899
+    }
+   ],
+   "terms": "SingSaver Exclusive Offer promotion is valid from 16 September 2026 to 30 September 2026.\nPromotion is valid for new OCBC credit cardmembers only.\nApply for participating OCBC credit cards via SingSaver and spend at least S$400 in qualifying transactions within 30 days of card approval to be eligible for reward.\nTerms and Conditions\n apply.",
+   "tnc_url": null,
+   "bundle_with": []
+  }
+ ],
+ "links": {
+  "apply": "https://www.singsaver.com.sg/apply-v2b/17821"
+ },
+ "citation": {
+  "id": "singsaver:bbd80934cf08",
+  "url": "https://www.singsaver.com.sg/credit-card/products/ocbc-365-credit-card",
+  "title": "OCBC 365 Credit Card",
+  "source_type": "aggregator",
+  "retrieved_at": "2026-09-27T05:26:17+00:00",
+  "sha256": "bbd80934cf0840012cb33fd86dc8f0ae3ae36b0ccb31e298e6a1ab0e32f811d2",
+  "snapshot": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-ocbc-365-credit-card-ee6c0aa7.html"
+ },
+ "extra": {
+  "network": [
+   "VISA Signature"
+  ],
+  "mobile_wallets": [
+   "Google Pay",
+   "Apple Pay",
+   "Samsung Pay",
+   "Fitbit Pay",
+   "Garmin Pay",
+   "NETSPay"
+  ],
+  "fx_fee_percent": 3.25,
+  "miles_conversion_fee": null,
+  "categories": [
+   "category:all-credit-cards",
+   "category:cashback",
+   "category:dining-promo",
+   "category:installment",
+   "category:promo",
+   "needs:0-interest-rate",
+   "needs:all-cards-with-dining-promo",
+   "needs:all-cards-with-promotion",
+   "needs:all-cashback-cards",
+   "needs:all-credit-cards",
+   "needs:all-installment-cards",
+   "needs:apple-premium-gifts",
+   "needs:high-cashback",
+   "needs:high-value-gifts",
+   "needs:singsaver-exclusive"
+  ],
+  "tag": "Best for cashback on dining, groceries, and recurring bills ",
+  "description": "The OCBC 365 Card is a generous everyday cashback card earning 2X more cashback (of up to S$160): 6% cashback on petrol, 5% cashback on dining and food delivery, and 3% cashback on groceries, public transport, ride-hailing, pharmacy, streaming, and EV charging."
+ }
+}

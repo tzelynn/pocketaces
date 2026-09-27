@@ -1,0 +1,123 @@
+{
+ "source": "moneysmart",
+ "source_id": "ocbc-90n-visa-card",
+ "source_url": "https://www.moneysmart.sg/credit-cards/ocbc-90n-visa-card",
+ "name": "OCBC 90°N Visa Card",
+ "bank": "OCBC",
+ "card_id": "ocbc-90-n-visa",
+ "image_url": "https://photos.cdn-moneysmart.com/credit_cards/uploads/products/images/image_url_2023-07-03_OCBC 90N visa.jpg",
+ "annual_fee": 196.2,
+ "min_annual_income": 15000.0,
+ "earn_rates": {},
+ "caps": {},
+ "highlights": [
+  "S$1 = Up to 7 Miles on Agoda accommodations worldwide",
+  "S$1 = 2.1 Miles on Foreign Currency Spend",
+  "S$1 = 1.3 Miles on Local Spend",
+  "Designed with an LED light feature, the 90°N Visa Card lights up whenever you make a contactless payment.",
+  "Earn up to 7 Miles (equivalent to 7% cash rebate) for every S$1 spent on Agoda",
+  "Earn 1.3 Miles (equivalent to 1.3% cash rebate) for every S$1 spent in SGD",
+  "Earn 2.1 Miles (equivalent to 2.1% cash rebate) for every S$1 spent in foreign currency",
+  "Earn unlimited miles that never expire",
+  "At MoneySmart, we strive to keep our information accurate and up to date. This information may be different from what you see when you visit a financial institution, service provider, or specific product site. MoneySmart shall not be liable to compensate the Customer should the information is not as updated as our Partner."
+ ],
+ "sign_up_offers": [
+  {
+   "kind": "MANUAL_GIFT",
+   "title": "S$200 Cash via PayNow",
+   "subtitle": null,
+   "is_cash": true,
+   "terms": "• Apply for an eligible OCBC Credit Card by 30th Sept 2026\n• Spend a min. of S$400 in eligible transactions within 30 days from card approval\n• Submit the Claim Form upon receiving the Unique Redemption Code from OCBC",
+   "campaign": "Credit Card | OCBC | 140926"
+  },
+  {
+   "kind": "STORE_PRODUCT",
+   "title": "Sennheiser Momentum True Wireless 4 Earbuds (Black Graphite)",
+   "subtitle": "worth S$449",
+   "is_cash": false,
+   "terms": "• Apply for an eligible OCBC Credit Card by 30th Sept 2026\n• Spend a min. of S$400 in eligible transactions within 30 days from card approval\n• Submit the Claim Form upon receiving the Unique Redemption Code from OCBC",
+   "campaign": "Credit Card | OCBC | 140926"
+  },
+  {
+   "kind": "STORE_PRODUCT",
+   "title": "Omnidesk Essential Electric Height-Adjustable Desk (Black)",
+   "subtitle": "worth S$369",
+   "is_cash": false,
+   "terms": "• Apply for an eligible OCBC Credit Card by 30th Sept 2026\n• Spend a min. of S$400 in eligible transactions within 30 days from card approval\n• Submit the Claim Form upon receiving the Unique Redemption Code from OCBC",
+   "campaign": "Credit Card | OCBC | 140926"
+  },
+  {
+   "kind": "STORE_PRODUCT",
+   "title": "TTRacing Swift X Pro Gaming Chair (Black)",
+   "subtitle": "worth S$429",
+   "is_cash": false,
+   "terms": "• Apply for an eligible OCBC Credit Card by 30th Sept 2026\n• Spend a min. of S$400 in eligible transactions within 30 days from card approval\n• Submit the Claim Form upon receiving the Unique Redemption Code from OCBC",
+   "campaign": "Credit Card | OCBC | 140926"
+  },
+  {
+   "kind": "STORE_PRODUCT",
+   "title": "LEVEL8 Luminous Textured Collection 28-inch Luggage (Black)",
+   "subtitle": "worth S$469",
+   "is_cash": false,
+   "terms": "• Apply for an eligible OCBC Credit Card by 30th Sept 2026\n• Spend a min. of S$400 in eligible transactions within 30 days from card approval\n• Submit the Claim Form upon receiving the Unique Redemption Code from OCBC",
+   "campaign": "Credit Card | OCBC | 140926"
+  }
+ ],
+ "links": {
+  "product": "https://www.moneysmart.sg/credit-cards/ocbc-90n-visa-card",
+  "review": "https://blog.moneysmart.sg/credit-cards/ocbc-90-n-card/"
+ },
+ "citation": {
+  "id": "moneysmart:42909b088c22",
+  "url": "https://www.moneysmart.sg/credit-cards?page=2",
+  "title": "OCBC 90°N Visa Card",
+  "source_type": "aggregator",
+  "retrieved_at": "2026-09-27T05:27:14+00:00",
+  "sha256": "42909b088c22cb063c120b532d19af920cb3535c52f6bfc313193c6c6ea14746",
+  "snapshot": "data/raw/moneysmart/credit-cards-p2-5f055203.html"
+ },
+ "extra": {
+  "summary": "The OCBC 90°N Visa Card suits frequent travellers wanting flexible miles. Earn miles quickly on everyday spending with no monthly cap, especially for online shopping and food delivery. Benefit from a high earn rate on overseas spending. Miles offer flexibility, converting to airline and hotel loyalty programs. ",
+  "badges": [
+   "Earn Miles That Don't Expire"
+  ],
+  "network": [
+   "Visa"
+  ],
+  "mobile_wallets": [
+   "Visa Contactless",
+   "Google Pay",
+   "Apple Pay",
+   "Samsung Pay"
+  ],
+  "groups": {
+   "annual-interest-rate-and-fees": {
+    "Annual Interest Rate": "27.78",
+    "Annual Principal Fee": "196.20",
+    "Supplementary Annual Fee": "98.10",
+    "Fee Waiver": "Available",
+    "Minimum Monthly Repayment": "3% or S$50, whichever is higher",
+    "Interest Free Period": "23 days"
+   },
+   "minimum-income-requirements": {
+    "Singaporean/PR Minimum Annual Income": "•At least S$30,000 for Singaporeans and Singapore PRs aged between 21 and 54\n•At least S$15,000 for Singaporeans and Singapore PRs aged 55 and above",
+    "Non-Singaporean Minimum Annual Income": "•At least S$45,000 for foreigners"
+   },
+   "card-association": {
+    "Visa": "true"
+   },
+   "wireless-payment": {
+    "Visa Contactless": "true",
+    "Google Pay": "true",
+    "Apple Pay": "true",
+    "Samsung Pay": "true"
+   }
+  },
+  "our_takes": {
+   "our-take": "The OCBC 90°N Visa Card suits frequent travellers wanting flexible miles. Earn miles quickly on everyday spending with no monthly cap, especially for online shopping and food delivery. Benefit from a high earn rate on overseas spending. Miles offer flexibility, converting to airline and hotel loyalty programs. A potential drawback is the S$5 transaction block, which might not suit smaller purchases. The first-year fee waiver and renewal bonus of 10,000 miles soften the S$196.20 annual fee from the second year.",
+   "good-for": "Ideal for travel enthusiasts who want to earn miles on overseas spending with no miles expiry.\nGood for individuals who frequently spend on streaming, online food delivery, and online shopping.\nGreat for Singaporeans and PRs earning S$30,000 or more looking for travel perks and rewards.",
+   "things-to-note": "Annual fee of S$196.20 applies from the second year; evaluate if rewards outweigh this cost.\nLate payment fee of S$100 applies if minimum payment isn't received by the due date.\nA 3.25% foreign currency transaction fee applies, increasing the cost of overseas spending."
+  },
+  "updated_at": "2025-07-01T11:39:01+08:00"
+ }
+}

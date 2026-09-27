@@ -1,0 +1,102 @@
+# Curated card record. Auto-drafted from staged sources; verify every value against the
+# official T&Cs (citations below), then set review.status: reviewed.
+id: dbs-yuu-american-express
+bank: DBS
+name: DBS yuu American Express Card
+network: amex
+image_url: https://mhgprod.blob.core.windows.net/singsaver/strapi-uploads/s_blt2021eb99d2638e83_0dae1fb7e0.png
+official_url: https://www.dbs.com.sg/personal/cards/credit-cards/dbs-yuu-cards
+annual_fee:
+  amount:
+    amount: 196.2
+    currency: SGD
+  first_year_waived: true
+  waiver_notes: S$ | First Year Waived
+  sources: ['singsaver:bfd746726f80']
+min_annual_income:
+  amount: 30000.0
+  currency: SGD
+reward_currency:
+  kind: miles
+  name: Miles
+earn_rules:
+- id: local
+  label: local (SingSaver — verify)
+  rate: 10.0
+  unit: mpd
+  tier: bonus
+  eligibility:
+    description: Up to  | Up to 36x yuu Points (up to 10 mpd) when you spend min. S$800 and at 4 Participating
+      Merchants per calendar month (incl. Cold Storage, Giant, Guardian, 7-Eleven, foodpanda, SimplyGo
+      and many more)
+    sources: ['singsaver:bfd746726f80']
+  sources: ['singsaver:bfd746726f80']
+- id: base
+  label: baseline (SingSaver — verify)
+  rate: 0.28
+  unit: mpd
+  tier: base
+  eligibility:
+    all_spend: true
+    description: 1x yuu Point per S$1
+    sources: ['singsaver:bfd746726f80']
+  sources: ['singsaver:bfd746726f80']
+general_exclusions:
+  description: Auto-extracted from official T&Cs — confirm each code applies to this card
+sign_up_bonuses:
+- offered_by: singsaver
+  description: 'Stackable Welcome Offer: choice of Up to S$200 Cashback on Cashline'
+  value:
+    amount: 200.0
+    currency: SGD
+  valid_from: '2026-08-31'
+  valid_to: '2026-09-30'
+  url: https://www.singsaver.com.sg/credit-card/products/dbs-yuu-american-express-card
+  sources: ['singsaver:bfd746726f80']
+- offered_by: singsaver
+  description: 'SingSaver Exclusive Offer: choice of S$288 Cash via PayNow; S$310 Grab Voucher; 18,000
+    Max Miles by HeyMax (worth S$324); Morning Mini Coffee Machine + 20 Capsules Bundle (worth S$425);
+    Samsonite Straren Spinner 67/24 (worth S$600); Dyson V8 Cyclone Vacuum Cleaner (worth S$559, top up
+    S$150); Dyson Airstrait™ hair straightener (worth S$799) (Top up S$200); Sony WH-1000XM6 Headphones
+    (worth S$649) (top up S$200); Apple iPad (A16) 11" 128GB WiFi (worth S$649) (Top up S$350)'
+  value:
+    amount: 288.0
+    currency: SGD
+  valid_from: '2026-09-16'
+  valid_to: '2026-09-30'
+  url: https://www.singsaver.com.sg/credit-card/products/dbs-yuu-american-express-card
+  sources: ['singsaver:bfd746726f80']
+- offered_by: moneysmart
+  description: "Choice of: Samsonite MINTER 80/30 Luggage; S$288 Cashback. Terms: Valid for New Customers\
+    \ only\nUse promo code \nMINTER\n when applying\nCharge a min. of S$800 within 60 days from the date\
+    \ of card approval\nHave a valid DBS PayLah! account by the end of the Qualifying Spend period"
+  url: https://www.moneysmart.sg/credit-cards/dbs-yuu-american-express-card
+  sources: ['moneysmart:fbcf8e7229a3']
+notes:
+- 'Editorial review for cross-checking: Review: DBS yuu Card (https://milelion.com/2026/06/27/review-dbs-yuu-card/,
+  updated 2026-09-19)'
+citations:
+- id: singsaver:bfd746726f80
+  url: https://www.singsaver.com.sg/credit-card/products/dbs-yuu-american-express-card
+  title: DBS yuu American Express Card
+  source_type: aggregator
+  retrieved_at: '2026-09-27T05:25:36+00:00'
+  sha256: bfd746726f80e740582cbd74d48c92f333e974bba6a7fd47ac49112a647ccbfe
+  snapshot: data/raw/singsaver/www-singsaver-com-sg-credit-card-products-dbs-yuu-american-express-card-0a44e62a.html
+- id: moneysmart:fbcf8e7229a3
+  url: https://www.moneysmart.sg/credit-cards?page=3
+  title: DBS yuu American Express® Card
+  source_type: aggregator
+  retrieved_at: '2026-09-27T05:27:18+00:00'
+  sha256: fbcf8e7229a38611c3c767cd8447164e413b1306df1f54bebee269e3abf15202
+  snapshot: data/raw/moneysmart/credit-cards-p3-707cb52c.html
+- id: milelion:ae0327cea06a
+  url: https://milelion.com/2026/06/27/review-dbs-yuu-card/
+  title: 'Review: DBS yuu Card'
+  source_type: editorial
+  retrieved_at: '2026-09-27T05:28:39+00:00'
+  sha256: ae0327cea06a36c4ee8c840cfbbad4432a197440f97146ba5d766edca6ae6028
+  snapshot: data/raw/milelion/post-176991-cda8d936.json
+review:
+  status: draft
+updated_at: '2026-09-27'

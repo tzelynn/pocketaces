@@ -1,0 +1,75 @@
+{
+ "source": "moneysmart",
+ "source_id": "dbs-takashimaya-platinum-american-express-card",
+ "source_url": "https://www.moneysmart.sg/credit-cards/dbs-takashimaya-platinum-american-express-card",
+ "name": "DBS Takashimaya American Express Card",
+ "bank": "DBS",
+ "card_id": "dbs-takashimaya-american-express",
+ "image_url": "https://photos.cdn-moneysmart.com/credit_cards/uploads/products/images/image_url_2020-10-16_DBS-Taka-Amex@3x-min.png",
+ "annual_fee": 196.2,
+ "earn_rates": {},
+ "caps": {},
+ "highlights": [
+  "Up to 6% Rebates on Takashimaya spend",
+  "Up to 2% Rebates on Takashimaya Specialty Stores spend",
+  "10% off during selected sale events",
+  "6% voucher rebates in Takashimaya Department Store (Earn 2 Takashimaya Bonus Points with every S$10 charged)",
+  "2% voucher rebates in participating Specialty Stores at Takashimaya Shopping Centre (Earn 2 Takashimaya Bonus Points with every S$30 charged)",
+  "Additional 10% off during selected sale events at Takashimaya Department Store.",
+  "Redeem S$30 worth of Takashimaya Gift Vouchers with every 100 Takashimaya Bonus Points.",
+  "At MoneySmart, we strive to keep our information accurate and up to date. This information may be different from what you see when you visit a financial institution, service provider, or specific product site. MoneySmart shall not be liable to compensate the Customer should the information is not as updated as our Partner."
+ ],
+ "sign_up_offers": [],
+ "links": {
+  "product": "https://www.moneysmart.sg/credit-cards/dbs-takashimaya-platinum-american-express-card"
+ },
+ "citation": {
+  "id": "moneysmart:fbcf8e7229a3",
+  "url": "https://www.moneysmart.sg/credit-cards?page=3",
+  "title": "DBS Takashimaya American Express Card",
+  "source_type": "aggregator",
+  "retrieved_at": "2026-09-27T05:27:18+00:00",
+  "sha256": "fbcf8e7229a38611c3c767cd8447164e413b1306df1f54bebee269e3abf15202",
+  "snapshot": "data/raw/moneysmart/credit-cards-p3-707cb52c.html"
+ },
+ "extra": {
+  "summary": "DBS Takashimaya Amex Card is a rewards credit card specifically designed for Takashimaya frequent shoppers. You can accumulate Taka points and redeem them for Taka rebate vouchers. Other benefits include annual fee waiver, additional discounts at Taka card day, promotions, and parking top-ups. The DBS Taka card also comes in Visa and debit versions.",
+  "badges": [
+   "Frequent Shoppers at Takashimaya"
+  ],
+  "network": [
+   "American Express"
+  ],
+  "mobile_wallets": [
+   "Apple Pay",
+   "Samsung Pay"
+  ],
+  "groups": {
+   "annual-interest-rate-and-fees": {
+    "Annual Interest Rate": "25.90",
+    "Annual Principal Fee": "196.20",
+    "Supplementary Annual Fee": "98.10",
+    "Fee Waiver": "Available",
+    "Minimum Monthly Repayment": "3% or S$50, whichever is greater",
+    "Interest Free Period": "20 days"
+   },
+   "minimum-income-requirements": {
+    "Singaporean/PR Minimum Annual Income": "30000",
+    "Non-Singaporean Minimum Annual Income": "45000"
+   },
+   "card-association": {
+    "American Express": "true"
+   },
+   "wireless-payment": {
+    "Apple Pay": "true",
+    "Samsung Pay": "true"
+   }
+  },
+  "our_takes": {
+   "our-take": "The DBS Takashimaya AMEX Card is best for loyal Takashimaya shoppers aiming to maximize in-store perks. Earn elevated voucher rebates on your spends at Takashimaya, including an extra 10% off during selected sale events. Points expire, so factor that into your spending to redeem S$30 vouchers. Consider if the annual fee makes sense against your regular Takashimaya purchases, as rewards are very store-specific.",
+   "good-for": "* Existing Takashimaya shoppers wanting to maximize in-store purchases through voucher rebates and exclusive discounts during sales events.\n* Cardholders who frequent Takashimaya department store and aim to earn rewards points towards gift vouchers and parking benefits.\n* Individuals seeking a card for daily lifestyle spending, particularly at Takashimaya, who want to accrue rewards and cash card credit.",
+   "things-to-note": "- Annual fee of $196.20 can negate rewards; assess if Takashimaya benefits outweigh the cost.\n- A 25.90% APR applies if you carry a balance, so aim to pay in full monthly.\n- Late payment fees of $100 apply; set reminders to avoid this costly penalty."
+  },
+  "updated_at": "2025-08-07T14:53:24+08:00"
+ }
+}

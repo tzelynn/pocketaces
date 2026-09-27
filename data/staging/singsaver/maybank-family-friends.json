@@ -1,0 +1,138 @@
+{
+ "source": "singsaver",
+ "source_id": "maybank-family-friends-card",
+ "source_url": "https://www.singsaver.com.sg/credit-card/products/maybank-family-friends-card",
+ "name": "Maybank Family & Friends Card",
+ "bank": "Maybank",
+ "card_id": "maybank-family-friends",
+ "image_url": "https://mhgprod.blob.core.windows.net/singsaver/strapi-uploads/s_2026_04_Maybank_Family_and_Friends_c4c102405d.png",
+ "annual_fee": 196.2,
+ "annual_fee_note": "S$ | First Three Years Waived",
+ "min_annual_income": 30000.0,
+ "min_monthly_spend": 800.0,
+ "earn_rates": {
+  "percent:local": {
+   "value": 8.0,
+   "unit": "percent",
+   "note": "Up to  | On 5 Preferred Categories (local & overseas) and all Malaysian Ringgit and Indonesian Rupiah spend. Monthly up to S$30 cap per category."
+  },
+  "percent:overseas": {
+   "value": 8.0,
+   "unit": "percent",
+   "note": "Up to  | On 5 Preferred Categories (local & overseas) and all Malaysian Ringgit and Indonesian Rupiah spend. Monthly up to S$30 cap per category."
+  },
+  "percent:baseline": {
+   "value": 0.22,
+   "unit": "percent",
+   "note": "0.22% on all other categories & all spend if monthly spend falls below S$800."
+  },
+  "percent:dining": {
+   "value": 8.0,
+   "unit": "percent",
+   "note": "8% on restaurants, Foodpanda, and Deliveroo with min. monthly spend of S$800 per month. S$25 monthly cashback cap per category."
+  },
+  "percent:supermarket": {
+   "value": 8.0,
+   "unit": "percent",
+   "note": "NTUC FairPrice/Finest/X-tra, Cold Storage, Giant, Market Place, Jasons, Sheng Siong, DON DON DONKI, HAO Mart, RedMart, Amazon Fresh, and all other grocery stores and supermarkets globally, with min. spend of S$800 per month. S$25 monthly cashback cap per category."
+  },
+  "percent:retail": {
+   "value": 8.0,
+   "unit": "percent",
+   "note": "8% on selected pet and retail merchants with min. monthly spend of S$800. S$25 monthly cashback cap per category."
+  },
+  "percent:local_online_shopping": {
+   "value": 8.0,
+   "unit": "percent",
+   "note": "8% on apparels, shoes, accessories, leather goods, luggage, and other fashion purchases globally with min. monthly spend of S$800. S$25 monthly cashback cap per category."
+  },
+  "percent:overseas_online_shopping": {
+   "value": 8.0,
+   "unit": "percent",
+   "note": "8% on apparels, shoes, accessories, leather goods, luggage, and other fashion purchases globally with min. monthly spend of S$800. S$25 monthly cashback cap per category."
+  },
+  "percent:health": {
+   "value": 8.0,
+   "unit": "percent",
+   "note": "Massage parlors, Health & beauty spas and Barber shops globally. S$25 monthly cashback cap."
+  },
+  "percent:department_store": {
+   "value": 8.0,
+   "unit": "percent",
+   "note": "S$25 monthly cashback cap"
+  },
+  "percent:digital_wallet": {
+   "value": 8.0,
+   "unit": "percent",
+   "note": null
+  },
+  "percent:online_bill_payment_spending": {
+   "value": 0.3,
+   "unit": "percent",
+   "note": "0.3% cashback on AXS bill payments. Cashback is capped at S$50 per transaction."
+  },
+  "percent:contactless_spend": {
+   "value": 8.0,
+   "unit": "percent",
+   "note": null
+  },
+  "percent:transport": {
+   "value": 8.0,
+   "unit": "percent",
+   "note": "Petrol stations, contactless bus and train rides, limousines, taxis, Grab/GOJEK rides, other passenger transportation services and automotive related services globally. S$25 monthly cashback cap. "
+  }
+ },
+ "caps": {
+  "cashback_bonus_cap": {
+   "value": 180.0,
+   "note": "S$ | With >S$1,600 spend per calendar month, cashback capped at S$180 per month across 5 selected Preferred Categories (S$30 per Preferred Category + S$30 for all other spend). Between S$800 to S$1,600 monthly spend, cashback capped at S$120 per month (S$20 per Preferred Category + S$20 for all other spend)."
+  },
+  "rewards_bonus_cap": {
+   "value": 125.0,
+   "note": "S$ | Cashback capped at S$125 per calendar month (S$25 per selected category)."
+  }
+ },
+ "highlights": [
+  "Up to 8% cashback on 5 Preferred selected spend Categories (Choose from 10 available cashback categories - Automotive, Beauty & Wellness, Commute, Dining & Food Delivery, Entertainment, Groceries, Kids & Pets, Online Shopping, Sports & Sports Apparels and Telco & Streaming). Earn unlimited 0.22% cashback on other eligible spend. Cashback is capped at up to S$180 monthly for local and overseas purchases for the Preferred Categories, as well as Malaysian Ringgit and Indonesia Rupiah transactions.",
+  "pros: Earn up to 8% cashback for 5 Preferred Categories across 10 options.",
+  "pros: Get up to 8% cashback on Malaysian Ringgit (MYR) and Indonesian Rupiah (IDR) spend.",
+  "pros: Earn up to S$180 cashback every month.",
+  "pros: Preferred Categories can be changed trimonthly or every 3 months.",
+  "pros: 3-year annual fee waiver.",
+  "pros: No annual fee for supplementary card.",
+  "cons: Monthly cashback at 0.22% for spends below S$800.",
+  "pros: Local spending rebate",
+  "pros: Annual Fee waiver",
+  "cons: Rebate cap applied",
+  "cons: Monthly spend required"
+ ],
+ "sign_up_offers": [],
+ "links": {},
+ "citation": {
+  "id": "singsaver:e68ba5463cc4",
+  "url": "https://www.singsaver.com.sg/credit-card/products/maybank-family-friends-card",
+  "title": "Maybank Family & Friends Card",
+  "source_type": "aggregator",
+  "retrieved_at": "2026-09-27T05:26:04+00:00",
+  "sha256": "e68ba5463cc48fa241b4bad51c79243e8e9434d6b60bcd8d263d05ae2d3081da",
+  "snapshot": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-maybank-family-friends-card-59d7fa8d.html"
+ },
+ "extra": {
+  "network": [
+   "Mastercard"
+  ],
+  "mobile_wallets": [
+   "Apple Pay",
+   "Samsung Pay"
+  ],
+  "fx_fee_percent": 3.25,
+  "miles_conversion_fee": null,
+  "categories": [
+   "category:retail-promo",
+   "needs:all-cards-with-retail-promo",
+   "needs:all-credit-cards"
+  ],
+  "tag": null,
+  "description": "Enjoy the freedom to pick your bonus cashback category, to earn up to 8% cashback when you spend with the Maybank Family & Friends Card."
+ }
+}

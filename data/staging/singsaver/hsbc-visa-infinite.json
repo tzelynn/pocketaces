@@ -1,0 +1,130 @@
+{
+ "source": "singsaver",
+ "source_id": "hsbc-visa-infinite-credit-card",
+ "source_url": "https://www.singsaver.com.sg/credit-card/products/hsbc-visa-infinite-credit-card",
+ "name": "HSBC Visa Infinite Credit Card",
+ "bank": "HSBC",
+ "card_id": "hsbc-visa-infinite",
+ "image_url": "https://mhgprod.blob.core.windows.net/singsaver/strapi-uploads/xs_bltb9a9a34f37da3dda_4bea15bcbf.webp",
+ "annual_fee": 662.15,
+ "annual_fee_note": "S$ | S$497.06 for HSBC Premier customers",
+ "min_annual_income": 120000.0,
+ "earn_rates": {
+  "mpd:local": {
+   "value": 1.25,
+   "unit": "mpd",
+   "note": "Up to | Minimum S$50,000 eligible spend in first 12 months of card issuance date to qualify for Step Up Earn Rate."
+  },
+  "percent:baseline": {
+   "value": 0.63,
+   "unit": "percent",
+   "note": "(Indirect cashback) S$1 = 2.5 points 20,000 points = $50 cash credit, equivalent to 0.63% cashback."
+  },
+  "points_per_dollar:local_spending": {
+   "value": null,
+   "unit": "points_per_dollar",
+   "note": "Up to | Minimum S$50,000 eligible spend in first 12 months of card issuance date to qualify for Step Up Earn Rate."
+  },
+  "points_per_dollar:overseas_spending": {
+   "value": null,
+   "unit": "points_per_dollar",
+   "note": "Up to | Minimum S$50,000 eligible spend in first 12 months of card issuance date to qualify for Step Up Earn Rate."
+  },
+  "mpd:baseline": {
+   "value": 1.0,
+   "unit": "mpd",
+   "note": null
+  },
+  "percent:local": {
+   "value": 0.63,
+   "unit": "percent",
+   "note": "(Indirect cashback) S$1 = 2.5 points 20,000 points = $50 cash credit, equivalent to 0.63% cashback."
+  },
+  "percent:overseas": {
+   "value": 0.63,
+   "unit": "percent",
+   "note": "(Indirect cashback) S$1 = 2.5 points 20,000 points = $50 cash credit, equivalent to 0.63% cashback."
+  },
+  "mpd:overseas": {
+   "value": 2.25,
+   "unit": "mpd",
+   "note": "Up to | Minimum S$50,000 eligible spend in first 12 months of card issuance date to qualify for Step Up Earn Rate."
+  }
+ },
+ "caps": {},
+ "highlights": [
+  "Earn up to 1.25 miles per dollar on local spend and up to 2.25 miles per dollar on overseas spend, with a minimum S$50,000 eligible spend in the first 12 months to qualify for the Step Up Earn Rate. For other spending, earn 1 mile per dollar.",
+  "pros: Borrow up to 90% of your available credit limit, enjoy interest rates as low as 2.6% p.a., and get flexible payment terms up to 60 months when you apply with promo code \nCIPSS\n. \nT&Cs apply.",
+  "pros: Base earn rates of 1 mile per S$1 on local spend and 2 miles per S$1 in foreign spend.",
+  "pros: Step Up earn rates of 1.25 miles per S$1 on local spend and 2.25 miles per S$1 in foreign spend with min. S$50,000 eligible purchases within first 12 months of card issuance date.",
+  "pros: Regular cardholders: 2x complimentary expedited immigration clearance per calendar year, thereafter min. S$2,000 eligible spend in a calendar month to qualify.",
+  "pros: Regular cardholders: 2x complimentary airport limousine service per calendar year, thereafter min. S$2,000 eligible spend in a calendar month to qualify (capped at 24 usages per calendar year).",
+  "pros: HSBC Premier customers: 4x complimentary expedited immigration clearance and airport limousine service each per calendar year.",
+  "pros: Unlimited airport lounge access for primary and supplementary cardholders.",
+  "pros: Up to US$2 million complimentary travel insurance coverage (including up to US$100,000 for COVID-19).",
+  "pros: Complimentary concierge services for travel, golfing, dining, shopping, and business assistance.",
+  "pros: Exclusive discounts on retail, dining, hotel stays, and more offers.",
+  "cons: US$35 per guest per visit for airport lounge access.",
+  "cons: HSBC Rewards Points expire after 37 months.",
+  "cons: S$43.20 annual Mileage Programme fee (convert points into KrisFlyer and/or Asia Miles).",
+  "cons: Expensive annual fee of S$656.08 for everyone, but S$492.56 annual fee reserved for HSBC Premier customers only.",
+  "pros: Bonus air miles",
+  "pros: Airport lounge",
+  "pros: Travel insurance",
+  "cons: Annual Fee required"
+ ],
+ "sign_up_offers": [],
+ "links": {},
+ "citation": {
+  "id": "singsaver:4cf0c4cafdb1",
+  "url": "https://www.singsaver.com.sg/credit-card/products/hsbc-visa-infinite-credit-card",
+  "title": "HSBC Visa Infinite Credit Card",
+  "source_type": "aggregator",
+  "retrieved_at": "2026-09-27T05:25:52+00:00",
+  "sha256": "4cf0c4cafdb188ffc4b045590d9f59f57a2ed2652c72abf5dd28af8266881a00",
+  "snapshot": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-hsbc-visa-infinite-credit-card-b4d31083.html"
+ },
+ "extra": {
+  "network": [
+   "VISA Infinite"
+  ],
+  "mobile_wallets": [
+   "Google Pay",
+   "Apple Pay"
+  ],
+  "fx_fee_percent": 2.8,
+  "miles_conversion_fee": 43.2,
+  "categories": [
+   "category:airmiles",
+   "category:all-credit-cards",
+   "category:buffet-promo",
+   "category:dining-promo",
+   "category:grocery-promo",
+   "category:installment",
+   "category:overseas",
+   "category:petrol-promo",
+   "category:premium-cards",
+   "category:retail-promo",
+   "category:travel",
+   "needs:0-interest-rate",
+   "needs:airport-lounge-transfer",
+   "needs:all-airmiles-cards",
+   "needs:all-cards-with-buffet-promo",
+   "needs:all-cards-with-dining-promo",
+   "needs:all-cards-with-grocery-promo",
+   "needs:all-cards-with-petrol-promo",
+   "needs:all-cards-with-retail-promo",
+   "needs:all-credit-cards",
+   "needs:all-installment-cards",
+   "needs:all-overseas-cards",
+   "needs:all-premium-cards",
+   "needs:all-travel-cards",
+   "needs:free-travel-insurance",
+   "needs:no-minimum-spend-required-airmiles",
+   "needs:online-booking-discount",
+   "needs:unlimited-airmiles"
+  ],
+  "tag": null,
+  "description": "The HSBC Visa Infinite Credit Card offers unmatched luxury, personalized services, and exclusive privileges for discerning individuals. Enjoy up to 2.25 miles on your spending and a suite of exclusive travel privileges."
+ }
+}

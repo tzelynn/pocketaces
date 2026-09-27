@@ -1,0 +1,127 @@
+{
+ "source": "moneysmart",
+ "source_id": "ocbc-365-credit-card",
+ "source_url": "https://www.moneysmart.sg/credit-cards/ocbc-365-credit-card",
+ "name": "OCBC 365 Credit Card",
+ "bank": "OCBC",
+ "card_id": "ocbc-365",
+ "image_url": "https://photos.cdn-moneysmart.com/credit_cards/uploads/products/images/image_url_2023-07-03_OCBC 365.jpg",
+ "annual_fee": 196.2,
+ "min_annual_income": 15000.0,
+ "earn_rates": {},
+ "caps": {},
+ "highlights": [
+  "6% Cashback on Fuel Spends",
+  "5% Cashback on Everyday Dining",
+  "Unlock up to $160 Cashback with min. spend of $1,600 per month",
+  "6% cashback on fuel spend at all petrol service stations",
+  "5% cashback on everyday dining (including local, overseas and online food delivery)",
+  "3% cashback on groceries, land transport, recurring telco and electricity bills",
+  "3% cashback on streaming and EV charging",
+  "3% cashback at Watsons stores and Watsons Online",
+  "0.25% cashback on everything else",
+  "Min. spend of S$800 per month, with cashback capped at S$80 per month",
+  "Unlock up to S$160 cashback per month with a min. spend of S$1,600 per month",
+  "2 years fee waiver for principal card (S$196.20), subsequent years waived with min. spend of S$10,000 p.a.",
+  "At MoneySmart, we strive to keep our information accurate and up to date. This information may be different from what you see when you visit a financial institution, service provider, or specific product site. MoneySmart shall not be liable to compensate the Customer should the information is not as updated as our Partner."
+ ],
+ "sign_up_offers": [
+  {
+   "kind": "MANUAL_GIFT",
+   "title": "S$200 Cash via PayNow",
+   "subtitle": null,
+   "is_cash": true,
+   "terms": "• Apply for an eligible OCBC Credit Card by 30th Sept 2026\n• Spend a min. of S$400 in eligible transactions within 30 days from card approval\n• Submit the Claim Form upon receiving the Unique Redemption Code from OCBC",
+   "campaign": "Credit Card | OCBC | 140926"
+  },
+  {
+   "kind": "STORE_PRODUCT",
+   "title": "Sennheiser Momentum True Wireless 4 Earbuds (Black Graphite)",
+   "subtitle": "worth S$449",
+   "is_cash": false,
+   "terms": "• Apply for an eligible OCBC Credit Card by 30th Sept 2026\n• Spend a min. of S$400 in eligible transactions within 30 days from card approval\n• Submit the Claim Form upon receiving the Unique Redemption Code from OCBC",
+   "campaign": "Credit Card | OCBC | 140926"
+  },
+  {
+   "kind": "STORE_PRODUCT",
+   "title": "Omnidesk Essential Electric Height-Adjustable Desk (Black)",
+   "subtitle": "worth S$369",
+   "is_cash": false,
+   "terms": "• Apply for an eligible OCBC Credit Card by 30th Sept 2026\n• Spend a min. of S$400 in eligible transactions within 30 days from card approval\n• Submit the Claim Form upon receiving the Unique Redemption Code from OCBC",
+   "campaign": "Credit Card | OCBC | 140926"
+  },
+  {
+   "kind": "STORE_PRODUCT",
+   "title": "TTRacing Swift X Pro Gaming Chair (Black)",
+   "subtitle": "worth S$429",
+   "is_cash": false,
+   "terms": "• Apply for an eligible OCBC Credit Card by 30th Sept 2026\n• Spend a min. of S$400 in eligible transactions within 30 days from card approval\n• Submit the Claim Form upon receiving the Unique Redemption Code from OCBC",
+   "campaign": "Credit Card | OCBC | 140926"
+  },
+  {
+   "kind": "STORE_PRODUCT",
+   "title": "LEVEL8 Luminous Textured Collection 28-inch Luggage (Black)",
+   "subtitle": "worth S$469",
+   "is_cash": false,
+   "terms": "• Apply for an eligible OCBC Credit Card by 30th Sept 2026\n• Spend a min. of S$400 in eligible transactions within 30 days from card approval\n• Submit the Claim Form upon receiving the Unique Redemption Code from OCBC",
+   "campaign": "Credit Card | OCBC | 140926"
+  }
+ ],
+ "links": {
+  "product": "https://www.moneysmart.sg/credit-cards/ocbc-365-credit-card",
+  "review": "https://blog.moneysmart.sg/credit-cards/ocbc-365-credit-card-review/"
+ },
+ "citation": {
+  "id": "moneysmart:eeee24fb93a9",
+  "url": "https://www.moneysmart.sg/credit-cards",
+  "title": "OCBC 365 Credit Card",
+  "source_type": "aggregator",
+  "retrieved_at": "2026-09-27T05:27:12+00:00",
+  "sha256": "eeee24fb93a9d85ef8b9194c11bda960b5b99ee30b3689cdc59fb650badebce7",
+  "snapshot": "data/raw/moneysmart/credit-cards-p1-b55034ef.html"
+ },
+ "extra": {
+  "summary": "The OCBC 365 Credit Card is best for families and individuals focused on maximizing everyday spending. The decent cashback rates on dining (5%), groceries, land transport, recurring bills, petrol (up to 6%), and Watsons purchases make it ideal for daily essentials. Meeting the minimum spend of S$800 unlocks these benefits, though maximizing the S$160 cashback cap requires a higher S$1,600 spend.",
+  "badges": [
+   "High Spend on Dining"
+  ],
+  "network": [
+   "Visa"
+  ],
+  "mobile_wallets": [
+   "Visa Contactless",
+   "Google Pay",
+   "Apple Pay",
+   "Samsung Pay"
+  ],
+  "groups": {
+   "annual-interest-rate-and-fees": {
+    "Annual Interest Rate": "27.78",
+    "Annual Principal Fee": "196.20",
+    "Supplementary Annual Fee": "98.10",
+    "Fee Waiver": "Available",
+    "Minimum Monthly Repayment": "3% or S$50, whichever is higher",
+    "Interest Free Period": "23 days"
+   },
+   "minimum-income-requirements": {
+    "Singaporean/PR Minimum Annual Income": "•At least S$30,000 for Singaporeans and Singapore PRs aged between 21 and 54\n•At least S$15,000 for Singaporeans and Singapore PRs aged 55 and above",
+    "Non-Singaporean Minimum Annual Income": "•At least S$45,000 for foreigners"
+   },
+   "card-association": {
+    "Visa": "true"
+   },
+   "wireless-payment": {
+    "Visa Contactless": "true",
+    "Google Pay": "true",
+    "Apple Pay": "true",
+    "Samsung Pay": "true"
+   }
+  },
+  "our_takes": {
+   "our-take": "The OCBC 365 Credit Card is best for families and individuals focused on maximizing everyday spending. The decent cashback rates on dining (5%), groceries, land transport, recurring bills, petrol (up to 6%), and Watsons purchases make it ideal for daily essentials. Meeting the minimum spend of S$800 unlocks these benefits, though maximizing the S$160 cashback cap requires a higher S$1,600 spend. Consider if your spending aligns with these categories and if you can consistently hit the spend thresholds to make the most of the rewards.",
+   "good-for": "Families seeking cashback on everyday expenses like groceries, petrol, dining, and recurring bills to offset household costs.\nIndividuals who frequently use ride-hailing services and public transport, aiming to earn cashback on their daily commutes.\nStreaming enthusiasts and those with recurring telco bills who want to earn rewards while enjoying their favorite entertainment.",
+   "things-to-note": "Without S$800 monthly spend, you only earn 0.25% cashback, heavily reducing potential rewards.\nA high 27.78% interest rate applies if you don't pay your balance in full monthly.\nLate payment fees are S$100; always pay on time to avoid these hefty charges."
+  },
+  "updated_at": "2025-07-01T11:35:53+08:00"
+ }
+}

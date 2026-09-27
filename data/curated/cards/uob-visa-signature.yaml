@@ -1,0 +1,130 @@
+# Curated card record. Auto-drafted from staged sources; verify every value against the
+# official T&Cs (citations below), then set review.status: reviewed.
+id: uob-visa-signature
+bank: UOB
+name: UOB Visa Signature Card
+image_url: https://mhgprod.blob.core.windows.net/singsaver/strapi-uploads/m_UOB_Visa_Signature_c4f87fbf6f.png
+official_url: https://www.uob.com.sg/personal/cards/rewards/visa-signature-card.page
+annual_fee:
+  amount:
+    amount: 218.0
+    currency: SGD
+  first_year_waived: true
+  waiver_notes: S$ | First Year Waived
+  sources: ['singsaver:eea43cb0180c']
+min_annual_income:
+  amount: 30000.0
+  currency: SGD
+reward_currency:
+  kind: miles
+  name: Miles
+earn_rules:
+- id: local
+  label: local, overseas, overseas online shopping, contactless spend, petrol (SingSaver — verify)
+  rate: 4.0
+  unit: mpd
+  tier: bonus
+  eligibility:
+    include_mcc: ['4829', '4900', '5199', '5960', '5965', '5993', '6012', '6050', '6051', '6211', '6300',
+      '6399', '6513', '6529', '6530', '6534', '6540', '7349', '7511', '7523', '7995', '8062', '8211',
+      '8220', '8241', '8244', '8249', '8299', '8398', '8651', '8661', '8699', '8999', '9211', '9222',
+      '9223', '9311', '9399', '9402', '9405']
+    modes_required: [contactless]
+    description: Up to  | Receive 10X UNI$ per S$5 (equivalent to 4 mpd) on Local Petrol & Contactless
+      spend including SimplyGo (Category 2). Capped at UNI$2,400 per statement month. Otherwise, earn
+      1X UNI$ for every S$5 spent (equivalent to 0.4 mpd). / Up to  | Receive 10X UNI$ per S$5 (equivalent
+      to 4 mpd) on Overseas spend in foreign currency (Category 1). Capped at UNI$2,400 per statement
+      month. Otherwise, earn 1X UNI$ for every S$5 spent (equivalent to 0.4 mpd). / Receive 10X UNI$ per
+      S$5 (equivalent to 4 mpd) on Overseas spend in foreign currency (Category 1). Capped at UNI$2,400
+      per statement month. Otherwise, earn 1X UNI$ for every S$5 spent (equivalent to 0.4 mpd). / Receive
+      10X UNI$ per S$5 (equivalent to 4 mpd) on Local Petrol & Contactless spend including SimplyGo (Category
+      2). Capped at UNI$2,400 per statement month. Otherwise, earn 1X UNI$ for every S$5 spent (equivalent
+      to 0.4 mpd). [include_mcc auto-extracted from official T&C — check it belongs to this rule]
+    sources: ['singsaver:eea43cb0180c', 'bank:0d166f4ab1ad', 'bank:c13cf48e44b4', 'bank:52d9be91844e',
+      'bank:0d166f4ab1ad', 'bank:42358e29d735']
+  conditions: ['aggregator categories: petrol']
+  sources: ['singsaver:eea43cb0180c']
+- id: base
+  label: baseline (SingSaver — verify)
+  rate: 0.4
+  unit: mpd
+  tier: base
+  eligibility:
+    all_spend: true
+    description: Earn UNI$1 per S$5 spend (equivalent to 0.4 mpd) on all other categories.
+    sources: ['singsaver:eea43cb0180c']
+  sources: ['singsaver:eea43cb0180c']
+general_exclusions:
+  description: Auto-extracted from official T&Cs — confirm each code applies to this card
+sign_up_bonuses:
+- offered_by: singsaver
+  description: 'Welcome Offer: choice of S$100 Samsung Voucher'
+  valid_from: '2026-06-30'
+  valid_to: '2026-09-29'
+  url: https://www.singsaver.com.sg/credit-card/products/uob-visa-signature-card
+  sources: ['singsaver:eea43cb0180c']
+- offered_by: singsaver
+  description: 'SingSaver Flash Deal: choice of S$200 Cash via PayNow; Samsonite Straren Spinner 67/24
+    (worth S$600); S$90 Cash via PayNow'
+  value:
+    amount: 200.0
+    currency: SGD
+  valid_from: '2026-09-01'
+  valid_to: '2026-09-30'
+  url: https://www.singsaver.com.sg/credit-card/products/uob-visa-signature-card
+  sources: ['singsaver:eea43cb0180c']
+notes:
+- 'Editorial review for cross-checking: Review: UOB Visa Signature Card (https://milelion.com/2026/08/10/review-uob-visa-signature-card/,
+  updated 2026-08-17)'
+- 'T&C mentions (check whether excluded): annual fee, axs, bill payment, cardup, cash advance, charit,
+  education, government, grabpay, hospital, instalment, interest, ipaymy, late payment charge, tax, top-up,
+  top-ups, utilit'
+citations:
+- id: singsaver:eea43cb0180c
+  url: https://www.singsaver.com.sg/credit-card/products/uob-visa-signature-card
+  title: UOB Visa Signature Card
+  source_type: aggregator
+  retrieved_at: '2026-09-27T05:27:09+00:00'
+  sha256: eea43cb0180c1e6dc36abf89df4a58e9e17e4e52e7f6093a692fbf91820590a2
+  snapshot: data/raw/singsaver/www-singsaver-com-sg-credit-card-products-uob-visa-signature-card-19a37079.html
+- id: moneysmart:eeee24fb93a9
+  url: https://www.moneysmart.sg/credit-cards
+  title: UOB Visa Signature Card
+  source_type: aggregator
+  retrieved_at: '2026-09-27T05:27:12+00:00'
+  sha256: eeee24fb93a9d85ef8b9194c11bda960b5b99ee30b3689cdc59fb650badebce7
+  snapshot: data/raw/moneysmart/credit-cards-p1-b55034ef.html
+- id: bank:0d166f4ab1ad
+  url: https://www.uob.com.sg/web-resources/personal/pdf/personal/cards/credit-cards/travel-cards/uob-visa-signature-card/terms-and-conditions-governing-uob-visa-signature-card.pdf?i_cid=pfs:sg:owned:int:site:na:li:na:na:na-evergreen:direct:na&vid=none
+  source_type: official
+  retrieved_at: '2026-09-27T08:45:46+00:00'
+  sha256: 0d166f4ab1ad15da03427a43b46d860061750d927525daf1c26dc90c5427ef75
+  snapshot: data/raw/bank/sonal-cards-credit-cards-travel-cards-uob-visa-signature-card-terms-and-conditions-governing-uob-visa-signature-card-pdf-403e018a.pdf
+- id: bank:c13cf48e44b4
+  url: https://www.uob.com.sg/credit-cards/pdf/online-cards-campaign.pdf
+  source_type: official
+  retrieved_at: '2026-09-27T08:45:42+00:00'
+  sha256: c13cf48e44b48d1aa3b0d0d5655f54f9001de57208d560ff29b09fc9ed8bc643
+  snapshot: data/raw/bank/www-uob-com-sg-credit-cards-pdf-online-cards-campaign-pdf-a28f442a.pdf
+- id: bank:52d9be91844e
+  url: https://www.uob.com.sg/assets/web-resources/personal/pdf/cards/supplementary-card/uob-supplementary-card-promo-tncs.pdf
+  source_type: official
+  retrieved_at: '2026-09-27T08:45:44+00:00'
+  sha256: 52d9be91844ea791f0ac517649c682846b898bd8e978a61a5582f56c4e573b16
+  snapshot: data/raw/bank/www-uob-com-sg-assets-web-resources-personal-pdf-cards-supplementary-card-uob-supplementary-card-promo-tncs-pdf-5ce91e24.pdf
+- id: bank:42358e29d735
+  url: https://www.uob.com.sg/assets/pdfs/add-on-card-terms-conditions.pdf
+  source_type: official
+  retrieved_at: '2026-09-27T08:45:48+00:00'
+  sha256: 42358e29d7350a9750c477afebed16d22e101f969821263b9777733152bf0a95
+  snapshot: data/raw/bank/www-uob-com-sg-assets-pdfs-add-on-card-terms-conditions-pdf-294d1c4b.pdf
+- id: milelion:ccdde960944c
+  url: https://milelion.com/2026/08/10/review-uob-visa-signature-card/
+  title: 'Review: UOB Visa Signature Card'
+  source_type: editorial
+  retrieved_at: '2026-09-27T05:28:21+00:00'
+  sha256: ccdde960944c9d5931345009185d0965690da538dee6e3079c1f51362c6142fd
+  snapshot: data/raw/milelion/post-125998-b208437b.json
+review:
+  status: draft
+updated_at: '2026-09-27'

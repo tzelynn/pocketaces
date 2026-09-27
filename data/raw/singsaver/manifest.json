@@ -1,0 +1,1042 @@
+{
+ "https://www.singsaver.com.sg/credit-card/air-miles": {
+  "content_type": "text/html",
+  "final_url": "https://www.singsaver.com.sg/credit-card/comparison/best-air-miles-credit-cards",
+  "path": "data/raw/singsaver/www-singsaver-com-sg-credit-card-comparison-best-air-miles-credit-cards-8ba7d37f.html",
+  "retrieved_at": "2026-09-27T05:24:35+00:00",
+  "sha256": "36c03da130c5ef8ddf7aa804f10ad8fe0487d8f15b4d4ac520c92195fa339097",
+  "source": "singsaver",
+  "status": 200,
+  "url": "https://www.singsaver.com.sg/credit-card/air-miles"
+ },
+ "https://www.singsaver.com.sg/credit-card/cashback": {
+  "content_type": "text/html",
+  "final_url": "https://www.singsaver.com.sg/credit-card/comparison/best-cashback-credit-cards",
+  "path": "data/raw/singsaver/www-singsaver-com-sg-credit-card-comparison-best-cashback-credit-cards-e078ae7b.html",
+  "retrieved_at": "2026-09-27T05:24:36+00:00",
+  "sha256": "9950a338355efa45e6a365536447ff40298e377834735b98f449dbd8d3f35ee3",
+  "source": "singsaver",
+  "status": 200,
+  "url": "https://www.singsaver.com.sg/credit-card/cashback"
+ },
+ "https://www.singsaver.com.sg/credit-card/products/american-express-platinum-card": {
+  "content_type": "text/html",
+  "final_url": "https://www.singsaver.com.sg/credit-card/products/american-express-platinum-card",
+  "path": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-american-express-platinum-card-19ab324b.html",
+  "retrieved_at": "2026-09-27T05:24:41+00:00",
+  "sha256": "179a6c940486a2ca8a111ad3969bd9b746b0ddd46510938519109bd7e2e0e671",
+  "source": "singsaver",
+  "status": 200,
+  "url": "https://www.singsaver.com.sg/credit-card/products/american-express-platinum-card"
+ },
+ "https://www.singsaver.com.sg/credit-card/products/american-express-platinum-credit-card": {
+  "content_type": "text/html",
+  "final_url": "https://www.singsaver.com.sg/credit-card/products/american-express-platinum-credit-card",
+  "path": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-american-express-platinum-credit-card-12885e8a.html",
+  "retrieved_at": "2026-09-27T05:24:43+00:00",
+  "sha256": "5bd629bc2fad48b0c0d1e14ea68eb74069e7cc13e31666ef5dc3dc9bb5fd05b0",
+  "source": "singsaver",
+  "status": 200,
+  "url": "https://www.singsaver.com.sg/credit-card/products/american-express-platinum-credit-card"
+ },
+ "https://www.singsaver.com.sg/credit-card/products/american-express-singapore-airlines-krisflyer-ascend-credit-card": {
+  "content_type": "text/html",
+  "final_url": "https://www.singsaver.com.sg/credit-card/products/american-express-singapore-airlines-krisflyer-ascend-credit-card",
+  "path": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-american-express-singapore-airlines-krisflyer-ascend-credit-card-75b4c2c7.html",
+  "retrieved_at": "2026-09-27T05:24:44+00:00",
+  "sha256": "d48d6e6569f373a75b5337b9ef00868c96ef2748a781cca7c86551cec47c3e44",
+  "source": "singsaver",
+  "status": 200,
+  "url": "https://www.singsaver.com.sg/credit-card/products/american-express-singapore-airlines-krisflyer-ascend-credit-card"
+ },
+ "https://www.singsaver.com.sg/credit-card/products/american-express-singapore-airlines-krisflyer-credit-card": {
+  "content_type": "text/html",
+  "final_url": "https://www.singsaver.com.sg/credit-card/products/american-express-singapore-airlines-krisflyer-credit-card",
+  "path": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-american-express-singapore-airlines-krisflyer-credit-card-f48620e8.html",
+  "retrieved_at": "2026-09-27T05:24:45+00:00",
+  "sha256": "4af567e90618af24a3a0cb7f80a0d90abc51ed2ed98ed8d2833debc4ee4d02c1",
+  "source": "singsaver",
+  "status": 200,
+  "url": "https://www.singsaver.com.sg/credit-card/products/american-express-singapore-airlines-krisflyer-credit-card"
+ },
+ "https://www.singsaver.com.sg/credit-card/products/american-express-true-cashback-card": {
+  "content_type": "text/html",
+  "final_url": "https://www.singsaver.com.sg/credit-card/products/american-express-true-cashback-card",
+  "path": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-american-express-true-cashback-card-20904f88.html",
+  "retrieved_at": "2026-09-27T05:24:47+00:00",
+  "sha256": "c040761bd6a9b8e70abb78cfe18136b39b809227f88f816cced867549dde78f2",
+  "source": "singsaver",
+  "status": 200,
+  "url": "https://www.singsaver.com.sg/credit-card/products/american-express-true-cashback-card"
+ },
+ "https://www.singsaver.com.sg/credit-card/products/aspire-corporate-card": {
+  "content_type": "text/html",
+  "final_url": "https://www.singsaver.com.sg/credit-card/products/aspire-corporate-card",
+  "path": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-aspire-corporate-card-066d0e19.html",
+  "retrieved_at": "2026-09-27T05:24:48+00:00",
+  "sha256": "06ca37228b2617cc25422ac7504e48deb5b400c46496a4d9cde38720879f880c",
+  "source": "singsaver",
+  "status": 200,
+  "url": "https://www.singsaver.com.sg/credit-card/products/aspire-corporate-card"
+ },
+ "https://www.singsaver.com.sg/credit-card/products/boc-elite-miles-world-mastercard": {
+  "content_type": "text/html",
+  "final_url": "https://www.singsaver.com.sg/credit-card/products/boc-elite-miles-world-mastercard",
+  "path": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-boc-elite-miles-world-mastercard-682c7b86.html",
+  "retrieved_at": "2026-09-27T05:24:50+00:00",
+  "sha256": "5158f5d05b2f2ebeeb31a9cbb6ac592dccb5aced6346621805ed54baab0326fc",
+  "source": "singsaver",
+  "status": 200,
+  "url": "https://www.singsaver.com.sg/credit-card/products/boc-elite-miles-world-mastercard"
+ },
+ "https://www.singsaver.com.sg/credit-card/products/boc-family-card": {
+  "content_type": "text/html",
+  "final_url": "https://www.singsaver.com.sg/credit-card/products/boc-family-card",
+  "path": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-boc-family-card-1d614703.html",
+  "retrieved_at": "2026-09-27T05:24:51+00:00",
+  "sha256": "814a8c9370be9d7e771c8367b93314ba514ca414c5b9aae5378e0dbd293f2087",
+  "source": "singsaver",
+  "status": 200,
+  "url": "https://www.singsaver.com.sg/credit-card/products/boc-family-card"
+ },
+ "https://www.singsaver.com.sg/credit-card/products/boc-qoo10-platinum-card": {
+  "content_type": "text/html",
+  "final_url": "https://www.singsaver.com.sg/credit-card/products/boc-qoo10-platinum-card",
+  "path": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-boc-qoo10-platinum-card-2b603afb.html",
+  "retrieved_at": "2026-09-27T05:24:53+00:00",
+  "sha256": "acb831e913c5bd9a0a7eb857a389ea4f88f7918a394f663466bb20b30d9f5a85",
+  "source": "singsaver",
+  "status": 200,
+  "url": "https://www.singsaver.com.sg/credit-card/products/boc-qoo10-platinum-card"
+ },
+ "https://www.singsaver.com.sg/credit-card/products/boc-qoo10-world-mastercard-card": {
+  "content_type": "text/html",
+  "final_url": "https://www.singsaver.com.sg/credit-card/products/boc-qoo10-world-mastercard-card",
+  "path": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-boc-qoo10-world-mastercard-card-56c3f106.html",
+  "retrieved_at": "2026-09-27T05:24:55+00:00",
+  "sha256": "e31d709e03ce6399bcadd230059d0116bb87808377c2f95ed9147279f268863b",
+  "source": "singsaver",
+  "status": 200,
+  "url": "https://www.singsaver.com.sg/credit-card/products/boc-qoo10-world-mastercard-card"
+ },
+ "https://www.singsaver.com.sg/credit-card/products/boc-sheng-siong-card": {
+  "content_type": "text/html",
+  "final_url": "https://www.singsaver.com.sg/credit-card/products/boc-sheng-siong-card",
+  "path": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-boc-sheng-siong-card-d5752cc6.html",
+  "retrieved_at": "2026-09-27T05:24:56+00:00",
+  "sha256": "c59dbdae82e6b06368ffc3a7564b2d5b1f3edab85143f1aed48696f52269a1aa",
+  "source": "singsaver",
+  "status": 200,
+  "url": "https://www.singsaver.com.sg/credit-card/products/boc-sheng-siong-card"
+ },
+ "https://www.singsaver.com.sg/credit-card/products/boc-visa-infinite-card": {
+  "content_type": "text/html",
+  "final_url": "https://www.singsaver.com.sg/credit-card/products/boc-visa-infinite-card",
+  "path": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-boc-visa-infinite-card-fdf44c21.html",
+  "retrieved_at": "2026-09-27T05:24:58+00:00",
+  "sha256": "8fdbc234687943375122ed8738fb5f3da3c9ba41c7d16bc6f0b99f99a5b11b3b",
+  "source": "singsaver",
+  "status": 200,
+  "url": "https://www.singsaver.com.sg/credit-card/products/boc-visa-infinite-card"
+ },
+ "https://www.singsaver.com.sg/credit-card/products/cimb-visa-infinite-card": {
+  "content_type": "text/html",
+  "final_url": "https://www.singsaver.com.sg/credit-card/products/cimb-visa-infinite-card",
+  "path": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-cimb-visa-infinite-card-0f8c0dd6.html",
+  "retrieved_at": "2026-09-27T05:24:59+00:00",
+  "sha256": "82b7b8366d9e49800984fb368e9d4bba5a11a27089fda4c57bef214909f4b0fc",
+  "source": "singsaver",
+  "status": 200,
+  "url": "https://www.singsaver.com.sg/credit-card/products/cimb-visa-infinite-card"
+ },
+ "https://www.singsaver.com.sg/credit-card/products/cimb-visa-signature-card": {
+  "content_type": "text/html",
+  "final_url": "https://www.singsaver.com.sg/credit-card/products/cimb-visa-signature-card",
+  "path": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-cimb-visa-signature-card-b15f5ccd.html",
+  "retrieved_at": "2026-09-27T05:25:01+00:00",
+  "sha256": "6949365d3283b24cc3a44c8dc8bee9d674a1f62889681492b7a29cadc2f281f5",
+  "source": "singsaver",
+  "status": 200,
+  "url": "https://www.singsaver.com.sg/credit-card/products/cimb-visa-signature-card"
+ },
+ "https://www.singsaver.com.sg/credit-card/products/cimb-world-mastercard": {
+  "content_type": "text/html",
+  "final_url": "https://www.singsaver.com.sg/credit-card/products/cimb-world-mastercard",
+  "path": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-cimb-world-mastercard-21f648b0.html",
+  "retrieved_at": "2026-09-27T05:25:03+00:00",
+  "sha256": "a7dfa0682bc748005e5c339c03f25d5940f182d77f3b1318192e884d444a83a6",
+  "source": "singsaver",
+  "status": 200,
+  "url": "https://www.singsaver.com.sg/credit-card/products/cimb-world-mastercard"
+ },
+ "https://www.singsaver.com.sg/credit-card/products/citi-cash-back-card": {
+  "content_type": "text/html",
+  "final_url": "https://www.singsaver.com.sg/credit-card/products/citi-cash-back-card",
+  "path": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-citi-cash-back-card-5ee9583a.html",
+  "retrieved_at": "2026-09-27T05:25:04+00:00",
+  "sha256": "d55c05f5441715f9dbc9d4e85ac7c7cded8ef5be818d6881c93c1d14f2bd32ab",
+  "source": "singsaver",
+  "status": 200,
+  "url": "https://www.singsaver.com.sg/credit-card/products/citi-cash-back-card"
+ },
+ "https://www.singsaver.com.sg/credit-card/products/citi-cash-back-plus-card": {
+  "content_type": "text/html",
+  "final_url": "https://www.singsaver.com.sg/credit-card/products/citi-cash-back-plus-card",
+  "path": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-citi-cash-back-plus-card-85cecdaf.html",
+  "retrieved_at": "2026-09-27T05:25:06+00:00",
+  "sha256": "e2f90ea9ea5f22e073719d462213cec327acdf24d2b96734749c6db6b097386a",
+  "source": "singsaver",
+  "status": 200,
+  "url": "https://www.singsaver.com.sg/credit-card/products/citi-cash-back-plus-card"
+ },
+ "https://www.singsaver.com.sg/credit-card/products/citi-clear-card": {
+  "content_type": "text/html",
+  "final_url": "https://www.singsaver.com.sg/credit-card/products/citi-clear-card",
+  "path": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-citi-clear-card-7ddc9d26.html",
+  "retrieved_at": "2026-09-27T05:25:07+00:00",
+  "sha256": "eae254c9ba18cdd91b790f8a32350f626e52b353f6e8f37f59ee58f76b47af3b",
+  "source": "singsaver",
+  "status": 200,
+  "url": "https://www.singsaver.com.sg/credit-card/products/citi-clear-card"
+ },
+ "https://www.singsaver.com.sg/credit-card/products/citi-premier-miles-card": {
+  "content_type": "text/html",
+  "final_url": "https://www.singsaver.com.sg/credit-card/products/citi-premier-miles-card",
+  "path": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-citi-premier-miles-card-7b9e50cd.html",
+  "retrieved_at": "2026-09-27T05:25:08+00:00",
+  "sha256": "23484d8fec06b23fc9591e69f854bf35a8e5ab41a698444fb3539cbdc5637505",
+  "source": "singsaver",
+  "status": 200,
+  "url": "https://www.singsaver.com.sg/credit-card/products/citi-premier-miles-card"
+ },
+ "https://www.singsaver.com.sg/credit-card/products/citi-premier-miles-citigold": {
+  "content_type": "text/html",
+  "final_url": "https://www.singsaver.com.sg/credit-card/products/citi-premier-miles-citigold",
+  "path": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-citi-premier-miles-citigold-330ece0e.html",
+  "retrieved_at": "2026-09-27T05:25:10+00:00",
+  "sha256": "600cbf8a7f001329b187cfbf0b0e615676c7222537c32fc649e884c980d948f1",
+  "source": "singsaver",
+  "status": 200,
+  "url": "https://www.singsaver.com.sg/credit-card/products/citi-premier-miles-citigold"
+ },
+ "https://www.singsaver.com.sg/credit-card/products/citi-prestige-card": {
+  "content_type": "text/html",
+  "final_url": "https://www.singsaver.com.sg/credit-card/products/citi-prestige-card",
+  "path": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-citi-prestige-card-a1fa4692.html",
+  "retrieved_at": "2026-09-27T05:25:11+00:00",
+  "sha256": "0baa50b56337590b20bff5e3c0172bf2bb89c8c5ca123d296e91270e7a03f7f8",
+  "source": "singsaver",
+  "status": 200,
+  "url": "https://www.singsaver.com.sg/credit-card/products/citi-prestige-card"
+ },
+ "https://www.singsaver.com.sg/credit-card/products/citi-rewards-card": {
+  "content_type": "text/html",
+  "final_url": "https://www.singsaver.com.sg/credit-card/products/citi-rewards-card",
+  "path": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-citi-rewards-card-3b64dfaf.html",
+  "retrieved_at": "2026-09-27T05:25:13+00:00",
+  "sha256": "b0789316dd559638f190611945b0bc735044e08e02014feb04ca2a10dec396ba",
+  "source": "singsaver",
+  "status": 200,
+  "url": "https://www.singsaver.com.sg/credit-card/products/citi-rewards-card"
+ },
+ "https://www.singsaver.com.sg/credit-card/products/citi-smrt-card": {
+  "content_type": "text/html",
+  "final_url": "https://www.singsaver.com.sg/credit-card/products/citi-smrt-card",
+  "path": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-citi-smrt-card-eb4a032a.html",
+  "retrieved_at": "2026-09-27T05:25:14+00:00",
+  "sha256": "9c6affbada2c551d58bc9fcd40f1858050e8ddb9f8f027ae029461de437ba70f",
+  "source": "singsaver",
+  "status": 200,
+  "url": "https://www.singsaver.com.sg/credit-card/products/citi-smrt-card"
+ },
+ "https://www.singsaver.com.sg/credit-card/products/citibank-m1-platinum-visa-card": {
+  "content_type": "text/html",
+  "final_url": "https://www.singsaver.com.sg/credit-card/products/citibank-m1-platinum-visa-card",
+  "path": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-citibank-m1-platinum-visa-card-c2f8685e.html",
+  "retrieved_at": "2026-09-27T05:25:16+00:00",
+  "sha256": "213443be48c1b797a534b543e16a107e2b0dae187fb94bd90b82940f765c31eb",
+  "source": "singsaver",
+  "status": 200,
+  "url": "https://www.singsaver.com.sg/credit-card/products/citibank-m1-platinum-visa-card"
+ },
+ "https://www.singsaver.com.sg/credit-card/products/dbs-altitude-american-express-card": {
+  "content_type": "text/html",
+  "final_url": "https://www.singsaver.com.sg/credit-card/products/dbs-altitude-american-express-card",
+  "path": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-dbs-altitude-american-express-card-61d03784.html",
+  "retrieved_at": "2026-09-27T05:25:17+00:00",
+  "sha256": "8613b6178b3ef687efc9bab5a66a6f50481022397e18186c28e7b00448f814fa",
+  "source": "singsaver",
+  "status": 200,
+  "url": "https://www.singsaver.com.sg/credit-card/products/dbs-altitude-american-express-card"
+ },
+ "https://www.singsaver.com.sg/credit-card/products/dbs-altitude-visa-signature-card": {
+  "content_type": "text/html",
+  "final_url": "https://www.singsaver.com.sg/credit-card/products/dbs-altitude-visa-signature-card",
+  "path": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-dbs-altitude-visa-signature-card-42aa86c6.html",
+  "retrieved_at": "2026-09-27T05:25:19+00:00",
+  "sha256": "dbbacc539bba7758a0c789801ea007758c06a80600e79ae22f53e43e4d42a66a",
+  "source": "singsaver",
+  "status": 200,
+  "url": "https://www.singsaver.com.sg/credit-card/products/dbs-altitude-visa-signature-card"
+ },
+ "https://www.singsaver.com.sg/credit-card/products/dbs-chromo-card": {
+  "content_type": "text/html",
+  "final_url": "https://www.singsaver.com.sg/credit-card/products/dbs-chromo-card",
+  "path": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-dbs-chromo-card-e340b498.html",
+  "retrieved_at": "2026-09-27T05:25:20+00:00",
+  "sha256": "0e54979e8973fabda1c24d67c381ca6618869e8c227c21f02929a4817ea5e5a2",
+  "source": "singsaver",
+  "status": 200,
+  "url": "https://www.singsaver.com.sg/credit-card/products/dbs-chromo-card"
+ },
+ "https://www.singsaver.com.sg/credit-card/products/dbs-esso-card": {
+  "content_type": "text/html",
+  "final_url": "https://www.singsaver.com.sg/credit-card/products/dbs-esso-card",
+  "path": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-dbs-esso-card-958b8a56.html",
+  "retrieved_at": "2026-09-27T05:25:22+00:00",
+  "sha256": "fa2c25ac592d4f3bb097a27d303ae23be5a3f4563da9ef16c05715e2f97adcac",
+  "source": "singsaver",
+  "status": 200,
+  "url": "https://www.singsaver.com.sg/credit-card/products/dbs-esso-card"
+ },
+ "https://www.singsaver.com.sg/credit-card/products/dbs-live-fresh-card": {
+  "content_type": "text/html",
+  "final_url": "https://www.singsaver.com.sg/credit-card/products/dbs-live-fresh-card",
+  "path": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-dbs-live-fresh-card-f5274451.html",
+  "retrieved_at": "2026-09-27T05:25:23+00:00",
+  "sha256": "8a7535ff6b3a78dd539c73e71aa28bb5a2858c4376a713d3f7817cd0bd739f8e",
+  "source": "singsaver",
+  "status": 200,
+  "url": "https://www.singsaver.com.sg/credit-card/products/dbs-live-fresh-card"
+ },
+ "https://www.singsaver.com.sg/credit-card/products/dbs-live-fresh-student-card": {
+  "content_type": "text/html",
+  "final_url": "https://www.singsaver.com.sg/credit-card/products/dbs-live-fresh-student-card",
+  "path": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-dbs-live-fresh-student-card-5905309a.html",
+  "retrieved_at": "2026-09-27T05:25:25+00:00",
+  "sha256": "8256c549dc22a39064899ecfdfa89b779f23be589c51e2cf64e02b76edb6a5c4",
+  "source": "singsaver",
+  "status": 200,
+  "url": "https://www.singsaver.com.sg/credit-card/products/dbs-live-fresh-student-card"
+ },
+ "https://www.singsaver.com.sg/credit-card/products/dbs-safra-card": {
+  "content_type": "text/html",
+  "final_url": "https://www.singsaver.com.sg/credit-card/products/dbs-safra-card",
+  "path": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-dbs-safra-card-cc06c8b7.html",
+  "retrieved_at": "2026-09-27T05:25:27+00:00",
+  "sha256": "a2fa5d01829d679624eb476c628e4f29e1dfac6d16246cdbc91e213880f3da95",
+  "source": "singsaver",
+  "status": 200,
+  "url": "https://www.singsaver.com.sg/credit-card/products/dbs-safra-card"
+ },
+ "https://www.singsaver.com.sg/credit-card/products/dbs-takashimaya-american-express-card": {
+  "content_type": "text/html",
+  "final_url": "https://www.singsaver.com.sg/credit-card/products/dbs-takashimaya-american-express-card",
+  "path": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-dbs-takashimaya-american-express-card-4a8cc249.html",
+  "retrieved_at": "2026-09-27T05:25:28+00:00",
+  "sha256": "23923a307220f23525403da6194bee8324997cc95abbc8d43a30ff29065e9f94",
+  "source": "singsaver",
+  "status": 200,
+  "url": "https://www.singsaver.com.sg/credit-card/products/dbs-takashimaya-american-express-card"
+ },
+ "https://www.singsaver.com.sg/credit-card/products/dbs-takashimaya-visa-card": {
+  "content_type": "text/html",
+  "final_url": "https://www.singsaver.com.sg/credit-card/products/dbs-takashimaya-visa-card",
+  "path": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-dbs-takashimaya-visa-card-7eca27b6.html",
+  "retrieved_at": "2026-09-27T05:25:29+00:00",
+  "sha256": "b2d496b7e33c60199a8e9fd3e8e39ec0f0a8439cb7021fc032c529db4b37c629",
+  "source": "singsaver",
+  "status": 200,
+  "url": "https://www.singsaver.com.sg/credit-card/products/dbs-takashimaya-visa-card"
+ },
+ "https://www.singsaver.com.sg/credit-card/products/dbs-vantage-visa-infinite-card": {
+  "content_type": "text/html",
+  "final_url": "https://www.singsaver.com.sg/credit-card/products/dbs-vantage-visa-infinite-card",
+  "path": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-dbs-vantage-visa-infinite-card-6ba243a3.html",
+  "retrieved_at": "2026-09-27T05:25:31+00:00",
+  "sha256": "669435333fe4805428d02ccd38930c64787141d1c4a8cd71f330626b072d459a",
+  "source": "singsaver",
+  "status": 200,
+  "url": "https://www.singsaver.com.sg/credit-card/products/dbs-vantage-visa-infinite-card"
+ },
+ "https://www.singsaver.com.sg/credit-card/products/dbs-womans-card": {
+  "content_type": "text/html",
+  "final_url": "https://www.singsaver.com.sg/credit-card/products/dbs-womans-card",
+  "path": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-dbs-womans-card-6a2fb697.html",
+  "retrieved_at": "2026-09-27T05:25:33+00:00",
+  "sha256": "96481af53ee9116ca54441d846bb4524561436f7d9455800cbc8c464171600f5",
+  "source": "singsaver",
+  "status": 200,
+  "url": "https://www.singsaver.com.sg/credit-card/products/dbs-womans-card"
+ },
+ "https://www.singsaver.com.sg/credit-card/products/dbs-womans-world-card": {
+  "content_type": "text/html",
+  "final_url": "https://www.singsaver.com.sg/credit-card/products/dbs-womans-world-card",
+  "path": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-dbs-womans-world-card-5c983b31.html",
+  "retrieved_at": "2026-09-27T05:25:34+00:00",
+  "sha256": "5fff9a842eb76a67bf3cdcec23aa31e1cacde3143be21b6ae2bd8d18a09e6cc3",
+  "source": "singsaver",
+  "status": 200,
+  "url": "https://www.singsaver.com.sg/credit-card/products/dbs-womans-world-card"
+ },
+ "https://www.singsaver.com.sg/credit-card/products/dbs-yuu-american-express-card": {
+  "content_type": "text/html",
+  "final_url": "https://www.singsaver.com.sg/credit-card/products/dbs-yuu-american-express-card",
+  "path": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-dbs-yuu-american-express-card-0a44e62a.html",
+  "retrieved_at": "2026-09-27T05:25:36+00:00",
+  "sha256": "bfd746726f80e740582cbd74d48c92f333e974bba6a7fd47ac49112a647ccbfe",
+  "source": "singsaver",
+  "status": 200,
+  "url": "https://www.singsaver.com.sg/credit-card/products/dbs-yuu-american-express-card"
+ },
+ "https://www.singsaver.com.sg/credit-card/products/dbs-yuu-visa-card": {
+  "content_type": "text/html",
+  "final_url": "https://www.singsaver.com.sg/credit-card/products/dbs-yuu-visa-card",
+  "path": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-dbs-yuu-visa-card-a4209c92.html",
+  "retrieved_at": "2026-09-27T05:25:37+00:00",
+  "sha256": "2db2156866a7e88ebac9d64ac25d4270255b4ceecb414b23152d4d25408e1126",
+  "source": "singsaver",
+  "status": 200,
+  "url": "https://www.singsaver.com.sg/credit-card/products/dbs-yuu-visa-card"
+ },
+ "https://www.singsaver.com.sg/credit-card/products/dcs-cashback-card": {
+  "content_type": "text/html",
+  "final_url": "https://www.singsaver.com.sg/credit-card/products/dcs-cashback-card",
+  "path": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-dcs-cashback-card-fc082a4f.html",
+  "retrieved_at": "2026-09-27T05:25:39+00:00",
+  "sha256": "c48166be98440efe10ddf47534632625b2bb1b34debd65442dcde06660a34afe",
+  "source": "singsaver",
+  "status": 200,
+  "url": "https://www.singsaver.com.sg/credit-card/products/dcs-cashback-card"
+ },
+ "https://www.singsaver.com.sg/credit-card/products/dcs-don-don-donki-card": {
+  "content_type": "text/html",
+  "final_url": "https://www.singsaver.com.sg/credit-card/products/dcs-don-don-donki-card",
+  "path": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-dcs-don-don-donki-card-bf5d3722.html",
+  "retrieved_at": "2026-09-27T05:25:40+00:00",
+  "sha256": "575f5c6f59714d16fca48f26d83b90713b7b897663cbd1e5984e4d2df1d87cbf",
+  "source": "singsaver",
+  "status": 200,
+  "url": "https://www.singsaver.com.sg/credit-card/products/dcs-don-don-donki-card"
+ },
+ "https://www.singsaver.com.sg/credit-card/products/dcs-flex-visa-platinum-card": {
+  "content_type": "text/html",
+  "final_url": "https://www.singsaver.com.sg/credit-card/products/dcs-flex-visa-platinum-card",
+  "path": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-dcs-flex-visa-platinum-card-13c93e9b.html",
+  "retrieved_at": "2026-09-27T05:25:42+00:00",
+  "sha256": "c42ebd6a914009be602e690029cc1e538449be8c7f33c3ef935526c75422e3e1",
+  "source": "singsaver",
+  "status": 200,
+  "url": "https://www.singsaver.com.sg/credit-card/products/dcs-flex-visa-platinum-card"
+ },
+ "https://www.singsaver.com.sg/credit-card/products/dcs-ultimate-platinum-mastercard": {
+  "content_type": "text/html",
+  "final_url": "https://www.singsaver.com.sg/credit-card/products/dcs-ultimate-platinum-mastercard",
+  "path": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-dcs-ultimate-platinum-mastercard-3bbf4986.html",
+  "retrieved_at": "2026-09-27T05:25:43+00:00",
+  "sha256": "967114965bb9bd6f919b569b4a6cbcbc0609b65619ec60ff560a3ed28fadf1ff",
+  "source": "singsaver",
+  "status": 200,
+  "url": "https://www.singsaver.com.sg/credit-card/products/dcs-ultimate-platinum-mastercard"
+ },
+ "https://www.singsaver.com.sg/credit-card/products/dcs-ultimate-platinum-unionpay-card": {
+  "content_type": "text/html",
+  "final_url": "https://www.singsaver.com.sg/credit-card/products/dcs-ultimate-platinum-unionpay-card",
+  "path": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-dcs-ultimate-platinum-unionpay-card-c5f8115d.html",
+  "retrieved_at": "2026-09-27T05:25:45+00:00",
+  "sha256": "153e53660e6ef5a135ac88c0f9ec42fe691e77d762794c71621af91e85706088",
+  "source": "singsaver",
+  "status": 200,
+  "url": "https://www.singsaver.com.sg/credit-card/products/dcs-ultimate-platinum-unionpay-card"
+ },
+ "https://www.singsaver.com.sg/credit-card/products/hsbc-advance-credit-card": {
+  "content_type": "text/html",
+  "final_url": "https://www.singsaver.com.sg/credit-card/products/hsbc-advance-credit-card",
+  "path": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-hsbc-advance-credit-card-36361b40.html",
+  "retrieved_at": "2026-09-27T05:25:46+00:00",
+  "sha256": "2793872c3a42e0a2c3a52ba6b3dff942dac42a254dba66a14b7eb1b160db3b44",
+  "source": "singsaver",
+  "status": 200,
+  "url": "https://www.singsaver.com.sg/credit-card/products/hsbc-advance-credit-card"
+ },
+ "https://www.singsaver.com.sg/credit-card/products/hsbc-live-plus-credit-card": {
+  "content_type": "text/html",
+  "final_url": "https://www.singsaver.com.sg/credit-card/products/hsbc-live-plus-credit-card",
+  "path": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-hsbc-live-plus-credit-card-f769ac18.html",
+  "retrieved_at": "2026-09-27T05:25:47+00:00",
+  "sha256": "05349b728ee8327a1e05e4faacc9d6086e9443ae10ded66eaa033aab6be8fb2d",
+  "source": "singsaver",
+  "status": 200,
+  "url": "https://www.singsaver.com.sg/credit-card/products/hsbc-live-plus-credit-card"
+ },
+ "https://www.singsaver.com.sg/credit-card/products/hsbc-revolution-credit-card": {
+  "content_type": "text/html",
+  "final_url": "https://www.singsaver.com.sg/credit-card/products/hsbc-revolution-credit-card",
+  "path": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-hsbc-revolution-credit-card-a7abb103.html",
+  "retrieved_at": "2026-09-27T05:25:49+00:00",
+  "sha256": "376bc02034d9e9d2c2dda4529a7d0fd9710dfe526113b28ff8a84f1bb04124f0",
+  "source": "singsaver",
+  "status": 200,
+  "url": "https://www.singsaver.com.sg/credit-card/products/hsbc-revolution-credit-card"
+ },
+ "https://www.singsaver.com.sg/credit-card/products/hsbc-travelone-credit-card": {
+  "content_type": "text/html",
+  "final_url": "https://www.singsaver.com.sg/credit-card/products/hsbc-travelone-credit-card",
+  "path": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-hsbc-travelone-credit-card-36f380a7.html",
+  "retrieved_at": "2026-09-27T05:25:50+00:00",
+  "sha256": "1d87a80ab2e0b8a2789d4cd5aef9daea54832eae0a17f45c93933a9433c88089",
+  "source": "singsaver",
+  "status": 200,
+  "url": "https://www.singsaver.com.sg/credit-card/products/hsbc-travelone-credit-card"
+ },
+ "https://www.singsaver.com.sg/credit-card/products/hsbc-visa-infinite-credit-card": {
+  "content_type": "text/html",
+  "final_url": "https://www.singsaver.com.sg/credit-card/products/hsbc-visa-infinite-credit-card",
+  "path": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-hsbc-visa-infinite-credit-card-b4d31083.html",
+  "retrieved_at": "2026-09-27T05:25:52+00:00",
+  "sha256": "4cf0c4cafdb188ffc4b045590d9f59f57a2ed2652c72abf5dd28af8266881a00",
+  "source": "singsaver",
+  "status": 200,
+  "url": "https://www.singsaver.com.sg/credit-card/products/hsbc-visa-infinite-credit-card"
+ },
+ "https://www.singsaver.com.sg/credit-card/products/hsbc-visa-platinum-credit-card": {
+  "content_type": "text/html",
+  "final_url": "https://www.singsaver.com.sg/credit-card/products/hsbc-visa-platinum-credit-card",
+  "path": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-hsbc-visa-platinum-credit-card-e2ec0a9a.html",
+  "retrieved_at": "2026-09-27T05:25:53+00:00",
+  "sha256": "db6ccfc3ed6cba31e83ffbc3a4bf799d5576a84e23b0fcd09221bbdab8078800",
+  "source": "singsaver",
+  "status": 200,
+  "url": "https://www.singsaver.com.sg/credit-card/products/hsbc-visa-platinum-credit-card"
+ },
+ "https://www.singsaver.com.sg/credit-card/products/icbc-unionpay-dual-currency-credit-card": {
+  "content_type": "text/html",
+  "final_url": "https://www.singsaver.com.sg/credit-card/products/icbc-unionpay-dual-currency-credit-card",
+  "path": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-icbc-unionpay-dual-currency-credit-card-9c082160.html",
+  "retrieved_at": "2026-09-27T05:25:55+00:00",
+  "sha256": "eccd48c19a5819a544aae1a6d7d683b537acdbd97ebe7ed593e7ce94c7a19a47",
+  "source": "singsaver",
+  "status": 200,
+  "url": "https://www.singsaver.com.sg/credit-card/products/icbc-unionpay-dual-currency-credit-card"
+ },
+ "https://www.singsaver.com.sg/credit-card/products/icbc-visa-dual-currency-credit-card": {
+  "content_type": "text/html",
+  "final_url": "https://www.singsaver.com.sg/credit-card/products/icbc-visa-dual-currency-credit-card",
+  "path": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-icbc-visa-dual-currency-credit-card-1f9300b1.html",
+  "retrieved_at": "2026-09-27T05:25:56+00:00",
+  "sha256": "418558d43ad5e224446e0ff3fa35421ff53b1d69c7e14072a81ef2c00f0fcfa2",
+  "source": "singsaver",
+  "status": 200,
+  "url": "https://www.singsaver.com.sg/credit-card/products/icbc-visa-dual-currency-credit-card"
+ },
+ "https://www.singsaver.com.sg/credit-card/products/journey-paying-bonusaver-bundle": {
+  "content_type": "text/html",
+  "final_url": "https://www.singsaver.com.sg/credit-card/products/journey-paying-bonusaver-bundle",
+  "path": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-journey-paying-bonusaver-bundle-2c95390e.html",
+  "retrieved_at": "2026-09-27T05:25:58+00:00",
+  "sha256": "1246e6caaf1b1197763db9b5ae223d0f37a3617eac79ee609ba76406b614dc54",
+  "source": "singsaver",
+  "status": 200,
+  "url": "https://www.singsaver.com.sg/credit-card/products/journey-paying-bonusaver-bundle"
+ },
+ "https://www.singsaver.com.sg/credit-card/products/journey-waiver-bonusaver-bundle": {
+  "content_type": "text/html",
+  "final_url": "https://www.singsaver.com.sg/credit-card/products/journey-waiver-bonusaver-bundle",
+  "path": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-journey-waiver-bonusaver-bundle-b5b0c11f.html",
+  "retrieved_at": "2026-09-27T05:25:59+00:00",
+  "sha256": "5aad5523a49e4d36459e62c8307e5ea2cca86d1ad815c7b348a7317dc46fb2ff",
+  "source": "singsaver",
+  "status": 200,
+  "url": "https://www.singsaver.com.sg/credit-card/products/journey-waiver-bonusaver-bundle"
+ },
+ "https://www.singsaver.com.sg/credit-card/products/krisflyer-uob-credit-card": {
+  "content_type": "text/html",
+  "final_url": "https://www.singsaver.com.sg/credit-card/products/krisflyer-uob-credit-card",
+  "path": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-krisflyer-uob-credit-card-09122ca9.html",
+  "retrieved_at": "2026-09-27T05:26:01+00:00",
+  "sha256": "5dea93f61d890c767db3bcf30dc89a18c21e0cde2d2203738d07e133d493572d",
+  "source": "singsaver",
+  "status": 200,
+  "url": "https://www.singsaver.com.sg/credit-card/products/krisflyer-uob-credit-card"
+ },
+ "https://www.singsaver.com.sg/credit-card/products/maybank-duo-platinum-mastercard": {
+  "content_type": "text/html",
+  "final_url": "https://www.singsaver.com.sg/credit-card/products/maybank-duo-platinum-mastercard",
+  "path": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-maybank-duo-platinum-mastercard-e4656e93.html",
+  "retrieved_at": "2026-09-27T05:26:03+00:00",
+  "sha256": "c81f74b9e70666e40190cb22a0eb89bc283ffcd03c5f2f020960f2c7b4ae069f",
+  "source": "singsaver",
+  "status": 200,
+  "url": "https://www.singsaver.com.sg/credit-card/products/maybank-duo-platinum-mastercard"
+ },
+ "https://www.singsaver.com.sg/credit-card/products/maybank-family-friends-card": {
+  "content_type": "text/html",
+  "final_url": "https://www.singsaver.com.sg/credit-card/products/maybank-family-friends-card",
+  "path": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-maybank-family-friends-card-59d7fa8d.html",
+  "retrieved_at": "2026-09-27T05:26:04+00:00",
+  "sha256": "e68ba5463cc48fa241b4bad51c79243e8e9434d6b60bcd8d263d05ae2d3081da",
+  "source": "singsaver",
+  "status": 200,
+  "url": "https://www.singsaver.com.sg/credit-card/products/maybank-family-friends-card"
+ },
+ "https://www.singsaver.com.sg/credit-card/products/maybank-fc-barcelona-visa-signature-card": {
+  "content_type": "text/html",
+  "final_url": "https://www.singsaver.com.sg/credit-card/products/maybank-fc-barcelona-visa-signature-card",
+  "path": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-maybank-fc-barcelona-visa-signature-card-c824cb0c.html",
+  "retrieved_at": "2026-09-27T05:26:05+00:00",
+  "sha256": "c585ac636d7dddb78ddf00b4b421c3dc796a74c22ad7e4854350b5015f13eaaa",
+  "source": "singsaver",
+  "status": 200,
+  "url": "https://www.singsaver.com.sg/credit-card/products/maybank-fc-barcelona-visa-signature-card"
+ },
+ "https://www.singsaver.com.sg/credit-card/products/maybank-horizon-visa-signature-card": {
+  "content_type": "text/html",
+  "final_url": "https://www.singsaver.com.sg/credit-card/products/maybank-horizon-visa-signature-card",
+  "path": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-maybank-horizon-visa-signature-card-decdff21.html",
+  "retrieved_at": "2026-09-27T05:26:07+00:00",
+  "sha256": "9466faaac725d633897152c8d8c6cc4907166bc33a497386221b0b6e162c6df2",
+  "source": "singsaver",
+  "status": 200,
+  "url": "https://www.singsaver.com.sg/credit-card/products/maybank-horizon-visa-signature-card"
+ },
+ "https://www.singsaver.com.sg/credit-card/products/maybank-manchester-united-platinum-visa-card": {
+  "content_type": "text/html",
+  "final_url": "https://www.singsaver.com.sg/credit-card/products/maybank-manchester-united-platinum-visa-card",
+  "path": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-maybank-manchester-united-platinum-visa-card-048e94b4.html",
+  "retrieved_at": "2026-09-27T05:26:09+00:00",
+  "sha256": "d571031efa1525d1fec2cf2855e3d9074b2abf229866d23489cd29092990c425",
+  "source": "singsaver",
+  "status": 200,
+  "url": "https://www.singsaver.com.sg/credit-card/products/maybank-manchester-united-platinum-visa-card"
+ },
+ "https://www.singsaver.com.sg/credit-card/products/maybank-platinum-visa-card": {
+  "content_type": "text/html",
+  "final_url": "https://www.singsaver.com.sg/credit-card/products/maybank-platinum-visa-card",
+  "path": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-maybank-platinum-visa-card-2695f7da.html",
+  "retrieved_at": "2026-09-27T05:26:10+00:00",
+  "sha256": "3103f3955f7ac9f7a3d447260cb9dad07b64c1296791b1598496c5cfaab41ae7",
+  "source": "singsaver",
+  "status": 200,
+  "url": "https://www.singsaver.com.sg/credit-card/products/maybank-platinum-visa-card"
+ },
+ "https://www.singsaver.com.sg/credit-card/products/maybank-visa-infinite-card": {
+  "content_type": "text/html",
+  "final_url": "https://www.singsaver.com.sg/credit-card/products/maybank-visa-infinite-card",
+  "path": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-maybank-visa-infinite-card-467c66bf.html",
+  "retrieved_at": "2026-09-27T05:26:12+00:00",
+  "sha256": "f5553f2fbad3a6d369974b5d0be56ec179284468ec9564b2a9e56b03b5872bd4",
+  "source": "singsaver",
+  "status": 200,
+  "url": "https://www.singsaver.com.sg/credit-card/products/maybank-visa-infinite-card"
+ },
+ "https://www.singsaver.com.sg/credit-card/products/maybank-world-mastercard": {
+  "content_type": "text/html",
+  "final_url": "https://www.singsaver.com.sg/credit-card/products/maybank-world-mastercard",
+  "path": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-maybank-world-mastercard-7289f83e.html",
+  "retrieved_at": "2026-09-27T05:26:13+00:00",
+  "sha256": "a58c880e425da8ce371a2270d4faa2467893bf0f898bccbbe53b5d99c09016fb",
+  "source": "singsaver",
+  "status": 200,
+  "url": "https://www.singsaver.com.sg/credit-card/products/maybank-world-mastercard"
+ },
+ "https://www.singsaver.com.sg/credit-card/products/maybank-xl-cashback-card": {
+  "content_type": "text/html",
+  "final_url": "https://www.singsaver.com.sg/credit-card/products/maybank-xl-cashback-card",
+  "path": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-maybank-xl-cashback-card-01ec3303.html",
+  "retrieved_at": "2026-09-27T05:26:15+00:00",
+  "sha256": "46ec5be2e413250e17976f5a815adb4fc768edf708243e147e0a0105752dedcb",
+  "source": "singsaver",
+  "status": 200,
+  "url": "https://www.singsaver.com.sg/credit-card/products/maybank-xl-cashback-card"
+ },
+ "https://www.singsaver.com.sg/credit-card/products/maybank-xl-rewards-card": {
+  "content_type": "text/html",
+  "final_url": "https://www.singsaver.com.sg/credit-card/products/maybank-xl-rewards-card",
+  "path": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-maybank-xl-rewards-card-f4921a92.html",
+  "retrieved_at": "2026-09-27T05:26:16+00:00",
+  "sha256": "c7ca3ef02e448b8f88cf666b57aa3c6ca2f4a8f4419d1eed3a7bc611a0068af4",
+  "source": "singsaver",
+  "status": 200,
+  "url": "https://www.singsaver.com.sg/credit-card/products/maybank-xl-rewards-card"
+ },
+ "https://www.singsaver.com.sg/credit-card/products/ocbc-365-credit-card": {
+  "content_type": "text/html",
+  "final_url": "https://www.singsaver.com.sg/credit-card/products/ocbc-365-credit-card",
+  "path": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-ocbc-365-credit-card-ee6c0aa7.html",
+  "retrieved_at": "2026-09-27T05:26:17+00:00",
+  "sha256": "bbd80934cf0840012cb33fd86dc8f0ae3ae36b0ccb31e298e6a1ab0e32f811d2",
+  "source": "singsaver",
+  "status": 200,
+  "url": "https://www.singsaver.com.sg/credit-card/products/ocbc-365-credit-card"
+ },
+ "https://www.singsaver.com.sg/credit-card/products/ocbc-90n-mastercard": {
+  "content_type": "text/html",
+  "final_url": "https://www.singsaver.com.sg/credit-card/products/ocbc-90n-mastercard",
+  "path": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-ocbc-90n-mastercard-7d78d795.html",
+  "retrieved_at": "2026-09-27T05:26:19+00:00",
+  "sha256": "aff3e03601207ab87573a14694377e5f3cac799558ce986772f382b63ab13914",
+  "source": "singsaver",
+  "status": 200,
+  "url": "https://www.singsaver.com.sg/credit-card/products/ocbc-90n-mastercard"
+ },
+ "https://www.singsaver.com.sg/credit-card/products/ocbc-90n-visa-card": {
+  "content_type": "text/html",
+  "final_url": "https://www.singsaver.com.sg/credit-card/products/ocbc-90n-visa-card",
+  "path": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-ocbc-90n-visa-card-1e687eed.html",
+  "retrieved_at": "2026-09-27T05:26:21+00:00",
+  "sha256": "72c61c239af1946eb8a5df50718f1cbc57ab946fcb0d5daca73fa08bc48c5995",
+  "source": "singsaver",
+  "status": 200,
+  "url": "https://www.singsaver.com.sg/credit-card/products/ocbc-90n-visa-card"
+ },
+ "https://www.singsaver.com.sg/credit-card/products/ocbc-frank-card": {
+  "content_type": "text/html",
+  "final_url": "https://www.singsaver.com.sg/credit-card/products/ocbc-frank-card",
+  "path": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-ocbc-frank-card-d5d85fe6.html",
+  "retrieved_at": "2026-09-27T05:26:22+00:00",
+  "sha256": "81d1305524641b044d2eec331094021b4a0b5ee91c99af47d894cae6b3b4d2c2",
+  "source": "singsaver",
+  "status": 200,
+  "url": "https://www.singsaver.com.sg/credit-card/products/ocbc-frank-card"
+ },
+ "https://www.singsaver.com.sg/credit-card/products/ocbc-infinity-card": {
+  "content_type": "text/html",
+  "final_url": "https://www.singsaver.com.sg/credit-card/products/ocbc-infinity-card",
+  "path": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-ocbc-infinity-card-ee6ae9d9.html",
+  "retrieved_at": "2026-09-27T05:26:24+00:00",
+  "sha256": "e22fe54563d2f6ae61680cb230271236c6e5affd6ec4b74fa902447747585b9e",
+  "source": "singsaver",
+  "status": 200,
+  "url": "https://www.singsaver.com.sg/credit-card/products/ocbc-infinity-card"
+ },
+ "https://www.singsaver.com.sg/credit-card/products/ocbc-nxt-credit-card": {
+  "content_type": "text/html",
+  "final_url": "https://www.singsaver.com.sg/credit-card/products/ocbc-nxt-credit-card",
+  "path": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-ocbc-nxt-credit-card-9dc0741f.html",
+  "retrieved_at": "2026-09-27T05:26:26+00:00",
+  "sha256": "c824f2e0bb8c743fb08d9f7ca176b931fcfefdd21ad183bd4d9b79f0a5cbab51",
+  "source": "singsaver",
+  "status": 200,
+  "url": "https://www.singsaver.com.sg/credit-card/products/ocbc-nxt-credit-card"
+ },
+ "https://www.singsaver.com.sg/credit-card/products/ocbc-rewards-credit-car": {
+  "content_type": "text/html",
+  "final_url": "https://www.singsaver.com.sg/credit-card/products/ocbc-rewards-credit-car",
+  "path": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-ocbc-rewards-credit-car-b782fbde.html",
+  "retrieved_at": "2026-09-27T05:26:27+00:00",
+  "sha256": "009ee14967cb018e3ec356617ac964d7e114bf87d93e62f051f0332ec214ea19",
+  "source": "singsaver",
+  "status": 200,
+  "url": "https://www.singsaver.com.sg/credit-card/products/ocbc-rewards-credit-car"
+ },
+ "https://www.singsaver.com.sg/credit-card/products/ocbc-rewards-credit-card": {
+  "content_type": "text/html",
+  "final_url": "https://www.singsaver.com.sg/credit-card/products/ocbc-rewards-credit-card",
+  "path": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-ocbc-rewards-credit-card-9305675d.html",
+  "retrieved_at": "2026-09-27T05:26:28+00:00",
+  "sha256": "2bc38b2794e0a6bee05faf4cee0e531195c0c7b6f006385333dd59121f9123ef",
+  "source": "singsaver",
+  "status": 200,
+  "url": "https://www.singsaver.com.sg/credit-card/products/ocbc-rewards-credit-card"
+ },
+ "https://www.singsaver.com.sg/credit-card/products/ocbc-voyage-card": {
+  "content_type": "text/html",
+  "final_url": "https://www.singsaver.com.sg/credit-card/products/ocbc-voyage-card",
+  "path": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-ocbc-voyage-card-2309c620.html",
+  "retrieved_at": "2026-09-27T05:26:29+00:00",
+  "sha256": "b854c15f01332ec12215ef5ca14396a042a132604f6a88be94ba92e71b31f55f",
+  "source": "singsaver",
+  "status": 200,
+  "url": "https://www.singsaver.com.sg/credit-card/products/ocbc-voyage-card"
+ },
+ "https://www.singsaver.com.sg/credit-card/products/posb-everyday-card": {
+  "content_type": "text/html",
+  "final_url": "https://www.singsaver.com.sg/credit-card/products/posb-everyday-card",
+  "path": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-posb-everyday-card-02593a8a.html",
+  "retrieved_at": "2026-09-27T05:26:31+00:00",
+  "sha256": "07b052cd3085728bd5f6597901b5dd125ed642e2aa2890d2faf33a2c05754735",
+  "source": "singsaver",
+  "status": 200,
+  "url": "https://www.singsaver.com.sg/credit-card/products/posb-everyday-card"
+ },
+ "https://www.singsaver.com.sg/credit-card/products/revolut-standard-card": {
+  "content_type": "text/html",
+  "final_url": "https://www.singsaver.com.sg/credit-card/products/revolut-standard-card",
+  "path": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-revolut-standard-card-ee53bcf7.html",
+  "retrieved_at": "2026-09-27T05:26:33+00:00",
+  "sha256": "3b6dd2f3ea245b410bf97c432c23cefe41a1bb5d930b58b072f457ed2d99c5b2",
+  "source": "singsaver",
+  "status": 200,
+  "url": "https://www.singsaver.com.sg/credit-card/products/revolut-standard-card"
+ },
+ "https://www.singsaver.com.sg/credit-card/products/simply-bonusaver-bundle": {
+  "content_type": "text/html",
+  "final_url": "https://www.singsaver.com.sg/credit-card/products/simply-bonusaver-bundle",
+  "path": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-simply-bonusaver-bundle-535e7b3f.html",
+  "retrieved_at": "2026-09-27T05:26:34+00:00",
+  "sha256": "0799fc7d7c45a8b9c8d0488d4928120f0bb14b184c7b941940099179e098a1fe",
+  "source": "singsaver",
+  "status": 200,
+  "url": "https://www.singsaver.com.sg/credit-card/products/simply-bonusaver-bundle"
+ },
+ "https://www.singsaver.com.sg/credit-card/products/standard-chartered-journey-credit-card": {
+  "content_type": "text/html",
+  "final_url": "https://www.singsaver.com.sg/credit-card/products/standard-chartered-journey-credit-card",
+  "path": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-standard-chartered-journey-credit-card-bdec743e.html",
+  "retrieved_at": "2026-09-27T05:26:36+00:00",
+  "sha256": "fcbd9a457a4807f2e87cfca82b64dc193288deef9a6dae226b31c5e800e3849f",
+  "source": "singsaver",
+  "status": 200,
+  "url": "https://www.singsaver.com.sg/credit-card/products/standard-chartered-journey-credit-card"
+ },
+ "https://www.singsaver.com.sg/credit-card/products/standard-chartered-journey-credit-card-waiver": {
+  "content_type": "text/html",
+  "final_url": "https://www.singsaver.com.sg/credit-card/products/standard-chartered-journey-credit-card-waiver",
+  "path": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-standard-chartered-journey-credit-card-waiver-29c8c9a8.html",
+  "retrieved_at": "2026-09-27T05:26:38+00:00",
+  "sha256": "1fbc27185c8991bf7d0783351f902f7cb6054af2d162b2b8de49d34636cef301",
+  "source": "singsaver",
+  "status": 200,
+  "url": "https://www.singsaver.com.sg/credit-card/products/standard-chartered-journey-credit-card-waiver"
+ },
+ "https://www.singsaver.com.sg/credit-card/products/standard-chartered-rewards-credit-card": {
+  "content_type": "text/html",
+  "final_url": "https://www.singsaver.com.sg/credit-card/products/standard-chartered-rewards-credit-card",
+  "path": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-standard-chartered-rewards-credit-card-e7a57b80.html",
+  "retrieved_at": "2026-09-27T05:26:39+00:00",
+  "sha256": "8d864d4cf70abcf368aca2838130dba494cd7df9b221ee4f3ea3a2e220908b75",
+  "source": "singsaver",
+  "status": 200,
+  "url": "https://www.singsaver.com.sg/credit-card/products/standard-chartered-rewards-credit-card"
+ },
+ "https://www.singsaver.com.sg/credit-card/products/standard-chartered-simply-cash-credit-card": {
+  "content_type": "text/html",
+  "final_url": "https://www.singsaver.com.sg/credit-card/products/standard-chartered-simply-cash-credit-card",
+  "path": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-standard-chartered-simply-cash-credit-card-7edd74d4.html",
+  "retrieved_at": "2026-09-27T05:26:40+00:00",
+  "sha256": "539a5fd39984f6687a3229e5429ed12510c3da3765a562caa028987901263c5e",
+  "source": "singsaver",
+  "status": 200,
+  "url": "https://www.singsaver.com.sg/credit-card/products/standard-chartered-simply-cash-credit-card"
+ },
+ "https://www.singsaver.com.sg/credit-card/products/standard-chartered-smart-credit-card": {
+  "content_type": "text/html",
+  "final_url": "https://www.singsaver.com.sg/credit-card/products/standard-chartered-smart-credit-card",
+  "path": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-standard-chartered-smart-credit-card-3ff12bed.html",
+  "retrieved_at": "2026-09-27T05:26:41+00:00",
+  "sha256": "9ebec3120fb4e46cd226b5fba6189e126a03a57ab0c89295902bc5617c5f08df",
+  "source": "singsaver",
+  "status": 200,
+  "url": "https://www.singsaver.com.sg/credit-card/products/standard-chartered-smart-credit-card"
+ },
+ "https://www.singsaver.com.sg/credit-card/products/standard-chartered-visa-infinite-credit-card": {
+  "content_type": "text/html",
+  "final_url": "https://www.singsaver.com.sg/credit-card/products/standard-chartered-visa-infinite-credit-card",
+  "path": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-standard-chartered-visa-infinite-credit-card-4d7c5311.html",
+  "retrieved_at": "2026-09-27T05:26:43+00:00",
+  "sha256": "0e084637ef7038f5ecd7397ef75c656cac005de141ae30da7f9b7c9129611e81",
+  "source": "singsaver",
+  "status": 200,
+  "url": "https://www.singsaver.com.sg/credit-card/products/standard-chartered-visa-infinite-credit-card"
+ },
+ "https://www.singsaver.com.sg/credit-card/products/trust-bank-link-credit-card": {
+  "content_type": "text/html",
+  "final_url": "https://www.singsaver.com.sg/credit-card/products/trust-bank-link-credit-card",
+  "path": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-trust-bank-link-credit-card-9917af02.html",
+  "retrieved_at": "2026-09-27T05:26:44+00:00",
+  "sha256": "4493e1800a141f4aac2d0f3c82c16f3c7f6e8c7d01d648f0eba38ccddea7f57d",
+  "source": "singsaver",
+  "status": 200,
+  "url": "https://www.singsaver.com.sg/credit-card/products/trust-bank-link-credit-card"
+ },
+ "https://www.singsaver.com.sg/credit-card/products/trust-cashback-credit-card": {
+  "content_type": "text/html",
+  "final_url": "https://www.singsaver.com.sg/credit-card/products/trust-cashback-credit-card",
+  "path": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-trust-cashback-credit-card-21a135db.html",
+  "retrieved_at": "2026-09-27T05:26:46+00:00",
+  "sha256": "f3bf8b0b47adbd800964da540ae9b5aff3e4248c11083c288a5ca11b8f0f4ee6",
+  "source": "singsaver",
+  "status": 200,
+  "url": "https://www.singsaver.com.sg/credit-card/products/trust-cashback-credit-card"
+ },
+ "https://www.singsaver.com.sg/credit-card/products/uob-absolute-cashback-card": {
+  "content_type": "text/html",
+  "final_url": "https://www.singsaver.com.sg/credit-card/products/uob-absolute-cashback-card",
+  "path": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-uob-absolute-cashback-card-32483fc6.html",
+  "retrieved_at": "2026-09-27T05:26:47+00:00",
+  "sha256": "a10d06a0507074856aa30cc7cd84381192484d4936ef6f717e305c3d9b477a56",
+  "source": "singsaver",
+  "status": 200,
+  "url": "https://www.singsaver.com.sg/credit-card/products/uob-absolute-cashback-card"
+ },
+ "https://www.singsaver.com.sg/credit-card/products/uob-evol-card": {
+  "content_type": "text/html",
+  "final_url": "https://www.singsaver.com.sg/credit-card/products/uob-evol-card",
+  "path": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-uob-evol-card-8db090eb.html",
+  "retrieved_at": "2026-09-27T05:26:49+00:00",
+  "sha256": "2d8a6fa00b39e073e52950d08eb7c8d4f0869d969253a69d5ca147d67ac8ace8",
+  "source": "singsaver",
+  "status": 200,
+  "url": "https://www.singsaver.com.sg/credit-card/products/uob-evol-card"
+ },
+ "https://www.singsaver.com.sg/credit-card/products/uob-ladys-card": {
+  "content_type": "text/html",
+  "final_url": "https://www.singsaver.com.sg/credit-card/products/uob-ladys-card",
+  "path": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-uob-ladys-card-94f9a98f.html",
+  "retrieved_at": "2026-09-27T05:26:50+00:00",
+  "sha256": "c5e8e589f4509e9588ee6aca7acf4c6cf33d8d1f1f917e313a99c6bafa2944bd",
+  "source": "singsaver",
+  "status": 200,
+  "url": "https://www.singsaver.com.sg/credit-card/products/uob-ladys-card"
+ },
+ "https://www.singsaver.com.sg/credit-card/products/uob-ladys-solitaire-card": {
+  "content_type": "text/html",
+  "final_url": "https://www.singsaver.com.sg/credit-card/products/uob-ladys-solitaire-card",
+  "path": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-uob-ladys-solitaire-card-e0e0ca01.html",
+  "retrieved_at": "2026-09-27T05:26:52+00:00",
+  "sha256": "09b24b14939cd308fbc0061c575a75e2a856818feaad6055d021f77b8c2117e6",
+  "source": "singsaver",
+  "status": 200,
+  "url": "https://www.singsaver.com.sg/credit-card/products/uob-ladys-solitaire-card"
+ },
+ "https://www.singsaver.com.sg/credit-card/products/uob-metro-uob-card": {
+  "content_type": "text/html",
+  "final_url": "https://www.singsaver.com.sg/credit-card/products/uob-metro-uob-card",
+  "path": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-uob-metro-uob-card-a8d8e309.html",
+  "retrieved_at": "2026-09-27T05:26:54+00:00",
+  "sha256": "1e2e12ef2122620424f67c0077c15743dc439f4ee89cc3f8cc880abb4e567cc7",
+  "source": "singsaver",
+  "status": 200,
+  "url": "https://www.singsaver.com.sg/credit-card/products/uob-metro-uob-card"
+ },
+ "https://www.singsaver.com.sg/credit-card/products/uob-one-card": {
+  "content_type": "text/html",
+  "final_url": "https://www.singsaver.com.sg/credit-card/products/uob-one-card",
+  "path": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-uob-one-card-a0a439b1.html",
+  "retrieved_at": "2026-09-27T05:26:55+00:00",
+  "sha256": "b75574a4d3716d35ff29119f9c1aaa6381bc4e4ceeadb36bc948f811f6f6bbd2",
+  "source": "singsaver",
+  "status": 200,
+  "url": "https://www.singsaver.com.sg/credit-card/products/uob-one-card"
+ },
+ "https://www.singsaver.com.sg/credit-card/products/uob-preferred-platinum-visa-card": {
+  "content_type": "text/html",
+  "final_url": "https://www.singsaver.com.sg/credit-card/products/uob-preferred-platinum-visa-card",
+  "path": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-uob-preferred-platinum-visa-card-13580089.html",
+  "retrieved_at": "2026-09-27T05:26:56+00:00",
+  "sha256": "6296cefdb06f581481b45eb50fde0d2190cfcd7d1b84938cf5b64d09d006a1bb",
+  "source": "singsaver",
+  "status": 200,
+  "url": "https://www.singsaver.com.sg/credit-card/products/uob-preferred-platinum-visa-card"
+ },
+ "https://www.singsaver.com.sg/credit-card/products/uob-professionals-platinum-card": {
+  "content_type": "text/html",
+  "final_url": "https://www.singsaver.com.sg/credit-card/products/uob-professionals-platinum-card",
+  "path": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-uob-professionals-platinum-card-fdda0345.html",
+  "retrieved_at": "2026-09-27T05:26:58+00:00",
+  "sha256": "d3bcd8193ffce491fc02e8b6f5468b8692e701bad636923d8a6a19587ad6dec8",
+  "source": "singsaver",
+  "status": 200,
+  "url": "https://www.singsaver.com.sg/credit-card/products/uob-professionals-platinum-card"
+ },
+ "https://www.singsaver.com.sg/credit-card/products/uob-prvi-miles-american-express-card": {
+  "content_type": "text/html",
+  "final_url": "https://www.singsaver.com.sg/credit-card/products/uob-prvi-miles-american-express-card",
+  "path": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-uob-prvi-miles-american-express-card-5f2fa09f.html",
+  "retrieved_at": "2026-09-27T05:26:59+00:00",
+  "sha256": "a862fa2c8c00437330dd89c194b9af849c542b2279c51b423941bc7da4a768a4",
+  "source": "singsaver",
+  "status": 200,
+  "url": "https://www.singsaver.com.sg/credit-card/products/uob-prvi-miles-american-express-card"
+ },
+ "https://www.singsaver.com.sg/credit-card/products/uob-prvi-miles-visa-card": {
+  "content_type": "text/html",
+  "final_url": "https://www.singsaver.com.sg/credit-card/products/uob-prvi-miles-visa-card",
+  "path": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-uob-prvi-miles-visa-card-a93aa28e.html",
+  "retrieved_at": "2026-09-27T05:27:01+00:00",
+  "sha256": "151ba34574506546d43a67dc129137b4e483503a83007f3e5e9587eda3ae393c",
+  "source": "singsaver",
+  "status": 200,
+  "url": "https://www.singsaver.com.sg/credit-card/products/uob-prvi-miles-visa-card"
+ },
+ "https://www.singsaver.com.sg/credit-card/products/uob-prvi-miles-world-mastercard": {
+  "content_type": "text/html",
+  "final_url": "https://www.singsaver.com.sg/credit-card/products/uob-prvi-miles-world-mastercard",
+  "path": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-uob-prvi-miles-world-mastercard-b243cb1e.html",
+  "retrieved_at": "2026-09-27T05:27:02+00:00",
+  "sha256": "b940243f505295e00c253c765c2bb582fb2d4ba594781fe623e3bd9583cbf7af",
+  "source": "singsaver",
+  "status": 200,
+  "url": "https://www.singsaver.com.sg/credit-card/products/uob-prvi-miles-world-mastercard"
+ },
+ "https://www.singsaver.com.sg/credit-card/products/uob-singtel-uob-card": {
+  "content_type": "text/html",
+  "final_url": "https://www.singsaver.com.sg/credit-card/products/uob-singtel-uob-card",
+  "path": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-uob-singtel-uob-card-044ee947.html",
+  "retrieved_at": "2026-09-27T05:27:04+00:00",
+  "sha256": "426a3007bd31532cb78d538925bd87512048f7ec8c44eb7f97fdbedf3463c206",
+  "source": "singsaver",
+  "status": 200,
+  "url": "https://www.singsaver.com.sg/credit-card/products/uob-singtel-uob-card"
+ },
+ "https://www.singsaver.com.sg/credit-card/products/uob-unionpay-platinum-card": {
+  "content_type": "text/html",
+  "final_url": "https://www.singsaver.com.sg/credit-card/products/uob-unionpay-platinum-card",
+  "path": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-uob-unionpay-platinum-card-a665b097.html",
+  "retrieved_at": "2026-09-27T05:27:05+00:00",
+  "sha256": "54640191d59668760b1296bafbc10199114835ad1725b6c4b5d4de75b45b50d6",
+  "source": "singsaver",
+  "status": 200,
+  "url": "https://www.singsaver.com.sg/credit-card/products/uob-unionpay-platinum-card"
+ },
+ "https://www.singsaver.com.sg/credit-card/products/uob-visa-infinite-metal-card": {
+  "content_type": "text/html",
+  "final_url": "https://www.singsaver.com.sg/credit-card/products/uob-visa-infinite-metal-card",
+  "path": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-uob-visa-infinite-metal-card-bee34f22.html",
+  "retrieved_at": "2026-09-27T05:27:07+00:00",
+  "sha256": "c5a532b1acbaec0035a80b2d8069d1ef06215c0e3cb59b1fc5a9d0f5582c7049",
+  "source": "singsaver",
+  "status": 200,
+  "url": "https://www.singsaver.com.sg/credit-card/products/uob-visa-infinite-metal-card"
+ },
+ "https://www.singsaver.com.sg/credit-card/products/uob-visa-signature-card": {
+  "content_type": "text/html",
+  "final_url": "https://www.singsaver.com.sg/credit-card/products/uob-visa-signature-card",
+  "path": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-uob-visa-signature-card-19a37079.html",
+  "retrieved_at": "2026-09-27T05:27:09+00:00",
+  "sha256": "eea43cb0180c1e6dc36abf89df4a58e9e17e4e52e7f6093a692fbf91820590a2",
+  "source": "singsaver",
+  "status": 200,
+  "url": "https://www.singsaver.com.sg/credit-card/products/uob-visa-signature-card"
+ },
+ "https://www.singsaver.com.sg/credit-card/rewards": {
+  "content_type": "text/html",
+  "final_url": "https://www.singsaver.com.sg/credit-card/comparison/best-rewards-credit-cards",
+  "path": "data/raw/singsaver/www-singsaver-com-sg-credit-card-comparison-best-rewards-credit-cards-7e1b392b.html",
+  "retrieved_at": "2026-09-27T05:24:38+00:00",
+  "sha256": "6f9af552d7af6af173acc3ca27e43fd90cb41ae30a2ad2a1d3ae3a8359da97b9",
+  "source": "singsaver",
+  "status": 200,
+  "url": "https://www.singsaver.com.sg/credit-card/rewards"
+ },
+ "https://www.singsaver.com.sg/credit-cards": {
+  "content_type": "text/html",
+  "final_url": "https://www.singsaver.com.sg/credit-card/best",
+  "path": "data/raw/singsaver/www-singsaver-com-sg-credit-card-best-6dd56130.html",
+  "retrieved_at": "2026-09-27T05:24:33+00:00",
+  "sha256": "3d8c870b155aff3a002a4f8cbdd3ff14a37c8e1da5836602b5855f7e86058a6b",
+  "source": "singsaver",
+  "status": 200,
+  "url": "https://www.singsaver.com.sg/credit-cards"
+ },
+ "https://www.singsaver.com.sg/sitemap-scms-pages.xml": {
+  "content_type": "application/xml",
+  "final_url": "https://www.singsaver.com.sg/sitemap-scms-pages.xml",
+  "path": "data/raw/singsaver/www-singsaver-com-sg-sitemap-scms-pages-xml-f1a2050a.xml",
+  "retrieved_at": "2026-09-27T05:24:39+00:00",
+  "sha256": "f9e8b57897b105e2f32e16d02aef9f9529aefd675205bc842a771ba50ca52e52",
+  "source": "singsaver",
+  "status": 200,
+  "url": "https://www.singsaver.com.sg/sitemap-scms-pages.xml"
+ }
+}

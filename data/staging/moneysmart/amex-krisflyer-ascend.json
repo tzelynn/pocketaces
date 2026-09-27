@@ -1,0 +1,77 @@
+{
+ "source": "moneysmart",
+ "source_id": "american-express-singapore-airlines-krisflyer-ascend-credit-card",
+ "source_url": "https://www.moneysmart.sg/credit-cards/american-express-singapore-airlines-krisflyer-ascend-credit-card",
+ "name": "American Express Singapore Airlines KrisFlyer Ascend Credit Card",
+ "bank": "American Express",
+ "card_id": "amex-krisflyer-ascend",
+ "image_url": "https://photos.cdn-moneysmart.com/credit_cards/uploads/products/images/image_2026-08-04_image_url_2025-11-13_KrisFlyer Ascend Card Face.jpeg",
+ "earn_rates": {},
+ "caps": {},
+ "highlights": [
+  "S$1 = 2 KrisFlyer miles on eligible Singapore Airlines, Scoot flight bookings, KrisShop & Pelago purchases, with no cap",
+  "S$1 = 1.2 KrisFlyer miles on all other eligible purchases",
+  "KrisFlyer miles directly credited into your KrisFlyer account",
+  "Spend S$15,000 or more on eligible Singapore Airlines and Scoot flight bookings within the first 12 months upon Card approval to be automatically upgraded to the KrisFlyer Elite Gold membership tier",
+  "Get a complimentary night stay at participating Hilton properties each year",
+  "Receive a Foreign Spend Miles Redemption Voucher for 18,000 KrisFlyer miles when you spend the equivalent of S$10,000 or more in foreign currency within the qualifying period",
+  "Receive a Renewal Miles Redemption Voucher for 10,000 KrisFlyer miles after American Express receives payment of the renewal annual membership fee each year",
+  "At MoneySmart, we strive to keep our information accurate and up to date. This information may be different from what you see when you visit a financial institution, service provider, or specific product site. MoneySmart shall not be liable to compensate the Customer should the information is not as updated as our Partner",
+  "Please refer to the American Express website (go.amex/moneysmart) for the most up to date information on card benefits and its terms & conditions"
+ ],
+ "sign_up_offers": [],
+ "links": {
+  "product": "https://www.moneysmart.sg/credit-cards/american-express-singapore-airlines-krisflyer-ascend-credit-card"
+ },
+ "citation": {
+  "id": "moneysmart:42909b088c22",
+  "url": "https://www.moneysmart.sg/credit-cards?page=2",
+  "title": "American Express Singapore Airlines KrisFlyer Ascend Credit Card",
+  "source_type": "aggregator",
+  "retrieved_at": "2026-09-27T05:27:14+00:00",
+  "sha256": "42909b088c22cb063c120b532d19af920cb3535c52f6bfc313193c6c6ea14746",
+  "snapshot": "data/raw/moneysmart/credit-cards-p2-5f055203.html"
+ },
+ "extra": {
+  "summary": "The American Express Singapore Airlines KrisFlyer Ascend Credit Card accelerates your KrisFlyer miles earning, especially on Singapore Airlines and Scoot bookings with 2 miles per S$1 spent. It suits frequent flyers seeking status upgrades through its Elite Gold accelerator. The complimentary Hilton night stay adds value for travellers. ",
+  "badges": [
+   "Accelerated Upgrade to KrisFlyer Elite Gold Member"
+  ],
+  "network": [
+   "American Express"
+  ],
+  "mobile_wallets": [
+   "Google Pay",
+   "Apple Pay",
+   "Samsung Pay"
+  ],
+  "groups": {
+   "annual-interest-rate-and-fees": {
+    "Annual Interest Rate": "27.80% p.a. compounded if payment of the closing balance in your statements is not made in full; or 3% p.a. on top of prevailing interest rate in the event that your account has three or more defaults in the last 12 months",
+    "Annual Principal Fee": "S$397.85 (incl. of 9% GST)",
+    "Supplementary Annual Fee": "S$81.75 (incl. of 9% GST) waived for the first year for the first 2 Supplementary Cards.",
+    "Fee Waiver": "Discretionary",
+    "Minimum Monthly Repayment": "3% or S$50, whichever is higher",
+    "Interest Free Period": "22 days"
+   },
+   "minimum-income-requirements": {
+    "Singaporean/PR Minimum Annual Income": "Card application is subjected to customers meeting the regulatory minimum income requirement and internal assessment.",
+    "Non-Singaporean Minimum Annual Income": "Card application is subjected to customers meeting the regulatory minimum income requirement and internal assessment."
+   },
+   "card-association": {
+    "American Express": "true"
+   },
+   "wireless-payment": {
+    "Google Pay": "true",
+    "Apple Pay": "true",
+    "Samsung Pay": "true"
+   }
+  },
+  "our_takes": {
+   "our-take": "The American Express Singapore Airlines KrisFlyer Ascend Credit Card accelerates your KrisFlyer miles earning, especially on Singapore Airlines and Scoot bookings with 2 miles per S$1 spent. It suits frequent flyers seeking status upgrades through its Elite Gold accelerator. The complimentary Hilton night stay adds value for travellers. Consider this if you prefer direct miles accrual over points conversions. However, the S$397.85 annual fee and 3.25% foreign transaction fee mean it's best for loyalists who maximize SIA benefits and minimize overseas spending.",
+   "good-for": "Frequent flyers wanting accelerated KrisFlyer Elite Gold status and rewards on Singapore Airlines and Scoot bookings.\nCardholders who enjoy travel perks like complimentary Hilton stays.\nIndividuals who spend significantly in foreign currencies and seek KrisFlyer miles redemption vouchers for their travels.",
+   "things-to-note": "Annual fee of S$397.85 can negate rewards; ensure benefits outweigh the cost each year.\n27.80% interest compounds if you don't fully pay; high balances can lead to debt.\n3.25% foreign transaction fee applies; use other cards for overseas spending."
+  },
+  "updated_at": "2026-09-14T11:53:10+08:00"
+ }
+}

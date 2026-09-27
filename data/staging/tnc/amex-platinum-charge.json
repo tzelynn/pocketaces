@@ -1,0 +1,154 @@
+{
+ "card_id": "amex-platinum-charge",
+ "product_pages": [
+  {
+   "id": "bank:b5db03e6d810",
+   "url": "https://www.americanexpress.com/sg/charge-cards/platinum-card/",
+   "source_type": "official",
+   "retrieved_at": "2026-09-27T05:30:10+00:00",
+   "sha256": "b5db03e6d810d2311493005f6c9b75eac996f1a25e991c3acac167c36443cd54",
+   "snapshot": "data/raw/bank/www-americanexpress-com-sg-charge-cards-platinum-card-966688ce.html"
+  }
+ ],
+ "documents": [
+  {
+   "url": "https://www.americanexpress.com/content/dam/amex/sg/campaigns/pdfs/the-platinum-card.pdf",
+   "citation": {
+    "id": "bank:458a33eecbc6",
+    "url": "https://www.americanexpress.com/content/dam/amex/sg/campaigns/pdfs/the-platinum-card.pdf",
+    "source_type": "official",
+    "retrieved_at": "2026-09-27T05:30:12+00:00",
+    "sha256": "458a33eecbc6fb0479105149b0405543b09821444bd0b7495ba693a088449087",
+    "snapshot": "data/raw/bank/www-americanexpress-com-content-dam-amex-sg-campaigns-pdfs-the-platinum-card-pdf-19daf834.pdf"
+   },
+   "text_path": "data/raw/bank/www-americanexpress-com-content-dam-amex-sg-campaigns-pdfs-the-platinum-card-pdf-19daf834.txt",
+   "sha256": "458a33eecbc6fb0479105149b0405543b09821444bd0b7495ba693a088449087",
+   "changed": false,
+   "new": false,
+   "no_text_layer": false,
+   "effective_dates": [
+    "1 November 2017",
+    "15 October 2026"
+   ],
+   "mcc": {
+    "include": [],
+    "exclude": [],
+    "unknown": [],
+    "conflicting": [],
+    "unrecognised": [],
+    "hits": []
+   },
+   "transaction_modes": {
+    "online": [
+     "(c) way of the internet or using other electronic means.",
+     "19.7 Electronic or Telephone Communication If you contact us by any electronic means, we may record the telephone number or internet protocol address, associated with that means of contacting us at the time."
+    ],
+    "foreign_currency": [
+     "Fees for foreign currency",
+     "where third parties convert charges in foreign currency, those third parties may treat refunds differently to the original foreign currency charge.",
+     "When making a transaction in foreign currency, you may be given the option to allow a third party (for example, the retailer) to convert the transaction into Singapore Dollars before submitting it to us."
+    ],
+    "local_currency": [
+     "All Charges are due for payment in full in Singapore Dollars immediately on receipt of our monthly statement.",
+     "If we receive a transaction or refund for processing in a currency other than Singapore Dollars (\u201cForeign Charge\u201d), our currency conversion affiliate, AE Exposure Management Limited (\"AEEML\") will convert it into US Dollars first (unless it was submitted to us in US Dollars) and convert it from US Dollars into Singapore Dollars.",
+     "When making a transaction in foreign currency, you may be given the option to allow a third party (for example, the retailer) to convert the transaction into Singapore Dollars before submitting it to us.",
+     "If you decide to do this, then that third party will determine the exchange rate and any commission or fees payable for the currency conversion and submit that transaction to us in Singapore Dollars, meaning we will not convert the transaction or apply a currency conversion fee."
+    ]
+   },
+   "non_mcc_exclusions": [
+    "annual fee",
+    "balance transfer",
+    "cash advance",
+    "government",
+    "interest",
+    "late payment charge",
+    "tax"
+   ]
+  },
+  {
+   "url": "https://www.americanexpress.com/content/dam/amex/sg/benefits/amex-sg-exclusions.pdf",
+   "citation": {
+    "id": "bank:c228cd1bc86a",
+    "url": "https://www.americanexpress.com/content/dam/amex/sg/benefits/amex-sg-exclusions.pdf",
+    "source_type": "official",
+    "retrieved_at": "2026-09-27T05:30:14+00:00",
+    "sha256": "c228cd1bc86a7cef6ff37d92bd1a91bc42d2446a7c0f7dae38349c35d69e42f1",
+    "snapshot": "data/raw/bank/www-americanexpress-com-content-dam-amex-sg-benefits-amex-sg-exclusions-pdf-a83329a0.pdf"
+   },
+   "text_path": "data/raw/bank/www-americanexpress-com-content-dam-amex-sg-benefits-amex-sg-exclusions-pdf-a83329a0.txt",
+   "sha256": "c228cd1bc86a7cef6ff37d92bd1a91bc42d2446a7c0f7dae38349c35d69e42f1",
+   "changed": false,
+   "new": false,
+   "no_text_layer": false,
+   "effective_dates": [
+    "30 September 2025"
+   ],
+   "mcc": {
+    "include": [],
+    "exclude": [],
+    "unknown": [],
+    "conflicting": [],
+    "unrecognised": [],
+    "hits": []
+   },
+   "transaction_modes": {
+    "online": [
+     "SAM kiosks, mobile app, online portal);",
+     "SAM kiosks, mobile app, online portal);",
+     "SAM kiosks, mobile app, online portal);"
+    ],
+    "foreign_currency": [
+     "h) Tax refunds from overseas purchases;",
+     "h) Tax refunds from overseas purchases;",
+     "h) Tax refunds from overseas purchases;",
+     "e) Tax refunds from overseas purchases."
+    ]
+   },
+   "non_mcc_exclusions": [
+    "balance transfer",
+    "bill payment",
+    "cash advance",
+    "charit",
+    "education",
+    "grabpay",
+    "hospital",
+    "instalment",
+    "interest",
+    "sam kiosk",
+    "tax",
+    "top-up",
+    "top-ups",
+    "utilit"
+   ]
+  },
+  {
+   "url": "https://www.americanexpress.com/content/dam/amex/sg/campaigns/pdfs/the-platinum-card-welcomeoffer.pdf",
+   "citation": {
+    "id": "bank:ca1de18a9b1e",
+    "url": "https://www.americanexpress.com/content/dam/amex/sg/campaigns/pdfs/the-platinum-card-welcomeoffer.pdf",
+    "source_type": "official",
+    "retrieved_at": "2026-09-27T05:30:16+00:00",
+    "sha256": "ca1de18a9b1ecc6a31ebc84d3d129f86d0f4f58ba2370a862736734941bcf2ba",
+    "snapshot": "data/raw/bank/www-americanexpress-com-content-dam-amex-sg-campaigns-pdfs-the-platinum-card-welcomeoffer-pdf-8856350b.pdf"
+   },
+   "text_path": "data/raw/bank/www-americanexpress-com-content-dam-amex-sg-campaigns-pdfs-the-platinum-card-welcomeoffer-pdf-8856350b.txt",
+   "sha256": "ca1de18a9b1ecc6a31ebc84d3d129f86d0f4f58ba2370a862736734941bcf2ba",
+   "changed": false,
+   "new": false,
+   "no_text_layer": false,
+   "effective_dates": [],
+   "mcc": {
+    "include": [],
+    "exclude": [],
+    "unknown": [],
+    "conflicting": [],
+    "unrecognised": [],
+    "hits": []
+   },
+   "transaction_modes": {},
+   "non_mcc_exclusions": []
+  }
+ ],
+ "changed": false,
+ "removed_documents": []
+}

@@ -1,0 +1,86 @@
+{
+ "source": "moneysmart",
+ "source_id": "dcs-ultimate-platinum-mastercard",
+ "source_url": "https://www.moneysmart.sg/credit-cards/dcs-ultimate-platinum-mastercard",
+ "name": "DCS Ultimate Platinum MasterCard",
+ "bank": "DCS",
+ "card_id": "dcs-ultimate-platinum-mastercard",
+ "image_url": "https://photos.cdn-moneysmart.com/credit_cards/uploads/products/images/image_url_2025-07-18_image Small.jpeg",
+ "min_annual_income": 15000.0,
+ "earn_rates": {},
+ "caps": {},
+ "highlights": [
+  "Earn 2% Cashback on the first S$10,000 spent",
+  "0 Min. Spend",
+  "200 Cash Back Cap per month",
+  "Earn up to 2% cashback for the first S$10,000 spent on all purchases, capped at S$200 cashback per calendar month",
+  "Enjoy offers and discounts from travel, dining, shopping and everyday spend with Mastercard Priceless Specials",
+  "Enjoy complimentary insurance coverage of up to S$1 Million"
+ ],
+ "sign_up_offers": [
+  {
+   "kind": "special_promotion",
+   "title": "S$50 Gojek Voucher",
+   "subtitle": null,
+   "is_cash": null,
+   "terms": "Valid for New-To-DCS Credit Card customers\nSpend a min. of S$1,000 in Eligible Transactions within 30 days",
+   "campaign": null
+  }
+ ],
+ "links": {
+  "product": "https://www.moneysmart.sg/credit-cards/dcs-ultimate-platinum-mastercard"
+ },
+ "citation": {
+  "id": "moneysmart:eeee24fb93a9",
+  "url": "https://www.moneysmart.sg/credit-cards",
+  "title": "DCS Ultimate Platinum MasterCard",
+  "source_type": "aggregator",
+  "retrieved_at": "2026-09-27T05:27:12+00:00",
+  "sha256": "eeee24fb93a9d85ef8b9194c11bda960b5b99ee30b3689cdc59fb650badebce7",
+  "snapshot": "data/raw/moneysmart/credit-cards-p1-b55034ef.html"
+ },
+ "extra": {
+  "summary": "",
+  "badges": [],
+  "network": [
+   "Mastercard"
+  ],
+  "mobile_wallets": [
+   "Google Pay",
+   "Apple Pay"
+  ],
+  "groups": {
+   "annual-interest-rate-and-fees": {
+    "Annual Interest Rate": "26.90%",
+    "Annual Principal Fee": "S$196.20 inclusive of GST (first year FREE)",
+    "Supplementary Annual Fee": "S$98.10 inclusive of GST (first year FREE)",
+    "Minimum Monthly Repayment": "5% of outstanding balance or S$50 (whichever is greater), or the full amount if below S$50; plus all past due amount and any amount exceeding Credit Limit"
+   },
+   "minimum-income-requirements": {
+    "Singaporean/PR Minimum Annual Income": "Minimum income of S$30,000p.a. OR S$15,000p.a. (for age 55 & above)",
+    "Non-Singaporean Minimum Annual Income": "Minimum income of S$60,000p.a."
+   },
+   "card-association": {
+    "Mastercard": "true"
+   },
+   "wireless-payment": {
+    "Google Pay": "true",
+    "Apple Pay": "true"
+   },
+   "documents-required": {
+    "SG Citizens or PRs": "Apply via MyInfo",
+    "Passport Validity (Foreigners)": "6 months",
+    "Work Permit Validity (Foreigners)": "6 months",
+    "Utility or Telephone Bill": "Full Name & Address",
+    "Income Tax Notice of Assessment": "Yes",
+    "Latest Original Computerised Payslip": "Yes"
+   }
+  },
+  "our_takes": {
+   "our-take": "The DCS Ultimate Platinum Card offers a flat 2% cashback on the first S$10,000 monthly spend – a decent option if you want simplicity without juggling bonus categories. The S$200 monthly cap is key; high spenders might find it limiting. The numberless card design boosts security, a plus in today's environment. While the first-year fee is waived, the subsequent S$196.20 annual fee makes it worthwhile only if you consistently max out the cashback. Consider alternatives if your spending is heavily concentrated in specific categories like dining or groceries, as other cards may offer higher targeted rewards.",
+   "good-for": "Salaried professionals seeking cashback on daily expenses such as transportation, groceries, and dining out.\nIndividuals who value security features such as numberless cards to protect against personal data theft.\nSingaporeans or PRs above 55, with income above S$15,000, seeking a card with complimentary insurance coverage.",
+   "things-to-note": "A S$196.20 annual fee applies after the first year; consider if the card's benefits justify this cost.\nLate payment fees of S$100 apply if minimum repayment isn't met, so pay promptly to avoid this charge.\nA high 26.90% interest rate accrues on unpaid balances, so aim to pay in full monthly."
+  },
+  "updated_at": "2025-07-18T15:25:17+08:00"
+ }
+}

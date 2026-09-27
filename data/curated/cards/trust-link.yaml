@@ -1,0 +1,90 @@
+# Curated card record. Auto-drafted from staged sources; verify every value against the
+# official T&Cs (citations below), then set review.status: reviewed.
+id: trust-link
+bank: Trust Bank
+name: Trust Link / NTUC Link Credit Card
+network: visa
+image_url: https://mhgprod.blob.core.windows.net/singsaver/strapi-uploads/s_blt798d17d45714aab0_fe61b08fd0.png
+official_url: https://trustbank.sg/link-credit-card/
+annual_fee:
+  amount:
+    amount: 0.0
+    currency: SGD
+  sources: ['moneysmart:42909b088c22']
+min_annual_income:
+  amount: 30000.0
+  currency: SGD
+reward_currency:
+  kind: points
+  name: Points
+earn_rules:
+- id: local-spending
+  label: local spending, overseas spending, grocery (SingSaver — verify)
+  rate: 21.0
+  unit: points_per_dollar
+  tier: bonus
+  eligibility:
+    include_mcc: ['4829', '4900', '5960', '6010', '6011', '6012', '6051', '6211', '6300', '6513', '6540',
+      '7349', '7399', '7995', '8211', '8220', '8241', '8244', '8249', '8299', '8398', '8651', '8661',
+      '9211', '9222', '9223', '9311', '9399', '9402', '9405']
+    description: Up to  | Up to 21 Linkpoints / dollar when you meet the minimum spend requirement anywhere
+      outside FairPrice Group. Base rate 0.22 Linkpoints / dollar. [include_mcc auto-extracted from official
+      T&C — check it belongs to this rule]
+    sources: ['singsaver:4493e1800a14', 'bank:f7be83d6cefe', 'bank:fdf0a4026f11']
+  conditions: ['aggregator categories: groceries']
+  sources: ['singsaver:4493e1800a14']
+- id: base
+  label: baseline (SingSaver — verify)
+  rate: 0.22
+  unit: points_per_dollar
+  tier: base
+  eligibility:
+    all_spend: true
+    description: ''
+    sources: ['singsaver:4493e1800a14']
+  sources: ['singsaver:4493e1800a14']
+general_exclusions:
+  exclude_mcc: ['7399']
+  description: Auto-extracted from official T&Cs — confirm each code applies to this card
+  sources: ['bank:f7be83d6cefe', 'bank:fdf0a4026f11']
+sign_up_bonuses:
+- offered_by: moneysmart
+  description: 'Choice of: Sure-win stock gift of up to S$8K cashback. Terms: Apply for a Trust Credit
+    Card
+
+    Only valid for New-To-Trust Customers'
+  url: https://www.moneysmart.sg/credit-cards/ntuc-link-trust-card
+  sources: ['moneysmart:42909b088c22']
+notes:
+- 'T&C mentions (check whether excluded): annual fee, axs, balance transfer, cash advance, charit, education,
+  government, instalment, insurance premium, interest, late payment charge, tax, top-up, top-ups, utilit'
+citations:
+- id: singsaver:4493e1800a14
+  url: https://www.singsaver.com.sg/credit-card/products/trust-bank-link-credit-card
+  title: Trust Link / NTUC Link Credit Card
+  source_type: aggregator
+  retrieved_at: '2026-09-27T05:26:44+00:00'
+  sha256: 4493e1800a141f4aac2d0f3c82c16f3c7f6e8c7d01d648f0eba38ccddea7f57d
+  snapshot: data/raw/singsaver/www-singsaver-com-sg-credit-card-products-trust-bank-link-credit-card-9917af02.html
+- id: moneysmart:42909b088c22
+  url: https://www.moneysmart.sg/credit-cards?page=2
+  title: NTUC Link Credit Card by Trust
+  source_type: aggregator
+  retrieved_at: '2026-09-27T05:27:14+00:00'
+  sha256: 42909b088c22cb063c120b532d19af920cb3535c52f6bfc313193c6c6ea14746
+  snapshot: data/raw/moneysmart/credit-cards-p2-5f055203.html
+- id: bank:f7be83d6cefe
+  url: https://trustbank.sg/legal/trust-link-credit-card-and-ntuc-link-credit-card-product-terms/
+  source_type: official
+  retrieved_at: '2026-09-27T08:42:50+00:00'
+  sha256: f7be83d6cefe731a83f23eb3456225c087e4457843f5e7a56a41b34f6d8a885a
+  snapshot: data/raw/bank/trustbank-sg-legal-trust-link-credit-card-and-ntuc-link-credit-card-product-terms-62c194d6.html
+- id: bank:fdf0a4026f11
+  url: https://trustbank.sg/legal/key-facts-sheet-credit-card/
+  source_type: official
+  retrieved_at: '2026-09-27T08:42:52+00:00'
+  sha256: fdf0a4026f1128a99e3644488ef9ede114f111bd7316f4266e2f7b8fb09e7d7c
+  snapshot: data/raw/bank/trustbank-sg-legal-key-facts-sheet-credit-card-d36eadb6.html
+review:
+  status: draft
+updated_at: '2026-09-27'

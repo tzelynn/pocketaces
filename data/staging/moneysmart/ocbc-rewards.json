@@ -1,0 +1,121 @@
+{
+ "source": "moneysmart",
+ "source_id": "ocbc-rewards-credit-card",
+ "source_url": "https://www.moneysmart.sg/credit-cards/ocbc-rewards-credit-card",
+ "name": "OCBC Rewards Credit Card",
+ "bank": "OCBC",
+ "card_id": "ocbc-rewards",
+ "image_url": "https://photos.cdn-moneysmart.com/credit_cards/uploads/products/images/image_url_2024-01-12_Rewards Cardface 15Jan (2).png",
+ "annual_fee": 196.2,
+ "min_annual_income": 15000.0,
+ "earn_rates": {},
+ "caps": {},
+ "highlights": [
+  "Earn 15 OCBC$ (equivalent to 6 air miles) for every S$1 spent at Watsons and certain online shopping platforms",
+  "S$1 = 1 OCBC$ on All Other Spend",
+  "10 OCBC$ = 4 Miles Rewards to Miles Conversion",
+  "Earn 15 OCBC$ for every S$1 spent at selected popular retailers (new ones every three months!)",
+  "Earn 15 OCBC$ (equivalent to 6 air miles) for every S$1 spent at Watsons and certain online shopping platforms - Lazada, Shopee, Taobao and TikTok Shop.",
+  "Earn 10x OCBC$ (equivalent to 4 air miles) per S$1 spent on eligible online and retail purchases",
+  "1x OCBC$ on all other eligible purchases",
+  "E-Commerce Protection",
+  "First 2 years fee waiver for principal card (S$196.20 per year) and supplementary card (S$98.10 per year)",
+  "At MoneySmart, we strive to keep our information accurate and up to date. This information may be different from what you see when you visit a financial institution, service provider, or specific product site. MoneySmart shall not be liable to compensate the Customer should the information is not as updated as our Partner."
+ ],
+ "sign_up_offers": [
+  {
+   "kind": "MANUAL_GIFT",
+   "title": "S$200 Cash via PayNow",
+   "subtitle": null,
+   "is_cash": true,
+   "terms": "• Apply for an eligible OCBC Credit Card by 30th Sept 2026\n• Spend a min. of S$400 in eligible transactions within 30 days from card approval\n• Submit the Claim Form upon receiving the Unique Redemption Code from OCBC",
+   "campaign": "Credit Card | OCBC | 140926"
+  },
+  {
+   "kind": "STORE_PRODUCT",
+   "title": "Sennheiser Momentum True Wireless 4 Earbuds (Black Graphite)",
+   "subtitle": "worth S$449",
+   "is_cash": false,
+   "terms": "• Apply for an eligible OCBC Credit Card by 30th Sept 2026\n• Spend a min. of S$400 in eligible transactions within 30 days from card approval\n• Submit the Claim Form upon receiving the Unique Redemption Code from OCBC",
+   "campaign": "Credit Card | OCBC | 140926"
+  },
+  {
+   "kind": "STORE_PRODUCT",
+   "title": "Omnidesk Essential Electric Height-Adjustable Desk (Black)",
+   "subtitle": "worth S$369",
+   "is_cash": false,
+   "terms": "• Apply for an eligible OCBC Credit Card by 30th Sept 2026\n• Spend a min. of S$400 in eligible transactions within 30 days from card approval\n• Submit the Claim Form upon receiving the Unique Redemption Code from OCBC",
+   "campaign": "Credit Card | OCBC | 140926"
+  },
+  {
+   "kind": "STORE_PRODUCT",
+   "title": "TTRacing Swift X Pro Gaming Chair (Black)",
+   "subtitle": "worth S$429",
+   "is_cash": false,
+   "terms": "• Apply for an eligible OCBC Credit Card by 30th Sept 2026\n• Spend a min. of S$400 in eligible transactions within 30 days from card approval\n• Submit the Claim Form upon receiving the Unique Redemption Code from OCBC",
+   "campaign": "Credit Card | OCBC | 140926"
+  },
+  {
+   "kind": "STORE_PRODUCT",
+   "title": "LEVEL8 Luminous Textured Collection 28-inch Luggage (Black)",
+   "subtitle": "worth S$469",
+   "is_cash": false,
+   "terms": "• Apply for an eligible OCBC Credit Card by 30th Sept 2026\n• Spend a min. of S$400 in eligible transactions within 30 days from card approval\n• Submit the Claim Form upon receiving the Unique Redemption Code from OCBC",
+   "campaign": "Credit Card | OCBC | 140926"
+  }
+ ],
+ "links": {
+  "product": "https://www.moneysmart.sg/credit-cards/ocbc-rewards-credit-card"
+ },
+ "citation": {
+  "id": "moneysmart:42909b088c22",
+  "url": "https://www.moneysmart.sg/credit-cards?page=2",
+  "title": "OCBC Rewards Credit Card",
+  "source_type": "aggregator",
+  "retrieved_at": "2026-09-27T05:27:14+00:00",
+  "sha256": "42909b088c22cb063c120b532d19af920cb3535c52f6bfc313193c6c6ea14746",
+  "snapshot": "data/raw/moneysmart/credit-cards-p2-5f055203.html"
+ },
+ "extra": {
+  "summary": "The OCBC Rewards Card shines for online and retail shoppers, offering up to 15X OCBC$ (6 miles equivalent) on eligible spends. Ideal for larger, less frequent purchases, especially in categories with rotating quarterly retailer tie-ups!",
+  "badges": [
+   "Earn up to 6 miles per S$1 spent"
+  ],
+  "network": [
+   "Mastercard"
+  ],
+  "mobile_wallets": [
+   "Google Pay",
+   "Apple Pay",
+   "Samsung Pay"
+  ],
+  "groups": {
+   "annual-interest-rate-and-fees": {
+    "Annual Interest Rate": "27.78",
+    "Annual Principal Fee": "196.20",
+    "Supplementary Annual Fee": "98.10",
+    "Fee Waiver": "Available",
+    "Minimum Monthly Repayment": "3% or S$50, whichever is higher",
+    "Interest Free Period": "23 days"
+   },
+   "minimum-income-requirements": {
+    "Singaporean/PR Minimum Annual Income": "•At least S$30,000 for Singaporeans and Singapore PRs aged between 21 and 54\n•At least S$15,000 for Singaporeans and Singapore PRs aged 55 and above",
+    "Non-Singaporean Minimum Annual Income": "•At least S$45,000 for foreigners"
+   },
+   "card-association": {
+    "Mastercard": "true"
+   },
+   "wireless-payment": {
+    "Google Pay": "true",
+    "Apple Pay": "true",
+    "Samsung Pay": "true"
+   }
+  },
+  "our_takes": {
+   "our-take": "The OCBC Rewards Card shines for online and retail shoppers, offering 10X OCBC$ (4 miles equivalent) on eligible spends. Ideal for larger, less frequent purchases, especially in categories with rotating quarterly retailer tie-ups, but bonus rewards are capped at 10,000 OCBC$ per month—factor this in if you’re planning big-ticket shopping sprees. Note exclusions like ShopeePay (MCC 5262) and minimum S$5 spend blocks. A good option for new homeowners or parents setting up, but actively track the changing retailer list to maximize value.",
+   "good-for": "Cardholders seeking accelerated rewards on online shopping, especially at major retailers like Lazada, Shopee, TikTok Shop, Taobao, Watsons.\nShoppers wanting to maximize rewards on electronics, appliances, and furniture purchases for new homes or renovations.\nCouples and families purchasing baby and kids products online and in-store, looking for bonus cashback.",
+   "things-to-note": "Bonus OCBC$ are capped at 10,000 per month; exceeding that limit means earning only base rewards.\nWatch for merchant category exclusions; some shopping-related purchases may not earn bonus rewards.\nInterest is high at 27.78%; carrying balances will incur significant costs despite rewards earned."
+  },
+  "updated_at": "2025-09-23T16:40:53+08:00"
+ }
+}

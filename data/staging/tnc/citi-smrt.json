@@ -1,0 +1,724 @@
+{
+ "card_id": "citi-smrt",
+ "product_pages": [
+  {
+   "id": "bank:6655eb0d35cf",
+   "url": "https://www.citibank.com.sg/credit-cards/cashback/smrt-credit-card",
+   "source_type": "official",
+   "retrieved_at": "2026-09-27T08:36:25+00:00",
+   "sha256": "6655eb0d35cf67aa8bed46ceb474ed5843a624bbc86eb403ff6654be259bbd5d",
+   "snapshot": "data/raw/bank/www-citibank-com-sg-credit-cards-cashback-smrt-credit-card-ac2b14bf.html"
+  }
+ ],
+ "documents": [
+  {
+   "url": "https://www.citibank.com.sg/credit-cards/cashback/smrt-credit-card/pdf/citi-smrt-rewards-program.pdf",
+   "citation": {
+    "id": "bank:c190661d8a48",
+    "url": "https://www.citibank.com.sg/credit-cards/cashback/smrt-credit-card/pdf/citi-smrt-rewards-program.pdf",
+    "source_type": "official",
+    "retrieved_at": "2026-09-27T08:36:27+00:00",
+    "sha256": "c190661d8a48d615baad891dcec18026e490e8428927acd4444979fe7abda828",
+    "snapshot": "data/raw/bank/www-citibank-com-sg-credit-cards-cashback-smrt-credit-card-pdf-citi-smrt-rewards-program-pdf-40f7238a.pdf"
+   },
+   "text_path": "data/raw/bank/www-citibank-com-sg-credit-cards-cashback-smrt-credit-card-pdf-citi-smrt-rewards-program-pdf-40f7238a.txt",
+   "sha256": "c190661d8a48d615baad891dcec18026e490e8428927acd4444979fe7abda828",
+   "changed": false,
+   "new": false,
+   "no_text_layer": false,
+   "effective_dates": [
+    "16 December 2024"
+   ],
+   "mcc": {
+    "include": [
+     "5411"
+    ],
+    "exclude": [
+     "3000-3350",
+     "3351-3500",
+     "3501-3999",
+     "4111",
+     "4112",
+     "4121",
+     "4131",
+     "4411",
+     "4511",
+     "4722",
+     "4789",
+     "5962",
+     "7011",
+     "7512"
+    ],
+    "unknown": [],
+    "conflicting": [],
+    "unrecognised": [],
+    "hits": [
+     {
+      "code": "3000-3350",
+      "polarity": "exclude",
+      "page": 1,
+      "line": "MCC 3000 to 3350 Airlines, Air Carriers",
+      "reason": "Excluded Merchant Description",
+      "in_reference": null
+     },
+     {
+      "code": "3351-3500",
+      "polarity": "exclude",
+      "page": 1,
+      "line": "MCC 3351 to 3500 Car Rental Agencies",
+      "reason": "Excluded Merchant Description",
+      "in_reference": null
+     },
+     {
+      "code": "3501-3999",
+      "polarity": "exclude",
+      "page": 1,
+      "line": "MCC 3501 to 3999 Lodging \u2013 Hotels, Motels, Resorts",
+      "reason": "Excluded Merchant Description",
+      "in_reference": null
+     },
+     {
+      "code": "4112",
+      "polarity": "exclude",
+      "page": 1,
+      "line": "MCC 4112 Passenger Railways",
+      "reason": "Excluded Merchant Description",
+      "in_reference": true
+     },
+     {
+      "code": "4131",
+      "polarity": "exclude",
+      "page": 1,
+      "line": "MCC 4131 Bus Lines",
+      "reason": "Excluded Merchant Description",
+      "in_reference": true
+     },
+     {
+      "code": "4411",
+      "polarity": "exclude",
+      "page": 1,
+      "line": "MCC 4411 Cruise Lines",
+      "reason": "Excluded Merchant Description",
+      "in_reference": true
+     },
+     {
+      "code": "4511",
+      "polarity": "exclude",
+      "page": 1,
+      "line": "MCC 4511 Airlines, Air Carriers (Not Elsewhere Classified)",
+      "reason": "Excluded Merchant Description",
+      "in_reference": true
+     },
+     {
+      "code": "4722",
+      "polarity": "exclude",
+      "page": 1,
+      "line": "MCC 4722 Travel Agencies and Tour Operators",
+      "reason": "Excluded Merchant Description",
+      "in_reference": true
+     },
+     {
+      "code": "4789",
+      "polarity": "exclude",
+      "page": 1,
+      "line": "MCC 4789 Transportation Services Not Elsewhere Classified",
+      "reason": "Excluded Merchant Description",
+      "in_reference": true
+     },
+     {
+      "code": "5962",
+      "polarity": "exclude",
+      "page": 1,
+      "line": "MCC 5962 Direct Marketing \u2013 Travel-Related Arrangement Services",
+      "reason": "Excluded Merchant Description",
+      "in_reference": true
+     },
+     {
+      "code": "7011",
+      "polarity": "exclude",
+      "page": 1,
+      "line": "MCC 7011 Lodging \u2013 Hotels, Motels, Resorts (Not Elsewhere Classified)",
+      "reason": "Excluded Merchant Description",
+      "in_reference": true
+     },
+     {
+      "code": "7512",
+      "polarity": "exclude",
+      "page": 1,
+      "line": "MCC 7512 Car Rental Agencies (Not Elsewhere Classified)",
+      "reason": "Excluded Merchant Description",
+      "in_reference": true
+     },
+     {
+      "code": "5411",
+      "polarity": "include",
+      "page": 3,
+      "line": "Groceries MCC 5411 Not required",
+      "reason": "Bonus rate of 4.7% is awarded based on the following Merchant Category Code (MCC) and",
+      "in_reference": true
+     },
+     {
+      "code": "4111",
+      "polarity": "exclude",
+      "page": 3,
+      "line": "SimplyGo (tap to pay) MCC 4111 BUS/MRT",
+      "reason": "(excludes mobile wallet and Awarded based on online indicator.",
+      "in_reference": true
+     },
+     {
+      "code": "4121",
+      "polarity": "exclude",
+      "page": 3,
+      "line": "Taxis# MCC 4121 Not required",
+      "reason": "(excludes mobile wallet and Awarded based on online indicator.",
+      "in_reference": true
+     },
+     {
+      "code": "3000-3350",
+      "polarity": "exclude",
+      "page": 4,
+      "line": "MCC 3000 to 3350 Airlines, Air Carriers",
+      "reason": "Excluded Merchant Description",
+      "in_reference": null
+     },
+     {
+      "code": "3351-3500",
+      "polarity": "exclude",
+      "page": 4,
+      "line": "MCC 3351 to 3500 Car Rental Agencies",
+      "reason": "Excluded Merchant Description",
+      "in_reference": null
+     },
+     {
+      "code": "3501-3999",
+      "polarity": "exclude",
+      "page": 4,
+      "line": "MCC 3501 to 3999 Lodging \u2013 Hotels, Motels, Resorts",
+      "reason": "Excluded Merchant Description",
+      "in_reference": null
+     },
+     {
+      "code": "4112",
+      "polarity": "exclude",
+      "page": 4,
+      "line": "MCC 4112 Passenger Railways",
+      "reason": "Excluded Merchant Description",
+      "in_reference": true
+     },
+     {
+      "code": "4131",
+      "polarity": "exclude",
+      "page": 4,
+      "line": "MCC 4131 Bus Lines",
+      "reason": "Excluded Merchant Description",
+      "in_reference": true
+     },
+     {
+      "code": "4411",
+      "polarity": "exclude",
+      "page": 4,
+      "line": "MCC 4411 Cruise Lines",
+      "reason": "Excluded Merchant Description",
+      "in_reference": true
+     },
+     {
+      "code": "4511",
+      "polarity": "exclude",
+      "page": 4,
+      "line": "MCC 4511 Airlines, Air Carriers (Not Elsewhere Classified)",
+      "reason": "Excluded Merchant Description",
+      "in_reference": true
+     },
+     {
+      "code": "4722",
+      "polarity": "exclude",
+      "page": 4,
+      "line": "MCC 4722 Travel Agencies and Tour Operators",
+      "reason": "Excluded Merchant Description",
+      "in_reference": true
+     },
+     {
+      "code": "4789",
+      "polarity": "exclude",
+      "page": 4,
+      "line": "MCC 4789 Transportation Services Not Elsewhere Classified",
+      "reason": "Excluded Merchant Description",
+      "in_reference": true
+     },
+     {
+      "code": "5962",
+      "polarity": "exclude",
+      "page": 4,
+      "line": "MCC 5962 Direct Marketing \u2013 Travel-Related Arrangement Services",
+      "reason": "Excluded Merchant Description",
+      "in_reference": true
+     },
+     {
+      "code": "7011",
+      "polarity": "exclude",
+      "page": 4,
+      "line": "MCC 7011 Lodging \u2013 Hotels, Motels, Resorts (Not Elsewhere Classified)",
+      "reason": "Excluded Merchant Description",
+      "in_reference": true
+     },
+     {
+      "code": "7512",
+      "polarity": "exclude",
+      "page": 4,
+      "line": "MCC 7512 Car Rental Agencies (Not Elsewhere Classified)",
+      "reason": "Excluded Merchant Description",
+      "in_reference": true
+     },
+     {
+      "code": "4121",
+      "polarity": "exclude",
+      "page": 4,
+      "line": "#Taxis include private-hire vehicle operators with MCC4121 such as Grab and Gojek. For Grab",
+      "reason": "Excluded Merchant Description",
+      "in_reference": true
+     }
+    ]
+   },
+   "transaction_modes": {
+    "online": [
+     "\u201cQualifying Online Spend\u201d refers to Qualifying Retail Spend, other than mobile wallet and travel- related transactions*, made via the internet or mobile applications of retail merchants, which is determined by system indicators reflecting that it is an online transaction, and which are processed by the respective merchants/acquirers as an online transaction through Visa network.",
+     "any transactions at merchants with the following MCCs will not be awarded the 4.7% Bonus rate): Excluded Merchant Description Category Code (MCC) MCC 3000 to 3350 Airlines, Air Carriers MCC 3351 to 3500 Car Rental Agencies MCC 3501 to 3999 Lodging \u2013 Hotels, Motels, Resorts MCC 4112 Passenger Railways MCC 4131 Bus Lines MCC 4411 Cruise Lines MCC 4511 Airlines, Air Carriers (Not Elsewhere Classified",
+     "bill payments (including via Citibank Online or via any other channel or agent);",
+     "Table A (to be read with Table B) Bonus rate Base rate (monthly Qualifying Categories (no minimum Total earn rate Retail Spend of spend) >S$500) Groceries Qualifying Online Spend* SimplyGo (tap to pay) 4.7% 5% Taxis 0.3% (including private-hire rides)# Other Qualifying Retail NIL 0.3% Spend Bonus rate of 4.7% is awarded based on the following Merchant Category Code (MCC) and transaction descriptio",
+     "(excludes mobile wallet and Awarded based on online indicator.",
+     "SMRT$ may be redeemed for SMRT$ Rewards Vouchers either by Citibank Online or through such other channels notified by us to you.",
+     "The cash rebate redemption is subject to the Basic Cardmember\u2019s internet and/or mobile phone service provider\u2019s ability to support the SMS redemption service, and the relevant terms and charges of such service provider.",
+     "Cash Rebate Online m.",
+     "Cash Rebate Online service allows you to redeem your available SMRT$ via Citi Mobile\u00ae App for statement credits to your Citi SMRT Card.",
+     "To make use of the Cash Rebate Online service, you must be enrolled for Citi Mobile\u00ae App."
+    ],
+    "contactless": [
+     "Table A (to be read with Table B) Bonus rate Base rate (monthly Qualifying Categories (no minimum Total earn rate Retail Spend of spend) >S$500) Groceries Qualifying Online Spend* SimplyGo (tap to pay) 4.7% 5% Taxis 0.3% (including private-hire rides)# Other Qualifying Retail NIL 0.3% Spend Bonus rate of 4.7% is awarded based on the following Merchant Category Code (MCC) and transaction descriptio",
+     "travel-related transactions) SimplyGo (tap to pay) MCC 4111 BUS/MRT Taxis# MCC 4121 Not required SimplyGo (tap to pay) is a mode of electronic payment where you tap your contactless Citi SMRT Card / mobile wallet / wearable device to pay for your public bus/train rides."
+    ],
+    "mobile_wallet": [
+     "\u201cQualifying Online Spend\u201d refers to Qualifying Retail Spend, other than mobile wallet and travel- related transactions*, made via the internet or mobile applications of retail merchants, which is determined by system indicators reflecting that it is an online transaction, and which are processed by the respective merchants/acquirers as an online transaction through Visa network.",
+     "(excludes mobile wallet and Awarded based on online indicator.",
+     "travel-related transactions) SimplyGo (tap to pay) MCC 4111 BUS/MRT Taxis# MCC 4121 Not required SimplyGo (tap to pay) is a mode of electronic payment where you tap your contactless Citi SMRT Card / mobile wallet / wearable device to pay for your public bus/train rides."
+    ],
+    "foreign_currency": [
+     "For SMS redemptions made while overseas, mobile charges from respective local carriers applies."
+    ]
+   },
+   "non_mcc_exclusions": [
+    "annual fee",
+    "balance transfer",
+    "bill payment",
+    "cash advance",
+    "education",
+    "government",
+    "grabpay",
+    "instalment",
+    "interest",
+    "late payment charge",
+    "tax",
+    "top-ups"
+   ]
+  },
+  {
+   "url": "https://www.citibank.com.sg/pdf/credit-cards/cashback/smrt-credit-card/my-ringgit-spend-promo.pdf",
+   "citation": {
+    "id": "bank:b81a08ff9609",
+    "url": "https://www.citibank.com.sg/pdf/credit-cards/cashback/smrt-credit-card/my-ringgit-spend-promo.pdf",
+    "source_type": "official",
+    "retrieved_at": "2026-09-27T08:36:29+00:00",
+    "sha256": "b81a08ff9609b469674a32e75651fbd4a74368588821865a83021f65858a6381",
+    "snapshot": "data/raw/bank/www-citibank-com-sg-pdf-credit-cards-cashback-smrt-credit-card-my-ringgit-spend-promo-pdf-5d7d14a5.pdf"
+   },
+   "text_path": "data/raw/bank/www-citibank-com-sg-pdf-credit-cards-cashback-smrt-credit-card-my-ringgit-spend-promo-pdf-5d7d14a5.txt",
+   "sha256": "b81a08ff9609b469674a32e75651fbd4a74368588821865a83021f65858a6381",
+   "changed": false,
+   "new": false,
+   "no_text_layer": false,
+   "effective_dates": [],
+   "mcc": {
+    "include": [],
+    "exclude": [],
+    "unknown": [],
+    "conflicting": [],
+    "unrecognised": [],
+    "hits": []
+   },
+   "transaction_modes": {
+    "online": [
+     "bill payments (including via Citibank Online or via any other channel or agent);"
+    ],
+    "foreign_currency": [
+     "For the avoidance of doubt, dynamic currency conversion (a service offered at certain ATMs and merchants which allows a cardmember to convert a transaction denominated in a foreign currency to Singapore Dollars at the point of withdrawal/sale) transactions are not considered Qualifying Malaysian Ringgit Spend."
+    ],
+    "local_currency": [
+     "For the avoidance of doubt, dynamic currency conversion (a service offered at certain ATMs and merchants which allows a cardmember to convert a transaction denominated in a foreign currency to Singapore Dollars at the point of withdrawal/sale) transactions are not considered Qualifying Malaysian Ringgit Spend."
+    ]
+   },
+   "non_mcc_exclusions": [
+    "annual fee",
+    "balance transfer",
+    "bill payment",
+    "cash advance",
+    "education",
+    "government",
+    "instalment",
+    "interest",
+    "late payment charge",
+    "tax",
+    "top-ups"
+   ]
+  },
+  {
+   "url": "https://www.citibank.com.sg/global_docs/pdf/citi-smrt-rewards-program-tncs.pdf",
+   "citation": {
+    "id": "bank:c190661d8a48",
+    "url": "https://www.citibank.com.sg/credit-cards/cashback/smrt-credit-card/pdf/citi-smrt-rewards-program.pdf",
+    "source_type": "official",
+    "retrieved_at": "2026-09-27T08:36:31+00:00",
+    "sha256": "c190661d8a48d615baad891dcec18026e490e8428927acd4444979fe7abda828",
+    "snapshot": "data/raw/bank/www-citibank-com-sg-credit-cards-cashback-smrt-credit-card-pdf-citi-smrt-rewards-program-pdf-7690b53e.pdf"
+   },
+   "text_path": "data/raw/bank/www-citibank-com-sg-credit-cards-cashback-smrt-credit-card-pdf-citi-smrt-rewards-program-pdf-7690b53e.txt",
+   "sha256": "c190661d8a48d615baad891dcec18026e490e8428927acd4444979fe7abda828",
+   "changed": false,
+   "new": false,
+   "no_text_layer": false,
+   "effective_dates": [
+    "16 December 2024"
+   ],
+   "mcc": {
+    "include": [
+     "5411"
+    ],
+    "exclude": [
+     "3000-3350",
+     "3351-3500",
+     "3501-3999",
+     "4111",
+     "4112",
+     "4121",
+     "4131",
+     "4411",
+     "4511",
+     "4722",
+     "4789",
+     "5962",
+     "7011",
+     "7512"
+    ],
+    "unknown": [],
+    "conflicting": [],
+    "unrecognised": [],
+    "hits": [
+     {
+      "code": "3000-3350",
+      "polarity": "exclude",
+      "page": 1,
+      "line": "MCC 3000 to 3350 Airlines, Air Carriers",
+      "reason": "Excluded Merchant Description",
+      "in_reference": null
+     },
+     {
+      "code": "3351-3500",
+      "polarity": "exclude",
+      "page": 1,
+      "line": "MCC 3351 to 3500 Car Rental Agencies",
+      "reason": "Excluded Merchant Description",
+      "in_reference": null
+     },
+     {
+      "code": "3501-3999",
+      "polarity": "exclude",
+      "page": 1,
+      "line": "MCC 3501 to 3999 Lodging \u2013 Hotels, Motels, Resorts",
+      "reason": "Excluded Merchant Description",
+      "in_reference": null
+     },
+     {
+      "code": "4112",
+      "polarity": "exclude",
+      "page": 1,
+      "line": "MCC 4112 Passenger Railways",
+      "reason": "Excluded Merchant Description",
+      "in_reference": true
+     },
+     {
+      "code": "4131",
+      "polarity": "exclude",
+      "page": 1,
+      "line": "MCC 4131 Bus Lines",
+      "reason": "Excluded Merchant Description",
+      "in_reference": true
+     },
+     {
+      "code": "4411",
+      "polarity": "exclude",
+      "page": 1,
+      "line": "MCC 4411 Cruise Lines",
+      "reason": "Excluded Merchant Description",
+      "in_reference": true
+     },
+     {
+      "code": "4511",
+      "polarity": "exclude",
+      "page": 1,
+      "line": "MCC 4511 Airlines, Air Carriers (Not Elsewhere Classified)",
+      "reason": "Excluded Merchant Description",
+      "in_reference": true
+     },
+     {
+      "code": "4722",
+      "polarity": "exclude",
+      "page": 1,
+      "line": "MCC 4722 Travel Agencies and Tour Operators",
+      "reason": "Excluded Merchant Description",
+      "in_reference": true
+     },
+     {
+      "code": "4789",
+      "polarity": "exclude",
+      "page": 1,
+      "line": "MCC 4789 Transportation Services Not Elsewhere Classified",
+      "reason": "Excluded Merchant Description",
+      "in_reference": true
+     },
+     {
+      "code": "5962",
+      "polarity": "exclude",
+      "page": 1,
+      "line": "MCC 5962 Direct Marketing \u2013 Travel-Related Arrangement Services",
+      "reason": "Excluded Merchant Description",
+      "in_reference": true
+     },
+     {
+      "code": "7011",
+      "polarity": "exclude",
+      "page": 1,
+      "line": "MCC 7011 Lodging \u2013 Hotels, Motels, Resorts (Not Elsewhere Classified)",
+      "reason": "Excluded Merchant Description",
+      "in_reference": true
+     },
+     {
+      "code": "7512",
+      "polarity": "exclude",
+      "page": 1,
+      "line": "MCC 7512 Car Rental Agencies (Not Elsewhere Classified)",
+      "reason": "Excluded Merchant Description",
+      "in_reference": true
+     },
+     {
+      "code": "5411",
+      "polarity": "include",
+      "page": 3,
+      "line": "Groceries MCC 5411 Not required",
+      "reason": "Bonus rate of 4.7% is awarded based on the following Merchant Category Code (MCC) and",
+      "in_reference": true
+     },
+     {
+      "code": "4111",
+      "polarity": "exclude",
+      "page": 3,
+      "line": "SimplyGo (tap to pay) MCC 4111 BUS/MRT",
+      "reason": "(excludes mobile wallet and Awarded based on online indicator.",
+      "in_reference": true
+     },
+     {
+      "code": "4121",
+      "polarity": "exclude",
+      "page": 3,
+      "line": "Taxis# MCC 4121 Not required",
+      "reason": "(excludes mobile wallet and Awarded based on online indicator.",
+      "in_reference": true
+     },
+     {
+      "code": "3000-3350",
+      "polarity": "exclude",
+      "page": 4,
+      "line": "MCC 3000 to 3350 Airlines, Air Carriers",
+      "reason": "Excluded Merchant Description",
+      "in_reference": null
+     },
+     {
+      "code": "3351-3500",
+      "polarity": "exclude",
+      "page": 4,
+      "line": "MCC 3351 to 3500 Car Rental Agencies",
+      "reason": "Excluded Merchant Description",
+      "in_reference": null
+     },
+     {
+      "code": "3501-3999",
+      "polarity": "exclude",
+      "page": 4,
+      "line": "MCC 3501 to 3999 Lodging \u2013 Hotels, Motels, Resorts",
+      "reason": "Excluded Merchant Description",
+      "in_reference": null
+     },
+     {
+      "code": "4112",
+      "polarity": "exclude",
+      "page": 4,
+      "line": "MCC 4112 Passenger Railways",
+      "reason": "Excluded Merchant Description",
+      "in_reference": true
+     },
+     {
+      "code": "4131",
+      "polarity": "exclude",
+      "page": 4,
+      "line": "MCC 4131 Bus Lines",
+      "reason": "Excluded Merchant Description",
+      "in_reference": true
+     },
+     {
+      "code": "4411",
+      "polarity": "exclude",
+      "page": 4,
+      "line": "MCC 4411 Cruise Lines",
+      "reason": "Excluded Merchant Description",
+      "in_reference": true
+     },
+     {
+      "code": "4511",
+      "polarity": "exclude",
+      "page": 4,
+      "line": "MCC 4511 Airlines, Air Carriers (Not Elsewhere Classified)",
+      "reason": "Excluded Merchant Description",
+      "in_reference": true
+     },
+     {
+      "code": "4722",
+      "polarity": "exclude",
+      "page": 4,
+      "line": "MCC 4722 Travel Agencies and Tour Operators",
+      "reason": "Excluded Merchant Description",
+      "in_reference": true
+     },
+     {
+      "code": "4789",
+      "polarity": "exclude",
+      "page": 4,
+      "line": "MCC 4789 Transportation Services Not Elsewhere Classified",
+      "reason": "Excluded Merchant Description",
+      "in_reference": true
+     },
+     {
+      "code": "5962",
+      "polarity": "exclude",
+      "page": 4,
+      "line": "MCC 5962 Direct Marketing \u2013 Travel-Related Arrangement Services",
+      "reason": "Excluded Merchant Description",
+      "in_reference": true
+     },
+     {
+      "code": "7011",
+      "polarity": "exclude",
+      "page": 4,
+      "line": "MCC 7011 Lodging \u2013 Hotels, Motels, Resorts (Not Elsewhere Classified)",
+      "reason": "Excluded Merchant Description",
+      "in_reference": true
+     },
+     {
+      "code": "7512",
+      "polarity": "exclude",
+      "page": 4,
+      "line": "MCC 7512 Car Rental Agencies (Not Elsewhere Classified)",
+      "reason": "Excluded Merchant Description",
+      "in_reference": true
+     },
+     {
+      "code": "4121",
+      "polarity": "exclude",
+      "page": 4,
+      "line": "#Taxis include private-hire vehicle operators with MCC4121 such as Grab and Gojek. For Grab",
+      "reason": "Excluded Merchant Description",
+      "in_reference": true
+     }
+    ]
+   },
+   "transaction_modes": {
+    "online": [
+     "\u201cQualifying Online Spend\u201d refers to Qualifying Retail Spend, other than mobile wallet and travel- related transactions*, made via the internet or mobile applications of retail merchants, which is determined by system indicators reflecting that it is an online transaction, and which are processed by the respective merchants/acquirers as an online transaction through Visa network.",
+     "any transactions at merchants with the following MCCs will not be awarded the 4.7% Bonus rate): Excluded Merchant Description Category Code (MCC) MCC 3000 to 3350 Airlines, Air Carriers MCC 3351 to 3500 Car Rental Agencies MCC 3501 to 3999 Lodging \u2013 Hotels, Motels, Resorts MCC 4112 Passenger Railways MCC 4131 Bus Lines MCC 4411 Cruise Lines MCC 4511 Airlines, Air Carriers (Not Elsewhere Classified",
+     "bill payments (including via Citibank Online or via any other channel or agent);",
+     "Table A (to be read with Table B) Bonus rate Base rate (monthly Qualifying Categories (no minimum Total earn rate Retail Spend of spend) >S$500) Groceries Qualifying Online Spend* SimplyGo (tap to pay) 4.7% 5% Taxis 0.3% (including private-hire rides)# Other Qualifying Retail NIL 0.3% Spend Bonus rate of 4.7% is awarded based on the following Merchant Category Code (MCC) and transaction descriptio",
+     "(excludes mobile wallet and Awarded based on online indicator.",
+     "SMRT$ may be redeemed for SMRT$ Rewards Vouchers either by Citibank Online or through such other channels notified by us to you.",
+     "The cash rebate redemption is subject to the Basic Cardmember\u2019s internet and/or mobile phone service provider\u2019s ability to support the SMS redemption service, and the relevant terms and charges of such service provider.",
+     "Cash Rebate Online m.",
+     "Cash Rebate Online service allows you to redeem your available SMRT$ via Citi Mobile\u00ae App for statement credits to your Citi SMRT Card.",
+     "To make use of the Cash Rebate Online service, you must be enrolled for Citi Mobile\u00ae App."
+    ],
+    "contactless": [
+     "Table A (to be read with Table B) Bonus rate Base rate (monthly Qualifying Categories (no minimum Total earn rate Retail Spend of spend) >S$500) Groceries Qualifying Online Spend* SimplyGo (tap to pay) 4.7% 5% Taxis 0.3% (including private-hire rides)# Other Qualifying Retail NIL 0.3% Spend Bonus rate of 4.7% is awarded based on the following Merchant Category Code (MCC) and transaction descriptio",
+     "travel-related transactions) SimplyGo (tap to pay) MCC 4111 BUS/MRT Taxis# MCC 4121 Not required SimplyGo (tap to pay) is a mode of electronic payment where you tap your contactless Citi SMRT Card / mobile wallet / wearable device to pay for your public bus/train rides."
+    ],
+    "mobile_wallet": [
+     "\u201cQualifying Online Spend\u201d refers to Qualifying Retail Spend, other than mobile wallet and travel- related transactions*, made via the internet or mobile applications of retail merchants, which is determined by system indicators reflecting that it is an online transaction, and which are processed by the respective merchants/acquirers as an online transaction through Visa network.",
+     "(excludes mobile wallet and Awarded based on online indicator.",
+     "travel-related transactions) SimplyGo (tap to pay) MCC 4111 BUS/MRT Taxis# MCC 4121 Not required SimplyGo (tap to pay) is a mode of electronic payment where you tap your contactless Citi SMRT Card / mobile wallet / wearable device to pay for your public bus/train rides."
+    ],
+    "foreign_currency": [
+     "For SMS redemptions made while overseas, mobile charges from respective local carriers applies."
+    ]
+   },
+   "non_mcc_exclusions": [
+    "annual fee",
+    "balance transfer",
+    "bill payment",
+    "cash advance",
+    "education",
+    "government",
+    "grabpay",
+    "instalment",
+    "interest",
+    "late payment charge",
+    "tax",
+    "top-ups"
+   ]
+  },
+  {
+   "url": "https://www.citibank.com.sg/credit-cards/pdf/chargeback-dispute.pdf",
+   "citation": {
+    "id": "bank:472e40f873ba",
+    "url": "https://www.citibank.com.sg/credit-cards/pdf/chargeback-dispute.pdf",
+    "source_type": "official",
+    "retrieved_at": "2026-09-27T08:36:33+00:00",
+    "sha256": "472e40f873baccd449fa577b73e5fad5cb7d75baccd88b038e0898bfeaf387f2",
+    "snapshot": "data/raw/bank/www-citibank-com-sg-credit-cards-pdf-chargeback-dispute-pdf-092d6126.pdf"
+   },
+   "text_path": "data/raw/bank/www-citibank-com-sg-credit-cards-pdf-chargeback-dispute-pdf-092d6126.txt",
+   "sha256": "472e40f873baccd449fa577b73e5fad5cb7d75baccd88b038e0898bfeaf387f2",
+   "changed": false,
+   "new": false,
+   "no_text_layer": false,
+   "effective_dates": [],
+   "mcc": {
+    "include": [],
+    "exclude": [],
+    "unknown": [],
+    "conflicting": [],
+    "unrecognised": [],
+    "hits": []
+   },
+   "transaction_modes": {
+    "online": [
+     "Unauthorised \u2013 Card-Not-Present (CNP) transactions 1a.",
+     "Without One-Time-Password (OTP) authentication This occurs when someone uses your card to make an unauthorised online, telephone order or mail order purchase.",
+     "With OTP authentication Many online merchants have implemented secure payment technologies such as MasterCard SecureCode and Verified by Visa.",
+     "However, if you made an online purchase and the merchandise you received was not as described or it arrived damaged, you can file a dispute."
+    ],
+    "recurring": [
+     "Can the card-issuing bank help to stop payment and cancel the remaining IPP transactions with the merchant that I have signed up? IPPs offer cardholders the convenience of paying for certain large purchases such as gym memberships, magazine subscriptions or household goods, over an extended period of up to 36 months."
+    ]
+   },
+   "non_mcc_exclusions": [
+    "instalment",
+    "ipp"
+   ]
+  }
+ ],
+ "changed": false,
+ "removed_documents": []
+}

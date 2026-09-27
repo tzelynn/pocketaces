@@ -1,0 +1,15 @@
+# MCCs missing from the community reference list (config/sources.yaml → mcc_reference).
+# Every entry needs an official source. Merged into data/reference/mcc_codes.json on refresh.
+codes:
+  "5262":
+    description: Marketplaces
+    source: https://www.hsbc.com.sg/content/dam/hsbc/sg/documents/credit-cards/revolution/offers/revolution-credit-card-reward-points-terms-and-conditions.pdf
+  "6050":
+    description: Quasi Cash – Customer Financial Institution
+    source: https://www.hsbc.com.sg/content/dam/hsbc/sg/documents/credit-cards/revolution/offers/revolution-credit-card-reward-points-terms-and-conditions.pdf
+  "6540":
+    description: Non-Financial Institutions – Stored Value Card Purchase/Load
+    source: https://www.hsbc.com.sg/content/dam/hsbc/sg/documents/credit-cards/revolution/offers/revolution-credit-card-reward-points-terms-and-conditions.pdf
+  "9754":
+    description: Gambling – Horse Racing, Dog Racing, State Lotteries
+    source: https://www.hsbc.com.sg/content/dam/hsbc/sg/documents/credit-cards/revolution/offers/revolution-credit-card-reward-points-terms-and-conditions.pdf

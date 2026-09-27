@@ -1,0 +1,554 @@
+{
+ "card_id": "standard-chartered-journey-annual-fee-waiver",
+ "product_pages": [
+  {
+   "id": "bank:b93df4a4288e",
+   "url": "https://www.sc.com/sg/credit-cards/journey-credit-card/",
+   "source_type": "official",
+   "retrieved_at": "2026-09-27T08:42:14+00:00",
+   "sha256": "b93df4a4288e9db38ae7d1a14bf5a69889d53d5a5a1ae25bf13d757aeced29e1",
+   "snapshot": "data/raw/bank/www-sc-com-sg-credit-cards-journey-credit-card-323c4658.html"
+  }
+ ],
+ "documents": [
+  {
+   "url": "https://www.sc.com/content/dam/sc/sg/en/documents/sg-journey-credit-card-terms-and-conditions.pdf",
+   "citation": {
+    "id": "bank:f6d46f8480b0",
+    "url": "https://www.sc.com/content/dam/sc/sg/en/documents/sg-journey-credit-card-terms-and-conditions.pdf",
+    "source_type": "official",
+    "retrieved_at": "2026-09-27T08:42:16+00:00",
+    "sha256": "f6d46f8480b07c23a5105cf7af7cef6a38444ec72a5f384d6a850bab45cf807d",
+    "snapshot": "data/raw/bank/www-sc-com-content-dam-sc-sg-en-documents-sg-journey-credit-card-terms-and-conditions-pdf-33b32f0f.pdf"
+   },
+   "text_path": "data/raw/bank/www-sc-com-content-dam-sc-sg-en-documents-sg-journey-credit-card-terms-and-conditions-pdf-33b32f0f.txt",
+   "sha256": "f6d46f8480b07c23a5105cf7af7cef6a38444ec72a5f384d6a850bab45cf807d",
+   "changed": false,
+   "new": true,
+   "no_text_layer": false,
+   "effective_dates": [],
+   "mcc": {
+    "include": [
+     "4111",
+     "4121",
+     "4411",
+     "4789",
+     "5411",
+     "5462",
+     "5499",
+     "5811",
+     "5812",
+     "5814",
+     "5921"
+    ],
+    "exclude": [],
+    "unknown": [],
+    "conflicting": [],
+    "unrecognised": [],
+    "hits": [
+     {
+      "code": "4111",
+      "polarity": "include",
+      "page": 3,
+      "line": "\u2022 4111 Tada, Ryde Technologies, Royal",
+      "reason": "Transportation Any online transaction with the following MCCs: Grab, Grab, Gojek, Cabcharge Asia,",
+      "in_reference": true
+     },
+     {
+      "code": "4121",
+      "polarity": "include",
+      "page": 3,
+      "line": "\u2022 4121 Caribbean Cruises, Easybook.com",
+      "reason": "Transportation Any online transaction with the following MCCs: Grab, Grab, Gojek, Cabcharge Asia,",
+      "in_reference": true
+     },
+     {
+      "code": "4411",
+      "polarity": "include",
+      "page": 3,
+      "line": "\u2022 4411 and others",
+      "reason": "Transportation Any online transaction with the following MCCs: Grab, Grab, Gojek, Cabcharge Asia,",
+      "in_reference": true
+     },
+     {
+      "code": "4789",
+      "polarity": "include",
+      "page": 3,
+      "line": "\u2022 4789",
+      "reason": "Transportation Any online transaction with the following MCCs: Grab, Grab, Gojek, Cabcharge Asia,",
+      "in_reference": true
+     },
+     {
+      "code": "5814",
+      "polarity": "include",
+      "page": 3,
+      "line": "\u2022 5814 McDonald\u2019s, KFC, Pizza Hut,",
+      "reason": "Food Delivery Any online transaction with the following MCCs: GrabFood, Foodpanda, Deliveroo,",
+      "in_reference": true
+     },
+     {
+      "code": "5811",
+      "polarity": "include",
+      "page": 3,
+      "line": "\u2022 5811 Dominos Pizza, Chilli Api Catering,",
+      "reason": "Food Delivery Any online transaction with the following MCCs: GrabFood, Foodpanda, Deliveroo,",
+      "in_reference": true
+     },
+     {
+      "code": "5812",
+      "polarity": "include",
+      "page": 3,
+      "line": "\u2022 5812 Qi Ji Catering and others",
+      "reason": "Food Delivery Any online transaction with the following MCCs: GrabFood, Foodpanda, Deliveroo,",
+      "in_reference": true
+     },
+     {
+      "code": "5411",
+      "polarity": "include",
+      "page": 3,
+      "line": "stores \u2022 5411 FairPrice app, Nespresso",
+      "reason": "Groceries and Food Any online transaction with the following MCCs: NTUC FairPrice Online, NTUC",
+      "in_reference": true
+     },
+     {
+      "code": "5462",
+      "polarity": "include",
+      "page": 3,
+      "line": "\u2022 5462 Singapore and others",
+      "reason": "Groceries and Food Any online transaction with the following MCCs: NTUC FairPrice Online, NTUC",
+      "in_reference": true
+     },
+     {
+      "code": "5499",
+      "polarity": "include",
+      "page": 3,
+      "line": "\u2022 5499",
+      "reason": "Groceries and Food Any online transaction with the following MCCs: NTUC FairPrice Online, NTUC",
+      "in_reference": true
+     },
+     {
+      "code": "5921",
+      "polarity": "include",
+      "page": 3,
+      "line": "\u2022 5921",
+      "reason": "Groceries and Food Any online transaction with the following MCCs: NTUC FairPrice Online, NTUC",
+      "in_reference": true
+     }
+    ]
+   },
+   "transaction_modes": {
+    "online": [
+     "All information in this Part 1 and in Parts 2 and 3 is correct at the time of printing or posting online.",
+     "For the avoidance of doubt, Journey Card Bonus Online Transactions (\u201cOnline Transactions\u201d) are selected Merchant Category Codes (MCCs) defined in table below, charged to the Journey Card in Singapore dollars.",
+     "Bonus Transaction Definition Merchant Examples Categories Transportation Any online transaction with the following MCCs: Grab, Grab, Gojek, Cabcharge Asia, \u2022 4111 Tada, Ryde Technologies, Royal \u2022 4121 Caribbean Cruises, Easybook.com \u2022 4411 and others \u2022 4789 Food Delivery Any online transaction with the following MCCs: GrabFood, Foodpanda, Deliveroo, \u2022 5814 McDonald\u2019s, KFC, Pizza Hut, \u2022 5811 Domino",
+     "Online Transactions are identified via their category codes.",
+     "If the merchants are not classified by Visa under the online category of merchants, transactions made at these MCCs and/or merchants will not be considered a Journey Card Bonus Transaction.",
+     "To illustrate the Journey Cap, please refer to the table below Transaction Base Rewards Additional Total Rewards Equivalent Remarks Description Points awarded Rewards Points Points awarded KrisFlyer Miles^ (no cap) awarded Total of S$1,000 3,000 4,500 7,500 3,000 Additional spent at NTUC Rewards Points FairPrice Online awarded as transaction qualifies as a Journey Card Bonus Transaction Total of S"
+    ],
+    "foreign_currency": [
+     "Every S$1 spent on Journey Card Qualifying Transactions in Singapore Dollars allows you to earn 3 Rewards Points which enables you to redeem for 1.2 KrisFlyer Miles and every S$1 spent on Journey Card Qualifying Transactions in foreign currency allows you to earn 5 Rewards Points which enables you to redeem for 2 KrisFlyer Miles.",
+     "For Journey Card Qualifying Transactions charged in foreign currency to the Journey Card, the transaction amount posted in the Journey Card account (which is inclusive of the exchange rate conversion and commission, if any) will be considered as the amount of the Journey Card Qualifying Transaction for the purpose of calculating the Rewards Points earned for the Journey Card Rewards Promotion."
+    ],
+    "local_currency": [
+     "Every S$1 spent on Journey Card Qualifying Transactions in Singapore Dollars allows you to earn 3 Rewards Points which enables you to redeem for 1.2 KrisFlyer Miles and every S$1 spent on Journey Card Qualifying Transactions in foreign currency allows you to earn 5 Rewards Points which enables you to redeem for 2 KrisFlyer Miles.",
+     "Every S$1 spend on Journey Card eligible Bonus Transactions in Singapore Dollars (\u201cJourney Card Bonus Transactions\u201d) allows you to earn an additional 4.5 Rewards Points.",
+     "For the avoidance of doubt, Journey Card Bonus Online Transactions (\u201cOnline Transactions\u201d) are selected Merchant Category Codes (MCCs) defined in table below, charged to the Journey Card in Singapore dollars.",
+     "For the avoidance of doubt, the Journey Cap does not apply to the 3 Rewards Points which the Journey Cardholder is entitled to for every S$1 spent in Singapore Dollars."
+    ]
+   },
+   "non_mcc_exclusions": [
+    "annual fee"
+   ]
+  },
+  {
+   "url": "https://www.sc.com/sg/terms-and-conditions/cc-retail-transaction-exclusions/",
+   "citation": {
+    "id": "bank:2ea177e821f6",
+    "url": "https://www.sc.com/sg/terms-and-conditions/cc-retail-transaction-exclusions/",
+    "source_type": "official",
+    "retrieved_at": "2026-09-27T08:42:18+00:00",
+    "sha256": "2ea177e821f6cf91e77a609c35dcd6c3ec259871a13f8a26c12b4aed2737a74e",
+    "snapshot": "data/raw/bank/www-sc-com-sg-terms-and-conditions-cc-retail-transaction-exclusions-8f7a8c14.html"
+   },
+   "text_path": "data/raw/bank/www-sc-com-sg-terms-and-conditions-cc-retail-transaction-exclusions-8f7a8c14.txt",
+   "sha256": "2ea177e821f6cf91e77a609c35dcd6c3ec259871a13f8a26c12b4aed2737a74e",
+   "changed": false,
+   "new": true,
+   "no_text_layer": false,
+   "effective_dates": [
+    "3 September 2024"
+   ],
+   "mcc": {
+    "include": [
+     "4829",
+     "4900",
+     "5047",
+     "5199",
+     "6012",
+     "6050",
+     "6051",
+     "6211",
+     "6513",
+     "6529",
+     "6530",
+     "6534",
+     "6540",
+     "7299",
+     "7349",
+     "7511",
+     "7523",
+     "8062",
+     "8211",
+     "8220",
+     "8241",
+     "8244",
+     "8249",
+     "8299",
+     "8398",
+     "8651",
+     "8661",
+     "8999",
+     "9211",
+     "9222",
+     "9223",
+     "9311",
+     "9399",
+     "9402",
+     "9405"
+    ],
+    "exclude": [],
+    "unknown": [],
+    "conflicting": [],
+    "unrecognised": [
+     "6529",
+     "6530",
+     "6534"
+    ],
+    "hits": [
+     {
+      "code": "4829",
+      "polarity": "include",
+      "page": 1,
+      "line": "4829",
+      "reason": "any transaction classified under one or more of the following Merchant Category Codes:",
+      "in_reference": true
+     },
+     {
+      "code": "4900",
+      "polarity": "include",
+      "page": 1,
+      "line": "4900*",
+      "reason": "any transaction classified under one or more of the following Merchant Category Codes:",
+      "in_reference": true
+     },
+     {
+      "code": "5047",
+      "polarity": "include",
+      "page": 1,
+      "line": "5047*",
+      "reason": "any transaction classified under one or more of the following Merchant Category Codes:",
+      "in_reference": true
+     },
+     {
+      "code": "5199",
+      "polarity": "include",
+      "page": 1,
+      "line": "5199*",
+      "reason": "any transaction classified under one or more of the following Merchant Category Codes:",
+      "in_reference": true
+     },
+     {
+      "code": "6012",
+      "polarity": "include",
+      "page": 1,
+      "line": "6012",
+      "reason": "any transaction classified under one or more of the following Merchant Category Codes:",
+      "in_reference": true
+     },
+     {
+      "code": "6050",
+      "polarity": "include",
+      "page": 1,
+      "line": "6050*",
+      "reason": "any transaction classified under one or more of the following Merchant Category Codes:",
+      "in_reference": true
+     },
+     {
+      "code": "6051",
+      "polarity": "include",
+      "page": 1,
+      "line": "6051",
+      "reason": "any transaction classified under one or more of the following Merchant Category Codes:",
+      "in_reference": true
+     },
+     {
+      "code": "6540",
+      "polarity": "include",
+      "page": 1,
+      "line": "6540",
+      "reason": "any transaction classified under one or more of the following Merchant Category Codes:",
+      "in_reference": true
+     },
+     {
+      "code": "6211",
+      "polarity": "include",
+      "page": 1,
+      "line": "6211",
+      "reason": "any transaction classified under one or more of the following Merchant Category Codes:",
+      "in_reference": true
+     },
+     {
+      "code": "6513",
+      "polarity": "include",
+      "page": 1,
+      "line": "6513",
+      "reason": "any transaction classified under one or more of the following Merchant Category Codes:",
+      "in_reference": true
+     },
+     {
+      "code": "6529",
+      "polarity": "include",
+      "page": 1,
+      "line": "6529*",
+      "reason": "any transaction classified under one or more of the following Merchant Category Codes:",
+      "in_reference": false
+     },
+     {
+      "code": "6530",
+      "polarity": "include",
+      "page": 1,
+      "line": "6530*",
+      "reason": "any transaction classified under one or more of the following Merchant Category Codes:",
+      "in_reference": false
+     },
+     {
+      "code": "6534",
+      "polarity": "include",
+      "page": 1,
+      "line": "6534*",
+      "reason": "any transaction classified under one or more of the following Merchant Category Codes:",
+      "in_reference": false
+     },
+     {
+      "code": "7299",
+      "polarity": "include",
+      "page": 1,
+      "line": "7299*",
+      "reason": "any transaction classified under one or more of the following Merchant Category Codes:",
+      "in_reference": true
+     },
+     {
+      "code": "7349",
+      "polarity": "include",
+      "page": 1,
+      "line": "7349",
+      "reason": "any transaction classified under one or more of the following Merchant Category Codes:",
+      "in_reference": true
+     },
+     {
+      "code": "7511",
+      "polarity": "include",
+      "page": 1,
+      "line": "7511*",
+      "reason": "any transaction classified under one or more of the following Merchant Category Codes:",
+      "in_reference": true
+     },
+     {
+      "code": "7523",
+      "polarity": "include",
+      "page": 1,
+      "line": "7523",
+      "reason": "any transaction classified under one or more of the following Merchant Category Codes:",
+      "in_reference": true
+     },
+     {
+      "code": "8062",
+      "polarity": "include",
+      "page": 1,
+      "line": "8062*",
+      "reason": "any transaction classified under one or more of the following Merchant Category Codes:",
+      "in_reference": true
+     },
+     {
+      "code": "8211",
+      "polarity": "include",
+      "page": 1,
+      "line": "8211",
+      "reason": "any transaction classified under one or more of the following Merchant Category Codes:",
+      "in_reference": true
+     },
+     {
+      "code": "8220",
+      "polarity": "include",
+      "page": 1,
+      "line": "8220",
+      "reason": "any transaction classified under one or more of the following Merchant Category Codes:",
+      "in_reference": true
+     },
+     {
+      "code": "8241",
+      "polarity": "include",
+      "page": 1,
+      "line": "8241",
+      "reason": "any transaction classified under one or more of the following Merchant Category Codes:",
+      "in_reference": true
+     },
+     {
+      "code": "8244",
+      "polarity": "include",
+      "page": 1,
+      "line": "8244",
+      "reason": "any transaction classified under one or more of the following Merchant Category Codes:",
+      "in_reference": true
+     },
+     {
+      "code": "8249",
+      "polarity": "include",
+      "page": 1,
+      "line": "8249",
+      "reason": "any transaction classified under one or more of the following Merchant Category Codes:",
+      "in_reference": true
+     },
+     {
+      "code": "8299",
+      "polarity": "include",
+      "page": 1,
+      "line": "8299",
+      "reason": "any transaction classified under one or more of the following Merchant Category Codes:",
+      "in_reference": true
+     },
+     {
+      "code": "8398",
+      "polarity": "include",
+      "page": 1,
+      "line": "8398",
+      "reason": "any transaction classified under one or more of the following Merchant Category Codes:",
+      "in_reference": true
+     },
+     {
+      "code": "8651",
+      "polarity": "include",
+      "page": 1,
+      "line": "8651",
+      "reason": "any transaction classified under one or more of the following Merchant Category Codes:",
+      "in_reference": true
+     },
+     {
+      "code": "8661",
+      "polarity": "include",
+      "page": 1,
+      "line": "8661",
+      "reason": "any transaction classified under one or more of the following Merchant Category Codes:",
+      "in_reference": true
+     },
+     {
+      "code": "8999",
+      "polarity": "include",
+      "page": 1,
+      "line": "8999*",
+      "reason": "any transaction classified under one or more of the following Merchant Category Codes:",
+      "in_reference": true
+     },
+     {
+      "code": "9211",
+      "polarity": "include",
+      "page": 1,
+      "line": "9211",
+      "reason": "any transaction classified under one or more of the following Merchant Category Codes:",
+      "in_reference": true
+     },
+     {
+      "code": "9222",
+      "polarity": "include",
+      "page": 1,
+      "line": "9222",
+      "reason": "any transaction classified under one or more of the following Merchant Category Codes:",
+      "in_reference": true
+     },
+     {
+      "code": "9223",
+      "polarity": "include",
+      "page": 1,
+      "line": "9223",
+      "reason": "any transaction classified under one or more of the following Merchant Category Codes:",
+      "in_reference": true
+     },
+     {
+      "code": "9311",
+      "polarity": "include",
+      "page": 1,
+      "line": "9311",
+      "reason": "any transaction classified under one or more of the following Merchant Category Codes:",
+      "in_reference": true
+     },
+     {
+      "code": "9399",
+      "polarity": "include",
+      "page": 1,
+      "line": "9399",
+      "reason": "any transaction classified under one or more of the following Merchant Category Codes:",
+      "in_reference": true
+     },
+     {
+      "code": "9402",
+      "polarity": "include",
+      "page": 1,
+      "line": "9402",
+      "reason": "any transaction classified under one or more of the following Merchant Category Codes:",
+      "in_reference": true
+     },
+     {
+      "code": "9405",
+      "polarity": "include",
+      "page": 1,
+      "line": "9405",
+      "reason": "any transaction classified under one or more of the following Merchant Category Codes:",
+      "in_reference": true
+     }
+    ]
+   },
+   "transaction_modes": {
+    "online": [
+     "Mortgage Mortgage One Reduce your interest costs Maintain flexibility Pay off your loan faster Loan Repricing Enjoy lower interest rates for your mortgage loan because we value your relationship with us Green Mortgage Make a positive impact on society and the environment Compare and view all loans Investment Unit Trusts, Online Trading, Live FX, Wealth Insights Investment Invest in Equities Online",
+     "0.18% when you trade ETFs, REITs, and shares online Access US equities and 14 global exchanges on the go Invest in Mutual Funds\u200b Unit Trust Account\u200b",
+     "0.61% sales charge when you invest in unit trusts online Diversify your portfolio with over 150 fund offerings Exchange Foreign Currency\u200b LiveFX\u200b Competitive real-time currency rates when you convert your funds Capture market opportunities with countless pairing possibilities Tools and insights to support your financial decisions Wealth Insights Access our curated reads to help you make informed f",
+     "Explore Portfolios Insurance Wealth & Legacy Planning, Travel, Health Insurance Wealth & Legacy Planning Insurance Savings Plan Legacy Retirement Health & Accident Medical & Health Personal Accident Critical Illness Travel, Home & Car Travel Home Car Domestic Helper View all Insurance Solutions Wealth Central Referral Sign Up Digital Banking Search Open an account Bonus$aver Account Bonus$aver Acc",
+     "recurring payments (being automatic payments where the Cardholder or supplementary cardholder has given a one-time authorisation or instruction for the merchant to charge the payment directly to his/her Card at a fixed interval, such as transactions made pursuant to Standard Chartered Bank (Singapore) Limited\u2019s 0% Interest Instalment Plan) or payments made to all billing organisations using Standa"
+    ],
+    "contactless": [
+     "0.61% sales charge when you invest in unit trusts online Diversify your portfolio with over 150 fund offerings Exchange Foreign Currency\u200b LiveFX\u200b Competitive real-time currency rates when you convert your funds Capture market opportunities with countless pairing possibilities Tools and insights to support your financial decisions Wealth Insights Access our curated reads to help you make informed f"
+    ],
+    "recurring": [
+     "recurring payments (being automatic payments where the Cardholder or supplementary cardholder has given a one-time authorisation or instruction for the merchant to charge the payment directly to his/her Card at a fixed interval, such as transactions made pursuant to Standard Chartered Bank (Singapore) Limited\u2019s 0% Interest Instalment Plan) or payments made to all billing organisations using Standa"
+    ],
+    "foreign_currency": [
+     "interest Time Deposits SGD Time Deposits Earn high interest on your Singapore Dollar Time Deposit (Fixed Deposit) FCY Time Deposit Earn high interest for your foreign currency Services and Useful links SC Remit Money Lock Manage Your Payments SC EasyPay Installments eStatement & eAdvices Standard Chartered Mobile Frequently Asked Questions Pricing Guide Get S$228 cashback with Bonus$aver.",
+     "0.61% sales charge when you invest in unit trusts online Diversify your portfolio with over 150 fund offerings Exchange Foreign Currency\u200b LiveFX\u200b Competitive real-time currency rates when you convert your funds Capture market opportunities with countless pairing possibilities Tools and insights to support your financial decisions Wealth Insights Access our curated reads to help you make informed f",
+     "any top-ups or payment of funds to any prepaid cards and any prepaid accounts including without limitation, any top-ups or payment of funds to he following accounts or any other accounts as we may specify from time to time: EZ LINK EZ-LINK PTE LTD SINGAPORE FLASHPAY ATU TRANSIT EZ LINK PTE LTD EZ-LINK TOP-UP KIOSK PAYPAL * BIZCONSULTA TRANSIT LINK PL EZ LINK PTE LTD (FEVO) EZLINK* PAYPAL * CAPITAL"
+    ],
+    "local_currency": [
+     "interest Time Deposits SGD Time Deposits Earn high interest on your Singapore Dollar Time Deposit (Fixed Deposit) FCY Time Deposit Earn high interest for your foreign currency Services and Useful links SC Remit Money Lock Manage Your Payments SC EasyPay Installments eStatement & eAdvices Standard Chartered Mobile Frequently Asked Questions Pricing Guide Get S$228 cashback with Bonus$aver."
+    ]
+   },
+   "non_mcc_exclusions": [
+    "axs",
+    "bill payment",
+    "cash advance",
+    "charit",
+    "education",
+    "government",
+    "hospital",
+    "instalment",
+    "insurance premium",
+    "interest",
+    "late payment charge",
+    "tax",
+    "top-up",
+    "top-ups",
+    "utilit"
+   ]
+  }
+ ],
+ "changed": false,
+ "removed_documents": []
+}

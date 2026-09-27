@@ -1,0 +1,119 @@
+{
+ "source": "moneysmart",
+ "source_id": "standard-chartered-journey-credit-card",
+ "source_url": "https://www.moneysmart.sg/credit-cards/standard-chartered-journey-credit-card",
+ "name": "Standard Chartered Journey Credit Card (No Annual Fee)",
+ "bank": "Standard Chartered",
+ "card_id": "standard-chartered-journey-annual-fee-waiver",
+ "image_url": "https://photos.cdn-moneysmart.com/credit_cards/uploads/products/images/image_url_2023-05-18_SCB Journey.jpeg",
+ "annual_fee": 0.0,
+ "earn_rates": {},
+ "caps": {},
+ "highlights": [
+  "S$1 = 3 Miles on Transportation, Food Delivery & Online Grocery merchants",
+  "S$1 = 2 Miles for all Eligible Foreign Spends",
+  "S$1 = 1.2 Miles for all Eligible Local Spends",
+  "Up to 3 miles for every $1 spent",
+  "2 complimentary visits to Priority Pass lounges around the world each year",
+  "Complimentary travel insurance coverage of up to S$500,000.",
+  "360 Rewards Points do not expire",
+  "At MoneySmart, we strive to keep our information accurate and up to date. This information may be different from what you see when you visit a financial institution, service provider, or specific product site. MoneySmart shall not be liable to compensate the Customer should the information is not as updated as our Partner."
+ ],
+ "sign_up_offers": [
+  {
+   "kind": "MANUAL_GIFT",
+   "title": "S$180 Cash",
+   "subtitle": null,
+   "is_cash": true,
+   "terms": "• A\npply for the card by 30th Sept 2026\n• \nSpend a min. of S$800 in eligible transactions within 60 days from card approval date.\n• Apply and get approval for either: EasyPay, Bonus$aver Account, CashOne Loan, Funds Transfer\n• Submit your Claim Form by 30th Oct 2026",
+   "campaign": "Credit Card | SCB | Journey | Annual Fee Waived | 010926"
+  },
+  {
+   "kind": "STORE_PRODUCT",
+   "title": "LEVEL8 Voyageur 20-inch Luggage (Matcha Green Colour)",
+   "subtitle": "worth S$399",
+   "is_cash": false,
+   "terms": "• A\npply for the card by 30th Sept 2026\n• \nSpend a min. of S$800 in eligible transactions within 60 days from card approval date.\n• Apply and get approval for either: EasyPay, Bonus$aver Account, CashOne Loan, Funds Transfer\n• Submit your Claim Form by 30th Oct 2026",
+   "campaign": "Credit Card | SCB | Journey | Annual Fee Waived | 010926"
+  },
+  {
+   "kind": "STORE_PRODUCT",
+   "title": "Hinomi Q1 Ergonomic Office Chair (Black)",
+   "subtitle": "worth S$499",
+   "is_cash": false,
+   "terms": "• A\npply for the card by 30th Sept 2026\n• \nSpend a min. of S$800 in eligible transactions within 60 days from card approval date.\n• Apply and get approval for either: EasyPay, Bonus$aver Account, CashOne Loan, Funds Transfer\n• Submit your Claim Form by 30th Oct 2026",
+   "campaign": "Credit Card | SCB | Journey | Annual Fee Waived | 010926"
+  },
+  {
+   "kind": "STORE_PRODUCT",
+   "title": "Samsung Galaxy Buds4 Pro (Black)",
+   "subtitle": "worth S$349",
+   "is_cash": false,
+   "terms": "• A\npply for the card by 30th Sept 2026\n• \nSpend a min. of S$800 in eligible transactions within 60 days from card approval date.\n• Apply and get approval for either: EasyPay, Bonus$aver Account, CashOne Loan, Funds Transfer\n• Submit your Claim Form by 30th Oct 2026",
+   "campaign": "Credit Card | SCB | Journey | Annual Fee Waived | 010926"
+  }
+ ],
+ "links": {
+  "product": "https://www.moneysmart.sg/credit-cards/standard-chartered-journey-credit-card",
+  "review": "https://blog.moneysmart.sg/credit-cards/scb-journey-credit-card/"
+ },
+ "citation": {
+  "id": "moneysmart:42909b088c22",
+  "url": "https://www.moneysmart.sg/credit-cards?page=2",
+  "title": "Standard Chartered Journey Credit Card (No Annual Fee)",
+  "source_type": "aggregator",
+  "retrieved_at": "2026-09-27T05:27:14+00:00",
+  "sha256": "42909b088c22cb063c120b532d19af920cb3535c52f6bfc313193c6c6ea14746",
+  "snapshot": "data/raw/moneysmart/credit-cards-p2-5f055203.html"
+ },
+ "extra": {
+  "summary": "Introducing the Standard Chartered Journey Credit Card – your ultimate companion for rewarding journeys and everyday expenses. Earn 3 miles per S$1 spent on transportation, food deliveries, and online groceries, making your daily commute and dining experiences even more rewarding. Earn 2 miles per S$1 for overseas spend, perfect for your international adventures. Plus, earn 1.2 miles per S$1 for local spends, ensuring you accumulate miles no matter where you are",
+  "badges": [
+   "Annual Fee Waived"
+  ],
+  "network": [
+   "Visa"
+  ],
+  "mobile_wallets": [
+   "Visa Contactless",
+   "Google Pay",
+   "Apple Pay",
+   "Samsung Pay"
+  ],
+  "groups": {
+   "annual-interest-rate-and-fees": {
+    "Annual Interest Rate": "27.90",
+    "Annual Principal Fee": "0",
+    "Supplementary Annual Fee": "0",
+    "Minimum Monthly Repayment": "S$50 or 1% of Principal/ Interest, Fees & Charges/ Overlimit amount/ Past Due amount, whichever is higher",
+    "Interest Free Period": "Available"
+   },
+   "minimum-income-requirements": {
+    "Singaporean/PR Minimum Annual Income": "30000",
+    "Non-Singaporean Minimum Annual Income": "90000"
+   },
+   "card-association": {
+    "Visa": "true"
+   },
+   "wireless-payment": {
+    "Visa Contactless": "true",
+    "Google Pay": "true",
+    "Apple Pay": "true",
+    "Samsung Pay": "true"
+   },
+   "documents-required": {
+    "SG Citizens or PRs": "Apply via MyInfo and prepare the following, \n1. Copy of Passport (6 months validity), and page with address displayed (where applicable), \n2. Copy of Employment Pass, \n3. Either one of the following: utility bill, tax bill, latest bank /credit card statement, rental agreement showing your address, latest mobile phone statement, letter from employer stating current address, government-issued document stating current address",
+    "Passport Validity (Foreigners)": "6 months",
+    "Work Permit Validity (Foreigners)": "6 months",
+    "Utility or Telephone Bill": "true",
+    "Income Tax Notice of Assessment": "true"
+   }
+  },
+  "our_takes": {
+   "our-take": "The Standard Chartered Journey Card stands out by rewarding both local and overseas spending. Earn up to 3 miles per S$1 on bonus categories like transport and food delivery, maximizing your returns on everyday expenses. Frequent travellers will appreciate the 2 complimentary Priority Pass lounge visits annually. Consider this card if you want a no-annual-fee option to accumulate miles, especially if your spending aligns with the bonus categories. A S$1,000 cap applies to bonus rewards, so high spenders may want to consider other cards.",
+   "good-for": "Travellers seeking airport lounge access and complimentary travel insurance coverage for added peace of mind.\nIndividuals who frequently spend on transportation, food deliveries, and online groceries, maximizing rewards via bonus points.\nSingaporeans earning at least S$30,000 annually, looking for a no-annual-fee travel card with KrisFlyer miles conversion.",
+   "things-to-note": "Bonus points are capped at S$1,000 spend; exceeding this limit won't earn extra rewards.\nA high 27.9% interest rate means carrying a balance will incur substantial charges each month.\nWhile principal card has no annual fee, welcome bonus requires paying S$180 annually thereafter."
+  },
+  "updated_at": "2025-08-07T15:15:33+08:00"
+ }
+}

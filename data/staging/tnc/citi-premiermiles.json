@@ -1,0 +1,820 @@
+{
+ "card_id": "citi-premiermiles",
+ "product_pages": [
+  {
+   "id": "bank:60ea2c52480e",
+   "url": "https://www.citibank.com.sg/credit-cards/travel/premiermiles-card",
+   "source_type": "official",
+   "retrieved_at": "2026-09-27T08:31:50+00:00",
+   "sha256": "60ea2c52480ec12562bfc8ee1a49376609f55915e01ac8b26f79a57cebb3e1a3",
+   "snapshot": "data/raw/bank/www-citibank-com-sg-credit-cards-travel-premiermiles-card-0cb50223.html"
+  }
+ ],
+ "documents": [
+  {
+   "url": "https://www.citibank.com.sg/credit-cards/travel/premiermiles-card/pdf/citi-premiermiles-card-members-agreement.pdf",
+   "citation": {
+    "id": "bank:a7b75de60ccb",
+    "url": "https://www.citibank.com.sg/credit-cards/travel/premiermiles-card/pdf/citi-premiermiles-card-members-agreement.pdf",
+    "source_type": "official",
+    "retrieved_at": "2026-09-27T08:31:52+00:00",
+    "sha256": "a7b75de60ccbcc3f02d6a1970aa060b33ddf650555793f14897bd7e7328d2f78",
+    "snapshot": "data/raw/bank/www-citibank-com-sg-credit-cards-travel-premiermiles-card-pdf-citi-premiermiles-card-members-agreement-pdf-cfe690be.pdf"
+   },
+   "text_path": "data/raw/bank/www-citibank-com-sg-credit-cards-travel-premiermiles-card-pdf-citi-premiermiles-card-members-agreement-pdf-cfe690be.txt",
+   "sha256": "a7b75de60ccbcc3f02d6a1970aa060b33ddf650555793f14897bd7e7328d2f78",
+   "changed": false,
+   "new": false,
+   "no_text_layer": false,
+   "effective_dates": [
+    "1 May 2025"
+   ],
+   "mcc": {
+    "include": [],
+    "exclude": [],
+    "unknown": [],
+    "conflicting": [],
+    "unrecognised": [],
+    "hits": []
+   },
+   "transaction_modes": {
+    "online": [
+     "Combined credit limit the maximum credit limit permitted by us, and communicated to you by us from time to time, in respect of which the total outstanding balance of your card account must not exceed at any time and if you have more than one card account such limit shall be the maximum permitted for the total outstanding balance of all your card accounts (excluding only any business card account w",
+     "4.3 Card transaction by mail / telephone / facsimile / electronic mail / internet A request via mail, telephone, facsimile, electronic mail, internet or other means of communication to a merchant for the supply of goods and/or services to be 3 charged to the card account, whether made or authorized by you and whether a sales draft, voucher or document is signed by you, is a valid card transaction ",
+     "(i) Card transactions (including online and overseas transactions) effected in US dollars will be converted into Singapore dollars.",
+     "(i) If your card transaction (including online and overseas transactions) is converted into Singapore dollars via dynamic currency conversion (a service offered at certain ATMs and merchants which allows a cardmember to convert a transaction denominated in a foreign currency to Singapore Dollars at the point of withdrawal/sale), you acknowledge that the process of conversion and the exchange rates",
+     "Singapore Dollars transactions processed outside Singapore If the Singapore Dollars card transaction (including online transactions) is effected:",
+     "This charges will be charged on card transactions including but not limited to any VISA or Mastercard retail card transaction presented in foreign currency that you choose to pay in Singapore Dollars at 5 point-of-sale via dynamic currency conversion or any online VISA or Mastercard retail card transaction in Singapore Dollars which was processed outside Singapore.",
+     "The card transactions referred to above include transactions at 3DS merchants where \u201c3DS\u201d refers to the 3-Domain Secure protocol which is used by banks to authenticate online card transactions.",
+     "Updated information on the benefits, services, facilities and privileges will be provided by us via such means as we deem appropriate including via our online portal .",
+     "(iii) your receipt of Alerts is subject to other conditions not within our control including whether your internet and/or mobile phone operator is able to support the service;",
+     "(v) We will not be liable for or any failure, suspension, cessation, delay, disruption, errors, defects or fault in third party equipment, software, hardware, Internet, Internet browsers, online networks, Internet service providers, telecommunication service providers or other service providers, telecommunication, computer or other electronic equipment or system.",
+     "or (iv) any failure, suspension, interruption, cessation, delay, disruption, errors, defects or fault in third party equipment, software, hardware, Internet, Internet browsers, online networks, Internet service providers, telecommunication service providers or 12 other service providers, telecommunication, computer or other electronic equipment or system;",
+     "(v) any failure, suspension, interruption, cessation, delay, disruption, errors, defects or fault in the transmission of communication to us or authorizations or acknowledgements from us or any wrongful interception of any communication through any online networks, Internet service providers, telecommunication service providers or other service providers, telecommunication, computer or other elect",
+     "or (viii)any corruption or loss of any data or communication stored in any equipment or in the course of transmission thereof through online networks, Internet service providers, telecommunication service providers or other service providers, telecommunication, computer or other electronic equipment or system including any errors generated in the transmission of any communication beyond our reason",
+     "\u201cProducts\u201d refers to products which we may make available to you from time to time, including but not limited to those products listed under the general section in the Citibank Singapore Global Consumer Banking Terms 13 and Conditions entitled \u201cPRODUCTS\u201d and as set out in our online portal .",
+     "\u201cServices\u201d refers to the services which we may make available to you from time to time, including but not limited to those services listed under the general section in the Citibank Singapore Global Consumer Banking Terms and Conditions entitled \u201cSERVICES\u201d and as set out in our online portal ."
+    ],
+    "in_app": [
+     "In this regard, the Guidelines state that it is your responsibility to enable notification alerts on any device used to receive notification alerts from the responsible financial institution, to opt to receive all notification alerts via 16 SMS, email or in-app/push notifications for all outgoing payment transactions of (any amount that is above the transaction notification threshold), activation "
+    ],
+    "recurring": [
+     "(i) where you have stored your card-on-file with a merchant or otherwise provided your card details to a merchant for payment purposes (including recurring payments);",
+     "RECURRING/INSTALMENT PAYMENTS",
+     "18.1 Authorization and payment If you use the card to purchase goods or services by instalments or to make payments on a recurring basis, you thereby authorize us to pay such instalments for you as they become due and you agree to make payment for each such instalment when we debit the same to your card account.",
+     "18.2 Automatic transfer to new card account If you are issued with a replacement card with a different card number, you will need to re-establish any recurring payment instructions you have with your respective billing organization(s) to avoid any disruption to your bill payments and/or lapses in your policies (where applicable) and we will not be liable for any loss or damages incurred by you in ",
+     "Further, if your recurring payment instruction is with a Specified Organisation named in , you agree that we may, but are not obliged to, automatically charge your bills to such replacement card.",
+     "18.4 Other terms and conditions You also agree to be bound by any other specific terms and conditions governing such recurring/instalment payment scheme."
+    ],
+    "foreign_currency": [
+     "Combined credit limit the maximum credit limit permitted by us, and communicated to you by us from time to time, in respect of which the total outstanding balance of your card account must not exceed at any time and if you have more than one card account such limit shall be the maximum permitted for the total outstanding balance of all your card accounts (excluding only any business card account w",
+     "Foreign currency transactions",
+     "(i) Card transactions (including online and overseas transactions) effected in US dollars will be converted into Singapore dollars.",
+     "(i) If your card transaction (including online and overseas transactions) is converted into Singapore dollars via dynamic currency conversion (a service offered at certain ATMs and merchants which allows a cardmember to convert a transaction denominated in a foreign currency to Singapore Dollars at the point of withdrawal/sale), you acknowledge that the process of conversion and the exchange rates",
+     "(i) with a local merchant whose payments are processed through an overseas intermediary;",
+     "or (ii) with a merchant who is registered as an overseas merchant regardless of its actual location, such card transaction will be subject to an administrative fee of 1% on the transaction amount if the card transaction is processed by VISA/ Mastercard International.",
+     "This charges will be charged on card transactions including but not limited to any VISA or Mastercard retail card transaction presented in foreign currency that you choose to pay in Singapore Dollars at 5 point-of-sale via dynamic currency conversion or any online VISA or Mastercard retail card transaction in Singapore Dollars which was processed outside Singapore.",
+     "(e) Fee for foreign currency payment a handling fee for any foreign currency payment tendered to us;",
+     "\u201coverseas retail purchase\u201d means a retail purchase denominated in a currency other than S$;",
+     "3.1 A cardmember will receive, on a monthly basis, Citi Miles which will be credited to his card account at the rate of 1.2 Citi Miles for every S$1 incurred on local retail purchases charged to his card account and 2.2 Citi Miles for every S$1 incurred on overseas retail purchases charged to his card account."
+    ],
+    "local_currency": [
+     "6.8 Payment in Singapore dollars You must pay us all sums due under this agreement in Singapore dollars.",
+     "If we receive a payment in a currency other than Singapore dollars, we will convert it to Singapore dollars at such time and rate of exchange as we may in our reasonable discretion adopt in accordance with our usual practice.",
+     "(i) Card transactions (including online and overseas transactions) effected in US dollars will be converted into Singapore dollars.",
+     "Card transactions effected in foreign currencies other than US dollars will be converted to US dollars before being converted into Singapore dollars, except for Australian dollars on Visa cards which will be converted into Singapore dollars directly.",
+     "(i) If your card transaction (including online and overseas transactions) is converted into Singapore dollars via dynamic currency conversion (a service offered at certain ATMs and merchants which allows a cardmember to convert a transaction denominated in a foreign currency to Singapore Dollars at the point of withdrawal/sale), you acknowledge that the process of conversion and the exchange rates",
+     "You acknowledge that we do not determine whether a card transaction will be converted into Singapore dollars via dynamic currency conversion and, where your card transaction is for a retail purchase, you may have to check with the relevant merchant whether such conversion was done.",
+     "Singapore Dollars transactions processed outside Singapore If the Singapore Dollars card transaction (including online transactions) is effected:",
+     "This charges will be charged on card transactions including but not limited to any VISA or Mastercard retail card transaction presented in foreign currency that you choose to pay in Singapore Dollars at 5 point-of-sale via dynamic currency conversion or any online VISA or Mastercard retail card transaction in Singapore Dollars which was processed outside Singapore.",
+     "If such refund, payment or credit is received in a currency other than Singapore dollars, we will convert it to Singapore dollars at such time and rate of exchange as we may in our reasonable discretion adopt in accordance with our usual practice."
+    ]
+   },
+   "non_mcc_exclusions": [
+    "annual fee",
+    "balance transfer",
+    "bill payment",
+    "cash advance",
+    "charit",
+    "education",
+    "government",
+    "instalment",
+    "interest",
+    "late payment charge",
+    "tax",
+    "top-ups"
+   ]
+  },
+  {
+   "url": "https://www.citibank.com.sg/global_docs/pdf/Rewards_Exclusion_List.pdf",
+   "citation": {
+    "id": "bank:d43f74d8ca64",
+    "url": "https://www.citibank.com.sg/credit-cards/pdf/rewards-exclusion-list.pdf",
+    "source_type": "official",
+    "retrieved_at": "2026-09-27T08:31:54+00:00",
+    "sha256": "d43f74d8ca64a96141c244ca5126179e77543ae82cebe4c177a0c029c73b1a68",
+    "snapshot": "data/raw/bank/www-citibank-com-sg-credit-cards-pdf-rewards-exclusion-list-pdf-c33f164e.pdf"
+   },
+   "text_path": "data/raw/bank/www-citibank-com-sg-credit-cards-pdf-rewards-exclusion-list-pdf-c33f164e.txt",
+   "sha256": "d43f74d8ca64a96141c244ca5126179e77543ae82cebe4c177a0c029c73b1a68",
+   "changed": false,
+   "new": false,
+   "no_text_layer": false,
+   "effective_dates": [
+    "16 December 2024"
+   ],
+   "mcc": {
+    "include": [
+     "4829",
+     "4900",
+     "5199",
+     "5960",
+     "5993",
+     "6012",
+     "6050",
+     "6051",
+     "6211",
+     "6300",
+     "6513",
+     "6529",
+     "6529-6540",
+     "6530",
+     "6534",
+     "6540",
+     "7349",
+     "7511",
+     "7523",
+     "7800",
+     "7995",
+     "8062",
+     "8211",
+     "8211-8299",
+     "8220",
+     "8241",
+     "8244",
+     "8249",
+     "8299",
+     "8398",
+     "8651",
+     "8651-8661",
+     "8661",
+     "9000-9999",
+     "9211",
+     "9222",
+     "9223",
+     "9311",
+     "9399",
+     "9402",
+     "9405",
+     "9754"
+    ],
+    "exclude": [
+     "4111"
+    ],
+    "unknown": [],
+    "conflicting": [],
+    "unrecognised": [
+     "6529",
+     "6530",
+     "6534"
+    ],
+    "hits": [
+     {
+      "code": "6529",
+      "polarity": "include",
+      "page": 1,
+      "line": "Quasi Cash / MCC 6529 Quasi Cash \u2013 Remote Stored Value Load \u2013 Financial",
+      "reason": "awarded to the above Cards with transactions made in the following Merchant Category Codes",
+      "in_reference": false
+     },
+     {
+      "code": "6529-6540",
+      "polarity": "include",
+      "page": 1,
+      "line": "(MCC 6529-6540), MCC 6530 Quasi Cash \u2013 Remote Stored Value Load \u2013 Merchant",
+      "reason": "awarded to the above Cards with transactions made in the following Merchant Category Codes",
+      "in_reference": null
+     },
+     {
+      "code": "6530",
+      "polarity": "include",
+      "page": 1,
+      "line": "(MCC 6529-6540), MCC 6530 Quasi Cash \u2013 Remote Stored Value Load \u2013 Merchant",
+      "reason": "awarded to the above Cards with transactions made in the following Merchant Category Codes",
+      "in_reference": false
+     },
+     {
+      "code": "6534",
+      "polarity": "include",
+      "page": 1,
+      "line": "such as but not MCC 6534 Quasi Cash \u2013 Money Transfer \u2013 Member Financial",
+      "reason": "awarded to the above Cards with transactions made in the following Merchant Category Codes",
+      "in_reference": false
+     },
+     {
+      "code": "6540",
+      "polarity": "include",
+      "page": 1,
+      "line": "MCC 6540 Non-Financial Institutions \u2013 Stored Value Card",
+      "reason": "awarded to the above Cards with transactions made in the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "7349",
+      "polarity": "include",
+      "page": 1,
+      "line": "MCC 7349 Cleaning and Maintenance, Janitorial Services",
+      "reason": "awarded to the above Cards with transactions made in the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "7511",
+      "polarity": "include",
+      "page": 1,
+      "line": "MCC 7511 Quasi Cash \u2013 Truck Stop Transactions",
+      "reason": "awarded to the above Cards with transactions made in the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "7523",
+      "polarity": "include",
+      "page": 1,
+      "line": "MCC 7523 Parking Lots, Parking Meters and Garages",
+      "reason": "awarded to the above Cards with transactions made in the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "7800",
+      "polarity": "include",
+      "page": 1,
+      "line": "MCC 7800 Government-Owned Lotteries (US Region only)",
+      "reason": "awarded to the above Cards with transactions made in the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "7995",
+      "polarity": "include",
+      "page": 1,
+      "line": "MCC 7995 Betting, including Lottery Tickets, Casino Gaming Chips, Off-",
+      "reason": "awarded to the above Cards with transactions made in the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "4829",
+      "polarity": "include",
+      "page": 1,
+      "line": "MCC 4829 Wire Transfer Money Orders (WTMOs)",
+      "reason": "awarded to the above Cards with transactions made in the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "4900",
+      "polarity": "include",
+      "page": 1,
+      "line": "MCC 4900* Utilities \u2013 Electric, Gas, Water, and Sanitary",
+      "reason": "awarded to the above Cards with transactions made in the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "5199",
+      "polarity": "include",
+      "page": 2,
+      "line": "MCC 5199 Nondurable Goods (Not Elsewhere Classified)",
+      "reason": "awarded to the above Cards with transactions made in the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "5960",
+      "polarity": "include",
+      "page": 2,
+      "line": "MCC 5960 Direct Marketing \u2013 Insurance Services",
+      "reason": "awarded to the above Cards with transactions made in the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "6012",
+      "polarity": "include",
+      "page": 2,
+      "line": "MCC 6012 Financial Institutions \u2013 Merchandise, Services, and Debt",
+      "reason": "awarded to the above Cards with transactions made in the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "6050",
+      "polarity": "include",
+      "page": 2,
+      "line": "MCC 6050 Quasi Cash \u2013 Financial institutions, Merchandise, Services",
+      "reason": "awarded to the above Cards with transactions made in the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "6051",
+      "polarity": "include",
+      "page": 2,
+      "line": "MCC 6051 Non-Financial Institutions \u2013 Foreign Currency, Money",
+      "reason": "awarded to the above Cards with transactions made in the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "6211",
+      "polarity": "include",
+      "page": 2,
+      "line": "MCC 6211 Securities \u2013 Brokers and Dealers",
+      "reason": "awarded to the above Cards with transactions made in the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "6300",
+      "polarity": "include",
+      "page": 2,
+      "line": "MCC 6300 Insurance Sales, Underwriting and Premiums",
+      "reason": "awarded to the above Cards with transactions made in the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "6513",
+      "polarity": "include",
+      "page": 2,
+      "line": "MCC 6513 Real Estate Agents and Managers \u2013 Rentals",
+      "reason": "awarded to the above Cards with transactions made in the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "8211",
+      "polarity": "include",
+      "page": 2,
+      "line": "Education MCC 8211 Elementary and Secondary Schools",
+      "reason": "awarded to the above Cards with transactions made in the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "8220",
+      "polarity": "include",
+      "page": 2,
+      "line": "Institutions (MCC MCC 8220 Colleges, Junior Colleges, Universities, and Professional",
+      "reason": "awarded to the above Cards with transactions made in the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "8211-8299",
+      "polarity": "include",
+      "page": 2,
+      "line": "8211-8299), such as Schools",
+      "reason": "awarded to the above Cards with transactions made in the following Merchant Category Codes",
+      "in_reference": null
+     },
+     {
+      "code": "8241",
+      "polarity": "include",
+      "page": 2,
+      "line": "but not limited to: MCC 8241 Correspondence Schools",
+      "reason": "awarded to the above Cards with transactions made in the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "8244",
+      "polarity": "include",
+      "page": 2,
+      "line": "MCC 8244 Business and Secretarial Schools",
+      "reason": "awarded to the above Cards with transactions made in the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "8249",
+      "polarity": "include",
+      "page": 2,
+      "line": "MCC 8249 Vocational and Trade Schools",
+      "reason": "awarded to the above Cards with transactions made in the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "8299",
+      "polarity": "include",
+      "page": 2,
+      "line": "MCC 8299 Schools and Educational Services (Not Elsewhere Classified)",
+      "reason": "awarded to the above Cards with transactions made in the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "8398",
+      "polarity": "include",
+      "page": 2,
+      "line": "MCC 8398 Charitable and Social Service Organizations",
+      "reason": "awarded to the above Cards with transactions made in the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "8062",
+      "polarity": "include",
+      "page": 2,
+      "line": "Professional MCC 8062** Hospitals",
+      "reason": "awarded to the above Cards with transactions made in the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "8651",
+      "polarity": "include",
+      "page": 2,
+      "line": "Membership MCC 8651 Political Organizations",
+      "reason": "awarded to the above Cards with transactions made in the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "8651-8661",
+      "polarity": "include",
+      "page": 2,
+      "line": "8062, 8651-8661), MCC 8661 Religious Organizations",
+      "reason": "awarded to the above Cards with transactions made in the following Merchant Category Codes",
+      "in_reference": null
+     },
+     {
+      "code": "8062",
+      "polarity": "include",
+      "page": 2,
+      "line": "8062, 8651-8661), MCC 8661 Religious Organizations",
+      "reason": "awarded to the above Cards with transactions made in the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "8661",
+      "polarity": "include",
+      "page": 2,
+      "line": "8062, 8651-8661), MCC 8661 Religious Organizations",
+      "reason": "awarded to the above Cards with transactions made in the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "9211",
+      "polarity": "include",
+      "page": 2,
+      "line": "Government MCC 9211 Court Costs Including Alimony and Child Support",
+      "reason": "awarded to the above Cards with transactions made in the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "9222",
+      "polarity": "include",
+      "page": 2,
+      "line": "Services (MCC MCC 9222 Fines",
+      "reason": "awarded to the above Cards with transactions made in the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "9000-9999",
+      "polarity": "include",
+      "page": 2,
+      "line": "9000-9999), such as",
+      "reason": "awarded to the above Cards with transactions made in the following Merchant Category Codes",
+      "in_reference": null
+     },
+     {
+      "code": "9223",
+      "polarity": "include",
+      "page": 2,
+      "line": "MCC 9223 Bail and Bond Payments",
+      "reason": "awarded to the above Cards with transactions made in the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "9311",
+      "polarity": "include",
+      "page": 2,
+      "line": "MCC 9311 Tax Payments",
+      "reason": "awarded to the above Cards with transactions made in the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "9399",
+      "polarity": "include",
+      "page": 2,
+      "line": "MCC 9399 Government Services (Not Elsewhere Classified)",
+      "reason": "awarded to the above Cards with transactions made in the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "9402",
+      "polarity": "include",
+      "page": 2,
+      "line": "MCC 9402 Postal Services \u2013 Government Only",
+      "reason": "awarded to the above Cards with transactions made in the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "9405",
+      "polarity": "include",
+      "page": 2,
+      "line": "MCC 9405 U.S. Federal Government Agencies or Departments",
+      "reason": "awarded to the above Cards with transactions made in the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "9754",
+      "polarity": "include",
+      "page": 2,
+      "line": "MCC 9754 Quasi Cash \u2013 Gambling \u2013 Horse Racing, Dog Racing, State",
+      "reason": "awarded to the above Cards with transactions made in the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "5993",
+      "polarity": "include",
+      "page": 2,
+      "line": "Other MCC 5993 Cigar Stores and Stands",
+      "reason": "awarded to the above Cards with transactions made in the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "4111",
+      "polarity": "exclude",
+      "page": 3,
+      "line": "description of BUS/MRT and Merchant Category Code 4111 charged to the Citi SMRT Card, subject",
+      "reason": "Name] could refer to any entity will be excluded from rewards earn). The Bank\u2019s decision on this",
+      "in_reference": true
+     }
+    ]
+   },
+   "transaction_modes": {
+    "online": [
+     "SPL ONLINE* xv."
+    ],
+    "foreign_currency": [
+     "MCC 5199 Nondurable Goods (Not Elsewhere Classified) MCC 5960 Direct Marketing \u2013 Insurance Services MCC 6012 Financial Institutions \u2013 Merchandise, Services, and Debt Repayment MCC 6050 Quasi Cash \u2013 Financial institutions, Merchandise, Services MCC 6051 Non-Financial Institutions \u2013 Foreign Currency, Money Orders (Not Wire Transfer), Stored Value Card/Load, Travelers Cheques, and Debt Repayment MCC "
+    ]
+   },
+   "non_mcc_exclusions": [
+    "axs",
+    "charit",
+    "education",
+    "government",
+    "hospital",
+    "tax",
+    "utilit",
+    "youtrip"
+   ]
+  },
+  {
+   "url": "https://www.citibank.com.sg/pdf/1224/2025-premiermiles-kaligo-tncs.pdf?icid=SGLEUJ5ENPREMCAAN07",
+   "citation": {
+    "id": "bank:4adeded2dc36",
+    "url": "https://www.citibank.com.sg/pdf/1224/2025-premiermiles-kaligo-tncs.pdf?icid=SGLEUJ5ENPREMCAAN07",
+    "source_type": "official",
+    "retrieved_at": "2026-09-27T08:31:56+00:00",
+    "sha256": "4adeded2dc36d7945f139727ff8e6c0d721b7c58e2eb289535f3bb4d00308169",
+    "snapshot": "data/raw/bank/www-citibank-com-sg-pdf-1224-2025-premiermiles-kaligo-tncs-pdf-bf948cd8.pdf"
+   },
+   "text_path": "data/raw/bank/www-citibank-com-sg-pdf-1224-2025-premiermiles-kaligo-tncs-pdf-bf948cd8.txt",
+   "sha256": "4adeded2dc36d7945f139727ff8e6c0d721b7c58e2eb289535f3bb4d00308169",
+   "changed": false,
+   "new": false,
+   "no_text_layer": false,
+   "effective_dates": [],
+   "mcc": {
+    "include": [],
+    "exclude": [],
+    "unknown": [],
+    "conflicting": [],
+    "unrecognised": [],
+    "hits": []
+   },
+   "transaction_modes": {
+    "foreign_currency": [
+     "Citi Miles at Kaligo constitutes the regular 1.2 Citi Miles for every S$1 spend locally on qualifying charges made with the Citi PremierMiles Card and additional 8.8 Citi Miles for every S$1 spend locally on qualifying charges made with the Citi PremierMiles Card AND/OR the regular 2.2 Citi Miles for every S$1 of qualifying charges made in a foreign currency with the Citi PremierMiles Card and add"
+    ]
+   },
+   "non_mcc_exclusions": [
+    "balance transfer",
+    "interest",
+    "tax"
+   ]
+  },
+  {
+   "url": "https://www.citibank.com.sg/pdf/1224/2025-premiermiles-agoda-tncs.pdf?icid=SGLEUJ5ENPREMCAAN09",
+   "citation": {
+    "id": "bank:115ed1049c2d",
+    "url": "https://www.citibank.com.sg/pdf/1224/2025-premiermiles-agoda-tncs.pdf?icid=SGLEUJ5ENPREMCAAN09",
+    "source_type": "official",
+    "retrieved_at": "2026-09-27T08:31:58+00:00",
+    "sha256": "115ed1049c2d8b4ab3512444ef4c047ea975edce80e8f1f51fca090bcbc1ee1f",
+    "snapshot": "data/raw/bank/www-citibank-com-sg-pdf-1224-2025-premiermiles-agoda-tncs-pdf-96f447c2.pdf"
+   },
+   "text_path": "data/raw/bank/www-citibank-com-sg-pdf-1224-2025-premiermiles-agoda-tncs-pdf-96f447c2.txt",
+   "sha256": "115ed1049c2d8b4ab3512444ef4c047ea975edce80e8f1f51fca090bcbc1ee1f",
+   "changed": false,
+   "new": false,
+   "no_text_layer": false,
+   "effective_dates": [],
+   "mcc": {
+    "include": [],
+    "exclude": [],
+    "unknown": [],
+    "conflicting": [],
+    "unrecognised": [],
+    "hits": []
+   },
+   "transaction_modes": {
+    "foreign_currency": [
+     "Base earn rates are as follows: \u2022 1.2 Citi Miles per S$1 spend on Local Spend on Citi PremierMiles Visa/MasterCard Card \u2022 2.2 Citi Miles per S$1 spend on Overseas Spend on Citi PremierMiles Visa/MasterCard Card",
+     "Overseas Spend refers to retail transactions denominated in currency other than Singapore Dollars."
+    ],
+    "local_currency": [
+     "Local Spend refers to retail transactions denominated in Singapore Dollars.",
+     "Overseas Spend refers to retail transactions denominated in currency other than Singapore Dollars."
+    ]
+   },
+   "non_mcc_exclusions": [
+    "tax"
+   ]
+  },
+  {
+   "url": "https://www.citibank.com.sg/content/dam/cgcpc/sg/prelogin/www-citibank-com-sg/pdf/global_docs/pdf/citipremiermiles-onelineflashdeal-tncs.pdf",
+   "citation": {
+    "id": "bank:293374db88e5",
+    "url": "https://www.citibank.com.sg/content/dam/cgcpc/sg/prelogin/www-citibank-com-sg/pdf/global_docs/pdf/citipremiermiles-onelineflashdeal-tncs.pdf",
+    "source_type": "official",
+    "retrieved_at": "2026-09-27T08:32:00+00:00",
+    "sha256": "293374db88e5a0c747bcc4d7af31671367bfc48a8cc4f5f6ef4432d1d4fbeb5c",
+    "snapshot": "data/raw/bank/-com-sg-content-dam-cgcpc-sg-prelogin-www-citibank-com-sg-pdf-global-docs-pdf-citipremiermiles-onelineflashdeal-tncs-pdf-520aedce.pdf"
+   },
+   "text_path": "data/raw/bank/-com-sg-content-dam-cgcpc-sg-prelogin-www-citibank-com-sg-pdf-global-docs-pdf-citipremiermiles-onelineflashdeal-tncs-pdf-520aedce.txt",
+   "sha256": "293374db88e5a0c747bcc4d7af31671367bfc48a8cc4f5f6ef4432d1d4fbeb5c",
+   "changed": false,
+   "new": false,
+   "no_text_layer": false,
+   "effective_dates": [],
+   "mcc": {
+    "include": [],
+    "exclude": [],
+    "unknown": [],
+    "conflicting": [],
+    "unrecognised": [],
+    "hits": []
+   },
+   "transaction_modes": {
+    "online": [
+     "Citi PremierMiles Card Online Sign-Up 2026 Flash Deal Promotion Terms and Conditions (\u201cPromotion\u201d)",
+     "Qualifying Spend refers to any retail transactions (including internet purchases) which do not arise from (i) any Equal Payment Plan (EPP) purchases, (ii) refunded / disputed / unauthorized / fraudulent retail purchases, (iii) Quick Cash and other instalment loans, (iv) Citi PayLite / Citi FlexiBill / cash advance / quasi-cash transactions / balance transfers / annual card membership fees / intere",
+     "You can enjoy this Promotion in addition to the existing Citi PremierMiles Card Online Sign- Up Promotion 8,000 Citi Miles (\u201cCiti PremierMiles Card Online Sign-Up Promotion\u201d) or Citi PremierMiles Card Online Sign-Up Promotion 30,000 Citi Miles (\u201cCiti PremierMiles Card Online Sign-Up Promotion\u201d).",
+     "If you meet all the conditions for either one of the Citi PremierMiles Card Online Sign-Up Promotions and Citi PremierMiles Card Online Sign-Up 2026 Flash Deal Promotion, you will enjoy 8,000 Citi Miles or 30,000 Citi Miles respectively 2 (\u201cWelcome Gift\u201d) and S$100 Trip.com Gift Card (\u201cGift\u201d)."
+    ],
+    "in_app": [
+     "and/or b) conducted in bad faith or otherwise in an inappropriate manner to gain an unfair advantage against Citibank;"
+    ]
+   },
+   "non_mcc_exclusions": [
+    "balance transfer",
+    "bill payment",
+    "cash advance",
+    "instalment",
+    "interest",
+    "tax"
+   ]
+  },
+  {
+   "url": "https://www.citibank.com.sg/credit-cards/travel/premiermiles-card/pdf/online-acquisition-offer-30k-miles-tnc.pdf?icid=SGLEUJ5ENPREMCAAN16",
+   "citation": {
+    "id": "bank:efcc2d6c75d8",
+    "url": "https://www.citibank.com.sg/pdf/credit-cards/travel/premiermiles-card/welcome-offer.pdf?icid=SGLEUJ5ENPREMCAAN16",
+    "source_type": "official",
+    "retrieved_at": "2026-09-27T08:32:02+00:00",
+    "sha256": "efcc2d6c75d86b44596b068e56c46c1fdcf66ccce34d81c38a1517d2c944e1d2",
+    "snapshot": "data/raw/bank/www-citibank-com-sg-pdf-credit-cards-travel-premiermiles-card-welcome-offer-pdf-51c5a1a0.pdf"
+   },
+   "text_path": "data/raw/bank/www-citibank-com-sg-pdf-credit-cards-travel-premiermiles-card-welcome-offer-pdf-51c5a1a0.txt",
+   "sha256": "efcc2d6c75d86b44596b068e56c46c1fdcf66ccce34d81c38a1517d2c944e1d2",
+   "changed": false,
+   "new": false,
+   "no_text_layer": false,
+   "effective_dates": [],
+   "mcc": {
+    "include": [],
+    "exclude": [],
+    "unknown": [],
+    "conflicting": [],
+    "unrecognised": [],
+    "hits": []
+   },
+   "transaction_modes": {
+    "online": [
+     "Citi PremierMiles Card Online Sign-up Promotion 8,000 Citi Miles Welcome Gift Promotion Terms and Conditions (\u201cPromotion\u201d)",
+     "b) Qualifying Spend refers to any retail transactions (including internet purchases) which do not arise from (i) any Equal Payment Plan (EPP) purchases, (ii) refunded / disputed / unauthorized / fraudulent retail purchases, (iii) Quick Cash and other instalment loans, (iv) Citi PayLite / Citi FlexiBill / cash advance / quasi-cash transactions / balance transfers / annual card membership fees / int"
+    ],
+    "in_app": [
+     "and/or b) conducted in bad faith or otherwise in an inappropriate manner to gain an unfair advantage against Citibank;"
+    ]
+   },
+   "non_mcc_exclusions": [
+    "balance transfer",
+    "bill payment",
+    "cash advance",
+    "instalment",
+    "interest",
+    "tax"
+   ]
+  },
+  {
+   "url": "https://www.citibank.com.sg/credit-cards/travel/premiermiles-card/pdf/online-acquisition-offer-tnc.pdf?icid=SGLEUJ5ENPREMCAAN17",
+   "citation": {
+    "id": "bank:07786d997fbc",
+    "url": "https://www.citibank.com.sg/credit-cards/travel/premiermiles-card/pdf/online-acquisition-offer-tnc.pdf?icid=SGLEUJ5ENPREMCAAN17",
+    "source_type": "official",
+    "retrieved_at": "2026-09-27T08:32:04+00:00",
+    "sha256": "07786d997fbc4fc3ed7d5c9454b4412f7caa1e0dac3a79144278d79b9179366d",
+    "snapshot": "data/raw/bank/www-citibank-com-sg-credit-cards-travel-premiermiles-card-pdf-online-acquisition-offer-tnc-pdf-37af15c6.pdf"
+   },
+   "text_path": "data/raw/bank/www-citibank-com-sg-credit-cards-travel-premiermiles-card-pdf-online-acquisition-offer-tnc-pdf-37af15c6.txt",
+   "sha256": "07786d997fbc4fc3ed7d5c9454b4412f7caa1e0dac3a79144278d79b9179366d",
+   "changed": false,
+   "new": false,
+   "no_text_layer": false,
+   "effective_dates": [],
+   "mcc": {
+    "include": [],
+    "exclude": [],
+    "unknown": [],
+    "conflicting": [],
+    "unrecognised": [],
+    "hits": []
+   },
+   "transaction_modes": {
+    "online": [
+     "Citi PremierMiles Card Online Sign-up Promotion 30,000 Citi Miles Welcome Gift Promotion Terms and Conditions (\u201cPromotion\u201d)",
+     "b) Qualifying Spend refers to any retail transactions (including internet purchases) which do not arise from (i) any Equal Payment Plan (EPP) purchases, (ii) refunded / disputed / unauthorized / fraudulent retail purchases, (iii) Quick Cash and other instalment loans, (iv) Citi PayLite / Citi FlexiBill / cash advance / quasi-cash transactions / balance transfers / annual card membership fees / int"
+    ],
+    "in_app": [
+     "and/or b) conducted in bad faith or otherwise in an inappropriate manner to gain an unfair advantage against Citibank;"
+    ]
+   },
+   "non_mcc_exclusions": [
+    "annual fee",
+    "balance transfer",
+    "bill payment",
+    "cash advance",
+    "instalment",
+    "interest",
+    "tax"
+   ]
+  },
+  {
+   "url": "https://www.citibank.com.sg/pdf/0122/credit-card/citi-premiermiles-card-info-sheet.pdf?icid=SGLEUJ5ENPREMCAAN22",
+   "citation": {
+    "id": "bank:18ee2dc125da",
+    "url": "https://www.citibank.com.sg/credit-cards/travel/premiermiles-card/pdf/information-sheet.pdf?icid=SGLEUJ5ENPREMCAAN22",
+    "source_type": "official",
+    "retrieved_at": "2026-09-27T08:32:06+00:00",
+    "sha256": "18ee2dc125daad1a16cbab185ad4f9c2ba387514b50dee898068c1ef44c00bd3",
+    "snapshot": "data/raw/bank/www-citibank-com-sg-credit-cards-travel-premiermiles-card-pdf-information-sheet-pdf-ebf71159.pdf"
+   },
+   "text_path": "data/raw/bank/www-citibank-com-sg-credit-cards-travel-premiermiles-card-pdf-information-sheet-pdf-ebf71159.txt",
+   "sha256": "18ee2dc125daad1a16cbab185ad4f9c2ba387514b50dee898068c1ef44c00bd3",
+   "changed": false,
+   "new": false,
+   "no_text_layer": false,
+   "effective_dates": [
+    "1 Jan 2024"
+   ],
+   "mcc": {
+    "include": [],
+    "exclude": [],
+    "unknown": [],
+    "conflicting": [],
+    "unrecognised": [],
+    "hits": []
+   },
+   "transaction_modes": {
+    "online": [
+     "(i) Card transactions (including online and overseas transactions) effected in US dollars will be converted into Singapore dollars.",
+     "(i) If your card transaction (including online and overseas transactions) is converted into Singapore dollars via dynamic currency conversion (a service offered at certain ATMs and merchants which allows a cardmember to convert a transaction denominated in a foreign currency to Singapore Dollars at the point of withdrawal/sale), you acknowledge that the process of conversion and the exchange rates",
+     "Singapore Dollars transactions processed outside Singapore If the Singapore Dollars card transaction (including online transactions) is effected:",
+     "This charges will be charged on card transactions including but not limited to any VISA or Mastercard presented in foreign currency that you choose to pay in Singapore Dollars at point-of-sale via dynamic currency conversion or any online VISA or Mastercard transaction in Singapore Dollars which was processed outside Singapore.",
+     "The information above is subject to the Citibank Singapore Global Consumer Banking Terms and Conditions, the Citibank Visa/Mastercard Cardmember\u2019s Agreements and Citibank\u2019s pricing guide, which are available online at www.citibank.com.sg."
+    ],
+    "foreign_currency": [
+     "Foreign currency transactions",
+     "(i) Card transactions (including online and overseas transactions) effected in US dollars will be converted into Singapore dollars.",
+     "(i) If your card transaction (including online and overseas transactions) is converted into Singapore dollars via dynamic currency conversion (a service offered at certain ATMs and merchants which allows a cardmember to convert a transaction denominated in a foreign currency to Singapore Dollars at the point of withdrawal/sale), you acknowledge that the process of conversion and the exchange rates",
+     "(i) with a local merchant whose payments are processed through an overseas intermediary;",
+     "or (ii) with a merchant who is registered as an overseas merchant regardless of its actual location, such card transaction will be subject to an administrative fee of 1% on the transaction amount if the card transaction is processed by VISA/Mastercard International.",
+     "This charges will be charged on card transactions including but not limited to any VISA or Mastercard presented in foreign currency that you choose to pay in Singapore Dollars at point-of-sale via dynamic currency conversion or any online VISA or Mastercard transaction in Singapore Dollars which was processed outside Singapore."
+    ],
+    "local_currency": [
+     "(i) Card transactions (including online and overseas transactions) effected in US dollars will be converted into Singapore dollars.",
+     "Card transactions effected in foreign currencies other than US dollars will be converted to US dollars before being converted into Singapore dollars, except for Australian dollars on Visa cards which will be converted into Singapore dollars directly.",
+     "(i) If your card transaction (including online and overseas transactions) is converted into Singapore dollars via dynamic currency conversion (a service offered at certain ATMs and merchants which allows a cardmember to convert a transaction denominated in a foreign currency to Singapore Dollars at the point of withdrawal/sale), you acknowledge that the process of conversion and the exchange rates",
+     "You acknowledge that we do not determine whether a card transaction will be converted into Singapore dollars via dynamic currency conversion and, where your card transaction is for a retail purchase, you may have to check with the relevant merchant whether such conversion was done.",
+     "Singapore Dollars transactions processed outside Singapore If the Singapore Dollars card transaction (including online transactions) is effected:",
+     "This charges will be charged on card transactions including but not limited to any VISA or Mastercard presented in foreign currency that you choose to pay in Singapore Dollars at point-of-sale via dynamic currency conversion or any online VISA or Mastercard transaction in Singapore Dollars which was processed outside Singapore."
+    ]
+   },
+   "non_mcc_exclusions": [
+    "annual fee",
+    "balance transfer",
+    "cash advance",
+    "instalment",
+    "interest",
+    "late payment charge"
+   ]
+  }
+ ],
+ "changed": false,
+ "removed_documents": []
+}

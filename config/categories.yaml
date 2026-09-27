@@ -1,0 +1,114 @@
+# Spend tags used to describe where a card's top reward tier applies.
+#
+# Each tag lists ISO 18245 MCCs (single codes or inclusive ranges). A card qualifies for a tag
+# when its best earn rule covers the tag's MCCs (see pocketaces.tagging). Codes are checked against
+# data/reference/mcc_codes.json by `pocketaces validate`. `merchants` are illustrative only, since
+# a merchant's MCC is set by its acquirer and must be confirmed in data/reference/merchants.yaml.
+#
+# `min_coverage`: share of the tag's codes that must be eligible to call it "full"; partial
+# coverage is reported separately.
+
+categories:
+  travel:
+    label: Travel
+    children: [flights, hotels, car_rental, cruise, travel_agencies]
+  flights:
+    label: Flights (airlines)
+    mcc: ["3000-3350", "4511"]
+  hotels:
+    label: Hotels & lodging
+    mcc: ["3501-3999", "7011"]
+  car_rental:
+    label: Car rental
+    mcc: ["3351-3500", "7512"]
+  cruise:
+    label: Cruise lines
+    mcc: ["4411"]
+  travel_agencies:
+    label: Travel agencies & online booking (e.g. Trip.com, Expedia, Klook — confirm per merchant)
+    mcc: ["4722"]
+
+  transport:
+    label: Transport
+    children: [ride_hailing, public_transport]
+  ride_hailing:
+    label: Taxis & ride-hailing (e.g. Grab, Gojek, CDG Zig — confirm per merchant)
+    mcc: ["4121"]
+  public_transport:
+    label: Public transport (e.g. SimplyGo bus/MRT)
+    mcc: ["4111", "4112", "4131"]
+
+  petrol:
+    label: Petrol
+    mcc: ["5541", "5542"]
+
+  dining:
+    label: Dining & food delivery
+    mcc: ["5811", "5812", "5813", "5814"]
+  groceries:
+    label: Groceries & supermarkets
+    mcc: ["5411", "5422", "5441", "5451", "5462", "5499"]
+  shopping:
+    label: Retail shopping
+    mcc: ["5262", "5309", "5310", "5311", "5331", "5399", "5611", "5621", "5631", "5641", "5651",
+          "5655", "5661", "5691", "5699", "5732", "5733", "5734", "5735", "5941", "5942", "5944",
+          "5945", "5946", "5947", "5948", "5949", "5977", "5992", "5999"]
+  entertainment:
+    label: Entertainment
+    mcc: ["7832", "7922", "7929", "7991", "7996", "7998", "7999"]
+  streaming_digital:
+    label: Digital services & subscriptions
+    mcc: ["4816", "4899", "5815", "5816", "5817", "5818"]
+  telco:
+    label: Telco bills
+    mcc: ["4812", "4814"]
+  healthcare:
+    label: Healthcare & pharmacies
+    mcc: ["5912", "8011", "8021", "8031", "8041", "8042", "8043", "8049", "8050", "8062", "8071", "8099"]
+
+  day_to_day:
+    label: Day-to-day spend
+    children: [dining, groceries, shopping, ride_hailing, public_transport]
+
+  big_ticket:
+    label: Big-ticket (renovation, furniture, electronics, weddings)
+    children: [renovation, furniture, electronics, jewellery]
+  renovation:
+    label: Renovation & contractors
+    mcc: ["1520", "1711", "1731", "1740", "1750", "1761", "1771", "1799", "5200", "5211", "5231",
+          "5251", "5261"]
+  furniture:
+    label: Furniture & home furnishings
+    mcc: ["5712", "5713", "5714", "5718", "5719", "5722"]
+  electronics:
+    label: Electronics
+    mcc: ["5045", "5732", "5734"]
+  jewellery:
+    label: Jewellery & watches
+    mcc: ["5944"]
+
+  # Categories that are commonly excluded from rewards; used to flag exclusions, not as goals.
+  commonly_excluded:
+    label: Commonly excluded
+    children: [education, government, insurance, utilities, charity, financial, gambling]
+  education:
+    label: Education
+    mcc: ["8211", "8220", "8241", "8244", "8249", "8299"]
+  government:
+    label: Government & tax
+    mcc: ["9211", "9222", "9223", "9311", "9399", "9402", "9405"]
+  insurance:
+    label: Insurance
+    mcc: ["5960", "6300"]
+  utilities:
+    label: Utilities
+    mcc: ["4900"]
+  charity:
+    label: Charity & religious organisations
+    mcc: ["8398", "8661"]
+  financial:
+    label: Financial / quasi-cash
+    mcc: ["4829", "6010", "6011", "6012", "6050", "6051", "6211", "6540"]
+  gambling:
+    label: Gambling
+    mcc: ["7800", "7801", "7802", "7995", "9754"]

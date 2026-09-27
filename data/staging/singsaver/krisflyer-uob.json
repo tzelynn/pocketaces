@@ -1,0 +1,183 @@
+{
+ "source": "singsaver",
+ "source_id": "krisflyer-uob-credit-card",
+ "source_url": "https://www.singsaver.com.sg/credit-card/products/krisflyer-uob-credit-card",
+ "name": "KrisFlyer UOB Credit Card",
+ "bank": "UOB",
+ "card_id": "krisflyer-uob",
+ "image_url": "https://mhgprod.blob.core.windows.net/singsaver/strapi-uploads/xs_blt1f5e28b1425e1e58_c4d70b0ea1.png",
+ "annual_fee": 196.2,
+ "annual_fee_note": "S$ | First Year Waived",
+ "min_annual_income": 30000.0,
+ "earn_rates": {
+  "mpd:overseas": {
+   "value": 3.0,
+   "unit": "mpd",
+   "note": null
+  },
+  "mpd:local_online_shopping": {
+   "value": 3.0,
+   "unit": "mpd",
+   "note": "Everyday spend categories: dining, food delivery, online shopping, travel and transport, with at least S$800 annual spend on Singapore Airlines, Scoot, and/or KrisShop."
+  },
+  "mpd:travel": {
+   "value": 3.0,
+   "unit": "mpd",
+   "note": "Everyday spend categories: dining, food delivery, online shopping, travel and transport, with at least S$800 annual spend on Singapore Airlines, Scoot, and/or KrisShop."
+  },
+  "mpd:baseline": {
+   "value": 1.2,
+   "unit": "mpd",
+   "note": null
+  },
+  "mpd:hotel_booking": {
+   "value": 3.0,
+   "unit": "mpd",
+   "note": "Everyday spend categories: dining, food delivery, online shopping, travel and transport, with at least S$800 annual spend on Singapore Airlines, Scoot, and/or KrisShop"
+  },
+  "mpd:dining": {
+   "value": 3.0,
+   "unit": "mpd",
+   "note": "Everyday spend categories: dining, food delivery, online shopping, travel and transport, with at least S$800 annual spend on Singapore Airlines, Scoot, and/or KrisShop."
+  },
+  "mpd:transport": {
+   "value": 3.0,
+   "unit": "mpd",
+   "note": "Everyday spend categories: dining, food delivery, online shopping, travel and transport, with at least S$800 annual SIA-related spend."
+  },
+  "mpd:local": {
+   "value": 3.0,
+   "unit": "mpd",
+   "note": "Everyday spend categories: dining, food delivery, online shopping, travel and transport, with at least S$800 annual spend on Singapore Airlines, Scoot, and/or KrisShop."
+  },
+  "mpd:flight_booking": {
+   "value": 3.0,
+   "unit": "mpd",
+   "note": "3 miles per dollar on flights under Singapore Airlines. Everyday spend categories: dining, food delivery, online shopping, travel and transport, with at least S$800 annual spend on Singapore Airlines, Scoot, and/or KrisShop."
+  }
+ },
+ "caps": {},
+ "highlights": [
+  "Earn up to 3 KrisFlyer miles per S$1 on your daily spend, Singapore Airlines, Scoot, KrisShop, Kris+ and Pelago. Plus, enjoy other exclusive privileges. ",
+  "pros: Earn 3 KrisFlyer miles per S$1 spend on Singapore Airlines, Scoot, KrisShop, Kris+ and Pelago purchases.",
+  "pros: Earn 2.4 KrisFlyer miles per S$1 spend on dining, food delivery, online shopping, online travel and transport spend, with min. S$1,000 annual spend on Singapore Airlines, Scoot and KrisShop",
+  "pros: Earn 1.2 KrisFlyer miles per S$1 on all other spend.",
+  "pros: 5,000 Welcome miles with first eligible spend (min. S$5).",
+  "pros: 10,000 KrisFlyer miles with annual renewal fee payment.",
+  "pros: Exclusive privileges on Scoot (via flyscoot.com/krisflyeruob), Kris+ and more.",
+  "pros: Terms and conditions apply for all abovementioned privileges. Visit \nhere\n for more details.",
+  "pros: Insured up to S$100k by SDIC.",
+  "pros: KrisFlyer miles",
+  "pros: Unlimited miles",
+  "pros: 1st year annual fee waiver"
+ ],
+ "sign_up_offers": [
+  {
+   "kind": "welcome_offer",
+   "title": "Welcome Offer",
+   "offer_id": "SG.2026-07-01.CC.UOBX.9XCC.100SAMSUNG.BAU",
+   "valid_from": "2026-06-30T16:00:00Z",
+   "valid_to": "2026-09-29T16:00:00Z",
+   "gifts": [
+    {
+     "title": "S$100 Samsung Voucher",
+     "value_sgd": 100
+    }
+   ],
+   "terms": "Welcome Offer promotion is valid from 1 July 2026 to 30 September 2026.\nPromotion is valid for new-to-UOB credit card customers only.\nSuccessfully apply to be the principal cardholder for select UOB Credit Cards within the promo period and spend a min. of S$1,000 within 30 days of card approval to be eligible for \nS$100 Samsung Voucher\n reward.\nPlus, receive a 10% discount when you use your UOB Credit Card on Samsung Singapore transactions via the Samsung online store with min. spend of S$1,000.\nSamsung reserves the right to amend or withdraw the discount promotion without prior notice.\nTerms and Conditions\n apply.",
+   "tnc_url": null,
+   "bundle_with": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "kind": "exclusive_offer",
+   "title": "SingSaver Flash Deal",
+   "offer_id": "SG.2026-09-02.CC.UOBX.9XCC.200CASH-STRAREN-90CASH",
+   "valid_from": "2026-09-01T16:00:00Z",
+   "valid_to": "2026-09-30T15:59:00Z",
+   "gifts": [
+    {
+     "title": "S$200 Cash via PayNow",
+     "value_sgd": 200
+    },
+    {
+     "title": "Samsonite Straren Spinner 67/24 (worth S$600)",
+     "value_sgd": 600
+    },
+    {
+     "title": "S$90 Cash via PayNow",
+     "value_sgd": 90
+    }
+   ],
+   "terms": "SingSaver Flash Deal promotion is valid from 2 September 2026 to 30 September 2026.\nPromotion is valid for new-to-UOB credit cardmembers only.\nBe one of the first 2 applicants at 2 PM & 10PM every day during the flash deal period to apply for selected UOB credit cards and make a min. spend of S$500 within the first 30 days of card approval to be eligible for the Flash Deal reward:\nS$200 Cash via PayNow\n; or a\nSamsonite Straren Spinner 67/24 (worth S$600)\n.\nRemaining applicants will receive \nS$90 Cash via PayNow\n.\nPromotion is stackable with UOB Welcome Offer (additional T&Cs apply).\nTerms and Conditions\n apply",
+   "tnc_url": null,
+   "bundle_with": []
+  }
+ ],
+ "links": {
+  "apply": "https://www.singsaver.com.sg/apply-v3/17468"
+ },
+ "citation": {
+  "id": "singsaver:5dea93f61d89",
+  "url": "https://www.singsaver.com.sg/credit-card/products/krisflyer-uob-credit-card",
+  "title": "KrisFlyer UOB Credit Card",
+  "source_type": "aggregator",
+  "retrieved_at": "2026-09-27T05:26:01+00:00",
+  "sha256": "5dea93f61d890c767db3bcf30dc89a18c21e0cde2d2203738d07e133d493572d",
+  "snapshot": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-krisflyer-uob-credit-card-09122ca9.html"
+ },
+ "extra": {
+  "network": [
+   "Mastercard"
+  ],
+  "mobile_wallets": [
+   "Google Pay",
+   "Apple Pay",
+   "Samsung Pay",
+   "NETSPay"
+  ],
+  "fx_fee_percent": 3.25,
+  "miles_conversion_fee": null,
+  "categories": [
+   "category:all-credit-cards",
+   "category:buffet-promo",
+   "category:dining-promo",
+   "category:grocery-promo",
+   "category:installment",
+   "category:petrol-promo",
+   "category:promo",
+   "category:retail-promo",
+   "needs:0-interest-rate",
+   "needs:0-processing-fee",
+   "needs:all-airmiles-cards",
+   "needs:all-cards-with-buffet-promo",
+   "needs:all-cards-with-dining-promo",
+   "needs:all-cards-with-grocery-promo",
+   "needs:all-cards-with-petrol-promo",
+   "needs:all-cards-with-promotion",
+   "needs:all-cards-with-retail-promo",
+   "needs:all-credit-cards",
+   "needs:all-installment-cards",
+   "needs:all-travel-cards",
+   "needs:annual-fee-waiver-airmiles",
+   "needs:annual-fee-waiver-travel-cards",
+   "needs:bonus-miles",
+   "needs:free-travel-insurance",
+   "needs:long-tenure-installment",
+   "needs:online-booking-discount",
+   "needs:unlimited-airmiles"
+  ],
+  "tag": null,
+  "description": "If you are a jet-setter and often daydreams about travelling, the KrisFlyer UOB Credit Card is for you!\nEarn up to 3 KrisFlyer miles per S$1 on your daily spend, Singapore Airlines, Scoot, KrisShop, Kris+ and Pelago! Plus, enjoy other exclusive privileges on Scoot, Kris+ and more. KrisFlyer miles are automatically credited to your KrisFlyer account on a monthly basis, with no conversion fee.\nWhat’s more, get 5,000 KrisFlyer miles on your first eligible spend of S$5. You will also be rewarded with 10,000 KrisFlyer miles when you make payment for your annual renewal fee.\nVisit the KrisFlyer UOB Credit Card \nwebsite\n to find out deals and privileges on Scoot, KrisShop, Kris+ and more!"
+ }
+}

@@ -1,0 +1,311 @@
+{
+ "source": "singsaver",
+ "source_id": "hsbc-revolution-credit-card",
+ "source_url": "https://www.singsaver.com.sg/credit-card/products/hsbc-revolution-credit-card",
+ "name": "HSBC Revolution Credit Card",
+ "bank": "HSBC",
+ "card_id": "hsbc-revolution",
+ "image_url": "https://mhgprod.blob.core.windows.net/singsaver/strapi-uploads/m_2026_04_HSBC_Revolution_0b18833683.png",
+ "annual_fee_note": "No Annual Fee",
+ "min_annual_income": 65000.0,
+ "min_monthly_spend": 0.0,
+ "earn_rates": {
+  "mpd:baseline": {
+   "value": 0.4,
+   "unit": "mpd",
+   "note": "On all other transactions."
+  },
+  "mpd:local": {
+   "value": 4.0,
+   "unit": "mpd",
+   "note": "Up to | 10X Points (equivalent to 4 mpd) on online and contactless spending, capped at 5,400 bonus miles per month."
+  },
+  "mpd:overseas": {
+   "value": 4.0,
+   "unit": "mpd",
+   "note": "Up to | 10X Points (equivalent to 4 mpd) on online and contactless spending, capped at 5,400 bonus miles per month."
+  },
+  "percent:baseline": {
+   "value": 0.25,
+   "unit": "percent",
+   "note": "S$1 local spend = 1X rewards points. 4,000 points redeemed = S$10 cashback. Equivalent to 0.25% cashback. No min. spend required."
+  },
+  "percent:local": {
+   "value": 2.5,
+   "unit": "percent",
+   "note": "10X Points (equivalent to 2.5% cashback) on online and contactless spending, capped at 13,500 bonus points per month."
+  },
+  "percent:overseas": {
+   "value": 2.5,
+   "unit": "percent",
+   "note": "10X Points (equivalent to 2.5% cashback) on online and contactless spending, capped at 13,500 bonus points per month."
+  },
+  "percent:dining": {
+   "value": 2.5,
+   "unit": "percent",
+   "note": "10X Points (equivalent to 2.5% cashback) on online and contactless spending, capped at 13,500 bonus points per month."
+  },
+  "percent:retail": {
+   "value": 2.5,
+   "unit": "percent",
+   "note": "10X Points (equivalent to 2.5% cashback) on online and contactless spending, capped at 13,500 bonus points per month."
+  },
+  "percent:local_online_shopping": {
+   "value": 2.5,
+   "unit": "percent",
+   "note": "10X Points (equivalent to 2.5% cashback) on online and contactless spending, capped at 13,500 bonus points per month."
+  },
+  "mpd:retail": {
+   "value": 4.0,
+   "unit": "mpd",
+   "note": "10X Points (equivalent to 4 mpd) on online and contactless spending, capped at 5,400 bonus points per month."
+  },
+  "mpd:local_online_shopping": {
+   "value": 4.0,
+   "unit": "mpd",
+   "note": "10X Points (equivalent to 4 mpd) on online and contactless spending, capped at 5,400 bonus points per month."
+  },
+  "mpd:department_store": {
+   "value": 4.0,
+   "unit": "mpd",
+   "note": "10X Points (equivalent to 4 mpd) on online and contactless spending, capped at 5,400 bonus miles per month."
+  },
+  "mpd:dining": {
+   "value": 4.0,
+   "unit": "mpd",
+   "note": "10X Points (equivalent to 4 mpd) on online and contactless spending, capped at 5,400 bonus miles per month."
+  },
+  "percent:travel": {
+   "value": 2.5,
+   "unit": "percent",
+   "note": "10X Points (equivalent to 2.5% cashback) on online and contactless spending, capped at 13,500 bonus points per month."
+  },
+  "percent:department_store": {
+   "value": 2.5,
+   "unit": "percent",
+   "note": "10X Points (equivalent to 2.5% cashback) on online and contactless spending, capped at 13,500 bonus points per month."
+  },
+  "percent:contactless_spend": {
+   "value": 2.5,
+   "unit": "percent",
+   "note": "10X Points (equivalent to 2.5% cashback) on online and contactless spending, capped at 13,500 bonus points per month."
+  },
+  "mpd:supermarket": {
+   "value": 4.0,
+   "unit": "mpd",
+   "note": "10X Points (equivalent to 4 mpd) on online and contactless spending, capped at 5,400 bonus miles per month."
+  },
+  "mpd:transport": {
+   "value": 4.0,
+   "unit": "mpd",
+   "note": "10X Points (equivalent to 4 mpd) on online and contactless spending, capped at 5,400 bonus miles per month."
+  },
+  "mpd:travel": {
+   "value": 4.0,
+   "unit": "mpd",
+   "note": "10X Points (equivalent to 4 mpd) on online and contactless spending, capped at 5,400 bonus miles per month."
+  },
+  "points_per_dollar:baseline": {
+   "value": 1.0,
+   "unit": "points_per_dollar",
+   "note": "On all other spend."
+  },
+  "points_per_dollar:flight_booking": {
+   "value": 10.0,
+   "unit": "points_per_dollar",
+   "note": "10X Points on online and contactless spending, capped at 13,500 bonus points per month."
+  },
+  "percent:transport": {
+   "value": 2.5,
+   "unit": "percent",
+   "note": "10X Points (equivalent to 2.5% cashback) on online and contactless spending, capped at 13,500 bonus points per month."
+  },
+  "mpd:flight_booking": {
+   "value": 4.0,
+   "unit": "mpd",
+   "note": "10X Points (equivalent to 4 mpd) on online and contactless spending, capped at 5,400 bonus miles per month."
+  },
+  "points_per_dollar:dining": {
+   "value": 10.0,
+   "unit": "points_per_dollar",
+   "note": "10X Points on online and contactless spending, capped at 13,500 bonus points per month."
+  },
+  "points_per_dollar:taxi_ride_sharing": {
+   "value": 10.0,
+   "unit": "points_per_dollar",
+   "note": "10X Points on online and contactless spending, capped at 13,500 bonus points per month."
+  },
+  "points_per_dollar:travel": {
+   "value": 10.0,
+   "unit": "points_per_dollar",
+   "note": "On online purchases."
+  },
+  "points_per_dollar:retail": {
+   "value": 10.0,
+   "unit": "points_per_dollar",
+   "note": "10X Points on online and contactless spending, capped at 13,500 bonus points per month."
+  },
+  "points_per_dollar:contactless_spend": {
+   "value": 10.0,
+   "unit": "points_per_dollar",
+   "note": "10X Points on online and contactless spending, capped at 13,500 bonus points per month."
+  },
+  "points_per_dollar:online_shopping": {
+   "value": 10.0,
+   "unit": "points_per_dollar",
+   "note": "10X Points on online and contactless spending, capped at 13,500 bonus points per month."
+  }
+ },
+ "caps": {
+  "rewards_bonus_cap": {
+   "value": 13500.0,
+   "note": "From now until 31 Oct 2025, Bonus Points are capped at 13,500 points per calendar month; Base Points are uncapped. "
+  },
+  "airmiles_bonus_cap": {
+   "value": 5400.0,
+   "note": "From now until 31 Oct 2025, Bonus Points are capped at 13,500 points (equivalent to 5,400 miles) per calendar month; Base Points are uncapped. "
+  }
+ },
+ "highlights": [
+  "10X Rewards Points (equivalent to 4 mpd) on online and contactless spending, capped at 9,000 bonus points per calendar month. Keep earning beyond 31 March 2026.",
+  "pros: Borrow up to 90% of your available credit limit, enjoy interest rates as low as 2.6% p.a., and get flexible payment terms up to 60 months when you apply with promo code \nCIPSS\n. \nT&Cs apply.",
+  "pros: 10X Points (equivalent to 4 mpd) on online and contactless spending, capped at 13,500 bonus points per month. Keep earning beyond 31 March 2026.",
+  "pros: 20X Points (equivalent to 8 mpd) on online and contactless spending for cardholders who maintain at least S$50,000 average daily balance in their HSBC EGA (SGD Account)",
+  "pros: 1X reward point for all other spending.",
+  "pros: No minimum spend required.",
+  "pros: No annual fee.",
+  "pros: Receive complimentary access to ENTERTAINER with HSBC app, with over 1,000 1-for-1 deals on dining, lifestyle and travel worldwide.",
+  "pros: Eligible categories: Online payment; shopping; groceries; dining; food delivery; ride-hailing apps.",
+  "pros: Up to 16% and 14% off petrol at Caltex and Shell respectively.",
+  "pros: Instant reward redemption for airline miles and hotel points, refer to www.hsbc.com.sg/rewards for details.",
+  "pros: Up to S$300,000 complimentary travel insurance for cardholder and family when travel tickets are charged to card.",
+  "pros: Compatible with Apple Pay, Google Pay, and Visa PayWave.",
+  "pros: Can convert between cashback, miles, or reward points flexibly.",
+  "pros: Great for individuals who prefer flexibility to redeem Reward points to categories such as miles, cashback & more",
+  "pros: Read our review of the \nHSBC Revolution Credit Card\n.",
+  "cons: Operates on a whitelist basis. Only selected MCCs shown in the T&Cs qualify for bonus points.",
+  "cons: Cap of 13,500 bonus reward points per calendar month on eligible purchases. Original cap at 9,000 reward points.",
+  "cons: 1X reward point earned on public transport (via SimplyGo) only.",
+  "cons: HSBC reward points expire after 37 months.",
+  "cons: High base minimum annual income requirement of S$65,000 (w.e.f. 1 October 2025)  \nLearn more.",
+  "pros: Online shopping rebate",
+  "pros: Travel rebate",
+  "pros: No Annual Fee"
+ ],
+ "sign_up_offers": [
+  {
+   "kind": "exclusive_offer",
+   "title": "SingSaver Exclusive Offer",
+   "offer_id": "SG.2026-09-25.CC.HSBC.4XCC.450CASH.ASTRAIT-V8CYC-28KMAXM-DBOTM2-[DYSON-APPLE].UPSIZE-FD",
+   "valid_from": "2026-08-31T16:00:00Z",
+   "valid_to": "2026-09-30T15:59:00Z",
+   "gifts": [
+    {
+     "title": "S$450 Upsized Cash via PayNow",
+     "value_sgd": 450
+    },
+    {
+     "title": "ECOVACS DEEBOT mini 2 (worth S$499)",
+     "value_sgd": 499
+    },
+    {
+     "title": "Dyson Airstrait™ straightener (worth S$799)",
+     "value_sgd": 799
+    },
+    {
+     "title": "Dyson V8 Cyclone Vacuum Cleaner (worth S$559)",
+     "value_sgd": 559
+    },
+    {
+     "title": "28,000 Max Miles by HeyMax (worth S$504)",
+     "value_sgd": 504
+    },
+    {
+     "title": "Dyson Airwrap™ multi-styler and dryer (worth S$799) (top up S$50)",
+     "value_sgd": 799
+    },
+    {
+     "title": "Dyson Clean+Wash Hygiene hard floor cleaner (worth S$729) (Top up S$150)",
+     "value_sgd": 729
+    },
+    {
+     "title": "Apple Watch Series 12 Aluminum 42mm GPS (worth S$599) (Top-up S$130)",
+     "value_sgd": 599
+    },
+    {
+     "title": "Apple iPad (A16) 11\" 128GB WiFi (worth S$649) (Top up S$150)",
+     "value_sgd": 649
+    },
+    {
+     "title": "Apple MacBook Neo (A18 Pro) 256GB w/ Magic Keyboard (worth S$999, top up S$540)",
+     "value_sgd": 999
+    },
+    {
+     "title": "Apple iPhone 18 Pro 256GB (worth S$1,899, top up S$1,300)",
+     "value_sgd": 1899
+    }
+   ],
+   "terms": "SingSaver Flash Deal promotion runs from 1 September 2026 to 30 September 2026.\nPromotion is valid for new HSBC credit cardmembers only.\nApply for participating HSBC credit cards with provided marketing consent, then make a min. spend of S$500 by the end of the following calendar month from card approval date to be eligible for reward\nTerms and Conditions\n apply.",
+   "tnc_url": null,
+   "bundle_with": []
+  }
+ ],
+ "links": {
+  "apply": "https://www.singsaver.com.sg/apply-v2b/17796"
+ },
+ "citation": {
+  "id": "singsaver:376bc02034d9",
+  "url": "https://www.singsaver.com.sg/credit-card/products/hsbc-revolution-credit-card",
+  "title": "HSBC Revolution Credit Card",
+  "source_type": "aggregator",
+  "retrieved_at": "2026-09-27T05:25:49+00:00",
+  "sha256": "376bc02034d9e9d2c2dda4529a7d0fd9710dfe526113b28ff8a84f1bb04124f0",
+  "snapshot": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-hsbc-revolution-credit-card-a7abb103.html"
+ },
+ "extra": {
+  "network": [
+   "VISA Platinum"
+  ],
+  "mobile_wallets": [
+   "Google Pay",
+   "Apple Pay"
+  ],
+  "fx_fee_percent": 3.25,
+  "miles_conversion_fee": 40.0,
+  "categories": [
+   "category:airmiles",
+   "category:all-credit-cards",
+   "category:buffet-promo",
+   "category:dining-promo",
+   "category:grocery-promo",
+   "category:installment",
+   "category:petrol-promo",
+   "category:promo",
+   "category:retail-promo",
+   "category:rewards",
+   "category:travel",
+   "needs:0-interest-rate",
+   "needs:air-miles-conversion-rewards",
+   "needs:all-airmiles-cards",
+   "needs:all-cards-with-buffet-promo",
+   "needs:all-cards-with-dining-promo",
+   "needs:all-cards-with-grocery-promo",
+   "needs:all-cards-with-petrol-promo",
+   "needs:all-cards-with-promotion",
+   "needs:all-cards-with-retail-promo",
+   "needs:all-credit-cards",
+   "needs:all-installment-cards",
+   "needs:all-rewards-cards",
+   "needs:all-travel-cards",
+   "needs:annual-fee-waiver-airmiles",
+   "needs:free-travel-insurance",
+   "needs:high-value-gifts",
+   "needs:no-minimum-spend-required-airmiles",
+   "needs:no-minimum-spend-required-rewards",
+   "needs:online-booking-discount",
+   "needs:singsaver-exclusive"
+  ],
+  "tag": null,
+  "description": "The HSBC Revolution Card earns 10X Rewards Points or 4 miles per S$1 spend (mpd) on online and contactless transactions across dining, shopping, and ride-hailing apps.  \nThis bonus earn rate is capped at S$1,500 spend per calendar month. All other spend will earn 0.4 mpd only.\nBest of all, there is no annual fee."
+ }
+}

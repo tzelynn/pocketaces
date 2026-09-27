@@ -1,0 +1,22 @@
+{
+ "card_id": "dbs-womans-world",
+ "product_pages": [
+  {
+   "id": "bank:ca64b321a667",
+   "url": "https://www.dbs.com.sg/personal/cards/credit-cards/dbs-woman-mastercard-card",
+   "source_type": "official",
+   "retrieved_at": "2026-09-27T08:36:54+00:00",
+   "sha256": "ca64b321a66714bdc51716cbd2b04571a6665aa7b05bdddbb0a383f5e8bf2849",
+   "snapshot": "data/raw/bank/www-dbs-com-sg-personal-cards-credit-cards-dbs-woman-mastercard-card-a1401830.html"
+  }
+ ],
+ "documents": [
+  {
+   "url": "https://www.dbs.com.sg/iwov-resources/media/pdf/cards/dbs-womans-card-tnc.pdf",
+   "error": "robots.txt disallows https://www.dbs.com.sg/iwov-resources/media/pdf/cards/dbs-womans-card-tnc.pdf",
+   "changed": false
+  }
+ ],
+ "changed": false,
+ "removed_documents": []
+}

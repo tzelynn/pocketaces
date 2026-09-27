@@ -1,0 +1,185 @@
+{
+ "source": "singsaver",
+ "source_id": "hsbc-travelone-credit-card",
+ "source_url": "https://www.singsaver.com.sg/credit-card/products/hsbc-travelone-credit-card",
+ "name": "HSBC TravelOne Credit Card",
+ "bank": "HSBC",
+ "card_id": "hsbc-travelone",
+ "image_url": "https://mhgprod.blob.core.windows.net/singsaver/strapi-uploads/s_bltb1909376af571a0e_bb280c9954.webp",
+ "annual_fee": 196.2,
+ "annual_fee_note": "S$",
+ "min_annual_income": 65000.0,
+ "min_monthly_spend": 0.0,
+ "earn_rates": {
+  "mpd:baseline": {
+   "value": 1.2,
+   "unit": "mpd",
+   "note": null
+  },
+  "points_per_dollar:baseline": {
+   "value": 3.0,
+   "unit": "points_per_dollar",
+   "note": null
+  },
+  "points_per_dollar:local_spending": {
+   "value": 3.0,
+   "unit": "points_per_dollar",
+   "note": null
+  },
+  "points_per_dollar:overseas_spending": {
+   "value": 6.0,
+   "unit": "points_per_dollar",
+   "note": null
+  },
+  "mpd:local": {
+   "value": 1.2,
+   "unit": "mpd",
+   "note": null
+  },
+  "mpd:overseas": {
+   "value": 2.4,
+   "unit": "mpd",
+   "note": null
+  }
+ },
+ "caps": {
+  "rewards_bonus_cap": {
+   "value": null,
+   "note": "Uncapped"
+  }
+ },
+ "highlights": [
+  "2.4 miles for every dollar spent on foreign currency transactions and 1.2 mpd on other local purchases.",
+  "pros: Borrow up to 90% of your available credit limit, enjoy interest rates as low as 2.6% p.a., and get flexible payment terms up to 60 months when you apply with promo code \nCIPSS\n. \nT&Cs apply.",
+  "pros: Instant reward redemption with an extensive selection of airline and hotel partners via HSBC Singapore mobile app.",
+  "pros: Accelerated earn rate: up to 2.4 miles for your spending.",
+  "pros: No conversion fee for air miles or hotel points until 31 January 2025.",
+  "pros: Complimentary travel insurance coverage (including COVID-19) and 4x complimentary airport lounge visits for primary cardholders and guests of primary cardholders.",
+  "pros: Receive complimentary access to ENTERTAINER with HSBC app, with over 1,000 1-for-1 deals on dining, lifestyle and travel worldwide.",
+  "pros: Split your purchases across a range of flexible tenures with HSBC Instalment Plans.",
+  "cons: High base minimum annual income requirement of S$65,000 (w.e.f. 1 October 2025)  \nLearn more.",
+  "pros: Unlimited air miles",
+  "pros: Airport lounge",
+  "pros: Travel insurance",
+  "pros: Bonus air miles"
+ ],
+ "sign_up_offers": [
+  {
+   "kind": "exclusive_offer",
+   "title": "SingSaver Exclusive Offer",
+   "offer_id": "SG.2026-09-25.CC.HSBC.4XCC.450CASH.ASTRAIT-V8CYC-28KMAXM-DBOTM2-[DYSON-APPLE].UPSIZE-FD",
+   "valid_from": "2026-08-31T16:00:00Z",
+   "valid_to": "2026-09-30T15:59:00Z",
+   "gifts": [
+    {
+     "title": "S$450 Upsized Cash via PayNow",
+     "value_sgd": 450
+    },
+    {
+     "title": "ECOVACS DEEBOT mini 2 (worth S$499)",
+     "value_sgd": 499
+    },
+    {
+     "title": "Dyson Airstrait™ straightener (worth S$799)",
+     "value_sgd": 799
+    },
+    {
+     "title": "Dyson V8 Cyclone Vacuum Cleaner (worth S$559)",
+     "value_sgd": 559
+    },
+    {
+     "title": "28,000 Max Miles by HeyMax (worth S$504)",
+     "value_sgd": 504
+    },
+    {
+     "title": "Dyson Airwrap™ multi-styler and dryer (worth S$799) (top up S$50)",
+     "value_sgd": 799
+    },
+    {
+     "title": "Dyson Clean+Wash Hygiene hard floor cleaner (worth S$729) (Top up S$150)",
+     "value_sgd": 729
+    },
+    {
+     "title": "Apple Watch Series 12 Aluminum 42mm GPS (worth S$599) (Top-up S$130)",
+     "value_sgd": 599
+    },
+    {
+     "title": "Apple iPad (A16) 11\" 128GB WiFi (worth S$649) (Top up S$150)",
+     "value_sgd": 649
+    },
+    {
+     "title": "Apple MacBook Neo (A18 Pro) 256GB w/ Magic Keyboard (worth S$999, top up S$540)",
+     "value_sgd": 999
+    },
+    {
+     "title": "Apple iPhone 18 Pro 256GB (worth S$1,899, top up S$1,300)",
+     "value_sgd": 1899
+    }
+   ],
+   "terms": "SingSaver Flash Deal promotion runs from 1 September 2026 to 30 September 2026.\nPromotion is valid for new HSBC credit cardmembers only.\nApply for participating HSBC credit cards with provided marketing consent, then make a min. spend of S$500 by the end of the following calendar month from card approval date to be eligible for reward\nTerms and Conditions\n apply.",
+   "tnc_url": null,
+   "bundle_with": []
+  }
+ ],
+ "links": {
+  "apply": "https://www.singsaver.com.sg/apply-v2b/17797"
+ },
+ "citation": {
+  "id": "singsaver:1d87a80ab2e0",
+  "url": "https://www.singsaver.com.sg/credit-card/products/hsbc-travelone-credit-card",
+  "title": "HSBC TravelOne Credit Card",
+  "source_type": "aggregator",
+  "retrieved_at": "2026-09-27T05:25:50+00:00",
+  "sha256": "1d87a80ab2e0b8a2789d4cd5aef9daea54832eae0a17f45c93933a9433c88089",
+  "snapshot": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-hsbc-travelone-credit-card-36f380a7.html"
+ },
+ "extra": {
+  "network": [
+   "Mastercard"
+  ],
+  "mobile_wallets": [
+   "Google Pay",
+   "Apple Pay"
+  ],
+  "fx_fee_percent": 3.25,
+  "miles_conversion_fee": null,
+  "categories": [
+   "category:airmiles",
+   "category:all-credit-cards",
+   "category:buffet-promo",
+   "category:dining-promo",
+   "category:grocery-promo",
+   "category:installment",
+   "category:overseas",
+   "category:petrol-promo",
+   "category:promo",
+   "category:retail-promo",
+   "category:travel",
+   "needs:0-interest-rate",
+   "needs:airport-lounge-transfer",
+   "needs:all-airmiles-cards",
+   "needs:all-cards-with-buffet-promo",
+   "needs:all-cards-with-dining-promo",
+   "needs:all-cards-with-grocery-promo",
+   "needs:all-cards-with-petrol-promo",
+   "needs:all-cards-with-promotion",
+   "needs:all-cards-with-retail-promo",
+   "needs:all-credit-cards",
+   "needs:all-installment-cards",
+   "needs:all-overseas-cards",
+   "needs:all-travel-cards",
+   "needs:annual-fee-waiver-airmiles",
+   "needs:annual-fee-waiver-travel-cards",
+   "needs:bonus-miles",
+   "needs:free-travel-insurance",
+   "needs:long-tenure-installment",
+   "needs:no-minimum-spend-required-airmiles",
+   "needs:online-booking-discount",
+   "needs:singsaver-exclusive",
+   "needs:travel-sign-up-gifts",
+   "needs:unlimited-airmiles"
+  ],
+  "tag": null,
+  "description": "The HSBC TravelOne Credit Card is a reliable travel credit card that allows you to earn 1.2 miles per dollar on local spend and 2.4 miles per dollar on overseas spend. It's biggest selling point is the number of transfer partners - featuring 9 airlines and 3 hotel partners - the most in Singapore. It also provides 4 complimentary lounge visits per year, ideal for those well travelled."
+ }
+}

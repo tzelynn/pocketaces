@@ -1,0 +1,493 @@
+{
+ "card_id": "boc-visa-infinite",
+ "product_pages": [
+  {
+   "id": "bank:a4206f257e2c",
+   "url": "https://www.bankofchina.com/sg/bcservice/bc1/201603/t20160317_6758741.html",
+   "source_type": "official",
+   "retrieved_at": "2026-09-27T07:15:28+00:00",
+   "sha256": "a4206f257e2c468e14a181622a01ee671ce9fb379ec3373f4b412976f039f429",
+   "snapshot": "data/raw/bank/www-bankofchina-com-sg-bcservice-bc1-201603-t20160317-6758741-html-49ba7a25.html"
+  }
+ ],
+ "documents": [
+  {
+   "url": "https://www.bankofchina.com/sg/bocinfo/bi5/202506/P020250613354557074670.pdf",
+   "citation": {
+    "id": "bank:2c8c9f7f9059",
+    "url": "https://www.bankofchina.com/sg/bocinfo/bi5/202506/P020250613354557074670.pdf",
+    "source_type": "official",
+    "retrieved_at": "2026-09-27T07:15:33+00:00",
+    "sha256": "2c8c9f7f9059b5cb5c59f4c14633bba4a033df913cd78e5456866669d93cc29d",
+    "snapshot": "data/raw/bank/www-bankofchina-com-sg-bocinfo-bi5-202506-P020250613354557074670-pdf-09b31896.pdf"
+   },
+   "text_path": "data/raw/bank/www-bankofchina-com-sg-bocinfo-bi5-202506-P020250613354557074670-pdf-09b31896.txt",
+   "sha256": "2c8c9f7f9059b5cb5c59f4c14633bba4a033df913cd78e5456866669d93cc29d",
+   "changed": false,
+   "new": false,
+   "no_text_layer": false,
+   "effective_dates": [
+    "15 June 2025"
+   ],
+   "mcc": {
+    "include": [
+     "4784",
+     "4829",
+     "4900",
+     "5199",
+     "5815",
+     "5965",
+     "5993",
+     "6010",
+     "6012",
+     "6050",
+     "6051",
+     "6211",
+     "6513",
+     "6529",
+     "6530",
+     "6534",
+     "6540",
+     "7273",
+     "7372",
+     "7399",
+     "7511",
+     "7523",
+     "7995",
+     "8211",
+     "8241",
+     "8244",
+     "8249",
+     "8299",
+     "8398",
+     "8651",
+     "8661",
+     "8699",
+     "8999",
+     "9211",
+     "9222",
+     "9223",
+     "9311",
+     "9399",
+     "9402",
+     "9405"
+    ],
+    "exclude": [
+     "5552",
+     "5960",
+     "6300",
+     "8220"
+    ],
+    "unknown": [],
+    "conflicting": [],
+    "unrecognised": [
+     "5552",
+     "6529",
+     "6530",
+     "6534"
+    ],
+    "hits": [
+     {
+      "code": "5552",
+      "polarity": "exclude",
+      "page": 2,
+      "line": "assigned Merchant Category Code (MCC) 5552 spend for each billing cycle. 3% cash rebate",
+      "reason": "nature. The award of cash rebate under the Programme is subject to further exclusions.",
+      "in_reference": false
+     },
+     {
+      "code": "5552",
+      "polarity": "exclude",
+      "page": 2,
+      "line": "will be awarded for Electric Vehicle Charging (MCC) 5552 spend for each billing cycle with",
+      "reason": "nature. The award of cash rebate under the Programme is subject to further exclusions.",
+      "in_reference": false
+     },
+     {
+      "code": "5960",
+      "polarity": "exclude",
+      "page": 2,
+      "line": "\u201cInsurance\u201d means all transactions with the assigned Merchant Category Code (MCC) 5960",
+      "reason": "nature. The award of cash rebate under the Programme is subject to further exclusions.",
+      "in_reference": true
+     },
+     {
+      "code": "6300",
+      "polarity": "exclude",
+      "page": 2,
+      "line": "\u2013 Direct Marketing Insurance Services and 6300 \u2013 Insurance Sales, Underwriting and",
+      "reason": "nature. The award of cash rebate under the Programme is subject to further exclusions.",
+      "in_reference": true
+     },
+     {
+      "code": "8220",
+      "polarity": "exclude",
+      "page": 2,
+      "line": "\u201cEducation\u201d means all transactions with the assigned Merchant Category Code (MCC) 8220",
+      "reason": "nature. The award of cash rebate under the Programme is subject to further exclusions.",
+      "in_reference": true
+     },
+     {
+      "code": "4784",
+      "polarity": "include",
+      "page": 2,
+      "line": "Financial 4784 Toll and Bridge Fees",
+      "reason": "(b) any payment made with the following Merchant Category Codes (\u201cMCC\u201d);",
+      "in_reference": true
+     },
+     {
+      "code": "4829",
+      "polarity": "include",
+      "page": 2,
+      "line": "Service and 4829 Money Transfer",
+      "reason": "(b) any payment made with the following Merchant Category Codes (\u201cMCC\u201d);",
+      "in_reference": true
+     },
+     {
+      "code": "4900",
+      "polarity": "include",
+      "page": 2,
+      "line": "such as but not 4900 Utilities \u2013 Electric, Gas, Water and Sanitary",
+      "reason": "(b) any payment made with the following Merchant Category Codes (\u201cMCC\u201d);",
+      "in_reference": true
+     },
+     {
+      "code": "5199",
+      "polarity": "include",
+      "page": 3,
+      "line": "Retail 5199 Nondurable Goods (Not Elsewhere Classified)",
+      "reason": "(b) any payment made with the following Merchant Category Codes (\u201cMCC\u201d);",
+      "in_reference": true
+     },
+     {
+      "code": "5815",
+      "polarity": "include",
+      "page": 3,
+      "line": "Merchants and 5815 Digital Goods Media: Books, Movies, Music",
+      "reason": "(b) any payment made with the following Merchant Category Codes (\u201cMCC\u201d);",
+      "in_reference": true
+     },
+     {
+      "code": "5965",
+      "polarity": "include",
+      "page": 3,
+      "line": "5965",
+      "reason": "(b) any payment made with the following Merchant Category Codes (\u201cMCC\u201d);",
+      "in_reference": true
+     },
+     {
+      "code": "5993",
+      "polarity": "include",
+      "page": 3,
+      "line": "limited to 5993 Cigar Stores and Stands",
+      "reason": "(b) any payment made with the following Merchant Category Codes (\u201cMCC\u201d);",
+      "in_reference": true
+     },
+     {
+      "code": "6010",
+      "polarity": "include",
+      "page": 3,
+      "line": "Quasi 6010, Financial Institutions \u2013 Manual Cash Disbursements,",
+      "reason": "(b) any payment made with the following Merchant Category Codes (\u201cMCC\u201d);",
+      "in_reference": true
+     },
+     {
+      "code": "6012",
+      "polarity": "include",
+      "page": 3,
+      "line": "Cash/Financial 6012 Merchandise, Services, and Debt Repayment",
+      "reason": "(b) any payment made with the following Merchant Category Codes (\u201cMCC\u201d);",
+      "in_reference": true
+     },
+     {
+      "code": "6050",
+      "polarity": "include",
+      "page": 3,
+      "line": "6050",
+      "reason": "(b) any payment made with the following Merchant Category Codes (\u201cMCC\u201d);",
+      "in_reference": true
+     },
+     {
+      "code": "6051",
+      "polarity": "include",
+      "page": 3,
+      "line": "6051",
+      "reason": "(b) any payment made with the following Merchant Category Codes (\u201cMCC\u201d);",
+      "in_reference": true
+     },
+     {
+      "code": "6211",
+      "polarity": "include",
+      "page": 3,
+      "line": "6211 Security Brokers/Dealers",
+      "reason": "(b) any payment made with the following Merchant Category Codes (\u201cMCC\u201d);",
+      "in_reference": true
+     },
+     {
+      "code": "6513",
+      "polarity": "include",
+      "page": 3,
+      "line": "6513 Real Estate agents and managers",
+      "reason": "(b) any payment made with the following Merchant Category Codes (\u201cMCC\u201d);",
+      "in_reference": true
+     },
+     {
+      "code": "6529",
+      "polarity": "include",
+      "page": 3,
+      "line": "6529",
+      "reason": "(b) any payment made with the following Merchant Category Codes (\u201cMCC\u201d);",
+      "in_reference": false
+     },
+     {
+      "code": "6530",
+      "polarity": "include",
+      "page": 3,
+      "line": "6530 Quasi Cash-Remote Stored Value Load-Merchant Rentals",
+      "reason": "(b) any payment made with the following Merchant Category Codes (\u201cMCC\u201d);",
+      "in_reference": false
+     },
+     {
+      "code": "6534",
+      "polarity": "include",
+      "page": 3,
+      "line": "6534 Quasi Cash-Remote Money Transfers",
+      "reason": "(b) any payment made with the following Merchant Category Codes (\u201cMCC\u201d);",
+      "in_reference": false
+     },
+     {
+      "code": "6540",
+      "polarity": "include",
+      "page": 3,
+      "line": "6540",
+      "reason": "(b) any payment made with the following Merchant Category Codes (\u201cMCC\u201d);",
+      "in_reference": true
+     },
+     {
+      "code": "7273",
+      "polarity": "include",
+      "page": 3,
+      "line": "7273 Dating and Escort Services",
+      "reason": "(b) any payment made with the following Merchant Category Codes (\u201cMCC\u201d);",
+      "in_reference": true
+     },
+     {
+      "code": "7372",
+      "polarity": "include",
+      "page": 3,
+      "line": "7372",
+      "reason": "(b) any payment made with the following Merchant Category Codes (\u201cMCC\u201d);",
+      "in_reference": true
+     },
+     {
+      "code": "7399",
+      "polarity": "include",
+      "page": 3,
+      "line": "7399 Business Services (Not Elsewhere Classified)",
+      "reason": "(b) any payment made with the following Merchant Category Codes (\u201cMCC\u201d);",
+      "in_reference": true
+     },
+     {
+      "code": "7511",
+      "polarity": "include",
+      "page": 3,
+      "line": "7511 Quasi Cash \u2013 Truck Stop Trxns",
+      "reason": "(b) any payment made with the following Merchant Category Codes (\u201cMCC\u201d);",
+      "in_reference": true
+     },
+     {
+      "code": "7523",
+      "polarity": "include",
+      "page": 3,
+      "line": "7523 Parking Lots, Parking Meters and Garages",
+      "reason": "(b) any payment made with the following Merchant Category Codes (\u201cMCC\u201d);",
+      "in_reference": true
+     },
+     {
+      "code": "7995",
+      "polarity": "include",
+      "page": 3,
+      "line": "7995",
+      "reason": "(b) any payment made with the following Merchant Category Codes (\u201cMCC\u201d);",
+      "in_reference": true
+     },
+     {
+      "code": "8211",
+      "polarity": "include",
+      "page": 3,
+      "line": "8211,",
+      "reason": "(b) any payment made with the following Merchant Category Codes (\u201cMCC\u201d);",
+      "in_reference": true
+     },
+     {
+      "code": "8241",
+      "polarity": "include",
+      "page": 3,
+      "line": "8241,",
+      "reason": "(b) any payment made with the following Merchant Category Codes (\u201cMCC\u201d);",
+      "in_reference": true
+     },
+     {
+      "code": "8244",
+      "polarity": "include",
+      "page": 3,
+      "line": "8244,",
+      "reason": "(b) any payment made with the following Merchant Category Codes (\u201cMCC\u201d);",
+      "in_reference": true
+     },
+     {
+      "code": "8249",
+      "polarity": "include",
+      "page": 3,
+      "line": "8249,",
+      "reason": "(b) any payment made with the following Merchant Category Codes (\u201cMCC\u201d);",
+      "in_reference": true
+     },
+     {
+      "code": "8299",
+      "polarity": "include",
+      "page": 3,
+      "line": "8299",
+      "reason": "(b) any payment made with the following Merchant Category Codes (\u201cMCC\u201d);",
+      "in_reference": true
+     },
+     {
+      "code": "8398",
+      "polarity": "include",
+      "page": 3,
+      "line": "8398 Charitable Social Service Organizations",
+      "reason": "(b) any payment made with the following Merchant Category Codes (\u201cMCC\u201d);",
+      "in_reference": true
+     },
+     {
+      "code": "8651",
+      "polarity": "include",
+      "page": 3,
+      "line": "Professional 8651,",
+      "reason": "(b) any payment made with the following Merchant Category Codes (\u201cMCC\u201d);",
+      "in_reference": true
+     },
+     {
+      "code": "8661",
+      "polarity": "include",
+      "page": 3,
+      "line": "Service and 8661",
+      "reason": "(b) any payment made with the following Merchant Category Codes (\u201cMCC\u201d);",
+      "in_reference": true
+     },
+     {
+      "code": "8699",
+      "polarity": "include",
+      "page": 3,
+      "line": "Membership 8699 Membership Organizations (Not Elsewhere Classified)",
+      "reason": "(b) any payment made with the following Merchant Category Codes (\u201cMCC\u201d);",
+      "in_reference": true
+     },
+     {
+      "code": "8999",
+      "polarity": "include",
+      "page": 3,
+      "line": "Organisations, 8999 Professional Services (Not Elsewhere Classified)",
+      "reason": "(b) any payment made with the following Merchant Category Codes (\u201cMCC\u201d);",
+      "in_reference": true
+     },
+     {
+      "code": "9211",
+      "polarity": "include",
+      "page": 3,
+      "line": "9211 Court Costs, Including Alimony and Child Support",
+      "reason": "(b) any payment made with the following Merchant Category Codes (\u201cMCC\u201d);",
+      "in_reference": true
+     },
+     {
+      "code": "9222",
+      "polarity": "include",
+      "page": 3,
+      "line": "Government 9222 Fines",
+      "reason": "(b) any payment made with the following Merchant Category Codes (\u201cMCC\u201d);",
+      "in_reference": true
+     },
+     {
+      "code": "9223",
+      "polarity": "include",
+      "page": 3,
+      "line": "service, such 9223 Bail and Bond Payments",
+      "reason": "(b) any payment made with the following Merchant Category Codes (\u201cMCC\u201d);",
+      "in_reference": true
+     },
+     {
+      "code": "9311",
+      "polarity": "include",
+      "page": 4,
+      "line": "as but not 9311 Tax Payments",
+      "reason": "(b) any payment made with the following Merchant Category Codes (\u201cMCC\u201d);",
+      "in_reference": true
+     },
+     {
+      "code": "9402",
+      "polarity": "include",
+      "page": 4,
+      "line": "limited to 9402 Postal Services \u2013 Government Only",
+      "reason": "(b) any payment made with the following Merchant Category Codes (\u201cMCC\u201d);",
+      "in_reference": true
+     },
+     {
+      "code": "9405",
+      "polarity": "include",
+      "page": 4,
+      "line": "9405 U.S. Federal Government Agencies or Departments",
+      "reason": "(b) any payment made with the following Merchant Category Codes (\u201cMCC\u201d);",
+      "in_reference": true
+     },
+     {
+      "code": "9399",
+      "polarity": "include",
+      "page": 4,
+      "line": "9399 Government Services (Not Elsewhere Classified)",
+      "reason": "(b) any payment made with the following Merchant Category Codes (\u201cMCC\u201d);",
+      "in_reference": true
+     }
+    ]
+   },
+   "transaction_modes": {
+    "online": [
+     "\u201cLocal Spend\u201d refers to all Card transactions charged in Singapore, and online transactions effected in Singapore dollars or foreign currencies at merchants with payment gateway in Singapore.",
+     "\u201cOverseas Spend\u201d means all Card transactions charged overseas, including card transactions made overseas but effected/charged in Singapore dollars, and online transactions effected in Singapore dollars or foreign currencies at merchants with payment gateway outside of Singapore.",
+     "0.3% cash rebate will be awarded for Card transactions (including online transactions) made on Insurance and/or Education for each billing cycle.",
+     "6.21 All information is correct at the time of publishing or posting online."
+    ],
+    "foreign_currency": [
+     "Page 1 of 8 V202505 2.2 2.4% cash rebate on Overseas Spend",
+     "2.4% cash rebate will be awarded for Overseas Spend for each billing cycle.",
+     "\u201cOverseas Spend\u201d means all Card transactions charged overseas, including card transactions made overseas but effected/charged in Singapore dollars, and online transactions effected in Singapore dollars or foreign currencies at merchants with payment gateway outside of Singapore.",
+     "Category MCC Description Financial 4784 Toll and Bridge Fees Service and 4829 Money Transfer Payments, such as but not 4900 Utilities \u2013 Electric, Gas, Water and Sanitary limited to Page 2 of 8 V202505 Retail 5199 Nondurable Goods (Not Elsewhere Classified) Merchants and 5815 Digital Goods Media: Books, Movies, Music Goods, such Direct marketing \u2013Combination Catalog and Retail 5965 as but not Merch"
+    ],
+    "local_currency": [
+     "\u201cLocal Spend\u201d refers to all Card transactions charged in Singapore, and online transactions effected in Singapore dollars or foreign currencies at merchants with payment gateway in Singapore.",
+     "\u201cOverseas Spend\u201d means all Card transactions charged overseas, including card transactions made overseas but effected/charged in Singapore dollars, and online transactions effected in Singapore dollars or foreign currencies at merchants with payment gateway outside of Singapore."
+    ]
+   },
+   "non_mcc_exclusions": [
+    "annual fee",
+    "axs",
+    "bill payment",
+    "cardup",
+    "cash advance",
+    "charit",
+    "education",
+    "government",
+    "grabpay",
+    "instalment",
+    "interest",
+    "ipaymy",
+    "ipp",
+    "late payment charge",
+    "tax",
+    "utilit",
+    "youtrip"
+   ]
+  }
+ ],
+ "changed": false,
+ "removed_documents": []
+}

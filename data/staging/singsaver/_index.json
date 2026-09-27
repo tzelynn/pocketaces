@@ -1,0 +1,639 @@
+[
+ {
+  "card_id": "amex-platinum-charge",
+  "source_id": "american-express-platinum-card",
+  "name": "American Express Platinum Card",
+  "bank": "American Express",
+  "url": "https://www.singsaver.com.sg/credit-card/products/american-express-platinum-card"
+ },
+ {
+  "card_id": "amex-platinum-credit",
+  "source_id": "american-express-platinum-credit-card",
+  "name": "American Express Platinum Credit Card",
+  "bank": "American Express",
+  "url": "https://www.singsaver.com.sg/credit-card/products/american-express-platinum-credit-card"
+ },
+ {
+  "card_id": "amex-krisflyer-ascend",
+  "source_id": "american-express-singapore-airlines-krisflyer-ascend-credit-card",
+  "name": "American Express Singapore Airlines KrisFlyer Ascend Credit Card",
+  "bank": "American Express",
+  "url": "https://www.singsaver.com.sg/credit-card/products/american-express-singapore-airlines-krisflyer-ascend-credit-card"
+ },
+ {
+  "card_id": "amex-krisflyer",
+  "source_id": "american-express-singapore-airlines-krisflyer-credit-card",
+  "name": "American Express Singapore Airlines KrisFlyer Credit Card",
+  "bank": "American Express",
+  "url": "https://www.singsaver.com.sg/credit-card/products/american-express-singapore-airlines-krisflyer-credit-card"
+ },
+ {
+  "card_id": "amex-true-cashback",
+  "source_id": "american-express-true-cashback-card",
+  "name": "American Express True Cashback Card",
+  "bank": "American Express",
+  "url": "https://www.singsaver.com.sg/credit-card/products/american-express-true-cashback-card"
+ },
+ {
+  "card_id": null,
+  "source_id": "aspire-corporate-card",
+  "name": "Aspire Corporate Card",
+  "bank": "Aspire",
+  "url": "https://www.singsaver.com.sg/credit-card/products/aspire-corporate-card"
+ },
+ {
+  "card_id": "boc-elite-miles-world-mastercard",
+  "source_id": "boc-elite-miles-world-mastercard",
+  "name": "BOC Elite Miles World Mastercard",
+  "bank": "Bank of China",
+  "url": "https://www.singsaver.com.sg/credit-card/products/boc-elite-miles-world-mastercard"
+ },
+ {
+  "card_id": "boc-nvmo",
+  "source_id": "boc-family-card",
+  "name": "BOC NVMO Card",
+  "bank": "Bank of China",
+  "url": "https://www.singsaver.com.sg/credit-card/products/boc-family-card"
+ },
+ {
+  "card_id": "boc-sheng-siong",
+  "source_id": "boc-sheng-siong-card",
+  "name": "BOC Sheng Siong Card",
+  "bank": "Bank of China",
+  "url": "https://www.singsaver.com.sg/credit-card/products/boc-sheng-siong-card"
+ },
+ {
+  "card_id": "boc-visa-infinite",
+  "source_id": "boc-visa-infinite-card",
+  "name": "BOC Visa Infinite Card",
+  "bank": "Bank of China",
+  "url": "https://www.singsaver.com.sg/credit-card/products/boc-visa-infinite-card"
+ },
+ {
+  "card_id": "cimb-visa-infinite",
+  "source_id": "cimb-visa-infinite-card",
+  "name": "CIMB Visa Infinite Card",
+  "bank": "CIMB Bank",
+  "url": "https://www.singsaver.com.sg/credit-card/products/cimb-visa-infinite-card"
+ },
+ {
+  "card_id": "cimb-visa-signature",
+  "source_id": "cimb-visa-signature-card",
+  "name": "CIMB Visa Signature Card",
+  "bank": "CIMB Bank",
+  "url": "https://www.singsaver.com.sg/credit-card/products/cimb-visa-signature-card"
+ },
+ {
+  "card_id": "cimb-world-mastercard",
+  "source_id": "cimb-world-mastercard",
+  "name": "CIMB World Mastercard",
+  "bank": "CIMB Bank",
+  "url": "https://www.singsaver.com.sg/credit-card/products/cimb-world-mastercard"
+ },
+ {
+  "card_id": "citi-cash-back",
+  "source_id": "citi-cash-back-card",
+  "name": "Citi Cash Back Card",
+  "bank": "Citibank",
+  "url": "https://www.singsaver.com.sg/credit-card/products/citi-cash-back-card"
+ },
+ {
+  "card_id": "citi-cash-back-plus",
+  "source_id": "citi-cash-back-plus-card",
+  "name": "Citi Cash Back+ Card",
+  "bank": "Citibank",
+  "url": "https://www.singsaver.com.sg/credit-card/products/citi-cash-back-plus-card"
+ },
+ {
+  "card_id": "citi-clear",
+  "source_id": "citi-clear-card",
+  "name": "Citi Clear Card",
+  "bank": "Citibank",
+  "url": "https://www.singsaver.com.sg/credit-card/products/citi-clear-card"
+ },
+ {
+  "card_id": "citi-premiermiles",
+  "source_id": "citi-premier-miles-card",
+  "name": "Citi PremierMiles Card",
+  "bank": "Citibank",
+  "url": "https://www.singsaver.com.sg/credit-card/products/citi-premier-miles-card"
+ },
+ {
+  "card_id": "citi-prestige",
+  "source_id": "citi-prestige-card",
+  "name": "Citi Prestige Card",
+  "bank": "Citibank",
+  "url": "https://www.singsaver.com.sg/credit-card/products/citi-prestige-card"
+ },
+ {
+  "card_id": "citi-rewards",
+  "source_id": "citi-rewards-card",
+  "name": "Citi Rewards Card",
+  "bank": "Citibank",
+  "url": "https://www.singsaver.com.sg/credit-card/products/citi-rewards-card"
+ },
+ {
+  "card_id": "citi-smrt",
+  "source_id": "citi-smrt-card",
+  "name": "Citi SMRT Card",
+  "bank": "Citibank",
+  "url": "https://www.singsaver.com.sg/credit-card/products/citi-smrt-card"
+ },
+ {
+  "card_id": "citi-m1-platinum-visa",
+  "source_id": "citibank-m1-platinum-visa-card",
+  "name": "Citi M1 Platinum Visa Card",
+  "bank": "Citibank",
+  "url": "https://www.singsaver.com.sg/credit-card/products/citibank-m1-platinum-visa-card"
+ },
+ {
+  "card_id": "dbs-altitude-american-express",
+  "source_id": "dbs-altitude-american-express-card",
+  "name": "DBS Altitude American Express Card",
+  "bank": "DBS",
+  "url": "https://www.singsaver.com.sg/credit-card/products/dbs-altitude-american-express-card"
+ },
+ {
+  "card_id": "dbs-altitude-visa-signature",
+  "source_id": "dbs-altitude-visa-signature-card",
+  "name": "DBS Altitude Visa Signature Card",
+  "bank": "DBS",
+  "url": "https://www.singsaver.com.sg/credit-card/products/dbs-altitude-visa-signature-card"
+ },
+ {
+  "card_id": "dbs-chromo",
+  "source_id": "dbs-chromo-card",
+  "name": "DBS Chromo Card",
+  "bank": "DBS",
+  "url": "https://www.singsaver.com.sg/credit-card/products/dbs-chromo-card"
+ },
+ {
+  "card_id": "dbs-esso",
+  "source_id": "dbs-esso-card",
+  "name": "DBS Esso Card",
+  "bank": "DBS",
+  "url": "https://www.singsaver.com.sg/credit-card/products/dbs-esso-card"
+ },
+ {
+  "card_id": "dbs-live-fresh",
+  "source_id": "dbs-live-fresh-card",
+  "name": "DBS Live Fresh Card",
+  "bank": "DBS",
+  "url": "https://www.singsaver.com.sg/credit-card/products/dbs-live-fresh-card"
+ },
+ {
+  "card_id": "dbs-live-fresh-student",
+  "source_id": "dbs-live-fresh-student-card",
+  "name": "DBS Live Fresh Student Card",
+  "bank": "DBS",
+  "url": "https://www.singsaver.com.sg/credit-card/products/dbs-live-fresh-student-card"
+ },
+ {
+  "card_id": "dbs-safra",
+  "source_id": "dbs-safra-card",
+  "name": "DBS SAFRA Card",
+  "bank": "DBS",
+  "url": "https://www.singsaver.com.sg/credit-card/products/dbs-safra-card"
+ },
+ {
+  "card_id": "dbs-takashimaya-american-express",
+  "source_id": "dbs-takashimaya-american-express-card",
+  "name": "DBS Takashimaya American Express Card",
+  "bank": "DBS",
+  "url": "https://www.singsaver.com.sg/credit-card/products/dbs-takashimaya-american-express-card"
+ },
+ {
+  "card_id": "dbs-takashimaya-visa",
+  "source_id": "dbs-takashimaya-visa-card",
+  "name": "DBS Takashimaya Visa Card",
+  "bank": "DBS",
+  "url": "https://www.singsaver.com.sg/credit-card/products/dbs-takashimaya-visa-card"
+ },
+ {
+  "card_id": "dbs-vantage-visa-infinite",
+  "source_id": "dbs-vantage-visa-infinite-card",
+  "name": "DBS Vantage Visa Infinite Card",
+  "bank": "DBS",
+  "url": "https://www.singsaver.com.sg/credit-card/products/dbs-vantage-visa-infinite-card"
+ },
+ {
+  "card_id": "dbs-womans",
+  "source_id": "dbs-womans-card",
+  "name": "DBS Woman's Card",
+  "bank": "DBS",
+  "url": "https://www.singsaver.com.sg/credit-card/products/dbs-womans-card"
+ },
+ {
+  "card_id": "dbs-womans-world",
+  "source_id": "dbs-womans-world-card",
+  "name": "DBS Woman's World Card",
+  "bank": "DBS",
+  "url": "https://www.singsaver.com.sg/credit-card/products/dbs-womans-world-card"
+ },
+ {
+  "card_id": "dbs-yuu-american-express",
+  "source_id": "dbs-yuu-american-express-card",
+  "name": "DBS yuu American Express Card",
+  "bank": "DBS",
+  "url": "https://www.singsaver.com.sg/credit-card/products/dbs-yuu-american-express-card"
+ },
+ {
+  "card_id": "dbs-yuu-visa",
+  "source_id": "dbs-yuu-visa-card",
+  "name": "DBS yuu Visa Card",
+  "bank": "DBS",
+  "url": "https://www.singsaver.com.sg/credit-card/products/dbs-yuu-visa-card"
+ },
+ {
+  "card_id": "dcs-cashback",
+  "source_id": "dcs-cashback-card",
+  "name": "DCS CASHBACK Card",
+  "bank": "DCS",
+  "url": "https://www.singsaver.com.sg/credit-card/products/dcs-cashback-card"
+ },
+ {
+  "card_id": "dcs-don-don-donki",
+  "source_id": "dcs-don-don-donki-card",
+  "name": "DCS DON DON DONKI Card",
+  "bank": "DCS",
+  "url": "https://www.singsaver.com.sg/credit-card/products/dcs-don-don-donki-card"
+ },
+ {
+  "card_id": "dcs-flex-visa-platinum",
+  "source_id": "dcs-flex-visa-platinum-card",
+  "name": "DCS Flex Visa Platinum Card",
+  "bank": "DCS",
+  "url": "https://www.singsaver.com.sg/credit-card/products/dcs-flex-visa-platinum-card"
+ },
+ {
+  "card_id": "dcs-ultimate-platinum-mastercard",
+  "source_id": "dcs-ultimate-platinum-mastercard",
+  "name": "DCS Ultimate Platinum Mastercard",
+  "bank": "DCS",
+  "url": "https://www.singsaver.com.sg/credit-card/products/dcs-ultimate-platinum-mastercard"
+ },
+ {
+  "card_id": "dcs-ultimate-platinum-unionpay",
+  "source_id": "dcs-ultimate-platinum-unionpay-card",
+  "name": "DCS Ultimate Platinum UnionPay Card",
+  "bank": "DCS",
+  "url": "https://www.singsaver.com.sg/credit-card/products/dcs-ultimate-platinum-unionpay-card"
+ },
+ {
+  "card_id": "hsbc-advance",
+  "source_id": "hsbc-advance-credit-card",
+  "name": "HSBC Advance Credit Card",
+  "bank": "HSBC",
+  "url": "https://www.singsaver.com.sg/credit-card/products/hsbc-advance-credit-card"
+ },
+ {
+  "card_id": "hsbc-live-plus",
+  "source_id": "hsbc-live-plus-credit-card",
+  "name": "HSBC Live+ Credit Card",
+  "bank": "HSBC",
+  "url": "https://www.singsaver.com.sg/credit-card/products/hsbc-live-plus-credit-card"
+ },
+ {
+  "card_id": "hsbc-revolution",
+  "source_id": "hsbc-revolution-credit-card",
+  "name": "HSBC Revolution Credit Card",
+  "bank": "HSBC",
+  "url": "https://www.singsaver.com.sg/credit-card/products/hsbc-revolution-credit-card"
+ },
+ {
+  "card_id": "hsbc-travelone",
+  "source_id": "hsbc-travelone-credit-card",
+  "name": "HSBC TravelOne Credit Card",
+  "bank": "HSBC",
+  "url": "https://www.singsaver.com.sg/credit-card/products/hsbc-travelone-credit-card"
+ },
+ {
+  "card_id": "hsbc-visa-infinite",
+  "source_id": "hsbc-visa-infinite-credit-card",
+  "name": "HSBC Visa Infinite Credit Card",
+  "bank": "HSBC",
+  "url": "https://www.singsaver.com.sg/credit-card/products/hsbc-visa-infinite-credit-card"
+ },
+ {
+  "card_id": "hsbc-visa-platinum",
+  "source_id": "hsbc-visa-platinum-credit-card",
+  "name": "HSBC Visa Platinum Credit Card",
+  "bank": "HSBC",
+  "url": "https://www.singsaver.com.sg/credit-card/products/hsbc-visa-platinum-credit-card"
+ },
+ {
+  "card_id": "icbc-unionpay-dual-currency",
+  "source_id": "icbc-unionpay-dual-currency-credit-card",
+  "name": "ICBC UnionPay Dual Currency Credit Card",
+  "bank": "ICBC",
+  "url": "https://www.singsaver.com.sg/credit-card/products/icbc-unionpay-dual-currency-credit-card"
+ },
+ {
+  "card_id": "icbc-visa-dual-currency",
+  "source_id": "icbc-visa-dual-currency-credit-card",
+  "name": "ICBC Visa Dual Currency Credit Card",
+  "bank": "ICBC",
+  "url": "https://www.singsaver.com.sg/credit-card/products/icbc-visa-dual-currency-credit-card"
+ },
+ {
+  "card_id": "krisflyer-uob",
+  "source_id": "krisflyer-uob-credit-card",
+  "name": "KrisFlyer UOB Credit Card",
+  "bank": "UOB",
+  "url": "https://www.singsaver.com.sg/credit-card/products/krisflyer-uob-credit-card"
+ },
+ {
+  "card_id": "maybank-duo-platinum-mastercard",
+  "source_id": "maybank-duo-platinum-mastercard",
+  "name": "Maybank DUO Platinum Mastercard",
+  "bank": "Maybank",
+  "url": "https://www.singsaver.com.sg/credit-card/products/maybank-duo-platinum-mastercard"
+ },
+ {
+  "card_id": "maybank-family-friends",
+  "source_id": "maybank-family-friends-card",
+  "name": "Maybank Family & Friends Card",
+  "bank": "Maybank",
+  "url": "https://www.singsaver.com.sg/credit-card/products/maybank-family-friends-card"
+ },
+ {
+  "card_id": "maybank-fc-barcelona-visa-signature",
+  "source_id": "maybank-fc-barcelona-visa-signature-card",
+  "name": "Maybank FC Barcelona Visa Signature Card",
+  "bank": "Maybank",
+  "url": "https://www.singsaver.com.sg/credit-card/products/maybank-fc-barcelona-visa-signature-card"
+ },
+ {
+  "card_id": "maybank-horizon-visa-signature",
+  "source_id": "maybank-horizon-visa-signature-card",
+  "name": "Maybank Horizon Visa Signature Card",
+  "bank": "Maybank",
+  "url": "https://www.singsaver.com.sg/credit-card/products/maybank-horizon-visa-signature-card"
+ },
+ {
+  "card_id": "maybank-manchester-united-platinum-visa",
+  "source_id": "maybank-manchester-united-platinum-visa-card",
+  "name": "Maybank Manchester United Platinum Visa Credit Card",
+  "bank": "Maybank",
+  "url": "https://www.singsaver.com.sg/credit-card/products/maybank-manchester-united-platinum-visa-card"
+ },
+ {
+  "card_id": "maybank-platinum-visa",
+  "source_id": "maybank-platinum-visa-card",
+  "name": "Maybank Platinum Visa Card",
+  "bank": "Maybank",
+  "url": "https://www.singsaver.com.sg/credit-card/products/maybank-platinum-visa-card"
+ },
+ {
+  "card_id": "maybank-visa-infinite",
+  "source_id": "maybank-visa-infinite-card",
+  "name": "Maybank Visa Infinite Card",
+  "bank": "Maybank",
+  "url": "https://www.singsaver.com.sg/credit-card/products/maybank-visa-infinite-card"
+ },
+ {
+  "card_id": "maybank-world-mastercard",
+  "source_id": "maybank-world-mastercard",
+  "name": "Maybank World Mastercard",
+  "bank": "Maybank",
+  "url": "https://www.singsaver.com.sg/credit-card/products/maybank-world-mastercard"
+ },
+ {
+  "card_id": "maybank-xl-cashback",
+  "source_id": "maybank-xl-cashback-card",
+  "name": "Maybank XL Cashback Card",
+  "bank": "Maybank",
+  "url": "https://www.singsaver.com.sg/credit-card/products/maybank-xl-cashback-card"
+ },
+ {
+  "card_id": "maybank-xl-rewards",
+  "source_id": "maybank-xl-rewards-card",
+  "name": "Maybank XL Rewards Card",
+  "bank": "Maybank",
+  "url": "https://www.singsaver.com.sg/credit-card/products/maybank-xl-rewards-card"
+ },
+ {
+  "card_id": "ocbc-365",
+  "source_id": "ocbc-365-credit-card",
+  "name": "OCBC 365 Credit Card",
+  "bank": "OCBC",
+  "url": "https://www.singsaver.com.sg/credit-card/products/ocbc-365-credit-card"
+ },
+ {
+  "card_id": "ocbc-90-n-mastercard",
+  "source_id": "ocbc-90n-mastercard",
+  "name": "OCBC 90\u00b0N Mastercard",
+  "bank": "OCBC",
+  "url": "https://www.singsaver.com.sg/credit-card/products/ocbc-90n-mastercard"
+ },
+ {
+  "card_id": "ocbc-90-n-visa",
+  "source_id": "ocbc-90n-visa-card",
+  "name": "OCBC 90\u00b0N Visa Card",
+  "bank": "OCBC",
+  "url": "https://www.singsaver.com.sg/credit-card/products/ocbc-90n-visa-card"
+ },
+ {
+  "card_id": "ocbc-frank",
+  "source_id": "ocbc-frank-card",
+  "name": "OCBC Frank Card",
+  "bank": "OCBC",
+  "url": "https://www.singsaver.com.sg/credit-card/products/ocbc-frank-card"
+ },
+ {
+  "card_id": "ocbc-infinity-cashback",
+  "source_id": "ocbc-infinity-card",
+  "name": "OCBC INFINITY Cashback Credit Card",
+  "bank": "OCBC",
+  "url": "https://www.singsaver.com.sg/credit-card/products/ocbc-infinity-card"
+ },
+ {
+  "card_id": "ocbc-nxt",
+  "source_id": "ocbc-nxt-credit-card",
+  "name": "OCBC NXT Credit Card",
+  "bank": "OCBC",
+  "url": "https://www.singsaver.com.sg/credit-card/products/ocbc-nxt-credit-card"
+ },
+ {
+  "card_id": "ocbc-rewards",
+  "source_id": "ocbc-rewards-credit-card",
+  "name": "OCBC Rewards Credit Card",
+  "bank": "OCBC",
+  "url": "https://www.singsaver.com.sg/credit-card/products/ocbc-rewards-credit-card"
+ },
+ {
+  "card_id": "ocbc-voyage",
+  "source_id": "ocbc-voyage-card",
+  "name": "OCBC Voyage Card",
+  "bank": "OCBC",
+  "url": "https://www.singsaver.com.sg/credit-card/products/ocbc-voyage-card"
+ },
+ {
+  "card_id": "posb-everyday",
+  "source_id": "posb-everyday-card",
+  "name": "POSB Everyday Card",
+  "bank": "POSB",
+  "url": "https://www.singsaver.com.sg/credit-card/products/posb-everyday-card"
+ },
+ {
+  "card_id": null,
+  "source_id": "revolut-standard-card",
+  "name": "Revolut Standard Card",
+  "bank": "Revolut",
+  "url": "https://www.singsaver.com.sg/credit-card/products/revolut-standard-card"
+ },
+ {
+  "card_id": "standard-chartered-journey-annual-fee-paying",
+  "source_id": "standard-chartered-journey-credit-card",
+  "name": "Standard Chartered Journey Credit Card (Annual Fee Paying)",
+  "bank": "Standard Chartered",
+  "url": "https://www.singsaver.com.sg/credit-card/products/standard-chartered-journey-credit-card"
+ },
+ {
+  "card_id": "standard-chartered-journey-annual-fee-waiver",
+  "source_id": "standard-chartered-journey-credit-card-waiver",
+  "name": "Standard Chartered Journey Credit Card (Annual Fee Waiver)",
+  "bank": "Standard Chartered",
+  "url": "https://www.singsaver.com.sg/credit-card/products/standard-chartered-journey-credit-card-waiver"
+ },
+ {
+  "card_id": "standard-chartered-rewards-plus",
+  "source_id": "standard-chartered-rewards-credit-card",
+  "name": "Standard Chartered Rewards+ Credit Card",
+  "bank": "Standard Chartered",
+  "url": "https://www.singsaver.com.sg/credit-card/products/standard-chartered-rewards-credit-card"
+ },
+ {
+  "card_id": "standard-chartered-simply-cash",
+  "source_id": "standard-chartered-simply-cash-credit-card",
+  "name": "Standard Chartered Simply Cash Credit Card",
+  "bank": "Standard Chartered",
+  "url": "https://www.singsaver.com.sg/credit-card/products/standard-chartered-simply-cash-credit-card"
+ },
+ {
+  "card_id": "standard-chartered-smart",
+  "source_id": "standard-chartered-smart-credit-card",
+  "name": "Standard Chartered Smart Credit Card",
+  "bank": "Standard Chartered",
+  "url": "https://www.singsaver.com.sg/credit-card/products/standard-chartered-smart-credit-card"
+ },
+ {
+  "card_id": "standard-chartered-visa-infinite",
+  "source_id": "standard-chartered-visa-infinite-credit-card",
+  "name": "Standard Chartered Visa Infinite Credit Card",
+  "bank": "Standard Chartered",
+  "url": "https://www.singsaver.com.sg/credit-card/products/standard-chartered-visa-infinite-credit-card"
+ },
+ {
+  "card_id": "trust-link",
+  "source_id": "trust-bank-link-credit-card",
+  "name": "Trust Link / NTUC Link Credit Card",
+  "bank": "Trust Bank",
+  "url": "https://www.singsaver.com.sg/credit-card/products/trust-bank-link-credit-card"
+ },
+ {
+  "card_id": "trust-freedom",
+  "source_id": "trust-cashback-credit-card",
+  "name": "Trust Freedom Card",
+  "bank": "Trust Bank",
+  "url": "https://www.singsaver.com.sg/credit-card/products/trust-cashback-credit-card"
+ },
+ {
+  "card_id": "uob-absolute-cashback",
+  "source_id": "uob-absolute-cashback-card",
+  "name": "UOB Absolute Cashback Card",
+  "bank": "UOB",
+  "url": "https://www.singsaver.com.sg/credit-card/products/uob-absolute-cashback-card"
+ },
+ {
+  "card_id": "uob-evol",
+  "source_id": "uob-evol-card",
+  "name": "UOB EVOL Card",
+  "bank": "UOB",
+  "url": "https://www.singsaver.com.sg/credit-card/products/uob-evol-card"
+ },
+ {
+  "card_id": "uob-ladys",
+  "source_id": "uob-ladys-card",
+  "name": "UOB Lady's Card",
+  "bank": "UOB",
+  "url": "https://www.singsaver.com.sg/credit-card/products/uob-ladys-card"
+ },
+ {
+  "card_id": "uob-ladys-solitaire",
+  "source_id": "uob-ladys-solitaire-card",
+  "name": "UOB Lady's Solitaire Card",
+  "bank": "UOB",
+  "url": "https://www.singsaver.com.sg/credit-card/products/uob-ladys-solitaire-card"
+ },
+ {
+  "card_id": "metro-uob",
+  "source_id": "uob-metro-uob-card",
+  "name": "UOB Metro-UOB Card",
+  "bank": "UOB",
+  "url": "https://www.singsaver.com.sg/credit-card/products/uob-metro-uob-card"
+ },
+ {
+  "card_id": "uob-one",
+  "source_id": "uob-one-card",
+  "name": "UOB One Card",
+  "bank": "UOB",
+  "url": "https://www.singsaver.com.sg/credit-card/products/uob-one-card"
+ },
+ {
+  "card_id": "uob-professionals-platinum",
+  "source_id": "uob-professionals-platinum-card",
+  "name": "UOB Professionals Platinum Card",
+  "bank": "UOB",
+  "url": "https://www.singsaver.com.sg/credit-card/products/uob-professionals-platinum-card"
+ },
+ {
+  "card_id": "uob-prvi-miles-american-express",
+  "source_id": "uob-prvi-miles-american-express-card",
+  "name": "UOB PRVI Miles American Express Card",
+  "bank": "UOB",
+  "url": "https://www.singsaver.com.sg/credit-card/products/uob-prvi-miles-american-express-card"
+ },
+ {
+  "card_id": "uob-prvi-miles-visa",
+  "source_id": "uob-prvi-miles-visa-card",
+  "name": "UOB PRVI Miles Visa Card",
+  "bank": "UOB",
+  "url": "https://www.singsaver.com.sg/credit-card/products/uob-prvi-miles-visa-card"
+ },
+ {
+  "card_id": "uob-prvi-miles-world-mastercard",
+  "source_id": "uob-prvi-miles-world-mastercard",
+  "name": "UOB PRVI Miles World MasterCard",
+  "bank": "UOB",
+  "url": "https://www.singsaver.com.sg/credit-card/products/uob-prvi-miles-world-mastercard"
+ },
+ {
+  "card_id": "singtel-uob",
+  "source_id": "uob-singtel-uob-card",
+  "name": "Singtel-UOB Card",
+  "bank": "UOB",
+  "url": "https://www.singsaver.com.sg/credit-card/products/uob-singtel-uob-card"
+ },
+ {
+  "card_id": "uob-unionpay-platinum",
+  "source_id": "uob-unionpay-platinum-card",
+  "name": "UOB UnionPay Platinum Card",
+  "bank": "UOB",
+  "url": "https://www.singsaver.com.sg/credit-card/products/uob-unionpay-platinum-card"
+ },
+ {
+  "card_id": "uob-visa-infinite-metal",
+  "source_id": "uob-visa-infinite-metal-card",
+  "name": "UOB Visa Infinite Metal Card",
+  "bank": "UOB",
+  "url": "https://www.singsaver.com.sg/credit-card/products/uob-visa-infinite-metal-card"
+ },
+ {
+  "card_id": "uob-visa-signature",
+  "source_id": "uob-visa-signature-card",
+  "name": "UOB Visa Signature Card",
+  "bank": "UOB",
+  "url": "https://www.singsaver.com.sg/credit-card/products/uob-visa-signature-card"
+ }
+]

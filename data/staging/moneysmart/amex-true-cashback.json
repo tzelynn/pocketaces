@@ -1,0 +1,77 @@
+{
+ "source": "moneysmart",
+ "source_id": "american-express-true-cashback-card",
+ "source_url": "https://www.moneysmart.sg/credit-cards/american-express-true-cashback-card",
+ "name": "American Express True Cashback Card",
+ "bank": "American Express",
+ "card_id": "amex-true-cashback",
+ "image_url": "https://photos.cdn-moneysmart.com/credit_cards/uploads/products/images/image_url_2024-01-14_TCB_315x200 (1) (1).png",
+ "earn_rates": {},
+ "caps": {},
+ "highlights": [
+  "3.0% Cashback on all eligible purchases, up to S$5,000 spend in first 6 months for new Card Members",
+  "1.5% Cashback all subsequent eligible purchases",
+  "Unlimited Cash Back Cap",
+  "Unlimited & Immediate Cashback - No min spend and no cap on how much you earn. Get your cashback in the same month's statement.",
+  "3% Cashback on all eligible purchases, up to $5,000 spend in the first 6 months for new Card Members (up to S$150).",
+  "1.5% unlimited Cashback on all subsequent eligible purchases with no minimum spending and no earn cap.",
+  "At MoneySmart, we strive to keep our information accurate and up to date. This information may be different from what you see when you visit a financial institution, service provider, or specific product site. MoneySmart shall not be liable to compensate the Customer should the information is not as updated as our Partner.",
+  "Please refer to the American Express website (go.amex/moneysmart) for the most up to date information on card benefits and its terms & conditions."
+ ],
+ "sign_up_offers": [],
+ "links": {
+  "product": "https://www.moneysmart.sg/credit-cards/american-express-true-cashback-card",
+  "review": "https://blog.moneysmart.sg/credit-cards/american-express-true-cashback-card-review/"
+ },
+ "citation": {
+  "id": "moneysmart:42909b088c22",
+  "url": "https://www.moneysmart.sg/credit-cards?page=2",
+  "title": "American Express True Cashback Card",
+  "source_type": "aggregator",
+  "retrieved_at": "2026-09-27T05:27:14+00:00",
+  "sha256": "42909b088c22cb063c120b532d19af920cb3535c52f6bfc313193c6c6ea14746",
+  "snapshot": "data/raw/moneysmart/credit-cards-p2-5f055203.html"
+ },
+ "extra": {
+  "summary": "Introducing the American Express True Cashback Card – your key to earning cashback rewards on almost every purchase. With no minimum spend and no cap on cashback earned, enjoy the freedom of unlimited cashback potential. Whether it's dining, shopping, or travel, this card offers 1.5% cashback on all eligible purchases. ",
+  "badges": [
+   "Unlimited Cashback"
+  ],
+  "network": [
+   "American Express"
+  ],
+  "mobile_wallets": [
+   "Google Pay",
+   "Apple Pay",
+   "Samsung Pay"
+  ],
+  "groups": {
+   "annual-interest-rate-and-fees": {
+    "Annual Interest Rate": "27.80% p.a. compounded if payment of the closing balance in your statements is not made in full; or 3% p.a. on top of prevailing interest rate in the event that your account has three or more defaults in the last 12 months",
+    "Annual Principal Fee": "S$174.40 (incl. of 9% GST). Waived for the first year",
+    "Supplementary Annual Fee": "First 2 Supplementary Cards fee permanently waived. S$87.20 (incl. of 9% GST) for each subsequent Supplementary Card.",
+    "Fee Waiver": "First Year Annual Fee Waiver",
+    "Minimum Monthly Repayment": "3% or S$50, whichever is higher",
+    "Interest Free Period": "22 days"
+   },
+   "minimum-income-requirements": {
+    "Singaporean/PR Minimum Annual Income": "Card application is subjected to customers meeting the regulatory minimum income requirement and internal assessment.",
+    "Non-Singaporean Minimum Annual Income": "Card application is subjected to customers meeting the regulatory minimum income requirement and internal assessment."
+   },
+   "card-association": {
+    "American Express": "true"
+   },
+   "wireless-payment": {
+    "Google Pay": "true",
+    "Apple Pay": "true",
+    "Samsung Pay": "true"
+   }
+  },
+  "our_takes": {
+   "our-take": "The American Express True Cashback Card shines with its simple, uncapped 1.5% cashback on all spending, appealing to those who dislike minimum spends or tiered rewards. New cardholders enjoy a boosted 3% cashback on the first S$5,000 spent within 6 months. Cashback is credited automatically, simplifying redemption. While the S$174.40 annual fee isn't waived after the first year, the card's straightforward nature makes it ideal for everyday spending, especially if you prefer a no-fuss cashback system over maximizing specific spending categories.",
+   "good-for": "Cardholders who want a simple cashback card without needing to track spending categories or minimum spend amounts.\nIndividuals seeking a flat-rate cashback on all purchases, enjoying immediate savings on everything from groceries to online shopping.\nNew cardholders looking for a welcome bonus on their initial spending within the first six months of card membership.",
+   "things-to-note": "Annual fees of S$174.40 apply after the first year; evaluate if cashback justifies the cost.\n27.80% p.a. interest rate can accrue fast if you don't pay your balance in full.\nForeign transaction fees of 3.25% will apply, increasing the cost of overseas spending."
+  },
+  "updated_at": "2026-09-02T12:06:32+08:00"
+ }
+}

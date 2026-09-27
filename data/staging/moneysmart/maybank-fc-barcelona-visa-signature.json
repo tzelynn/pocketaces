@@ -1,0 +1,76 @@
+{
+ "source": "moneysmart",
+ "source_id": "maybank-fc-barcelona-visa-signature",
+ "source_url": "https://www.moneysmart.sg/credit-cards/maybank-fc-barcelona-visa-signature",
+ "name": "Maybank FC Barcelona Visa Signature",
+ "bank": "Maybank",
+ "card_id": "maybank-fc-barcelona-visa-signature",
+ "image_url": "https://photos.cdn-moneysmart.com/credit_cards/uploads/products/images/image_url_2022-10-06_6. Maybank_FC Barcelona Card_shadow.jpg",
+ "annual_fee": 130.8,
+ "earn_rates": {},
+ "caps": {},
+ "highlights": [
+  "1.6% Unlimited Cashback on Local Spend",
+  "1.6% Unlimited Cashback on Spend in Foreign Currency",
+  "0 Min. Spend per month",
+  "1.6% Unlimited cashback on local and foreign spend",
+  "2X TREATS Points for every S$1 spent on foreign currency transactions",
+  "Stand a chance to watch FC Barcelona LIVE in Camp Nou every football season",
+  "5% discount at the FCBotiga official store in Camp Nou",
+  "Complimentary travel insurance coverage of up to S$300,000",
+  "2 years annual fee waived"
+ ],
+ "sign_up_offers": [],
+ "links": {
+  "product": "https://www.moneysmart.sg/credit-cards/maybank-fc-barcelona-visa-signature"
+ },
+ "citation": {
+  "id": "moneysmart:49fcb3586f25",
+  "url": "https://www.moneysmart.sg/credit-cards?page=4",
+  "title": "Maybank FC Barcelona Visa Signature",
+  "source_type": "aggregator",
+  "retrieved_at": "2026-09-27T05:27:20+00:00",
+  "sha256": "49fcb3586f252df0b2dacb9acecc465127e09c9defa7f151881c3db46d84649e",
+  "snapshot": "data/raw/moneysmart/credit-cards-p4-1a322210.html"
+ },
+ "extra": {
+  "summary": "The Maybank FC Barcelona Visa Signature Card is an exclusive offering that caters to football enthusiasts and fans of FC Barcelona. Cardholders can enjoy a range of privileges, including opportunities to win VIP match ticket experiences. Additionally, the card offers rewards on everyday spending, earning 1.6% unlimited cashback on local and foreign spend (no minimum spend required).",
+  "badges": [],
+  "network": [
+   "Visa"
+  ],
+  "mobile_wallets": [
+   "Visa Contactless",
+   "Apple Pay",
+   "Samsung Pay"
+  ],
+  "groups": {
+   "annual-interest-rate-and-fees": {
+    "Annual Interest Rate": "27.90% p.a. subject to a minimum charge of S$3.00",
+    "Annual Principal Fee": "130.80",
+    "Supplementary Annual Fee": "Complimentary",
+    "Fee Waiver": "Available with a total yearly minimum spend of S$10,000",
+    "Minimum Monthly Repayment": "3% of outstanding balance or S$20, whichever is higher",
+    "Interest Free Period": "20 days"
+   },
+   "minimum-income-requirements": {
+    "Singaporean/PR Minimum Annual Income": "30000",
+    "Non-Singaporean Minimum Annual Income": "60000"
+   },
+   "card-association": {
+    "Visa": "true"
+   },
+   "wireless-payment": {
+    "Visa Contactless": "true",
+    "Apple Pay": "true",
+    "Samsung Pay": "true"
+   }
+  },
+  "our_takes": {
+   "our-take": "The Maybank FC Barcelona Visa Signature card offers a straightforward 1.6% unlimited cashback on local and foreign spending, appealing to those who prefer fuss-free rewards without minimum spends or caps. FC Barcelona fans will appreciate perks like discounts at the official store and a chance to win tickets to games. However, the 2.25% foreign transaction fee plus a 1% currency conversion charge makes it less ideal for frequent overseas spending, despite the boosted TREATS points on foreign currency spends. Consider alternatives if you prioritize maximizing rewards on specific spending categories given the lack of bonus cashback on daily spend categories.",
+   "good-for": "Football fans seeking exclusive FC Barcelona experiences and discounts on merchandise.\nCardholders wanting unlimited cashback on all local spending without complex tiering or spending requirements.\nSingaporeans earning S$30,000 annually who appreciate fuss-free rewards and a chance to watch matches live.",
+   "things-to-note": "A S$130.80 annual fee applies after the first two years; ensure rewards outweigh this cost each year.\nA 27.90% interest rate applies if you don't pay in full, so aim to avoid carrying a balance.\nLate payment fees can be as high as S$100, so always pay at least the minimum amount on time."
+  },
+  "updated_at": "2025-08-27T17:42:44+08:00"
+ }
+}

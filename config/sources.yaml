@@ -1,0 +1,82 @@
+# Endpoints and politeness settings for each source. Change URLs here, not in code.
+
+singsaver:
+  base_url: https://www.singsaver.com.sg
+  sitemap: https://www.singsaver.com.sg/sitemap-scms-pages.xml
+  use_sitemap: true
+  listing_pages:
+    - https://www.singsaver.com.sg/credit-cards
+    - https://www.singsaver.com.sg/credit-card/air-miles
+    - https://www.singsaver.com.sg/credit-card/cashback
+    - https://www.singsaver.com.sg/credit-card/rewards
+  skip_patterns:
+    - "-old$"
+    - "test"
+    - "business"
+  delay: 1.5
+
+moneysmart:
+  listing_url: https://www.moneysmart.sg/credit-cards
+  delay: 3
+
+milelion:
+  api: https://milelion.com/wp-json/wp/v2
+  credit_card_category_id: 182
+  max_pages: 25
+  delay: 1.5
+
+krisflyer:
+  redeem_page: https://www.singaporeair.com/en_UK/sg/ppsclub-krisflyer/use-miles/redeem-miles/
+  chart_link_pattern: "(?i)one-?way.*(saver|advantage).*award.*chart.*\\.pdf"
+
+mcc_reference:
+  url: https://raw.githubusercontent.com/greggles/mcc-codes/main/mcc_codes.json
+  note: >-
+    Community-maintained ISO 18245 list (github.com/greggles/mcc-codes), compiled from Visa,
+    Mastercard, IRS and USDA publications. Brand-specific airline/hotel/car codes 3000-3999 are
+    only partially listed.
+
+banks_delay: 2
+
+# How to find T&C documents on each bank's product pages. A PDF link is taken when its URL or link
+# text matches any tnc_link_pattern and no ignore_link_pattern.
+# robots.txt is honoured by default. Some banks (e.g. HSBC: `Disallow: /*.pdf$`) forbid automated
+# PDF fetching; use `pocketaces tnc import` for those, or set `respect_robots: false` for the bank
+# only if you have decided that is acceptable.
+banks:
+  dbs:
+    tnc_link_patterns: ["terms", "tnc", "t-c", "t&c"]
+    ignore_link_patterns: ["privacy", "fees-and-charges", "insurance", "policy-wording", "agreement",
+                           "paylah", "faq", "/deposits/"]
+  posb:
+    tnc_link_patterns: ["terms", "tnc", "t-c"]
+    ignore_link_patterns: ["privacy", "insurance", "policy-wording", "agreement"]
+  uob:
+    tnc_link_patterns: ["terms", "tnc", "t-c", "tncs"]
+    ignore_link_patterns: ["privacy", "best-execution", "fees-and-charges", "insurance", "agreement"]
+  ocbc:
+    tnc_link_patterns: ["tncs", "terms", "programme"]
+    ignore_link_patterns: ["welcome-gift", "360-account", "fee-charge", "cm_agreement", "faq"]
+  citibank:
+    tnc_link_patterns: ["terms", "tnc", "t-c"]
+    ignore_link_patterns: ["privacy", "insurance", "agreement"]
+  hsbc:
+    tnc_link_patterns: ["reward-points-terms", "cashback.*terms", "terms-and-conditions"]
+    ignore_link_patterns: ["sign-up", "privacy", "travel-policy", "insurance", "agreement", "tariff",
+                           "fundandfly", "fund-fly", "supporting-documents", "abs.org"]
+  standard-chartered:
+    tnc_link_patterns: ["terms", "tnc", "t-c"]
+    ignore_link_patterns: ["privacy", "insurance", "agreement", "promotion"]
+  maybank:
+    tnc_link_patterns: ["terms", "tnc", "t-c"]
+    ignore_link_patterns: ["privacy", "insurance", "agreement"]
+  amex:
+    tnc_link_patterns: ["terms", "tnc"]
+    ignore_link_patterns: ["privacy", "insurance"]
+  trust:
+    tnc_link_patterns: ["terms", "tnc"]
+    ignore_link_patterns: ["privacy"]
+
+# aggregator products that are not consumer credit cards (ignored by `pocketaces discover`)
+discover_skip_patterns: ["corporate", "debit", "bundle", "funds-transfer", "wealth-first-account",
+                         "^revolut", "worldfirst", "business"]

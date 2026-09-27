@@ -1,0 +1,234 @@
+{
+ "source": "singsaver",
+ "source_id": "standard-chartered-visa-infinite-credit-card",
+ "source_url": "https://www.singsaver.com.sg/credit-card/products/standard-chartered-visa-infinite-credit-card",
+ "name": "Standard Chartered Visa Infinite Credit Card",
+ "bank": "Standard Chartered",
+ "card_id": "standard-chartered-visa-infinite",
+ "image_url": "https://mhgprod.blob.core.windows.net/singsaver/strapi-uploads/xs_blt66141990e1db7494_3fe92ef4bb.webp",
+ "annual_fee": 599.5,
+ "annual_fee_note": "S$ | Strictly non-waivable.",
+ "min_annual_income": 150000.0,
+ "min_monthly_spend": 2000.0,
+ "earn_rates": {
+  "mpd:hotel_booking": {
+   "value": 1.4,
+   "unit": "mpd",
+   "note": null
+  },
+  "mpd:flight_booking": {
+   "value": 1.4,
+   "unit": "mpd",
+   "note": null
+  },
+  "mpd:baseline": {
+   "value": 1.0,
+   "unit": "mpd",
+   "note": "If minimum S$2,000 eligible spend is not met per calendar month."
+  },
+  "mpd:retail": {
+   "value": 1.4,
+   "unit": "mpd",
+   "note": null
+  },
+  "mpd:dining": {
+   "value": 1.4,
+   "unit": "mpd",
+   "note": null
+  },
+  "mpd:local_online_shopping": {
+   "value": 1.4,
+   "unit": "mpd",
+   "note": null
+  },
+  "mpd:overseas_online_shopping": {
+   "value": 3.0,
+   "unit": "mpd",
+   "note": null
+  },
+  "mpd:department_store": {
+   "value": 1.4,
+   "unit": "mpd",
+   "note": null
+  },
+  "mpd:supermarket": {
+   "value": 1.4,
+   "unit": "mpd",
+   "note": null
+  },
+  "mpd:transport": {
+   "value": 1.4,
+   "unit": "mpd",
+   "note": null
+  },
+  "mpd:petrol": {
+   "value": 1.4,
+   "unit": "mpd",
+   "note": null
+  },
+  "mpd:travel": {
+   "value": 1.4,
+   "unit": "mpd",
+   "note": null
+  },
+  "points_per_dollar:baseline": {
+   "value": 3.5,
+   "unit": "points_per_dollar",
+   "note": "3.5 Rewards Points for every S$1 spent in SGD (1.4 miles)."
+  },
+  "points_per_dollar:local_spending": {
+   "value": 3.5,
+   "unit": "points_per_dollar",
+   "note": "Or 1.4 miles for every S$1 spent in SGD."
+  },
+  "points_per_dollar:overseas_spending": {
+   "value": 7.5,
+   "unit": "points_per_dollar",
+   "note": "Or 3 miles per S$1 spent in foreign currency."
+  },
+  "points_per_dollar:contactless_spend": {
+   "value": 3.5,
+   "unit": "points_per_dollar",
+   "note": "Or 1.4 miles for every S$1 spent in SGD."
+  },
+  "points_per_dollar:online_shopping": {
+   "value": 3.5,
+   "unit": "points_per_dollar",
+   "note": "Or 1.4 miles for every S$1 spent in SGD."
+  },
+  "points_per_dollar:retail": {
+   "value": 3.5,
+   "unit": "points_per_dollar",
+   "note": "Or 1.4 miles for every S$1 spent in SGD."
+  },
+  "points_per_dollar:dining": {
+   "value": 3.5,
+   "unit": "points_per_dollar",
+   "note": "Or 1.4 miles for every S$1 spent in SGD."
+  },
+  "points_per_dollar:online_food_delivery": {
+   "value": 3.5,
+   "unit": "points_per_dollar",
+   "note": "Or 1.4 miles for every S$1 spent in SGD."
+  },
+  "points_per_dollar:grocery": {
+   "value": 3.5,
+   "unit": "points_per_dollar",
+   "note": "Or 1.4 miles for every S$1 spent in SGD."
+  },
+  "points_per_dollar:taxi_ride_sharing": {
+   "value": 3.5,
+   "unit": "points_per_dollar",
+   "note": "Or 1.4 miles for every S$1 spent in SGD."
+  },
+  "points_per_dollar:hotel_booking": {
+   "value": 3.5,
+   "unit": "points_per_dollar",
+   "note": "Or 1.4 miles for every S$1 spent in SGD."
+  },
+  "points_per_dollar:flight_booking": {
+   "value": 3.5,
+   "unit": "points_per_dollar",
+   "note": "Or 1.4 miles for every S$1 spent in SGD."
+  },
+  "points_per_dollar:travel": {
+   "value": 3.5,
+   "unit": "points_per_dollar",
+   "note": "Or 1.4 miles for every S$1 spent in SGD."
+  },
+  "points_per_dollar:entertainment": {
+   "value": 3.5,
+   "unit": "points_per_dollar",
+   "note": "Or 1.4 miles for every S$1 spent in SGD."
+  },
+  "points_per_dollar:petrol": {
+   "value": 3.5,
+   "unit": "points_per_dollar",
+   "note": "Or 1.4 miles for every S$1 spent in SGD."
+  },
+  "mpd:overseas": {
+   "value": 3.0,
+   "unit": "mpd",
+   "note": null
+  },
+  "mpd:local": {
+   "value": 1.4,
+   "unit": "mpd",
+   "note": "1 mile per S$1 otherwise if monthly spend is below S$2,000. "
+  }
+ },
+ "caps": {},
+ "highlights": [
+  "Earn 3 mpd overseas & 1.4 mpd locally with S$2K spend/month; Else 1 mpd on all spends",
+  "pros: Earn up to 3 miles per dollar in every statement cycle where a min. eligible spend of S$2,000 is made.",
+  "pros: Complimentary Priority Pass membership with 6 lounge visits a year.",
+  "pros: Receive complimentary travel insurance coverage of up to S$1 million when you charge your full travel fare to this card.",
+  "pros: Get access to exclusive card offers and privileges with \nThe Good Life\n programme.",
+  "pros: Earn rewards points on education, rental, insurance, and tax payments via SC EasyBill.",
+  "pros: Local spend: 3.5 rewards points (1.4 miles per S$1)",
+  "pros: Miles do not expire.",
+  "cons: Base earn rate of 1 mile per S$1.",
+  "cons: A S$26.75 transfer fee is levied for every mileage transfer rewards code redeemed.",
+  "cons: Annual fee is strictly non-waivable.",
+  "pros: Airport lounge",
+  "pros: Travel insurance",
+  "pros: Bonus air miles",
+  "cons: Monthly spend required"
+ ],
+ "sign_up_offers": [],
+ "links": {},
+ "citation": {
+  "id": "singsaver:0e084637ef70",
+  "url": "https://www.singsaver.com.sg/credit-card/products/standard-chartered-visa-infinite-credit-card",
+  "title": "Standard Chartered Visa Infinite Credit Card",
+  "source_type": "aggregator",
+  "retrieved_at": "2026-09-27T05:26:43+00:00",
+  "sha256": "0e084637ef7038f5ecd7397ef75c656cac005de141ae30da7f9b7c9129611e81",
+  "snapshot": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-standard-chartered-visa-infinite-credit-card-4d7c5311.html"
+ },
+ "extra": {
+  "network": [
+   "VISA Infinite"
+  ],
+  "mobile_wallets": [
+   "Google Pay",
+   "Apple Pay",
+   "Samsung Pay"
+  ],
+  "fx_fee_percent": 3.5,
+  "miles_conversion_fee": 27.0,
+  "categories": [
+   "category:airmiles",
+   "category:all-credit-cards",
+   "category:dining-promo",
+   "category:grocery-promo",
+   "category:installment",
+   "category:overseas",
+   "category:petrol-promo",
+   "category:premium-cards",
+   "category:retail-promo",
+   "category:rewards",
+   "category:travel",
+   "needs:0-interest-rate",
+   "needs:airport-lounge-transfer",
+   "needs:all-airmiles-cards",
+   "needs:all-cards-with-dining-promo",
+   "needs:all-cards-with-grocery-promo",
+   "needs:all-cards-with-petrol-promo",
+   "needs:all-cards-with-retail-promo",
+   "needs:all-credit-cards",
+   "needs:all-installment-cards",
+   "needs:all-overseas-cards",
+   "needs:all-premium-cards",
+   "needs:all-rewards-cards",
+   "needs:all-travel-cards",
+   "needs:free-travel-insurance",
+   "needs:no-expiry-on-miles",
+   "needs:online-booking-discount",
+   "needs:unlimited-airmiles",
+   "needs:unlimited-reward-points"
+  ],
+  "tag": null,
+  "description": "Arm yourself with the Standard Chartered Visa Infinite Card before your next trip, and look forward to up to 3 miles per S$1 overseas spend, along with complimentary airport lounge visits, S$1 million in complimentary travel insurance and more!"
+ }
+}

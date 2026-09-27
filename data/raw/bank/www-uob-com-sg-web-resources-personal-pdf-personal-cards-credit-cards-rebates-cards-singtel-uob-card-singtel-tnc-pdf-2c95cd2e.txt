@@ -1,0 +1,709 @@
+TERMS AND CONDITIONS GOVERNING SINGTEL-UOB CARD
+Overview
+This document sets out the general terms and conditions governing the Singtel-UOB Credit Card which we
+may provide to you from time to time. These terms and conditions are binding on you therefore it is important
+that you read and understand this document.
+By applying for or using the Singtel-UOB Credit Card, you commit yourself to comply with all of the terms
+and conditions set out herein (“these Terms”). You are deemed to have already read, understood and
+accepted every Term.
+These Terms supplement, are additional to and are to be read together with:-
+(a) our UOB Cardmembers Agreement; and
+(b) the terms and conditions of other document or agreement governing your relationship with us.
+(a) and (b) are collectively known as the “Other Terms”
+If there is any conflict or inconsistency between these Terms and the Other Terms, these Terms shall prevail
+over the Other Terms to the extent necessary to give effect to these Terms. Please visit uob.com.sg for full
+details.
+Unless the context otherwise requires or these Terms expressly provide otherwise, all words and
+expressions defined in the prevailing UOB Cardmembers Agreement shall have the same meanings when
+used or referred to below.
+Definitions
+The following terms shall have the following meanings when used in these Terms:
+“Bank” or “UOB” means United Overseas Bank Limited.
+“Card” means the Singtel-UOB Credit Card.
+“Designated Bills” means individual Singtel Bill and GOMO charges.
+“Eligible Recurring Payment Arrangement” means Designated Bills that are charged on a recurring
+basis to the Card.
+“Indemnified Parties” means Singtel, UOB and/or all their servants, employees, nominees, directors and
+agents.
+“Local Mobile Contactless Spend” means in-store contactless Transactions made via the following
+mobile wallets: Apple Pay, Samsung Pay, Google Pay and such other mobile wallet services as UOB may
+determine from time to time at its sole discretion and processed locally in Singapore, as UOB may determine
+from time to time at its sole discretion. For the avoidance of doubt, Transactions which are made online via
+any of the mobile wallets listed above will not be eligible to receive any Cashback under the “Mobile
+Contactless Spend” category but will receive Cashback under the “Online Spend” category.
+“Local Online Spend” refers to Transactions made via the internet based on system indicators and
+processed locally in Singapore by the respective merchants/acquirers as an online transaction.
+Date of publishing: 11 September 2026 v2.7
+United Overseas Bank Limited Co. Reg. No. 193500026Z“Overseas Foreign Currency Spend” means Transactions which are processed outside of Singapore and
+successfully charged to your Card and posted on UOB’s system, in a foreign currency. Transactions which
+are processed outside of Singapore, but which are charged to your Card in Singapore dollars at the time of
+the Transaction will not constitute an Overseas Foreign Currency Spend.
+“Other Spend” means all other Transactions that are not Local Online Spend, Local Mobile Contactless
+Spend and/or Singtel Spend.
+“Singtel” means Singapore Telecommunications Limited.
+“Singtel Bill” means any bill issued by Singtel or any of its related corporations (“related corporations”
+having the meaning given to that term in Section 6 of the Companies Act 1967 of Singapore to customers
+who are individuals. For the avoidance of doubt, individual Singtel bills exclude bills issued to corporate
+customers.
+“Singtel Spend” refers to Transactions made at Singtel, or any of its related corporations with the following
+Merchant Category Codes (MCC) and which are processed locally in Singapore and contain the
+corresponding transaction descriptions as set out in the table below, which may be updated from time to
+time.
+MCC Descriptions
+4812, • BS WHATSAPP BOT*
+4814, • ERAJAYA* (removed w.e.f. 28 June 2026)
+5999 • G-FORCE*
+• GKE RETAILS PTE LTD*
+• GOMO*(included w.e.f 24 April 2026)
+• GOMO MOBILE PLAN* (removed w.e.f. 24 April 2026)
+• HELLO*
+• MY APPS MALL*
+• MYSINGTELAPP*
+• PREPAID ONLINE TOP UP*
+• PREPAID*
+• SINGAPORE TELECOM*
+• SINGTEL*
+• SINGTELSHOP*
+• STBILL*
+• STS*
+• TELECOM EQ*
+• WHIZCOMM*
+• 3 MOBILE TELECOM*
+• ROYAL TELE* (included w.e.f 28 June 2026)
+The asterisk symbol (“*”) used in transaction descriptions signifies that any number of characters may follow
+the specified word or phrase.
+For example, “SINGTEL*” encompasses variations such as “SINGTEL MOBILE”, “SINGTEL TV”, and other
+transaction descriptors that begin with “SINGTEL”.
+For avoidance of doubt, the following transactions do not constitute as eligible Singtel Spend:
+(a) Singtel Dash;
+(b) enterprise-related payments;
+Date of publishing: 11 September 2026 v2.7
+United Overseas Bank Limited Co. Reg. No. 193500026Z(c) Singtel Protect and other insurance-related transactions.
+“Transactions” means the transactions successfully charged to the Card Account by the Principal and
+Supplementary Cardmembers and posted on the Bank’s systems but excludes the following :
+(a) cash advances;
+(b) balance and/or fund transfers;
+(c) NETS and NETS-related transactions;
+(d) monthly instalments under 0% Instalment Payment Plan and SmartPay;
+(e) amounts approved under the UOB Payment Facility and any associated fees or charges;
+(f) any transactions made at Shell petrol stations and SPC petrol stations;
+(g) any interest, fees and charges (including without limitation, late payment charges or
+interest charges, annual or monthly fees or charges) imposed by the Bank;
+(h) any credit card transaction that is subsequently cancelled, voided, refunded or reversed
+for any reason;
+(i) any transaction made with the following Merchant Category Codes (MCC):
+MCC Description
+4829 Wire Transfer/Remittance
+4900 Utilities
+5199 Nondurable Goods
+5960 Direct Marketing - Insurance Services
+5965 Direct marketing –Combination Catalog and Retail Merchants
+5993 Cigar Stores and Stands
+6012 Member Financial Institution–Merchandise and Services
+6050 Quasi Cash–Financial Institutions, Merchandise and Services
+6051 Quasi Cash–Merchant (Non-Financial Institutions – Foreign Currency,
+Non-Fiat Currency, Cryptocurrency)
+6211 Securities–Brokers and Dealers
+6300 Insurance Sales/Underwrite
+6513 Real Estate Agents & Managers – Rentals
+6529 Quasi Cash-Remote Stored Value Load-Financial Institute Rentals
+6530 Quasi Cash-Remote Stored Value Load-Merchant Rentals
+6534 Quasi Cash-Remote Money Transfers
+6540 Stored Value Card Purchase/Load
+7349 Clean/Maint/Janitorial Serv aka Property Management
+7511 Quasi Cash – Truck Stop Trxns
+7523 Automobile Parking Lots and Garages
+7995 Gambling - Betting, including Lottery Tickets, Casino Gaming Chips, Off-
+Track Betting, and Wagers at Race Tracks
+8062 Hospitals
+8211 Schools, Elementary and Secondary
+8220 Colleges, Universities, Professional Schools and Junior Colleges
+8241 Schools, Correspondence
+8244 Schools, Business and Secretarial
+8249 Schools, Trade and Vocational
+8299 Schools and Educational Services–Not Elsewhere Classified
+8398 Charitable and Social Service Organizations
+Date of publishing: 11 September 2026 v2.7
+United Overseas Bank Limited Co. Reg. No. 193500026Z8661 Religious Organizations
+8651 Political Organizations
+8699 Membership Organizations (Not Elsewhere Classified)
+8999 Professional Services (Not Elsewhere Classified)
+9211 Court Costs including Alimony and Child Support
+9222 Fines
+9223 Bail and Bond Payments
+9311 Tax Payment
+9402 Postal Services—Government Only
+9405 Intra-Government Purchases—Government Only
+9399 Government Services—not elsewhere classified
+(j) any top-ups or payment of funds to payment service providers or prepaid accounts;
+(k) any transaction made with the following transaction descriptions:
+• AXS* • Saxo Cap Mkts Pts Ltd
+• CITY INDEX* • SKR*PLUS500CY LTD
+• EZ LINK* • SKR*SKRILL.COM
+• EZ-LINK * • TRANSIT*
+• EZLINK* • WWW.IGMARKETS.COM.SG
+• EZLINKS* • WWW.MYEZLINK.COM.SG
+• FLASHPAY* • WWW.PLUS500.CO.UK
+• NETSFLASHPAY* • SP Digital*
+• MB * MONEYBOOKERS.COM • SP Services*
+• OANDA ASIA PAC • AMAZE* TRANSIT*
+• OANDAASIAPA • IPAYMY*
+• PAYPAL * OANDAASIAPA • RWS-LEVY*
+• PLUS500 • SMOOVE PAY*
+• PLUS500UK LIMITED • SINGPOST-SAM*
+• PAYPAL* PLUS500 • RazerPay*
+• PAYPAL* PLUS500.COM • NORWDS*
+• PAYPAL * CAPITALROYA • AMAZE*
+• PAYPAL * BIZCONSULTA
+(l) any other transactions which the Bank may exclude from time to time without prior notice to you.
+For the avoidance of doubt,
+a. Please note that a merchant’s registered MCC may not always correspond with its nature
+of business. The MCCs are assigned by the merchant’s acquiring bank. UOB does not
+determine the merchants’ MCC. UOB shall not be liable in any way whatsoever relating
+to the categorisation of a merchant’s MCC.
+b. Transactions effected in foreign currencies will be converted into Singapore dollars based
+on UOB’s prevailing exchange rate and the Singapore dollar amount posted on UOB’s
+system will be used for the purposes of computing your Qualifying Spend and
+corresponding Cashback.
+Date of publishing: 11 September 2026 v2.7
+United Overseas Bank Limited Co. Reg. No. 193500026ZTransitional Provisions
+If you are an existing Singtel-UOB Cardholder with the principal Card issued before 27 August 2025, except
+as otherwise stipulated, these revised terms and conditions governing Singtel-UOB Card will only apply to
+Transactions posted to your Card on or after 27 August 2025.
+If your GOMO charges are charged to the Card on a recurring basis for 12 consecutive months by 10
+November 2025, and you are charged an annual fee on or after 10 November 2025, you will receive a
+waiver of the annual fee posted to your Card.
+If you are an existing Singtel-UOB Cardholder whose principal Card is approved before 17 April 2026,
+clause 2 with the exception of clause 2.3 will apply to your eligibility for Singtel vouchers until the end of
+your ongoing qualifying period for Singtel voucher eligibility. Thereafter, clause 2 with the exception of
+clause 2.2 will apply.
+If you are a new Singtel-UOB Cardholder whose principal Card is approved on/after 17 April 2026, clause
+2 with the exception of clause 2.2 will apply to your eligibility to receive Singtel vouchers.
+1. Cashback
+1.1 As a Cardmember, you will earn cashback on Transactions charged to your Card
+(“Cashback”) as follows:
+Qualifying Spend Cashback Cap per statement
+month
+S$800 12% Cashback on Singtel Spend S$30
+(per statement
+month) 10% Cashback on Local Online S$30
+Spend and Local Mobile Contactless
+Spend
+0.3% Cashback on all Other Spend S$20
+1.2 To qualify for 12% Cashback on Singtel Spend and 10% Cashback on Local Online Spend
+and Local Mobile Contactless Spend, you must successfully charge at least S$800 worth
+of Transactions in a statement month to your Card (“Qualifying Spend”).
+1.3 If you do not meet the Qualifying Spend in a statement month, you will earn 0.3% Cashback
+on all Transactions successfully charged to your Card account in that statement month.
+1.4 The maximum total Cashback is capped at S$80 for each statement month, and it will be
+computed based on the Transactions successfully charged and posted to your Card in a
+statement month as shown in your Card statement in respect of that statement month, and
+will be rounded to the nearest two decimal places.
+1.5 The Cashback earned for the current statement month will be credited into your Card
+account in the next statement month in Singapore dollars and can only be used to offset
+against the billed amount for your Card account in your next statement month.
+1.6 Transactions incurred by your supplementary holder of your Card will accrue to your
+principal Card for the purposes of computing the Qualifying Spend on your principal Card
+Date of publishing: 11 September 2026 v2.7
+United Overseas Bank Limited Co. Reg. No. 193500026Zaccount. Cashback earned by the supplementary holder of your Card will be credited to
+your principal Card account.
+1.7 Clauses 1.2 to 1.5 apply regardless of whether your first statement period in relation to
+your new Card is less than a statement month.
+1.8 The Cashback is neither transferable nor exchangeable for cash, reward points, credit,
+goods and services, products or privileges or other kind in full or in part and is not
+refundable or replaceable.
+1.9 Unused Cashback will be forfeited on (whichever earlier):
+• 2 calendar years from the last day of the statement month the Cashback was
+awarded;
+• the Bank’s receipt of your request to terminate your Card; or
+• the termination of your Card by the Bank for any reason whatsoever.
+1.10 The crediting of the Cashback amount by UOB does not constitute payment of any amount
+due on your Card account (including any minimum payment amount due).
+1.11 Any Cashback awarded in respect of any reversed, voided, refunded or cancelled
+Transactions will be deducted from the Card account.
+2. Singtel Vouchers
+2.1 The duration of your qualifying period for Singtel voucher eligibility shall be as follows:
+Existing Singtel-UOB Cardholder whose principal Card is approved before 17 April
+2026:
+Qualifying Period Duration
+1st qualifying period Date of your Card approval to the date of your 13th monthly
+card statement
+Qualifying periods prior to Day after the last date of the immediately preceding
+the qualifying period that is qualifying period to the date of your next 12th monthly card
+ongoing as at 17 April 2026 statement
+Qualifying period that is Day after the last date of the immediately preceding
+ongoing as at 17 April 2026 qualifying period to the date of your next 12th monthly card
+statement
+1st qualifying period after Day after the last date of the immediately preceding
+the end of the qualifying qualifying period to the date of your next 13th monthly card
+period that was ongoing as statement
+at 17 April 2026
+Subsequent qualifying Day after the last date of the immediately preceding
+periods qualifying period to the date of your next 12th monthly card
+statement
+New Singtel-UOB Cardholder whose principal Card is approved on or after 17 April
+2026:
+Date of publishing: 11 September 2026 v2.7
+United Overseas Bank Limited Co. Reg. No. 193500026ZQualifying Period Duration
+1st qualifying period Date of your Card approval to the date of your 13th monthly
+card statement
+Subsequent qualifying Day after the last date of the immediately preceding
+periods qualifying period to the date of your next 12th monthly card
+statement
+2.2 If you are an existing Singtel-UOB Cardholder whose principal Card is approved before 17
+April 2026 and your qualifying period for Singtel voucher eligibility is ongoing as at 17 April
+2026, you will be entitled to receive Singtel vouchers as a Principal Cardmember during
+that ongoing qualifying period when you:
+(i) have in place an Eligible Recurring Payment Arrangement for postpaid Singtel Mobile,
+Fibre Broadband or TV services (not including GOMO charges and prepaid services) and
+(ii) meet the minimum local spend indicated in the table below during a qualifying period:
+Minimum total annum local spend Receive Singtel vouchers worth
+(including Singtel bills and GOMO
+charges)
+Spend S$12,000 to less than S$100
+S$24,000
+Spend S$24,000 and above S$300
+(iii) Qualifying Local Spend are posted retail transactions made in Singapore dollars
+excluding funds transfers, cash advances, personal loan, overseas spend
+transactions in foreign currency, void card transactions, chargebacks, fees, interests,
+other financial charges, amounts approved under the UOB Payment Facility and any
+associated fees or charges, any payment to educational institutions, any payment
+made with the following Merchant Category Codes, 6012 Member Financial Institution
+– Merchandise and Services, 6211 - Securities – Brokers and Dealers, 6540 - Stored
+Value Card Purchase/Load, 7995 - Betting/Track/Casino/Lotto and Political
+Organizations, selected transactions such as insurance payments, Grab mobile wallet
+top-ups, wire transfers, payments to non-financial institutions, quasi-cash, transactions
+involving payments to hospitals, automobile parking lots and garages and such other
+categories of transactions which UOB may exclude from time to time without notice or
+giving reasons.
+(iv) Supplementary Cardmembers’ Local Spend during a Qualifying Period will be included
+in the calculation of their principal Cardmember's Local Spend for that Qualifying
+Period.
+2.3 If you are an existing Singtel-UOB Cardholder whose principal Card is approved before 17
+April 2026 and your latest qualifying period for Singtel voucher eligibility that was ongoing
+as at 17 April 2026 has ended or you are a new Singtel-UOB Cardholder whose principal
+Card was approved on or after 17 April 2026, you will be entitled to receive Singtel vouchers
+as Principal Cardmember during a qualifying period when you:
+(i) have in place an Eligible Recurring Payment Arrangement for postpaid Singtel
+Mobile, Fibre Broadband or TV services (not including GOMO charges and
+Date of publishing: 11 September 2026 v2.7
+United Overseas Bank Limited Co. Reg. No. 193500026Zprepaid services) and
+(ii) meet the Singtel Spend indicated in the table below during a qualifying period:
+Minimum total annum Singtel Receive Singtel vouchers worth
+Spend
+Spend S$3,500 to less than S$5,500 S$100
+Spend S$5,500 and above S$300
+(iii) Supplementary Cardmembers’ Singtel Spend during a Qualifying Period will be
+included in the calculation of their principal Cardmember’s Singtel Spend for that
+Qualifying Period.
+2.4 For example:
+Existing Singtel-UOB Cardholder whose principal Card is approved before 17 April
+2026:
+Your Card is approved on 18 April 2025. Your monthly card statements are issued on the
+28th of each month.
+Your first qualifying period will be from 18 April 2025 to 28 April 2026, during which Clause
+2.2 will apply to your eligibility for Singtel vouchers.
+Your next qualifying period will be from 29 April 2026 to 28 April 2027, during which Clause
+2.3 will apply to your eligibility for Singtel vouchers. Your subsequent qualifying period will
+be from 29 April 2027 to 28 March 2028. Clause 2.3 will also apply to your eligibility for
+Singtel vouchers for this subsequent qualifying period and all qualifying periods thereafter.
+New Singtel-UOB Cardholder whose principal Card is approved on or after 17 April
+2026:
+Your Card is approved on 18 April 2026. Your monthly card statements are issued on the
+28th of each month.
+Your first qualifying period will be from 18 April 2026 to 28 April 2027 and your subsequent
+qualifying period will be from 29 April 2027 to 28 March 2028.
+Clause 2.3 will apply to your eligibility for Singtel vouchers for all qualifying periods.
+2.5 These Singtel vouchers shall be supplied by Singtel.
+2.6 Each Principal Cardmember is only eligible to receive the Singtel vouchers once per
+qualifying period, regardless of their total annum local/Singtel spend. Principal
+Cardmembers who are eligible to receive the Singtel vouchers be issued the Singtel
+vouchers within two (2) months after the end of a qualifying period provided that the Card
+account is in good standing, as we determine in our sole discretion at the end of a qualifying
+period. Early redemption is strictly not allowed.
+2.7 The Singtel vouchers will be awarded in the form of digital vouchers which you may view
+and access via MySingtel app. The Singtel voucher will be issued to the Principal
+Cardmember’s Singtel account that has in place the Eligible Recurring Payment
+Arrangement.
+Date of publishing: 11 September 2026 v2.7
+United Overseas Bank Limited Co. Reg. No. 193500026Z2.8 Singtel vouchers may be redeemed directly at Singtel shops or online via singtel.com, and
+can be used to offset the price when you purchase a mobile device together with
+subscription (new sign-up or recontract) to Enhanced XS / Enhanced S / Enhanced M /
+Priority L / Priority Pro / Priority Family Plan. A redemption of a Singtel voucher, once made,
+cannot be varied, reversed or cancelled. At redemption, if the value of the redeemed
+Singtel voucher is less than the relevant purchase price, the outstanding balance amount
+must be paid in order to complete the relevant purchase. If the value of the redeemed
+Singtel voucher is more than the relevant purchase price, the difference will not be
+refunded.
+2.9 The Singtel voucher is valid for 1 year from date of issue. Early issuance or redemption of
+the Singtel voucher is strictly not allowed.
+2.10 Singtel reserves the right to substitute the Singtel vouchers with alternative benefits of
+equivalent value.
+2.11 The Singtel vouchers may be redeemed directly at Singtel retail outlets or online via
+singtel.com. The Singtel vouchers can be used to offset the price when a Cardmembers
+purchases a mobile device together with subscription (new sign-up or recontract) to an
+eligible Singtel phone plan with 24-month contract. A redemption of a Singtel voucher, once
+made, cannot be varied, reversed or cancelled. At redemption, if the value of the redeemed
+Singtel voucher is less than the relevant purchase price, the outstanding balance amount
+must be paid by the Cardmember in order to complete the relevant purchase. If the value
+of the redeemed Singtel voucher is more than the relevant purchase price, the difference
+will not be refunded.
+2.12 Singtel may impose other terms and conditions governing the use of the Singtel vouchers
+as determined at its sole and absolute discretion.
+3. Annual Fee
+3.1 No annual fee will be charged for the Card with effect from 1 July 2026.
+4. FX fees
+4.1 There will be no administrative fees applied on transactions in foreign currencies (“FX
+fees”) charged on all Overseas Foreign Currency Spend successfully charged and posted
+to your Card account. This is regardless of whether you meet the Qualifying Spend in a
+statement month.
+4.2 For the avoidance of doubt, the International Processing Fee of 1% of the transaction
+amount, which is chargeable on transactions charged to your Card in Singapore dollars
+and processed outside Singapore, will continue to apply.
+5. UOB$ Programme
+5.1 You will earn UOB$ for spending at all UOB$ Merchants.
+5.2 Qualifying spend transactions are retail transactions made using the Card at the
+UOB$ Merchants.
+5.3 Should your spending be deemed to be for commercial and/or non-personal purposes, we
+reserve the right to refuse to award UOB$ for such transactions. We reserve the right to
+cancel and void any UOB$ awarded to your statement of account at any time if it deems
+Date of publishing: 11 September 2026 v2.7
+United Overseas Bank Limited Co. Reg. No. 193500026Zthat such UOB$ was not earned from your qualifying spend and you shall not be entitled
+to any compensation or payment whatsoever.
+5.4 Please refer to uob.com.sg/rewardsplus for other terms and conditions relating to the
+UOB$ Programme.
+6. Singtel Benefits (General Terms)
+6.1 Singtel-UOB Cardmembers must set up an Eligible Recurring Payment Arrangement on
+their Singtel and/or GOMO bills using their Singtel-UOB Card in order to enjoy the Singtel
+benefits set out in Clauses 7 through 12 below (the “Singtel Benefits”). After doing so,
+from 27 Aug 2025 onwards, you will automatically be eligible for the Singtel Benefits if you
+meet the requirements applicable to each Singtel Benefit as stated in Clauses 7 through
+12. Cardholders who do not set up the Eligible Recurring Payment Arrangement will not be
+eligible for the Singtel Benefits unless otherwise stated.
+6.2 In the event of Card termination or removal of the Eligible Recurring Payment Arrangement
+with the Singtel-UOB Card, all Singtel Benefits will cease immediately for the affected
+Cardmember.
+6.3 The Singtel Benefits are only applicable on purchases made by a Singtel-UOB
+Cardmember with a valid Singtel-UOB Card on or after 27 August 2025.
+6.4 The Singtel Benefits will apply to all services under your Singtel account. Such Singtel
+Benefits are not transferrable to other Singtel account holders.
+6.5 Neither UOB nor Singtel is not liable for the inability of a customer to take advantage of the
+Singtel Benefits for any reason, and Singtel Benefits cannot be retroactively claimed.
+Singtel and UOB reserves the right to amend, terminate and add to the listed Singtel
+Benefits without prior notice.
+6.6 Singtel may change its terms and conditions, or impose other terms and conditions,
+governing the Singtel Benefits (whether individually or collectively) as determined at its sole
+and absolute discretion.
+7. Singtel Benefit – Mobile (Extra Local Data & Talktime)
+7.1 Singtel-UOB Cardmembers can enjoy extra 10GB/month of local data and 100 mins /month
+of talktime, with (i) every new sign-up or recontract to an eligible Singtel phone plan
+(Enhanced M / Priority L / Priority Pro / Priority Family Plan), or (ii) every new sign-up to an
+eligible Singtel SIM Only plan (Enhanced Core / Priority Plus / Priority Ultra). This benefit
+will cease after 24 months.
+7.2 This benefit can be redeemed more than once by a customer, every time an eligible mobile
+plan sign-up or recontract is performed.
+7.3 Applicable to new plan sign-ups and recontracts performed in Singtel Shops & Singtel
+Exclusive Retailers, as well as online (via singtel.com). To enjoy this benefit, you must have
+Date of publishing: 11 September 2026 v2.7
+United Overseas Bank Limited Co. Reg. No. 193500026Zalready set up an Eligible Recurring Payment Arrangement on your Singtel bills using your
+Singtel-UOB Card before submitting an order for a new sign-up or recontract. The benefit
+will be provisioned automatically upon start of service.
+7.4 Cardmembers signing up for or recontracting to CIS, enterprise, Silver, or NTUC plans are
+not eligible for this benefit.
+7.5 This benefit offered under the Singtel-UOB Card is not stackable with other similar benefits
+(i.e. extra local data and talktime) offered under other rewards programmes such as but
+not limited to Singtel Red.
+7.6 This benefit will be removed under the following conditions:
+• Removal of the Eligible Recurring Payment Arrangement at any time (as per
+clause 6.2)
+• Downgrading of plan to non-eligible plans
+• Transfer of line ownership
+• Line suspension due to non-payment
+7.7 For other terms and conditions relating to Singtel Mobile, please refer to
+https://www.singtel.com/personal/terms/postpaid-mobile-terms.
+8. Singtel Benefit – Mobile (Admin Fee Waiver)
+8.1 Singtel-UOB Cardmembers can enjoy a waiver of the one-time SIM Card fee (worth $21.80),
+one-time registration fee (worth $10.90) and recontract fee (worth $10.90), when you (i)
+sign up or recontract to an eligible Singtel phone plan (Enhanced M / Priority L / Priority
+Pro / Priority Family Plan), or (ii) sign up to an eligible Singtel SIM Only plan (Enhanced
+Core / Priority Plus / Priority Ultra). All charges listed are inclusive of 9% GST.
+8.2 This benefit can be redeemed more than once by a Cardmember, every time an eligible
+mobile plan sign-up or recontract is performed.
+8.3 Applicable to new plan sign-ups and recontracts performed in Singtel retail outlets & Singtel
+Exclusive Retailers. To enjoy this benefit, the Cardmember must inform the sales staff of
+your Singtel-UOB Cardmember status at the point of sign-up/recontract, and show your
+Singtel-UOB Card upon request.
+8.4 Cardmembers signing up for or recontracting to CIS, enterprise, Silver, or NTUC plans are
+not eligible for this benefit.
+8.5 For other terms and conditions relating to Singtel Mobile, please refer to
+https://www.singtel.com/personal/terms/postpaid-mobile-terms.
+9. Singtel Benefit – Broadband (Free 12 months of CAST Pack)
+9.1 Singtel-UOB Cardmembers can redeem a free trial of one CAST pack when you sign up
+for or recontract to a 24-month fibre broadband plans. You may choose between the
+Education Pack, Entertainment Pack or Lifestyle Pack. The trial period is for 12 months.
+Date of publishing: 11 September 2026 v2.7
+United Overseas Bank Limited Co. Reg. No. 193500026Z9.2 Upon the start of your new or recontracted Singtel fibre broadband service, Cardmember
+will be sent an SMS with instructions to activate the CAST pack. The free trial period begins
+upon successful subscription to the CAST pack. After the trial period ends, a recurring
+monthly subscription fee of S$9.98 per month shall apply to your continued subscription to
+the selected CAST pack and will be charged to your Singtel Broadband account.
+9.3 Applicable to new plan sign-ups and recontracts performed in Singtel retail outlets & Singtel
+Exclusive Retailers. To enjoy this benefit, Cardmember must inform the sales staff of your
+Singtel-UOB Cardmember status at the point of sign-up/recontract, and show your Singtel-
+UOB Card upon request.
+9.4 Not applicable to customers enjoying the 10Gbps or 5Gbps Entertainment Bundle. No
+alternative CAST packs will be offered in-lieu.
+9.5 This benefit is not stackable with other CAST pack promotions. Cardmembers who are
+currently subscribed to any of these CAST packs are not eligible to redeem this benefit for
+the same pack but may redeem this benefit for another CAST pack. For the avoidance of
+doubt, Cardmembers redeeming this benefit may also redeem the benefit under Clause 11
+(Singtel Benefit – Reward (Free 6 months of CAST Pack)) for a different CAST pack.
+9.6 All CAST content, including complimentary channels, provided to customers is subject to
+change, removal, replacement, or addition from time to time at Singtel’s sole discretion.
+Cardmembers may not request for any changes to the CAST content packs. An eligible
+residential or CIS Singtel Postpaid mobile number is required to sign up for CAST through
+your Singtel mobile bill. Corporate or GOMO mobile customers may sign up for CAST under
+the credit card option. For other terms and conditions relating to CAST, visit
+www.cast.sg/termsandconditions.
+9.7 For other terms and conditions relating to Singtel Fibre Broadband, please refer to
+https://www.singtel.com/personal/terms/fibre-broadband-terms.
+10. Singtel Benefit – Broadband (NetLink Trust Service Activation Charge Waiver)
+10.1 Singtel-UOB Cardmembers can enjoy waiver of the NetLink Trust service activation charge
+(worth $61.04 per port) when you sign up for a new fibre broadband plan, or apply for
+relocation to shift your fibre broadband service to your new residence.
+10.2 This benefit can be redeemed more than once by a Cardmember, every time a new fibre
+broadband plan sign-up or relocation is performed.
+10.3 To enjoy this benefit, Cardmember must inform the sales staff of your Singtel-UOB
+Cardholder status at the point of sign-up, and show your Singtel-UOB Card upon request.
+10.4 Applicable to new plan sign-ups performed in Singtel Shops & Singtel Exclusive Retailers.
+10.5 In the event where the NetLink Trust service activation charge is not required, the waiver
+amount cannot be used to offset any other charges.
+Date of publishing: 11 September 2026 v2.7
+United Overseas Bank Limited Co. Reg. No. 193500026Z10.6 For other terms and conditions relating to Singtel Fibre Broadband, please refer to
+https://www.singtel.com/personal/terms/fibre-broadband-terms.
+11. Singtel Benefit – Reward (Free 6 months of CAST Pack)
+11.1 Singtel-UOB Cardmembers can redeem a free trial of one CAST pack. You may choose
+between the Education Pack, Entertainment Pack or Lifestyle Pack. The trial period is for
+6 months.
+11.2 The free trial period begins upon successful subscription to the CAST pack. After the trial
+period ends, a recurring monthly subscription fee of S$9.98 per month shall apply for your
+continued subscription to the selected CAST pack and will be charged to your Singtel
+Broadband account.
+11.3 To enjoy this benefit:
+(a) For existing Singtel-UOB Cardmembers (whose Card application is approved before
+27 August 2025), please contact Singtel customer service for instructions;
+(b) For new Singtel-UOB Cardmembers (whose Card application is approved on or after
+27 August 2025), please refer to the instructions and sign-up link in the welcome mailer
+sent along with your card mailer upon your successful application for the Card .
+11.4 This benefit can only be redeemed once per customer. Customers who are currently
+subscribed to any of these CAST packs are not eligible to redeem this benefit for the same
+CAST pack but may redeem this benefit for a different CAST pack. For the avoidance of
+doubt, customers redeeming this benefit may also redeem the benefit under Clause 9
+(Singtel Benefit – Broadband (Free 12 months of CAST Pack)) for a different CAST pack.
+11.5 All CAST content, including complimentary channels, provided to customers is subject to
+change, removal, replacement, or addition from time to time at Singtel’s sole discretion.
+Customer may not request for any changes to the content packs. An eligible residential or
+CIS Singtel Postpaid mobile number is required to sign up for CAST through your Singtel
+mobile bill. Corporate or GOMO mobile customers may sign up for CAST under the credit
+card option. For other terms and conditions relating to CAST, visit
+www.cast.sg/termsandconditions.
+12. Singtel Benefit – Reward (Free 6 months of Taste of Red)
+12.1 You can redeem complimentary access to Taste of Red for 6 months.
+12.2 To enjoy this benefit and sign up for Taste of Red:
+(a) For existing Singtel-UOB Cardmembers (whose Card application is approved before
+27 August 2025), please contact Singtel customer service for instructions;
+(b) For new Singtel-UOB Cardmembers (whose Card application is approved on or after
+27 August 2025), please refer to the instructions and sign-up link in the welcome mailer
+sent along with your card mailer upon your successful application for the Card.
+12.3 You may only redeem this benefit once as a Singtel-UOB Cardmember. After the
+complimentary access period, there shall be no renewal or extension of Taste of Red
+Date of publishing: 11 September 2026 v2.7
+United Overseas Bank Limited Co. Reg. No. 193500026Zaccess. You may upgrade to the full Singtel Red membership at any time during the
+complimentary access period.
+12.4 Existing Singtel Red and Taste of Red members are not eligible for this benefit.
+12.5 For other terms and conditions relating to Taste of Red, visit
+https://www.singtel.com/personal/my-account/rewards/taste-of-red/tncs.
+13. Singtel Benefit – Roaming (Additional 1GB for Asia, Worldwide & Others Roaming Plans)
+13.1 Singtel-UOB Cardmembers can enjoy an additional 1GB of roaming data, which will be
+automatically provided when you purchase a ReadyRoam Asia, Worldwide or Others plan
+(excluding the ReadyRoam Neighbours plan).
+13.2 To enjoy this benefit, you must have already set up an Eligible Recurring Payment
+Arrangement on your Singtel bills using your Singtel-UOB Card at the point of roaming plan
+sign-up. Customers who have any of the eligible ReadyRoam plans automatically activated
+once they travel, due to AutoReadyRoam, can also enjoy the additional 1GB of roaming
+data.
+13.3 The additional 1GB is valid for the same 30-day active plan period of the purchased
+ReadyRoam plan, and for the same destination coverage. Unused data is not refundable
+and cannot be carried forward.
+13.4 The additional 1GB is not applicable on ReadyRoam plans that are automatically added
+when you exceed your first ReadyRoam plan’s data bundle. This benefit offered under the
+Singtel-UOB Card is not stackable with other similar benefits (additional 1GB for
+ReadyRoam Asia, Worldwide & Others plans) offered under other rewards programmes
+(e.g. Singtel Red, Singtel x NTUC).
+13.5 For other terms and conditions relating to Singtel Roaming, please refer to
+https://www.singtel.com/personal/terms/postpaid-mobile-terms#roaming.
+14. Singtel Benefit – Roaming (Free 1 month of DataRoam Malaysia 6GB)
+14.1 Singtel-UOB Cardmembers can enjoy 1 free month of DataRoam Malaysia 6GB (3-month
+contract), in the form of a 100% discount on the 1st month.
+14.2 To enjoy this benefit, you must have already set up an Eligible Recurring Payment
+Arrangement on your Singtel bills using your Singtel-UOB Card at the point of roaming plan
+sign-up. The discount will be reflected in your Singtel bill.
+14.3 The DataRoam plan will be chargeable at the prevailing rate from the 2nd month onwards.
+If the DataRoam plan is terminated before the end of the 3-month contract, the 2nd and 3rd
+month for DataRoam Malaysia 6GB will still be charged to your bill.
+14.4 Unused data will not be rolled over to the next month. If you exceed the 6GB monthly data
+allowance, excess charges apply.
+Date of publishing: 11 September 2026 v2.7
+United Overseas Bank Limited Co. Reg. No. 193500026Z14.5 For other terms and conditions relating to Singtel Roaming, please refer to
+https://www.singtel.com/personal/terms/postpaid-mobile-terms#roaming.
+15. Singtel Benefit – GOMO (12% OFF 12 months of GOMO Infinity Plans) effective up till 10
+September 2026
+15.1 Singtel-UOB Cardmembers who successfully complete a new sign-up of an eligible GOMO
+plan (namely the GOMO 5G+ Asia Infinity Plan & GOMO 5G+ Global Infinity Plan) on or
+before 10 September 2026 can enjoy 12% off the prevailing monthly subscription price of
+such eligible plan.. This benefit will cease after 12 months from the date of successful sign-
+up.
+15.2 This benefit can be redeemed multiple times by the same Cardmember, provided that each
+redemption is made in respect of a new eligible GOMO plan sign-up/port-in. The discount
+will be reflected in your GOMO bill or at the point of payment.
+15.3 Applicable to new plan sign-ups performed online (via gomo.sg). To enjoy this benefit,
+Cardmember must input the relevant Singtel-UOB Cardmember promo code at the point of
+sign-up. Cardmembers may refer to the instructions and promo code in the welcome mailer
+sent along with their card mailer upon their successful application for the Card, or refer to
+the Cardmember-only welcome website.
+15.4 This benefit will be removed under the following conditions:
+• Removal of the Eligible Recurring Payment Arrangement at any time (as per
+clause 6.2)
+• Failure of the monthly recurring payment for any reason
+• Change of plan
+• Transfer of line ownership
+• Line suspension due to non-payment
+15.5 Any request for refund or reinstatement of this benefit will not be entertained.
+15.6 This benefit offered under the Singtel-UOB Card is not stackable with other ongoing
+promotions unless otherwise stated. For general GOMO terms and conditions, please refer
+to gomo.sg.
+16. Singtel Benefit – GOMO (30% OFF 6 months of GOMO Infinity Plans) with effect from 11
+September 2026
+16.1 Singtel-UOB Cardmembers who successfully complete a new sign-up of an eligible GOMO
+plan (namely the GOMO 5G+ Asia Infinity Plan or GOMO 5G+ Global Infinity Plan) on or
+after 11 September 2026 can enjoy 30% off the prevailing monthly subscription price of
+such eligible plan. This benefit will cease after 6 months from the date of successful sign-
+up.
+16.2 This benefit can be redeemed multiple times by the same Cardmember, provided that each
+redemption is made in respect of a new eligible GOMO plan sign-up/port-in. The discount
+will be reflected in your GOMO bill or at the point of payment.
+Date of publishing: 11 September 2026 v2.7
+United Overseas Bank Limited Co. Reg. No. 193500026Z16.3 Applicable to new plan sign-ups performed online (via gomo.sg). To enjoy this benefit,
+Cardmember must input the relevant Singtel-UOB Cardmember promo code at the point of
+sign-up. Cardmembers may refer to the instructions and promo code in the welcome mailer
+sent along with their card mailer upon their successful application for the Card, or refer to
+the Cardmember-only welcome website.
+16.4 This benefit will be removed under the following conditions:
+• Removal of the Eligible Recurring Payment Arrangement at any time (as per
+clause 6.2)
+• Failure of the monthly recurring payment for any reason
+• Change of plan
+• Transfer of line ownership
+• Line suspension due to non-payment
+15.5 Any request for refund or reinstatement of this benefit will not be entertained.
+15.6 This benefit offered under the Singtel-UOB Card is not stackable with other ongoing
+promotions unless otherwise stated. For general GOMO terms and conditions, please refer
+to gomo.sg.
+17. Visa payWave Reader and Transactions
+13.1 The Visa payWave-enabled Card may be used to carry out card transactions at all Visa
+point-of-sale terminals and at such other readers or systems as we may from time to time
+approve. The first card transaction on a new Card shall be subject to such activation and
+authentication procedures as we may in our sole and absolute discretion prescribe from
+time to time.
+13.2 As an additional usage avenue for your convenience, we have also made arrangements
+for you to use your new Cards to effect card transactions at Visa payWave readers. A Visa
+payWave reader is a point-of-sale device (as approved by us in our sole and absolute
+discretion from time to time) at which the new Card may be used to execute card
+transactions, either by tapping or waving the new Card against such reader without
+requiring any signature, PIN or other authentication on your part.
+13.3 Any usage of a new Card at any Visa payWave readers, if permitted by us shall be
+subject to such terms and conditions as we and Visa may agree from time to time.
+18. General Conditions
+18.1 You hereby authorise that all Singtel Bills from the Singtel account specified in your Card
+application, shall be charged to the Card, even if the Card has not been activated by you.
+18.2 Neither Singtel nor UOB shall be responsible for any direct and/or indirect loss or damage
+suffered by you or any person as a result of the redemption or usage of the benefits of the
+Card.
+18.3 If we or Singtel subsequently discovers that you are in fact not eligible to qualify for the
+benefits of the Card, we may at our discretion, forfeit or reclaim the value of the benefits of
+the Card awarded by charging to and debiting an amount equivalent to the value of the
+benefits of the Card from any of your account.
+Date of publishing: 11 September 2026 v2.7
+United Overseas Bank Limited Co. Reg. No. 193500026Z18.4 We and Singtel have the absolute discretion to make decisions on all matters relating to or
+in, including connection with the Card but not limited to the determination of whether you
+have met all the requirements to enjoy the benefits of the Card. Our and Singtel’s decisions
+shall be final, conclusive and binding on all parties concerned and no payment or
+compensation will be given or paid by us or Singtel to you or any person. We or Singtel
+shall not be obliged to give any reason or enter into any correspondence with any person
+on any matter relating to the Card or its decision.
+18.5 You agree to indemnify and hold harmless the Indemnified Parties against any and all
+actions, claims, proceedings, costs (including legal costs incurred by the Indemnified
+Parties in defending any such actions, claims or proceedings), liability, losses and
+damages (direct and/or indirect) whatsoever which may be brought or commenced against
+the Indemnified Parties by any person and/or which the Indemnified Parties may sustain,
+incur or suffer, as the case may be, arising out of or in connection with or by reason of your
+redemption or usage of the Card and the benefits of the Card.
+18.6 We and Singtel reserve the right to vary/amend any or all of the benefits of Card and/or
+these Terms without prior notice or assuming any liability to you, and you shall be bound
+by these amendments. We and Singtel shall not be liable for any claims, costs, expenses,
+losses or damages suffered by any person as a result of the aforementioned matters.
+18.7 In the event of any inconsistency between the Terms and any advertising, promotional,
+publicity, brochure, marketing or other materials relating to or in connection with the Card,
+the Terms shall prevail.
+18.8 The Card shall only be used for your own legitimate and genuine personal expenses and
+shall not be used for commercial or other non-personal expenses.
+18.9 You consent to and authorise Singtel to collect, use and/or disclose any information or
+personal data of the Singtel-UOB Cardmember, in accordance to Clause 13 of Singtel’s
+General Terms and Conditions and/or prevailing policies, where applicable.
+18.10 UOB may deduct, re-compute, withdraw, forfeit and/or cancel any Cashback earned and/or
+awarded and/or cancel and terminate your Card, without giving any reason or prior notice
+or assuming any liability to you, if:
+(a) spending on your Card account is deemed by UOB in its sole and absolute
+discretion to be for commercial, illegitimate, ingenuine, commercial and/or non-
+personal purposes; or
+(b) your Card account is not in good standing and not conducted in a proper and
+satisfactory manner at any time as determined by UOB in its sole discretion; or
+(c) your Card account is overdue;
+(d) UOB deems in its sole discretion that there is an abuse of the Cashback
+programme (whether via unusual, illegitimate, and/or ingenuine transaction
+activities or otherwise); or
+(e) relevant Cashback was not earned from eligible transactions or if you fail to meet
+the Qualifying Spend; or
+Date of publishing: 11 September 2026 v2.7
+United Overseas Bank Limited Co. Reg. No. 193500026Z(f) for any other reason that UOB may determine in its sole discretion.
+18.11 No payment or compensation in respect of such deduction, re-computation, withdrawal or
+cancellation will be made. In the event that your Card account is delinquent, voluntarily or
+involuntarily closed or terminated or suspended for any reasons whatsoever before the
+Cashback credited into your Card account, such Cashback earned shall be forfeited
+without prior notice to you and you shall not be entitled to any compensation or payment
+whatsoever.
+18.12 By applying for or using this Card and in addition to any other consent you have already
+provided to the Bank and Singtel and any right of the Bank and Singtel under applicable
+laws, you consent to the Bank and Singtel and the necessary third parties collecting, using
+and disclosing your information (including your personal data) for the purposes of this Card
+and to contact you, including via voice call or text message.
+18.13 The Bank shall not be responsible or liable in any manner for (i) any failure or delay or
+mistake in the transmission or submission of card transactions and/or the Transactions by
+any party (including but not limited to the card associations, acquiring merchants, merchant
+establishments, postal or telecommunication authorities) for whatever reason; or (ii) any
+breakdown or malfunction in any computer system or equipment; or (iii) any loss, expenses,
+delays, mistake, neglect or omission in the awarding of the Cashback or your participation
+in the Cashback programme.
+18.14 The Bank reserves all rights to (i) substitute the Cashback; (ii) forfeit or reclaim the
+Cashback where participant is subsequently discovered to be ineligible; (iii) amend or vary
+the Card name or design; and (v) make determinations and decisions on all matters relating
+to the Card which shall be final, conclusive and binding.
+18.15 Unless expressly stated so, a person not a party to these Terms has no rights under the
+Contracts (Rights of Third Parties) Act 2001 of Singapore to enforce these Terms.
+18.16 While all the information provided herein is believed to be reliable at the time and date of
+printing, we and Singtel make no representation or warranty whether express or implied,
+and accepts no responsibility or liability for its completeness or accuracy.
+18.17 These Terms shall be interpreted, construed and governed by the laws of Singapore and
+you hereby submit to the non-exclusive jurisdiction of the Singapore Courts.
+Date of publishing: 11 September 2026 v2.7
+United Overseas Bank Limited Co. Reg. No. 193500026Z

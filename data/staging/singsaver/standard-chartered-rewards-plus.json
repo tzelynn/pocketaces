@@ -1,0 +1,169 @@
+{
+ "source": "singsaver",
+ "source_id": "standard-chartered-rewards-credit-card",
+ "source_url": "https://www.singsaver.com.sg/credit-card/products/standard-chartered-rewards-credit-card",
+ "name": "Standard Chartered Rewards+ Credit Card",
+ "bank": "Standard Chartered",
+ "card_id": "standard-chartered-rewards-plus",
+ "image_url": "https://mhgprod.blob.core.windows.net/singsaver/strapi-uploads/s_bltc6253747c947df41_82b4199b04.png",
+ "annual_fee": 196.2,
+ "annual_fee_note": "S$ | First Year Waived",
+ "min_annual_income": 30000.0,
+ "earn_rates": {
+  "percent:overseas": {
+   "value": 2.48,
+   "unit": "percent",
+   "note": "Overseas retail, dining and travel. Based on conversion rate of 40,350 points = $100."
+  },
+  "percent:dining": {
+   "value": 1.24,
+   "unit": "percent",
+   "note": "Based on conversion rate of 40,350 points = $100"
+  },
+  "percent:overseas_online_shopping": {
+   "value": 2.48,
+   "unit": "percent",
+   "note": "Overseas retail, dining and travel. Based on conversion rate of 40,350 points = $100"
+  },
+  "mpd:overseas": {
+   "value": 2.9,
+   "unit": "mpd",
+   "note": "Overseas retail, dining and travel. "
+  },
+  "mpd:dining": {
+   "value": 1.45,
+   "unit": "mpd",
+   "note": "If you hold the Standard Chartered X Credit Card as well."
+  },
+  "percent:baseline": {
+   "value": 0.25,
+   "unit": "percent",
+   "note": "Based on conversion rate of 40,350 points = $100."
+  },
+  "mpd:baseline": {
+   "value": 0.29,
+   "unit": "mpd",
+   "note": null
+  },
+  "percent:forex": {
+   "value": 2.48,
+   "unit": "percent",
+   "note": "Overseas retail, dining and travel. Based on conversion rate of 40,350 points = $100"
+  },
+  "mpd:travel": {
+   "value": 6.0,
+   "unit": "mpd",
+   "note": "(Up to UNI$15 per S$5 spend) on major airlines and hotels worldwide via Agoda, Expedia and UOB Travel."
+  },
+  "points_per_dollar:retail": {
+   "value": 10.0,
+   "unit": "points_per_dollar",
+   "note": "Overseas retail, dining and travel. "
+  },
+  "percent:local": {
+   "value": 0.6,
+   "unit": "percent",
+   "note": "(Indirect Cashback) S$1.60 spend = 2 Membership Rewards points. 1,000 points redeemed = S$4.80 cash credit (Pay With Points), equivalent to 0.6% cashback"
+  },
+  "mpd:local": {
+   "value": 0.29,
+   "unit": "mpd",
+   "note": null
+  },
+  "points_per_dollar:dining": {
+   "value": 5.0,
+   "unit": "points_per_dollar",
+   "note": "On dining transactions in SGD. Up to 10 360° Reward Points for overseas retail transactions."
+  },
+  "points_per_dollar:baseline": {
+   "value": 1.0,
+   "unit": "points_per_dollar",
+   "note": "Base rate"
+  },
+  "points_per_dollar:overseas_spending": {
+   "value": 10.0,
+   "unit": "points_per_dollar",
+   "note": "Overseas retail, dining and travel. "
+  }
+ },
+ "caps": {
+  "rewards_bonus_cap": {
+   "value": 20000.0,
+   "note": "20,000 points cap per year."
+  }
+ },
+ "highlights": [
+  "Earn up to 10 points per dollar on overseas retail, dining, and travel, and 5 points per dollar on dining transactions in SGD. You can earn up to 10,360° Reward Points on overseas retail transactions, with a base rate of 1 point per dollar on all other spending. Capped at 20,000 points per year",
+  "pros: Up to 10X reward points for every S$1 spent in foreign currency on overseas retail, dining and travel transactions.",
+  "pros: Up to 5X reward points for every S$1 spent on dining transactions.",
+  "pros: 1 reward point for every S$1 spent on all eligible spend.",
+  "pros: SC Shop and Earn - Upgrade your home and earn up to 8.05% Cashback. Shop top home and electronics brands like Dyson, Heavenluxe, Samsung, Xiaomi and many more. Unlock one of the highest Cashback as a Priority client. Log on to SC Shop and Earn via SC Mobile to start shopping.",
+  "pros: No min. spend required, 1 year annual fee waiver.",
+  "pros: Complimentary travel insurance coverage of up to S$500,000 when you charge your full travel fare to the card.",
+  "pros: Read our full review of the Standard Chartered Rewards+ Credit Card.",
+  "cons: Additional reward points are capped at 20,000 points per year.",
+  "cons: Purchases from local hotel restaurants and supermarkets are not considered as qualifying dining transactions.",
+  "pros: Overseas rebate",
+  "pros: No monthly spend required",
+  "pros: Travel insurance",
+  "cons: Rebate cap applied"
+ ],
+ "sign_up_offers": [],
+ "links": {},
+ "citation": {
+  "id": "singsaver:8d864d4cf70a",
+  "url": "https://www.singsaver.com.sg/credit-card/products/standard-chartered-rewards-credit-card",
+  "title": "Standard Chartered Rewards+ Credit Card",
+  "source_type": "aggregator",
+  "retrieved_at": "2026-09-27T05:26:39+00:00",
+  "sha256": "8d864d4cf70abcf368aca2838130dba494cd7df9b221ee4f3ea3a2e220908b75",
+  "snapshot": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-standard-chartered-rewards-credit-card-e7a57b80.html"
+ },
+ "extra": {
+  "network": [
+   "VISA Signature"
+  ],
+  "mobile_wallets": [
+   "Google Pay",
+   "Apple Pay",
+   "Samsung Pay"
+  ],
+  "fx_fee_percent": 3.25,
+  "miles_conversion_fee": 25.0,
+  "categories": [
+   "category:airmiles",
+   "category:all-credit-cards",
+   "category:dining-promo",
+   "category:grocery-promo",
+   "category:installment",
+   "category:overseas",
+   "category:petrol-promo",
+   "category:promo",
+   "category:retail-promo",
+   "category:rewards",
+   "category:travel",
+   "needs:0-interest-rate",
+   "needs:air-miles-conversion-rewards",
+   "needs:all-airmiles-cards",
+   "needs:all-cards-with-dining-promo",
+   "needs:all-cards-with-grocery-promo",
+   "needs:all-cards-with-petrol-promo",
+   "needs:all-cards-with-promotion",
+   "needs:all-cards-with-retail-promo",
+   "needs:all-credit-cards",
+   "needs:all-installment-cards",
+   "needs:all-overseas-cards",
+   "needs:all-rewards-cards",
+   "needs:all-travel-cards",
+   "needs:annual-fee-waiver-airmiles",
+   "needs:annual-fee-waiver-travel-cards",
+   "needs:free-travel-insurance",
+   "needs:no-minimum-spend-required-airmiles",
+   "needs:no-minimum-spend-required-rewards",
+   "needs:online-booking-discount",
+   "needs:singsaver-exclusive"
+  ],
+  "tag": null,
+  "description": "The Standard Chartered Rewards+ Credit Card is made for travellers — offering up to 10 bonus points on select overseas spend, with no minimum spend required. At the same time, you'll be spoilt for choice with the highly attractive reedeemable rewards."
+ }
+}

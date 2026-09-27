@@ -1,0 +1,13 @@
+{
+ "card_id": "maybank-xl-cashback",
+ "product_pages": [],
+ "documents": [
+  {
+   "url": "https://www.maybank2u.com.sg/iwov-resources/sg/pdf/cards/xl-cashback-card-tnc.pdf",
+   "error": "skipping https://www.maybank2u.com.sg/iwov-resources/sg/pdf/cards/xl-cashback-card-tnc.pdf: www.maybank2u.com.sg unreachable earlier in this run",
+   "changed": false
+  }
+ ],
+ "changed": false,
+ "removed_documents": []
+}

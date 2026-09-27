@@ -1,0 +1,125 @@
+{
+ "source": "singsaver",
+ "source_id": "icbc-visa-dual-currency-credit-card",
+ "source_url": "https://www.singsaver.com.sg/credit-card/products/icbc-visa-dual-currency-credit-card",
+ "name": "ICBC Visa Dual Currency Credit Card",
+ "bank": "ICBC",
+ "card_id": "icbc-visa-dual-currency",
+ "image_url": "https://mhgprod.blob.core.windows.net/singsaver/strapi-uploads/xs_blt89270b220005b26f_120ecd2e91.webp",
+ "annual_fee": 30.0,
+ "annual_fee_note": "S$ | First Three Years Waived",
+ "min_annual_income": 30000.0,
+ "earn_rates": {
+  "percent:baseline": {
+   "value": 0.5,
+   "unit": "percent",
+   "note": "For all qualifying spend up to S$500 monthly per quarter."
+  },
+  "percent:overseas": {
+   "value": 8.0,
+   "unit": "percent",
+   "note": "Up to | For all qualifying spend S$500 and above for three consecutive months in a quarter, monthly cashback capped at S$60."
+  },
+  "percent:local": {
+   "value": 8.0,
+   "unit": "percent",
+   "note": "Up to | For all qualifying spend S$500 and above for three consecutive months in a quarter, monthly cashback capped at S$60."
+  },
+  "percent:travel": {
+   "value": 8.0,
+   "unit": "percent",
+   "note": "Up to | For all qualifying spend S$500 and above for three consecutive months in a quarter, monthly cashback capped at S$60."
+  },
+  "percent:dining": {
+   "value": 8.0,
+   "unit": "percent",
+   "note": "Up to | For all qualifying spend S$500 and above for three consecutive months in a quarter, monthly cashback capped at S$60."
+  },
+  "percent:supermarket": {
+   "value": 8.0,
+   "unit": "percent",
+   "note": "Up to | For all qualifying spend S$500 and above for three consecutive months in a quarter, monthly cashback capped at S$60."
+  },
+  "percent:petrol": {
+   "value": 8.0,
+   "unit": "percent",
+   "note": "Up to | For all qualifying spend S$500 and above for three consecutive months in a quarter, monthly cashback capped at S$60."
+  },
+  "percent:retail": {
+   "value": 8.0,
+   "unit": "percent",
+   "note": "Up to | For all qualifying spend S$500 and above for three consecutive months in a quarter, monthly cashback capped at S$60."
+  },
+  "percent:local_online_shopping": {
+   "value": 8.0,
+   "unit": "percent",
+   "note": "Up to | For all qualifying spend S$500 and above for three consecutive months in a quarter, monthly cashback capped at S$60."
+  },
+  "percent:overseas_online_shopping": {
+   "value": 8.0,
+   "unit": "percent",
+   "note": "Up to | For all qualifying spend S$500 and above for three consecutive months in a quarter, monthly cashback capped at S$60."
+  },
+  "percent:department_store": {
+   "value": 8.0,
+   "unit": "percent",
+   "note": "Up to | For all qualifying spend S$500 and above for three consecutive months in a quarter, monthly cashback capped at S$60."
+  },
+  "percent:online_bill_payment_spending": {
+   "value": 8.0,
+   "unit": "percent",
+   "note": "Up to | For all qualifying spend S$500 and above for three consecutive months in a quarter, monthly cashback capped at S$60."
+  },
+  "percent:contactless_spend": {
+   "value": 8.0,
+   "unit": "percent",
+   "note": "Up to | For all qualifying spend S$500 and above for three consecutive months in a quarter, monthly cashback capped at S$60."
+  },
+  "percent:transport": {
+   "value": 8.0,
+   "unit": "percent",
+   "note": "Up to | For all qualifying spend S$500 and above for three consecutive months in a quarter, monthly cashback capped at S$60."
+  }
+ },
+ "caps": {},
+ "highlights": [
+  "For all qualifying spend S$500 and above for three consecutive months in a quarter, monthly cashback capped at S$60.",
+  "pros: Up to 8% cashback on your spending.",
+  "pros: Flexibility in payment currency between USD and SGD for various payment modes in Singapore.",
+  "pros: 2.5% foreign transaction fee waiver if USD is used.",
+  "pros: 3-year annual fee waiver.",
+  "cons: 8% bonus cashback only applies to spends of above S$500 each month for 3 consecutive months.",
+  "pros: Local spending rebate",
+  "pros: Overseas rebate",
+  "cons: Monthly spend required",
+  "cons: Rebate cap applied"
+ ],
+ "sign_up_offers": [],
+ "links": {},
+ "citation": {
+  "id": "singsaver:418558d43ad5",
+  "url": "https://www.singsaver.com.sg/credit-card/products/icbc-visa-dual-currency-credit-card",
+  "title": "ICBC Visa Dual Currency Credit Card",
+  "source_type": "aggregator",
+  "retrieved_at": "2026-09-27T05:25:56+00:00",
+  "sha256": "418558d43ad5e224446e0ff3fa35421ff53b1d69c7e14072a81ef2c00f0fcfa2",
+  "snapshot": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-icbc-visa-dual-currency-credit-card-1f9300b1.html"
+ },
+ "extra": {
+  "network": [
+   "VISA"
+  ],
+  "mobile_wallets": null,
+  "fx_fee_percent": 2.5,
+  "miles_conversion_fee": null,
+  "categories": [
+   "category:all-credit-cards",
+   "category:cashback",
+   "needs:all-cashback-cards",
+   "needs:all-credit-cards",
+   "needs:high-cashback"
+  ],
+  "tag": null,
+  "description": "With the unique ability to handle two currencies, the ICBC Visa Dual Currency Credit Card offers unparalleled convenience and flexibility while traveling or shopping internationally. Seamlessly manage payments in both SGD and USD, while earning cashback on your purchases."
+ }
+}

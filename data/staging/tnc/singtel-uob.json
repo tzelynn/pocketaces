@@ -1,0 +1,2455 @@
+{
+ "card_id": "singtel-uob",
+ "product_pages": [
+  {
+   "id": "bank:182a8f48337c",
+   "url": "https://www.uob.com.sg/personal/cards/cashback/singtel-card.page",
+   "source_type": "official",
+   "retrieved_at": "2026-09-27T08:41:52+00:00",
+   "sha256": "182a8f48337c935e578fc1ed875f81f878509a37139d281dae93f8154cb73a7f",
+   "snapshot": "data/raw/bank/www-uob-com-sg-personal-cards-cashback-singtel-card-page-489f94e0.html"
+  }
+ ],
+ "documents": [
+  {
+   "url": "https://www.uob.com.sg/web-resources/personal/pdf/personal/cards/credit-cards/rebates-cards/singtel-uob-card/singtel-tnc.pdf",
+   "citation": {
+    "id": "bank:6c9c788f739c",
+    "url": "https://www.uob.com.sg/web-resources/personal/pdf/personal/cards/credit-cards/rebates-cards/singtel-uob-card/singtel-tnc.pdf",
+    "source_type": "official",
+    "retrieved_at": "2026-09-27T08:41:53+00:00",
+    "sha256": "6c9c788f739c95d8b3fd1308cf4c0b1168909c5c5e64168e12b95383116ecfe3",
+    "snapshot": "data/raw/bank/www-uob-com-sg-web-resources-personal-pdf-personal-cards-credit-cards-rebates-cards-singtel-uob-card-singtel-tnc-pdf-2c95cd2e.pdf"
+   },
+   "text_path": "data/raw/bank/www-uob-com-sg-web-resources-personal-pdf-personal-cards-credit-cards-rebates-cards-singtel-uob-card-singtel-tnc-pdf-2c95cd2e.txt",
+   "sha256": "6c9c788f739c95d8b3fd1308cf4c0b1168909c5c5e64168e12b95383116ecfe3",
+   "changed": false,
+   "new": true,
+   "no_text_layer": false,
+   "effective_dates": [
+    "1 July 2026",
+    "11\nSeptember 2026"
+   ],
+   "mcc": {
+    "include": [
+     "4829",
+     "4900",
+     "5199",
+     "5960",
+     "5965",
+     "5993",
+     "6012",
+     "6050",
+     "6051",
+     "6211",
+     "6300",
+     "6513",
+     "6529",
+     "6530",
+     "6534",
+     "6540",
+     "7349",
+     "7511",
+     "7523",
+     "7995",
+     "8062",
+     "8211",
+     "8220",
+     "8241",
+     "8244",
+     "8249",
+     "8299",
+     "8398",
+     "8651",
+     "8661",
+     "8699",
+     "8999",
+     "9211",
+     "9222",
+     "9223",
+     "9311",
+     "9399",
+     "9402",
+     "9405"
+    ],
+    "exclude": [
+     "4812",
+     "4814",
+     "5999"
+    ],
+    "unknown": [],
+    "conflicting": [],
+    "unrecognised": [
+     "6529",
+     "6530",
+     "6534"
+    ],
+    "hits": [
+     {
+      "code": "4812",
+      "polarity": "exclude",
+      "page": 2,
+      "line": "4812, \u2022 BS WHATSAPP BOT*",
+      "reason": "who are individuals. For the avoidance of doubt, individual Singtel bills exclude bills issued to corporate",
+      "in_reference": true
+     },
+     {
+      "code": "4814",
+      "polarity": "exclude",
+      "page": 2,
+      "line": "4814, \u2022 ERAJAYA* (removed w.e.f. 28 June 2026)",
+      "reason": "who are individuals. For the avoidance of doubt, individual Singtel bills exclude bills issued to corporate",
+      "in_reference": true
+     },
+     {
+      "code": "5999",
+      "polarity": "exclude",
+      "page": 2,
+      "line": "5999 \u2022 G-FORCE*",
+      "reason": "who are individuals. For the avoidance of doubt, individual Singtel bills exclude bills issued to corporate",
+      "in_reference": true
+     },
+     {
+      "code": "4829",
+      "polarity": "include",
+      "page": 3,
+      "line": "4829 Wire Transfer/Remittance",
+      "reason": "(i) any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "4900",
+      "polarity": "include",
+      "page": 3,
+      "line": "4900 Utilities",
+      "reason": "(i) any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "5199",
+      "polarity": "include",
+      "page": 3,
+      "line": "5199 Nondurable Goods",
+      "reason": "(i) any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "5960",
+      "polarity": "include",
+      "page": 3,
+      "line": "5960 Direct Marketing - Insurance Services",
+      "reason": "(i) any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "5965",
+      "polarity": "include",
+      "page": 3,
+      "line": "5965 Direct marketing \u2013Combination Catalog and Retail Merchants",
+      "reason": "(i) any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "5993",
+      "polarity": "include",
+      "page": 3,
+      "line": "5993 Cigar Stores and Stands",
+      "reason": "(i) any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "6012",
+      "polarity": "include",
+      "page": 3,
+      "line": "6012 Member Financial Institution\u2013Merchandise and Services",
+      "reason": "(i) any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "6050",
+      "polarity": "include",
+      "page": 3,
+      "line": "6050 Quasi Cash\u2013Financial Institutions, Merchandise and Services",
+      "reason": "(i) any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "6051",
+      "polarity": "include",
+      "page": 3,
+      "line": "6051 Quasi Cash\u2013Merchant (Non-Financial Institutions \u2013 Foreign Currency,",
+      "reason": "(i) any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "6211",
+      "polarity": "include",
+      "page": 3,
+      "line": "6211 Securities\u2013Brokers and Dealers",
+      "reason": "(i) any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "6300",
+      "polarity": "include",
+      "page": 3,
+      "line": "6300 Insurance Sales/Underwrite",
+      "reason": "(i) any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "6513",
+      "polarity": "include",
+      "page": 3,
+      "line": "6513 Real Estate Agents & Managers \u2013 Rentals",
+      "reason": "(i) any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "6529",
+      "polarity": "include",
+      "page": 3,
+      "line": "6529 Quasi Cash-Remote Stored Value Load-Financial Institute Rentals",
+      "reason": "(i) any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": false
+     },
+     {
+      "code": "6530",
+      "polarity": "include",
+      "page": 3,
+      "line": "6530 Quasi Cash-Remote Stored Value Load-Merchant Rentals",
+      "reason": "(i) any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": false
+     },
+     {
+      "code": "6534",
+      "polarity": "include",
+      "page": 3,
+      "line": "6534 Quasi Cash-Remote Money Transfers",
+      "reason": "(i) any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": false
+     },
+     {
+      "code": "6540",
+      "polarity": "include",
+      "page": 3,
+      "line": "6540 Stored Value Card Purchase/Load",
+      "reason": "(i) any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "7349",
+      "polarity": "include",
+      "page": 3,
+      "line": "7349 Clean/Maint/Janitorial Serv aka Property Management",
+      "reason": "(i) any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "7511",
+      "polarity": "include",
+      "page": 3,
+      "line": "7511 Quasi Cash \u2013 Truck Stop Trxns",
+      "reason": "(i) any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "7523",
+      "polarity": "include",
+      "page": 3,
+      "line": "7523 Automobile Parking Lots and Garages",
+      "reason": "(i) any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "7995",
+      "polarity": "include",
+      "page": 3,
+      "line": "7995 Gambling - Betting, including Lottery Tickets, Casino Gaming Chips, Off-",
+      "reason": "(i) any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "8062",
+      "polarity": "include",
+      "page": 3,
+      "line": "8062 Hospitals",
+      "reason": "(i) any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "8211",
+      "polarity": "include",
+      "page": 3,
+      "line": "8211 Schools, Elementary and Secondary",
+      "reason": "(i) any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "8220",
+      "polarity": "include",
+      "page": 3,
+      "line": "8220 Colleges, Universities, Professional Schools and Junior Colleges",
+      "reason": "(i) any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "8241",
+      "polarity": "include",
+      "page": 3,
+      "line": "8241 Schools, Correspondence",
+      "reason": "(i) any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "8244",
+      "polarity": "include",
+      "page": 3,
+      "line": "8244 Schools, Business and Secretarial",
+      "reason": "(i) any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "8249",
+      "polarity": "include",
+      "page": 3,
+      "line": "8249 Schools, Trade and Vocational",
+      "reason": "(i) any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "8299",
+      "polarity": "include",
+      "page": 3,
+      "line": "8299 Schools and Educational Services\u2013Not Elsewhere Classified",
+      "reason": "(i) any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "8398",
+      "polarity": "include",
+      "page": 3,
+      "line": "8398 Charitable and Social Service Organizations",
+      "reason": "(i) any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "8661",
+      "polarity": "include",
+      "page": 4,
+      "line": "8661 Religious Organizations",
+      "reason": "(i) any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "8651",
+      "polarity": "include",
+      "page": 4,
+      "line": "8651 Political Organizations",
+      "reason": "(i) any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "8699",
+      "polarity": "include",
+      "page": 4,
+      "line": "8699 Membership Organizations (Not Elsewhere Classified)",
+      "reason": "(i) any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "8999",
+      "polarity": "include",
+      "page": 4,
+      "line": "8999 Professional Services (Not Elsewhere Classified)",
+      "reason": "(i) any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "9211",
+      "polarity": "include",
+      "page": 4,
+      "line": "9211 Court Costs including Alimony and Child Support",
+      "reason": "(i) any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "9222",
+      "polarity": "include",
+      "page": 4,
+      "line": "9222 Fines",
+      "reason": "(i) any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "9223",
+      "polarity": "include",
+      "page": 4,
+      "line": "9223 Bail and Bond Payments",
+      "reason": "(i) any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "9311",
+      "polarity": "include",
+      "page": 4,
+      "line": "9311 Tax Payment",
+      "reason": "(i) any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "9402",
+      "polarity": "include",
+      "page": 4,
+      "line": "9402 Postal Services\u2014Government Only",
+      "reason": "(i) any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "9405",
+      "polarity": "include",
+      "page": 4,
+      "line": "9405 Intra-Government Purchases\u2014Government Only",
+      "reason": "(i) any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "9399",
+      "polarity": "include",
+      "page": 4,
+      "line": "9399 Government Services\u2014not elsewhere classified",
+      "reason": "(i) any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "6012",
+      "polarity": "include",
+      "page": 7,
+      "line": "made with the following Merchant Category Codes, 6012 Member Financial Institution",
+      "reason": "made with the following Merchant Category Codes, 6012 Member Financial Institution",
+      "in_reference": true
+     },
+     {
+      "code": "6211",
+      "polarity": "include",
+      "page": 7,
+      "line": "\u2013 Merchandise and Services, 6211 - Securities \u2013 Brokers and Dealers, 6540 - Stored",
+      "reason": "made with the following Merchant Category Codes, 6012 Member Financial Institution",
+      "in_reference": true
+     },
+     {
+      "code": "6540",
+      "polarity": "include",
+      "page": 7,
+      "line": "\u2013 Merchandise and Services, 6211 - Securities \u2013 Brokers and Dealers, 6540 - Stored",
+      "reason": "made with the following Merchant Category Codes, 6012 Member Financial Institution",
+      "in_reference": true
+     },
+     {
+      "code": "7995",
+      "polarity": "include",
+      "page": 7,
+      "line": "Value Card Purchase/Load, 7995 - Betting/Track/Casino/Lotto and Political",
+      "reason": "made with the following Merchant Category Codes, 6012 Member Financial Institution",
+      "in_reference": true
+     }
+    ]
+   },
+   "transaction_modes": {
+    "online": [
+     "For the avoidance of doubt, Transactions which are made online via any of the mobile wallets listed above will not be eligible to receive any Cashback under the \u201cMobile Contactless Spend\u201d category but will receive Cashback under the \u201cOnline Spend\u201d category.",
+     "\u201cLocal Online Spend\u201d refers to Transactions made via the internet based on system indicators and processed locally in Singapore by the respective merchants/acquirers as an online transaction.",
+     "\u201cOther Spend\u201d means all other Transactions that are not Local Online Spend, Local Mobile Contactless Spend and/or Singtel Spend.",
+     "24 April 2026) \u2022 HELLO* \u2022 MY APPS MALL* \u2022 MYSINGTELAPP* \u2022 PREPAID ONLINE TOP UP* \u2022 PREPAID* \u2022 SINGAPORE TELECOM* \u2022 SINGTEL* \u2022 SINGTELSHOP* \u2022 STBILL* \u2022 STS* \u2022 TELECOM EQ* \u2022 WHIZCOMM* \u2022 3 MOBILE TELECOM* \u2022 ROYAL TELE* (included w.e.f 28 June 2026) The asterisk symbol (\u201c*\u201d) used in transaction descriptions signifies that any number of characters may follow the specified word or phrase.",
+     "1.1 As a Cardmember, you will earn cashback on Transactions charged to your Card (\u201cCashback\u201d) as follows: Qualifying Spend Cashback Cap per statement month S$800 12% Cashback on Singtel Spend S$30 (per statement month) 10% Cashback on Local Online S$30 Spend and Local Mobile Contactless Spend",
+     "1.2 To qualify for 12% Cashback on Singtel Spend and 10% Cashback on Local Online Spend and Local Mobile Contactless Spend, you must successfully charge at least S$800 worth of Transactions in a statement month to your Card (\u201cQualifying Spend\u201d).",
+     "193500026Z 2.8 Singtel vouchers may be redeemed directly at Singtel shops or online via singtel.com, and can be used to offset the price when you purchase a mobile device together with subscription (new sign-up or recontract) to Enhanced XS / Enhanced S / Enhanced M / Priority L / Priority Pro / Priority Family Plan.",
+     "2.11 The Singtel vouchers may be redeemed directly at Singtel retail outlets or online via singtel.com.",
+     "7.3 Applicable to new plan sign-ups and recontracts performed in Singtel Shops & Singtel Exclusive Retailers, as well as online (via singtel.com).",
+     "15.3 Applicable to new plan sign-ups performed online (via gomo.sg).",
+     "193500026Z 16.3 Applicable to new plan sign-ups performed online (via gomo.sg)."
+    ],
+    "contactless": [
+     "\u201cLocal Mobile Contactless Spend\u201d means in-store contactless Transactions made via the following mobile wallets: Apple Pay, Samsung Pay, Google Pay and such other mobile wallet services as UOB may determine from time to time at its sole discretion and processed locally in Singapore, as UOB may determine from time to time at its sole discretion.",
+     "For the avoidance of doubt, Transactions which are made online via any of the mobile wallets listed above will not be eligible to receive any Cashback under the \u201cMobile Contactless Spend\u201d category but will receive Cashback under the \u201cOnline Spend\u201d category.",
+     "\u201cOther Spend\u201d means all other Transactions that are not Local Online Spend, Local Mobile Contactless Spend and/or Singtel Spend.",
+     "1.1 As a Cardmember, you will earn cashback on Transactions charged to your Card (\u201cCashback\u201d) as follows: Qualifying Spend Cashback Cap per statement month S$800 12% Cashback on Singtel Spend S$30 (per statement month) 10% Cashback on Local Online S$30 Spend and Local Mobile Contactless Spend",
+     "1.2 To qualify for 12% Cashback on Singtel Spend and 10% Cashback on Local Online Spend and Local Mobile Contactless Spend, you must successfully charge at least S$800 worth of Transactions in a statement month to your Card (\u201cQualifying Spend\u201d).",
+     "Visa payWave Reader and Transactions",
+     "13.1 The Visa payWave-enabled Card may be used to carry out card transactions at all Visa point-of-sale terminals and at such other readers or systems as we may from time to time approve.",
+     "13.2 As an additional usage avenue for your convenience, we have also made arrangements for you to use your new Cards to effect card transactions at Visa payWave readers.",
+     "A Visa payWave reader is a point-of-sale device (as approved by us in our sole and absolute discretion from time to time) at which the new Card may be used to execute card transactions, either by tapping or waving the new Card against such reader without requiring any signature, PIN or other authentication on your part.",
+     "13.3 Any usage of a new Card at any Visa payWave readers, if permitted by us shall be subject to such terms and conditions as we and Visa may agree from time to time."
+    ],
+    "mobile_wallet": [
+     "\u201cLocal Mobile Contactless Spend\u201d means in-store contactless Transactions made via the following mobile wallets: Apple Pay, Samsung Pay, Google Pay and such other mobile wallet services as UOB may determine from time to time at its sole discretion and processed locally in Singapore, as UOB may determine from time to time at its sole discretion.",
+     "For the avoidance of doubt, Transactions which are made online via any of the mobile wallets listed above will not be eligible to receive any Cashback under the \u201cMobile Contactless Spend\u201d category but will receive Cashback under the \u201cOnline Spend\u201d category.",
+     "(i) have in place an Eligible Recurring Payment Arrangement for postpaid Singtel Mobile, Fibre Broadband or TV services (not including GOMO charges and prepaid services) and (ii) meet the minimum local spend indicated in the table below during a qualifying period: Minimum total annum local spend Receive Singtel vouchers worth (including Singtel bills and GOMO charges) Spend S$12,000 to less than S"
+    ],
+    "recurring": [
+     "\u201cEligible Recurring Payment Arrangement\u201d means Designated Bills that are charged on a recurring basis to the Card.",
+     "If your GOMO charges are charged to the Card on a recurring basis for 12 consecutive months by 10 November 2025, and you are charged an annual fee on or after 10 November 2025, you will receive a waiver of the annual fee posted to your Card.",
+     "(i) have in place an Eligible Recurring Payment Arrangement for postpaid Singtel Mobile, Fibre Broadband or TV services (not including GOMO charges and prepaid services) and (ii) meet the minimum local spend indicated in the table below during a qualifying period: Minimum total annum local spend Receive Singtel vouchers worth (including Singtel bills and GOMO charges) Spend S$12,000 to less than S",
+     "(i) have in place an Eligible Recurring Payment Arrangement for postpaid Singtel Mobile, Fibre Broadband or TV services (not including GOMO charges and Date of publishing: 11 September 2026 v2.7 United Overseas Bank Limited Co.",
+     "The Singtel voucher will be issued to the Principal Cardmember\u2019s Singtel account that has in place the Eligible Recurring Payment Arrangement.",
+     "193500026Z 2.8 Singtel vouchers may be redeemed directly at Singtel shops or online via singtel.com, and can be used to offset the price when you purchase a mobile device together with subscription (new sign-up or recontract) to Enhanced XS / Enhanced S / Enhanced M / Priority L / Priority Pro / Priority Family Plan.",
+     "The Singtel vouchers can be used to offset the price when a Cardmembers purchases a mobile device together with subscription (new sign-up or recontract) to an eligible Singtel phone plan with 24-month contract.",
+     "6.1 Singtel-UOB Cardmembers must set up an Eligible Recurring Payment Arrangement on their Singtel and/or GOMO bills using their Singtel-UOB Card in order to enjoy the Singtel benefits set out in Clauses 7 through 12 below (the \u201cSingtel Benefits\u201d).",
+     "Cardholders who do not set up the Eligible Recurring Payment Arrangement will not be eligible for the Singtel Benefits unless otherwise stated.",
+     "6.2 In the event of Card termination or removal of the Eligible Recurring Payment Arrangement with the Singtel-UOB Card, all Singtel Benefits will cease immediately for the affected Cardmember.",
+     "193500026Z already set up an Eligible Recurring Payment Arrangement on your Singtel bills using your Singtel-UOB Card before submitting an order for a new sign-up or recontract.",
+     "7.6 This benefit will be removed under the following conditions: \u2022 Removal of the Eligible Recurring Payment Arrangement at any time (as per clause 6.2) \u2022 Downgrading of plan to non-eligible plans \u2022 Transfer of line ownership \u2022 Line suspension due to non-payment",
+     "The free trial period begins upon successful subscription to the CAST pack.",
+     "After the trial period ends, a recurring monthly subscription fee of S$9.98 per month shall apply to your continued subscription to the selected CAST pack and will be charged to your Singtel Broadband account.",
+     "11.2 The free trial period begins upon successful subscription to the CAST pack."
+    ],
+    "foreign_currency": [
+     "Definitions The following terms shall have the following meanings when used in these Terms: \u201cBank\u201d or \u201cUOB\u201d means United Overseas Bank Limited.",
+     "Date of publishing: 11 September 2026 v2.7 United Overseas Bank Limited Co.",
+     "193500026Z \u201cOverseas Foreign Currency Spend\u201d means Transactions which are processed outside of Singapore and successfully charged to your Card and posted on UOB\u2019s system, in a foreign currency.",
+     "Transactions which are processed outside of Singapore, but which are charged to your Card in Singapore dollars at the time of the Transaction will not constitute an Overseas Foreign Currency Spend.",
+     "Date of publishing: 11 September 2026 v2.7 United Overseas Bank Limited Co.",
+     "(i) any transaction made with the following Merchant Category Codes (MCC): MCC Description 4829 Wire Transfer/Remittance 4900 Utilities 5199 Nondurable Goods 5960 Direct Marketing - Insurance Services 5965 Direct marketing \u2013Combination Catalog and Retail Merchants 5993 Cigar Stores and Stands 6012 Member Financial Institution\u2013Merchandise and Services 6050 Quasi Cash\u2013Financial Institutions, Merchan",
+     "Date of publishing: 11 September 2026 v2.7 United Overseas Bank Limited Co.",
+     "1.6 Transactions incurred by your supplementary holder of your Card will accrue to your principal Card for the purposes of computing the Qualifying Spend on your principal Card Date of publishing: 11 September 2026 v2.7 United Overseas Bank Limited Co.",
+     "2.1 The duration of your qualifying period for Singtel voucher eligibility shall be as follows: Existing Singtel-UOB Cardholder whose principal Card is approved before 17 April 2026: Qualifying Period Duration 1st qualifying period Date of your Card approval to the date of your 13th monthly card statement Qualifying periods prior to Day after the last date of the immediately preceding the qualifyi",
+     "(i) have in place an Eligible Recurring Payment Arrangement for postpaid Singtel Mobile, Fibre Broadband or TV services (not including GOMO charges and prepaid services) and (ii) meet the minimum local spend indicated in the table below during a qualifying period: Minimum total annum local spend Receive Singtel vouchers worth (including Singtel bills and GOMO charges) Spend S$12,000 to less than S",
+     "(i) have in place an Eligible Recurring Payment Arrangement for postpaid Singtel Mobile, Fibre Broadband or TV services (not including GOMO charges and Date of publishing: 11 September 2026 v2.7 United Overseas Bank Limited Co.",
+     "Date of publishing: 11 September 2026 v2.7 United Overseas Bank Limited Co.",
+     "4.1 There will be no administrative fees applied on transactions in foreign currencies (\u201cFX fees\u201d) charged on all Overseas Foreign Currency Spend successfully charged and posted to your Card account.",
+     "We reserve the right to cancel and void any UOB$ awarded to your statement of account at any time if it deems Date of publishing: 11 September 2026 v2.7 United Overseas Bank Limited Co.",
+     "To enjoy this benefit, you must have Date of publishing: 11 September 2026 v2.7 United Overseas Bank Limited Co."
+    ],
+    "local_currency": [
+     "Transactions which are processed outside of Singapore, but which are charged to your Card in Singapore dollars at the time of the Transaction will not constitute an Overseas Foreign Currency Spend.",
+     "Transactions effected in foreign currencies will be converted into Singapore dollars based on UOB\u2019s prevailing exchange rate and the Singapore dollar amount posted on UOB\u2019s system will be used for the purposes of computing your Qualifying Spend and corresponding Cashback.",
+     "1.5 The Cashback earned for the current statement month will be credited into your Card account in the next statement month in Singapore dollars and can only be used to offset against the billed amount for your Card account in your next statement month.",
+     "(i) have in place an Eligible Recurring Payment Arrangement for postpaid Singtel Mobile, Fibre Broadband or TV services (not including GOMO charges and prepaid services) and (ii) meet the minimum local spend indicated in the table below during a qualifying period: Minimum total annum local spend Receive Singtel vouchers worth (including Singtel bills and GOMO charges) Spend S$12,000 to less than S",
+     "4.2 For the avoidance of doubt, the International Processing Fee of 1% of the transaction amount, which is chargeable on transactions charged to your Card in Singapore dollars and processed outside Singapore, will continue to apply."
+    ]
+   },
+   "non_mcc_exclusions": [
+    "annual fee",
+    "axs",
+    "cash advance",
+    "charit",
+    "education",
+    "government",
+    "hospital",
+    "instalment",
+    "interest",
+    "ipaymy",
+    "late payment charge",
+    "tax",
+    "top-ups",
+    "utilit"
+   ]
+  },
+  {
+   "url": "https://www.uob.com.sg/assets/web-resources/personal/pdf/cards/cashback/singtel-card/singtel-uob-fx-spend-tnc-cmpg.pdf",
+   "citation": {
+    "id": "bank:1c28d08fc29c",
+    "url": "https://www.uob.com.sg/assets/web-resources/personal/pdf/cards/cashback/singtel-card/singtel-uob-fx-spend-tnc-cmpg.pdf",
+    "source_type": "official",
+    "retrieved_at": "2026-09-27T08:41:55+00:00",
+    "sha256": "1c28d08fc29cb2ef9982c763abf24fa882e1a57d4ef6a91a620ebed4eb5f62ca",
+    "snapshot": "data/raw/bank/www-uob-com-sg-assets-web-resources-personal-pdf-cards-cashback-singtel-card-singtel-uob-fx-spend-tnc-cmpg-pdf-a7bf88ae.pdf"
+   },
+   "text_path": "data/raw/bank/www-uob-com-sg-assets-web-resources-personal-pdf-cards-cashback-singtel-card-singtel-uob-fx-spend-tnc-cmpg-pdf-a7bf88ae.txt",
+   "sha256": "1c28d08fc29cb2ef9982c763abf24fa882e1a57d4ef6a91a620ebed4eb5f62ca",
+   "changed": false,
+   "new": true,
+   "no_text_layer": false,
+   "effective_dates": [],
+   "mcc": {
+    "include": [
+     "4829",
+     "4900",
+     "5199",
+     "5960",
+     "5965",
+     "5993",
+     "6012",
+     "6050",
+     "6051",
+     "6211",
+     "6300",
+     "6513",
+     "6529",
+     "6530",
+     "6534",
+     "6540",
+     "7349",
+     "7511",
+     "7523",
+     "7995",
+     "8062",
+     "8211",
+     "8220",
+     "8241",
+     "8244",
+     "8249",
+     "8299",
+     "8398",
+     "8651",
+     "8661",
+     "8699",
+     "8999",
+     "9211",
+     "9222",
+     "9223",
+     "9311",
+     "9399",
+     "9402",
+     "9405"
+    ],
+    "exclude": [],
+    "unknown": [],
+    "conflicting": [],
+    "unrecognised": [
+     "6529",
+     "6530",
+     "6534"
+    ],
+    "hits": [
+     {
+      "code": "4829",
+      "polarity": "include",
+      "page": 2,
+      "line": "4829 Wire Transfer/Remittance",
+      "reason": "(j) any payment made with the following Merchant Category Codes (\u201cMCC\u201d);",
+      "in_reference": true
+     },
+     {
+      "code": "4900",
+      "polarity": "include",
+      "page": 2,
+      "line": "4900 Utilities",
+      "reason": "(j) any payment made with the following Merchant Category Codes (\u201cMCC\u201d);",
+      "in_reference": true
+     },
+     {
+      "code": "5199",
+      "polarity": "include",
+      "page": 2,
+      "line": "5199 Nondurable Goods",
+      "reason": "(j) any payment made with the following Merchant Category Codes (\u201cMCC\u201d);",
+      "in_reference": true
+     },
+     {
+      "code": "5960",
+      "polarity": "include",
+      "page": 2,
+      "line": "5960 Direct Marketing - Insurance Services",
+      "reason": "(j) any payment made with the following Merchant Category Codes (\u201cMCC\u201d);",
+      "in_reference": true
+     },
+     {
+      "code": "5965",
+      "polarity": "include",
+      "page": 3,
+      "line": "5965 Direct marketing \u2013Combination Catalog and Retail Merchants",
+      "reason": "(j) any payment made with the following Merchant Category Codes (\u201cMCC\u201d);",
+      "in_reference": true
+     },
+     {
+      "code": "5993",
+      "polarity": "include",
+      "page": 3,
+      "line": "5993 Cigar Stores and Stands",
+      "reason": "(j) any payment made with the following Merchant Category Codes (\u201cMCC\u201d);",
+      "in_reference": true
+     },
+     {
+      "code": "6012",
+      "polarity": "include",
+      "page": 3,
+      "line": "6012 Member Financial Institution\u2013Merchandise and Services",
+      "reason": "(j) any payment made with the following Merchant Category Codes (\u201cMCC\u201d);",
+      "in_reference": true
+     },
+     {
+      "code": "6050",
+      "polarity": "include",
+      "page": 3,
+      "line": "6050 Quasi Cash\u2013Financial Institutions, Merchandise and Services",
+      "reason": "(j) any payment made with the following Merchant Category Codes (\u201cMCC\u201d);",
+      "in_reference": true
+     },
+     {
+      "code": "6051",
+      "polarity": "include",
+      "page": 3,
+      "line": "6051 Quasi Cash\u2013Merchant (Non-Financial Institutions \u2013 Foreign Currency, Non-Fiat",
+      "reason": "(j) any payment made with the following Merchant Category Codes (\u201cMCC\u201d);",
+      "in_reference": true
+     },
+     {
+      "code": "6211",
+      "polarity": "include",
+      "page": 3,
+      "line": "6211 Securities\u2013Brokers and Dealers",
+      "reason": "(j) any payment made with the following Merchant Category Codes (\u201cMCC\u201d);",
+      "in_reference": true
+     },
+     {
+      "code": "6300",
+      "polarity": "include",
+      "page": 3,
+      "line": "6300 Insurance Sales/Underwrite",
+      "reason": "(j) any payment made with the following Merchant Category Codes (\u201cMCC\u201d);",
+      "in_reference": true
+     },
+     {
+      "code": "6513",
+      "polarity": "include",
+      "page": 3,
+      "line": "6513 Real Estate Agents & Managers \u2013 Rentals",
+      "reason": "(j) any payment made with the following Merchant Category Codes (\u201cMCC\u201d);",
+      "in_reference": true
+     },
+     {
+      "code": "6529",
+      "polarity": "include",
+      "page": 3,
+      "line": "6529 Quasi Cash-Remote Stored Value Load-Financial Institute Rentals",
+      "reason": "(j) any payment made with the following Merchant Category Codes (\u201cMCC\u201d);",
+      "in_reference": false
+     },
+     {
+      "code": "6530",
+      "polarity": "include",
+      "page": 3,
+      "line": "6530 Quasi Cash-Remote Stored Value Load-Merchant Rentals",
+      "reason": "(j) any payment made with the following Merchant Category Codes (\u201cMCC\u201d);",
+      "in_reference": false
+     },
+     {
+      "code": "6534",
+      "polarity": "include",
+      "page": 3,
+      "line": "6534 Quasi Cash-Remote Money Transfers",
+      "reason": "(j) any payment made with the following Merchant Category Codes (\u201cMCC\u201d);",
+      "in_reference": false
+     },
+     {
+      "code": "6540",
+      "polarity": "include",
+      "page": 3,
+      "line": "6540 Stored Value Card Purchase/Load",
+      "reason": "(j) any payment made with the following Merchant Category Codes (\u201cMCC\u201d);",
+      "in_reference": true
+     },
+     {
+      "code": "7349",
+      "polarity": "include",
+      "page": 3,
+      "line": "7349 Clean/Maint/Janitorial Serv aka Property Management",
+      "reason": "(j) any payment made with the following Merchant Category Codes (\u201cMCC\u201d);",
+      "in_reference": true
+     },
+     {
+      "code": "7511",
+      "polarity": "include",
+      "page": 3,
+      "line": "7511 Quasi Cash \u2013 Truck Stop Trxns",
+      "reason": "(j) any payment made with the following Merchant Category Codes (\u201cMCC\u201d);",
+      "in_reference": true
+     },
+     {
+      "code": "7523",
+      "polarity": "include",
+      "page": 3,
+      "line": "7523 Automobile Parking Lots and Garages",
+      "reason": "(j) any payment made with the following Merchant Category Codes (\u201cMCC\u201d);",
+      "in_reference": true
+     },
+     {
+      "code": "7995",
+      "polarity": "include",
+      "page": 3,
+      "line": "7995 Gambling - Betting, including Lottery Tickets, Casino Gaming Chips, Off-Track",
+      "reason": "(j) any payment made with the following Merchant Category Codes (\u201cMCC\u201d);",
+      "in_reference": true
+     },
+     {
+      "code": "8062",
+      "polarity": "include",
+      "page": 3,
+      "line": "8062 Hospitals",
+      "reason": "(j) any payment made with the following Merchant Category Codes (\u201cMCC\u201d);",
+      "in_reference": true
+     },
+     {
+      "code": "8211",
+      "polarity": "include",
+      "page": 3,
+      "line": "8211 Schools, Elementary and Secondary",
+      "reason": "(j) any payment made with the following Merchant Category Codes (\u201cMCC\u201d);",
+      "in_reference": true
+     },
+     {
+      "code": "8220",
+      "polarity": "include",
+      "page": 3,
+      "line": "8220 Colleges, Universities, Professional Schools and Junior Colleges",
+      "reason": "(j) any payment made with the following Merchant Category Codes (\u201cMCC\u201d);",
+      "in_reference": true
+     },
+     {
+      "code": "8241",
+      "polarity": "include",
+      "page": 3,
+      "line": "8241 Schools, Correspondence",
+      "reason": "(j) any payment made with the following Merchant Category Codes (\u201cMCC\u201d);",
+      "in_reference": true
+     },
+     {
+      "code": "8244",
+      "polarity": "include",
+      "page": 3,
+      "line": "8244 Schools, Business and Secretarial",
+      "reason": "(j) any payment made with the following Merchant Category Codes (\u201cMCC\u201d);",
+      "in_reference": true
+     },
+     {
+      "code": "8249",
+      "polarity": "include",
+      "page": 3,
+      "line": "8249 Schools, Trade and Vocational",
+      "reason": "(j) any payment made with the following Merchant Category Codes (\u201cMCC\u201d);",
+      "in_reference": true
+     },
+     {
+      "code": "8299",
+      "polarity": "include",
+      "page": 3,
+      "line": "8299 Schools and Educational Services\u2013Not Elsewhere Classified",
+      "reason": "(j) any payment made with the following Merchant Category Codes (\u201cMCC\u201d);",
+      "in_reference": true
+     },
+     {
+      "code": "8398",
+      "polarity": "include",
+      "page": 3,
+      "line": "8398 Charitable and Social Service Organizations",
+      "reason": "(j) any payment made with the following Merchant Category Codes (\u201cMCC\u201d);",
+      "in_reference": true
+     },
+     {
+      "code": "8661",
+      "polarity": "include",
+      "page": 3,
+      "line": "8661 Religious Organizations",
+      "reason": "(j) any payment made with the following Merchant Category Codes (\u201cMCC\u201d);",
+      "in_reference": true
+     },
+     {
+      "code": "8651",
+      "polarity": "include",
+      "page": 3,
+      "line": "8651 Political Organizations",
+      "reason": "(j) any payment made with the following Merchant Category Codes (\u201cMCC\u201d);",
+      "in_reference": true
+     },
+     {
+      "code": "8699",
+      "polarity": "include",
+      "page": 3,
+      "line": "8699 Membership Organizations (Not Elsewhere Classified)",
+      "reason": "(j) any payment made with the following Merchant Category Codes (\u201cMCC\u201d);",
+      "in_reference": true
+     },
+     {
+      "code": "8999",
+      "polarity": "include",
+      "page": 3,
+      "line": "8999 Professional Services (Not Elsewhere Classified)",
+      "reason": "(j) any payment made with the following Merchant Category Codes (\u201cMCC\u201d);",
+      "in_reference": true
+     },
+     {
+      "code": "9211",
+      "polarity": "include",
+      "page": 3,
+      "line": "9211 Court Costs including Alimony and Child Support",
+      "reason": "(j) any payment made with the following Merchant Category Codes (\u201cMCC\u201d);",
+      "in_reference": true
+     },
+     {
+      "code": "9222",
+      "polarity": "include",
+      "page": 3,
+      "line": "9222 Fines",
+      "reason": "(j) any payment made with the following Merchant Category Codes (\u201cMCC\u201d);",
+      "in_reference": true
+     },
+     {
+      "code": "9223",
+      "polarity": "include",
+      "page": 3,
+      "line": "9223 Bail and Bond Payments",
+      "reason": "(j) any payment made with the following Merchant Category Codes (\u201cMCC\u201d);",
+      "in_reference": true
+     },
+     {
+      "code": "9311",
+      "polarity": "include",
+      "page": 3,
+      "line": "9311 Tax Payment",
+      "reason": "(j) any payment made with the following Merchant Category Codes (\u201cMCC\u201d);",
+      "in_reference": true
+     },
+     {
+      "code": "9402",
+      "polarity": "include",
+      "page": 3,
+      "line": "9402 Postal Services\u2014Government Only",
+      "reason": "(j) any payment made with the following Merchant Category Codes (\u201cMCC\u201d);",
+      "in_reference": true
+     },
+     {
+      "code": "9405",
+      "polarity": "include",
+      "page": 3,
+      "line": "9405 Intra-Government Purchases\u2014Government Only",
+      "reason": "(j) any payment made with the following Merchant Category Codes (\u201cMCC\u201d);",
+      "in_reference": true
+     },
+     {
+      "code": "9399",
+      "polarity": "include",
+      "page": 3,
+      "line": "9399 Government Services\u2014not elsewhere classified",
+      "reason": "(j) any payment made with the following Merchant Category Codes (\u201cMCC\u201d);",
+      "in_reference": true
+     }
+    ]
+   },
+   "transaction_modes": {
+    "mobile_wallet": [
+     "(h) any top-ups or payment of funds to payment service providers or prepaid accounts (including but not limited to, any Grab mobile wallet top-up transactions, and/or any Shopee Pay wallet top-up transaction);"
+    ],
+    "foreign_currency": [
+     "TERMS AND CONDITIONS GOVERNING SINGTEL-UOB CARD UP TO 1% CASHBACK ON FX SPEND PROMOTION These Terms apply to your Singtel-UOB Card issued by United Overseas Bank Limited (the \u201cBank\u201d or \u201cUOB\u201d) in Singapore (the \u201cCard\u201d).",
+     "Promotion This Singtel-UOB Card up to 1% cashback promotion on FX Spend (the \u201cPromotion\u201d) is valid on all eligible Overseas Foreign Currency Spend as stated below:",
+     "Definitions \u201cOverseas Foreign Currency Spend\u201d or \u201cFX Spend\u201d means Transactions which are processed outside of Singapore and successfully charged to your Card and posted on UOB\u2019s system, in a foreign currency.",
+     "Transactions which are processed outside of Singapore, but which are charged to your Card in Singapore dollars at the time of the Transaction will not constitute an Overseas Foreign Currency Spend.",
+     "3.1 \u201cBonus Cashback\u201d refers to promotional cashback of up to 1% on all Overseas Foreign Currency Spend made during the period stated in Clause 1 above.",
+     "## RESTRICTED ## 3.2 The Bonus Cashback will be calculated based on the total amount of Overseas Foreign Currency Spend successfully charged and posted to the Card account in each Statement Month of the period described in Clause",
+     "MCC Description 4829 Wire Transfer/Remittance 4900 Utilities 5199 Nondurable Goods 5960 Direct Marketing - Insurance Services ## RESTRICTED ## 5965 Direct marketing \u2013Combination Catalog and Retail Merchants 5993 Cigar Stores and Stands 6012 Member Financial Institution\u2013Merchandise and Services 6050 Quasi Cash\u2013Financial Institutions, Merchandise and Services 6051 Quasi Cash\u2013Merchant (Non-Financial "
+    ],
+    "local_currency": [
+     "(b) Transactions effected in foreign currencies will be converted into Singapore dollars based on UOB\u2019s prevailing exchange rate and the Singapore dollar amount posted on UOB\u2019s system will be used for the purposes of computing your Bonus Cashback."
+    ]
+   },
+   "non_mcc_exclusions": [
+    "axs",
+    "cardup",
+    "cash advance",
+    "charit",
+    "education",
+    "government",
+    "hospital",
+    "instalment",
+    "interest",
+    "ipaymy",
+    "late payment charge",
+    "tax",
+    "top-up",
+    "top-ups",
+    "utilit"
+   ]
+  },
+  {
+   "url": "https://www.uob.com.sg/assets/pdfs/add-on-card-terms-conditions.pdf",
+   "citation": {
+    "id": "bank:42358e29d735",
+    "url": "https://www.uob.com.sg/assets/pdfs/add-on-card-terms-conditions.pdf",
+    "source_type": "official",
+    "retrieved_at": "2026-09-27T08:41:57+00:00",
+    "sha256": "42358e29d7350a9750c477afebed16d22e101f969821263b9777733152bf0a95",
+    "snapshot": "data/raw/bank/www-uob-com-sg-assets-pdfs-add-on-card-terms-conditions-pdf-294d1c4b.pdf"
+   },
+   "text_path": "data/raw/bank/www-uob-com-sg-assets-pdfs-add-on-card-terms-conditions-pdf-294d1c4b.txt",
+   "sha256": "42358e29d7350a9750c477afebed16d22e101f969821263b9777733152bf0a95",
+   "changed": false,
+   "new": true,
+   "no_text_layer": false,
+   "effective_dates": [],
+   "mcc": {
+    "include": [],
+    "exclude": [],
+    "unknown": [],
+    "conflicting": [],
+    "unrecognised": [],
+    "hits": []
+   },
+   "transaction_modes": {
+    "recurring": [
+     "There must be minimum 1 and maximum 8 Singtel accounts charged to Singtel- UOB card on recurring basis at all times to enjoy all benefits and privileges including perpetual annual fee waiver, else an annual fee of S$196.20 will apply."
+    ]
+   },
+   "non_mcc_exclusions": [
+    "annual fee",
+    "tax"
+   ]
+  },
+  {
+   "url": "https://www.uob.com.sg/web-resources/personal/pdf/personal/cards/credit-cards/rebates-cards/singtel-uob-card/stuob-faq-upgrade.pdf",
+   "citation": {
+    "id": "bank:5d19b920ad6a",
+    "url": "https://www.uob.com.sg/web-resources/personal/pdf/personal/cards/credit-cards/rebates-cards/singtel-uob-card/stuob-faq-upgrade.pdf",
+    "source_type": "official",
+    "retrieved_at": "2026-09-27T08:41:59+00:00",
+    "sha256": "5d19b920ad6ac45f660a3ca9ea41bfb2c20f2ba2f9be9a739ef4dda8afbd4940",
+    "snapshot": "data/raw/bank/w-uob-com-sg-web-resources-personal-pdf-personal-cards-credit-cards-rebates-cards-singtel-uob-card-stuob-faq-upgrade-pdf-b0aecd30.pdf"
+   },
+   "text_path": "data/raw/bank/w-uob-com-sg-web-resources-personal-pdf-personal-cards-credit-cards-rebates-cards-singtel-uob-card-stuob-faq-upgrade-pdf-b0aecd30.txt",
+   "sha256": "5d19b920ad6ac45f660a3ca9ea41bfb2c20f2ba2f9be9a739ef4dda8afbd4940",
+   "changed": false,
+   "new": true,
+   "no_text_layer": false,
+   "effective_dates": [
+    "27 August 2025"
+   ],
+   "mcc": {
+    "include": [],
+    "exclude": [],
+    "unknown": [],
+    "conflicting": [],
+    "unrecognised": [],
+    "hits": []
+   },
+   "transaction_modes": {
+    "online": [
+     "If I have set my Singtel-UOB Visa Platinum Card as the default card for online and/or in-app payments, will it be affected if I start using my new Singtel-UOB Visa Signature Card? No, your existing online and/in-app payments will not be affected.",
+     "Existing benefits (Transactions Enhanced benefits posted before 27 August 2025) (Transactions posted on/after 27 August 2025) Cashback Total Singtel Cashback \u2022 12% Cashback on programme Bill(s) and earned Singtel Spend, GOMO charges per month \u2022 10% Cashback on charged per Local Online Spend month /Local Mobile < S$50 1% of your Contactless Spend Singtel bill \u2022 0.3% Cashback on and GOMO Other Spend",
+     "Date posted date Programme monthly spend 27 August 28 July 2025 \u2013 26 Existing Cashback S$30 NIL 2025 August 2025 programme Based on Singtel/GOMO bill 27 August 2025 New Cashback S$80 ($30 Singtel S$800 programme Spend, $30 Local \u2022 12% Online/Local Cashback on Mobile Singtel Contactless Spend, Spend, $20 Other \u2022 10% Spend) Cashback on Local Online Spend /Local Mobile Contactless Spend \u2022 0.3% Cashba",
+     "monthly spend Date posted date Programme Cap 15 16 August Existing Cashback S$30 NIL September 2025 \u2013 27 Based on 2025 August Singtel/GOMO bill 2025 28 August \u2013 New Cashback S$80 ($30 S$800 15 \u2022 12% Singtel September Cashback on Spend, $30 2025 Singtel Spend, Local \u2022 10% on Online/Local Online/Mobile Mobile Contactless Contactless Spend Spend, $20 \u2022 0.3% on Other Others Spend) \u2022 0% FX mark- up 15 "
+    ],
+    "in_app": [
+     "If I have set my Singtel-UOB Visa Platinum Card as the default card for online and/or in-app payments, will it be affected if I start using my new Singtel-UOB Visa Signature Card? No, your existing online and/in-app payments will not be affected."
+    ],
+    "contactless": [
+     "Existing benefits (Transactions Enhanced benefits posted before 27 August 2025) (Transactions posted on/after 27 August 2025) Cashback Total Singtel Cashback \u2022 12% Cashback on programme Bill(s) and earned Singtel Spend, GOMO charges per month \u2022 10% Cashback on charged per Local Online Spend month /Local Mobile < S$50 1% of your Contactless Spend Singtel bill \u2022 0.3% Cashback on and GOMO Other Spend",
+     "Date posted date Programme monthly spend 27 August 28 July 2025 \u2013 26 Existing Cashback S$30 NIL 2025 August 2025 programme Based on Singtel/GOMO bill 27 August 2025 New Cashback S$80 ($30 Singtel S$800 programme Spend, $30 Local \u2022 12% Online/Local Cashback on Mobile Singtel Contactless Spend, Spend, $20 Other \u2022 10% Spend) Cashback on Local Online Spend /Local Mobile Contactless Spend \u2022 0.3% Cashba",
+     "monthly spend Date posted date Programme Cap 15 16 August Existing Cashback S$30 NIL September 2025 \u2013 27 Based on 2025 August Singtel/GOMO bill 2025 28 August \u2013 New Cashback S$80 ($30 S$800 15 \u2022 12% Singtel September Cashback on Spend, $30 2025 Singtel Spend, Local \u2022 10% on Online/Local Online/Mobile Mobile Contactless Contactless Spend Spend, $20 \u2022 0.3% on Other Others Spend) \u2022 0% FX mark- up 15 "
+    ],
+    "mobile_wallet": [
+     "If I have digitised my Singtel-UOB Visa Platinum Card on my mobile payment wallet, will it be affected if I start using my new Singtel-UOB Visa Signature Card? Prior to activation of your new Singtel-UOB Visa Signature Card, your existing Singtel-UOB Visa Platinum Card digitized on your mobile payment wallet will not be affected and will be valid for use until its expiry date.",
+     "After the activation of your new Singtel-UOB Visa Signature Card, the card expiry date and CVV details in your mobile payment wallet will be automatically updated with the new expiry date and CVV of your new Singtel-UOB Visa Signature Card.",
+     "I have activated my Singtel-UOB Visa Signature Card, however in my mobile payment wallet it is still displaying the Singtel-UOB Visa Platinum Card image.",
+     "To reflect the Singtel-UOB Visa Signature Card image in your mobile payment wallet, you will need to remove your existing Singtel-UOB Visa Platinum and re- digitise your new Singtel-UOB Visa Signature Card from your mobile payment wallet."
+    ],
+    "recurring": [
+     "However, all recurring payments and other payment instructions will be automatically transferred from your existing card to your new Singtel-UOB Visa Signature Card, and you will be liable for such transferred payments.",
+     "If your existing card expires before you activate your new card, existing recurring payment instructions will be declined.",
+     "Will the recurring bill payment arrangements, GIRO instructions and other account linkages on my existing Singtel-UOB Visa Platinum Card be affected? Existing recurring bill payment arrangements, GIRO instructions and other account linkages on your existing Singtel-UOB Visa Platinum Card will not be affected."
+    ]
+   },
+   "non_mcc_exclusions": [
+    "bill payment"
+   ]
+  },
+  {
+   "url": "https://www.uob.com.sg/web-resources/personal/pdf/personal/cards/credit-cards/rebates-cards/singtel-uob-card/governing-singtel-uob-card-tnc.pdf",
+   "citation": {
+    "id": "bank:c6743d102dcb",
+    "url": "https://www.uob.com.sg/web-resources/personal/pdf/personal/cards/credit-cards/rebates-cards/singtel-uob-card/governing-singtel-uob-card-tnc.pdf",
+    "source_type": "official",
+    "retrieved_at": "2026-09-27T08:42:01+00:00",
+    "sha256": "c6743d102dcb7233a8bac8746d6bf7ec32c3c73c3bbf9e8dcef89022cb44fe42",
+    "snapshot": "data/raw/bank/web-resources-personal-pdf-personal-cards-credit-cards-rebates-cards-singtel-uob-card-governing-singtel-uob-card-tnc-pdf-38696e5a.pdf"
+   },
+   "text_path": "data/raw/bank/web-resources-personal-pdf-personal-cards-credit-cards-rebates-cards-singtel-uob-card-governing-singtel-uob-card-tnc-pdf-38696e5a.txt",
+   "sha256": "c6743d102dcb7233a8bac8746d6bf7ec32c3c73c3bbf9e8dcef89022cb44fe42",
+   "changed": false,
+   "new": true,
+   "no_text_layer": false,
+   "effective_dates": [
+    "1 Sep 2019",
+    "10 November 2025",
+    "19 June 2023",
+    "27 August 2025"
+   ],
+   "mcc": {
+    "include": [
+     "4829",
+     "4900",
+     "5199",
+     "5960",
+     "5965",
+     "5993",
+     "6012",
+     "6050",
+     "6051",
+     "6211",
+     "6300",
+     "6513",
+     "6529",
+     "6530",
+     "6534",
+     "6540",
+     "7349",
+     "7511",
+     "7523",
+     "7995",
+     "8062",
+     "8211",
+     "8220",
+     "8241",
+     "8244",
+     "8249",
+     "8299",
+     "8398",
+     "8651",
+     "8661",
+     "8699",
+     "8999",
+     "9211",
+     "9222",
+     "9223",
+     "9311",
+     "9399",
+     "9402",
+     "9405"
+    ],
+    "exclude": [
+     "4812",
+     "4814",
+     "5999"
+    ],
+    "unknown": [],
+    "conflicting": [],
+    "unrecognised": [
+     "6529",
+     "6530",
+     "6534"
+    ],
+    "hits": [
+     {
+      "code": "4812",
+      "polarity": "exclude",
+      "page": 2,
+      "line": "4812, \u2022 BS WHATSAPP BOT*",
+      "reason": "who are individuals. For the avoidance of doubt, individual Singtel bills excludes bills issued to corporate",
+      "in_reference": true
+     },
+     {
+      "code": "4814",
+      "polarity": "exclude",
+      "page": 2,
+      "line": "4814, \u2022 ERAJAYA*",
+      "reason": "who are individuals. For the avoidance of doubt, individual Singtel bills excludes bills issued to corporate",
+      "in_reference": true
+     },
+     {
+      "code": "5999",
+      "polarity": "exclude",
+      "page": 2,
+      "line": "5999 \u2022 G-FORCE*",
+      "reason": "who are individuals. For the avoidance of doubt, individual Singtel bills excludes bills issued to corporate",
+      "in_reference": true
+     },
+     {
+      "code": "4829",
+      "polarity": "include",
+      "page": 3,
+      "line": "4829 Wire Transfer/Remittance",
+      "reason": "(i) any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "4900",
+      "polarity": "include",
+      "page": 3,
+      "line": "4900 Utilities",
+      "reason": "(i) any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "5199",
+      "polarity": "include",
+      "page": 3,
+      "line": "5199 Nondurable Goods",
+      "reason": "(i) any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "5960",
+      "polarity": "include",
+      "page": 3,
+      "line": "5960 Direct Marketing - Insurance Services",
+      "reason": "(i) any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "5965",
+      "polarity": "include",
+      "page": 3,
+      "line": "5965 Direct marketing \u2013Combination Catalog and Retail Merchants",
+      "reason": "(i) any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "5993",
+      "polarity": "include",
+      "page": 3,
+      "line": "5993 Cigar Stores and Stands",
+      "reason": "(i) any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "6012",
+      "polarity": "include",
+      "page": 3,
+      "line": "6012 Member Financial Institution\u2013Merchandise and Services",
+      "reason": "(i) any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "6050",
+      "polarity": "include",
+      "page": 3,
+      "line": "6050 Quasi Cash\u2013Financial Institutions, Merchandise and Services",
+      "reason": "(i) any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "6051",
+      "polarity": "include",
+      "page": 3,
+      "line": "6051 Quasi Cash\u2013Merchant (Non-Financial Institutions \u2013 Foreign Currency,",
+      "reason": "(i) any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "6211",
+      "polarity": "include",
+      "page": 3,
+      "line": "6211 Securities\u2013Brokers and Dealers",
+      "reason": "(i) any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "6300",
+      "polarity": "include",
+      "page": 3,
+      "line": "6300 Insurance Sales/Underwrite",
+      "reason": "(i) any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "6513",
+      "polarity": "include",
+      "page": 3,
+      "line": "6513 Real Estate Agents & Managers \u2013 Rentals",
+      "reason": "(i) any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "6529",
+      "polarity": "include",
+      "page": 3,
+      "line": "6529 Quasi Cash-Remote Stored Value Load-Financial Institute Rentals",
+      "reason": "(i) any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": false
+     },
+     {
+      "code": "6530",
+      "polarity": "include",
+      "page": 3,
+      "line": "6530 Quasi Cash-Remote Stored Value Load-Merchant Rentals",
+      "reason": "(i) any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": false
+     },
+     {
+      "code": "6534",
+      "polarity": "include",
+      "page": 3,
+      "line": "6534 Quasi Cash-Remote Money Transfers",
+      "reason": "(i) any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": false
+     },
+     {
+      "code": "6540",
+      "polarity": "include",
+      "page": 3,
+      "line": "6540 Stored Value Card Purchase/Load",
+      "reason": "(i) any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "7349",
+      "polarity": "include",
+      "page": 3,
+      "line": "7349 Clean/Maint/Janitorial Serv aka Property Management",
+      "reason": "(i) any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "7511",
+      "polarity": "include",
+      "page": 3,
+      "line": "7511 Quasi Cash \u2013 Truck Stop Trxns",
+      "reason": "(i) any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "7523",
+      "polarity": "include",
+      "page": 3,
+      "line": "7523 Automobile Parking Lots and Garages",
+      "reason": "(i) any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "7995",
+      "polarity": "include",
+      "page": 3,
+      "line": "7995 Gambling - Betting, including Lottery Tickets, Casino Gaming Chips, Off-",
+      "reason": "(i) any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "8062",
+      "polarity": "include",
+      "page": 3,
+      "line": "8062 Hospitals",
+      "reason": "(i) any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "8211",
+      "polarity": "include",
+      "page": 3,
+      "line": "8211 Schools, Elementary and Secondary",
+      "reason": "(i) any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "8220",
+      "polarity": "include",
+      "page": 3,
+      "line": "8220 Colleges, Universities, Professional Schools and Junior Colleges",
+      "reason": "(i) any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "8241",
+      "polarity": "include",
+      "page": 3,
+      "line": "8241 Schools, Correspondence",
+      "reason": "(i) any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "8244",
+      "polarity": "include",
+      "page": 3,
+      "line": "8244 Schools, Business and Secretarial",
+      "reason": "(i) any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "8249",
+      "polarity": "include",
+      "page": 3,
+      "line": "8249 Schools, Trade and Vocational",
+      "reason": "(i) any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "8299",
+      "polarity": "include",
+      "page": 3,
+      "line": "8299 Schools and Educational Services\u2013Not Elsewhere Classified",
+      "reason": "(i) any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "8398",
+      "polarity": "include",
+      "page": 3,
+      "line": "8398 Charitable and Social Service Organizations",
+      "reason": "(i) any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "8661",
+      "polarity": "include",
+      "page": 3,
+      "line": "8661 Religious Organizations",
+      "reason": "(i) any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "8651",
+      "polarity": "include",
+      "page": 3,
+      "line": "8651 Political Organizations",
+      "reason": "(i) any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "8699",
+      "polarity": "include",
+      "page": 3,
+      "line": "8699 Membership Organizations (Not Elsewhere Classified)",
+      "reason": "(i) any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "8999",
+      "polarity": "include",
+      "page": 3,
+      "line": "8999 Professional Services (Not Elsewhere Classified)",
+      "reason": "(i) any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "9211",
+      "polarity": "include",
+      "page": 3,
+      "line": "9211 Court Costs including Alimony and Child Support",
+      "reason": "(i) any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "9222",
+      "polarity": "include",
+      "page": 3,
+      "line": "9222 Fines",
+      "reason": "(i) any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "9223",
+      "polarity": "include",
+      "page": 3,
+      "line": "9223 Bail and Bond Payments",
+      "reason": "(i) any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "9311",
+      "polarity": "include",
+      "page": 3,
+      "line": "9311 Tax Payment",
+      "reason": "(i) any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "9402",
+      "polarity": "include",
+      "page": 3,
+      "line": "9402 Postal Services\u2014Government Only",
+      "reason": "(i) any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "9405",
+      "polarity": "include",
+      "page": 3,
+      "line": "9405 Intra-Government Purchases\u2014Government Only",
+      "reason": "(i) any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "9399",
+      "polarity": "include",
+      "page": 3,
+      "line": "9399 Government Services\u2014not elsewhere classified",
+      "reason": "(i) any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     }
+    ]
+   },
+   "transaction_modes": {
+    "online": [
+     "For the avoidance of doubt, Transactions which are made online via any of the mobile wallets listed above will not be eligible to receive any Cashback under the \u201cMobile Contactless Spend\u201d category but will receive Cashback under the \u201cOnline Spend\u201d category.",
+     "\u201cLocal Online Spend\u201d refers to Transactions made via the internet based on system indicators and processed locally in Singapore by the respective merchants/acquirers as an online transaction.",
+     "\u201cOther Spend\u201d means all other Transactions that are not Local Online Spend, Local Mobile Contactless Spend and/or Singtel Spend.",
+     "MCC Descriptions 4812, \u2022 BS WHATSAPP BOT* 4814, \u2022 ERAJAYA* 5999 \u2022 G-FORCE* \u2022 GKE RETAILS PTE LTD \u2022 GOMO MOBILE PLAN* \u2022 HELLO* \u2022 MY APPS MALL* \u2022 MYSINGTELAPP* \u2022 PREPAID ONLINE TOP UP* \u2022 PREPAID* \u2022 SINGAPORE TELCOM* \u2022 SINGTEL* \u2022 SINGTELSHOP* \u2022 STBILL* \u2022 STS* \u2022 TELECOM EQ* \u2022 WHIZCOMM* \u201cTransactions\u201d means the transactions successfully charged to the Card Account by the Principal and Supplementary Car",
+     "1.1 As a Cardmember, you will earn cashback on Transactions charged to your Card (\u201cCashback\u201d) as follows: Qualifying Spend Cashback Cap per statement month S$800 12% Cashback on Singtel Spend S$30 (per statement month) 10% Cashback on Local Online S$30 Spend and Local Mobile Contactless Spend",
+     "1.2 To qualify for 12% Cashback on Singtel Spend and 10% Cashback on Local Online Spend and Local Mobile Contactless Spend, you must successfully charge at least S$800 worth of Transactions in a statement month to your Card (\u201cQualifying Spend\u201d).",
+     "The Singtel vouches may be redeemed directly at Singtel shops or online via Singtel.com."
+    ],
+    "contactless": [
+     "\u201cLocal Mobile Contactless Spend\u201d means in-store contactless Transactions made via the following mobile wallets: Apple Pay, Samsung Pay, Google Pay and such other mobile wallet services as UOB may determine from time to time at its sole discretion and processed locally in Singapore, as UOB may determine from time to time at its sole discretion.",
+     "For the avoidance of doubt, Transactions which are made online via any of the mobile wallets listed above will not be eligible to receive any Cashback under the \u201cMobile Contactless Spend\u201d category but will receive Cashback under the \u201cOnline Spend\u201d category.",
+     "\u201cOther Spend\u201d means all other Transactions that are not Local Online Spend, Local Mobile Contactless Spend and/or Singtel Spend.",
+     "1.1 As a Cardmember, you will earn cashback on Transactions charged to your Card (\u201cCashback\u201d) as follows: Qualifying Spend Cashback Cap per statement month S$800 12% Cashback on Singtel Spend S$30 (per statement month) 10% Cashback on Local Online S$30 Spend and Local Mobile Contactless Spend",
+     "1.2 To qualify for 12% Cashback on Singtel Spend and 10% Cashback on Local Online Spend and Local Mobile Contactless Spend, you must successfully charge at least S$800 worth of Transactions in a statement month to your Card (\u201cQualifying Spend\u201d).",
+     "Visa payWave Reader and Transactions",
+     "7.1 The Visa payWave-enabled Card may be used to carry out card transactions at all Visa point-of-sale terminals and at such other readers or systems as we may from time to time approve.",
+     "7.2 As an additional usage avenue for your convenience, we have also made arrangements for you to use your new Cards to effect card transactions at Visa payWave readers.",
+     "A Visa payWave reader is a point-of-sale device (as approved by us in our sole and absolute discretion from time to time) at which the new Card may be used to execute card transactions, either by tapping or waving the new Card against such reader without requiring any signature, PIN or other authentication on your part.",
+     "7.3 Any usage of a new Card at any Visa payWave readers, if permitted by us shall be subject to such terms and conditions as we and Visa may agree from time to time."
+    ],
+    "mobile_wallet": [
+     "\u201cLocal Mobile Contactless Spend\u201d means in-store contactless Transactions made via the following mobile wallets: Apple Pay, Samsung Pay, Google Pay and such other mobile wallet services as UOB may determine from time to time at its sole discretion and processed locally in Singapore, as UOB may determine from time to time at its sole discretion.",
+     "For the avoidance of doubt, Transactions which are made online via any of the mobile wallets listed above will not be eligible to receive any Cashback under the \u201cMobile Contactless Spend\u201d category but will receive Cashback under the \u201cOnline Spend\u201d category.",
+     "2.3 Qualifying local spend transactions are posted retail transactions made in Singapore dollars excluding funds transfers, cash advances, personal loan, overseas spend transactions in foreign currency, void card transactions, chargebacks, fees, interests, other financial charges, amounts approved under the UOB Payment Facility and any associated fees or charges (with effect from 19 June 2023), an"
+    ],
+    "recurring": [
+     "\u201cEligible Recurring Payment Arrangement\u201d means Designated Bills that are charged on a recurring basis to the Card.",
+     "If your Gomo charges are charged to the Card on a recurring basis for 12 consecutive months by 10 November 2025, and you are charged an annual fee on or after 10 November 2025, you will receive a waiver of the annual fee posted to your Card.",
+     "2.1 As a Principal Cardmember, you will be entitled to the following Singtel vouchers when you have in place (i) an Eligible Recurring Payment Arrangement for postpaid Singtel Mobile, Fibre Broadband or TV services (not including GOMO and prepaid services) AND (ii) meet the minimum local spend indicated in the table below during a qualifying period: Minimum total annum local spend Receive Singtel ",
+     "3.1 Both Principal and Supplementary Cardmembers will receive a waiver on the Card annual fee if Singtel Bills are charged to the Card on a recurring basis for 12 consecutive months.",
+     "193500026Z receive a waiver on the Card annual fee if there is an Eligible Recurring Payment Arrangement for 12 consecutive months.",
+     "3.2 An annual fee of S$196.20 for the Principal Card and S$98.10 for Supplementary Card will apply if there is no Singtel Bill charged to the Card, or (with effect from 10 November 2025) if there is no Eligible Recurring Payment Arrangement, for 12 consecutive months."
+    ],
+    "foreign_currency": [
+     "Definitions The following terms shall have the following meanings when used in these Terms: \u201cBank\u201d or \u201cUOB\u201d means United Overseas Bank Limited.",
+     "Date of publishing: 28 July 2025 (effective 27 August 2025) United Overseas Bank Limited Co.",
+     "193500026Z \u201cOverseas Foreign Currency Spend\u201d means Transactions which are processed outside of Singapore and successfully charged to your Card and posted on UOB\u2019s system, in a foreign currency.",
+     "Transactions which are processed outside of Singapore, but which are charged to your Card in Singapore dollars at the time of the Transaction will not constitute an Overseas Foreign Currency Spend.",
+     "Date of publishing: 28 July 2025 (effective 27 August 2025) United Overseas Bank Limited Co.",
+     "(i) any transaction made with the following Merchant Category Codes (MCC): MCC Description 4829 Wire Transfer/Remittance 4900 Utilities 5199 Nondurable Goods 5960 Direct Marketing - Insurance Services 5965 Direct marketing \u2013Combination Catalog and Retail Merchants 5993 Cigar Stores and Stands 6012 Member Financial Institution\u2013Merchandise and Services 6050 Quasi Cash\u2013Financial Institutions, Merchan",
+     "Date of publishing: 28 July 2025 (effective 27 August 2025) United Overseas Bank Limited Co.",
+     "Date of publishing: 28 July 2025 (effective 27 August 2025) United Overseas Bank Limited Co.",
+     "2.3 Qualifying local spend transactions are posted retail transactions made in Singapore dollars excluding funds transfers, cash advances, personal loan, overseas spend transactions in foreign currency, void card transactions, chargebacks, fees, interests, other financial charges, amounts approved under the UOB Payment Facility and any associated fees or charges (with effect from 19 June 2023), an",
+     "With effect from 10 November 2025, both Principal and Supplementary Cardmembers will Date of publishing: 28 July 2025 (effective 27 August 2025) United Overseas Bank Limited Co.",
+     "4.1 There will be no administrative fees applied on transactions in foreign currencies (\u201cFX fees\u201d) charged on all Overseas Foreign Currency Spend successfully charged and posted to your Card account.",
+     "Date of publishing: 28 July 2025 (effective 27 August 2025) United Overseas Bank Limited Co.",
+     "Date of publishing: 28 July 2025 (effective 27 August 2025) United Overseas Bank Limited Co.",
+     "Date of publishing: 28 July 2025 (effective 27 August 2025) United Overseas Bank Limited Co.",
+     "Date of publishing: 28 July 2025 (effective 27 August 2025) United Overseas Bank Limited Co."
+    ],
+    "local_currency": [
+     "Transactions which are processed outside of Singapore, but which are charged to your Card in Singapore dollars at the time of the Transaction will not constitute an Overseas Foreign Currency Spend.",
+     "Transactions effected in foreign currencies will be converted into Singapore dollars based on UOB\u2019s prevailing exchange rate and the Singapore dollar amount posted on UOB\u2019s system will be used for the purposes of computing your Qualifying Spend and corresponding Cashback.",
+     "1.5 The Cashback earned for the current statement month will be credited into your Card account in the next statement month in Singapore dollars and can only be used to offset against the billed amount for your Card account in your next statement month.",
+     "4.2 For the avoidance of doubt, the International Processing Fee of 1% of the transaction amount, which is chargeable on transactions charged to your Card in Singapore dollars and processed outside Singapore, will continue to apply."
+    ]
+   },
+   "non_mcc_exclusions": [
+    "annual fee",
+    "axs",
+    "cash advance",
+    "charit",
+    "education",
+    "government",
+    "hospital",
+    "instalment",
+    "interest",
+    "ipaymy",
+    "late payment charge",
+    "tax",
+    "top-ups",
+    "utilit"
+   ]
+  },
+  {
+   "url": "https://www.uob.com.sg/credit-cards/pdf/online-cards-campaign.pdf",
+   "citation": {
+    "id": "bank:c13cf48e44b4",
+    "url": "https://www.uob.com.sg/credit-cards/pdf/online-cards-campaign.pdf",
+    "source_type": "official",
+    "retrieved_at": "2026-09-27T08:42:03+00:00",
+    "sha256": "c13cf48e44b48d1aa3b0d0d5655f54f9001de57208d560ff29b09fc9ed8bc643",
+    "snapshot": "data/raw/bank/www-uob-com-sg-credit-cards-pdf-online-cards-campaign-pdf-a28f442a.pdf"
+   },
+   "text_path": "data/raw/bank/www-uob-com-sg-credit-cards-pdf-online-cards-campaign-pdf-a28f442a.txt",
+   "sha256": "c13cf48e44b48d1aa3b0d0d5655f54f9001de57208d560ff29b09fc9ed8bc643",
+   "changed": false,
+   "new": true,
+   "no_text_layer": false,
+   "effective_dates": [],
+   "mcc": {
+    "include": [
+     "4829",
+     "5199",
+     "5960",
+     "6012",
+     "6050",
+     "6051",
+     "6211",
+     "6300",
+     "6399",
+     "6513",
+     "6529",
+     "6530",
+     "6534",
+     "6540",
+     "7349",
+     "7511",
+     "7523",
+     "7995",
+     "8062",
+     "8211",
+     "8220",
+     "8241",
+     "8244",
+     "8249",
+     "8299",
+     "8398",
+     "8651",
+     "8661",
+     "9211",
+     "9222",
+     "9223",
+     "9311",
+     "9399",
+     "9402",
+     "9405"
+    ],
+    "exclude": [],
+    "unknown": [],
+    "conflicting": [],
+    "unrecognised": [
+     "6529",
+     "6530",
+     "6534"
+    ],
+    "hits": [
+     {
+      "code": "4829",
+      "polarity": "include",
+      "page": 2,
+      "line": "4829 Wire Transfer / Remittance",
+      "reason": "(ix) any transaction classified under one or more of the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "5199",
+      "polarity": "include",
+      "page": 2,
+      "line": "5199 Nondurable Goods",
+      "reason": "(ix) any transaction classified under one or more of the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "5960",
+      "polarity": "include",
+      "page": 2,
+      "line": "5960 Direct Marketing \u2013 Insurance Services",
+      "reason": "(ix) any transaction classified under one or more of the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "6012",
+      "polarity": "include",
+      "page": 2,
+      "line": "6012 Member Financial Institution \u2013 Merchandise and Services",
+      "reason": "(ix) any transaction classified under one or more of the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "6050",
+      "polarity": "include",
+      "page": 2,
+      "line": "6050 Quasi Cash \u2013 Financial Institutions, Merchandise and Services",
+      "reason": "(ix) any transaction classified under one or more of the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "6051",
+      "polarity": "include",
+      "page": 2,
+      "line": "6051 Quasi Cash \u2013 Merchant (Non-Financial Institutions \u2013 Foreign Currency, Non-",
+      "reason": "(ix) any transaction classified under one or more of the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "6211",
+      "polarity": "include",
+      "page": 2,
+      "line": "6211 Securities \u2013 Brokers and Dealers",
+      "reason": "(ix) any transaction classified under one or more of the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "6300",
+      "polarity": "include",
+      "page": 2,
+      "line": "6300 Insurance Sales / Underwrite",
+      "reason": "(ix) any transaction classified under one or more of the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "6399",
+      "polarity": "include",
+      "page": 2,
+      "line": "6399 Insurance",
+      "reason": "(ix) any transaction classified under one or more of the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "6513",
+      "polarity": "include",
+      "page": 2,
+      "line": "6513 Real Estate Agents & Managers \u2013 Rentals",
+      "reason": "(ix) any transaction classified under one or more of the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "6529",
+      "polarity": "include",
+      "page": 2,
+      "line": "6529 Quasi Cash \u2013 Remote Stored Value Load-Financial Institute Rentals",
+      "reason": "(ix) any transaction classified under one or more of the following Merchant Category Codes",
+      "in_reference": false
+     },
+     {
+      "code": "6530",
+      "polarity": "include",
+      "page": 2,
+      "line": "6530 Quasi Cash-Remote Stored Value Load \u2013 Merchant Rentals",
+      "reason": "(ix) any transaction classified under one or more of the following Merchant Category Codes",
+      "in_reference": false
+     },
+     {
+      "code": "6534",
+      "polarity": "include",
+      "page": 2,
+      "line": "6534 Quasi Cash \u2013 Remote Money Transfers",
+      "reason": "(ix) any transaction classified under one or more of the following Merchant Category Codes",
+      "in_reference": false
+     },
+     {
+      "code": "6540",
+      "polarity": "include",
+      "page": 2,
+      "line": "6540 Stored Value Card Purchase/Load",
+      "reason": "(ix) any transaction classified under one or more of the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "7349",
+      "polarity": "include",
+      "page": 2,
+      "line": "7349 Clean/Maint/Janitorial Serv aka Property Management",
+      "reason": "(ix) any transaction classified under one or more of the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "7511",
+      "polarity": "include",
+      "page": 2,
+      "line": "7511 Quasi Cash \u2013 Truck Stop Trxns",
+      "reason": "(ix) any transaction classified under one or more of the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "7523",
+      "polarity": "include",
+      "page": 2,
+      "line": "7523 Automobile Parking Lots and Garages",
+      "reason": "(ix) any transaction classified under one or more of the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "7995",
+      "polarity": "include",
+      "page": 2,
+      "line": "7995 Gambling \u2013 Betting, including Lottery Tickets, Casino Gaming Chips, Off-Track",
+      "reason": "(ix) any transaction classified under one or more of the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "8062",
+      "polarity": "include",
+      "page": 2,
+      "line": "8062 Hospitals",
+      "reason": "(ix) any transaction classified under one or more of the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "8211",
+      "polarity": "include",
+      "page": 2,
+      "line": "8211 Schools, Elementary and Secondary",
+      "reason": "(ix) any transaction classified under one or more of the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "8220",
+      "polarity": "include",
+      "page": 2,
+      "line": "8220 Colleges, Universities, Professional Schools and Junior Colleges",
+      "reason": "(ix) any transaction classified under one or more of the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "8241",
+      "polarity": "include",
+      "page": 2,
+      "line": "8241 Schools, Correspondence",
+      "reason": "(ix) any transaction classified under one or more of the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "8244",
+      "polarity": "include",
+      "page": 2,
+      "line": "8244 Schools, Business and Secretarial",
+      "reason": "(ix) any transaction classified under one or more of the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "8249",
+      "polarity": "include",
+      "page": 2,
+      "line": "8249 Schools, Trade and Vocational",
+      "reason": "(ix) any transaction classified under one or more of the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "8299",
+      "polarity": "include",
+      "page": 2,
+      "line": "8299 Schools and Educational Services \u2013 Not Elsewhere Classified",
+      "reason": "(ix) any transaction classified under one or more of the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "8398",
+      "polarity": "include",
+      "page": 2,
+      "line": "8398 Organizations, Charitable and Social Service",
+      "reason": "(ix) any transaction classified under one or more of the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "8661",
+      "polarity": "include",
+      "page": 2,
+      "line": "8661 Organizations, Religious",
+      "reason": "(ix) any transaction classified under one or more of the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "8651",
+      "polarity": "include",
+      "page": 2,
+      "line": "8651 Organizations, Political",
+      "reason": "(ix) any transaction classified under one or more of the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "9211",
+      "polarity": "include",
+      "page": 2,
+      "line": "9211 Court Costs including Alimony and Child Support",
+      "reason": "(ix) any transaction classified under one or more of the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "9222",
+      "polarity": "include",
+      "page": 2,
+      "line": "9222 Fines",
+      "reason": "(ix) any transaction classified under one or more of the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "9223",
+      "polarity": "include",
+      "page": 2,
+      "line": "9223 Bail and Bond Payments",
+      "reason": "(ix) any transaction classified under one or more of the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "9311",
+      "polarity": "include",
+      "page": 2,
+      "line": "9311 Tax Payment",
+      "reason": "(ix) any transaction classified under one or more of the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "9399",
+      "polarity": "include",
+      "page": 2,
+      "line": "9399 Government Services \u2013 not elsewhere classified",
+      "reason": "(ix) any transaction classified under one or more of the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "9402",
+      "polarity": "include",
+      "page": 2,
+      "line": "9402 Postal Services \u2013 Government Only",
+      "reason": "(ix) any transaction classified under one or more of the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "9405",
+      "polarity": "include",
+      "page": 2,
+      "line": "9405 Intra-Government Purchases \u2013 Government Only",
+      "reason": "(ix) any transaction classified under one or more of the following Merchant Category Codes",
+      "in_reference": true
+     }
+    ]
+   },
+   "transaction_modes": {
+    "online": [
+     "Without limiting the foregoing, UOB will not be liable or responsible for any undelivered, misdirected, corrupted, lost or delayed text, transmission or transaction or any delay or failure in posting any transaction or accessing any of UOB\u2019s online banking services or mobile banking services or third party applications, howsoever caused."
+    ],
+    "mobile_wallet": [
+     "(vii) any Grab mobile wallet top-up transactions;"
+    ],
+    "foreign_currency": [
+     "This Promotion is only open to individuals who are new to United Overseas Bank Limited (\u201cUOB\u201d) credit cards.",
+     "MCC Description 4829 Wire Transfer / Remittance 5199 Nondurable Goods 5960 Direct Marketing \u2013 Insurance Services 6012 Member Financial Institution \u2013 Merchandise and Services 6050 Quasi Cash \u2013 Financial Institutions, Merchandise and Services 6051 Quasi Cash \u2013 Merchant (Non-Financial Institutions \u2013 Foreign Currency, Non- Fiat Currency, Cryptocurrency) 6211 Securities \u2013 Brokers and Dealers 6300 Insur"
+    ],
+    "local_currency": [
+     "(c) Eligible Transactions made in foreign currencies will be converted into Singapore dollars based on UOB\u2019s then prevailing exchange rate applicable at the time of exchange."
+    ]
+   },
+   "non_mcc_exclusions": [
+    "axs",
+    "cardup",
+    "cash advance",
+    "charit",
+    "education",
+    "government",
+    "hospital",
+    "instalment",
+    "interest",
+    "ipaymy",
+    "late payment charge",
+    "tax",
+    "top-up"
+   ]
+  },
+  {
+   "url": "https://www.uob.com.sg/assets/web-resources/personal/pdf/cards/cashback/singtel-card/singtel-iphone-giveaway-tnc.pdf",
+   "citation": {
+    "id": "bank:3ae179a3cc5e",
+    "url": "https://www.uob.com.sg/assets/web-resources/personal/pdf/cards/cashback/singtel-card/singtel-iphone-giveaway-tnc.pdf",
+    "source_type": "official",
+    "retrieved_at": "2026-09-27T08:42:05+00:00",
+    "sha256": "3ae179a3cc5e5cd1f2129fca1616a1c6b02ca63aedadbd37599c26410734c444",
+    "snapshot": "data/raw/bank/www-uob-com-sg-assets-web-resources-personal-pdf-cards-cashback-singtel-card-singtel-iphone-giveaway-tnc-pdf-97cc9e69.pdf"
+   },
+   "text_path": "data/raw/bank/www-uob-com-sg-assets-web-resources-personal-pdf-cards-cashback-singtel-card-singtel-iphone-giveaway-tnc-pdf-97cc9e69.txt",
+   "sha256": "3ae179a3cc5e5cd1f2129fca1616a1c6b02ca63aedadbd37599c26410734c444",
+   "changed": false,
+   "new": true,
+   "no_text_layer": false,
+   "effective_dates": [
+    "1 Sep 2019",
+    "10 November 2025",
+    "19 June 2023"
+   ],
+   "mcc": {
+    "include": [
+     "4829",
+     "4900",
+     "5199",
+     "5960",
+     "5965",
+     "5993",
+     "6012",
+     "6050",
+     "6051",
+     "6211",
+     "6300",
+     "6513",
+     "6529",
+     "6530",
+     "6534",
+     "6540",
+     "7349",
+     "7511",
+     "7523",
+     "7995",
+     "8062",
+     "8211",
+     "8220",
+     "8241",
+     "8244",
+     "8249",
+     "8299",
+     "8398",
+     "8651",
+     "8661",
+     "8699",
+     "8999",
+     "9211",
+     "9222",
+     "9223",
+     "9311",
+     "9399",
+     "9402",
+     "9405"
+    ],
+    "exclude": [
+     "4812",
+     "4814",
+     "5999"
+    ],
+    "unknown": [],
+    "conflicting": [],
+    "unrecognised": [
+     "6529",
+     "6530",
+     "6534"
+    ],
+    "hits": [
+     {
+      "code": "4812",
+      "polarity": "exclude",
+      "page": 2,
+      "line": "4812, \u2022 BS WHATSAPP BOT*",
+      "reason": "who are individuals. For the avoidance of doubt, individual Singtel bills excludes bills issued to corporate",
+      "in_reference": true
+     },
+     {
+      "code": "4814",
+      "polarity": "exclude",
+      "page": 2,
+      "line": "4814, \u2022 ERAJAYA*",
+      "reason": "who are individuals. For the avoidance of doubt, individual Singtel bills excludes bills issued to corporate",
+      "in_reference": true
+     },
+     {
+      "code": "5999",
+      "polarity": "exclude",
+      "page": 2,
+      "line": "5999 \u2022 G-FORCE*",
+      "reason": "who are individuals. For the avoidance of doubt, individual Singtel bills excludes bills issued to corporate",
+      "in_reference": true
+     },
+     {
+      "code": "4829",
+      "polarity": "include",
+      "page": 3,
+      "line": "4829 Wire Transfer/Remittance",
+      "reason": "(i) any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "4900",
+      "polarity": "include",
+      "page": 3,
+      "line": "4900 Utilities",
+      "reason": "(i) any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "5199",
+      "polarity": "include",
+      "page": 3,
+      "line": "5199 Nondurable Goods",
+      "reason": "(i) any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "5960",
+      "polarity": "include",
+      "page": 3,
+      "line": "5960 Direct Marketing - Insurance Services",
+      "reason": "(i) any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "5965",
+      "polarity": "include",
+      "page": 3,
+      "line": "5965 Direct marketing \u2013Combination Catalog and Retail Merchants",
+      "reason": "(i) any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "5993",
+      "polarity": "include",
+      "page": 3,
+      "line": "5993 Cigar Stores and Stands",
+      "reason": "(i) any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "6012",
+      "polarity": "include",
+      "page": 3,
+      "line": "6012 Member Financial Institution\u2013Merchandise and Services",
+      "reason": "(i) any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "6050",
+      "polarity": "include",
+      "page": 3,
+      "line": "6050 Quasi Cash\u2013Financial Institutions, Merchandise and Services",
+      "reason": "(i) any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "6051",
+      "polarity": "include",
+      "page": 3,
+      "line": "6051 Quasi Cash\u2013Merchant (Non-Financial Institutions \u2013 Foreign Currency,",
+      "reason": "(i) any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "6211",
+      "polarity": "include",
+      "page": 3,
+      "line": "6211 Securities\u2013Brokers and Dealers",
+      "reason": "(i) any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "6300",
+      "polarity": "include",
+      "page": 3,
+      "line": "6300 Insurance Sales/Underwrite",
+      "reason": "(i) any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "6513",
+      "polarity": "include",
+      "page": 3,
+      "line": "6513 Real Estate Agents & Managers \u2013 Rentals",
+      "reason": "(i) any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "6529",
+      "polarity": "include",
+      "page": 3,
+      "line": "6529 Quasi Cash-Remote Stored Value Load-Financial Institute Rentals",
+      "reason": "(i) any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": false
+     },
+     {
+      "code": "6530",
+      "polarity": "include",
+      "page": 3,
+      "line": "6530 Quasi Cash-Remote Stored Value Load-Merchant Rentals",
+      "reason": "(i) any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": false
+     },
+     {
+      "code": "6534",
+      "polarity": "include",
+      "page": 3,
+      "line": "6534 Quasi Cash-Remote Money Transfers",
+      "reason": "(i) any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": false
+     },
+     {
+      "code": "6540",
+      "polarity": "include",
+      "page": 3,
+      "line": "6540 Stored Value Card Purchase/Load",
+      "reason": "(i) any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "7349",
+      "polarity": "include",
+      "page": 3,
+      "line": "7349 Clean/Maint/Janitorial Serv aka Property Management",
+      "reason": "(i) any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "7511",
+      "polarity": "include",
+      "page": 3,
+      "line": "7511 Quasi Cash \u2013 Truck Stop Trxns",
+      "reason": "(i) any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "7523",
+      "polarity": "include",
+      "page": 3,
+      "line": "7523 Automobile Parking Lots and Garages",
+      "reason": "(i) any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "7995",
+      "polarity": "include",
+      "page": 3,
+      "line": "7995 Gambling - Betting, including Lottery Tickets, Casino Gaming Chips, Off-",
+      "reason": "(i) any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "8062",
+      "polarity": "include",
+      "page": 3,
+      "line": "8062 Hospitals",
+      "reason": "(i) any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "8211",
+      "polarity": "include",
+      "page": 3,
+      "line": "8211 Schools, Elementary and Secondary",
+      "reason": "(i) any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "8220",
+      "polarity": "include",
+      "page": 3,
+      "line": "8220 Colleges, Universities, Professional Schools and Junior Colleges",
+      "reason": "(i) any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "8241",
+      "polarity": "include",
+      "page": 3,
+      "line": "8241 Schools, Correspondence",
+      "reason": "(i) any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "8244",
+      "polarity": "include",
+      "page": 3,
+      "line": "8244 Schools, Business and Secretarial",
+      "reason": "(i) any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "8249",
+      "polarity": "include",
+      "page": 3,
+      "line": "8249 Schools, Trade and Vocational",
+      "reason": "(i) any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "8299",
+      "polarity": "include",
+      "page": 3,
+      "line": "8299 Schools and Educational Services\u2013Not Elsewhere Classified",
+      "reason": "(i) any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "8398",
+      "polarity": "include",
+      "page": 3,
+      "line": "8398 Charitable and Social Service Organizations",
+      "reason": "(i) any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "8661",
+      "polarity": "include",
+      "page": 3,
+      "line": "8661 Religious Organizations",
+      "reason": "(i) any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "8651",
+      "polarity": "include",
+      "page": 3,
+      "line": "8651 Political Organizations",
+      "reason": "(i) any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "8699",
+      "polarity": "include",
+      "page": 3,
+      "line": "8699 Membership Organizations (Not Elsewhere Classified)",
+      "reason": "(i) any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "8999",
+      "polarity": "include",
+      "page": 3,
+      "line": "8999 Professional Services (Not Elsewhere Classified)",
+      "reason": "(i) any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "9211",
+      "polarity": "include",
+      "page": 3,
+      "line": "9211 Court Costs including Alimony and Child Support",
+      "reason": "(i) any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "9222",
+      "polarity": "include",
+      "page": 3,
+      "line": "9222 Fines",
+      "reason": "(i) any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "9223",
+      "polarity": "include",
+      "page": 3,
+      "line": "9223 Bail and Bond Payments",
+      "reason": "(i) any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "9311",
+      "polarity": "include",
+      "page": 3,
+      "line": "9311 Tax Payment",
+      "reason": "(i) any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "9402",
+      "polarity": "include",
+      "page": 3,
+      "line": "9402 Postal Services\u2014Government Only",
+      "reason": "(i) any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "9405",
+      "polarity": "include",
+      "page": 3,
+      "line": "9405 Intra-Government Purchases\u2014Government Only",
+      "reason": "(i) any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "9399",
+      "polarity": "include",
+      "page": 3,
+      "line": "9399 Government Services\u2014not elsewhere classified",
+      "reason": "(i) any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     }
+    ]
+   },
+   "transaction_modes": {
+    "online": [
+     "For the avoidance of doubt, Transactions which are made online via any of the mobile wallets listed above will not be eligible to receive any Cashback under the \u201cMobile Contactless Spend\u201d category but will receive Cashback under the \u201cOnline Spend\u201d category.",
+     "\u201cLocal Online Spend\u201d refers to Transactions made via the internet based on system indicators and processed locally in Singapore by the respective merchants/acquirers as an online transaction.",
+     "\u201cOther Spend\u201d means all other Transactions that are not Local Online Spend, Local Mobile Contactless Spend and/or Singtel Spend.",
+     "MCC Descriptions 4812, \u2022 BS WHATSAPP BOT* 4814, \u2022 ERAJAYA* 5999 \u2022 G-FORCE* \u2022 GKE RETAILS PTE LTD \u2022 GOMO MOBILE PLAN* \u2022 HELLO* \u2022 MY APPS MALL* \u2022 MYSINGTELAPP* \u2022 PREPAID ONLINE TOP UP* \u2022 PREPAID* \u2022 SINGAPORE TELCOM* \u2022 SINGTEL* \u2022 SINGTELSHOP* \u2022 STBILL* \u2022 STS* \u2022 TELECOM EQ* \u2022 WHIZCOMM* \u201cTransactions\u201d means the transactions successfully charged to the Card Account by the Principal and Supplementary Car",
+     "1.1 As a Cardmember, you will earn cashback on Transactions charged to your Card (\u201cCashback\u201d) as follows: Qualifying Spend Cashback Cap per statement month S$800 12% Cashback on Singtel Spend S$30 (per statement month) 10% Cashback on Local Online S$30 Spend and Local Mobile Contactless Spend",
+     "1.2 To qualify for 12% Cashback on Singtel Spend and 10% Cashback on Local Online Spend and Local Mobile Contactless Spend, you must successfully charge at least S$800 worth of Transactions in a statement month to your Card (\u201cQualifying Spend\u201d).",
+     "The Singtel vouches may be redeemed directly at Singtel shops or online via Singtel.com."
+    ],
+    "contactless": [
+     "\u201cLocal Mobile Contactless Spend\u201d means in-store contactless Transactions made via the following mobile wallets: Apple Pay, Samsung Pay, Google Pay and such other mobile wallet services as UOB may determine from time to time at its sole discretion and processed locally in Singapore, as UOB may determine from time to time at its sole discretion.",
+     "For the avoidance of doubt, Transactions which are made online via any of the mobile wallets listed above will not be eligible to receive any Cashback under the \u201cMobile Contactless Spend\u201d category but will receive Cashback under the \u201cOnline Spend\u201d category.",
+     "\u201cOther Spend\u201d means all other Transactions that are not Local Online Spend, Local Mobile Contactless Spend and/or Singtel Spend.",
+     "1.1 As a Cardmember, you will earn cashback on Transactions charged to your Card (\u201cCashback\u201d) as follows: Qualifying Spend Cashback Cap per statement month S$800 12% Cashback on Singtel Spend S$30 (per statement month) 10% Cashback on Local Online S$30 Spend and Local Mobile Contactless Spend",
+     "1.2 To qualify for 12% Cashback on Singtel Spend and 10% Cashback on Local Online Spend and Local Mobile Contactless Spend, you must successfully charge at least S$800 worth of Transactions in a statement month to your Card (\u201cQualifying Spend\u201d).",
+     "Visa payWave Reader and Transactions",
+     "7.1 The Visa payWave-enabled Card may be used to carry out card transactions at all Visa point-of-sale terminals and at such other readers or systems as we may from time to time approve.",
+     "7.2 As an additional usage avenue for your convenience, we have also made arrangements for you to use your new Cards to effect card transactions at Visa payWave readers.",
+     "A Visa payWave reader is a point-of-sale device (as approved by us in our sole and absolute discretion from time to time) at which the new Card may be used to execute card transactions, either by tapping or waving the new Card against such reader without requiring any signature, PIN or other authentication on your part.",
+     "7.3 Any usage of a new Card at any Visa payWave readers, if permitted by us shall be subject to such terms and conditions as we and Visa may agree from time to time."
+    ],
+    "mobile_wallet": [
+     "\u201cLocal Mobile Contactless Spend\u201d means in-store contactless Transactions made via the following mobile wallets: Apple Pay, Samsung Pay, Google Pay and such other mobile wallet services as UOB may determine from time to time at its sole discretion and processed locally in Singapore, as UOB may determine from time to time at its sole discretion.",
+     "For the avoidance of doubt, Transactions which are made online via any of the mobile wallets listed above will not be eligible to receive any Cashback under the \u201cMobile Contactless Spend\u201d category but will receive Cashback under the \u201cOnline Spend\u201d category.",
+     "2.3 Qualifying local spend transactions are posted retail transactions made in Singapore dollars excluding funds transfers, cash advances, personal loan, overseas spend transactions in foreign currency, void card transactions, chargebacks, fees, interests, other financial charges, amounts approved under the UOB Payment Facility and any associated fees or charges (with effect from 19 June 2023), an"
+    ],
+    "recurring": [
+     "\u201cEligible Recurring Payment Arrangement\u201d means Designated Bills that are charged on a recurring basis to the Card.",
+     "If your Gomo charges are charged to the Card on a recurring basis for 12 consecutive months by 10 November 2025, and you are charged an annual fee on or after 10 November 2025, you will receive a waiver of the annual fee posted to your Card.",
+     "2.1 As a Principal Cardmember, you will be entitled to the following Singtel vouchers when you have in place (i) an Eligible Recurring Payment Arrangement for postpaid Singtel Mobile, Fibre Broadband or TV services (not including GOMO and prepaid services) AND (ii) meet the minimum local spend indicated in the table below during a qualifying period: Minimum total annum local spend Receive Singtel ",
+     "3.1 Both Principal and Supplementary Cardmembers will receive a waiver on the Card annual fee if Singtel Bills are charged to the Card on a recurring basis for 12 consecutive months.",
+     "193500026Z receive a waiver on the Card annual fee if there is an Eligible Recurring Payment Arrangement for 12 consecutive months.",
+     "3.2 An annual fee of S$196.20 for the Principal Card and S$98.10 for Supplementary Card will apply if there is no Singtel Bill charged to the Card, or (with effect from 10 November 2025) if there is no Eligible Recurring Payment Arrangement, for 12 consecutive months."
+    ],
+    "foreign_currency": [
+     "Definitions The following terms shall have the following meanings when used in these Terms: \u201cBank\u201d or \u201cUOB\u201d means United Overseas Bank Limited.",
+     "Date of publishing:27 August 2025, Version 2.0 United Overseas Bank Limited Co.",
+     "193500026Z \u201cOverseas Foreign Currency Spend\u201d means Transactions which are processed outside of Singapore and successfully charged to your Card and posted on UOB\u2019s system, in a foreign currency.",
+     "Transactions which are processed outside of Singapore, but which are charged to your Card in Singapore dollars at the time of the Transaction will not constitute an Overseas Foreign Currency Spend.",
+     "Date of publishing:27 August 2025, Version 2.0 United Overseas Bank Limited Co.",
+     "(i) any transaction made with the following Merchant Category Codes (MCC): MCC Description 4829 Wire Transfer/Remittance 4900 Utilities 5199 Nondurable Goods 5960 Direct Marketing - Insurance Services 5965 Direct marketing \u2013Combination Catalog and Retail Merchants 5993 Cigar Stores and Stands 6012 Member Financial Institution\u2013Merchandise and Services 6050 Quasi Cash\u2013Financial Institutions, Merchan",
+     "Date of publishing:27 August 2025, Version 2.0 United Overseas Bank Limited Co.",
+     "Date of publishing:27 August 2025, Version 2.0 United Overseas Bank Limited Co.",
+     "2.3 Qualifying local spend transactions are posted retail transactions made in Singapore dollars excluding funds transfers, cash advances, personal loan, overseas spend transactions in foreign currency, void card transactions, chargebacks, fees, interests, other financial charges, amounts approved under the UOB Payment Facility and any associated fees or charges (with effect from 19 June 2023), an",
+     "With effect from 10 November 2025, both Principal and Supplementary Cardmembers will Date of publishing:27 August 2025, Version 2.0 United Overseas Bank Limited Co.",
+     "4.1 There will be no administrative fees applied on transactions in foreign currencies (\u201cFX fees\u201d) charged on all Overseas Foreign Currency Spend successfully charged and posted to your Card account.",
+     "Date of publishing:27 August 2025, Version 2.0 United Overseas Bank Limited Co.",
+     "Date of publishing:27 August 2025, Version 2.0 United Overseas Bank Limited Co.",
+     "Date of publishing:27 August 2025, Version 2.0 United Overseas Bank Limited Co.",
+     "Date of publishing:27 August 2025, Version 2.0 United Overseas Bank Limited Co."
+    ],
+    "local_currency": [
+     "Transactions which are processed outside of Singapore, but which are charged to your Card in Singapore dollars at the time of the Transaction will not constitute an Overseas Foreign Currency Spend.",
+     "Transactions effected in foreign currencies will be converted into Singapore dollars based on UOB\u2019s prevailing exchange rate and the Singapore dollar amount posted on UOB\u2019s system will be used for the purposes of computing your Qualifying Spend and corresponding Cashback.",
+     "1.5 The Cashback earned for the current statement month will be credited into your Card account in the next statement month in Singapore dollars and can only be used to offset against the billed amount for your Card account in your next statement month.",
+     "4.2 For the avoidance of doubt, the International Processing Fee of 1% of the transaction amount, which is chargeable on transactions charged to your Card in Singapore dollars and processed outside Singapore, will continue to apply."
+    ]
+   },
+   "non_mcc_exclusions": [
+    "annual fee",
+    "axs",
+    "cash advance",
+    "charit",
+    "education",
+    "government",
+    "hospital",
+    "instalment",
+    "interest",
+    "ipaymy",
+    "late payment charge",
+    "tax",
+    "top-ups",
+    "utilit"
+   ]
+  },
+  {
+   "url": "https://www.uob.com.sg/assets/web-resources/personal/pdf/cards/cashback/singtel-card/singtel-shop-campaign.pdf",
+   "citation": {
+    "id": "bank:a5f6ac2acc8d",
+    "url": "https://www.uob.com.sg/assets/web-resources/personal/pdf/cards/cashback/singtel-card/singtel-shop-campaign.pdf",
+    "source_type": "official",
+    "retrieved_at": "2026-09-27T08:42:07+00:00",
+    "sha256": "a5f6ac2acc8d9073d9054bcf4707bba872ac37cca348dd29574d72a40c7e42fe",
+    "snapshot": "data/raw/bank/www-uob-com-sg-assets-web-resources-personal-pdf-cards-cashback-singtel-card-singtel-shop-campaign-pdf-952d44fc.pdf"
+   },
+   "text_path": "data/raw/bank/www-uob-com-sg-assets-web-resources-personal-pdf-cards-cashback-singtel-card-singtel-shop-campaign-pdf-952d44fc.txt",
+   "sha256": "a5f6ac2acc8d9073d9054bcf4707bba872ac37cca348dd29574d72a40c7e42fe",
+   "changed": false,
+   "new": true,
+   "no_text_layer": false,
+   "effective_dates": [],
+   "mcc": {
+    "include": [],
+    "exclude": [],
+    "unknown": [],
+    "conflicting": [],
+    "unrecognised": [],
+    "hits": []
+   },
+   "transaction_modes": {
+    "online": [
+     "Without limiting the foregoing, UOB will not be liable or responsible for any undelivered, misdirected, corrupted, lost or delayed text, transmission or transaction or any delay or failure in posting any transaction or accessing any of UOB\u2019s online banking services or mobile banking services or third party applications, howsoever caused."
+    ],
+    "recurring": [
+     "(i) Bill payment transactions (including but not limited to manual bill payments made via MySingTel App and/or Singtel website and recurring bill payments);"
+    ],
+    "foreign_currency": [
+     "1.2 This Promotion is open to all holders of a Singtel-UOB Credit Card issued by United Overseas Bank Limited (\u201cUOB\u201d) in Singapore (the \u201cSingtel-UOB Credit Card\u201d).",
+     "Cash Rebate Updated Sep 2024 United Overseas Bank Limited Co.",
+     "Updated Sep 2024 United Overseas Bank Limited Co.",
+     "Updated Sep 2024 United Overseas Bank Limited Co."
+    ]
+   },
+   "non_mcc_exclusions": [
+    "bill payment"
+   ]
+  }
+ ],
+ "changed": false,
+ "removed_documents": []
+}

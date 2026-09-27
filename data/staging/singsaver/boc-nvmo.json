@@ -1,0 +1,129 @@
+{
+ "source": "singsaver",
+ "source_id": "boc-family-card",
+ "source_url": "https://www.singsaver.com.sg/credit-card/products/boc-family-card",
+ "name": "BOC NVMO Card",
+ "bank": "Bank of China",
+ "card_id": "boc-nvmo",
+ "image_url": "https://mhgprod.blob.core.windows.net/singsaver/strapi-uploads/m_BOC_NVMO_Card_49220f2ff6.png",
+ "annual_fee": 207.1,
+ "annual_fee_note": "S$ | Enjoy first year annual fee waiver (S$207.10 incl. GST) for both principal and supplementary cards.",
+ "min_annual_income": 30000.0,
+ "min_monthly_spend": 800.0,
+ "earn_rates": {
+  "percent:baseline": {
+   "value": 0.3,
+   "unit": "percent",
+   "note": "0.3% cash rebate will be awarded on all other spend categories (or all categories if monthly spend is less than S$800)."
+  },
+  "percent:local": {
+   "value": 10.0,
+   "unit": "percent",
+   "note": "Up to  | Get up to 10% cashback with minimum monthly spend of S$800, capped at S$25. Base rate 0.3%."
+  },
+  "percent:overseas": {
+   "value": 10.0,
+   "unit": "percent",
+   "note": "Up to  | Get up to 10% cashback with minimum monthly spend of S$800, capped at S$25. Base rate 0.3%."
+  },
+  "percent:dining": {
+   "value": 10.0,
+   "unit": "percent",
+   "note": "Get 10% cashback on dining & food delivery spend globally with S$800 min. monthly spend, capped at S$25."
+  },
+  "percent:travel": {
+   "value": 8.0,
+   "unit": "percent",
+   "note": "Get 8% cashback on travel & entertainment spend with S$800 min. monthly spend, capped at S$25. Base rate 0.3%."
+  },
+  "percent:entertainment": {
+   "value": 8.0,
+   "unit": "percent",
+   "note": "Get 8% cashback on travel & entertainment spend with S$800 min. monthly spend, capped at S$25. Base rate 0.3%."
+  },
+  "percent:transport": {
+   "value": 3.0,
+   "unit": "percent",
+   "note": "Get 3% cashback on ride hailing and contactless bus & train rides with S$800 min. monthly spend, capped at S$25."
+  },
+  "percent:retail": {
+   "value": 3.0,
+   "unit": "percent",
+   "note": "Get 3% cashback on shopping & lifestyle spend with S$800 min. monthly spend, capped at S$25. Base rate 0.3%."
+  },
+  "percent:local_online_shopping": {
+   "value": 3.0,
+   "unit": "percent",
+   "note": "Get 3% cashback on shopping & lifestyle spend with S$800 min. monthly spend, capped at S$25. Base rate 0.3%."
+  },
+  "percent:overseas_online_shopping": {
+   "value": 3.0,
+   "unit": "percent",
+   "note": "Get 3% cashback on shopping & lifestyle spend with S$800 min. monthly spend, capped at S$25. Base rate 0.3%."
+  },
+  "percent:supermarket": {
+   "value": 3.0,
+   "unit": "percent",
+   "note": "Get 3% cashback on shopping & lifestyle spend with S$800 min. monthly spend, capped at S$25. Base rate 0.3%."
+  },
+  "percent:health": {
+   "value": 3.0,
+   "unit": "percent",
+   "note": "Up to  | Get up to 3% cashback on health & wellness spend with S$800 min. monthly spend, capped at S$25. Base rate 0.3%."
+  }
+ },
+ "caps": {},
+ "highlights": [
+  "Earn up to 10% cashback on dining and food delivery, up to 8% on travel & entertainment, up to 3% on shopping & lifestyle, and up to 3% on health & wellness spend with a min. monthly spend of S$800. Spend categories with boosted rebate rates are each capped at S$25 per month; if spend is less than S$800, 0.3% cash rebate will be awarded on all other spend with no cap.",
+  "pros: 10% cash rebate on dining & online food delivery globally.",
+  "pros: 8% cash rebate on travel & entertainment spend (MY &ID in-store spend, online travel booking, concert booking, streaming subscriptions).",
+  "pros: 3% cashback on shopping & lifestyle spend (contactless bus & train rides, ride hailing, supermarkets, online purchases).",
+  "pros: Up to 3% cashback on health & wellness spend (hospital bills, vet services & pet shop spend, insurance).",
+  "pros: 0.3% cashback for all other spend categories.",
+  "pros: First year annual fee waived for principal and supplementary cards.",
+  "cons: S$800 min. monthly spend required to unlock boosted cashback rates.",
+  "cons: Boosted cashback categories (Dining & Online Food Delivery / Travel & Entertainment / Shopping & Lifestyle / Health & Wellness) are capped at S$25 each per billing cycle.",
+  "cons: S$207.10 annual fee (inclusive of GST).",
+  "pros: Dining rebate",
+  "pros: Public transportation",
+  "cons: Monthly spend required",
+  "cons: Rebate cap"
+ ],
+ "sign_up_offers": [],
+ "links": {},
+ "citation": {
+  "id": "singsaver:814a8c9370be",
+  "url": "https://www.singsaver.com.sg/credit-card/products/boc-family-card",
+  "title": "BOC NVMO Card",
+  "source_type": "aggregator",
+  "retrieved_at": "2026-09-27T05:24:51+00:00",
+  "sha256": "814a8c9370be9d7e771c8367b93314ba514ca414c5b9aae5378e0dbd293f2087",
+  "snapshot": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-boc-family-card-1d614703.html"
+ },
+ "extra": {
+  "network": [
+   "VISA Platinum"
+  ],
+  "mobile_wallets": null,
+  "fx_fee_percent": 3.0,
+  "miles_conversion_fee": 30.56,
+  "categories": [
+   "category:all-credit-cards",
+   "category:buffet-promo",
+   "category:cashback",
+   "category:dining-promo",
+   "category:grocery-promo",
+   "category:retail-promo",
+   "needs:all-cards-with-buffet-promo",
+   "needs:all-cards-with-dining-promo",
+   "needs:all-cards-with-grocery-promo",
+   "needs:all-cards-with-retail-promo",
+   "needs:all-cashback-cards",
+   "needs:all-credit-cards",
+   "needs:high-cashback",
+   "needs:overseas-high-rebate"
+  ],
+  "tag": "Best for cashback on everyday spend",
+  "description": "Complement your everyday lifestyle with the BOC NVMO Card. Earn up to 10% cash rebate on common spend categories, from dining and entertainment to travel and health."
+ }
+}

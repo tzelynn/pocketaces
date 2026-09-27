@@ -1,0 +1,85 @@
+# Curated card record. Auto-drafted from staged sources; verify every value against the
+# official T&Cs (citations below), then set review.status: reviewed.
+id: boc-elite-miles-world-mastercard
+bank: Bank of China
+name: BOC Elite Miles World Mastercard
+image_url: https://mhgprod.blob.core.windows.net/singsaver/strapi-uploads/s_2026_06_BOC_Elite_Miles_World_Mastercard_fe27d2d6aa.png
+official_url: https://www.bankofchina.com/sg/bcservice/bc1/201909/t20190903_16537165.html
+annual_fee:
+  amount:
+    amount: 207.1
+    currency: SGD
+  first_year_waived: true
+  waiver_notes: S$ | First year annual fee waived for principal and supplementary cards.
+  sources: ['singsaver:5158f5d05b2f']
+min_annual_income:
+  amount: 30000.0
+  currency: SGD
+reward_currency:
+  kind: miles
+  name: Miles
+earn_rules:
+- id: overseas
+  label: overseas (SingSaver — verify)
+  rate: 2.8
+  unit: mpd
+  tier: bonus
+  eligibility:
+    description: Earn 2.8 miles per S$1 overseas spend (awarded as 14 BOC Bonus Points per S$1).
+    sources: ['singsaver:5158f5d05b2f']
+  sources: ['singsaver:5158f5d05b2f']
+- id: local
+  label: local (SingSaver — verify)
+  rate: 1.4
+  unit: mpd
+  tier: bonus
+  eligibility:
+    description: Earn 1.4 miles per S$1 local spend (awarded as 7 BOC Bonus Points per S$1).
+    sources: ['singsaver:5158f5d05b2f']
+  sources: ['singsaver:5158f5d05b2f']
+- id: base
+  label: baseline (SingSaver — verify)
+  rate: 1.4
+  unit: mpd
+  tier: base
+  eligibility:
+    all_spend: true
+    description: Earn 1.4 miles per S$1 local spend (awarded as 7 BOC Bonus Points per S$1).
+    sources: ['singsaver:5158f5d05b2f']
+  sources: ['singsaver:5158f5d05b2f']
+general_exclusions:
+  exclude_mcc: ['4829', '4900', '5199', '5960', '5965', '5993', '6010', '6011', '6012', '6050', '6051',
+    '6211', '6300', '6381', '6399', '6513', '6529', '6530', '6534', '6540', '7349', '7511', '7523', '7995',
+    '8062', '8211', '8220', '8241', '8244', '8249', '8299', '8398', '8651', '8661', '8699', '8999', '9211',
+    '9222', '9223', '9311', '9399', '9402', '9405']
+  description: Auto-extracted from official T&Cs — confirm each code applies to this card
+  sources: ['bank:fbd063643506']
+notes:
+- 'Editorial review for cross-checking: Review: BOC Elite Miles World Mastercard (https://milelion.com/2026/07/14/review-boc-elite-miles-world-mastercard/,
+  updated 2026-08-27)'
+- 'T&C mentions (check whether excluded): annual fee, axs, cardup, cash advance, charit, education, government,
+  hospital, interest, ipaymy, ipp, late payment charge, renthero, revolut, tax, top-up, utilit, youtrip'
+citations:
+- id: singsaver:5158f5d05b2f
+  url: https://www.singsaver.com.sg/credit-card/products/boc-elite-miles-world-mastercard
+  title: BOC Elite Miles World Mastercard
+  source_type: aggregator
+  retrieved_at: '2026-09-27T05:24:50+00:00'
+  sha256: 5158f5d05b2f2ebeeb31a9cbb6ac592dccb5aced6346621805ed54baab0326fc
+  snapshot: data/raw/singsaver/www-singsaver-com-sg-credit-card-products-boc-elite-miles-world-mastercard-682c7b86.html
+- id: bank:fbd063643506
+  url: https://www.bankofchina.com/sg/bocinfo/bi5/201810/P020250701406428156884.pdf
+  source_type: official
+  retrieved_at: '2026-09-27T06:11:50+00:00'
+  sha256: fbd0636435062a62b8f306d5ab1bc26a3f665521a9e4c23c27eb6fe30d3b0973
+  snapshot: data/raw/bank/www-bankofchina-com-sg-bocinfo-bi5-201810-P020250701406428156884-pdf-52a76187.pdf
+- id: milelion:64f87053376f
+  url: https://milelion.com/2026/07/14/review-boc-elite-miles-world-mastercard/
+  title: 'Review: BOC Elite Miles World Mastercard'
+  source_type: editorial
+  retrieved_at: '2026-09-27T05:28:33+00:00'
+  sha256: 64f87053376fe852e5496d3c27e5f23e79865b4ac05cc77aaec3b8e351941b6a
+  snapshot: data/raw/milelion/post-72871-95594480.json
+review:
+  status: draft
+updated_at: '2026-09-27'

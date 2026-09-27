@@ -1,0 +1,80 @@
+# Curated card record. Auto-drafted from staged sources; verify every value against the
+# official T&Cs (citations below), then set review.status: reviewed.
+id: hsbc-visa-infinite
+bank: HSBC
+name: HSBC Visa Infinite Credit Card
+image_url: https://mhgprod.blob.core.windows.net/singsaver/strapi-uploads/xs_bltb9a9a34f37da3dda_4bea15bcbf.webp
+official_url: https://www.hsbc.com.sg/credit-cards/products/visa-infinite/
+annual_fee:
+  amount:
+    amount: 662.15
+    currency: SGD
+  waiver_notes: S$ | S$497.06 for HSBC Premier customers
+  sources: ['singsaver:4cf0c4cafdb1']
+min_annual_income:
+  amount: 120000.0
+  currency: SGD
+reward_currency:
+  kind: miles
+  name: Miles
+earn_rules:
+- id: overseas
+  label: overseas (SingSaver — verify)
+  rate: 2.25
+  unit: mpd
+  tier: bonus
+  eligibility:
+    description: Up to | Minimum S$50,000 eligible spend in first 12 months of card issuance date to qualify
+      for Step Up Earn Rate.
+    sources: ['singsaver:4cf0c4cafdb1']
+  sources: ['singsaver:4cf0c4cafdb1']
+- id: local
+  label: local (SingSaver — verify)
+  rate: 1.25
+  unit: mpd
+  tier: bonus
+  eligibility:
+    description: Up to | Minimum S$50,000 eligible spend in first 12 months of card issuance date to qualify
+      for Step Up Earn Rate.
+    sources: ['singsaver:4cf0c4cafdb1']
+  sources: ['singsaver:4cf0c4cafdb1']
+- id: base
+  label: baseline (SingSaver — verify)
+  rate: 1.0
+  unit: mpd
+  tier: base
+  eligibility:
+    all_spend: true
+    description: ''
+    sources: ['singsaver:4cf0c4cafdb1']
+  sources: ['singsaver:4cf0c4cafdb1']
+general_exclusions:
+  description: Auto-extracted from official T&Cs — confirm each code applies to this card
+notes:
+- 'Editorial review for cross-checking: Review: HSBC Visa Infinite Card (https://milelion.com/2024/08/27/review-hsbc-visa-infinite-card/,
+  updated 2024-12-07)'
+citations:
+- id: singsaver:4cf0c4cafdb1
+  url: https://www.singsaver.com.sg/credit-card/products/hsbc-visa-infinite-credit-card
+  title: HSBC Visa Infinite Credit Card
+  source_type: aggregator
+  retrieved_at: '2026-09-27T05:25:52+00:00'
+  sha256: 4cf0c4cafdb188ffc4b045590d9f59f57a2ed2652c72abf5dd28af8266881a00
+  snapshot: data/raw/singsaver/www-singsaver-com-sg-credit-card-products-hsbc-visa-infinite-credit-card-b4d31083.html
+- id: moneysmart:49fcb3586f25
+  url: https://www.moneysmart.sg/credit-cards?page=4
+  title: HSBC Visa Infinite Credit Card
+  source_type: aggregator
+  retrieved_at: '2026-09-27T05:27:20+00:00'
+  sha256: 49fcb3586f252df0b2dacb9acecc465127e09c9defa7f151881c3db46d84649e
+  snapshot: data/raw/moneysmart/credit-cards-p4-1a322210.html
+- id: milelion:9a2f732a8649
+  url: https://milelion.com/2024/08/27/review-hsbc-visa-infinite-card/
+  title: 'Review: HSBC Visa Infinite Card'
+  source_type: editorial
+  retrieved_at: '2026-09-27T05:29:28+00:00'
+  sha256: 9a2f732a8649750fe677266f533ecf7210616e0504d73a799f21302f45d0b153
+  snapshot: data/raw/milelion/post-128324-a69d8680.json
+review:
+  status: draft
+updated_at: '2026-09-27'

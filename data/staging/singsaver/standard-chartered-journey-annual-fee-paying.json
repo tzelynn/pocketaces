@@ -1,0 +1,220 @@
+{
+ "source": "singsaver",
+ "source_id": "standard-chartered-journey-credit-card",
+ "source_url": "https://www.singsaver.com.sg/credit-card/products/standard-chartered-journey-credit-card",
+ "name": "Standard Chartered Journey Credit Card (Annual Fee Paying)",
+ "bank": "Standard Chartered",
+ "card_id": "standard-chartered-journey-annual-fee-paying",
+ "image_url": "https://mhgprod.blob.core.windows.net/singsaver/strapi-uploads/xs_blt1ada55d00a76d204_ea9a3c3faa.webp",
+ "annual_fee": 196.2,
+ "annual_fee_note": "S$ | First Year Waived (Optional)",
+ "min_annual_income": 30000.0,
+ "min_monthly_spend": 0.0,
+ "earn_rates": {
+  "mpd:supermarket": {
+   "value": 3.0,
+   "unit": "mpd",
+   "note": "On Online Grocery merchants, capped at S$1,000 spend per statement month"
+  },
+  "mpd:travel": {
+   "value": 1.2,
+   "unit": "mpd",
+   "note": null
+  },
+  "mpd:dining": {
+   "value": 3.0,
+   "unit": "mpd",
+   "note": "Capped at S$1,000 spend per statement month"
+  },
+  "mpd:hotel_booking": {
+   "value": 3.0,
+   "unit": "mpd",
+   "note": null
+  },
+  "mpd:overseas_online_shopping": {
+   "value": 2.0,
+   "unit": "mpd",
+   "note": null
+  },
+  "mpd:transport": {
+   "value": 3.0,
+   "unit": "mpd",
+   "note": "Earn 3 miles per S$1 on transport, food delivery, and online groceries (capped at S$1,000/month, or 3,000 miles). Beyond that, earn 1.2 miles per S$1."
+  },
+  "points_per_dollar:baseline": {
+   "value": 3.0,
+   "unit": "points_per_dollar",
+   "note": null
+  },
+  "points_per_dollar:local_spending": {
+   "value": 3.0,
+   "unit": "points_per_dollar",
+   "note": null
+  },
+  "points_per_dollar:overseas_spending": {
+   "value": 5.0,
+   "unit": "points_per_dollar",
+   "note": null
+  },
+  "points_per_dollar:online_shopping": {
+   "value": 7.5,
+   "unit": "points_per_dollar",
+   "note": null
+  },
+  "points_per_dollar:online_food_delivery": {
+   "value": 7.5,
+   "unit": "points_per_dollar",
+   "note": "Up to | Earn 3 miles per S$1 on transport, food delivery, and online groceries (capped at S$1,000/month, or 3,000 miles). Beyond that, earn 1.2 miles per S$1."
+  },
+  "points_per_dollar:grocery": {
+   "value": 7.5,
+   "unit": "points_per_dollar",
+   "note": "Up to | Earn 3 miles per S$1 on transport, food delivery, and online groceries (capped at S$1,000/month, or 3,000 miles). Beyond that, earn 1.2 miles per S$1."
+  },
+  "points_per_dollar:taxi_ride_sharing": {
+   "value": 7.5,
+   "unit": "points_per_dollar",
+   "note": null
+  },
+  "mpd:baseline": {
+   "value": 1.2,
+   "unit": "mpd",
+   "note": "On local spend."
+  },
+  "mpd:online_food_delivery": {
+   "value": 3.0,
+   "unit": "mpd",
+   "note": "Up to | Earn 3 miles per S$1 on transport, food delivery, and online groceries (capped at S$1,000/month, or 3,000 miles). Beyond that, earn 1.2 miles per S$1."
+  },
+  "mpd:local": {
+   "value": 1.2,
+   "unit": "mpd",
+   "note": null
+  },
+  "mpd:local_online_shopping": {
+   "value": 3.0,
+   "unit": "mpd",
+   "note": "Up to"
+  },
+  "mpd:overseas": {
+   "value": 2.0,
+   "unit": "mpd",
+   "note": null
+  }
+ },
+ "caps": {
+  "airmiles_bonus_cap": {
+   "value": 3000.0,
+   "note": "Up to | Earn 3 miles per S$1 on transport, food delivery, and online groceries (capped at S$1,000/month, or 3,000 miles). Beyond that, earn 1.2 miles per S$1."
+  },
+  "no_cashback_cap": {
+   "value": false,
+   "note": null
+  }
+ },
+ "highlights": [
+  "Earn up to 3 miles per dollar on online transactions from transportation, grocery, and food delivery merchants, capped at S$1,000 spend per statement month. You can also earn 2 miles per dollar on online grocery purchases (capped at S$1,000 per statement month) and 1.2 miles per dollar on any local spending. Transportation, food delivery and online grocery rewards capped at 3,000 miles in a statement cycle.",
+  "pros: Earn 3 miles for every S$1 spent on online transactions from transportation, food delivery, and online grocery merchants.",
+  "pros: Earn 2 miles for every S$1 on foreign currency transactions.",
+  "pros: Earn 1.2 miles for every S$1 spent locally.",
+  "pros: 2 complimentary visits to Priority Pass lounges around the world each year.",
+  "pros: Get peace of mind when you travel with complimentary travel insurance coverage of up +to S$500,000.",
+  "pros: Rewards points do not expire.",
+  "pros: Flexible redemption – enjoy your choice of air miles, cash rewards or travel vouchers on the SCB Rewards 360 platform.",
+  "pros: SC Shop and Earn - Book your holidays and earn up to 28.75% Cashback at over 40 travel partners like Agoda, Klook, Trip.com. Unlock one of the highest Cashback as a Priority client. Log on to SC Shop and Earn via SC Mobile to start shopping.",
+  "pros: Get access to exclusive card offers and privileges with \nThe Good Life\n programme.",
+  "cons: Transportation, food delivery and online grocery rewards capped at 3,000 miles in a statement cycle.",
+  "pros: Bonus air miles",
+  "pros: No expiry air miles",
+  "pros: Airport lounge",
+  "pros: Travel insurance"
+ ],
+ "sign_up_offers": [
+  {
+   "kind": "exclusive_offer",
+   "title": "SingSaver Exclusive Offer: rewards applicable on applying for 2 products",
+   "offer_id": "SG.2026-09-01.CC.SCBX.JOURNEY.180CASH-12KMAXM-GB4PRO-STRAREN",
+   "valid_from": "2026-08-31T16:00:00Z",
+   "valid_to": "2026-09-30T15:59:00Z",
+   "gifts": [
+    {
+     "title": "Samsonite Straren Spinner 67/24 (worth S$600)",
+     "value_sgd": 600
+    },
+    {
+     "title": "S$180 Cash via PayNow",
+     "value_sgd": 180
+    },
+    {
+     "title": "Samsung Galaxy Buds4 Pro (worth S$349)",
+     "value_sgd": 349
+    },
+    {
+     "title": "12,000 Max Miles by HeyMax (worth S$216)",
+     "value_sgd": 216
+    }
+   ],
+   "terms": "SingSaver Exclusive Offer promotion is valid from 1 September 2026 to 30 September 2026.\nPromotion is valid for new Standard Chartered credit cardmembers only.\nApply for the Standard Chartered Journey Card and make a min. spend of S$800 within 60 days of card approval date, plus \nany \nof the following SCB products to be eligible for reward:\nApply for \nStandard Chartered EasyPay\n for at least 3 retail transactions on your credit card with min. amount of S$150 each and min. tenure of 12 months (within 60 days of card approval date); or\nApply and open a \nStandard Chartered Bonus$aver Account\n with a min. deposit of S$3,000 (within 60 days of card approval date) (quick apply \nhere\n); or\nApply and get approved for a \nStandard Chartered CashOne Personal Loan\n with min. amount of S$1,000 and min. tenure of 12 months (within 60 days of card approval date) (quick apply \nhere\n); or\nApply and get approved for a \nStandard Chartered Credit Card Funds Transfer (CCFT)\n with min. amount of S$1,000 and min. tenure of 3 months (within 60 days of card approval date) (quick apply \nhere\n)\nApply for at least \n3 EasyPay retail transactions\n on your credit card, each with min. amount of S$150 and min. tenure of 12 months, within 60 days of card approval. Application must be made via the SCB App.\nPromotion is stackable with welcome offer from Standard Chartered (\nT&Cs apply\n): \nReceive up to 30,000 miles\nReceive 30,000 miles when you \napply with annual fee payment\n (S$196.20 incl. GST) and make a min. spend of S$800 within 60 days of card approval.\nReceive 20,000 miles when you \napply with annual fee waiver\n and make a min. spend of S$800 within 60 days of card approval.\nTerms and Conditions\n apply.",
+   "tnc_url": null,
+   "bundle_with": []
+  }
+ ],
+ "links": {
+  "apply": "https://www.singsaver.com.sg/apply-v3/17434"
+ },
+ "citation": {
+  "id": "singsaver:fcbd9a457a48",
+  "url": "https://www.singsaver.com.sg/credit-card/products/standard-chartered-journey-credit-card",
+  "title": "Standard Chartered Journey Credit Card (Annual Fee Paying)",
+  "source_type": "aggregator",
+  "retrieved_at": "2026-09-27T05:26:36+00:00",
+  "sha256": "fcbd9a457a4807f2e87cfca82b64dc193288deef9a6dae226b31c5e800e3849f",
+  "snapshot": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-standard-chartered-journey-credit-card-bdec743e.html"
+ },
+ "extra": {
+  "network": [
+   "VISA"
+  ],
+  "mobile_wallets": [
+   "Google Pay",
+   "Apple Pay",
+   "Samsung Pay"
+  ],
+  "fx_fee_percent": 3.5,
+  "miles_conversion_fee": 27.0,
+  "categories": [
+   "category:airmiles",
+   "category:all-credit-cards",
+   "category:dining-promo",
+   "category:installment",
+   "category:overseas",
+   "category:petrol-promo",
+   "category:promo",
+   "category:retail-promo",
+   "category:travel",
+   "needs:0-interest-rate",
+   "needs:airport-lounge-transfer",
+   "needs:all-airmiles-cards",
+   "needs:all-cards-with-dining-promo",
+   "needs:all-cards-with-petrol-promo",
+   "needs:all-cards-with-promotion",
+   "needs:all-cards-with-retail-promo",
+   "needs:all-credit-cards",
+   "needs:all-installment-cards",
+   "needs:all-overseas-cards",
+   "needs:all-travel-cards",
+   "needs:annual-fee-waiver-airmiles",
+   "needs:annual-fee-waiver-travel-cards",
+   "needs:bonus-miles",
+   "needs:free-travel-insurance",
+   "needs:no-expiry-on-miles",
+   "needs:no-minimum-spend-required-airmiles",
+   "needs:online-booking-discount",
+   "needs:singsaver-exclusive",
+   "needs:travel-sign-up-gifts",
+   "needs:unlimited-airmiles"
+  ],
+  "tag": null,
+  "description": "The newly rebranded Standard Chartered Journey Credit Card allows you to earn 3 miles per dollar on local online transactions, such as transportation, grocery and food delivery merchants. Other local spend earns you 1.2 miles per dollar while oversea spends nets you 2 miles per dollar. Your miles never expire, and you'll also enjoy 2 complimentary Priority Pass airport lounge access per year."
+ }
+}

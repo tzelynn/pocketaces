@@ -1,0 +1,75 @@
+{
+ "source": "moneysmart",
+ "source_id": "safra-dbs-card",
+ "source_url": "https://www.moneysmart.sg/credit-cards/safra-dbs-card",
+ "name": "SAFRA DBS Card",
+ "bank": "DBS",
+ "card_id": "dbs-safra",
+ "image_url": "https://photos.cdn-moneysmart.com/credit_cards/uploads/products/images/image_url_2021-06-11_dbs-safra-cardface-min.png",
+ "earn_rates": {},
+ "caps": {},
+ "highlights": [
+  "3% Cash Rebate on Local MasterCard contactless transactions",
+  "3% Cash Rebate on Online Transactions",
+  "S$1 = 1 SAFRA Point  Spend to SAFRA Points Conversion",
+  "3% cash rebate on your local Mastercard contactless transactions (including bus/train rides via SimplyGo)",
+  "3% cash rebate on online transactions",
+  "0.3% cash rebate on all other retail transactions",
+  "Exclusive access to 7 SAFRA Clubhouses islandwide: enjoy access to club facilities including swimming pools, gyms, and entertainment facilities at any of the 7 SAFRA Clubhouses.",
+  "Every dollar spent at participating outlets and facilities at SAFRA earns you 1 SAFRAPOINT, on top of the SAFRA DBS Card cash rebates.",
+  "At MoneySmart, we strive to keep our information accurate and up to date. This information may be different from what you see when you visit a financial institution, service provider, or specific product site. MoneySmart shall not be liable to compensate the Customer should the information is not as updated as our Partner."
+ ],
+ "sign_up_offers": [],
+ "links": {
+  "product": "https://www.moneysmart.sg/credit-cards/safra-dbs-card"
+ },
+ "citation": {
+  "id": "moneysmart:fbcf8e7229a3",
+  "url": "https://www.moneysmart.sg/credit-cards?page=3",
+  "title": "SAFRA DBS Card",
+  "source_type": "aggregator",
+  "retrieved_at": "2026-09-27T05:27:18+00:00",
+  "sha256": "fbcf8e7229a38611c3c767cd8447164e413b1306df1f54bebee269e3abf15202",
+  "snapshot": "data/raw/moneysmart/credit-cards-p3-707cb52c.html"
+ },
+ "extra": {
+  "summary": "",
+  "badges": [],
+  "network": [
+   "Mastercard"
+  ],
+  "mobile_wallets": [
+   "MasterCard PayPass",
+   "Google Pay",
+   "Apple Pay",
+   "Samsung Pay"
+  ],
+  "groups": {
+   "annual-interest-rate-and-fees": {
+    "Annual Interest Rate": "27.80",
+    "Annual Principal Fee": "No annual fee, so long as you remain a SAFRA member. SAFRA membership fee applies.",
+    "Minimum Monthly Repayment": "3.00% or S$50, whichever is greater",
+    "Interest Free Period": "25 days"
+   },
+   "minimum-income-requirements": {
+    "Singaporean/PR Minimum Annual Income": "30000",
+    "Non-Singaporean Minimum Annual Income": "45000"
+   },
+   "card-association": {
+    "Mastercard": "true"
+   },
+   "wireless-payment": {
+    "MasterCard PayPass": "true",
+    "Google Pay": "true",
+    "Apple Pay": "true",
+    "Samsung Pay": "true"
+   }
+  },
+  "our_takes": {
+   "our-take": "The SAFRA DBS Card gives cardholders 3% cashback on online and contactless payments, including SimplyGo rides, capped at SAFRA$50 per category. This makes it ideal for SAFRA members who frequently spend online or use contactless payment methods, helping to offset their SAFRA membership fees. A minimum spend of S$500/month is required to unlock these rates; otherwise, a meager 0.3% cashback applies. SAFRA$ expire after 12 months, limiting their long-term accumulation value. Ultimately, this card's value is tied to active SAFRA membership and consistent spending habits.",
+   "good-for": "SAFRA members who frequently use Mastercard contactless for daily commutes and small purchases, maximizing cashback on these spends.\nOnline shoppers who want to earn cashback on their e-commerce transactions, provided they meet the minimum monthly spend requirement.\nIndividuals seeking access to SAFRA club facilities and exclusive member benefits while earning cashback on eligible retail transactions.",
+   "things-to-note": "Cashback is capped at SAFRA$50 per category monthly; exceeding this limit means no further rebates.\nA S$500 minimum monthly spend is needed; otherwise, you won't receive any cashback benefits.\nHigh 27.8% annual interest rate; carrying balances will incur substantial charges if not paid off."
+  },
+  "updated_at": "2024-11-20T17:47:11+08:00"
+ }
+}

@@ -1,0 +1,99 @@
+{
+ "source": "moneysmart",
+ "source_id": "posb-everyday-card",
+ "source_url": "https://www.moneysmart.sg/credit-cards/posb-everyday-card",
+ "name": "POSB Everyday Card",
+ "bank": "POSB",
+ "card_id": "posb-everyday",
+ "image_url": "https://photos.cdn-moneysmart.com/credit_cards/uploads/products/images/image_url_2021-09-29_Details - Logo - POSB Everyday Card.png",
+ "annual_fee": 196.2,
+ "earn_rates": {},
+ "caps": {},
+ "highlights": [
+  "Up to 10% Cash Rebates on Online Food Deliveries & Dining*",
+  "Up to 10% Cash Rebates on in-store spend in Malaysian Ringgit",
+  "Up to 10% Cash Rebates on bus and train rides with SimplyGo",
+  "Up to 10% Cash Rebates on dining",
+  "5% Cash Rebates at Sheng Siong or Redmart",
+  "5% Cash Rebates at POPULAR bookstores & Online Stores",
+  "5% Cash Rebates on Online Shopping (Amazon.sg, Lazada, Shopee, RedMart, Taobao, TikTok Shop)",
+  "3% Cash Rebates at Pet Lovers Centre (purchases above S$15)",
+  "Save up to 20.1% on fuel at SPC",
+  "At MoneySmart, we strive to keep our information accurate and up to date. This information may be different from what you see when you visit a financial institution, service provider, or specific product site. MoneySmart shall not be liable to compensate the Customer should the information is not as updated as our Partner."
+ ],
+ "sign_up_offers": [
+  {
+   "kind": "special_promotion",
+   "title": "Samsonite MINTER 80/30 Luggage",
+   "subtitle": null,
+   "is_cash": null,
+   "terms": "Valid for New Customers only\nUse promo code \nMINTER\n when applying\nCharge a min. of S$800 within 60 days from the date of card approval\nHave a valid DBS PayLah! account by the end of the Qualifying Spend period",
+   "campaign": null
+  },
+  {
+   "kind": "special_promotion",
+   "title": "S$288 Cashback",
+   "subtitle": null,
+   "is_cash": null,
+   "terms": "Valid for New Customers only\nUse promo code \nCASH288\n when applying\nCharge a min. of S$800 within 60 days from the date of card approval\nHave a valid DBS PayLah! account by the end of the Qualifying Spend period",
+   "campaign": null
+  }
+ ],
+ "links": {
+  "product": "https://www.moneysmart.sg/credit-cards/posb-everyday-card",
+  "review": "https://blog.moneysmart.sg/credit-cards/posb-everyday-card-review/"
+ },
+ "citation": {
+  "id": "moneysmart:fbcf8e7229a3",
+  "url": "https://www.moneysmart.sg/credit-cards?page=3",
+  "title": "POSB Everyday Card",
+  "source_type": "aggregator",
+  "retrieved_at": "2026-09-27T05:27:18+00:00",
+  "sha256": "fbcf8e7229a38611c3c767cd8447164e413b1306df1f54bebee269e3abf15202",
+  "snapshot": "data/raw/moneysmart/credit-cards-p3-707cb52c.html"
+ },
+ "extra": {
+  "summary": "POSB Everyday Card is an all-rounded cash rebates credit card. Enjoy up to 10% cash rebates on your daily essentials when you dine, shop online or purchase groceries. Also enjoy 50% off family attractions and other exclusive deals and up to 20.1% on fuel at SPC.",
+  "badges": [
+   "Earn Cash Rebates that Never Expire"
+  ],
+  "network": [
+   "Mastercard"
+  ],
+  "mobile_wallets": [
+   "MasterCard PayPass",
+   "Google Pay",
+   "Apple Pay",
+   "Samsung Pay"
+  ],
+  "groups": {
+   "annual-interest-rate-and-fees": {
+    "Annual Interest Rate": "Prevailing interest rate of 27.8% p.a. (subject to compounding if the charges are not repaid in full) on the transaction amount, chargeable on a daily basis from the date of transaction until receipt of full payment. (Minimum charge: S$2.50)",
+    "Annual Principal Fee": "196.20",
+    "Supplementary Annual Fee": "98.10",
+    "Fee Waiver": "First year waived",
+    "Minimum Monthly Repayment": "3.00% or S$50, whichever is higher",
+    "Interest Free Period": "25 days"
+   },
+   "minimum-income-requirements": {
+    "Singaporean/PR Minimum Annual Income": "30000",
+    "Non-Singaporean Minimum Annual Income": "45000"
+   },
+   "card-association": {
+    "Mastercard": "true"
+   },
+   "wireless-payment": {
+    "MasterCard PayPass": "true",
+    "Google Pay": "true",
+    "Apple Pay": "true",
+    "Samsung Pay": "true"
+   }
+  },
+  "our_takes": {
+   "our-take": "The POSB Everyday Card shines for Sheng Siong shoppers, offering 5% cashback with no minimum spend (capped at $30 daily). SPC drivers also benefit from 6% cashback on fuel, plus discounts. While dining and online food delivery earn minimal cashback unless you hit a steep $800 monthly spend, and telco rebates end, this card is best for those focused on groceries and petrol. Consider alternatives if you want broader category rewards beyond these specific merchants.",
+   "good-for": "For homeowners who frequent Sheng Siong, enjoying upfront cashback with no minimum spend and daily cashback.\nPerfect for drivers seeking fuel savings at SPC, automotive services at Speedycare, complemented by shopping and dining rewards.\nFamilies can maximize daily spending with cashback on groceries like Sheng Siong, utilities, and dining, plus telecommunications benefits.",
+   "things-to-note": "The annual fee of S$196.20 is waived the first year, but consider if rewards justify the cost after.\nInterest charges accumulate - at 27.8% p.a., carrying balances can make debt much more expensive over time."
+  },
+  "updated_at": "2026-03-03T09:14:21+08:00"
+ }
+}

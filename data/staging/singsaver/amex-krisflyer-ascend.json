@@ -1,0 +1,129 @@
+{
+ "source": "singsaver",
+ "source_id": "american-express-singapore-airlines-krisflyer-ascend-credit-card",
+ "source_url": "https://www.singsaver.com.sg/credit-card/products/american-express-singapore-airlines-krisflyer-ascend-credit-card",
+ "name": "American Express Singapore Airlines KrisFlyer Ascend Credit Card",
+ "bank": "American Express",
+ "card_id": "amex-krisflyer-ascend",
+ "image_url": "https://mhgprod.blob.core.windows.net/singsaver/strapi-uploads/s_AMEX_KFACC_2025_11_C_f43cc17234.png",
+ "annual_fee": 397.85,
+ "annual_fee_note": "S$",
+ "earn_rates": {
+  "mpd:baseline": {
+   "value": 1.2,
+   "unit": "mpd",
+   "note": null
+  },
+  "mpd:local": {
+   "value": 1.2,
+   "unit": "mpd",
+   "note": null
+  },
+  "mpd:overseas": {
+   "value": 1.2,
+   "unit": "mpd",
+   "note": null
+  },
+  "mpd:travel": {
+   "value": 2.0,
+   "unit": "mpd",
+   "note": "On eligible Singapore Airlines and Scoot flight bookings, KrisShop and Pelago purchases"
+  },
+  "mpd:flight_booking": {
+   "value": 2.0,
+   "unit": "mpd",
+   "note": "On eligible Singapore Airlines and Scoot flight bookings, KrisShop and Pelago purchases\n"
+  }
+ },
+ "caps": {},
+ "highlights": [
+  "2 miles for every dollar spent on eligible Singapore Airlines and Scoot flights, plus up to 2 mpd on eligible Grab Singapore transactions, up to S$200 spend in each calendar month. and 1.2 mpd on other local and foreign currency purchases.",
+  "pros: Spend S$15,000 or more on eligible Singapore Airlines and Scoot flight bookings within the first 12 months upon Card approval to be automatically upgraded to the KrisFlyer Elite Gold membership tier. T&Cs apply.",
+  "pros: Get a complimentary night stay at participating Hilton properties each year.",
+  "pros: Receive a Foreign Spend Miles Redemption Voucher for 18,000 KrisFlyer miles when you spend the equivalent of S$10,000 or more in foreign currency within the qualifying period.",
+  "pros: Receive a Renewal Miles Redemption Voucher for 10,000 KrisFlyer miles after American Express receives payment of the renewal annual membership fee each year.",
+  "pros: Earn 2 KrisFlyer miles for every S$1 spent on eligible Singapore Airlines and Scoot flight bookings, KrisShop and Pelago purchases, with no cap.",
+  "pros: Earn 1.2 KrisFlyer miles for every S$1 spent on all other eligible purchases, with no cap.",
+  "pros: Enjoy hassle-free conversion as all KrisFlyer miles earned with the American Express Singapore Airlines KrisFlyer Ascend Credit Card are conveniently credited directly into your KrisFlyer account.",
+  "pros: Accelerated upgrade to KrisFlyer Elite Gold membership tier",
+  "pros: Please refer to the American Express website (\ngo.amex/singsaver\n) for the most up to date information on card benefits and its terms & conditions.",
+  "pros: Annual fee: S$397.85 (inclusive of GST) must be paid to enjoy welcome offers."
+ ],
+ "sign_up_offers": [
+  {
+   "kind": "welcome_offer",
+   "title": "Offer",
+   "offer_id": "SG.2026-06-17.CC.AMEX.KFACC.45KKFMI.BAU",
+   "valid_from": "2026-06-16T16:00:00Z",
+   "valid_to": "2027-01-31T15:59:00Z",
+   "gifts": [
+    {
+     "title": "Up to 45,000 KrisFlyer Miles",
+     "value_sgd": null
+    }
+   ],
+   "terms": "Promotion runs from 17 June 2026 to 31 January 2027.\nPromotion is valid for new American Express card members only.\nApply for the American Express Singapore Airlines KrisFlyer Ascend Credit Card, pay the annual fee (S$397.85 incl. GST) and make a min. spend of S$8,000 within the first 6 months of card approval to be eligible for reward\nReceive \n20,000 KrisFlyer miles\n upon fulfilment of reward criteria\nReceive \n20,000 KrisFlyer miles\n on your first spend in the 15th month of Card Membership and upon annual fee payment (S$397.85 incl. GST)\nReceive \n5,000 KrisFlyer miles\n upon first transaction on card (for first time American Express Singapore Airlines Credit Card applicants)\nTerms and Conditions\n apply.\nSingSaver General Promotion \nT&Cs apply\n.",
+   "tnc_url": "https://www.americanexpress.com/content/dam/amex/sg/campaigns/pdfs/kfa-ntb-welcomeoffer-17jun26to31jan27.pdf",
+   "bundle_with": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  }
+ ],
+ "links": {
+  "apply": "https://www.americanexpress.com/sg/campaigns/singsaver.html#kfa"
+ },
+ "citation": {
+  "id": "singsaver:d48d6e6569f3",
+  "url": "https://www.singsaver.com.sg/credit-card/products/american-express-singapore-airlines-krisflyer-ascend-credit-card",
+  "title": "American Express Singapore Airlines KrisFlyer Ascend Credit Card",
+  "source_type": "aggregator",
+  "retrieved_at": "2026-09-27T05:24:44+00:00",
+  "sha256": "d48d6e6569f373a75b5337b9ef00868c96ef2748a781cca7c86551cec47c3e44",
+  "snapshot": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-american-express-singapore-airlines-krisflyer-ascend-credit-card-75b4c2c7.html"
+ },
+ "extra": {
+  "network": [
+   "American Express"
+  ],
+  "mobile_wallets": [
+   "Google Pay",
+   "Apple Pay"
+  ],
+  "fx_fee_percent": 3.25,
+  "miles_conversion_fee": null,
+  "categories": [
+   "category:airmiles",
+   "category:all-credit-cards",
+   "category:installment",
+   "category:overseas",
+   "category:promo",
+   "category:travel",
+   "needs:0-interest-rate",
+   "needs:0-processing-fee",
+   "needs:airport-lounge-transfer",
+   "needs:all-airmiles-cards",
+   "needs:all-cards-with-promotion",
+   "needs:all-credit-cards",
+   "needs:all-installment-cards",
+   "needs:all-overseas-cards",
+   "needs:all-travel-cards",
+   "needs:bonus-miles",
+   "needs:free-travel-insurance",
+   "needs:long-tenure-installment",
+   "needs:no-minimum-spend-required-airmiles",
+   "needs:online-booking-discount",
+   "needs:unlimited-airmiles"
+  ],
+  "tag": "Best for KrisFlyer shopping and spending",
+  "description": "Soar to greater heights with the American Express Singapore Airlines KrisFlyer Ascend Credit Card. Designed for loyal Singapore Airlines customers, this card allows you to earn up to 2 KrisFlyer miles per S$1 spent on eligible purchases. Plus, enjoy a complimentary one-night stay at participating Hilton properties each year. All KrisFlyer miles earned with your Card are conveniently credited directly into your KrisFlyer account."
+ }
+}

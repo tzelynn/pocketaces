@@ -1,0 +1,75 @@
+# Curated card record. Auto-drafted from staged sources; verify every value against the
+# official T&Cs (citations below), then set review.status: reviewed.
+id: cimb-visa-infinite
+bank: CIMB Bank
+name: CIMB Visa Infinite Card
+image_url: https://mhgprod.blob.core.windows.net/singsaver/strapi-uploads/xs_blt02b529abf50c5818_f0cff49a30.png
+official_url: https://www.cimb.com.sg/en/personal/banking-with-us/cards/credit-cards/cimb-visa-infinite.html
+annual_fee:
+  amount:
+    amount: 0.0
+    currency: SGD
+  sources: ['moneysmart:42909b088c22']
+min_annual_income:
+  amount: 120000.0
+  currency: SGD
+reward_currency:
+  kind: points
+  name: Points
+earn_rules:
+- id: base
+  label: baseline (SingSaver — verify)
+  rate: 1.0
+  unit: points_per_dollar
+  tier: base
+  eligibility:
+    all_spend: true
+    description: Per dollar
+    sources: ['singsaver:82b7b8366d9e']
+  sources: ['singsaver:82b7b8366d9e']
+general_exclusions:
+  description: Auto-extracted from official T&Cs — confirm each code applies to this card
+sign_up_bonuses:
+- offered_by: singsaver
+  description: 'Stackable Welcome Offer: choice of Samsonite Black Label Fanthom Spinner 69/25 EXP TSA
+    Luggage (worth S$1,150)'
+  valid_from: '2026-05-18'
+  valid_to: '2026-09-30'
+  url: https://www.singsaver.com.sg/credit-card/products/cimb-visa-infinite-card
+  sources: ['singsaver:82b7b8366d9e']
+- offered_by: singsaver
+  description: 'SingSaver Exclusive Offer : choice of S$50 Cash via PayNow'
+  value:
+    amount: 50.0
+    currency: SGD
+  valid_from: '2026-08-31'
+  valid_to: '2026-09-30'
+  url: https://www.singsaver.com.sg/credit-card/products/cimb-visa-infinite-card
+  sources: ['singsaver:82b7b8366d9e']
+notes:
+- 'T&C mentions (check whether excluded): axs, bill payment, cash advance, charit, government, instalment,
+  interest, late payment charge, tax, utilit'
+citations:
+- id: singsaver:82b7b8366d9e
+  url: https://www.singsaver.com.sg/credit-card/products/cimb-visa-infinite-card
+  title: CIMB Visa Infinite Card
+  source_type: aggregator
+  retrieved_at: '2026-09-27T05:24:59+00:00'
+  sha256: 82b7b8366d9e49800984fb368e9d4bba5a11a27089fda4c57bef214909f4b0fc
+  snapshot: data/raw/singsaver/www-singsaver-com-sg-credit-card-products-cimb-visa-infinite-card-0f8c0dd6.html
+- id: moneysmart:42909b088c22
+  url: https://www.moneysmart.sg/credit-cards?page=2
+  title: CIMB Visa Infinite
+  source_type: aggregator
+  retrieved_at: '2026-09-27T05:27:14+00:00'
+  sha256: 42909b088c22cb063c120b532d19af920cb3535c52f6bfc313193c6c6ea14746
+  snapshot: data/raw/moneysmart/credit-cards-p2-5f055203.html
+- id: bank:b8cfe8d00350
+  url: https://www.cimb.com.sg/content/dam/cimbsg/personal/document/tnc/cards/cards-tnc/vi-card.pdf
+  source_type: official
+  retrieved_at: '2026-09-27T07:30:46+00:00'
+  sha256: b8cfe8d0035066cde12ec48e2199280e736229f368ac6a697e032227e6ff057f
+  snapshot: data/raw/bank/www-cimb-com-sg-content-dam-cimbsg-personal-document-tnc-cards-cards-tnc-vi-card-pdf-a2cd10fe.pdf
+review:
+  status: draft
+updated_at: '2026-09-27'

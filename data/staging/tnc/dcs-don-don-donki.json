@@ -1,0 +1,44 @@
+{
+ "card_id": "dcs-don-don-donki",
+ "product_pages": [
+  {
+   "id": "bank:01a137524429",
+   "url": "https://cards.dcscc.com/don-don-donki",
+   "source_type": "official",
+   "retrieved_at": "2026-09-27T08:37:02+00:00",
+   "sha256": "01a13752442993e669fe395a6459fd8a10a5b016ed73256411fcb3dc3d9e563a",
+   "snapshot": "data/raw/bank/cards-dcscc-com-don-don-donki-c10e88b6.html"
+  }
+ ],
+ "documents": [
+  {
+   "url": "https://cards.dcscc.com/dcscc/v2/pdf/DON%20DON%20DONKI%20Rebate%24%20TCs.pdf",
+   "citation": {
+    "id": "bank:dc07b29859df",
+    "url": "https://cards.dcscc.com/dcscc/v2/pdf/DON%20DON%20DONKI%20Rebate%24%20TCs.pdf",
+    "source_type": "official",
+    "retrieved_at": "2026-09-27T08:37:04+00:00",
+    "sha256": "dc07b29859dfea2fe754a846c512ace55a1472aa6d5e355d1ff1b0c8ae48d161",
+    "snapshot": "data/raw/bank/cards-dcscc-com-dcscc-v2-pdf-DON-20DON-20DONKI-20Rebate-24-20TCs-pdf-0c17a1ef.pdf"
+   },
+   "text_path": "data/raw/bank/cards-dcscc-com-dcscc-v2-pdf-DON-20DON-20DONKI-20Rebate-24-20TCs-pdf-0c17a1ef.txt",
+   "sha256": "dc07b29859dfea2fe754a846c512ace55a1472aa6d5e355d1ff1b0c8ae48d161",
+   "changed": false,
+   "new": false,
+   "no_text_layer": true,
+   "effective_dates": [],
+   "mcc": {
+    "include": [],
+    "exclude": [],
+    "unknown": [],
+    "conflicting": [],
+    "unrecognised": [],
+    "hits": []
+   },
+   "transaction_modes": {},
+   "non_mcc_exclusions": []
+  }
+ ],
+ "changed": false,
+ "removed_documents": []
+}

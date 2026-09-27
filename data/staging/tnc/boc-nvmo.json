@@ -1,0 +1,662 @@
+{
+ "card_id": "boc-nvmo",
+ "product_pages": [
+  {
+   "id": "bank:f1101751beb0",
+   "url": "https://www.bankofchina.com/sg/bcservice/bc1/201605/t20160503_6891836.html",
+   "source_type": "official",
+   "retrieved_at": "2026-09-27T06:11:51+00:00",
+   "sha256": "f1101751beb00797caa137daf0f7fc1ba41fdc611666fc47a3dd3ec0bb3c477a",
+   "snapshot": "data/raw/bank/www-bankofchina-com-sg-bcservice-bc1-201605-t20160503-6891836-html-327994ff.html"
+  }
+ ],
+ "documents": [
+  {
+   "url": "https://pic.bankofchina.com/bocappd/singapore/202606/P020260611353473424295.pdf",
+   "citation": {
+    "id": "bank:81b5fb4d086e",
+    "url": "https://pic.bankofchina.com/bocappd/singapore/202606/P020260611353473424295.pdf",
+    "source_type": "official",
+    "retrieved_at": "2026-09-27T07:15:16+00:00",
+    "sha256": "81b5fb4d086e8a99f64e6e04e4a58b2e704a36698820760dcc836d0805c623f2",
+    "snapshot": "data/raw/bank/pic-bankofchina-com-bocappd-singapore-202606-P020260611353473424295-pdf-fe37401d.pdf"
+   },
+   "text_path": "data/raw/bank/pic-bankofchina-com-bocappd-singapore-202606-P020260611353473424295-pdf-fe37401d.txt",
+   "sha256": "81b5fb4d086e8a99f64e6e04e4a58b2e704a36698820760dcc836d0805c623f2",
+   "changed": false,
+   "new": false,
+   "no_text_layer": false,
+   "effective_dates": [
+    "13 June 2026"
+   ],
+   "mcc": {
+    "include": [
+     "8062"
+    ],
+    "exclude": [
+     "0742",
+     "4111",
+     "4121",
+     "4722",
+     "4784",
+     "4814",
+     "4829",
+     "4899",
+     "4900",
+     "5047",
+     "5199",
+     "5262",
+     "5411",
+     "5812",
+     "5814",
+     "5815",
+     "5960",
+     "5965",
+     "5993",
+     "5995",
+     "6010",
+     "6011",
+     "6012",
+     "6050",
+     "6051",
+     "6211",
+     "6300",
+     "6381",
+     "6399",
+     "6513",
+     "6529",
+     "6530",
+     "6534",
+     "6540",
+     "7273",
+     "7349",
+     "7372",
+     "7399",
+     "7511",
+     "7523",
+     "7922",
+     "7995",
+     "8062",
+     "8211",
+     "8220",
+     "8241",
+     "8244",
+     "8249",
+     "8299",
+     "8398",
+     "8651",
+     "8661",
+     "8699",
+     "8999",
+     "9211",
+     "9222",
+     "9223",
+     "9311",
+     "9399",
+     "9402",
+     "9405"
+    ],
+    "unknown": [],
+    "conflicting": [
+     "8062"
+    ],
+    "unrecognised": [
+     "6529",
+     "6530",
+     "6534"
+    ],
+    "hits": [
+     {
+      "code": "5812",
+      "polarity": "exclude",
+      "page": 1,
+      "line": "MCC 5812 - Eating Places and Restaurants; and MCC 5814 - Fast Food",
+      "reason": "the \u201cExclusions\u201d in Clause 3.",
+      "in_reference": true
+     },
+     {
+      "code": "5814",
+      "polarity": "exclude",
+      "page": 1,
+      "line": "MCC 5812 - Eating Places and Restaurants; and MCC 5814 - Fast Food",
+      "reason": "the \u201cExclusions\u201d in Clause 3.",
+      "in_reference": true
+     },
+     {
+      "code": "4722",
+      "polarity": "exclude",
+      "page": 2,
+      "line": "internet at all Online Travel Agencies with assigned MCC 4722 \u2013 Travel",
+      "reason": "\u2022 Transactions stated in the \u201cExclusions\u201d;",
+      "in_reference": true
+     },
+     {
+      "code": "4899",
+      "polarity": "exclude",
+      "page": 2,
+      "line": "MCC 4899 \u2013 Cable, Satellite and Other Pay Television/Radio/Streaming",
+      "reason": "\u2022 Transactions stated in the \u201cExclusions\u201d;",
+      "in_reference": true
+     },
+     {
+      "code": "5815",
+      "polarity": "exclude",
+      "page": 2,
+      "line": "Service; MCC 5815 \u2013 Digital Goods Media \u2013 Books, Movies, Digital",
+      "reason": "\u2022 Transactions stated in the \u201cExclusions\u201d;",
+      "in_reference": true
+     },
+     {
+      "code": "7922",
+      "polarity": "exclude",
+      "page": 2,
+      "line": "artwork/images, Music; and MCC \u2013 7922 Ticket Agencies and Theatrical",
+      "reason": "\u2022 Transactions stated in the \u201cExclusions\u201d;",
+      "in_reference": true
+     },
+     {
+      "code": "4111",
+      "polarity": "exclude",
+      "page": 2,
+      "line": "hailing services with assigned MCC 4111 \u2013 Local and Suburban Commuter",
+      "reason": "\u2022 Transactions stated in the \u201cExclusions\u201d;",
+      "in_reference": true
+     },
+     {
+      "code": "4121",
+      "polarity": "exclude",
+      "page": 2,
+      "line": "Passenger Transportation, excluding SimplyGo Top Up; and MCC 4121 \u2013",
+      "reason": "Passenger Transportation, excluding SimplyGo Top Up; and MCC 4121 \u2013",
+      "in_reference": true
+     },
+     {
+      "code": "5411",
+      "polarity": "exclude",
+      "page": 2,
+      "line": "and/or hypermarket stores globally with assigned MCC 5411 \u2013 Grocery Stores",
+      "reason": "Passenger Transportation, excluding SimplyGo Top Up; and MCC 4121 \u2013",
+      "in_reference": true
+     },
+     {
+      "code": "8062",
+      "polarity": "exclude",
+      "page": 3,
+      "line": "with assigned MCC 8062 \u2013 Hospitals. For the avoidance of doubt, all",
+      "reason": "but for the avoidance of doubt, shall exclude the \u201cExclusions\u201d.",
+      "in_reference": true
+     },
+     {
+      "code": "8062",
+      "polarity": "include",
+      "page": 3,
+      "line": "assigned MCC 8062 will be eligible for 0.3% Cashback unless it is stated in the",
+      "reason": "assigned MCC 8062 will be eligible for 0.3% Cashback unless it is stated in the",
+      "in_reference": true
+     },
+     {
+      "code": "0742",
+      "polarity": "exclude",
+      "page": 3,
+      "line": "related services in Singapore with assigned MCC 0742 \u2013 Veterinary Services;",
+      "reason": "\u201cExclusions\u201d.",
+      "in_reference": true
+     },
+     {
+      "code": "5995",
+      "polarity": "exclude",
+      "page": 3,
+      "line": "and MCC 5995 \u2013 Pet Shops, Pet Food and Supplies.",
+      "reason": "\u201cExclusions\u201d.",
+      "in_reference": true
+     },
+     {
+      "code": "5960",
+      "polarity": "exclude",
+      "page": 3,
+      "line": "Singapore with the assigned MCC 5960 \u2013 Direct Marketing Insurance Services;",
+      "reason": "\u201cExclusions\u201d.",
+      "in_reference": true
+     },
+     {
+      "code": "6300",
+      "polarity": "exclude",
+      "page": 3,
+      "line": "MCC 6300 \u2013 Insurance Sales, Underwriting and Premiums; MCC 6381 \u2013",
+      "reason": "\u201cExclusions\u201d.",
+      "in_reference": true
+     },
+     {
+      "code": "6381",
+      "polarity": "exclude",
+      "page": 3,
+      "line": "MCC 6300 \u2013 Insurance Sales, Underwriting and Premiums; MCC 6381 \u2013",
+      "reason": "\u201cExclusions\u201d.",
+      "in_reference": true
+     },
+     {
+      "code": "6399",
+      "polarity": "exclude",
+      "page": 3,
+      "line": "Insurance Premiums; and MCC 6399 Insurance Not Elsewhere Classified.",
+      "reason": "\u201cExclusions\u201d.",
+      "in_reference": true
+     },
+     {
+      "code": "4111",
+      "polarity": "exclude",
+      "page": 4,
+      "line": "4111 Local and Suburban Commuter Passenger Transportation, Including Ferries",
+      "reason": "MCC Excluded Categories",
+      "in_reference": true
+     },
+     {
+      "code": "4784",
+      "polarity": "exclude",
+      "page": 4,
+      "line": "4784 Tolls and Bridge Fees",
+      "reason": "MCC Excluded Categories",
+      "in_reference": true
+     },
+     {
+      "code": "4814",
+      "polarity": "exclude",
+      "page": 4,
+      "line": "4814 Telecommunication Services, including Local and Long-Distance Calls, Credit Card",
+      "reason": "MCC Excluded Categories",
+      "in_reference": true
+     },
+     {
+      "code": "4829",
+      "polarity": "exclude",
+      "page": 4,
+      "line": "4829 Wire Transfer Money Orders (WTMOs)",
+      "reason": "MCC Excluded Categories",
+      "in_reference": true
+     },
+     {
+      "code": "4900",
+      "polarity": "exclude",
+      "page": 4,
+      "line": "4900 Utilities \u2013 electric, gas, water and sanitary",
+      "reason": "MCC Excluded Categories",
+      "in_reference": true
+     },
+     {
+      "code": "5047",
+      "polarity": "exclude",
+      "page": 4,
+      "line": "5047 Medical, Dental, Ophthalmic and Hospital Equipment and Supplies",
+      "reason": "MCC Excluded Categories",
+      "in_reference": true
+     },
+     {
+      "code": "5199",
+      "polarity": "exclude",
+      "page": 4,
+      "line": "5199 Nondurable Goods (Not Elsewhere Classified)",
+      "reason": "MCC Excluded Categories",
+      "in_reference": true
+     },
+     {
+      "code": "5262",
+      "polarity": "exclude",
+      "page": 4,
+      "line": "5262 Marketplaces (only for Shopee Pay)",
+      "reason": "MCC Excluded Categories",
+      "in_reference": true
+     },
+     {
+      "code": "5965",
+      "polarity": "exclude",
+      "page": 4,
+      "line": "5965 Direct marketing - Combination Catalog and Retail Merchants",
+      "reason": "MCC Excluded Categories",
+      "in_reference": true
+     },
+     {
+      "code": "5993",
+      "polarity": "exclude",
+      "page": 4,
+      "line": "5993 Cigar Stores and Stands",
+      "reason": "MCC Excluded Categories",
+      "in_reference": true
+     },
+     {
+      "code": "6010",
+      "polarity": "exclude",
+      "page": 4,
+      "line": "6010, Member Financial Institution- Manual",
+      "reason": "MCC Excluded Categories",
+      "in_reference": true
+     },
+     {
+      "code": "6011",
+      "polarity": "exclude",
+      "page": 4,
+      "line": "6011, Cash Disbursements/ Automated Cash Disbursement/Merchandise And Services",
+      "reason": "MCC Excluded Categories",
+      "in_reference": true
+     },
+     {
+      "code": "6012",
+      "polarity": "exclude",
+      "page": 4,
+      "line": "6012",
+      "reason": "MCC Excluded Categories",
+      "in_reference": true
+     },
+     {
+      "code": "6050",
+      "polarity": "exclude",
+      "page": 4,
+      "line": "6050 Quasi Cash- Financial Institutions, Merchandise, Services",
+      "reason": "MCC Excluded Categories",
+      "in_reference": true
+     },
+     {
+      "code": "6051",
+      "polarity": "exclude",
+      "page": 4,
+      "line": "6051 Non-Financial Institutions - Foreign Currency, Non-Fiat Currency (for example:",
+      "reason": "MCC Excluded Categories",
+      "in_reference": true
+     },
+     {
+      "code": "6211",
+      "polarity": "exclude",
+      "page": 4,
+      "line": "6211 Securities\u2013Brokers and Dealers",
+      "reason": "MCC Excluded Categories",
+      "in_reference": true
+     },
+     {
+      "code": "6513",
+      "polarity": "exclude",
+      "page": 4,
+      "line": "6513 Real Estate Agents and Managers",
+      "reason": "MCC Excluded Categories",
+      "in_reference": true
+     },
+     {
+      "code": "6529",
+      "polarity": "exclude",
+      "page": 4,
+      "line": "6529, Payments of funds to prepaid accounts and/or merchants who are categorised as",
+      "reason": "MCC Excluded Categories",
+      "in_reference": false
+     },
+     {
+      "code": "6530",
+      "polarity": "exclude",
+      "page": 4,
+      "line": "6530, \"payment service providers\"",
+      "reason": "MCC Excluded Categories",
+      "in_reference": false
+     },
+     {
+      "code": "6534",
+      "polarity": "exclude",
+      "page": 4,
+      "line": "6534,",
+      "reason": "MCC Excluded Categories",
+      "in_reference": false
+     },
+     {
+      "code": "6540",
+      "polarity": "exclude",
+      "page": 4,
+      "line": "6540",
+      "reason": "MCC Excluded Categories",
+      "in_reference": true
+     },
+     {
+      "code": "7273",
+      "polarity": "exclude",
+      "page": 4,
+      "line": "7273 Dating and Escort Services",
+      "reason": "MCC Excluded Categories",
+      "in_reference": true
+     },
+     {
+      "code": "7349",
+      "polarity": "exclude",
+      "page": 4,
+      "line": "7349 Cleaning, maintenance and janitorial services",
+      "reason": "MCC Excluded Categories",
+      "in_reference": true
+     },
+     {
+      "code": "7372",
+      "polarity": "exclude",
+      "page": 4,
+      "line": "7372 Computing Programming, Data Processing, and Integrated Systems Design",
+      "reason": "MCC Excluded Categories",
+      "in_reference": true
+     },
+     {
+      "code": "7399",
+      "polarity": "exclude",
+      "page": 4,
+      "line": "7399 Business Services (Not Elsewhere Classified)",
+      "reason": "MCC Excluded Categories",
+      "in_reference": true
+     },
+     {
+      "code": "7511",
+      "polarity": "exclude",
+      "page": 4,
+      "line": "7511 Quasi Cash -Truck Stop Trxns",
+      "reason": "MCC Excluded Categories",
+      "in_reference": true
+     },
+     {
+      "code": "7523",
+      "polarity": "exclude",
+      "page": 4,
+      "line": "7523 Parking Lots, Parking Meters and Garages",
+      "reason": "MCC Excluded Categories",
+      "in_reference": true
+     },
+     {
+      "code": "7995",
+      "polarity": "exclude",
+      "page": 4,
+      "line": "7995 Betting including Lottery Tickets, Casino Gaming Chips, Off-Track Betting and",
+      "reason": "MCC Excluded Categories",
+      "in_reference": true
+     },
+     {
+      "code": "8211",
+      "polarity": "exclude",
+      "page": 4,
+      "line": "8211, Schools, Elementary and Secondary / Colleges,",
+      "reason": "MCC Excluded Categories",
+      "in_reference": true
+     },
+     {
+      "code": "8220",
+      "polarity": "exclude",
+      "page": 4,
+      "line": "8220, Universities, Professional Schools and Junior Colleges /",
+      "reason": "MCC Excluded Categories",
+      "in_reference": true
+     },
+     {
+      "code": "8241",
+      "polarity": "exclude",
+      "page": 4,
+      "line": "8241, Schools, Correspondence / Schools, Business and",
+      "reason": "MCC Excluded Categories",
+      "in_reference": true
+     },
+     {
+      "code": "8244",
+      "polarity": "exclude",
+      "page": 4,
+      "line": "8244, Secretarial / Schools, Trade and Vocational / Schools",
+      "reason": "MCC Excluded Categories",
+      "in_reference": true
+     },
+     {
+      "code": "8249",
+      "polarity": "exclude",
+      "page": 4,
+      "line": "8249, And Educational Services\u2013Not Elsewhere Classified",
+      "reason": "MCC Excluded Categories",
+      "in_reference": true
+     },
+     {
+      "code": "8299",
+      "polarity": "exclude",
+      "page": 4,
+      "line": "8299",
+      "reason": "MCC Excluded Categories",
+      "in_reference": true
+     },
+     {
+      "code": "9211",
+      "polarity": "exclude",
+      "page": 4,
+      "line": "9211 Court Costs, Including Alimony and Child Support",
+      "reason": "MCC Excluded Categories",
+      "in_reference": true
+     },
+     {
+      "code": "9222",
+      "polarity": "exclude",
+      "page": 4,
+      "line": "9222 Fines",
+      "reason": "MCC Excluded Categories",
+      "in_reference": true
+     },
+     {
+      "code": "9223",
+      "polarity": "exclude",
+      "page": 4,
+      "line": "9223 Bail and Bond Payments",
+      "reason": "MCC Excluded Categories",
+      "in_reference": true
+     },
+     {
+      "code": "9311",
+      "polarity": "exclude",
+      "page": 4,
+      "line": "9311 Tax Payments",
+      "reason": "MCC Excluded Categories",
+      "in_reference": true
+     },
+     {
+      "code": "9399",
+      "polarity": "exclude",
+      "page": 4,
+      "line": "9399 Government Services\u2013Not Elsewhere Classified",
+      "reason": "MCC Excluded Categories",
+      "in_reference": true
+     },
+     {
+      "code": "9402",
+      "polarity": "exclude",
+      "page": 5,
+      "line": "9402 Postal Services\u2013Government Only",
+      "reason": "MCC Excluded Categories",
+      "in_reference": true
+     },
+     {
+      "code": "9405",
+      "polarity": "exclude",
+      "page": 5,
+      "line": "9405 Intra-Government Purchases\u2013Government Only",
+      "reason": "MCC Excluded Categories",
+      "in_reference": true
+     },
+     {
+      "code": "8398",
+      "polarity": "exclude",
+      "page": 5,
+      "line": "8398, Charitable/Religious Organizations",
+      "reason": "MCC Excluded Categories",
+      "in_reference": true
+     },
+     {
+      "code": "8661",
+      "polarity": "exclude",
+      "page": 5,
+      "line": "8661",
+      "reason": "MCC Excluded Categories",
+      "in_reference": true
+     },
+     {
+      "code": "8651",
+      "polarity": "exclude",
+      "page": 5,
+      "line": "8651 Political Organizations",
+      "reason": "MCC Excluded Categories",
+      "in_reference": true
+     },
+     {
+      "code": "8699",
+      "polarity": "exclude",
+      "page": 5,
+      "line": "8699 Organizations, Membership-Not Elsewhere Classified",
+      "reason": "MCC Excluded Categories",
+      "in_reference": true
+     },
+     {
+      "code": "8999",
+      "polarity": "exclude",
+      "page": 5,
+      "line": "8999 Professional Services (Not Elsewhere Classified)",
+      "reason": "MCC Excluded Categories",
+      "in_reference": true
+     }
+    ]
+   },
+   "transaction_modes": {
+    "online": [
+     "(i) 10% Cashback on Dining and Online Food Delivery Dining and Online Food Delivery \u201cDining and Online Food Delivery\u201d means Singapore and Overseas Card Transactions made at all restaurants, cafes and fast food restaurants and online food delivery platforms with assigned Merchant Category Code (MCC) MCC 5812 - Eating Places and Restaurants;",
+     "V2026 Page 1 of 7 The NVMO Cashback for Dining and Online Food Delivery is capped at S$25 per Card Account per Billing Cycle.",
+     "\u2022 Online transactions effected in foreign currencies;",
+     "Online Travel Agencies \u201cOnline Travel Agencies\u201d means Card Transactions which are made via the internet at all Online Travel Agencies with assigned MCC 4722 \u2013 Travel Agencies and Tour Operators and processed by the respective merchants/acquiring banks as online transactions.",
+     "Online purchases V2026 Page 2 of 7 \u201cOnline purchases\u201d means Card Transactions which are made via the internet, charged to the Card and processed by the respective merchants/acquiring banks as online transactions through Visa/MasterCard Worldwide networks but for the avoidance of doubt, shall exclude the \u201cExclusions\u201d.",
+     "4.20 All information is correct at the time of publishing or posting online."
+    ],
+    "contactless": [
+     "(iii) 3% Cashback on Shopping and Lifestyle Transport \u201cTransport\u201d means Card Transactions made on public buses and MRT rides paid via contactless credit card payment (SimplyGo), limousines, taxi and ride- hailing services with assigned MCC 4111 \u2013 Local and Suburban Commuter Passenger Transportation, excluding SimplyGo Top Up;"
+    ],
+    "mobile_wallet": [
+     "\u2022 Payments processed through mobile wallet or app-based platforms;"
+    ],
+    "foreign_currency": [
+     "(i) 10% Cashback on Dining and Online Food Delivery Dining and Online Food Delivery \u201cDining and Online Food Delivery\u201d means Singapore and Overseas Card Transactions made at all restaurants, cafes and fast food restaurants and online food delivery platforms with assigned Merchant Category Code (MCC) MCC 5812 - Eating Places and Restaurants;",
+     "(ii) 8% Cashback on Travel and Entertainment Travel In-store Malaysia and Indonesia Overseas Spend \u201cIn-store Malaysia and Indonesia Overseas Spend\u201d means on-site Card transactions charged physically to the Card in Malaysia and Indonesia, charged in Malaysian Ringgit (MYR) or Indonesian Rupiah (IDR), and exclude the following: \u2022 Card transactions made overseas but effected or charged in Singapore d",
+     "(a) any interest charges, card annual fees, late payment charges, goods and services taxes, cash advances, fund transfers, purchases made through Installment Payment Plans (IPP), any form of purchase or statement instalments, tax payment plans, unposted, cancelled, disputed and refunded transactions, all fees charged by BOC or any other third parties (including but not limited to foreign currency ",
+     "V2026 Page 3 of 7 MCC Excluded Categories 4111 Local and Suburban Commuter Passenger Transportation, Including Ferries (SimplyGo Top Up) 4784 Tolls and Bridge Fees 4814 Telecommunication Services, including Local and Long-Distance Calls, Credit Card Calls, Calls Through Use of Magnetic-Stripe-Reading Telephones, and Fax Services 4829 Wire Transfer Money Orders (WTMOs) 4900 Utilities \u2013 electric, ga"
+    ]
+   },
+   "non_mcc_exclusions": [
+    "annual fee",
+    "axs",
+    "bill payment",
+    "cardup",
+    "charit",
+    "education",
+    "government",
+    "grabpay",
+    "hospital",
+    "instalment",
+    "insurance premium",
+    "interest",
+    "ipaymy",
+    "ipp",
+    "late payment charge",
+    "tax",
+    "top-up",
+    "utilit",
+    "youtrip"
+   ]
+  }
+ ],
+ "changed": false,
+ "removed_documents": []
+}

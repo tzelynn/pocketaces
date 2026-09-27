@@ -1,0 +1,256 @@
+{
+ "source": "singsaver",
+ "source_id": "dbs-altitude-american-express-card",
+ "source_url": "https://www.singsaver.com.sg/credit-card/products/dbs-altitude-american-express-card",
+ "name": "DBS Altitude American Express Card",
+ "bank": "DBS",
+ "card_id": "dbs-altitude-american-express",
+ "image_url": "https://mhgprod.blob.core.windows.net/singsaver/strapi-uploads/m_2026_01_DBS_ALTITUDE_AMEX_CARD_80890db4ef.png",
+ "annual_fee": 196.2,
+ "annual_fee_note": "S$ | First Year Waived",
+ "min_annual_income": 30000.0,
+ "min_monthly_spend": 0.0,
+ "earn_rates": {
+  "mpd:local": {
+   "value": 1.3,
+   "unit": "mpd",
+   "note": "Up to "
+  },
+  "mpd:flight_booking": {
+   "value": 2.2,
+   "unit": "mpd",
+   "note": "Up to "
+  },
+  "mpd:retail": {
+   "value": 1.3,
+   "unit": "mpd",
+   "note": null
+  },
+  "mpd:dining": {
+   "value": 1.3,
+   "unit": "mpd",
+   "note": null
+  },
+  "mpd:local_online_shopping": {
+   "value": 1.3,
+   "unit": "mpd",
+   "note": null
+  },
+  "mpd:overseas_online_shopping": {
+   "value": 2.2,
+   "unit": "mpd",
+   "note": null
+  },
+  "mpd:department_store": {
+   "value": 1.3,
+   "unit": "mpd",
+   "note": null
+  },
+  "mpd:supermarket": {
+   "value": 1.3,
+   "unit": "mpd",
+   "note": null
+  },
+  "mpd:transport": {
+   "value": 1.3,
+   "unit": "mpd",
+   "note": null
+  },
+  "mpd:petrol": {
+   "value": 1.3,
+   "unit": "mpd",
+   "note": null
+  },
+  "mpd:travel": {
+   "value": 2.2,
+   "unit": "mpd",
+   "note": "Up to  | 2.2 mpd on foreign currency spend, 1.3 mpd on local spend."
+  },
+  "percent:local": {
+   "value": 0.5,
+   "unit": "percent",
+   "note": "(Non-direct Cashback) S$1 local spend = 1.3 miles on all local spend (0.6 DBS Points). $10 cash credit = 1,200 DBS Points. Equivalent to 0.5% cashback."
+  },
+  "percent:overseas": {
+   "value": 0.83,
+   "unit": "percent",
+   "note": null
+  },
+  "percent:baseline": {
+   "value": 0.5,
+   "unit": "percent",
+   "note": "(Non-direct Cashback) S$1 local spend = 1.3 miles on all local spend (0.6 DBS Points). $10 cash credit = 1,200 DBS Points. Equivalent to 0.5% cashback."
+  },
+  "mpd:baseline": {
+   "value": 1.3,
+   "unit": "mpd",
+   "note": null
+  },
+  "mpd:overseas": {
+   "value": 2.2,
+   "unit": "mpd",
+   "note": "Up to  | On overseas spend made in foreign currency. "
+  },
+  "mpd:hotel_booking": {
+   "value": 2.2,
+   "unit": "mpd",
+   "note": "Up to "
+  }
+ },
+ "caps": {
+  "airmiles_bonus_cap": {
+   "value": 5000.0,
+   "note": "S$ | Airmiles capped at first S$5,000 spend per calendar month."
+  }
+ },
+ "highlights": [
+  "Up to 2.2 mpd for overseas FCY spend and 1.3 mpd on other local spend.",
+  "pros: Up to 1.3 miles per S$1 spent locally, including bus and train rides.",
+  "pros: Up to 2.2 miles per S$1 spent on overseas purchases in foreign currency.",
+  "pros: Receive 10,000 bonus miles when you pay the annual fee of S$196.20",
+  "pros: Read our full review of the DBS Altitude Card.",
+  "cons: Miles are awarded in the form of DBS points which are awarded for every S$5 spent.",
+  "cons: Each conversion of DBS points to miles will be subjected to an administrative fee of S$25 (exclusive of GST).",
+  "pros: Bonus air miles",
+  "pros: Airport lounge",
+  "pros: No expiry air miles",
+  "pros: Unlimited air miles"
+ ],
+ "sign_up_offers": [
+  {
+   "kind": "welcome_offer",
+   "title": "Stackable Welcome Offer",
+   "offer_id": "SG.2026-04-01.CC.DBSX.CASHLINE.BAU",
+   "valid_from": "2026-08-31T16:00:00Z",
+   "valid_to": "2026-09-30T15:59:00Z",
+   "gifts": [
+    {
+     "title": "Up to S$200 Cashback on Cashline",
+     "value_sgd": 200
+    }
+   ],
+   "terms": "Stackable Welcome Offer promotion is valid from 1 September 2026 to 30 September 2026.\nPromotion is valid for new DBS / POSB credit cardmembers only.\nApply and get approved for selected credit cards from DBS and POSB during the promo period and select “Cashline” in your application on the DBS/POSB website (except foreigners) to be eligible for S$100 cash reward.\nReceive an additional S$100 cash with a minimum S$188 closing balance accumulated for Cashline withdrawals in the first two statement months upon account opening.\nTerms and Conditions\n apply.",
+   "tnc_url": null,
+   "bundle_with": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "kind": "exclusive_offer",
+   "title": "SingSaver Exclusive Offer",
+   "offer_id": "SG.2026-09-17.CC.DBSX.6XCC.288CASH-310GRAB-18KMAXM-MRMINI20-STRAREN-[DYSON-APPLE]",
+   "valid_from": "2026-09-16T16:00:00Z",
+   "valid_to": "2026-09-30T15:59:00Z",
+   "gifts": [
+    {
+     "title": "S$288 Cash via PayNow",
+     "value_sgd": 288
+    },
+    {
+     "title": "S$310 Grab Voucher",
+     "value_sgd": 310
+    },
+    {
+     "title": "18,000 Max Miles by HeyMax (worth S$324)",
+     "value_sgd": 324
+    },
+    {
+     "title": "Morning Mini Coffee Machine + 20 Capsules Bundle (worth S$425)",
+     "value_sgd": 425
+    },
+    {
+     "title": "Samsonite Straren Spinner 67/24 (worth S$600)",
+     "value_sgd": 600
+    },
+    {
+     "title": "Dyson V8 Cyclone Vacuum Cleaner (worth S$559, top up S$150)",
+     "value_sgd": 559
+    },
+    {
+     "title": "Dyson Airstrait™ hair straightener (worth S$799) (Top up S$200)",
+     "value_sgd": 799
+    },
+    {
+     "title": "Sony WH-1000XM6 Headphones (worth S$649) (top up S$200)",
+     "value_sgd": 649
+    },
+    {
+     "title": "Apple iPad (A16) 11\" 128GB WiFi (worth S$649) (Top up S$350)",
+     "value_sgd": 649
+    }
+   ],
+   "terms": "SingSaver Exclusive Offer promotion is valid from 17 September 2026 to 30 September 2026\nPromotion is valid for new DBS / POSB credit cardmembers only.\nApply for selected credit cards from DBS and POSB within the promo period using the promo code \"\nSINGSAVER\n\" during the application and make a min. spend of S$500 within 30 days from card approval date to be eligible for reward.\nHave a valid DBS PayLah! account by the end of the Qualifying Spend period to be eligible for the reward,\nSome rewards will require additional top-up to claim.\nPromotion does not stack with other welcome offers from DBS / POSB.\nTerms and Conditions\n apply.",
+   "tnc_url": null,
+   "bundle_with": []
+  }
+ ],
+ "links": {
+  "apply": "https://www.singsaver.com.sg/apply-v2b/17670"
+ },
+ "citation": {
+  "id": "singsaver:8613b6178b3e",
+  "url": "https://www.singsaver.com.sg/credit-card/products/dbs-altitude-american-express-card",
+  "title": "DBS Altitude American Express Card",
+  "source_type": "aggregator",
+  "retrieved_at": "2026-09-27T05:25:17+00:00",
+  "sha256": "8613b6178b3ef687efc9bab5a66a6f50481022397e18186c28e7b00448f814fa",
+  "snapshot": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-dbs-altitude-american-express-card-61d03784.html"
+ },
+ "extra": {
+  "network": [
+   "American Express"
+  ],
+  "mobile_wallets": [
+   "Google Pay",
+   "Samsung Pay",
+   "NETSPay"
+  ],
+  "fx_fee_percent": 3.25,
+  "miles_conversion_fee": 25.0,
+  "categories": [
+   "category:airmiles",
+   "category:all-credit-cards",
+   "category:buffet-promo",
+   "category:dining-promo",
+   "category:grocery-promo",
+   "category:installment",
+   "category:overseas",
+   "category:petrol-promo",
+   "category:promo",
+   "category:retail-promo",
+   "category:travel",
+   "needs:0-interest-rate",
+   "needs:airport-lounge-transfer",
+   "needs:all-airmiles-cards",
+   "needs:all-cards-with-buffet-promo",
+   "needs:all-cards-with-dining-promo",
+   "needs:all-cards-with-grocery-promo",
+   "needs:all-cards-with-petrol-promo",
+   "needs:all-cards-with-promotion",
+   "needs:all-cards-with-retail-promo",
+   "needs:all-credit-cards",
+   "needs:all-installment-cards",
+   "needs:all-overseas-cards",
+   "needs:all-travel-cards",
+   "needs:annual-fee-waiver-airmiles",
+   "needs:annual-fee-waiver-travel-cards",
+   "needs:bonus-miles",
+   "needs:high-miles-rebate",
+   "needs:long-tenure-installment",
+   "needs:no-minimum-spend-required-airmiles",
+   "needs:online-booking-discount",
+   "needs:unlimited-airmiles"
+  ],
+  "tag": null,
+  "description": "See the world in a new light with the DBS Altitude American Express Card, a travel card that offers attractive miles earn rates of up to 1.3 mpd on local spend, and up to 2.2 mpd on overseas spend."
+ }
+}

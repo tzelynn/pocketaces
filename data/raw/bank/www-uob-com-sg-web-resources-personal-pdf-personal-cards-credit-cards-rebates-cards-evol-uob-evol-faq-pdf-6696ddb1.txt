@@ -1,0 +1,105 @@
+UOB EVOL Card
+Frequently Asked Questions (FAQs)
+1. What does Online Spend refer to?
+Online Spend refers to Transactions made via the internet based on system indicators and processed by the respective
+merchants/acquirers as an online transaction (including in-app purchases).
+2. What does Local Mobile Contactless Spend refer to?
+Local Mobile Contactless Spend refers to in-store contactless Transactions made via Apple Pay, Samsung Pay and
+Google Pay (or other mobile wallet services as UOB may determine from time to time at its sole discretion) which are
+processed locally in Singapore.
+3. What does Telco, Gym and Streaming spend refer to?
+Selected Gym, Telco and Streaming Spend refers to Transactions made with the following Merchant Category Codes
+(MCC) and which contains the corresponding transaction descriptions as set out in the table below:
+Category MCC Descriptions
+Gym 5734, 7298, 7997 • *Anytime Fitness*
+• *Classpass*
+• *Virgin Active*
+• *Fitness First*
+• *Body Fit Training*
+• *True Fitness*
+• *247 Fitness*
+• *Pure Yoga*
+• *True Yoga*
+• *Revolution SG*
+Telco 4812, 4814 • *Starhub*
+• *Singtel*
+• *M1*
+• *Gomo*
+• *MyRepublic*
+• *Giga*
+• *CirclesLife*
+Streaming 4899, 5815 • *Netflix*
+• *Spotify*
+• *Disney plus*
+4. What does Overseas Foreign Currency Spend (FX Spend) refer to?
+Overseas Foreign Currency Spend refers Transactions which are processed outside of Singapore and successfully
+charged to your Card and posted on UOB’s system, in a foreign currency. Transactions which are processed outside of
+Singapore, but which are charged to your Card in Singapore Dollars at the time of the Transaction, will not constitute
+an Overseas Foreign Currency Spend.
+## RESTRICTED ##For avoidance of doubt, all eligible Overseas Foreign Currency Spend made online or via mobile contactless methods
+will qualify for Cashback under the category of Overseas Foreign Currency Spend and not under the categories of
+Online Spend and/or Mobile Contactless Spend.
+5. How do I earn 10% cashback on Online Spend and Mobile Contactless Spend and/or Selected Gym, Telco and
+Streaming Spend?
+To qualify for 10% cashback on Online Spend and Mobile Contactless Spend and/or Selected Gym, Telco and Streaming
+Spend, you must successfully charge at least S$800 worth of Transactions in a statement month to your Card.
+6. How do I earn 1% cashback on Overseas Foreign Currency Spend?
+You don’t need to meet a minimum spend to enjoy up to 1% cashback on Overseas Foreign Currency Spend from
+26 March 2026 to 31 December 2026 (no cap).
+• 0.5% cashback on FX Spend in China and Europe*
+• 1% cashback on all other FX Spend
+7. Do I still earn cashback if I do not meet the minimum spend of S$800?
+If you do not meet the minimum spend of S$800, you will earn 0.3% cashback on Local Transactions successfully
+charged to your Card account in that statement month and you will continue to enjoy up to 1% cashback on Overseas
+Foreign Currency Spend (from 26 Mar 2026 to 31 Dec 2026).
+8. Is there any cap on the cashback earned?
+There is no cap on the cashback that can be earned on Overseas Foreign Currency Spend from 26 March 2026 to 31
+December 2026.
+The maximum total local spend cashback that you (as a principal Cardholder) can earn on your Card is capped at S$80
+for each statement month.
+Cashback Cashback Cap Cashback Cap
+per statement month (from per statement month
+1 February 2026 to 15 March (from 26 March 2026 to
+2026) 31 December 2026)
+Up to 1% cashback on Overseas Foreign Currency S$20 No cap
+Spend
+10% cashback on Selected Gym, Telco and Streaming S$20 S$20
+Spend
+10% cashback on Online Spend and Mobile S$30 S$30
+Contactless Spend
+0.3% cashback on all Other Spend S$30 S$30
+## RESTRICTED ##9. What qualifies for the minimum S$800 spend requirement?
+Retail transactions successfully charged to your Card account and posted on the Bank’s system, but excludes cash
+advances, balance and/or fund transfers, NETS and NETS-related transactions, monthly instalments under 0%
+Instalment Payment Plan and SmartPay, any interest, fees and charges (including without limitation, late payment
+charges or interest charges, annual or monthly fees or charges) imposed by the Bank, any credit card transaction that
+is subsequently cancelled, voided, refunded or reversed for any reason, any other transactions excluded by the
+Merchant Category Codes (MCC) and transaction descriptions as listed in our full terms and conditions at
+uob.com.sg/evoltncs.
+10. When will I receive the cashback?
+The Cashback earned for the current statement month will be credited into your Card account in the following
+statement month to offset against the billed amount for your Card account in your next statement month.
+11. What are the FX Fees charged for UOB EVOL?
+There will be no administrative fees applied on Transactions in foreign currencies (“FX Fees”) charged on all Overseas
+Foreign Currency Spend successfully charged and posted to your Card account. This is regardless of whether you meet
+the minimum spend of S$800 in a statement month.
+For avoidance of doubt, the International Processing Fee of 1% of the transaction amount, which is chargeable on
+transactions made in Singapore Dollars and processed outside Singapore using Visa or Mastercard respectively, will
+continue to apply.
+12. What is the card annual fee for UOB EVOL?
+Your first-year principal card annual fee will be waived; subsequently it will be S$196.20 (inclusive of GST) yearly. Enjoy
+no annual fee when you make a minimum of 3 Transactions per calendar month for 12 consecutive calendar months
+prior to your card anniversary date. Terms and conditions apply.
+With effect from 1 July 2026, the annual fees for both principal and supplementary UOB EVOL Cards will be waived
+without minimum spend.
+13. What other benefits are there for the UOB EVOL Card?
+UOB EVOL is Singapore’s first bio-sourced card made using renewable plant-based materials such as non-edible corn,
+which a more sustainable option helps to minimise plastic use and pollution. Each UOB EVOL card reduces use of
+plastic by 84%, saves 4.48g of plastic and lessens carbon footprint by 10g per card.
+UOB EVOL is Singapore’s first to collaborate with Singapore Power Group to offset up to 100% of your electricity carbon
+footprint simply by paying for your SP Digital bill with UOB EVOL Card.
+With the UOB EVOL Card, you can enjoy a suite of privileges at eco-conscious merchants.
+For more details, visit uob.com.sg/EVOLeco
+Click here for other UOB Card FAQs.
+Updated as at 10 Jun 2026
+## RESTRICTED ##

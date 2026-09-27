@@ -1,0 +1,185 @@
+{
+ "source": "singsaver",
+ "source_id": "dbs-chromo-card",
+ "source_url": "https://www.singsaver.com.sg/credit-card/products/dbs-chromo-card",
+ "name": "DBS Chromo Card",
+ "bank": "DBS",
+ "card_id": "dbs-chromo",
+ "image_url": "https://mhgprod.blob.core.windows.net/singsaver/strapi-uploads/m_DBS_Chromo_Card_Red_2026_09_4f13ac4076.webp",
+ "annual_fee": 196.2,
+ "annual_fee_note": "S$ | S$196.20 (incl. GST) (5-years annual fee waiver)",
+ "min_annual_income": 30000.0,
+ "min_monthly_spend": 500.0,
+ "earn_rates": {
+  "percent:baseline": {
+   "value": 1.0,
+   "unit": "percent",
+   "note": "Earn 1% cashback on all other eligible spend—no minimum spend required. Cashback capped at S$150 per calendar month, which includes both Base cashback and Bonus cashback."
+  },
+  "percent:local": {
+   "value": 5.0,
+   "unit": "percent",
+   "note": "Up to  | Earn up to 5% cashback on your top 2 local spend categories every calendar month across Dining, Shopping, Travel, Transport, Entertainment, and Wellness. The top 2 categories are calculated and rewarded automatically every month."
+  },
+  "percent:dining": {
+   "value": 5.0,
+   "unit": "percent",
+   "note": "Up to  | Earn up to 5% cashback on your top 2 local spend categories every calendar month across Dining, Shopping, Travel, Transport, Entertainment, and Wellness. The top 2 categories are calculated and rewarded automatically every month."
+  },
+  "percent:transport": {
+   "value": 5.0,
+   "unit": "percent",
+   "note": "Up to  | Earn up to 5% cashback on your top 2 local spend categories every calendar month across Dining, Shopping, Travel, Transport, Entertainment, and Wellness. The top 2 categories are calculated and rewarded automatically every month."
+  },
+  "percent:travel": {
+   "value": 5.0,
+   "unit": "percent",
+   "note": "Up to  | Earn up to 5% cashback on your top 2 local spend categories every calendar month across Dining, Shopping, Travel, Transport, Entertainment, and Wellness. The top 2 categories are calculated and rewarded automatically every month."
+  },
+  "percent:retail": {
+   "value": 5.0,
+   "unit": "percent",
+   "note": "Up to  | Earn up to 5% cashback on your top 2 local spend categories every calendar month across Dining, Shopping, Travel, Transport, Entertainment, and Wellness. The top 2 categories are calculated and rewarded automatically every month."
+  },
+  "percent:entertainment": {
+   "value": 5.0,
+   "unit": "percent",
+   "note": "Up to  | Earn up to 5% cashback on your top 2 local spend categories every calendar month across Dining, Shopping, Travel, Transport, Entertainment, and Wellness. The top 2 categories are calculated and rewarded automatically every month."
+  },
+  "percent:health": {
+   "value": 5.0,
+   "unit": "percent",
+   "note": "Up to  | Earn up to 5% cashback on your top 2 local spend categories every calendar month across Dining, Shopping, Travel, Transport, Entertainment, and Wellness. The top 2 categories are calculated and rewarded automatically every month."
+  },
+  "mpd:baseline": {
+   "value": 1.3,
+   "unit": "mpd",
+   "note": null
+  },
+  "mpd:local": {
+   "value": 1.3,
+   "unit": "mpd",
+   "note": "Earn 1.3 miles per S$1 spend on all eligible local spend. Miles are awarded in the form of DBS Points (1 DBS Point = 2 miles) and do not expire."
+  }
+ },
+ "caps": {
+  "cashback_bonus_cap": {
+   "value": 150.0,
+   "note": "S$ | S$150 total cashback cap per calendar month, which includes both Bonus cashback & Base cashback earned in the same month. Within this overall limit, Bonus cashback for each of the top 2 local spend categories is capped at S$30 per calendar month."
+  }
+ },
+ "highlights": [
+  "Earn up to 5% cashback on your top 2 local spend categories every calendar month across Dining, Shopping, Travel, Transport, Entertainment, and Wellness, calculated and rewarded automatically every month. Otherwise, earn 1% cashback on all other eligible spend. Cashback capped at S$150 per calendar month, which includes both Base cashback and Bonus cashback.",
+  "pros: Application is only open to customers between 21-29 years old.",
+  "pros: Up to 5% cashback on your top 2 local spend categories every month across Dining, Shopping, Transport and more—no selection required.",
+  "pros: 1% cashback on all other eligible spend—no minimum spend required.",
+  "pros: 0 FX fees and 5-year annual fee waiver.",
+  "pros: Toggle between up to 5% cashback or 1.3 miles per S$1 – Flexibility to switch your reward preference every month.",
+  "cons: Boosted earn rates are removed in the 4th month after your 30th birthday.",
+  "cons: Cashback is capped at S$150 per calendar month across both Bonus and Base cashback."
+ ],
+ "sign_up_offers": [
+  {
+   "kind": "welcome_offer",
+   "title": "Stackable Welcome Offer",
+   "offer_id": "SG.2026-04-01.CC.DBSX.CASHLINE.BAU",
+   "valid_from": "2026-08-31T16:00:00Z",
+   "valid_to": "2026-09-30T15:59:00Z",
+   "gifts": [
+    {
+     "title": "Up to S$200 Cashback on Cashline",
+     "value_sgd": 200
+    }
+   ],
+   "terms": "Stackable Welcome Offer promotion is valid from 1 September 2026 to 30 September 2026.\nPromotion is valid for new DBS / POSB credit cardmembers only.\nApply and get approved for selected credit cards from DBS and POSB during the promo period and select “Cashline” in your application on the DBS/POSB website (except foreigners) to be eligible for S$100 cash reward.\nReceive an additional S$100 cash with a minimum S$188 closing balance accumulated for Cashline withdrawals in the first two statement months upon account opening.\nTerms and Conditions\n apply.",
+   "tnc_url": null,
+   "bundle_with": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "kind": "exclusive_offer",
+   "title": "SingSaver Exclusive Offer",
+   "offer_id": "SG.2026-09-17.CC.DBSX.CHROMO.288CASH-310GRAB-18KMAXM-GB4PRO-STRAREN-[DYSON-APPLE]",
+   "valid_from": "2026-09-16T16:00:00Z",
+   "valid_to": "2026-09-30T15:59:00Z",
+   "gifts": [
+    {
+     "title": "S$288 Cash via PayNow",
+     "value_sgd": 288
+    },
+    {
+     "title": "S$310 Grab Voucher",
+     "value_sgd": 310
+    },
+    {
+     "title": "18,000 Max Miles by HeyMax (worth S$324)",
+     "value_sgd": 324
+    },
+    {
+     "title": "Samsung Galaxy Buds4 Pro (worth S$349)",
+     "value_sgd": 349
+    },
+    {
+     "title": "Samsonite Straren Spinner 67/24 (worth S$600)",
+     "value_sgd": 600
+    },
+    {
+     "title": "Dyson V8 Cyclone Vacuum Cleaner (worth S$559, top up S$150)",
+     "value_sgd": 559
+    },
+    {
+     "title": "Dyson Airstrait™ hair straightener (worth S$799) (Top up S$200)",
+     "value_sgd": 799
+    },
+    {
+     "title": "Sony WH-1000XM6 Headphones (worth S$649) (top up S$200)",
+     "value_sgd": 649
+    },
+    {
+     "title": "Apple iPad (A16) 11\" 128GB WiFi (worth S$649) (Top up S$350)",
+     "value_sgd": 649
+    }
+   ],
+   "terms": "SingSaver Exclusive Offer promotion is valid from 17 September 2026 to 30 September 2026.\nPromotion is valid for new DBS / POSB credit cardmembers only.\nApply for selected credit cards from DBS and POSB within the promo period using the promo code \"\nSINGSAVER\n\" during the application and make a min. spend of S$500 within 30 days from card approval date to be eligible for reward.\nHave a valid DBS PayLah! account by the end of the Qualifying Spend period to be eligible for the reward,\nSome rewards will require additional top-up to claim.\nPromotion does not stack with other welcome offers from DBS / POSB.\nTerms and Conditions\n apply.",
+   "tnc_url": null,
+   "bundle_with": []
+  }
+ ],
+ "links": {
+  "apply": "https://www.singsaver.com.sg/apply-v2b/17675"
+ },
+ "citation": {
+  "id": "singsaver:0e54979e8973",
+  "url": "https://www.singsaver.com.sg/credit-card/products/dbs-chromo-card",
+  "title": "DBS Chromo Card",
+  "source_type": "aggregator",
+  "retrieved_at": "2026-09-27T05:25:20+00:00",
+  "sha256": "0e54979e8973fabda1c24d67c381ca6618869e8c227c21f02929a4817ea5e5a2",
+  "snapshot": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-dbs-chromo-card-e340b498.html"
+ },
+ "extra": {
+  "network": [
+   "VISA"
+  ],
+  "mobile_wallets": [
+   "Google Pay",
+   "Samsung Pay",
+   "NETSPay"
+  ],
+  "fx_fee_percent": 3.25,
+  "miles_conversion_fee": null,
+  "categories": [],
+  "tag": "Best for young spenders",
+  "description": "Live in full colour with the DBS Chromo Card, a lifestyle credit card for 21-29 year-olds that adapts to your spending. Choose between earning up to 5% cashback or 1.3 miles per S$1, which automatically applies to your top 2 local spend categories. Plus, enjoy 0 FX fees and no annual fees for the first 5 years."
+ }
+}

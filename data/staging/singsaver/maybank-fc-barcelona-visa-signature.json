@@ -1,0 +1,155 @@
+{
+ "source": "singsaver",
+ "source_id": "maybank-fc-barcelona-visa-signature-card",
+ "source_url": "https://www.singsaver.com.sg/credit-card/products/maybank-fc-barcelona-visa-signature-card",
+ "name": "Maybank FC Barcelona Visa Signature Card",
+ "bank": "Maybank",
+ "card_id": "maybank-fc-barcelona-visa-signature",
+ "image_url": "https://mhgprod.blob.core.windows.net/singsaver/strapi-uploads/xs_bltff79ab274a856fe5_9678a80d1f.png",
+ "annual_fee": 130.8,
+ "annual_fee_note": "S$ | First 2 Years Waived, thereafter can be waived if min spend of $10K is hit per annum",
+ "min_annual_income": 30000.0,
+ "earn_rates": {
+  "percent:local": {
+   "value": 1.6,
+   "unit": "percent",
+   "note": "Unlimited cashback, no minimum spend."
+  },
+  "percent:travel": {
+   "value": 1.6,
+   "unit": "percent",
+   "note": "Unlimited cashback, no minimum spend."
+  },
+  "percent:dining": {
+   "value": 1.6,
+   "unit": "percent",
+   "note": "Unlimited cashback, no minimum spend."
+  },
+  "percent:supermarket": {
+   "value": 1.6,
+   "unit": "percent",
+   "note": "Unlimited cashback, no minimum spend."
+  },
+  "percent:petrol": {
+   "value": 1.6,
+   "unit": "percent",
+   "note": "Unlimited cashback, no minimum spend."
+  },
+  "percent:retail": {
+   "value": 1.6,
+   "unit": "percent",
+   "note": "Unlimited cashback, no minimum spend."
+  },
+  "percent:local_online_shopping": {
+   "value": 1.6,
+   "unit": "percent",
+   "note": "Unlimited cashback, no minimum spend."
+  },
+  "percent:health": {
+   "value": 1.6,
+   "unit": "percent",
+   "note": "Unlimited cashback, no minimum spend."
+  },
+  "percent:department_store": {
+   "value": 1.6,
+   "unit": "percent",
+   "note": "Unlimited cashback, no minimum spend."
+  },
+  "percent:digital_wallet": {
+   "value": 1.6,
+   "unit": "percent",
+   "note": "Unlimited cashback, no minimum spend."
+  },
+  "percent:contactless_spend": {
+   "value": 1.6,
+   "unit": "percent",
+   "note": "Unlimited cashback, no minimum spend."
+  },
+  "percent:transport": {
+   "value": 1.6,
+   "unit": "percent",
+   "note": "Unlimited cashback, no minimum spend."
+  },
+  "percent:overseas": {
+   "value": 1.6,
+   "unit": "percent",
+   "note": "Unlimited cashback, no minimum spend."
+  },
+  "points_per_dollar:baseline": {
+   "value": 10.0,
+   "unit": "points_per_dollar",
+   "note": "For foreign currency spend only."
+  },
+  "points_per_dollar:overseas_spending": {
+   "value": 10.0,
+   "unit": "points_per_dollar",
+   "note": "Spent in foreign currency."
+  },
+  "percent:baseline": {
+   "value": 1.6,
+   "unit": "percent",
+   "note": "Unlimited cashback"
+  }
+ },
+ "caps": {},
+ "highlights": [
+  "Unlimited cashback, no minimum spend.",
+  "pros: Get 1.6% unlimited cashback on your local and foreign spend.",
+  "pros: No minimum spend and no cashback cap.",
+  "pros: Stand a chance to win a trip for 2 to watch FC Barcelona live every football season.",
+  "pros: Complimentary travel insurance coverage of up to S$300,000.",
+  "pros: Annual Fee waiver",
+  "pros: No monthly spend required",
+  "pros: No rebate cap",
+  "pros: Overseas rebate"
+ ],
+ "sign_up_offers": [],
+ "links": {},
+ "citation": {
+  "id": "singsaver:c585ac636d7d",
+  "url": "https://www.singsaver.com.sg/credit-card/products/maybank-fc-barcelona-visa-signature-card",
+  "title": "Maybank FC Barcelona Visa Signature Card",
+  "source_type": "aggregator",
+  "retrieved_at": "2026-09-27T05:26:05+00:00",
+  "sha256": "c585ac636d7dddb78ddf00b4b421c3dc796a74c22ad7e4854350b5015f13eaaa",
+  "snapshot": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-maybank-fc-barcelona-visa-signature-card-c824cb0c.html"
+ },
+ "extra": {
+  "network": [
+   "VISA Signature"
+  ],
+  "mobile_wallets": [
+   "Apple Pay",
+   "Samsung Pay"
+  ],
+  "fx_fee_percent": 3.25,
+  "miles_conversion_fee": null,
+  "categories": [
+   "category:cashback",
+   "category:dining-promo",
+   "category:installment",
+   "category:promo",
+   "category:retail-promo",
+   "category:rewards",
+   "needs:0-interest-rate",
+   "needs:0-processing-fee",
+   "needs:all-cards-with-dining-promo",
+   "needs:all-cards-with-promotion",
+   "needs:all-cards-with-retail-promo",
+   "needs:all-cashback-cards",
+   "needs:all-credit-cards",
+   "needs:all-installment-cards",
+   "needs:all-rewards-cards",
+   "needs:all-travel-cards",
+   "needs:apple-premium-gifts",
+   "needs:free-travel-insurance",
+   "needs:long-tenure-installment",
+   "needs:no-minimum-spend-required-cashback",
+   "needs:no-minimum-spend-required-rewards",
+   "needs:online-booking-discount",
+   "needs:unlimited-cashback"
+  ],
+  "tag": null,
+  "description": "Show your support for Camp Nou with the Maybank FC Barcelona Visa Signature Card. Enjoy 1.6% unlimited cashback for every dollar spend on local currency transactions, with no minimum spend requirements.\nThat's not all, you'll also have the chance to win an all-expenses paid trip for 2 to catch FC Barcelona LIVE every football season and a tour to a Barca Immersive Tour at Spotify Camp Nou. You'll also receive 5% discount at the FCBotiga official store in Camp Nou."
+ }
+}

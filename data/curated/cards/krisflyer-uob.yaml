@@ -1,0 +1,143 @@
+# Curated card record. Auto-drafted from staged sources; verify every value against the
+# official T&Cs (citations below), then set review.status: reviewed.
+id: krisflyer-uob
+bank: UOB
+name: KrisFlyer UOB Credit Card
+network: mastercard
+image_url: https://mhgprod.blob.core.windows.net/singsaver/strapi-uploads/xs_blt1f5e28b1425e1e58_c4d70b0ea1.png
+official_url: https://www.uob.com.sg/personal/cards/travel/krisflyer-card.page
+annual_fee:
+  amount:
+    amount: 196.2
+    currency: SGD
+  first_year_waived: true
+  waiver_notes: S$ | First Year Waived
+  sources: ['singsaver:5dea93f61d89']
+min_annual_income:
+  amount: 30000.0
+  currency: SGD
+reward_currency:
+  kind: miles
+  name: Miles
+earn_rules:
+- id: overseas
+  label: overseas, local online shopping, travel, hotel booking, dining, transport, local, flight booking
+    (SingSaver — verify)
+  rate: 3.0
+  unit: mpd
+  tier: bonus
+  eligibility:
+    include_mcc: ['4121', '4816', '4829', '4900', '5199', '5262', '5306', '5309', '5310', '5311', '5331',
+      '5399', '5611', '5621', '5631', '5641', '5651', '5661', '5691', '5699', '5732', '5733', '5734',
+      '5735', '5912', '5942', 5944-5949, '5960', 5964-5969, '5965', '5970', '5992', '5993', '5999', '6012',
+      '6050', '6051', '6211', '6300', '6399', '6513', '6529', '6530', '6534', '6540', '7278', '7349',
+      '7511', '7523', '7995', '8011', '8062', '8099', '8211', '8220', '8241', '8244', '8249', '8299',
+      '8398', '8651', '8661', '8699', '8999', '9211', '9222', '9223', '9311', '9399', '9402', '9405']
+    modes_required: [online]
+    description: 'Everyday spend categories: dining, food delivery, online shopping, travel and transport,
+      with at least S$800 annual spend on Singapore Airlines, Scoot, and/or KrisShop. / Everyday spend
+      categories: dining, food delivery, online shopping, travel and transport, with at least S$800 annual
+      spend on Singapore Airlines, Scoot, and/or KrisShop / Everyday spend categories: dining, food delivery,
+      online shopping, travel and transport, with at least S$800 annual SIA-related spend. / 3 miles per
+      dollar on flights under Singapore Airlines. Everyday spend categories: dining, food delivery, online
+      shopping, travel and transport, with at least S$800 annual spend on Singapore Airlines, Scoot, and/or
+      KrisShop. [include_mcc auto-extracted from official T&C — check it belongs to this rule]'
+    sources: ['singsaver:5dea93f61d89', 'bank:177cfca919e0', 'bank:1951b0cae71a', 'bank:177cfca919e0',
+      'bank:c13cf48e44b4', 'bank:177cfca919e0', 'bank:168b1d918c7c', 'bank:086a993a52a7']
+  conditions:
+  - 'aggregator categories: travel, hotels, dining, transport, flights'
+  sources: ['singsaver:5dea93f61d89']
+- id: base
+  label: baseline (SingSaver — verify)
+  rate: 1.2
+  unit: mpd
+  tier: base
+  eligibility:
+    all_spend: true
+    description: ''
+    sources: ['singsaver:5dea93f61d89']
+  sources: ['singsaver:5dea93f61d89']
+general_exclusions:
+  exclude_mcc: ['4121', '4829', '4900', '5199', '5812', '5813', '5814', '5965', '5993', '6012', '6050',
+    '6051', '6211', '6513', '6529', '6530', '6534', '6540', '7349', '7511', '7523', '7801', '7995', '8011',
+    '8062', '8099', '8211', '8220', '8241', '8244', '8249', '8299', '8651', '8699', '8999']
+  description: Auto-extracted from official T&Cs — confirm each code applies to this card
+  sources: ['bank:177cfca919e0', 'bank:1951b0cae71a', 'bank:177cfca919e0', 'bank:c13cf48e44b4', 'bank:177cfca919e0',
+    'bank:168b1d918c7c', 'bank:086a993a52a7']
+sign_up_bonuses:
+- offered_by: singsaver
+  description: 'Welcome Offer: choice of S$100 Samsung Voucher'
+  valid_from: '2026-06-30'
+  valid_to: '2026-09-29'
+  url: https://www.singsaver.com.sg/credit-card/products/krisflyer-uob-credit-card
+  sources: ['singsaver:5dea93f61d89']
+- offered_by: singsaver
+  description: 'SingSaver Flash Deal: choice of S$200 Cash via PayNow; Samsonite Straren Spinner 67/24
+    (worth S$600); S$90 Cash via PayNow'
+  value:
+    amount: 200.0
+    currency: SGD
+  valid_from: '2026-09-01'
+  valid_to: '2026-09-30'
+  url: https://www.singsaver.com.sg/credit-card/products/krisflyer-uob-credit-card
+  sources: ['singsaver:5dea93f61d89']
+notes:
+- 'Editorial review for cross-checking: Review: KrisFlyer UOB Credit Card (https://milelion.com/2026/04/12/review-krisflyer-uob-credit-card/,
+  updated 2026-08-23)'
+- 'T&C mentions (check whether excluded): annual fee, axs, cardup, cash advance, charit, education, government,
+  hospital, instalment, interest, ipaymy, ipp, late payment charge, tax, top-up, top-ups, utilit, youtrip'
+citations:
+- id: singsaver:5dea93f61d89
+  url: https://www.singsaver.com.sg/credit-card/products/krisflyer-uob-credit-card
+  title: KrisFlyer UOB Credit Card
+  source_type: aggregator
+  retrieved_at: '2026-09-27T05:26:01+00:00'
+  sha256: 5dea93f61d890c767db3bcf30dc89a18c21e0cde2d2203738d07e133d493572d
+  snapshot: data/raw/singsaver/www-singsaver-com-sg-credit-card-products-krisflyer-uob-credit-card-09122ca9.html
+- id: moneysmart:fbcf8e7229a3
+  url: https://www.moneysmart.sg/credit-cards?page=3
+  title: KrisFlyer UOB Credit Card
+  source_type: aggregator
+  retrieved_at: '2026-09-27T05:27:18+00:00'
+  sha256: fbcf8e7229a38611c3c767cd8447164e413b1306df1f54bebee269e3abf15202
+  snapshot: data/raw/moneysmart/credit-cards-p3-707cb52c.html
+- id: bank:177cfca919e0
+  url: https://www.uob.com.sg/assets/pdfs/kf_credit_card_full_tnc.pdf?i_cid=pfs:sg:owned:int:site:na:li:na:na:na-evergreen:direct:na&vid=none
+  source_type: official
+  retrieved_at: '2026-09-27T08:37:34+00:00'
+  sha256: 177cfca919e04bcf2ba40f848d6bccec278033cfa7f9c9df6c7d8b7bf743ae4c
+  snapshot: data/raw/bank/www-uob-com-sg-assets-pdfs-kf-credit-card-full-tnc-pdf-14965558.pdf
+- id: bank:1951b0cae71a
+  url: https://www.uob.com.sg/assets/pdfs/kfcc-acq-tnc.pdf?i_cid=pfs:sg:owned:int:site:na:li:na:na:na-evergreen:direct:na&vid=none
+  source_type: official
+  retrieved_at: '2026-09-27T08:37:28+00:00'
+  sha256: 1951b0cae71a242ec00df837075a204ca9bbb750ef57b15f5f51a9e4dff83555
+  snapshot: data/raw/bank/www-uob-com-sg-assets-pdfs-kfcc-acq-tnc-pdf-472bc309.pdf
+- id: bank:c13cf48e44b4
+  url: https://www.uob.com.sg/credit-cards/pdf/online-cards-campaign.pdf
+  source_type: official
+  retrieved_at: '2026-09-27T08:37:32+00:00'
+  sha256: c13cf48e44b48d1aa3b0d0d5655f54f9001de57208d560ff29b09fc9ed8bc643
+  snapshot: data/raw/bank/www-uob-com-sg-credit-cards-pdf-online-cards-campaign-pdf-a28f442a.pdf
+- id: bank:168b1d918c7c
+  url: https://www.uob.com.sg/assets/web-resources/personal/pdf/cards/travel/revisions-to-krisflyer-uob-credit-and-debit-card-privileges-for-scoot.pdf
+  source_type: official
+  retrieved_at: '2026-09-27T08:37:36+00:00'
+  sha256: 168b1d918c7ce09f9f455bfce3f1c85a91db78ed3eb0bdfacfe6ed7e683a9240
+  snapshot: data/raw/bank/assets-web-resources-personal-pdf-cards-travel-revisions-to-krisflyer-uob-credit-and-debit-card-privileges-for-scoot-pdf-5fb4d566.pdf
+- id: bank:086a993a52a7
+  url: https://www.uob.com.sg/assets/pdfs/personal/krisflyer-uob/debit/krisflyer-account-tnc.pdf?i_cid=pfs:sg:owned:int:site:na:li:na:na:na-evergreen:direct:na&vid=none
+  source_type: official
+  retrieved_at: '2026-09-27T08:37:38+00:00'
+  sha256: 086a993a52a74bab49a1eaad3f06d1913943c435a87206f30eaa87df48242267
+  snapshot: data/raw/bank/www-uob-com-sg-assets-pdfs-personal-krisflyer-uob-debit-krisflyer-account-tnc-pdf-506dc3ad.pdf
+- id: milelion:f5a7a64cc161
+  url: https://milelion.com/2026/04/12/review-krisflyer-uob-credit-card/
+  title: 'Review: KrisFlyer UOB Credit Card'
+  source_type: editorial
+  retrieved_at: '2026-09-27T05:28:51+00:00'
+  sha256: f5a7a64cc16186321dbd72d1ece882ddb3a3c278b93227aaaf5a70b084defd6f
+  snapshot: data/raw/milelion/post-72939-f7a05b69.json
+review:
+  status: draft
+updated_at: '2026-09-27'

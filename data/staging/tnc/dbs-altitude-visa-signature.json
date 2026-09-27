@@ -1,0 +1,27 @@
+{
+ "card_id": "dbs-altitude-visa-signature",
+ "product_pages": [
+  {
+   "id": "bank:fe58536bf85b",
+   "url": "https://www.dbs.com.sg/personal/cards/credit-cards/dbs-altitude-cards",
+   "source_type": "official",
+   "retrieved_at": "2026-09-27T08:36:36+00:00",
+   "sha256": "fe58536bf85b1bbcd6214007b428e29e96ab796334109876c36602915dc0a593",
+   "snapshot": "data/raw/bank/www-dbs-com-sg-personal-cards-credit-cards-dbs-altitude-cards-02414849.html"
+  }
+ ],
+ "documents": [
+  {
+   "url": "https://www.dbs.com.sg/iwov-resources/pdf/cards/altitude-card-tnc.pdf",
+   "error": "robots.txt disallows https://www.dbs.com.sg/iwov-resources/pdf/cards/altitude-card-tnc.pdf",
+   "changed": false
+  },
+  {
+   "url": "https://www.dbs.com.sg/iwov-resources/pdf/cards/rewards_programme_tnc.pdf",
+   "error": "robots.txt disallows https://www.dbs.com.sg/iwov-resources/pdf/cards/rewards_programme_tnc.pdf",
+   "changed": false
+  }
+ ],
+ "changed": false,
+ "removed_documents": []
+}

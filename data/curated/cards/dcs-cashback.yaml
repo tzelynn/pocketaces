@@ -1,0 +1,77 @@
+# Curated card record. Auto-drafted from staged sources; verify every value against the
+# official T&Cs (citations below), then set review.status: reviewed.
+id: dcs-cashback
+bank: DCS
+name: DCS CASHBACK Card
+image_url: https://mhgprod.blob.core.windows.net/singsaver/strapi-uploads/m_blt5a848d30f79e3860_a5025c15c8.jpeg
+official_url: https://cards.dcscc.com/cashback
+annual_fee:
+  amount:
+    amount: 196.2
+    currency: SGD
+  waiver_notes: S$ | Annual fee waivers after second year are subject to minimum annual spend of S$10,000
+    per annum.
+  sources: ['singsaver:c48166be9844']
+min_annual_income:
+  amount: 30000.0
+  currency: SGD
+reward_currency:
+  kind: cashback
+  name: Cashback
+earn_rules:
+- id: travel
+  label: travel, dining, supermarket, petrol, retail, local online shopping, overseas online shopping,
+    health, department store, digital wallet, contactless spend, transport, overseas, local (SingSaver
+    — verify)
+  rate: 5.0
+  unit: percent
+  tier: bonus
+  eligibility:
+    include_mcc: ['4829', '5199', '5960', '6012', '6050', '6051', '6211', '6300', '6529', '6530', '6534',
+      '6540', '7995', '9222', '9223', '9311', '9399', '9402', '9405']
+    description: Capped at S$50 each statement month. / Capped at S$50 each statement month. Except for
+      Buy-Now-Pay-Later platforms. [include_mcc auto-extracted from official T&C — check it belongs to
+      this rule]
+    sources: ['singsaver:c48166be9844', 'bank:b65f2e85fe41']
+  bonus_cap:
+    amount: 50.0
+    unit: SGD_cashback
+    period: statement_month
+    sources: ['singsaver:c48166be9844']
+  conditions:
+  - bonus_cap parsed from aggregator text “Capped at S$50 each statement month” — confirm amount, unit
+    and whether the period is calendar or statement month
+  - 'aggregator categories: travel, dining, groceries, petrol, shopping, healthcare, transport'
+  sources: ['singsaver:c48166be9844']
+- id: base
+  label: baseline (SingSaver — verify)
+  rate: 5.0
+  unit: percent
+  tier: base
+  eligibility:
+    all_spend: true
+    description: Capped at S$50 each statement month.
+    sources: ['singsaver:c48166be9844']
+  sources: ['singsaver:c48166be9844']
+general_exclusions:
+  description: Auto-extracted from official T&Cs — confirm each code applies to this card
+notes:
+- 'T&C mentions (check whether excluded): axs, balance transfer, bill payment, cash advance, government,
+  instalment, interest, late payment charge, tax'
+citations:
+- id: singsaver:c48166be9844
+  url: https://www.singsaver.com.sg/credit-card/products/dcs-cashback-card
+  title: DCS CASHBACK Card
+  source_type: aggregator
+  retrieved_at: '2026-09-27T05:25:39+00:00'
+  sha256: c48166be98440efe10ddf47534632625b2bb1b34debd65442dcde06660a34afe
+  snapshot: data/raw/singsaver/www-singsaver-com-sg-credit-card-products-dcs-cashback-card-fc082a4f.html
+- id: bank:b65f2e85fe41
+  url: https://cards.dcscc.com/dcscc/v2/pdf/DCS%20Cashback%20Credit%20Card%20TCs.pdf
+  source_type: official
+  retrieved_at: '2026-09-27T08:37:00+00:00'
+  sha256: b65f2e85fe416d68bd06607e25efe383e17a5079d200dd3c0ba9031cc687e62a
+  snapshot: data/raw/bank/cards-dcscc-com-dcscc-v2-pdf-DCS-20Cashback-20Credit-20Card-20TCs-pdf-37c3fedb.pdf
+review:
+  status: draft
+updated_at: '2026-09-27'

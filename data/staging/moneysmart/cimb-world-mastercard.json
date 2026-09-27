@@ -1,0 +1,77 @@
+{
+ "source": "moneysmart",
+ "source_id": "cimb-world-mastercard",
+ "source_url": "https://www.moneysmart.sg/credit-cards/cimb-world-mastercard",
+ "name": "CIMB World Mastercard",
+ "bank": "CIMB",
+ "card_id": "cimb-world-mastercard",
+ "image_url": "https://photos.cdn-moneysmart.com/credit_cards/uploads/products/images/image_url_2021-09-29_Details - Logo - CIMB World MasterCard.png",
+ "annual_fee": 0.0,
+ "earn_rates": {},
+ "caps": {},
+ "highlights": [
+  "Unlimited 2% cashback with min. spend of S$1,000 per month",
+  "Unlimited 1% cashback with min. spend of S$500 per month",
+  "Dining, Transport, Entertainment, Luxury Goods categories eligible for 2% cashback",
+  "2% Unlimited Cashback on Wine & Dine, Online Food Delivery, Movies & Digital Entertainment, Taxi & Automobile, Luxury Goods.",
+  "1%* Cashback on all other spends.",
+  "Access to Over 1,300 Airport Lounges via Mastercard Travel Pass App provided by Dragonpass",
+  "50% Off Green Fees at golf courses across the region",
+  "No annual fees for life",
+  "Apply for up to 4 supplementary cards and have annual fees waived for all supplementary cards",
+  "Access to over 1,000 regional deals & discounts across Singapore, Malaysia and Indonesia",
+  "At MoneySmart, we strive to keep our information accurate and up to date. This information may be different from what you see when you visit a financial institution, service provider, or specific product site. MoneySmart shall not be liable to compensate the Customer should the information is not as updated as our Partner."
+ ],
+ "sign_up_offers": [],
+ "links": {
+  "product": "https://www.moneysmart.sg/credit-cards/cimb-world-mastercard"
+ },
+ "citation": {
+  "id": "moneysmart:eeee24fb93a9",
+  "url": "https://www.moneysmart.sg/credit-cards",
+  "title": "CIMB World Mastercard",
+  "source_type": "aggregator",
+  "retrieved_at": "2026-09-27T05:27:12+00:00",
+  "sha256": "eeee24fb93a9d85ef8b9194c11bda960b5b99ee30b3689cdc59fb650badebce7",
+  "snapshot": "data/raw/moneysmart/credit-cards-p1-b55034ef.html"
+ },
+ "extra": {
+  "summary": "Elevate your lifestyle with the CIMB World Mastercard. Enjoy exclusive privileges and rewards tailored for discerning individuals. Earn cashback on all your spending, with additional perks such as complimentary travel insurance and gain access at a preferential rate to airport lounges worldwide. ",
+  "badges": [
+   "Earn up to 2% unlimited cashback!"
+  ],
+  "network": [
+   "Mastercard"
+  ],
+  "mobile_wallets": [
+   "Google Pay",
+   "Samsung Pay"
+  ],
+  "groups": {
+   "annual-interest-rate-and-fees": {
+    "Annual Interest Rate": "27.8",
+    "Annual Principal Fee": "0",
+    "Supplementary Annual Fee": "Free",
+    "Fee Waiver": "Available",
+    "Minimum Monthly Repayment": "3% or S$50, whichever is higher",
+    "Interest Free Period": "23 days"
+   },
+   "minimum-income-requirements": {
+    "Singaporean/PR Minimum Annual Income": "30000"
+   },
+   "card-association": {
+    "Mastercard": "true"
+   },
+   "wireless-payment": {
+    "Google Pay": "true",
+    "Samsung Pay": "true"
+   }
+  },
+  "our_takes": {
+   "our-take": "The CIMB World Mastercard is best for those whose spending aligns with its bonus categories: dining, online food delivery, movies, taxis, luxury goods. Hit the S$1,000 monthly spend to unlock the 2% cashback rate; otherwise, general spending earns just 1%. The unlimited cashback is a plus, but the high minimum spend might make it less appealing than other cashback cards with lower thresholds, especially if your spending is spread across various categories. The included lounge access via Mastercard Travel Pass are nice travel perks.",
+   "good-for": "Ideal for foodies who dine out frequently or order in, maximizing cashback on meals and deliveries.\nPerfect for individuals who enjoy movies, digital entertainment, and occasional taxi rides, earning rewards on leisure spending.\nSuited for those who appreciate luxury goods and seek cashback on these purchases, coupled with complimentary airport lounge access.",
+   "things-to-note": "S$100 late payment fee applies; promptly paying dues avoids this substantial charge.\nThe 27.8% annual interest rate can be costly, so aim to pay your balance in full.\n3% foreign transaction fee applies, so factor that when using overseas."
+  },
+  "updated_at": "2025-04-21T22:24:44+08:00"
+ }
+}

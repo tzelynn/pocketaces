@@ -1,0 +1,129 @@
+{
+ "card_id": "amex-true-cashback",
+ "product_pages": [
+  {
+   "id": "bank:9c41a0c01bef",
+   "url": "https://www.americanexpress.com/sg/credit-cards/true-cashback-card/",
+   "source_type": "official",
+   "retrieved_at": "2026-09-27T06:03:27+00:00",
+   "sha256": "9c41a0c01bef81c1a6819564228954a1adb10623f6d60623c8eefbe14a20b3c1",
+   "snapshot": "data/raw/bank/www-americanexpress-com-sg-credit-cards-true-cashback-card-c3161e41.html"
+  }
+ ],
+ "documents": [
+  {
+   "url": "https://www.americanexpress.com/content/dam/amex/sg/campaigns/pdfs/true-cashback-card.pdf",
+   "citation": {
+    "id": "bank:1b5a328881b4",
+    "url": "https://www.americanexpress.com/content/dam/amex/sg/campaigns/pdfs/true-cashback-card.pdf",
+    "source_type": "official",
+    "retrieved_at": "2026-09-27T06:11:38+00:00",
+    "sha256": "1b5a328881b475e29770d5d53928fad2ff3a2910074edc342a98d6e5fe0007d9",
+    "snapshot": "data/raw/bank/www-americanexpress-com-content-dam-amex-sg-campaigns-pdfs-true-cashback-card-pdf-4987d1f3.pdf"
+   },
+   "text_path": "data/raw/bank/www-americanexpress-com-content-dam-amex-sg-campaigns-pdfs-true-cashback-card-pdf-4987d1f3.txt",
+   "sha256": "1b5a328881b475e29770d5d53928fad2ff3a2910074edc342a98d6e5fe0007d9",
+   "changed": false,
+   "new": false,
+   "no_text_layer": false,
+   "effective_dates": [],
+   "mcc": {
+    "include": [],
+    "exclude": [],
+    "unknown": [],
+    "conflicting": [],
+    "unrecognised": [],
+    "hits": []
+   },
+   "transaction_modes": {
+    "online": [
+     "and (c) way of the internet or using other electronic means.",
+     "22.7 Electronic or Telephone Communication If you contact us by any electronic means, we may record the telephone number or internet protocol address, associated with that means of contacting us at the time."
+    ],
+    "recurring": [
+     "Instalment Goods and Services If you use the Credit Card to buy goods or services, such as insurance, requiring recurring or instalment payments, you authorise us to pay such 8 THE AMERICAN EXPRESS\u00ae TRUE CASHBACK CARD TERMS AND CONDITIONS instalments for you when due and you agree to pay us for the same when we bill you."
+    ],
+    "foreign_currency": [
+     "You can withdraw up to 20% of your Credit Limit subject to your available balance and up to US$1,000 for overseas withdrawals in cash every 14 days.",
+     "c) where third parties convert charges in foreign currency, those third parties may treat refunds differently to the original foreign currency charge.",
+     "When making a transaction in foreign currency, you may be given the option to allow a third party (for example, the retailer) to convert the transaction into Singapore Dollars before submitting it to us."
+    ],
+    "local_currency": [
+     "(v) You must always pay us in Singapore Dollars via the payment methods notified by us to you.",
+     "(vi) If we decide to accept payment in another currency, we shall convert our payment to Singapore Dollars at our rate and credit it to your Account.",
+     "15.Foreign Exchange Charges If we receive a transaction or refund for processing in a currency other than Singapore Dollars (\u201cForeign Charge\u201d), our currency conversion affiliate, AE Exposure Management Limited (\u201cAEEML\u201d) will convert it into US Dollars first (unless it was submitted to us in US Dollars) and convert it from US Dollars into Singapore Dollars.",
+     "When making a transaction in foreign currency, you may be given the option to allow a third party (for example, the retailer) to convert the transaction into Singapore Dollars before submitting it to us.",
+     "If you decide to do this, then that third party will determine the exchange rate and any commission or fees payable for the currency conversion and submit that transaction to us in Singapore Dollars, meaning we will not convert the transaction or apply a currency conversion fee."
+    ]
+   },
+   "non_mcc_exclusions": [
+    "annual fee",
+    "balance transfer",
+    "cash advance",
+    "government",
+    "instalment",
+    "interest",
+    "late payment charge",
+    "tax"
+   ]
+  },
+  {
+   "url": "https://www.americanexpress.com/content/dam/amex/sg/benefits/amex-sg-exclusions.pdf",
+   "citation": {
+    "id": "bank:c228cd1bc86a",
+    "url": "https://www.americanexpress.com/content/dam/amex/sg/benefits/amex-sg-exclusions.pdf",
+    "source_type": "official",
+    "retrieved_at": "2026-09-27T06:11:41+00:00",
+    "sha256": "c228cd1bc86a7cef6ff37d92bd1a91bc42d2446a7c0f7dae38349c35d69e42f1",
+    "snapshot": "data/raw/bank/www-americanexpress-com-content-dam-amex-sg-benefits-amex-sg-exclusions-pdf-a83329a0.pdf"
+   },
+   "text_path": "data/raw/bank/www-americanexpress-com-content-dam-amex-sg-benefits-amex-sg-exclusions-pdf-a83329a0.txt",
+   "sha256": "c228cd1bc86a7cef6ff37d92bd1a91bc42d2446a7c0f7dae38349c35d69e42f1",
+   "changed": false,
+   "new": false,
+   "no_text_layer": false,
+   "effective_dates": [
+    "30 September 2025"
+   ],
+   "mcc": {
+    "include": [],
+    "exclude": [],
+    "unknown": [],
+    "conflicting": [],
+    "unrecognised": [],
+    "hits": []
+   },
+   "transaction_modes": {
+    "online": [
+     "SAM kiosks, mobile app, online portal);",
+     "SAM kiosks, mobile app, online portal);",
+     "SAM kiosks, mobile app, online portal);"
+    ],
+    "foreign_currency": [
+     "h) Tax refunds from overseas purchases;",
+     "h) Tax refunds from overseas purchases;",
+     "h) Tax refunds from overseas purchases;",
+     "e) Tax refunds from overseas purchases."
+    ]
+   },
+   "non_mcc_exclusions": [
+    "balance transfer",
+    "bill payment",
+    "cash advance",
+    "charit",
+    "education",
+    "grabpay",
+    "hospital",
+    "instalment",
+    "interest",
+    "sam kiosk",
+    "tax",
+    "top-up",
+    "top-ups",
+    "utilit"
+   ]
+  }
+ ],
+ "changed": false,
+ "removed_documents": []
+}

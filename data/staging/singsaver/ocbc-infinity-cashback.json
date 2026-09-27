@@ -1,0 +1,191 @@
+{
+ "source": "singsaver",
+ "source_id": "ocbc-infinity-card",
+ "source_url": "https://www.singsaver.com.sg/credit-card/products/ocbc-infinity-card",
+ "name": "OCBC INFINITY Cashback Credit Card",
+ "bank": "OCBC",
+ "card_id": "ocbc-infinity-cashback",
+ "image_url": "https://mhgprod.blob.core.windows.net/singsaver/strapi-uploads/s_blt453f005cb681db05_37ffa9a837.png",
+ "annual_fee": 196.2,
+ "annual_fee_note": "S$ | First Year Waived. Min. spend of S$10,000 per year for waiver of annual fee for subsequent years.",
+ "min_annual_income": 30000.0,
+ "earn_rates": {
+  "percent:local": {
+   "value": 1.6,
+   "unit": "percent",
+   "note": null
+  },
+  "percent:dining": {
+   "value": 1.6,
+   "unit": "percent",
+   "note": null
+  },
+  "percent:supermarket": {
+   "value": 1.6,
+   "unit": "percent",
+   "note": null
+  },
+  "percent:retail": {
+   "value": 1.6,
+   "unit": "percent",
+   "note": null
+  },
+  "percent:local_online_shopping": {
+   "value": 1.6,
+   "unit": "percent",
+   "note": null
+  },
+  "percent:overseas_online_shopping": {
+   "value": 1.6,
+   "unit": "percent",
+   "note": null
+  },
+  "percent:transport": {
+   "value": 1.6,
+   "unit": "percent",
+   "note": null
+  },
+  "percent:overseas": {
+   "value": 1.6,
+   "unit": "percent",
+   "note": null
+  },
+  "percent:contactless_spend": {
+   "value": 1.6,
+   "unit": "percent",
+   "note": null
+  },
+  "percent:baseline": {
+   "value": 1.6,
+   "unit": "percent",
+   "note": "On all spends"
+  }
+ },
+ "caps": {
+  "cashback_bonus_cap": {
+   "value": null,
+   "note": "No cashback cap on all spends. | No cap"
+  },
+  "no_cashback_cap": {
+   "value": false,
+   "note": null
+  }
+ },
+ "highlights": [
+  "On all spends",
+  "pros: 1.6% unlimited cashback on all eligible spending with no min. spend and no cap",
+  "pros: Cashback automatically credited to cardholder's OCBC INFINITY Account",
+  "pros: 1 year annual fee waiver",
+  "pros: Read our review of the \nOCBC INFINITY Cashback Card\n.",
+  "pros: No rebate cap",
+  "pros: No monthly spend required",
+  "pros: Annual fee waiver"
+ ],
+ "sign_up_offers": [
+  {
+   "kind": "exclusive_offer",
+   "title": "SingSaver Flash Deal",
+   "offer_id": "SG.2026-09-22.CC.OCBC.5XCC.AWS12-FD",
+   "valid_from": "2026-09-21T16:00:00Z",
+   "valid_to": "2026-09-27T15:59:00Z",
+   "gifts": [
+    {
+     "title": "Apple Watch Series 12 Aluminum 42mm GPS (worth S$599)",
+     "value_sgd": 599
+    }
+   ],
+   "terms": "SingSaver Flash Deal campaign runs from 22 September 2026 to 27 September 2026.\nPromotion is valid for new OCBC credit card members only.\nBe one of the first 3 cardmembers at \n2pm\n and \n8pm\n every day during the flash deal period to apply for select OCBC credit cards via SingSaver and spend at least S$400 in qualifying transactions within 30 days of card approval to be eligible for the Flash Deal reward: \nApple Watch Series 12 (Aluminum, 42mm, GPS) (worth S$599)\nFlash Deal reward will be received \nin place of\n your selected SingSaver Exclusive Offer reward.\nRemaining applicants will receive the SingSaver Exclusive Offer reward selected in your Rewards Redemption Form only.\nTerms and Conditions\n apply.",
+   "tnc_url": null,
+   "bundle_with": []
+  },
+  {
+   "kind": "exclusive_offer",
+   "title": "SingSaver Exclusive Offer",
+   "offer_id": "SG.2026-09-16.CC.OCBC.INF365.400CASH-440GRAB-25KMAXM-ASTRAIT-V8CYC-[DYSON-APPLE]",
+   "valid_from": "2026-09-15T16:00:00Z",
+   "valid_to": "2026-09-30T15:59:00Z",
+   "gifts": [
+    {
+     "title": "S$400 Cash via PayNow",
+     "value_sgd": 400
+    },
+    {
+     "title": "S$440 Grab Vouchers",
+     "value_sgd": 440
+    },
+    {
+     "title": "25,000 Max Miles by HeyMax (worth S$450)",
+     "value_sgd": 450
+    },
+    {
+     "title": "Dyson Airstrait™ straightener (worth S$799)",
+     "value_sgd": 799
+    },
+    {
+     "title": "Dyson V8 Cyclone Vacuum Cleaner (worth S$559)",
+     "value_sgd": 559
+    },
+    {
+     "title": "Dyson Airwrap™ multi-styler and dryer (worth S$799) (top up S$80)",
+     "value_sgd": 799
+    },
+    {
+     "title": "Dyson Clean+Wash Hygiene hard floor cleaner (worth S$729) (Top up S$150)",
+     "value_sgd": 729
+    },
+    {
+     "title": "Apple iPad (A16) 11\" 128GB WiFi (worth S$649) (Top up S$200)",
+     "value_sgd": 649
+    },
+    {
+     "title": "Apple Watch Series 12 Aluminum 42mm GPS (worth S$599) (Top-up S$150)",
+     "value_sgd": 599
+    },
+    {
+     "title": "Apple MacBook Neo (A18 Pro) 256GB w/ Magic Keyboard (worth S$999, top up S$570)",
+     "value_sgd": 999
+    },
+    {
+     "title": "Apple iPhone 18 Pro (worth S$1,899, top up S$1,350)",
+     "value_sgd": 1899
+    }
+   ],
+   "terms": "SingSaver Exclusive Offer promotion is valid from 16 September 2026 to 30 September 2026.\nPromotion is valid for new OCBC credit cardmembers only.\nApply for participating OCBC credit cards via SingSaver and spend at least S$400 in qualifying transactions within 30 days of card approval to be eligible for reward.\nTerms and Conditions\n apply.",
+   "tnc_url": null,
+   "bundle_with": []
+  }
+ ],
+ "links": {
+  "apply": "https://www.singsaver.com.sg/apply-v2b/17820"
+ },
+ "citation": {
+  "id": "singsaver:e22fe54563d2",
+  "url": "https://www.singsaver.com.sg/credit-card/products/ocbc-infinity-card",
+  "title": "OCBC INFINITY Cashback Credit Card",
+  "source_type": "aggregator",
+  "retrieved_at": "2026-09-27T05:26:24+00:00",
+  "sha256": "e22fe54563d2f6ae61680cb230271236c6e5affd6ec4b74fa902447747585b9e",
+  "snapshot": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-ocbc-infinity-card-ee6ae9d9.html"
+ },
+ "extra": {
+  "network": [
+   "Mastercard"
+  ],
+  "mobile_wallets": [
+   "Google Pay",
+   "Apple Pay",
+   "Samsung Pay",
+   "Fitbit Pay",
+   "Garmin Pay",
+   "NETSPay"
+  ],
+  "fx_fee_percent": 3.25,
+  "miles_conversion_fee": null,
+  "categories": [
+   "category:all-credit-cards",
+   "needs:all-credit-cards"
+  ],
+  "tag": "Best for unlimited cashback on all spend with no restrictions",
+  "description": "The OCBC INFINITY Cashback Credit Card is a fuss-free unlimited cashback card that allows you to earn 1.6% cashback on both local and foreign currency. Like other unlimited cashback cards, there is no minimum spend or cap. All cashback earned will be automatically credited to your OCBC INFINITY card account."
+ }
+}

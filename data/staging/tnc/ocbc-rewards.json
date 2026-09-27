@@ -1,0 +1,609 @@
+{
+ "card_id": "ocbc-rewards",
+ "product_pages": [
+  {
+   "id": "bank:b9c2220aebd7",
+   "url": "https://www.ocbc.com/personal-banking/cards/rewards-card",
+   "source_type": "official",
+   "retrieved_at": "2026-09-27T08:41:41+00:00",
+   "sha256": "b9c2220aebd7c0c1f457d9579fa808e5a06643faa6e20dee85a341069f39295e",
+   "snapshot": "data/raw/bank/www-ocbc-com-personal-banking-cards-rewards-card-3706e1ce.html"
+  }
+ ],
+ "documents": [
+  {
+   "url": "https://www.ocbc.com/iwov-resources/sg/ocbc/personal/pdf/cards/tnc-ocbc-rewards-card-and-titanium-rewards-creditcard-programme-wef-1nov23.pdf",
+   "citation": {
+    "id": "bank:28abb5c55e82",
+    "url": "https://www.ocbc.com/iwov-resources/sg/ocbc/personal/pdf/cards/tnc-ocbc-rewards-card-and-titanium-rewards-creditcard-programme-wef-1nov23.pdf",
+    "source_type": "official",
+    "retrieved_at": "2026-09-27T08:41:43+00:00",
+    "sha256": "28abb5c55e82e4b3f26dc404aca9952310bc6a33eacd846847735e237923b334",
+    "snapshot": "data/raw/bank/iwov-resources-sg-ocbc-personal-pdf-cards-tnc-ocbc-rewards-card-and-titanium-rewards-creditcard-programme-wef-1nov23-pdf-b63815c3.pdf"
+   },
+   "text_path": "data/raw/bank/iwov-resources-sg-ocbc-personal-pdf-cards-tnc-ocbc-rewards-card-and-titanium-rewards-creditcard-programme-wef-1nov23-pdf-b63815c3.txt",
+   "sha256": "28abb5c55e82e4b3f26dc404aca9952310bc6a33eacd846847735e237923b334",
+   "changed": false,
+   "new": true,
+   "no_text_layer": false,
+   "effective_dates": [],
+   "mcc": {
+    "include": [
+     "5309",
+     "5311",
+     "5611",
+     "5621",
+     "5631",
+     "5641",
+     "5651",
+     "5655",
+     "5661",
+     "5691",
+     "5699",
+     "5941",
+     "5948"
+    ],
+    "exclude": [
+     "4784",
+     "4829",
+     "4900",
+     "5047",
+     "5199",
+     "5262",
+     "5411",
+     "5960",
+     "5993",
+     "6010",
+     "6012",
+     "6051",
+     "6211",
+     "6300",
+     "6513",
+     "6540",
+     "7349",
+     "7523",
+     "7995",
+     "8062",
+     "8211",
+     "8220",
+     "8241",
+     "8244",
+     "8249",
+     "8299",
+     "8398",
+     "8651",
+     "8661",
+     "8675",
+     "8699",
+     "9211",
+     "9222",
+     "9223",
+     "9311",
+     "9399",
+     "9402",
+     "9405"
+    ],
+    "unknown": [],
+    "conflicting": [],
+    "unrecognised": [],
+    "hits": [
+     {
+      "code": "5309",
+      "polarity": "include",
+      "page": 2,
+      "line": "MCC 5309 Duty Free Stores",
+      "reason": "b) To earn Bonus OCBC$, retail transactions made locally or overseas must fall within any of the following",
+      "in_reference": true
+     },
+     {
+      "code": "5311",
+      "polarity": "include",
+      "page": 2,
+      "line": "MCC 5311 Departmental Stores",
+      "reason": "b) To earn Bonus OCBC$, retail transactions made locally or overseas must fall within any of the following",
+      "in_reference": true
+     },
+     {
+      "code": "5611",
+      "polarity": "include",
+      "page": 2,
+      "line": "MCC 5611 Men\u2019s and Boys\u2019 Clothing and Accessories Stores",
+      "reason": "b) To earn Bonus OCBC$, retail transactions made locally or overseas must fall within any of the following",
+      "in_reference": true
+     },
+     {
+      "code": "5621",
+      "polarity": "include",
+      "page": 2,
+      "line": "MCC 5621 Women\u2019s Ready to Wear Stores",
+      "reason": "b) To earn Bonus OCBC$, retail transactions made locally or overseas must fall within any of the following",
+      "in_reference": true
+     },
+     {
+      "code": "5631",
+      "polarity": "include",
+      "page": 2,
+      "line": "MCC 5631 Women\u2019s Accessory and Speciality Stores",
+      "reason": "b) To earn Bonus OCBC$, retail transactions made locally or overseas must fall within any of the following",
+      "in_reference": true
+     },
+     {
+      "code": "5641",
+      "polarity": "include",
+      "page": 2,
+      "line": "MCC 5641 Children\u2019s and Infants\u2019 Wear Stores",
+      "reason": "b) To earn Bonus OCBC$, retail transactions made locally or overseas must fall within any of the following",
+      "in_reference": true
+     },
+     {
+      "code": "5651",
+      "polarity": "include",
+      "page": 2,
+      "line": "MCC 5651 Family Clothing Stores",
+      "reason": "b) To earn Bonus OCBC$, retail transactions made locally or overseas must fall within any of the following",
+      "in_reference": true
+     },
+     {
+      "code": "5655",
+      "polarity": "include",
+      "page": 2,
+      "line": "MCC 5655 Sports and Riding Apparel Stores",
+      "reason": "b) To earn Bonus OCBC$, retail transactions made locally or overseas must fall within any of the following",
+      "in_reference": true
+     },
+     {
+      "code": "5661",
+      "polarity": "include",
+      "page": 2,
+      "line": "MCC 5661 Shoe Stores",
+      "reason": "b) To earn Bonus OCBC$, retail transactions made locally or overseas must fall within any of the following",
+      "in_reference": true
+     },
+     {
+      "code": "5691",
+      "polarity": "include",
+      "page": 2,
+      "line": "MCC 5691 Men\u2019s and Women\u2019s Clothing Stores",
+      "reason": "b) To earn Bonus OCBC$, retail transactions made locally or overseas must fall within any of the following",
+      "in_reference": true
+     },
+     {
+      "code": "5699",
+      "polarity": "include",
+      "page": 2,
+      "line": "MCC 5699 Miscellaneous Apparel and Accessory Shops",
+      "reason": "b) To earn Bonus OCBC$, retail transactions made locally or overseas must fall within any of the following",
+      "in_reference": true
+     },
+     {
+      "code": "5941",
+      "polarity": "include",
+      "page": 2,
+      "line": "MCC 5941 Sporting Goods Stores",
+      "reason": "b) To earn Bonus OCBC$, retail transactions made locally or overseas must fall within any of the following",
+      "in_reference": true
+     },
+     {
+      "code": "5948",
+      "polarity": "include",
+      "page": 2,
+      "line": "MCC 5948 Luggage or Leather Goods Stores",
+      "reason": "b) To earn Bonus OCBC$, retail transactions made locally or overseas must fall within any of the following",
+      "in_reference": true
+     },
+     {
+      "code": "5262",
+      "polarity": "exclude",
+      "page": 3,
+      "line": "* Transactions with the description \u201cShopee Pay\u201d under MCC 5262 are not eligible to earn any OCBC$",
+      "reason": "* Transactions with the description \u201cShopee Pay\u201d under MCC 5262 are not eligible to earn any OCBC$",
+      "in_reference": true
+     },
+     {
+      "code": "5411",
+      "polarity": "exclude",
+      "page": 3,
+      "line": "** Transactions under MCC 5411 (Grocery stores, Supermarkets) are not eligible to earn any Bonus OCBC$",
+      "reason": "** Transactions under MCC 5411 (Grocery stores, Supermarkets) are not eligible to earn any Bonus OCBC$",
+      "in_reference": true
+     },
+     {
+      "code": "4784",
+      "polarity": "exclude",
+      "page": 4,
+      "line": "4784 Tolls and Bridge Fees",
+      "reason": "i) In addition, OCBC$ will not be awarded for transactions made with the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "4829",
+      "polarity": "exclude",
+      "page": 4,
+      "line": "4829 Wire Transfer Money Orders (WTMOs)",
+      "reason": "i) In addition, OCBC$ will not be awarded for transactions made with the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "4900",
+      "polarity": "exclude",
+      "page": 4,
+      "line": "4900 Utilities\u2013Electric, Gas, Heating Oil, Sanitary, Water",
+      "reason": "i) In addition, OCBC$ will not be awarded for transactions made with the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "5047",
+      "polarity": "exclude",
+      "page": 4,
+      "line": "5047 Medical, Dental, Ophthalmic and Hospital Equipment and Supplies",
+      "reason": "i) In addition, OCBC$ will not be awarded for transactions made with the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "5199",
+      "polarity": "exclude",
+      "page": 4,
+      "line": "5199 Nondurable Goods (Not Elsewhere Classified)",
+      "reason": "i) In addition, OCBC$ will not be awarded for transactions made with the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "5262",
+      "polarity": "exclude",
+      "page": 4,
+      "line": "5262 Marketplaces (only for Shopee Pay)",
+      "reason": "i) In addition, OCBC$ will not be awarded for transactions made with the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "5960",
+      "polarity": "exclude",
+      "page": 4,
+      "line": "5960 Direct Marketing Insurance Services",
+      "reason": "i) In addition, OCBC$ will not be awarded for transactions made with the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "5993",
+      "polarity": "exclude",
+      "page": 4,
+      "line": "5993 Cigars Stores and Stands",
+      "reason": "i) In addition, OCBC$ will not be awarded for transactions made with the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "6010",
+      "polarity": "exclude",
+      "page": 4,
+      "line": "6010 Banks - Manual /Automated Cash Disbursement",
+      "reason": "i) In addition, OCBC$ will not be awarded for transactions made with the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "6012",
+      "polarity": "exclude",
+      "page": 4,
+      "line": "6012 Member Financial Institution\u2013Merchandise and Services",
+      "reason": "i) In addition, OCBC$ will not be awarded for transactions made with the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "6051",
+      "polarity": "exclude",
+      "page": 4,
+      "line": "6051",
+      "reason": "i) In addition, OCBC$ will not be awarded for transactions made with the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "6211",
+      "polarity": "exclude",
+      "page": 4,
+      "line": "6211 Securities\u2013Brokers and Dealers",
+      "reason": "i) In addition, OCBC$ will not be awarded for transactions made with the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "6300",
+      "polarity": "exclude",
+      "page": 4,
+      "line": "6300 Insurance Sales, Underwriting and Premiums",
+      "reason": "i) In addition, OCBC$ will not be awarded for transactions made with the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "6513",
+      "polarity": "exclude",
+      "page": 4,
+      "line": "6513 Real Estate Agents and Managers\u2013Rentals",
+      "reason": "i) In addition, OCBC$ will not be awarded for transactions made with the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "6540",
+      "polarity": "exclude",
+      "page": 4,
+      "line": "6540 Non-Financial Institutions \u2013 Stored Value Card Purchase/Load",
+      "reason": "i) In addition, OCBC$ will not be awarded for transactions made with the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "7349",
+      "polarity": "exclude",
+      "page": 4,
+      "line": "7349 Cleaning, maintenance and janitorial services",
+      "reason": "i) In addition, OCBC$ will not be awarded for transactions made with the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "7523",
+      "polarity": "exclude",
+      "page": 4,
+      "line": "7523 Automobile Parking Lots and Garages",
+      "reason": "i) In addition, OCBC$ will not be awarded for transactions made with the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "7995",
+      "polarity": "exclude",
+      "page": 4,
+      "line": "7995",
+      "reason": "i) In addition, OCBC$ will not be awarded for transactions made with the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "8062",
+      "polarity": "exclude",
+      "page": 4,
+      "line": "8062 Hospitals",
+      "reason": "i) In addition, OCBC$ will not be awarded for transactions made with the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "8211",
+      "polarity": "exclude",
+      "page": 4,
+      "line": "8211 Schools, Elementary and Secondary",
+      "reason": "i) In addition, OCBC$ will not be awarded for transactions made with the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "8220",
+      "polarity": "exclude",
+      "page": 4,
+      "line": "8220 Colleges, Universities, Professional Schools and Junior Colleges",
+      "reason": "i) In addition, OCBC$ will not be awarded for transactions made with the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "8241",
+      "polarity": "exclude",
+      "page": 4,
+      "line": "8241 Schools, Correspondence",
+      "reason": "i) In addition, OCBC$ will not be awarded for transactions made with the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "8244",
+      "polarity": "exclude",
+      "page": 4,
+      "line": "8244 Schools, Business and Secretarial",
+      "reason": "i) In addition, OCBC$ will not be awarded for transactions made with the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "8249",
+      "polarity": "exclude",
+      "page": 4,
+      "line": "8249 Schools, Trade and Vocational",
+      "reason": "i) In addition, OCBC$ will not be awarded for transactions made with the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "8299",
+      "polarity": "exclude",
+      "page": 5,
+      "line": "8299 Schools And Educational Services\u2013Not Elsewhere Classified",
+      "reason": "i) In addition, OCBC$ will not be awarded for transactions made with the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "8398",
+      "polarity": "exclude",
+      "page": 5,
+      "line": "8398 Organizations, Charitable and Social Service",
+      "reason": "i) In addition, OCBC$ will not be awarded for transactions made with the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "8651",
+      "polarity": "exclude",
+      "page": 5,
+      "line": "8651 Organizations, Political",
+      "reason": "i) In addition, OCBC$ will not be awarded for transactions made with the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "8661",
+      "polarity": "exclude",
+      "page": 5,
+      "line": "8661 Organizations, Religious",
+      "reason": "i) In addition, OCBC$ will not be awarded for transactions made with the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "8675",
+      "polarity": "exclude",
+      "page": 5,
+      "line": "8675 Automobile Associations",
+      "reason": "i) In addition, OCBC$ will not be awarded for transactions made with the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "8699",
+      "polarity": "exclude",
+      "page": 5,
+      "line": "8699 Labor Union",
+      "reason": "i) In addition, OCBC$ will not be awarded for transactions made with the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "9211",
+      "polarity": "exclude",
+      "page": 5,
+      "line": "9211 Court Costs Including Alimony and Child Support",
+      "reason": "i) In addition, OCBC$ will not be awarded for transactions made with the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "9222",
+      "polarity": "exclude",
+      "page": 5,
+      "line": "9222 Fines",
+      "reason": "i) In addition, OCBC$ will not be awarded for transactions made with the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "9223",
+      "polarity": "exclude",
+      "page": 5,
+      "line": "9223 Bail and Bond Payments",
+      "reason": "i) In addition, OCBC$ will not be awarded for transactions made with the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "9311",
+      "polarity": "exclude",
+      "page": 5,
+      "line": "9311 Tax Payments",
+      "reason": "i) In addition, OCBC$ will not be awarded for transactions made with the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "9399",
+      "polarity": "exclude",
+      "page": 5,
+      "line": "9399 Government Services\u2013Not Elsewhere Classified",
+      "reason": "i) In addition, OCBC$ will not be awarded for transactions made with the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "9402",
+      "polarity": "exclude",
+      "page": 5,
+      "line": "9402 Postal Services\u2013Government Only",
+      "reason": "i) In addition, OCBC$ will not be awarded for transactions made with the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "9405",
+      "polarity": "exclude",
+      "page": 5,
+      "line": "9405 Intra-Government Purchases\u2013Government Only",
+      "reason": "i) In addition, OCBC$ will not be awarded for transactions made with the following Merchant Category Codes",
+      "in_reference": true
+     }
+    ]
+   },
+   "transaction_modes": {
+    "online": [
+     "Annual Card fees, Cash-on- Instalment, Instalment Payment Plan, PayLite, extended payment plan, interest, late payment charges, tax payments, Cash Advances, Balance Transfers, bill payments made via Internet Banking, bill payments made OCBC Bank 65 Chulia Street OCBC Centre Singapore 049513 via AXS, transactions made at TransitLink General Ticketing Machines and other fees and charges will not be "
+    ],
+    "foreign_currency": [
+     "b) To earn Bonus OCBC$, retail transactions made locally or overseas must fall within any of the following MCCs: Merchant Category Codes (MCC): MCC 5309 Duty Free Stores MCC 5311 Departmental Stores MCC 5611 Men\u2019s and Boys\u2019 Clothing and Accessories Stores MCC 5621 Women\u2019s Ready to Wear Stores MCC 5631 Women\u2019s Accessory and Speciality Stores MCC 5641 Children\u2019s and Infants\u2019 Wear Stores MCC 5651 Fam",
+     "i) In addition, OCBC$ will not be awarded for transactions made with the following Merchant Category Codes (\u201cMCC\u201d): MCC Description 4784 Tolls and Bridge Fees 4829 Wire Transfer Money Orders (WTMOs) 4900 Utilities\u2013Electric, Gas, Heating Oil, Sanitary, Water 5047 Medical, Dental, Ophthalmic and Hospital Equipment and Supplies 5199 Nondurable Goods (Not Elsewhere Classified) 5262 Marketplaces (only "
+    ]
+   },
+   "non_mcc_exclusions": [
+    "axs",
+    "balance transfer",
+    "bill payment",
+    "cash advance",
+    "charit",
+    "education",
+    "government",
+    "grabpay",
+    "hospital",
+    "instalment",
+    "interest",
+    "late payment charge",
+    "tax",
+    "top-ups",
+    "utilit",
+    "youtrip"
+   ]
+  },
+  {
+   "url": "https://www.ocbc.com/iwov-resources/sg/ocbc/personal/pdf/campaign/tncs-governing-ocbc-rewards-card-15x-ocbcdollar-campaign.pdf",
+   "citation": {
+    "id": "bank:ebd223c14c24",
+    "url": "https://www.ocbc.com/iwov-resources/sg/ocbc/personal/pdf/campaign/tncs-governing-ocbc-rewards-card-15x-ocbcdollar-campaign.pdf",
+    "source_type": "official",
+    "retrieved_at": "2026-09-27T08:41:45+00:00",
+    "sha256": "ebd223c14c247642fe30cc96885f3e8ad159996e9b33bc379709295c1609ff80",
+    "snapshot": "data/raw/bank/www-ocbc-com-iwov-resources-sg-ocbc-personal-pdf-campaign-tncs-governing-ocbc-rewards-card-15x-ocbcdollar-campaign-pdf-ff448b94.pdf"
+   },
+   "text_path": "data/raw/bank/www-ocbc-com-iwov-resources-sg-ocbc-personal-pdf-campaign-tncs-governing-ocbc-rewards-card-15x-ocbcdollar-campaign-pdf-ff448b94.txt",
+   "sha256": "ebd223c14c247642fe30cc96885f3e8ad159996e9b33bc379709295c1609ff80",
+   "changed": false,
+   "new": true,
+   "no_text_layer": false,
+   "effective_dates": [],
+   "mcc": {
+    "include": [],
+    "exclude": [
+     "5262",
+     "5411",
+     "6540"
+    ],
+    "unknown": [],
+    "conflicting": [],
+    "unrecognised": [],
+    "hits": [
+     {
+      "code": "5262",
+      "polarity": "exclude",
+      "page": 1,
+      "line": "^Transactions made using Shopee Pay under MCC 5262 and MCC 6540 will not earn any OCBC$.",
+      "reason": "^Transactions made using Shopee Pay under MCC 5262 and MCC 6540 will not earn any OCBC$.",
+      "in_reference": true
+     },
+     {
+      "code": "6540",
+      "polarity": "exclude",
+      "page": 1,
+      "line": "^Transactions made using Shopee Pay under MCC 5262 and MCC 6540 will not earn any OCBC$.",
+      "reason": "^Transactions made using Shopee Pay under MCC 5262 and MCC 6540 will not earn any OCBC$.",
+      "in_reference": true
+     },
+     {
+      "code": "5411",
+      "polarity": "exclude",
+      "page": 1,
+      "line": "^Transactions made under MCC 5411 on Shopee and Lazada for grocery purchases will not",
+      "reason": "^Transactions made under MCC 5411 on Shopee and Lazada for grocery purchases will not",
+      "in_reference": true
+     }
+    ]
+   },
+   "transaction_modes": {
+    "online": [
+     "\u2022 does not include payments or transactions relating to annual card fees, insurance premiums, Cash-On-Instalment IPP, extended payment plan, income tax payment, bill payments made via Internet Banking, bill payments made via AXS, interest, late payment charges, goods and services taxes, cash advances, balance transfers, bus/MRT transactions, Transit top-up and other bank fees and charges;"
+    ]
+   },
+   "non_mcc_exclusions": [
+    "axs",
+    "balance transfer",
+    "bill payment",
+    "cash advance",
+    "instalment",
+    "interest",
+    "ipp",
+    "tax",
+    "top-up"
+   ]
+  }
+ ],
+ "changed": false,
+ "removed_documents": []
+}

@@ -1,0 +1,128 @@
+FAQs on Credit Card Chargeback & Dispute Resolution
+Find out here how to resolve common disputes arising from payments through credit, debit and
+prepaid cards for the following situations:-
+A. Unauthorised transactions;
+B. Transactions signed under duress or threat;
+C. Instalment Payment Plan (IPP) transactions with merchants that subsequently cease business;
+and
+D. Non-delivery of goods/services or delivery of unfit goods/services
+These guidelines apply to transactions made with international Card Schemes-branded cards, i.e.
+American Express, Diners, JCB, Mastercard, UnionPay and Visa.
+Generally, the purchase of a good or service is a contractual arrangement between you as the
+consumer, and the merchant. Your rights as a consumer are protected under the Consumer
+Protection (Fair Trading) Act.
+General Terminology, Definitions and Requirements
+1. What is a dispute?
+There are two categories of dispute. Firstly, they can arise when a cardholder says that he or she
+did not authorise a particular transaction. Secondly, a dispute can occur when a cardholder
+encounters issues with the goods and services purchased.
+2. How do I lodge a dispute with my card-issuing bank?
+Please contact your card-issuing bank’s 24-hour Customer Service Hotline to lodge your dispute.
+Your card-issuing bank will advise you on the process which could require you to submit a dispute
+resolution form.
+3. How quickly should I lodge a dispute with my card-issuing bank?
+We advise cardholders to contact their card-issuing bank as soon as possible. Most banks will
+require cardholders to submit a dispute resolution form within 14 days from the card statement
+date.
+4. How long do I have to wait for my bank to resolve a disputed transaction?
+The time taken to resolve a disputed transaction may vary depending on the complexity of the
+case. Generally, resolution on a dispute may range between approximately 4 weeks for simple
+1cases to about 12 weeks for more complex ones, assuming all required documentation has been
+promptly provided upon request.
+5. What is a chargeback?
+A chargeback occurs when a card-issuing bank, in accordance with the dispute resolution process
+of the Card Scheme, initiates a reversal against the merchant for violation of card acceptance
+procedures or failure to fulfill some of the terms and conditions of the transaction.
+6. What are my responsibilities as a consumer/cardholder?
+Always review the terms and conditions of the sales contract before you sign on the agreement. If
+you proceed with a dispute, adhere to the timeframe within which you can lodge a dispute.
+If you suspect any unauthorised use of your card, contact your card-issuing bank immediately to
+block your account.
+Some Commonly Raised Dispute Scenarios
+A. Unauthorised – Card-Not-Present (CNP) transactions
+1a. Without One-Time-Password (OTP) authentication
+This occurs when someone uses your card to make an unauthorised online, telephone order or
+mail order purchase. You should immediately report this to your card-issuing bank and ask that it
+blocks your card account to avoid further fraudulent usage.
+The card-issuing bank may require you to complete a dispute resolution form. Thereafter, the
+card-issuing bank would perform a chargeback of the disputed transaction(s) to the merchant. In
+most instances, the banks will provide you with a temporary credit or refund the disputed
+transactions so that your spending balance is not affected. Upon full resolution of the investigation
+and chargeback, the bank will notify you if there are changes to the outcome.
+1b. With OTP authentication
+Many online merchants have implemented secure payment technologies such as MasterCard
+SecureCode and Verified by Visa. Such technologies require the purchaser’s identity to be
+verified by an OTP, which is usually sent to the cardholder’s mobile phone by his or her card-
+issuing bank, before the completion of a purchase. In such circumstances, the risk of
+unauthorised transactions is mitigated as the cardholder would have to verify his or her identity
+before the purchase can be processed.
+The card-issuing bank will reserve the right to withhold the temporary credit, if such transactions
+are reported as unauthorised, until the investigations are fully complete. The card-issuing bank
+may also impose the liability for the disputed transaction to the cardholder, if negligence has been
+a contributing factor.
+22. Delayed charges – For example, hotels and car rental companies
+At hotels, unbilled charges such as mini-bar or business centre charges may be posted to your
+account after you have checked out.
+Similarly, cardholders may also be billed additional charges by car rental companies if a traffic
+summons has been issued or there was damage to the rental vehicle.
+Such transactions are considered valid and merchants have the right to post them to the
+cardholders. However, the card-issuing bank would assist cardholder to refute any additional
+charges if the cardholder is able to provide supporting document as evidence that he did not incur
+the delayed hotel charges or the rental car was returned on time and in good condition.
+B. Transactions signed under duress or threat
+1. Can the card-issuing bank help to chargeback transactions signed under duress?
+Such transactions are deemed to be authorised by the cardholder as the card was presented to
+the merchant and the sales draft signed by the cardholder.
+If you are forced to sign for a transaction or make an ATM withdrawal, you should immediately
+report the incident to the local police, if it involved unlawful detention and/or threat to bodily harm.
+You should also immediately contact your card-issuing bank for assistance. On a best effort basis,
+the card-issuing bank will take up the complaint with the Card Scheme and the merchant’s bank
+for a resolution.
+C. Instalment Payment Plan (IPP) transactions with merchants that have ceased business
+1. Can the card-issuing bank help to stop payment and cancel the remaining IPP transactions
+with the merchant that I have signed up?
+IPPs offer cardholders the convenience of paying for certain large purchases such as gym
+memberships, magazine subscriptions or household goods, over an extended period of up to 36
+months.
+Even though you are paying by instalment, your bank will make full payment of the purchase price
+on your behalf to the merchant when the agreement is signed by you. Therefore, you remain liable
+to repay the monthly instalments to your bank unless the merchant agrees to terminate the IPP
+and refund the bank. You are not able to terminate IPPs on the basis that you no longer receive
+the services or no longer wish to continue with the services provided by the merchant.
+In the event that the merchant ceases operations and you are unable to reach a resolution with the
+merchant, you may approach your card-issuing bank for assistance to raise a chargeback against
+the merchant. However, depending on your agreement with your card-issuing bank, you may not
+be able to claim any losses. On a best effort basis, your bank will attempt to recover on your
+behalf from the closed merchant. Failing which, the bank may refer you to the liquidators of the
+merchant or CASE for assistance.
+Before signing up for IPPs, cardholders are advised to:
+3a. Deal with reputable merchants accredited under EduTrust or CaseTrust accreditation scheme
+which offer prepayment protection;
+b. Check the CASE’ website at https://www.case.org.sg/consumeralertlist.aspx to see if there has
+been any complaints against the merchant or particular industry;
+c. Read the merchant’s terms and conditions to ascertain whether there is any policy on returned
+goods or termination of services;
+d. Find out the merchant’s terms and conditions on delivery fulfillment for goods or services; and
+e. Read and understand the card-issuing bank’s terms and conditions for IPPs.
+D. Non-delivery or quality of goods/services
+1. Can I dispute a transaction on the basis of non-delivery of goods or services by the
+merchant?
+If the merchant fails to deliver goods or services as per the delivery timeline stated in the sales
+agreement between the cardholder and the merchant, the cardholder can file a dispute. The
+cardholder may need to produce all documentary proof to the card-issuing bank on the agreed
+delivery timeline as well as correspondence with the merchant where goods or services were not
+received after the merchant had been notified of non-delivery.
+2. Can I dispute a transaction if I am not satisfied with the quality of the product/service
+provided by the merchant?
+This depends on the sales agreement between the cardholder and the merchant. For example,
+you purchased a pair of shoes from a physical store and the terms of sale stated a no-return policy
+which you have sighted, signed and acknowledged. If so, you will have no rights to dispute the
+transaction.
+However, if you made an online purchase and the merchandise you received was not as described
+or it arrived damaged, you can file a dispute. For example, you ordered an L-sized dress but you
+received an S-sized dress or a dress of a different colour instead, you have a right to dispute.
+In this case, you should first make efforts to contact and resolve the dispute with the merchant to
+either get an exchange or a refund upon returning the merchandise. If the merchant refuses, you
+can then file a dispute with your card-issuing bank. You will need to provide documentary proof
+that the wrong or defective product was delivered in order for the bank to initiate a chargeback.
+4

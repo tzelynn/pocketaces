@@ -1,0 +1,161 @@
+# Curated card record. Auto-drafted from staged sources; verify every value against the
+# official T&Cs (citations below), then set review.status: reviewed.
+id: citi-m1-platinum-visa
+bank: Citibank
+name: Citi M1 Platinum Visa Card
+network: visa
+image_url: https://mhgprod.blob.core.windows.net/singsaver/strapi-uploads/xs_blt3222579ba59bc0dc_e827ad80b3.png
+official_url: https://www.citibank.com.sg/gcb/credit_cards/m1-platinum-visa-credit-card
+annual_fee:
+  amount:
+    amount: 196.2
+    currency: SGD
+  first_year_waived: true
+  waiver_notes: S$ | First Year Waived
+  sources: ['singsaver:213443be48c1']
+min_annual_income:
+  amount: 30000.0
+  currency: SGD
+reward_currency:
+  kind: cashback
+  name: Cashback
+earn_rules:
+- id: retail
+  label: retail (SingSaver — verify)
+  rate: 4.7
+  unit: percent
+  tier: bonus
+  eligibility:
+    include_mcc: ['2222', '4814', '4829', '4899', '4900', '5199', '5815', '5960', '5993', '6012', '6050',
+      '6051', '6211', '6300', '6513', 6529-6540, '6529', '6530', '6534', '6540', '7349', '7511', '7523',
+      '7800', '7829', '7832', '7922', '7995', '8062', '8211', 8211-8299, '8220', '8241', '8244', '8249',
+      '8299', '8398', 8651-8661, '8651', '8661', 9000-9999, '9211', '9222', '9223', '9311', '9399', '9402',
+      '9405', '9754']
+    description: Capped at S$60 Bonus Citi M1 Rebate per statement month. [include_mcc auto-extracted
+      from official T&C — check it belongs to this rule]
+    sources: ['singsaver:213443be48c1', 'bank:89d80fa88214', 'bank:d43f74d8ca64', 'bank:ffc9383c1c9f']
+  bonus_cap:
+    amount: 60.0
+    unit: SGD_cashback
+    period: statement_month
+    sources: ['singsaver:213443be48c1']
+  conditions:
+  - bonus_cap parsed from aggregator text “Capped at S$60 Bonus Citi M1 Rebate per statement month” —
+    confirm amount, unit and whether the period is calendar or statement month
+  - 'aggregator categories: shopping'
+  sources: ['singsaver:213443be48c1']
+- id: department-store
+  label: department store, online bill payment spending (SingSaver — verify)
+  rate: 2.7
+  unit: percent
+  tier: bonus
+  eligibility:
+    tags: [shopping]
+    description: Up to / Capped at first S$300 worth of M1 Telco Bill Charges
+    sources: ['singsaver:213443be48c1']
+  sources: ['singsaver:213443be48c1']
+- id: overseas
+  label: overseas, local (SingSaver — verify)
+  rate: 0.3
+  unit: percent
+  tier: bonus
+  eligibility:
+    description: 0.3% Citi Rebate on All Local Retual Purchases. 1 Citi Rebate = 1 SGD
+    sources: ['singsaver:213443be48c1']
+  sources: ['singsaver:213443be48c1']
+- id: base
+  label: baseline (SingSaver — verify)
+  rate: 0.3
+  unit: percent
+  tier: base
+  eligibility:
+    all_spend: true
+    description: 0.3% Citi Rebate on All Local Retual Purchases. 1 Citi Rebate = 1 SGD
+    sources: ['singsaver:213443be48c1']
+  sources: ['singsaver:213443be48c1']
+general_exclusions:
+  exclude_mcc: ['2222', '4111']
+  description: Auto-extracted from official T&Cs — confirm each code applies to this card
+  sources: ['bank:89d80fa88214', 'bank:d43f74d8ca64', 'bank:ffc9383c1c9f']
+sign_up_bonuses:
+- offered_by: singsaver
+  description: 'SingSaver Flash Deal: choice of The latest smartphone (worth over S$1,8xx)'
+  valid_from: '2026-09-23'
+  valid_to: '2026-09-28'
+  url: https://www.singsaver.com.sg/credit-card/products/citibank-m1-platinum-visa-card
+  sources: ['singsaver:213443be48c1']
+- offered_by: singsaver
+  description: 'SingSaver Exclusive Offer: choice of S$400 Cash via PayNow; The Morning Coffee Machine
+    + 20 Capsules Bundle (worth S$660); 25,000 Max Miles by HeyMax (worth S$450); Dyson Airstrait™ straightener
+    (worth S$799); Dyson V8 Cyclone Vacuum Cleaner (worth S$559); Dyson Airwrap™ multi-styler and dryer
+    (worth S$799) (top up S$100); Dyson Clean+Wash Hygiene hard floor cleaner (worth S$729) (Top up S$150);
+    Apple iPad (A16) 11" 128GB WiFi (worth S$649) (Top up S$200); Apple Watch Series 12 Aluminum 42mm
+    GPS (worth S$599) (Top-up S$140); Apple MacBook Neo (A18 Pro) 256GB w/ Magic Keyboard (worth S$999,
+    top up S$580); Apple iPhone 18 Pro 256GB (worth S$1,899, top up S$1,330)'
+  value:
+    amount: 400.0
+    currency: SGD
+  valid_from: '2026-09-24'
+  valid_to: '2026-09-30'
+  url: https://singsaver.link/cc-rewards-campaign
+  sources: ['singsaver:213443be48c1']
+- offered_by: singsaver
+  description: 'SingSaver Card + Banking Bundle Offer: choice of S$500 Cash via PayNow'
+  value:
+    amount: 500.0
+    currency: SGD
+  valid_from: '2026-09-08'
+  valid_to: '2026-09-30'
+  url: https://www.singsaver.com.sg/credit-card/products/citibank-m1-platinum-visa-card
+  sources: ['singsaver:213443be48c1']
+- offered_by: moneysmart
+  description: 'Choice of: S$400 Cash via PayNow; Shopee Voucher $450; Apple iPhone 18 Pro (256GB, Burgundy);
+    Apple AirPods Pro 3; Apple Watch Series 12, 42mm (GPS, Black Aluminium Case with Black Sport Band);
+    Sony WH-1000XM6 Wireless Noise Cancelling Headphones (Black). Terms: • Apply for a Citi Card by 30th
+    Sept 2026
+
+    • Spend a min. of S$500 within 30 days
+
+    • Submit the Claim Form by 30th Oct 2026'
+  url: https://www.moneysmart.sg/credit-cards/citi-m1-credit-card
+  sources: ['moneysmart:fbcf8e7229a3']
+notes:
+- 'T&C mentions (check whether excluded): annual fee, axs, balance transfer, bill payment, cash advance,
+  charit, education, government, hospital, instalment, interest, late payment charge, tax, top-ups, utilit,
+  youtrip'
+citations:
+- id: singsaver:213443be48c1
+  url: https://www.singsaver.com.sg/credit-card/products/citibank-m1-platinum-visa-card
+  title: Citi M1 Platinum Visa Card
+  source_type: aggregator
+  retrieved_at: '2026-09-27T05:25:16+00:00'
+  sha256: 213443be48c1b797a534b543e16a107e2b0dae187fb94bd90b82940f765c31eb
+  snapshot: data/raw/singsaver/www-singsaver-com-sg-credit-card-products-citibank-m1-platinum-visa-card-c2f8685e.html
+- id: moneysmart:fbcf8e7229a3
+  url: https://www.moneysmart.sg/credit-cards?page=3
+  title: Citi M1 Credit Card
+  source_type: aggregator
+  retrieved_at: '2026-09-27T05:27:18+00:00'
+  sha256: fbcf8e7229a38611c3c767cd8447164e413b1306df1f54bebee269e3abf15202
+  snapshot: data/raw/moneysmart/credit-cards-p3-707cb52c.html
+- id: bank:89d80fa88214
+  url: https://www.citibank.com.sg/gcb/credit_cards/m1-platinum-visa-credit-card.pdf
+  source_type: official
+  retrieved_at: '2026-09-27T08:19:40+00:00'
+  sha256: 89d80fa88214866b51e49a3491b261859977adca473d88d16bbf90f0ffcaf6de
+  snapshot: data/raw/bank/www-citibank-com-sg-gcb-credit-cards-m1-platinum-visa-credit-card-pdf-ce09be12.pdf
+- id: bank:d43f74d8ca64
+  url: https://www.citibank.com.sg/credit-cards/pdf/rewards-exclusion-list.pdf
+  source_type: official
+  retrieved_at: '2026-09-27T08:31:46+00:00'
+  sha256: d43f74d8ca64a96141c244ca5126179e77543ae82cebe4c177a0c029c73b1a68
+  snapshot: data/raw/bank/www-citibank-com-sg-credit-cards-pdf-rewards-exclusion-list-pdf-cea07829.pdf
+- id: bank:ffc9383c1c9f
+  url: https://www.citibank.com.sg/credit-cards/cashback/m1-platinum-visa-credit-card/pdf/information-sheet.pdf
+  source_type: official
+  retrieved_at: '2026-09-27T08:31:48+00:00'
+  sha256: ffc9383c1c9f6aed17966632ed46ac80bddd13a500a47de0fb8e4ab274cafb5a
+  snapshot: data/raw/bank/www-citibank-com-sg-credit-cards-cashback-m1-platinum-visa-credit-card-pdf-information-sheet-pdf-aff0b9f5.pdf
+review:
+  status: draft
+updated_at: '2026-09-27'

@@ -1,0 +1,448 @@
+{
+ "card_id": "dcs-flex-visa-platinum",
+ "product_pages": [
+  {
+   "id": "bank:7beb8f15b7bb",
+   "url": "https://cards.dcscc.com/flex",
+   "source_type": "official",
+   "retrieved_at": "2026-09-27T08:37:06+00:00",
+   "sha256": "7beb8f15b7bb7510e393a5d8fd81d2645b1552630286de3051e3385d8c256bde",
+   "snapshot": "data/raw/bank/cards-dcscc-com-flex-c726828f.html"
+  }
+ ],
+ "documents": [
+  {
+   "url": "https://static.dcscc.com/pdf/cardapps/flex/Terms%20and%20Conditions%20Governing%20DCS%20Flex%20Card%20Reward%20Programme%20and%20Card%20Design.pdf",
+   "citation": {
+    "id": "bank:98fa14ed292d",
+    "url": "https://static.dcscc.com/pdf/cardapps/flex/Terms%20and%20Conditions%20Governing%20DCS%20Flex%20Card%20Reward%20Programme%20and%20Card%20Design.pdf",
+    "source_type": "official",
+    "retrieved_at": "2026-09-27T08:37:06+00:00",
+    "sha256": "98fa14ed292d3454d74e18481f912e0520c69c3477ce8853c710b0dabe5b3e06",
+    "snapshot": "data/raw/bank/df-cardapps-flex-Terms-20and-20Conditions-20Governing-20DCS-20Flex-20Card-20Reward-20Programme-20and-20Card-20Design-pdf-7a2f131c.pdf"
+   },
+   "text_path": "data/raw/bank/df-cardapps-flex-Terms-20and-20Conditions-20Governing-20DCS-20Flex-20Card-20Reward-20Programme-20and-20Card-20Design-pdf-7a2f131c.txt",
+   "sha256": "98fa14ed292d3454d74e18481f912e0520c69c3477ce8853c710b0dabe5b3e06",
+   "changed": false,
+   "new": false,
+   "no_text_layer": false,
+   "effective_dates": [],
+   "mcc": {
+    "include": [
+     "4784",
+     "4829",
+     "4900",
+     "5199",
+     "5960",
+     "6010",
+     "6011",
+     "6012",
+     "6050",
+     "6051",
+     "6211",
+     "6300",
+     "6513",
+     "6540",
+     "7349",
+     "7523",
+     "7800",
+     "7801",
+     "7802",
+     "7995",
+     "8062",
+     "8211",
+     "8220",
+     "8241",
+     "8244",
+     "8249",
+     "8299",
+     "8398",
+     "8651",
+     "8661",
+     "9211",
+     "9222",
+     "9223",
+     "9311",
+     "9399",
+     "9402",
+     "9405",
+     "9406"
+    ],
+    "exclude": [],
+    "unknown": [],
+    "conflicting": [],
+    "unrecognised": [
+     "9406"
+    ],
+    "hits": [
+     {
+      "code": "4784",
+      "polarity": "include",
+      "page": 5,
+      "line": "4784 Tolls and Bridge Fees",
+      "reason": "(s) Any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "4829",
+      "polarity": "include",
+      "page": 5,
+      "line": "4829 Money Transfer",
+      "reason": "(s) Any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "4900",
+      "polarity": "include",
+      "page": 5,
+      "line": "4900 Utilities \u2013 Electric, Gas, Water and Sanitary",
+      "reason": "(s) Any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "5199",
+      "polarity": "include",
+      "page": 5,
+      "line": "5199 Nondurable Goods (Not Elsewhere Classified)",
+      "reason": "(s) Any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "5960",
+      "polarity": "include",
+      "page": 5,
+      "line": "5960 Direct Marketing \u2013 Insurance Services",
+      "reason": "(s) Any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "6010",
+      "polarity": "include",
+      "page": 5,
+      "line": "6010 Financial Institutions \u2013 Manual Cash Disbursements",
+      "reason": "(s) Any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "6011",
+      "polarity": "include",
+      "page": 5,
+      "line": "6011 Financial Institutions \u2013 Automated Cash Disbursements",
+      "reason": "(s) Any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "6012",
+      "polarity": "include",
+      "page": 5,
+      "line": "6012 Financial Institutions \u2013 Merchandise, Services, and Debt Repayment",
+      "reason": "(s) Any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "6050",
+      "polarity": "include",
+      "page": 5,
+      "line": "6050 Quasi Cash \u2013 Member Financial Institution",
+      "reason": "(s) Any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "6051",
+      "polarity": "include",
+      "page": 5,
+      "line": "6051 Non-Financial Institutions \u2013Foreign Currency, Non-Fiat Currency (for",
+      "reason": "(s) Any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "6211",
+      "polarity": "include",
+      "page": 5,
+      "line": "6211 Security Brokers/Dealers",
+      "reason": "(s) Any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "6300",
+      "polarity": "include",
+      "page": 5,
+      "line": "6300 Insurance Sales, Underwriting, and Premiums",
+      "reason": "(s) Any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "6513",
+      "polarity": "include",
+      "page": 5,
+      "line": "6513 Real Estate Agents and Managers",
+      "reason": "(s) Any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "6540",
+      "polarity": "include",
+      "page": 5,
+      "line": "6540 Non-Financial Institutions \u2013 Stored Value Card Purchase/Load",
+      "reason": "(s) Any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "7349",
+      "polarity": "include",
+      "page": 5,
+      "line": "7349 Cleaning, Maintenance, and Janitorial Services",
+      "reason": "(s) Any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "7523",
+      "polarity": "include",
+      "page": 5,
+      "line": "7523 Parking Lots, Parking Meters and Garages",
+      "reason": "(s) Any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "7800",
+      "polarity": "include",
+      "page": 5,
+      "line": "7800 Government-Owned Lotteries (US Region only)",
+      "reason": "(s) Any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "7801",
+      "polarity": "include",
+      "page": 5,
+      "line": "7801 Government Licensed On-Line Casinos (On-Line Gambling) (US",
+      "reason": "(s) Any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "7802",
+      "polarity": "include",
+      "page": 5,
+      "line": "7802 Government-Licensed Horse/Dog Racing (US Region only)",
+      "reason": "(s) Any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "7995",
+      "polarity": "include",
+      "page": 5,
+      "line": "7995 Betting, including Lottery Tickets, Casino Gaming Chips, Off-Track",
+      "reason": "(s) Any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "8062",
+      "polarity": "include",
+      "page": 5,
+      "line": "8062 Hospitals",
+      "reason": "(s) Any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "8211",
+      "polarity": "include",
+      "page": 5,
+      "line": "8211 Elementary and Secondary Schools",
+      "reason": "(s) Any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "8220",
+      "polarity": "include",
+      "page": 5,
+      "line": "8220 Colleges, Universities, Professional Schools, and Junior Colleges",
+      "reason": "(s) Any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "8241",
+      "polarity": "include",
+      "page": 5,
+      "line": "8241 Correspondence Schools",
+      "reason": "(s) Any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "8244",
+      "polarity": "include",
+      "page": 5,
+      "line": "8244 Business and Secretarial Schools",
+      "reason": "(s) Any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "8249",
+      "polarity": "include",
+      "page": 5,
+      "line": "8249 Vocational and Trade Schools",
+      "reason": "(s) Any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "8299",
+      "polarity": "include",
+      "page": 5,
+      "line": "8299 Schools and Educational Services (Not Elsewhere Classified)",
+      "reason": "(s) Any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "8398",
+      "polarity": "include",
+      "page": 5,
+      "line": "8398 Charitable Social Service Organizations",
+      "reason": "(s) Any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "8651",
+      "polarity": "include",
+      "page": 5,
+      "line": "8651 Political Organizations",
+      "reason": "(s) Any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "8661",
+      "polarity": "include",
+      "page": 5,
+      "line": "8661 Religious Organizations",
+      "reason": "(s) Any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "9211",
+      "polarity": "include",
+      "page": 5,
+      "line": "9211 Court Costs, Including Alimony and Child Support",
+      "reason": "(s) Any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "9222",
+      "polarity": "include",
+      "page": 5,
+      "line": "9222 Fines",
+      "reason": "(s) Any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "9223",
+      "polarity": "include",
+      "page": 5,
+      "line": "9223 Bail and Bond Payments",
+      "reason": "(s) Any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "9311",
+      "polarity": "include",
+      "page": 5,
+      "line": "9311 Tax Payments",
+      "reason": "(s) Any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "9399",
+      "polarity": "include",
+      "page": 5,
+      "line": "9399 Government Services (Not Elsewhere Classified)",
+      "reason": "(s) Any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "9402",
+      "polarity": "include",
+      "page": 5,
+      "line": "9402 Postal Services \u2013 Government Only",
+      "reason": "(s) Any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "9405",
+      "polarity": "include",
+      "page": 5,
+      "line": "9405 U.S. Federal Government Agencies or Departments",
+      "reason": "(s) Any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "9406",
+      "polarity": "include",
+      "page": 5,
+      "line": "9406 Government-Owned Lotteries (Non-U.S. region)",
+      "reason": "(s) Any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": false
+     }
+    ]
+   },
+   "transaction_modes": {
+    "online": [
+     "(a) Cardmembers may choose Cash Rebate as their Reward and earn Cash Rebate under the following Spend Category in each statement month: Spend Category Cash Rebate Category Cap Transactions made in foreign currency 8% S$25 Online spend made in SGD 6% S$25 Contactless spend made in SGD 6% S$25 All other spend 0.3% S$25",
+     "(b) To qualify for the 8% Cash Rebate (on Foreign Currency Transactions) and 6% Cash Rebate (on Online and Contactless Spend), Cardmembers must charge at least S$600 worth of retail transaction(s) (\u201cMinimum Monthly Spend\u201d) to their Card within the same statement month.",
+     "(a) Cardmembers may choose Investment Credits as their Reward and earn Investment Credits under the following Spend Category in each statement month: 1 Spend Category Investment Credits Category Cap Transactions made in foreign currency 8% S$25 Online spend made in SGD 6% S$25 Contactless spend made in SGD 6% S$25 All other spend 0.3% S$25",
+     "(b) To qualify for the 8% Investment Credits (on Foreign Currency Transactions) and 6% Investment Credits (on Online and Contactless Spend), Cardmembers must charge at least S$600 worth of retail transaction(s) (\u201cMinimum Monthly Spend\u201d) to their Card in the same statement month.",
+     "(a) Cardmembers may choose Miles as their Reward and earn Miles under the following Spend Category in each statement month: Spend Category Miles Category Cap Per S$1 Spend Transactions made in foreign currency 2.4 Miles 750 Miles Online spend made in SGD 1.8 Miles 750 Miles Contactless spend made in SGD 1.8 Miles 750 Miles All other spend 0.4 Miles 750 Miles",
+     "(b) To qualify for the 2.4 Miles per S$1 spend (on Foreign Currency Transactions) and 1.8 Miles per S$1 spend (on Online and Contactless Spend), Cardmembers must charge at least S$600 worth of retail transaction(s) (\u201cMinimum Monthly Spend\u201d) to their Card in the same statement month.",
+     "3.1 Online Spend refers to retail transaction(s) for goods and services made via the Internet, based on system indicators and processed by the respective merchants/ acquirers as an online transaction through Visa Worldwide networks, charged to the Card and excludes the transactions listed under Exclusions in Clause 5."
+    ],
+    "contactless": [
+     "(a) Cardmembers may choose Cash Rebate as their Reward and earn Cash Rebate under the following Spend Category in each statement month: Spend Category Cash Rebate Category Cap Transactions made in foreign currency 8% S$25 Online spend made in SGD 6% S$25 Contactless spend made in SGD 6% S$25 All other spend 0.3% S$25",
+     "(b) To qualify for the 8% Cash Rebate (on Foreign Currency Transactions) and 6% Cash Rebate (on Online and Contactless Spend), Cardmembers must charge at least S$600 worth of retail transaction(s) (\u201cMinimum Monthly Spend\u201d) to their Card within the same statement month.",
+     "(a) Cardmembers may choose Investment Credits as their Reward and earn Investment Credits under the following Spend Category in each statement month: 1 Spend Category Investment Credits Category Cap Transactions made in foreign currency 8% S$25 Online spend made in SGD 6% S$25 Contactless spend made in SGD 6% S$25 All other spend 0.3% S$25",
+     "(b) To qualify for the 8% Investment Credits (on Foreign Currency Transactions) and 6% Investment Credits (on Online and Contactless Spend), Cardmembers must charge at least S$600 worth of retail transaction(s) (\u201cMinimum Monthly Spend\u201d) to their Card in the same statement month.",
+     "(a) Cardmembers may choose Miles as their Reward and earn Miles under the following Spend Category in each statement month: Spend Category Miles Category Cap Per S$1 Spend Transactions made in foreign currency 2.4 Miles 750 Miles Online spend made in SGD 1.8 Miles 750 Miles Contactless spend made in SGD 1.8 Miles 750 Miles All other spend 0.4 Miles 750 Miles",
+     "(b) To qualify for the 2.4 Miles per S$1 spend (on Foreign Currency Transactions) and 1.8 Miles per S$1 spend (on Online and Contactless Spend), Cardmembers must charge at least S$600 worth of retail transaction(s) (\u201cMinimum Monthly Spend\u201d) to their Card in the same statement month.",
+     "3.2 Visa Contactless Spend refers to retail transaction(s) made via Visa contactless through a contactless terminal by means of the card, charged to the Card and excludes the transactions listed under Exclusions in Clause 5."
+    ],
+    "foreign_currency": [
+     "(a) Cardmembers may choose Cash Rebate as their Reward and earn Cash Rebate under the following Spend Category in each statement month: Spend Category Cash Rebate Category Cap Transactions made in foreign currency 8% S$25 Online spend made in SGD 6% S$25 Contactless spend made in SGD 6% S$25 All other spend 0.3% S$25",
+     "(b) To qualify for the 8% Cash Rebate (on Foreign Currency Transactions) and 6% Cash Rebate (on Online and Contactless Spend), Cardmembers must charge at least S$600 worth of retail transaction(s) (\u201cMinimum Monthly Spend\u201d) to their Card within the same statement month.",
+     "(a) Cardmembers may choose Investment Credits as their Reward and earn Investment Credits under the following Spend Category in each statement month: 1 Spend Category Investment Credits Category Cap Transactions made in foreign currency 8% S$25 Online spend made in SGD 6% S$25 Contactless spend made in SGD 6% S$25 All other spend 0.3% S$25",
+     "(b) To qualify for the 8% Investment Credits (on Foreign Currency Transactions) and 6% Investment Credits (on Online and Contactless Spend), Cardmembers must charge at least S$600 worth of retail transaction(s) (\u201cMinimum Monthly Spend\u201d) to their Card in the same statement month.",
+     "(a) Cardmembers may choose Miles as their Reward and earn Miles under the following Spend Category in each statement month: Spend Category Miles Category Cap Per S$1 Spend Transactions made in foreign currency 2.4 Miles 750 Miles Online spend made in SGD 1.8 Miles 750 Miles Contactless spend made in SGD 1.8 Miles 750 Miles All other spend 0.4 Miles 750 Miles",
+     "(b) To qualify for the 2.4 Miles per S$1 spend (on Foreign Currency Transactions) and 1.8 Miles per S$1 spend (on Online and Contactless Spend), Cardmembers must charge at least S$600 worth of retail transaction(s) (\u201cMinimum Monthly Spend\u201d) to their Card in the same statement month.",
+     "3.3 Foreign Currency Transactions refers to retail transaction(s) charged in a foreign currency, other than SGD, to the Card and excludes the transactions listed under Exclusions in Clause 5.",
+     "For avoidance of doubt, overseas card transactions that are converted into Singapore dollars at the point of payment via dynamic currency conversion will not be considered as a Foreign Currency transaction.",
+     "(r) Any transaction with transaction descriptions \u201cAMAZE*\u201d, \u201cEZ-LINK*\u201d, \u201cIPAYMY*\u201d, \u201cSIMPLYGO*\u201d, \u201cskrill.com*\u201d and \u201cTRANSIT*\u201d 4 (s) Any transaction made with the following Merchant Category Codes (MCC): MCC Description 4784 Tolls and Bridge Fees 4829 Money Transfer 4900 Utilities \u2013 Electric, Gas, Water and Sanitary 5199 Nondurable Goods (Not Elsewhere Classified) 5960 Direct Marketing \u2013 Insurance S"
+    ],
+    "local_currency": [
+     "(a) Cardmembers may choose Cash Rebate as their Reward and earn Cash Rebate under the following Spend Category in each statement month: Spend Category Cash Rebate Category Cap Transactions made in foreign currency 8% S$25 Online spend made in SGD 6% S$25 Contactless spend made in SGD 6% S$25 All other spend 0.3% S$25",
+     "(d) For the purpose of determining the amount of Cash Rebate, the Card Transactions made in foreign currencies shall be first converted into Singapore Dollars based on a prevailing retail rate offered by an institution chosen by us applying on the working day before the day of processing plus a conversion commission.",
+     "(e) The Cash Rebate is awarded to you in Singapore Dollars and is computed on a full statement month basis (i.e.",
+     "(a) Cardmembers may choose Investment Credits as their Reward and earn Investment Credits under the following Spend Category in each statement month: 1 Spend Category Investment Credits Category Cap Transactions made in foreign currency 8% S$25 Online spend made in SGD 6% S$25 Contactless spend made in SGD 6% S$25 All other spend 0.3% S$25",
+     "(d) For the purpose of determining the amount of Investment Credits, the Card Transactions made in foreign currencies shall be first converted into Singapore Dollars based on a prevailing retail rate offered by an institution chosen by us applying on the working day before the day of processing plus a conversion commission.",
+     "(e) The Investment Credits are rewarded in Singapore Dollars and are computed on a full statement month basis (i.e.",
+     "(a) Cardmembers may choose Miles as their Reward and earn Miles under the following Spend Category in each statement month: Spend Category Miles Category Cap Per S$1 Spend Transactions made in foreign currency 2.4 Miles 750 Miles Online spend made in SGD 1.8 Miles 750 Miles Contactless spend made in SGD 1.8 Miles 750 Miles All other spend 0.4 Miles 750 Miles",
+     "(d) For the purpose of determining the number of Miles, the Card Transactions made in foreign currencies shall be first converted into Singapore Dollars based on a prevailing retail rate offered by an institution chosen by us applying on the working day before the day of processing plus a conversion commission.",
+     "3.3 Foreign Currency Transactions refers to retail transaction(s) charged in a foreign currency, other than SGD, to the Card and excludes the transactions listed under Exclusions in Clause 5.",
+     "For avoidance of doubt, overseas card transactions that are converted into Singapore dollars at the point of payment via dynamic currency conversion will not be considered as a Foreign Currency transaction."
+    ]
+   },
+   "non_mcc_exclusions": [
+    "annual fee",
+    "axs",
+    "balance transfer",
+    "bill payment",
+    "cash advance",
+    "charit",
+    "education",
+    "government",
+    "hospital",
+    "instalment",
+    "interest",
+    "ipaymy",
+    "late payment charge",
+    "tax",
+    "utilit"
+   ]
+  }
+ ],
+ "changed": false,
+ "removed_documents": []
+}

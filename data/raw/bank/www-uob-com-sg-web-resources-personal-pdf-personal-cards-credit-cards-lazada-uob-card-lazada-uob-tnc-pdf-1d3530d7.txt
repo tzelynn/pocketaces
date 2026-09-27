@@ -1,0 +1,298 @@
+TERMS AND CONDITIONS GOVERNING LAZADA-UOB CARD
+(“TERMS AND CONDITIONS”)
+1. Overview
+1.1. These Terms and Conditions apply to the Lazada-UOB Card issued by UOB in Singapore (collectively the
+“Cards” and each a “Card”). These Terms and Conditions are to be read together with the prevailing UOB
+Cardmembers Agreement (as may be amended from time to time at the UOB’s sole discretion).
+1.2. In the event of any inconsistency between these Terms and Conditions and the prevailing UOB Cardmembers
+Agreement, these Terms and Conditions shall prevail in relation to any matter concerning the Card. These
+Terms and Conditions shall prevail over any advertising, promotional publicly, brochure, marketing or other
+materials relating to or in connection with the Card.
+1.3. Capitalised terms used in these Terms and Conditions shall have the meanings ascribed to them under the
+prevailing UOB Cardmembers Agreement unless otherwise defined herein.
+2. Definitions
+2.1. In these Terms and Conditions, the following words and phrases shall have the meanings hereby assigned to
+them:
+(a) “Card Transactions” means the transactions successfully charged to the Card Account by the
+Principal and Supplementary Cardmembers AND posted on UOB’s systems, but excludes the
+Exclusions.
+(b) “Dining, Entertainment & Transport Spend” refers to the following:
+• “Dining Spend” refers to Card Transactions made at dining establishments, provided that
+such merchants fall within the following Merchant Category Codes (the “MCC”):
+MCC Description
+5462 Bakeries
+5811, 5812, 5813 and 5814 Caterers, Eating places and Restaurants, Bars,
+Taverns, Lounges and Nightclubs and Fast Food
+restaurants
+• “Entertainment Spend” refers to Card Transactions made at entertainment establishments,
+provided that such merchant fall within the following MCC:
+MCC Description
+7829 & 7932 Motion Picture Theaters, Theatrical Producers and
+Ticket Agencies
+7841 Video Tape Rental Stores
+7911 Dance Halls/Studios/ Schools
+## RESTRICTED ##
+United Overseas Bank Limited Co. Reg. No.
+193500026Z7922 Theatrical Producers
+7929 Bands, Orchestra and Entertainment Establishments
+7932 and 7933 Bowling Alleys, Billards and Pool Establishments
+7941 and 7992 Athletic Fields, Commercial Sports, Professional Sports
+Clubs, Sports Promoters, Golf Courses
+7991, 7996, 7998 and 7999 Tourist Attractions and Exhibits, Amusement Parks,
+Aquariums, Dolphinariums, Zoos and Seaquariums &
+Recreation Services–Not Elsewhere Classified
+7993 and 7994 Video Game Arcades and Establishments and Video
+Amusement Game Supplies
+• “Transport Spend” refers to Card Transactions made on:
+o Ride-hailing services provided that such merchant fall within MCC 4121
+o SimplyGo Bus/MRT rides
+(c) “Exclusions” refers to the transactions described in Clause 5 below successfully charged to the Card
+Account by the Principal and Supplementary Cardmembers AND posted on UOB’s systems .
+(d) “Lazada” refers to Lazada Singapore Pte. Ltd.
+(e) “Lazada Account” means an online user account on Lazada’s website or mobile application
+(collectively, “Lazada Website”) from which users may purchase goods and/or services.
+(f) “Lazada Gift Card(s)” refers to the gift card balance awarded by Lazada into the Principal
+Cardmember's Lazada Account at the end of the statement months between January to December
+in a calendar year calculated based on Clause 3.1 below.
+(g) “Lazada Spend” refers to Card Transactions made on Lazada Singapore with description
+LAZADA*,AMAZE*LAZADA*,2C2P*LAZADA” and MCC 5262, 5311, 5310, 5331, 5399, 5732,
+5999, but shall exclude RedMart and any Lazada Wallet top-up transactions.
+The asterisk symbol (“*”) used in transaction descriptions signifies that any number of characters may
+follow the specified word or phrase.
+For example, “LAZADA*” encompasses variations such as “LAZADA12345”, “LAZADA123456”, and
+other transaction descriptors that begin with “LAZADA”.
+(h) “Lazada Wallet” means the Lazada payment account or e-wallet for used for electronic payment.
+(i) “Minimum Spend” means the minimum amount of total Card Transactions for each calendar month
+as set out in Clause 3.1 below.
+(j) “Principal Cardmember’s Lazada Account” has the meaning set out in Clause 3.5 below.
+(k) “RedMart spend” refers to Card Transactions made on Lazada Singapore with description beginning
+with “LAZADA*, REDMART*AMAZE* LAZADA*,AMAZE* REDMART*” and MCC 5411, but shall
+exclude Lazada Spend.
+## RESTRICTED ##
+United Overseas Bank Limited Co. Reg. No.
+193500026ZThe asterisk symbol (“*”) used in transaction descriptions signifies that any number of characters may
+follow the specified word or phrase.
+For example, “REDMART*” encompasses variations such as “REDMART12345”,
+“REDMART123456”, and other transaction descriptors that begin with “REDMART”.
+(l) “Statement” means the statements of account issued by UOB in respect of the Card Account.
+(m) “Statement Month” means the period of a Statement relates.
+(n) “UOB” refers to United Overseas Bank Limited.
+3. Lazada Gift Card
+3.1. For each calendar month which a Principal Cardmember fulfils a Minimum Spend of S$500, the Principal
+Cardmember will be eligible to receive rebates in the form of Lazada Gift Card on the Principal Cardmember’s
+eligible spend for that month in the following manner based on transaction category:
+Rebates earned per transaction category Cap on rebates value
+20% rebates on Lazada Spend S$20
+6% rebates on RedMart Spend S$20
+5% rebates on Dining, Entertainment and Transport Spend S$25
+0.3% rebates on all other spend S$25
+The Minimum Spend requirement, rebates and cap on rebates value reflected in this clause apply from 1
+September 2024 to 31 January 2027 (both dates inclusive).
+For example:
+If a Principal Cardmember fulfils a Minimum Spend of S$500 for a particular month and the Card Transactions
+during that month comprise of Lazada Spend, RedMart Spend, Dining, Entertainment and Transport Spend
+and other spend, the Principal Cardmember will receive the following:
+• Rebates in the form of Lazada Gift Card with a value corresponding to 20% of the Lazada Spend
+amount successfully charged to the Principal Cardmember’s Card Account and posted on UOB’s
+system during that month;
+• Rebates in the form of Lazada Gift Card with a value corresponding to 6% of the RedMart Spend
+amount successfully charged to the Principal Cardmember’s Card Account and posted on UOB’s
+system during that month;
+• Rebates in the form of Lazada Gift Card with a value corresponding to 5% of the Dining,
+Entertainment and Transport Spend amount successfully charged to the Principal Cardmember’s
+Card Account and posted on UOB’s system during that month; and
+## RESTRICTED ##
+United Overseas Bank Limited Co. Reg. No.
+193500026Z• Rebates in the form of Lazada Gift Card with a value corresponding to 0.3% of the other spend
+amount successfully charged to the Principal Cardmember’s Card Account and posted on UOB’s
+system during that month.
+The value of each Lazada Gift Card mentioned above is subject to a cap per transaction category as reflected
+in the table in this clause above. Thus, the Principal Cardmember will receive the following rebates in the form
+of Lazada Gift Card:
+• a S$20 Lazada Gift Card if the Lazada Spend amount is S$100;
+• a S$15 Lazada Gift Card if the RedMart Spend amount is S$250;
+• a S$5 Lazada Gift Card if the Dining, Entertainment and Transport Spend amount is S$100; and
+• a S$3 Lazada Gift Card if the other spend amount is S$1000.
+Accordingly, the Principal Cardmember will receive a total value of S$43 credit in the Principal Cardmember’s
+Lazada Gift Card within the Principal Cardmember’s Lazada account in the following month after meeting the
+spending requirements in the current month.
+3.2. Transaction categories are categorised according to the MCC. The MCC determines the rebates rate each
+Card Transaction is eligible under the relevant transaction category and this in turns determine the value of
+the Lazada Gift Card to be awarded to a Cardmember. A merchant’s registered MCC may not always
+correspond with its nature of business. MCCs are assigned by a merchant’s acquiring bank. UOB shall not be
+liable in any way whatsoever relating to the categorisation of a merchant’s MCC.
+3.3. UOB computes the Minimum Spend and Lazada Gift Card to be awarded based on the date on which a
+transaction is successfully charged to the Card Account, provided that such transaction has been successfully
+posted on UOB’s system as at the point of computation.
+3.4. Any Card Transactions successfully charged by Supplementary Cardmember(s) and posted on UOB’s system
+will be included in the computation of Principal Cardmember’s Minimum Spend and Lazada Gift Card to be
+awarded to Principal Cardmember.
+3.5. To receive Lazada Gift Card, a Principal Cardmember must ensure that his/her Card is successfully added as
+card-on-file in the Lazada Wallet of a Lazada Account. The first Lazada Account which the Principal
+Cardmember’s Card is added to will be deemed as the Principal Cardmember’s Lazada Account. If a Principal
+Cardmember is eligible to receive the Lazada Gift Card but his/her Card is not successfully added as card-on-
+file in the Lazada Wallet of a Lazada Account due to omission or whatsoever reasons, any Lazada Gift Card
+to be awarded to the Principal Cardmember will be forfeited.
+3.6. If a Principal Cardmember is eligible to receive the Lazada Gift Card, the Lazada Gift Card will be credited to
+the Principal Cardmember’s Lazada Account on the 15th day of the calendar month after the calendar month
+which the Principal Cardmember fulfilled the Minimum Spend.
+3.7. Lazada Gift Card and its corresponding loyalty programme is governed by Lazada. Lazada reserves the right
+to amend the name of the programme or rewards from time to time without any prior notice, provided that the
+value of rewards upon conversion remains the same.
+4. Terms and Conditions on Lazada Gift Card
+4.1. Lazada Gift Card can only be used for eligible orders made on Lazada Website. Use of Lazada Gift Card is
+subject to any terms and conditions as may be imposed by Lazada at its sole discretion.
+## RESTRICTED ##
+United Overseas Bank Limited Co. Reg. No.
+193500026Z4.2. Each Lazada Gift Card is only valid for one hundred eighty (180) days from the date on which it is credited
+into the Principal Cardmember’s Lazada Account (the “Expiry Date”). Strictly no extension of the Expiry Date
+is allowed. If a Lazada Gift Card is not utilised by the relevant Expiry Date, the Lazada Gift Card will be forfeited.
+4.3. Lazada Gift Card are strictly non-transferable and non-assignable. Lazada Gift Card are not exchangeable for
+cash, credit or kind, in full or in part. The Lazada Gift Card balance may not exceed S$1,000 at any time.
+5. Exclusions
+5.1. The following Card Transactions (collectively referred to as the “Exclusions”) do not qualify to earn any
+Lazada Gift Card. UOB reserves the right to amend the list set out below from time to time without any prior
+notice or giving any reason or being liable to any party:
+(a) any cash advances;
+(b) any interest, fees and charges (including without limitation, late payment charges or interest charges,
+annual or monthly fees or charges) imposed by UOB;
+(c) balance and/or funds transfers to or from the Card Account;
+(d) any credit card transaction that was subsequently cancelled, voided or reversed for any reason;
+(e) monthly instalments under 0% Instalment Payment Plan and SmartPay;
+(f) any Grab mobile wallet top-up transactions;
+(g) any Shopee Pay wallet top-up transactions;
+(h) any payment made with the following MCC;
+MCC Description
+4829 Wire Transfer/Remittance
+5199 Nondurable Goods
+5960 Direct Marketing - Insurance Services
+5965 Direct marketing – Combination Catalog and Retail Merchants (wef 1 October
+2024)
+5993 Cigar Stores and Stands (wef 1 October 2024)
+6012 Member Financial Institution–Merchandise and Services
+6050 Quasi Cash–Financial Institutions, Merchandise and Services
+6051 Quasi Cash–Merchant (Non-Financial Institutions – Foreign Currency, NonFiat
+Currency, Cryptocurrency)
+6211 Securities–Brokers and Dealers
+6300 Insurance Sales/Underwrite
+6513 Real Estate Agents & Managers – Rentals
+6529 Quasi Cash-Remote Stored Value Load-Financial Institute Rentals
+6530 Quasi Cash-Remote Stored Value Load-Merchant Rentals
+6534 Quasi Cash-Remote Money Transfers
+6540 Stored Value Card Purchase/Load
+7349 Clean/Maint/Janitorial Serv aka Property Management
+## RESTRICTED ##
+United Overseas Bank Limited Co. Reg. No.
+193500026Z7511 Quasi Cash – Truck Stop Trxns
+7523 Automobile Parking Lots and Garages
+7995 Gambling - Betting, including Lottery Tickets, Casino Gaming Chips, Off-Track
+Betting, and Wagers at Race Tracks
+8062 Hospitals
+8211 Schools, Elementary and Secondary
+8220 Colleges, Universities, Professional Schools and Junior Colleges
+8241 Schools, Correspondence
+8244 Schools, Business and Secretarial
+8249 Schools, Trade and Vocational
+8299 Schools and Educational Services–Not Elsewhere Classified
+8398 Organizations, Charitable and Social Service
+8661 Organizations, Religious
+8651 Organisations, Political
+8699 Membership Organizations (Not Elsewhere Classified) (wef 1 October 2024)
+8999 Professional Services (Not Elsewhere Classified) (wef 1 October 2024)
+9211 Court Costs including Alimony and Child Support
+9222 Fines
+9223 Bail and Bond Payments
+9311 Tax Payment
+9402 Postal Services—Government Only
+9405 Intra-Government Purchases—Government Only
+9399 Government Services—not elsewhere classified
+(i) any transactions made with the following transaction descriptions:
+• AXS* • PLUS500
+• AMAZE* TRANSIT* • PLUS500UK LIMITED
+• CITYINDEX* • Saxo Cap Mkts Pts Ltd
+• EZ LINK* • SKR*PLUS500CY LTD
+• EZ-LINK* • SKR*SKRILL.COM
+• EZLINK* • TRANSIT*
+• EZLINKS* • WWW.IGMARKETS.COM.SG
+• WWW.MYEZLINK.COM.SG • IPAYMY* (w.e.f. 1 Aug 2022)
+• FLASHPAY*
+• RWS-LEVY* (w.e.f. 1 Aug 2022)
+• NETSFLASHPAY*
+• SMOOVE PAY* (w.e.f. 1 Aug 2022)
+• MB * MONEYBOOKERS.COM
+• SINGPOST-SAM* (w.e.f. 1 Aug 2022)
+• OANDA ASIA PAC
+• CardUp* (w.e.f. 1 Aug 2022)
+• OANDAASIAPA
+• RazerPay* (w.e.f. 1 Aug 2022)
+• PAYPAL* PLUS500 • NORWDS* (w.e.f. 21 Jul 2024)
+• PAYPAL* PLUS500.COM • AMAZE* (w.e.f 1 October 2024)
+• PAYPAL * BIZCONSULTA
+• PAYPAL * OANDAASIAPA
+• PAYPAL * CAPITALROYA
+(j) any other transactions as may be prescribed by UOB from time to time.
+6. General
+## RESTRICTED ##
+United Overseas Bank Limited Co. Reg. No.
+193500026Z6.1. A Cardmember is not entitled to enjoy the rewards, benefits and/or privileges stated herein if:
+(a) the Cardmember’s Card Account is suspended, cancelled, closed or terminated;
+(b) the Cardmember’s Card Account is not active, valid, subsisting or in good standing or which, in UOB’s
+sole opinion, is delinquent or has been unsatisfactorily conducted; or
+(c) the Cardmember is incapacitated or passed away or is declared a bankrupt or any legal proceeding
+(or any threat) of any nature is instituted against the Cardmember.
+6.2. Where any Card Transaction posted to a Cardmember’s Card Account is subsequently voided, refunded,
+cancelled, reversed, disputed and/or reversed for any reason (whether in whole or in part), UOB shall have
+the sole discretion to reverse and forfeit the Lazada Gift Card awarded in respect of such Card Transaction.
+6.3. The Card shall only be used for Cardmember’s own legitimate and genuine personal expenses and shall not
+be used for commercial or other non-personal expenses.
+6.4. UOB may deduct, re-compute, withdraw, forfeit and/or cancel any Lazada Gift Card earned and/or awarded
+and/or cancel and terminate a Cardmember’s Card, without giving any reason or prior notice or assuming any
+liability to you, if:
+(a) spending on the Card Account is deemed by UOB in its sole and absolute discretion to be for commercial,
+illegitimate, not genuine, commercial and/or non-personal purposes;
+(b) the Card Account is not in good standing and not conducted in a proper and satisfactory manner at any
+time as determined by UOB in its sole discretion;
+(c) the Card account is overdue;
+(d) UOB deems in its sole discretion that there is an abuse of the Lazada Gift Card and its corresponding
+loyalty programme (whether via unusual, illegitimate, and/or not genuine transaction activities or
+otherwise);
+(e) relevant Lazada Gift Card were not earned from qualifying spend; or
+(f) for any other reason that UOB may determine in its sole discretion.
+No payment or compensation in respect of such deduction, re-computation, withdrawal or cancellation will be
+made.
+6.5. In the event that a Cardmember’s Card Account is delinquent, voluntarily or involuntarily closed or terminated
+or suspended for any reasons whatsoever before the Lazada Gift Card credited into the Cardmember’s Card
+Account, such Lazada Gift Card earned shall be forfeited without prior notice to the Cardmember and the
+Cardmember shall not be entitled to any compensation or payment whatsoever.
+6.6. UOB shall not be responsible or liable in any manner for (i) any failure or delay or mistake in the transmission
+or submission of card transactions and/or the Card Transactions by any party (including but not limited to card
+associations, acquiring merchants, merchant establishments, postal or telecommunication authorities) for
+whatever reason; or (ii) any breakdown or malfunction in any computer system or equipment; or (iii) any loss,
+expenses, delays, mistake, neglect or omission in the awarding of the Lazada Gift Card or a Cardmember’s
+participation in the Lazada Gift Card and its corresponding loyalty programme.
+## RESTRICTED ##
+United Overseas Bank Limited Co. Reg. No.
+193500026Z6.7. UOB’s decision on all matters relating to Card Account and awarding of all rewards, benefits and privileges
+stated in these Terms and Conditions shall be final, conclusive and binding. UOB shall not be obliged to give
+any reason or enter into any correspondence with any person on any matter relating to its decision.
+6.8. UOB reserves the right to vary, amend and/or supplement any of these Terms and Conditions from time to
+time without giving prior notice or reason and without liability to any person. Should a Cardmember continue
+to use the Card after the change takes effect, the Cardmember shall be deemed to have accepted the change
+without reservation.
+6.9. By participating in the Lazada Gift Card and its corresponding loyalty programme and in addition to any other
+consent a Cardmember has already provided to UOB and any right of UOB under applicable laws, the
+Cardmember consents to UOB and the necessary third parties (including, but not limited to, Lazada) collecting,
+using and disclosing the Cardmember’s personal data for the purposes of Lazada Gift Card and its
+corresponding loyalty programme and to contact the Cardmember.
+6.10. Whilst all information is believed to be correct at the time of publishing, UOB makes no representation or
+warranty whether expressed or implied, and accepts no responsibility or liability for its completeness or
+accuracy.
+6.11. A person who is not a party to these terms and conditions shall have no rights under the Contracts (Rights of
+Third Parties) Act 2001 to enforce these terms and conditions.
+6.12. These Terms and Conditions shall be governed by the laws of the Republic of Singapore and Cardmembers
+shall be deemed to have agreed to submit to the exclusive jurisdiction of the courts of the Republic of
+Singapore.
+Updated as at 1 September 2026 (Version 1.5)
+## RESTRICTED ##
+United Overseas Bank Limited Co. Reg. No.
+193500026Z

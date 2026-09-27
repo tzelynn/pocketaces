@@ -1,0 +1,106 @@
+{
+ "source": "singsaver",
+ "source_id": "dcs-ultimate-platinum-unionpay-card",
+ "source_url": "https://www.singsaver.com.sg/credit-card/products/dcs-ultimate-platinum-unionpay-card",
+ "name": "DCS Ultimate Platinum UnionPay Card",
+ "bank": "DCS",
+ "card_id": "dcs-ultimate-platinum-unionpay",
+ "image_url": "https://mhgprod.blob.core.windows.net/singsaver/strapi-uploads/xs_bltfbfba35ef8e39663_ef4eb22a2a.png",
+ "annual_fee": 196.2,
+ "annual_fee_note": "S$ | First Year Waived",
+ "min_annual_income": 30000.0,
+ "earn_rates": {
+  "percent:overseas": {
+   "value": 2.0,
+   "unit": "percent",
+   "note": "No minimum spend; cashback is capped at S$200 per calendar month."
+  },
+  "percent:local": {
+   "value": 2.0,
+   "unit": "percent",
+   "note": "No minimum spend; cashback is capped at S$200 per calendar month."
+  },
+  "percent:baseline": {
+   "value": 2.0,
+   "unit": "percent",
+   "note": "No minimum spend; cashback is capped at S$200 per calendar month."
+  }
+ },
+ "caps": {
+  "cashback_bonus_cap": {
+   "value": 200.0,
+   "note": "S$ | 2% cashback rate capped at S$200 cashback per calendar month."
+  }
+ },
+ "highlights": [
+  "2% cashback on all eligible purchases with no min. spend, capped at S$200 per calendar month.",
+  "pros: Get up to 2% cashback on all purchases with no minimum spend.",
+  "pros: Free Insurance Coverage of up to S$1,000,000.",
+  "pros: 3% Transaction fee waiver in Mainland China",
+  "cons: Cashback is awarded up to a monthly spend of S$10,000 (capped at S$200 cashback per calendar month).",
+  "pros: Online shopping rebate",
+  "pros: Travel insurance",
+  "pros: No monthly spend required",
+  "cons: Rebate cap applied"
+ ],
+ "sign_up_offers": [
+  {
+   "kind": "exclusive_offer",
+   "title": "SingSaver Exclusive Welcome Offer",
+   "offer_id": "SG.2026-09-01.CC.DCSX.ULTUP.GOTRIP-GOJEK",
+   "valid_from": "2026-08-31T16:00:00Z",
+   "valid_to": "2026-09-30T15:59:00Z",
+   "gifts": [
+    {
+     "title": "Get up to a 24-inch GOTRIP Luggage + S$50 Gojek Voucher",
+     "value_sgd": 350
+    }
+   ],
+   "terms": "SingSaver Exclusive Welcome Offer promotion is valid from 1 September 2026 to 30 September 2026.\nPromotion is valid for new customers of DCS cards only.\nApply and get approved for the DCS Ultimate Platinum UnionPay Card and meet the min. spend criteria within 30 days of card approval to be eligible for reward:\nMake a min. spend of S$500 within 30 days of card approval to be eligible for a \n20-inch GOTRIP Luggage Bag\n.\nMake a min. spend of S$800 within 30 days of card approval to be eligible for a \n24-inch GOTRIP Luggage Bag\n.\nYou will only receive one of the above rewards.\nAdditionally, accumulate a min. spend of S$1,000 in Qualifying Transactions within 30 days of the card approval date to be eligible for a \nS$50 Gojek Voucher\n on top of the above reward.\nAll of the above rewards are fulfilled by DCS.\nTerms and Conditions\n apply.",
+   "tnc_url": null,
+   "bundle_with": []
+  }
+ ],
+ "links": {
+  "apply": "https://cards.dcscc.com/ultimateupi?staff_id=SI01&location=SSR15"
+ },
+ "citation": {
+  "id": "singsaver:153e53660e6e",
+  "url": "https://www.singsaver.com.sg/credit-card/products/dcs-ultimate-platinum-unionpay-card",
+  "title": "DCS Ultimate Platinum UnionPay Card",
+  "source_type": "aggregator",
+  "retrieved_at": "2026-09-27T05:25:45+00:00",
+  "sha256": "153e53660e6ef5a135ac88c0f9ec42fe691e77d762794c71621af91e85706088",
+  "snapshot": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-dcs-ultimate-platinum-unionpay-card-c5f8115d.html"
+ },
+ "extra": {
+  "network": [
+   "Mastercard"
+  ],
+  "mobile_wallets": null,
+  "fx_fee_percent": 3.25,
+  "miles_conversion_fee": null,
+  "categories": [
+   "category:all-credit-cards",
+   "category:cashback",
+   "category:dining-promo",
+   "category:installment",
+   "category:promo",
+   "category:retail-promo",
+   "category:travel",
+   "needs:0-interest-rate",
+   "needs:all-cards-with-dining-promo",
+   "needs:all-cards-with-promotion",
+   "needs:all-cards-with-retail-promo",
+   "needs:all-cashback-cards",
+   "needs:all-credit-cards",
+   "needs:all-installment-cards",
+   "needs:all-travel-cards",
+   "needs:free-travel-insurance",
+   "needs:no-minimum-spend-required-cashback",
+   "needs:online-booking-discount"
+  ],
+  "tag": null,
+  "description": "Stop overthinking your rewards and start accumulating serious global perks! The DCS Ultimate Platinum UnionPay Card drops a flat, effortless 2% cashback* into your wallet when you buy—with absolutely zero minimum spend hoops to jump through. Built with an ultra-sleek, numberless layout for bulletproof identity security, you can also explore mainland China completely hassle-free with a 3% transaction fee waiver on all Alipay and WeChat pay purchases. Even better, it unlocks the VIP treatment with exclusive UnionPay power-moves: a complimentary Sands Rewards LifeStyle Elite tier membership and up to 10% off at over 100 International Airport Duty-Free shops."
+ }
+}

@@ -1,0 +1,82 @@
+{
+ "source": "moneysmart",
+ "source_id": "uob-lady-s-card",
+ "source_url": "https://www.moneysmart.sg/credit-cards/uob-lady-s-card",
+ "name": "UOB Lady's Card",
+ "bank": "UOB",
+ "card_id": "uob-ladys",
+ "image_url": "https://photos.cdn-moneysmart.com/credit_cards/uploads/products/images/image_url_2025-11-03_Ladys Credit-MC Small.jpeg",
+ "annual_fee": 196.2,
+ "earn_rates": {},
+ "caps": {},
+ "highlights": [
+  "S$5 = 1X UNI$ (0.4 miles per S$1) Base Earn Rate",
+  "S$5 = Up to 25X UNI$ (equivalent to 10 miles per S$1) Category of Choice",
+  "0 Min. Spend",
+  "Up to 25X UNI$ for every S$5 spend (equiv. to 10 miles per S$1) on your preferred rewards category with no minimum spend required. Choose from Beauty & Wellness, Dining, Entertainment, Family, Fashion, Transport and Travel.",
+  "10X UNI$ (4 miles per S$1)  + additional up to 15X UNI$ (6 miles per S$1) when you save with UOB Lady's Savings Account",
+  "Flexibility to change your Preferred Category Spending every quarter.",
+  "UOB Lady's LuxePay Plan 6 or 12-month installment plan with no interest or processing fees",
+  "Free e-Commerce protection for online purchases up to USD$200",
+  "Earn up to 6.0% p.a. interest with UOB One Account",
+  "At MoneySmart, we strive to keep our information accurate and up to date. This information may be different from what you see when you visit a financial institution, service provider, or specific product site. MoneySmart shall not be liable to compensate the Customer should the information is not as updated as our Partner."
+ ],
+ "sign_up_offers": [],
+ "links": {
+  "product": "https://www.moneysmart.sg/credit-cards/uob-lady-s-card",
+  "review": "https://blog.moneysmart.sg/credit-cards/uob-lady-card-review/"
+ },
+ "citation": {
+  "id": "moneysmart:42909b088c22",
+  "url": "https://www.moneysmart.sg/credit-cards?page=2",
+  "title": "UOB Lady's Card",
+  "source_type": "aggregator",
+  "retrieved_at": "2026-09-27T05:27:14+00:00",
+  "sha256": "42909b088c22cb063c120b532d19af920cb3535c52f6bfc313193c6c6ea14746",
+  "snapshot": "data/raw/moneysmart/credit-cards-p2-5f055203.html"
+ },
+ "extra": {
+  "summary": "The UOB Lady's Card lets you tailor rewards, earning up to 10 miles per S$1 on a chosen category like fashion or dining. This is ideal for those with predictable spending habits who can maximize the 25X UNI$ earn rate. The flexibility to change categories quarterly is a plus. Consider pairing it with a UOB One Account for potentially boosted earnings.",
+  "badges": [
+   "Up to 10 Miles per S$1 spent"
+  ],
+  "network": [
+   "Mastercard"
+  ],
+  "mobile_wallets": [
+   "MasterCard PayPass",
+   "Google Pay",
+   "Apple Pay",
+   "Samsung Pay"
+  ],
+  "groups": {
+   "annual-interest-rate-and-fees": {
+    "Annual Interest Rate": "27.80",
+    "Annual Principal Fee": "196.20",
+    "Supplementary Annual Fee": "1st Supplementary Card free, $98.10 for subsequent Supplementary Cards",
+    "Fee Waiver": "1st year fee waiver",
+    "Minimum Monthly Repayment": "3% or S$50, whichever is greater",
+    "Interest Free Period": "21 days"
+   },
+   "minimum-income-requirements": {
+    "Singaporean/PR Minimum Annual Income": "30000",
+    "Non-Singaporean Minimum Annual Income": "40000"
+   },
+   "card-association": {
+    "Mastercard": "true"
+   },
+   "wireless-payment": {
+    "MasterCard PayPass": "true",
+    "Google Pay": "true",
+    "Apple Pay": "true",
+    "Samsung Pay": "true"
+   }
+  },
+  "our_takes": {
+   "our-take": "The UOB Lady's Card lets you tailor rewards, earning up to 10 miles per S$1 on a chosen category like fashion or dining. This is ideal for those with predictable spending habits who can maximize the 25X UNI$ earn rate. The flexibility to change categories quarterly is a plus. Consider pairing it with a UOB One Account for potentially boosted earnings. However, factor in the 3.25% foreign transaction fee if you frequently spend overseas.",
+   "good-for": "Salaried professionals who want to earn accelerated rewards on their chosen spending categories, like dining or fashion.\nIndividuals aiming to accumulate miles through everyday spending on selected categories, enjoying up to 10 miles per S$1 spent.\nCardholders who appreciate changing their bonus rewards category quarterly to align with evolving lifestyle spending habits.",
+   "things-to-note": "High interest at 27.8% per year accrues on unpaid balances, increasing debt if you don't pay fully.\nLate payment fees are S$100 monthly; set up payment reminders to avoid these charges on your card.\nForeign transaction fees add 3.25% to non-SGD purchases, so factor this into overseas spending."
+  },
+  "updated_at": "2025-11-03T15:57:35+08:00"
+ }
+}

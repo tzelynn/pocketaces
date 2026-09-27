@@ -1,0 +1,34 @@
+{
+ "card_id": "dbs-vantage-visa-infinite",
+ "product_pages": [
+  {
+   "id": "bank:4815cb19346b",
+   "url": "https://www.dbs.com.sg/personal/cards/credit-cards/dbs-vantage-visa-infinite-card",
+   "source_type": "official",
+   "retrieved_at": "2026-09-27T08:36:50+00:00",
+   "sha256": "4815cb19346bba8ac47b39a9f3495781412d7b4d84cdfeb20560789496012642",
+   "snapshot": "data/raw/bank/www-dbs-com-sg-personal-cards-credit-cards-dbs-vantage-visa-infinite-card-861bbe0c.html"
+  }
+ ],
+ "documents": [
+  {
+   "url": "https://www.dbs.com.sg/iwov-resources/pdf/cards/vantage-card-T&Cs.pdf",
+   "error": "robots.txt disallows https://www.dbs.com.sg/iwov-resources/pdf/cards/vantage-card-T&Cs.pdf",
+   "changed": false
+  },
+  {
+   "url": "https://www.dbs.com.sg/iwov-resources/pdf/cards/rewards_programme_tnc.pdf",
+   "error": "robots.txt disallows https://www.dbs.com.sg/iwov-resources/pdf/cards/rewards_programme_tnc.pdf",
+   "changed": false
+  },
+  {
+   "url": "https://www.dbs.com.sg/iwov-resources/media/pdf/cards/promotions/dbs-vantage-visa-infinite-promo/onboarding/dbs-vantage-onboarding-tncs.pdf",
+   "error": "robots.txt disallows https://www.dbs.com.sg/iwov-resources/media/pdf/cards/promotions/dbs-vantage-visa-infinite-promo/onboarding/dbs-vantage-onboarding-tncs.pdf",
+   "changed": false
+  }
+ ],
+ "changed": true,
+ "removed_documents": [
+  "https://www.dbs.com.sg/iwov-resources/media/pdf/deposits/paylah-newuser-joinlah-tnc.pdf"
+ ]
+}

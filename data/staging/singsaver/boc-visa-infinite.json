@@ -1,0 +1,80 @@
+{
+ "source": "singsaver",
+ "source_id": "boc-visa-infinite-card",
+ "source_url": "https://www.singsaver.com.sg/credit-card/products/boc-visa-infinite-card",
+ "name": "BOC Visa Infinite Card",
+ "bank": "Bank of China",
+ "card_id": "boc-visa-infinite",
+ "image_url": "https://mhgprod.blob.core.windows.net/singsaver/strapi-uploads/s_2026_06_BOC_Visa_Infinite_Card_a61dadcf73.png",
+ "annual_fee": 381.5,
+ "annual_fee_note": "S$ | First year annual fee waived for principal and supplementary cards.",
+ "min_annual_income": 72000.0,
+ "earn_rates": {
+  "percent:local": {
+   "value": 1.6,
+   "unit": "percent",
+   "note": "1.6% cashback on qualifying local spend, with no minimum spend and cap."
+  },
+  "percent:overseas": {
+   "value": 2.4,
+   "unit": "percent",
+   "note": "2.4% cash rebate on qualifying overseas spend, with no minimum spend and cap."
+  },
+  "percent:petrol": {
+   "value": 3.0,
+   "unit": "percent",
+   "note": "3% cash rebate on electrical vehicle charging (subject to min. monthly spend of S$2,500 per billing cycle)"
+  },
+  "percent:baseline": {
+   "value": 1.6,
+   "unit": "percent",
+   "note": "1.6% cashback on all other qualifying purchases in Singapore, no minimum spend and cap."
+  }
+ },
+ "caps": {},
+ "highlights": [
+  "Earn up to 2.4% cash rebate on qualifying overseas spending and a 1.6% cashback on qualifying purchases in Singapore, both with no minimum spend or cap. Plus, earn 3% cash rebate on electric vehicle charging with min. monthly spend of S$2,500 per billing cycle.",
+  "pros: 2.4% cash rebate on overseas spend and 1.6% cash rebate on local spend, with no min. spend and no earn cap.",
+  "pros: 3% cash rebate on electrical vehicle charging.",
+  "pros: 0.3% cash rebate on selected insurance and education spend, with no minimum spend and no earn cap.",
+  "pros: Enjoy 4 complimentary visits to participating Plaza Premium lounges annually.",
+  "pros: Enjoy personalized concierge services with Visa Concierge.",
+  "pros: First year annual fee waived for principal and supplementary cards.",
+  "cons: S$2,500 min. monthly spend per billing cycle required to unlock 3% cash rebate on EV charging.",
+  "pros: Local spending rebate",
+  "pros: No monthly spend required",
+  "pros: No rebate cap",
+  "pros: Airport lounge"
+ ],
+ "sign_up_offers": [],
+ "links": {},
+ "citation": {
+  "id": "singsaver:8fdbc2346879",
+  "url": "https://www.singsaver.com.sg/credit-card/products/boc-visa-infinite-card",
+  "title": "BOC Visa Infinite Card",
+  "source_type": "aggregator",
+  "retrieved_at": "2026-09-27T05:24:58+00:00",
+  "sha256": "8fdbc234687943375122ed8738fb5f3da3c9ba41c7d16bc6f0b99f99a5b11b3b",
+  "snapshot": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-boc-visa-infinite-card-fdf44c21.html"
+ },
+ "extra": {
+  "network": [
+   "VISA Infinite"
+  ],
+  "mobile_wallets": null,
+  "fx_fee_percent": 3.0,
+  "miles_conversion_fee": 30.56,
+  "categories": [
+   "category:all-credit-cards",
+   "category:cashback",
+   "category:travel",
+   "needs:all-cashback-cards",
+   "needs:all-credit-cards",
+   "needs:all-travel-cards",
+   "needs:free-travel-insurance",
+   "needs:no-minimum-spend-required-cashback"
+  ],
+  "tag": "Best for local spending, capless spending",
+  "description": "The BOC Visa Infinite Card elevates your lifestyle with exclusive perks and travel privileges. Enjoy 1.6% cash rebate on all purchases made in Singapore and 2.4% cash rebate on overseas spend, with no minimum spend and no earn cap."
+ }
+}

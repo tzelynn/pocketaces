@@ -1,0 +1,137 @@
+{
+ "source": "moneysmart",
+ "source_id": "citi-premiermiles-card",
+ "source_url": "https://www.moneysmart.sg/credit-cards/citi-premiermiles-card",
+ "name": "Citi PremierMiles Card",
+ "bank": "Citibank",
+ "card_id": "citi-premiermiles",
+ "image_url": "https://photos.cdn-moneysmart.com/credit_cards/uploads/products/images/image_url_2025-12-09_CitiBankPremierMiles2025.png",
+ "annual_fee": 196.2,
+ "earn_rates": {},
+ "caps": {},
+ "highlights": [
+  "S$1 = 1.2 miles Local Spend",
+  "S$1 = Up to 2.2 miles All Foreign Currency Spend including Retail and Online",
+  "S$1 = Up to 10 miles Selected Online Hotel Bookings",
+  "Citi Miles never expire",
+  "Earn up to 2.2 Citi Miles per S$1 on your spend",
+  "Receive renewal bonus of 10,000 Citi Miles on your Card anniversary",
+  "Earn up to 10 Citi Miles per S$1 on Kaligo and Agoda online travel bookings via the dedicated Citi portal",
+  "Principal Cardholder gets to enjoy 2 complimentary visits every year to participating airport lounges worldwide",
+  "With Citi PayAll, you can earn and accumulate Citi Miles, Citi ThankYou PointsSM or Cash Back quickly when you pay your big-ticket bills such as rent, insurance premiums, education expenses, taxes, utilities and more",
+  "At MoneySmart, we strive to keep our information accurate and up to date. This information may be different from what you see when you visit a financial institution, service provider, or specific product site. MoneySmart shall not be liable to compensate the Customer should the information is not as updated as our Partner"
+ ],
+ "sign_up_offers": [
+  {
+   "kind": "MANUAL_GIFT",
+   "title": "S$400 Cash via PayNow",
+   "subtitle": null,
+   "is_cash": true,
+   "terms": "• Apply for a Citi Card by 30th Sept 2026\n• Spend a min. of S$500 within 30 days\n• Submit the Claim Form by 30th Oct 2026",
+   "campaign": "Credit Card | Citibank | 210926"
+  },
+  {
+   "kind": "STORE_PRODUCT",
+   "title": "Shopee Voucher $450",
+   "subtitle": "worth S$450",
+   "is_cash": false,
+   "terms": "• Apply for a Citi Card by 30th Sept 2026\n• Spend a min. of S$500 within 30 days\n• Submit the Claim Form by 30th Oct 2026",
+   "campaign": "Credit Card | Citibank | 210926"
+  },
+  {
+   "kind": "STORE_PRODUCT",
+   "title": "Apple iPhone 18 Pro (256GB, Burgundy)",
+   "subtitle": "worth S$1899",
+   "is_cash": false,
+   "terms": "• Apply for a Citi Card by 30th Sept 2026\n• Spend a min. of S$500 within 30 days\n• Submit the Claim Form by 30th Oct 2026",
+   "campaign": "Credit Card | Citibank | 210926"
+  },
+  {
+   "kind": "STORE_PRODUCT",
+   "title": "Apple AirPods Pro 3",
+   "subtitle": "worth S$349",
+   "is_cash": false,
+   "terms": "• Apply for a Citi Card by 30th Sept 2026\n• Spend a min. of S$500 within 30 days\n• Submit the Claim Form by 30th Oct 2026",
+   "campaign": "Credit Card | Citibank | 210926"
+  },
+  {
+   "kind": "STORE_PRODUCT",
+   "title": "Apple Watch Series 12, 42mm (GPS, Black Aluminium Case with Black Sport Band)",
+   "subtitle": "worth S$599",
+   "is_cash": false,
+   "terms": "• Apply for a Citi Card by 30th Sept 2026\n• Spend a min. of S$500 within 30 days\n• Submit the Claim Form by 30th Oct 2026",
+   "campaign": "Credit Card | Citibank | 210926"
+  },
+  {
+   "kind": "STORE_PRODUCT",
+   "title": "Sony WH-1000XM6 Wireless Noise Cancelling Headphones (Black)",
+   "subtitle": "worth S$649",
+   "is_cash": false,
+   "terms": "• Apply for a Citi Card by 30th Sept 2026\n• Spend a min. of S$500 within 30 days\n• Submit the Claim Form by 30th Oct 2026",
+   "campaign": "Credit Card | Citibank | 210926"
+  }
+ ],
+ "links": {
+  "product": "https://www.moneysmart.sg/credit-cards/citi-premiermiles-card",
+  "review": "https://blog.moneysmart.sg/credit-cards/citi-premiermiles-card-review/"
+ },
+ "citation": {
+  "id": "moneysmart:eeee24fb93a9",
+  "url": "https://www.moneysmart.sg/credit-cards",
+  "title": "Citi PremierMiles Card",
+  "source_type": "aggregator",
+  "retrieved_at": "2026-09-27T05:27:12+00:00",
+  "sha256": "eeee24fb93a9d85ef8b9194c11bda960b5b99ee30b3689cdc59fb650badebce7",
+  "snapshot": "data/raw/moneysmart/credit-cards-p1-b55034ef.html"
+ },
+ "extra": {
+  "summary": "The Citi PremierMiles Card excels for frequent travelers valuing miles that don't expire. Earn a decent 1.2 miles per S$1 locally and 2.2 miles overseas. Leverage Kaligo and Agoda for up to 10 miles per S$1. While there's an annual fee of $196.20 (waived the first year), the 10,000 renewal miles and two annual complimentary lounge visits help offset the cost. Use Citi PayAll to earn miles on large expenses such as rent. ",
+  "badges": [
+   "FASTER REWARD FULFILMENT | EARN CITI MILES"
+  ],
+  "network": [
+   "Mastercard"
+  ],
+  "mobile_wallets": [
+   "Google Pay",
+   "Apple Pay",
+   "Samsung Pay"
+  ],
+  "groups": {
+   "annual-interest-rate-and-fees": {
+    "Annual Interest Rate": "27.9%",
+    "Annual Principal Fee": "196.20",
+    "Supplementary Annual Fee": "98.10",
+    "Fee Waiver": "First year annual fee waiver available",
+    "Minimum Monthly Repayment": "1% plus 1% of any outstanding unbilled instalment amounts plus interest charges plus late payment charge or S$50, whichever is higher",
+    "Interest Free Period": "25 days"
+   },
+   "minimum-income-requirements": {
+    "Singaporean/PR Minimum Annual Income": "30000",
+    "Non-Singaporean Minimum Annual Income": "42000"
+   },
+   "card-association": {
+    "Mastercard": "true"
+   },
+   "wireless-payment": {
+    "Google Pay": "true",
+    "Apple Pay": "true",
+    "Samsung Pay": "true"
+   },
+   "documents-required": {
+    "SG Citizens or PRs": "Apply via MyInfo",
+    "Passport Validity (Foreigners)": "6 months",
+    "Work Permit Validity (Foreigners)": "6 months",
+    "Utility or Telephone Bill": "With Full Name and Address",
+    "Income Tax Notice of Assessment": "true",
+    "Latest Original Computerised Payslip": "true"
+   }
+  },
+  "our_takes": {
+   "our-take": "The Citi PremierMiles Card excels for frequent travelers valuing miles that don't expire. Earn a decent 1.2 miles per S$1 locally and 2.2 miles overseas. Leverage Kaligo and Agoda for up to 10 miles per S$1. While there's an annual fee of $196.20 (waived the first year), the 10,000 renewal miles and two annual complimentary lounge visits help offset the cost. Use Citi PayAll to earn miles on large expenses such as rent. Note the hefty 3.25% foreign transaction fee, impacting overseas spending value.",
+   "good-for": "Jet-setters wanting to accumulate miles for flights and enjoy lounge access during layovers.\nIndividuals aiming to maximise miles on travel bookings, utility bills, and income tax payments.\nCardholders who need a flexible rewards program where miles don't expire, offering long-term value.",
+   "things-to-note": "Annual fees apply after the first year; the $196.20 fee may outweigh benefits if spending is low.\nForeign transaction fees total 3.25%, plus 1% for currency conversion, increasing costs when spending overseas.\n27.9% interest rate applies if balances are carried, quickly escalating debt if not paid in full."
+  },
+  "updated_at": "2026-05-12T19:18:22+08:00"
+ }
+}

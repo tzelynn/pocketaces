@@ -1,0 +1,12 @@
+{
+ "https://raw.githubusercontent.com/greggles/mcc-codes/main/mcc_codes.json": {
+  "content_type": "text/plain",
+  "final_url": "https://raw.githubusercontent.com/greggles/mcc-codes/main/mcc_codes.json",
+  "path": "data/raw/mcc-reference/raw-githubusercontent-com-greggles-mcc-codes-main-mcc-codes-json-326bbb33.txt",
+  "retrieved_at": "2026-09-27T05:24:31+00:00",
+  "sha256": "60fff0a4457e18dd03731a8971f219f2d1e4b22a13c1d930aaac07badbfe8e68",
+  "source": "mcc-reference",
+  "status": 200,
+  "url": "https://raw.githubusercontent.com/greggles/mcc-codes/main/mcc_codes.json"
+ }
+}

@@ -1,0 +1,314 @@
+{
+ "source": "singsaver",
+ "source_id": "dbs-vantage-visa-infinite-card",
+ "source_url": "https://www.singsaver.com.sg/credit-card/products/dbs-vantage-visa-infinite-card",
+ "name": "DBS Vantage Visa Infinite Card",
+ "bank": "DBS",
+ "card_id": "dbs-vantage-visa-infinite",
+ "image_url": "https://mhgprod.blob.core.windows.net/singsaver/strapi-uploads/xs_blt1396105454583551_773417666f.webp",
+ "annual_fee": 599.5,
+ "annual_fee_note": "S$ | Non-waivable for first year. Waiver will be granted in subsequent years with a minimum eligible spend of S$60,000 within in a calendar year.",
+ "min_annual_income": 120000.0,
+ "min_monthly_spend": 2000.0,
+ "earn_rates": {
+  "mpd:local": {
+   "value": 1.5,
+   "unit": "mpd",
+   "note": "S$1 local spend = 1.5 miles"
+  },
+  "percent:overseas": {
+   "value": 2.2,
+   "unit": "percent",
+   "note": "S$1 overseas spend = 2.2% cashback"
+  },
+  "percent:local": {
+   "value": 1.5,
+   "unit": "percent",
+   "note": "S$1 local spend = 1.5% cashback"
+  },
+  "percent:travel": {
+   "value": 1.5,
+   "unit": "percent",
+   "note": "S$1 local spend = 1.5% cashback"
+  },
+  "percent:dining": {
+   "value": 50.0,
+   "unit": "percent",
+   "note": "Up to | Up to 50% off dining bills at Fairmont, Sofitel, Swissôtel, and over 1,400 participating Accor hotel restaurants in Asia Pacific."
+  },
+  "percent:supermarket": {
+   "value": 1.5,
+   "unit": "percent",
+   "note": "S$1 local spend = 1.5% cashback"
+  },
+  "percent:petrol": {
+   "value": 19.0,
+   "unit": "percent",
+   "note": "Up to | Up to 19% fuel savings at Esso."
+  },
+  "percent:retail": {
+   "value": 1.5,
+   "unit": "percent",
+   "note": "S$1 local spend = 1.5% cashback"
+  },
+  "percent:local_online_shopping": {
+   "value": 1.5,
+   "unit": "percent",
+   "note": "S$1 local spend = 1.5% cashback"
+  },
+  "percent:overseas_online_shopping": {
+   "value": 2.2,
+   "unit": "percent",
+   "note": "S$1 local spend = 1.5% cashback"
+  },
+  "percent:health": {
+   "value": 1.5,
+   "unit": "percent",
+   "note": "S$1 local spend = 1.5% cashback"
+  },
+  "percent:department_store": {
+   "value": 1.5,
+   "unit": "percent",
+   "note": "S$1 local spend = 1.5% cashback"
+  },
+  "percent:digital_wallet": {
+   "value": 1.5,
+   "unit": "percent",
+   "note": "S$1 local spend = 1.5% cashback"
+  },
+  "percent:contactless_spend": {
+   "value": 1.5,
+   "unit": "percent",
+   "note": "S$1 local spend = 1.5% cashback"
+  },
+  "percent:transport": {
+   "value": 1.5,
+   "unit": "percent",
+   "note": "S$1 local spend = 1.5% cashback"
+  },
+  "mpd:retail": {
+   "value": 1.5,
+   "unit": "mpd",
+   "note": "S$1 local spend = 1.5 miles"
+  },
+  "mpd:dining": {
+   "value": 1.5,
+   "unit": "mpd",
+   "note": "S$1 local spend = 1.5 miles"
+  },
+  "mpd:local_online_shopping": {
+   "value": 1.5,
+   "unit": "mpd",
+   "note": "S$1 local spend = 1.5 miles"
+  },
+  "mpd:overseas_online_shopping": {
+   "value": 1.5,
+   "unit": "mpd",
+   "note": "S$1 local spend = 1.5 miles"
+  },
+  "mpd:department_store": {
+   "value": 1.5,
+   "unit": "mpd",
+   "note": "S$1 local spend = 1.5 miles"
+  },
+  "mpd:supermarket": {
+   "value": 1.5,
+   "unit": "mpd",
+   "note": "S$1 local spend = 1.5 miles"
+  },
+  "mpd:hotel_booking": {
+   "value": 6.0,
+   "unit": "mpd",
+   "note": "When you book a flight ticket, hotel stay or travel package on Expedia at any participating airline or hotel partners. "
+  },
+  "mpd:flight_booking": {
+   "value": 6.0,
+   "unit": "mpd",
+   "note": "When you book a flight ticket, hotel stay or travel package on Expedia at any participating airline or hotel partners. "
+  },
+  "mpd:transport": {
+   "value": 1.5,
+   "unit": "mpd",
+   "note": null
+  },
+  "mpd:petrol": {
+   "value": 1.5,
+   "unit": "mpd",
+   "note": null
+  },
+  "mpd:travel": {
+   "value": 6.0,
+   "unit": "mpd",
+   "note": "6 miles per dollar when you book a flight ticket, hotel stay or travel package on Expedia at any participating airline or hotel partners. "
+  },
+  "points_per_dollar:baseline": {
+   "value": 1.0,
+   "unit": "points_per_dollar",
+   "note": "1 DBS Point per S$5 = 2 miles or S$0.02 cashback"
+  },
+  "points_per_dollar:local_spending": {
+   "value": 3.75,
+   "unit": "points_per_dollar",
+   "note": "3.75 DBS Points per S$5 spend in Singapore Dollars."
+  },
+  "points_per_dollar:overseas_spending": {
+   "value": 5.5,
+   "unit": "points_per_dollar",
+   "note": "5.5 DBS Points per S$5 spend in foreign currency."
+  },
+  "points_per_dollar:online_shopping": {
+   "value": 3.75,
+   "unit": "points_per_dollar",
+   "note": "3.75 DBS Points per S$5 spend in Singapore Dollars."
+  },
+  "points_per_dollar:retail": {
+   "value": 3.75,
+   "unit": "points_per_dollar",
+   "note": "3.75 DBS Points per S$5 spend in Singapore Dollars."
+  },
+  "points_per_dollar:dining": {
+   "value": 3.75,
+   "unit": "points_per_dollar",
+   "note": "3.75 DBS Points per S$5 spend in Singapore Dollars."
+  },
+  "points_per_dollar:online_food_delivery": {
+   "value": 3.75,
+   "unit": "points_per_dollar",
+   "note": "3.75 DBS Points per S$5 spend in Singapore Dollars."
+  },
+  "points_per_dollar:grocery": {
+   "value": 3.75,
+   "unit": "points_per_dollar",
+   "note": "3.75 DBS Points per S$5 spend in Singapore Dollars."
+  },
+  "points_per_dollar:taxi_ride_sharing": {
+   "value": 3.75,
+   "unit": "points_per_dollar",
+   "note": "3.75 DBS Points per S$5 spend in Singapore Dollars."
+  },
+  "points_per_dollar:petrol": {
+   "value": 3.75,
+   "unit": "points_per_dollar",
+   "note": "3.75 DBS Points per S$5 spend in Singapore Dollars."
+  },
+  "points_per_dollar:entertainment": {
+   "value": 3.75,
+   "unit": "points_per_dollar",
+   "note": "3.75 DBS Points per S$5 spend in Singapore Dollars."
+  },
+  "points_per_dollar:transport": {
+   "value": 3.75,
+   "unit": "points_per_dollar",
+   "note": "3.75 DBS Points per S$5 spend in Singapore Dollars."
+  },
+  "points_per_dollar:contactless_spend": {
+   "value": 3.75,
+   "unit": "points_per_dollar",
+   "note": "3.75 DBS Points per S$5 spend in Singapore Dollars."
+  },
+  "percent:baseline": {
+   "value": 1.5,
+   "unit": "percent",
+   "note": "S$1 local spend = 1.5% cashback"
+  },
+  "mpd:baseline": {
+   "value": 1.5,
+   "unit": "mpd",
+   "note": "S$1 local spend = 1.5 miles"
+  },
+  "mpd:overseas": {
+   "value": 2.2,
+   "unit": "mpd",
+   "note": "S$1 overseas spend = 2.2 miles"
+  }
+ },
+ "caps": {
+  "rewards_bonus_cap": {
+   "value": 5000.0,
+   "note": "S$"
+  },
+  "airmiles_bonus_cap": {
+   "value": 2000.0,
+   "note": "S$ | Min. S$2,000 spend per statement month, otherwise 1 mpd on local and foreign spend."
+  }
+ },
+ "highlights": [
+  "Earn 2.2 miles per dollar on all eligible overseas spend. Earn 1.5 miles per dollar on all eligible local spend.",
+  "pros: 1.5 miles or 1.5% cashback per S$1 spent locally, such as groceries, shopping and more.",
+  "pros: 2.2 miles or 2.2% cashback per S$1 spent on overseas purchases in foreign currency.",
+  "pros: Receive 25,000 bonus miles when you pay the annual fee of S$550 (exclusive of GST) to renew your membership.",
+  "pros: Complimentary Accor Plus Explorer membership with 1 free hotel night stay at Sofitel, Fairmont, Swissotel and over 1000 hotels worldwide.",
+  "pros: Complimentary Digital Priority Pass™ Membership and 10 free lounge visits to over 1,300 airport lounges worldwide within each 12-month period of membership.",
+  "pros: Members-only dining privileges at over 80 of Singapore’s fine dining establishments, including Michelin-awarded restaurants.",
+  "cons: Annual fee of S$588.50 (inclusive of GST) is non-waivable for the first year.",
+  "cons: Miles are awarded in the form of DBS Points which are awarded for every S$5 spent.",
+  "cons: Each conversion of DBS Points to miles will be subjected to an administrative fee of S$25 (exclusive of GST).",
+  "pros: Bonus air miles",
+  "pros: Local spending rebate",
+  "pros: Overseas rebate",
+  "pros: Airport lounge"
+ ],
+ "sign_up_offers": [],
+ "links": {},
+ "citation": {
+  "id": "singsaver:669435333fe4",
+  "url": "https://www.singsaver.com.sg/credit-card/products/dbs-vantage-visa-infinite-card",
+  "title": "DBS Vantage Visa Infinite Card",
+  "source_type": "aggregator",
+  "retrieved_at": "2026-09-27T05:25:31+00:00",
+  "sha256": "669435333fe4805428d02ccd38930c64787141d1c4a8cd71f330626b072d459a",
+  "snapshot": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-dbs-vantage-visa-infinite-card-6ba243a3.html"
+ },
+ "extra": {
+  "network": [
+   "VISA Infinite"
+  ],
+  "mobile_wallets": [
+   "Google Pay",
+   "Apple Pay",
+   "Samsung Pay",
+   "NETSPay"
+  ],
+  "fx_fee_percent": 3.25,
+  "miles_conversion_fee": 27.0,
+  "categories": [
+   "category:airmiles",
+   "category:all-credit-cards",
+   "category:buffet-promo",
+   "category:cashback",
+   "category:dining-promo",
+   "category:grocery-promo",
+   "category:installment",
+   "category:overseas",
+   "category:petrol-promo",
+   "category:premium-cards",
+   "category:promo",
+   "category:retail-promo",
+   "category:travel",
+   "needs:0-interest-rate",
+   "needs:airport-lounge-transfer",
+   "needs:all-airmiles-cards",
+   "needs:all-cards-with-buffet-promo",
+   "needs:all-cards-with-dining-promo",
+   "needs:all-cards-with-grocery-promo",
+   "needs:all-cards-with-petrol-promo",
+   "needs:all-cards-with-promotion",
+   "needs:all-cards-with-retail-promo",
+   "needs:all-cashback-cards",
+   "needs:all-credit-cards",
+   "needs:all-installment-cards",
+   "needs:all-overseas-cards",
+   "needs:all-premium-cards",
+   "needs:all-travel-cards",
+   "needs:bonus-miles",
+   "needs:long-tenure-installment",
+   "needs:no-minimum-spend-required-airmiles",
+   "needs:no-minimum-spend-required-cashback",
+   "needs:online-booking-discount",
+   "needs:unlimited-airmiles",
+   "needs:unlimited-cashback"
+  ],
+  "tag": null,
+  "description": "The DBS Vantage Visa Infinite Card is for the seasoned traveller, offering 2.2mpd on foreign currency spend, along with a whopping 10 complimentary airport lounge visits per year!"
+ }
+}

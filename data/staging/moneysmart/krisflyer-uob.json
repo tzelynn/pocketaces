@@ -1,0 +1,81 @@
+{
+ "source": "moneysmart",
+ "source_id": "krisflyer-uob-credit-card",
+ "source_url": "https://www.moneysmart.sg/credit-cards/krisflyer-uob-credit-card",
+ "name": "KrisFlyer UOB Credit Card",
+ "bank": "UOB",
+ "card_id": "krisflyer-uob",
+ "image_url": "https://photos.cdn-moneysmart.com/credit_cards/uploads/products/images/image_url_2025-02-19_KrisFlyer-Credit-Card-(0329)(S24-0487) Small (1).jpeg",
+ "annual_fee": 196.2,
+ "earn_rates": {},
+ "caps": {},
+ "highlights": [
+  "S$1 = 3 Miles on Singapore Airlines, Scoot, KrisShop, Kris+ and Pelago purchases",
+  "S$1 = Up to 2.4 Miles on dining, food delivery, online shopping, online travel and transport spend",
+  "S$1 = 1.2 Miles on all other spend",
+  "Enjoy 3 KrisFlyer miles per S$1 spend on Singapore Airlines, Scoot, KrisShop, Kris+ and Pelago purchases",
+  "Enjoy 2.4 KrisFlyer miles per S$1 spend on dining, food delivery, online shopping, online travel and transport spend, with min. S$1,000 annual spend on Singapore Airlines, Scoot and KrisShop",
+  "Enjoy 1.2 KrisFlyer miles per S$1 spend on all other spend",
+  "5,000 KrisFlyer miles with first eligible spend (min. S$5)",
+  "10,000 KrisFlyer miles with payment of annual renewal fee",
+  "Earn up to additional 6 bonus KrisFlyer miles per S$1 spend when you open a KrisFlyer UOB Account and credit your salary (min. S$1,600). Insured up to S$100k by SDIC.",
+  "No miles conversion fee",
+  "Exclusive benefits on Scoot (via flyscoot.com/krisflyeruob), Kris+, Grab rides and more!",
+  "At MoneySmart, we strive to keep our information accurate and up to date. This information may be different from what you see when you visit a financial institution, service provider, or specific product site. MoneySmart shall not be liable to compensate the Customer should the information is not as updated as our Partner.",
+  "Terms and conditions apply for all above mentioned privileges. Find out more \nhere\n."
+ ],
+ "sign_up_offers": [],
+ "links": {
+  "product": "https://www.moneysmart.sg/credit-cards/krisflyer-uob-credit-card",
+  "review": "https://blog.moneysmart.sg/credit-cards/uob-krisflyer-credit-card/"
+ },
+ "citation": {
+  "id": "moneysmart:fbcf8e7229a3",
+  "url": "https://www.moneysmart.sg/credit-cards?page=3",
+  "title": "KrisFlyer UOB Credit Card",
+  "source_type": "aggregator",
+  "retrieved_at": "2026-09-27T05:27:18+00:00",
+  "sha256": "fbcf8e7229a38611c3c767cd8447164e413b1306df1f54bebee269e3abf15202",
+  "snapshot": "data/raw/moneysmart/credit-cards-p3-707cb52c.html"
+ },
+ "extra": {
+  "summary": "The KrisFlyer UOB Credit Card accelerates your miles earning, especially if you frequently fly Singapore Airlines or Scoot. Unlock 3 miles per S$1 spend on dining, food delivery, online shopping, online travel and transport spend, with min. $1,000 annual spend on Singapore Airlines, Scoot and KrisShop. This makes it ideal for everyday spending, not just flights. While the base earn rate is 1.2 miles per S$1, the boosted rates offer substantial value, if you maximize bonus categories. ",
+  "badges": [
+   "Earn up to 3 Miles per S$1 spend"
+  ],
+  "network": [
+   "Mastercard"
+  ],
+  "mobile_wallets": [
+   "Apple Pay",
+   "Samsung Pay"
+  ],
+  "groups": {
+   "annual-interest-rate-and-fees": {
+    "Annual Interest Rate": "27.80",
+    "Annual Principal Fee": "196.20",
+    "Supplementary Annual Fee": "1st Supplementary Card free, $98.10 for subsequent Supplementary Cards",
+    "Fee Waiver": "1st year fee waiver",
+    "Minimum Monthly Repayment": "3% or S$50, whichever is higher",
+    "Interest Free Period": "21 days"
+   },
+   "minimum-income-requirements": {
+    "Singaporean/PR Minimum Annual Income": "30000",
+    "Non-Singaporean Minimum Annual Income": "40000"
+   },
+   "card-association": {
+    "Mastercard": "true"
+   },
+   "wireless-payment": {
+    "Apple Pay": "true",
+    "Samsung Pay": "true"
+   }
+  },
+  "our_takes": {
+   "our-take": "The KrisFlyer UOB Credit Card accelerates your miles earning, especially if you frequently fly Singapore Airlines or Scoot. Unlock 3 miles per S$1 spend on dining, food delivery, online shopping, online travel and transport spend, with min. $1,000 annual spend on Singapore Airlines, Scoot and KrisShop. This makes it ideal for everyday spending, not just flights. While the base earn rate is 1.2 miles per S$1, the boosted rates offer substantial value, if you maximize bonus categories. Consider pairing with the KrisFlyer UOB Account for even more miles. Annual fee is waived for the first year.",
+   "good-for": "Frequent flyers aiming to maximize KrisFlyer miles on Singapore Airlines and Scoot flights and earn travel perks.\nDiners and online shoppers looking to accelerate miles earnings through dining, food delivery and online purchases with minimum annual spending.\nSalary earners wanting to boost miles by crediting their salary into a KrisFlyer UOB Account and maximizing miles on daily spend.",
+   "things-to-note": "The annual fee is $196.20; factor this into your spending to ensure rewards outweigh the cost.\nA 3.25% foreign transaction fee applies; use a card with no fee for overseas spending instead.\nLate payment fees are S$100; avoid these by setting up payment reminders to pay on time.\nInsured up to S$100k by SDIC."
+  },
+  "updated_at": "2026-02-13T14:50:43+08:00"
+ }
+}

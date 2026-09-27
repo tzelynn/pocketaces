@@ -1,0 +1,27 @@
+{
+ "card_id": "hsbc-travelone",
+ "product_pages": [
+  {
+   "id": "bank:b534267d793d",
+   "url": "https://www.hsbc.com.sg/credit-cards/products/travelone/",
+   "source_type": "official",
+   "retrieved_at": "2026-09-27T08:37:18+00:00",
+   "sha256": "b534267d793d04a26319a15d3db96180a478c3f6bebbe49cfa25b310cc84f093",
+   "snapshot": "data/raw/bank/www-hsbc-com-sg-credit-cards-products-travelone-19e5ade2.html"
+  }
+ ],
+ "documents": [
+  {
+   "url": "https://www.hsbc.com.sg/content/dam/hsbc/sg/documents/credit-cards/travelone/credit-card-reward-points-programme-terms-and-conditions.pdf",
+   "error": "robots.txt disallows https://www.hsbc.com.sg/content/dam/hsbc/sg/documents/credit-cards/travelone/credit-card-reward-points-programme-terms-and-conditions.pdf",
+   "changed": false
+  },
+  {
+   "url": "https://www.hsbc.com.sg/content/dam/hsbc/sg/documents/credit-cards/travelone/credit-card-mastercard-travel-pass-terms-and-conditions.pdf",
+   "error": "robots.txt disallows https://www.hsbc.com.sg/content/dam/hsbc/sg/documents/credit-cards/travelone/credit-card-mastercard-travel-pass-terms-and-conditions.pdf",
+   "changed": false
+  }
+ ],
+ "changed": false,
+ "removed_documents": []
+}

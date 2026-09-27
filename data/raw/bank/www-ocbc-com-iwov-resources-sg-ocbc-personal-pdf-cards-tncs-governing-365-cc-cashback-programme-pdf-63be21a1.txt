@@ -1,0 +1,314 @@
+OCBC Bank
+65 Chulia Street OCBC Centre
+Singapore 049513
+TERMS AND CONDITIONS GOVERNING OCBC 365 CREDIT CARD CASHBACK
+PROGRAMME
+The following terms and conditions and any other rules, procedures or instructions which we
+may issue from time to time (collectively "Terms and Conditions") shall apply to the OCBC
+365 Credit Card (“OCBC 365 Card”).
+These Terms and Conditions together with the terms of the OCBC Cardmembers Agreement
+(as may be amended, modified and supplemented by OCBC from time to time) shall govern
+and apply to the OCBC 365 Card. In the event of any conflict or inconsistency between these
+Terms and Conditions and the OCBC Cardmembers Agreement, these Terms and
+Conditions shall prevail in so far as they relate to the OCBC 365 Card.
+All terms and references used in these Terms and Conditions and which are defined or
+construed in the OCBC Cardmembers Agreement but are not defined or construed in these
+Terms and Conditions shall have the same meaning and construction in these Terms and
+Conditions.
+1. Definitions
+a) “Base Cashback” refers to cashback awarded every calendar month under Clause 2B.
+b) “Card Transactions” refers to the transactions successfully charged and posted to the Card
+Account by the Principal and Supplementary Cardmembers in each calendar month, but
+excludes the Exclusions.
+c) “Cashback” refers to the cashback awarded every calendar month under Clause 2 below.
+d) “Exclusions” refers to the Card Transactions described under Clause 3(b) below.
+e) “Minimum Spend Requirement” refers to all minimum spend requirements set out under
+Clause 3(a) below.
+2. Cashback
+The OCBC 365 Card shall come with the following features:
+A. Subject to the Minimum Spend Requirement being met:
+a) 5% cashback on “Dining” Card Transactions
+d
+(i) “Dining” is defined as Card Transactions classified under the following Merchant Category e
+tim
+Code (“MCC”) and names: iL
+n
+o
+• MCC 5811 (Caterers); ita
+ro
+• MCC 5812 (Restaurants and eating places); and p ro
+C
+• F
+F
+o
+o
+o
+o
+d
+d
+p
+R
+a
+e
+n
+s
+d
+t
+a
+a
+,
+u
+G
+ra
+r
+n
+a
+t
+b
+s
+F
+)
+ood and Deliveroo made under the MCC 5811, 5812, or 5814 (Fast g n ik
+n a B
+e
+W 2
+3 0 0 0
+2
+se
+n
+3
+9 1
+ih
+C
+:.o
+a e -N .g
+sre
+v
+O
+e
+R
+.o
+C
+1(ii) Cashback on Dining includes:
+• all in-store transactions in Singapore and Overseas; and
+• Online transactions such as food delivery made via the internet and processed by
+the respective merchants/acquirers as an online transaction type through the
+Visa/MasterCard Worldwide networks.
+(iii) For the avoidance of doubt, all Dining transactions below will not be eligible to receive
+the 5% cashback under this category. Such transactions will only be eligible to receive the
+Base Cashback:
+• hotels dining and wedding banquet; and
+• transactions not made in person such as telephone order or mail order.
+b) 3% cashback on “Groceries” Card Transactions
+(i) “Grocery” is defined as Card Transactions made in all grocery stores classified under
+the MCC 5411 (Grocery Stores), which includes:
+• In-store Card Transactions made in grocery stores in Singapore and Overseas; and
+• Online Card Transactions such as grocery delivery made via the internet and
+processed by the respective merchants/acquirers as an online transaction type
+through the Visa/MasterCard Worldwide networks.
+c) 3% cashback on “Land Transport” Card Transactions
+(i) “Land Transport” is defined as Card Transactions classified under the following MCC:
+a. MCC 4111 (Local/Suburban Commuter Passenger Transportation);
+b. MCC 4011 (Railroads);
+c. MCC 4112 (Passenger Railways);
+d. MCC 4121 (Taxicabs and Limousines); and
+e. MCC 4131 (Bus Lines, Including Charters, Tour Buses);
+and is processed by the respective merchants/acquirers (whether as an online transaction
+or otherwise) through the Visa/MasterCard Worldwide networks.
+(ii) For avoidance of doubt, EZ-Link and Transit Link top up will not be eligible to earn
+the 3% cashback under this category. Only Account-Based Ticketing and the use of
+contactless payment for public transport fare payments will be eligible to earn the 3%
+cashback under this category.
+d) 6% cashback on “Petrol” Card Transactions
+(i) “Petrol” is defined as Card Transactions classified under the following MCC:
+• MCC 5541 (Service Stations); and
+• MCC 5542 (Automated Fuel Dispensers);
+(ii) Cashback on petrol transactions includes all transactions over the counter in
+Singapore and Overseas, but excludes fleet card top ups such as Abecha Esso Fleet
+2Card or Speedpass, or such others similar top-up transactions.
+e) 3% cashback on “Recurring Telecommunications bill” and “Recurring Electricity
+bill” Card Transactions
+(i) “Recurring Telecommunications bill” is defined as bill payment made to the
+telecommunication companies in Singapore and is charged to the OCBC 365 Card on a
+monthly basis via the recurring payment service.
+(ii) “Recurring Electricity bill” is defined as bill payment made to the electricity companies in
+Singapore and is automatically charged to the OCBC 365 Card on a monthly basis via
+the recurring payment service.
+f) 3% cashback on “Watsons” Transactions
+(i) “Watsons” is defined as Card Transactions made at Watsons and processed under
+merchant description “WATSONS*” and “Watsons”, which includes:
+a. All Watsons in-store transactions made in Singapore and Overseas; and
+b. Online Card Transactions made at Watsons via the internet and processed as an
+online transaction type through the Visa/MasterCard Worldwide networks.
+(ii) For the avoidance of doubt, the below transactions will not be eligible to receive the 3%
+cashback under this category. Such transactions will only be eligible to receive the Base
+Cashback:
+• Watsons purchases made on online marketplaces. Examples of online marketplaces
+are – Lazada, Shopee, Amazon etc
+g) 3% cashback on “Streaming” Card Transactions
+(i) “Streaming” is defined as transactions classified under the following MCC and names:
+• MCC 4899 (Cable, Satellite, and Other Pay Television and Radio Services); and
+• Spotify, APPLE.COM/BILL CORK IE_U, APPLE.COM/BILL ITUNES.COM_U,
+ITUNES.COM
+h) 3% cashback on “Electric Vehicle Charging” Card Transactions
+(i) “Electric Vehicle Charging” is defined as Card Transactions classified under the MCC 5552
+(Electric Vehicle Charging).
+B. 0.25% cashback on the following transactions:
+• all Card Transactions if the Minimum Spend Requirement is not met,
+• all Card Transactions (excluding Card Transactions under the categories listed at
+Clause 2A) if the Minimum Spend Requirement is met; and
+• Card Transactions expressly stated in Clause 2A(a)(iii) above.
+C. 1% cashback on “Advertising Platform” Card Transactions with Full Payment Made
+(i) “Advertising Platform” is defined as merchants classified under the following Merchant
+3Category Codes (“MCC”) and the following merchant names:
+• 99.CO
+• EDGEPRO
+• PROPERTYGURU
+• STREETSINE
+• FACEBOOK and META made under MCC 7311 (Advertising Services)
+(ii) For avoidance of doubt, payments made via mobile wallet services (that OCBC Bank
+may determine in its sole discretion) for “Advertising Platform” Card Transactions with
+full payment made will not be eligible for the 1% cashback under this Clause C.
+D. 0.5% cashback on “Advertising Platform” Card Transactions with Payments Made
+in Instalments
+(i) “Advertising Platform” is defined as merchants classified under the following Merchant
+Category Codes (“MCC”) and the following merchant names:
+• 99.CO
+• EDGEPRO
+• PROPERTYGURU
+• STREETSINE
+• FACEBOOK and META made under MCC 7311 (Advertising Services)
+(ii) For avoidance of doubt, payments made via mobile wallet services (that OCBC Bank may
+determine in its sole discretion) for “Advertising Platform” Card Transactions with
+payments made in instalments will not be eligible for the 0.5% cashback under this Clause
+D.
+(iii) For avoidance of doubt, 0.5% cashback on “Advertising Platform” Card Transactions with
+payments made in instalments (pursuant to Clause 2D) will be awarded on each payment
+period’s instalment amount, with the 0.5% cashback earned credited into the Principal
+Cardmember’s Card Account in the following month, based on the date of each posted
+instalment transaction.
+3. Minimum Spend Requirement
+a) The Minimum Spend Requirement must be met to receive the Cashback listed at Clause
+2A above. There is no minimum spend requirement to receive the Base Cashback. The
+Minimum Spend Requirement can be aggregated between the Principal and Supplementary
+Cardmembers and excludes transactions referred to in Table 1 of Clause 3(c).
+The maximum amount of Cashback that one account (the Principal and all Supplementary
+Cardmembers together) can earn in any calendar month is S$160.
+Minimum Spend
+Cashback Cap
+Requirement
+S$800 S$80
+S$1,600 S$160
+4b) There is no minimum spend requirement to receive the Cashback listed under Clauses
+2C and 2D. There is also no cap on the amount of Cashback that one Card Account (posted
+by both the Principal and all Supplementary Cardmembers) can earn pursuant to Clauses
+2C and 2D in any calendar month.
+c) Card transactions made under Table 1 below (or any other categories or transaction types
+as determined by OCBC Bank in its absolute discretion from time to time) shall be excluded
+from the computation of the Minimum Spend Requirement for Cashback.
+Table 1
+MCC Excluded Categories
+4784 Tolls and Bridge Fees
+4829 Wire Transfer Money Orders (WTMOs)
+5047 Medical, Dental, Ophthalmic and Hospital Equipment and
+Supplies
+5199 Nondurable Goods (Not Elsewhere Classified)
+5262 Marketplaces (only for Shopee Pay)
+5993 Cigars, Stores and Stands
+6010, 6012 Member Financial Institution–Manual Cash
+Disbursements/ Merchandise And Services
+6051 Quasi Cash–Merchant (Non-Financial Institutions –
+Foreign Currency, Non-Fiat Currency, Cryptocurrency)
+6211 Securities–Brokers and Dealers
+6300, 5960 Insurance Sales, Underwriting and Premiums/ Direct
+Marketing Insurance Services
+6513 Real Estate Agents and Managers
+6540 Non-Financial Institutions – Stored Value Card
+Purchase/Load
+7349 Cleaning, Maintenance and Janitorial Services
+7523 Automobile Parking Lots and Garages
+7995 Gambling - Betting, including Lottery Tickets, Casino
+Gaming Chips, Off-Track Betting, and Wagers at Race
+Tracks
+8062 Hospitals
+8211, 8220, Schools, Elementary and Secondary / Colleges,
+8241, 8244, Universities, Professional Schools and Junior Colleges /
+8249, 8299 Schools, Correspondence / Schools, Business and
+Secretarial / Schools, Trade and Vocational / Schools
+And Educational Services–Not Elsewhere Classified
+8398,8661 Charitable/Religious Organizations
+8651 Political Organizations
+8675 Automobile Associations
+8699 Organizations, Membership-Not Elsewhere Classified
+(Labor Union)
+9211 Court Costs Including Alimony and Child Support
+9222 Fines
+59223 Bail and Bond Payments
+9311 Tax Payments
+9399 Government Services–Not Elsewhere Classified
+9402 Postal Services–Government Only
+9405 Intra-Government Purchases–Government Only
+Cashback is not awarded on the following: Annual card fees, Cash-On-Instalments,
+Instalment Payment Plan (excluding specified instalment payments pursuant to Clause
+2D), PayLite, tax payments, interest, late payment charges, cash advances, balance
+transfers, bill payments made via Internet Banking, AXS or SAM network, EZ-Link and
+Transit Link top up transactions, Shopee Pay and other fees and charges.
+4. General Terms and Conditions
+a) Cashback is computed based on 2 decimal places per transaction without any rounding.
+b) Cashback earned will be credited into the Principal Cardmember’s Card Account in the
+following month based on posted transaction. Cashback earned by a Supplementary
+Cardmember will be credited to the Card Account of the Principal Cardmember.
+c) The Minimum Spend Requirement can be aggregated between the Principal and
+Supplementary Cardmembers.
+d) We reserve the right to vary the percentage of the Cashback or revise the Minimum Spend
+Requirement without notice at any time or from time to time.
+e) Purchases charged to the OCBC 365 Card but yet to be posted to the Card Account will
+not be taken into account in the computation of Cashback to be awarded.
+f) Refunded purchases will be deducted from the relevant monthly billed amount for the
+computation and award of Cashback. Any reversed portion of Cashback will be reflected in
+the Billing Statement of the following month.
+g) We may retract, deduct and/or re-compute any Cashback awarded if any Cardmember
+fails to effect due payment for the Card Transactions, abuse the Programme as deemed
+fit by the bank or if the Card Account is terminated by a Cardmember or the Bank.
+h) Any Cashback awarded will be reflected in the Billing Statement provided on a monthly
+basis. Such Cashback will be automatically offset against that month’s billed amount.
+i) We reserve the right to replace the Cashback with another item or kind of reward as we may
+determine without notice at any time or from time to time.
+j) We reserve the right at any time without giving any reason or notice to the Cardmember to
+deduct, withdraw or cancel any Cashback awarded to you without liability. Cardmember will
+not be entitled to any payment or compensation whatsoever in respect of such deduction,
+withdrawal or cancellation.
+k) The crediting of Cashback to Cardmember’s Card Account will be entirely at our discretion
+and we shall not be liable or responsible for any loss or damage suffered or incurred by any
+Cardmember in connection with the OCBC 365 Card.
+6l) Our decision on all matters relating to or in connection with the OCBC 365 Card (including
+this Programme) shall be final and binding on all Cardmembers.
+m) In the event of any inconsistency between these Terms & Conditions and any brochure,
+marketing or promotional material relating to the OCBC 365 Card, these Terms & Conditions
+shall prevail.
+n) We may, at our sole discretion and without notice, suspend the OCBC 365 Card at any time.
+o) All Cashback will be awarded in accordance with, among other things, the relevant
+recognised universal merchant category codes designated by the relevant merchant. As
+such, OCBC Bank shall not be liable in any way whatsoever to reward any Cashback or
+compensate any Cardmember for any losses, liabilities, expenses or claims suffered or
+incurred by any such Cardmember if a relevant merchant classifies its universal merchant
+category code inaccurately and thereby causing the inability of OCBC Bank to reward any
+Cashback to any Cardmember.
+p) The main business activity of a merchant and any card transaction performed at these
+merchants are classified under MCCs assigned by Visa/Mastercard, which are determined
+by the merchant and the merchant’s acquiring bank. The main business activity of a
+merchant and the assigned MCC is not determined by OCBC Bank.
+5. Amendments
+We may vary, add, delete, amend or modify any one or more provisions in these Terms and
+Conditions at any time and from time to time without notice. You are deemed to accept and
+are bound by such variations, additions, deletions, amendments and/or modifications if you
+do not terminate the use of the OCBC 365 Card.
+6. Rights of third parties
+A person who is not a party to these Terms and Conditions has no right under the Contracts
+(Rights of Third Parties) Act 2001 to enforce any of these Terms and Conditions.
+7. Governing law and jurisdiction
+These Terms and Conditions shall be governed by and construed in accordance with the
+laws of the Republic of Singapore, and you irrevocably submit to the non-exclusive
+jurisdiction of the Courts of the Republic of Singapore.
+Version Date: 11 April 2025
+7

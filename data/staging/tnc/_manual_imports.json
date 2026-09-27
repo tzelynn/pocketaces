@@ -1,0 +1,12 @@
+{
+ "https://www.hsbc.com.sg/content/dam/hsbc/sg/documents/credit-cards/revolution/offers/revolution-credit-card-reward-points-terms-and-conditions.pdf": {
+  "source": "bank",
+  "url": "https://www.hsbc.com.sg/content/dam/hsbc/sg/documents/credit-cards/revolution/offers/revolution-credit-card-reward-points-terms-and-conditions.pdf",
+  "final_url": "https://www.hsbc.com.sg/content/dam/hsbc/sg/documents/credit-cards/revolution/offers/revolution-credit-card-reward-points-terms-and-conditions.pdf",
+  "retrieved_at": "2026-09-27T05:24:20+00:00",
+  "sha256": "e3778406a7d0c2cec70afffbf8cbfe1d23ed7ed0ff80aeb0537f8e410795703e",
+  "content_type": "application/pdf",
+  "path": "data/raw/bank/manual-hsbc-revolution-2a2b774d.pdf",
+  "status": 200
+ }
+}

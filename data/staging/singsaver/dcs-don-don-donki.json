@@ -1,0 +1,114 @@
+{
+ "source": "singsaver",
+ "source_id": "dcs-don-don-donki-card",
+ "source_url": "https://www.singsaver.com.sg/credit-card/products/dcs-don-don-donki-card",
+ "name": "DCS DON DON DONKI Card",
+ "bank": "DCS",
+ "card_id": "dcs-don-don-donki",
+ "image_url": "https://mhgprod.blob.core.windows.net/singsaver/strapi-uploads/xs_blt864311210e64eda2_dcc99b5b4e.webp",
+ "annual_fee": 196.2,
+ "annual_fee_note": "S$ | First Year Waived",
+ "min_annual_income": 30000.0,
+ "earn_rates": {
+  "percent:baseline": {
+   "value": 5.0,
+   "unit": "percent",
+   "note": null
+  },
+  "mpd:baseline": {
+   "value": 0.22,
+   "unit": "mpd",
+   "note": null
+  },
+  "percent:local": {
+   "value": 5.0,
+   "unit": "percent",
+   "note": "Rebate of up to S$1,000 spent per month at DON DON DONKI outlets Capped at S$50 per month."
+  },
+  "percent:overseas": {
+   "value": 5.0,
+   "unit": "percent",
+   "note": null
+  },
+  "mpd:local": {
+   "value": 0.22,
+   "unit": "mpd",
+   "note": null
+  },
+  "mpd:overseas": {
+   "value": 0.22,
+   "unit": "mpd",
+   "note": null
+  },
+  "points_per_dollar:baseline": {
+   "value": 1.0,
+   "unit": "points_per_dollar",
+   "note": null
+  },
+  "percent:supermarket": {
+   "value": 5.0,
+   "unit": "percent",
+   "note": "Rebate of up to S$1,000 spent per month at DON DON DONKI outlets Capped at S$50 per month."
+  }
+ },
+ "caps": {
+  "cashback_bonus_cap": {
+   "value": 50.0,
+   "note": "S$ | S$50 total cash rebate across all eligible categories per statement month."
+  }
+ },
+ "highlights": [
+  "On all eligible spends with a rebate cap of S$50 per month on up to S$1,000 spent.",
+  "pros: Up to 5% Rebate at DON DON DONKI with regular card.",
+  "pros: Up to 2% Rebate at DON DON DONKI with S$500 Limit card.",
+  "pros: Earn 1 Club Rewards Points when you spend outside DON DON DONKI. No expiry to your Club Rewards Points,",
+  "pros: One complimentary lounge access per calendar year.",
+  "pros: Complimentary insurance coverage of up to S$1 million for Regular Credit Cardmembers.",
+  "cons: Rebates$ will expire after 60 days and will be forfeited if expired.",
+  "pros: Supermarket rebate",
+  "pros: Travel insurance",
+  "pros: Installment",
+  "pros: No expiry air miles"
+ ],
+ "sign_up_offers": [],
+ "links": {},
+ "citation": {
+  "id": "singsaver:575f5c6f5971",
+  "url": "https://www.singsaver.com.sg/credit-card/products/dcs-don-don-donki-card",
+  "title": "DCS DON DON DONKI Card",
+  "source_type": "aggregator",
+  "retrieved_at": "2026-09-27T05:25:40+00:00",
+  "sha256": "575f5c6f59714d16fca48f26d83b90713b7b897663cbd1e5984e4d2df1d87cbf",
+  "snapshot": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-dcs-don-don-donki-card-bf5d3722.html"
+ },
+ "extra": {
+  "network": [
+   "Diners Club International"
+  ],
+  "mobile_wallets": null,
+  "fx_fee_percent": 3.25,
+  "miles_conversion_fee": null,
+  "categories": [
+   "category:all-credit-cards",
+   "category:cashback",
+   "category:dining-promo",
+   "category:installment",
+   "category:promo",
+   "category:retail-promo",
+   "category:travel",
+   "needs:0-interest-rate",
+   "needs:airport-lounge-transfer",
+   "needs:all-cards-with-dining-promo",
+   "needs:all-cards-with-promotion",
+   "needs:all-cards-with-retail-promo",
+   "needs:all-cashback-cards",
+   "needs:all-credit-cards",
+   "needs:all-installment-cards",
+   "needs:all-travel-cards",
+   "needs:free-travel-insurance",
+   "needs:online-booking-discount"
+  ],
+  "tag": null,
+  "description": "The DCS DON DON DONKI Card allows cardholders to earn 5% rebate at DON DON DONKI outlets. Club Rewards Points can also be earn to redeem rewards such as shopping/dining vouchers and air miles. Plus, your Club Rewards Points never expire!"
+ }
+}

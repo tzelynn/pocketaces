@@ -1,0 +1,29 @@
+{
+ "card_id": "dbs-takashimaya-american-express",
+ "product_pages": [
+  {
+   "id": "bank:977b3b7bb2f8",
+   "url": "https://www.dbs.com.sg/personal/cards/credit-cards/dbs-takashimaya-card",
+   "source_type": "official",
+   "retrieved_at": "2026-09-27T08:36:46+00:00",
+   "sha256": "977b3b7bb2f8c8b14f5a72bdc0eccc0b46743d0f426671e1a41a04a82dd3b672",
+   "snapshot": "data/raw/bank/www-dbs-com-sg-personal-cards-credit-cards-dbs-takashimaya-card-dec40f51.html"
+  }
+ ],
+ "documents": [
+  {
+   "url": "https://www.dbs.com.sg/iwov-resources/media/pdf/cards/dbs-takashimya-card-tnc.pdf",
+   "error": "robots.txt disallows https://www.dbs.com.sg/iwov-resources/media/pdf/cards/dbs-takashimya-card-tnc.pdf",
+   "changed": false
+  },
+  {
+   "url": "https://www.dbs.com.sg/iwov-resources/media/pdf/cards/dbs-takashimya-cc-tnc.pdf",
+   "error": "robots.txt disallows https://www.dbs.com.sg/iwov-resources/media/pdf/cards/dbs-takashimya-cc-tnc.pdf",
+   "changed": false
+  }
+ ],
+ "changed": true,
+ "removed_documents": [
+  "https://www.dbs.com.sg/iwov-resources/media/pdf/deposits/paylah-newuser-joinlah-tnc.pdf"
+ ]
+}

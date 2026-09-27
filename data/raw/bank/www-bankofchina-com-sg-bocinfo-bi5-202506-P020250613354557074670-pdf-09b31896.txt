@@ -1,0 +1,321 @@
+Terms and Conditions Governing BOC Visa Infinite Card Programme (with effect from
+15 June 2025)
+Under the Bank of China (“BOC”) Visa Infinite Card Programme (this “Programme”), cash
+rebate will be awarded for retail spend made by BOC Visa Infinite Cardmembers
+(“Cardmembers”) for transactions made with the BOC Visa Infinite Card (“Card”).
+The terms and conditions of this Programme (“Terms and Conditions”) are set out below.
+These Terms and Conditions are additional to, and shall be read together with, the terms
+contained in the prevailing BOC Cardmember Agreement, which shall continue to apply. By
+participating in this Programme, Cardmembers shall be deemed to have read, understood and
+accepted these Terms and Conditions (as may be amended, supplemented or varied from time
+to time). Unless the context otherwise requires or these Terms and Conditions expressly
+provide otherwise, all words and expressions defined in the prevailing BOC Cardmember
+Agreement shall have the same meanings when used or referred to below.
+1. Definitions
+For the purpose of these Terms and Conditions:
+“Billing Cycle” means the length of time between the last Card statement closing date and the
+next;
+“Card Account” means the account of the Cardmember maintained with BOC in respect of
+the Card;
+“Card Transactions” means the transactions successfully charged and posted to the Card
+Account which Cardmember is the Principal cardholder of or the Card that is issued to a
+person that Cardmember authorises as a Supplementary cardholder, but excludes the
+Exclusions;
+“Exclusions” refers to the Card Transactions described under Clause 3 below.
+2. Cash Rebate
+There is no minimum spend required to earn the cash rebate under the Programme. There is
+also no cap on the maximum amount of cash rebate that you can earn in respect of
+transactions under categories 2.1, 2.2, 2.3 and 2.4 below. However, a transaction will qualify
+for cash rebate in only one category e.g. a Green Transport transaction (category 2.3) will not
+earn cash rebate as Local Spend (category 2.1). No cash rebate will be awarded in respect of
+any transactions that BOC deems to be corporate/commercial transactions or non-retail in
+nature. The award of cash rebate under the Programme is subject to further exclusions.
+2.1 1.6% cash rebate on Local Spend
+1.6% cash rebate will be awarded for Local Spend card transactions for each billing cycle.
+“Local Spend” refers to all Card transactions charged in Singapore, and online transactions
+effected in Singapore dollars or foreign currencies at merchants with payment gateway in
+Singapore.
+Page 1 of 8
+V2025052.2 2.4% cash rebate on Overseas Spend
+2.4% cash rebate will be awarded for Overseas Spend for each billing cycle.
+“Overseas Spend” means all Card transactions charged overseas, including card transactions
+made overseas but effected/charged in Singapore dollars, and online transactions effected in
+Singapore dollars or foreign currencies at merchants with payment gateway outside of
+Singapore.
+2.3 Up to 3% cash rebate on Electric Vehicle Charging
+0.3% cash rebate will be awarded for Electric Vehicle Charging transactions made with the
+assigned Merchant Category Code (MCC) 5552 spend for each billing cycle. 3% cash rebate
+will be awarded for Electric Vehicle Charging (MCC) 5552 spend for each billing cycle with
+minimum total card spend of S$2,500.
+2.4 0.3% cash rebate on Insurance and Education Spend
+0.3% cash rebate will be awarded for Card transactions (including online transactions) made
+on Insurance and/or Education for each billing cycle.
+“Insurance” means all transactions with the assigned Merchant Category Code (MCC) 5960
+– Direct Marketing Insurance Services and 6300 – Insurance Sales, Underwriting and
+Premiums.
+“Education” means all transactions with the assigned Merchant Category Code (MCC) 8220
+– Colleges, Universities, Professional Schools, and Junior Colleges.
+3. Exclusions
+3.1 The following Card Transactions (collectively referred to as the “Exclusions”) do not qualify
+to earn any cash rebate (as determined by BOC in its reasonable discretion and may be
+amended, supplemented or varied from time to time, without prior notice):
+(a) any interest charges, card annual fees, late payment charges, goods and services taxes,
+cash advances, fund transfers, purchases made through Installment Payment Plans (IPP), any
+form of purchase or statement instalments, tax payment plans, unposted, cancelled, disputed
+and refunded transactions, all fees charged by BOC or any other third parties (if any);
+(b) any payment made with the following Merchant Category Codes (“MCC”);
+Category MCC Description
+Financial 4784 Toll and Bridge Fees
+Service and 4829 Money Transfer
+Payments,
+such as but not 4900 Utilities – Electric, Gas, Water and Sanitary
+limited to
+Page 2 of 8
+V202505Retail 5199 Nondurable Goods (Not Elsewhere Classified)
+Merchants and 5815 Digital Goods Media: Books, Movies, Music
+Goods, such Direct marketing –Combination Catalog and Retail
+5965
+as but not Merchants
+limited to 5993 Cigar Stores and Stands
+Quasi 6010, Financial Institutions – Manual Cash Disbursements,
+Cash/Financial 6012 Merchandise, Services, and Debt Repayment
+Service, such Quasi Cash–Financial Institutions, Merchandise and
+6050
+as but not Services
+limited to Non-Financial Institutions – Foreign Currency, Non-Fiat
+Currency (for example: Cryptocurrency), Money Orders
+6051
+(Not Money Transfer), Account Funding (not Stored Value
+Load), Travelers Cheques, and Debt Repayment
+6211 Security Brokers/Dealers
+6513 Real Estate agents and managers
+Quasi Cash-Remote Stored Value Load-Financial Institute
+6529
+Rentals
+6530 Quasi Cash-Remote Stored Value Load-Merchant Rentals
+6534 Quasi Cash-Remote Money Transfers
+Non-Financial Institutions – Stored Value Card
+6540
+Purchase/Load
+7273 Dating and Escort Services
+Computer Programming, Data Processing, and Integrated
+7372
+Systems Design Services
+7399 Business Services (Not Elsewhere Classified)
+7511 Quasi Cash – Truck Stop Trxns
+7523 Parking Lots, Parking Meters and Garages
+Betting, including Lottery Tickets, Casino Gaming Chips,
+7995
+Off-Track Betting, and Wagers at Race Tracks
+8211,
+Elementary and Secondary Schools, Correspondence
+8241,
+Schools Business and Secretarial Schools, Vocational and
+8244,
+Trade Schools, Schools and Educational Services (Not
+8249,
+Elsewhere Classified)
+8299
+Education
+Institutions,
+8398 Charitable Social Service Organizations
+such as but not
+limited to
+Professional 8651,
+Political Organizations, Religious Organizations
+Service and 8661
+Membership 8699 Membership Organizations (Not Elsewhere Classified)
+Organisations, 8999 Professional Services (Not Elsewhere Classified)
+such as but not
+9211 Court Costs, Including Alimony and Child Support
+limited to
+Government 9222 Fines
+service, such 9223 Bail and Bond Payments
+Page 3 of 8
+V202505as but not 9311 Tax Payments
+limited to 9402 Postal Services – Government Only
+9405 U.S. Federal Government Agencies or Departments
+9399 Government Services (Not Elsewhere Classified)
+(c) Some examples of merchants which are excluded:
+Category Examples
+Government Institutions / Services ACRA, CPF, HDB SEASON PARKING, ICA, LTA,
+MOM, Town Council, URA
+Financial Institutions / Services CardUp, FOREX.COM, helloPay, IG MARKETS,
+(including banks and brokerages) ipaymy, MatchMove Pay, MONEYBOOKERS.COM,
+OANDA PACIFIC, Saxo Cap Markets, Swiss Money
+Transfer
+Money Transfer and Remittance MoneyGram, Swiss Money Transfer, Wise, Western
+Services Union, WorldRemit
+Utility Bill Payments / Other SP Services , AXS, SAM payments
+Payments
+Prepaid accounts and payment EZLINK (FEVO), EZLINK (IMAGINE), TransitLink,
+service providers NETS FlashPay, SingTel Dash, Youtrip, GrabPay
+Top up, MatchMove Pay, HelloPay, ShopeePay
+Cleaning, Maintenance, and Helpling, Sendhelper
+Janitorial Services
+3.2 The above table of merchants is provided as an example and is not exhaustive. BOC
+reserves the right to add, remove and/or reclassify merchants in the above table from time to
+time at its reasonable discretion, without prior notice.
+3.3 A merchant’s registered MCC may not always correspond with its nature of business. The
+MCCs are assigned by the merchant’s acquiring bank. BOC does not determine the merchants’
+MCC. BOC shall not be liable in any way whatsoever relating to the categorisation of a
+merchant’s MCC.
+4. Complimentary Lounge Access
+4.1 Each principal BOC Visa Infinite Cardmember is eligible for 4 complimentary lounge visits
+to participating Plaza Premium Lounge per 12-month period (running from 1 November each
+year to 31 October the following year).
+4.2 Each complimentary visit is valid for one time use only.
+4.3 If the lounge is owned and operated by a third-party and not Plaza Premium Lounge, it
+may be excluded. Please refer to the Plaza Premium Lounge official website for the most
+accurate and up-to-date information, and for detailed location and operating hours, please visit
+www.plazapremiumlounge.com.
+Page 4 of 8
+V2025054.4 The Cardmember must present the BOC Visa Infinite Card in his/her name, along with the
+boarding pass for the day of travel and any additional identification that the lounge may require
+from the Cardmember, which may include passport, national identity card or driving license at
+the lounge reception to access the Plaza Premium Lounge.
+4.5 Each complimentary lounge visit grants complimentary access for one person only. The
+Cardmember’s travelling companion(s) may enjoy access to the lounge by using additional
+complimentary lounge visits under the Cardmember’s account. The Cardmember’s travelling
+companion(s) may also enjoy access to the lounge by making payment for entry. Payment
+must be made on the BOC Visa Infinite Card and paid directly to Plaza Premium Lounge to
+gain access to the lounge.
+4.6 BOC shall not be liable or responsible for reimbursement of any lounge usage by the
+Cardmember that exceeds the number of valid complimentary lounge visits he/she holds. The
+Cardmember shall bear the additional charges at their own costs.
+4.7 Use of the Plaza Premium Lounge remains subject to the prevailing terms and conditions
+imposed by Plaza Premium Lounge, which shall be Cardmember’s sole responsibility to
+comply with. Please visit www.plazapremiumlounge.com for more details.
+4.8 The lounge services are offered by Plaza Premium Lounge. BOC assumes no liability or
+responsibility for the acts or defaults of Plaza Premium Lounge, or defects in the goods or
+services offered by them. BOC is not an agent of Plaza Premium Lounge. Any dispute about
+the quality or service standard must be resolved directly with Plaza Premium Lounge. BOC will
+not be responsible for any injury, loss or damage or for any charges, costs or expenses of any
+kind whatsoever suffered as a result of the redemption or usage of their goods and/or services.
+4.9 By participating in the Programme, you are deemed to have consented to the collection,
+use and disclosure of your personal data by BOC and its suppliers, service providers, sponsors,
+promoters and/or their respective contractors for verifying your eligibility, contacting you by
+telephone, mobile phone, email, letter or text message regarding the Promotion(s), and all
+other purposes incidental to the Promotion(s).
+4.10 BOC shall not be held liable in the event of any refused entry by the lounges.
+4.11 Lounge usage is allowed for up to 2 hours at lounges located in China, and up to 3 hours
+at other lounge locations.
+4.12 This offer cannot be used in conjunction with other promotional offers and cannot be
+exchangeable, refundable, or transferrable for cash exchanged for cash or any other service.
+Any un-utilized complimentary airport lounge visits shall be void and, credit or kind.
+4.13 BOC and Plaza Premium Lounge reserve the right to vary the terms and conditions of
+this offer. Terms and conditions are subject to change without prior notice.
+5. Visa Concierge Service
+Page 5 of 8
+V2025055.1 The VISA Concierge Service (“Service”) is provided by VISA which is solely responsible
+for all services provided to Cardmembers (“Services”).
+5.2 Neither BOC nor any of its respective subsidiaries or affiliates shall be responsible for any
+loss or damages arising from the Services.
+5.3 For more information, visit www.concierge-asia.visa.com or search for Visa Concierge in
+the Apple App Store or Google Play. Please visit www.concierge-asia.visa.com/terms-and-
+conditions for the full Terms and Conditions.
+6. Other Terms and Conditions
+6.1 The total spend by a Cardmember and cash rebate awarded per Card Account in one
+billing cycle are based on posted local and foreign retail transactions in that billing cycle,
+excludes the Exclusions and such other transactions as determined by BOC from time to time
+at its reasonable discretion, may be amended, supplemented or varied without prior notice.
+6.2 Should Cardmembers’ spending be deemed to be for commercial and/or non-personal
+purposes, BOC reserves the right to refuse to award any cash rebate for such transactions,
+without prior notice. BOC reserves the right to cancel and reverse any cash rebate awarded in
+a Cardmember’s statement of account at any time if it deems that such cash rebate was not
+earned from qualifying spend of a Cardmember and the Cardmember shall not be entitled to
+any compensation or payment whatsoever.
+6.3 Combined spend from Principal and Supplementary Cards is allowed for the purpose of
+the award of cash rebate. Cash rebate awarded for the statement will be credited into the Card
+Account in the next billing cycle. The cash rebate awarded will be reflected on the Principal
+Cardmember’s monthly statement.
+6.4 The cash rebate amount for each transaction category will be computed based on the total
+value of all transactions in that category which are successfully charged to the Card and posted
+onto BOC’s systems in a statement month as shown in the Card statement in respect of that
+statement month, and will be rounded down to the nearest two decimal places.
+6.5 Transactions made must be posted transactions before the end of each billing cycle. BOC
+shall not be responsible for any delay in the transmission to BOC of evidence of retail
+purchases by merchants or any other third parties. Further, BOC identifies transactions and
+their categories via universal MCC assigned by Visa. The MCC is not decided by BOC but
+rather by the respective merchants and their acquiring banks. As such, BOC shall not be liable
+in any way whatsoever to award any rebate to any Cardmember or to compensate any
+Cardmember for any loss, liabilities, expenses or claims suffered or incurred by such
+Cardmember, if a relevant merchant classifies its MCC inaccurately and results in BOC not
+awarding any rebate to such Cardmember.
+6.6 The Cash rebate amount credited will be used to automatically offset the billed amount for
+the Card account in next statement month. The Cash rebate cannot be withdrawn as cash,
+cannot be transferred to any other BOC credit card or debit card accounts or BOC accounts
+Page 6 of 8
+V202505(otherwise agreed by BOC), and cannot be used to offset any minimum payment due, late
+payment charge, interest charges or any other fees imposed by BOC.
+6.7 In the event of any cancelled, disputed and/or reversed transactions for any reason
+(whether in whole or in part), Cardmember will need to make incremental spend to offset the
+reversed transaction amount in order to continue earning Cashback.
+6.8 In the event of a reversal, refund or cancellation of any posted transactions for any reason
+(whether in whole or in part), the amount of such reversed, refunded or cancelled posted
+transactions shall be deducted from the relevant monthly billed amount for computation and
+award of cash rebate. BOC reserves the right to debit the Card Account for cash rebate
+credited and/or charge a Cardmember in relation to such reversal, refund or cancellation of
+posted transactions.
+6.9 Where any Transaction posted to the Card account is subsequently voided, refunded,
+cancelled, reversed, disputed and/or reversed for any reason (whether in whole or in part),
+BOC shall have the sole discretion to reverse and forfeit the Cashback awarded in respect of
+the Transaction amount voided, refunded, cancelled, reversed, disputed and/or reversed.
+6.10 All unused cash rebate will be forfeited on the earlier of: (i) the expiry of such cash rebate
+at the end of two (2) calendar years from the month on which the cash rebate was first credited
+into the Card Account; or (ii) BOC’s receipt of a Principal Cardmember’s request to terminate
+his/her Card; or (iii) the termination of the Principal Card by BOC for any reason whatsoever.
+6.11 The Card Account must be in good standing at the time of crediting of the cash rebate. In
+the event the Card Account is delinquent, terminated or suspended for any reason whatsoever
+before the cash rebate is credited into the said Card Account, BOC reserves the right to forfeit
+the cash rebate at its sole discretion.
+6.12 BOC may vary the percentage of the cash rebate or revise the minimum spend required
+at any time without giving any reason.
+6.13 BOC’s records of all matters relating to this Programme are conclusive and binding on
+Cardmembers. BOC is entitled, for any reason and at any time, without liability, to suspend the
+computation or awarding of cash rebate, rectify any errors in the computation, or otherwise
+adjust such computation. Any abuse or fraud in respect of the issuance of cash rebate may
+result in the cancellation of cash rebate already credited into the Card Account.
+6.14 BOC may, at its reasonable discretion and without prior notice, suspend or discontinue
+this Programme at any time.
+6.15 In the case of any dispute, BOC’s decision on all matters relating to the Card account and
+the Programme shall be final, conclusive and binding and no payment or compensation will be
+given or paid by BOC to any person. BOC shall not be obliged to give any reason or enter into
+any correspondence with any person on any matter relating to its decision.
+6.16 By participating in this Programme, a Cardmember irrevocably consents and authorises
+BOC and its agents and vendors (including but not limited to the parties involved in organising,
+Page 7 of 8
+V202505promoting and conducting this Programme) to collect, use and disclose his/her personal data
+to any person for the purpose of this Programme, and confirm that he/she has read and agrees
+to be bound by the terms of BOC’s Personal Data Protection Policy, as may be amended,
+supplemented and/or substituted by BOC from time to time and without prior notice, a copy of
+which can be found on www.bankofchina.com/sg/aboutus.
+6.17 BOC shall not be liable if it is unable to perform its obligations under these Terms and
+Conditions, due directly or indirectly to the failure of any machine or communication system,
+industrial dispute, war, Acts of God, or anything outside the control of BOC or its servants or
+agents.
+6.18 BOC shall not be liable for any errors, delays, omissions in the performance of its
+obligations under these Terms and Conditions.
+6.19 BOC shall have the absolute discretion to use any agents, contractors, vendors or third
+parties to administer and/or implement this Programme and BOC shall not be liable to any
+person for any act of omission or neglect on the part of such agents, contractors, vendors or
+third parties.
+6.20 BOC reserves the right to amend, supplement, vary or cancel any of these Terms and
+Conditions at any time at its sole discretion and without liability to any person without giving
+any reason or prior notice. If a Cardmember does not wish to accept any of the amended
+Terms and Conditions, he/she should not participate in this Programme or immediately
+withdraw from this Programme.
+6.21 All information is correct at the time of publishing or posting online. However, BOC makes
+no representation or warranty whether express or implied, and accepts no responsibility or
+liability for its completeness or accuracy.
+6.22 In the event of any inconsistency between these Terms and Conditions and any brochure,
+marketing or promotional material relating to this Programme, these Terms and Conditions as
+set out herein shall prevail.
+6.23 A person who is not a party to these Terms and Conditions has no right under the
+Contracts (Rights of Third Parties) Act 2001 of Singapore to enforce any of these Terms and
+Conditions.
+6.24 These Terms and Conditions shall be governed by the laws of Singapore and
+Cardmembers participating in this Programme irrevocably submit to the nonexclusive
+jurisdiction of the Singapore courts.
+Page 8 of 8
+V202505

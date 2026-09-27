@@ -1,0 +1,72 @@
+# Curated card record. Auto-drafted from staged sources; verify every value against the
+# official T&Cs (citations below), then set review.status: reviewed.
+id: maybank-visa-infinite
+bank: Maybank
+name: Maybank Visa Infinite Card
+image_url: https://mhgprod.blob.core.windows.net/singsaver/strapi-uploads/s_blt75f3d989c7d20c6d_1a0751f9bc.png
+official_url: https://www.maybank2u.com.sg/en/personal/cards/credit/maybank-visa-infinite-card.page
+annual_fee:
+  amount:
+    amount: 654.0
+    currency: SGD
+  first_year_waived: true
+  waiver_notes: S$ | First Year Waived
+  sources: ['singsaver:f5553f2fbad3']
+min_annual_income:
+  amount: 150000.0
+  currency: SGD
+reward_currency:
+  kind: miles
+  name: Miles
+earn_rules:
+- id: overseas
+  label: overseas (SingSaver — verify)
+  rate: 2.0
+  unit: mpd
+  tier: bonus
+  eligibility:
+    description: ''
+    sources: ['singsaver:f5553f2fbad3']
+  sources: ['singsaver:f5553f2fbad3']
+- id: local
+  label: local, insurance (SingSaver — verify)
+  rate: 1.2
+  unit: mpd
+  tier: bonus
+  eligibility:
+    description: ''
+    sources: ['singsaver:f5553f2fbad3']
+  sources: ['singsaver:f5553f2fbad3']
+- id: base
+  label: baseline (SingSaver — verify)
+  rate: 1.2
+  unit: mpd
+  tier: base
+  eligibility:
+    all_spend: true
+    description: ''
+    sources: ['singsaver:f5553f2fbad3']
+  sources: ['singsaver:f5553f2fbad3']
+general_exclusions:
+  description: Auto-extracted from official T&Cs — confirm each code applies to this card
+notes:
+- 'Editorial review for cross-checking: Review: Maybank Visa Infinite Card (https://milelion.com/2025/11/20/review-maybank-visa-infinite-card/,
+  updated 2025-11-20)'
+citations:
+- id: singsaver:f5553f2fbad3
+  url: https://www.singsaver.com.sg/credit-card/products/maybank-visa-infinite-card
+  title: Maybank Visa Infinite Card
+  source_type: aggregator
+  retrieved_at: '2026-09-27T05:26:12+00:00'
+  sha256: f5553f2fbad3a6d369974b5d0be56ec179284468ec9564b2a9e56b03b5872bd4
+  snapshot: data/raw/singsaver/www-singsaver-com-sg-credit-card-products-maybank-visa-infinite-card-467c66bf.html
+- id: milelion:8e22e180cb61
+  url: https://milelion.com/2025/11/20/review-maybank-visa-infinite-card/
+  title: 'Review: Maybank Visa Infinite Card'
+  source_type: editorial
+  retrieved_at: '2026-09-27T05:29:20+00:00'
+  sha256: 8e22e180cb61c474a46047793e9db3b4dd086c42cc0e5d1c507fdebeabfdb43b
+  snapshot: data/raw/milelion/post-149633-e03349d6.json
+review:
+  status: draft
+updated_at: '2026-09-27'

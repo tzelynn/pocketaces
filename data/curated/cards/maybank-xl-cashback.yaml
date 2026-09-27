@@ -1,0 +1,75 @@
+# Curated card record. Auto-drafted from staged sources; verify every value against the
+# official T&Cs (citations below), then set review.status: reviewed.
+id: maybank-xl-cashback
+bank: Maybank
+name: Maybank XL Cashback Card
+network: mastercard
+image_url: https://mhgprod.blob.core.windows.net/singsaver/strapi-uploads/m_Maybank_XL_Cashback_b04cdc90a3.png
+official_url: https://www.maybank2u.com.sg/en/personal/cards/credit/maybank-xl-card.page
+annual_fee:
+  amount:
+    amount: 87.2
+    currency: SGD
+  waiver_notes: S$ | First 2 Years Waived; Subsequent annual fee will be automatically waived with a minimum
+    spend of S$6,000 yearly.
+  sources: ['singsaver:46ec5be2e413']
+min_annual_income:
+  amount: 30000.0
+  currency: SGD
+reward_currency:
+  kind: cashback
+  name: Cashback
+earn_rules:
+- id: local
+  label: local, overseas, forex, dining, retail, travel, entertainment (SingSaver — verify)
+  rate: 5.0
+  unit: percent
+  tier: bonus
+  eligibility:
+    tags: [dining, shopping, travel, entertainment]
+    modes_required: [online]
+    description: 5% cashback (10X TREATS Points) on eligible spend categories (Dine, Shop, Travel, Play)
+      with min. S$500 spend per calendar month. Bonus cashback capped at S$80. Base rate 0.2%. / 5% cashback
+      (10X TREATS Points) on foreign currency spend overseas with min. S$500 spend per calendar month.
+      Bonus cashback capped at S$80. Base rate 0.2%. / 5% cashback (10X TREATS Points) on foreign currency
+      spend (overseas or online) with min. S$500 spend per calendar month. Bonus cashback capped at S$80.
+      Base rate 0.2%.
+    sources: ['singsaver:46ec5be2e413']
+  sources: ['singsaver:46ec5be2e413']
+- id: base
+  label: baseline (SingSaver — verify)
+  rate: 0.4
+  unit: percent
+  tier: base
+  eligibility:
+    all_spend: true
+    description: 0.2% unlimited cashback (1x TREATS Points) for all other spend.
+    sources: ['singsaver:46ec5be2e413']
+  sources: ['singsaver:46ec5be2e413']
+general_exclusions:
+  description: Auto-extracted from official T&Cs — confirm each code applies to this card
+sign_up_bonuses:
+- offered_by: singsaver
+  description: 'Maybank Welcome Offer: choice of Get an increased S$100 Cashback Cap'
+  valid_from: '2026-06-30'
+  valid_to: '2026-09-30'
+  url: https://www.singsaver.com.sg/credit-card/products/maybank-xl-cashback-card
+  sources: ['singsaver:46ec5be2e413']
+citations:
+- id: singsaver:46ec5be2e413
+  url: https://www.singsaver.com.sg/credit-card/products/maybank-xl-cashback-card
+  title: Maybank XL Cashback Card
+  source_type: aggregator
+  retrieved_at: '2026-09-27T05:26:15+00:00'
+  sha256: 46ec5be2e413250e17976f5a815adb4fc768edf708243e147e0a0105752dedcb
+  snapshot: data/raw/singsaver/www-singsaver-com-sg-credit-card-products-maybank-xl-cashback-card-01ec3303.html
+- id: moneysmart:eeee24fb93a9
+  url: https://www.moneysmart.sg/credit-cards
+  title: Maybank XL Cashback Card
+  source_type: aggregator
+  retrieved_at: '2026-09-27T05:27:12+00:00'
+  sha256: eeee24fb93a9d85ef8b9194c11bda960b5b99ee30b3689cdc59fb650badebce7
+  snapshot: data/raw/moneysmart/credit-cards-p1-b55034ef.html
+review:
+  status: draft
+updated_at: '2026-09-27'

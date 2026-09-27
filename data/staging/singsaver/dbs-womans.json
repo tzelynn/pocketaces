@@ -1,0 +1,215 @@
+{
+ "source": "singsaver",
+ "source_id": "dbs-womans-card",
+ "source_url": "https://www.singsaver.com.sg/credit-card/products/dbs-womans-card",
+ "name": "DBS Woman's Card",
+ "bank": "DBS",
+ "card_id": "dbs-womans",
+ "image_url": "https://mhgprod.blob.core.windows.net/singsaver/strapi-uploads/xl_2026_01_DBS_WOMAN_MASTERCARD_CARD_4336a57c8c.png",
+ "annual_fee": 163.5,
+ "annual_fee_note": "S$ | First Year Waived",
+ "min_annual_income": 30000.0,
+ "earn_rates": {
+  "mpd:local": {
+   "value": 2.0,
+   "unit": "mpd",
+   "note": "Up to | 5X DBS Points per S$5"
+  },
+  "percent:local_online_shopping": {
+   "value": 0.83,
+   "unit": "percent",
+   "note": "S$1 local spend = 1 point on Online Shopping. 1200 points redeemed = S$10 cash credit. Equivalent to 0.83% cashback on online shopping."
+  },
+  "percent:overseas_online_shopping": {
+   "value": 0.83,
+   "unit": "percent",
+   "note": "S$1 local spend = 1 point on Online Shopping. 1200 points redeemed = S$10 cash credit. Equivalent to 0.83% cashback on online shopping."
+  },
+  "percent:baseline": {
+   "value": 0.17,
+   "unit": "percent",
+   "note": "S$5 spend = 1 point. 1200 points = S$10 cash credit, equivalent to 0.17% cashback."
+  },
+  "mpd:baseline": {
+   "value": 0.4,
+   "unit": "mpd",
+   "note": "1X DBS Point per S$5"
+  },
+  "mpd:hotel_booking": {
+   "value": 2.0,
+   "unit": "mpd",
+   "note": "5X DBS Points per S$5, online only."
+  },
+  "mpd:flight_booking": {
+   "value": 2.0,
+   "unit": "mpd",
+   "note": "5X DBS Points per S$5, online only."
+  },
+  "mpd:retail": {
+   "value": 0.4,
+   "unit": "mpd",
+   "note": "1X DBS Point per S$5"
+  },
+  "mpd:dining": {
+   "value": 0.4,
+   "unit": "mpd",
+   "note": "1X DBS Point per S$5"
+  },
+  "mpd:local_online_shopping": {
+   "value": 2.0,
+   "unit": "mpd",
+   "note": "5X DBS Points per S$5"
+  },
+  "mpd:travel": {
+   "value": 2.0,
+   "unit": "mpd",
+   "note": "Up to 5X DBS Points per S$5, online only."
+  },
+  "percent:overseas": {
+   "value": 0.17,
+   "unit": "percent",
+   "note": "S$5 spend = 1 point. 1200 points = S$10 cash credit, equivalent to 0.17% cashback."
+  },
+  "points_per_dollar:baseline": {
+   "value": 1.0,
+   "unit": "points_per_dollar",
+   "note": "Or 0.4 miles per dollar per S$1."
+  },
+  "points_per_dollar:local_spending": {
+   "value": 5.0,
+   "unit": "points_per_dollar",
+   "note": "Up to | Or 2 miles per dollar per S$1, online only."
+  },
+  "points_per_dollar:dining": {
+   "value": 5.0,
+   "unit": "points_per_dollar",
+   "note": "Up to | Or 2 miles per dollar per S$1, online only."
+  },
+  "points_per_dollar:grocery": {
+   "value": 5.0,
+   "unit": "points_per_dollar",
+   "note": "Up to | Or 2 miles per dollar per S$1, online only."
+  },
+  "points_per_dollar:hotel_booking": {
+   "value": 5.0,
+   "unit": "points_per_dollar",
+   "note": "Up to | Or 2 miles per dollar per S$1, online only."
+  },
+  "points_per_dollar:flight_booking": {
+   "value": 5.0,
+   "unit": "points_per_dollar",
+   "note": "Up to | Or 2 miles per dollar per S$1, online only."
+  },
+  "percent:local": {
+   "value": 0.17,
+   "unit": "percent",
+   "note": "S$5 spend = 1 point. 1200 points = S$10 cash credit, equivalent to 0.17% cashback."
+  },
+  "mpd:overseas": {
+   "value": 0.4,
+   "unit": "mpd",
+   "note": "1X DBS Point per S$5"
+  },
+  "points_per_dollar:online_shopping": {
+   "value": 5.0,
+   "unit": "points_per_dollar",
+   "note": "Up to  | Or 2 miles per dollar per S$1, online only."
+  },
+  "points_per_dollar:travel": {
+   "value": 5.0,
+   "unit": "points_per_dollar",
+   "note": "Up to  | Or 2 miles per dollar per S$1, online only."
+  },
+  "points_per_dollar:taxi_ride_sharing": {
+   "value": 5.0,
+   "unit": "points_per_dollar",
+   "note": "Up to | Or 2 miles per dollar per S$1, online only."
+  },
+  "points_per_dollar:online_food_delivery": {
+   "value": 5.0,
+   "unit": "points_per_dollar",
+   "note": "Up to | Or 2 miles per dollar per S$1, online only."
+  }
+ },
+ "caps": {
+  "rewards_bonus_cap": {
+   "value": 1000.0,
+   "note": "S$"
+  },
+  "airmiles_bonus_cap": {
+   "value": 1000.0,
+   "note": "S$ | S$1,000 online spend per calendar month."
+  }
+ },
+ "highlights": [
+  "Get up to 5 DBS Points (or 2 miles per dollar) for every S$1 spent on eligible online categories such as dining, groceries, and hotel bookings. For other purchases, you earn 1 DBS Point per S$5 (or 0.4 miles per dollar). Keep in mind that there’s a S$1,000 cap on rewards per calendar month.",
+  "pros: 5X DBS points (10 miles) for every S$5 spent on online purchases.",
+  "pros: 1X DBS points (2 miles) for every S$5 spent on other purchases.",
+  "pros: Complimentary e-commerce protection for online purchases.",
+  "pros: Enjoy special promotions and discounts for certain fashion, beauty and wellness stores.",
+  "pros: Both women and men can apply.",
+  "cons: 5X DBS points are only applicable for the first S$1,000 online spend per calendar month.",
+  "cons: DBS points are awarded for every S$5 spent.",
+  "pros: Online shopping rebate",
+  "pros: Overseas rebate",
+  "pros: Installment",
+  "cons: Rebate cap applied"
+ ],
+ "sign_up_offers": [],
+ "links": {},
+ "citation": {
+  "id": "singsaver:96481af53ee9",
+  "url": "https://www.singsaver.com.sg/credit-card/products/dbs-womans-card",
+  "title": "DBS Woman's Card",
+  "source_type": "aggregator",
+  "retrieved_at": "2026-09-27T05:25:33+00:00",
+  "sha256": "96481af53ee9116ca54441d846bb4524561436f7d9455800cbc8c464171600f5",
+  "snapshot": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-dbs-womans-card-6a2fb697.html"
+ },
+ "extra": {
+  "network": [
+   "Mastercard"
+  ],
+  "mobile_wallets": [
+   "Google Pay",
+   "Apple Pay",
+   "Samsung Pay",
+   "NETSPay"
+  ],
+  "fx_fee_percent": 3.25,
+  "miles_conversion_fee": 25.0,
+  "categories": [
+   "category:airmiles",
+   "category:all-credit-cards",
+   "category:buffet-promo",
+   "category:grocery-promo",
+   "category:installment",
+   "category:petrol-promo",
+   "category:premium-cards",
+   "category:promo",
+   "category:retail-promo",
+   "category:rewards",
+   "category:travel",
+   "needs:0-interest-rate",
+   "needs:air-miles-conversion-rewards",
+   "needs:all-airmiles-cards",
+   "needs:all-cards-with-dining-promo",
+   "needs:all-cards-with-grocery-promo",
+   "needs:all-cards-with-petrol-promo",
+   "needs:all-cards-with-promotion",
+   "needs:all-cards-with-retail-promo",
+   "needs:all-credit-cards",
+   "needs:all-installment-cards",
+   "needs:all-premium-cards",
+   "needs:all-rewards-cards",
+   "needs:all-travel-cards",
+   "needs:annual-fee-waiver-airmiles",
+   "needs:long-tenure-installment",
+   "needs:no-minimum-spend-required-airmiles",
+   "needs:no-minimum-spend-required-rewards",
+   "needs:online-booking-discount"
+  ],
+  "tag": null,
+  "description": "The DBS Woman's Card offers up to 5X DBS Points per S$5 spend (equivalent to 2mpd), along with the option for 0% instalment payments for 6-months, offering the ultimate guilt-free way to bring out your inner shopaholic."
+ }
+}

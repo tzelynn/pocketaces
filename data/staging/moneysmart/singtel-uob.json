@@ -1,0 +1,88 @@
+{
+ "source": "moneysmart",
+ "source_id": "singtel-uob-card",
+ "source_url": "https://www.moneysmart.sg/credit-cards/singtel-uob-card",
+ "name": "Singtel-UOB Card",
+ "bank": "UOB",
+ "card_id": "singtel-uob",
+ "image_url": "https://photos.cdn-moneysmart.com/credit_cards/uploads/products/images/image_url_2025-12-29_Singtel UOB.png",
+ "annual_fee": 194.4,
+ "earn_rates": {},
+ "caps": {},
+ "highlights": [
+  "12% Cashback on Singtel/ GOMO Spend",
+  "10% Cashback on Local Online & Mobile Contactless spend",
+  "0% FX Fees on Foreign Currency Spend",
+  "12% cashback on Singtel/GOMO Spend (Including handset purchase!)",
+  "0% FX fees on Foreign Currency Spend (no min. spend, no cap)",
+  "10% cashback on Local Online and Mobile Contactless (Apple Pay, Google Pay) spend",
+  "Waiver of Annual Fee with 12-month recurring Singtel and/or GOMO bills",
+  "Enjoy up to S$300 Singtel vouchers per year when you spend S$12,000/yr locally on the card",
+  "Free Taste of Red Access for 6 months",
+  "Free 6-months of CAST packs for all Singtel-UOB Cardmembers",
+  "Extra 10GB local data and 100 mins talktime monthly when you sign up or recontract to an eligible Singtel mobile plan",
+  "Free 12-months of CAST packs when you sign up or recontract to an eligible Singtel broadband plan",
+  "Enjoy one-time waivers of the SIM card fee (worth $21.80), registration fee (worth $10.90) and recontract fee (worth $10.90) upon sign-up or recontract of an eligible mobile plan + waiver of the NetLink Trust service activation charge (worth $61.04 per port) when you sign up for a new fibre broadband"
+ ],
+ "sign_up_offers": [],
+ "links": {
+  "product": "https://www.moneysmart.sg/credit-cards/singtel-uob-card"
+ },
+ "citation": {
+  "id": "moneysmart:49fcb3586f25",
+  "url": "https://www.moneysmart.sg/credit-cards?page=4",
+  "title": "Singtel-UOB Card",
+  "source_type": "aggregator",
+  "retrieved_at": "2026-09-27T05:27:20+00:00",
+  "sha256": "49fcb3586f252df0b2dacb9acecc465127e09c9defa7f151881c3db46d84649e",
+  "snapshot": "data/raw/moneysmart/credit-cards-p4-1a322210.html"
+ },
+ "extra": {
+  "summary": "",
+  "badges": [],
+  "network": [
+   "Visa"
+  ],
+  "mobile_wallets": [
+   "Visa Contactless",
+   "Google Pay",
+   "Apple Pay"
+  ],
+  "groups": {
+   "annual-interest-rate-and-fees": {
+    "Annual Interest Rate": "26.8",
+    "Annual Principal Fee": "194.40",
+    "Supplementary Annual Fee": "97.20",
+    "Fee Waiver": "First year waived",
+    "Minimum Monthly Repayment": "3% or S$50 (whichever is greater)",
+    "Interest Free Period": "25 days"
+   },
+   "minimum-income-requirements": {
+    "Singaporean/PR Minimum Annual Income": "30000",
+    "Non-Singaporean Minimum Annual Income": "42000"
+   },
+   "card-association": {
+    "Visa": "true"
+   },
+   "wireless-payment": {
+    "Visa Contactless": "true",
+    "Google Pay": "true",
+    "Apple Pay": "true"
+   },
+   "documents-required": {
+    "SG Citizens or PRs": "Apply via MyInfo",
+    "Passport Validity (Foreigners)": "6 months",
+    "Work Permit Validity (Foreigners)": "6 months",
+    "Utility or Telephone Bill": "with Full Name & Address",
+    "Income Tax Notice of Assessment": "true",
+    "Latest Original Computerised Payslip": "true"
+   }
+  },
+  "our_takes": {
+   "our-take": "The Singtel-UOB Card is best viewed as a lifestyle cashback card optimised for Singtel subscribers and digital spending habits, rather than a general-purpose cashback card. Its strongest value comes from recurring telco bills, online purchases, mobile contactless payments, and overseas spend, especially for users who can consistently meet the S$800 monthly qualifying spend.",
+   "good-for": "Singtel or GOMO users paying recurring telco bills\nOnline shoppers and mobile contactless spenders\nTravellers who want to avoid foreign transaction fees\nCardholders with consistent monthly spending patterns",
+   "things-to-note": "You need S$800 monthly spend to unlock 10–12% cashback; otherwise most spend earns 0.3%\nCashback is capped monthly, so higher spend won’t increase rewards beyond limits\nAnnual fee is waived only with 12 consecutive months of recurring Singtel/GOMO billing\n“No FX fees” still means exchange rate spreads apply on overseas spend\nCashback posts later and may be forfeited if the card is cancelled"
+  },
+  "updated_at": "2026-01-08T14:03:02+08:00"
+ }
+}

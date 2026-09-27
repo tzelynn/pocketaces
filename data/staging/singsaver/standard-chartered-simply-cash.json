@@ -1,0 +1,216 @@
+{
+ "source": "singsaver",
+ "source_id": "standard-chartered-simply-cash-credit-card",
+ "source_url": "https://www.singsaver.com.sg/credit-card/products/standard-chartered-simply-cash-credit-card",
+ "name": "Standard Chartered Simply Cash Credit Card",
+ "bank": "Standard Chartered",
+ "card_id": "standard-chartered-simply-cash",
+ "image_url": "https://mhgprod.blob.core.windows.net/singsaver/strapi-uploads/l_bltcf04de69dae34697_0c73f5d6cb.png",
+ "annual_fee": 196.2,
+ "annual_fee_note": "S$ | First Year Waived",
+ "min_annual_income": 30000.0,
+ "earn_rates": {
+  "percent:local": {
+   "value": 1.5,
+   "unit": "percent",
+   "note": "1.5% unlimited cashback with no min. spend."
+  },
+  "percent:overseas": {
+   "value": 1.5,
+   "unit": "percent",
+   "note": "1.5% unlimited cashback with no min. spend."
+  },
+  "percent:dining": {
+   "value": 1.5,
+   "unit": "percent",
+   "note": null
+  },
+  "percent:supermarket": {
+   "value": 1.5,
+   "unit": "percent",
+   "note": null
+  },
+  "percent:retail": {
+   "value": 1.5,
+   "unit": "percent",
+   "note": null
+  },
+  "percent:petrol": {
+   "value": 1.5,
+   "unit": "percent",
+   "note": null
+  },
+  "percent:health": {
+   "value": 1.5,
+   "unit": "percent",
+   "note": null
+  },
+  "percent:travel": {
+   "value": 1.5,
+   "unit": "percent",
+   "note": null
+  },
+  "percent:department_store": {
+   "value": 1.5,
+   "unit": "percent",
+   "note": null
+  },
+  "percent:local_online_shopping": {
+   "value": 1.5,
+   "unit": "percent",
+   "note": null
+  },
+  "percent:overseas_online_shopping": {
+   "value": 1.5,
+   "unit": "percent",
+   "note": null
+  },
+  "percent:online_bill_payment_spending": {
+   "value": 1.5,
+   "unit": "percent",
+   "note": null
+  },
+  "percent:contactless_spend": {
+   "value": 1.5,
+   "unit": "percent",
+   "note": null
+  },
+  "percent:transport": {
+   "value": 1.5,
+   "unit": "percent",
+   "note": null
+  },
+  "percent:baseline": {
+   "value": 1.5,
+   "unit": "percent",
+   "note": "1.5% unlimited cashback with no min. spend."
+  }
+ },
+ "caps": {
+  "rewards_bonus_cap": {
+   "value": null,
+   "note": "No cashback cap on all eligible spends | No cap"
+  },
+  "cashback_bonus_cap": {
+   "value": null,
+   "note": "No cashback cap on all eligible spends | No cap"
+  },
+  "no_cashback_cap": {
+   "value": false,
+   "note": null
+  }
+ },
+ "highlights": [
+  "Get 1.5% uncapped cashback on all eligible spends.",
+  "pros: 1.5% unlimited cashback rate with no min. spend.",
+  "pros: Enjoy offers and privileges for online, dining, retail and more with \nThe Good Life®\n.",
+  "pros: SC Shop and Earn - Enjoy up to 23% Cashback when you shop at your favourite brands – Decathlon, Nike, Zalora and many more. Unlock one of the highest Cashback as a Priority client. Log on to SC Shop and Earn via SC Mobile to start shopping.",
+  "pros: First year annual fee waiver.",
+  "cons: Cannot be used for EZ-Reload.",
+  "pros: 1.5% unlimited cashback",
+  "pros: No rebate cap",
+  "pros: No monthly spend required",
+  "pros: First year annual Fee waiver"
+ ],
+ "sign_up_offers": [
+  {
+   "kind": "exclusive_offer",
+   "title": "SingSaver Exclusive Offer: rewards applicable on applying for 2 products",
+   "offer_id": "SG.2026-09-01.CC.SCBX.SIMPLY.350CASH-370GRAB-AM07-[DYSON-APPLE]",
+   "valid_from": "2026-08-31T16:00:00Z",
+   "valid_to": "2026-09-30T15:59:00Z",
+   "gifts": [
+    {
+     "title": "Apple iPad Air (M4) 11\" 128GB WiFi (worth S$1,149) (Top up S$780)",
+     "value_sgd": 1149
+    },
+    {
+     "title": "Apple MacBook Neo (A18 Pro) 256GB w/ Magic Keyboard (worth S$999, top up S$620)",
+     "value_sgd": 999
+    },
+    {
+     "title": "Apple iPad (A16) 11\" 128GB WiFi (worth S$649) (Top up S$300)",
+     "value_sgd": 649
+    },
+    {
+     "title": "Dyson Clean+Wash Hygiene hard floor cleaner (worth S$729) (Top up S$200)",
+     "value_sgd": 729
+    },
+    {
+     "title": "Dyson Airstrait™ straightener (worth S$799) (Top up S$100)",
+     "value_sgd": 799
+    },
+    {
+     "title": "Dyson V8 Cyclone Vacuum Cleaner (worth S$559, top up S$100)",
+     "value_sgd": 559
+    },
+    {
+     "title": "Dyson Cool™ AM07 Tower Fan (worth S$499)",
+     "value_sgd": 499
+    },
+    {
+     "title": "S$370 Grab Vouchers",
+     "value_sgd": 370
+    },
+    {
+     "title": "S$350 Cash via PayNow",
+     "value_sgd": 350
+    }
+   ],
+   "terms": "SingSaver Exclusive Offer promotion is valid from 1 September 2026 to 30 September 2026.\nPromotion is valid for new Standard Chartered credit cardmembers only.\nApply for the Standard Chartered Simply Cash Credit Card and make a min. spend of S$800 within 30 days of card approval date, and apply for \nany\n of the following SCB products to be eligible for reward:\nApply for \nStandard Chartered EasyPay\n for at least 3 retail transactions on your credit card with min. amount of S$150 each and min. tenure of 12 months (within 60 days of card approval date); or\nApply and open a \nStandard Chartered Bonus$aver Account\n with a min. deposit of S$3,000 (within 60 days of card approval date) (quick apply \nhere\n); or\nApply and get approved for a \nStandard Chartered CashOne Personal Loan\n with min. amount of S$1,000 and min. tenure of 12 months (within 60 days of card approval date) (quick apply \nhere\n); or\nApply and get approved for a \nStandard Chartered Credit Card Funds Transfer (CCFT)\n with min. amount of S$1,000 and min. tenure of 3 months (within 60 days of card approval date) (quick apply \nhere\n)\nPromotion does not stack with other welcome offers from Standard Chartered.\nTerms and Conditions\n apply.",
+   "tnc_url": null,
+   "bundle_with": []
+  }
+ ],
+ "links": {
+  "apply": "https://www.singsaver.com.sg/apply-v3/17068"
+ },
+ "citation": {
+  "id": "singsaver:539a5fd39984",
+  "url": "https://www.singsaver.com.sg/credit-card/products/standard-chartered-simply-cash-credit-card",
+  "title": "Standard Chartered Simply Cash Credit Card",
+  "source_type": "aggregator",
+  "retrieved_at": "2026-09-27T05:26:40+00:00",
+  "sha256": "539a5fd39984f6687a3229e5429ed12510c3da3765a562caa028987901263c5e",
+  "snapshot": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-standard-chartered-simply-cash-credit-card-7edd74d4.html"
+ },
+ "extra": {
+  "network": [
+   "World Mastercard"
+  ],
+  "mobile_wallets": [
+   "Google Pay",
+   "Apple Pay",
+   "Samsung Pay"
+  ],
+  "fx_fee_percent": 3.5,
+  "miles_conversion_fee": null,
+  "categories": [
+   "category:all-credit-cards",
+   "category:cashback",
+   "category:dining-promo",
+   "category:installment",
+   "category:petrol-promo",
+   "category:promo",
+   "category:retail-promo",
+   "category:travel",
+   "needs:0-interest-rate",
+   "needs:all-cards-with-dining-promo",
+   "needs:all-cards-with-petrol-promo",
+   "needs:all-cards-with-promotion",
+   "needs:all-cards-with-retail-promo",
+   "needs:all-cashback-cards",
+   "needs:all-credit-cards",
+   "needs:all-installment-cards",
+   "needs:all-travel-cards",
+   "needs:apple-premium-gifts",
+   "needs:high-value-gifts",
+   "needs:no-minimum-spend-required-cashback",
+   "needs:online-booking-discount",
+   "needs:singsaver-exclusive",
+   "needs:unlimited-cashback"
+  ],
+  "tag": null,
+  "description": "The Standard Chartered Simply Cash Credit Card is a fuss-free cashback card that lets you get 1.5% unlimited cashback with no minimum spend. And the best part? You can receive instant digital credit card approval and issuance if you apply via MyInfo!"
+ }
+}

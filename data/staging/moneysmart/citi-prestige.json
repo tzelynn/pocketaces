@@ -1,0 +1,83 @@
+{
+ "source": "moneysmart",
+ "source_id": "citi-prestige-card",
+ "source_url": "https://www.moneysmart.sg/credit-cards/citi-prestige-card",
+ "name": "Citi Prestige Card",
+ "bank": "Citibank",
+ "card_id": "citi-prestige",
+ "image_url": "https://photos.cdn-moneysmart.com/credit_cards/uploads/products/images/image_url_2021-12-03_prestige-master (1).png",
+ "annual_fee": 535.0,
+ "earn_rates": {},
+ "caps": {},
+ "highlights": [
+  "5 ThankYou Points for every S$1 spent overseas",
+  "3.25 ThankYou Points for every S$1 spent locally",
+  "Unlimited Complimentary Airport Lounge Access",
+  "5 Citi ThankYouSM Points for every S$1 spent overseas",
+  "3.25 Citi ThankYouSM Points for every S$1 spent locally",
+  "Complimentary night stay when you book a minimum consecutive four-night stay at any hotel or resort",
+  "Eight complimentary one-way airport limousine transfers",
+  "Six complimentary golf games at highly celebrated golf courses in Singapore, Malaysia, Indonesia and China",
+  "At MoneySmart, we strive to keep our information accurate and up to date. This information may be different from what you see when you visit a financial institution, service provider, or specific product site. MoneySmart shall not be liable to compensate the Customer should the information is not as updated as our Partner."
+ ],
+ "sign_up_offers": [],
+ "links": {
+  "product": "https://www.moneysmart.sg/credit-cards/citi-prestige-card"
+ },
+ "citation": {
+  "id": "moneysmart:49fcb3586f25",
+  "url": "https://www.moneysmart.sg/credit-cards?page=4",
+  "title": "Citi Prestige Card",
+  "source_type": "aggregator",
+  "retrieved_at": "2026-09-27T05:27:20+00:00",
+  "sha256": "49fcb3586f252df0b2dacb9acecc465127e09c9defa7f151881c3db46d84649e",
+  "snapshot": "data/raw/moneysmart/credit-cards-p4-1a322210.html"
+ },
+ "extra": {
+  "summary": "The Citi Prestige card is tailored for affluent individuals who prioritize travel. The included complimentary fourth night hotel stay can provide substantial value for frequent travelers planning longer trips. Enjoy complimentary benefits like limousine transfers and golf games. This card rewards high spenders comfortable with sizable annual fees in exchange for premium travel perks.",
+  "badges": [],
+  "network": [
+   "Mastercard"
+  ],
+  "mobile_wallets": [
+   "Google Pay",
+   "Apple Pay",
+   "Samsung Pay"
+  ],
+  "groups": {
+   "annual-interest-rate-and-fees": {
+    "Annual Interest Rate": "26.90",
+    "Annual Principal Fee": "535",
+    "Supplementary Annual Fee": "Free for Life",
+    "Minimum Monthly Repayment": "1% plus 1% of any outstanding unbilled instalment amounts plus interest charges plus late payment charge or S$50, whichever is higher",
+    "Interest Free Period": "25 days"
+   },
+   "minimum-income-requirements": {
+    "Singaporean/PR Minimum Annual Income": "120000",
+    "Non-Singaporean Minimum Annual Income": "120000"
+   },
+   "card-association": {
+    "Mastercard": "true"
+   },
+   "wireless-payment": {
+    "Google Pay": "true",
+    "Apple Pay": "true",
+    "Samsung Pay": "true"
+   },
+   "documents-required": {
+    "SG Citizens or PRs": "Apply via MyInfo",
+    "Passport Validity (Foreigners)": "6 months",
+    "Work Permit Validity (Foreigners)": "6 months",
+    "Utility or Telephone Bill": "With Full Name and Address",
+    "Income Tax Notice of Assessment": "true",
+    "Latest Original Computerised Payslip": "true"
+   }
+  },
+  "our_takes": {
+   "our-take": "The Citi Prestige card is tailored for affluent individuals who prioritize travel. The included complimentary fourth night hotel stay can provide substantial value for frequent travelers planning longer trips. However, the high annual fee of S$545 (inclusive of GST) and foreign transaction fees of 3.25% warrant consideration. Cardholders should weigh these costs against the benefits like limousine transfers and golf games. This card rewards high spenders comfortable with sizable annual fees in exchange for premium travel perks.",
+   "good-for": "High-income earners desiring premium travel benefits, such as complimentary hotel stays and airport transfers.\nAffluent individuals who enjoy golfing and seek access to exclusive golf courses in Southeast Asia.\nWell-heeled travelers who frequently make overseas purchases and want to earn accelerated miles on those transactions.",
+   "things-to-note": "Annual fees are S$545; consider if the card's benefits outweigh this significant yearly cost.\nInterest rates are high, up to 30.9% if past due, making balances costly to carry.\nForeign transaction fees are 3.25% per transaction, increasing costs when using abroad."
+  },
+  "updated_at": "2026-02-20T12:21:44+08:00"
+ }
+}

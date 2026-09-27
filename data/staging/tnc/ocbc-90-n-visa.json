@@ -1,0 +1,1058 @@
+{
+ "card_id": "ocbc-90-n-visa",
+ "product_pages": [
+  {
+   "id": "bank:1a2d19dd4024",
+   "url": "https://www.ocbc.com/personal-banking/cards/90-degrees-travel-credit-card",
+   "source_type": "official",
+   "retrieved_at": "2026-09-27T08:40:57+00:00",
+   "sha256": "1a2d19dd4024744202af55be62beb8da67014991a1aa2c7c1bc9de7b243fba4d",
+   "snapshot": "data/raw/bank/www-ocbc-com-personal-banking-cards-90-degrees-travel-credit-card-1265747a.html"
+  }
+ ],
+ "documents": [
+  {
+   "url": "https://www.ocbc.com/iwov-resources/sg/ocbc/personal/pdf/cards/tncs-governing-ocbc-90n-card-programme.pdf",
+   "citation": {
+    "id": "bank:d59800a738d9",
+    "url": "https://www.ocbc.com/iwov-resources/sg/ocbc/personal/pdf/cards/tncs-governing-ocbc-90n-card-programme.pdf",
+    "source_type": "official",
+    "retrieved_at": "2026-09-27T08:40:59+00:00",
+    "sha256": "d59800a738d98d00f23e9420a6832a7f0da5cac0035c941a3ac5c910987580e4",
+    "snapshot": "data/raw/bank/www-ocbc-com-iwov-resources-sg-ocbc-personal-pdf-cards-tncs-governing-ocbc-90n-card-programme-pdf-a1f0a76b.pdf"
+   },
+   "text_path": "data/raw/bank/www-ocbc-com-iwov-resources-sg-ocbc-personal-pdf-cards-tncs-governing-ocbc-90n-card-programme-pdf-a1f0a76b.txt",
+   "sha256": "d59800a738d98d00f23e9420a6832a7f0da5cac0035c941a3ac5c910987580e4",
+   "changed": false,
+   "new": true,
+   "no_text_layer": false,
+   "effective_dates": [],
+   "mcc": {
+    "include": [],
+    "exclude": [
+     "4784",
+     "4829",
+     "4900",
+     "5047",
+     "5199",
+     "5960",
+     "5993",
+     "6010",
+     "6012",
+     "6051",
+     "6211",
+     "6300",
+     "6513",
+     "6540",
+     "7349",
+     "7523",
+     "7995",
+     "8062",
+     "8211",
+     "8220",
+     "8241",
+     "8244",
+     "8249",
+     "8299",
+     "8398",
+     "8651",
+     "8661",
+     "8675",
+     "8699",
+     "9211",
+     "9222",
+     "9223",
+     "9311",
+     "9399",
+     "9402",
+     "9405"
+    ],
+    "unknown": [],
+    "conflicting": [],
+    "unrecognised": [],
+    "hits": [
+     {
+      "code": "4784",
+      "polarity": "exclude",
+      "page": 2,
+      "line": "4784 Tolls and Bridge Fees",
+      "reason": "not earn 90\u00b0N Miles:",
+      "in_reference": true
+     },
+     {
+      "code": "4829",
+      "polarity": "exclude",
+      "page": 2,
+      "line": "4829 Wire Transfer Money Orders (WTMOs)",
+      "reason": "not earn 90\u00b0N Miles:",
+      "in_reference": true
+     },
+     {
+      "code": "4900",
+      "polarity": "exclude",
+      "page": 2,
+      "line": "4900 Utilities\u2013Electric, Gas, Heating Oil, Sanitary, Water",
+      "reason": "not earn 90\u00b0N Miles:",
+      "in_reference": true
+     },
+     {
+      "code": "5047",
+      "polarity": "exclude",
+      "page": 2,
+      "line": "5047 Medical, Dental, Ophthalmic and Hospital Equipment and Supplies",
+      "reason": "not earn 90\u00b0N Miles:",
+      "in_reference": true
+     },
+     {
+      "code": "5199",
+      "polarity": "exclude",
+      "page": 2,
+      "line": "5199 Nondurable Goods (Not Elsewhere Classified)",
+      "reason": "not earn 90\u00b0N Miles:",
+      "in_reference": true
+     },
+     {
+      "code": "5960",
+      "polarity": "exclude",
+      "page": 2,
+      "line": "5960 Direct Marketing Insurance Services",
+      "reason": "not earn 90\u00b0N Miles:",
+      "in_reference": true
+     },
+     {
+      "code": "5993",
+      "polarity": "exclude",
+      "page": 2,
+      "line": "5993 Cigars, Stores and Stands",
+      "reason": "not earn 90\u00b0N Miles:",
+      "in_reference": true
+     },
+     {
+      "code": "6010",
+      "polarity": "exclude",
+      "page": 2,
+      "line": "6010 Member Financial Institution\u2013Manual Cash Disbursements",
+      "reason": "not earn 90\u00b0N Miles:",
+      "in_reference": true
+     },
+     {
+      "code": "6012",
+      "polarity": "exclude",
+      "page": 2,
+      "line": "6012 Member Financial Institution\u2013Merchandise and Services",
+      "reason": "not earn 90\u00b0N Miles:",
+      "in_reference": true
+     },
+     {
+      "code": "6051",
+      "polarity": "exclude",
+      "page": 2,
+      "line": "6051",
+      "reason": "not earn 90\u00b0N Miles:",
+      "in_reference": true
+     },
+     {
+      "code": "6211",
+      "polarity": "exclude",
+      "page": 2,
+      "line": "6211 Securities\u2013Brokers and Dealers",
+      "reason": "not earn 90\u00b0N Miles:",
+      "in_reference": true
+     },
+     {
+      "code": "6300",
+      "polarity": "exclude",
+      "page": 2,
+      "line": "6300 Insurance Sales, Underwriting and Premiums",
+      "reason": "not earn 90\u00b0N Miles:",
+      "in_reference": true
+     },
+     {
+      "code": "6513",
+      "polarity": "exclude",
+      "page": 2,
+      "line": "6513 Real Estate Agents and Managers\u2013Rentals",
+      "reason": "not earn 90\u00b0N Miles:",
+      "in_reference": true
+     },
+     {
+      "code": "6540",
+      "polarity": "exclude",
+      "page": 2,
+      "line": "6540 Non-Financial Institutions \u2013 Stored Value Card Purchase/Load",
+      "reason": "not earn 90\u00b0N Miles:",
+      "in_reference": true
+     },
+     {
+      "code": "7349",
+      "polarity": "exclude",
+      "page": 2,
+      "line": "7349 Cleaning, Maintenance and Janitorial Services",
+      "reason": "not earn 90\u00b0N Miles:",
+      "in_reference": true
+     },
+     {
+      "code": "7523",
+      "polarity": "exclude",
+      "page": 2,
+      "line": "7523 Automobile Parking Lots and Garages",
+      "reason": "not earn 90\u00b0N Miles:",
+      "in_reference": true
+     },
+     {
+      "code": "7995",
+      "polarity": "exclude",
+      "page": 2,
+      "line": "7995",
+      "reason": "not earn 90\u00b0N Miles:",
+      "in_reference": true
+     },
+     {
+      "code": "8062",
+      "polarity": "exclude",
+      "page": 2,
+      "line": "8062 Hospitals",
+      "reason": "not earn 90\u00b0N Miles:",
+      "in_reference": true
+     },
+     {
+      "code": "8211",
+      "polarity": "exclude",
+      "page": 2,
+      "line": "8211 Schools, Elementary and Secondary",
+      "reason": "not earn 90\u00b0N Miles:",
+      "in_reference": true
+     },
+     {
+      "code": "8220",
+      "polarity": "exclude",
+      "page": 3,
+      "line": "8220 Colleges, Universities, Professional Schools and Junior Colleges",
+      "reason": "not earn 90\u00b0N Miles:",
+      "in_reference": true
+     },
+     {
+      "code": "8241",
+      "polarity": "exclude",
+      "page": 3,
+      "line": "8241 Schools, Correspondence",
+      "reason": "not earn 90\u00b0N Miles:",
+      "in_reference": true
+     },
+     {
+      "code": "8244",
+      "polarity": "exclude",
+      "page": 3,
+      "line": "8244 Schools, Business and Secretarial",
+      "reason": "not earn 90\u00b0N Miles:",
+      "in_reference": true
+     },
+     {
+      "code": "8249",
+      "polarity": "exclude",
+      "page": 3,
+      "line": "8249 Schools, Trade and Vocational",
+      "reason": "not earn 90\u00b0N Miles:",
+      "in_reference": true
+     },
+     {
+      "code": "8299",
+      "polarity": "exclude",
+      "page": 3,
+      "line": "8299 Schools and Educational Services\u2013Not Elsewhere Classified",
+      "reason": "not earn 90\u00b0N Miles:",
+      "in_reference": true
+     },
+     {
+      "code": "8398",
+      "polarity": "exclude",
+      "page": 3,
+      "line": "8398 Organizations, Charitable and Social Service",
+      "reason": "not earn 90\u00b0N Miles:",
+      "in_reference": true
+     },
+     {
+      "code": "8651",
+      "polarity": "exclude",
+      "page": 3,
+      "line": "8651 Organizations, Political",
+      "reason": "not earn 90\u00b0N Miles:",
+      "in_reference": true
+     },
+     {
+      "code": "8661",
+      "polarity": "exclude",
+      "page": 3,
+      "line": "8661 Organizations, Religious",
+      "reason": "not earn 90\u00b0N Miles:",
+      "in_reference": true
+     },
+     {
+      "code": "8675",
+      "polarity": "exclude",
+      "page": 3,
+      "line": "8675 Automobile Associations",
+      "reason": "not earn 90\u00b0N Miles:",
+      "in_reference": true
+     },
+     {
+      "code": "8699",
+      "polarity": "exclude",
+      "page": 3,
+      "line": "8699 Organizations, Membership\u2013Not Elsewhere Classified (Labor Union)",
+      "reason": "not earn 90\u00b0N Miles:",
+      "in_reference": true
+     },
+     {
+      "code": "9211",
+      "polarity": "exclude",
+      "page": 3,
+      "line": "9211 Court Costs Including Alimony and Child Support",
+      "reason": "not earn 90\u00b0N Miles:",
+      "in_reference": true
+     },
+     {
+      "code": "9222",
+      "polarity": "exclude",
+      "page": 3,
+      "line": "9222 Fines",
+      "reason": "not earn 90\u00b0N Miles:",
+      "in_reference": true
+     },
+     {
+      "code": "9223",
+      "polarity": "exclude",
+      "page": 3,
+      "line": "9223 Bail and Bond Payments",
+      "reason": "not earn 90\u00b0N Miles:",
+      "in_reference": true
+     },
+     {
+      "code": "9311",
+      "polarity": "exclude",
+      "page": 3,
+      "line": "9311 Tax Payments",
+      "reason": "not earn 90\u00b0N Miles:",
+      "in_reference": true
+     },
+     {
+      "code": "9399",
+      "polarity": "exclude",
+      "page": 3,
+      "line": "9399 Government Services\u2013Not Elsewhere Classified",
+      "reason": "not earn 90\u00b0N Miles:",
+      "in_reference": true
+     },
+     {
+      "code": "9402",
+      "polarity": "exclude",
+      "page": 3,
+      "line": "9402 Postal Services\u2013Government Only",
+      "reason": "not earn 90\u00b0N Miles:",
+      "in_reference": true
+     },
+     {
+      "code": "9405",
+      "polarity": "exclude",
+      "page": 3,
+      "line": "9405 Intra-Government Purchases\u2013Government Only",
+      "reason": "not earn 90\u00b0N Miles:",
+      "in_reference": true
+     }
+    ]
+   },
+   "transaction_modes": {
+    "online": [
+     "1.4.1 All card fees and charges, card annual fees, membership fees, renewal fees, Balance Transfer and charges incurred for any Balance Transfer facility, Cash-on- Instalment facility and charges incurred for any Cash-on-Instalment facility, Instalment Payment Plan, Extended Payment Plan, Income Tax payment, interest, late payment charges, Goods and services tax, Cash Advances, bill payments made "
+    ],
+    "foreign_currency": [
+     "6.5 local spend for every S$1 local spend Equivalent to 2.1 90\u00b0N Miles Overseas spend for every",
+     "10.5 for every S$1 overseas S$5 overseas spend spend AXS Pay + Earn Equivalent to 1 90\u00b0N Mile for transactions for every S$5 5 every S$1 spend spend For avoidance of doubt, all 90\u00b0N Miles earned shall be calculated based on each block of S$5 charged to the Card per transaction, and Cardmembers shall not be entitled to any partial or pro-rated award of any 90\u00b0N Miles for any amount charged that doe",
+     "1.5 In addition, transactions made with the following Merchant Category Codes (\u201cMCC\u201d) will not earn 90\u00b0N Miles: MCC Description 4784 Tolls and Bridge Fees 4829 Wire Transfer Money Orders (WTMOs) 4900 Utilities\u2013Electric, Gas, Heating Oil, Sanitary, Water 5047 Medical, Dental, Ophthalmic and Hospital Equipment and Supplies 5199 Nondurable Goods (Not Elsewhere Classified) 5960 Direct Marketing Insura"
+    ]
+   },
+   "non_mcc_exclusions": [
+    "annual fee",
+    "axs",
+    "balance transfer",
+    "bill payment",
+    "cash advance",
+    "charit",
+    "education",
+    "government",
+    "grabpay",
+    "hospital",
+    "instalment",
+    "interest",
+    "tax",
+    "utilit",
+    "youtrip"
+   ]
+  },
+  {
+   "url": "https://www.ocbc.com/iwov-resources/sg/ocbc/personal/pdf/cards/tncs-governing-ocbc-90n-visa-cc-acquisition-promo.pdf",
+   "citation": {
+    "id": "bank:8bd51daf86cf",
+    "url": "https://www.ocbc.com/html/404.html",
+    "source_type": "official",
+    "retrieved_at": "2026-09-27T08:41:01+00:00",
+    "sha256": "8bd51daf86cfb53f3c86e813478a69d583ee5703cdcd0a2c5009a0c882a9cda0",
+    "snapshot": "data/raw/bank/www-ocbc-com-html-404-html-afc56c7b.html"
+   },
+   "text_path": "data/raw/bank/www-ocbc-com-html-404-html-afc56c7b.txt",
+   "sha256": "8bd51daf86cfb53f3c86e813478a69d583ee5703cdcd0a2c5009a0c882a9cda0",
+   "changed": false,
+   "new": true,
+   "no_text_layer": false,
+   "effective_dates": [],
+   "mcc": {
+    "include": [],
+    "exclude": [],
+    "unknown": [],
+    "conflicting": [],
+    "unrecognised": [],
+    "hits": []
+   },
+   "transaction_modes": {},
+   "non_mcc_exclusions": []
+  },
+  {
+   "url": "https://www.ocbc.com/iwov-resources/sg/ocbc/personal/pdf/cards/tncs-governing-the-ocbc-90n-explorer-promo.pdf",
+   "citation": {
+    "id": "bank:8d8e853051bb",
+    "url": "https://www.ocbc.com/iwov-resources/sg/ocbc/personal/pdf/cards/tncs-governing-the-ocbc-90n-explorer-promo.pdf",
+    "source_type": "official",
+    "retrieved_at": "2026-09-27T08:41:03+00:00",
+    "sha256": "8d8e853051bb4ee0ebe635de5944fb59fc5028a5277db17a3bdfa72f07c15daf",
+    "snapshot": "data/raw/bank/www-ocbc-com-iwov-resources-sg-ocbc-personal-pdf-cards-tncs-governing-the-ocbc-90n-explorer-promo-pdf-e0104c15.pdf"
+   },
+   "text_path": "data/raw/bank/www-ocbc-com-iwov-resources-sg-ocbc-personal-pdf-cards-tncs-governing-the-ocbc-90n-explorer-promo-pdf-e0104c15.txt",
+   "sha256": "8d8e853051bb4ee0ebe635de5944fb59fc5028a5277db17a3bdfa72f07c15daf",
+   "changed": false,
+   "new": true,
+   "no_text_layer": false,
+   "effective_dates": [],
+   "mcc": {
+    "include": [],
+    "exclude": [],
+    "unknown": [],
+    "conflicting": [],
+    "unrecognised": [],
+    "hits": []
+   },
+   "transaction_modes": {},
+   "non_mcc_exclusions": []
+  },
+  {
+   "url": "https://www.ocbc.com/iwov-resources/sg/ocbc/personal/pdf/campaign/insurance/tncs-governing-explorer-cashback-campaign.pdf",
+   "citation": {
+    "id": "bank:8480c7252890",
+    "url": "https://www.ocbc.com/iwov-resources/sg/ocbc/personal/pdf/campaign/insurance/tncs-governing-explorer-cashback-campaign.pdf",
+    "source_type": "official",
+    "retrieved_at": "2026-09-27T08:41:05+00:00",
+    "sha256": "8480c7252890b3b8565e01a81efeeced4e62da0f2a6c347ce6ef555f6a02f1e5",
+    "snapshot": "data/raw/bank/www-ocbc-com-iwov-resources-sg-ocbc-personal-pdf-campaign-insurance-tncs-governing-explorer-cashback-campaign-pdf-4c6d1b6e.pdf"
+   },
+   "text_path": "data/raw/bank/www-ocbc-com-iwov-resources-sg-ocbc-personal-pdf-campaign-insurance-tncs-governing-explorer-cashback-campaign-pdf-4c6d1b6e.txt",
+   "sha256": "8480c7252890b3b8565e01a81efeeced4e62da0f2a6c347ce6ef555f6a02f1e5",
+   "changed": false,
+   "new": true,
+   "no_text_layer": false,
+   "effective_dates": [],
+   "mcc": {
+    "include": [],
+    "exclude": [],
+    "unknown": [],
+    "conflicting": [],
+    "unrecognised": [],
+    "hits": []
+   },
+   "transaction_modes": {},
+   "non_mcc_exclusions": [
+    "tax"
+   ]
+  },
+  {
+   "url": "https://www.ocbc.com/iwov-resources/sg/ocbc/personal/pdf/cards/tncs-governing-ocbc-90n-card-annual-service-fee-option.pdf",
+   "citation": {
+    "id": "bank:7ef2a5c25211",
+    "url": "https://www.ocbc.com/iwov-resources/sg/ocbc/personal/pdf/cards/tncs-governing-ocbc-90n-card-annual-service-fee-option.pdf",
+    "source_type": "official",
+    "retrieved_at": "2026-09-27T08:41:07+00:00",
+    "sha256": "7ef2a5c25211a8cac46f3a3d216570edb71025e4e0e5c7b230789888652873b7",
+    "snapshot": "data/raw/bank/www-ocbc-com-iwov-resources-sg-ocbc-personal-pdf-cards-tncs-governing-ocbc-90n-card-annual-service-fee-option-pdf-24a8057d.pdf"
+   },
+   "text_path": "data/raw/bank/www-ocbc-com-iwov-resources-sg-ocbc-personal-pdf-cards-tncs-governing-ocbc-90n-card-annual-service-fee-option-pdf-24a8057d.txt",
+   "sha256": "7ef2a5c25211a8cac46f3a3d216570edb71025e4e0e5c7b230789888652873b7",
+   "changed": false,
+   "new": true,
+   "no_text_layer": false,
+   "effective_dates": [],
+   "mcc": {
+    "include": [],
+    "exclude": [],
+    "unknown": [],
+    "conflicting": [],
+    "unrecognised": [],
+    "hits": []
+   },
+   "transaction_modes": {},
+   "non_mcc_exclusions": []
+  },
+  {
+   "url": "https://www.ocbc.com/iwov-resources/sg/ocbc/personal/pdf/campaign/cards/tncs-governing-ocbc-cc-38sgd-cashback-campaign.pdf",
+   "citation": {
+    "id": "bank:8bd51daf86cf",
+    "url": "https://www.ocbc.com/html/404.html",
+    "source_type": "official",
+    "retrieved_at": "2026-09-27T08:41:09+00:00",
+    "sha256": "8bd51daf86cfb53f3c86e813478a69d583ee5703cdcd0a2c5009a0c882a9cda0",
+    "snapshot": "data/raw/bank/www-ocbc-com-html-404-html-57180beb.html"
+   },
+   "text_path": "data/raw/bank/www-ocbc-com-html-404-html-57180beb.txt",
+   "sha256": "8bd51daf86cfb53f3c86e813478a69d583ee5703cdcd0a2c5009a0c882a9cda0",
+   "changed": false,
+   "new": true,
+   "no_text_layer": false,
+   "effective_dates": [],
+   "mcc": {
+    "include": [],
+    "exclude": [],
+    "unknown": [],
+    "conflicting": [],
+    "unrecognised": [],
+    "hits": []
+   },
+   "transaction_modes": {},
+   "non_mcc_exclusions": []
+  },
+  {
+   "url": "https://www.ocbc.com/iwov-resources/sg/ocbc/personal/pdf/campaign/cards/tncs-90nmastercard-travelwithocbc-promo.pdf",
+   "citation": {
+    "id": "bank:c63c13b1406a",
+    "url": "https://www.ocbc.com/iwov-resources/sg/ocbc/personal/pdf/campaign/cards/tncs-90nmastercard-travelwithocbc-promo.pdf",
+    "source_type": "official",
+    "retrieved_at": "2026-09-27T08:41:11+00:00",
+    "sha256": "c63c13b1406a5d3a0019e9c029859f23fdb70d3c4a4bbe86b24ffd96f8963aa4",
+    "snapshot": "data/raw/bank/www-ocbc-com-iwov-resources-sg-ocbc-personal-pdf-campaign-cards-tncs-90nmastercard-travelwithocbc-promo-pdf-1c339898.pdf"
+   },
+   "text_path": "data/raw/bank/www-ocbc-com-iwov-resources-sg-ocbc-personal-pdf-campaign-cards-tncs-90nmastercard-travelwithocbc-promo-pdf-1c339898.txt",
+   "sha256": "c63c13b1406a5d3a0019e9c029859f23fdb70d3c4a4bbe86b24ffd96f8963aa4",
+   "changed": false,
+   "new": true,
+   "no_text_layer": false,
+   "effective_dates": [],
+   "mcc": {
+    "include": [],
+    "exclude": [],
+    "unknown": [],
+    "conflicting": [],
+    "unrecognised": [],
+    "hits": []
+   },
+   "transaction_modes": {},
+   "non_mcc_exclusions": [
+    "tax"
+   ]
+  },
+  {
+   "url": "https://www.ocbc.com/iwov-resources/sg/ocbc/personal/pdf/campaign/cards/tncs-90nvisa_90nmc-household-referral-promo.pdf",
+   "citation": {
+    "id": "bank:423ad0d56a95",
+    "url": "https://www.ocbc.com/iwov-resources/sg/ocbc/personal/pdf/campaign/cards/tncs-90nvisa_90nmc-household-referral-promo.pdf",
+    "source_type": "official",
+    "retrieved_at": "2026-09-27T08:41:13+00:00",
+    "sha256": "423ad0d56a95d8054a425258a1d185a71557c578766c216548b5099f252ad6fb",
+    "snapshot": "data/raw/bank/www-ocbc-com-iwov-resources-sg-ocbc-personal-pdf-campaign-cards-tncs-90nvisa-90nmc-household-referral-promo-pdf-03c019b9.pdf"
+   },
+   "text_path": "data/raw/bank/www-ocbc-com-iwov-resources-sg-ocbc-personal-pdf-campaign-cards-tncs-90nvisa-90nmc-household-referral-promo-pdf-03c019b9.txt",
+   "sha256": "423ad0d56a95d8054a425258a1d185a71557c578766c216548b5099f252ad6fb",
+   "changed": false,
+   "new": true,
+   "no_text_layer": false,
+   "effective_dates": [],
+   "mcc": {
+    "include": [],
+    "exclude": [],
+    "unknown": [],
+    "conflicting": [],
+    "unrecognised": [],
+    "hits": []
+   },
+   "transaction_modes": {
+    "online": [
+     "refers to any retail transaction (including face to face or online purchases);",
+     "does not include payments or transactions relating to annual card fees, insurance premiums, Cash-On-Instalment IPP, extended payment plan, income tax payment, bill payments made via Internet Banking, bill payments made via AXS, interest, late payment charges, goods and services taxes, cash advances, balance transfers, bus/MRT transactions, Transit top-up, contactless payments and other bank fees a"
+    ],
+    "contactless": [
+     "does not include payments or transactions relating to annual card fees, insurance premiums, Cash-On-Instalment IPP, extended payment plan, income tax payment, bill payments made via Internet Banking, bill payments made via AXS, interest, late payment charges, goods and services taxes, cash advances, balance transfers, bus/MRT transactions, Transit top-up, contactless payments and other bank fees a"
+    ]
+   },
+   "non_mcc_exclusions": [
+    "axs",
+    "balance transfer",
+    "bill payment",
+    "cash advance",
+    "instalment",
+    "interest",
+    "ipp",
+    "tax",
+    "top-up"
+   ]
+  },
+  {
+   "url": "https://www.ocbc.com/iwov-resources/sg/ocbc/personal/pdf/cards/tnc-ocbc-90n-card-programme.pdf",
+   "citation": {
+    "id": "bank:3e94bbe5ea3e",
+    "url": "https://www.ocbc.com/iwov-resources/sg/ocbc/personal/pdf/cards/tnc-ocbc-90n-card-programme.pdf",
+    "source_type": "official",
+    "retrieved_at": "2026-09-27T08:41:15+00:00",
+    "sha256": "3e94bbe5ea3e9713b5b71ee844353f1b7c8f33e34e3120e0020823ee1d64eeff",
+    "snapshot": "data/raw/bank/www-ocbc-com-iwov-resources-sg-ocbc-personal-pdf-cards-tnc-ocbc-90n-card-programme-pdf-d2722565.pdf"
+   },
+   "text_path": "data/raw/bank/www-ocbc-com-iwov-resources-sg-ocbc-personal-pdf-cards-tnc-ocbc-90n-card-programme-pdf-d2722565.txt",
+   "sha256": "3e94bbe5ea3e9713b5b71ee844353f1b7c8f33e34e3120e0020823ee1d64eeff",
+   "changed": false,
+   "new": true,
+   "no_text_layer": false,
+   "effective_dates": [],
+   "mcc": {
+    "include": [],
+    "exclude": [
+     "4784",
+     "4829",
+     "4900",
+     "5199",
+     "5960",
+     "5993",
+     "6010",
+     "6012",
+     "6051",
+     "6211",
+     "6300",
+     "6399",
+     "6513",
+     "6540",
+     "7349",
+     "7523",
+     "7995",
+     "8062",
+     "8211",
+     "8220",
+     "8241",
+     "8244",
+     "8249",
+     "8299",
+     "8398",
+     "8651",
+     "8661",
+     "8675",
+     "8699",
+     "9211",
+     "9222",
+     "9223",
+     "9311",
+     "9399",
+     "9402",
+     "9405"
+    ],
+    "unknown": [],
+    "conflicting": [],
+    "unrecognised": [],
+    "hits": [
+     {
+      "code": "8398",
+      "polarity": "exclude",
+      "page": 2,
+      "line": "1.5.1 Charitable/ religious organizations (MCC: 8398, 8661)",
+      "reason": "determined by OCBC Bank in its absolute discretion from time to time (each, an \u201cExcluded",
+      "in_reference": true
+     },
+     {
+      "code": "8661",
+      "polarity": "exclude",
+      "page": 2,
+      "line": "1.5.1 Charitable/ religious organizations (MCC: 8398, 8661)",
+      "reason": "determined by OCBC Bank in its absolute discretion from time to time (each, an \u201cExcluded",
+      "in_reference": true
+     },
+     {
+      "code": "6513",
+      "polarity": "exclude",
+      "page": 2,
+      "line": "1.5.2 Real estate agents and managers (MCC: 6513)",
+      "reason": "determined by OCBC Bank in its absolute discretion from time to time (each, an \u201cExcluded",
+      "in_reference": true
+     },
+     {
+      "code": "4900",
+      "polarity": "exclude",
+      "page": 2,
+      "line": "1.5.3 Utilities (MCC: 4900)",
+      "reason": "determined by OCBC Bank in its absolute discretion from time to time (each, an \u201cExcluded",
+      "in_reference": true
+     },
+     {
+      "code": "6211",
+      "polarity": "exclude",
+      "page": 2,
+      "line": "1.5.4 Trading Platforms (MCC: 6211, 6051)",
+      "reason": "determined by OCBC Bank in its absolute discretion from time to time (each, an \u201cExcluded",
+      "in_reference": true
+     },
+     {
+      "code": "6051",
+      "polarity": "exclude",
+      "page": 2,
+      "line": "1.5.4 Trading Platforms (MCC: 6211, 6051)",
+      "reason": "determined by OCBC Bank in its absolute discretion from time to time (each, an \u201cExcluded",
+      "in_reference": true
+     },
+     {
+      "code": "9399",
+      "polarity": "exclude",
+      "page": 2,
+      "line": "1.5.5 Government institutions and services (MCC: 9399, 9211, 9222, 9223, 9311, 9402",
+      "reason": "determined by OCBC Bank in its absolute discretion from time to time (each, an \u201cExcluded",
+      "in_reference": true
+     },
+     {
+      "code": "9211",
+      "polarity": "exclude",
+      "page": 2,
+      "line": "1.5.5 Government institutions and services (MCC: 9399, 9211, 9222, 9223, 9311, 9402",
+      "reason": "determined by OCBC Bank in its absolute discretion from time to time (each, an \u201cExcluded",
+      "in_reference": true
+     },
+     {
+      "code": "9222",
+      "polarity": "exclude",
+      "page": 2,
+      "line": "1.5.5 Government institutions and services (MCC: 9399, 9211, 9222, 9223, 9311, 9402",
+      "reason": "determined by OCBC Bank in its absolute discretion from time to time (each, an \u201cExcluded",
+      "in_reference": true
+     },
+     {
+      "code": "9223",
+      "polarity": "exclude",
+      "page": 2,
+      "line": "1.5.5 Government institutions and services (MCC: 9399, 9211, 9222, 9223, 9311, 9402",
+      "reason": "determined by OCBC Bank in its absolute discretion from time to time (each, an \u201cExcluded",
+      "in_reference": true
+     },
+     {
+      "code": "9311",
+      "polarity": "exclude",
+      "page": 2,
+      "line": "1.5.5 Government institutions and services (MCC: 9399, 9211, 9222, 9223, 9311, 9402",
+      "reason": "determined by OCBC Bank in its absolute discretion from time to time (each, an \u201cExcluded",
+      "in_reference": true
+     },
+     {
+      "code": "9402",
+      "polarity": "exclude",
+      "page": 2,
+      "line": "1.5.5 Government institutions and services (MCC: 9399, 9211, 9222, 9223, 9311, 9402",
+      "reason": "determined by OCBC Bank in its absolute discretion from time to time (each, an \u201cExcluded",
+      "in_reference": true
+     },
+     {
+      "code": "9405",
+      "polarity": "exclude",
+      "page": 2,
+      "line": "and 9405)",
+      "reason": "determined by OCBC Bank in its absolute discretion from time to time (each, an \u201cExcluded",
+      "in_reference": true
+     },
+     {
+      "code": "6300",
+      "polarity": "exclude",
+      "page": 2,
+      "line": "1.5.6 Insurance Underwriting, Premiums (MCC: 6300, 6399, 5960)",
+      "reason": "determined by OCBC Bank in its absolute discretion from time to time (each, an \u201cExcluded",
+      "in_reference": true
+     },
+     {
+      "code": "6399",
+      "polarity": "exclude",
+      "page": 2,
+      "line": "1.5.6 Insurance Underwriting, Premiums (MCC: 6300, 6399, 5960)",
+      "reason": "determined by OCBC Bank in its absolute discretion from time to time (each, an \u201cExcluded",
+      "in_reference": true
+     },
+     {
+      "code": "5960",
+      "polarity": "exclude",
+      "page": 2,
+      "line": "1.5.6 Insurance Underwriting, Premiums (MCC: 6300, 6399, 5960)",
+      "reason": "determined by OCBC Bank in its absolute discretion from time to time (each, an \u201cExcluded",
+      "in_reference": true
+     },
+     {
+      "code": "6540",
+      "polarity": "exclude",
+      "page": 2,
+      "line": "1.5.7 Prepaid accounts/ prepaid card (MCC: 6540)",
+      "reason": "determined by OCBC Bank in its absolute discretion from time to time (each, an \u201cExcluded",
+      "in_reference": true
+     },
+     {
+      "code": "8211",
+      "polarity": "exclude",
+      "page": 2,
+      "line": "1.5.8 Education (MCC: 8211, 8220, 8241, 8244, 8249, 8299)",
+      "reason": "determined by OCBC Bank in its absolute discretion from time to time (each, an \u201cExcluded",
+      "in_reference": true
+     },
+     {
+      "code": "8220",
+      "polarity": "exclude",
+      "page": 2,
+      "line": "1.5.8 Education (MCC: 8211, 8220, 8241, 8244, 8249, 8299)",
+      "reason": "determined by OCBC Bank in its absolute discretion from time to time (each, an \u201cExcluded",
+      "in_reference": true
+     },
+     {
+      "code": "8241",
+      "polarity": "exclude",
+      "page": 2,
+      "line": "1.5.8 Education (MCC: 8211, 8220, 8241, 8244, 8249, 8299)",
+      "reason": "determined by OCBC Bank in its absolute discretion from time to time (each, an \u201cExcluded",
+      "in_reference": true
+     },
+     {
+      "code": "8244",
+      "polarity": "exclude",
+      "page": 2,
+      "line": "1.5.8 Education (MCC: 8211, 8220, 8241, 8244, 8249, 8299)",
+      "reason": "determined by OCBC Bank in its absolute discretion from time to time (each, an \u201cExcluded",
+      "in_reference": true
+     },
+     {
+      "code": "8249",
+      "polarity": "exclude",
+      "page": 2,
+      "line": "1.5.8 Education (MCC: 8211, 8220, 8241, 8244, 8249, 8299)",
+      "reason": "determined by OCBC Bank in its absolute discretion from time to time (each, an \u201cExcluded",
+      "in_reference": true
+     },
+     {
+      "code": "8299",
+      "polarity": "exclude",
+      "page": 2,
+      "line": "1.5.8 Education (MCC: 8211, 8220, 8241, 8244, 8249, 8299)",
+      "reason": "determined by OCBC Bank in its absolute discretion from time to time (each, an \u201cExcluded",
+      "in_reference": true
+     },
+     {
+      "code": "7995",
+      "polarity": "exclude",
+      "page": 2,
+      "line": "1.5.9 Gambling (MCC 7995)",
+      "reason": "determined by OCBC Bank in its absolute discretion from time to time (each, an \u201cExcluded",
+      "in_reference": true
+     },
+     {
+      "code": "7523",
+      "polarity": "exclude",
+      "page": 2,
+      "line": "1.5.10 Parking Lots, Parking Meters and Garages (MCC: 7523)",
+      "reason": "determined by OCBC Bank in its absolute discretion from time to time (each, an \u201cExcluded",
+      "in_reference": true
+     },
+     {
+      "code": "5199",
+      "polarity": "exclude",
+      "page": 2,
+      "line": "1.5.11 Nondurable Goods (MCC: 5199)",
+      "reason": "determined by OCBC Bank in its absolute discretion from time to time (each, an \u201cExcluded",
+      "in_reference": true
+     },
+     {
+      "code": "4829",
+      "polarity": "exclude",
+      "page": 2,
+      "line": "1.5.12 Wire Transfer Money Orders (WTMOs) (MCC: 4829)",
+      "reason": "determined by OCBC Bank in its absolute discretion from time to time (each, an \u201cExcluded",
+      "in_reference": true
+     },
+     {
+      "code": "6012",
+      "polarity": "exclude",
+      "page": 2,
+      "line": "1.5.13 Financial Institutions \u2013 Merchandise, Services, and Debt Repayment (MCC: 6012)",
+      "reason": "determined by OCBC Bank in its absolute discretion from time to time (each, an \u201cExcluded",
+      "in_reference": true
+     },
+     {
+      "code": "8651",
+      "polarity": "exclude",
+      "page": 2,
+      "line": "1.5.14 Political Organizations (MCC: 8651)",
+      "reason": "determined by OCBC Bank in its absolute discretion from time to time (each, an \u201cExcluded",
+      "in_reference": true
+     },
+     {
+      "code": "6010",
+      "polarity": "exclude",
+      "page": 2,
+      "line": "1.5.15 Banks - Manual Cash disbursement/Automated Cash Disbursement (MCC: 6010,",
+      "reason": "determined by OCBC Bank in its absolute discretion from time to time (each, an \u201cExcluded",
+      "in_reference": true
+     },
+     {
+      "code": "6012",
+      "polarity": "exclude",
+      "page": 2,
+      "line": "6012)",
+      "reason": "determined by OCBC Bank in its absolute discretion from time to time (each, an \u201cExcluded",
+      "in_reference": true
+     },
+     {
+      "code": "7349",
+      "polarity": "exclude",
+      "page": 2,
+      "line": "1.5.16 Cleaning, Maintenance and Janitorial Services (MCC: 7349)",
+      "reason": "determined by OCBC Bank in its absolute discretion from time to time (each, an \u201cExcluded",
+      "in_reference": true
+     },
+     {
+      "code": "4784",
+      "polarity": "exclude",
+      "page": 2,
+      "line": "1.5.17 Tolls and Bridge Fees (MCC: 4784)",
+      "reason": "determined by OCBC Bank in its absolute discretion from time to time (each, an \u201cExcluded",
+      "in_reference": true
+     },
+     {
+      "code": "5993",
+      "polarity": "exclude",
+      "page": 2,
+      "line": "1.5.18 Cigars Stores and Stands (MCC: 5993)",
+      "reason": "determined by OCBC Bank in its absolute discretion from time to time (each, an \u201cExcluded",
+      "in_reference": true
+     },
+     {
+      "code": "8675",
+      "polarity": "exclude",
+      "page": 2,
+      "line": "1.5.19 Automobile Associations (MCC: 8675)",
+      "reason": "determined by OCBC Bank in its absolute discretion from time to time (each, an \u201cExcluded",
+      "in_reference": true
+     },
+     {
+      "code": "8699",
+      "polarity": "exclude",
+      "page": 2,
+      "line": "1.5.20 Labor Union (MCC: 8699)",
+      "reason": "determined by OCBC Bank in its absolute discretion from time to time (each, an \u201cExcluded",
+      "in_reference": true
+     },
+     {
+      "code": "8062",
+      "polarity": "exclude",
+      "page": 2,
+      "line": "Hospitals, Community Hospitals and Polyclinics under the MCC 8062",
+      "reason": "determined by OCBC Bank in its absolute discretion from time to time (each, an \u201cExcluded",
+      "in_reference": true
+     }
+    ]
+   },
+   "transaction_modes": {
+    "online": [
+     "1.4 Travel$ is not awarded on the following: all card fees and charges, card annual fees, membership fees, renewal fees, Balance Transfer and charges incurred for any Balance Transfer facility, Cash-on-Instalment facility and charges incurred for any Cash-on-Instalment facility, Instalment Payment Plan, Extended Payment Plan, Income Tax payment, interest, late payment charges, Goods and services t",
+     "1.10 The Travel$ awarded, including any Bonus awarded by OCBC Bank, to each Principal Cardmember will be reflected in the relevant Principal Cardmember\u2019s monthly Card statement, and will also be available for viewing via OCBC Rewards Portal at www.ocbc.com/rewards or on OCBC Internet Banking/Mobile Banking at www.ocbc.com/login.",
+     "No.: 193200032W (www.ocbc.com/rewards), Internet/Mobile banking, or phone banking."
+    ],
+    "foreign_currency": [
+     "1.1.1 Overseas Spend: earn 10.5 Travel$ for every S$5 equivalent charged to the Card for Transactions posted in foreign currency, which is equivalent to 2.1 miles per S$1 spend."
+    ],
+    "local_currency": [
+     "1.1.2 Local Spend: earn 6 Travel$ for every S$5 charged to the Card for Transactions posted in Singapore dollars, which is equivalent to 1.2 miles per S$1 spend."
+    ]
+   },
+   "non_mcc_exclusions": [
+    "annual fee",
+    "axs",
+    "balance transfer",
+    "bill payment",
+    "cash advance",
+    "charit",
+    "education",
+    "government",
+    "hospital",
+    "instalment",
+    "interest",
+    "tax",
+    "utilit"
+   ]
+  },
+  {
+   "url": "https://www.ocbc.com/iwov-resources/sg/ocbc/personal/pdf/campaign/cards/tncs-90ncard-agoda-yearlong-promo.pdf",
+   "citation": {
+    "id": "bank:5f17d79e0c6d",
+    "url": "https://www.ocbc.com/iwov-resources/sg/ocbc/personal/pdf/campaign/cards/tncs-90ncard-agoda-yearlong-promo.pdf",
+    "source_type": "official",
+    "retrieved_at": "2026-09-27T08:41:17+00:00",
+    "sha256": "5f17d79e0c6d4376a8edf1d7e2f8d79338e658b619d5366149b31249070989cb",
+    "snapshot": "data/raw/bank/www-ocbc-com-iwov-resources-sg-ocbc-personal-pdf-campaign-cards-tncs-90ncard-agoda-yearlong-promo-pdf-b6cef1f1.pdf"
+   },
+   "text_path": "data/raw/bank/www-ocbc-com-iwov-resources-sg-ocbc-personal-pdf-campaign-cards-tncs-90ncard-agoda-yearlong-promo-pdf-b6cef1f1.txt",
+   "sha256": "5f17d79e0c6d4376a8edf1d7e2f8d79338e658b619d5366149b31249070989cb",
+   "changed": false,
+   "new": true,
+   "no_text_layer": false,
+   "effective_dates": [],
+   "mcc": {
+    "include": [],
+    "exclude": [],
+    "unknown": [],
+    "conflicting": [],
+    "unrecognised": [],
+    "hits": []
+   },
+   "transaction_modes": {
+    "foreign_currency": [
+     "Details of the Promotion are as follows: Booking Period Now - 10 October 2026 Stay Period Now - 31 December 2026 7 Miles per S$1 spent in foreign currency Miles Awarded 6 Miles per S$1 spent in Singapore dollars Destinations Worldwide Platforms Only through the dedicated website: www.agoda.com/90n",
+     "The 7 Miles awarded for bookings in foreign currency consist of: \u2022 Baseline 2.1 Miles + 4.9 Bonus Miles."
+    ],
+    "local_currency": [
+     "Details of the Promotion are as follows: Booking Period Now - 10 October 2026 Stay Period Now - 31 December 2026 7 Miles per S$1 spent in foreign currency Miles Awarded 6 Miles per S$1 spent in Singapore dollars Destinations Worldwide Platforms Only through the dedicated website: www.agoda.com/90n",
+     "The 6 Miles awarded for bookings in SGD consist of: \u2022 Baseline 1.3 Miles + 4.7 Bonus Miles."
+    ]
+   },
+   "non_mcc_exclusions": [
+    "tax"
+   ]
+  },
+  {
+   "url": "https://www.ocbc.com/iwov-resources/sg/ocbc/personal/pdf/cards/tncs-ocbc-cardup-promo.pdf",
+   "citation": {
+    "id": "bank:8bd51daf86cf",
+    "url": "https://www.ocbc.com/html/404.html",
+    "source_type": "official",
+    "retrieved_at": "2026-09-27T08:41:19+00:00",
+    "sha256": "8bd51daf86cfb53f3c86e813478a69d583ee5703cdcd0a2c5009a0c882a9cda0",
+    "snapshot": "data/raw/bank/www-ocbc-com-html-404-html-fdc1f00d.html"
+   },
+   "text_path": "data/raw/bank/www-ocbc-com-html-404-html-fdc1f00d.txt",
+   "sha256": "8bd51daf86cfb53f3c86e813478a69d583ee5703cdcd0a2c5009a0c882a9cda0",
+   "changed": false,
+   "new": true,
+   "no_text_layer": false,
+   "effective_dates": [],
+   "mcc": {
+    "include": [],
+    "exclude": [],
+    "unknown": [],
+    "conflicting": [],
+    "unrecognised": [],
+    "hits": []
+   },
+   "transaction_modes": {},
+   "non_mcc_exclusions": []
+  }
+ ],
+ "changed": false,
+ "removed_documents": []
+}

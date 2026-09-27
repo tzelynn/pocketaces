@@ -1,0 +1,286 @@
+Citi SMRT$ Rewards Program Terms and Conditions
+The following Terms are to be read in connection with the Citi SMRT Platinum Visa Cardmember’s
+Agreement. Unless otherwise defined herein, all capitalized terms will bear the same meaning as in the Citi
+SMRT Platinum Visa Cardmember’s Agreement.
+1. Definitions
+a. “Basic Cardmember” refers to the person at whose request one or more Supplementary Cards
+have been issued by us to Supplementary Cardmembers.
+b. “Card” refers to the Citi SMRT Credit Card issued by Citibank and includes any Card issued in
+renewal or replacement thereof; and if more than one Card or if a Supplementary Card is issued,
+includes such other Card(s).
+c. “Cash Rebate” refers to the statement credits credited to your Citi SMRT Card.
+d. "Citibank" refers to Citibank Singapore Limited.
+e. “Merchant” means a merchant that has agreed and has been accepted by Citibank to participate in
+the Program. A list of such Merchants will be notified to you from time to time.
+f. “Merchant Category Code (MCC)” is a four-digit number assigned to a merchant/business by the
+merchant’s acquiring bank. The acquiring bank provides the credit card payment facilities used by the
+merchant and it determines and applies (with respect to the account), the MCC which in its view best
+describes the merchant activity. Citibank does not determine the merchant’s MCC.
+g. “Program” means the Citi SMRT$ Rewards Program.
+h. “Qualifying Online Spend” refers to Qualifying Retail Spend, other than mobile wallet and travel-
+related transactions*, made via the internet or mobile applications of retail merchants, which is
+determined by system indicators reflecting that it is an online transaction, and which are processed by
+the respective merchants/acquirers as an online transaction through Visa network. These indicators
+are decided by the relevant merchant and/or their acquirer and are not determined by Citibank.
+*Travel-related transactions include but are not limited to transactions which bear the following
+MCCs (i.e. any transactions at merchants with the following MCCs will not be awarded the 4.7%
+Bonus rate):
+Excluded Merchant Description
+Category Code (MCC)
+MCC 3000 to 3350 Airlines, Air Carriers
+MCC 3351 to 3500 Car Rental Agencies
+MCC 3501 to 3999 Lodging – Hotels, Motels, Resorts
+MCC 4112 Passenger Railways
+MCC 4131 Bus Lines
+MCC 4411 Cruise Lines
+MCC 4511 Airlines, Air Carriers (Not Elsewhere Classified)
+MCC 4722 Travel Agencies and Tour Operators
+MCC 4789 Transportation Services Not Elsewhere Classified
+MCC 5962 Direct Marketing – Travel-Related Arrangement Services
+MCC 7011 Lodging – Hotels, Motels, Resorts (Not Elsewhere Classified)
+MCC 7512 Car Rental Agencies (Not Elsewhere Classified)
+Provided always that Citibank is entitled, in its reasonable discretion, to determine whether a
+transaction is a Qualifying Online Spend.
+Updated November 2024. With effect from 16 December 2024.i. “Qualifying Retail Spend” refers to any retail transaction made to an Eligible Card which does not
+arise from any:
+i. annual fees, interest charges, late payment charges, GST, cash advances,
+instalment/easy/extended/equal payment plans, preferred payment plans, balance transfers,
+cash advances, quasi-cash transactions, all fees charged by Citibank or third party,
+miscellaneous charges imposed by Citibank (unless otherwise stated in writing by Citibank);
+ii. funds transfers using the card as source of funds;
+iii. bill payments (including via Citibank Online or via any other channel or agent);
+iv. payments to educational institutions;
+v. payments to government institutions and services (including but not limited to court cases,
+fines, bail and bonds, tax payment, postal services, parking lots and garages, intra-
+government purchases);
+vi. payments to insurance companies (sales, underwriting, and premiums);
+vii. payments to financial institutions (including banks and brokerages);
+viii. payments to non-profit organizations;
+ix. betting or gambling (including lottery tickets, casino gaming chips, off-track betting, and
+wagers at race tracks) through any channel;
+x. any top-ups or payment of funds to payment service providers, prepaid cards and any
+prepaid accounts;
+xi. transit-related transactions;
+xii. transactions performed at establishments/businesses/merchants that fall within an excluded
+MCC or a merchant that has been excluded by the bank, as set out in
+www.citibank.com.sg/rwdexcl (this list of excluded MCCs or merchants may be updated from
+time to time at our discretion and Cardmembers shall refer to this list for any updates).
+provided always that Citibank is entitled, in its reasonable discretion, to determine whether a
+transaction is a Qualifying Retail Spend.
+j. “Service” refers to the SMRT$ Cash Rebate redemption service.
+k. “SMRT” means SMRT Corporation Limited and its successors and assigns.
+l. “SMRT$ Rewards Vouchers” means the vouchers to be issued upon redemption of SMRT$.
+m. “SMRT$” means reward points or other units of whatever description awarded by us to you in
+connection with your use of the Card and which the Basic Cardmember may subsequently use in
+accordance with the terms and conditions of the Program.
+n. “SMS” means Short Message Service.
+o. “Supplementary Cardmember” refers to the person who is issued a supplementary Card.
+p. “Transaction” means a Card transaction.
+q. “We, our, us” means Citibank Singapore Ltd and its successors and any novatee, assignee,
+transferee or purchaser of Citibank Singapore Ltd’s rights and/or obligations hereunder.
+r. “You, your, Cardmember” means the person to whom the Card is issued and includes the Basic
+Cardmember and each and every Supplementary Cardmember where the context requires.
+2. Participation
+a. You will be entitled to participate in the Program if your Card account is in good standing, as
+determined by us in our sole discretion.
+b. SMRT$ earned on Qualifying Retail Spend by both Basic and Supplementary Cardmembers will be
+credited to the card account of the Basic Cardmember.
+c. If the Basic Cardmember’s Card account is terminated at any time for any reason, whether by the
+Basic Cardmember or by us, the Basic Cardmember and the Supplementary Cardmember will
+immediately be disqualified from participating in the Program and all SMRT$ then accumulated shall
+automatically be forfeited.
+d. If a Supplementary Card is terminated at any time for any reason, the Basic Cardmember will not be
+disqualified from participating in the Program, unless otherwise determined by us at our discretion.
+Updated November 2024. With effect from 16 December 2024.3. Program
+a. Base rate: The base rate of earning SMRT$ on Qualifying Retail Spend is 0.3% (“Base rate”).
+b. Bonus rate: For monthly minimum Qualifying Retail Spend of S$500 and above, the bonus rate of
+earning SMRT$ on Qualifying Retail Spend is 4.7% is on the selected categories listed in Table A
+below which bear the MCC and/or transactions description (if applicable) as set out in Table B of
+below (“Bonus rate”). If the monthly minimum Qualifying Retail Spend is less than S$500, you will not
+earn the Bonus rate of 4.7% but you will still earn the Base rate of 0.3% on the Qualifying Retail
+Spend. Please note that the term “monthly” in these Terms refers to the month in respect of which a
+Basic Cardmember is issued a statement of account in respect of the Card and not the calendar
+month.
+For the avoidance of doubt, retail transactions that are not Qualifying Retail Spend will not be
+calculated towards the monthly minimum Qualifying Retail Spend of S$500. Please refer to Clause
+1(i) above on the list of transaction types that will not be calculated towards the monthly minimum
+Qualifying Retail Spend of S$500.
+Table A (to be read with Table B)
+Bonus rate
+Base rate
+(monthly Qualifying
+Categories (no minimum Total earn rate
+Retail Spend of
+spend)
+>S$500)
+Groceries
+Qualifying Online
+Spend*
+SimplyGo (tap to pay) 4.7% 5%
+Taxis 0.3%
+(including private-hire
+rides)#
+Other Qualifying Retail
+NIL 0.3%
+Spend
+Bonus rate of 4.7% is awarded based on the following Merchant Category Code (MCC) and
+transaction description, where applicable:
+Table B (to be read with Table A)
+Categories Merchant Category Code Transaction Description
+(MCC)
+Groceries MCC 5411 Not required
+Qualifying Online Spend Not applicable.
+(excludes mobile wallet and Awarded based on online indicator.
+travel-related transactions)
+SimplyGo (tap to pay) MCC 4111 BUS/MRT
+Taxis# MCC 4121 Not required
+SimplyGo (tap to pay) is a mode of electronic payment where you tap your contactless Citi SMRT
+Card / mobile wallet / wearable device to pay for your public bus/train rides.
+Updated November 2024. With effect from 16 December 2024.*Travel-related transactions include but are not limited to transactions which bear the following MCCs
+(i.e. any transactions at merchants with the following MCCs will not be awarded the 4.7% Bonus
+rate):
+Excluded Merchant Description
+Category Code (MCC)
+MCC 3000 to 3350 Airlines, Air Carriers
+MCC 3351 to 3500 Car Rental Agencies
+MCC 3501 to 3999 Lodging – Hotels, Motels, Resorts
+MCC 4112 Passenger Railways
+MCC 4131 Bus Lines
+MCC 4411 Cruise Lines
+MCC 4511 Airlines, Air Carriers (Not Elsewhere Classified)
+MCC 4722 Travel Agencies and Tour Operators
+MCC 4789 Transportation Services Not Elsewhere Classified
+MCC 5962 Direct Marketing – Travel-Related Arrangement Services
+MCC 7011 Lodging – Hotels, Motels, Resorts (Not Elsewhere Classified)
+MCC 7512 Car Rental Agencies (Not Elsewhere Classified)
+#Taxis include private-hire vehicle operators with MCC4121 such as Grab and Gojek. For Grab
+transactions - only Grab rides charged directly to the card are eligible for bonus SMRT$. Grab ride
+transactions paid via GrabPay Wallet linked to the Citi SMRT card are not eligible for bonus SMRT$.
+For the avoidance of doubt, GrabPay and any other mobile top-ups are also excluded from earning
+the Bonus rate.
+4. Issuance of SMRT$ and SMRT$ Rewards Vouchers
+a. Under the Program, rebates are in the form of SMRT$.
+b. Only Qualifying Retail Spend will earn SMRT$. Citi is entitled, in its reasonable discretion, to take into
+account or disregard any card transaction or charges or retail purchase in the calculation of SMRT$
+or to otherwise vary the basis of calculation of SMRT$. Any SMRT$ earned from non-Qualifying
+Retail Spend will be debited.
+c. You may accumulate a maximum of SMRT$600 during any 12 month period commencing from (i)
+the date your Card is issued; or (ii) the date of the statement of account in the month your Card
+account is renewed. Every 1 SMRT$ shall (unless otherwise specified) represent S$1 in cash value.
+d. SMRT$ will be calculated on the amount of qualifying spend made on a monthly basis. The
+accumulation of SMRT$ shall be specified in your monthly statement of account.
+e. To redeem SMRT$ for SMRT$ Reward Vouchers, the Basic Cardmember must have at least
+SMRT$10 in their Card account.
+f. SMRT$ may be redeemed for SMRT$ Rewards Vouchers either by Citibank Online or through such
+other channels notified by us to you. All SMRT$ Rewards Vouchers will be valid for a period of 3
+months from their date of issue. Citibank will not issue any SMRT$ Rewards Vouchers for amounts
+below SMRT$10. All SMRT$ Rewards Vouchers will be issued in multiples of SMRT$10. Upon expiry
+of the SMRT$ Rewards Vouchers, there will be no reimbursement of the SMRT$ Rewards Vouchers
+nor will the Cardmember obtain any other benefits in connection with the expired SMRT$ Rewards
+Vouchers. SMRT$ may also be redeemed for cash rebate via SMS redemption, in accordance with
+Clause 5 below.
+g. SMRT$ earned by a Supplementary Cardmember will be credited to the Card account of the Basic
+Cardmember.
+h. SMRT$ accumulated during any 12 month period commencing from the date of issue of the Card or
+date of renewal of the Card account (as the case may be) have a validity period of 15 months from
+such a commencement date. A reminder on the validity of your SMRT$ is included in your statement
+of accounts for three consecutive months prior to the actual expiry. Upon expiry, there will be no
+Updated November 2024. With effect from 16 December 2024.carrying over of any expired SMRT$ nor will you obtain any other benefits in connection with the
+expired SMRT$.
+i. SMRT$ Rewards Vouchers will be issued in the name of and to the address of the Basic
+Cardmember, and may be used only by the Basic Cardmember.
+j. We may, but are not obliged to, replace a lost or stolen SMRT$ Rewards Voucher provided the
+previous SMRT$ Rewards Voucher has not been presented for use. We reserve the right to charge a
+service fee for the replacement of any SMRT$ Rewards Voucher.
+k. You are responsible for any taxes that may be due on SMRT$ Rewards Vouchers you receive for
+your SMRT$ balances. SMRT$ have no cash value until such time a SMRT$ Rewards Voucher is
+issued for accumulated SMRT$ and you shall have no property rights or other legal interest in
+SMRT$. You may not assign, transfer or pledge your SMRT$.
+5. SMRT$ Cash Rebate Program
+a. To redeem SMRT$ for cash rebate, the Basic Cardmember must have at least SMRT$10 in their
+Card account.
+Cash Rebate SMS
+b. Basic Cardmembers may redeem their SMRT$ for cash rebates via SMS by sending “RWDS
+<space> <Last 4 Digits of Card number> <space> <corresponding redemption amount keyword>” to
+72484. The keyword that corresponds to each cash rebate amount is set out in the table below:
+Cash Rebate Redemption Amount SMRT$ Required SMS Keyword
+S$10 10 SMRT10
+S$50 50 SMRT50
+S$100 100 SMRT100
+For example, to redeem $10 cash rebate, SMS to 72484:
+RWDS <space> Last 4 Digits of Your Citi SMRT Card number <space> SMRT10
+c. In the event that the existing SMRT$ in the Card account available for redemption is less than the
+SMRT$ required to redeem the cash rebate requested, the Basic Cardmember will receive a rejection
+SMS and the redemption will not go through.
+d. The Basic Cardmember must send the SMS in the prescribed format via their mobile phone number
+that has been registered with us, as per our last updated records.
+e. The cash rebate redemption is subject to the Basic Cardmember’s internet and/or mobile phone
+service provider’s ability to support the SMS redemption service, and the relevant terms and charges
+of such service provider.
+f. The Basic Cardmember accepts and acknowledges that any SMS received pertaining to his SMRT$
+balance enquiry may not be encrypted and may contain personal details and information pertaining to
+his Card account, and we shall not be responsible or liable to him for any possible release, loss or
+interception of such personal details and/or information.
+g. We neither guarantee the delivery, accuracy, security, nor confidentiality of the contents of any SMS
+sent by us to the Basic Cardmember in connection with this Service. The Basic Cardmember must
+promptly update us of any change to his mobile phone number. We shall not be liable to the Basic
+Cardmember, the Supplementary Cardmember or anyone else for any losses or damages arising
+from the Service, including but not limited to, (a) non-delivery, delayed delivery, wrong delivery or
+partial delivery of any SMS; (b) inaccurate contents of any SMS; or (c) unauthorized access to the
+contents of any SMS by anyone.
+h. Under this Service, only SMRT$ accumulated on the specific Card that was used for the SMS
+redemption can be redeemed. SMRT$ from different Cards cannot be accumulated for redemption.
+SMRT$ accumulated on supplementary Card accounts can only be redeemed by the Basic
+Cardmember.
+i. Strictly no cancellation will be allowed once Basic Cardmember sends in the request for the Service.
+j. For SMS redemptions made while overseas, mobile charges from respective local carriers applies.
+Updated November 2024. With effect from 16 December 2024.k. We reserve the right in our reasonable discretion to terminate or suspend this Service, vary, delete or
+add to any of these terms and conditions, at any time with notice and without having to disclose any
+reason therefore and without any payment or compensation whatsoever.
+l. Our decision on and records of all matters relating to the Service are final, conclusive and binding on
+all customers and no correspondence will be entertained. In the event of any inconsistency between
+these terms and conditions and any marketing material relating to this Service, these terms and
+conditions will prevail.
+Cash Rebate Online
+m. Cash Rebate Online service allows you to redeem your available SMRT$ via Citi Mobile® App for
+statement credits to your Citi SMRT Card.
+n. To make use of the Cash Rebate Online service, you must be enrolled for Citi Mobile® App.
+o. All redemptions of SMRT$ for cash rebate are subject to the Citibank Cash Rebate Program Terms
+and Conditions which can be viewed at www.citibank.com.sg/credit-cards/cash-rebate/pdf/sms-
+redemption-terms-and-conditions.pdf.
+6. Other Conditions
+a. We may at any time vary, modify or amend the terms and conditions relating to the Program as we
+may, in our reasonable discretion, think fit, and you shall be bound by such variations and
+amendments after such variations and amendments have been communicated to the Cardmember.
+b. Any abuse or fraud in respect of the issuance of SMRT$, SMRT$ Rewards Vouchers may result in
+the cancellation of the Card Account, any accumulated SMRT$ and any SMRT$ Rewards Vouchers
+already issued.
+c. Without prejudice to any of our rights and remedies, we are entitled, at any time, in our reasonable
+discretion with reasonable notice, to terminate the Program or withdraw, cancel or invalidate any
+SMRT$, and/or any SMRT$ Rewards Vouchers already earned or issued.
+d. We are not liable if we are unable to perform our obligations under these terms and conditions, due
+directly or indirectly to the failure of any machine or communication system, industrial dispute, war,
+Act of God, or anything outside our control or the control of our servants or agents. We shall not be
+responsible for any delay in the transmission to us of evidence of retail purchases.
+e. Save in the case of gross negligence or willful default, we shall not be liable for any errors, delays,
+omissions in the performance of the obligations under these terms and conditions.
+f. The bank's records of all matters relating to the Program are conclusive and binding on the
+cardmember. The bank is entitled, for any reason and at any time, without liability, to suspend the
+calculation or accrual of SMRT$, to rectify and errors in the calculation, or otherwise adjust such
+calculation.
+g. We reserve the right at our reasonable discretion to terminate or amend the Program or vary, delete
+or add to any of these terms and conditions from time to time, with notice, and without having to
+disclose any reason.
+h. We shall not be responsible for the quality, merchantability or the fitness for any purpose or any other
+aspect of the products and/or services provided by third parties. Notwithstanding anything herein, we
+shall not at any time be responsible or held liable for any loss, injury, damage or harm suffered by or
+in connection with the products and/or services provided by third parties.
+i. We shall not be liable in any way to any Basic or Supplementary Cardmember for any loss or damage
+or expense arising out of or in connection with the Program, including without limitation, from any late
+or non-receipt of SMS notifications, error in computing, any breakdown or malfunction in any
+computer system, mobile phone or equipment.
+j. Our decision on all matters relating to the Program will be at our reasonable discretion and will be
+final and binding on all participants. In the event of any inconsistency between these terms and
+conditions and any brochure, marketing or promotional material relating to the Program, these terms
+and conditions will prevail.
+Updated November 2024. With effect from 16 December 2024.

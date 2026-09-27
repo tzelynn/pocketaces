@@ -1,0 +1,368 @@
+{
+ "card_id": "icbc-unionpay-dual-currency",
+ "product_pages": [
+  {
+   "id": "bank:238dede9590d",
+   "url": "https://www.icbc.com.sg/en/column/1438059017535897823.html",
+   "source_type": "official",
+   "retrieved_at": "2026-09-27T08:37:20+00:00",
+   "sha256": "238dede9590d83681ccddabe6a08b021d642d54db8a8583764cca485a639c155",
+   "snapshot": "data/raw/bank/www-icbc-com-sg-en-column-1438059017535897823-html-d8c5584b.html"
+  }
+ ],
+ "documents": [
+  {
+   "url": "https://v.icbc.com.cn/userfiles/resources/icbc/haiwai/singapore/download/2025/dualcurrency_tc.pdf",
+   "citation": {
+    "id": "bank:1e7fc70513b7",
+    "url": "https://v.icbc.com.cn/userfiles/resources/icbc/haiwai/singapore/download/2025/dualcurrency_tc.pdf",
+    "source_type": "official",
+    "retrieved_at": "2026-09-27T08:37:21+00:00",
+    "sha256": "1e7fc70513b7f1a4c03c8d91fb1a3d6625b608adf05e470ca8ea17253e7c3034",
+    "snapshot": "data/raw/bank/v-icbc-com-cn-userfiles-resources-icbc-haiwai-singapore-download-2025-dualcurrency-tc-pdf-e0ab8ee0.pdf"
+   },
+   "text_path": "data/raw/bank/v-icbc-com-cn-userfiles-resources-icbc-haiwai-singapore-download-2025-dualcurrency-tc-pdf-e0ab8ee0.txt",
+   "sha256": "1e7fc70513b7f1a4c03c8d91fb1a3d6625b608adf05e470ca8ea17253e7c3034",
+   "changed": false,
+   "new": false,
+   "no_text_layer": false,
+   "effective_dates": [],
+   "mcc": {
+    "include": [],
+    "exclude": [
+     "4829",
+     "4900",
+     "5199",
+     "5960",
+     "6012",
+     "6050",
+     "6051",
+     "6211",
+     "6300",
+     "6513",
+     "6529",
+     "6530",
+     "6540",
+     "7523",
+     "7995",
+     "8062",
+     "8211",
+     "8220",
+     "8241",
+     "8244",
+     "8249",
+     "8299",
+     "8398",
+     "8651",
+     "8661",
+     "8699",
+     "9211",
+     "9222",
+     "9223",
+     "9311",
+     "9399",
+     "9402",
+     "9405",
+     "9498"
+    ],
+    "unknown": [],
+    "conflicting": [],
+    "unrecognised": [
+     "6529",
+     "6530",
+     "9498"
+    ],
+    "hits": [
+     {
+      "code": "4829",
+      "polarity": "exclude",
+      "page": 2,
+      "line": "4829 WWiirree TTrraannssffeerr//MMoonneeyy OOrrddeerrss",
+      "reason": "fulfillment. The following ttrraannssaaccttiioonnss are excluded:",
+      "in_reference": true
+     },
+     {
+      "code": "4900",
+      "polarity": "exclude",
+      "page": 2,
+      "line": "4900 UUttiilliittiieess - Electric, Gas, Heating Oil, Sanitary and WWaatteerr",
+      "reason": "fulfillment. The following ttrraannssaaccttiioonnss are excluded:",
+      "in_reference": true
+     },
+     {
+      "code": "5199",
+      "polarity": "exclude",
+      "page": 2,
+      "line": "5199 NNoonndduurraabbllee GGooooddss ((NNoott EEllsseewwhheerree CCllaassssiiffiieedd))",
+      "reason": "fulfillment. The following ttrraannssaaccttiioonnss are excluded:",
+      "in_reference": true
+     },
+     {
+      "code": "5960",
+      "polarity": "exclude",
+      "page": 2,
+      "line": "5960 DDiirreecctt MMaarrkkeettiinngg - Insurance Services",
+      "reason": "fulfillment. The following ttrraannssaaccttiioonnss are excluded:",
+      "in_reference": true
+     },
+     {
+      "code": "6012",
+      "polarity": "exclude",
+      "page": 2,
+      "line": "6012 FFiinnaanncciiaall IInnssttiittuuttiioonnss",
+      "reason": "fulfillment. The following ttrraannssaaccttiioonnss are excluded:",
+      "in_reference": true
+     },
+     {
+      "code": "6050",
+      "polarity": "exclude",
+      "page": 2,
+      "line": "6050 QQuuaassii CCaasshh - Financial IInnssttiittuuttiioonnss,, MMeerrcchhaannddiissee aanndd SSeerrvviicceess",
+      "reason": "fulfillment. The following ttrraannssaaccttiioonnss are excluded:",
+      "in_reference": true
+     },
+     {
+      "code": "6051",
+      "polarity": "exclude",
+      "page": 2,
+      "line": "6051 NNoonn-Fl, Money Orders",
+      "reason": "fulfillment. The following ttrraannssaaccttiioonnss are excluded:",
+      "in_reference": true
+     },
+     {
+      "code": "6211",
+      "polarity": "exclude",
+      "page": 2,
+      "line": "6211 SSeeccuurriittyy BBrrookkeerrss//DDeeaalleerrss",
+      "reason": "fulfillment. The following ttrraannssaaccttiioonnss are excluded:",
+      "in_reference": true
+     },
+     {
+      "code": "6300",
+      "polarity": "exclude",
+      "page": 2,
+      "line": "6300 IInnssuurraannccee UUnnddeerrwwrriittiinngg,, PPrreemmiiuummss",
+      "reason": "fulfillment. The following ttrraannssaaccttiioonnss are excluded:",
+      "in_reference": true
+     },
+     {
+      "code": "6513",
+      "polarity": "exclude",
+      "page": 2,
+      "line": "6513 RReeaall EEssttaattee AAggeennttss aanndd MMaannaaggeerrss - Rentals",
+      "reason": "fulfillment. The following ttrraannssaaccttiioonnss are excluded:",
+      "in_reference": true
+     },
+     {
+      "code": "6529",
+      "polarity": "exclude",
+      "page": 3,
+      "line": "6529 RReemmoottee SSttoorreedd VVaalluuee LLooaadd - FFiinnaanncciiaall IInnssttiittuuttee RReennttaallss",
+      "reason": "fulfillment. The following ttrraannssaaccttiioonnss are excluded:",
+      "in_reference": false
+     },
+     {
+      "code": "6530",
+      "polarity": "exclude",
+      "page": 3,
+      "line": "6530 RReemmoottee SSttoorreedd VVaalluuee LLooaadd - Merchant Rentals",
+      "reason": "fulfillment. The following ttrraannssaaccttiioonnss are excluded:",
+      "in_reference": false
+     },
+     {
+      "code": "6540",
+      "polarity": "exclude",
+      "page": 3,
+      "line": "6540 PPOOII FFuunnddiinngg TTrraannssaaccttiioonnss",
+      "reason": "fulfillment. The following ttrraannssaaccttiioonnss are excluded:",
+      "in_reference": true
+     },
+     {
+      "code": "7523",
+      "polarity": "exclude",
+      "page": 3,
+      "line": "7523 AAuuttoommoobbiillee PPaarrkkiinngg LLoottss aanndd GGaarraaggeess",
+      "reason": "fulfillment. The following ttrraannssaaccttiioonnss are excluded:",
+      "in_reference": true
+     },
+     {
+      "code": "7995",
+      "polarity": "exclude",
+      "page": 3,
+      "line": "7995 BBeettttiinngg//CCaassiinnoo GGaammbblliinngg",
+      "reason": "fulfillment. The following ttrraannssaaccttiioonnss are excluded:",
+      "in_reference": true
+     },
+     {
+      "code": "8062",
+      "polarity": "exclude",
+      "page": 3,
+      "line": "8062 HHoossppiittaallss",
+      "reason": "fulfillment. The following ttrraannssaaccttiioonnss are excluded:",
+      "in_reference": true
+     },
+     {
+      "code": "8211",
+      "polarity": "exclude",
+      "page": 3,
+      "line": "8211 EElleemmeennttaarryy,, SSeeccoonnddaarryy SScchhoooollss",
+      "reason": "fulfillment. The following ttrraannssaaccttiioonnss are excluded:",
+      "in_reference": true
+     },
+     {
+      "code": "8220",
+      "polarity": "exclude",
+      "page": 3,
+      "line": "8220 CCoolllleeggeess,, UUnniivveerrssiittiieess",
+      "reason": "fulfillment. The following ttrraannssaaccttiioonnss are excluded:",
+      "in_reference": true
+     },
+     {
+      "code": "8241",
+      "polarity": "exclude",
+      "page": 3,
+      "line": "8241 CCoorrrreessppoonnddeennccee Schools",
+      "reason": "fulfillment. The following ttrraannssaaccttiioonnss are excluded:",
+      "in_reference": true
+     },
+     {
+      "code": "8244",
+      "polarity": "exclude",
+      "page": 3,
+      "line": "8244 BBuussiinneessss//SSeeccrreettaarriiaall SScchhoooollss",
+      "reason": "fulfillment. The following ttrraannssaaccttiioonnss are excluded:",
+      "in_reference": true
+     },
+     {
+      "code": "8249",
+      "polarity": "exclude",
+      "page": 3,
+      "line": "8249 VVooccaattiioonnaall//TTrraaddee SScchhoooollss",
+      "reason": "fulfillment. The following ttrraannssaaccttiioonnss are excluded:",
+      "in_reference": true
+     },
+     {
+      "code": "8299",
+      "polarity": "exclude",
+      "page": 3,
+      "line": "8299 EEdduuccaattiioonnaall SSeerrvviicceess",
+      "reason": "fulfillment. The following ttrraannssaaccttiioonnss are excluded:",
+      "in_reference": true
+     },
+     {
+      "code": "8398",
+      "polarity": "exclude",
+      "page": 3,
+      "line": "8398 OOrrggaanniizzaattiioonnss,, CChhaarriittaabbllee aanndd SSoocciiaall SSeerrvviiccee",
+      "reason": "fulfillment. The following ttrraannssaaccttiioonnss are excluded:",
+      "in_reference": true
+     },
+     {
+      "code": "8651",
+      "polarity": "exclude",
+      "page": 3,
+      "line": "8651 OOrrggaanniizzaattiioonnss,, PPoolliittiiccaall",
+      "reason": "fulfillment. The following ttrraannssaaccttiioonnss are excluded:",
+      "in_reference": true
+     },
+     {
+      "code": "8661",
+      "polarity": "exclude",
+      "page": 3,
+      "line": "8661 OOrrggaanniizzaattiioonnss,, RReelliiggiioouuss",
+      "reason": "fulfillment. The following ttrraannssaaccttiioonnss are excluded:",
+      "in_reference": true
+     },
+     {
+      "code": "8699",
+      "polarity": "exclude",
+      "page": 3,
+      "line": "8699 OOrrggaanniizzaattiioonnss,, MMeemmbbeerrsshhiipp ((NNoott EEllsseewwhheerree CCllaassssiiffiieedd))",
+      "reason": "fulfillment. The following ttrraannssaaccttiioonnss are excluded:",
+      "in_reference": true
+     },
+     {
+      "code": "9211",
+      "polarity": "exclude",
+      "page": 3,
+      "line": "9211 CCoouurrtt CCoossttss,, IInncclluuddiinngg AAlliimmoonnyy aanndd CChhiilldd SSuuppppoorrtt - CCoouurrttss ooff LLaaww",
+      "reason": "fulfillment. The following ttrraannssaaccttiioonnss are excluded:",
+      "in_reference": true
+     },
+     {
+      "code": "9222",
+      "polarity": "exclude",
+      "page": 3,
+      "line": "9222 FFiinneess - Government Administrative Entities",
+      "reason": "fulfillment. The following ttrraannssaaccttiioonnss are excluded:",
+      "in_reference": true
+     },
+     {
+      "code": "9223",
+      "polarity": "exclude",
+      "page": 3,
+      "line": "9223 BBaaiill aanndd BBoonndd PPaayymmeennttss",
+      "reason": "fulfillment. The following ttrraannssaaccttiioonnss are excluded:",
+      "in_reference": true
+     },
+     {
+      "code": "9311",
+      "polarity": "exclude",
+      "page": 3,
+      "line": "9311 TTaaxx PPaayymmeennttss - Government Agencies",
+      "reason": "fulfillment. The following ttrraannssaaccttiioonnss are excluded:",
+      "in_reference": true
+     },
+     {
+      "code": "9399",
+      "polarity": "exclude",
+      "page": 3,
+      "line": "9399 GGoovveerrnnmmeenntt SSeerrvviicceess ((NNoott EEllsseewwhheerree Classified)",
+      "reason": "fulfillment. The following ttrraannssaaccttiioonnss are excluded:",
+      "in_reference": true
+     },
+     {
+      "code": "9402",
+      "polarity": "exclude",
+      "page": 3,
+      "line": "9402 PPoossttaall SSeerrvviicceess - Government Only",
+      "reason": "fulfillment. The following ttrraannssaaccttiioonnss are excluded:",
+      "in_reference": true
+     },
+     {
+      "code": "9405",
+      "polarity": "exclude",
+      "page": 3,
+      "line": "9405 IInnttrraa-Government Purchases - Government Only",
+      "reason": "fulfillment. The following ttrraannssaaccttiioonnss are excluded:",
+      "in_reference": true
+     },
+     {
+      "code": "9498",
+      "polarity": "exclude",
+      "page": 3,
+      "line": "9498 CCrreeddiitt CCaarrdd PPaayymmeenntt",
+      "reason": "fulfillment. The following ttrraannssaaccttiioonnss are excluded:",
+      "in_reference": false
+     }
+    ]
+   },
+   "transaction_modes": {
+    "local_currency": [
+     "TThhee ccaasshhbbaacckk wwiillll bbee aawwaarrddeedd iinn SSiinnggaappoorree DDoollllaarrss ((\u201cSGD\u201d)."
+    ]
+   },
+   "non_mcc_exclusions": [
+    "axs",
+    "government",
+    "grabpay",
+    "interest",
+    "ipp",
+    "tax",
+    "top-up"
+   ]
+  }
+ ],
+ "changed": false,
+ "removed_documents": []
+}

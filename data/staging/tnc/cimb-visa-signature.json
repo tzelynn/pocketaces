@@ -1,0 +1,177 @@
+{
+ "card_id": "cimb-visa-signature",
+ "product_pages": [
+  {
+   "id": "bank:911b712e4e51",
+   "url": "https://www.cimb.com.sg/en/personal/banking-with-us/cards/credit-cards/cimb-visa-signature.html",
+   "source_type": "official",
+   "retrieved_at": "2026-09-27T07:30:48+00:00",
+   "sha256": "911b712e4e51fb03d4117f769343320fc5adac370dc99d741578e7a04b0abb3b",
+   "snapshot": "data/raw/bank/www-cimb-com-sg-en-personal-banking-with-us-cards-credit-cards-cimb-visa-signature-html-393508c3.html"
+  }
+ ],
+ "documents": [
+  {
+   "url": "https://www.cimb.com.sg/content/dam/cimbsg/personal/document/tnc/cards/credit-card/conventional/visa-signature.pdf",
+   "citation": {
+    "id": "bank:77a561cdba78",
+    "url": "https://www.cimb.com.sg/content/dam/cimbsg/personal/document/tnc/cards/credit-card/conventional/visa-signature.pdf",
+    "source_type": "official",
+    "retrieved_at": "2026-09-27T07:30:50+00:00",
+    "sha256": "77a561cdba78590072750daac141966927f697465bf124b568dacfe846311714",
+    "snapshot": "data/raw/bank/www-cimb-com-sg-content-dam-cimbsg-personal-document-tnc-cards-credit-card-conventional-visa-signature-pdf-f9a53c39.pdf"
+   },
+   "text_path": "data/raw/bank/www-cimb-com-sg-content-dam-cimbsg-personal-document-tnc-cards-credit-card-conventional-visa-signature-pdf-f9a53c39.txt",
+   "sha256": "77a561cdba78590072750daac141966927f697465bf124b568dacfe846311714",
+   "changed": false,
+   "new": false,
+   "no_text_layer": false,
+   "effective_dates": [],
+   "mcc": {
+    "include": [
+     "5311",
+     "5611",
+     "5621",
+     "5631",
+     "5641",
+     "5651",
+     "5655",
+     "5661",
+     "5691",
+     "5699",
+     "5732"
+    ],
+    "exclude": [],
+    "unknown": [],
+    "conflicting": [],
+    "unrecognised": [],
+    "hits": [
+     {
+      "code": "5611",
+      "polarity": "include",
+      "page": 2,
+      "line": "o MCC 5611: Men\u2019s and Boys\u2019 Clothing and Accessories Stores",
+      "reason": "performed at retail establishments that fall within any of the following Merchant Category",
+      "in_reference": true
+     },
+     {
+      "code": "5621",
+      "polarity": "include",
+      "page": 2,
+      "line": "o MCC 5621: Women\u2019s Ready to Wear Stores",
+      "reason": "performed at retail establishments that fall within any of the following Merchant Category",
+      "in_reference": true
+     },
+     {
+      "code": "5631",
+      "polarity": "include",
+      "page": 2,
+      "line": "o MCC 5631: Women\u2019s Accessories and Speciality Stores",
+      "reason": "performed at retail establishments that fall within any of the following Merchant Category",
+      "in_reference": true
+     },
+     {
+      "code": "5641",
+      "polarity": "include",
+      "page": 2,
+      "line": "o MCC 5641: Children\u2019s and Infants\u2019 Wear Stores",
+      "reason": "performed at retail establishments that fall within any of the following Merchant Category",
+      "in_reference": true
+     },
+     {
+      "code": "5651",
+      "polarity": "include",
+      "page": 2,
+      "line": "o MCC 5651: Family Clothing Stores",
+      "reason": "performed at retail establishments that fall within any of the following Merchant Category",
+      "in_reference": true
+     },
+     {
+      "code": "5655",
+      "polarity": "include",
+      "page": 2,
+      "line": "o MCC 5655: Sports Apparel Stores",
+      "reason": "performed at retail establishments that fall within any of the following Merchant Category",
+      "in_reference": true
+     },
+     {
+      "code": "5661",
+      "polarity": "include",
+      "page": 2,
+      "line": "o MCC 5661: Shoe Stores",
+      "reason": "performed at retail establishments that fall within any of the following Merchant Category",
+      "in_reference": true
+     },
+     {
+      "code": "5691",
+      "polarity": "include",
+      "page": 2,
+      "line": "o MCC 5691: Men\u2019s and Women\u2019s Clothing Stores",
+      "reason": "performed at retail establishments that fall within any of the following Merchant Category",
+      "in_reference": true
+     },
+     {
+      "code": "5699",
+      "polarity": "include",
+      "page": 2,
+      "line": "o MCC 5699: Miscellaneous Apparel and Accessories Stores",
+      "reason": "performed at retail establishments that fall within any of the following Merchant Category",
+      "in_reference": true
+     },
+     {
+      "code": "5732",
+      "polarity": "include",
+      "page": 2,
+      "line": "o MCC 5732: Electronic Stores",
+      "reason": "performed at retail establishments that fall within any of the following Merchant Category",
+      "in_reference": true
+     },
+     {
+      "code": "5311",
+      "polarity": "include",
+      "page": 2,
+      "line": "o MCC 5311: Department Stores",
+      "reason": "performed at retail establishments that fall within any of the following Merchant Category",
+      "in_reference": true
+     }
+    ]
+   },
+   "transaction_modes": {
+    "online": [
+     "The CIMB Visa Signature awards 10% cashback on five categories of spending as processed by the respective merchants/acquirers through the Visa worldwide networks: o Beauty and Wellness o Online Shopping o Grocery o Pet Shops and Veterinary Services o Cruise",
+     "6.The following transactions shall be excluded from the calculation of the minimum spend requirement of S$800: o Transactions listed under Clause 4.1 o Any payments done via any SAM network o Any payments made to CardUp, iPaymy, Mileslife, SmoovPay and YouTrip o Any top-ups or payment of funds to payment service providers (this includes but is not limited to GrabPay, Singtel Dash, beePay, Lazada t",
+     "Online Shopping shall include all local and overseas online retail transactions made via shopping websites that sell clothes, accessories, shoes, bags and electronics as its main business activity, including card-not-present transactions like e-commerce/mail/phone order/mobile application transactions.",
+     "For the avoidance of doubt, transactions must be performed at retail establishments that fall within any of the following Merchant Category Codes (MCC) with POS Entry Mode \u201801\u2019: o MCC 5611: Men\u2019s and Boys\u2019 Clothing and Accessories Stores o MCC 5621: Women\u2019s Ready to Wear Stores o MCC 5631: Women\u2019s Accessories and Speciality Stores o MCC 5641: Children\u2019s and Infants\u2019 Wear Stores o MCC 5651: Family ",
+     "On top of the above MCCs, transactions made online for the following merchants will also be eligible under the Online Shopping category: o Alibaba o Amazon o Apple o Daigou o Ezbuy o Razor o Shopee",
+     "All grocery transactions made online will be eligible under this category."
+    ],
+    "foreign_currency": [
+     "Beauty and Wellness spending shall include all local and overseas transactions made at all Personal Care Facilities, Pharmacies, Cosmetic Stores (excluding department stores), Hairdressers, Massage Parlours, Health and Beauty Spas only.",
+     "Online Shopping shall include all local and overseas online retail transactions made via shopping websites that sell clothes, accessories, shoes, bags and electronics as its main business activity, including card-not-present transactions like e-commerce/mail/phone order/mobile application transactions.",
+     "Grocery spending shall include all local and overseas transactions made in supermarkets.",
+     "Pet Shops and Veterinary Services spending shall include all local and overseas transactions made at all Pet Shops and for Veterinary Services.",
+     "Cruise spending shall include all local and overseas transactions made for Cruise Lines."
+    ]
+   },
+   "non_mcc_exclusions": [
+    "axs",
+    "bill payment",
+    "cardup",
+    "cash advance",
+    "charit",
+    "government",
+    "grabpay",
+    "instalment",
+    "interest",
+    "ipaymy",
+    "late payment charge",
+    "tax",
+    "top-ups",
+    "utilit",
+    "youtrip"
+   ]
+  }
+ ],
+ "changed": false,
+ "removed_documents": []
+}

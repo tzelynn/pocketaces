@@ -1,0 +1,79 @@
+# Curated card record. Auto-drafted from staged sources; verify every value against the
+# official T&Cs (citations below), then set review.status: reviewed.
+id: citi-clear
+bank: Citibank
+name: Citi Clear Card
+network: mastercard
+image_url: https://mhgprod.blob.core.windows.net/singsaver/strapi-uploads/s_bltb62c3c4ad1512b63_662a10bc42.png
+official_url: https://www.citibank.com.sg/credit-cards/student/citi-clear-card
+annual_fee:
+  amount:
+    amount: 30.52
+    currency: SGD
+  first_year_waived: true
+  waiver_notes: S$ | With First Year Fee Waiver
+  sources: ['singsaver:eae254c9ba18']
+reward_currency:
+  kind: points
+  name: Points
+earn_rules:
+- id: local-spending
+  label: local spending, overseas spending (SingSaver — verify)
+  rate: 1.0
+  unit: points_per_dollar
+  tier: bonus
+  eligibility:
+    include_mcc: ['4829', '4900', '5199', '5960', '5993', '6012', '6050', '6051', '6211', '6300', '6513',
+      6529-6540, '6529', '6530', '6534', '6540', '7349', '7511', '7523', '7800', '7995', '8062', '8211',
+      8211-8299, '8220', '8241', '8244', '8249', '8299', '8398', 8651-8661, '8651', '8661', 9000-9999,
+      '9211', '9222', '9223', '9311', '9399', '9402', '9405', '9754']
+    description: ' [include_mcc auto-extracted from official T&C — check it belongs to this rule]'
+    sources: ['singsaver:eae254c9ba18', 'bank:edd8efd83efc', 'bank:92d7958181e4', 'bank:d43f74d8ca64']
+  sources: ['singsaver:eae254c9ba18']
+- id: base
+  label: baseline (SingSaver — verify)
+  rate: 1.0
+  unit: points_per_dollar
+  tier: base
+  eligibility:
+    all_spend: true
+    description: ''
+    sources: ['singsaver:eae254c9ba18']
+  sources: ['singsaver:eae254c9ba18']
+general_exclusions:
+  exclude_mcc: ['4111']
+  description: Auto-extracted from official T&Cs — confirm each code applies to this card
+  sources: ['bank:edd8efd83efc', 'bank:92d7958181e4', 'bank:d43f74d8ca64']
+notes:
+- 'T&C mentions (check whether excluded): annual fee, axs, balance transfer, bill payment, cash advance,
+  charit, education, government, hospital, instalment, interest, late payment charge, tax, top-ups, utilit,
+  youtrip'
+citations:
+- id: singsaver:eae254c9ba18
+  url: https://www.singsaver.com.sg/credit-card/products/citi-clear-card
+  title: Citi Clear Card
+  source_type: aggregator
+  retrieved_at: '2026-09-27T05:25:07+00:00'
+  sha256: eae254c9ba18cdd91b790f8a32350f626e52b353f6e8f37f59ee58f76b47af3b
+  snapshot: data/raw/singsaver/www-singsaver-com-sg-credit-card-products-citi-clear-card-7ddc9d26.html
+- id: bank:edd8efd83efc
+  url: https://www.citibank.com.sg/credit-cards/student/citi-clear-card/pdf/card-members-agreement.pdf
+  source_type: official
+  retrieved_at: '2026-09-27T07:31:29+00:00'
+  sha256: edd8efd83efcadb617db54de439a748c24df8244110032e12294842c09157895
+  snapshot: data/raw/bank/www-citibank-com-sg-credit-cards-student-citi-clear-card-pdf-card-members-agreement-pdf-8becbfb6.pdf
+- id: bank:92d7958181e4
+  url: https://www.citibank.com.sg/credit-cards/rewards/pdf/rewards-promotion-terms-and-conditions.pdf
+  source_type: official
+  retrieved_at: '2026-09-27T07:47:24+00:00'
+  sha256: 92d7958181e495f57f75d49e6fe0adabd2eab7984172d79fcf98d585b2715fc1
+  snapshot: data/raw/bank/www-citibank-com-sg-credit-cards-rewards-pdf-rewards-promotion-terms-and-conditions-pdf-ff10cf1e.pdf
+- id: bank:d43f74d8ca64
+  url: https://www.citibank.com.sg/credit-cards/pdf/rewards-exclusion-list.pdf
+  source_type: official
+  retrieved_at: '2026-09-27T08:04:12+00:00'
+  sha256: d43f74d8ca64a96141c244ca5126179e77543ae82cebe4c177a0c029c73b1a68
+  snapshot: data/raw/bank/www-citibank-com-sg-credit-cards-pdf-rewards-exclusion-list-pdf-c33f164e.pdf
+review:
+  status: draft
+updated_at: '2026-09-27'

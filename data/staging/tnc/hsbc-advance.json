@@ -1,0 +1,22 @@
+{
+ "card_id": "hsbc-advance",
+ "product_pages": [
+  {
+   "id": "bank:8b8eb397da7c",
+   "url": "https://www.hsbc.com.sg/credit-cards/products/advance/",
+   "source_type": "official",
+   "retrieved_at": "2026-09-27T08:37:12+00:00",
+   "sha256": "8b8eb397da7c576b9a3fb45fffd211201da9883918b4f8f7e8867f39272d19c1",
+   "snapshot": "data/raw/bank/www-hsbc-com-sg-credit-cards-products-advance-c7dd9cff.html"
+  }
+ ],
+ "documents": [
+  {
+   "url": "https://www.hsbc.com.sg/content/dam/hsbc/sg/documents/credit-cards/terms-and-conditions-governing-advance-credit-card-cashback-programme.pdf",
+   "error": "robots.txt disallows https://www.hsbc.com.sg/content/dam/hsbc/sg/documents/credit-cards/terms-and-conditions-governing-advance-credit-card-cashback-programme.pdf",
+   "changed": false
+  }
+ ],
+ "changed": false,
+ "removed_documents": []
+}

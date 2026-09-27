@@ -1,0 +1,548 @@
+{
+ "card_id": "standard-chartered-rewards-plus",
+ "product_pages": [
+  {
+   "id": "bank:9d5a122da6af",
+   "url": "https://www.sc.com/sg/credit-cards/rewards-plus-credit-card/",
+   "source_type": "official",
+   "retrieved_at": "2026-09-27T08:42:20+00:00",
+   "sha256": "9d5a122da6af685d225cd2829b3bb9b13c7f6c8f055c6e1847579e38e06e8786",
+   "snapshot": "data/raw/bank/www-sc-com-sg-credit-cards-rewards-plus-credit-card-63c381c0.html"
+  }
+ ],
+ "documents": [
+  {
+   "url": "https://www.sc.com/content/dam/sc/sg/en/documents/sg-rewards-full-tcs-final.pdf",
+   "citation": {
+    "id": "bank:06ce66cdacfc",
+    "url": "https://www.sc.com/content/dam/sc/sg/en/documents/sg-rewards-full-tcs-final.pdf",
+    "source_type": "official",
+    "retrieved_at": "2026-09-27T08:42:22+00:00",
+    "sha256": "06ce66cdacfca033efe1b472f7232eae1ae4ac20826344546763ddbf9bba909e",
+    "snapshot": "data/raw/bank/www-sc-com-content-dam-sc-sg-en-documents-sg-rewards-full-tcs-final-pdf-2d412d5e.pdf"
+   },
+   "text_path": "data/raw/bank/www-sc-com-content-dam-sc-sg-en-documents-sg-rewards-full-tcs-final-pdf-2d412d5e.txt",
+   "sha256": "06ce66cdacfca033efe1b472f7232eae1ae4ac20826344546763ddbf9bba909e",
+   "changed": false,
+   "new": true,
+   "no_text_layer": false,
+   "effective_dates": [],
+   "mcc": {
+    "include": [
+     "5311",
+     "5811",
+     "5812",
+     "5813",
+     "5814"
+    ],
+    "exclude": [],
+    "unknown": [],
+    "conflicting": [],
+    "unrecognised": [],
+    "hits": [
+     {
+      "code": "5811",
+      "polarity": "include",
+      "page": 1,
+      "line": "Caterers (5811);",
+      "reason": "Transactions. For the avoidance of doubt, \u201cQualifying Dining Transactions\u201d are dining spends",
+      "in_reference": true
+     },
+     {
+      "code": "5812",
+      "polarity": "include",
+      "page": 1,
+      "line": "b. Restaurants and eating places (5812);",
+      "reason": "Transactions. For the avoidance of doubt, \u201cQualifying Dining Transactions\u201d are dining spends",
+      "in_reference": true
+     },
+     {
+      "code": "5813",
+      "polarity": "include",
+      "page": 1,
+      "line": "c. Pubs & bars (5813); or",
+      "reason": "Transactions. For the avoidance of doubt, \u201cQualifying Dining Transactions\u201d are dining spends",
+      "in_reference": true
+     },
+     {
+      "code": "5814",
+      "polarity": "include",
+      "page": 1,
+      "line": "d. Fast Food Restaurants (5814).",
+      "reason": "Transactions. For the avoidance of doubt, \u201cQualifying Dining Transactions\u201d are dining spends",
+      "in_reference": true
+     },
+     {
+      "code": "5311",
+      "polarity": "include",
+      "page": 2,
+      "line": "19/05/19 S$2,000 washing 5311 2,000 N.A. N.A. No additional 360\u00b0",
+      "reason": "Cardholder is entitled to for every S$1 spent (in local/foreign currency) spent with the Rewards+",
+      "in_reference": true
+     },
+     {
+      "code": "5811",
+      "polarity": "include",
+      "page": 3,
+      "line": "15/07/19 S$1,300 meal at 5811 1,300 11,700 11,700 Since this transaction",
+      "reason": "Qualifying Rewards+",
+      "in_reference": true
+     },
+     {
+      "code": "5812",
+      "polarity": "include",
+      "page": 3,
+      "line": "17/11/19 S$2,500 meal at 5812 2,500 8,300 20,000 Since transaction is",
+      "reason": "Qualifying Rewards+",
+      "in_reference": true
+     },
+     {
+      "code": "5812",
+      "polarity": "include",
+      "page": 3,
+      "line": "Singapore (paid MCC category 5812",
+      "reason": "Qualifying Rewards+",
+      "in_reference": true
+     },
+     {
+      "code": "5813",
+      "polarity": "include",
+      "page": 3,
+      "line": "14/03/20 S$500 bill at a 5813 500 N.A. 20,000 Since transaction is",
+      "reason": "Qualifying Rewards+",
+      "in_reference": true
+     },
+     {
+      "code": "5813",
+      "polarity": "include",
+      "page": 3,
+      "line": "(paid in SGD) MCC category 5813",
+      "reason": "Qualifying Rewards+",
+      "in_reference": true
+     },
+     {
+      "code": "5811",
+      "polarity": "include",
+      "page": 4,
+      "line": "10/05/20 S$300 meal at a 5811 300 2,700 2,700 Since Reward+ Cap",
+      "reason": "Qualifying Rewards+",
+      "in_reference": true
+     }
+    ]
+   },
+   "transaction_modes": {
+    "online": [
+     "All information is correct at the time of printing or posting online."
+    ],
+    "foreign_currency": [
+     "additional nine (9) 360\u00b0 Reward Points for every S$1 spent in foreign currency (which, for the avoidance of doubt, are spends that are not made in Singapore Dollars) on Qualifying Rewards+ Card Transactions.",
+     "As such, when this Rewards+ Card Promotion is read together with the terms and conditions for the Standard Chartered 360\u00b0 Rewards Programme, Rewards+ Cardholders are eligible to earn a total of five (5) 360\u00b0 Reward Points for every S$1 spent in local currency on Qualifying Dining Transactions and ten (10) 360\u00b0 Reward Points for every S$1 spent in foreign currency on Qualifying Rewards+ Card Transa",
+     "For the avoidance of doubt, the Rewards+ Cap does not apply to the one (1) 360\u00b0 Reward Point which the Rewards+ Cardholder is entitled to for every S$1 spent (in local/foreign currency) spent with the Rewards+ Card under the existing Standard Chartered 360\u00b0 Rewards Programme.",
+     "No additional 360\u00b0 machine Reward Points is purchase at awarded as Courts transaction does not qualify as a Singapore (paid Qualifying Dining in SGD) Transaction and the transaction is not a foreign currency Qualifying Rewards+ Card Transaction."
+    ],
+    "local_currency": [
+     "Under the existing Standard Chartered 360\u00b0 Rewards Programme, Rewards+ Cardholders earn one (1) for 360\u00b0 Reward Point every S$1 (or its equivalent for spends that are not made in Singapore Dollars, where relevant) spent with the Rewards+ Card, regardless of whether such spends are made in Singapore Dollars or otherwise.",
+     "additional four (4) 360\u00b0 Reward Points for every S$1 spent in local currency (Singapore Dollars) on Qualifying Dining Transactions;",
+     "additional nine (9) 360\u00b0 Reward Points for every S$1 spent in foreign currency (which, for the avoidance of doubt, are spends that are not made in Singapore Dollars) on Qualifying Rewards+ Card Transactions.",
+     "As such, when this Rewards+ Card Promotion is read together with the terms and conditions for the Standard Chartered 360\u00b0 Rewards Programme, Rewards+ Cardholders are eligible to earn a total of five (5) 360\u00b0 Reward Points for every S$1 spent in local currency on Qualifying Dining Transactions and ten (10) 360\u00b0 Reward Points for every S$1 spent in foreign currency on Qualifying Rewards+ Card Transa",
+     "No additional 360\u00b0 machine Reward Points is purchase at awarded as Courts transaction does not qualify as a Singapore (paid Qualifying Dining in SGD) Transaction and the transaction is not a foreign currency Qualifying Rewards+ Card Transaction.",
+     "INTERNAL 15/07/19 S$1,300 meal at 5811 1,300 11,700 11,700 Since this transaction a restaurant in is paid in foreign Australia (paid in currency, every S$1 AUD \u2013 spent is rewarded equivalent SGD with 9 additional 360\u00b0 amount is Reward Points.",
+     "S$1,300) 17/11/19 S$2,500 meal at 5812 2,500 8,300 20,000 Since transaction is a restaurant in classified under Singapore (paid MCC category 5812 in SGD) and is paid in SGD, every S$1 spent should be rewarded with 4 additional 360\u00b0 Reward Points.",
+     "20,000 Since transaction is bar in Singapore classified under (paid in SGD) MCC category 5813 and is paid in SGD, every S$1 spent should be awarded with 4 additional 360\u00b0 Reward Points.",
+     "INTERNAL 10/05/20 S$300 meal at a 5811 300 2,700 2,700 Since Reward+ Cap restaurant in is reset on the Australia (paid in anniversary of the AUD \u2013 card approval date equivalent SGD and transaction is amount is paid in foreign S$300) currency, every S$1 spent is rewarded with 9 additional 360\u00b0 Reward Points."
+    ]
+   },
+   "non_mcc_exclusions": []
+  },
+  {
+   "url": "https://www.sc.com/sg/terms-and-conditions/cc-retail-transaction-exclusions/",
+   "citation": {
+    "id": "bank:d16aa0c6bbaf",
+    "url": "https://www.sc.com/sg/terms-and-conditions/cc-retail-transaction-exclusions/",
+    "source_type": "official",
+    "retrieved_at": "2026-09-27T08:42:24+00:00",
+    "sha256": "d16aa0c6bbafa1e96f7e6ad6cedcd8c0bb4c58dc88e2bd6deda0ce92b0b748dd",
+    "snapshot": "data/raw/bank/www-sc-com-sg-terms-and-conditions-cc-retail-transaction-exclusions-8f7a8c14.html"
+   },
+   "text_path": "data/raw/bank/www-sc-com-sg-terms-and-conditions-cc-retail-transaction-exclusions-8f7a8c14.txt",
+   "sha256": "d16aa0c6bbafa1e96f7e6ad6cedcd8c0bb4c58dc88e2bd6deda0ce92b0b748dd",
+   "changed": false,
+   "new": true,
+   "no_text_layer": false,
+   "effective_dates": [
+    "3 September 2024"
+   ],
+   "mcc": {
+    "include": [
+     "4829",
+     "4900",
+     "5047",
+     "5199",
+     "6012",
+     "6050",
+     "6051",
+     "6211",
+     "6513",
+     "6529",
+     "6530",
+     "6534",
+     "6540",
+     "7299",
+     "7349",
+     "7511",
+     "7523",
+     "8062",
+     "8211",
+     "8220",
+     "8241",
+     "8244",
+     "8249",
+     "8299",
+     "8398",
+     "8651",
+     "8661",
+     "8999",
+     "9211",
+     "9222",
+     "9223",
+     "9311",
+     "9399",
+     "9402",
+     "9405"
+    ],
+    "exclude": [],
+    "unknown": [],
+    "conflicting": [],
+    "unrecognised": [
+     "6529",
+     "6530",
+     "6534"
+    ],
+    "hits": [
+     {
+      "code": "4829",
+      "polarity": "include",
+      "page": 1,
+      "line": "4829",
+      "reason": "any transaction classified under one or more of the following Merchant Category Codes:",
+      "in_reference": true
+     },
+     {
+      "code": "4900",
+      "polarity": "include",
+      "page": 1,
+      "line": "4900*",
+      "reason": "any transaction classified under one or more of the following Merchant Category Codes:",
+      "in_reference": true
+     },
+     {
+      "code": "5047",
+      "polarity": "include",
+      "page": 1,
+      "line": "5047*",
+      "reason": "any transaction classified under one or more of the following Merchant Category Codes:",
+      "in_reference": true
+     },
+     {
+      "code": "5199",
+      "polarity": "include",
+      "page": 1,
+      "line": "5199*",
+      "reason": "any transaction classified under one or more of the following Merchant Category Codes:",
+      "in_reference": true
+     },
+     {
+      "code": "6012",
+      "polarity": "include",
+      "page": 1,
+      "line": "6012",
+      "reason": "any transaction classified under one or more of the following Merchant Category Codes:",
+      "in_reference": true
+     },
+     {
+      "code": "6050",
+      "polarity": "include",
+      "page": 1,
+      "line": "6050*",
+      "reason": "any transaction classified under one or more of the following Merchant Category Codes:",
+      "in_reference": true
+     },
+     {
+      "code": "6051",
+      "polarity": "include",
+      "page": 1,
+      "line": "6051",
+      "reason": "any transaction classified under one or more of the following Merchant Category Codes:",
+      "in_reference": true
+     },
+     {
+      "code": "6540",
+      "polarity": "include",
+      "page": 1,
+      "line": "6540",
+      "reason": "any transaction classified under one or more of the following Merchant Category Codes:",
+      "in_reference": true
+     },
+     {
+      "code": "6211",
+      "polarity": "include",
+      "page": 1,
+      "line": "6211",
+      "reason": "any transaction classified under one or more of the following Merchant Category Codes:",
+      "in_reference": true
+     },
+     {
+      "code": "6513",
+      "polarity": "include",
+      "page": 1,
+      "line": "6513",
+      "reason": "any transaction classified under one or more of the following Merchant Category Codes:",
+      "in_reference": true
+     },
+     {
+      "code": "6529",
+      "polarity": "include",
+      "page": 1,
+      "line": "6529*",
+      "reason": "any transaction classified under one or more of the following Merchant Category Codes:",
+      "in_reference": false
+     },
+     {
+      "code": "6530",
+      "polarity": "include",
+      "page": 1,
+      "line": "6530*",
+      "reason": "any transaction classified under one or more of the following Merchant Category Codes:",
+      "in_reference": false
+     },
+     {
+      "code": "6534",
+      "polarity": "include",
+      "page": 1,
+      "line": "6534*",
+      "reason": "any transaction classified under one or more of the following Merchant Category Codes:",
+      "in_reference": false
+     },
+     {
+      "code": "7299",
+      "polarity": "include",
+      "page": 1,
+      "line": "7299*",
+      "reason": "any transaction classified under one or more of the following Merchant Category Codes:",
+      "in_reference": true
+     },
+     {
+      "code": "7349",
+      "polarity": "include",
+      "page": 1,
+      "line": "7349",
+      "reason": "any transaction classified under one or more of the following Merchant Category Codes:",
+      "in_reference": true
+     },
+     {
+      "code": "7511",
+      "polarity": "include",
+      "page": 1,
+      "line": "7511*",
+      "reason": "any transaction classified under one or more of the following Merchant Category Codes:",
+      "in_reference": true
+     },
+     {
+      "code": "7523",
+      "polarity": "include",
+      "page": 1,
+      "line": "7523",
+      "reason": "any transaction classified under one or more of the following Merchant Category Codes:",
+      "in_reference": true
+     },
+     {
+      "code": "8062",
+      "polarity": "include",
+      "page": 1,
+      "line": "8062*",
+      "reason": "any transaction classified under one or more of the following Merchant Category Codes:",
+      "in_reference": true
+     },
+     {
+      "code": "8211",
+      "polarity": "include",
+      "page": 1,
+      "line": "8211",
+      "reason": "any transaction classified under one or more of the following Merchant Category Codes:",
+      "in_reference": true
+     },
+     {
+      "code": "8220",
+      "polarity": "include",
+      "page": 1,
+      "line": "8220",
+      "reason": "any transaction classified under one or more of the following Merchant Category Codes:",
+      "in_reference": true
+     },
+     {
+      "code": "8241",
+      "polarity": "include",
+      "page": 1,
+      "line": "8241",
+      "reason": "any transaction classified under one or more of the following Merchant Category Codes:",
+      "in_reference": true
+     },
+     {
+      "code": "8244",
+      "polarity": "include",
+      "page": 1,
+      "line": "8244",
+      "reason": "any transaction classified under one or more of the following Merchant Category Codes:",
+      "in_reference": true
+     },
+     {
+      "code": "8249",
+      "polarity": "include",
+      "page": 1,
+      "line": "8249",
+      "reason": "any transaction classified under one or more of the following Merchant Category Codes:",
+      "in_reference": true
+     },
+     {
+      "code": "8299",
+      "polarity": "include",
+      "page": 1,
+      "line": "8299",
+      "reason": "any transaction classified under one or more of the following Merchant Category Codes:",
+      "in_reference": true
+     },
+     {
+      "code": "8398",
+      "polarity": "include",
+      "page": 1,
+      "line": "8398",
+      "reason": "any transaction classified under one or more of the following Merchant Category Codes:",
+      "in_reference": true
+     },
+     {
+      "code": "8651",
+      "polarity": "include",
+      "page": 1,
+      "line": "8651",
+      "reason": "any transaction classified under one or more of the following Merchant Category Codes:",
+      "in_reference": true
+     },
+     {
+      "code": "8661",
+      "polarity": "include",
+      "page": 1,
+      "line": "8661",
+      "reason": "any transaction classified under one or more of the following Merchant Category Codes:",
+      "in_reference": true
+     },
+     {
+      "code": "8999",
+      "polarity": "include",
+      "page": 1,
+      "line": "8999*",
+      "reason": "any transaction classified under one or more of the following Merchant Category Codes:",
+      "in_reference": true
+     },
+     {
+      "code": "9211",
+      "polarity": "include",
+      "page": 1,
+      "line": "9211",
+      "reason": "any transaction classified under one or more of the following Merchant Category Codes:",
+      "in_reference": true
+     },
+     {
+      "code": "9222",
+      "polarity": "include",
+      "page": 1,
+      "line": "9222",
+      "reason": "any transaction classified under one or more of the following Merchant Category Codes:",
+      "in_reference": true
+     },
+     {
+      "code": "9223",
+      "polarity": "include",
+      "page": 1,
+      "line": "9223",
+      "reason": "any transaction classified under one or more of the following Merchant Category Codes:",
+      "in_reference": true
+     },
+     {
+      "code": "9311",
+      "polarity": "include",
+      "page": 1,
+      "line": "9311",
+      "reason": "any transaction classified under one or more of the following Merchant Category Codes:",
+      "in_reference": true
+     },
+     {
+      "code": "9399",
+      "polarity": "include",
+      "page": 1,
+      "line": "9399",
+      "reason": "any transaction classified under one or more of the following Merchant Category Codes:",
+      "in_reference": true
+     },
+     {
+      "code": "9402",
+      "polarity": "include",
+      "page": 1,
+      "line": "9402",
+      "reason": "any transaction classified under one or more of the following Merchant Category Codes:",
+      "in_reference": true
+     },
+     {
+      "code": "9405",
+      "polarity": "include",
+      "page": 1,
+      "line": "9405",
+      "reason": "any transaction classified under one or more of the following Merchant Category Codes:",
+      "in_reference": true
+     }
+    ]
+   },
+   "transaction_modes": {
+    "online": [
+     "Mortgage Mortgage One Reduce your interest costs Maintain flexibility Pay off your loan faster Loan Repricing Enjoy lower interest rates for your mortgage loan because we value your relationship with us Green Mortgage Make a positive impact on society and the environment Compare and view all loans Investment Unit Trusts, Online Trading, Live FX, Wealth Insights Investment Invest in Equities Online",
+     "0.18% when you trade ETFs, REITs, and shares online Access US equities and 14 global exchanges on the go Invest in Mutual Funds\u200b Unit Trust Account\u200b",
+     "0.61% sales charge when you invest in unit trusts online Diversify your portfolio with over 150 fund offerings Exchange Foreign Currency\u200b LiveFX\u200b Competitive real-time currency rates when you convert your funds Capture market opportunities with countless pairing possibilities Tools and insights to support your financial decisions Wealth Insights Access our curated reads to help you make informed f",
+     "Explore Portfolios Insurance Wealth & Legacy Planning, Travel, Health Insurance Wealth & Legacy Planning Insurance Savings Plan Legacy Retirement Health & Accident Medical & Health Personal Accident Critical Illness Travel, Home & Car Travel Home Car Domestic Helper View all Insurance Solutions Wealth Central Referral Sign Up Digital Banking Search Open an account Bonus$aver Account Bonus$aver Acc",
+     "recurring payments (being automatic payments where the Cardholder or supplementary cardholder has given a one-time authorisation or instruction for the merchant to charge the payment directly to his/her Card at a fixed interval, such as transactions made pursuant to Standard Chartered Bank (Singapore) Limited\u2019s 0% Interest Instalment Plan) or payments made to all billing organisations using Standa"
+    ],
+    "contactless": [
+     "0.61% sales charge when you invest in unit trusts online Diversify your portfolio with over 150 fund offerings Exchange Foreign Currency\u200b LiveFX\u200b Competitive real-time currency rates when you convert your funds Capture market opportunities with countless pairing possibilities Tools and insights to support your financial decisions Wealth Insights Access our curated reads to help you make informed f"
+    ],
+    "recurring": [
+     "recurring payments (being automatic payments where the Cardholder or supplementary cardholder has given a one-time authorisation or instruction for the merchant to charge the payment directly to his/her Card at a fixed interval, such as transactions made pursuant to Standard Chartered Bank (Singapore) Limited\u2019s 0% Interest Instalment Plan) or payments made to all billing organisations using Standa"
+    ],
+    "foreign_currency": [
+     "interest Time Deposits SGD Time Deposits Earn high interest on your Singapore Dollar Time Deposit (Fixed Deposit) FCY Time Deposit Earn high interest for your foreign currency Services and Useful links SC Remit Money Lock Manage Your Payments SC EasyPay Installments eStatement & eAdvices Standard Chartered Mobile Frequently Asked Questions Pricing Guide Get S$228 cashback with Bonus$aver.",
+     "0.61% sales charge when you invest in unit trusts online Diversify your portfolio with over 150 fund offerings Exchange Foreign Currency\u200b LiveFX\u200b Competitive real-time currency rates when you convert your funds Capture market opportunities with countless pairing possibilities Tools and insights to support your financial decisions Wealth Insights Access our curated reads to help you make informed f",
+     "any top-ups or payment of funds to any prepaid cards and any prepaid accounts including without limitation, any top-ups or payment of funds to he following accounts or any other accounts as we may specify from time to time: EZ LINK EZ-LINK PTE LTD SINGAPORE FLASHPAY ATU TRANSIT EZ LINK PTE LTD EZ-LINK TOP-UP KIOSK PAYPAL * BIZCONSULTA TRANSIT LINK PL EZ LINK PTE LTD (FEVO) EZLINK* PAYPAL * CAPITAL"
+    ],
+    "local_currency": [
+     "interest Time Deposits SGD Time Deposits Earn high interest on your Singapore Dollar Time Deposit (Fixed Deposit) FCY Time Deposit Earn high interest for your foreign currency Services and Useful links SC Remit Money Lock Manage Your Payments SC EasyPay Installments eStatement & eAdvices Standard Chartered Mobile Frequently Asked Questions Pricing Guide Get S$228 cashback with Bonus$aver."
+    ]
+   },
+   "non_mcc_exclusions": [
+    "axs",
+    "bill payment",
+    "cash advance",
+    "charit",
+    "education",
+    "government",
+    "hospital",
+    "instalment",
+    "insurance premium",
+    "interest",
+    "late payment charge",
+    "tax",
+    "top-up",
+    "top-ups",
+    "utilit"
+   ]
+  }
+ ],
+ "changed": false,
+ "removed_documents": []
+}

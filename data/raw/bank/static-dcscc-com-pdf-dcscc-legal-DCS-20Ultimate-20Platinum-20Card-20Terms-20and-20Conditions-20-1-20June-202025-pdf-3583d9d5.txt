@@ -1,0 +1,557 @@
+TERMS AND CONDITIONS GOVERNING DCS ULTIMATE PLATINUM CARD (THE "CARD“)
+This document sets out the general terms and conditions governing the Card issued by us to you from
+time to time. Please read them carefully before you sign or use the Card(s). Upon signing or using the
+Card(s), you will be bound by the terms and conditions set out herein.
+Definitions
+Unless the context requires otherwise, the following words and expressions shall bear the following
+meaning:
+“Business Day” means a day, other than Saturday, Sunday and gazetted public holidays, on which
+banks are open for business generally in (i) the place where any relevant Services are to be performed;
+or (ii) the place where any relevant payment is to be received;
+“Card” means the DCS Ultimate Platinum Card.
+“Card Account” means any account in respect of the Card.
+“Cardmember” means DCS Ultimate Platinum Cardmembers.
+“Card Transaction(s)” means any retail transaction(s) (whether in Singapore or overseas) successfully
+carried out on and charged to the Card Account by the Cardmember, and which is successfully captured
+or posted on DCS’s systems, and excludes the Exclusions (as defined in Clause 9).
+“Digital Payment Service” means any digital or other electronic payment or wallet service made
+available from time to time for use by any Cardmember in connection with the Card enrolled with such
+service for effecting payment or other transactions via any Enabled Device;
+“Enabled Device” means a compatible mobile communications or other device associated with one or
+more Cards issued to a Cardmember and successfully enrolled by the Cardmember for use in
+connection with payment or other transactions through a Digital Payment Service;
+“Event(s) of Default” means any event or circumstance specified under Clause 13 of these terms and
+conditions;
+“Instructions” mean the instructions (including Electronic Instructions) issued or to be issued by you to
+us in furtherance of the transactions contemplated by these terms and conditions, and “to instruct” shall
+be construed accordingly;
+"Liabilities" mean all obligations, liabilities or monies whatsoever at any time now or hereafter owing,
+due or incurred by you to us anywhere, on any account, or in connection with any Instructions or
+otherwise, whether present or future, actual or contingent, solely or jointly and, including all principal
+monies, interest, compound interest, charges, expenses, costs, fees or Taxes as may from time to time
+be payable by you in connection therewith;
+“Personal Data” means personal data (as defined under the Personal Data Protection Act 2012)
+relating to you that you provide to us for the purpose of the Card Account or your Card or use of any
+Digital Payment Service;
+“Services” mean any and all products and services, from time to time, offered by us to you and any
+other products and services agreed from time to time between the parties (provided we possess the
+necessary licence(s) and authorisation(s) under applicable law to provide such products or perform
+such services, if any);
+"Taxes" means any present or future tax (including without limitation, any value added tax, goods and
+services tax, consumption tax) levy, impost, duty, fee, deduction or withholding of any nature and by
+whatever name called, by and on whomsoever wherever imposed, levied, collected, assessed or
+withheld;
+1“we / us / our / ourselves / DCS” means DCS Card Centre Pte. Ltd. and shall include our successors
+and assigns.
+“Website” means https://dcscc.com/.
+“you / yourself” refers to you (whether alone or jointly with another person/persons), a Cardmember,
+or if you are a partnership or other unincorporated entity consisting of two or more persons, these terms
+and conditions shall be binding on your respective successors in title, executors and personal
+representatives, as the case may be, and your liabilities hereunder shall be joint and several.
+DCS ULTIMATE PLATINUM CARD
+1. CARD REMAINS OUR PROPERTY
+1.1 The Card remains our property at all times. Without prejudice to the generality of the foregoing,
+we may at our absolute discretion request for the Card to be returned at any time, whereupon
+you shall cut and return the Card, immediately to us, and cease all use of any Cards in any way.
+2. CARD AND SECURITY PROCEDURE TERMS OF USE
+2.1 The use of any Card shall be subject to these terms and conditions and to the compliance with
+such requirements, limitations and procedures as may be imposed by any Digital Payment
+Services providers from time to time as well as to the terms and conditions imposed by us from
+time to time in relation to electronic services, facilities and transactions.
+2.2 You must do all that is necessary to keep your Card safe and prevent fraudulent or unauthorised
+access to or use of your Card and Card Account. You shall not use any Card (whether to effect
+payment or otherwise) in relation to any transaction or activity which is illegal or prohibited
+under the law of the country in which such transaction or activity is effected or takes place or
+the law of your country of residence.
+3. CREDIT LIMIT
+3.1 We may set an overall Credit Limit in respect of each Card Account. The total charges incurred
+under each Card Account by the Principal Cardmember and the Supplementary Cardmember(s)
+when added together, must not exceed the Credit Limit set for each Card Account. We may,
+where necessary, review and revise any of your Credit Limits without notice.
+3.2 The Principal Cardmember may allocate a part of the Credit Limit to the Supplementary
+Cardmember, which shall revert to the pre-set limit set by the Principal Cardholder at the expiry
+of each statement cycle, provided always that the Credit Limit of the Principal Cardholder shall
+not be exceeded for such period
+3.3 We may choose to approve certain Card Transaction that would result in the Credit Limit being
+exceeded. Notwithstanding any Credit Limit that may be set or imposed, we may, at our
+absolute discretion, authorise or allow any Card Transaction even though such Card
+Transaction may exceed, or would as a consequence exceed the Credit Limit or refuse to
+authorise or approve any Card Transaction even though the Credit Limit has not been and
+would not be exceeded if such Card Transaction had been effected.
+3.4 We may charge or debit the relevant Card Account (whether before or after the termination of
+the use of any or all Cards) the amount of each and every Card Transaction made or effected,
+including all Card Transactions made or effected via any Enabled Device, and/or where any
+Card has been enrolled on multiple Enabled Device, and in each instance, whether by you or
+any other person (whether with or without your knowledge or authority) and notwithstanding
+that the balance due to us on the Card Account may as a consequence of any such charge or
+debit exceed the Card Account.
+24. CARD TRANSACTIONS IN FOREIGN CURRENCIES AND TRANSACTIONS PROCESSED
+OVERSEAS
+4.1 Card Transactions in foreign currencies other than US Dollars will be converted into US Dollars
+before being converted into Singapore Dollars. Card Transactions in US Dollars shall be
+converted to Singapore Dollars on the date of conversion. All conversions are subject to such
+exchange rate at such time as may be determined by the respective card association(s), namely
+Mastercard and UnionPay International at its absolute discretion. The conversion rate applied
+is based on the Posting Date of the Card Transaction to the Card Account which may be
+different to the rate in effect on the date of the Card Transaction.
+4.2 All foreign currency transactions (including reversals and refunds) will be subject to:
+(a) administrative fee of 2.25% of the said amount (or such fee as DCS may determine from
+time to time) for all Cards; and
+(b) charge of up to 1% on the converted Singapore Dollar amount by the respective card
+associations.
+4.3 If the Cardmember has chosen to convert the overseas Card Transaction (including online Card
+Transactions) into Singapore Dollars at the point of payment via dynamic currency conversion
+(a service offered at certain overseas ATMs and merchants), or the transaction is in Singapore
+Dollars but processed by an overseas merchant (including online Card Transactions), the
+Cardmember acknowledges that the process of conversion and exchange rates applied will be
+determined by the relevant ATM operator, merchant or dynamic currency conversion service
+provider, as the case may be. Where the overseas Card Transaction has been converted via
+dynamic currency conversion:
+(a) all card transactions (including reversals and refunds) in Singapore Dollars but processed
+overseas will be subject to an administrative fee of up to 1%; and
+(b) DCS may charge, credit and debit, as may be appropriate, all sums payable to DCS under
+this Agreement to the Card Account.
+5. CASHBACK
+5.1 Subject to the terms and conditions herein, every Card Transaction is eligible for a 2%
+Cashback up to a monthly spend of S$10,000 (capped at S$200 cashback per calendar month).
+5.2 For the avoidance of doubt, any Card Transaction incurred by a Supplementary Cardmember
+shall accrue to the respective principal Cardmember and form part of the Card Transactions,
+eligible to receive the Cashback to be credited to the principal Cardmember’s Card Account.
+5.3 The Cashback is in Singapore Dollars, and is computed on a full calendar month basis, rounded
+up to the nearest two (2) decimal places for every eligible Card Transaction, based on the total
+amount of Card Transactions charged to the Card Account. The Cashback shall be credited to
+your SoA statement within the same month and, where applicable, shall be applied to offset
+against billed amount.
+5.4 We reserve our right to make any adjustments to the Cashback should there be any unposted,
+voided, cancelled, disputed and/or reversed Card Transactions including those arising from
+returned goods or services, billing disputes, or any other reason at our absolute discretion.
+5.5 We reserve our right to reject any request for and appeals against the Cashback adjustments
+at our absolute discretion without ascribing any reason therefor and may or may not
+communicate with you concerning such adjustments.
+35.6 We reserve the right at our absolute discretion to determine, vary, or amend the eligible Card
+Transactions, the Cashback earned and/or to be credited, without ascribing any reason or prior
+notice or assuming any liability to you.
+5.7 If we determine at our absolute discretion that you are not eligible to receive the Cashback,
+then we may forfeit the award of the Cashback; or if already awarded, deduct from the Card
+Account and/or any of your accounts with us, and/or recover the same from you.
+5.8 For the avoidance of doubt, the Cashback awarded is not transferable and not exchangeable
+for cash, credit, goods and services, products, privileges or other kind in full or in part.
+6. INSTRUCTIONS
+6.1 Instructions once issued are treated as irrevocable.
+6.2 Instructions from you may be given either orally (via telephone or otherwise) or in writing (which
+expression shall include postal communication, facsimile / telefax / electronic mail and any form
+of electronic communication).
+6.3 We may rely on oral or written Instructions which we believe to be given by you or any person
+authorised by you without verifying the identity of the person purporting to give such Instructions.
+Where any Instruction is ambiguous or inconsistent with any other Instruction, we shall be
+entitled to rely on and act in accordance with any reasonable interpretation thereof which we
+believe in good faith to be the correct interpretation. You shall not hold us liable in any way for
+acting on inconsistent, ambiguous or incomplete Instructions and you shall indemnify us for any
+loss and expenses (including legal fees) in reliance thereof.
+6.4 We shall not be liable to you for acting upon any Instructions which we believe to be
+communicated or purportedly communicated by you or any person authorised by you to us over
+the telephone or in writing and signed or purportedly signed by you or any person authorised
+by you or given or transmitted purportedly or given or transmitted by facsimile / telefax /
+electronic mail notwithstanding that it is subsequently shown that such Instruction was not given
+by you or by any person authorised by you. Any risk of misunderstanding, any error or loss
+resulting from Instructions given by unauthorised persons or any error loss or delay resulting
+from the use of the post / facsimile / telefax / electronic mail are entirely your risk for which we
+shall not be liable for.
+6.5 You are aware that signatures on facsimile / telefax / electronic mail Instructions may be
+superimposed fraudulently or without proper authority when transmitted to us and you shall give
+us facsimile / telefax / electronic mail Instructions assuming such risks. We shall not be held
+liable for any losses, damages, expenses, claims or liabilities suffered by you as a result of our
+reliance upon facsimile / telefax / electronic mail Instructions so long as the signatures
+appearing on such facsimile / telefax / electronic mail Instructions appear on verification to be
+or purport to be in accordance with your specimen signature or the specimen signature of any
+person authorised by you.
+6.6 We shall be entitled to record all telephone conversations and Instructions relating to each Card
+Transaction and these terms and conditions. In this connection, you agree that we shall be
+entitled to use such recordings and transcripts thereof as evidence in any dispute.
+6.7 In addition, we shall be entitled, but not obliged, to perform a call back to your registered
+telephone number with us to confirm any Instructions received by us. If we are unable to
+successfully perform the call back, we may elect not to act on the Instructions received.
+6.8 In consideration of us so doing or acting in accordance with these terms and conditions, you
+shall indemnify us and keep us indemnified against all demands, claims, liabilities, losses,
+actions, proceedings, damages, costs, and expenses incurred or sustained of whatsoever
+nature and howsoever arising, out of or in connection with any such communication or facsimile
+/ telefax / electronic mail Instructions or the acting upon or carrying out of such communication
+4or facsimile / telefax / electronic mail Instructions or the taking of steps in connection with or in
+reliance upon any such communication or facsimile / telefax / electronic mail instructions and
+you shall reimburse us any sums on demand.
+7. CASH ADVANCES
+7.1 Subject to the terms and conditions and the applicable fee, you may obtain a cash advance up
+to the limit determined by us from time to time, at any automated teller machine outside
+Singapore, displaying the logo of Mastercard or UnionPay International.
+8. STATEMENTS OF ACCOUNTS
+8.1 We will furnish you with statements of account (the “SoA”) at monthly intervals or at such
+intervals as we may prescribe. The SoA may be on paper or in electronic form. You agree to
+verify the correctness of all details contained in each SoA and to notify us within fourteen (14)
+days from the date of such SoA of any discrepancies, omissions or errors therein. Upon expiry
+of this period, the details in the SoA shall be conclusive against you except as to the alleged
+errors so notified but subject always to our right to correct any errors contained therein at any
+time notwithstanding such acceptance by you.
+9. EXCLUSIONS
+9.1 The following transactions shall not be deemed as Card Transactions and do not qualify to earn
+any Cashback (collectively referred to as the “Exclusions”):-
+(a) Annual fees;
+(b) Service charges and/or late payment charges;
+(c) All disputed charges unresolved as at DCS’ processing date of the monthly SoA during the
+promotion period;
+(d) All debit and credit journal entries;
+(e) Casino/access charges and/or cheque encashing charges;
+(f) Stolen/lost/fraud Card charges;
+(g) AXS bill payments;
+(h) Road Tax payment;
+(i) All transactions at LTA;
+(j) All transactions at Singapore Post;
+(k) 0% Interest-free Instalment Payment Plan (also known as BNPL, or Buy-Now- Pay-Later);
+(l) ReadyCA$H;
+(m) DCA$H;
+(n) Balance transfer;
+(o) Transactions made with Esso Fleet Card (EFC);
+(p) Cash advance transactions;
+(q) Any transaction with transaction descriptions “AMAZE*”, “EZ-LINK*”, “IPAYMY*”,
+“SIMPLYGO*”, “skrill.com*” and “TRANSIT*”
+(r) Any transaction made with the following Merchant Category Codes (MCC):
+MCC Description
+4784 Tolls and Bridge Fees
+4829 Money Transfer
+4900 Utilities – Electric, Gas, Water and Sanitary
+5199 Nondurable Goods (Not Elsewhere Classified)
+5960 Direct Marketing – Insurance Services
+6010 Financial Institutions – Manual Cash Disbursements
+6011 Financial Institutions – Automated Cash Disbursements
+6012 Financial Institutions – Merchandise, Services, and Debt Repayment
+6050 Quasi Cash - Member Financial Institution
+56051 Non-Financial Institutions –Foreign Currency, Non-Fiat Currency (for
+example: Cryptocurrency), Money Orders (Not Money Transfer),
+Account Funding (not Stored Value Load), Travelers Cheques, and
+Debt Repayment
+6211 Security Brokers/Dealers
+6300 Insurance Sales, Underwriting, and Premiums
+6513 Real Estate Agents and Managers
+6540 Non-Financial Institutions – Stored Value Card Purchase/Load
+7349 Cleaning, Maintenance, and Janitorial Services
+7523 Parking Lots, Parking Meters and Garages
+7800 Government-Owned Lotteries (US Region only)
+7801 Government Licensed On-Line Casinos (On-Line Gambling) (US Region
+only)
+7802 Government-Licensed Horse/Dog Racing (US Region only)
+7995 Betting, including Lottery Tickets, Casino Gaming Chips, Off-Track
+Betting, Wagers at Race Tracks and games of chance to win prizes of
+monetary value
+8062 Hospitals
+8211 Elementary and Secondary Schools
+8220 Colleges, Universities, Professional Schools, and Junior Colleges
+8241 Correspondence Schools
+8244 Business and Secretarial Schools
+8249 Vocational and Trade Schools
+8299 Schools and Educational Services (Not Elsewhere Classified)
+8398 Charitable Social Service Organizations
+8651 Political Organizations
+8661 Religious Organizations
+9211 Court Costs, Including Alimony and Child Support
+9222 Fines
+9223 Bail and Bond Payments
+9311 Tax Payments
+9399 Government Services (Not Elsewhere Classified)
+9402 Postal Services – Government Only
+9405 U.S. Federal Government Agencies or Departments
+9406 Government-Owned Lotteries (Non-U.S. region)
+9.2 The Cashback will not be awarded to any transactions that DCS deems to be
+corporate/commercial transactions.
+9.3 We reserve the right at our sole and absolute discretion to determine, vary, or amend the list
+set out above from time to time without any prior notice or giving any reason or being liable to
+any party.
+9.4 For the avoidance of doubt, any Cashback earned cannot be used to offset or to settle any
+Exclusions.
+10 ASSIGNMENT
+10.1 These terms and conditions shall be binding on you and us, and our respective successors in
+title and assigns. These terms and conditions shall also continue to be binding on you
+notwithstanding any change in your name or constitution or our name and constitution, or the
+6consolidation or amalgamation of you into or with any other entity, or any consolidation or
+amalgamation we may enter into or with any other entity (in which case the terms shall be
+binding on the successor entity).
+10.2 You may not assign any of your rights hereunder with our express written consent.
+10.3 We may assign any or all of our rights hereunder to any person we deem fit.
+11 FORCE MAJEURE
+11.1 We shall not be responsible or liable to you for:
+(a) delays or failure in performance, whether foreseeable or not; and/or
+(b) any losses, expenses or damages howsoever arising, whether foreseeable or not,
+resulting from or due to any circumstances or causes whatsoever which are not within our
+reasonable control.
+11.2 Without prejudice to the generality of sub-clause 11.1 above, the following shall be regarded as
+circumstances and/or causes beyond our reasonable control: - (1) flood, lightning, acts of God,
+fire, earthquakes and other natural disasters (2) strikes, labour disturbances, lockouts, material
+shortages, riots, acts of war (3) acts, restrictions, regulations bye-laws, prohibitions or measures
+of any kind on the part of any governmental parliamentary or local authority or any governmental
+regulations imposed after the fact (4) import or export regulations or embargoes (5) power
+failure (6) acts or defaults of any telecommunications network operator (7) circumstances where
+communications lines for the our computer systems (whether in Singapore or elsewhere)
+cannot be used for reasons attributable to third party telecommunications carriers.
+11.3 Our obligations, so far as affected by circumstance or causes beyond our reasonable control,
+shall be suspended during the continuance of any delay or failure in performance so caused
+and such delay or failure shall not be a breach of these terms and conditions.
+12 TERMINATION
+12.1 Notwithstanding any other provision of these terms and conditions and subject to us being fully
+paid all monies now or later due payable actually or contingently whether under these terms
+and conditions or otherwise howsoever, we may terminate the account at any time upon
+(a) the occurrence of an Event of Default; or
+(b) if we are prevented from or hindered or delayed by reason of any action of any state or
+government agency or under any applicable law which makes it illegal or unlawful or
+impossible for us to perform these terms and conditions.
+12.2 Termination under these terms and conditions or any part thereof shall not discharge or affect
+the liabilities accrued prior to the date of such termination and shall be without prejudice to any
+Card Transaction outstanding as at the date of termination.
+13 EVENTS OF DEFAULT
+13.1 Each of the following shall be deemed to be an Event of Default: -
+(a) the commencement, presentation, filing or institution by petition, application, order for relief
+or otherwise of any bankruptcy, insolvency, composition, dissolution, reorganisation,
+arrangement, liquidation or other analogous event relating to you under any applicable law;
+(b) if you are insolvent or are unable to pay your debts as and when they fall due or if you
+threaten to stop or stop or suspend payment of all or a material part of your debts, begin
+negotiations or take such further steps with a view to deferring, rescheduling or re-
+arranging all or any part of your indebtedness or make or propose to make a general
+7assignment or composition for the benefit of your creditors or a moratorium is declared in
+respect of all or substantially all your indebtedness;
+(c) if you fail to pay any amount due under these terms and conditions or under any contract;
+(d) if you fail to observe any condition or perform any obligation and such default continues
+and remains unrectified after three (3) Business Days of our written notice to you to remedy
+the same.
+(e) any legal proceedings is instituted against you which in our opinion may materially affect
+your ability to perform your obligations under these terms and conditions;
+(f) any representation is or turns out to be incorrect or misleading in any material aspect;
+(g) there is a material adverse change in your financial position which, in our reasonable
+opinion, may affect your ability to perform your obligations under these terms and
+conditions;
+(h) if you (for individuals) shall become deceased, become bankrupt or incapacitated.
+13.2 At any time if an Event of Default has occurred, we may elect, at our sole discretion, declare
+that:-
+(a) All contracts shall be terminated as of the date specified in such notice.
+(b) All monies payable by you, whether actual or contingent, shall become immediately due
+and payable; and/or
+(c) Termination of our relationship and demand that you fully settle all your Liabilities with us.
+14 CONSENT TO DISCLOSURE
+14.1 You hereby expressly authorise and permit us and each of our officer, employees, agents,
+contractors, service providers and each entity relevant to divulge, reveal, process or disclose
+any or all of your Personal Data and any particulars, including but not limited to your information
+relating to the Card, the Card Account and/or any transaction or dealings between you and DCS
+(the “Permitted Purposes”):
+(a) Process of your application for the Card, Services and products by us;
+(b) Account opening and operations relating to the Card, establishing or revising a Credit Limit
+and closing the Card Account, or facilitating, effecting, processing or providing any
+Services in respect of or in connection with the Card, the Card Account and/or this
+agreement;
+(c) Enrolment and facilitation of the provision of any Digital Payment Services;
+(d) Administration of loyalty and rewards programs (including the processing of redemption
+vouchers, benefits or entitlements);
+(e) Conducting checks with the Do Not Call Registry;
+(f) Any merchant, bank or financial institution;
+(g) Providing you with marketing, advertising and promotional information, materials or
+documents we think may be of interest to you. We may disclose your Personal Data to
+business partners (such as co-branders) for use in developing and marketing offers to you.
+You have the right to opt out of receiving such marketing information. You can do so by
+writing to us, telephoning us or sending an e-mail to us at our address or number on the
+Website. If you do not exercise your right to opt out of receiving such marketing information,
+8you will be considered to have consented to the receiving of such marketing information
+and we may continue to provide such marketing information to you;
+(h) Carrying out any proposed novation, assignment, transfer or sale of any of our rights or
+obligations with respect to the Card Account or any facilities and Services available in
+association with the Card, whether or not in connection with any financing or securitisation
+we sponsor or undertake, including (i) for preliminary activities connected to any such
+financing or securitisation, such as any due diligence, or any arrangement or structuring
+thereof; (ii) any securitisation transaction involving the Card Account or any facilities and
+Services available in association with the Card; (iii) any sales or purchase of any of our
+rights or obligations with respect to the Card Account or any facilities and Services
+available in association with the Card; (iv) any servicing, administration, collection,
+perfection or enforcement, of any security interest or other right, in connection with the
+Card Account or any facilities and Services available in association with the Card; and (v)
+to allow relevant parties (including, without limitation, any actual or potential assignee,
+transferee, trustee, security trustee, servicer or back-up servicer, transaction administrator
+or bankruptcy-remote entity) and their professional advisers, consultants, agents and other
+third party service providers (including, without limitation, lawyers, accountants, rating
+agencies and servicing agents) connected with such financing or securitisation to carry
+out their roles and responsibilities
+(i) To any person or organisation participating in the provision of electronic or without
+limitation other Services in connection with Services utilised by you, whether in Singapore
+or elsewhere, for the purpose of the Services including but not limited to investigating any
+alleged discrepancies or claims;
+(j) To any third party printer, agent or storage or archival service provider (including but not
+limited to any provider of microfilm service or any electronic storage, archival or recording
+facility) for the purpose of making, printing, mailing, storing, microfilming and/or filing
+personalised statements of accounts, labels, mailers or any other document or items on
+which your name and/or other particular appears, or any data or record of any document
+whatsoever;
+(k) To the police or any other public officer conducting an investigation in connection with any
+offence;
+(l) To any government or regulatory agency or authority or the court of any competent
+jurisdiction;
+(m) To any entity of our group for risk management purposes, for monitoring credit exposure
+of the group and centralisation of operations within the group, and for purposes in
+connection with business planning, restructuring and strategy and for the purpose of
+promoting products and services to you;
+(n) To any credit bureau, as well as the members of such credit bureau of which DCS is a
+member;
+(o) To any assignees or transferees or prospective assignees or transferees of our credit
+facilities, business and undertakings of such part thereof;
+(p) To any person or entity participating in the merger/acquisition or proposed
+merger/acquisition of DCS or its holding company with/by another company; and
+(q) Any other person or entity at any time: -
+(i) which DCS or any officer in good faith considers appropriate for any purpose in
+connection with these terms and conditions; or
+9(ii) where such particulars were inadvertently divulged, revealed or disclosed to or
+accessed by such persons or entities through no wilful default of DCS or relevant officer.
+15 YOUR LIABILITY AND RESPONSIBILITY
+15.1 You are responsible for all transactions made using the Card, and to ensure compliance with
+all the terms herein and all the terms that apply to your Card Account and Services that may be
+operated by or accessed using the Card.
+15.2 You shall provide to us the information and documents we may need from time to time in
+connection with the use of the Card, and cooperate with us (where applicable) in any
+investigation or litigation in connection with the use of the Card.
+15.3 You must keep the Card safe at all times and report to us as soon as you become aware, or
+have reason to believe that the Card is lost or stolen, or there has been authorised use of the
+Card or access to the Card Account and/or the Enabled Device. You shall also ensure that the
+Card is not defaced, damaged, bent, modified or tampered with in any way.
+15.4 If the Card or Enabled Device is lost or stolen, or if there has been unauthorised use of or
+access to the Card Account and/or the Enabled Device, you shall be responsible for all
+transactions made by anyone using the Card, unless you have taken all of the following steps
+(in which event your Liability shall be limited to S$100.00):
+(a) you have immediately notified us of the loss or theft or disclosure of the Card, Card
+Account and/or the Enabled Device;
+(b) you have taken all reasonable steps to help recover or stop the use of the Card;
+(c) you have given us a police report or a legal document called a statutory declaration in
+the form approved by us and any other document or information as we may require;
+and
+(d) you have established to our satisfaction that you have not by your own acts or
+omissions (directly or indirectly) caused or contributed to the occurrence of the loss or
+theft of the Card and/or the Enabled Device, or the disclosure of the Card Account, and
+the loss or theft of the Card and/or the Enabled Device, or the disclosure of the Card
+Account is not due to your negligence, fraudulent act or default.
+15.5 You shall not be liable for the Transactions on the Card not authorised by you if you have
+established to our satisfaction that the said Transactions were effected after you have duly
+provided us the notification, and you have not acted fraudulently or negligently.
+15.6 We may issue a replacement Card to you which will be on terms we stipulate.
+15.7 If the lost or stolen Card is recovered, you must promptly cut the Card in half and (a) return the
+same to us if so requested by us, or (b) dispose of it immediately as it cannot be used anymore.
+16 AMENDMENTS
+16.1 Without limiting any of our rights, we shall be entitled to amend, add to, vary or introduce new
+terms in these general terms and conditions from time to time upon notice to you. Such
+amendment, addition and variation shall take effect from the date stated in the notice, which in
+most instances, shall be no less than thirty (30) days from the date of notice, save as the
+changes are required in an emergency or where it is not practicable or reasonable to give such
+an advance notice.
+16.2 If you continue to use the Card under these terms and conditions, you shall be deemed to have
+agreed to all amendments and/or variations without reservation.
+1016.3 We may notify you of any changes to the terms and conditions by:
+(a) publishing such changes in the statements of account to be sent to you;
+(b) posting such changes on our Website;
+(c) electronic mail or letter;
+(d) publishing such changes in any newspapers; or such other means of communication
+as we may determine at our absolute discretion from time to time.
+17 ANTI-MONEY LAUNDERING
+17.1 You agree to provide any information as is necessary to verify your identity and do all things
+necessary to enable us to comply with applicable anti-money laundering and “know-your-client”
+laws and regulations. You agree that we shall be held harmless against any loss arising as a
+result of any delay or failure to process any application or transaction if such information and
+documentation as has been requested by us has not been provided by you.
+18 CONTRACTS (RIGHTS OF THIRD PARTIES) ACT
+18.1 The Contracts (Rights of Third Parties) Act of Singapore shall not under any circumstances
+apply to these terms and conditions and any person who is not a party thereto shall have no
+right whatsoever under the Contracts (Rights of Third Parties) Act to enforce these terms and
+conditions or any of its terms.
+19 WAIVERS
+19.1 No act, omission or forbearance by us or any of our employees shall constitute a waiver of our
+rights unless the waiver is specified in writing by a director of DCS.
+20 COMMUNICATIONS
+20.1 You shall provide us with written notice of any change in your particulars.
+20.2 Any statement, advice, confirmation, notice, demand and all other correspondence by us under
+the terms and conditions (the "Correspondence”) shall be served on you:
+(a) on you (or your personal representatives) personally;
+(b) by sending it to you at your last address registered with us; or ;
+(c) by telex / facsimile / electronic mail addressed in any such manner as aforesaid to your
+telex / facsimile / electronic mail address last registered with us. The Correspondence
+shall be deemed to have been delivered on the day it was delivered personally or
+transmitted by telex / facsimile / electronic mail or if sent by post on the day following
+posting.
+21 SEVERABILITY
+21.1 In the event of any conflict or inconsistency, either now or in the future, between these terms
+and conditions and any applicable statute, rule, regulation, practice, constitution, custom, usage,
+ruling or interpretation, the affected provision(s) of these terms and conditions shall be deemed
+modified or superseded as the case may be and all other provisions of these terms and
+conditions and the provision(s) so modified shall in all respects continue in full force and effect.
+1122. GOVERNING LAW
+22.1 The terms and conditions shall be governed by and construed in all respects in accordance with
+the laws of Singapore. However, we are at liberty to initiate and take actions or proceedings or
+otherwise in Singapore or other jurisdictions as we deem fit. You hereby agree that where any
+actions or proceedings are initiated in Singapore, you shall submit to the jurisdiction of the
+Courts of Singapore.
+23. OTHER CONDITIONS
+23.1 No Club Rewards Points will be awarded for all transactions incurred on the Card.
+23.2 You are not entitled to the Cashback, benefit and/or privileges if: -
+(a) your Card Account is suspended, cancelled, closed or terminated;
+(b) your Card Account is not in good standing or which, in our opinion, has not been
+properly or satisfactorily conducted; or
+(c) you are mentally unsound, facing legal incapacity or is incapable of handling your affairs,
+passed away, are declared a bankrupt or any legal proceeding (or any threat) of any
+nature is instituted against you(each an “Event” and collectively, the “Events”)
+Should any of the above Events occur:
+(i) before the Cashback is awarded into such Card Account, then such Cashback shall be
+forfeited; or
+(ii) after the Cashback is awarded into such Card Account, then we are entitled to deduct
+from the Card Account and/or any of your accounts with us, or reclaim from you, the
+amount of the Cashback awarded, and you shall not be entitled to any compensation
+or payment whatsoever.
+23.3 We shall not be responsible or liable for: -
+(a) any failure or delay in the transmission or receipt of evidence of sale transactions by
+Mastercard or UnionPay International, acquiring merchants, merchant establishments,
+postal or telecommunication authorities, service providers or any other parties which
+may result in a charge incurred or transaction made by you being omitted from being
+posted to your Card Account and/or captured in our system during the spending or
+qualifying or eligibility period or which may affect your eligibility to qualify for any of the
+benefits and/or privileges stated herein;
+(b) any losses, damages or otherwise suffered by any person if a person is unable to
+perform his/her obligations under these terms and conditions, due directly or indirectly
+to the failure of the merchant establishments, merchant acquirer, telecommunication
+authorities or service provider, any machine or communication or computer system,
+industrial dispute, war, Act of God, and/or anything outside our control.
+23.4 We are not an agent of any merchant and as such, any dispute about the quality or service
+standard of the goods and services offered by any merchant must be resolved directly with
+them respectively. We assume no liability or responsibility in any manner whatsoever for the
+acts or defaults of any merchant or defects in the goods and services offered by them, or for
+any injuries, loss damage, costs or expenses in connection with or arising out of the redemption
+or usage of the goods and services offered by any merchant.
+23.5 Our decision on all matters relating to the Card, and on all matters pertaining to the Cashback,
+award, benefits and privileges conferred by the use of the Card shall be final, conclusive and
+binding on you. We reserve the right at any time, and from time to time at our absolute discretion
+to withdraw, cancel or vary the Cashback, award, benefits and privileges conferred by the use
+12of the Card without ascribing any reason therefor, and you shall not be entitled to any payment
+or compensation whatsoever.
+23.6 In the event of any inconsistency between the terms and conditions and any advertising,
+promotional, publicity, brochure, marketing or other materials relating to or in connection with
+the use of the Card, the terms and conditions shall prevail.
+24. CESSATION OF THE CARD
+24.1 This Clause shall apply where we make a decision to cease the entire program or services in
+relation to the Card such that these programs or services will no longer be available to any
+cardholders of the Card (such decision to be made in our sole and absolute discretion) (the
+"Cessation"). In the event of a Cessation, you hereby agree that the procedure in this Clause
+shall govern the Cessation unless an alternative procedure has been published by us on our
+website or notified to you by any other reasonable means.
+24.2 We may notify you of the Cessation via any reasonable means, including via notifications on
+our website. You shall make payment on any outstanding balance in your Card Account to us
+within 30 days from the date of our notification on the Cessation.
+24.3 Where you have funds remaining in the Card Account after all payments owing by you to us
+have been made (the "Credit Balance"), we will transfer the whole of such Credit Balance to
+another card account you have with us if such a card account exists. If you do not hold another
+card account with us other than the Card Account, we will store the Credit Balance in a separate
+account (or through any other arrangement as we may deem fit), following which the Credit
+Balance will only be refunded to you upon your written request. Such written request must be
+made within 30 days from the date of our notification on the Cessation. If we do not receive a
+written request from you requesting for a refund of the Credit Balance within this 30-day period,
+you are deemed to have waived any rights to recover or claim for the Credit Balance.
+24.4 Any requests, claims, complaints or disputes from you in relation to the Cessation must be
+made or notified to us in writing within 30 days from the date of our notification on the Cessation.
+We shall not be liable or responsible in any way for any obligations or losses whatsoever in
+relation to the Cessation after the aforementioned 30-day period.
+Information is updated and correct as at 1 June 2025
+13

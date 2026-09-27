@@ -1,0 +1,210 @@
+TERMS AND CONDITIONS GOVERNING
+SINGTEL-UOB CARD UP TO 1% CASHBACK ON FX SPEND PROMOTION
+These Terms apply to your Singtel-UOB Card issued by United Overseas Bank Limited (the “Bank” or “UOB”) in Singapore
+(the “Card”). These Terms are to be read together with and form an integral part of the prevailing UOB Cardmembers
+Agreement (“Standard Terms”) and Terms and Conditions Governing Singtel-UOB Card.
+1. Promotion
+This Singtel-UOB Card up to 1% cashback promotion on FX Spend (the “Promotion”) is valid on all eligible
+Overseas Foreign Currency Spend as stated below:
+(a) 0.5% Bonus Cashback on FX Spend processed in China and Europe (no minimum spend required and no
+cap) made from 29 April 2026 to 31 December 2026 (both dates inclusive); and
+(b) 1% Bonus Cashback on all other FX Spend (no minimum spend required and no cap) made from 29 April
+2026 to 31 December 2026 (both dates inclusive).
+1.2. By participating in this Promotion, you agree to be bound by the terms and conditions of this Promotion (the
+“Terms”).
+2. Definitions
+“Overseas Foreign Currency Spend” or “FX Spend” means Transactions which are processed outside of
+Singapore and successfully charged to your Card and posted on UOB’s system, in a foreign currency.
+Transactions which are processed outside of Singapore, but which are charged to your Card in Singapore
+dollars at the time of the Transaction will not constitute an Overseas Foreign Currency Spend.
+“Exclusions” refers to the card transactions described under Clause 4 below.
+“Transactions” means retail transactions for good and/or services successfully charged to the Card account of
+the principal cardmember of the Card (“Principal Cardmember”) only AND posted on the Bank’s systems, but
+excludes the Exclusions.
+“Statement” means the statements of account issued by the Bank in respect of the Card account.
+“Statement Month” means the period of a Statement.
+“Europe” means the following countries: Austria; Belgium; Bulgaria; Croatia; Cyprus; Czech Republic; Denmark;
+Estonia; Finland (including Aland Islands); France; Germany; Gibraltar; Greece; Hungary; Iceland; Republic of
+Ireland; Italy; Latvia; Liechtenstein; Lithuania; Luxembourg; Malta; Mayotte; Netherlands; Norway; Poland;
+Portugal (including Azores, Madeira); Reunion; Romania; Slovakia; Slovenia; Spain (including Canary Islands,
+Ceuta, Melilla); Sweden.
+3. Bonus Cashback
+3.1 “Bonus Cashback” refers to promotional cashback of up to 1% on all Overseas Foreign Currency Spend made
+during the period stated in Clause 1 above.
+## RESTRICTED ##3.2 The Bonus Cashback will be calculated based on the total amount of Overseas Foreign Currency Spend
+successfully charged and posted to the Card account in each Statement Month of the period described in Clause
+1.
+3.3 The Bonus Cashback shall only be used to offset the Principal Cardmember’s Transactions incurred in the next
+Statement Month.
+3.4 The Bonus Cashback cannot be converted to or exchanged for cash, or be transferred or paid to any person.
+3.5 All unused Bonus Cashback will be forfeited on the earlier of:
+(a) 2 calendar years from the day the Bonus Cashback was awarded;
+(b) the Bank’s receipt of the Principal Cardmember’s request to terminate his Card; or
+(c) the termination or suspension of the Principal Cardmember’s Card by the Bank for any reason
+whatsoever.
+No payment or compensation shall be made for the forfeited Bonus Cashback.
+3.6 For the avoidance of doubt,
+(a) Please note that a merchant’s registered MCC may not always correspond with its nature of business.
+The MCCs are assigned by the merchant’s acquiring bank. UOB does not determine the merchants’
+MCC. UOB shall not be liable in any way whatsoever relating to the categorisation of a merchant’s
+MCC.
+(b) Transactions effected in foreign currencies will be converted into Singapore dollars based on UOB’s
+prevailing exchange rate and the Singapore dollar amount posted on UOB’s system will be used for
+the purposes of computing your Bonus Cashback.
+4. Exclusions
+4.1 The following Card transactions (collectively referred to as the “Exclusions”) do not qualify to earn any Bonus
+Cashback. The Bank reserves the right to amend the list set out below from time to time without any prior notice
+or giving any reason or being liable to any party:
+(a) any cash advances;
+(b) any interest, fees and charges (including without limitation, late payment charges or interest charges,
+annual or monthly fees or charges) imposed by the Bank;
+(c) NETS and NETS-related transactions;
+(d) balance and/or funds transfers to or from the Card account;
+(e) monthly instalments under 0% Instalment Payment Plan and SmartPay;
+(f) amounts approved under the UOB Payment Facility and any associated fees or charges;
+(g) any transactions made at Shell petrol stations and SPC petrol stations;
+(h) any top-ups or payment of funds to payment service providers or prepaid accounts (including but not
+limited to, any Grab mobile wallet top-up transactions, and/or any Shopee Pay wallet top-up
+transaction);
+(i) any credit card transaction that is subsequently cancelled, voided, refunded or reversed for any reason;
+(j) any payment made with the following Merchant Category Codes (“MCC”);
+MCC Description
+4829 Wire Transfer/Remittance
+4900 Utilities
+5199 Nondurable Goods
+5960 Direct Marketing - Insurance Services
+## RESTRICTED ##5965 Direct marketing –Combination Catalog and Retail Merchants
+5993 Cigar Stores and Stands
+6012 Member Financial Institution–Merchandise and Services
+6050 Quasi Cash–Financial Institutions, Merchandise and Services
+6051 Quasi Cash–Merchant (Non-Financial Institutions – Foreign Currency, Non-Fiat
+Currency, Cryptocurrency)
+6211 Securities–Brokers and Dealers
+6300 Insurance Sales/Underwrite
+6513 Real Estate Agents & Managers – Rentals
+6529 Quasi Cash-Remote Stored Value Load-Financial Institute Rentals
+6530 Quasi Cash-Remote Stored Value Load-Merchant Rentals
+6534 Quasi Cash-Remote Money Transfers
+6540 Stored Value Card Purchase/Load
+7349 Clean/Maint/Janitorial Serv aka Property Management
+7511 Quasi Cash – Truck Stop Trxns
+7523 Automobile Parking Lots and Garages
+7995 Gambling - Betting, including Lottery Tickets, Casino Gaming Chips, Off-Track
+Betting, and Wagers at Race Tracks
+8062 Hospitals
+8211 Schools, Elementary and Secondary
+8220 Colleges, Universities, Professional Schools and Junior Colleges
+8241 Schools, Correspondence
+8244 Schools, Business and Secretarial
+8249 Schools, Trade and Vocational
+8299 Schools and Educational Services–Not Elsewhere Classified
+8398 Charitable and Social Service Organizations
+8661 Religious Organizations
+8651 Political Organizations
+8699 Membership Organizations (Not Elsewhere Classified)
+8999 Professional Services (Not Elsewhere Classified)
+9211 Court Costs including Alimony and Child Support
+9222 Fines
+9223 Bail and Bond Payments
+9311 Tax Payment
+9402 Postal Services—Government Only
+9405 Intra-Government Purchases—Government Only
+9399 Government Services—not elsewhere classified
+(k) any transactions made with the following transaction descriptions:
+• AXS* • PLUS500
+• AMAZE* TRANSIT* (w.e.f. 1 Mar’22) • PLUS500UK LIMITED
+• CITYINDEX* • Saxo Cap Mkts Pts Ltd
+• EZ LINK* • SKR*PLUS500CY LTD
+• EZ-LINK* • SKR*SKRILL.COM
+• EZLINK* • TRANSIT*
+• EZLINKS* • WWW.IGMARKETS.COM.SG
+• FLASHPAY* • WWW.MYEZLINK.COM.SG
+• NETSFLASHPAY* • WWW.PLUS500.CO.UK
+• MB * MONEYBOOKERS.COM • IPAYMY*
+• OANDA ASIA PAC • RWS-LEVY*
+• OANDAASIAPA • SMOOVE PAY*
+## RESTRICTED ##• PAYPAL* PLUS500 • SINGPOST-SAM*
+• PAYPAL* PLUS500.COM • CardUp*
+• PAYPAL * BIZCONSULTA • RazerPay*
+• PAYPAL * OANDAASIAPA • NORWDS*
+• PAYPAL * CAPITALROYA • AMAZE*
+(l) any other transactions which the Bank may exclude from time to time without prior notice to you.
+5. General
+5.1 The following persons shall not be eligible to participate in the Promotion:
+(a) individuals whose UOB account(s) is/are voluntarily or involuntarily suspended, cancelled, closed or
+terminated at any time;
+(b) individuals whose UOB account(s) is/are not active, valid, subsisting or in good standing or delinquent
+or unsatisfactorily conducted as may be determined by UOB at its sole discretion;
+(c) individuals who are mentally unsound, facing legal incapacity or are incapable of handling their affairs,
+deceased, insolvent, bankrupt or have any legal proceedings (or any threat) of any nature instituted
+against them; or
+(d) anyone whom UOB may decide to exclude, at its sole discretion, without any reason or prior notice at
+any time.
+5.2 The Bank may deduct, re-compute, withdraw and/or cancel any Bonus Cashback awarded if your Card account
+is not in good standing or for any other reason that the Bank may determine in its sole discretion. No payment
+or compensation in respect of such deduction, re-computation, withdrawal or cancellation will be made. In the
+event that your Card account is delinquent, voluntarily or involuntarily closed or terminated or suspended for
+any reasons whatsoever before the Bonus Cashback credited into your Card account, such Bonus Cashback
+earned shall be forfeited without prior notice to you and you shall not be entitled to any compensation or
+payment whatsoever.
+5.3 The Card shall only be used for your own legitimate and genuine personal expenses and shall not be used for
+commercial or other non-personal expenses. UOB may deduct, re-compute, withdraw, forfeit and/or cancel any
+Bonus Cashback earned and/or awarded and/or cancel and terminate your Card, without giving any reason or
+prior notice or assuming any liability to you, if:
+(a) spending on your Card account is deemed by UOB in its sole and absolute discretion to be for commercial,
+illegitimate, ingenuine, commercial and/or non-personal purposes; or
+(b) your Card account is not in good standing and not conducted in a proper and satisfactory manner at any
+time as determined by UOB in its sole discretion; or
+(c) your Card account is overdue;
+(d) UOB deems in its sole discretion that there is an abuse of the Cashback programme (whether via unusual,
+illegitimate, and/or ingenuine transaction activities or otherwise); or
+(e) you did not comply with the Terms of this Promotion; or
+(f) for any other reason that UOB may determine in its sole discretion.
+## RESTRICTED ##No payment or compensation in respect of such deduction, re-computation, withdrawal or cancellation will be
+made.
+5.4 The Card is excluded from earning UNI$ and Instant rewards under the UOB Rewards Programme.
+5.5 By participating in this Promotion and in addition to any other consent you have already provided to the Bank
+and any right of the Bank under applicable laws, you consent to the Bank and the necessary third parties
+collecting, using and disclosing your information (including your personal data) for the purposes of this
+Promotion and to contact you, including via voice call or text message.
+5.6 UOB shall not be responsible or liable in any manner for (i) any failure or delay or mistake in the transmission or
+submission of card transactions and/or the Transactions by any party (including but not limited to the card
+associations, acquiring merchants, merchant establishments, postal or telecommunication authorities) for
+whatever reason; or (ii) any breakdown or malfunction in any computer system or equipment; or (iii) any loss,
+expenses, delays, mistake, neglect or omission in the awarding of the Bonus Cashback or your participation in
+this Promotion.
+5.7 UOB reserves the right to vary, amend and/or supplement any of these Terms (including but not limited the
+Bonus Cashback rate, the basis of calculation of the Bonus Cashback and the list of eligible transactions which
+are eligible to earn the Bonus Cashback) from time to time without the giving of notice or reason and without
+liability to any person and you agree to be bound by any such variations, amendments and/or supplements.
+5.8 The Bank reserves all rights to (i) substitute the Bonus Cashback; (ii) forfeit or reclaim the Bonus Cashback
+where participant is subsequently discovered to be ineligible; (iii) amend or vary the Card name or design; and
+(v) make determinations and decisions on all matters relating to this Promotion which shall be final, conclusive
+and binding.
+5.9 Prevailing Standard Terms as well as the Terms and Conditions Governing Singtel-UOB Card (the “Card Terms”)
+continues to apply to your Card. In the event of any inconsistency between these Terms, the Standard Terms
+and/or the Card Terms, these Terms shall to the extent of such inconsistency, prevail in respect of matters
+relating to this Promotion. These Terms shall prevail over any advertising, promotional, publicity, brochure,
+marketing or other materials relating to or in connection with the Promotion.
+5.10 These Terms shall be governed by the laws of the Republic of Singapore, and you agree to submit to the
+exclusive jurisdiction of the Singapore courts.
+5.11 A person not a party to these Terms has no rights under the Contracts (Rights of Third Parties) Act 2001 of
+Singapore to enforce these Terms.
+5.12 Adjustments will be made to the Bonus Cashback if there are any unposted, voided, cancelled, disputed and/or
+reversed transactions including those arising from returned goods or services, billing disputes, or any other
+reason at the sole discretion of UOB.
+5.13 Should Cardmembers’ spending be deemed to be for commercial and/or non-personal purposes, UOB reserves
+the right to refuse to award any Bonus Cashback for such transactions. UOB reserves the right to cancel and
+reverse any cashback awarded in a Cardmember’s statement of account at any time if it deems that such
+cashback was not earned from qualifying spend of a Cardmember and the Cardmember shall not be entitled to
+any compensation or payment whatsoever.
+## RESTRICTED ##5.14 The Bank shall not be liable in any manner whatsoever for any loss, expenses, delays, mistakes, neglect or
+omission in the transfer or transmission or posting of card transactions or the cashback. UOB’s decision on all
+matters relating to the Cardmember’s Card account shall be final and binding on Cardmembers.
+5.15 The Bank shall not be obliged to give any reason or enter into any correspondence with any person on any
+matter relating to its decision.
+5.16 Whilst all information is believed to be correct at the time of publishing, UOB makes no representation or
+warranty whether expressed or implied and accepts no responsibility or liability for its completeness or
+accuracy.
+Updated as of 29 April 2026
+## RESTRICTED ##

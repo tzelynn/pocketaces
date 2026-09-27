@@ -1,0 +1,76 @@
+{
+ "source": "moneysmart",
+ "source_id": "dbs-woman-s-world-card",
+ "source_url": "https://www.moneysmart.sg/credit-cards/dbs-woman-s-world-card",
+ "name": "DBS Woman's World Card",
+ "bank": "DBS",
+ "card_id": "dbs-womans-world",
+ "image_url": "https://photos.cdn-moneysmart.com/credit_cards/uploads/products/images/image_url_2021-09-29_Details - Logo - DBS Womans World Card.png",
+ "annual_fee": 196.2,
+ "earn_rates": {},
+ "caps": {},
+ "highlights": [
+  "S$5 = 10 DBS Points (equivalent to 4 Miles per S$1) on Online Purchases",
+  "S$5 = 3 DBS Points (equivalent to 1.2 Miles per S$1) on Overseas Purchases",
+  "S$5 = 1 DBS Point (equivalent to 0.4 Miles per S$1) on all Other Purchases",
+  "10X DBS Points per S$5 / 4 miles per S$1 on online purchases",
+  "3X DBS Points per S$5 / 1.2 miles per S$1 on overseas purchases",
+  "1X DBS Points per S$5 / 0.4 miles per S$1 on other purchases",
+  "Complimentary e-Commerce Protection on online purchases",
+  "Enjoy first year annual fee waiver",
+  "At MoneySmart, we strive to keep our information accurate and up to date. This information may be different from what you see when you visit a financial institution, service provider, or specific product site. MoneySmart shall not be liable to compensate the Customer should the information is not as updated as our Partner."
+ ],
+ "sign_up_offers": [],
+ "links": {
+  "product": "https://www.moneysmart.sg/credit-cards/dbs-woman-s-world-card"
+ },
+ "citation": {
+  "id": "moneysmart:fbcf8e7229a3",
+  "url": "https://www.moneysmart.sg/credit-cards?page=3",
+  "title": "DBS Woman's World Card",
+  "source_type": "aggregator",
+  "retrieved_at": "2026-09-27T05:27:18+00:00",
+  "sha256": "fbcf8e7229a38611c3c767cd8447164e413b1306df1f54bebee269e3abf15202",
+  "snapshot": "data/raw/moneysmart/credit-cards-p3-707cb52c.html"
+ },
+ "extra": {
+  "summary": "DBS Woman’s World Card is a great rewards and air miles credit card for ladies and men. Benefits include an attractive 10X Points program for online spend, annual fee waiver, Agoda staycation deals, and other promotions. DBS Points earned can be redeemed for miles, AirPods via the DBS Rewards Apple Store, cash back, and more.",
+  "badges": [],
+  "network": [
+   "Mastercard"
+  ],
+  "mobile_wallets": [
+   "Google Pay",
+   "Apple Pay",
+   "Samsung Pay"
+  ],
+  "groups": {
+   "annual-interest-rate-and-fees": {
+    "Annual Interest Rate": "27.80% p.a. chargeable on daily basis (subject to compounding)",
+    "Annual Principal Fee": "196.20",
+    "Supplementary Annual Fee": "98.10",
+    "Fee Waiver": "First year waived",
+    "Minimum Monthly Repayment": "3.00% or S$50, whichever is greater",
+    "Interest Free Period": "25 days"
+   },
+   "minimum-income-requirements": {
+    "Singaporean/PR Minimum Annual Income": "80000",
+    "Non-Singaporean Minimum Annual Income": "80000"
+   },
+   "card-association": {
+    "Mastercard": "true"
+   },
+   "wireless-payment": {
+    "Google Pay": "true",
+    "Apple Pay": "true",
+    "Samsung Pay": "true"
+   }
+  },
+  "our_takes": {
+   "our-take": "Our Take: For online shopping enthusiasts, the DBS Woman's World Card offers a lucrative 10X DBS Points (4 miles per S$1) on online purchases, maximizing rewards on everyday e-commerce. While marketed towards women, both men and women can benefit if you spend a lot online. Note the S$80,000 minimum income requirement. Optimize your earnings by strategically using this card for online transactions, particularly in categories like fashion and beauty. Consider that points exclusions may apply.",
+   "good-for": "Online shoppers seeking accelerated rewards on e-commerce purchases, especially in fashion and beauty categories.\nAir miles enthusiasts who want to maximise miles earned on online and overseas spending.\nSingaporeans earning at least S$80,000 annually and want extra e-commerce protection on their online purchases.",
+   "things-to-note": "Annual fee of S$196.20 applies after the first year; ensure rewards earned justify the cost.\nInterest rate is high at 27.80% p.a.; carrying a balance can lead to significant charges.\nLate payment fee is S$100 if your outstanding balance exceeds S$200, so pay promptly."
+  },
+  "updated_at": "2026-02-13T14:51:34+08:00"
+ }
+}

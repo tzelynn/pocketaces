@@ -1,0 +1,95 @@
+{
+ "source": "singsaver",
+ "source_id": "ocbc-voyage-card",
+ "source_url": "https://www.singsaver.com.sg/credit-card/products/ocbc-voyage-card",
+ "name": "OCBC Voyage Card",
+ "bank": "OCBC",
+ "card_id": "ocbc-voyage",
+ "image_url": "https://mhgprod.blob.core.windows.net/singsaver/strapi-uploads/xs_blt17929ae1589414d4_d65d7e2586.png",
+ "annual_fee": 497.06,
+ "annual_fee_note": "S$ | With 15,000 VOYAGE Miles or S$3,240 a year with 150,000 VOYAGE Miles.",
+ "min_annual_income": 120000.0,
+ "earn_rates": {
+  "mpd:local": {
+   "value": 1.3,
+   "unit": "mpd",
+   "note": null
+  },
+  "mpd:overseas": {
+   "value": 2.2,
+   "unit": "mpd",
+   "note": null
+  },
+  "percent:local": {
+   "value": 1.3,
+   "unit": "percent",
+   "note": "S$1 local spend = 1.3 VOYAGE Miles. 5,000 VOYAGE Miles = S$50 VOYAGE Cash (Equivalent to 1.3% cashback)."
+  },
+  "percent:overseas": {
+   "value": 2.2,
+   "unit": "percent",
+   "note": "S$1 foreign spend = 2.2 VOYAGE Miles. 5,000 VOYAGE Miles = S$50 VOYAGE Cash (Equivalent to 2.2% cashback)."
+  },
+  "percent:baseline": {
+   "value": 1.3,
+   "unit": "percent",
+   "note": null
+  }
+ },
+ "caps": {},
+ "highlights": [
+  "pros: 2.2 miles per dollar on overseas spend.",
+  "pros: 1.3 miles per dollar on local spend.",
+  "pros: VOYAGE miles earned do not expire.",
+  "pros: Unlimited plaza premium lounge visits.",
+  "pros: Exchange VOYAGE Miles for air tickets and hotel accommodation via Travel with OCBC or VOYAGE Exchange. You also get to accrue loyalty points with your redemption.",
+  "pros: Convert VOYAGE Miles to loyalty points at 9 airline and hotel partner programmes.",
+  "cons: Miles earned in blocks of S$5.",
+  "cons: Minimum annual income requirement of S$120,000.",
+  "cons: Annual Fee of S$492.50.",
+  "pros: No expiry air miles",
+  "pros: Overseas rebate",
+  "pros: Airport lounge",
+  "pros: Airport transfer"
+ ],
+ "sign_up_offers": [],
+ "links": {
+  "apply": "https://www.singsaver.com.sg/cards/ocbc"
+ },
+ "citation": {
+  "id": "singsaver:b854c15f0133",
+  "url": "https://www.singsaver.com.sg/credit-card/products/ocbc-voyage-card",
+  "title": "OCBC Voyage Card",
+  "source_type": "aggregator",
+  "retrieved_at": "2026-09-27T05:26:29+00:00",
+  "sha256": "b854c15f01332ec12215ef5ca14396a042a132604f6a88be94ba92e71b31f55f",
+  "snapshot": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-ocbc-voyage-card-2309c620.html"
+ },
+ "extra": {
+  "network": [
+   "VISA"
+  ],
+  "mobile_wallets": [
+   "Google Pay",
+   "Apple Pay",
+   "Samsung Pay",
+   "Fitbit Pay",
+   "Garmin Pay",
+   "NETSPay"
+  ],
+  "fx_fee_percent": 3.25,
+  "miles_conversion_fee": 25.0,
+  "categories": [
+   "category:airmiles",
+   "category:all-credit-cards",
+   "category:travel",
+   "needs:airport-lounge-transfer",
+   "needs:all-airmiles-cards",
+   "needs:all-credit-cards",
+   "needs:all-travel-cards",
+   "needs:no-expiry-on-miles"
+  ],
+  "tag": null,
+  "description": "The OCBC VOYAGE Card lets you earn 2.2 miles per dollar (mpd) for foreign currency spend and 1.3 mpd for local spend. However, you'll earn OCBC Premier, OCBC Premier Private, and Bank of Singapore (BOS) clients will have a 1.6 mpd general spend earn rate. \nThe miles you earn from your OCBC VOYAGE Card will never expire, and VOYAGE miles can be redeemed for cash or converted into air miles/points from nine airline hotel loyalty programmes.\nFrequent flyer programs include Air France–KLM Flying Blue, British Airways Executive Club, Cathay Pacific, Etihad Guest, Singapore Airlines KrisFlyer, and United MileagePlus, while you can also convert your VOYAGE miles to points from ALL – Accor Live Limitless, IHG One Rewards, and Marriott Bonvoy hotel loyalty programmes.\nAs a metal card, you'll also enjoy various lifestyle perks and benefits, including complimentary limo transfer service, unlimited airport lounge visits to over 130 Plaza Premium Lounges in airports around the world, and concierge services."
+ }
+}

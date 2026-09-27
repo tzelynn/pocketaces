@@ -1,0 +1,384 @@
+{
+ "card_id": "ocbc-great-eastern-cashflo",
+ "product_pages": [
+  {
+   "id": "bank:d6ab286f5603",
+   "url": "https://www.ocbc.com/personal-banking/cards/great-eastern-cashflo-credit-card.page",
+   "source_type": "official",
+   "retrieved_at": "2026-09-27T08:41:25+00:00",
+   "sha256": "d6ab286f560358e8c311d1cb0a3407789dd2c7a8a058202dae2b6c14ddd6045e",
+   "snapshot": "data/raw/bank/www-ocbc-com-personal-banking-cards-great-eastern-cashflo-credit-card-page-5d0eea0d.html"
+  }
+ ],
+ "documents": [
+  {
+   "url": "https://www.ocbc.com/iwov-resources/sg/ocbc/personal/pdf/cards/tncs-ge-cashflo-credit-card-wef1apr21.pdf",
+   "citation": {
+    "id": "bank:7c2142532c98",
+    "url": "https://www.ocbc.com/iwov-resources/sg/ocbc/personal/pdf/cards/tncs-ge-cashflo-credit-card-wef1apr21.pdf",
+    "source_type": "official",
+    "retrieved_at": "2026-09-27T08:41:27+00:00",
+    "sha256": "7c2142532c98f847fa340d2117f4c96bf1efe53a64dd074f711ad33e7541bde7",
+    "snapshot": "data/raw/bank/www-ocbc-com-iwov-resources-sg-ocbc-personal-pdf-cards-tncs-ge-cashflo-credit-card-wef1apr21-pdf-7fa759c0.pdf"
+   },
+   "text_path": "data/raw/bank/www-ocbc-com-iwov-resources-sg-ocbc-personal-pdf-cards-tncs-ge-cashflo-credit-card-wef1apr21-pdf-7fa759c0.txt",
+   "sha256": "7c2142532c98f847fa340d2117f4c96bf1efe53a64dd074f711ad33e7541bde7",
+   "changed": false,
+   "new": true,
+   "no_text_layer": false,
+   "effective_dates": [
+    "1 Apr 2021"
+   ],
+   "mcc": {
+    "include": [
+     "4784",
+     "4829",
+     "4900",
+     "5047",
+     "5199",
+     "5960",
+     "5993",
+     "6012",
+     "6051",
+     "6211",
+     "6300",
+     "6513",
+     "6540",
+     "7349",
+     "7523",
+     "7995",
+     "8062",
+     "8211",
+     "8220",
+     "8241",
+     "8244",
+     "8249",
+     "8299",
+     "8398",
+     "8651",
+     "8661",
+     "8675",
+     "8699",
+     "9211",
+     "9222",
+     "9223",
+     "9311",
+     "9399",
+     "9402",
+     "9405"
+    ],
+    "exclude": [],
+    "unknown": [],
+    "conflicting": [],
+    "unrecognised": [],
+    "hits": [
+     {
+      "code": "4784",
+      "polarity": "include",
+      "page": 5,
+      "line": "4784 Tolls and Bridge Fees",
+      "reason": "\uf0b7 Transactions classified under the following MCCs:",
+      "in_reference": true
+     },
+     {
+      "code": "4829",
+      "polarity": "include",
+      "page": 5,
+      "line": "4829 Wire Transfer Money Orders (WTMOs)",
+      "reason": "\uf0b7 Transactions classified under the following MCCs:",
+      "in_reference": true
+     },
+     {
+      "code": "4900",
+      "polarity": "include",
+      "page": 5,
+      "line": "4900 Utilities\u2013Electric, Gas, Heating Oil, Sanitary, Water",
+      "reason": "\uf0b7 Transactions classified under the following MCCs:",
+      "in_reference": true
+     },
+     {
+      "code": "5047",
+      "polarity": "include",
+      "page": 5,
+      "line": "5047 Medical, Dental, Ophthalmic and Hospital Equipment and Supplies",
+      "reason": "\uf0b7 Transactions classified under the following MCCs:",
+      "in_reference": true
+     },
+     {
+      "code": "5199",
+      "polarity": "include",
+      "page": 5,
+      "line": "5199 Nondurable Goods (Not Elsewhere Classified)",
+      "reason": "\uf0b7 Transactions classified under the following MCCs:",
+      "in_reference": true
+     },
+     {
+      "code": "5960",
+      "polarity": "include",
+      "page": 5,
+      "line": "5960 Direct Marketing Insurance Services",
+      "reason": "\uf0b7 Transactions classified under the following MCCs:",
+      "in_reference": true
+     },
+     {
+      "code": "5993",
+      "polarity": "include",
+      "page": 5,
+      "line": "5993 Cigars, Stores and Stands",
+      "reason": "\uf0b7 Transactions classified under the following MCCs:",
+      "in_reference": true
+     },
+     {
+      "code": "6012",
+      "polarity": "include",
+      "page": 5,
+      "line": "6012 Member Financial Institution\u2013Merchandise and Services",
+      "reason": "\uf0b7 Transactions classified under the following MCCs:",
+      "in_reference": true
+     },
+     {
+      "code": "6051",
+      "polarity": "include",
+      "page": 5,
+      "line": "6051",
+      "reason": "\uf0b7 Transactions classified under the following MCCs:",
+      "in_reference": true
+     },
+     {
+      "code": "6211",
+      "polarity": "include",
+      "page": 5,
+      "line": "6211 Securities\u2013Brokers and Dealers",
+      "reason": "\uf0b7 Transactions classified under the following MCCs:",
+      "in_reference": true
+     },
+     {
+      "code": "6300",
+      "polarity": "include",
+      "page": 5,
+      "line": "6300 Insurance Sales, Underwriting and Premiums",
+      "reason": "\uf0b7 Transactions classified under the following MCCs:",
+      "in_reference": true
+     },
+     {
+      "code": "6513",
+      "polarity": "include",
+      "page": 5,
+      "line": "6513 Real Estate Agents and Managers\u2013Rentals",
+      "reason": "\uf0b7 Transactions classified under the following MCCs:",
+      "in_reference": true
+     },
+     {
+      "code": "6540",
+      "polarity": "include",
+      "page": 5,
+      "line": "6540 Non-Financial Institutions \u2013 Stored Value Card Purchase/Load",
+      "reason": "\uf0b7 Transactions classified under the following MCCs:",
+      "in_reference": true
+     },
+     {
+      "code": "7349",
+      "polarity": "include",
+      "page": 5,
+      "line": "7349 Cleaning, maintenance and janitorial services",
+      "reason": "\uf0b7 Transactions classified under the following MCCs:",
+      "in_reference": true
+     },
+     {
+      "code": "7523",
+      "polarity": "include",
+      "page": 5,
+      "line": "7523 Automobile Parking Lots and Garages",
+      "reason": "\uf0b7 Transactions classified under the following MCCs:",
+      "in_reference": true
+     },
+     {
+      "code": "7995",
+      "polarity": "include",
+      "page": 5,
+      "line": "7995",
+      "reason": "\uf0b7 Transactions classified under the following MCCs:",
+      "in_reference": true
+     },
+     {
+      "code": "8062",
+      "polarity": "include",
+      "page": 5,
+      "line": "8062 Hospitals",
+      "reason": "\uf0b7 Transactions classified under the following MCCs:",
+      "in_reference": true
+     },
+     {
+      "code": "8211",
+      "polarity": "include",
+      "page": 5,
+      "line": "8211 Schools, Elementary and Secondary",
+      "reason": "\uf0b7 Transactions classified under the following MCCs:",
+      "in_reference": true
+     },
+     {
+      "code": "8220",
+      "polarity": "include",
+      "page": 5,
+      "line": "8220 Colleges, Universities, Professional Schools and Junior Colleges",
+      "reason": "\uf0b7 Transactions classified under the following MCCs:",
+      "in_reference": true
+     },
+     {
+      "code": "8241",
+      "polarity": "include",
+      "page": 5,
+      "line": "8241 Schools, Correspondence",
+      "reason": "\uf0b7 Transactions classified under the following MCCs:",
+      "in_reference": true
+     },
+     {
+      "code": "8244",
+      "polarity": "include",
+      "page": 5,
+      "line": "8244 Schools, Business and Secretarial",
+      "reason": "\uf0b7 Transactions classified under the following MCCs:",
+      "in_reference": true
+     },
+     {
+      "code": "8249",
+      "polarity": "include",
+      "page": 5,
+      "line": "8249 Schools, Trade and Vocational",
+      "reason": "\uf0b7 Transactions classified under the following MCCs:",
+      "in_reference": true
+     },
+     {
+      "code": "8299",
+      "polarity": "include",
+      "page": 5,
+      "line": "8299 Schools and Educational Services\u2013Not Elsewhere Classified",
+      "reason": "\uf0b7 Transactions classified under the following MCCs:",
+      "in_reference": true
+     },
+     {
+      "code": "8398",
+      "polarity": "include",
+      "page": 5,
+      "line": "8398 Organizations, Charitable and Social Service",
+      "reason": "\uf0b7 Transactions classified under the following MCCs:",
+      "in_reference": true
+     },
+     {
+      "code": "8651",
+      "polarity": "include",
+      "page": 5,
+      "line": "8651 Organizations, Political",
+      "reason": "\uf0b7 Transactions classified under the following MCCs:",
+      "in_reference": true
+     },
+     {
+      "code": "8661",
+      "polarity": "include",
+      "page": 5,
+      "line": "8661 Organizations, Religious",
+      "reason": "\uf0b7 Transactions classified under the following MCCs:",
+      "in_reference": true
+     },
+     {
+      "code": "8675",
+      "polarity": "include",
+      "page": 5,
+      "line": "8675 Automobile Associations",
+      "reason": "\uf0b7 Transactions classified under the following MCCs:",
+      "in_reference": true
+     },
+     {
+      "code": "8699",
+      "polarity": "include",
+      "page": 5,
+      "line": "8699",
+      "reason": "\uf0b7 Transactions classified under the following MCCs:",
+      "in_reference": true
+     },
+     {
+      "code": "9211",
+      "polarity": "include",
+      "page": 5,
+      "line": "9211 Court Costs Including Alimony and Child Support",
+      "reason": "\uf0b7 Transactions classified under the following MCCs:",
+      "in_reference": true
+     },
+     {
+      "code": "9222",
+      "polarity": "include",
+      "page": 6,
+      "line": "9222 Fines",
+      "reason": "\uf0b7 Transactions classified under the following MCCs:",
+      "in_reference": true
+     },
+     {
+      "code": "9223",
+      "polarity": "include",
+      "page": 6,
+      "line": "9223 Bail and Bond Payments",
+      "reason": "\uf0b7 Transactions classified under the following MCCs:",
+      "in_reference": true
+     },
+     {
+      "code": "9311",
+      "polarity": "include",
+      "page": 6,
+      "line": "9311 Tax Payments",
+      "reason": "\uf0b7 Transactions classified under the following MCCs:",
+      "in_reference": true
+     },
+     {
+      "code": "9399",
+      "polarity": "include",
+      "page": 6,
+      "line": "9399 Government Services\u2013Not Elsewhere Classified",
+      "reason": "\uf0b7 Transactions classified under the following MCCs:",
+      "in_reference": true
+     },
+     {
+      "code": "9402",
+      "polarity": "include",
+      "page": 6,
+      "line": "9402 Postal Services\u2013Government Only",
+      "reason": "\uf0b7 Transactions classified under the following MCCs:",
+      "in_reference": true
+     },
+     {
+      "code": "9405",
+      "polarity": "include",
+      "page": 6,
+      "line": "9405 Intra-Government Purchases\u2013Government Only",
+      "reason": "\uf0b7 Transactions classified under the following MCCs:",
+      "in_reference": true
+     }
+    ]
+   },
+   "transaction_modes": {
+    "online": [
+     "\uf0b7 Bill payments made via Internet Banking and any AXS Network;"
+    ]
+   },
+   "non_mcc_exclusions": [
+    "axs",
+    "balance transfer",
+    "bill payment",
+    "cash advance",
+    "charit",
+    "education",
+    "government",
+    "grabpay",
+    "hospital",
+    "instalment",
+    "interest",
+    "late payment charge",
+    "tax",
+    "top-ups",
+    "utilit",
+    "youtrip"
+   ]
+  }
+ ],
+ "changed": false,
+ "removed_documents": []
+}

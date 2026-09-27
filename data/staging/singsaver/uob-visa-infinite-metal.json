@@ -1,0 +1,97 @@
+{
+ "source": "singsaver",
+ "source_id": "uob-visa-infinite-metal-card",
+ "source_url": "https://www.singsaver.com.sg/credit-card/products/uob-visa-infinite-metal-card",
+ "name": "UOB Visa Infinite Metal Card",
+ "bank": "UOB",
+ "card_id": "uob-visa-infinite-metal",
+ "image_url": "https://mhgprod.blob.core.windows.net/singsaver/strapi-uploads/xs_bltdc61c357dc4eaff9_8ba3acd510.png",
+ "annual_fee": 654.0,
+ "annual_fee_note": "S$ | Non-waivable",
+ "min_annual_income": 120000.0,
+ "earn_rates": {
+  "mpd:baseline": {
+   "value": 1.4,
+   "unit": "mpd",
+   "note": null
+  },
+  "mpd:overseas": {
+   "value": 2.4,
+   "unit": "mpd",
+   "note": null
+  },
+  "mpd:local": {
+   "value": 1.4,
+   "unit": "mpd",
+   "note": null
+  }
+ },
+ "caps": {},
+ "highlights": [
+  "Earn 2.4 miles per dollar on overseas spending and 1.4 miles per dollar on local spending",
+  "pros: 12 complimentary lounge passes per statement year at over 1,400 airport lounges worldwide, for you and a guest.",
+  "pros: Earn 2.4 air miles per S$1 spent in foreign currency, and 1.4 air miles per S$1 spent locally.",
+  "pros: Waiver of miles conversion fees.",
+  "pros: Travel with peace of mind with up to S$1,000,000 Travel Personal Accident Insurance coverage.",
+  "pros: 24/7 UOB Visa Infinite Concierge for your banking and lifestyle needs.",
+  "cons: Non-waivable annual fee.",
+  "cons: High S$120,000 min. annual income requirement.",
+  "pros: Airport lounge",
+  "pros: Bonus air miles",
+  "pros: Overseas rebate",
+  "cons: Annual Fee required"
+ ],
+ "sign_up_offers": [],
+ "links": {},
+ "citation": {
+  "id": "singsaver:c5a532b1acba",
+  "url": "https://www.singsaver.com.sg/credit-card/products/uob-visa-infinite-metal-card",
+  "title": "UOB Visa Infinite Metal Card",
+  "source_type": "aggregator",
+  "retrieved_at": "2026-09-27T05:27:07+00:00",
+  "sha256": "c5a532b1acbaec0035a80b2d8069d1ef06215c0e3cb59b1fc5a9d0f5582c7049",
+  "snapshot": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-uob-visa-infinite-metal-card-bee34f22.html"
+ },
+ "extra": {
+  "network": [
+   "VISA Infinite"
+  ],
+  "mobile_wallets": [
+   "Google Pay",
+   "Apple Pay",
+   "Samsung Pay",
+   "NETSPay"
+  ],
+  "fx_fee_percent": 3.25,
+  "miles_conversion_fee": 27.0,
+  "categories": [
+   "category:airmiles",
+   "category:all-credit-cards",
+   "category:buffet-promo",
+   "category:dining-promo",
+   "category:grocery-promo",
+   "category:installment",
+   "category:premium-cards",
+   "category:promo",
+   "category:retail-promo",
+   "category:travel",
+   "needs:0-interest-rate",
+   "needs:0-processing-fee",
+   "needs:airport-lounge-transfer",
+   "needs:all-airmiles-cards",
+   "needs:all-cards-with-buffet-promo",
+   "needs:all-cards-with-dining-promo",
+   "needs:all-cards-with-grocery-promo",
+   "needs:all-cards-with-promotion",
+   "needs:all-cards-with-retail-promo",
+   "needs:all-credit-cards",
+   "needs:all-installment-cards",
+   "needs:all-premium-cards",
+   "needs:long-tenure-installment",
+   "needs:unlimited-airmiles",
+   "needs:voucher-points"
+  ],
+  "tag": null,
+  "description": "Unveil a world of exceptional experiences with the UOB Visa Infinite Metal Card. Elevate your lifestyle through unparalleled rewards, bespoke privileges, and unlimited airport lounge access. From exclusive travel benefits to tailored services, this card redefines luxury at every turn."
+ }
+}

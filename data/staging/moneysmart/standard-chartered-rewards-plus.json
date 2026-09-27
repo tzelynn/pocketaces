@@ -1,0 +1,87 @@
+{
+ "source": "moneysmart",
+ "source_id": "standard-chartered-rewards",
+ "source_url": "https://www.moneysmart.sg/credit-cards/standard-chartered-rewards",
+ "name": "Standard Chartered Rewards+ Credit Card",
+ "bank": "Standard Chartered",
+ "card_id": "standard-chartered-rewards-plus",
+ "image_url": "https://photos.cdn-moneysmart.com/credit_cards/uploads/products/images/image_url_2021-09-29_Details - Logo - SCB Rewards Plus Card.png",
+ "annual_fee": 196.2,
+ "earn_rates": {},
+ "caps": {},
+ "highlights": [
+  "S$1= 10X Points on Foreign Currency Spend",
+  "S$1= 5X Points on Local Dining Spend",
+  "S$1= 1X Point on All Other Spend",
+  "10X Rewards Points per S$1 spent in foreign currency, including online spends",
+  "5X Rewards Points per S$1 spent in Singapore Dollars for local dining transactions",
+  "1X Rewards Points per S$1 on all other spends",
+  "1 year annual fee waiver, no minimum spend required",
+  "Rewards Points capped at 20,000 points per year",
+  "At MoneySmart, we strive to keep our information accurate and up to date. This information may be different from what you see when you visit a financial institution, service provider, or specific product site. MoneySmart shall not be liable to compensate the Customer should the information is not as updated as our Partner."
+ ],
+ "sign_up_offers": [],
+ "links": {
+  "product": "https://www.moneysmart.sg/credit-cards/standard-chartered-rewards",
+  "review": "https://blog.moneysmart.sg/credit-cards/standard-chartered-rewards-card/"
+ },
+ "citation": {
+  "id": "moneysmart:49fcb3586f25",
+  "url": "https://www.moneysmart.sg/credit-cards?page=4",
+  "title": "Standard Chartered Rewards+ Credit Card",
+  "source_type": "aggregator",
+  "retrieved_at": "2026-09-27T05:27:20+00:00",
+  "sha256": "49fcb3586f252df0b2dacb9acecc465127e09c9defa7f151881c3db46d84649e",
+  "snapshot": "data/raw/moneysmart/credit-cards-p4-1a322210.html"
+ },
+ "extra": {
+  "summary": "The Standard Chartered Rewards+ card shines for overseas spending, offering 10X points (4 miles equivalent) on foreign currency transactions – great for online shopping in USD or travel beyond Johor Bahru. Foodies also benefit with 5X points on local dining.",
+  "badges": [
+   "Earn up to 10X Rewards Points"
+  ],
+  "network": [
+   "Visa"
+  ],
+  "mobile_wallets": [
+   "Visa Contactless",
+   "Google Pay",
+   "Apple Pay",
+   "Samsung Pay"
+  ],
+  "groups": {
+   "annual-interest-rate-and-fees": {
+    "Annual Interest Rate": "27.90",
+    "Annual Principal Fee": "196.20",
+    "Supplementary Annual Fee": "N/A",
+    "Fee Waiver": "Available",
+    "Minimum Monthly Repayment": "S$50 OR 1% of principal / interest, fees & charges / overlimit amount / past due amount, whichever is higher"
+   },
+   "minimum-income-requirements": {
+    "Singaporean/PR Minimum Annual Income": "30000",
+    "Non-Singaporean Minimum Annual Income": "90000"
+   },
+   "card-association": {
+    "Visa": "true"
+   },
+   "wireless-payment": {
+    "Visa Contactless": "true",
+    "Google Pay": "true",
+    "Apple Pay": "true",
+    "Samsung Pay": "true"
+   },
+   "documents-required": {
+    "SG Citizens or PRs": "Apply via MyInfo and prepare the following, \n1. Copy of Passport (6 months validity), and page with address displayed (where applicable), \n2. Copy of Employment Pass, \n3. Either one of the following: utility bill, tax bill, latest bank /credit card statement, rental agreement showing your address, latest mobile phone statement, letter from employer stating current address, government-issued document stating current address",
+    "Passport Validity (Foreigners)": "6 months",
+    "Work Permit Validity (Foreigners)": "6 months",
+    "Utility or Telephone Bill": "true",
+    "Income Tax Notice of Assessment": "true"
+   }
+  },
+  "our_takes": {
+   "our-take": "The Standard Chartered Rewards+ card shines for overseas spending, offering 10X points (4 miles equivalent) on foreign currency transactions – great for online shopping in USD or travel beyond Johor Bahru. Foodies also benefit with 5X points on local dining. A key consideration: the 20,000 points cap limits high spenders. While the first-year fee waiver and no minimum spend are pluses, factor in the 3.5% foreign transaction fee and dining exclusions (hotel restaurants) when maximizing rewards.",
+   "good-for": "Young professionals who frequently dine out, seeking accelerated rewards on local dining experiences.\nIndividuals who make frequent online purchases in foreign currencies, maximizing rewards on international e-commerce transactions.\nCardholders looking to accumulate rewards points without minimum spend requirements and an initial year fee waiver.",
+   "things-to-note": "Foreign currency rewards are capped; exceeding 20,000 points yearly limits your earning potential.\nLocal dining bonus points exclude hotel restaurants and certain supermarkets, reducing eligible transactions.\n27.9% annual interest rate applies if you carry a balance, significantly increasing your debt."
+  },
+  "updated_at": "2025-11-29T00:00:02+08:00"
+ }
+}

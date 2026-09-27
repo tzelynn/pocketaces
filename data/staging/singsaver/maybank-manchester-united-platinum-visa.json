@@ -1,0 +1,117 @@
+{
+ "source": "singsaver",
+ "source_id": "maybank-manchester-united-platinum-visa-card",
+ "source_url": "https://www.singsaver.com.sg/credit-card/products/maybank-manchester-united-platinum-visa-card",
+ "name": "Maybank Manchester United Platinum Visa Credit Card",
+ "bank": "Maybank",
+ "card_id": "maybank-manchester-united-platinum-visa",
+ "image_url": "https://mhgprod.blob.core.windows.net/singsaver/strapi-uploads/xs_blt300db20118a1c8ab_db039f1a0e.png",
+ "annual_fee": 87.2,
+ "annual_fee_note": "S$ | First 2 Years Waived, thereafter can be waived if min spend of $3.6K is met per annum",
+ "min_annual_income": 30000.0,
+ "earn_rates": {
+  "percent:baseline": {
+   "value": 3.0,
+   "unit": "percent",
+   "note": "Up to | Unlimited cashback with no minimum spend when Manchester United Wins a Premier Leage Match, otherwise earn 1% unlimited cashback. Bonus cashback capped at S$20 per match day win."
+  },
+  "mpd:baseline": {
+   "value": 2.0,
+   "unit": "mpd",
+   "note": "Up to | When Manchester United Wins a Premier Leage Match, otherwise earn 0.4 miles per dollar."
+  },
+  "percent:overseas": {
+   "value": 3.0,
+   "unit": "percent",
+   "note": "Up to | Unlimited cashback with no minimum spend when Manchester United Wins a Premier Leage Match, otherwise earn 1% unlimited cashback  Bonus cashback capped at S$20 per match day win."
+  },
+  "points_per_dollar:baseline": {
+   "value": 25.0,
+   "unit": "points_per_dollar",
+   "note": "Up to | When Manchester United wins a Premier League Match, otherwise earn 5 TREATS Points per S$5 spent."
+  },
+  "mpd:local": {
+   "value": 2.0,
+   "unit": "mpd",
+   "note": "Up to | When Manchester United Wins a Premier Leage Match, otherwise earn 0.4 miles per dollar."
+  },
+  "mpd:overseas": {
+   "value": 2.0,
+   "unit": "mpd",
+   "note": "Up to | When Manchester United Wins a Premier Leage Match, otherwise earn 0.4 miles per dollar."
+  },
+  "percent:local": {
+   "value": 3.0,
+   "unit": "percent",
+   "note": "Up to | Unlimited cashback with no minimum spend when Manchester United Wins a Premier Leage Match, otherwise earn 1% unlimited cashback. Bonus cashback capped at S$20 per match day win."
+  }
+ },
+ "caps": {},
+ "highlights": [
+  "Unlimited cashback with no minimum spend when Manchester United Wins a Premier Leage Match, otherwise earn 1% unlimited cashback. Bonus cashback capped at S$20 per match day win.",
+  "pros: Earn 1% unlimited cashback and 1X TREATS Points (0.4 miles per dollar) on all transactions.",
+  "pros: Earn up to 3% cashback and 5X TREATS Points when Manchester United Wins a Premier League match.",
+  "pros: No minimum spend and no cashback cap.",
+  "pros: Stand a chance to win a trip for 2 to watch Manchester United live every football season.",
+  "pros: Complimentary travel insurance coverage of up to S$300,000.",
+  "cons: TREATS Points awarded calculated based on blocks of S$5.",
+  "cons: TREATS Points expire after one year.",
+  "pros: Local spending rebate",
+  "pros: No monthly spend required",
+  "pros: No rebate cap",
+  "pros: Travel insurance"
+ ],
+ "sign_up_offers": [],
+ "links": {},
+ "citation": {
+  "id": "singsaver:d571031efa15",
+  "url": "https://www.singsaver.com.sg/credit-card/products/maybank-manchester-united-platinum-visa-card",
+  "title": "Maybank Manchester United Platinum Visa Credit Card",
+  "source_type": "aggregator",
+  "retrieved_at": "2026-09-27T05:26:09+00:00",
+  "sha256": "d571031efa1525d1fec2cf2855e3d9074b2abf229866d23489cd29092990c425",
+  "snapshot": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-maybank-manchester-united-platinum-visa-card-048e94b4.html"
+ },
+ "extra": {
+  "network": [
+   "VISA Platinum"
+  ],
+  "mobile_wallets": [
+   "Apple Pay",
+   "Samsung Pay"
+  ],
+  "fx_fee_percent": 3.25,
+  "miles_conversion_fee": 25.0,
+  "categories": [
+   "category:all-credit-cards",
+   "category:cashback",
+   "category:dining-promo",
+   "category:installment",
+   "category:promo",
+   "category:retail-promo",
+   "category:rewards",
+   "category:travel",
+   "needs:0-interest-rate",
+   "needs:0-processing-fee",
+   "needs:all-cards-with-dining-promo",
+   "needs:all-cards-with-promotion",
+   "needs:all-cards-with-retail-promo",
+   "needs:all-cashback-cards",
+   "needs:all-credit-cards",
+   "needs:all-installment-cards",
+   "needs:all-rewards-cards",
+   "needs:all-travel-cards",
+   "needs:annual-fee-waiver-travel-cards",
+   "needs:apple-premium-gifts",
+   "needs:free-travel-insurance",
+   "needs:long-tenure-installment",
+   "needs:no-minimum-spend-required-cashback",
+   "needs:no-minimum-spend-required-rewards",
+   "needs:online-booking-discount",
+   "needs:unlimited-cashback",
+   "needs:unlimited-reward-points"
+  ],
+  "tag": null,
+  "description": "The Maybank Manchester United Platinum Visa Credit Card rewards you with up to 3% cash rebate and 5X TREATS Points every time the Red Devils win a Premier League match. You'll also stand a chance to win a trip for two to watch Manchester United every football season!"
+ }
+}

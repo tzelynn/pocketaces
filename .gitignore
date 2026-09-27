@@ -1,0 +1,29 @@
+# Python / tooling
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Local environment & secrets (e.g. ANTHROPIC_API_KEY)
+.env
+.env.*
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+
+# Raw snapshots (data/raw/<source>/, one file per URL, overwritten each refresh)
+# Page and PDF bodies are large (HTML also changes on every fetch). Keep only:
+#   - manifest.json: the citation store (URL, retrieved_at, sha256 for every fetch)
+#   - *.txt: extracted official T&C text, which is small and makes wording changes show up in diffs
+# Directories must stay un-ignored for the negations to apply.
+data/raw/**
+!data/raw/**/
+!data/raw/**/manifest.json
+!data/raw/**/*.txt

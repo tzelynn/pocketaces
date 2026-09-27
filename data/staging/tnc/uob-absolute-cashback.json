@@ -1,0 +1,1670 @@
+{
+ "card_id": "uob-absolute-cashback",
+ "product_pages": [
+  {
+   "id": "bank:1b6e70bd46d2",
+   "url": "https://www.uob.com.sg/personal/cards/cashback/absolute-cashback-card.page",
+   "source_type": "official",
+   "retrieved_at": "2026-09-27T08:42:54+00:00",
+   "sha256": "1b6e70bd46d2bd4f8792b32b8beb038c25d324ddb792b4f8b531b296501019af",
+   "snapshot": "data/raw/bank/www-uob-com-sg-personal-cards-cashback-absolute-cashback-card-page-6a1e0254.html"
+  }
+ ],
+ "documents": [
+  {
+   "url": "https://www.uob.com.sg/assets/pdfs/tncs-governing-uob-absolute-cashback-card.pdf",
+   "citation": {
+    "id": "bank:0eaaef09b04b",
+    "url": "https://www.uob.com.sg/assets/pdfs/tncs-governing-uob-absolute-cashback-card.pdf",
+    "source_type": "official",
+    "retrieved_at": "2026-09-27T08:42:54+00:00",
+    "sha256": "0eaaef09b04b878ef894c79c45194cf5b1ecbb382d1997b113e9be69c32b6261",
+    "snapshot": "data/raw/bank/www-uob-com-sg-assets-pdfs-tncs-governing-uob-absolute-cashback-card-pdf-71b82393.pdf"
+   },
+   "text_path": "data/raw/bank/www-uob-com-sg-assets-pdfs-tncs-governing-uob-absolute-cashback-card-pdf-71b82393.txt",
+   "sha256": "0eaaef09b04b878ef894c79c45194cf5b1ecbb382d1997b113e9be69c32b6261",
+   "changed": false,
+   "new": true,
+   "no_text_layer": false,
+   "effective_dates": [
+    "4 September\n2026",
+    "4 September 2026"
+   ],
+   "mcc": {
+    "include": [
+     "0742",
+     "4900",
+     "5047",
+     "5122",
+     "5912",
+     "5975",
+     "6513",
+     "7261",
+     "7278",
+     "7311",
+     "7361",
+     "7392",
+     "7911",
+     "8011",
+     "8021",
+     "8041",
+     "8042",
+     "8043",
+     "8049",
+     "8062",
+     "8071",
+     "8099",
+     "8211",
+     "8220",
+     "8241",
+     "8244",
+     "8249",
+     "8299",
+     "8398",
+     "8999",
+     "9311",
+     "9399",
+     "9402"
+    ],
+    "exclude": [],
+    "unknown": [],
+    "conflicting": [],
+    "unrecognised": [],
+    "hits": [
+     {
+      "code": "7911",
+      "polarity": "include",
+      "page": 1,
+      "line": "7911 Schools, Dance Halls and Studios",
+      "reason": "the following MCC:",
+      "in_reference": true
+     },
+     {
+      "code": "8211",
+      "polarity": "include",
+      "page": 1,
+      "line": "8211 Schools, Elementary and Secondary",
+      "reason": "the following MCC:",
+      "in_reference": true
+     },
+     {
+      "code": "8220",
+      "polarity": "include",
+      "page": 1,
+      "line": "8220 Colleges, Universities, Professional Schools and Junior",
+      "reason": "the following MCC:",
+      "in_reference": true
+     },
+     {
+      "code": "8241",
+      "polarity": "include",
+      "page": 1,
+      "line": "8241 Schools, Correspondence",
+      "reason": "the following MCC:",
+      "in_reference": true
+     },
+     {
+      "code": "8244",
+      "polarity": "include",
+      "page": 1,
+      "line": "8244 Schools, Business and Secretarial",
+      "reason": "the following MCC:",
+      "in_reference": true
+     },
+     {
+      "code": "8249",
+      "polarity": "include",
+      "page": 1,
+      "line": "8249 Schools, Trade and Vocational",
+      "reason": "the following MCC:",
+      "in_reference": true
+     },
+     {
+      "code": "8299",
+      "polarity": "include",
+      "page": 1,
+      "line": "8299 Schools and Educational Services\u2013Not Elsewhere Classified",
+      "reason": "the following MCC:",
+      "in_reference": true
+     },
+     {
+      "code": "9311",
+      "polarity": "include",
+      "page": 1,
+      "line": "9311 Tax Payment",
+      "reason": "the following MCC:",
+      "in_reference": true
+     },
+     {
+      "code": "9399",
+      "polarity": "include",
+      "page": 1,
+      "line": "9399 Government Services\u2014not elsewhere classified",
+      "reason": "the following MCC:",
+      "in_reference": true
+     },
+     {
+      "code": "9402",
+      "polarity": "include",
+      "page": 1,
+      "line": "9402 Postal Services\u2014Government Only",
+      "reason": "the following MCC:",
+      "in_reference": true
+     },
+     {
+      "code": "0742",
+      "polarity": "include",
+      "page": 1,
+      "line": "0742 Pet stores and Veterinary Services",
+      "reason": "the following MCC:",
+      "in_reference": true
+     },
+     {
+      "code": "5047",
+      "polarity": "include",
+      "page": 1,
+      "line": "5047 Medical Equipment and Supplies",
+      "reason": "the following MCC:",
+      "in_reference": true
+     },
+     {
+      "code": "5122",
+      "polarity": "include",
+      "page": 1,
+      "line": "5122 Drug Stores",
+      "reason": "the following MCC:",
+      "in_reference": true
+     },
+     {
+      "code": "5912",
+      "polarity": "include",
+      "page": 1,
+      "line": "5912 Drug Store and Pharmacies",
+      "reason": "the following MCC:",
+      "in_reference": true
+     },
+     {
+      "code": "5975",
+      "polarity": "include",
+      "page": 1,
+      "line": "5975 Medical Equipment, Hearing Aid",
+      "reason": "the following MCC:",
+      "in_reference": true
+     },
+     {
+      "code": "8011",
+      "polarity": "include",
+      "page": 1,
+      "line": "8011 Medical Services, Doctors",
+      "reason": "the following MCC:",
+      "in_reference": true
+     },
+     {
+      "code": "8021",
+      "polarity": "include",
+      "page": 1,
+      "line": "8021 Medical Services, Dentist and Orthodontist",
+      "reason": "the following MCC:",
+      "in_reference": true
+     },
+     {
+      "code": "8041",
+      "polarity": "include",
+      "page": 2,
+      "line": "8041 Medical Services, Chiropractors",
+      "reason": "the following MCC:",
+      "in_reference": true
+     },
+     {
+      "code": "8042",
+      "polarity": "include",
+      "page": 2,
+      "line": "8042 Medical Services, Optometrists and Ophthalmologist",
+      "reason": "the following MCC:",
+      "in_reference": true
+     },
+     {
+      "code": "8043",
+      "polarity": "include",
+      "page": 2,
+      "line": "8043 Medical Services, Opticians",
+      "reason": "the following MCC:",
+      "in_reference": true
+     },
+     {
+      "code": "8049",
+      "polarity": "include",
+      "page": 2,
+      "line": "8049 Medical Services, Chiropractors and Podiatrists",
+      "reason": "the following MCC:",
+      "in_reference": true
+     },
+     {
+      "code": "8062",
+      "polarity": "include",
+      "page": 2,
+      "line": "8062 Hospitals",
+      "reason": "the following MCC:",
+      "in_reference": true
+     },
+     {
+      "code": "8071",
+      "polarity": "include",
+      "page": 2,
+      "line": "8071 Medical Services, Dental Laboratories",
+      "reason": "the following MCC:",
+      "in_reference": true
+     },
+     {
+      "code": "8099",
+      "polarity": "include",
+      "page": 2,
+      "line": "8099 Medical and Health Services",
+      "reason": "the following MCC:",
+      "in_reference": true
+     },
+     {
+      "code": "4900",
+      "polarity": "include",
+      "page": 2,
+      "line": "4900 Utilities",
+      "reason": "the following MCC:",
+      "in_reference": true
+     },
+     {
+      "code": "8398",
+      "polarity": "include",
+      "page": 2,
+      "line": "8398 Organizations, Charitable and Social Service",
+      "reason": "the following MCC:",
+      "in_reference": true
+     },
+     {
+      "code": "6513",
+      "polarity": "include",
+      "page": 2,
+      "line": "6513 Real Estate Agents & Managers \u2013 Rentals",
+      "reason": "the following MCC:",
+      "in_reference": true
+     },
+     {
+      "code": "7261",
+      "polarity": "include",
+      "page": 2,
+      "line": "7261 Funeral Services and Crematories",
+      "reason": "the following MCC:",
+      "in_reference": true
+     },
+     {
+      "code": "7278",
+      "polarity": "include",
+      "page": 2,
+      "line": "7278 Shopping Services",
+      "reason": "the following MCC:",
+      "in_reference": true
+     },
+     {
+      "code": "7311",
+      "polarity": "include",
+      "page": 2,
+      "line": "7311 Advertising Services",
+      "reason": "the following MCC:",
+      "in_reference": true
+     },
+     {
+      "code": "7361",
+      "polarity": "include",
+      "page": 2,
+      "line": "7361 Employment Services and Agency",
+      "reason": "the following MCC:",
+      "in_reference": true
+     },
+     {
+      "code": "7392",
+      "polarity": "include",
+      "page": 2,
+      "line": "7392 Consulting and Public Relation Services",
+      "reason": "the following MCC:",
+      "in_reference": true
+     },
+     {
+      "code": "8999",
+      "polarity": "include",
+      "page": 2,
+      "line": "8999 Professional Services",
+      "reason": "the following MCC:",
+      "in_reference": true
+     }
+    ]
+   },
+   "transaction_modes": {
+    "mobile_wallet": [
+     "(c) 0.3% on the following Local Card Transactions (the \u201cSelected Local Card Transactions\u201d) and, with effect from 4 September 2026, the following Overseas Card Transactions (the \u201cSelected Overseas Card Transactions\u201d): - Grab mobile wallet top-up transactions which are Local Card Transactions or Overseas Card Transactions (w.e.f."
+    ],
+    "foreign_currency": [
+     "Terms and Conditions Governing UOB Absolute Cashback Card (\u201cTerms\u201d) These Terms apply to your UOB Absolute Cashback Card issued by United Overseas Bank Limited (\u201cUOB\u201d) in Singapore (the \u201cCard\u201d).",
+     "(b) 1.7% on all Overseas Card Transactions (as defined below) but, with effect from 4 September 2026, excluding the Selected Overseas Card Transactions (as defined below);",
+     "(c) 0.3% on the following Local Card Transactions (the \u201cSelected Local Card Transactions\u201d) and, with effect from 4 September 2026, the following Overseas Card Transactions (the \u201cSelected Overseas Card Transactions\u201d): - Grab mobile wallet top-up transactions which are Local Card Transactions or Overseas Card Transactions (w.e.f.",
+     "and - Local Card Transactions or Overseas Card Transactions (w.e.f.",
+     "4 September 2026) with the following MCC: Merchant Category Description Code (MCC) 7911 Schools, Dance Halls and Studios 8211 Schools, Elementary and Secondary 8220 Colleges, Universities, Professional Schools and Junior Colleges 8241 Schools, Correspondence 8244 Schools, Business and Secretarial 8249 Schools, Trade and Vocational 8299 Schools and Educational Services\u2013Not Elsewhere Classified 9311",
+     "(b) \u201cOverseas Card Transactions\u201d refers to retail transactions for the purchase of goods and/or services at merchants located outside of Singapore which are successfully charged to your Card and posted on UOB\u2019s systems.",
+     "For the avoidance of doubt, only transactions which are processed outside of Singapore (whether via a payment gateway, processing system or otherwise) shall constitute Overseas Card Transactions.",
+     "United Overseas Bank Limited Co.",
+     "United Overseas Bank Limited Co.",
+     "United Overseas Bank Limited Co.",
+     "United Overseas Bank Limited Co.",
+     "The UOB Absolute Cashback American Express\u00ae Card is issued by United Overseas Bank Limited pursuant to a license from American Express.",
+     "United Overseas Bank Limited Co.",
+     "No.193500026Z Updated 4 August 2026 (Ver 3.0) United Overseas Bank Limited Co."
+    ],
+    "local_currency": [
+     "(viii) The Cashback earned for the current statement month will be credited into your Card account in the following statement month in Singapore dollars."
+    ]
+   },
+   "non_mcc_exclusions": [
+    "cash advance",
+    "charit",
+    "education",
+    "government",
+    "hospital",
+    "interest",
+    "late payment charge",
+    "tax",
+    "top-up",
+    "utilit"
+   ]
+  },
+  {
+   "url": "https://www.uob.com.sg/assets/web-resources/personal/pdf/cards/absolute-amex-card-contactless-campaign-tnc-cmpg.pdf",
+   "citation": {
+    "id": "bank:4b0d55cbeafe",
+    "url": "https://www.uob.com.sg/assets/web-resources/personal/pdf/cards/absolute-amex-card-contactless-campaign-tnc-cmpg.pdf",
+    "source_type": "official",
+    "retrieved_at": "2026-09-27T08:42:56+00:00",
+    "sha256": "4b0d55cbeafe0cdc522bf1f4a0d1a1301f07ddd766c7836c41c240f35ff8df52",
+    "snapshot": "data/raw/bank/www-uob-com-sg-assets-web-resources-personal-pdf-cards-absolute-amex-card-contactless-campaign-tnc-cmpg-pdf-859a39b7.pdf"
+   },
+   "text_path": "data/raw/bank/www-uob-com-sg-assets-web-resources-personal-pdf-cards-absolute-amex-card-contactless-campaign-tnc-cmpg-pdf-859a39b7.txt",
+   "sha256": "4b0d55cbeafe0cdc522bf1f4a0d1a1301f07ddd766c7836c41c240f35ff8df52",
+   "changed": false,
+   "new": true,
+   "no_text_layer": false,
+   "effective_dates": [],
+   "mcc": {
+    "include": [],
+    "exclude": [],
+    "unknown": [],
+    "conflicting": [],
+    "unrecognised": [],
+    "hits": []
+   },
+   "transaction_modes": {
+    "online": [
+     "transactions made via the internet and processed by the respective merchants/acquirers as an online transaction through American Express networks;",
+     "Without limiting the foregoing, UOB will not be liable or responsible for any undelivered, misdirected, corrupted, lost or delayed text, transmission or transaction or any delay or failure in posting any transaction or accessing any of UOB\u2019s online banking services or mobile banking services or third-party applications, howsoever caused."
+    ],
+    "contactless": [
+     "UOB Absolute Cashback Card \u2013 Up to 2% Cashback on Contactless Spend Campaign (the \u201cPromotion\u201d) Terms and Conditions (the \u201cTerms and Conditions\u201d)",
+     "1.3 During the Promotion Period, you shall be eligible to earn up to 2% cashback on the total amount of Eligible Contactless Transactions (as defined below) successfully charged using your Card and posted on UOB\u2019s system during this period.",
+     "1.4 There is no limit on the amount of Bonus Rebate that you may earn on Eligible Contactless Transactions charged using your Card during the Promotion Period.",
+     "For the avoidance of doubt, there is also no cap on the amount of Base Rebate that you may earn on such Eligible Contactless Transactions.",
+     "(a) \u201cEligible Contactless Transactions\u201d refers to transactions in which the purchase of goods and/or services are successfully charged to your Card via physical card contactless payment at Point-Of-Sale terminals (whether in Singapore dollars or in foreign currency) and posted on UOB\u2019s system but shall exclude the Excluded Transactions.",
+     "(c) Eligible Contactless Transactions incurred by the supplementary cardholder of your Card during the Promotion Period shall accrue to your Card for the purposes of this Promotion.",
+     "(d) UOB reserves the right, at any time and at its discretion, to amend or vary the list of Eligible Contactless Transactions and Excluded Transactions above without giving any reasons, prior notification and/or assuming any liability to any party and shall not be liable to pay any compensation or enter into any correspondence in connection with the same."
+    ],
+    "foreign_currency": [
+     "1.2 This Promotion is only open to all principal cardholders of a UOB Absolute Cashback American Express\u00ae Card that is issued by United Overseas Bank Limited (\u201cUOB\u201d or the \u201cBank\u201d) in Singapore (\u201cCard\u201d).",
+     "(a) \u201cEligible Contactless Transactions\u201d refers to transactions in which the purchase of goods and/or services are successfully charged to your Card via physical card contactless payment at Point-Of-Sale terminals (whether in Singapore dollars or in foreign currency) and posted on UOB\u2019s system but shall exclude the Excluded Transactions.",
+     "Disclaimer: UOB Absolute Cashback American Express\u00ae Card is issued by United Overseas Bank Limited pursuant to a license from American Express\u00ae.",
+     "United Overseas Bank Limited Co."
+    ],
+    "local_currency": [
+     "(a) \u201cEligible Contactless Transactions\u201d refers to transactions in which the purchase of goods and/or services are successfully charged to your Card via physical card contactless payment at Point-Of-Sale terminals (whether in Singapore dollars or in foreign currency) and posted on UOB\u2019s system but shall exclude the Excluded Transactions."
+    ]
+   },
+   "non_mcc_exclusions": [
+    "cash advance",
+    "interest",
+    "top-up"
+   ]
+  },
+  {
+   "url": "https://www.uob.com.sg/credit-cards/pdf/online-cards-campaign.pdf",
+   "citation": {
+    "id": "bank:c13cf48e44b4",
+    "url": "https://www.uob.com.sg/credit-cards/pdf/online-cards-campaign.pdf",
+    "source_type": "official",
+    "retrieved_at": "2026-09-27T08:42:58+00:00",
+    "sha256": "c13cf48e44b48d1aa3b0d0d5655f54f9001de57208d560ff29b09fc9ed8bc643",
+    "snapshot": "data/raw/bank/www-uob-com-sg-credit-cards-pdf-online-cards-campaign-pdf-a28f442a.pdf"
+   },
+   "text_path": "data/raw/bank/www-uob-com-sg-credit-cards-pdf-online-cards-campaign-pdf-a28f442a.txt",
+   "sha256": "c13cf48e44b48d1aa3b0d0d5655f54f9001de57208d560ff29b09fc9ed8bc643",
+   "changed": false,
+   "new": true,
+   "no_text_layer": false,
+   "effective_dates": [],
+   "mcc": {
+    "include": [
+     "4829",
+     "5199",
+     "5960",
+     "6012",
+     "6050",
+     "6051",
+     "6211",
+     "6300",
+     "6399",
+     "6513",
+     "6529",
+     "6530",
+     "6534",
+     "6540",
+     "7349",
+     "7511",
+     "7523",
+     "7995",
+     "8062",
+     "8211",
+     "8220",
+     "8241",
+     "8244",
+     "8249",
+     "8299",
+     "8398",
+     "8651",
+     "8661",
+     "9211",
+     "9222",
+     "9223",
+     "9311",
+     "9399",
+     "9402",
+     "9405"
+    ],
+    "exclude": [],
+    "unknown": [],
+    "conflicting": [],
+    "unrecognised": [
+     "6529",
+     "6530",
+     "6534"
+    ],
+    "hits": [
+     {
+      "code": "4829",
+      "polarity": "include",
+      "page": 2,
+      "line": "4829 Wire Transfer / Remittance",
+      "reason": "(ix) any transaction classified under one or more of the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "5199",
+      "polarity": "include",
+      "page": 2,
+      "line": "5199 Nondurable Goods",
+      "reason": "(ix) any transaction classified under one or more of the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "5960",
+      "polarity": "include",
+      "page": 2,
+      "line": "5960 Direct Marketing \u2013 Insurance Services",
+      "reason": "(ix) any transaction classified under one or more of the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "6012",
+      "polarity": "include",
+      "page": 2,
+      "line": "6012 Member Financial Institution \u2013 Merchandise and Services",
+      "reason": "(ix) any transaction classified under one or more of the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "6050",
+      "polarity": "include",
+      "page": 2,
+      "line": "6050 Quasi Cash \u2013 Financial Institutions, Merchandise and Services",
+      "reason": "(ix) any transaction classified under one or more of the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "6051",
+      "polarity": "include",
+      "page": 2,
+      "line": "6051 Quasi Cash \u2013 Merchant (Non-Financial Institutions \u2013 Foreign Currency, Non-",
+      "reason": "(ix) any transaction classified under one or more of the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "6211",
+      "polarity": "include",
+      "page": 2,
+      "line": "6211 Securities \u2013 Brokers and Dealers",
+      "reason": "(ix) any transaction classified under one or more of the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "6300",
+      "polarity": "include",
+      "page": 2,
+      "line": "6300 Insurance Sales / Underwrite",
+      "reason": "(ix) any transaction classified under one or more of the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "6399",
+      "polarity": "include",
+      "page": 2,
+      "line": "6399 Insurance",
+      "reason": "(ix) any transaction classified under one or more of the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "6513",
+      "polarity": "include",
+      "page": 2,
+      "line": "6513 Real Estate Agents & Managers \u2013 Rentals",
+      "reason": "(ix) any transaction classified under one or more of the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "6529",
+      "polarity": "include",
+      "page": 2,
+      "line": "6529 Quasi Cash \u2013 Remote Stored Value Load-Financial Institute Rentals",
+      "reason": "(ix) any transaction classified under one or more of the following Merchant Category Codes",
+      "in_reference": false
+     },
+     {
+      "code": "6530",
+      "polarity": "include",
+      "page": 2,
+      "line": "6530 Quasi Cash-Remote Stored Value Load \u2013 Merchant Rentals",
+      "reason": "(ix) any transaction classified under one or more of the following Merchant Category Codes",
+      "in_reference": false
+     },
+     {
+      "code": "6534",
+      "polarity": "include",
+      "page": 2,
+      "line": "6534 Quasi Cash \u2013 Remote Money Transfers",
+      "reason": "(ix) any transaction classified under one or more of the following Merchant Category Codes",
+      "in_reference": false
+     },
+     {
+      "code": "6540",
+      "polarity": "include",
+      "page": 2,
+      "line": "6540 Stored Value Card Purchase/Load",
+      "reason": "(ix) any transaction classified under one or more of the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "7349",
+      "polarity": "include",
+      "page": 2,
+      "line": "7349 Clean/Maint/Janitorial Serv aka Property Management",
+      "reason": "(ix) any transaction classified under one or more of the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "7511",
+      "polarity": "include",
+      "page": 2,
+      "line": "7511 Quasi Cash \u2013 Truck Stop Trxns",
+      "reason": "(ix) any transaction classified under one or more of the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "7523",
+      "polarity": "include",
+      "page": 2,
+      "line": "7523 Automobile Parking Lots and Garages",
+      "reason": "(ix) any transaction classified under one or more of the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "7995",
+      "polarity": "include",
+      "page": 2,
+      "line": "7995 Gambling \u2013 Betting, including Lottery Tickets, Casino Gaming Chips, Off-Track",
+      "reason": "(ix) any transaction classified under one or more of the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "8062",
+      "polarity": "include",
+      "page": 2,
+      "line": "8062 Hospitals",
+      "reason": "(ix) any transaction classified under one or more of the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "8211",
+      "polarity": "include",
+      "page": 2,
+      "line": "8211 Schools, Elementary and Secondary",
+      "reason": "(ix) any transaction classified under one or more of the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "8220",
+      "polarity": "include",
+      "page": 2,
+      "line": "8220 Colleges, Universities, Professional Schools and Junior Colleges",
+      "reason": "(ix) any transaction classified under one or more of the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "8241",
+      "polarity": "include",
+      "page": 2,
+      "line": "8241 Schools, Correspondence",
+      "reason": "(ix) any transaction classified under one or more of the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "8244",
+      "polarity": "include",
+      "page": 2,
+      "line": "8244 Schools, Business and Secretarial",
+      "reason": "(ix) any transaction classified under one or more of the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "8249",
+      "polarity": "include",
+      "page": 2,
+      "line": "8249 Schools, Trade and Vocational",
+      "reason": "(ix) any transaction classified under one or more of the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "8299",
+      "polarity": "include",
+      "page": 2,
+      "line": "8299 Schools and Educational Services \u2013 Not Elsewhere Classified",
+      "reason": "(ix) any transaction classified under one or more of the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "8398",
+      "polarity": "include",
+      "page": 2,
+      "line": "8398 Organizations, Charitable and Social Service",
+      "reason": "(ix) any transaction classified under one or more of the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "8661",
+      "polarity": "include",
+      "page": 2,
+      "line": "8661 Organizations, Religious",
+      "reason": "(ix) any transaction classified under one or more of the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "8651",
+      "polarity": "include",
+      "page": 2,
+      "line": "8651 Organizations, Political",
+      "reason": "(ix) any transaction classified under one or more of the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "9211",
+      "polarity": "include",
+      "page": 2,
+      "line": "9211 Court Costs including Alimony and Child Support",
+      "reason": "(ix) any transaction classified under one or more of the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "9222",
+      "polarity": "include",
+      "page": 2,
+      "line": "9222 Fines",
+      "reason": "(ix) any transaction classified under one or more of the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "9223",
+      "polarity": "include",
+      "page": 2,
+      "line": "9223 Bail and Bond Payments",
+      "reason": "(ix) any transaction classified under one or more of the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "9311",
+      "polarity": "include",
+      "page": 2,
+      "line": "9311 Tax Payment",
+      "reason": "(ix) any transaction classified under one or more of the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "9399",
+      "polarity": "include",
+      "page": 2,
+      "line": "9399 Government Services \u2013 not elsewhere classified",
+      "reason": "(ix) any transaction classified under one or more of the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "9402",
+      "polarity": "include",
+      "page": 2,
+      "line": "9402 Postal Services \u2013 Government Only",
+      "reason": "(ix) any transaction classified under one or more of the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "9405",
+      "polarity": "include",
+      "page": 2,
+      "line": "9405 Intra-Government Purchases \u2013 Government Only",
+      "reason": "(ix) any transaction classified under one or more of the following Merchant Category Codes",
+      "in_reference": true
+     }
+    ]
+   },
+   "transaction_modes": {
+    "online": [
+     "Without limiting the foregoing, UOB will not be liable or responsible for any undelivered, misdirected, corrupted, lost or delayed text, transmission or transaction or any delay or failure in posting any transaction or accessing any of UOB\u2019s online banking services or mobile banking services or third party applications, howsoever caused."
+    ],
+    "mobile_wallet": [
+     "(vii) any Grab mobile wallet top-up transactions;"
+    ],
+    "foreign_currency": [
+     "This Promotion is only open to individuals who are new to United Overseas Bank Limited (\u201cUOB\u201d) credit cards.",
+     "MCC Description 4829 Wire Transfer / Remittance 5199 Nondurable Goods 5960 Direct Marketing \u2013 Insurance Services 6012 Member Financial Institution \u2013 Merchandise and Services 6050 Quasi Cash \u2013 Financial Institutions, Merchandise and Services 6051 Quasi Cash \u2013 Merchant (Non-Financial Institutions \u2013 Foreign Currency, Non- Fiat Currency, Cryptocurrency) 6211 Securities \u2013 Brokers and Dealers 6300 Insur"
+    ],
+    "local_currency": [
+     "(c) Eligible Transactions made in foreign currencies will be converted into Singapore dollars based on UOB\u2019s then prevailing exchange rate applicable at the time of exchange."
+    ]
+   },
+   "non_mcc_exclusions": [
+    "axs",
+    "cardup",
+    "cash advance",
+    "charit",
+    "education",
+    "government",
+    "hospital",
+    "instalment",
+    "interest",
+    "ipaymy",
+    "late payment charge",
+    "tax",
+    "top-up"
+   ]
+  },
+  {
+   "url": "https://www.uob.com.sg/assets/pdfs/add-on-card-terms-conditions.pdf",
+   "citation": {
+    "id": "bank:42358e29d735",
+    "url": "https://www.uob.com.sg/assets/pdfs/add-on-card-terms-conditions.pdf",
+    "source_type": "official",
+    "retrieved_at": "2026-09-27T08:43:00+00:00",
+    "sha256": "42358e29d7350a9750c477afebed16d22e101f969821263b9777733152bf0a95",
+    "snapshot": "data/raw/bank/www-uob-com-sg-assets-pdfs-add-on-card-terms-conditions-pdf-294d1c4b.pdf"
+   },
+   "text_path": "data/raw/bank/www-uob-com-sg-assets-pdfs-add-on-card-terms-conditions-pdf-294d1c4b.txt",
+   "sha256": "42358e29d7350a9750c477afebed16d22e101f969821263b9777733152bf0a95",
+   "changed": false,
+   "new": true,
+   "no_text_layer": false,
+   "effective_dates": [],
+   "mcc": {
+    "include": [],
+    "exclude": [],
+    "unknown": [],
+    "conflicting": [],
+    "unrecognised": [],
+    "hits": []
+   },
+   "transaction_modes": {
+    "recurring": [
+     "There must be minimum 1 and maximum 8 Singtel accounts charged to Singtel- UOB card on recurring basis at all times to enjoy all benefits and privileges including perpetual annual fee waiver, else an annual fee of S$196.20 will apply."
+    ]
+   },
+   "non_mcc_exclusions": [
+    "annual fee",
+    "tax"
+   ]
+  },
+  {
+   "url": "https://www.uob.com.sg/assets/web-resources/personal/pdf/cards/supplementary-card/uob-supplementary-card-promo-tncs.pdf",
+   "citation": {
+    "id": "bank:52d9be91844e",
+    "url": "https://www.uob.com.sg/assets/web-resources/personal/pdf/cards/supplementary-card/uob-supplementary-card-promo-tncs.pdf",
+    "source_type": "official",
+    "retrieved_at": "2026-09-27T08:43:02+00:00",
+    "sha256": "52d9be91844ea791f0ac517649c682846b898bd8e978a61a5582f56c4e573b16",
+    "snapshot": "data/raw/bank/www-uob-com-sg-assets-web-resources-personal-pdf-cards-supplementary-card-uob-supplementary-card-promo-tncs-pdf-5ce91e24.pdf"
+   },
+   "text_path": "data/raw/bank/www-uob-com-sg-assets-web-resources-personal-pdf-cards-supplementary-card-uob-supplementary-card-promo-tncs-pdf-5ce91e24.txt",
+   "sha256": "52d9be91844ea791f0ac517649c682846b898bd8e978a61a5582f56c4e573b16",
+   "changed": false,
+   "new": true,
+   "no_text_layer": false,
+   "effective_dates": [
+    "1 October 2024"
+   ],
+   "mcc": {
+    "include": [],
+    "exclude": [],
+    "unknown": [],
+    "conflicting": [],
+    "unrecognised": [],
+    "hits": []
+   },
+   "transaction_modes": {
+    "online": [
+     "(i) \u201cEligible Transactions\u201d refers to transactions for the purchase of goods and/or services which are successfully charged to your UOB Card via online or mobile payment wallets (Apple Pay, Google Pay, Samsung Pay or Fitbit Pay) and posted on UOB\u2019s systems, but shall exclude the Excluded Transactions.",
+     "(ii) \u201cExcluded Transactions\u201d means bill payment transactions, funds to prepaid accounts (including top-ups for any pre-paid card or mobile wallet such as GrabPay, ShopeePay, WeChat Pay or Alipay), Instalment Payment Plan, online money transfers, balance/funds transfers, cash advances, personal loans, fees, interests, finance charges, late payment charges, annual fee charges, reversals, other finan",
+     "Without limiting the foregoing, UOB will not be liable or responsible for any undelivered, misdirected, corrupted, lost or delayed text, transmission or transaction or any delay or failure in posting any transaction or accessing any of UOB\u2019s online banking services or mobile banking services or third party applications, howsoever caused."
+    ],
+    "mobile_wallet": [
+     "(i) \u201cEligible Transactions\u201d refers to transactions for the purchase of goods and/or services which are successfully charged to your UOB Card via online or mobile payment wallets (Apple Pay, Google Pay, Samsung Pay or Fitbit Pay) and posted on UOB\u2019s systems, but shall exclude the Excluded Transactions.",
+     "(ii) \u201cExcluded Transactions\u201d means bill payment transactions, funds to prepaid accounts (including top-ups for any pre-paid card or mobile wallet such as GrabPay, ShopeePay, WeChat Pay or Alipay), Instalment Payment Plan, online money transfers, balance/funds transfers, cash advances, personal loans, fees, interests, finance charges, late payment charges, annual fee charges, reversals, other finan"
+    ],
+    "recurring": [
+     "(ii) \u201cExcluded Transactions\u201d means bill payment transactions, funds to prepaid accounts (including top-ups for any pre-paid card or mobile wallet such as GrabPay, ShopeePay, WeChat Pay or Alipay), Instalment Payment Plan, online money transfers, balance/funds transfers, cash advances, personal loans, fees, interests, finance charges, late payment charges, annual fee charges, reversals, other finan"
+    ],
+    "foreign_currency": [
+     "(iii) \u201cUOB\u201d means United Overseas Bank Limited.",
+     "Published on 1 October 2024 United Overseas Bank Limited Co."
+    ],
+    "local_currency": [
+     "For non-Singapore dollar Eligible Transactions charged to the UOB Card, the transaction amount posted by UOB (in Singapore Dollars) in such UOB Card account will be used for the purposes of computing the Minimum Eligible Spend for this Promotion."
+    ]
+   },
+   "non_mcc_exclusions": [
+    "annual fee",
+    "axs",
+    "bill payment",
+    "cash advance",
+    "charit",
+    "education",
+    "government",
+    "grabpay",
+    "instalment",
+    "interest",
+    "late payment charge",
+    "top-ups",
+    "utilit"
+   ]
+  },
+  {
+   "url": "https://www.uob.com.sg/assets/web-resources/personal/pdf/cards/cashback/absolute-cashback-card/uob-absolute-cashback-card-q3-campaign-tnc.pdf",
+   "citation": {
+    "id": "bank:d8dc8cafee77",
+    "url": "https://www.uob.com.sg/assets/web-resources/personal/pdf/cards/cashback/absolute-cashback-card/uob-absolute-cashback-card-q3-campaign-tnc.pdf",
+    "source_type": "official",
+    "retrieved_at": "2026-09-27T08:43:04+00:00",
+    "sha256": "d8dc8cafee777a7ef18c964438666f441c3d35170b1782d3e0978e4e780a18c1",
+    "snapshot": "data/raw/bank/g-assets-web-resources-personal-pdf-cards-cashback-absolute-cashback-card-uob-absolute-cashback-card-q3-campaign-tnc-pdf-68e7188c.pdf"
+   },
+   "text_path": "data/raw/bank/g-assets-web-resources-personal-pdf-cards-cashback-absolute-cashback-card-uob-absolute-cashback-card-q3-campaign-tnc-pdf-68e7188c.txt",
+   "sha256": "d8dc8cafee777a7ef18c964438666f441c3d35170b1782d3e0978e4e780a18c1",
+   "changed": false,
+   "new": true,
+   "no_text_layer": false,
+   "effective_dates": [],
+   "mcc": {
+    "include": [],
+    "exclude": [],
+    "unknown": [],
+    "conflicting": [],
+    "unrecognised": [],
+    "hits": []
+   },
+   "transaction_modes": {
+    "online": [
+     "(a) \u201cEligible Local Transactions\u201d refers to credit card retail transaction(s) made at major airlines, lodging (including hotels), car rental services, online travel agencies (including online travel aggregators) and/or regular travel agencies with their main business activity classified as airlines, lodging, auto rental or travel services only (including card-not-present transactions like ecommerc",
+     "Without limiting the foregoing, UOB will not be liable or responsible for any undelivered, misdirected, corrupted, lost or delayed text, transmission or transaction or any delay or failure in posting any transaction or accessing any of UOB\u2019s online banking services or mobile banking services or third-party applications, howsoever caused."
+    ],
+    "mobile_wallet": [
+     "(ii) cash advance, late payment, personal loan, balance and/or funds transfer, SmartPay, funds to pre-paid cards or mobile wallets, fees, chargebacks, interests, reversals, interest charges and any finance charges;",
+     "(i) cash advance, late payment, personal loan, balance and/or funds transfer, SmartPay, funds to pre-paid cards or mobile wallets, fees, chargebacks, interests, reversals, interest charges and any finance charges;"
+    ],
+    "foreign_currency": [
+     "1.3 This Campaign is only open to all principal holders of a UOB Absolute Cashback American Express\u00ae Card (\u201cCard\u201d) that is issued by United Overseas Bank Limited (\u201cUOB\u201d) in Singapore.",
+     "2.1 If you successfully charge at least S$1,000 in Eligible Local Transactions (as defined below) and/or Eligible Overseas Transactions (as defined below) to your Card during the Campaign Period, you shall be eligible to earn 3% cashback on the total amount of the Eligible Local Transactions and/or Eligible Overseas Transactions successfully charged to your Card during the Campaign Period.",
+     "(a) the base cashback of 1.7% on the Eligible Local Transactions and/or Eligible Overseas Transactions successfully charged to your Card during the Campaign Period and awarded in accordance with the prevailing Terms and Conditions Governing the UOB Absolute Cashback Card (the \u201cBase Rebate\u201d);",
+     "(b) a one-time bonus cash rebate of 1.3% on the Eligible Local Transactions and/or Eligible Overseas Transactions successfully charged to your Card during the Campaign Period (the \u201cBonus Rebate\u201d).",
+     "2.2 The maximum Bonus Rebate that you may be eligible to earn under this 3% Cashback Promotion for the entire duration of the Campaign Period is capped at S$52 (which is equivalent to S$4,000 worth of Eligible Local Transactions and/or Eligible Overseas Transactions).",
+     "## RESTRICTED ## 2.3 For the avoidance of doubt, there is no cap on the Base Rebate that you may be eligible to earn on your Eligible Local Transactions and/or Eligible Overseas Transactions successfully charged to your Card during the Campaign Period.",
+     "(b) \u201cEligible Overseas Transactions\u201d refers to Travel Transactions which are successfully charged to your Card in a foreign currency and posted on UOB\u2019s system but shall exclude the Excluded Transactions.",
+     "(a) UOB reserves the right at any time to amend the lists of Eligible Local Transactions, Eligible Overseas Transactions and Excluded Transactions in its sole discretion and without any prior notice or giving any reasons.",
+     "(c) Transactions which are processed out of Singapore but which are charged or effected in Singapore dollars at the time of the transaction will not constitute an Eligible Overseas Transaction.",
+     "(d) All Eligible Overseas Transactions effected in foreign currencies will be converted into Singapore dollars based on UOB\u2019s prevailing exchange rate and the Singapore dollar amount posted on ## RESTRICTED ## UOB\u2019s system will be used for the purposes of computing your Base Rebate and Bonus Rebate eligibility under this 3% Cashback Promotion.",
+     "(e) Eligible Local Transactions and/or Eligible Overseas Transactions incurred by the supplementary holder of your Card will be considered for the purposes of computing your Base Award and Bonus Award eligibility for this 3% Cashback Promotion.",
+     "UOB Absolute Cashback American Express\u00ae Card is issued by United Overseas Bank Limited pursuant to a license from American Express\u00ae.",
+     "United Overseas Bank Limited Co."
+    ],
+    "local_currency": [
+     "(a) \u201cEligible Local Transactions\u201d refers to credit card retail transaction(s) made at major airlines, lodging (including hotels), car rental services, online travel agencies (including online travel aggregators) and/or regular travel agencies with their main business activity classified as airlines, lodging, auto rental or travel services only (including card-not-present transactions like ecommerc",
+     "## RESTRICTED ## (b) All Eligible Transactions effected in foreign currencies will be converted into Singapore dollars based on UOB\u2019s prevailing exchange rate and the Singapore dollar amount posted on UOB\u2019s system will be used for the purposes of determining your eligibility to receive the Gift under this Top Spender Promotion."
+    ]
+   },
+   "non_mcc_exclusions": [
+    "cash advance",
+    "interest"
+   ]
+  },
+  {
+   "url": "https://www.uob.com.sg/assets/web-resources/personal/pdf/cards/cashback/absolute-cashback-card/absolute-amex-card-contactless-campaign-tnc-cmpg202507.pdf",
+   "citation": {
+    "id": "bank:5e0444fa0f1c",
+    "url": "https://www.uob.com.sg/assets/web-resources/personal/pdf/cards/cashback/absolute-cashback-card/absolute-amex-card-contactless-campaign-tnc-cmpg202507.pdf",
+    "source_type": "official",
+    "retrieved_at": "2026-09-27T08:43:06+00:00",
+    "sha256": "5e0444fa0f1c69b2a42e3931dd77b407d23b33081fd6cce45b1d51241d2876eb",
+    "snapshot": "data/raw/bank/-resources-personal-pdf-cards-cashback-absolute-cashback-card-absolute-amex-card-contactless-campaign-tnc-cmpg202507-pdf-341adc42.pdf"
+   },
+   "text_path": "data/raw/bank/-resources-personal-pdf-cards-cashback-absolute-cashback-card-absolute-amex-card-contactless-campaign-tnc-cmpg202507-pdf-341adc42.txt",
+   "sha256": "5e0444fa0f1c69b2a42e3931dd77b407d23b33081fd6cce45b1d51241d2876eb",
+   "changed": false,
+   "new": true,
+   "no_text_layer": false,
+   "effective_dates": [],
+   "mcc": {
+    "include": [
+     "4011",
+     "4111",
+     "4112",
+     "4121",
+     "4131",
+     "4784",
+     "4789",
+     "4816",
+     "5311",
+     "5611",
+     "5621",
+     "5631",
+     "5641",
+     "5651",
+     "5661",
+     "5691",
+     "5699",
+     "5732",
+     "5734",
+     "5944",
+     "5945",
+     "5946",
+     "5947",
+     "5948",
+     "5949",
+     "5970",
+     "5992",
+     "5999",
+     "7523"
+    ],
+    "exclude": [
+     "5812",
+     "5814"
+    ],
+    "unknown": [],
+    "conflicting": [],
+    "unrecognised": [],
+    "hits": [
+     {
+      "code": "5812",
+      "polarity": "exclude",
+      "page": 2,
+      "line": "5812 Eating Places and Restaurants",
+      "reason": "Transactions, and excluding all food and beverage transactions within hotels and country",
+      "in_reference": true
+     },
+     {
+      "code": "5814",
+      "polarity": "exclude",
+      "page": 2,
+      "line": "5814 Quick Payment Service \u2014 Fast Food Restaurants",
+      "reason": "Transactions, and excluding all food and beverage transactions within hotels and country",
+      "in_reference": true
+     },
+     {
+      "code": "4816",
+      "polarity": "include",
+      "page": 2,
+      "line": "4816 Electronic Commerce",
+      "reason": "and which fall under any one of the following MCC:",
+      "in_reference": true
+     },
+     {
+      "code": "5311",
+      "polarity": "include",
+      "page": 2,
+      "line": "5311 Department Stores",
+      "reason": "and which fall under any one of the following MCC:",
+      "in_reference": true
+     },
+     {
+      "code": "5611",
+      "polarity": "include",
+      "page": 2,
+      "line": "5611 Men\u2019s & Boys\u2019 Clothing and Accessory Stores",
+      "reason": "and which fall under any one of the following MCC:",
+      "in_reference": true
+     },
+     {
+      "code": "5621",
+      "polarity": "include",
+      "page": 2,
+      "line": "5621 Women\u2019s Ready-to-Wear Stores",
+      "reason": "and which fall under any one of the following MCC:",
+      "in_reference": true
+     },
+     {
+      "code": "5631",
+      "polarity": "include",
+      "page": 2,
+      "line": "5631 Women\u2019s Accessory and Specialty Stores",
+      "reason": "and which fall under any one of the following MCC:",
+      "in_reference": true
+     },
+     {
+      "code": "5641",
+      "polarity": "include",
+      "page": 2,
+      "line": "5641 Children\u2019s and Infants\u2019 Wear Stores",
+      "reason": "and which fall under any one of the following MCC:",
+      "in_reference": true
+     },
+     {
+      "code": "5651",
+      "polarity": "include",
+      "page": 2,
+      "line": "5651 Family Clothing Stores",
+      "reason": "and which fall under any one of the following MCC:",
+      "in_reference": true
+     },
+     {
+      "code": "5661",
+      "polarity": "include",
+      "page": 2,
+      "line": "5661 Shoe Stores",
+      "reason": "and which fall under any one of the following MCC:",
+      "in_reference": true
+     },
+     {
+      "code": "5691",
+      "polarity": "include",
+      "page": 2,
+      "line": "5691 Men\u2019s and Women\u2019s Clothing Stores",
+      "reason": "and which fall under any one of the following MCC:",
+      "in_reference": true
+     },
+     {
+      "code": "5699",
+      "polarity": "include",
+      "page": 2,
+      "line": "5699 Miscellaneous Apparel and Accessory Stores",
+      "reason": "and which fall under any one of the following MCC:",
+      "in_reference": true
+     },
+     {
+      "code": "5732",
+      "polarity": "include",
+      "page": 2,
+      "line": "5732 Electronics Stores",
+      "reason": "and which fall under any one of the following MCC:",
+      "in_reference": true
+     },
+     {
+      "code": "5734",
+      "polarity": "include",
+      "page": 2,
+      "line": "5734 Computer Software",
+      "reason": "and which fall under any one of the following MCC:",
+      "in_reference": true
+     },
+     {
+      "code": "5944",
+      "polarity": "include",
+      "page": 2,
+      "line": "5944 Jewelry, Watch, Clock, and Silverware Stores",
+      "reason": "and which fall under any one of the following MCC:",
+      "in_reference": true
+     },
+     {
+      "code": "5945",
+      "polarity": "include",
+      "page": 2,
+      "line": "5945 Hobby, Toy and Game Stores",
+      "reason": "and which fall under any one of the following MCC:",
+      "in_reference": true
+     },
+     {
+      "code": "5946",
+      "polarity": "include",
+      "page": 3,
+      "line": "5946 Camera and Photographic Supply Stores",
+      "reason": "and which fall under any one of the following MCC:",
+      "in_reference": true
+     },
+     {
+      "code": "5947",
+      "polarity": "include",
+      "page": 3,
+      "line": "5947 Gift, Card, Novelty, and Souvenir Stores",
+      "reason": "and which fall under any one of the following MCC:",
+      "in_reference": true
+     },
+     {
+      "code": "5948",
+      "polarity": "include",
+      "page": 3,
+      "line": "5948 Luggage and Leather Goods Stores",
+      "reason": "and which fall under any one of the following MCC:",
+      "in_reference": true
+     },
+     {
+      "code": "5949",
+      "polarity": "include",
+      "page": 3,
+      "line": "5949 Sewing, Needlework, Fabric, and Piece Good Stores",
+      "reason": "and which fall under any one of the following MCC:",
+      "in_reference": true
+     },
+     {
+      "code": "5970",
+      "polarity": "include",
+      "page": 3,
+      "line": "5970 Artist Supply and Craft Stores",
+      "reason": "and which fall under any one of the following MCC:",
+      "in_reference": true
+     },
+     {
+      "code": "5992",
+      "polarity": "include",
+      "page": 3,
+      "line": "5992 Florists",
+      "reason": "and which fall under any one of the following MCC:",
+      "in_reference": true
+     },
+     {
+      "code": "5999",
+      "polarity": "include",
+      "page": 3,
+      "line": "5999 Miscellaneous & Specialty Retail Stores",
+      "reason": "and which fall under any one of the following MCC:",
+      "in_reference": true
+     },
+     {
+      "code": "4011",
+      "polarity": "include",
+      "page": 3,
+      "line": "4011 Railroads",
+      "reason": "Transactions, and which fall under any one of the following MCC:",
+      "in_reference": true
+     },
+     {
+      "code": "4111",
+      "polarity": "include",
+      "page": 3,
+      "line": "4111 Local Commuter Transport",
+      "reason": "Transactions, and which fall under any one of the following MCC:",
+      "in_reference": true
+     },
+     {
+      "code": "4112",
+      "polarity": "include",
+      "page": 3,
+      "line": "4112 Passenger Rail",
+      "reason": "Transactions, and which fall under any one of the following MCC:",
+      "in_reference": true
+     },
+     {
+      "code": "4121",
+      "polarity": "include",
+      "page": 3,
+      "line": "4121 Taxicabs and Limousines",
+      "reason": "Transactions, and which fall under any one of the following MCC:",
+      "in_reference": true
+     },
+     {
+      "code": "4131",
+      "polarity": "include",
+      "page": 3,
+      "line": "4131 Bus Lines, Charter and Tour",
+      "reason": "Transactions, and which fall under any one of the following MCC:",
+      "in_reference": true
+     },
+     {
+      "code": "4784",
+      "polarity": "include",
+      "page": 3,
+      "line": "4784 Toll and Bridge Fees",
+      "reason": "Transactions, and which fall under any one of the following MCC:",
+      "in_reference": true
+     },
+     {
+      "code": "4789",
+      "polarity": "include",
+      "page": 3,
+      "line": "4789 Travel Services",
+      "reason": "Transactions, and which fall under any one of the following MCC:",
+      "in_reference": true
+     },
+     {
+      "code": "7523",
+      "polarity": "include",
+      "page": 3,
+      "line": "7523 Auto Parking Lot and Garages",
+      "reason": "Transactions, and which fall under any one of the following MCC:",
+      "in_reference": true
+     }
+    ]
+   },
+   "transaction_modes": {
+    "online": [
+     "transactions via the internet and processed by the respective merchants/acquirers as an online transaction;",
+     "(c) \u201cDining Transactions\u201d refers to food and beverage transactions (which are not Online Transactions, and excluding all food and beverage transactions within hotels and country clubs and grocery stores and supermarkets) which fall under any one of the following Merchant Category Codes (\u201cMCC\u201d): MCC Description 5812 Eating Places and Restaurants 5814 Quick Payment Service \u2014 Fast Food Restaurants",
+     "(d) \u201cOnline Transactions\u201d refers to transactions made via the internet and processed by the respective merchant / acquirers as an online transaction through American Express networks.",
+     "(e) \u201cShopping Transactions\u201d refers to shopping transactions which are not Online Transactions, and which fall under any one of the following MCC: MCC Description 4816 Electronic Commerce 5311 Department Stores 5611 Men\u2019s & Boys\u2019 Clothing and Accessory Stores 5621 Women\u2019s Ready-to-Wear Stores 5631 Women\u2019s Accessory and Specialty Stores 5641 Children\u2019s and Infants\u2019 Wear Stores 5651 Family Clothing S",
+     "(f) \u201cTransport Transactions\u201d refers to transportation transactions which are not Online Transactions, and which fall under any one of the following MCC: MCC Description 4011 Railroads 4111 Local Commuter Transport 4112 Passenger Rail 4121 Taxicabs and Limousines 4131 Bus Lines, Charter and Tour 4784 Toll and Bridge Fees 4789 Travel Services 7523 Auto Parking Lot and Garages",
+     "Without limiting the foregoing, UOB will not be liable or responsible for any undelivered, misdirected, corrupted, lost or delayed text, transmission or transaction or any delay or failure in posting any transaction or accessing any of UOB\u2019s online banking services or mobile banking services or third-party applications, howsoever caused."
+    ],
+    "contactless": [
+     "UOB Absolute Cashback Card \u2013 3% Cashback on Contactless Spend Campaign (the \u201cPromotion\u201d) Terms and Conditions (the \u201cTerms and Conditions\u201d)",
+     "1.5 During the Promotion Period, if you successfully charge a total of at least S$500 in Eligible Contactless Transactions (as defined below) to your Card, you shall be eligible to earn 3% Cashback on the total amount of the Eligible Contactless Transactions charged using your Card during this period.",
+     "1.6 The maximum Bonus Rebate amount that you may earn is capped at a total spend of S$3000 in Eligible Contactless Transactions during the Promotion Period \u2013 i.e.",
+     "For the avoidance of doubt, there is no cap on the Base Rebate that you may be eligible to earn on your Eligible Contactless Transactions.",
+     "(a) \u201cEligible Contactless Transactions\u201d refers to Dining Transactions, Shopping Transactions and Transport Transactions in which the purchase of goods and/or services are successfully charged to your Card via physical Card contactless payment at Point-Of- Sale terminals (whether in Singapore dollars or in foreign currency) and posted on UOB\u2019s system but shall exclude the Excluded Transactions.",
+     "(g) Eligible Contactless Transactions incurred by the supplementary holder of your Card under this Promotion shall accrue to your Card for the purposes of this Promotion."
+    ],
+    "mobile_wallet": [
+     "cash advance, late payment, personal loan, balance and/or funds transfer, SmartPay, funds to pre-paid cards or mobile wallets, fees, chargebacks, interests, reversals, interest charges and any finance charges;"
+    ],
+    "foreign_currency": [
+     "1.2 This Promotion is only to all principal holders of a UOB Absolute Cashback American Express\u00ae Card that is issued by United Overseas Bank Limited (\u201cUOB\u201d or the \u201cBank\u201d) in Singapore (\u201cCard\u201d).",
+     "(a) \u201cEligible Contactless Transactions\u201d refers to Dining Transactions, Shopping Transactions and Transport Transactions in which the purchase of goods and/or services are successfully charged to your Card via physical Card contactless payment at Point-Of- Sale terminals (whether in Singapore dollars or in foreign currency) and posted on UOB\u2019s system but shall exclude the Excluded Transactions.",
+     "Disclaimer: UOB Absolute Cashback American Express\u00ae Card is issued by United Overseas Bank Limited pursuant to a license from American Express\u00ae.",
+     "United Overseas Bank Limited Co."
+    ],
+    "local_currency": [
+     "(a) \u201cEligible Contactless Transactions\u201d refers to Dining Transactions, Shopping Transactions and Transport Transactions in which the purchase of goods and/or services are successfully charged to your Card via physical Card contactless payment at Point-Of- Sale terminals (whether in Singapore dollars or in foreign currency) and posted on UOB\u2019s system but shall exclude the Excluded Transactions."
+    ]
+   },
+   "non_mcc_exclusions": [
+    "cash advance",
+    "interest",
+    "tax"
+   ]
+  },
+  {
+   "url": "https://www.uob.com.sg/assets/pdfs/tncs-governing-uob-absolute-cashback-card.pdf?i_cid=pfs:sg:owned:int:site:na:li:na:na:na-evergreen:direct:na&vid=none",
+   "citation": {
+    "id": "bank:0eaaef09b04b",
+    "url": "https://www.uob.com.sg/assets/pdfs/tncs-governing-uob-absolute-cashback-card.pdf?i_cid=pfs:sg:owned:int:site:na:li:na:na:na-evergreen:direct:na&vid=none",
+    "source_type": "official",
+    "retrieved_at": "2026-09-27T08:43:08+00:00",
+    "sha256": "0eaaef09b04b878ef894c79c45194cf5b1ecbb382d1997b113e9be69c32b6261",
+    "snapshot": "data/raw/bank/www-uob-com-sg-assets-pdfs-tncs-governing-uob-absolute-cashback-card-pdf-c6f9d5ff.pdf"
+   },
+   "text_path": "data/raw/bank/www-uob-com-sg-assets-pdfs-tncs-governing-uob-absolute-cashback-card-pdf-c6f9d5ff.txt",
+   "sha256": "0eaaef09b04b878ef894c79c45194cf5b1ecbb382d1997b113e9be69c32b6261",
+   "changed": false,
+   "new": true,
+   "no_text_layer": false,
+   "effective_dates": [
+    "4 September\n2026",
+    "4 September 2026"
+   ],
+   "mcc": {
+    "include": [
+     "0742",
+     "4900",
+     "5047",
+     "5122",
+     "5912",
+     "5975",
+     "6513",
+     "7261",
+     "7278",
+     "7311",
+     "7361",
+     "7392",
+     "7911",
+     "8011",
+     "8021",
+     "8041",
+     "8042",
+     "8043",
+     "8049",
+     "8062",
+     "8071",
+     "8099",
+     "8211",
+     "8220",
+     "8241",
+     "8244",
+     "8249",
+     "8299",
+     "8398",
+     "8999",
+     "9311",
+     "9399",
+     "9402"
+    ],
+    "exclude": [],
+    "unknown": [],
+    "conflicting": [],
+    "unrecognised": [],
+    "hits": [
+     {
+      "code": "7911",
+      "polarity": "include",
+      "page": 1,
+      "line": "7911 Schools, Dance Halls and Studios",
+      "reason": "the following MCC:",
+      "in_reference": true
+     },
+     {
+      "code": "8211",
+      "polarity": "include",
+      "page": 1,
+      "line": "8211 Schools, Elementary and Secondary",
+      "reason": "the following MCC:",
+      "in_reference": true
+     },
+     {
+      "code": "8220",
+      "polarity": "include",
+      "page": 1,
+      "line": "8220 Colleges, Universities, Professional Schools and Junior",
+      "reason": "the following MCC:",
+      "in_reference": true
+     },
+     {
+      "code": "8241",
+      "polarity": "include",
+      "page": 1,
+      "line": "8241 Schools, Correspondence",
+      "reason": "the following MCC:",
+      "in_reference": true
+     },
+     {
+      "code": "8244",
+      "polarity": "include",
+      "page": 1,
+      "line": "8244 Schools, Business and Secretarial",
+      "reason": "the following MCC:",
+      "in_reference": true
+     },
+     {
+      "code": "8249",
+      "polarity": "include",
+      "page": 1,
+      "line": "8249 Schools, Trade and Vocational",
+      "reason": "the following MCC:",
+      "in_reference": true
+     },
+     {
+      "code": "8299",
+      "polarity": "include",
+      "page": 1,
+      "line": "8299 Schools and Educational Services\u2013Not Elsewhere Classified",
+      "reason": "the following MCC:",
+      "in_reference": true
+     },
+     {
+      "code": "9311",
+      "polarity": "include",
+      "page": 1,
+      "line": "9311 Tax Payment",
+      "reason": "the following MCC:",
+      "in_reference": true
+     },
+     {
+      "code": "9399",
+      "polarity": "include",
+      "page": 1,
+      "line": "9399 Government Services\u2014not elsewhere classified",
+      "reason": "the following MCC:",
+      "in_reference": true
+     },
+     {
+      "code": "9402",
+      "polarity": "include",
+      "page": 1,
+      "line": "9402 Postal Services\u2014Government Only",
+      "reason": "the following MCC:",
+      "in_reference": true
+     },
+     {
+      "code": "0742",
+      "polarity": "include",
+      "page": 1,
+      "line": "0742 Pet stores and Veterinary Services",
+      "reason": "the following MCC:",
+      "in_reference": true
+     },
+     {
+      "code": "5047",
+      "polarity": "include",
+      "page": 1,
+      "line": "5047 Medical Equipment and Supplies",
+      "reason": "the following MCC:",
+      "in_reference": true
+     },
+     {
+      "code": "5122",
+      "polarity": "include",
+      "page": 1,
+      "line": "5122 Drug Stores",
+      "reason": "the following MCC:",
+      "in_reference": true
+     },
+     {
+      "code": "5912",
+      "polarity": "include",
+      "page": 1,
+      "line": "5912 Drug Store and Pharmacies",
+      "reason": "the following MCC:",
+      "in_reference": true
+     },
+     {
+      "code": "5975",
+      "polarity": "include",
+      "page": 1,
+      "line": "5975 Medical Equipment, Hearing Aid",
+      "reason": "the following MCC:",
+      "in_reference": true
+     },
+     {
+      "code": "8011",
+      "polarity": "include",
+      "page": 1,
+      "line": "8011 Medical Services, Doctors",
+      "reason": "the following MCC:",
+      "in_reference": true
+     },
+     {
+      "code": "8021",
+      "polarity": "include",
+      "page": 1,
+      "line": "8021 Medical Services, Dentist and Orthodontist",
+      "reason": "the following MCC:",
+      "in_reference": true
+     },
+     {
+      "code": "8041",
+      "polarity": "include",
+      "page": 2,
+      "line": "8041 Medical Services, Chiropractors",
+      "reason": "the following MCC:",
+      "in_reference": true
+     },
+     {
+      "code": "8042",
+      "polarity": "include",
+      "page": 2,
+      "line": "8042 Medical Services, Optometrists and Ophthalmologist",
+      "reason": "the following MCC:",
+      "in_reference": true
+     },
+     {
+      "code": "8043",
+      "polarity": "include",
+      "page": 2,
+      "line": "8043 Medical Services, Opticians",
+      "reason": "the following MCC:",
+      "in_reference": true
+     },
+     {
+      "code": "8049",
+      "polarity": "include",
+      "page": 2,
+      "line": "8049 Medical Services, Chiropractors and Podiatrists",
+      "reason": "the following MCC:",
+      "in_reference": true
+     },
+     {
+      "code": "8062",
+      "polarity": "include",
+      "page": 2,
+      "line": "8062 Hospitals",
+      "reason": "the following MCC:",
+      "in_reference": true
+     },
+     {
+      "code": "8071",
+      "polarity": "include",
+      "page": 2,
+      "line": "8071 Medical Services, Dental Laboratories",
+      "reason": "the following MCC:",
+      "in_reference": true
+     },
+     {
+      "code": "8099",
+      "polarity": "include",
+      "page": 2,
+      "line": "8099 Medical and Health Services",
+      "reason": "the following MCC:",
+      "in_reference": true
+     },
+     {
+      "code": "4900",
+      "polarity": "include",
+      "page": 2,
+      "line": "4900 Utilities",
+      "reason": "the following MCC:",
+      "in_reference": true
+     },
+     {
+      "code": "8398",
+      "polarity": "include",
+      "page": 2,
+      "line": "8398 Organizations, Charitable and Social Service",
+      "reason": "the following MCC:",
+      "in_reference": true
+     },
+     {
+      "code": "6513",
+      "polarity": "include",
+      "page": 2,
+      "line": "6513 Real Estate Agents & Managers \u2013 Rentals",
+      "reason": "the following MCC:",
+      "in_reference": true
+     },
+     {
+      "code": "7261",
+      "polarity": "include",
+      "page": 2,
+      "line": "7261 Funeral Services and Crematories",
+      "reason": "the following MCC:",
+      "in_reference": true
+     },
+     {
+      "code": "7278",
+      "polarity": "include",
+      "page": 2,
+      "line": "7278 Shopping Services",
+      "reason": "the following MCC:",
+      "in_reference": true
+     },
+     {
+      "code": "7311",
+      "polarity": "include",
+      "page": 2,
+      "line": "7311 Advertising Services",
+      "reason": "the following MCC:",
+      "in_reference": true
+     },
+     {
+      "code": "7361",
+      "polarity": "include",
+      "page": 2,
+      "line": "7361 Employment Services and Agency",
+      "reason": "the following MCC:",
+      "in_reference": true
+     },
+     {
+      "code": "7392",
+      "polarity": "include",
+      "page": 2,
+      "line": "7392 Consulting and Public Relation Services",
+      "reason": "the following MCC:",
+      "in_reference": true
+     },
+     {
+      "code": "8999",
+      "polarity": "include",
+      "page": 2,
+      "line": "8999 Professional Services",
+      "reason": "the following MCC:",
+      "in_reference": true
+     }
+    ]
+   },
+   "transaction_modes": {
+    "mobile_wallet": [
+     "(c) 0.3% on the following Local Card Transactions (the \u201cSelected Local Card Transactions\u201d) and, with effect from 4 September 2026, the following Overseas Card Transactions (the \u201cSelected Overseas Card Transactions\u201d): - Grab mobile wallet top-up transactions which are Local Card Transactions or Overseas Card Transactions (w.e.f."
+    ],
+    "foreign_currency": [
+     "Terms and Conditions Governing UOB Absolute Cashback Card (\u201cTerms\u201d) These Terms apply to your UOB Absolute Cashback Card issued by United Overseas Bank Limited (\u201cUOB\u201d) in Singapore (the \u201cCard\u201d).",
+     "(b) 1.7% on all Overseas Card Transactions (as defined below) but, with effect from 4 September 2026, excluding the Selected Overseas Card Transactions (as defined below);",
+     "(c) 0.3% on the following Local Card Transactions (the \u201cSelected Local Card Transactions\u201d) and, with effect from 4 September 2026, the following Overseas Card Transactions (the \u201cSelected Overseas Card Transactions\u201d): - Grab mobile wallet top-up transactions which are Local Card Transactions or Overseas Card Transactions (w.e.f.",
+     "and - Local Card Transactions or Overseas Card Transactions (w.e.f.",
+     "4 September 2026) with the following MCC: Merchant Category Description Code (MCC) 7911 Schools, Dance Halls and Studios 8211 Schools, Elementary and Secondary 8220 Colleges, Universities, Professional Schools and Junior Colleges 8241 Schools, Correspondence 8244 Schools, Business and Secretarial 8249 Schools, Trade and Vocational 8299 Schools and Educational Services\u2013Not Elsewhere Classified 9311",
+     "(b) \u201cOverseas Card Transactions\u201d refers to retail transactions for the purchase of goods and/or services at merchants located outside of Singapore which are successfully charged to your Card and posted on UOB\u2019s systems.",
+     "For the avoidance of doubt, only transactions which are processed outside of Singapore (whether via a payment gateway, processing system or otherwise) shall constitute Overseas Card Transactions.",
+     "United Overseas Bank Limited Co.",
+     "United Overseas Bank Limited Co.",
+     "United Overseas Bank Limited Co.",
+     "United Overseas Bank Limited Co.",
+     "The UOB Absolute Cashback American Express\u00ae Card is issued by United Overseas Bank Limited pursuant to a license from American Express.",
+     "United Overseas Bank Limited Co.",
+     "No.193500026Z Updated 4 August 2026 (Ver 3.0) United Overseas Bank Limited Co."
+    ],
+    "local_currency": [
+     "(viii) The Cashback earned for the current statement month will be credited into your Card account in the following statement month in Singapore dollars."
+    ]
+   },
+   "non_mcc_exclusions": [
+    "cash advance",
+    "charit",
+    "education",
+    "government",
+    "hospital",
+    "interest",
+    "late payment charge",
+    "tax",
+    "top-up",
+    "utilit"
+   ]
+  }
+ ],
+ "changed": false,
+ "removed_documents": []
+}

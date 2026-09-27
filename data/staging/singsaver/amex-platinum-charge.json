@@ -1,0 +1,169 @@
+{
+ "source": "singsaver",
+ "source_id": "american-express-platinum-card",
+ "source_url": "https://www.singsaver.com.sg/credit-card/products/american-express-platinum-card",
+ "name": "American Express Platinum Card",
+ "bank": "American Express",
+ "card_id": "amex-platinum-charge",
+ "image_url": "https://mhgprod.blob.core.windows.net/singsaver/strapi-uploads/xs_blta4d3ae2534420ff9_6c472c76c6.png",
+ "annual_fee": 1744.0,
+ "annual_fee_note": "S$",
+ "min_monthly_spend": 0.0,
+ "earn_rates": {
+  "percent:baseline": {
+   "value": 0.6,
+   "unit": "percent",
+   "note": "(Indirect Cashback) S$1.60 spend = 2 Membership Rewards points. 1,000 points redeemed = S$4.80 cash credit (Pay With Points), equivalent to 0.6% cashback."
+  },
+  "mpd:baseline": {
+   "value": 0.69,
+   "unit": "mpd",
+   "note": null
+  },
+  "mpd:flight_booking": {
+   "value": 1.73,
+   "unit": "mpd",
+   "note": "Up to | With SIA and Scoot."
+  },
+  "percent:dining": {
+   "value": 6.0,
+   "unit": "percent",
+   "note": "Up to | (Indirect Cashback) S$1.60 spend = 20 Membership Rewards points. 1,000 points redeemed = S$4.80 cash credit (Pay With Points), equivalent to 6% cashback."
+  },
+  "percent:travel": {
+   "value": 1.5,
+   "unit": "percent",
+   "note": "(Indirect Cashback) S$1.60 spend = 5 Membership Rewards points with SIA and Scoot. 1,000 points redeemed = S$4.80 cash credit (Pay With Points), equivalent to 1.5% cashback."
+  },
+  "percent:retail": {
+   "value": 6.0,
+   "unit": "percent",
+   "note": "Up to | (Indirect Cashback) S$1.60 spend = 20 Membership Rewards points. 1,000 points redeemed = S$4.80 cash credit (Pay With Points), equivalent to 6% cashback."
+  },
+  "mpd:retail": {
+   "value": 6.94,
+   "unit": "mpd",
+   "note": "Up to | On 10Xcelerator merchants."
+  },
+  "mpd:dining": {
+   "value": 6.94,
+   "unit": "mpd",
+   "note": "Up to | On 10Xcelerator merchants."
+  },
+  "percent:overseas": {
+   "value": 0.6,
+   "unit": "percent",
+   "note": "(Indirect Cashback) S$1.60 spend = 2 Membership Rewards points. 1,000 points redeemed = S$4.80 cash credit (Pay With Points), equivalent to 0.6% cashback."
+  },
+  "points_per_dollar:baseline": {
+   "value": 2.0,
+   "unit": "points_per_dollar",
+   "note": "Base rate"
+  },
+  "points_per_dollar:dining": {
+   "value": 20.0,
+   "unit": "points_per_dollar",
+   "note": "Up to  | On 10Xcelerator merchants with spending up to S$16,000."
+  },
+  "points_per_dollar:flight_booking": {
+   "value": 5.0,
+   "unit": "points_per_dollar",
+   "note": "With SIA and Scoot."
+  },
+  "percent:local": {
+   "value": 0.6,
+   "unit": "percent",
+   "note": "(Indirect Cashback) S$1.60 spend = 2 Membership Rewards points. 1,000 points redeemed = S$4.80 cash credit (Pay With Points), equivalent to 0.6% cashback."
+  },
+  "mpd:local": {
+   "value": 0.69,
+   "unit": "mpd",
+   "note": null
+  },
+  "points_per_dollar:travel": {
+   "value": 5.0,
+   "unit": "points_per_dollar",
+   "note": "With SIA and Scoot."
+  },
+  "points_per_dollar:retail": {
+   "value": 20.0,
+   "unit": "points_per_dollar",
+   "note": "Up to  | On 10Xcelerator merchants with spending up to S$16,000."
+  }
+ },
+ "caps": {},
+ "highlights": [
+  "Earn up to 20 points per dollar at 10Xcelerator merchants for spending up to S$16,000; 5 points per dollar with Singapore Airlines (SIA) and Scoot, and a base rate of 2 points per dollar on all other spending.",
+  "pros: Enjoy competitive rates and complimentary benefits at over 1,600 Fine Hotels + Resorts properties worldwide.",
+  "pros: Up to 6 dining experiences for your and your loved ones across the year with Table for Two by Platinum",
+  "pros: Complimentary access to over 1,550 lounges across 500 airports in 140 countries.",
+  "pros: Gain instant status to higher tiers of leading hotel loyalty programs.",
+  "pros: Complimentary Access into Tower Club.",
+  "pros: Membership Rewards Points never expire.",
+  "pros: Up to 50% savings at premium dining locations with Love Dining.",
+  "pros: Please refer to the American Express website (\ngo.amex/singsaver\n) for the most up to date information on card benefits and its terms & conditions.",
+  "cons: Annual fee: S$1,744 (inclusive of GST)."
+ ],
+ "sign_up_offers": [],
+ "links": {
+  "apply": "https://www.americanexpress.com/sg/campaigns/singsaver.html#platcharge"
+ },
+ "citation": {
+  "id": "singsaver:179a6c940486",
+  "url": "https://www.singsaver.com.sg/credit-card/products/american-express-platinum-card",
+  "title": "American Express Platinum Card",
+  "source_type": "aggregator",
+  "retrieved_at": "2026-09-27T05:24:41+00:00",
+  "sha256": "179a6c940486a2ca8a111ad3969bd9b746b0ddd46510938519109bd7e2e0e671",
+  "snapshot": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-american-express-platinum-card-19ab324b.html"
+ },
+ "extra": {
+  "network": [
+   "American Express"
+  ],
+  "mobile_wallets": [
+   "Google Pay",
+   "Apple Pay",
+   "Samsung Pay"
+  ],
+  "fx_fee_percent": 3.25,
+  "miles_conversion_fee": null,
+  "categories": [
+   "category:all-credit-cards",
+   "category:buffet-promo",
+   "category:dining-promo",
+   "category:installment",
+   "category:overseas",
+   "category:petrol-promo",
+   "category:premium-cards",
+   "category:promo",
+   "category:retail-promo",
+   "category:rewards",
+   "needs:0-interest-rate",
+   "needs:0-processing-fee",
+   "needs:air-miles-conversion-rewards",
+   "needs:airport-lounge-transfer",
+   "needs:all-cards-with-buffet-promo",
+   "needs:all-cards-with-dining-promo",
+   "needs:all-cards-with-petrol-promo",
+   "needs:all-cards-with-promotion",
+   "needs:all-cards-with-retail-promo",
+   "needs:all-credit-cards",
+   "needs:all-installment-cards",
+   "needs:all-overseas-cards",
+   "needs:all-premium-cards",
+   "needs:all-rewards-cards",
+   "needs:all-travel-cards",
+   "needs:free-travel-insurance",
+   "needs:high-rewards-rebate",
+   "needs:long-tenure-installment",
+   "needs:no-minimum-spend-required-rewards",
+   "needs:online-booking-discount",
+   "needs:travel-sign-up-gifts",
+   "needs:unlimited-reward-points",
+   "needs:voucher-points"
+  ],
+  "tag": "Best for high-value luxury rewards",
+  "description": "Made for luxury living and travel, taste the high life with the American Express Platinum Charge Card, with accelerated points earn rates, unlimited airport lounge access for you and one guest each, complimentary hotel upgrades and stays, and much much more."
+ }
+}

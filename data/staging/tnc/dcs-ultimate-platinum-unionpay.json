@@ -1,0 +1,426 @@
+{
+ "card_id": "dcs-ultimate-platinum-unionpay",
+ "product_pages": [
+  {
+   "id": "bank:3960f097c297",
+   "url": "https://cards.dcscc.com/ultimateupi",
+   "source_type": "official",
+   "retrieved_at": "2026-09-27T08:37:10+00:00",
+   "sha256": "3960f097c2972e72f9549fcf5fba35a94923ac12a59e1f03bb849613748a2bd0",
+   "snapshot": "data/raw/bank/cards-dcscc-com-ultimateupi-26667e1a.html"
+  }
+ ],
+ "documents": [
+  {
+   "url": "https://static.dcscc.com/pdf/dcscc/legal/DCS%20Ultimate%20Platinum%20Card%20Terms%20and%20Conditions%20(1%20June%202025).pdf",
+   "citation": {
+    "id": "bank:450ee3eff44f",
+    "url": "https://static.dcscc.com/pdf/dcscc/legal/DCS%20Ultimate%20Platinum%20Card%20Terms%20and%20Conditions%20(1%20June%202025).pdf",
+    "source_type": "official",
+    "retrieved_at": "2026-09-27T08:37:10+00:00",
+    "sha256": "450ee3eff44faa873223d977d8b17f8351318009922e2a4b1a67df4eb900d7a3",
+    "snapshot": "data/raw/bank/static-dcscc-com-pdf-dcscc-legal-DCS-20Ultimate-20Platinum-20Card-20Terms-20and-20Conditions-20-1-20June-202025-pdf-3583d9d5.pdf"
+   },
+   "text_path": "data/raw/bank/static-dcscc-com-pdf-dcscc-legal-DCS-20Ultimate-20Platinum-20Card-20Terms-20and-20Conditions-20-1-20June-202025-pdf-3583d9d5.txt",
+   "sha256": "450ee3eff44faa873223d977d8b17f8351318009922e2a4b1a67df4eb900d7a3",
+   "changed": false,
+   "new": false,
+   "no_text_layer": false,
+   "effective_dates": [],
+   "mcc": {
+    "include": [
+     "4784",
+     "4829",
+     "4900",
+     "5199",
+     "5960",
+     "6010",
+     "6011",
+     "6012",
+     "6050",
+     "6051",
+     "6211",
+     "6300",
+     "6513",
+     "6540",
+     "7349",
+     "7523",
+     "7800",
+     "7801",
+     "7802",
+     "7995",
+     "8062",
+     "8211",
+     "8220",
+     "8241",
+     "8244",
+     "8249",
+     "8299",
+     "8398",
+     "8651",
+     "8661",
+     "9211",
+     "9222",
+     "9223",
+     "9311",
+     "9399",
+     "9402",
+     "9405",
+     "9406"
+    ],
+    "exclude": [],
+    "unknown": [],
+    "conflicting": [],
+    "unrecognised": [
+     "9406"
+    ],
+    "hits": [
+     {
+      "code": "4784",
+      "polarity": "include",
+      "page": 5,
+      "line": "4784 Tolls and Bridge Fees",
+      "reason": "(r) Any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "4829",
+      "polarity": "include",
+      "page": 5,
+      "line": "4829 Money Transfer",
+      "reason": "(r) Any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "4900",
+      "polarity": "include",
+      "page": 5,
+      "line": "4900 Utilities \u2013 Electric, Gas, Water and Sanitary",
+      "reason": "(r) Any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "5199",
+      "polarity": "include",
+      "page": 5,
+      "line": "5199 Nondurable Goods (Not Elsewhere Classified)",
+      "reason": "(r) Any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "5960",
+      "polarity": "include",
+      "page": 5,
+      "line": "5960 Direct Marketing \u2013 Insurance Services",
+      "reason": "(r) Any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "6010",
+      "polarity": "include",
+      "page": 5,
+      "line": "6010 Financial Institutions \u2013 Manual Cash Disbursements",
+      "reason": "(r) Any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "6011",
+      "polarity": "include",
+      "page": 5,
+      "line": "6011 Financial Institutions \u2013 Automated Cash Disbursements",
+      "reason": "(r) Any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "6012",
+      "polarity": "include",
+      "page": 5,
+      "line": "6012 Financial Institutions \u2013 Merchandise, Services, and Debt Repayment",
+      "reason": "(r) Any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "6050",
+      "polarity": "include",
+      "page": 5,
+      "line": "6050 Quasi Cash - Member Financial Institution",
+      "reason": "(r) Any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "6051",
+      "polarity": "include",
+      "page": 6,
+      "line": "6051 Non-Financial Institutions \u2013Foreign Currency, Non-Fiat Currency (for",
+      "reason": "(r) Any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "6211",
+      "polarity": "include",
+      "page": 6,
+      "line": "6211 Security Brokers/Dealers",
+      "reason": "(r) Any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "6300",
+      "polarity": "include",
+      "page": 6,
+      "line": "6300 Insurance Sales, Underwriting, and Premiums",
+      "reason": "(r) Any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "6513",
+      "polarity": "include",
+      "page": 6,
+      "line": "6513 Real Estate Agents and Managers",
+      "reason": "(r) Any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "6540",
+      "polarity": "include",
+      "page": 6,
+      "line": "6540 Non-Financial Institutions \u2013 Stored Value Card Purchase/Load",
+      "reason": "(r) Any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "7349",
+      "polarity": "include",
+      "page": 6,
+      "line": "7349 Cleaning, Maintenance, and Janitorial Services",
+      "reason": "(r) Any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "7523",
+      "polarity": "include",
+      "page": 6,
+      "line": "7523 Parking Lots, Parking Meters and Garages",
+      "reason": "(r) Any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "7800",
+      "polarity": "include",
+      "page": 6,
+      "line": "7800 Government-Owned Lotteries (US Region only)",
+      "reason": "(r) Any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "7801",
+      "polarity": "include",
+      "page": 6,
+      "line": "7801 Government Licensed On-Line Casinos (On-Line Gambling) (US Region",
+      "reason": "(r) Any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "7802",
+      "polarity": "include",
+      "page": 6,
+      "line": "7802 Government-Licensed Horse/Dog Racing (US Region only)",
+      "reason": "(r) Any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "7995",
+      "polarity": "include",
+      "page": 6,
+      "line": "7995 Betting, including Lottery Tickets, Casino Gaming Chips, Off-Track",
+      "reason": "(r) Any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "8062",
+      "polarity": "include",
+      "page": 6,
+      "line": "8062 Hospitals",
+      "reason": "(r) Any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "8211",
+      "polarity": "include",
+      "page": 6,
+      "line": "8211 Elementary and Secondary Schools",
+      "reason": "(r) Any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "8220",
+      "polarity": "include",
+      "page": 6,
+      "line": "8220 Colleges, Universities, Professional Schools, and Junior Colleges",
+      "reason": "(r) Any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "8241",
+      "polarity": "include",
+      "page": 6,
+      "line": "8241 Correspondence Schools",
+      "reason": "(r) Any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "8244",
+      "polarity": "include",
+      "page": 6,
+      "line": "8244 Business and Secretarial Schools",
+      "reason": "(r) Any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "8249",
+      "polarity": "include",
+      "page": 6,
+      "line": "8249 Vocational and Trade Schools",
+      "reason": "(r) Any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "8299",
+      "polarity": "include",
+      "page": 6,
+      "line": "8299 Schools and Educational Services (Not Elsewhere Classified)",
+      "reason": "(r) Any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "8398",
+      "polarity": "include",
+      "page": 6,
+      "line": "8398 Charitable Social Service Organizations",
+      "reason": "(r) Any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "8651",
+      "polarity": "include",
+      "page": 6,
+      "line": "8651 Political Organizations",
+      "reason": "(r) Any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "8661",
+      "polarity": "include",
+      "page": 6,
+      "line": "8661 Religious Organizations",
+      "reason": "(r) Any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "9211",
+      "polarity": "include",
+      "page": 6,
+      "line": "9211 Court Costs, Including Alimony and Child Support",
+      "reason": "(r) Any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "9222",
+      "polarity": "include",
+      "page": 6,
+      "line": "9222 Fines",
+      "reason": "(r) Any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "9223",
+      "polarity": "include",
+      "page": 6,
+      "line": "9223 Bail and Bond Payments",
+      "reason": "(r) Any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "9311",
+      "polarity": "include",
+      "page": 6,
+      "line": "9311 Tax Payments",
+      "reason": "(r) Any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "9399",
+      "polarity": "include",
+      "page": 6,
+      "line": "9399 Government Services (Not Elsewhere Classified)",
+      "reason": "(r) Any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "9402",
+      "polarity": "include",
+      "page": 6,
+      "line": "9402 Postal Services \u2013 Government Only",
+      "reason": "(r) Any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "9405",
+      "polarity": "include",
+      "page": 6,
+      "line": "9405 U.S. Federal Government Agencies or Departments",
+      "reason": "(r) Any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "9406",
+      "polarity": "include",
+      "page": 6,
+      "line": "9406 Government-Owned Lotteries (Non-U.S. region)",
+      "reason": "(r) Any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": false
+     }
+    ]
+   },
+   "transaction_modes": {
+    "online": [
+     "4.3 If the Cardmember has chosen to convert the overseas Card Transaction (including online Card Transactions) into Singapore Dollars at the point of payment via dynamic currency conversion (a service offered at certain overseas ATMs and merchants), or the transaction is in Singapore Dollars but processed by an overseas merchant (including online Card Transactions), the Cardmember acknowledges tha"
+    ],
+    "foreign_currency": [
+     "\u201cCard Transaction(s)\u201d means any retail transaction(s) (whether in Singapore or overseas) successfully carried out on and charged to the Card Account by the Cardmember, and which is successfully captured or posted on DCS\u2019s systems, and excludes the Exclusions (as defined in Clause 9).",
+     "CARD TRANSACTIONS IN FOREIGN CURRENCIES AND TRANSACTIONS PROCESSED OVERSEAS",
+     "4.2 All foreign currency transactions (including reversals and refunds) will be subject to:",
+     "4.3 If the Cardmember has chosen to convert the overseas Card Transaction (including online Card Transactions) into Singapore Dollars at the point of payment via dynamic currency conversion (a service offered at certain overseas ATMs and merchants), or the transaction is in Singapore Dollars but processed by an overseas merchant (including online Card Transactions), the Cardmember acknowledges tha",
+     "Where the overseas Card Transaction has been converted via dynamic currency conversion:",
+     "(a) all card transactions (including reversals and refunds) in Singapore Dollars but processed overseas will be subject to an administrative fee of up to 1%;",
+     "(r) Any transaction made with the following Merchant Category Codes (MCC): MCC Description 4784 Tolls and Bridge Fees 4829 Money Transfer 4900 Utilities \u2013 Electric, Gas, Water and Sanitary 5199 Nondurable Goods (Not Elsewhere Classified) 5960 Direct Marketing \u2013 Insurance Services 6010 Financial Institutions \u2013 Manual Cash Disbursements 6011 Financial Institutions \u2013 Automated Cash Disbursements 6012"
+    ],
+    "local_currency": [
+     "4.1 Card Transactions in foreign currencies other than US Dollars will be converted into US Dollars before being converted into Singapore Dollars.",
+     "Card Transactions in US Dollars shall be converted to Singapore Dollars on the date of conversion.",
+     "4.3 If the Cardmember has chosen to convert the overseas Card Transaction (including online Card Transactions) into Singapore Dollars at the point of payment via dynamic currency conversion (a service offered at certain overseas ATMs and merchants), or the transaction is in Singapore Dollars but processed by an overseas merchant (including online Card Transactions), the Cardmember acknowledges tha",
+     "(a) all card transactions (including reversals and refunds) in Singapore Dollars but processed overseas will be subject to an administrative fee of up to 1%;",
+     "5.3 The Cashback is in Singapore Dollars, and is computed on a full calendar month basis, rounded up to the nearest two (2) decimal places for every eligible Card Transaction, based on the total amount of Card Transactions charged to the Card Account."
+    ]
+   },
+   "non_mcc_exclusions": [
+    "annual fee",
+    "axs",
+    "balance transfer",
+    "bill payment",
+    "cash advance",
+    "charit",
+    "education",
+    "government",
+    "hospital",
+    "instalment",
+    "interest",
+    "ipaymy",
+    "late payment charge",
+    "tax",
+    "utilit"
+   ]
+  }
+ ],
+ "changed": false,
+ "removed_documents": []
+}

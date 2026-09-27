@@ -1,0 +1,237 @@
+{
+ "source": "singsaver",
+ "source_id": "citi-cash-back-card",
+ "source_url": "https://www.singsaver.com.sg/credit-card/products/citi-cash-back-card",
+ "name": "Citi Cash Back Card",
+ "bank": "Citibank",
+ "card_id": "citi-cash-back",
+ "image_url": "https://mhgprod.blob.core.windows.net/singsaver/strapi-uploads/l_blt30a1ae18b5f03c39_4d0ec48ba1.png",
+ "annual_fee": 196.2,
+ "annual_fee_note": "S$ | First Year Waived",
+ "min_annual_income": 30000.0,
+ "min_monthly_spend": 800.0,
+ "earn_rates": {
+  "percent:local": {
+   "value": 8.0,
+   "unit": "percent",
+   "note": "Up to | 8% cash back on private commute and petrol spend and 6% cash back on dining and groceries spend. Minimum S$800 spend per statement month. S$80 combined cash back cap across all categories."
+  },
+  "percent:dining": {
+   "value": 6.0,
+   "unit": "percent",
+   "note": "6% on any dining merchant worldwide with a min. monthly spend of S$800. Base cashback 0.2%."
+  },
+  "percent:supermarket": {
+   "value": 6.0,
+   "unit": "percent",
+   "note": "Up to  | 6% cash back at all grocery stores worldwide with a min. monthly spend of S$800. Base cashback 0.2%."
+  },
+  "percent:retail": {
+   "value": 0.2,
+   "unit": "percent",
+   "note": "0.20% on all other retail spend. No min. spend. S$80 combined cashback cap across all categories."
+  },
+  "percent:local_online_shopping": {
+   "value": 0.2,
+   "unit": "percent",
+   "note": "0.20% on all other retail spend. No min. spend. S$80 combined cashback cap across all categories."
+  },
+  "percent:overseas": {
+   "value": 8.0,
+   "unit": "percent",
+   "note": "8% cashback on petrol and private commute. 6% cashback on dining and grocery. 0.20% on all other retail spend. No minimum spend. S$80 combined cashback cap across all categories."
+  },
+  "percent:taxi_ride_sharing": {
+   "value": 8.0,
+   "unit": "percent",
+   "note": "Up to  | 8% cash back on private commute spend with min. S$800 spend per statement month."
+  },
+  "percent:transport": {
+   "value": 8.0,
+   "unit": "percent",
+   "note": "Up to  | 8% cash back on private commute spend with min. S$800 spend per statement month."
+  },
+  "percent:baseline": {
+   "value": 0.2,
+   "unit": "percent",
+   "note": "0.20% on all other retail spend. No minimum spend. S$80 combined cashback cap across all categories."
+  },
+  "percent:petrol": {
+   "value": 8.0,
+   "unit": "percent",
+   "note": "Up to  | 8% cash back at all petrol stations with a min. monthly spend of S$800."
+  }
+ },
+ "caps": {
+  "rewards_bonus_cap": {
+   "value": 80.0,
+   "note": "S$ | S$80 combined cashback cap per month across all categories."
+  },
+  "cashback_bonus_cap": {
+   "value": 80.0,
+   "note": "S$ | S$80 combined cashback cap per month across all categories."
+  }
+ },
+ "highlights": [
+  "8% cashback on petrol and private commute. 6% cashback on dining and grocery. 0.2% on all other retail spend. No minimum spend. S$80 combined cashback cap across all categories.",
+  "pros: 6% cashback on dining and grocery spending (local & overseas).",
+  "pros: 8% cashback on petrol and private commute (local & overseas).",
+  "pros: Up to 23.64% savings at Caltex, Esso and Shell, inclusive of 8% cashback for petrol spending.",
+  "pros: With \nCiti PayAll\n you can earn Citi Miles, Citi ThankYou PointsSM or Cash Back when you pay your bills with your Citi Credit Card.",
+  "pros: Up to S$1 million travel insurance coverage when you charge your travel tickets to this card. There will be a revision made to the Citi Credit Cards complimentary travel insurance. The Travel Insurance coverage in respect of a Trip charged to Citi Cash Back Card will be updated to end on \n31 March 2026\n. For more information, please click \nhere\n.",
+  "pros: 0.20% cashback for all other spending, even if you do not meet the min. monthly spend.",
+  "cons: Min. monthly spend of S$800 required to earn bonus cashback.",
+  "cons: S$80 combined cashback cap across all categories.",
+  "pros: Dining rebate",
+  "pros: Supermarket rebate",
+  "pros: High-value gift",
+  "cons: Rebate cap applied"
+ ],
+ "sign_up_offers": [
+  {
+   "kind": "exclusive_offer",
+   "title": "SingSaver Flash Deal",
+   "offer_id": "SG.2026-09-24.CC.CITI.6XCC.MYSTERYPHONE-FD",
+   "valid_from": "2026-09-23T16:00:00Z",
+   "valid_to": "2026-09-28T15:59:00Z",
+   "gifts": [
+    {
+     "title": "The latest smartphone (worth over S$1,8xx)",
+     "value_sgd": 1800
+    }
+   ],
+   "terms": "SingSaver Flash Deal promotion runs from 24 September 2026 to 28 September 2026.\nPromotion is valid for new Citi credit cardmembers only.\nBe the first eligible applicant at 3pm and 9pm every day during the flash deal period (2 total winners daily) to apply for select Citi credit cards via SingSaver and meet the min. spend criteria (S$500 within 30 days of card approval) to be eligible for the Flash Deal reward: \nlatest smartphone (worth over S$1,800)\nFlash Deal reward will be received \nin place of\n your selected SingSaver Exclusive Offer reward.\nRemaining applicants will receive the SingSaver Exclusive Offer reward selected in your Rewards Redemption Form.\nTerms and Conditions\n apply.",
+   "tnc_url": null,
+   "bundle_with": []
+  },
+  {
+   "kind": "exclusive_offer",
+   "title": "SingSaver Exclusive Offer",
+   "offer_id": "SG.2026-09-01.CC.CITI.CBM1.400CASH-25KMAXM-ASTRAIT-V8CYC-MCM20CAP-[DYSON-APPLE]",
+   "valid_from": "2026-09-24T16:00:00Z",
+   "valid_to": "2026-09-30T15:59:00Z",
+   "gifts": [
+    {
+     "title": "S$400 Cash via PayNow",
+     "value_sgd": 400
+    },
+    {
+     "title": "The Morning Coffee Machine + 20 Capsules Bundle (worth S$660)",
+     "value_sgd": 660
+    },
+    {
+     "title": "25,000 Max Miles by HeyMax (worth S$450)",
+     "value_sgd": 450
+    },
+    {
+     "title": "Dyson Airstrait™ straightener (worth S$799)",
+     "value_sgd": 799
+    },
+    {
+     "title": "Dyson V8 Cyclone Vacuum Cleaner (worth S$559)",
+     "value_sgd": 559
+    },
+    {
+     "title": "Dyson Airwrap™ multi-styler and dryer (worth S$799) (top up S$100)",
+     "value_sgd": 799
+    },
+    {
+     "title": "Dyson Clean+Wash Hygiene hard floor cleaner (worth S$729) (Top up S$150)",
+     "value_sgd": 729
+    },
+    {
+     "title": "Apple iPad (A16) 11\" 128GB WiFi (worth S$649) (Top up S$200)",
+     "value_sgd": 649
+    },
+    {
+     "title": "Apple Watch Series 12 Aluminum 42mm GPS (worth S$599) (Top-up S$140)",
+     "value_sgd": 599
+    },
+    {
+     "title": "Apple MacBook Neo (A18 Pro) 256GB w/ Magic Keyboard (worth S$999, top up S$580)",
+     "value_sgd": 999
+    },
+    {
+     "title": "Apple iPhone 18 Pro 256GB (worth S$1,899, top up S$1,330)",
+     "value_sgd": 1899
+    }
+   ],
+   "terms": "SingSaver Exclusive Offer promotion runs from 1 September 2026 to 30 September 2026.\nPromotion is valid for new Citi credit cardmembers only.\nApply for participating Citi credit cards and make a min. spend of S$500 within 30 days of card approval to be eligible for reward.\nFastest Reward Fulfilment:\n Receive your reward in as little as \n4 weeks\n!\nTerms and Conditions\n apply.",
+   "tnc_url": "https://singsaver.link/cc-rewards-campaign",
+   "bundle_with": []
+  },
+  {
+   "kind": "bundle_exclusive_offer",
+   "title": "SingSaver Card + Banking Bundle Offer",
+   "offer_id": "SG.2026-09-09.CITI.6XCC-A.500CASH.BUNDLE",
+   "valid_from": "2026-09-08T16:00:00Z",
+   "valid_to": "2026-09-30T15:59:00Z",
+   "gifts": [
+    {
+     "title": "S$500 Cash via PayNow",
+     "value_sgd": 500
+    }
+   ],
+   "terms": "This promotion runs from 9 September 2026 to 30 September 2026.\nEligible applicants must not hold an existing Citi credit card, or have closed one within the past 12 months from card account opening date.\nTo qualify for the S$500 Cash reward, applicants must:\nApply for a participating Citi credit card via SingSaver;\nMake a minimum spend of S$500 within 30 days of card approval; and\nHold a valid Citi banking account (existing or newly opened) by the end of the month following card approval.\nThe S$500 Cash reward replaces the standard SingSaver exclusive reward for your card—you receive one or the other, not the both. The S$500 Cash amount is the same regardless of which card you apply for.\nParticipating Citi banking account types are:\nExisting Citi banking relationship includes \nCitigold\n, \nCitigold Private Client\n, \nCiti Plus\n, \nCiti Priority\n, \nCitibanking\nNew Citi banking relationship is applicable for \nCitigold\n, \nCitigold Private Client\n, \nCiti Plus\nNew banking customers who open a Citigold account through SingSaver may qualify for an additional SingSaver Exclusive welcome gift (worth up to S$1,500 Cash or Apple iPhone 17)—this is a separate offer from the credit card reward (additional T&Cs apply).\nIn case you choose the S$500 cash reward option and there is no banking relationship by the last day of the following month from your card application date but you meet the criteria for the credit card only reward, you will get the default cash reward available for your chosen card on application date.\nTerms and Conditions\n apply.",
+   "tnc_url": null,
+   "bundle_with": [
+    "SG.CC.CITI.PREMIER-MILES-CARD",
+    "SG.CC.CITI.CITI-CASH-BACK-CARD",
+    "SG.CC.CITI.CITI-CASH-BACK+-CARD"
+   ]
+  }
+ ],
+ "links": {
+  "apply": "https://www.singsaver.com.sg/apply-v3/17793"
+ },
+ "citation": {
+  "id": "singsaver:d55c05f54417",
+  "url": "https://www.singsaver.com.sg/credit-card/products/citi-cash-back-card",
+  "title": "Citi Cash Back Card",
+  "source_type": "aggregator",
+  "retrieved_at": "2026-09-27T05:25:04+00:00",
+  "sha256": "d55c05f5441715f9dbc9d4e85ac7c7cded8ef5be818d6881c93c1d14f2bd32ab",
+  "snapshot": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-citi-cash-back-card-5ee9583a.html"
+ },
+ "extra": {
+  "network": [
+   "Mastercard"
+  ],
+  "mobile_wallets": [
+   "Apple Pay",
+   "Samsung Pay"
+  ],
+  "fx_fee_percent": 3.25,
+  "miles_conversion_fee": null,
+  "categories": [
+   "category:all-credit-cards",
+   "category:buffet-promo",
+   "category:cashback",
+   "category:dining-promo",
+   "category:grocery-promo",
+   "category:installment",
+   "category:petrol-promo",
+   "category:promo",
+   "category:retail-promo",
+   "category:travel",
+   "needs:0-interest-rate",
+   "needs:all-cards-with-buffet-promo",
+   "needs:all-cards-with-dining-promo",
+   "needs:all-cards-with-grocery-promo",
+   "needs:all-cards-with-petrol-promo",
+   "needs:all-cards-with-promotion",
+   "needs:all-cards-with-retail-promo",
+   "needs:all-cashback-cards",
+   "needs:all-credit-cards",
+   "needs:all-installment-cards",
+   "needs:all-travel-cards",
+   "needs:free-travel-insurance",
+   "needs:high-cashback",
+   "needs:high-value-gifts",
+   "needs:online-booking-discount",
+   "needs:singsaver-exclusive"
+  ],
+  "tag": "Best for high cashback on essentials",
+  "description": "Suited for household expenses, the Citi Cash Back Credit Card is a reliable cashback card that offers 8% cashback on petrol and private commute, and 6% cashback on dining and groceries. Cashback is capped at S$80 per statement month, with a minimum monthly spend of S$800. Annual fee is waived for the first year."
+ }
+}

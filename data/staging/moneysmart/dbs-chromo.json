@@ -1,0 +1,100 @@
+{
+ "source": "moneysmart",
+ "source_id": "dbs-chromo-card",
+ "source_url": "https://www.moneysmart.sg/credit-cards/dbs-chromo-card",
+ "name": "DBS Chromo Card",
+ "bank": "DBS",
+ "card_id": "dbs-chromo",
+ "image_url": "https://photos.cdn-moneysmart.com/credit_cards/uploads/products/images/image_2026-09-17_DBS_Chromo_Red_260804 (1).png",
+ "earn_rates": {},
+ "caps": {},
+ "highlights": [
+  "Up to 5% Cashback on your top 2 local spend categories every month",
+  "0 FX Fees & 5-year annual fee waiver",
+  "Miles or Cashback Flexibility to choose your reward preference every month",
+  "Up to 5% cashback on your top 2 local spend categories every month across Dining, Shopping, Transport and more - no selection required.",
+  "1% cashback on all other spend - no minimum spend required.",
+  "0 FX fees and 5-year annual fee waiver.",
+  "Toggle between up to 5% cashback or 1.3 miles per S$1. Flexibility to switch your reward preference every month.",
+  "Application is only open to customers between 21-29 years old."
+ ],
+ "sign_up_offers": [
+  {
+   "kind": "special_promotion",
+   "title": "Samsonite MINTER 80/30 Luggage",
+   "subtitle": null,
+   "is_cash": null,
+   "terms": "Valid for New Customers only\nUse promo code \nCSSAM\n when applying\nCharge a min. of S$500 within 60 days from the date of card approval\nHave a valid DBS PayLah! account by the end of the Qualifying Spend period",
+   "campaign": null
+  },
+  {
+   "kind": "special_promotion",
+   "title": "S$288 Cashback",
+   "subtitle": null,
+   "is_cash": null,
+   "terms": "Valid for New Customers only\nUse promo code \nCM288\n when applying\nCharge a min. of S$500 within 60 days from the date of card approval\nHave a valid DBS PayLah! account by the end of the Qualifying Spend period",
+   "campaign": null
+  }
+ ],
+ "links": {
+  "product": "https://www.moneysmart.sg/credit-cards/dbs-chromo-card"
+ },
+ "citation": {
+  "id": "moneysmart:42909b088c22",
+  "url": "https://www.moneysmart.sg/credit-cards?page=2",
+  "title": "DBS Chromo Card",
+  "source_type": "aggregator",
+  "retrieved_at": "2026-09-27T05:27:14+00:00",
+  "sha256": "42909b088c22cb063c120b532d19af920cb3535c52f6bfc313193c6c6ea14746",
+  "snapshot": "data/raw/moneysmart/credit-cards-p2-5f055203.html"
+ },
+ "extra": {
+  "summary": null,
+  "badges": [],
+  "network": [
+   "Visa"
+  ],
+  "mobile_wallets": [
+   "Visa Contactless",
+   "Google Pay",
+   "Apple Pay",
+   "Samsung Pay"
+  ],
+  "groups": {
+   "annual-interest-rate-and-fees": {
+    "Annual Interest Rate": "27.8",
+    "Annual Principal Fee": "S$196.20 (inclusive of GST)",
+    "Supplementary Annual Fee": "Supplementary Card is not issued for DBS Chromo Card",
+    "Fee Waiver": "5-year annual fee waiver",
+    "Interest Free Period": "25 days"
+   },
+   "minimum-income-requirements": {
+    "Singaporean/PR Minimum Annual Income": "30000",
+    "Non-Singaporean Minimum Annual Income": "45000"
+   },
+   "card-association": {
+    "Visa": "true"
+   },
+   "wireless-payment": {
+    "Visa Contactless": "true",
+    "Google Pay": "true",
+    "Apple Pay": "true",
+    "Samsung Pay": "true"
+   },
+   "documents-required": {
+    "SG Citizens or PRs": "Apply via MyInfo",
+    "Passport Validity (Foreigners)": "6 months",
+    "Work Permit Validity (Foreigners)": "6 months",
+    "Utility or Telephone Bill": "With Full Name and Address",
+    "Income Tax Notice of Assessment": "at least 1 year",
+    "Latest Original Computerised Payslip": "true"
+   }
+  },
+  "our_takes": {
+   "our-take": "The DBS Chromo Card does the category-picking for you: each month it identifies your top two eligible local spend categories out of Dining, Travel, Shopping, Transport, Entertainment and Wellness, and applies up to 5% cashback to them, with 1% on other local spend. You can also toggle the whole card to miles mode instead and earn 1.3 miles per S$1 on eligible local spend, uncapped and with no minimum. The annual fee is waived for the first five years, and there's no foreign transaction fee on overseas or foreign-currency spend. Worth a look if you're in your twenties, spend mostly in SGD, and want a card that adjusts to your spending instead of asking you to predict it.",
+   "good-for": "Cardholders in their 20s who'd rather not pre-select cashback categories — Chromo applies bonus cashback to your top two local spend categories automatically each month.\nPeople whose spending shifts month to month, since the bonus follows where you actually spent rather than a choice locked in earlier.\nAnyone who wants the option to toggle between cashback and miles monthly on the same card, without a new application.",
+   "things-to-note": "You must be 21–29 at the point of application. You can keep the card past 30, but from the fourth month after your 30th birthday the rewards drop to a flat 1.7% cashback or 1.3 miles per S$1.\nBonus cashback needs a minimum S$500 local spend in the calendar month. Miss it and everything that month earns the 1% base rate.\nTotal cashback is capped at S$150 per calendar month, covering base and bonus combined.\nForeign currency spend pays no cashback and no miles. It counts towards the S$500 minimum, but the 0% FX fee is the only benefit you get on overseas spend."
+  },
+  "updated_at": "2026-09-17T10:48:59+08:00"
+ }
+}

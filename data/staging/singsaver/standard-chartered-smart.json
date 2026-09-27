@@ -1,0 +1,145 @@
+{
+ "source": "singsaver",
+ "source_id": "standard-chartered-smart-credit-card",
+ "source_url": "https://www.singsaver.com.sg/credit-card/products/standard-chartered-smart-credit-card",
+ "name": "Standard Chartered Smart Credit Card",
+ "bank": "Standard Chartered",
+ "card_id": "standard-chartered-smart",
+ "image_url": "https://mhgprod.blob.core.windows.net/singsaver/strapi-uploads/xs_bltba8402d422c15304_55022c982c.webp",
+ "annual_fee_note": "Waived Perpetually | No Annual Fee",
+ "min_annual_income": 30000.0,
+ "min_monthly_spend": 0.0,
+ "earn_rates": {
+  "percent:online_bill_payment_spending": {
+   "value": 6.0,
+   "unit": "percent",
+   "note": "Disney+, Netflix, Spotify, Youtube subscriptions only"
+  },
+  "percent:baseline": {
+   "value": 0.5,
+   "unit": "percent",
+   "note": "S$1 local spend = 1.6 point on qualifying spend. 3200 points redeemed = S$10 cash credit. Equivalent to 0.5% cashback."
+  },
+  "percent:local": {
+   "value": 10.0,
+   "unit": "percent",
+   "note": "Up to  | Earn up to 10% cashback for spends above S$1,500 on selected Bonus Merchants."
+  },
+  "percent:overseas": {
+   "value": 10.0,
+   "unit": "percent",
+   "note": "Up to  | Earn up to 10% cashback for spends above S$1,500 on selected Bonus Merchants."
+  },
+  "percent:dining": {
+   "value": 10.0,
+   "unit": "percent",
+   "note": "Up to  | Earn up to 10% cashback for spends above S$1,500 on selected Bonus Merchants."
+  },
+  "percent:transport": {
+   "value": 10.0,
+   "unit": "percent",
+   "note": "Up to  | Earn up to 10% cashback for spends above S$1,500 on selected Bonus Merchants."
+  },
+  "points_per_dollar:baseline": {
+   "value": 1.6,
+   "unit": "points_per_dollar",
+   "note": "S$1 local spend = 1.6 point on qualifying spend. 3200 points redeemed = S$10 cash credit."
+  },
+  "points_per_dollar:local_spending": {
+   "value": 32.0,
+   "unit": "points_per_dollar",
+   "note": "Up to | Earn up to 32 points per S$1 for spends above S$1,500 on selected Bonus Merchants."
+  },
+  "points_per_dollar:overseas_spending": {
+   "value": 32.0,
+   "unit": "points_per_dollar",
+   "note": "Up to  | Earn up to 32 points per S$1 for spends above S$1,500 on selected Bonus Merchants."
+  },
+  "points_per_dollar:dining": {
+   "value": 32.0,
+   "unit": "points_per_dollar",
+   "note": "Up to  | Earn up to 32 points per S$1 for spends above S$1,500 on selected Bonus Merchants."
+  },
+  "points_per_dollar:transport": {
+   "value": 32.0,
+   "unit": "points_per_dollar",
+   "note": "Up to  | Earn up to 32 points per S$1 for spends above S$1,500 on selected Bonus Merchants."
+  }
+ },
+ "caps": {
+  "cashback_bonus_cap": {
+   "value": null,
+   "note": "No cap"
+  },
+  "rewards_bonus_cap": {
+   "value": null,
+   "note": "No Cap"
+  }
+ },
+ "highlights": [
+  "Earn up to 10% cashback for spends above S$1,500 on selected Bonus Merchants. 0.5% unlimited cashback on all other spends.",
+  "pros: Earn up to 10% cashback for spends above S$1,500 on selected merchants.",
+  "pros: Earn up to 8% cashback for spends above S$800 on selected merchants.",
+  "pros: Enjoy 0.5% cashback for all base spends with no monthly cashback cap.",
+  "pros: Enjoy peace of mind when your flight is delayed with Visa SmartDelay™, which offers complimentary access to over 1,700 airport lounges and travel experiences.",
+  "pros: Interest-free instalments with SC Easy Pay.",
+  "pros: No cash advance fee.",
+  "pros: First-year annual fee waived for new cardholders (S$91 excl. GST thereafter)",
+  "pros: No cashback cap.",
+  "cons: Cashback awarded in the form of 360° Rewards Points.",
+  "cons: Points expire after 3 years.",
+  "pros: Flexible redemption options for miles, cashback or shopping vouchers",
+  "pros: Streaming, dining and commuting",
+  "pros: Interest-free Installments with SC Easy Pay",
+  "pros: First-year annual fee waiver"
+ ],
+ "sign_up_offers": [],
+ "links": {},
+ "citation": {
+  "id": "singsaver:9ebec3120fb4",
+  "url": "https://www.singsaver.com.sg/credit-card/products/standard-chartered-smart-credit-card",
+  "title": "Standard Chartered Smart Credit Card",
+  "source_type": "aggregator",
+  "retrieved_at": "2026-09-27T05:26:41+00:00",
+  "sha256": "9ebec3120fb4e46cd226b5fba6189e126a03a57ab0c89295902bc5617c5f08df",
+  "snapshot": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-standard-chartered-smart-credit-card-3ff12bed.html"
+ },
+ "extra": {
+  "network": [
+   "VISA"
+  ],
+  "mobile_wallets": [
+   "Google Pay",
+   "Apple Pay",
+   "Samsung Pay"
+  ],
+  "fx_fee_percent": 3.5,
+  "miles_conversion_fee": 27.0,
+  "categories": [
+   "category:all-credit-cards",
+   "category:cashback",
+   "category:dining-promo",
+   "category:installment",
+   "category:petrol-promo",
+   "category:promo",
+   "category:retail-promo",
+   "category:rewards",
+   "needs:0-interest-rate",
+   "needs:0-processing-fee",
+   "needs:all-cards-with-dining-promo",
+   "needs:all-cards-with-petrol-promo",
+   "needs:all-cards-with-promotion",
+   "needs:all-cards-with-retail-promo",
+   "needs:all-cashback-cards",
+   "needs:all-credit-cards",
+   "needs:all-installment-cards",
+   "needs:all-rewards-cards",
+   "needs:high-rewards-rebate",
+   "needs:no-minimum-spend-required-cashback",
+   "needs:no-minimum-spend-required-rewards",
+   "needs:singsaver-exclusive"
+  ],
+  "tag": null,
+  "description": "The Standard Chartered Smart Credit Card is a great option to have if you frequent fast-food outlets, pay for digital subscriptions or commute regularly on bus or MRT. Cashback is earned in the form of Rewards Points, which you can redeem for 6% cashback. With zero annual fees and no minimum spend requirements, it is the perfect card to have for everyday spending."
+ }
+}
