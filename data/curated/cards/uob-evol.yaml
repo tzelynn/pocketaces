@@ -39,6 +39,10 @@ earn_rules:
       check it belongs to this rule]
     sources: ['singsaver:2d8a6fa00b39', 'bank:8c8b4db1d31d', 'bank:c58647465439', 'bank:3da0b3b24423',
       'bank:42358e29d735', 'bank:c13cf48e44b4', 'bank:799ed3a9a4fa']
+  min_spend:
+    amount: 800.0
+    currency: SGD
+  min_spend_period: statement_month
   bonus_cap:
     amount: 30.0
     unit: SGD_cashback
@@ -48,6 +52,8 @@ earn_rules:
   - bonus_cap parsed from aggregator text “Capped at S$30 per statement month” — confirm amount, unit
     and whether the period is calendar or statement month
   - 'aggregator categories: dining, groceries, shopping, healthcare'
+  - min spend S$800/month from singsaver — confirm the period (statement vs calendar month) and which
+    rules it unlocks
   sources: ['singsaver:2d8a6fa00b39']
 - id: overseas
   label: overseas (SingSaver — verify)
@@ -58,6 +64,13 @@ earn_rules:
     description: Up to 1% cashback on overseas foreign currency spend with no min. spend and no cap, valid
       till 31 Dec 2026.
     sources: ['singsaver:2d8a6fa00b39']
+  min_spend:
+    amount: 800.0
+    currency: SGD
+  min_spend_period: statement_month
+  conditions:
+  - min spend S$800/month from singsaver — confirm the period (statement vs calendar month) and which
+    rules it unlocks
   sources: ['singsaver:2d8a6fa00b39']
 - id: transport
   label: transport (SingSaver — verify)
@@ -68,6 +81,10 @@ earn_rules:
     tags: [transport]
     description: Capped at S$30 per statement month.
     sources: ['singsaver:2d8a6fa00b39']
+  min_spend:
+    amount: 800.0
+    currency: SGD
+  min_spend_period: statement_month
   bonus_cap:
     amount: 30.0
     unit: SGD_cashback
@@ -76,6 +93,8 @@ earn_rules:
   conditions:
   - bonus_cap parsed from aggregator text “Capped at S$30 per statement month” — confirm amount, unit
     and whether the period is calendar or statement month
+  - min spend S$800/month from singsaver — confirm the period (statement vs calendar month) and which
+    rules it unlocks
   sources: ['singsaver:2d8a6fa00b39']
 - id: base
   label: baseline (SingSaver — verify)

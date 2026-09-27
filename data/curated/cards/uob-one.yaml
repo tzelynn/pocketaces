@@ -34,6 +34,13 @@ earn_rules:
       auto-extracted from official T&C — check it belongs to this rule]
     sources: ['singsaver:b75574a4d371', 'bank:2ed33269412e', 'bank:8876b22d62f2', 'bank:799ed3a9a4fa',
       'bank:3dd0f7414dc4', 'bank:42358e29d735', 'bank:c13cf48e44b4', 'bank:bed290b5b010']
+  min_spend:
+    amount: 600.0
+    currency: SGD
+  min_spend_period: statement_month
+  conditions:
+  - min spend S$600/month from singsaver — confirm the period (statement vs calendar month) and which
+    rules it unlocks
   sources: ['singsaver:b75574a4d371']
 - id: local-online-shopping
   label: local online shopping, retail, transport, dining (SingSaver — verify)
@@ -46,6 +53,13 @@ earn_rules:
       spend at Grab and SimplyGo (bus/train rides) / Up to  | Up to 10% cashback on daily spend at McDonald's,
       GrabFood and Grab Dine Out
     sources: ['singsaver:b75574a4d371']
+  min_spend:
+    amount: 600.0
+    currency: SGD
+  min_spend_period: statement_month
+  conditions:
+  - min spend S$600/month from singsaver — confirm the period (statement vs calendar month) and which
+    rules it unlocks
   sources: ['singsaver:b75574a4d371']
 - id: supermarket
   label: supermarket (SingSaver — verify)
@@ -56,6 +70,13 @@ earn_rules:
     tags: [groceries]
     description: Up to | Up to 8% cashback on all grocery spend
     sources: ['singsaver:b75574a4d371']
+  min_spend:
+    amount: 600.0
+    currency: SGD
+  min_spend_period: statement_month
+  conditions:
+  - min spend S$600/month from singsaver — confirm the period (statement vs calendar month) and which
+    rules it unlocks
   sources: ['singsaver:b75574a4d371']
 - id: overseas
   label: overseas (SingSaver — verify)
@@ -66,6 +87,13 @@ earn_rules:
     description: Up to | Min. spend of S$600 / S$1,000 / S$2,000 per month (min. 10 transactions) for
       qualifying quarter
     sources: ['singsaver:b75574a4d371']
+  min_spend:
+    amount: 600.0
+    currency: SGD
+  min_spend_period: statement_month
+  conditions:
+  - min spend S$600/month from singsaver — confirm the period (statement vs calendar month) and which
+    rules it unlocks
   sources: ['singsaver:b75574a4d371']
 - id: base
   label: baseline (SingSaver — verify)

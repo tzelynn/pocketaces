@@ -33,6 +33,13 @@ earn_rules:
       qualifying spend S$500 and above for three consecutive months in a quarter, monthly cashback capped
       at S$60.
     sources: ['singsaver:eccd48c19a58']
+  min_spend:
+    amount: 500.0
+    currency: SGD
+  min_spend_period: statement_month
+  conditions:
+  - min spend S$500/month from singsaver — confirm the period (statement vs calendar month) and which
+    rules it unlocks
   sources: ['singsaver:eccd48c19a58']
 - id: base
   label: baseline (SingSaver — verify)

@@ -30,8 +30,14 @@ earn_rules:
       from official T&C — check it belongs to this rule]
     sources: ['singsaver:9c6affbada2c', 'bank:c190661d8a48', 'bank:b81a08ff9609', 'bank:c190661d8a48',
       'bank:472e40f873ba']
+  min_spend:
+    amount: 500.0
+    currency: SGD
+  min_spend_period: statement_month
   conditions:
   - 'aggregator categories: ride_hailing, groceries, transport'
+  - min spend S$500/month from singsaver — confirm the period (statement vs calendar month) and which
+    rules it unlocks
   sources: ['singsaver:9c6affbada2c']
 - id: retail
   label: retail, local, overseas (SingSaver — verify)
@@ -42,6 +48,13 @@ earn_rules:
     tags: [shopping]
     description: Excluding accelerated cashback categories
     sources: ['singsaver:9c6affbada2c']
+  min_spend:
+    amount: 500.0
+    currency: SGD
+  min_spend_period: statement_month
+  conditions:
+  - min spend S$500/month from singsaver — confirm the period (statement vs calendar month) and which
+    rules it unlocks
   sources: ['singsaver:9c6affbada2c']
 - id: base
   label: baseline (SingSaver — verify)

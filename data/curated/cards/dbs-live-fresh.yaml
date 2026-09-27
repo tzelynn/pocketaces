@@ -32,6 +32,10 @@ earn_rules:
       month. / Up to  | On Shopping spend. Capped at S$50 per calendar month. / Up to | On Shopping spend.
       Capped at S$50 per calendar month.
     sources: ['singsaver:8a7535ff6b3a']
+  min_spend:
+    amount: 800.0
+    currency: SGD
+  min_spend_period: statement_month
   bonus_cap:
     amount: 20.0
     unit: SGD_cashback
@@ -40,6 +44,8 @@ earn_rules:
   conditions:
   - bonus_cap parsed from aggregator text “Capped at S$20 per calendar month” — confirm amount, unit and
     whether the period is calendar or statement month
+  - min spend S$800/month from singsaver — confirm the period (statement vs calendar month) and which
+    rules it unlocks
   sources: ['singsaver:8a7535ff6b3a']
 - id: travel
   label: travel, dining, supermarket (SingSaver — verify)
@@ -50,6 +56,13 @@ earn_rules:
     tags: [travel, dining, groceries]
     description: Unlimited base cashback on All spend.
     sources: ['singsaver:8a7535ff6b3a']
+  min_spend:
+    amount: 800.0
+    currency: SGD
+  min_spend_period: statement_month
+  conditions:
+  - min spend S$800/month from singsaver — confirm the period (statement vs calendar month) and which
+    rules it unlocks
   sources: ['singsaver:8a7535ff6b3a']
 - id: base
   label: baseline (SingSaver — verify)

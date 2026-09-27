@@ -42,7 +42,14 @@ earn_rules:
       to 0.4 mpd). [include_mcc auto-extracted from official T&C — check it belongs to this rule]
     sources: ['singsaver:eea43cb0180c', 'bank:0d166f4ab1ad', 'bank:c13cf48e44b4', 'bank:52d9be91844e',
       'bank:0d166f4ab1ad', 'bank:42358e29d735']
-  conditions: ['aggregator categories: petrol']
+  min_spend:
+    amount: 1000.0
+    currency: SGD
+  min_spend_period: statement_month
+  conditions:
+  - 'aggregator categories: petrol'
+  - min spend S$1000/month from singsaver — confirm the period (statement vs calendar month) and which
+    rules it unlocks
   sources: ['singsaver:eea43cb0180c']
 - id: base
   label: baseline (SingSaver — verify)

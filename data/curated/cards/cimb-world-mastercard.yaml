@@ -29,6 +29,13 @@ earn_rules:
       Jan 2025). Base rate 1%. [include_mcc auto-extracted from official T&C — check it belongs to this
       rule]
     sources: ['singsaver:a7dfa0682bc7', 'bank:7af607a42690']
+  min_spend:
+    amount: 1000.0
+    currency: SGD
+  min_spend_period: statement_month
+  conditions:
+  - min spend S$1000/month from singsaver — confirm the period (statement vs calendar month) and which
+    rules it unlocks
   sources: ['singsaver:a7dfa0682bc7']
 - id: retail
   label: retail, transport, department store, dining, local (SingSaver — verify)
@@ -43,6 +50,13 @@ earn_rules:
       the same statement month. No cap. / 2% cashback on dining, entertainment, luxury goods and taxi
       with $1,000 min. spend posted in the same statement month. No cap.
     sources: ['singsaver:a7dfa0682bc7']
+  min_spend:
+    amount: 1000.0
+    currency: SGD
+  min_spend_period: statement_month
+  conditions:
+  - min spend S$1000/month from singsaver — confirm the period (statement vs calendar month) and which
+    rules it unlocks
   sources: ['singsaver:a7dfa0682bc7']
 - id: base
   label: baseline (SingSaver — verify)

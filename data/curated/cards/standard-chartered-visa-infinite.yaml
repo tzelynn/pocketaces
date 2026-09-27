@@ -29,6 +29,13 @@ earn_rules:
       '8299', '8398', '8651', '8661', '8999', '9211', '9222', '9223', '9311', '9399', '9402', '9405']
     description: ' [include_mcc auto-extracted from official T&C — check it belongs to this rule]'
     sources: ['singsaver:0e084637ef70', 'bank:3a34b864029c', 'bank:038d14ed9964']
+  min_spend:
+    amount: 2000.0
+    currency: SGD
+  min_spend_period: statement_month
+  conditions:
+  - min spend S$2000/month from singsaver — confirm the period (statement vs calendar month) and which
+    rules it unlocks
   sources: ['singsaver:0e084637ef70']
 - id: hotel-booking
   label: hotel booking, flight booking, retail, dining, local online shopping, department store, supermarket,
@@ -40,6 +47,13 @@ earn_rules:
     tags: [hotels, flights, shopping, dining, groceries, transport, petrol, travel]
     description: '1 mile per S$1 otherwise if monthly spend is below S$2,000. '
     sources: ['singsaver:0e084637ef70']
+  min_spend:
+    amount: 2000.0
+    currency: SGD
+  min_spend_period: statement_month
+  conditions:
+  - min spend S$2000/month from singsaver — confirm the period (statement vs calendar month) and which
+    rules it unlocks
   sources: ['singsaver:0e084637ef70']
 - id: base
   label: baseline (SingSaver — verify)

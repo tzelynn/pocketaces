@@ -27,8 +27,8 @@ earn_rules:
   tier: bonus
   eligibility:
     include_mcc: ['4829', '4900', '5199', '5960', '5993', '6012', '6050', '6051', '6211', '6300', '6513',
-      6529-6540, '6529', '6530', '6534', '6540', '7349', '7511', '7523', '7800', '7995', '8062', '8211',
-      8211-8299, '8220', '8241', '8244', '8249', '8299', '8398', 8651-8661, '8651', '8661', 9000-9999,
+      '6529', 6529-6540, '6530', '6534', '6540', '7349', '7511', '7523', '7800', '7995', '8062', '8211',
+      8211-8299, '8220', '8241', '8244', '8249', '8299', '8398', '8651', 8651-8661, '8661', 9000-9999,
       '9211', '9222', '9223', '9311', '9399', '9402', '9405', '9754']
     description: Up to | 8% cash back on private commute and petrol spend and 6% cash back on dining and
       groceries spend. Minimum S$800 spend per statement month. S$80 combined cash back cap across all
@@ -39,8 +39,14 @@ earn_rules:
       from official T&C — check it belongs to this rule]
     sources: ['singsaver:d55c05f54417', 'bank:188bcaa8e33a', 'bank:d43f74d8ca64', 'bank:d5032b477a74',
       'bank:a1653bcbce38', 'bank:472e40f873ba']
+  min_spend:
+    amount: 800.0
+    currency: SGD
+  min_spend_period: statement_month
   conditions:
   - 'aggregator categories: ride_hailing, transport, petrol'
+  - min spend S$800/month from singsaver — confirm the period (statement vs calendar month) and which
+    rules it unlocks
   sources: ['singsaver:d55c05f54417']
 - id: dining
   label: dining, supermarket (SingSaver — verify)
@@ -53,6 +59,13 @@ earn_rules:
       0.2%. / Up to  | 6% cash back at all grocery stores worldwide with a min. monthly spend of S$800.
       Base cashback 0.2%.
     sources: ['singsaver:d55c05f54417']
+  min_spend:
+    amount: 800.0
+    currency: SGD
+  min_spend_period: statement_month
+  conditions:
+  - min spend S$800/month from singsaver — confirm the period (statement vs calendar month) and which
+    rules it unlocks
   sources: ['singsaver:d55c05f54417']
 - id: retail
   label: retail, local online shopping (SingSaver — verify)
@@ -64,6 +77,13 @@ earn_rules:
     description: 0.20% on all other retail spend. No min. spend. S$80 combined cashback cap across all
       categories.
     sources: ['singsaver:d55c05f54417']
+  min_spend:
+    amount: 800.0
+    currency: SGD
+  min_spend_period: statement_month
+  conditions:
+  - min spend S$800/month from singsaver — confirm the period (statement vs calendar month) and which
+    rules it unlocks
   sources: ['singsaver:d55c05f54417']
 - id: base
   label: baseline (SingSaver — verify)

@@ -31,6 +31,10 @@ earn_rules:
       and S$100 with a minimum monthly spend of S$1,000 per quarter. No quarterly cashback will be awarded
       if monthly minimum spend isn't met.
     sources: ['singsaver:3103f3955f7a']
+  min_spend:
+    amount: 300.0
+    currency: SGD
+  min_spend_period: statement_month
   bonus_cap:
     amount: 30.0
     unit: SGD_cashback
@@ -39,6 +43,8 @@ earn_rules:
   conditions:
   - bonus_cap parsed from aggregator text “capped at S$30 with a minimum monthly spend of S$300 per quarter”
     — confirm amount, unit and whether the period is calendar or statement month
+  - min spend S$300/month from singsaver — confirm the period (statement vs calendar month) and which
+    rules it unlocks
   sources: ['singsaver:3103f3955f7a']
 - id: base
   label: baseline (SingSaver — verify)

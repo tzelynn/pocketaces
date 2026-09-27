@@ -41,6 +41,13 @@ earn_rules:
       contactless bus and train rides, limousines, taxis, Grab/GOJEK rides, other passenger transportation
       services and automotive related services globally. S$25 monthly cashback cap. '
     sources: ['singsaver:e68ba5463cc4']
+  min_spend:
+    amount: 800.0
+    currency: SGD
+  min_spend_period: statement_month
+  conditions:
+  - min spend S$800/month from singsaver — confirm the period (statement vs calendar month) and which
+    rules it unlocks
   sources: ['singsaver:e68ba5463cc4']
 - id: online-bill-payment-spending
   label: online bill payment spending (SingSaver — verify)
@@ -50,6 +57,13 @@ earn_rules:
   eligibility:
     description: 0.3% cashback on AXS bill payments. Cashback is capped at S$50 per transaction.
     sources: ['singsaver:e68ba5463cc4']
+  min_spend:
+    amount: 800.0
+    currency: SGD
+  min_spend_period: statement_month
+  conditions:
+  - min spend S$800/month from singsaver — confirm the period (statement vs calendar month) and which
+    rules it unlocks
   sources: ['singsaver:e68ba5463cc4']
 - id: base
   label: baseline (SingSaver — verify)

@@ -33,8 +33,14 @@ earn_rules:
       Groceries, Beauty & Wellness, Pet Shops & Veterinary Services and Cruises only. Capped at $100 per
       statement month. [include_mcc auto-extracted from official T&C — check it belongs to this rule]
     sources: ['singsaver:6949365d3283', 'bank:77a561cdba78']
+  min_spend:
+    amount: 800.0
+    currency: SGD
+  min_spend_period: statement_month
   conditions:
   - 'aggregator categories: shopping, healthcare, travel, groceries'
+  - min spend S$800/month from singsaver — confirm the period (statement vs calendar month) and which
+    rules it unlocks
   sources: ['singsaver:6949365d3283']
 - id: overseas
   label: overseas (SingSaver — verify)
@@ -45,6 +51,13 @@ earn_rules:
     description: Up to | Unlimited 3% cashback on overseas foreign currency spend, valid till 31 January
       2025. Base rate 0.2%.
     sources: ['singsaver:6949365d3283']
+  min_spend:
+    amount: 800.0
+    currency: SGD
+  min_spend_period: statement_month
+  conditions:
+  - min spend S$800/month from singsaver — confirm the period (statement vs calendar month) and which
+    rules it unlocks
   sources: ['singsaver:6949365d3283']
 - id: base
   label: baseline (SingSaver — verify)

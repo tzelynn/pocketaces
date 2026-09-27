@@ -35,6 +35,13 @@ earn_rules:
       calendar month. Minimum spend of S$800 required. / Up to  | Up to 10% cashback on SimplyGo, capped
       at Daily$20 per calendar month.
     sources: ['singsaver:07b052cd3085']
+  min_spend:
+    amount: 800.0
+    currency: SGD
+  min_spend_period: statement_month
+  conditions:
+  - min spend S$800/month from singsaver — confirm the period (statement vs calendar month) and which
+    rules it unlocks
   sources: ['singsaver:07b052cd3085']
 - id: petrol
   label: petrol (SingSaver — verify)
@@ -45,6 +52,13 @@ earn_rules:
     tags: [petrol]
     description: Up to  | Up to 6% fuel savings at SPC.
     sources: ['singsaver:07b052cd3085']
+  min_spend:
+    amount: 800.0
+    currency: SGD
+  min_spend_period: statement_month
+  conditions:
+  - min spend S$800/month from singsaver — confirm the period (statement vs calendar month) and which
+    rules it unlocks
   sources: ['singsaver:07b052cd3085']
 - id: supermarket
   label: supermarket, retail, local online shopping, overseas online shopping (SingSaver — verify)
@@ -63,6 +77,13 @@ earn_rules:
       RedMart, Taobao and TikTok Shop, capped at Daily$20 cash rebates per calendar month. Requires min.
       spend of S$800 per calendar month; otherwise receive 0.3% baseline cashback.
     sources: ['singsaver:07b052cd3085']
+  min_spend:
+    amount: 800.0
+    currency: SGD
+  min_spend_period: statement_month
+  conditions:
+  - min spend S$800/month from singsaver — confirm the period (statement vs calendar month) and which
+    rules it unlocks
   sources: ['singsaver:07b052cd3085']
 - id: base
   label: baseline (SingSaver — verify)

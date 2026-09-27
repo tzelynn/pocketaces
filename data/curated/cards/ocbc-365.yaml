@@ -33,7 +33,14 @@ earn_rules:
       Stations and City Energy). [include_mcc auto-extracted from official T&C — check it belongs to this
       rule]
     sources: ['singsaver:bbd80934cf08', 'bank:b05572c73e39']
-  conditions: ['aggregator categories: petrol']
+  min_spend:
+    amount: 800.0
+    currency: SGD
+  min_spend_period: statement_month
+  conditions:
+  - 'aggregator categories: petrol'
+  - min spend S$800/month from singsaver — confirm the period (statement vs calendar month) and which
+    rules it unlocks
   sources: ['singsaver:bbd80934cf08']
 - id: dining
   label: dining (SingSaver — verify)
@@ -45,6 +52,13 @@ earn_rules:
     modes_required: [online]
     description: Online food delivery, local and overseas dining with min. S$800 spend per calendar month.
     sources: ['singsaver:bbd80934cf08']
+  min_spend:
+    amount: 800.0
+    currency: SGD
+  min_spend_period: statement_month
+  conditions:
+  - min spend S$800/month from singsaver — confirm the period (statement vs calendar month) and which
+    rules it unlocks
   sources: ['singsaver:bbd80934cf08']
 - id: health
   label: health, online bill payment spending, transport, supermarket (SingSaver — verify)
@@ -60,6 +74,13 @@ earn_rules:
       taxi rides (e.g. ComfortDelGro). With minimum spending of $800 per calendar month. / With minimum
       spending of $800 per calendar month.
     sources: ['singsaver:bbd80934cf08']
+  min_spend:
+    amount: 800.0
+    currency: SGD
+  min_spend_period: statement_month
+  conditions:
+  - min spend S$800/month from singsaver — confirm the period (statement vs calendar month) and which
+    rules it unlocks
   sources: ['singsaver:bbd80934cf08']
 - id: overseas
   label: overseas (SingSaver — verify)
@@ -69,6 +90,13 @@ earn_rules:
   eligibility:
     description: ''
     sources: ['singsaver:bbd80934cf08']
+  min_spend:
+    amount: 800.0
+    currency: SGD
+  min_spend_period: statement_month
+  conditions:
+  - min spend S$800/month from singsaver — confirm the period (statement vs calendar month) and which
+    rules it unlocks
   sources: ['singsaver:bbd80934cf08']
 - id: base
   label: baseline (SingSaver — verify)

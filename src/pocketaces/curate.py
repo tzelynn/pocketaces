@@ -18,7 +18,7 @@ import yaml
 
 from . import paths, registry
 from .models import (
-    AnnualFee, Cap, Card, Citation, EarnRule, Eligibility, Money, RewardCurrency, SignUpBonus,
+    AnnualFee, Cap, Card, Citation, EarnRule, Eligibility, Money, Period, RewardCurrency, SignUpBonus,
     StagedCard,
 )
 from .sources.common import load_staging
@@ -167,8 +167,10 @@ def build_draft(card_id: str) -> Card:
                 g["notes"].append(v["note"])
             g["tags"] += [t for t in CATEGORY_TAGS.get(cat, []) if t not in g["tags"]]
     tnc_include = sorted({c for d in tnc.get("documents", []) for c in d.get("mcc", {}).get("include", [])},
-                         key=lambda c: int(c[:4]))
+                         key=lambda c: (int(c[:4]), c))
     bonus_rates = {g["rate"] for g in grouped.values() if not g["base"]}
+    # Aggregators give one card-level monthly minimum; attach it to every bonus rule.
+    min_src = next((s for s in (ss, ms) if s and s.min_monthly_spend), None)
     rules: list[EarnRule] = []
     for g in sorted(grouped.values(), key=lambda g: (g["base"], -g["rate"])):
         top = not g["base"] and g["rate"] == max(bonus_rates, default=None)
@@ -192,14 +194,19 @@ def build_draft(card_id: str) -> Card:
                     if include else ""),
                 sources=[ss.citation.id] + (tnc_cites if include else []),
             ),
+            min_spend=Money(amount=min_src.min_monthly_spend) if min_src and not g["base"] else None,
+            min_spend_period=Period.statement_month if min_src and not g["base"] else None,
             bonus_cap=Cap(**cap.model_dump(exclude={"sources"}), sources=[ss.citation.id]) if cap else None,
             conditions=cap_notes + ([f"aggregator categories: {', '.join(g['tags'])}"]
-                                    if include and g["tags"] else []),
+                                    if include and g["tags"] else [])
+                       + ([f"min spend S${min_src.min_monthly_spend:g}/month from {min_src.source} — "
+                           "confirm the period (statement vs calendar month) and which rules it unlocks"]
+                          if min_src and not g["base"] else []),
             sources=[ss.citation.id],
         ))
 
     exclude = sorted({c for d in tnc.get("documents", []) for c in d.get("mcc", {}).get("exclude", [])},
-                     key=lambda c: int(c[:4]))
+                     key=lambda c: (int(c[:4]), c))
     general = Eligibility(
         exclude_mcc=exclude,
         description="Auto-extracted from official T&Cs — confirm each code applies to this card",

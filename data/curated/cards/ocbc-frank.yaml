@@ -39,8 +39,14 @@ earn_rules:
       spend of S$800 required. [include_mcc auto-extracted from official T&C — check it belongs to this
       rule]
     sources: ['singsaver:81d130552464', 'bank:fc5446be68b3']
+  min_spend:
+    amount: 800.0
+    currency: SGD
+  min_spend_period: statement_month
   conditions:
   - 'aggregator categories: groceries, shopping, transport'
+  - min spend S$800/month from singsaver — confirm the period (statement vs calendar month) and which
+    rules it unlocks
   sources: ['singsaver:81d130552464']
 - id: dining
   label: dining, overseas online shopping, overseas (SingSaver — verify)
@@ -54,6 +60,13 @@ earn_rules:
       merchants  capped at S$25  minimum spend of S$800 required. / For purchases made in foreign currency,
       both online and in stores  capped at S$25  minimum spend of S$800 required.
     sources: ['singsaver:81d130552464']
+  min_spend:
+    amount: 800.0
+    currency: SGD
+  min_spend_period: statement_month
+  conditions:
+  - min spend S$800/month from singsaver — confirm the period (statement vs calendar month) and which
+    rules it unlocks
   sources: ['singsaver:81d130552464']
 - id: base
   label: baseline (SingSaver — verify)

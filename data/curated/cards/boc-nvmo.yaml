@@ -32,7 +32,14 @@ earn_rules:
       spend, capped at S$25. [include_mcc auto-extracted from official T&C — check it belongs to this
       rule]
     sources: ['singsaver:814a8c9370be', 'bank:81b5fb4d086e']
-  conditions: ['aggregator categories: dining']
+  min_spend:
+    amount: 800.0
+    currency: SGD
+  min_spend_period: statement_month
+  conditions:
+  - 'aggregator categories: dining'
+  - min spend S$800/month from singsaver — confirm the period (statement vs calendar month) and which
+    rules it unlocks
   sources: ['singsaver:814a8c9370be']
 - id: travel
   label: travel, entertainment (SingSaver — verify)
@@ -44,6 +51,13 @@ earn_rules:
     description: Get 8% cashback on travel & entertainment spend with S$800 min. monthly spend, capped
       at S$25. Base rate 0.3%.
     sources: ['singsaver:814a8c9370be']
+  min_spend:
+    amount: 800.0
+    currency: SGD
+  min_spend_period: statement_month
+  conditions:
+  - min spend S$800/month from singsaver — confirm the period (statement vs calendar month) and which
+    rules it unlocks
   sources: ['singsaver:814a8c9370be']
 - id: transport
   label: transport, retail, local online shopping, overseas online shopping, supermarket, health (SingSaver
@@ -59,6 +73,13 @@ earn_rules:
       capped at S$25. Base rate 0.3%. / Up to  | Get up to 3% cashback on health & wellness spend with
       S$800 min. monthly spend, capped at S$25. Base rate 0.3%.
     sources: ['singsaver:814a8c9370be']
+  min_spend:
+    amount: 800.0
+    currency: SGD
+  min_spend_period: statement_month
+  conditions:
+  - min spend S$800/month from singsaver — confirm the period (statement vs calendar month) and which
+    rules it unlocks
   sources: ['singsaver:814a8c9370be']
 - id: base
   label: baseline (SingSaver — verify)

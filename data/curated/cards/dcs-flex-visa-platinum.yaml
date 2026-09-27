@@ -33,6 +33,13 @@ earn_rules:
     description: On foreign currency spend, with min. monthly spend of S$600. Capped at 750 miles. [include_mcc
       auto-extracted from official T&C — check it belongs to this rule]
     sources: ['singsaver:c42ebd6a9140', 'bank:98fa14ed292d']
+  min_spend:
+    amount: 600.0
+    currency: SGD
+  min_spend_period: statement_month
+  conditions:
+  - min spend S$600/month from singsaver — confirm the period (statement vs calendar month) and which
+    rules it unlocks
   sources: ['singsaver:c42ebd6a9140']
 - id: contactless-spend
   label: contactless spend, local online shopping (SingSaver — verify)
@@ -44,6 +51,13 @@ earn_rules:
     description: On contactless purchases in SGD, with min. monthly spend of S$600. Capped at 750 miles.
       / On online transactions in SGD, with min. monthly spend of S$600. Capped at 750 miles.
     sources: ['singsaver:c42ebd6a9140']
+  min_spend:
+    amount: 600.0
+    currency: SGD
+  min_spend_period: statement_month
+  conditions:
+  - min spend S$600/month from singsaver — confirm the period (statement vs calendar month) and which
+    rules it unlocks
   sources: ['singsaver:c42ebd6a9140']
 - id: base
   label: baseline (SingSaver — verify)

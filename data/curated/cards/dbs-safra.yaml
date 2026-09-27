@@ -26,6 +26,13 @@ earn_rules:
       minimum spend of S$500  Earned in the form of SAFRA$  Capped at SAFRA$50 per calendar month. / With
       minimum spend of S$500  Earned in the form of SAFRA$  Capped at SAFRA$50 per calendar month.
     sources: ['singsaver:a2fa5d01829d']
+  min_spend:
+    amount: 500.0
+    currency: SGD
+  min_spend_period: statement_month
+  conditions:
+  - min spend S$500/month from singsaver — confirm the period (statement vs calendar month) and which
+    rules it unlocks
   sources: ['singsaver:a2fa5d01829d']
 - id: overseas
   label: overseas (SingSaver — verify)
@@ -35,6 +42,13 @@ earn_rules:
   eligibility:
     description: Earned in the form of SAFRA$  Capped at SAFRA$50 per calendar month.
     sources: ['singsaver:a2fa5d01829d']
+  min_spend:
+    amount: 500.0
+    currency: SGD
+  min_spend_period: statement_month
+  conditions:
+  - min spend S$500/month from singsaver — confirm the period (statement vs calendar month) and which
+    rules it unlocks
   sources: ['singsaver:a2fa5d01829d']
 - id: base
   label: baseline (SingSaver — verify)

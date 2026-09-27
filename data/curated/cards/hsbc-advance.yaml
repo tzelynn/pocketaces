@@ -30,6 +30,13 @@ earn_rules:
       customers. / With minimum monthly spend of S$2,000.  Receive additional 1% cashback for HSBC banking
       customers.
     sources: ['singsaver:2793872c3a42']
+  min_spend:
+    amount: 2000.0
+    currency: SGD
+  min_spend_period: statement_month
+  conditions:
+  - min spend S$2000/month from singsaver — confirm the period (statement vs calendar month) and which
+    rules it unlocks
   sources: ['singsaver:2793872c3a42']
 - id: base
   label: baseline (SingSaver — verify)

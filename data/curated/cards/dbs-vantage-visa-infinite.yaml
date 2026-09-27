@@ -31,6 +31,13 @@ earn_rules:
       airline or hotel partners.  / 6 miles per dollar when you book a flight ticket, hotel stay or travel
       package on Expedia at any participating airline or hotel partners. '
     sources: ['singsaver:669435333fe4']
+  min_spend:
+    amount: 2000.0
+    currency: SGD
+  min_spend_period: statement_month
+  conditions:
+  - min spend S$2000/month from singsaver — confirm the period (statement vs calendar month) and which
+    rules it unlocks
   sources: ['singsaver:669435333fe4']
 - id: overseas
   label: overseas (SingSaver — verify)
@@ -40,6 +47,13 @@ earn_rules:
   eligibility:
     description: S$1 overseas spend = 2.2 miles
     sources: ['singsaver:669435333fe4']
+  min_spend:
+    amount: 2000.0
+    currency: SGD
+  min_spend_period: statement_month
+  conditions:
+  - min spend S$2000/month from singsaver — confirm the period (statement vs calendar month) and which
+    rules it unlocks
   sources: ['singsaver:669435333fe4']
 - id: local
   label: local, retail, dining, local online shopping, overseas online shopping, department store, supermarket,
@@ -51,6 +65,13 @@ earn_rules:
     tags: [shopping, dining, groceries, transport, petrol]
     description: S$1 local spend = 1.5 miles
     sources: ['singsaver:669435333fe4']
+  min_spend:
+    amount: 2000.0
+    currency: SGD
+  min_spend_period: statement_month
+  conditions:
+  - min spend S$2000/month from singsaver — confirm the period (statement vs calendar month) and which
+    rules it unlocks
   sources: ['singsaver:669435333fe4']
 - id: base
   label: baseline (SingSaver — verify)

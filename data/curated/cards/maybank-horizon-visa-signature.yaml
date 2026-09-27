@@ -29,6 +29,13 @@ earn_rules:
       On foreign spend. 7X TREATS Points per S$1 spent, equivalent to 2.8 miles per dollar / On foreign
       spend. 7X TREATS Points per S$1 spent, equivalent to 2.8 miles per dollar.
     sources: ['singsaver:9466faaac725']
+  min_spend:
+    amount: 800.0
+    currency: SGD
+  min_spend_period: statement_month
+  conditions:
+  - min spend S$800/month from singsaver — confirm the period (statement vs calendar month) and which
+    rules it unlocks
   sources: ['singsaver:9466faaac725']
 - id: dining
   label: dining, petrol, transport, local, hotel booking, travel (SingSaver — verify)
@@ -41,6 +48,13 @@ earn_rules:
     description: For Taxi and ContactlessBus/Train rides. / On dining, petrol, Grab or taxi rides and
       Agoda hotel bookings. / On Agoda bookings. / On cruise and travel packages.
     sources: ['singsaver:9466faaac725']
+  min_spend:
+    amount: 800.0
+    currency: SGD
+  min_spend_period: statement_month
+  conditions:
+  - min spend S$800/month from singsaver — confirm the period (statement vs calendar month) and which
+    rules it unlocks
   sources: ['singsaver:9466faaac725']
 - id: base
   label: baseline (SingSaver — verify)
