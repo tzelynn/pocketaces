@@ -1,0 +1,42 @@
+{
+ "https://www.moneysmart.sg/credit-cards": {
+  "content_type": "text/html",
+  "final_url": "https://www.moneysmart.sg/credit-cards",
+  "path": "data/raw/moneysmart/credit-cards-p1-b55034ef.html",
+  "retrieved_at": "2026-09-27T05:27:12+00:00",
+  "sha256": "eeee24fb93a9d85ef8b9194c11bda960b5b99ee30b3689cdc59fb650badebce7",
+  "source": "moneysmart",
+  "status": 200,
+  "url": "https://www.moneysmart.sg/credit-cards"
+ },
+ "https://www.moneysmart.sg/credit-cards?page=2": {
+  "content_type": "text/html",
+  "final_url": "https://www.moneysmart.sg/credit-cards?page=2",
+  "path": "data/raw/moneysmart/credit-cards-p2-5f055203.html",
+  "retrieved_at": "2026-09-27T05:27:14+00:00",
+  "sha256": "42909b088c22cb063c120b532d19af920cb3535c52f6bfc313193c6c6ea14746",
+  "source": "moneysmart",
+  "status": 200,
+  "url": "https://www.moneysmart.sg/credit-cards?page=2"
+ },
+ "https://www.moneysmart.sg/credit-cards?page=3": {
+  "content_type": "text/html",
+  "final_url": "https://www.moneysmart.sg/credit-cards?page=3",
+  "path": "data/raw/moneysmart/credit-cards-p3-707cb52c.html",
+  "retrieved_at": "2026-09-27T05:27:18+00:00",
+  "sha256": "fbcf8e7229a38611c3c767cd8447164e413b1306df1f54bebee269e3abf15202",
+  "source": "moneysmart",
+  "status": 200,
+  "url": "https://www.moneysmart.sg/credit-cards?page=3"
+ },
+ "https://www.moneysmart.sg/credit-cards?page=4": {
+  "content_type": "text/html",
+  "final_url": "https://www.moneysmart.sg/credit-cards?page=4",
+  "path": "data/raw/moneysmart/credit-cards-p4-1a322210.html",
+  "retrieved_at": "2026-09-27T05:27:20+00:00",
+  "sha256": "49fcb3586f252df0b2dacb9acecc465127e09c9defa7f151881c3db46d84649e",
+  "source": "moneysmart",
+  "status": 200,
+  "url": "https://www.moneysmart.sg/credit-cards?page=4"
+ }
+}

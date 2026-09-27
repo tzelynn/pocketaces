@@ -1,0 +1,425 @@
+{
+ "card_id": "ocbc-frank",
+ "product_pages": [
+  {
+   "id": "bank:586bba198a43",
+   "url": "https://www.ocbc.com/personal-banking/cards/ocbc-frank-credit-card",
+   "source_type": "official",
+   "retrieved_at": "2026-09-27T08:41:21+00:00",
+   "sha256": "586bba198a43f7d269e3735ff6e4643f75eaea2caceab0eca4f5b1833c87c0b5",
+   "snapshot": "data/raw/bank/www-ocbc-com-personal-banking-cards-ocbc-frank-credit-card-2bacacc6.html"
+  }
+ ],
+ "documents": [
+  {
+   "url": "https://www.ocbc.com/iwov-resources/sg/ocbc/personal/pdf/cards/terms-and-conditions-governing-ocbc-frank-credit-card.pdf",
+   "citation": {
+    "id": "bank:fc5446be68b3",
+    "url": "https://www.ocbc.com/iwov-resources/sg/ocbc/personal/pdf/cards/terms-and-conditions-governing-ocbc-frank-credit-card.pdf",
+    "source_type": "official",
+    "retrieved_at": "2026-09-27T08:41:23+00:00",
+    "sha256": "fc5446be68b3fcef650f734e9c8b14c1bc2cc5470ef76cd216866fe49b4d66d4",
+    "snapshot": "data/raw/bank/www-ocbc-com-iwov-resources-sg-ocbc-personal-pdf-cards-terms-and-conditions-governing-ocbc-frank-credit-card-pdf-a466cae8.pdf"
+   },
+   "text_path": "data/raw/bank/www-ocbc-com-iwov-resources-sg-ocbc-personal-pdf-cards-terms-and-conditions-governing-ocbc-frank-credit-card-pdf-a466cae8.txt",
+   "sha256": "fc5446be68b3fcef650f734e9c8b14c1bc2cc5470ef76cd216866fe49b4d66d4",
+   "changed": false,
+   "new": true,
+   "no_text_layer": false,
+   "effective_dates": [],
+   "mcc": {
+    "include": [
+     "4784",
+     "4829",
+     "4900",
+     "5047",
+     "5199",
+     "5552",
+     "5960",
+     "5993",
+     "6010",
+     "6012",
+     "6051",
+     "6211",
+     "6300",
+     "6513",
+     "6540",
+     "7349",
+     "7523",
+     "7995",
+     "8062",
+     "8211",
+     "8220",
+     "8241",
+     "8244",
+     "8249",
+     "8299",
+     "8398",
+     "8651",
+     "8661",
+     "8675",
+     "8699",
+     "9211",
+     "9222",
+     "9223",
+     "9311",
+     "9399",
+     "9402",
+     "9405"
+    ],
+    "exclude": [],
+    "unknown": [],
+    "conflicting": [],
+    "unrecognised": [
+     "5552"
+    ],
+    "hits": [
+     {
+      "code": "4784",
+      "polarity": "include",
+      "page": 2,
+      "line": "4784 Tolls and Bridge Fees",
+      "reason": "(ii) Transactions made with the following Merchant Category Codes (\u201cMCCs\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "4829",
+      "polarity": "include",
+      "page": 2,
+      "line": "4829 Wire Transfer Money Orders (WTMOs)",
+      "reason": "(ii) Transactions made with the following Merchant Category Codes (\u201cMCCs\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "4900",
+      "polarity": "include",
+      "page": 2,
+      "line": "4900 Utilities \u2013 Electric, Gas, Water, and Sanitary",
+      "reason": "(ii) Transactions made with the following Merchant Category Codes (\u201cMCCs\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "5047",
+      "polarity": "include",
+      "page": 2,
+      "line": "5047 Medical, Dental, Ophthalmic and Hospital Equipment and Supplies",
+      "reason": "(ii) Transactions made with the following Merchant Category Codes (\u201cMCCs\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "5199",
+      "polarity": "include",
+      "page": 2,
+      "line": "5199 Nondurable Goods (Not Elsewhere Classified)",
+      "reason": "(ii) Transactions made with the following Merchant Category Codes (\u201cMCCs\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "5960",
+      "polarity": "include",
+      "page": 2,
+      "line": "5960 Direct Marketing \u2013 Insurance Services",
+      "reason": "(ii) Transactions made with the following Merchant Category Codes (\u201cMCCs\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "5993",
+      "polarity": "include",
+      "page": 2,
+      "line": "5993 Cigars Stores and Stands",
+      "reason": "(ii) Transactions made with the following Merchant Category Codes (\u201cMCCs\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "6010",
+      "polarity": "include",
+      "page": 2,
+      "line": "6010 Financial Institutions \u2013 Manual Cash Disbursements",
+      "reason": "(ii) Transactions made with the following Merchant Category Codes (\u201cMCCs\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "6012",
+      "polarity": "include",
+      "page": 2,
+      "line": "6012 Financial Institutions \u2013 Merchandise, Services, and Debt Repayment",
+      "reason": "(ii) Transactions made with the following Merchant Category Codes (\u201cMCCs\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "6051",
+      "polarity": "include",
+      "page": 2,
+      "line": "6051 Quasi Cash\u2013Merchant (Non-Financial Institutions \u2013 Foreign Currency,",
+      "reason": "(ii) Transactions made with the following Merchant Category Codes (\u201cMCCs\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "6211",
+      "polarity": "include",
+      "page": 2,
+      "line": "6211 Securities\u2013Brokers and Dealers",
+      "reason": "(ii) Transactions made with the following Merchant Category Codes (\u201cMCCs\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "6300",
+      "polarity": "include",
+      "page": 2,
+      "line": "6300 Insurance Sales, Underwriting, and Premiums",
+      "reason": "(ii) Transactions made with the following Merchant Category Codes (\u201cMCCs\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "6513",
+      "polarity": "include",
+      "page": 2,
+      "line": "6513 Real Estate Agents and Managers",
+      "reason": "(ii) Transactions made with the following Merchant Category Codes (\u201cMCCs\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "6540",
+      "polarity": "include",
+      "page": 2,
+      "line": "6540 Non-Financial Institutions \u2013 Stored Value Card Purchase/Load",
+      "reason": "(ii) Transactions made with the following Merchant Category Codes (\u201cMCCs\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "7349",
+      "polarity": "include",
+      "page": 2,
+      "line": "7349 Cleaning, Maintenance and Janitorial Services",
+      "reason": "(ii) Transactions made with the following Merchant Category Codes (\u201cMCCs\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "7523",
+      "polarity": "include",
+      "page": 2,
+      "line": "7523 Parking Lots, Parking Meters and Garages",
+      "reason": "(ii) Transactions made with the following Merchant Category Codes (\u201cMCCs\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "7995",
+      "polarity": "include",
+      "page": 2,
+      "line": "7995 Gambling - Betting, including Lottery Tickets, Casino Gaming Chips,",
+      "reason": "(ii) Transactions made with the following Merchant Category Codes (\u201cMCCs\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "8062",
+      "polarity": "include",
+      "page": 2,
+      "line": "8062 Hospitals",
+      "reason": "(ii) Transactions made with the following Merchant Category Codes (\u201cMCCs\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "8211",
+      "polarity": "include",
+      "page": 2,
+      "line": "8211 Elementary and Secondary Schools",
+      "reason": "(ii) Transactions made with the following Merchant Category Codes (\u201cMCCs\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "8220",
+      "polarity": "include",
+      "page": 2,
+      "line": "8220 Colleges, Universities, Professional Schools, and Junior Colleges",
+      "reason": "(ii) Transactions made with the following Merchant Category Codes (\u201cMCCs\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "8241",
+      "polarity": "include",
+      "page": 2,
+      "line": "8241 Correspondence Schools",
+      "reason": "(ii) Transactions made with the following Merchant Category Codes (\u201cMCCs\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "8244",
+      "polarity": "include",
+      "page": 2,
+      "line": "8244 Business and Secretarial Schools",
+      "reason": "(ii) Transactions made with the following Merchant Category Codes (\u201cMCCs\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "8249",
+      "polarity": "include",
+      "page": 2,
+      "line": "8249 Vocational and Trade Schools",
+      "reason": "(ii) Transactions made with the following Merchant Category Codes (\u201cMCCs\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "8299",
+      "polarity": "include",
+      "page": 2,
+      "line": "8299 Schools and Educational Services (Not Elsewhere Classified)",
+      "reason": "(ii) Transactions made with the following Merchant Category Codes (\u201cMCCs\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "8398",
+      "polarity": "include",
+      "page": 2,
+      "line": "8398 Charitable Social Service Organizations",
+      "reason": "(ii) Transactions made with the following Merchant Category Codes (\u201cMCCs\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "8651",
+      "polarity": "include",
+      "page": 2,
+      "line": "8651 Political Organizations",
+      "reason": "(ii) Transactions made with the following Merchant Category Codes (\u201cMCCs\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "8661",
+      "polarity": "include",
+      "page": 2,
+      "line": "8661 Religious Organizations",
+      "reason": "(ii) Transactions made with the following Merchant Category Codes (\u201cMCCs\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "8675",
+      "polarity": "include",
+      "page": 2,
+      "line": "8675 Automobile Associations",
+      "reason": "(ii) Transactions made with the following Merchant Category Codes (\u201cMCCs\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "8699",
+      "polarity": "include",
+      "page": 2,
+      "line": "8699 Membership Organizations (Not Elsewhere Classified) For example \u2013",
+      "reason": "(ii) Transactions made with the following Merchant Category Codes (\u201cMCCs\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "9211",
+      "polarity": "include",
+      "page": 2,
+      "line": "9211 Court Costs Including Alimony and Child Support",
+      "reason": "(ii) Transactions made with the following Merchant Category Codes (\u201cMCCs\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "9222",
+      "polarity": "include",
+      "page": 2,
+      "line": "9222 Fines",
+      "reason": "(ii) Transactions made with the following Merchant Category Codes (\u201cMCCs\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "9223",
+      "polarity": "include",
+      "page": 2,
+      "line": "9223 Bail and Bond Payments",
+      "reason": "(ii) Transactions made with the following Merchant Category Codes (\u201cMCCs\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "9311",
+      "polarity": "include",
+      "page": 2,
+      "line": "9311 Tax Payments",
+      "reason": "(ii) Transactions made with the following Merchant Category Codes (\u201cMCCs\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "9399",
+      "polarity": "include",
+      "page": 2,
+      "line": "9399 Government Services\u2013Not Elsewhere Classified",
+      "reason": "(ii) Transactions made with the following Merchant Category Codes (\u201cMCCs\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "9402",
+      "polarity": "include",
+      "page": 2,
+      "line": "9402 Postal Services\u2013Government Only",
+      "reason": "(ii) Transactions made with the following Merchant Category Codes (\u201cMCCs\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "9405",
+      "polarity": "include",
+      "page": 2,
+      "line": "9405 Intra-Government Purchases\u2013Government Only",
+      "reason": "(ii) Transactions made with the following Merchant Category Codes (\u201cMCCs\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "5552",
+      "polarity": "include",
+      "page": 3,
+      "line": "Electrical Vehicle Charging MCC 5552",
+      "reason": "(i) Eligible transactions made at selected green merchants must be made via the OCBC",
+      "in_reference": false
+     }
+    ]
+   },
+   "transaction_modes": {
+    "online": [
+     "(i) 8% Cashback on Foreign Currency Transactions (refer to Clause 3(a)), capped at S$25 (ii) 8% Cashback on SGD Transactions made Online and via Mobile Contactless (refer to Clause 3(b)), capped at S$25 (iii) Extra 2% Cashback on transactions made at selected green merchants (refer to Clause 4(a)), capped at S$25 (iv) 0.3% Cashback on all other eligible spend, capped at S$25 (each and collectively",
+     "(i) Annual card fees, Cash-On-Instalments, Instalment Payment Plan, PayLite, tax ita ro p payments, interest, late payment charges, cash advances, balance transfers, bill ro C payments made via Internet Banking, AXS or SAM network, and other fees and charges;",
+     "(b) SGD Transactions Made Online and via Mobile Contactless",
+     "(ii) \u201cOnline\u201d transactions are defined as transactions made via the internet based on system indicators processed by the merchant and their banker, and are passed to OCBC Bank when the transactions are posted to the Card.",
+     "(i) Eligible transactions made at selected green merchants must be made via the OCBC FRANK Credit Card only (including in-store and Online transactions)."
+    ],
+    "contactless": [
+     "(i) 8% Cashback on Foreign Currency Transactions (refer to Clause 3(a)), capped at S$25 (ii) 8% Cashback on SGD Transactions made Online and via Mobile Contactless (refer to Clause 3(b)), capped at S$25 (iii) Extra 2% Cashback on transactions made at selected green merchants (refer to Clause 4(a)), capped at S$25 (iv) 0.3% Cashback on all other eligible spend, capped at S$25 (each and collectively",
+     "(b) SGD Transactions Made Online and via Mobile Contactless",
+     "(iii) \u201cMobile Contactless\u201d transactions are defined as transactions made via Apple Pay\u00ae, Samsung Pay\u00ae and Google Pay\u2122 (or other payment or mobile wallet services as OCBC Bank may determine from time to time at its sole discretion)."
+    ],
+    "mobile_wallet": [
+     "(iii) \u201cMobile Contactless\u201d transactions are defined as transactions made via Apple Pay\u00ae, Samsung Pay\u00ae and Google Pay\u2122 (or other payment or mobile wallet services as OCBC Bank may determine from time to time at its sole discretion)."
+    ],
+    "foreign_currency": [
+     "(i) 8% Cashback on Foreign Currency Transactions (refer to Clause 3(a)), capped at S$25 (ii) 8% Cashback on SGD Transactions made Online and via Mobile Contactless (refer to Clause 3(b)), capped at S$25 (iii) Extra 2% Cashback on transactions made at selected green merchants (refer to Clause 4(a)), capped at S$25 (iv) 0.3% Cashback on all other eligible spend, capped at S$25 (each and collectively",
+     "g n ikn a B e W 2 3 0 0 0 2 se n ih C :.o 3 9 1 a e sre vO -N .g e R .o C 1 Internal OCBC Bank 65 Chulia Street OCBC Centre Singapore 049513 (ii) Transactions made with the following Merchant Category Codes (\u201cMCCs\u201d): MCC Description 4784 Tolls and Bridge Fees 4829 Wire Transfer Money Orders (WTMOs) 4900 Utilities \u2013 Electric, Gas, Water, and Sanitary 5047 Medical, Dental, Ophthalmic and Hospital Eq",
+     "(a) Foreign Currency Transactions",
+     "(i) \u201cForeign Currency Transactions\u201d are defined as transactions charged in non-SGD currency."
+    ],
+    "local_currency": [
+     "(i) 8% Cashback on Foreign Currency Transactions (refer to Clause 3(a)), capped at S$25 (ii) 8% Cashback on SGD Transactions made Online and via Mobile Contactless (refer to Clause 3(b)), capped at S$25 (iii) Extra 2% Cashback on transactions made at selected green merchants (refer to Clause 4(a)), capped at S$25 (iv) 0.3% Cashback on all other eligible spend, capped at S$25 (each and collectively",
+     "(i) \u201cForeign Currency Transactions\u201d are defined as transactions charged in non-SGD currency.",
+     "(b) SGD Transactions Made Online and via Mobile Contactless",
+     "(i) \u201cSGD Transactions\u201d are defined as transactions charged in SGD currency."
+    ]
+   },
+   "non_mcc_exclusions": [
+    "axs",
+    "balance transfer",
+    "cash advance",
+    "charit",
+    "education",
+    "government",
+    "grabpay",
+    "hospital",
+    "instalment",
+    "interest",
+    "late payment charge",
+    "tax",
+    "top-ups",
+    "utilit",
+    "youtrip"
+   ]
+  }
+ ],
+ "changed": false,
+ "removed_documents": []
+}

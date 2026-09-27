@@ -1,0 +1,1135 @@
+{
+ "card_id": "trust-freedom",
+ "product_pages": [
+  {
+   "id": "bank:900d62b98753",
+   "url": "https://trustbank.sg/freedom-credit-card/",
+   "source_type": "official",
+   "retrieved_at": "2026-09-27T08:42:42+00:00",
+   "sha256": "900d62b98753c897a4511043a14a4ec1b9837c8463544a6fb7207f685e4ae9cc",
+   "snapshot": "data/raw/bank/trustbank-sg-freedom-credit-card-bface920.html"
+  }
+ ],
+ "documents": [
+  {
+   "url": "https://trustbank.sg/legal/trust-freedom-credit-card-product-terms/",
+   "citation": {
+    "id": "bank:4dbc083e3b44",
+    "url": "https://trustbank.sg/legal/trust-freedom-credit-card-product-terms/",
+    "source_type": "official",
+    "retrieved_at": "2026-09-27T08:42:44+00:00",
+    "sha256": "4dbc083e3b4457ad371921158ab217327014b6e67bdbba0f147711498d81397e",
+    "snapshot": "data/raw/bank/trustbank-sg-legal-trust-freedom-credit-card-product-terms-7ed216c4.html"
+   },
+   "text_path": "data/raw/bank/trustbank-sg-legal-trust-freedom-credit-card-product-terms-7ed216c4.txt",
+   "sha256": "4dbc083e3b4457ad371921158ab217327014b6e67bdbba0f147711498d81397e",
+   "changed": false,
+   "new": true,
+   "no_text_layer": false,
+   "effective_dates": [],
+   "mcc": {
+    "include": [
+     "4829",
+     "4900",
+     "5960",
+     "6010",
+     "6011",
+     "6012",
+     "6051",
+     "6211",
+     "6300",
+     "6513",
+     "6540",
+     "7299",
+     "7349",
+     "7399",
+     "7995",
+     "8211",
+     "8220",
+     "8241",
+     "8244",
+     "8249",
+     "8299",
+     "8398",
+     "8651",
+     "8661",
+     "8999",
+     "9211",
+     "9222",
+     "9223",
+     "9311",
+     "9399",
+     "9402",
+     "9405"
+    ],
+    "exclude": [],
+    "unknown": [],
+    "conflicting": [],
+    "unrecognised": [],
+    "hits": [
+     {
+      "code": "4900",
+      "polarity": "include",
+      "page": 1,
+      "line": "Utilities, Rentals and Cleaning Services \u2013 4900, 6513, 7349.",
+      "reason": "Any transaction classified under any of the following Merchant Category Codes:",
+      "in_reference": true
+     },
+     {
+      "code": "6513",
+      "polarity": "include",
+      "page": 1,
+      "line": "Utilities, Rentals and Cleaning Services \u2013 4900, 6513, 7349.",
+      "reason": "Any transaction classified under any of the following Merchant Category Codes:",
+      "in_reference": true
+     },
+     {
+      "code": "7349",
+      "polarity": "include",
+      "page": 1,
+      "line": "Utilities, Rentals and Cleaning Services \u2013 4900, 6513, 7349.",
+      "reason": "Any transaction classified under any of the following Merchant Category Codes:",
+      "in_reference": true
+     },
+     {
+      "code": "4829",
+      "polarity": "include",
+      "page": 1,
+      "line": "Financial Institutions, Securities \u2013 Brokers, Quasi Cash, Insurance, Stored Value Card Purchase/Load and Wire Transfer \u2013 4829, 5960, 6010, 6011, 6012, 6051, 6211, 6300, 6540.",
+      "reason": "Any transaction classified under any of the following Merchant Category Codes:",
+      "in_reference": true
+     },
+     {
+      "code": "5960",
+      "polarity": "include",
+      "page": 1,
+      "line": "Financial Institutions, Securities \u2013 Brokers, Quasi Cash, Insurance, Stored Value Card Purchase/Load and Wire Transfer \u2013 4829, 5960, 6010, 6011, 6012, 6051, 6211, 6300, 6540.",
+      "reason": "Any transaction classified under any of the following Merchant Category Codes:",
+      "in_reference": true
+     },
+     {
+      "code": "6010",
+      "polarity": "include",
+      "page": 1,
+      "line": "Financial Institutions, Securities \u2013 Brokers, Quasi Cash, Insurance, Stored Value Card Purchase/Load and Wire Transfer \u2013 4829, 5960, 6010, 6011, 6012, 6051, 6211, 6300, 6540.",
+      "reason": "Any transaction classified under any of the following Merchant Category Codes:",
+      "in_reference": true
+     },
+     {
+      "code": "6011",
+      "polarity": "include",
+      "page": 1,
+      "line": "Financial Institutions, Securities \u2013 Brokers, Quasi Cash, Insurance, Stored Value Card Purchase/Load and Wire Transfer \u2013 4829, 5960, 6010, 6011, 6012, 6051, 6211, 6300, 6540.",
+      "reason": "Any transaction classified under any of the following Merchant Category Codes:",
+      "in_reference": true
+     },
+     {
+      "code": "6012",
+      "polarity": "include",
+      "page": 1,
+      "line": "Financial Institutions, Securities \u2013 Brokers, Quasi Cash, Insurance, Stored Value Card Purchase/Load and Wire Transfer \u2013 4829, 5960, 6010, 6011, 6012, 6051, 6211, 6300, 6540.",
+      "reason": "Any transaction classified under any of the following Merchant Category Codes:",
+      "in_reference": true
+     },
+     {
+      "code": "6051",
+      "polarity": "include",
+      "page": 1,
+      "line": "Financial Institutions, Securities \u2013 Brokers, Quasi Cash, Insurance, Stored Value Card Purchase/Load and Wire Transfer \u2013 4829, 5960, 6010, 6011, 6012, 6051, 6211, 6300, 6540.",
+      "reason": "Any transaction classified under any of the following Merchant Category Codes:",
+      "in_reference": true
+     },
+     {
+      "code": "6211",
+      "polarity": "include",
+      "page": 1,
+      "line": "Financial Institutions, Securities \u2013 Brokers, Quasi Cash, Insurance, Stored Value Card Purchase/Load and Wire Transfer \u2013 4829, 5960, 6010, 6011, 6012, 6051, 6211, 6300, 6540.",
+      "reason": "Any transaction classified under any of the following Merchant Category Codes:",
+      "in_reference": true
+     },
+     {
+      "code": "6300",
+      "polarity": "include",
+      "page": 1,
+      "line": "Financial Institutions, Securities \u2013 Brokers, Quasi Cash, Insurance, Stored Value Card Purchase/Load and Wire Transfer \u2013 4829, 5960, 6010, 6011, 6012, 6051, 6211, 6300, 6540.",
+      "reason": "Any transaction classified under any of the following Merchant Category Codes:",
+      "in_reference": true
+     },
+     {
+      "code": "6540",
+      "polarity": "include",
+      "page": 1,
+      "line": "Financial Institutions, Securities \u2013 Brokers, Quasi Cash, Insurance, Stored Value Card Purchase/Load and Wire Transfer \u2013 4829, 5960, 6010, 6011, 6012, 6051, 6211, 6300, 6540.",
+      "reason": "Any transaction classified under any of the following Merchant Category Codes:",
+      "in_reference": true
+     },
+     {
+      "code": "7995",
+      "polarity": "include",
+      "page": 1,
+      "line": "Gambling \u2013 7995.",
+      "reason": "Any transaction classified under any of the following Merchant Category Codes:",
+      "in_reference": true
+     },
+     {
+      "code": "8211",
+      "polarity": "include",
+      "page": 1,
+      "line": "Educational Institutions \u2013 8211, 8220, 8241, 8244, 8249, 8299.",
+      "reason": "Any transaction classified under any of the following Merchant Category Codes:",
+      "in_reference": true
+     },
+     {
+      "code": "8220",
+      "polarity": "include",
+      "page": 1,
+      "line": "Educational Institutions \u2013 8211, 8220, 8241, 8244, 8249, 8299.",
+      "reason": "Any transaction classified under any of the following Merchant Category Codes:",
+      "in_reference": true
+     },
+     {
+      "code": "8241",
+      "polarity": "include",
+      "page": 1,
+      "line": "Educational Institutions \u2013 8211, 8220, 8241, 8244, 8249, 8299.",
+      "reason": "Any transaction classified under any of the following Merchant Category Codes:",
+      "in_reference": true
+     },
+     {
+      "code": "8244",
+      "polarity": "include",
+      "page": 1,
+      "line": "Educational Institutions \u2013 8211, 8220, 8241, 8244, 8249, 8299.",
+      "reason": "Any transaction classified under any of the following Merchant Category Codes:",
+      "in_reference": true
+     },
+     {
+      "code": "8249",
+      "polarity": "include",
+      "page": 1,
+      "line": "Educational Institutions \u2013 8211, 8220, 8241, 8244, 8249, 8299.",
+      "reason": "Any transaction classified under any of the following Merchant Category Codes:",
+      "in_reference": true
+     },
+     {
+      "code": "8299",
+      "polarity": "include",
+      "page": 1,
+      "line": "Educational Institutions \u2013 8211, 8220, 8241, 8244, 8249, 8299.",
+      "reason": "Any transaction classified under any of the following Merchant Category Codes:",
+      "in_reference": true
+     },
+     {
+      "code": "8398",
+      "polarity": "include",
+      "page": 1,
+      "line": "Charitable services, political organisations, religious organisations, and government payments \u2013 8398, 8651, 8661, 9211, 9222, 9223, 9311, 9399, 9402, 9405.",
+      "reason": "Any transaction classified under any of the following Merchant Category Codes:",
+      "in_reference": true
+     },
+     {
+      "code": "8651",
+      "polarity": "include",
+      "page": 1,
+      "line": "Charitable services, political organisations, religious organisations, and government payments \u2013 8398, 8651, 8661, 9211, 9222, 9223, 9311, 9399, 9402, 9405.",
+      "reason": "Any transaction classified under any of the following Merchant Category Codes:",
+      "in_reference": true
+     },
+     {
+      "code": "8661",
+      "polarity": "include",
+      "page": 1,
+      "line": "Charitable services, political organisations, religious organisations, and government payments \u2013 8398, 8651, 8661, 9211, 9222, 9223, 9311, 9399, 9402, 9405.",
+      "reason": "Any transaction classified under any of the following Merchant Category Codes:",
+      "in_reference": true
+     },
+     {
+      "code": "9211",
+      "polarity": "include",
+      "page": 1,
+      "line": "Charitable services, political organisations, religious organisations, and government payments \u2013 8398, 8651, 8661, 9211, 9222, 9223, 9311, 9399, 9402, 9405.",
+      "reason": "Any transaction classified under any of the following Merchant Category Codes:",
+      "in_reference": true
+     },
+     {
+      "code": "9222",
+      "polarity": "include",
+      "page": 1,
+      "line": "Charitable services, political organisations, religious organisations, and government payments \u2013 8398, 8651, 8661, 9211, 9222, 9223, 9311, 9399, 9402, 9405.",
+      "reason": "Any transaction classified under any of the following Merchant Category Codes:",
+      "in_reference": true
+     },
+     {
+      "code": "9223",
+      "polarity": "include",
+      "page": 1,
+      "line": "Charitable services, political organisations, religious organisations, and government payments \u2013 8398, 8651, 8661, 9211, 9222, 9223, 9311, 9399, 9402, 9405.",
+      "reason": "Any transaction classified under any of the following Merchant Category Codes:",
+      "in_reference": true
+     },
+     {
+      "code": "9311",
+      "polarity": "include",
+      "page": 1,
+      "line": "Charitable services, political organisations, religious organisations, and government payments \u2013 8398, 8651, 8661, 9211, 9222, 9223, 9311, 9399, 9402, 9405.",
+      "reason": "Any transaction classified under any of the following Merchant Category Codes:",
+      "in_reference": true
+     },
+     {
+      "code": "9399",
+      "polarity": "include",
+      "page": 1,
+      "line": "Charitable services, political organisations, religious organisations, and government payments \u2013 8398, 8651, 8661, 9211, 9222, 9223, 9311, 9399, 9402, 9405.",
+      "reason": "Any transaction classified under any of the following Merchant Category Codes:",
+      "in_reference": true
+     },
+     {
+      "code": "9402",
+      "polarity": "include",
+      "page": 1,
+      "line": "Charitable services, political organisations, religious organisations, and government payments \u2013 8398, 8651, 8661, 9211, 9222, 9223, 9311, 9399, 9402, 9405.",
+      "reason": "Any transaction classified under any of the following Merchant Category Codes:",
+      "in_reference": true
+     },
+     {
+      "code": "9405",
+      "polarity": "include",
+      "page": 1,
+      "line": "Charitable services, political organisations, religious organisations, and government payments \u2013 8398, 8651, 8661, 9211, 9222, 9223, 9311, 9399, 9402, 9405.",
+      "reason": "Any transaction classified under any of the following Merchant Category Codes:",
+      "in_reference": true
+     },
+     {
+      "code": "7299",
+      "polarity": "include",
+      "page": 1,
+      "line": "Other services \u2013 7299, 7399, 8999.",
+      "reason": "Any transaction classified under any of the following Merchant Category Codes:",
+      "in_reference": true
+     },
+     {
+      "code": "7399",
+      "polarity": "include",
+      "page": 1,
+      "line": "Other services \u2013 7299, 7399, 8999.",
+      "reason": "Any transaction classified under any of the following Merchant Category Codes:",
+      "in_reference": true
+     },
+     {
+      "code": "8999",
+      "polarity": "include",
+      "page": 1,
+      "line": "Other services \u2013 7299, 7399, 8999.",
+      "reason": "Any transaction classified under any of the following Merchant Category Codes:",
+      "in_reference": true
+     }
+    ]
+   },
+   "transaction_modes": {
+    "recurring": [
+     "Any fees/recurring payments (for example annual card fees, service fees, interest, administrative fees, finance fees, and/or late payment fees)."
+    ],
+    "local_currency": [
+     "If we receive any payment in any other currency, we may convert such payment into Singapore dollars at the prevailing exchange rate determined by us at the relevant time."
+    ]
+   },
+   "non_mcc_exclusions": [
+    "axs",
+    "balance transfer",
+    "cash advance",
+    "charit",
+    "education",
+    "government",
+    "instalment",
+    "insurance premium",
+    "interest",
+    "tax",
+    "top-ups",
+    "utilit"
+   ]
+  },
+  {
+   "url": "https://trustbank.sg/legal/trust-freedom-credit-card-key-facts-sheet/",
+   "citation": {
+    "id": "bank:2de63627ab2f",
+    "url": "https://trustbank.sg/legal/trust-freedom-credit-card-key-facts-sheet/",
+    "source_type": "official",
+    "retrieved_at": "2026-09-27T08:42:46+00:00",
+    "sha256": "2de63627ab2f245e5685d047e95f03195f592d79c7deb7e5a8a62a4dde3f4aa2",
+    "snapshot": "data/raw/bank/trustbank-sg-legal-trust-freedom-credit-card-key-facts-sheet-6ba5fef9.html"
+   },
+   "text_path": "data/raw/bank/trustbank-sg-legal-trust-freedom-credit-card-key-facts-sheet-6ba5fef9.txt",
+   "sha256": "2de63627ab2f245e5685d047e95f03195f592d79c7deb7e5a8a62a4dde3f4aa2",
+   "changed": false,
+   "new": true,
+   "no_text_layer": false,
+   "effective_dates": [],
+   "mcc": {
+    "include": [
+     "3000-3308",
+     "3351-3441",
+     "3501-3839",
+     "4111",
+     "4112",
+     "4121",
+     "4131",
+     "4411",
+     "4457",
+     "4511",
+     "4582",
+     "4722",
+     "4723",
+     "4784",
+     "4789",
+     "4812",
+     "4899",
+     "5137",
+     "5262",
+     "5309",
+     "5310",
+     "5311",
+     "5331",
+     "5399",
+     "5462",
+     "5499",
+     "5521",
+     "5541",
+     "5542",
+     "5552",
+     "5611",
+     "5621",
+     "5631",
+     "5641",
+     "5651",
+     "5655",
+     "5661",
+     "5681",
+     "5691",
+     "5699",
+     "5712",
+     "5732",
+     "5733",
+     "5735",
+     "5811",
+     "5812",
+     "5813",
+     "5814",
+     "5815",
+     "5816",
+     "5912",
+     "5940",
+     "5941",
+     "5942",
+     "5944",
+     "5945",
+     "5946",
+     "5947",
+     "5948",
+     "5962",
+     "5977",
+     "5983",
+     "5997",
+     "7011",
+     "7012",
+     "7033",
+     "7230",
+     "7297",
+     "7298",
+     "7512",
+     "7513",
+     "7519",
+     "7523",
+     "7832",
+     "7841",
+     "7922",
+     "7997",
+     "8031",
+     "8041",
+     "8049"
+    ],
+    "exclude": [],
+    "unknown": [],
+    "conflicting": [],
+    "unrecognised": [
+     "5552"
+    ],
+    "hits": [
+     {
+      "code": "5462",
+      "polarity": "include",
+      "page": 1,
+      "line": "5462",
+      "reason": "2. Preferred categories for Bonus cashback reward mode: Transactions made on Trust Freedom card are categorized according to the Merchant Category Code (\u201cMCC\u201d), and the MCC determines which preferred category the transaction falls under. MCC is a four-digit number assigned to a merchant (the business/organisation you paid) by the merchant\u2019s bank. Trust does not decide the merchant\u2019s MCC. \ud83d\ude4f",
+      "in_reference": true
+     },
+     {
+      "code": "5499",
+      "polarity": "include",
+      "page": 1,
+      "line": "5499",
+      "reason": "2. Preferred categories for Bonus cashback reward mode: Transactions made on Trust Freedom card are categorized according to the Merchant Category Code (\u201cMCC\u201d), and the MCC determines which preferred category the transaction falls under. MCC is a four-digit number assigned to a merchant (the business/organisation you paid) by the merchant\u2019s bank. Trust does not decide the merchant\u2019s MCC. \ud83d\ude4f",
+      "in_reference": true
+     },
+     {
+      "code": "5811",
+      "polarity": "include",
+      "page": 1,
+      "line": "5811",
+      "reason": "2. Preferred categories for Bonus cashback reward mode: Transactions made on Trust Freedom card are categorized according to the Merchant Category Code (\u201cMCC\u201d), and the MCC determines which preferred category the transaction falls under. MCC is a four-digit number assigned to a merchant (the business/organisation you paid) by the merchant\u2019s bank. Trust does not decide the merchant\u2019s MCC. \ud83d\ude4f",
+      "in_reference": true
+     },
+     {
+      "code": "5812",
+      "polarity": "include",
+      "page": 1,
+      "line": "5812",
+      "reason": "2. Preferred categories for Bonus cashback reward mode: Transactions made on Trust Freedom card are categorized according to the Merchant Category Code (\u201cMCC\u201d), and the MCC determines which preferred category the transaction falls under. MCC is a four-digit number assigned to a merchant (the business/organisation you paid) by the merchant\u2019s bank. Trust does not decide the merchant\u2019s MCC. \ud83d\ude4f",
+      "in_reference": true
+     },
+     {
+      "code": "5814",
+      "polarity": "include",
+      "page": 1,
+      "line": "5814",
+      "reason": "2. Preferred categories for Bonus cashback reward mode: Transactions made on Trust Freedom card are categorized according to the Merchant Category Code (\u201cMCC\u201d), and the MCC determines which preferred category the transaction falls under. MCC is a four-digit number assigned to a merchant (the business/organisation you paid) by the merchant\u2019s bank. Trust does not decide the merchant\u2019s MCC. \ud83d\ude4f",
+      "in_reference": true
+     },
+     {
+      "code": "4812",
+      "polarity": "include",
+      "page": 1,
+      "line": "4812",
+      "reason": "2. Preferred categories for Bonus cashback reward mode: Transactions made on Trust Freedom card are categorized according to the Merchant Category Code (\u201cMCC\u201d), and the MCC determines which preferred category the transaction falls under. MCC is a four-digit number assigned to a merchant (the business/organisation you paid) by the merchant\u2019s bank. Trust does not decide the merchant\u2019s MCC. \ud83d\ude4f",
+      "in_reference": true
+     },
+     {
+      "code": "5137",
+      "polarity": "include",
+      "page": 1,
+      "line": "5137",
+      "reason": "2. Preferred categories for Bonus cashback reward mode: Transactions made on Trust Freedom card are categorized according to the Merchant Category Code (\u201cMCC\u201d), and the MCC determines which preferred category the transaction falls under. MCC is a four-digit number assigned to a merchant (the business/organisation you paid) by the merchant\u2019s bank. Trust does not decide the merchant\u2019s MCC. \ud83d\ude4f",
+      "in_reference": true
+     },
+     {
+      "code": "5262",
+      "polarity": "include",
+      "page": 1,
+      "line": "5262",
+      "reason": "2. Preferred categories for Bonus cashback reward mode: Transactions made on Trust Freedom card are categorized according to the Merchant Category Code (\u201cMCC\u201d), and the MCC determines which preferred category the transaction falls under. MCC is a four-digit number assigned to a merchant (the business/organisation you paid) by the merchant\u2019s bank. Trust does not decide the merchant\u2019s MCC. \ud83d\ude4f",
+      "in_reference": true
+     },
+     {
+      "code": "5309",
+      "polarity": "include",
+      "page": 1,
+      "line": "5309",
+      "reason": "2. Preferred categories for Bonus cashback reward mode: Transactions made on Trust Freedom card are categorized according to the Merchant Category Code (\u201cMCC\u201d), and the MCC determines which preferred category the transaction falls under. MCC is a four-digit number assigned to a merchant (the business/organisation you paid) by the merchant\u2019s bank. Trust does not decide the merchant\u2019s MCC. \ud83d\ude4f",
+      "in_reference": true
+     },
+     {
+      "code": "5310",
+      "polarity": "include",
+      "page": 1,
+      "line": "5310",
+      "reason": "2. Preferred categories for Bonus cashback reward mode: Transactions made on Trust Freedom card are categorized according to the Merchant Category Code (\u201cMCC\u201d), and the MCC determines which preferred category the transaction falls under. MCC is a four-digit number assigned to a merchant (the business/organisation you paid) by the merchant\u2019s bank. Trust does not decide the merchant\u2019s MCC. \ud83d\ude4f",
+      "in_reference": true
+     },
+     {
+      "code": "5311",
+      "polarity": "include",
+      "page": 1,
+      "line": "5311",
+      "reason": "2. Preferred categories for Bonus cashback reward mode: Transactions made on Trust Freedom card are categorized according to the Merchant Category Code (\u201cMCC\u201d), and the MCC determines which preferred category the transaction falls under. MCC is a four-digit number assigned to a merchant (the business/organisation you paid) by the merchant\u2019s bank. Trust does not decide the merchant\u2019s MCC. \ud83d\ude4f",
+      "in_reference": true
+     },
+     {
+      "code": "5331",
+      "polarity": "include",
+      "page": 1,
+      "line": "5331",
+      "reason": "2. Preferred categories for Bonus cashback reward mode: Transactions made on Trust Freedom card are categorized according to the Merchant Category Code (\u201cMCC\u201d), and the MCC determines which preferred category the transaction falls under. MCC is a four-digit number assigned to a merchant (the business/organisation you paid) by the merchant\u2019s bank. Trust does not decide the merchant\u2019s MCC. \ud83d\ude4f",
+      "in_reference": true
+     },
+     {
+      "code": "5399",
+      "polarity": "include",
+      "page": 1,
+      "line": "5399",
+      "reason": "2. Preferred categories for Bonus cashback reward mode: Transactions made on Trust Freedom card are categorized according to the Merchant Category Code (\u201cMCC\u201d), and the MCC determines which preferred category the transaction falls under. MCC is a four-digit number assigned to a merchant (the business/organisation you paid) by the merchant\u2019s bank. Trust does not decide the merchant\u2019s MCC. \ud83d\ude4f",
+      "in_reference": true
+     },
+     {
+      "code": "5611",
+      "polarity": "include",
+      "page": 1,
+      "line": "5611",
+      "reason": "2. Preferred categories for Bonus cashback reward mode: Transactions made on Trust Freedom card are categorized according to the Merchant Category Code (\u201cMCC\u201d), and the MCC determines which preferred category the transaction falls under. MCC is a four-digit number assigned to a merchant (the business/organisation you paid) by the merchant\u2019s bank. Trust does not decide the merchant\u2019s MCC. \ud83d\ude4f",
+      "in_reference": true
+     },
+     {
+      "code": "5621",
+      "polarity": "include",
+      "page": 1,
+      "line": "5621",
+      "reason": "2. Preferred categories for Bonus cashback reward mode: Transactions made on Trust Freedom card are categorized according to the Merchant Category Code (\u201cMCC\u201d), and the MCC determines which preferred category the transaction falls under. MCC is a four-digit number assigned to a merchant (the business/organisation you paid) by the merchant\u2019s bank. Trust does not decide the merchant\u2019s MCC. \ud83d\ude4f",
+      "in_reference": true
+     },
+     {
+      "code": "5631",
+      "polarity": "include",
+      "page": 1,
+      "line": "5631",
+      "reason": "2. Preferred categories for Bonus cashback reward mode: Transactions made on Trust Freedom card are categorized according to the Merchant Category Code (\u201cMCC\u201d), and the MCC determines which preferred category the transaction falls under. MCC is a four-digit number assigned to a merchant (the business/organisation you paid) by the merchant\u2019s bank. Trust does not decide the merchant\u2019s MCC. \ud83d\ude4f",
+      "in_reference": true
+     },
+     {
+      "code": "5641",
+      "polarity": "include",
+      "page": 1,
+      "line": "5641",
+      "reason": "2. Preferred categories for Bonus cashback reward mode: Transactions made on Trust Freedom card are categorized according to the Merchant Category Code (\u201cMCC\u201d), and the MCC determines which preferred category the transaction falls under. MCC is a four-digit number assigned to a merchant (the business/organisation you paid) by the merchant\u2019s bank. Trust does not decide the merchant\u2019s MCC. \ud83d\ude4f",
+      "in_reference": true
+     },
+     {
+      "code": "5651",
+      "polarity": "include",
+      "page": 1,
+      "line": "5651",
+      "reason": "2. Preferred categories for Bonus cashback reward mode: Transactions made on Trust Freedom card are categorized according to the Merchant Category Code (\u201cMCC\u201d), and the MCC determines which preferred category the transaction falls under. MCC is a four-digit number assigned to a merchant (the business/organisation you paid) by the merchant\u2019s bank. Trust does not decide the merchant\u2019s MCC. \ud83d\ude4f",
+      "in_reference": true
+     },
+     {
+      "code": "5655",
+      "polarity": "include",
+      "page": 1,
+      "line": "5655",
+      "reason": "2. Preferred categories for Bonus cashback reward mode: Transactions made on Trust Freedom card are categorized according to the Merchant Category Code (\u201cMCC\u201d), and the MCC determines which preferred category the transaction falls under. MCC is a four-digit number assigned to a merchant (the business/organisation you paid) by the merchant\u2019s bank. Trust does not decide the merchant\u2019s MCC. \ud83d\ude4f",
+      "in_reference": true
+     },
+     {
+      "code": "5661",
+      "polarity": "include",
+      "page": 1,
+      "line": "5661",
+      "reason": "2. Preferred categories for Bonus cashback reward mode: Transactions made on Trust Freedom card are categorized according to the Merchant Category Code (\u201cMCC\u201d), and the MCC determines which preferred category the transaction falls under. MCC is a four-digit number assigned to a merchant (the business/organisation you paid) by the merchant\u2019s bank. Trust does not decide the merchant\u2019s MCC. \ud83d\ude4f",
+      "in_reference": true
+     },
+     {
+      "code": "5681",
+      "polarity": "include",
+      "page": 1,
+      "line": "5681",
+      "reason": "2. Preferred categories for Bonus cashback reward mode: Transactions made on Trust Freedom card are categorized according to the Merchant Category Code (\u201cMCC\u201d), and the MCC determines which preferred category the transaction falls under. MCC is a four-digit number assigned to a merchant (the business/organisation you paid) by the merchant\u2019s bank. Trust does not decide the merchant\u2019s MCC. \ud83d\ude4f",
+      "in_reference": true
+     },
+     {
+      "code": "5691",
+      "polarity": "include",
+      "page": 1,
+      "line": "5691",
+      "reason": "2. Preferred categories for Bonus cashback reward mode: Transactions made on Trust Freedom card are categorized according to the Merchant Category Code (\u201cMCC\u201d), and the MCC determines which preferred category the transaction falls under. MCC is a four-digit number assigned to a merchant (the business/organisation you paid) by the merchant\u2019s bank. Trust does not decide the merchant\u2019s MCC. \ud83d\ude4f",
+      "in_reference": true
+     },
+     {
+      "code": "5712",
+      "polarity": "include",
+      "page": 1,
+      "line": "5712",
+      "reason": "2. Preferred categories for Bonus cashback reward mode: Transactions made on Trust Freedom card are categorized according to the Merchant Category Code (\u201cMCC\u201d), and the MCC determines which preferred category the transaction falls under. MCC is a four-digit number assigned to a merchant (the business/organisation you paid) by the merchant\u2019s bank. Trust does not decide the merchant\u2019s MCC. \ud83d\ude4f",
+      "in_reference": true
+     },
+     {
+      "code": "5732",
+      "polarity": "include",
+      "page": 1,
+      "line": "5732",
+      "reason": "2. Preferred categories for Bonus cashback reward mode: Transactions made on Trust Freedom card are categorized according to the Merchant Category Code (\u201cMCC\u201d), and the MCC determines which preferred category the transaction falls under. MCC is a four-digit number assigned to a merchant (the business/organisation you paid) by the merchant\u2019s bank. Trust does not decide the merchant\u2019s MCC. \ud83d\ude4f",
+      "in_reference": true
+     },
+     {
+      "code": "5699",
+      "polarity": "include",
+      "page": 1,
+      "line": "5699",
+      "reason": "2. Preferred categories for Bonus cashback reward mode: Transactions made on Trust Freedom card are categorized according to the Merchant Category Code (\u201cMCC\u201d), and the MCC determines which preferred category the transaction falls under. MCC is a four-digit number assigned to a merchant (the business/organisation you paid) by the merchant\u2019s bank. Trust does not decide the merchant\u2019s MCC. \ud83d\ude4f",
+      "in_reference": true
+     },
+     {
+      "code": "5940",
+      "polarity": "include",
+      "page": 1,
+      "line": "5940",
+      "reason": "2. Preferred categories for Bonus cashback reward mode: Transactions made on Trust Freedom card are categorized according to the Merchant Category Code (\u201cMCC\u201d), and the MCC determines which preferred category the transaction falls under. MCC is a four-digit number assigned to a merchant (the business/organisation you paid) by the merchant\u2019s bank. Trust does not decide the merchant\u2019s MCC. \ud83d\ude4f",
+      "in_reference": true
+     },
+     {
+      "code": "5941",
+      "polarity": "include",
+      "page": 1,
+      "line": "5941",
+      "reason": "2. Preferred categories for Bonus cashback reward mode: Transactions made on Trust Freedom card are categorized according to the Merchant Category Code (\u201cMCC\u201d), and the MCC determines which preferred category the transaction falls under. MCC is a four-digit number assigned to a merchant (the business/organisation you paid) by the merchant\u2019s bank. Trust does not decide the merchant\u2019s MCC. \ud83d\ude4f",
+      "in_reference": true
+     },
+     {
+      "code": "5942",
+      "polarity": "include",
+      "page": 1,
+      "line": "5942",
+      "reason": "2. Preferred categories for Bonus cashback reward mode: Transactions made on Trust Freedom card are categorized according to the Merchant Category Code (\u201cMCC\u201d), and the MCC determines which preferred category the transaction falls under. MCC is a four-digit number assigned to a merchant (the business/organisation you paid) by the merchant\u2019s bank. Trust does not decide the merchant\u2019s MCC. \ud83d\ude4f",
+      "in_reference": true
+     },
+     {
+      "code": "5944",
+      "polarity": "include",
+      "page": 1,
+      "line": "5944",
+      "reason": "2. Preferred categories for Bonus cashback reward mode: Transactions made on Trust Freedom card are categorized according to the Merchant Category Code (\u201cMCC\u201d), and the MCC determines which preferred category the transaction falls under. MCC is a four-digit number assigned to a merchant (the business/organisation you paid) by the merchant\u2019s bank. Trust does not decide the merchant\u2019s MCC. \ud83d\ude4f",
+      "in_reference": true
+     },
+     {
+      "code": "5946",
+      "polarity": "include",
+      "page": 1,
+      "line": "5946",
+      "reason": "2. Preferred categories for Bonus cashback reward mode: Transactions made on Trust Freedom card are categorized according to the Merchant Category Code (\u201cMCC\u201d), and the MCC determines which preferred category the transaction falls under. MCC is a four-digit number assigned to a merchant (the business/organisation you paid) by the merchant\u2019s bank. Trust does not decide the merchant\u2019s MCC. \ud83d\ude4f",
+      "in_reference": true
+     },
+     {
+      "code": "5947",
+      "polarity": "include",
+      "page": 1,
+      "line": "5947",
+      "reason": "2. Preferred categories for Bonus cashback reward mode: Transactions made on Trust Freedom card are categorized according to the Merchant Category Code (\u201cMCC\u201d), and the MCC determines which preferred category the transaction falls under. MCC is a four-digit number assigned to a merchant (the business/organisation you paid) by the merchant\u2019s bank. Trust does not decide the merchant\u2019s MCC. \ud83d\ude4f",
+      "in_reference": true
+     },
+     {
+      "code": "5948",
+      "polarity": "include",
+      "page": 1,
+      "line": "5948",
+      "reason": "2. Preferred categories for Bonus cashback reward mode: Transactions made on Trust Freedom card are categorized according to the Merchant Category Code (\u201cMCC\u201d), and the MCC determines which preferred category the transaction falls under. MCC is a four-digit number assigned to a merchant (the business/organisation you paid) by the merchant\u2019s bank. Trust does not decide the merchant\u2019s MCC. \ud83d\ude4f",
+      "in_reference": true
+     },
+     {
+      "code": "5977",
+      "polarity": "include",
+      "page": 1,
+      "line": "5977",
+      "reason": "2. Preferred categories for Bonus cashback reward mode: Transactions made on Trust Freedom card are categorized according to the Merchant Category Code (\u201cMCC\u201d), and the MCC determines which preferred category the transaction falls under. MCC is a four-digit number assigned to a merchant (the business/organisation you paid) by the merchant\u2019s bank. Trust does not decide the merchant\u2019s MCC. \ud83d\ude4f",
+      "in_reference": true
+     },
+     {
+      "code": "3000-3308",
+      "polarity": "include",
+      "page": 1,
+      "line": "3000 \u2013 3308",
+      "reason": "2. Preferred categories for Bonus cashback reward mode: Transactions made on Trust Freedom card are categorized according to the Merchant Category Code (\u201cMCC\u201d), and the MCC determines which preferred category the transaction falls under. MCC is a four-digit number assigned to a merchant (the business/organisation you paid) by the merchant\u2019s bank. Trust does not decide the merchant\u2019s MCC. \ud83d\ude4f",
+      "in_reference": null
+     },
+     {
+      "code": "3501-3839",
+      "polarity": "include",
+      "page": 1,
+      "line": "3501 \u2013 3839",
+      "reason": "2. Preferred categories for Bonus cashback reward mode: Transactions made on Trust Freedom card are categorized according to the Merchant Category Code (\u201cMCC\u201d), and the MCC determines which preferred category the transaction falls under. MCC is a four-digit number assigned to a merchant (the business/organisation you paid) by the merchant\u2019s bank. Trust does not decide the merchant\u2019s MCC. \ud83d\ude4f",
+      "in_reference": null
+     },
+     {
+      "code": "4411",
+      "polarity": "include",
+      "page": 1,
+      "line": "4411",
+      "reason": "2. Preferred categories for Bonus cashback reward mode: Transactions made on Trust Freedom card are categorized according to the Merchant Category Code (\u201cMCC\u201d), and the MCC determines which preferred category the transaction falls under. MCC is a four-digit number assigned to a merchant (the business/organisation you paid) by the merchant\u2019s bank. Trust does not decide the merchant\u2019s MCC. \ud83d\ude4f",
+      "in_reference": true
+     },
+     {
+      "code": "4511",
+      "polarity": "include",
+      "page": 1,
+      "line": "4511",
+      "reason": "2. Preferred categories for Bonus cashback reward mode: Transactions made on Trust Freedom card are categorized according to the Merchant Category Code (\u201cMCC\u201d), and the MCC determines which preferred category the transaction falls under. MCC is a four-digit number assigned to a merchant (the business/organisation you paid) by the merchant\u2019s bank. Trust does not decide the merchant\u2019s MCC. \ud83d\ude4f",
+      "in_reference": true
+     },
+     {
+      "code": "4582",
+      "polarity": "include",
+      "page": 1,
+      "line": "4582",
+      "reason": "2. Preferred categories for Bonus cashback reward mode: Transactions made on Trust Freedom card are categorized according to the Merchant Category Code (\u201cMCC\u201d), and the MCC determines which preferred category the transaction falls under. MCC is a four-digit number assigned to a merchant (the business/organisation you paid) by the merchant\u2019s bank. Trust does not decide the merchant\u2019s MCC. \ud83d\ude4f",
+      "in_reference": true
+     },
+     {
+      "code": "4722",
+      "polarity": "include",
+      "page": 1,
+      "line": "4722",
+      "reason": "2. Preferred categories for Bonus cashback reward mode: Transactions made on Trust Freedom card are categorized according to the Merchant Category Code (\u201cMCC\u201d), and the MCC determines which preferred category the transaction falls under. MCC is a four-digit number assigned to a merchant (the business/organisation you paid) by the merchant\u2019s bank. Trust does not decide the merchant\u2019s MCC. \ud83d\ude4f",
+      "in_reference": true
+     },
+     {
+      "code": "4723",
+      "polarity": "include",
+      "page": 1,
+      "line": "4723",
+      "reason": "2. Preferred categories for Bonus cashback reward mode: Transactions made on Trust Freedom card are categorized according to the Merchant Category Code (\u201cMCC\u201d), and the MCC determines which preferred category the transaction falls under. MCC is a four-digit number assigned to a merchant (the business/organisation you paid) by the merchant\u2019s bank. Trust does not decide the merchant\u2019s MCC. \ud83d\ude4f",
+      "in_reference": true
+     },
+     {
+      "code": "5962",
+      "polarity": "include",
+      "page": 1,
+      "line": "5962",
+      "reason": "2. Preferred categories for Bonus cashback reward mode: Transactions made on Trust Freedom card are categorized according to the Merchant Category Code (\u201cMCC\u201d), and the MCC determines which preferred category the transaction falls under. MCC is a four-digit number assigned to a merchant (the business/organisation you paid) by the merchant\u2019s bank. Trust does not decide the merchant\u2019s MCC. \ud83d\ude4f",
+      "in_reference": true
+     },
+     {
+      "code": "7011",
+      "polarity": "include",
+      "page": 1,
+      "line": "7011",
+      "reason": "2. Preferred categories for Bonus cashback reward mode: Transactions made on Trust Freedom card are categorized according to the Merchant Category Code (\u201cMCC\u201d), and the MCC determines which preferred category the transaction falls under. MCC is a four-digit number assigned to a merchant (the business/organisation you paid) by the merchant\u2019s bank. Trust does not decide the merchant\u2019s MCC. \ud83d\ude4f",
+      "in_reference": true
+     },
+     {
+      "code": "7012",
+      "polarity": "include",
+      "page": 1,
+      "line": "7012",
+      "reason": "2. Preferred categories for Bonus cashback reward mode: Transactions made on Trust Freedom card are categorized according to the Merchant Category Code (\u201cMCC\u201d), and the MCC determines which preferred category the transaction falls under. MCC is a four-digit number assigned to a merchant (the business/organisation you paid) by the merchant\u2019s bank. Trust does not decide the merchant\u2019s MCC. \ud83d\ude4f",
+      "in_reference": true
+     },
+     {
+      "code": "7033",
+      "polarity": "include",
+      "page": 1,
+      "line": "7033",
+      "reason": "2. Preferred categories for Bonus cashback reward mode: Transactions made on Trust Freedom card are categorized according to the Merchant Category Code (\u201cMCC\u201d), and the MCC determines which preferred category the transaction falls under. MCC is a four-digit number assigned to a merchant (the business/organisation you paid) by the merchant\u2019s bank. Trust does not decide the merchant\u2019s MCC. \ud83d\ude4f",
+      "in_reference": true
+     },
+     {
+      "code": "5912",
+      "polarity": "include",
+      "page": 1,
+      "line": "5912",
+      "reason": "2. Preferred categories for Bonus cashback reward mode: Transactions made on Trust Freedom card are categorized according to the Merchant Category Code (\u201cMCC\u201d), and the MCC determines which preferred category the transaction falls under. MCC is a four-digit number assigned to a merchant (the business/organisation you paid) by the merchant\u2019s bank. Trust does not decide the merchant\u2019s MCC. \ud83d\ude4f",
+      "in_reference": true
+     },
+     {
+      "code": "5997",
+      "polarity": "include",
+      "page": 1,
+      "line": "5997",
+      "reason": "2. Preferred categories for Bonus cashback reward mode: Transactions made on Trust Freedom card are categorized according to the Merchant Category Code (\u201cMCC\u201d), and the MCC determines which preferred category the transaction falls under. MCC is a four-digit number assigned to a merchant (the business/organisation you paid) by the merchant\u2019s bank. Trust does not decide the merchant\u2019s MCC. \ud83d\ude4f",
+      "in_reference": true
+     },
+     {
+      "code": "7230",
+      "polarity": "include",
+      "page": 1,
+      "line": "7230",
+      "reason": "2. Preferred categories for Bonus cashback reward mode: Transactions made on Trust Freedom card are categorized according to the Merchant Category Code (\u201cMCC\u201d), and the MCC determines which preferred category the transaction falls under. MCC is a four-digit number assigned to a merchant (the business/organisation you paid) by the merchant\u2019s bank. Trust does not decide the merchant\u2019s MCC. \ud83d\ude4f",
+      "in_reference": true
+     },
+     {
+      "code": "7297",
+      "polarity": "include",
+      "page": 1,
+      "line": "7297",
+      "reason": "2. Preferred categories for Bonus cashback reward mode: Transactions made on Trust Freedom card are categorized according to the Merchant Category Code (\u201cMCC\u201d), and the MCC determines which preferred category the transaction falls under. MCC is a four-digit number assigned to a merchant (the business/organisation you paid) by the merchant\u2019s bank. Trust does not decide the merchant\u2019s MCC. \ud83d\ude4f",
+      "in_reference": true
+     },
+     {
+      "code": "7298",
+      "polarity": "include",
+      "page": 1,
+      "line": "7298",
+      "reason": "2. Preferred categories for Bonus cashback reward mode: Transactions made on Trust Freedom card are categorized according to the Merchant Category Code (\u201cMCC\u201d), and the MCC determines which preferred category the transaction falls under. MCC is a four-digit number assigned to a merchant (the business/organisation you paid) by the merchant\u2019s bank. Trust does not decide the merchant\u2019s MCC. \ud83d\ude4f",
+      "in_reference": true
+     },
+     {
+      "code": "7997",
+      "polarity": "include",
+      "page": 1,
+      "line": "7997",
+      "reason": "2. Preferred categories for Bonus cashback reward mode: Transactions made on Trust Freedom card are categorized according to the Merchant Category Code (\u201cMCC\u201d), and the MCC determines which preferred category the transaction falls under. MCC is a four-digit number assigned to a merchant (the business/organisation you paid) by the merchant\u2019s bank. Trust does not decide the merchant\u2019s MCC. \ud83d\ude4f",
+      "in_reference": true
+     },
+     {
+      "code": "8031",
+      "polarity": "include",
+      "page": 1,
+      "line": "8031",
+      "reason": "2. Preferred categories for Bonus cashback reward mode: Transactions made on Trust Freedom card are categorized according to the Merchant Category Code (\u201cMCC\u201d), and the MCC determines which preferred category the transaction falls under. MCC is a four-digit number assigned to a merchant (the business/organisation you paid) by the merchant\u2019s bank. Trust does not decide the merchant\u2019s MCC. \ud83d\ude4f",
+      "in_reference": true
+     },
+     {
+      "code": "8041",
+      "polarity": "include",
+      "page": 1,
+      "line": "8041",
+      "reason": "2. Preferred categories for Bonus cashback reward mode: Transactions made on Trust Freedom card are categorized according to the Merchant Category Code (\u201cMCC\u201d), and the MCC determines which preferred category the transaction falls under. MCC is a four-digit number assigned to a merchant (the business/organisation you paid) by the merchant\u2019s bank. Trust does not decide the merchant\u2019s MCC. \ud83d\ude4f",
+      "in_reference": true
+     },
+     {
+      "code": "8049",
+      "polarity": "include",
+      "page": 1,
+      "line": "8049",
+      "reason": "2. Preferred categories for Bonus cashback reward mode: Transactions made on Trust Freedom card are categorized according to the Merchant Category Code (\u201cMCC\u201d), and the MCC determines which preferred category the transaction falls under. MCC is a four-digit number assigned to a merchant (the business/organisation you paid) by the merchant\u2019s bank. Trust does not decide the merchant\u2019s MCC. \ud83d\ude4f",
+      "in_reference": true
+     },
+     {
+      "code": "3351-3441",
+      "polarity": "include",
+      "page": 1,
+      "line": "3351 \u2013 3441",
+      "reason": "2. Preferred categories for Bonus cashback reward mode: Transactions made on Trust Freedom card are categorized according to the Merchant Category Code (\u201cMCC\u201d), and the MCC determines which preferred category the transaction falls under. MCC is a four-digit number assigned to a merchant (the business/organisation you paid) by the merchant\u2019s bank. Trust does not decide the merchant\u2019s MCC. \ud83d\ude4f",
+      "in_reference": null
+     },
+     {
+      "code": "4111",
+      "polarity": "include",
+      "page": 1,
+      "line": "4111",
+      "reason": "2. Preferred categories for Bonus cashback reward mode: Transactions made on Trust Freedom card are categorized according to the Merchant Category Code (\u201cMCC\u201d), and the MCC determines which preferred category the transaction falls under. MCC is a four-digit number assigned to a merchant (the business/organisation you paid) by the merchant\u2019s bank. Trust does not decide the merchant\u2019s MCC. \ud83d\ude4f",
+      "in_reference": true
+     },
+     {
+      "code": "4112",
+      "polarity": "include",
+      "page": 1,
+      "line": "4112",
+      "reason": "2. Preferred categories for Bonus cashback reward mode: Transactions made on Trust Freedom card are categorized according to the Merchant Category Code (\u201cMCC\u201d), and the MCC determines which preferred category the transaction falls under. MCC is a four-digit number assigned to a merchant (the business/organisation you paid) by the merchant\u2019s bank. Trust does not decide the merchant\u2019s MCC. \ud83d\ude4f",
+      "in_reference": true
+     },
+     {
+      "code": "4121",
+      "polarity": "include",
+      "page": 1,
+      "line": "4121",
+      "reason": "2. Preferred categories for Bonus cashback reward mode: Transactions made on Trust Freedom card are categorized according to the Merchant Category Code (\u201cMCC\u201d), and the MCC determines which preferred category the transaction falls under. MCC is a four-digit number assigned to a merchant (the business/organisation you paid) by the merchant\u2019s bank. Trust does not decide the merchant\u2019s MCC. \ud83d\ude4f",
+      "in_reference": true
+     },
+     {
+      "code": "4131",
+      "polarity": "include",
+      "page": 1,
+      "line": "4131",
+      "reason": "2. Preferred categories for Bonus cashback reward mode: Transactions made on Trust Freedom card are categorized according to the Merchant Category Code (\u201cMCC\u201d), and the MCC determines which preferred category the transaction falls under. MCC is a four-digit number assigned to a merchant (the business/organisation you paid) by the merchant\u2019s bank. Trust does not decide the merchant\u2019s MCC. \ud83d\ude4f",
+      "in_reference": true
+     },
+     {
+      "code": "4457",
+      "polarity": "include",
+      "page": 1,
+      "line": "4457",
+      "reason": "2. Preferred categories for Bonus cashback reward mode: Transactions made on Trust Freedom card are categorized according to the Merchant Category Code (\u201cMCC\u201d), and the MCC determines which preferred category the transaction falls under. MCC is a four-digit number assigned to a merchant (the business/organisation you paid) by the merchant\u2019s bank. Trust does not decide the merchant\u2019s MCC. \ud83d\ude4f",
+      "in_reference": true
+     },
+     {
+      "code": "4784",
+      "polarity": "include",
+      "page": 1,
+      "line": "4784",
+      "reason": "2. Preferred categories for Bonus cashback reward mode: Transactions made on Trust Freedom card are categorized according to the Merchant Category Code (\u201cMCC\u201d), and the MCC determines which preferred category the transaction falls under. MCC is a four-digit number assigned to a merchant (the business/organisation you paid) by the merchant\u2019s bank. Trust does not decide the merchant\u2019s MCC. \ud83d\ude4f",
+      "in_reference": true
+     },
+     {
+      "code": "4789",
+      "polarity": "include",
+      "page": 1,
+      "line": "4789",
+      "reason": "2. Preferred categories for Bonus cashback reward mode: Transactions made on Trust Freedom card are categorized according to the Merchant Category Code (\u201cMCC\u201d), and the MCC determines which preferred category the transaction falls under. MCC is a four-digit number assigned to a merchant (the business/organisation you paid) by the merchant\u2019s bank. Trust does not decide the merchant\u2019s MCC. \ud83d\ude4f",
+      "in_reference": true
+     },
+     {
+      "code": "5521",
+      "polarity": "include",
+      "page": 1,
+      "line": "5521",
+      "reason": "2. Preferred categories for Bonus cashback reward mode: Transactions made on Trust Freedom card are categorized according to the Merchant Category Code (\u201cMCC\u201d), and the MCC determines which preferred category the transaction falls under. MCC is a four-digit number assigned to a merchant (the business/organisation you paid) by the merchant\u2019s bank. Trust does not decide the merchant\u2019s MCC. \ud83d\ude4f",
+      "in_reference": true
+     },
+     {
+      "code": "5541",
+      "polarity": "include",
+      "page": 1,
+      "line": "5541",
+      "reason": "2. Preferred categories for Bonus cashback reward mode: Transactions made on Trust Freedom card are categorized according to the Merchant Category Code (\u201cMCC\u201d), and the MCC determines which preferred category the transaction falls under. MCC is a four-digit number assigned to a merchant (the business/organisation you paid) by the merchant\u2019s bank. Trust does not decide the merchant\u2019s MCC. \ud83d\ude4f",
+      "in_reference": true
+     },
+     {
+      "code": "5542",
+      "polarity": "include",
+      "page": 1,
+      "line": "5542",
+      "reason": "2. Preferred categories for Bonus cashback reward mode: Transactions made on Trust Freedom card are categorized according to the Merchant Category Code (\u201cMCC\u201d), and the MCC determines which preferred category the transaction falls under. MCC is a four-digit number assigned to a merchant (the business/organisation you paid) by the merchant\u2019s bank. Trust does not decide the merchant\u2019s MCC. \ud83d\ude4f",
+      "in_reference": true
+     },
+     {
+      "code": "5552",
+      "polarity": "include",
+      "page": 1,
+      "line": "5552",
+      "reason": "2. Preferred categories for Bonus cashback reward mode: Transactions made on Trust Freedom card are categorized according to the Merchant Category Code (\u201cMCC\u201d), and the MCC determines which preferred category the transaction falls under. MCC is a four-digit number assigned to a merchant (the business/organisation you paid) by the merchant\u2019s bank. Trust does not decide the merchant\u2019s MCC. \ud83d\ude4f",
+      "in_reference": false
+     },
+     {
+      "code": "5983",
+      "polarity": "include",
+      "page": 1,
+      "line": "5983",
+      "reason": "2. Preferred categories for Bonus cashback reward mode: Transactions made on Trust Freedom card are categorized according to the Merchant Category Code (\u201cMCC\u201d), and the MCC determines which preferred category the transaction falls under. MCC is a four-digit number assigned to a merchant (the business/organisation you paid) by the merchant\u2019s bank. Trust does not decide the merchant\u2019s MCC. \ud83d\ude4f",
+      "in_reference": true
+     },
+     {
+      "code": "7512",
+      "polarity": "include",
+      "page": 1,
+      "line": "7512",
+      "reason": "2. Preferred categories for Bonus cashback reward mode: Transactions made on Trust Freedom card are categorized according to the Merchant Category Code (\u201cMCC\u201d), and the MCC determines which preferred category the transaction falls under. MCC is a four-digit number assigned to a merchant (the business/organisation you paid) by the merchant\u2019s bank. Trust does not decide the merchant\u2019s MCC. \ud83d\ude4f",
+      "in_reference": true
+     },
+     {
+      "code": "7513",
+      "polarity": "include",
+      "page": 1,
+      "line": "7513",
+      "reason": "2. Preferred categories for Bonus cashback reward mode: Transactions made on Trust Freedom card are categorized according to the Merchant Category Code (\u201cMCC\u201d), and the MCC determines which preferred category the transaction falls under. MCC is a four-digit number assigned to a merchant (the business/organisation you paid) by the merchant\u2019s bank. Trust does not decide the merchant\u2019s MCC. \ud83d\ude4f",
+      "in_reference": true
+     },
+     {
+      "code": "7519",
+      "polarity": "include",
+      "page": 1,
+      "line": "7519",
+      "reason": "2. Preferred categories for Bonus cashback reward mode: Transactions made on Trust Freedom card are categorized according to the Merchant Category Code (\u201cMCC\u201d), and the MCC determines which preferred category the transaction falls under. MCC is a four-digit number assigned to a merchant (the business/organisation you paid) by the merchant\u2019s bank. Trust does not decide the merchant\u2019s MCC. \ud83d\ude4f",
+      "in_reference": true
+     },
+     {
+      "code": "7523",
+      "polarity": "include",
+      "page": 1,
+      "line": "7523",
+      "reason": "2. Preferred categories for Bonus cashback reward mode: Transactions made on Trust Freedom card are categorized according to the Merchant Category Code (\u201cMCC\u201d), and the MCC determines which preferred category the transaction falls under. MCC is a four-digit number assigned to a merchant (the business/organisation you paid) by the merchant\u2019s bank. Trust does not decide the merchant\u2019s MCC. \ud83d\ude4f",
+      "in_reference": true
+     },
+     {
+      "code": "4899",
+      "polarity": "include",
+      "page": 1,
+      "line": "4899",
+      "reason": "2. Preferred categories for Bonus cashback reward mode: Transactions made on Trust Freedom card are categorized according to the Merchant Category Code (\u201cMCC\u201d), and the MCC determines which preferred category the transaction falls under. MCC is a four-digit number assigned to a merchant (the business/organisation you paid) by the merchant\u2019s bank. Trust does not decide the merchant\u2019s MCC. \ud83d\ude4f",
+      "in_reference": true
+     },
+     {
+      "code": "5733",
+      "polarity": "include",
+      "page": 1,
+      "line": "5733",
+      "reason": "2. Preferred categories for Bonus cashback reward mode: Transactions made on Trust Freedom card are categorized according to the Merchant Category Code (\u201cMCC\u201d), and the MCC determines which preferred category the transaction falls under. MCC is a four-digit number assigned to a merchant (the business/organisation you paid) by the merchant\u2019s bank. Trust does not decide the merchant\u2019s MCC. \ud83d\ude4f",
+      "in_reference": true
+     },
+     {
+      "code": "5735",
+      "polarity": "include",
+      "page": 1,
+      "line": "5735",
+      "reason": "2. Preferred categories for Bonus cashback reward mode: Transactions made on Trust Freedom card are categorized according to the Merchant Category Code (\u201cMCC\u201d), and the MCC determines which preferred category the transaction falls under. MCC is a four-digit number assigned to a merchant (the business/organisation you paid) by the merchant\u2019s bank. Trust does not decide the merchant\u2019s MCC. \ud83d\ude4f",
+      "in_reference": true
+     },
+     {
+      "code": "5813",
+      "polarity": "include",
+      "page": 1,
+      "line": "5813",
+      "reason": "2. Preferred categories for Bonus cashback reward mode: Transactions made on Trust Freedom card are categorized according to the Merchant Category Code (\u201cMCC\u201d), and the MCC determines which preferred category the transaction falls under. MCC is a four-digit number assigned to a merchant (the business/organisation you paid) by the merchant\u2019s bank. Trust does not decide the merchant\u2019s MCC. \ud83d\ude4f",
+      "in_reference": true
+     },
+     {
+      "code": "5815",
+      "polarity": "include",
+      "page": 1,
+      "line": "5815",
+      "reason": "2. Preferred categories for Bonus cashback reward mode: Transactions made on Trust Freedom card are categorized according to the Merchant Category Code (\u201cMCC\u201d), and the MCC determines which preferred category the transaction falls under. MCC is a four-digit number assigned to a merchant (the business/organisation you paid) by the merchant\u2019s bank. Trust does not decide the merchant\u2019s MCC. \ud83d\ude4f",
+      "in_reference": true
+     },
+     {
+      "code": "5816",
+      "polarity": "include",
+      "page": 1,
+      "line": "5816",
+      "reason": "2. Preferred categories for Bonus cashback reward mode: Transactions made on Trust Freedom card are categorized according to the Merchant Category Code (\u201cMCC\u201d), and the MCC determines which preferred category the transaction falls under. MCC is a four-digit number assigned to a merchant (the business/organisation you paid) by the merchant\u2019s bank. Trust does not decide the merchant\u2019s MCC. \ud83d\ude4f",
+      "in_reference": true
+     },
+     {
+      "code": "5945",
+      "polarity": "include",
+      "page": 1,
+      "line": "5945",
+      "reason": "2. Preferred categories for Bonus cashback reward mode: Transactions made on Trust Freedom card are categorized according to the Merchant Category Code (\u201cMCC\u201d), and the MCC determines which preferred category the transaction falls under. MCC is a four-digit number assigned to a merchant (the business/organisation you paid) by the merchant\u2019s bank. Trust does not decide the merchant\u2019s MCC. \ud83d\ude4f",
+      "in_reference": true
+     },
+     {
+      "code": "7832",
+      "polarity": "include",
+      "page": 1,
+      "line": "7832",
+      "reason": "2. Preferred categories for Bonus cashback reward mode: Transactions made on Trust Freedom card are categorized according to the Merchant Category Code (\u201cMCC\u201d), and the MCC determines which preferred category the transaction falls under. MCC is a four-digit number assigned to a merchant (the business/organisation you paid) by the merchant\u2019s bank. Trust does not decide the merchant\u2019s MCC. \ud83d\ude4f",
+      "in_reference": true
+     },
+     {
+      "code": "7841",
+      "polarity": "include",
+      "page": 1,
+      "line": "7841",
+      "reason": "2. Preferred categories for Bonus cashback reward mode: Transactions made on Trust Freedom card are categorized according to the Merchant Category Code (\u201cMCC\u201d), and the MCC determines which preferred category the transaction falls under. MCC is a four-digit number assigned to a merchant (the business/organisation you paid) by the merchant\u2019s bank. Trust does not decide the merchant\u2019s MCC. \ud83d\ude4f",
+      "in_reference": true
+     },
+     {
+      "code": "7922",
+      "polarity": "include",
+      "page": 1,
+      "line": "7922",
+      "reason": "2. Preferred categories for Bonus cashback reward mode: Transactions made on Trust Freedom card are categorized according to the Merchant Category Code (\u201cMCC\u201d), and the MCC determines which preferred category the transaction falls under. MCC is a four-digit number assigned to a merchant (the business/organisation you paid) by the merchant\u2019s bank. Trust does not decide the merchant\u2019s MCC. \ud83d\ude4f",
+      "in_reference": true
+     }
+    ]
+   },
+   "transaction_modes": {
+    "foreign_currency": [
+     "For overseas usage, you may also be able to get a cash advance depending on local regulation.",
+     "If you\u2019ve activated the overseas ATM withdrawal function on the Trust App and you use your Trust Freedom credit card overseas to withdraw cash: (a) The foreign currency withdrawal amount will be converted from US dollars into Singapore dollars at the foreign exchange rate provided by Visa with no fee from Trust (and if it\u2019s not in US dollars, it\u2019ll first be converted to US dollars).",
+     "The overseas ATM operator may charge a fee for overseas withdrawals.",
+     "Foreign currency transactions If you use your Trust Freedom credit card to pay in a foreign currency (or get a refund in a foreign currency), here\u2019s what will happen: (a) The foreign currency amount will be converted from US dollars into Singapore dollars at the foreign exchange rate provided by Visa with no fee from Trust (and if it\u2019s not in US dollars, it\u2019ll first be converted to US dollars),(b)",
+     "Please remember that some transactions may be processed overseas even if displayed in Singapore dollars.",
+     "We will consider these transactions as using your Trust Freedom credit card in a foreign currency.",
+     "Dynamic currency conversion (DCC) If you use your Trust Freedom card to pay in a foreign currency (or get a refund in a foreign currency), here\u2019s what will happen: (a) The foreign currency amount will be converted from US dollars into Singapore dollars at the foreign exchange rate provided by Visa with no fee from Trust (and if it\u2019s not in US dollars, it\u2019ll first be converted to US dollars),(b) Fo",
+     "Please remember that some transactions may be processed overseas even if displayed in Singapore dollars.",
+     "We will consider these transactions as using your Trust Freedom credit card in a foreign currency."
+    ],
+    "local_currency": [
+     "If you\u2019ve activated the overseas ATM withdrawal function on the Trust App and you use your Trust Freedom credit card overseas to withdraw cash: (a) The foreign currency withdrawal amount will be converted from US dollars into Singapore dollars at the foreign exchange rate provided by Visa with no fee from Trust (and if it\u2019s not in US dollars, it\u2019ll first be converted to US dollars).",
+     "Foreign currency transactions If you use your Trust Freedom credit card to pay in a foreign currency (or get a refund in a foreign currency), here\u2019s what will happen: (a) The foreign currency amount will be converted from US dollars into Singapore dollars at the foreign exchange rate provided by Visa with no fee from Trust (and if it\u2019s not in US dollars, it\u2019ll first be converted to US dollars),(b)",
+     "Please remember that some transactions may be processed overseas even if displayed in Singapore dollars.",
+     "Dynamic currency conversion (DCC) If you use your Trust Freedom card to pay in a foreign currency (or get a refund in a foreign currency), here\u2019s what will happen: (a) The foreign currency amount will be converted from US dollars into Singapore dollars at the foreign exchange rate provided by Visa with no fee from Trust (and if it\u2019s not in US dollars, it\u2019ll first be converted to US dollars),(b) Fo",
+     "Please remember that some transactions may be processed overseas even if displayed in Singapore dollars.",
+     "Local Eligible Spend refers to all Visa transactions on your Freedom credit card in Singapore Dollars, and where the transaction is processed in Singapore, excluding ineligible transactions.",
+     "Foreign Eligible Spend refers to all Visa transactions made on your Freedom credit card that are not in Singapore Dollars, or where the transaction is processed outside of Singapore (including transactions that are converted into Singapore dollars via Dynamic Currency Conversion (DCC)), excluding ineligible transactions."
+    ]
+   },
+   "non_mcc_exclusions": [
+    "annual fee",
+    "balance transfer",
+    "cash advance",
+    "instalment",
+    "interest",
+    "late payment charge",
+    "tax",
+    "utilit"
+   ]
+  }
+ ],
+ "changed": false,
+ "removed_documents": []
+}

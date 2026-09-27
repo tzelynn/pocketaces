@@ -1,0 +1,79 @@
+Circles.Life Zerofy Card Terms and Conditions
+Terms & Conditions
+Circles.Life Zerofy Card Terms and Conditions
+Circles.Life Zerofy Card Terms and Conditions
+1. Agreement to Terms
+The Circles.Life Zerofy Card (“Zerofy Card”) is issued by Circles.Life in partnership with 
+Airwallex
+. By applying for, activating, or using the Zerofy Card, you acknowledge that you have read, understood, and agree to be legally bound by these Terms and Conditions (the “Terms”). Circles.Life reserves the right to amend, suspend, or terminate these Terms at its sole discretion without prior notice. Your continued use of the Zerofy Card following any such changes constitutes your unconditional acceptance of the revised Terms.
+2. Card License and Ownership
+The Zerofy Card remains the property of Circles.Life and/or Airwallex at all times. Circles.Life grants you a limited, revocable, non-transferable license to use the Zerofy Card for lawful personal spending in accordance with these Terms. You agree not to sublicense, resell, or misuse the card for unauthorized purposes.
+3. Eligibility and Account Requirements
+The Zerofy Card is available to active Circles.Life customers who:
+Hold a valid Circles.Life subscription in good standing;
+Have successfully completed eKYC and onboarding requirements;
+Maintain a verified payment method or sufficient card balance.
+4. Cashback and Rewards (“Cashback”)
+4.1 General
+Cashback is earned when you use the Zerofy Card for eligible transactions, subject to exclusions in Clause 4.3. Cashback will be reflected in your Circles Zerofy balance.
+4.2 Tracking and Validation
+Transactions must be authorized and settled successfully.
+Reversed, refunded, or chargeback transactions will not qualify.
+Merchant codes (MCC) are used for categorization and validation. Circles.Life is not responsible if a merchant is incorrectly coded by the acquiring bank.
+4.3 Exclusions
+There are 2 types of instant cashback that you’ll receive on the card:
+Baseline cashback: 1% instant cashback on all your spends (see specific exclusions below)
+Upsized cashback: Up to 27% instant cashback on select Zerofy partners when you go through the Circles.Life app (subject to confirmation of the transaction amount by our partners)
+Please note that any instant cashback will be reverted to Circles in case you cancel or request a refund on a payment made using the Circles Zerofy Cashback Card or if we detect a fraudulent transaction.
+Based on Visa guidelines, payments made using the Circles Zerofy Cashback Card in the following categories are exempt from the Baseline cashback:
+Property management
+Property rental
+Government
+Parking
+Charities
+Utilities
+Electric vehicle charging
+Insurance
+Government services, fines, and taxes
+Gift cards, stored-value reloads, or wallet top-ups (unless explicitly stated as eligible)
+Additionally, transactions meant for wallet top-ups (including adding funds to e-wallets, prepaid accounts, or similar stored-value services) are not supported on the Zerofy Card and will be declined.
+This will be governed by Airwallex’s 
+Acceptable Use Policy
+.
+4.4 Calculation
+Cashback rates vary by merchant category, promotion, or program structure and are subject to change without prior notice. The applicable percentage will be applied to the net eligible spend, excluding fees, taxes, or surcharges.
+4.5 Bonuses
+Early-bird or promotional bonuses may be introduced at Circles.Life’s discretion (e.g., fixed-value cashback for first successful transactions). Such offers are subject to published timelines and caps.
+5. Usage of the Zerofy Card
+The Zerofy Card may be used for:
+Online and in-app purchases where Visa (or relevant network) is accepted;
+Adding as a payment method for your Circles.Life monthly bill (optional).
+It is not restricted to offsetting Circles.Life bills and functions as a general-use payment card.
+6. Card Balance and Limits
+The Zerofy Card has a maximum 
+card balance limit of S$20,000
+ at any given time. Users will be able to reduce card balance limit to S$5,000 and upgrade it back to S$20,000 as per their convenience from the Circles.Life app. Circles.Life may adjust limits in compliance with regulatory requirements or risk management policies.
+Important:
+If you cancel your Zerofy Card, you will immediately forfeit any remaining card balance and accrued Cashback, which cannot be refunded, transferred, or reinstated.
+If you terminate your Circles.Life mobile line, you will also lose access to the Zerofy Card, its balance, and any accrued Cashback permanently.
+7. Merchant Relationships
+Circles.Life is not responsible for merchant fulfillment, product quality, refunds, or disputes. Transactions remain governed by each merchant’s policies. MCC categorization and eligibility for Cashback are subject to the acquiring bank and may change without notice.
+8. Program Changes and Termination
+Circles.Life may modify, suspend, or terminate the Zerofy Card program, including cashback rates and merchant eligibility. We may also restrict or cancel your card at our discretion for misuse, fraud, or regulatory requirements.
+If your Zerofy Card or Circles.Life account is terminated for any reason, you will lose all access to the card, its balance, and any accrued Cashback. No reinstatement, refund, or compensation will be provided.
+9. Liability
+Circles.Life’s total liability shall not exceed SGD 1000 or the value of Cashback earned in the preceding 6 months, whichever is lower. We are not liable for:
+Merchant misclassification;
+Lost profits or indirect damages;
+Network or processing delays outside our control.
+10. General Provisions
+Governing Law
+: Singapore law applies.
+Dispute Resolution
+: First via Circles.Life support; unresolved matters may be referred to the Small Claims Tribunal or courts of Singapore.
+Severability
+: If any term is unenforceable, the rest remain valid.
+Force Majeure
+: Circles.Life is not liable for delays caused by events beyond our control.
+Privacy
+: Your personal data will be processed in line with Circles.Life’s Data Protection Policy for transaction processing and analytics.

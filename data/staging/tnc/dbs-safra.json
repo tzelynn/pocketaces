@@ -1,0 +1,30 @@
+{
+ "card_id": "dbs-safra",
+ "product_pages": [
+  {
+   "id": "bank:dc85ab72481e",
+   "url": "https://www.dbs.com.sg/personal/cards/credit-cards/dbs-safra-credit-card",
+   "source_type": "official",
+   "retrieved_at": "2026-09-27T08:36:44+00:00",
+   "sha256": "dc85ab72481ebbd911995d20e811c187afdca8930fed515829edfc11b2c27e10",
+   "snapshot": "data/raw/bank/www-dbs-com-sg-personal-cards-credit-cards-dbs-safra-credit-card-d1a8caf3.html"
+  }
+ ],
+ "documents": [
+  {
+   "url": "https://www.dbs.com.sg/iwov-resources/pdf/cards/safra-dbs-credit-card-cash-rebate-programme-tnc.pdf",
+   "error": "robots.txt disallows https://www.dbs.com.sg/iwov-resources/pdf/cards/safra-dbs-credit-card-cash-rebate-programme-tnc.pdf",
+   "changed": false
+  },
+  {
+   "url": "https://www.dbs.com.sg/iwov-resources/pdf/cards/credit-cards/safra-credit-card/imp_note_safra_cardmembers.pdf",
+   "error": "robots.txt disallows https://www.dbs.com.sg/iwov-resources/pdf/cards/credit-cards/safra-credit-card/imp_note_safra_cardmembers.pdf",
+   "changed": false
+  }
+ ],
+ "changed": true,
+ "removed_documents": [
+  "https://www.dbs.com.sg/iwov-resources/media/pdf/cards/safra-credit-debit-cards-faq.pdf",
+  "https://www.dbs.com.sg/iwov-resources/media/pdf/deposits/paylah-newuser-joinlah-tnc.pdf"
+ ]
+}

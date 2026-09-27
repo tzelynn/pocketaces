@@ -1,0 +1,113 @@
+{
+ "source": "singsaver",
+ "source_id": "dbs-safra-card",
+ "source_url": "https://www.singsaver.com.sg/credit-card/products/dbs-safra-card",
+ "name": "DBS SAFRA Card",
+ "bank": "DBS",
+ "card_id": "dbs-safra",
+ "image_url": "https://mhgprod.blob.core.windows.net/singsaver/strapi-uploads/l_2026_01_SAFRA_DBS_CARD_97d10c6088.png",
+ "annual_fee_note": "Not applicable",
+ "min_annual_income": 30000.0,
+ "min_monthly_spend": 500.0,
+ "earn_rates": {
+  "percent:local": {
+   "value": 3.0,
+   "unit": "percent",
+   "note": "On local Mastercard contactless transactions with minimum spend of S$500. Earned in the form of SAFRA$. Capped at SAFRA$50 per calendar month."
+  },
+  "percent:transport": {
+   "value": 3.0,
+   "unit": "percent",
+   "note": "Including bus/train rides via SimplyGo  With minimum spend of S$500  Earned in the form of SAFRA$  Capped at SAFRA$50 per calendar month."
+  },
+  "percent:overseas": {
+   "value": 0.3,
+   "unit": "percent",
+   "note": "Earned in the form of SAFRA$  Capped at SAFRA$50 per calendar month."
+  },
+  "percent:baseline": {
+   "value": 0.3,
+   "unit": "percent",
+   "note": "Earned in the form of SAFRA$  Capped at SAFRA$50 per calendar month."
+  },
+  "percent:contactless_spend": {
+   "value": 3.0,
+   "unit": "percent",
+   "note": "With minimum spend of S$500  Earned in the form of SAFRA$  Capped at SAFRA$50 per calendar month."
+  },
+  "percent:local_online_shopping": {
+   "value": 3.0,
+   "unit": "percent",
+   "note": "With minimum spend of S$500  Earned in the form of SAFRA$  Capped at SAFRA$50 per calendar month."
+  }
+ },
+ "caps": {},
+ "highlights": [
+  "Earn up to 3% cashback in the form of SAFRA$ on local Mastercard contactless transactions, online shopping, and public transport (bus/train via SimplyGo) with a minimum monthly spend of S$500. Cashback is capped at SAFRA$50 per month. For all other transactions, earn 0.30% cashback, also capped at SAFRA$50 per month.",
+  "pros: Enjoy up to 3% cash rebate on local contactless spend and online shopping, including bus/train rides via SimplyGo.",
+  "pros: Earn 1 SAFRAPOINT for every dollar spent at participating outlets and facilities at SAFRA.",
+  "pros: Doubles as your SAFRA Membership Card.",
+  "pros: Enjoy exclusive access to 7 SAFRA Clubhouse islandwide.",
+  "pros: Combined DBS and SAFRA privileges that include exclusive discounts and perks at over 1,800 merchant outlets.",
+  "pros: No annual fee charged as long as you remain a SAFRA memeber. SAFRA membership fees still applies..",
+  "cons: Applicant must be an existing SAFRA member.",
+  "cons: Must spend a min. of S$500 in a calendar month to earn 3% cash rebate.",
+  "cons: Cash rebates earned will be in the form of SAFRA$ and is capped at SAFRA$50 per card account per calendar month.",
+  "cons: SAFRA$ earn will expire 12 calendar months from the date it was earned. All expired SAFRA$ will be forfeited.",
+  "pros: Mobile contactless rebate",
+  "pros: Online shopping rebate",
+  "cons: Monthly spend required",
+  "cons: Rebate cap applied"
+ ],
+ "sign_up_offers": [],
+ "links": {},
+ "citation": {
+  "id": "singsaver:a2fa5d01829d",
+  "url": "https://www.singsaver.com.sg/credit-card/products/dbs-safra-card",
+  "title": "DBS SAFRA Card",
+  "source_type": "aggregator",
+  "retrieved_at": "2026-09-27T05:25:27+00:00",
+  "sha256": "a2fa5d01829d679624eb476c628e4f29e1dfac6d16246cdbc91e213880f3da95",
+  "snapshot": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-dbs-safra-card-cc06c8b7.html"
+ },
+ "extra": {
+  "network": [
+   "Mastercard"
+  ],
+  "mobile_wallets": [
+   "Google Pay",
+   "Apple Pay",
+   "Samsung Pay",
+   "NETSPay"
+  ],
+  "fx_fee_percent": 3.25,
+  "miles_conversion_fee": null,
+  "categories": [
+   "category:all-credit-cards",
+   "category:buffet-promo",
+   "category:cashback",
+   "category:dining-promo",
+   "category:grocery-promo",
+   "category:installment",
+   "category:petrol-promo",
+   "category:promo",
+   "category:retail-promo",
+   "category:travel",
+   "needs:0-interest-rate",
+   "needs:all-cards-with-buffet-promo",
+   "needs:all-cards-with-dining-promo",
+   "needs:all-cards-with-grocery-promo",
+   "needs:all-cards-with-petrol-promo",
+   "needs:all-cards-with-promotion",
+   "needs:all-cards-with-retail-promo",
+   "needs:all-cashback-cards",
+   "needs:all-credit-cards",
+   "needs:all-installment-cards",
+   "needs:all-travel-cards",
+   "needs:long-tenure-installment",
+   "needs:online-booking-discount"
+  ],
+  "tag": null,
+  "description": "The DBS SAFRA Card grants you access to SAFRA clubhouse facilities around Singapore. You'll also enjoy exclusive benefits at over 1,800 merchants and up to 3% cash rebate on contactless spend and online shopping."
+ }
+}

@@ -1,0 +1,65 @@
+{
+ "source": "singsaver",
+ "source_id": "aspire-corporate-card",
+ "source_url": "https://www.singsaver.com.sg/credit-card/products/aspire-corporate-card",
+ "name": "Aspire Corporate Card",
+ "bank": "Aspire",
+ "image_url": "https://mhgprod.blob.core.windows.net/singsaver/strapi-uploads/xs_blt453304fb39c3b596_63d27433aa.png",
+ "annual_fee": 0.0,
+ "annual_fee_note": "S$ | No Annual Fee",
+ "earn_rates": {
+  "percent:baseline": {
+   "value": 1.0,
+   "unit": "percent",
+   "note": null
+  },
+  "percent:local": {
+   "value": 1.0,
+   "unit": "percent",
+   "note": null
+  },
+  "percent:overseas": {
+   "value": 1.0,
+   "unit": "percent",
+   "note": null
+  }
+ },
+ "caps": {},
+ "highlights": [
+  "On all spends",
+  "pros: Enjoy 1% cashback on eligible spends",
+  "pros: 0.7% foreign exchange fee",
+  "pros: Instant usage with virtual card",
+  "pros: Issue unlimited virtual corporate cards for free",
+  "pros: Get real-time spend notifications",
+  "pros: Gain access to exclusive benefits from partners",
+  "pros: Enjoy prompt customer support",
+  "cons: Only open to individuals who have a registered business in Singapore"
+ ],
+ "sign_up_offers": [],
+ "links": {
+  "apply": "https://sg.aspireapp.com/corporate-card/singsaver50?utm_source=Link&utm_medium=affiliate&utm_campaign=singsaver&utm_content=50cashback"
+ },
+ "citation": {
+  "id": "singsaver:06ca37228b26",
+  "url": "https://www.singsaver.com.sg/credit-card/products/aspire-corporate-card",
+  "title": "Aspire Corporate Card",
+  "source_type": "aggregator",
+  "retrieved_at": "2026-09-27T05:24:48+00:00",
+  "sha256": "06ca37228b2617cc25422ac7504e48deb5b400c46496a4d9cde38720879f880c",
+  "snapshot": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-aspire-corporate-card-066d0e19.html"
+ },
+ "extra": {
+  "network": [
+   "VISA"
+  ],
+  "mobile_wallets": [
+   "Visa PayWave"
+  ],
+  "fx_fee_percent": 0.7,
+  "miles_conversion_fee": null,
+  "categories": [],
+  "tag": "",
+  "description": "The Aspire Corporate Card offers a seamless blend of convenience, control, and rewards. Streamline expense tracking, empower your team, and unlock exclusive benefits, all while maintaining a firm grip on your company's financial expenses."
+ }
+}

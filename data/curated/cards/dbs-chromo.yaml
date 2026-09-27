@@ -1,0 +1,90 @@
+# Curated card record. Auto-drafted from staged sources; verify every value against the
+# official T&Cs (citations below), then set review.status: reviewed.
+id: dbs-chromo
+bank: DBS
+name: DBS Chromo Card
+network: visa
+image_url: https://mhgprod.blob.core.windows.net/singsaver/strapi-uploads/m_DBS_Chromo_Card_Red_2026_09_4f13ac4076.webp
+official_url: https://www.dbs.com.sg/personal/cards/credit-cards/dbs-chromo-card
+annual_fee:
+  amount:
+    amount: 196.2
+    currency: SGD
+  waiver_notes: S$ | S$196.20 (incl. GST) (5-years annual fee waiver)
+  sources: ['singsaver:0e54979e8973']
+min_annual_income:
+  amount: 30000.0
+  currency: SGD
+reward_currency:
+  kind: miles
+  name: Miles
+earn_rules:
+- id: local
+  label: local (SingSaver — verify)
+  rate: 1.3
+  unit: mpd
+  tier: bonus
+  eligibility:
+    description: Earn 1.3 miles per S$1 spend on all eligible local spend. Miles are awarded in the form
+      of DBS Points (1 DBS Point = 2 miles) and do not expire.
+    sources: ['singsaver:0e54979e8973']
+  sources: ['singsaver:0e54979e8973']
+- id: base
+  label: baseline (SingSaver — verify)
+  rate: 1.3
+  unit: mpd
+  tier: base
+  eligibility:
+    all_spend: true
+    description: ''
+    sources: ['singsaver:0e54979e8973']
+  sources: ['singsaver:0e54979e8973']
+general_exclusions:
+  description: Auto-extracted from official T&Cs — confirm each code applies to this card
+sign_up_bonuses:
+- offered_by: singsaver
+  description: 'Stackable Welcome Offer: choice of Up to S$200 Cashback on Cashline'
+  value:
+    amount: 200.0
+    currency: SGD
+  valid_from: '2026-08-31'
+  valid_to: '2026-09-30'
+  url: https://www.singsaver.com.sg/credit-card/products/dbs-chromo-card
+  sources: ['singsaver:0e54979e8973']
+- offered_by: singsaver
+  description: 'SingSaver Exclusive Offer: choice of S$288 Cash via PayNow; S$310 Grab Voucher; 18,000
+    Max Miles by HeyMax (worth S$324); Samsung Galaxy Buds4 Pro (worth S$349); Samsonite Straren Spinner
+    67/24 (worth S$600); Dyson V8 Cyclone Vacuum Cleaner (worth S$559, top up S$150); Dyson Airstrait™
+    hair straightener (worth S$799) (Top up S$200); Sony WH-1000XM6 Headphones (worth S$649) (top up S$200);
+    Apple iPad (A16) 11" 128GB WiFi (worth S$649) (Top up S$350)'
+  value:
+    amount: 288.0
+    currency: SGD
+  valid_from: '2026-09-16'
+  valid_to: '2026-09-30'
+  url: https://www.singsaver.com.sg/credit-card/products/dbs-chromo-card
+  sources: ['singsaver:0e54979e8973']
+- offered_by: moneysmart
+  description: "Choice of: Samsonite MINTER 80/30 Luggage; S$288 Cashback. Terms: Valid for New Customers\
+    \ only\nUse promo code \nCSSAM\n when applying\nCharge a min. of S$500 within 60 days from the date\
+    \ of card approval\nHave a valid DBS PayLah! account by the end of the Qualifying Spend period"
+  url: https://www.moneysmart.sg/credit-cards/dbs-chromo-card
+  sources: ['moneysmart:42909b088c22']
+citations:
+- id: singsaver:0e54979e8973
+  url: https://www.singsaver.com.sg/credit-card/products/dbs-chromo-card
+  title: DBS Chromo Card
+  source_type: aggregator
+  retrieved_at: '2026-09-27T05:25:20+00:00'
+  sha256: 0e54979e8973fabda1c24d67c381ca6618869e8c227c21f02929a4817ea5e5a2
+  snapshot: data/raw/singsaver/www-singsaver-com-sg-credit-card-products-dbs-chromo-card-e340b498.html
+- id: moneysmart:42909b088c22
+  url: https://www.moneysmart.sg/credit-cards?page=2
+  title: DBS Chromo Card
+  source_type: aggregator
+  retrieved_at: '2026-09-27T05:27:14+00:00'
+  sha256: 42909b088c22cb063c120b532d19af920cb3535c52f6bfc313193c6c6ea14746
+  snapshot: data/raw/moneysmart/credit-cards-p2-5f055203.html
+review:
+  status: draft
+updated_at: '2026-09-27'

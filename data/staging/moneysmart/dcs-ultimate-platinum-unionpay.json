@@ -1,0 +1,75 @@
+{
+ "source": "moneysmart",
+ "source_id": "dcs-ultimate-platinum-card",
+ "source_url": "https://www.moneysmart.sg/credit-cards/dcs-ultimate-platinum-card",
+ "name": "DCS Ultimate Platinum UnionPay",
+ "bank": "DCS",
+ "card_id": "dcs-ultimate-platinum-unionpay",
+ "image_url": "https://photos.cdn-moneysmart.com/credit_cards/uploads/products/images/image_url_2023-06-26_DCS Ultimate Plat UnionPay.jpg",
+ "min_annual_income": 15000.0,
+ "earn_rates": {},
+ "caps": {},
+ "highlights": [
+  "Earn 2% Cashback on the first S$10,000 spent",
+  "0 Min. Spend",
+  "200 Cash Back Cap per month",
+  "Earn 2% cashback on all local and overseas spend with no minimum spend requirements, capped at S$200 cashback per calendar month",
+  "Scan and pay conveniently at any UnionPay QR Code-enabled merchants in over 40 destinations worldwide, including Mainland China, Hong Kong, Malaysia and Thailand",
+  "At MoneySmart, we strive to keep our information accurate and up to date. This information may be different from what you see when you visit a financial institution, service provider, or specific product site. MoneySmart shall not be liable to compensate the Customer should the information is not as updated as our Partner."
+ ],
+ "sign_up_offers": [
+  {
+   "kind": "MANUAL_GIFT",
+   "title": "S$50 GrabGifts Voucher",
+   "subtitle": null,
+   "is_cash": false,
+   "terms": "- Valid for New-To-DCS Credit Card customers\n- Spend a min. of S$800 in Eligible Transactions within 30 days",
+   "campaign": "Credit Card | DCS | Ultimate Plat UnionPay | 040926"
+  }
+ ],
+ "links": {
+  "product": "https://www.moneysmart.sg/credit-cards/dcs-ultimate-platinum-card"
+ },
+ "citation": {
+  "id": "moneysmart:42909b088c22",
+  "url": "https://www.moneysmart.sg/credit-cards?page=2",
+  "title": "DCS Ultimate Platinum UnionPay",
+  "source_type": "aggregator",
+  "retrieved_at": "2026-09-27T05:27:14+00:00",
+  "sha256": "42909b088c22cb063c120b532d19af920cb3535c52f6bfc313193c6c6ea14746",
+  "snapshot": "data/raw/moneysmart/credit-cards-p2-5f055203.html"
+ },
+ "extra": {
+  "summary": "",
+  "badges": [],
+  "network": [],
+  "mobile_wallets": [],
+  "groups": {
+   "annual-interest-rate-and-fees": {
+    "Annual Interest Rate": "26.90%",
+    "Annual Principal Fee": "S$196.20 inclusive of GST (first year FREE)",
+    "Supplementary Annual Fee": "S$98.10 inclusive of GST (first year FREE)",
+    "Minimum Monthly Repayment": "5% of outstanding balance or S$50 (whichever is greater), or the full amount if below S$50; plus all past due amount and any amount exceeding Credit Limit"
+   },
+   "minimum-income-requirements": {
+    "Singaporean/PR Minimum Annual Income": "Minimum income of S$30,000p.a. OR S$15,000p.a. (for age 55 & above)",
+    "Non-Singaporean Minimum Annual Income": "Minimum income of S$60,000p.a."
+   },
+   "card-association": {},
+   "documents-required": {
+    "SG Citizens or PRs": "Apply via MyInfo",
+    "Passport Validity (Foreigners)": "6 months",
+    "Work Permit Validity (Foreigners)": "6 months",
+    "Utility or Telephone Bill": "Full Name & Address",
+    "Income Tax Notice of Assessment": "Yes",
+    "Latest Original Computerised Payslip": "Yes"
+   }
+  },
+  "our_takes": {
+   "our-take": "The DCS Ultimate Platinum UnionPay Card is best for those who want a flat cashback rate without minimum spending requirements. You'll earn 2% cashback on all spend, capped at S$200 monthly – useful for consistent rewards across varied expenses. UnionPay QR acceptance gives added convenience both locally and overseas. Note the S$196.20 annual fee (waived first year) & the late payment fee of S$100, which makes responsible spending essential. Consider other cards if you prefer category-specific bonuses, as this card offers a uniform rate.",
+   "good-for": "Salaried professionals seeking generous cashback of up to 2% on all spends, both locally and overseas with no minimum spending.\nUnionPay users who want to conveniently scan and pay at QR code-enabled merchants worldwide, including China, Hong Kong and Thailand.",
+   "things-to-note": "The 26.90% annual interest rate can be costly; unpaid balances quickly accumulate, making repayment significantly harder.\nLate payment fees of S$100 apply if minimum payments aren't met, adding a substantial charge to your outstanding balance.\nWhile the first year's annual fee is waived, after that it's S$196.20; evaluate if rewards offset this cost."
+  },
+  "updated_at": "2026-07-28T10:48:10+08:00"
+ }
+}

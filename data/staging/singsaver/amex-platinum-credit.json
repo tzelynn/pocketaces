@@ -1,0 +1,134 @@
+{
+ "source": "singsaver",
+ "source_id": "american-express-platinum-credit-card",
+ "source_url": "https://www.singsaver.com.sg/credit-card/products/american-express-platinum-credit-card",
+ "name": "American Express Platinum Credit Card",
+ "bank": "American Express",
+ "card_id": "amex-platinum-credit",
+ "image_url": "https://mhgprod.blob.core.windows.net/singsaver/strapi-uploads/xs_blta5a3b2b0cda5bd3b_7cf206a044.png",
+ "annual_fee": 327.0,
+ "annual_fee_note": "S$",
+ "earn_rates": {
+  "points_per_dollar:dining": {
+   "value": 10.0,
+   "unit": "points_per_dollar",
+   "note": "Earn 10 Membership Rewards® points for every full S$1.60 spent at Platinum 10Xcelerator Partners."
+  },
+  "points_per_dollar:retail": {
+   "value": 10.0,
+   "unit": "points_per_dollar",
+   "note": "Earn 10 Membership Rewards® points for every full S$1.60 spent at Platinum 10Xcelerator Partners."
+  },
+  "points_per_dollar:baseline": {
+   "value": 2.0,
+   "unit": "points_per_dollar",
+   "note": "Earn 2 Membership Rewards® points for every S$1.60 spent."
+  }
+ },
+ "caps": {
+  "rewards_bonus_cap": {
+   "value": 16000.0,
+   "note": "S$"
+  }
+ },
+ "highlights": [
+  "Earn up to 10 points per dollar on 10Xcelerator merchants and 2 points per dollar on any other eligible spend. Capped at S$16,000 spend. ",
+  "pros: Own your style in your favourite brands or step up to the foodie life with up to S$200 Fashion and Dining Credit with successful payment of the Annual Membership fee.",
+  "pros: Enjoy up to 50% off your food bill at over 70 premium dining spots with Love Dining.",
+  "pros: Enjoy 1-for-1 first drink and complimentary drinks at some of the most bespoke bars in Singapore with Chillax by Platinum.",
+  "pros: Skip the S$15,000 qualification spend and enjoy a complimentary 12-month C4 tier Comoclub membership.",
+  "pros: Earn 2 Membership Rewards® Points for every S$1.60 spent.",
+  "pros: Earn 10 Membership Rewards® Points for every full S$1.60 spent at Platinum 10Xcelerator Partners.",
+  "pros: Membership Rewards® Points never expire.",
+  "pros: Permanent waiver of miles transfer fee (worth S$40).",
+  "pros: Please refer to the American Express website (\ngo.amex/singsaver\n) for the most up to date information on card benefits and its terms & conditions.",
+  "pros: Annual fee: S$327 (inclusive of GST) must be paid to enjoy welcome offers."
+ ],
+ "sign_up_offers": [
+  {
+   "kind": "welcome_offer",
+   "title": "Offer",
+   "offer_id": "SG.2026-06-17.CC.AMEX.PLATGCC.40KMRP.BAU",
+   "valid_from": "2026-06-16T16:00:00Z",
+   "valid_to": "2027-01-31T15:59:00Z",
+   "gifts": [
+    {
+     "title": "Up to 40,000 Membership Rewards® points",
+     "value_sgd": null
+    }
+   ],
+   "terms": "Promotion is valid from 17 June 2026 to 31 January 2027.\nPromotion is valid for new American Express card members only.\nFor new-to-American Express card members\n: Apply for the AMEX Platinum Credit Card, pay the annual fee (S$327 incl. GST) and make a min. spend of S$4,000 within the first 3 months of card approval to be eligible for rewards.\nReceive \n40,000 Membership Rewards® points\n upon fulfilment of reward criteria.\nTerms and Conditions\n apply.\nSingSaver General Promotion \nT&Cs apply\n.",
+   "tnc_url": "https://www.americanexpress.com/content/dam/amex/sg/campaigns/pdfs/platg-ntb-welcomeoffer-17jun26to31jan27.pdf",
+   "bundle_with": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  }
+ ],
+ "links": {
+  "apply": "https://www.americanexpress.com/sg/campaigns/singsaver.html#platg"
+ },
+ "citation": {
+  "id": "singsaver:5bd629bc2fad",
+  "url": "https://www.singsaver.com.sg/credit-card/products/american-express-platinum-credit-card",
+  "title": "American Express Platinum Credit Card",
+  "source_type": "aggregator",
+  "retrieved_at": "2026-09-27T05:24:43+00:00",
+  "sha256": "5bd629bc2fad48b0c0d1e14ea68eb74069e7cc13e31666ef5dc3dc9bb5fd05b0",
+  "snapshot": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-american-express-platinum-credit-card-12885e8a.html"
+ },
+ "extra": {
+  "network": [
+   "American Express"
+  ],
+  "mobile_wallets": [
+   "Google Pay",
+   "Apple Pay"
+  ],
+  "fx_fee_percent": 3.25,
+  "miles_conversion_fee": null,
+  "categories": [
+   "category:all-credit-cards",
+   "category:buffet-promo",
+   "category:dining-promo",
+   "category:installment",
+   "category:overseas",
+   "category:petrol-promo",
+   "category:premium-cards",
+   "category:promo",
+   "category:retail-promo",
+   "category:rewards",
+   "needs:0-interest-rate",
+   "needs:0-processing-fee",
+   "needs:air-miles-conversion-rewards",
+   "needs:all-cards-with-buffet-promo",
+   "needs:all-cards-with-dining-promo",
+   "needs:all-cards-with-petrol-promo",
+   "needs:all-cards-with-promotion",
+   "needs:all-cards-with-retail-promo",
+   "needs:all-credit-cards",
+   "needs:all-installment-cards",
+   "needs:all-overseas-cards",
+   "needs:all-premium-cards",
+   "needs:all-rewards-cards",
+   "needs:all-travel-cards",
+   "needs:free-travel-insurance",
+   "needs:high-rewards-rebate",
+   "needs:long-tenure-installment",
+   "needs:no-minimum-spend-required-rewards",
+   "needs:online-booking-discount",
+   "needs:unlimited-reward-points",
+   "needs:voucher-points"
+  ],
+  "tag": "Best for unlimited airmiles and dining savings",
+  "description": "Pamper yourself with The American Express Platinum Credit Card, which offers a slew of dining, lifestyle and leisure benefits — there's something for everyone."
+ }
+}

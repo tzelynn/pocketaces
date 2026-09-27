@@ -1,0 +1,122 @@
+{
+ "source": "singsaver",
+ "source_id": "american-express-singapore-airlines-krisflyer-credit-card",
+ "source_url": "https://www.singsaver.com.sg/credit-card/products/american-express-singapore-airlines-krisflyer-credit-card",
+ "name": "American Express Singapore Airlines KrisFlyer Credit Card",
+ "bank": "American Express",
+ "card_id": "amex-krisflyer",
+ "image_url": "https://mhgprod.blob.core.windows.net/singsaver/strapi-uploads/s_AMEX_KFCC_2025_11_C_eacda3c040.png",
+ "annual_fee": 179.85,
+ "annual_fee_note": "S$ | First Year Waived",
+ "earn_rates": {
+  "mpd:local": {
+   "value": 1.1,
+   "unit": "mpd",
+   "note": null
+  },
+  "mpd:overseas": {
+   "value": 1.1,
+   "unit": "mpd",
+   "note": null
+  },
+  "mpd:baseline": {
+   "value": 1.1,
+   "unit": "mpd",
+   "note": null
+  },
+  "mpd:flight_booking": {
+   "value": 2.0,
+   "unit": "mpd",
+   "note": "On eligible Singapore Airlines and Scoot flight bookings, KrisShop and Pelago purchases, with no cap."
+  }
+ },
+ "caps": {},
+ "highlights": [
+  "Earn 2 miles per dollar on eligible flight bookings with Singapore Airlines and Scoot. You can also earn up to 2 miles per dollar on eligible transport transactions with Grab Singapore, capped at S$200 spend each calendar month. For all other local and overseas spending, enjoy 1.1 milesper dollar.",
+  "pros: Receive S$150 Cashback for use on your next eligible purchase on singaporeair.com or the SingaporeAir mobile app with a minimum spend of S$800 in a single transaction, when you spend S$12,000 or more on eligible purchases with your Card within the qualifying period.",
+  "pros: Earn 2 KrisFlyer miles for every S$1 spent on eligible Singapore Airlines and Scoot flight bookings, KrisShop and Pelago purchases, with no cap.",
+  "pros: Earn 1.1 KrisFlyer miles for every S$1 spent on all other eligible purchases, with no cap.",
+  "pros: Enjoy hassle-free conversion as all KrisFlyer miles earned with the American Express Singapore Airlines KrisFlyer Credit Card are conveniently credited directly into your KrisFlyer account.",
+  "pros: Please refer to the American Express website (\ngo.amex/singsaver\n) for the most up to date information on card benefits and its terms & conditions."
+ ],
+ "sign_up_offers": [
+  {
+   "kind": "welcome_offer",
+   "title": "Offer",
+   "offer_id": "SG.2026-06-17.CC.AMEX.KFCC.16KKFMI.BAU",
+   "valid_from": "2026-06-16T16:00:00Z",
+   "valid_to": "2027-01-31T15:59:00Z",
+   "gifts": [
+    {
+     "title": "Up to 16,000 KrisFlyer Miles",
+     "value_sgd": null
+    }
+   ],
+   "terms": "Promotion is valid from 17 June 2026 to 31 January 2027.\nPromotion is valid for new American Express card members only.\nApply for the AMEX Singapore Airlines KrisFlyer Credit Card and make a min. spend of S$2,000 within 3 months of card approval to be eligible for rewards\nReceive \n11,000 KrisFlyer miles\n upon fulfillment of reward criteria\nReceive \n5,000 KrisFlyer miles\n upon first transaction on card (for first-time American Express Singapore Airlines credit card applicants)\nTerms and Conditions\n apply.\nSingSaver General Promotion \nTerms and Conditions\n apply.",
+   "tnc_url": "https://www.americanexpress.com/content/dam/amex/sg/campaigns/pdfs/krisflyer-credit-card-welcomeoffer.pdf",
+   "bundle_with": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  }
+ ],
+ "links": {
+  "apply": "https://www.americanexpress.com/sg/campaigns/singsaver.html#kfcc"
+ },
+ "citation": {
+  "id": "singsaver:4af567e90618",
+  "url": "https://www.singsaver.com.sg/credit-card/products/american-express-singapore-airlines-krisflyer-credit-card",
+  "title": "American Express Singapore Airlines KrisFlyer Credit Card",
+  "source_type": "aggregator",
+  "retrieved_at": "2026-09-27T05:24:45+00:00",
+  "sha256": "4af567e90618af24a3a0cb7f80a0d90abc51ed2ed98ed8d2833debc4ee4d02c1",
+  "snapshot": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-american-express-singapore-airlines-krisflyer-credit-card-f48620e8.html"
+ },
+ "extra": {
+  "network": [
+   "American Express"
+  ],
+  "mobile_wallets": [
+   "Google Pay",
+   "Apple Pay",
+   "Samsung Pay"
+  ],
+  "fx_fee_percent": 3.25,
+  "miles_conversion_fee": null,
+  "categories": [
+   "category:airmiles",
+   "category:all-credit-cards",
+   "category:buffet-promo",
+   "category:dining-promo",
+   "category:grocery-promo",
+   "category:overseas",
+   "category:petrol-promo",
+   "category:promo",
+   "category:retail-promo",
+   "category:travel",
+   "needs:all-airmiles-cards",
+   "needs:all-cards-with-buffet-promo",
+   "needs:all-cards-with-dining-promo",
+   "needs:all-cards-with-grocery-promo",
+   "needs:all-cards-with-petrol-promo",
+   "needs:all-cards-with-retail-promo",
+   "needs:all-credit-cards",
+   "needs:all-overseas-cards",
+   "needs:all-travel-cards",
+   "needs:annual-fee-waiver-airmiles",
+   "needs:annual-fee-waiver-travel-cards",
+   "needs:no-minimum-spend-required-airmiles",
+   "needs:online-booking-discount"
+  ],
+  "tag": "Best for elevated travel experiences and premium benefits",
+  "description": "Embark on a journey of elevated travel experiences with the American Express Singapore Airlines KrisFlyer Credit Card. Seamlessly merging premium benefits with the renowned KrisFlyer loyalty programme, this card opens doors to exclusive rewards, accelerated miles earning, and a world of privileges."
+ }
+}

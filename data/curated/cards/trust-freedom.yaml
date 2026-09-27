@@ -1,0 +1,95 @@
+# Curated card record. Auto-drafted from staged sources; verify every value against the
+# official T&Cs (citations below), then set review.status: reviewed.
+id: trust-freedom
+bank: Trust Bank
+name: Trust Freedom Card
+network: visa
+image_url: https://mhgprod.blob.core.windows.net/singsaver/strapi-uploads/m_Trust_Freedom_Card_2026_08_6c1010e1f9.png
+official_url: https://trustbank.sg/freedom-credit-card/
+annual_fee:
+  amount:
+    amount: 0.0
+    currency: SGD
+  sources: ['moneysmart:eeee24fb93a9']
+min_annual_income:
+  amount: 30000.0
+  currency: SGD
+reward_currency:
+  kind: points
+  name: Points
+earn_rules:
+- id: base
+  label: baseline (SingSaver — verify)
+  rate: 3.0
+  unit: points_per_dollar
+  tier: base
+  eligibility:
+    all_spend: true
+    description: Get 3% Stockback on your local and foreign spends. Stockback rewards accumulate until
+      it reaches S$10, then is automatically invested in your selected stock or ETF.
+    sources: ['singsaver:f3bf8b0b47ad']
+  sources: ['singsaver:f3bf8b0b47ad']
+general_exclusions:
+  description: Auto-extracted from official T&Cs — confirm each code applies to this card
+sign_up_bonuses:
+- offered_by: singsaver
+  description: 'Welcome Offer: choice of Win a sure-win stock gift worth up to USD 8,000!'
+  valid_from: '2026-08-27'
+  valid_to: '2026-10-30'
+  url: https://www.singsaver.com.sg/credit-card/products/trust-cashback-credit-card
+  sources: ['singsaver:f3bf8b0b47ad']
+- offered_by: singsaver
+  description: 'Welcome Offer: choice of Receive up to 100,000 Max Miles by HeyMax!'
+  valid_from: '2026-09-20'
+  valid_to: '2026-10-30'
+  url: https://www.singsaver.com.sg/credit-card/products/trust-cashback-credit-card
+  sources: ['singsaver:f3bf8b0b47ad']
+- offered_by: moneysmart
+  description: 'Choice of: Sure-win stock gift of up to 8K USD stocks; Up to 100,000 miles. Terms: Apply
+    for a Trust Credit Card
+
+    Only valid for New-To-Trust Customers'
+  url: https://www.moneysmart.sg/credit-cards/trust-freedom-credit-card
+  sources: ['moneysmart:eeee24fb93a9']
+notes:
+- 'Editorial review for cross-checking: Review: Trust Freedom Card (https://milelion.com/2026/09/24/review-trust-freedom-card/,
+  updated 2026-09-26)'
+- 'T&C mentions (check whether excluded): annual fee, axs, balance transfer, cash advance, charit, education,
+  government, instalment, insurance premium, interest, late payment charge, tax, top-ups, utilit'
+citations:
+- id: singsaver:f3bf8b0b47ad
+  url: https://www.singsaver.com.sg/credit-card/products/trust-cashback-credit-card
+  title: Trust Freedom Card
+  source_type: aggregator
+  retrieved_at: '2026-09-27T05:26:46+00:00'
+  sha256: f3bf8b0b47adbd800964da540ae9b5aff3e4248c11083c288a5ca11b8f0f4ee6
+  snapshot: data/raw/singsaver/www-singsaver-com-sg-credit-card-products-trust-cashback-credit-card-21a135db.html
+- id: moneysmart:eeee24fb93a9
+  url: https://www.moneysmart.sg/credit-cards
+  title: Trust Freedom Credit Card
+  source_type: aggregator
+  retrieved_at: '2026-09-27T05:27:12+00:00'
+  sha256: eeee24fb93a9d85ef8b9194c11bda960b5b99ee30b3689cdc59fb650badebce7
+  snapshot: data/raw/moneysmart/credit-cards-p1-b55034ef.html
+- id: bank:4dbc083e3b44
+  url: https://trustbank.sg/legal/trust-freedom-credit-card-product-terms/
+  source_type: official
+  retrieved_at: '2026-09-27T08:42:44+00:00'
+  sha256: 4dbc083e3b4457ad371921158ab217327014b6e67bdbba0f147711498d81397e
+  snapshot: data/raw/bank/trustbank-sg-legal-trust-freedom-credit-card-product-terms-7ed216c4.html
+- id: bank:2de63627ab2f
+  url: https://trustbank.sg/legal/trust-freedom-credit-card-key-facts-sheet/
+  source_type: official
+  retrieved_at: '2026-09-27T08:42:46+00:00'
+  sha256: 2de63627ab2f245e5685d047e95f03195f592d79c7deb7e5a8a62a4dde3f4aa2
+  snapshot: data/raw/bank/trustbank-sg-legal-trust-freedom-credit-card-key-facts-sheet-6ba5fef9.html
+- id: milelion:5d73ef99d444
+  url: https://milelion.com/2026/09/24/review-trust-freedom-card/
+  title: 'Review: Trust Freedom Card'
+  source_type: editorial
+  retrieved_at: '2026-09-27T05:28:06+00:00'
+  sha256: 5d73ef99d444d5d4d9a4110d342ecccafe6c40558a80dc8844f53ca7817299d5
+  snapshot: data/raw/milelion/post-833462-801a9532.json
+review:
+  status: draft
+updated_at: '2026-09-27'

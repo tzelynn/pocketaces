@@ -1,0 +1,228 @@
+{
+ "source": "singsaver",
+ "source_id": "uob-evol-card",
+ "source_url": "https://www.singsaver.com.sg/credit-card/products/uob-evol-card",
+ "name": "UOB EVOL Card",
+ "bank": "UOB",
+ "card_id": "uob-evol",
+ "image_url": "https://mhgprod.blob.core.windows.net/singsaver/strapi-uploads/s_blt4d4b9601180f137e_b23ad712d4.webp",
+ "annual_fee": 0.0,
+ "annual_fee_note": "S$ | No annual fees on your card, effective 1 July 2026",
+ "min_annual_income": 30000.0,
+ "min_monthly_spend": 800.0,
+ "earn_rates": {
+  "percent:overseas": {
+   "value": 1.0,
+   "unit": "percent",
+   "note": "Up to 1% cashback on overseas foreign currency spend with no min. spend and no cap, valid till 31 Dec 2026."
+  },
+  "percent:online_mobile_contactless_spend": {
+   "value": 10.0,
+   "unit": "percent",
+   "note": "Capped at S$30 per statement month with a min. spend of S$800."
+  },
+  "percent:contactless_spend": {
+   "value": 10.0,
+   "unit": "percent",
+   "note": "On online and mobile contactless spend, capped at S$30 per statement month."
+  },
+  "percent:digital_wallet": {
+   "value": 10.0,
+   "unit": "percent",
+   "note": "On online and mobile contactless spend, capped at S$30 per statement month."
+  },
+  "percent:local": {
+   "value": 10.0,
+   "unit": "percent",
+   "note": "Up to  | On online and mobile contactless spend, capped at S$30 per statement month."
+  },
+  "percent:overseas_online_shopping": {
+   "value": 10.0,
+   "unit": "percent",
+   "note": "Up to  | On online and mobile contactless spend, capped at S$30 per statement month."
+  },
+  "percent:baseline": {
+   "value": 0.3,
+   "unit": "percent",
+   "note": "On all other spend, capped at S$30 per statement month."
+  },
+  "percent:dining": {
+   "value": 10.0,
+   "unit": "percent",
+   "note": "On online and mobile contactless spend, capped at S$30 per statement month."
+  },
+  "percent:supermarket": {
+   "value": 10.0,
+   "unit": "percent",
+   "note": "On online and mobile contactless spend, capped at S$30 per statement month."
+  },
+  "percent:retail": {
+   "value": 10.0,
+   "unit": "percent",
+   "note": "On online and mobile contactless spend, capped at S$30 per statement month."
+  },
+  "percent:health": {
+   "value": 10.0,
+   "unit": "percent",
+   "note": "Get 10% on selected Gym spend, capped at S$20 per statement month."
+  },
+  "percent:department_store": {
+   "value": 10.0,
+   "unit": "percent",
+   "note": "On online and mobile contactless spend, capped at S$30 per statement month."
+  },
+  "percent:transport": {
+   "value": 0.3,
+   "unit": "percent",
+   "note": "Capped at S$30 per statement month."
+  },
+  "percent:local_online_shopping": {
+   "value": 10.0,
+   "unit": "percent",
+   "note": "On online and mobile contactless spend, capped at S$30 per statement month."
+  },
+  "percent:streaming_service": {
+   "value": 10.0,
+   "unit": "percent",
+   "note": "Get 10% on selected Streaming spend, capped at S$20 per statement month."
+  },
+  "percent:utilities": {
+   "value": 10.0,
+   "unit": "percent",
+   "note": "Get 10% on selected Telco spend, capped at S$20 per statement month."
+  }
+ },
+ "caps": {
+  "cashback_bonus_cap": {
+   "value": 80.0,
+   "note": "S$ | S$30 cap for local online and mobile spend; S$20 cap for selected gym, telco and streaming spend; and S$30 cap for all other spend. Plus, additional $20 cap on 1% cashback on all Overseas Foreign Currency Spend till 31 Dec 2025."
+  }
+ },
+ "highlights": [
+  "Enjoy 10% cashback on local online and mobile, selected gym, telco and streaming spend. Cashback capped at S$80 monthly (S$30 cap for online and mobile, S$20 cap for gym, telco and streaming; and S$30 cap for other spend). Enjoy up to 1% cashback on overseas foreign currency spend worldwide with no min. spend & no cap (valid till 31 Dec 2026). ",
+  "pros: Enjoy no FX fees on overseas foreign currency spend worldwide with no min. spend, no cap.",
+  "pros: Enjoy 10% cashback on Local Online and Mobile Contactless (Apple Pay, Samsung Pay, google Pay) Spend",
+  "pros: 10% on Selected Gym, Telco and Streaming Spend",
+  "pros: Get up to 1% cashback on all Overseas FX Spend (no min. spend and no cap) till 31 Dec 2026.",
+  "pros: All other spends earn 0.3% cashback.",
+  "pros: Gain access to over 1,000 deals at eco-friendly, dining, and online shopping merchants.",
+  "pros: No annual fees on your card, effective 1 July 2026.",
+  "pros: Get greater savings with up to 3.4% p.a. interest with UOB One Account+.",
+  "cons: Minimum spend of S$800 each statement month to enjoy accelerated cashback earn rate.",
+  "cons: S$80 total cashback cap per statement month (S$30 cap for local online and mobile spend; S$20 cap for selected gym, telco and streaming spend; and S$30 cap for all other spend.",
+  "pros: Online shopping rebate",
+  "pros: Mobile contactless rebate",
+  "pros: No FX fees",
+  "pros: Overseas in-store FX spend rebate",
+  "pros: No annual fee",
+  "cons: Monthly spend required"
+ ],
+ "sign_up_offers": [
+  {
+   "kind": "welcome_offer",
+   "title": "Welcome Offer",
+   "offer_id": "SG.2026-07-01.CC.UOBX.9XCC.100SAMSUNG.BAU",
+   "valid_from": "2026-06-30T16:00:00Z",
+   "valid_to": "2026-09-29T16:00:00Z",
+   "gifts": [
+    {
+     "title": "S$100 Samsung Voucher",
+     "value_sgd": 100
+    }
+   ],
+   "terms": "Welcome Offer promotion is valid from 1 July 2026 to 30 September 2026.\nPromotion is valid for new-to-UOB credit card customers only.\nSuccessfully apply to be the principal cardholder for select UOB Credit Cards within the promo period and spend a min. of S$1,000 within 30 days of card approval to be eligible for \nS$100 Samsung Voucher\n reward.\nPlus, receive a 10% discount when you use your UOB Credit Card on Samsung Singapore transactions via the Samsung online store with min. spend of S$1,000.\nSamsung reserves the right to amend or withdraw the discount promotion without prior notice.\nTerms and Conditions\n apply.",
+   "tnc_url": null,
+   "bundle_with": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "kind": "exclusive_offer",
+   "title": "SingSaver Flash Deal",
+   "offer_id": "SG.2026-09-02.CC.UOBX.9XCC.200CASH-STRAREN-90CASH",
+   "valid_from": "2026-09-01T16:00:00Z",
+   "valid_to": "2026-09-30T15:59:00Z",
+   "gifts": [
+    {
+     "title": "S$200 Cash via PayNow",
+     "value_sgd": 200
+    },
+    {
+     "title": "Samsonite Straren Spinner 67/24 (worth S$600)",
+     "value_sgd": 600
+    },
+    {
+     "title": "S$90 Cash via PayNow",
+     "value_sgd": 90
+    }
+   ],
+   "terms": "SingSaver Flash Deal promotion is valid from 2 September 2026 to 30 September 2026.\nPromotion is valid for new-to-UOB credit cardmembers only.\nBe one of the first 2 applicants at 2 PM & 10PM every day during the flash deal period to apply for selected UOB credit cards and make a min. spend of S$500 within the first 30 days of card approval to be eligible for the Flash Deal reward:\nS$200 Cash via PayNow\n; or a\nSamsonite Straren Spinner 67/24 (worth S$600)\n.\nRemaining applicants will receive \nS$90 Cash via PayNow\n.\nPromotion is stackable with UOB Welcome Offer (additional T&Cs apply).\nTerms and Conditions\n apply",
+   "tnc_url": null,
+   "bundle_with": []
+  }
+ ],
+ "links": {
+  "apply": "https://www.singsaver.com.sg/apply-v3/17461"
+ },
+ "citation": {
+  "id": "singsaver:2d8a6fa00b39",
+  "url": "https://www.singsaver.com.sg/credit-card/products/uob-evol-card",
+  "title": "UOB EVOL Card",
+  "source_type": "aggregator",
+  "retrieved_at": "2026-09-27T05:26:49+00:00",
+  "sha256": "2d8a6fa00b39e073e52950d08eb7c8d4f0869d969253a69d5ca147d67ac8ace8",
+  "snapshot": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-uob-evol-card-8db090eb.html"
+ },
+ "extra": {
+  "network": [
+   "VISA Signature"
+  ],
+  "mobile_wallets": [
+   "Google Pay",
+   "Apple Pay",
+   "Samsung Pay",
+   "Fitbit Pay"
+  ],
+  "fx_fee_percent": 0.0,
+  "miles_conversion_fee": null,
+  "categories": [
+   "category:all-credit-cards",
+   "category:buffet-promo",
+   "category:cashback",
+   "category:dining-promo",
+   "category:grocery-promo",
+   "category:installment",
+   "category:petrol-promo",
+   "category:promo",
+   "category:retail-promo",
+   "category:travel",
+   "needs:0-interest-rate",
+   "needs:0-processing-fee",
+   "needs:all-cards-with-buffet-promo",
+   "needs:all-cards-with-dining-promo",
+   "needs:all-cards-with-grocery-promo",
+   "needs:all-cards-with-petrol-promo",
+   "needs:all-cards-with-promotion",
+   "needs:all-cards-with-retail-promo",
+   "needs:all-cashback-cards",
+   "needs:all-credit-cards",
+   "needs:all-installment-cards",
+   "needs:all-travel-cards",
+   "needs:free-travel-insurance",
+   "needs:high-cashback",
+   "needs:long-tenure-installment",
+   "needs:online-booking-discount"
+  ],
+  "tag": null,
+  "description": "The UOB EVOL Credit Card is a solid cashback card for online, mobile contactless and overseas spend, making it one of the best cashback cards for travel. It allows cardholders to earn up to 10% cashback with no FX fees and its annual fee will be waived with no minimum spend. A minimum monthly spend of S$800 is required to earn the 10% cashback, which is capped at S$80 per month. Pair it with the UOB One account to enjoy up to 3.4% p.a. interest on your savings."
+ }
+}

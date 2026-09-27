@@ -1,0 +1,82 @@
+{
+ "source": "moneysmart",
+ "source_id": "uob-lazada-card",
+ "source_url": "https://www.moneysmart.sg/credit-cards/uob-lazada-card",
+ "name": "Lazada-UOB Card",
+ "bank": "UOB",
+ "card_id": "lazada-uob",
+ "image_url": "https://photos.cdn-moneysmart.com/credit_cards/uploads/products/images/image_url_2024-07-18_uob lazada cardface Medium.jpeg",
+ "annual_fee": 196.2,
+ "earn_rates": {},
+ "caps": {},
+ "highlights": [
+  "20% Rebate on Lazada Spend",
+  "6% Rebate on Redmart Spend",
+  "5% Rebate on Dine, Entertainment & Transport Spend",
+  "20% rebates on Lazada spend",
+  "6% rebates on Redmart spend",
+  "5% rebates on Dine, Entertainment & Transport spend",
+  "0.3% on all other spend"
+ ],
+ "sign_up_offers": [],
+ "links": {
+  "product": "https://www.moneysmart.sg/credit-cards/uob-lazada-card"
+ },
+ "citation": {
+  "id": "moneysmart:49fcb3586f25",
+  "url": "https://www.moneysmart.sg/credit-cards?page=4",
+  "title": "Lazada-UOB Card",
+  "source_type": "aggregator",
+  "retrieved_at": "2026-09-27T05:27:20+00:00",
+  "sha256": "49fcb3586f252df0b2dacb9acecc465127e09c9defa7f151881c3db46d84649e",
+  "snapshot": "data/raw/moneysmart/credit-cards-p4-1a322210.html"
+ },
+ "extra": {
+  "summary": "",
+  "badges": [],
+  "network": [
+   "Mastercard"
+  ],
+  "mobile_wallets": [
+   "Google Pay",
+   "Apple Pay",
+   "Samsung Pay"
+  ],
+  "groups": {
+   "annual-interest-rate-and-fees": {
+    "Annual Interest Rate": "27.8",
+    "Annual Principal Fee": "196.20",
+    "Supplementary Annual Fee": "1st Supplementary Card free, S$98.10 for subsequent Supplementary Cards",
+    "Fee Waiver": "1st year fee waiver",
+    "Minimum Monthly Repayment": "3% or S$50, whichever is higher",
+    "Interest Free Period": "21 days"
+   },
+   "minimum-income-requirements": {
+    "Singaporean/PR Minimum Annual Income": "30000",
+    "Non-Singaporean Minimum Annual Income": "40000"
+   },
+   "card-association": {
+    "Mastercard": "true"
+   },
+   "wireless-payment": {
+    "Google Pay": "true",
+    "Apple Pay": "true",
+    "Samsung Pay": "true"
+   },
+   "documents-required": {
+    "SG Citizens or PRs": "Apply via MyInfo",
+    "Passport Validity (Foreigners)": "6 months",
+    "Work Permit Validity (Foreigners)": "6 months",
+    "Utility or Telephone Bill": "Yes",
+    "Income Tax Notice of Assessment": "Yes",
+    "Latest Original Computerised Payslip": "Yes"
+   }
+  },
+  "our_takes": {
+   "our-take": "The Lazada-UOB card is best for frequent Lazada and Redmart shoppers seeking rebates on everyday spend. Earn substantial rebates on Lazada & Redmart purchases, plus elevated rates on dining, entertainment and transport. Other spending earns a lower rebate. Ideal card for those who want a simple card for everyday spending and occasional online purchases on Lazada. ShopBack users may find better overall value with alternatives; factor in the annual fee after the first year.",
+   "good-for": "Lazada shoppers aiming to maximize rebates on online purchases and daily essentials via RedMart.\nConsumers who enjoy dining out, entertainment and need a card for transportation expenses.\nValue-conscious individuals seeking rewards on diverse spending categories, including dining, entertainment, and transport spend.",
+   "things-to-note": "High 27.8% interest can accrue if you don't pay in full, increasing debt significantly.\nA 3.25% fee applies to foreign transactions, plus 1% if processed overseas by Singapore merchants.\nLate payments incur S$100 fees monthly; missing minimums add 3% interest to existing rate."
+  },
+  "updated_at": "2024-09-11T11:14:24+08:00"
+ }
+}

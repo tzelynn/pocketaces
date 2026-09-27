@@ -1,0 +1,2222 @@
+{
+ "https://cards.dcscc.com/cashback": {
+  "content_type": "text/html",
+  "final_url": "https://cards.dcscc.com/cashback",
+  "path": "data/raw/bank/cards-dcscc-com-cashback-4b1e0ead.html",
+  "retrieved_at": "2026-09-27T08:36:58+00:00",
+  "sha256": "a1b1dac16443b888c8eba0486ab5a37dedcd2a160a1e5b2d0c2dd53b38a90f1f",
+  "source": "bank",
+  "status": 200,
+  "url": "https://cards.dcscc.com/cashback"
+ },
+ "https://cards.dcscc.com/dcscc/v2/pdf/DCS%20Cashback%20Credit%20Card%20TCs.pdf": {
+  "content_type": "application/pdf",
+  "final_url": "https://cards.dcscc.com/dcscc/v2/pdf/DCS%20Cashback%20Credit%20Card%20TCs.pdf",
+  "path": "data/raw/bank/cards-dcscc-com-dcscc-v2-pdf-DCS-20Cashback-20Credit-20Card-20TCs-pdf-37c3fedb.pdf",
+  "retrieved_at": "2026-09-27T08:37:00+00:00",
+  "sha256": "b65f2e85fe416d68bd06607e25efe383e17a5079d200dd3c0ba9031cc687e62a",
+  "source": "bank",
+  "status": 200,
+  "url": "https://cards.dcscc.com/dcscc/v2/pdf/DCS%20Cashback%20Credit%20Card%20TCs.pdf"
+ },
+ "https://cards.dcscc.com/dcscc/v2/pdf/DON%20DON%20DONKI%20Rebate%24%20TCs.pdf": {
+  "content_type": "application/pdf",
+  "final_url": "https://cards.dcscc.com/dcscc/v2/pdf/DON%20DON%20DONKI%20Rebate%24%20TCs.pdf",
+  "path": "data/raw/bank/cards-dcscc-com-dcscc-v2-pdf-DON-20DON-20DONKI-20Rebate-24-20TCs-pdf-0c17a1ef.pdf",
+  "retrieved_at": "2026-09-27T08:37:04+00:00",
+  "sha256": "dc07b29859dfea2fe754a846c512ace55a1472aa6d5e355d1ff1b0c8ae48d161",
+  "source": "bank",
+  "status": 200,
+  "url": "https://cards.dcscc.com/dcscc/v2/pdf/DON%20DON%20DONKI%20Rebate%24%20TCs.pdf"
+ },
+ "https://cards.dcscc.com/don-don-donki": {
+  "content_type": "text/html",
+  "final_url": "https://cards.dcscc.com/don-don-donki",
+  "path": "data/raw/bank/cards-dcscc-com-don-don-donki-c10e88b6.html",
+  "retrieved_at": "2026-09-27T08:37:02+00:00",
+  "sha256": "01a13752442993e669fe395a6459fd8a10a5b016ed73256411fcb3dc3d9e563a",
+  "source": "bank",
+  "status": 200,
+  "url": "https://cards.dcscc.com/don-don-donki"
+ },
+ "https://cards.dcscc.com/flex": {
+  "content_type": "text/html",
+  "final_url": "https://cards.dcscc.com/flex",
+  "path": "data/raw/bank/cards-dcscc-com-flex-c726828f.html",
+  "retrieved_at": "2026-09-27T08:37:06+00:00",
+  "sha256": "7beb8f15b7bb7510e393a5d8fd81d2645b1552630286de3051e3385d8c256bde",
+  "source": "bank",
+  "status": 200,
+  "url": "https://cards.dcscc.com/flex"
+ },
+ "https://cards.dcscc.com/ultimate": {
+  "content_type": "text/html",
+  "final_url": "https://cards.dcscc.com/ultimate",
+  "path": "data/raw/bank/cards-dcscc-com-ultimate-fa63ff13.html",
+  "retrieved_at": "2026-09-27T08:37:08+00:00",
+  "sha256": "4814d0d3d3758a7980fc3813982e0e7e3bffdd72c517e256dd5ce6e860e44d0c",
+  "source": "bank",
+  "status": 200,
+  "url": "https://cards.dcscc.com/ultimate"
+ },
+ "https://cards.dcscc.com/ultimateupi": {
+  "content_type": "text/html",
+  "final_url": "https://cards.dcscc.com/ultimateupi",
+  "path": "data/raw/bank/cards-dcscc-com-ultimateupi-26667e1a.html",
+  "retrieved_at": "2026-09-27T08:37:10+00:00",
+  "sha256": "3960f097c2972e72f9549fcf5fba35a94923ac12a59e1f03bb849613748a2bd0",
+  "source": "bank",
+  "status": 200,
+  "url": "https://cards.dcscc.com/ultimateupi"
+ },
+ "https://pic.bankofchina.com/bocappd/singapore/202606/P020260611353473424295.pdf": {
+  "content_type": "application/pdf",
+  "final_url": "https://pic.bankofchina.com/bocappd/singapore/202606/P020260611353473424295.pdf",
+  "path": "data/raw/bank/pic-bankofchina-com-bocappd-singapore-202606-P020260611353473424295-pdf-fe37401d.pdf",
+  "retrieved_at": "2026-09-27T07:15:16+00:00",
+  "sha256": "81b5fb4d086e8a99f64e6e04e4a58b2e704a36698820760dcc836d0805c623f2",
+  "source": "bank",
+  "status": 200,
+  "url": "https://pic.bankofchina.com/bocappd/singapore/202606/P020260611353473424295.pdf"
+ },
+ "https://static.dcscc.com/pdf/cardapps/flex/Terms%20and%20Conditions%20Governing%20DCS%20Flex%20Card%20Reward%20Programme%20and%20Card%20Design.pdf": {
+  "content_type": "application/pdf",
+  "final_url": "https://static.dcscc.com/pdf/cardapps/flex/Terms%20and%20Conditions%20Governing%20DCS%20Flex%20Card%20Reward%20Programme%20and%20Card%20Design.pdf",
+  "path": "data/raw/bank/df-cardapps-flex-Terms-20and-20Conditions-20Governing-20DCS-20Flex-20Card-20Reward-20Programme-20and-20Card-20Design-pdf-7a2f131c.pdf",
+  "retrieved_at": "2026-09-27T08:37:06+00:00",
+  "sha256": "98fa14ed292d3454d74e18481f912e0520c69c3477ce8853c710b0dabe5b3e06",
+  "source": "bank",
+  "status": 200,
+  "url": "https://static.dcscc.com/pdf/cardapps/flex/Terms%20and%20Conditions%20Governing%20DCS%20Flex%20Card%20Reward%20Programme%20and%20Card%20Design.pdf"
+ },
+ "https://static.dcscc.com/pdf/dcscc/legal/DCS%20Ultimate%20Platinum%20Card%20Terms%20and%20Conditions%20(1%20June%202025).pdf": {
+  "content_type": "application/pdf",
+  "final_url": "https://static.dcscc.com/pdf/dcscc/legal/DCS%20Ultimate%20Platinum%20Card%20Terms%20and%20Conditions%20(1%20June%202025).pdf",
+  "path": "data/raw/bank/static-dcscc-com-pdf-dcscc-legal-DCS-20Ultimate-20Platinum-20Card-20Terms-20and-20Conditions-20-1-20June-202025-pdf-3583d9d5.pdf",
+  "retrieved_at": "2026-09-27T08:37:10+00:00",
+  "sha256": "450ee3eff44faa873223d977d8b17f8351318009922e2a4b1a67df4eb900d7a3",
+  "source": "bank",
+  "status": 200,
+  "url": "https://static.dcscc.com/pdf/dcscc/legal/DCS%20Ultimate%20Platinum%20Card%20Terms%20and%20Conditions%20(1%20June%202025).pdf"
+ },
+ "https://trustbank.sg/freedom-credit-card/": {
+  "content_type": "text/html",
+  "final_url": "https://trustbank.sg/freedom-credit-card/",
+  "path": "data/raw/bank/trustbank-sg-freedom-credit-card-bface920.html",
+  "retrieved_at": "2026-09-27T08:42:42+00:00",
+  "sha256": "900d62b98753c897a4511043a14a4ec1b9837c8463544a6fb7207f685e4ae9cc",
+  "source": "bank",
+  "status": 200,
+  "url": "https://trustbank.sg/freedom-credit-card/"
+ },
+ "https://trustbank.sg/legal/key-facts-sheet-credit-card/": {
+  "content_type": "text/html",
+  "final_url": "https://trustbank.sg/legal/key-facts-sheet-credit-card/",
+  "path": "data/raw/bank/trustbank-sg-legal-key-facts-sheet-credit-card-d36eadb6.html",
+  "retrieved_at": "2026-09-27T08:42:52+00:00",
+  "sha256": "fdf0a4026f1128a99e3644488ef9ede114f111bd7316f4266e2f7b8fb09e7d7c",
+  "source": "bank",
+  "status": 200,
+  "url": "https://trustbank.sg/legal/key-facts-sheet-credit-card/"
+ },
+ "https://trustbank.sg/legal/trust-freedom-credit-card-key-facts-sheet/": {
+  "content_type": "text/html",
+  "final_url": "https://trustbank.sg/legal/trust-freedom-credit-card-key-facts-sheet/",
+  "path": "data/raw/bank/trustbank-sg-legal-trust-freedom-credit-card-key-facts-sheet-6ba5fef9.html",
+  "retrieved_at": "2026-09-27T08:42:46+00:00",
+  "sha256": "2de63627ab2f245e5685d047e95f03195f592d79c7deb7e5a8a62a4dde3f4aa2",
+  "source": "bank",
+  "status": 200,
+  "url": "https://trustbank.sg/legal/trust-freedom-credit-card-key-facts-sheet/"
+ },
+ "https://trustbank.sg/legal/trust-freedom-credit-card-product-terms/": {
+  "content_type": "text/html",
+  "final_url": "https://trustbank.sg/legal/trust-freedom-credit-card-product-terms/",
+  "path": "data/raw/bank/trustbank-sg-legal-trust-freedom-credit-card-product-terms-7ed216c4.html",
+  "retrieved_at": "2026-09-27T08:42:44+00:00",
+  "sha256": "4dbc083e3b4457ad371921158ab217327014b6e67bdbba0f147711498d81397e",
+  "source": "bank",
+  "status": 200,
+  "url": "https://trustbank.sg/legal/trust-freedom-credit-card-product-terms/"
+ },
+ "https://trustbank.sg/legal/trust-link-credit-card-and-ntuc-link-credit-card-product-terms/": {
+  "content_type": "text/html",
+  "final_url": "https://trustbank.sg/legal/trust-link-credit-card-and-ntuc-link-credit-card-product-terms/",
+  "path": "data/raw/bank/trustbank-sg-legal-trust-link-credit-card-and-ntuc-link-credit-card-product-terms-62c194d6.html",
+  "retrieved_at": "2026-09-27T08:42:50+00:00",
+  "sha256": "f7be83d6cefe731a83f23eb3456225c087e4457843f5e7a56a41b34f6d8a885a",
+  "source": "bank",
+  "status": 200,
+  "url": "https://trustbank.sg/legal/trust-link-credit-card-and-ntuc-link-credit-card-product-terms/"
+ },
+ "https://trustbank.sg/link-credit-card/": {
+  "content_type": "text/html",
+  "final_url": "https://trustbank.sg/link-credit-card/",
+  "path": "data/raw/bank/trustbank-sg-link-credit-card-36acbd47.html",
+  "retrieved_at": "2026-09-27T08:42:48+00:00",
+  "sha256": "a5c0a5527f8d3bc5478b8d2ffcd931c8e316d75f94d8383c41b26952f8435054",
+  "source": "bank",
+  "status": 200,
+  "url": "https://trustbank.sg/link-credit-card/"
+ },
+ "https://uob.com.sg/assets/web-resources/personal/cards/privilege/visa-infinite-metal-card/vim-acqui-accor-tnc-cmpg.pdf": {
+  "content_type": "application/pdf",
+  "final_url": "https://uob.com.sg/assets/web-resources/personal/cards/privilege/visa-infinite-metal-card/vim-acqui-accor-tnc-cmpg.pdf",
+  "path": "data/raw/bank/uob-com-sg-assets-web-resources-personal-cards-privilege-visa-infinite-metal-card-vim-acqui-accor-tnc-cmpg-pdf-87255dae.pdf",
+  "retrieved_at": "2026-09-27T08:45:37+00:00",
+  "sha256": "1f78781f6818d8bf9f9c1ba939d9ef01ed4e0fd345eb4d33463f21eba5eaa53d",
+  "source": "bank",
+  "status": 200,
+  "url": "https://uob.com.sg/assets/web-resources/personal/cards/privilege/visa-infinite-metal-card/vim-acqui-accor-tnc-cmpg.pdf"
+ },
+ "https://v.icbc.com.cn/userfiles/resources/icbc/haiwai/singapore/download/2025/dualcurrency_tc.pdf": {
+  "content_type": "application/pdf",
+  "final_url": "https://v.icbc.com.cn/userfiles/resources/icbc/haiwai/singapore/download/2025/dualcurrency_tc.pdf",
+  "path": "data/raw/bank/v-icbc-com-cn-userfiles-resources-icbc-haiwai-singapore-download-2025-dualcurrency-tc-pdf-e0ab8ee0.pdf",
+  "retrieved_at": "2026-09-27T08:37:23+00:00",
+  "sha256": "1e7fc70513b7f1a4c03c8d91fb1a3d6625b608adf05e470ca8ea17253e7c3034",
+  "source": "bank",
+  "status": 200,
+  "url": "https://v.icbc.com.cn/userfiles/resources/icbc/haiwai/singapore/download/2025/dualcurrency_tc.pdf"
+ },
+ "https://www.americanexpress.com/content/dam/amex/sg/benefits/amex-sg-exclusions.pdf": {
+  "content_type": "application/pdf",
+  "final_url": "https://www.americanexpress.com/content/dam/amex/sg/benefits/amex-sg-exclusions.pdf",
+  "path": "data/raw/bank/www-americanexpress-com-content-dam-amex-sg-benefits-amex-sg-exclusions-pdf-a83329a0.pdf",
+  "retrieved_at": "2026-09-27T06:11:41+00:00",
+  "sha256": "c228cd1bc86a7cef6ff37d92bd1a91bc42d2446a7c0f7dae38349c35d69e42f1",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.americanexpress.com/content/dam/amex/sg/benefits/amex-sg-exclusions.pdf"
+ },
+ "https://www.americanexpress.com/content/dam/amex/sg/campaigns/pdfs/krisflyer-ascend-credit-card-welcomeoffer.pdf": {
+  "content_type": "application/pdf",
+  "final_url": "https://www.americanexpress.com/content/dam/amex/sg/campaigns/pdfs/krisflyer-ascend-credit-card-welcomeoffer.pdf",
+  "path": "data/raw/bank/www-americanexpress-com-content-dam-amex-sg-campaigns-pdfs-krisflyer-ascend-credit-card-welcomeoffer-pdf-2f5d79d1.pdf",
+  "retrieved_at": "2026-09-27T05:30:08+00:00",
+  "sha256": "389532badbc013c9df6bcd6cddf149c66cd3a9338cc0d242706c985360e91e4b",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.americanexpress.com/content/dam/amex/sg/campaigns/pdfs/krisflyer-ascend-credit-card-welcomeoffer.pdf"
+ },
+ "https://www.americanexpress.com/content/dam/amex/sg/campaigns/pdfs/krisflyer-ascend-credit-card.pdf": {
+  "content_type": "application/pdf",
+  "final_url": "https://www.americanexpress.com/content/dam/amex/sg/campaigns/pdfs/krisflyer-ascend-credit-card.pdf",
+  "path": "data/raw/bank/www-americanexpress-com-content-dam-amex-sg-campaigns-pdfs-krisflyer-ascend-credit-card-pdf-cfa169c9.pdf",
+  "retrieved_at": "2026-09-27T05:30:04+00:00",
+  "sha256": "2ca077796dcbef4cf3d372a7b739675696190f680e4c0d457b12ba2223966c4f",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.americanexpress.com/content/dam/amex/sg/campaigns/pdfs/krisflyer-ascend-credit-card.pdf"
+ },
+ "https://www.americanexpress.com/content/dam/amex/sg/campaigns/pdfs/krisflyer-credit-card-welcomeoffer.pdf": {
+  "content_type": "application/pdf",
+  "final_url": "https://www.americanexpress.com/content/dam/amex/sg/campaigns/pdfs/krisflyer-credit-card-welcomeoffer.pdf",
+  "path": "data/raw/bank/www-americanexpress-com-content-dam-amex-sg-campaigns-pdfs-krisflyer-credit-card-welcomeoffer-pdf-38583bcf.pdf",
+  "retrieved_at": "2026-09-27T05:30:00+00:00",
+  "sha256": "7595a491c2e713dcfa70014bfba987822721389f85638b415d7d37406d65b9f6",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.americanexpress.com/content/dam/amex/sg/campaigns/pdfs/krisflyer-credit-card-welcomeoffer.pdf"
+ },
+ "https://www.americanexpress.com/content/dam/amex/sg/campaigns/pdfs/krisflyer-credit-card.pdf": {
+  "content_type": "application/pdf",
+  "final_url": "https://www.americanexpress.com/content/dam/amex/sg/campaigns/pdfs/krisflyer-credit-card.pdf",
+  "path": "data/raw/bank/www-americanexpress-com-content-dam-amex-sg-campaigns-pdfs-krisflyer-credit-card-pdf-26592490.pdf",
+  "retrieved_at": "2026-09-27T05:29:56+00:00",
+  "sha256": "1272d6b78a7aa61afff70e40ded8e93b0851fe57c0461bb7d1d310364ffaef0f",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.americanexpress.com/content/dam/amex/sg/campaigns/pdfs/krisflyer-credit-card.pdf"
+ },
+ "https://www.americanexpress.com/content/dam/amex/sg/campaigns/pdfs/platinum-credit-card-welcomeoffer.pdf": {
+  "content_type": "application/pdf",
+  "final_url": "https://www.americanexpress.com/content/dam/amex/sg/campaigns/pdfs/platinum-credit-card-welcomeoffer.pdf",
+  "path": "data/raw/bank/www-americanexpress-com-content-dam-amex-sg-campaigns-pdfs-platinum-credit-card-welcomeoffer-pdf-5d843c49.pdf",
+  "retrieved_at": "2026-09-27T06:03:25+00:00",
+  "sha256": "d6f51c4a5cb05b4ff08832c5d3df63730eb8f4270b6c2e2fec911ccd8778df97",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.americanexpress.com/content/dam/amex/sg/campaigns/pdfs/platinum-credit-card-welcomeoffer.pdf"
+ },
+ "https://www.americanexpress.com/content/dam/amex/sg/campaigns/pdfs/platinum-credit-card.pdf": {
+  "content_type": "application/pdf",
+  "final_url": "https://www.americanexpress.com/content/dam/amex/sg/campaigns/pdfs/platinum-credit-card.pdf",
+  "path": "data/raw/bank/www-americanexpress-com-content-dam-amex-sg-campaigns-pdfs-platinum-credit-card-pdf-95d977f6.pdf",
+  "retrieved_at": "2026-09-27T05:45:37+00:00",
+  "sha256": "ccd44873345449f03d69713ff91111ccf4ea76b342f7be25b33e9e40fca9845b",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.americanexpress.com/content/dam/amex/sg/campaigns/pdfs/platinum-credit-card.pdf"
+ },
+ "https://www.americanexpress.com/content/dam/amex/sg/campaigns/pdfs/the-platinum-card-welcomeoffer.pdf": {
+  "content_type": "application/pdf",
+  "final_url": "https://www.americanexpress.com/content/dam/amex/sg/campaigns/pdfs/the-platinum-card-welcomeoffer.pdf",
+  "path": "data/raw/bank/www-americanexpress-com-content-dam-amex-sg-campaigns-pdfs-the-platinum-card-welcomeoffer-pdf-8856350b.pdf",
+  "retrieved_at": "2026-09-27T05:30:16+00:00",
+  "sha256": "ca1de18a9b1ecc6a31ebc84d3d129f86d0f4f58ba2370a862736734941bcf2ba",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.americanexpress.com/content/dam/amex/sg/campaigns/pdfs/the-platinum-card-welcomeoffer.pdf"
+ },
+ "https://www.americanexpress.com/content/dam/amex/sg/campaigns/pdfs/the-platinum-card.pdf": {
+  "content_type": "application/pdf",
+  "final_url": "https://www.americanexpress.com/content/dam/amex/sg/campaigns/pdfs/the-platinum-card.pdf",
+  "path": "data/raw/bank/www-americanexpress-com-content-dam-amex-sg-campaigns-pdfs-the-platinum-card-pdf-19daf834.pdf",
+  "retrieved_at": "2026-09-27T05:30:12+00:00",
+  "sha256": "458a33eecbc6fb0479105149b0405543b09821444bd0b7495ba693a088449087",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.americanexpress.com/content/dam/amex/sg/campaigns/pdfs/the-platinum-card.pdf"
+ },
+ "https://www.americanexpress.com/content/dam/amex/sg/campaigns/pdfs/true-cashback-card.pdf": {
+  "content_type": "application/pdf",
+  "final_url": "https://www.americanexpress.com/content/dam/amex/sg/campaigns/pdfs/true-cashback-card.pdf",
+  "path": "data/raw/bank/www-americanexpress-com-content-dam-amex-sg-campaigns-pdfs-true-cashback-card-pdf-4987d1f3.pdf",
+  "retrieved_at": "2026-09-27T06:11:38+00:00",
+  "sha256": "1b5a328881b475e29770d5d53928fad2ff3a2910074edc342a98d6e5fe0007d9",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.americanexpress.com/content/dam/amex/sg/campaigns/pdfs/true-cashback-card.pdf"
+ },
+ "https://www.americanexpress.com/sg/charge-cards/platinum-card/": {
+  "content_type": "text/html",
+  "final_url": "https://www.americanexpress.com/sg/charge-cards/platinum-card/",
+  "path": "data/raw/bank/www-americanexpress-com-sg-charge-cards-platinum-card-966688ce.html",
+  "retrieved_at": "2026-09-27T05:30:10+00:00",
+  "sha256": "b5db03e6d810d2311493005f6c9b75eac996f1a25e991c3acac167c36443cd54",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.americanexpress.com/sg/charge-cards/platinum-card/"
+ },
+ "https://www.americanexpress.com/sg/credit-cards/platinum-credit-card/": {
+  "content_type": "text/html",
+  "final_url": "https://www.americanexpress.com/sg/credit-cards/platinum-credit-card/",
+  "path": "data/raw/bank/www-americanexpress-com-sg-credit-cards-platinum-credit-card-128fda43.html",
+  "retrieved_at": "2026-09-27T05:30:18+00:00",
+  "sha256": "af5084fc634fb28396c53af94a2403891ec207ccd402d72678d455124b362655",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.americanexpress.com/sg/credit-cards/platinum-credit-card/"
+ },
+ "https://www.americanexpress.com/sg/credit-cards/singapore-airlines-krisflyer-ascend-credit-card/": {
+  "content_type": "text/html",
+  "final_url": "https://www.americanexpress.com/sg/credit-cards/singapore-airlines-krisflyer-ascend-credit-card/",
+  "path": "data/raw/bank/www-americanexpress-com-sg-credit-cards-singapore-airlines-krisflyer-ascend-credit-card-4e5d50f8.html",
+  "retrieved_at": "2026-09-27T05:30:02+00:00",
+  "sha256": "37d80a08b07122a34c4fdceadcd19bfaf933115953e305f0610382b87d84c742",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.americanexpress.com/sg/credit-cards/singapore-airlines-krisflyer-ascend-credit-card/"
+ },
+ "https://www.americanexpress.com/sg/credit-cards/singapore-airlines-krisflyer-credit-card/": {
+  "content_type": "text/html",
+  "final_url": "https://www.americanexpress.com/sg/credit-cards/singapore-airlines-krisflyer-credit-card/",
+  "path": "data/raw/bank/www-americanexpress-com-sg-credit-cards-singapore-airlines-krisflyer-credit-card-2d7dc6bb.html",
+  "retrieved_at": "2026-09-27T05:29:54+00:00",
+  "sha256": "ddeea97f528e3bc98890801eec4f1459dc4f340a795799db3122eaec7ccab173",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.americanexpress.com/sg/credit-cards/singapore-airlines-krisflyer-credit-card/"
+ },
+ "https://www.americanexpress.com/sg/credit-cards/true-cashback-card/": {
+  "content_type": "text/html",
+  "final_url": "https://www.americanexpress.com/sg/credit-cards/true-cashback-card/",
+  "path": "data/raw/bank/www-americanexpress-com-sg-credit-cards-true-cashback-card-c3161e41.html",
+  "retrieved_at": "2026-09-27T06:03:27+00:00",
+  "sha256": "9c41a0c01bef81c1a6819564228954a1adb10623f6d60623c8eefbe14a20b3c1",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.americanexpress.com/sg/credit-cards/true-cashback-card/"
+ },
+ "https://www.bankofchina.com/sg/bcservice/bc1/201603/t20160317_6758741.html": {
+  "content_type": "text/html",
+  "final_url": "https://www.bankofchina.com/sg/bcservice/bc1/201603/t20160317_6758741.html",
+  "path": "data/raw/bank/www-bankofchina-com-sg-bcservice-bc1-201603-t20160317-6758741-html-49ba7a25.html",
+  "retrieved_at": "2026-09-27T07:15:28+00:00",
+  "sha256": "a4206f257e2c468e14a181622a01ee671ce9fb379ec3373f4b412976f039f429",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.bankofchina.com/sg/bcservice/bc1/201603/t20160317_6758741.html"
+ },
+ "https://www.bankofchina.com/sg/bcservice/bc1/201605/t20160503_6891836.html": {
+  "content_type": "text/html",
+  "final_url": "https://www.bankofchina.com/sg/bcservice/bc1/201605/t20160503_6891836.html",
+  "path": "data/raw/bank/www-bankofchina-com-sg-bcservice-bc1-201605-t20160503-6891836-html-327994ff.html",
+  "retrieved_at": "2026-09-27T06:11:51+00:00",
+  "sha256": "f1101751beb00797caa137daf0f7fc1ba41fdc611666fc47a3dd3ec0bb3c477a",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.bankofchina.com/sg/bcservice/bc1/201605/t20160503_6891836.html"
+ },
+ "https://www.bankofchina.com/sg/bcservice/bc1/201707/t20170717_9813258.html": {
+  "content_type": "text/html",
+  "final_url": "https://www.bankofchina.com/sg/bcservice/bc1/201707/t20170717_9813258.html",
+  "path": "data/raw/bank/www-bankofchina-com-sg-bcservice-bc1-201707-t20170717-9813258-html-5d1dd1b3.html",
+  "retrieved_at": "2026-09-27T07:15:20+00:00",
+  "sha256": "353829b7f17fb0037d6d4d0b602bb03324be39493a89bd426ff2ee1e0a930063",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.bankofchina.com/sg/bcservice/bc1/201707/t20170717_9813258.html"
+ },
+ "https://www.bankofchina.com/sg/bcservice/bc1/201909/t20190903_16537165.html": {
+  "content_type": "text/html",
+  "final_url": "https://www.bankofchina.com/sg/bcservice/bc1/201909/t20190903_16537165.html",
+  "path": "data/raw/bank/www-bankofchina-com-sg-bcservice-bc1-201909-t20190903-16537165-html-ab383615.html",
+  "retrieved_at": "2026-09-27T06:11:45+00:00",
+  "sha256": "bc70b83846425e409e1a2714672b0d5db21e22db1aa36016c4efec3130630047",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.bankofchina.com/sg/bcservice/bc1/201909/t20190903_16537165.html"
+ },
+ "https://www.bankofchina.com/sg/bocinfo/bi5/201707/P020250618364198284675.pdf": {
+  "content_type": "application/pdf",
+  "final_url": "https://www.bankofchina.com/sg/bocinfo/bi5/201707/P020250618364198284675.pdf",
+  "path": "data/raw/bank/www-bankofchina-com-sg-bocinfo-bi5-201707-P020250618364198284675-pdf-228d6527.pdf",
+  "retrieved_at": "2026-09-27T07:15:27+00:00",
+  "sha256": "b31556b9709389b7f73316574f83c9bd362ad278ccfeaba7ce3300687926cf20",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.bankofchina.com/sg/bocinfo/bi5/201707/P020250618364198284675.pdf"
+ },
+ "https://www.bankofchina.com/sg/bocinfo/bi5/201810/P020250701406428156884.pdf": {
+  "content_type": "application/pdf",
+  "final_url": "https://www.bankofchina.com/sg/bocinfo/bi5/201810/P020250701406428156884.pdf",
+  "path": "data/raw/bank/www-bankofchina-com-sg-bocinfo-bi5-201810-P020250701406428156884-pdf-52a76187.pdf",
+  "retrieved_at": "2026-09-27T06:11:50+00:00",
+  "sha256": "fbd0636435062a62b8f306d5ab1bc26a3f665521a9e4c23c27eb6fe30d3b0973",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.bankofchina.com/sg/bocinfo/bi5/201810/P020250701406428156884.pdf"
+ },
+ "https://www.bankofchina.com/sg/bocinfo/bi5/202506/P020250613354557074670.pdf": {
+  "content_type": "application/pdf",
+  "final_url": "https://www.bankofchina.com/sg/bocinfo/bi5/202506/P020250613354557074670.pdf",
+  "path": "data/raw/bank/www-bankofchina-com-sg-bocinfo-bi5-202506-P020250613354557074670-pdf-09b31896.pdf",
+  "retrieved_at": "2026-09-27T07:15:33+00:00",
+  "sha256": "2c8c9f7f9059b5cb5c59f4c14633bba4a033df913cd78e5456866669d93cc29d",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.bankofchina.com/sg/bocinfo/bi5/202506/P020250613354557074670.pdf"
+ },
+ "https://www.cimb.com.sg/content/dam/cimbsg/personal/document/cards/terms-and-conditions/tnc-worldmastercard-wef-1nov22.pdf": {
+  "content_type": "application/pdf",
+  "final_url": "https://www.cimb.com.sg/content/dam/cimbsg/personal/document/cards/terms-and-conditions/tnc-worldmastercard-wef-1nov22.pdf",
+  "path": "data/raw/bank/www-cimb-com-sg-content-dam-cimbsg-personal-document-cards-terms-and-conditions-tnc-worldmastercard-wef-1nov22-pdf-a4e59451.pdf",
+  "retrieved_at": "2026-09-27T07:30:54+00:00",
+  "sha256": "7af607a42690205cbb80ea07e6562579c71914ec8a0940c29e8f3dcf74d290d4",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.cimb.com.sg/content/dam/cimbsg/personal/document/cards/terms-and-conditions/tnc-worldmastercard-wef-1nov22.pdf"
+ },
+ "https://www.cimb.com.sg/content/dam/cimbsg/personal/document/tnc/cards/cards-tnc/vi-card.pdf": {
+  "content_type": "application/pdf",
+  "final_url": "https://www.cimb.com.sg/content/dam/cimbsg/personal/document/tnc/cards/cards-tnc/vi-card.pdf",
+  "path": "data/raw/bank/www-cimb-com-sg-content-dam-cimbsg-personal-document-tnc-cards-cards-tnc-vi-card-pdf-a2cd10fe.pdf",
+  "retrieved_at": "2026-09-27T07:30:46+00:00",
+  "sha256": "b8cfe8d0035066cde12ec48e2199280e736229f368ac6a697e032227e6ff057f",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.cimb.com.sg/content/dam/cimbsg/personal/document/tnc/cards/cards-tnc/vi-card.pdf"
+ },
+ "https://www.cimb.com.sg/content/dam/cimbsg/personal/document/tnc/cards/credit-card/conventional/visa-signature.pdf": {
+  "content_type": "application/pdf",
+  "final_url": "https://www.cimb.com.sg/content/dam/cimbsg/personal/document/tnc/cards/credit-card/conventional/visa-signature.pdf",
+  "path": "data/raw/bank/www-cimb-com-sg-content-dam-cimbsg-personal-document-tnc-cards-credit-card-conventional-visa-signature-pdf-f9a53c39.pdf",
+  "retrieved_at": "2026-09-27T07:30:50+00:00",
+  "sha256": "77a561cdba78590072750daac141966927f697465bf124b568dacfe846311714",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.cimb.com.sg/content/dam/cimbsg/personal/document/tnc/cards/credit-card/conventional/visa-signature.pdf"
+ },
+ "https://www.cimb.com.sg/en/personal/banking-with-us/cards/credit-cards/cimb-visa-infinite.html": {
+  "content_type": "text/html",
+  "final_url": "https://www.cimb.com.sg/en/personal/banking-with-us/cards/credit-cards/cimb-visa-infinite.html",
+  "path": "data/raw/bank/www-cimb-com-sg-en-personal-banking-with-us-cards-credit-cards-cimb-visa-infinite-html-fcc0f0a9.html",
+  "retrieved_at": "2026-09-27T07:15:34+00:00",
+  "sha256": "8248726db7e1911b3c0545d9addc0ee6fc940163c335b4c0dc5ee55d879fa476",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.cimb.com.sg/en/personal/banking-with-us/cards/credit-cards/cimb-visa-infinite.html"
+ },
+ "https://www.cimb.com.sg/en/personal/banking-with-us/cards/credit-cards/cimb-visa-signature.html": {
+  "content_type": "text/html",
+  "final_url": "https://www.cimb.com.sg/en/personal/banking-with-us/cards/credit-cards/cimb-visa-signature.html",
+  "path": "data/raw/bank/www-cimb-com-sg-en-personal-banking-with-us-cards-credit-cards-cimb-visa-signature-html-393508c3.html",
+  "retrieved_at": "2026-09-27T07:30:48+00:00",
+  "sha256": "911b712e4e51fb03d4117f769343320fc5adac370dc99d741578e7a04b0abb3b",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.cimb.com.sg/en/personal/banking-with-us/cards/credit-cards/cimb-visa-signature.html"
+ },
+ "https://www.cimb.com.sg/en/personal/banking-with-us/cards/credit-cards/cimb-world-mastercard.html": {
+  "content_type": "text/html",
+  "final_url": "https://www.cimb.com.sg/en/personal/banking-with-us/cards/credit-cards/cimb-world-mastercard.html",
+  "path": "data/raw/bank/www-cimb-com-sg-en-personal-banking-with-us-cards-credit-cards-cimb-world-mastercard-html-d5d89870.html",
+  "retrieved_at": "2026-09-27T07:30:52+00:00",
+  "sha256": "b6fc247780a79b6f3b51612bf024aa2e38bd3768cef6c1a2885101dc4cf5e9bd",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.cimb.com.sg/en/personal/banking-with-us/cards/credit-cards/cimb-world-mastercard.html"
+ },
+ "https://www.circles.life/sg/circles-zerofy-cashback-card/": {
+  "content_type": "text/html",
+  "final_url": "https://www.circles.life/sg/circles-zerofy-cashback-card/",
+  "path": "data/raw/bank/www-circles-life-sg-circles-zerofy-cashback-card-c7879eb8.html",
+  "retrieved_at": "2026-09-27T07:30:54+00:00",
+  "sha256": "7926eae334065ff2f36cbe894dc8399ed22f43530a58db989b34bbe25d7d569c",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.circles.life/sg/circles-zerofy-cashback-card/"
+ },
+ "https://www.circles.life/sg/terms-conditions/zerofy-card-terms-conditions/": {
+  "content_type": "text/html",
+  "final_url": "https://www.circles.life/sg/terms-conditions/zerofy-card-terms-conditions/",
+  "path": "data/raw/bank/www-circles-life-sg-terms-conditions-zerofy-card-terms-conditions-1e201a51.html",
+  "retrieved_at": "2026-09-27T07:30:56+00:00",
+  "sha256": "937aa787e1164e494203bf05e63df1a8382b3b79ad2c067487acd1645058537b",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.circles.life/sg/terms-conditions/zerofy-card-terms-conditions/"
+ },
+ "https://www.citibank.com.sg/content/dam/cgcpc/sg/prelogin/www-citibank-com-sg/pdf/Citi-PayLite-Bundle-Tnc.pdf": {
+  "content_type": "application/pdf",
+  "final_url": "https://www.citibank.com.sg/content/dam/cgcpc/sg/prelogin/www-citibank-com-sg/pdf/Citi-PayLite-Bundle-Tnc.pdf",
+  "path": "data/raw/bank/www-citibank-com-sg-content-dam-cgcpc-sg-prelogin-www-citibank-com-sg-pdf-Citi-PayLite-Bundle-Tnc-pdf-3c28ec6d.pdf",
+  "retrieved_at": "2026-09-27T07:31:23+00:00",
+  "sha256": "f960b6ee0667b1d478ad3b664ca0d7f827cc6f21809c7eedb4d6bb7c9476e764",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.citibank.com.sg/content/dam/cgcpc/sg/prelogin/www-citibank-com-sg/pdf/Citi-PayLite-Bundle-Tnc.pdf"
+ },
+ "https://www.citibank.com.sg/content/dam/cgcpc/sg/prelogin/www-citibank-com-sg/pdf/global_docs/pdf/citipremiermiles-onelineflashdeal-tncs.pdf": {
+  "content_type": "application/pdf",
+  "final_url": "https://www.citibank.com.sg/content/dam/cgcpc/sg/prelogin/www-citibank-com-sg/pdf/global_docs/pdf/citipremiermiles-onelineflashdeal-tncs.pdf",
+  "path": "data/raw/bank/-com-sg-content-dam-cgcpc-sg-prelogin-www-citibank-com-sg-pdf-global-docs-pdf-citipremiermiles-onelineflashdeal-tncs-pdf-520aedce.pdf",
+  "retrieved_at": "2026-09-27T08:32:00+00:00",
+  "sha256": "293374db88e5a0c747bcc4d7af31671367bfc48a8cc4f5f6ef4432d1d4fbeb5c",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.citibank.com.sg/content/dam/cgcpc/sg/prelogin/www-citibank-com-sg/pdf/global_docs/pdf/citipremiermiles-onelineflashdeal-tncs.pdf"
+ },
+ "https://www.citibank.com.sg/credit-card/pdf/citi-prestige-card-information-sheet.pdf": {
+  "content_type": "application/pdf",
+  "final_url": "https://www.citibank.com.sg/credit-card/pdf/citi-prestige-card-information-sheet.pdf",
+  "path": "data/raw/bank/www-citibank-com-sg-credit-card-pdf-citi-prestige-card-information-sheet-pdf-6353e89e.pdf",
+  "retrieved_at": "2026-09-27T08:32:21+00:00",
+  "sha256": "e02c77d8f4bac9f2e35fb019982a38fbe41cdd2ee889a7b38b1de294777ea011",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.citibank.com.sg/credit-card/pdf/citi-prestige-card-information-sheet.pdf"
+ },
+ "https://www.citibank.com.sg/credit-cards/cashback/cash-back-card": {
+  "content_type": "text/html",
+  "final_url": "https://www.citibank.com.sg/credit-cards/cashback/cash-back-card",
+  "path": "data/raw/bank/www-citibank-com-sg-credit-cards-cashback-cash-back-card-aa44dbd2.html",
+  "retrieved_at": "2026-09-27T07:30:57+00:00",
+  "sha256": "c3ca6ddaf0bb7bf834440a9c204c6a1e8104730a9ee3dcb1e30e36169eba54c0",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.citibank.com.sg/credit-cards/cashback/cash-back-card"
+ },
+ "https://www.citibank.com.sg/credit-cards/cashback/cashback-plus-card/": {
+  "content_type": "text/html",
+  "final_url": "https://www.citibank.com.sg/credit-cards/cashback/cash-back-plus-card",
+  "path": "data/raw/bank/www-citibank-com-sg-credit-cards-cashback-cash-back-plus-card-6d3ffd26.html",
+  "retrieved_at": "2026-09-27T07:31:09+00:00",
+  "sha256": "b44d781606d6099120a5a84b641dba16e62625b5d59381a3aabfa9c8a0062df1",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.citibank.com.sg/credit-cards/cashback/cashback-plus-card/"
+ },
+ "https://www.citibank.com.sg/credit-cards/cashback/cashback-plus-card/pdf/bonus-cash-back-frequently-asked-questions.pdf": {
+  "content_type": "application/pdf",
+  "final_url": "https://www.citibank.com.sg/credit-cards/cashback/cashback-plus-card/pdf/bonus-cash-back-frequently-asked-questions.pdf",
+  "path": "data/raw/bank/www-citibank-com-sg-credit-cards-cashback-cashback-plus-card-pdf-bonus-cash-back-frequently-asked-questions-pdf-af06d61e.pdf",
+  "retrieved_at": "2026-09-27T07:31:25+00:00",
+  "sha256": "afc808152e46eb1279131c558eea928bbba77f9e7ec1c31f62d02e5b3b09f2d3",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.citibank.com.sg/credit-cards/cashback/cashback-plus-card/pdf/bonus-cash-back-frequently-asked-questions.pdf"
+ },
+ "https://www.citibank.com.sg/credit-cards/cashback/cashback-plus-card/pdf/bonus-cash-back-terms-and-conditions.pdf": {
+  "content_type": "application/pdf",
+  "final_url": "https://www.citibank.com.sg/credit-cards/cashback/cashback-plus-card/pdf/bonus-cash-back-terms-and-conditions.pdf",
+  "path": "data/raw/bank/www-citibank-com-sg-credit-cards-cashback-cashback-plus-card-pdf-bonus-cash-back-terms-and-conditions-pdf-5d92ca75.pdf",
+  "retrieved_at": "2026-09-27T07:31:13+00:00",
+  "sha256": "29832ec24ac216ddfda99deed852c4128e8d67b536f9929adda45162f43989a5",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.citibank.com.sg/credit-cards/cashback/cashback-plus-card/pdf/bonus-cash-back-terms-and-conditions.pdf"
+ },
+ "https://www.citibank.com.sg/credit-cards/cashback/cashback-plus-card/pdf/cash-back-welcome-offer.pdf": {
+  "content_type": "application/pdf",
+  "final_url": "https://www.citibank.com.sg/credit-cards/cashback/cashback-plus-card/pdf/cash-back-welcome-offer.pdf",
+  "path": "data/raw/bank/www-citibank-com-sg-credit-cards-cashback-cashback-plus-card-pdf-cash-back-welcome-offer-pdf-0113fdef.pdf",
+  "retrieved_at": "2026-09-27T07:31:17+00:00",
+  "sha256": "15a85c65958012e371299a4e32f9e2905602bdd11f777ec15856e50d77832b03",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.citibank.com.sg/credit-cards/cashback/cashback-plus-card/pdf/cash-back-welcome-offer.pdf"
+ },
+ "https://www.citibank.com.sg/credit-cards/cashback/cashback-plus-card/pdf/cashback-plus-card-members-agreement.pdf": {
+  "content_type": "application/pdf",
+  "final_url": "https://www.citibank.com.sg/credit-cards/cashback/cashback-plus-card/pdf/cashback-plus-card-members-agreement.pdf",
+  "path": "data/raw/bank/www-citibank-com-sg-credit-cards-cashback-cashback-plus-card-pdf-cashback-plus-card-members-agreement-pdf-e3f6d86e.pdf",
+  "retrieved_at": "2026-09-27T07:31:11+00:00",
+  "sha256": "171957b96b831a5a4a180fe809c880785ab7952fdb5ac012051c6c0d307c8e1f",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.citibank.com.sg/credit-cards/cashback/cashback-plus-card/pdf/cashback-plus-card-members-agreement.pdf"
+ },
+ "https://www.citibank.com.sg/credit-cards/cashback/cashback-plus-card/pdf/information-sheet.pdf": {
+  "content_type": "application/pdf",
+  "final_url": "https://www.citibank.com.sg/credit-cards/cashback/cashback-plus-card/pdf/information-sheet.pdf",
+  "path": "data/raw/bank/www-citibank-com-sg-credit-cards-cashback-cashback-plus-card-pdf-information-sheet-pdf-403345e1.pdf",
+  "retrieved_at": "2026-09-27T07:31:19+00:00",
+  "sha256": "c5ad4d9791678cec7c5ee2b98000ce34619e458a275ffdcd8287f9f50b21f839",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.citibank.com.sg/credit-cards/cashback/cashback-plus-card/pdf/information-sheet.pdf"
+ },
+ "https://www.citibank.com.sg/credit-cards/cashback/citi-cash-back-card/pdf/information-sheet.pdf": {
+  "content_type": "application/pdf",
+  "final_url": "https://www.citibank.com.sg/credit-cards/cashback/citi-cash-back-card/pdf/information-sheet.pdf",
+  "path": "data/raw/bank/www-citibank-com-sg-credit-cards-cashback-citi-cash-back-card-pdf-information-sheet-pdf-9c3fd926.pdf",
+  "retrieved_at": "2026-09-27T07:31:05+00:00",
+  "sha256": "a1653bcbce38261d32df6cefd75e47b0e5ec9706a32902377bba197b2fd3e112",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.citibank.com.sg/credit-cards/cashback/citi-cash-back-card/pdf/information-sheet.pdf"
+ },
+ "https://www.citibank.com.sg/credit-cards/cashback/citi-cash-back-card/pdf/members-agreement.pdf": {
+  "content_type": "application/pdf",
+  "final_url": "https://www.citibank.com.sg/credit-cards/cashback/citi-cash-back-card/pdf/members-agreement.pdf",
+  "path": "data/raw/bank/www-citibank-com-sg-credit-cards-cashback-citi-cash-back-card-pdf-members-agreement-pdf-6ab92ece.pdf",
+  "retrieved_at": "2026-09-27T07:30:59+00:00",
+  "sha256": "188bcaa8e33a3b92614d4f7b3350f3600361f3e78331f2d65346beb03e525872",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.citibank.com.sg/credit-cards/cashback/citi-cash-back-card/pdf/members-agreement.pdf"
+ },
+ "https://www.citibank.com.sg/credit-cards/cashback/m1-platinum-visa-credit-card/pdf/information-sheet.pdf": {
+  "content_type": "application/pdf",
+  "final_url": "https://www.citibank.com.sg/credit-cards/cashback/m1-platinum-visa-credit-card/pdf/information-sheet.pdf",
+  "path": "data/raw/bank/www-citibank-com-sg-credit-cards-cashback-m1-platinum-visa-credit-card-pdf-information-sheet-pdf-aff0b9f5.pdf",
+  "retrieved_at": "2026-09-27T08:31:48+00:00",
+  "sha256": "ffc9383c1c9f6aed17966632ed46ac80bddd13a500a47de0fb8e4ab274cafb5a",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.citibank.com.sg/credit-cards/cashback/m1-platinum-visa-credit-card/pdf/information-sheet.pdf"
+ },
+ "https://www.citibank.com.sg/credit-cards/cashback/smrt-credit-card": {
+  "content_type": "text/html",
+  "final_url": "https://www.citibank.com.sg/credit-cards/cashback/smrt-credit-card",
+  "path": "data/raw/bank/www-citibank-com-sg-credit-cards-cashback-smrt-credit-card-ac2b14bf.html",
+  "retrieved_at": "2026-09-27T08:36:25+00:00",
+  "sha256": "6655eb0d35cf67aa8bed46ceb474ed5843a624bbc86eb403ff6654be259bbd5d",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.citibank.com.sg/credit-cards/cashback/smrt-credit-card"
+ },
+ "https://www.citibank.com.sg/credit-cards/cashback/smrt-credit-card/pdf/citi-smrt-rewards-program.pdf": {
+  "content_type": "application/pdf",
+  "final_url": "https://www.citibank.com.sg/credit-cards/cashback/smrt-credit-card/pdf/citi-smrt-rewards-program.pdf",
+  "path": "data/raw/bank/www-citibank-com-sg-credit-cards-cashback-smrt-credit-card-pdf-citi-smrt-rewards-program-pdf-40f7238a.pdf",
+  "retrieved_at": "2026-09-27T08:36:27+00:00",
+  "sha256": "c190661d8a48d615baad891dcec18026e490e8428927acd4444979fe7abda828",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.citibank.com.sg/credit-cards/cashback/smrt-credit-card/pdf/citi-smrt-rewards-program.pdf"
+ },
+ "https://www.citibank.com.sg/credit-cards/pdf/chargeback-dispute.pdf": {
+  "content_type": "application/pdf",
+  "final_url": "https://www.citibank.com.sg/credit-cards/pdf/chargeback-dispute.pdf",
+  "path": "data/raw/bank/www-citibank-com-sg-credit-cards-pdf-chargeback-dispute-pdf-092d6126.pdf",
+  "retrieved_at": "2026-09-27T08:36:33+00:00",
+  "sha256": "472e40f873baccd449fa577b73e5fad5cb7d75baccd88b038e0898bfeaf387f2",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.citibank.com.sg/credit-cards/pdf/chargeback-dispute.pdf"
+ },
+ "https://www.citibank.com.sg/credit-cards/pdf/rewards-exclusion-list.pdf": {
+  "content_type": "application/pdf",
+  "final_url": "https://www.citibank.com.sg/credit-cards/pdf/rewards-exclusion-list.pdf",
+  "path": "data/raw/bank/www-citibank-com-sg-credit-cards-pdf-rewards-exclusion-list-pdf-cea07829.pdf",
+  "retrieved_at": "2026-09-27T08:36:17+00:00",
+  "sha256": "d43f74d8ca64a96141c244ca5126179e77543ae82cebe4c177a0c029c73b1a68",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.citibank.com.sg/credit-cards/pdf/rewards-exclusion-list.pdf"
+ },
+ "https://www.citibank.com.sg/credit-cards/rewards/citi-rewards-card": {
+  "content_type": "text/html",
+  "final_url": "https://www.citibank.com.sg/credit-cards/points/rewards-card",
+  "path": "data/raw/bank/www-citibank-com-sg-credit-cards-points-rewards-card-f4f971a9.html",
+  "retrieved_at": "2026-09-27T08:32:27+00:00",
+  "sha256": "ee03163d26e6e7703384fd40da76acf884bd3fa303f633265dd87472afc15cce",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.citibank.com.sg/credit-cards/rewards/citi-rewards-card"
+ },
+ "https://www.citibank.com.sg/credit-cards/rewards/citi-rewards-card/pdf/10x-rewards-promotion-frequently-asked-questions.pdf": {
+  "content_type": "application/pdf",
+  "final_url": "https://www.citibank.com.sg/credit-cards/rewards/citi-rewards-card/pdf/10x-rewards-promotion-frequently-asked-questions.pdf",
+  "path": "data/raw/bank/www-citibank-com-sg-credit-cards-rewards-citi-rewards-card-pdf-10x-rewards-promotion-frequently-asked-questions-pdf-8a2c14bc.pdf",
+  "retrieved_at": "2026-09-27T08:36:19+00:00",
+  "sha256": "1ed263a0b1826bbcf1198143039dca0082c7f16fedabf18db4a12c47579019c1",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.citibank.com.sg/credit-cards/rewards/citi-rewards-card/pdf/10x-rewards-promotion-frequently-asked-questions.pdf"
+ },
+ "https://www.citibank.com.sg/credit-cards/rewards/citi-rewards-card/pdf/10x-rewards-promotion-terms-and-conditions-2020.pdf": {
+  "content_type": "application/pdf",
+  "final_url": "https://www.citibank.com.sg/credit-cards/rewards/citi-rewards-card/pdf/10x-rewards-promotion-terms-and-conditions-2020.pdf",
+  "path": "data/raw/bank/www-citibank-com-sg-credit-cards-rewards-citi-rewards-card-pdf-10x-rewards-promotion-terms-and-conditions-2020-pdf-35cded5a.pdf",
+  "retrieved_at": "2026-09-27T08:36:11+00:00",
+  "sha256": "f7d5dfb840409f92c51f203005bba40f8ab7434f440f9d56b9c6b17337cf9f10",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.citibank.com.sg/credit-cards/rewards/citi-rewards-card/pdf/10x-rewards-promotion-terms-and-conditions-2020.pdf"
+ },
+ "https://www.citibank.com.sg/credit-cards/rewards/citi-rewards-card/pdf/card-members-agreement.pdf": {
+  "content_type": "application/pdf",
+  "final_url": "https://www.citibank.com.sg/credit-cards/rewards/citi-rewards-card/pdf/card-members-agreement.pdf",
+  "path": "data/raw/bank/www-citibank-com-sg-credit-cards-rewards-citi-rewards-card-pdf-card-members-agreement-pdf-5ba883e4.pdf",
+  "retrieved_at": "2026-09-27T08:32:29+00:00",
+  "sha256": "345af828d5680405b9df547704a56f690a41e44c4c366af2cf088dbfc917557f",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.citibank.com.sg/credit-cards/rewards/citi-rewards-card/pdf/card-members-agreement.pdf"
+ },
+ "https://www.citibank.com.sg/credit-cards/rewards/citi-rewards-card/pdf/online-product-led-acquisition-promotion-terms-and-conditions.pdf": {
+  "content_type": "application/pdf",
+  "final_url": "https://www.citibank.com.sg/credit-cards/rewards/citi-rewards-card/pdf/online-product-led-acquisition-promotion-terms-and-conditions.pdf",
+  "path": "data/raw/bank/bank-com-sg-credit-cards-rewards-citi-rewards-card-pdf-online-product-led-acquisition-promotion-terms-and-conditions-pdf-7c3f56f0.pdf",
+  "retrieved_at": "2026-09-27T08:36:15+00:00",
+  "sha256": "7aa60cc0bebcdfcf4ac581ffba40d4efdae91008101247150db899d9969910f4",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.citibank.com.sg/credit-cards/rewards/citi-rewards-card/pdf/online-product-led-acquisition-promotion-terms-and-conditions.pdf"
+ },
+ "https://www.citibank.com.sg/credit-cards/rewards/pdf/citibank-rewards-info.pdf": {
+  "content_type": "application/pdf",
+  "final_url": "https://www.citibank.com.sg/credit-cards/rewards/pdf/citibank-rewards-info.pdf",
+  "path": "data/raw/bank/www-citibank-com-sg-credit-cards-rewards-pdf-citibank-rewards-info-pdf-441f6183.pdf",
+  "retrieved_at": "2026-09-27T08:36:21+00:00",
+  "sha256": "eb779aeca1b49d66e9f1c4785b19f8331017ad3fc89e29e8fe2e3bc1562c6bcd",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.citibank.com.sg/credit-cards/rewards/pdf/citibank-rewards-info.pdf"
+ },
+ "https://www.citibank.com.sg/credit-cards/rewards/pdf/rewards-promotion-terms-and-conditions.pdf": {
+  "content_type": "application/pdf",
+  "final_url": "https://www.citibank.com.sg/credit-cards/rewards/pdf/rewards-promotion-terms-and-conditions.pdf",
+  "path": "data/raw/bank/www-citibank-com-sg-credit-cards-rewards-pdf-rewards-promotion-terms-and-conditions-pdf-ff10cf1e.pdf",
+  "retrieved_at": "2026-09-27T07:47:24+00:00",
+  "sha256": "92d7958181e495f57f75d49e6fe0adabd2eab7984172d79fcf98d585b2715fc1",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.citibank.com.sg/credit-cards/rewards/pdf/rewards-promotion-terms-and-conditions.pdf"
+ },
+ "https://www.citibank.com.sg/credit-cards/rewards/prestige-credit-card/": {
+  "content_type": "text/html",
+  "final_url": "https://www.citibank.com.sg/credit-cards/rewards/prestige-credit-card/",
+  "path": "data/raw/bank/www-citibank-com-sg-credit-cards-rewards-prestige-credit-card-9167605a.html",
+  "retrieved_at": "2026-09-27T08:32:08+00:00",
+  "sha256": "717801cbd9428558b92603d51e730b23d89bb52d89b2e65f039b4f34d5e83ba6",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.citibank.com.sg/credit-cards/rewards/prestige-credit-card/"
+ },
+ "https://www.citibank.com.sg/credit-cards/rewards/prestige-credit-card/pdf/card-members-agreement.pdf": {
+  "content_type": "application/pdf",
+  "final_url": "https://www.citibank.com.sg/credit-cards/rewards/prestige-credit-card/pdf/card-members-agreement.pdf",
+  "path": "data/raw/bank/www-citibank-com-sg-credit-cards-rewards-prestige-credit-card-pdf-card-members-agreement-pdf-ffba7954.pdf",
+  "retrieved_at": "2026-09-27T08:32:10+00:00",
+  "sha256": "0eefbfc5c00d7c186a8d921eedfac6d0b6a908f000f8eea0cf42f82090b6f23c",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.citibank.com.sg/credit-cards/rewards/prestige-credit-card/pdf/card-members-agreement.pdf"
+ },
+ "https://www.citibank.com.sg/credit-cards/rewards/prestige-credit-card/pdf/haute-dining-tnc.pdf": {
+  "content_type": "application/pdf",
+  "final_url": "https://www.citibank.com.sg/credit-cards/rewards/prestige-credit-card/pdf/haute-dining-tnc.pdf",
+  "path": "data/raw/bank/www-citibank-com-sg-credit-cards-rewards-prestige-credit-card-pdf-haute-dining-tnc-pdf-262da61e.pdf",
+  "retrieved_at": "2026-09-27T08:32:25+00:00",
+  "sha256": "797c112deff30eb29ed54398ecb1ba109fd7d503512b5cb3d5b96d43b01bc362",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.citibank.com.sg/credit-cards/rewards/prestige-credit-card/pdf/haute-dining-tnc.pdf"
+ },
+ "https://www.citibank.com.sg/credit-cards/rewards/prestige-credit-card/pdf/online-acquisition-offer-tnc.pdf": {
+  "content_type": "application/pdf",
+  "final_url": "https://www.citibank.com.sg/credit-cards/rewards/prestige-credit-card/pdf/online-acquisition-offer-tnc.pdf",
+  "path": "data/raw/bank/www-citibank-com-sg-credit-cards-rewards-prestige-credit-card-pdf-online-acquisition-offer-tnc-pdf-2e04d38d.pdf",
+  "retrieved_at": "2026-09-27T08:32:14+00:00",
+  "sha256": "309cf39377675efac6fcd083e34e95441d5d4435ac5b9aa9f542ca297fd87cf3",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.citibank.com.sg/credit-cards/rewards/prestige-credit-card/pdf/online-acquisition-offer-tnc.pdf"
+ },
+ "https://www.citibank.com.sg/credit-cards/student/citi-clear-card": {
+  "content_type": "text/html",
+  "final_url": "https://www.citibank.com.sg/credit-cards/student/citi-clear-card",
+  "path": "data/raw/bank/www-citibank-com-sg-credit-cards-student-citi-clear-card-61a0c28e.html",
+  "retrieved_at": "2026-09-27T07:31:27+00:00",
+  "sha256": "bb303423c786f1559855dd30c5430ff2b59ceec45e01d248de987b89a8d5b8f4",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.citibank.com.sg/credit-cards/student/citi-clear-card"
+ },
+ "https://www.citibank.com.sg/credit-cards/student/citi-clear-card/pdf/card-members-agreement.pdf": {
+  "content_type": "application/pdf",
+  "final_url": "https://www.citibank.com.sg/credit-cards/student/citi-clear-card/pdf/card-members-agreement.pdf",
+  "path": "data/raw/bank/www-citibank-com-sg-credit-cards-student-citi-clear-card-pdf-card-members-agreement-pdf-8becbfb6.pdf",
+  "retrieved_at": "2026-09-27T07:31:29+00:00",
+  "sha256": "edd8efd83efcadb617db54de439a748c24df8244110032e12294842c09157895",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.citibank.com.sg/credit-cards/student/citi-clear-card/pdf/card-members-agreement.pdf"
+ },
+ "https://www.citibank.com.sg/credit-cards/travel/premiermiles-card": {
+  "content_type": "text/html",
+  "final_url": "https://www.citibank.com.sg/credit-cards/travel/premiermiles-card",
+  "path": "data/raw/bank/www-citibank-com-sg-credit-cards-travel-premiermiles-card-0cb50223.html",
+  "retrieved_at": "2026-09-27T08:31:50+00:00",
+  "sha256": "60ea2c52480ec12562bfc8ee1a49376609f55915e01ac8b26f79a57cebb3e1a3",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.citibank.com.sg/credit-cards/travel/premiermiles-card"
+ },
+ "https://www.citibank.com.sg/credit-cards/travel/premiermiles-card/pdf/citi-premiermiles-card-members-agreement.pdf": {
+  "content_type": "application/pdf",
+  "final_url": "https://www.citibank.com.sg/credit-cards/travel/premiermiles-card/pdf/citi-premiermiles-card-members-agreement.pdf",
+  "path": "data/raw/bank/www-citibank-com-sg-credit-cards-travel-premiermiles-card-pdf-citi-premiermiles-card-members-agreement-pdf-cfe690be.pdf",
+  "retrieved_at": "2026-09-27T08:31:52+00:00",
+  "sha256": "a7b75de60ccbcc3f02d6a1970aa060b33ddf650555793f14897bd7e7328d2f78",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.citibank.com.sg/credit-cards/travel/premiermiles-card/pdf/citi-premiermiles-card-members-agreement.pdf"
+ },
+ "https://www.citibank.com.sg/credit-cards/travel/premiermiles-card/pdf/online-acquisition-offer-30k-miles-tnc.pdf?icid=SGLEUJ5ENPREMCAAN16": {
+  "content_type": "application/pdf",
+  "final_url": "https://www.citibank.com.sg/pdf/credit-cards/travel/premiermiles-card/welcome-offer.pdf?icid=SGLEUJ5ENPREMCAAN16",
+  "path": "data/raw/bank/www-citibank-com-sg-pdf-credit-cards-travel-premiermiles-card-welcome-offer-pdf-51c5a1a0.pdf",
+  "retrieved_at": "2026-09-27T08:32:02+00:00",
+  "sha256": "efcc2d6c75d86b44596b068e56c46c1fdcf66ccce34d81c38a1517d2c944e1d2",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.citibank.com.sg/credit-cards/travel/premiermiles-card/pdf/online-acquisition-offer-30k-miles-tnc.pdf?icid=SGLEUJ5ENPREMCAAN16"
+ },
+ "https://www.citibank.com.sg/credit-cards/travel/premiermiles-card/pdf/online-acquisition-offer-tnc.pdf?icid=SGLEUJ5ENPREMCAAN17": {
+  "content_type": "application/pdf",
+  "final_url": "https://www.citibank.com.sg/credit-cards/travel/premiermiles-card/pdf/online-acquisition-offer-tnc.pdf?icid=SGLEUJ5ENPREMCAAN17",
+  "path": "data/raw/bank/www-citibank-com-sg-credit-cards-travel-premiermiles-card-pdf-online-acquisition-offer-tnc-pdf-37af15c6.pdf",
+  "retrieved_at": "2026-09-27T08:32:04+00:00",
+  "sha256": "07786d997fbc4fc3ed7d5c9454b4412f7caa1e0dac3a79144278d79b9179366d",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.citibank.com.sg/credit-cards/travel/premiermiles-card/pdf/online-acquisition-offer-tnc.pdf?icid=SGLEUJ5ENPREMCAAN17"
+ },
+ "https://www.citibank.com.sg/gcb/credit_cards/m1-platinum-visa-credit-card": {
+  "content_type": "text/html",
+  "final_url": "https://www.citibank.com.sg/gcb/credit_cards/m1-platinum-visa-credit-card",
+  "path": "data/raw/bank/www-citibank-com-sg-gcb-credit-cards-m1-platinum-visa-credit-card-9d2e76d5.html",
+  "retrieved_at": "2026-09-27T08:04:15+00:00",
+  "sha256": "357cae64e69e5c2d46dba3f966d98239f5bfccfa8fda13603a4cb1efd6e1d455",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.citibank.com.sg/gcb/credit_cards/m1-platinum-visa-credit-card"
+ },
+ "https://www.citibank.com.sg/gcb/credit_cards/m1-platinum-visa-credit-card.pdf": {
+  "content_type": "application/pdf",
+  "final_url": "https://www.citibank.com.sg/gcb/credit_cards/m1-platinum-visa-credit-card.pdf",
+  "path": "data/raw/bank/www-citibank-com-sg-gcb-credit-cards-m1-platinum-visa-credit-card-pdf-ce09be12.pdf",
+  "retrieved_at": "2026-09-27T08:19:40+00:00",
+  "sha256": "89d80fa88214866b51e49a3491b261859977adca473d88d16bbf90f0ffcaf6de",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.citibank.com.sg/gcb/credit_cards/m1-platinum-visa-credit-card.pdf"
+ },
+ "https://www.citibank.com.sg/global_docs/pdf/Rewards_Exclusion_List.pdf": {
+  "content_type": "application/pdf",
+  "final_url": "https://www.citibank.com.sg/credit-cards/pdf/rewards-exclusion-list.pdf",
+  "path": "data/raw/bank/www-citibank-com-sg-credit-cards-pdf-rewards-exclusion-list-pdf-c33f164e.pdf",
+  "retrieved_at": "2026-09-27T08:36:13+00:00",
+  "sha256": "d43f74d8ca64a96141c244ca5126179e77543ae82cebe4c177a0c029c73b1a68",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.citibank.com.sg/global_docs/pdf/Rewards_Exclusion_List.pdf"
+ },
+ "https://www.citibank.com.sg/global_docs/pdf/citi-smrt-rewards-program-tncs.pdf": {
+  "content_type": "application/pdf",
+  "final_url": "https://www.citibank.com.sg/credit-cards/cashback/smrt-credit-card/pdf/citi-smrt-rewards-program.pdf",
+  "path": "data/raw/bank/www-citibank-com-sg-credit-cards-cashback-smrt-credit-card-pdf-citi-smrt-rewards-program-pdf-7690b53e.pdf",
+  "retrieved_at": "2026-09-27T08:36:31+00:00",
+  "sha256": "c190661d8a48d615baad891dcec18026e490e8428927acd4444979fe7abda828",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.citibank.com.sg/global_docs/pdf/citi-smrt-rewards-program-tncs.pdf"
+ },
+ "https://www.citibank.com.sg/pdf/0122/credit-card/citi-premiermiles-card-info-sheet.pdf?icid=SGLEUJ5ENPREMCAAN22": {
+  "content_type": "application/pdf",
+  "final_url": "https://www.citibank.com.sg/credit-cards/travel/premiermiles-card/pdf/information-sheet.pdf?icid=SGLEUJ5ENPREMCAAN22",
+  "path": "data/raw/bank/www-citibank-com-sg-credit-cards-travel-premiermiles-card-pdf-information-sheet-pdf-ebf71159.pdf",
+  "retrieved_at": "2026-09-27T08:32:06+00:00",
+  "sha256": "18ee2dc125daad1a16cbab185ad4f9c2ba387514b50dee898068c1ef44c00bd3",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.citibank.com.sg/pdf/0122/credit-card/citi-premiermiles-card-info-sheet.pdf?icid=SGLEUJ5ENPREMCAAN22"
+ },
+ "https://www.citibank.com.sg/pdf/0523/Sands-Lifestyle-membership.pdf": {
+  "content_type": "application/pdf",
+  "final_url": "https://www.citibank.com.sg/pdf/0523/Sands-Lifestyle-membership.pdf",
+  "path": "data/raw/bank/www-citibank-com-sg-pdf-0523-Sands-Lifestyle-membership-pdf-7626c59e.pdf",
+  "retrieved_at": "2026-09-27T08:32:19+00:00",
+  "sha256": "c9a6bfecb009caa78e078eec45ebbd42eeb20d6ea3d3c495d7b78ace1f39adfa",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.citibank.com.sg/pdf/0523/Sands-Lifestyle-membership.pdf"
+ },
+ "https://www.citibank.com.sg/pdf/1224/2025-premiermiles-agoda-tncs.pdf?icid=SGLEUJ5ENPREMCAAN09": {
+  "content_type": "application/pdf",
+  "final_url": "https://www.citibank.com.sg/pdf/1224/2025-premiermiles-agoda-tncs.pdf?icid=SGLEUJ5ENPREMCAAN09",
+  "path": "data/raw/bank/www-citibank-com-sg-pdf-1224-2025-premiermiles-agoda-tncs-pdf-96f447c2.pdf",
+  "retrieved_at": "2026-09-27T08:31:58+00:00",
+  "sha256": "115ed1049c2d8b4ab3512444ef4c047ea975edce80e8f1f51fca090bcbc1ee1f",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.citibank.com.sg/pdf/1224/2025-premiermiles-agoda-tncs.pdf?icid=SGLEUJ5ENPREMCAAN09"
+ },
+ "https://www.citibank.com.sg/pdf/1224/2025-premiermiles-kaligo-tncs.pdf?icid=SGLEUJ5ENPREMCAAN07": {
+  "content_type": "application/pdf",
+  "final_url": "https://www.citibank.com.sg/pdf/1224/2025-premiermiles-kaligo-tncs.pdf?icid=SGLEUJ5ENPREMCAAN07",
+  "path": "data/raw/bank/www-citibank-com-sg-pdf-1224-2025-premiermiles-kaligo-tncs-pdf-bf948cd8.pdf",
+  "retrieved_at": "2026-09-27T08:31:56+00:00",
+  "sha256": "4adeded2dc36d7945f139727ff8e6c0d721b7c58e2eb289535f3bb4d00308169",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.citibank.com.sg/pdf/1224/2025-premiermiles-kaligo-tncs.pdf?icid=SGLEUJ5ENPREMCAAN07"
+ },
+ "https://www.citibank.com.sg/pdf/credit-card/prestige-product-faq.pdf": {
+  "content_type": "application/pdf",
+  "final_url": "https://www.citibank.com.sg/pdf/credit-card/prestige-product-faq.pdf",
+  "path": "data/raw/bank/www-citibank-com-sg-pdf-credit-card-prestige-product-faq-pdf-234ebae5.pdf",
+  "retrieved_at": "2026-09-27T08:32:23+00:00",
+  "sha256": "9c7e3ec84ef4f25ad5afcb90ffcdf166c20600eb7308f1c4da7041e90a10736f",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.citibank.com.sg/pdf/credit-card/prestige-product-faq.pdf"
+ },
+ "https://www.citibank.com.sg/pdf/credit-cards/cashback/citi-cash-back-card/welcome-offer.pdf": {
+  "content_type": "application/pdf",
+  "final_url": "https://www.citibank.com.sg/pdf/credit-cards/cashback/citi-cash-back-card/welcome-offer.pdf",
+  "path": "data/raw/bank/www-citibank-com-sg-pdf-credit-cards-cashback-citi-cash-back-card-welcome-offer-pdf-0e0847bb.pdf",
+  "retrieved_at": "2026-09-27T07:31:03+00:00",
+  "sha256": "d5032b477a740f49f7c50617e155bef71858d993f517ae20af2f8d6886ca826c",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.citibank.com.sg/pdf/credit-cards/cashback/citi-cash-back-card/welcome-offer.pdf"
+ },
+ "https://www.citibank.com.sg/pdf/credit-cards/cashback/smrt-credit-card/my-ringgit-spend-promo.pdf": {
+  "content_type": "application/pdf",
+  "final_url": "https://www.citibank.com.sg/pdf/credit-cards/cashback/smrt-credit-card/my-ringgit-spend-promo.pdf",
+  "path": "data/raw/bank/www-citibank-com-sg-pdf-credit-cards-cashback-smrt-credit-card-my-ringgit-spend-promo-pdf-5d7d14a5.pdf",
+  "retrieved_at": "2026-09-27T08:36:29+00:00",
+  "sha256": "b81a08ff9609b469674a32e75651fbd4a74368588821865a83021f65858a6381",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.citibank.com.sg/pdf/credit-cards/cashback/smrt-credit-card/my-ringgit-spend-promo.pdf"
+ },
+ "https://www.citibank.com.sg/pdf/credit-cards/prestige-card/prestigemrctc.pdf": {
+  "content_type": "application/pdf",
+  "final_url": "https://www.citibank.com.sg/pdf/credit-cards/prestige-card/prestigemrctc.pdf",
+  "path": "data/raw/bank/www-citibank-com-sg-pdf-credit-cards-prestige-card-prestigemrctc-pdf-f17ce990.pdf",
+  "retrieved_at": "2026-09-27T08:32:16+00:00",
+  "sha256": "52db1faa04178e128fd347ce6c51a5af94d9de5a7f2aa7d2ddec76f8f38d333f",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.citibank.com.sg/pdf/credit-cards/prestige-card/prestigemrctc.pdf"
+ },
+ "https://www.dbs.com.sg/personal/cards/credit-cards/dbs-altitude-cards": {
+  "content_type": "text/html",
+  "final_url": "https://www.dbs.com.sg/personal/cards/credit-cards/dbs-altitude-cards",
+  "path": "data/raw/bank/www-dbs-com-sg-personal-cards-credit-cards-dbs-altitude-cards-02414849.html",
+  "retrieved_at": "2026-09-27T08:36:36+00:00",
+  "sha256": "fe58536bf85b1bbcd6214007b428e29e96ab796334109876c36602915dc0a593",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.dbs.com.sg/personal/cards/credit-cards/dbs-altitude-cards"
+ },
+ "https://www.dbs.com.sg/personal/cards/credit-cards/dbs-chromo-card": {
+  "content_type": "text/html",
+  "final_url": "https://www.dbs.com.sg/personal/cards/credit-cards/dbs-chromo-card",
+  "path": "data/raw/bank/www-dbs-com-sg-personal-cards-credit-cards-dbs-chromo-card-dda643d5.html",
+  "retrieved_at": "2026-09-27T08:36:38+00:00",
+  "sha256": "975b6148966872bdcf04d4254fb1525dabec7e76474bc39e98c5d78a0c5c2b75",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.dbs.com.sg/personal/cards/credit-cards/dbs-chromo-card"
+ },
+ "https://www.dbs.com.sg/personal/cards/credit-cards/dbs-esso-platinum-card": {
+  "content_type": "text/html",
+  "final_url": "https://www.dbs.com.sg/personal/cards/credit-cards/dbs-esso-platinum-card",
+  "path": "data/raw/bank/www-dbs-com-sg-personal-cards-credit-cards-dbs-esso-platinum-card-e4759239.html",
+  "retrieved_at": "2026-09-27T08:36:40+00:00",
+  "sha256": "12135983040918f4f4b7906a97a3b5c1e28b29b2c3144b06df0d5c2857de1bec",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.dbs.com.sg/personal/cards/credit-cards/dbs-esso-platinum-card"
+ },
+ "https://www.dbs.com.sg/personal/cards/credit-cards/dbs-safra-credit-card": {
+  "content_type": "text/html",
+  "final_url": "https://www.dbs.com.sg/personal/cards/credit-cards/dbs-safra-credit-card",
+  "path": "data/raw/bank/www-dbs-com-sg-personal-cards-credit-cards-dbs-safra-credit-card-d1a8caf3.html",
+  "retrieved_at": "2026-09-27T08:36:44+00:00",
+  "sha256": "dc85ab72481ebbd911995d20e811c187afdca8930fed515829edfc11b2c27e10",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.dbs.com.sg/personal/cards/credit-cards/dbs-safra-credit-card"
+ },
+ "https://www.dbs.com.sg/personal/cards/credit-cards/dbs-takashimaya-card": {
+  "content_type": "text/html",
+  "final_url": "https://www.dbs.com.sg/personal/cards/credit-cards/dbs-takashimaya-card",
+  "path": "data/raw/bank/www-dbs-com-sg-personal-cards-credit-cards-dbs-takashimaya-card-dec40f51.html",
+  "retrieved_at": "2026-09-27T08:36:48+00:00",
+  "sha256": "977b3b7bb2f8c8b14f5a72bdc0eccc0b46743d0f426671e1a41a04a82dd3b672",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.dbs.com.sg/personal/cards/credit-cards/dbs-takashimaya-card"
+ },
+ "https://www.dbs.com.sg/personal/cards/credit-cards/dbs-vantage-visa-infinite-card": {
+  "content_type": "text/html",
+  "final_url": "https://www.dbs.com.sg/personal/cards/credit-cards/dbs-vantage-visa-infinite-card",
+  "path": "data/raw/bank/www-dbs-com-sg-personal-cards-credit-cards-dbs-vantage-visa-infinite-card-861bbe0c.html",
+  "retrieved_at": "2026-09-27T08:36:50+00:00",
+  "sha256": "4815cb19346bba8ac47b39a9f3495781412d7b4d84cdfeb20560789496012642",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.dbs.com.sg/personal/cards/credit-cards/dbs-vantage-visa-infinite-card"
+ },
+ "https://www.dbs.com.sg/personal/cards/credit-cards/dbs-woman-mastercard-card": {
+  "content_type": "text/html",
+  "final_url": "https://www.dbs.com.sg/personal/cards/credit-cards/dbs-woman-mastercard-card",
+  "path": "data/raw/bank/www-dbs-com-sg-personal-cards-credit-cards-dbs-woman-mastercard-card-a1401830.html",
+  "retrieved_at": "2026-09-27T08:36:54+00:00",
+  "sha256": "ca64b321a66714bdc51716cbd2b04571a6665aa7b05bdddbb0a383f5e8bf2849",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.dbs.com.sg/personal/cards/credit-cards/dbs-woman-mastercard-card"
+ },
+ "https://www.dbs.com.sg/personal/cards/credit-cards/dbs-yuu-cards": {
+  "content_type": "text/html",
+  "final_url": "https://www.dbs.com.sg/personal/cards/credit-cards/dbs-yuu-cards",
+  "path": "data/raw/bank/www-dbs-com-sg-personal-cards-credit-cards-dbs-yuu-cards-96a39a34.html",
+  "retrieved_at": "2026-09-27T08:36:58+00:00",
+  "sha256": "835bbb0594c97a16de1ccb7ad1bb40d75efbf40afcbc67c270da53beb5ce8130",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.dbs.com.sg/personal/cards/credit-cards/dbs-yuu-cards"
+ },
+ "https://www.dbs.com.sg/personal/cards/credit-cards/live-fresh-dbs-visa-paywave-500-card": {
+  "content_type": "text/html",
+  "final_url": "https://www.dbs.com.sg/personal/cards/credit-cards/live-fresh-dbs-visa-paywave-500-card",
+  "path": "data/raw/bank/www-dbs-com-sg-personal-cards-credit-cards-live-fresh-dbs-visa-paywave-500-card-dd88d67e.html",
+  "retrieved_at": "2026-09-27T08:36:42+00:00",
+  "sha256": "cd1fe3defffa294571567540a690b37e50efce915377615c79ea2e15dc99e4de",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.dbs.com.sg/personal/cards/credit-cards/live-fresh-dbs-visa-paywave-500-card"
+ },
+ "https://www.hsbc.com.sg/content/dam/hsbc/sg/documents/credit-cards/revolution/offers/revolution-credit-card-reward-points-terms-and-conditions.pdf": {
+  "content_type": "application/pdf",
+  "final_url": "https://www.hsbc.com.sg/content/dam/hsbc/sg/documents/credit-cards/revolution/offers/revolution-credit-card-reward-points-terms-and-conditions.pdf",
+  "path": "data/raw/bank/manual-hsbc-revolution-2a2b774d.pdf",
+  "retrieved_at": "2026-09-27T05:24:20+00:00",
+  "sha256": "e3778406a7d0c2cec70afffbf8cbfe1d23ed7ed0ff80aeb0537f8e410795703e",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.hsbc.com.sg/content/dam/hsbc/sg/documents/credit-cards/revolution/offers/revolution-credit-card-reward-points-terms-and-conditions.pdf"
+ },
+ "https://www.hsbc.com.sg/credit-cards/products/advance/": {
+  "content_type": "text/html",
+  "final_url": "https://www.hsbc.com.sg/credit-cards/products/advance/",
+  "path": "data/raw/bank/www-hsbc-com-sg-credit-cards-products-advance-c7dd9cff.html",
+  "retrieved_at": "2026-09-27T08:37:12+00:00",
+  "sha256": "8b8eb397da7c576b9a3fb45fffd211201da9883918b4f8f7e8867f39272d19c1",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.hsbc.com.sg/credit-cards/products/advance/"
+ },
+ "https://www.hsbc.com.sg/credit-cards/products/liveplus/": {
+  "content_type": "text/html",
+  "final_url": "https://www.hsbc.com.sg/credit-cards/products/liveplus/",
+  "path": "data/raw/bank/www-hsbc-com-sg-credit-cards-products-liveplus-6d3f797d.html",
+  "retrieved_at": "2026-09-27T08:37:14+00:00",
+  "sha256": "31277eb1d4b052834987154cb16523d05012101e4065f6e218d6a5be6b6d741c",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.hsbc.com.sg/credit-cards/products/liveplus/"
+ },
+ "https://www.hsbc.com.sg/credit-cards/products/revolution/": {
+  "content_type": "text/html",
+  "final_url": "https://www.hsbc.com.sg/credit-cards/products/revolution/",
+  "path": "data/raw/bank/www-hsbc-com-sg-credit-cards-products-revolution-16ac427d.html",
+  "retrieved_at": "2026-09-27T08:37:16+00:00",
+  "sha256": "f7238b110790cc333eaced806f4be5286b3380a74e1902ce4d4ccc2d6a9b1786",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.hsbc.com.sg/credit-cards/products/revolution/"
+ },
+ "https://www.hsbc.com.sg/credit-cards/products/travelone/": {
+  "content_type": "text/html",
+  "final_url": "https://www.hsbc.com.sg/credit-cards/products/travelone/",
+  "path": "data/raw/bank/www-hsbc-com-sg-credit-cards-products-travelone-19e5ade2.html",
+  "retrieved_at": "2026-09-27T08:37:18+00:00",
+  "sha256": "b534267d793d04a26319a15d3db96180a478c3f6bebbe49cfa25b310cc84f093",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.hsbc.com.sg/credit-cards/products/travelone/"
+ },
+ "https://www.hsbc.com.sg/credit-cards/products/visa-infinite/": {
+  "content_type": "text/html",
+  "final_url": "https://www.hsbc.com.sg/credit-cards/products/visa-infinite/",
+  "path": "data/raw/bank/www-hsbc-com-sg-credit-cards-products-visa-infinite-a775ed1d.html",
+  "retrieved_at": "2026-09-27T08:37:20+00:00",
+  "sha256": "964b68795a642bd332342183262be359751aaa5889f3555916a6d4343e336869",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.hsbc.com.sg/credit-cards/products/visa-infinite/"
+ },
+ "https://www.icbc.com.sg/en/column/1438059017468788827.html": {
+  "content_type": "text/html",
+  "final_url": "https://www.icbc.com.sg/en/column/1438059017468788827.html",
+  "path": "data/raw/bank/www-icbc-com-sg-en-column-1438059017468788827-html-f36aaa4f.html",
+  "retrieved_at": "2026-09-27T08:37:22+00:00",
+  "sha256": "b51a6ea04fe2ddba04b3cbfac7138618dfff774d71f6ca77e6d9aed717dccdd9",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.icbc.com.sg/en/column/1438059017468788827.html"
+ },
+ "https://www.icbc.com.sg/en/column/1438059017535897823.html": {
+  "content_type": "text/html",
+  "final_url": "https://www.icbc.com.sg/en/column/1438059017535897823.html",
+  "path": "data/raw/bank/www-icbc-com-sg-en-column-1438059017535897823-html-d8c5584b.html",
+  "retrieved_at": "2026-09-27T08:37:20+00:00",
+  "sha256": "238dede9590d83681ccddabe6a08b021d642d54db8a8583764cca485a639c155",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.icbc.com.sg/en/column/1438059017535897823.html"
+ },
+ "https://www.ocbc.com/iwov-resources/sg/ocbc/personal/pdf/campaign/cards/tncs-90ncard-agoda-yearlong-promo.pdf": {
+  "content_type": "application/pdf",
+  "final_url": "https://www.ocbc.com/iwov-resources/sg/ocbc/personal/pdf/campaign/cards/tncs-90ncard-agoda-yearlong-promo.pdf",
+  "path": "data/raw/bank/www-ocbc-com-iwov-resources-sg-ocbc-personal-pdf-campaign-cards-tncs-90ncard-agoda-yearlong-promo-pdf-b6cef1f1.pdf",
+  "retrieved_at": "2026-09-27T08:41:17+00:00",
+  "sha256": "5f17d79e0c6d4376a8edf1d7e2f8d79338e658b619d5366149b31249070989cb",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.ocbc.com/iwov-resources/sg/ocbc/personal/pdf/campaign/cards/tncs-90ncard-agoda-yearlong-promo.pdf"
+ },
+ "https://www.ocbc.com/iwov-resources/sg/ocbc/personal/pdf/campaign/cards/tncs-90nmastercard-travelwithocbc-promo.pdf": {
+  "content_type": "application/pdf",
+  "final_url": "https://www.ocbc.com/iwov-resources/sg/ocbc/personal/pdf/campaign/cards/tncs-90nmastercard-travelwithocbc-promo.pdf",
+  "path": "data/raw/bank/www-ocbc-com-iwov-resources-sg-ocbc-personal-pdf-campaign-cards-tncs-90nmastercard-travelwithocbc-promo-pdf-1c339898.pdf",
+  "retrieved_at": "2026-09-27T08:41:11+00:00",
+  "sha256": "c63c13b1406a5d3a0019e9c029859f23fdb70d3c4a4bbe86b24ffd96f8963aa4",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.ocbc.com/iwov-resources/sg/ocbc/personal/pdf/campaign/cards/tncs-90nmastercard-travelwithocbc-promo.pdf"
+ },
+ "https://www.ocbc.com/iwov-resources/sg/ocbc/personal/pdf/campaign/cards/tncs-90nvisa_90nmc-household-referral-promo.pdf": {
+  "content_type": "application/pdf",
+  "final_url": "https://www.ocbc.com/iwov-resources/sg/ocbc/personal/pdf/campaign/cards/tncs-90nvisa_90nmc-household-referral-promo.pdf",
+  "path": "data/raw/bank/www-ocbc-com-iwov-resources-sg-ocbc-personal-pdf-campaign-cards-tncs-90nvisa-90nmc-household-referral-promo-pdf-03c019b9.pdf",
+  "retrieved_at": "2026-09-27T08:41:13+00:00",
+  "sha256": "423ad0d56a95d8054a425258a1d185a71557c578766c216548b5099f252ad6fb",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.ocbc.com/iwov-resources/sg/ocbc/personal/pdf/campaign/cards/tncs-90nvisa_90nmc-household-referral-promo.pdf"
+ },
+ "https://www.ocbc.com/iwov-resources/sg/ocbc/personal/pdf/campaign/cards/tncs-governing-ocbc-cc-38sgd-cashback-campaign.pdf": {
+  "content_type": "text/html",
+  "final_url": "https://www.ocbc.com/html/404.html",
+  "path": "data/raw/bank/www-ocbc-com-html-404-html-57180beb.html",
+  "retrieved_at": "2026-09-27T08:41:09+00:00",
+  "sha256": "8bd51daf86cfb53f3c86e813478a69d583ee5703cdcd0a2c5009a0c882a9cda0",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.ocbc.com/iwov-resources/sg/ocbc/personal/pdf/campaign/cards/tncs-governing-ocbc-cc-38sgd-cashback-campaign.pdf"
+ },
+ "https://www.ocbc.com/iwov-resources/sg/ocbc/personal/pdf/campaign/cards/tncs-governing-the-gourmet-experiences-programme.pdf": {
+  "content_type": "application/pdf",
+  "final_url": "https://www.ocbc.com/iwov-resources/sg/ocbc/personal/pdf/campaign/cards/tncs-governing-the-gourmet-experiences-programme.pdf",
+  "path": "data/raw/bank/www-ocbc-com-iwov-resources-sg-ocbc-personal-pdf-campaign-cards-tncs-governing-the-gourmet-experiences-programme-pdf-dbd7d8fd.pdf",
+  "retrieved_at": "2026-09-27T08:41:51+00:00",
+  "sha256": "0a112e2732956cae5a4fdf25699a730b14a0b6960c0225c106b97e499b1fe700",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.ocbc.com/iwov-resources/sg/ocbc/personal/pdf/campaign/cards/tncs-governing-the-gourmet-experiences-programme.pdf"
+ },
+ "https://www.ocbc.com/iwov-resources/sg/ocbc/personal/pdf/campaign/insurance/tncs-governing-explorer-cashback-campaign.pdf": {
+  "content_type": "application/pdf",
+  "final_url": "https://www.ocbc.com/iwov-resources/sg/ocbc/personal/pdf/campaign/insurance/tncs-governing-explorer-cashback-campaign.pdf",
+  "path": "data/raw/bank/www-ocbc-com-iwov-resources-sg-ocbc-personal-pdf-campaign-insurance-tncs-governing-explorer-cashback-campaign-pdf-4c6d1b6e.pdf",
+  "retrieved_at": "2026-09-27T08:41:05+00:00",
+  "sha256": "8480c7252890b3b8565e01a81efeeced4e62da0f2a6c347ce6ef555f6a02f1e5",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.ocbc.com/iwov-resources/sg/ocbc/personal/pdf/campaign/insurance/tncs-governing-explorer-cashback-campaign.pdf"
+ },
+ "https://www.ocbc.com/iwov-resources/sg/ocbc/personal/pdf/campaign/tncs-governing-ocbc-rewards-card-15x-ocbcdollar-campaign.pdf": {
+  "content_type": "application/pdf",
+  "final_url": "https://www.ocbc.com/iwov-resources/sg/ocbc/personal/pdf/campaign/tncs-governing-ocbc-rewards-card-15x-ocbcdollar-campaign.pdf",
+  "path": "data/raw/bank/www-ocbc-com-iwov-resources-sg-ocbc-personal-pdf-campaign-tncs-governing-ocbc-rewards-card-15x-ocbcdollar-campaign-pdf-ff448b94.pdf",
+  "retrieved_at": "2026-09-27T08:41:45+00:00",
+  "sha256": "ebd223c14c247642fe30cc96885f3e8ad159996e9b33bc379709295c1609ff80",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.ocbc.com/iwov-resources/sg/ocbc/personal/pdf/campaign/tncs-governing-ocbc-rewards-card-15x-ocbcdollar-campaign.pdf"
+ },
+ "https://www.ocbc.com/iwov-resources/sg/ocbc/personal/pdf/cards/terms-and-conditions-governing-ocbc-frank-credit-card.pdf": {
+  "content_type": "application/pdf",
+  "final_url": "https://www.ocbc.com/iwov-resources/sg/ocbc/personal/pdf/cards/terms-and-conditions-governing-ocbc-frank-credit-card.pdf",
+  "path": "data/raw/bank/www-ocbc-com-iwov-resources-sg-ocbc-personal-pdf-cards-terms-and-conditions-governing-ocbc-frank-credit-card-pdf-a466cae8.pdf",
+  "retrieved_at": "2026-09-27T08:41:23+00:00",
+  "sha256": "fc5446be68b3fcef650f734e9c8b14c1bc2cc5470ef76cd216866fe49b4d66d4",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.ocbc.com/iwov-resources/sg/ocbc/personal/pdf/cards/terms-and-conditions-governing-ocbc-frank-credit-card.pdf"
+ },
+ "https://www.ocbc.com/iwov-resources/sg/ocbc/personal/pdf/cards/tnc-ocbc-90n-card-programme.pdf": {
+  "content_type": "application/pdf",
+  "final_url": "https://www.ocbc.com/iwov-resources/sg/ocbc/personal/pdf/cards/tnc-ocbc-90n-card-programme.pdf",
+  "path": "data/raw/bank/www-ocbc-com-iwov-resources-sg-ocbc-personal-pdf-cards-tnc-ocbc-90n-card-programme-pdf-d2722565.pdf",
+  "retrieved_at": "2026-09-27T08:41:15+00:00",
+  "sha256": "3e94bbe5ea3e9713b5b71ee844353f1b7c8f33e34e3120e0020823ee1d64eeff",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.ocbc.com/iwov-resources/sg/ocbc/personal/pdf/cards/tnc-ocbc-90n-card-programme.pdf"
+ },
+ "https://www.ocbc.com/iwov-resources/sg/ocbc/personal/pdf/cards/tnc-ocbc-rewards-card-and-titanium-rewards-creditcard-programme-wef-1nov23.pdf": {
+  "content_type": "application/pdf",
+  "final_url": "https://www.ocbc.com/iwov-resources/sg/ocbc/personal/pdf/cards/tnc-ocbc-rewards-card-and-titanium-rewards-creditcard-programme-wef-1nov23.pdf",
+  "path": "data/raw/bank/iwov-resources-sg-ocbc-personal-pdf-cards-tnc-ocbc-rewards-card-and-titanium-rewards-creditcard-programme-wef-1nov23-pdf-b63815c3.pdf",
+  "retrieved_at": "2026-09-27T08:41:43+00:00",
+  "sha256": "28abb5c55e82e4b3f26dc404aca9952310bc6a33eacd846847735e237923b334",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.ocbc.com/iwov-resources/sg/ocbc/personal/pdf/cards/tnc-ocbc-rewards-card-and-titanium-rewards-creditcard-programme-wef-1nov23.pdf"
+ },
+ "https://www.ocbc.com/iwov-resources/sg/ocbc/personal/pdf/cards/tncs-ge-cashflo-credit-card-wef1apr21.pdf": {
+  "content_type": "application/pdf",
+  "final_url": "https://www.ocbc.com/iwov-resources/sg/ocbc/personal/pdf/cards/tncs-ge-cashflo-credit-card-wef1apr21.pdf",
+  "path": "data/raw/bank/www-ocbc-com-iwov-resources-sg-ocbc-personal-pdf-cards-tncs-ge-cashflo-credit-card-wef1apr21-pdf-7fa759c0.pdf",
+  "retrieved_at": "2026-09-27T08:41:27+00:00",
+  "sha256": "7c2142532c98f847fa340d2117f4c96bf1efe53a64dd074f711ad33e7541bde7",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.ocbc.com/iwov-resources/sg/ocbc/personal/pdf/cards/tncs-ge-cashflo-credit-card-wef1apr21.pdf"
+ },
+ "https://www.ocbc.com/iwov-resources/sg/ocbc/personal/pdf/cards/tncs-governing-365-cc-cashback-programme.pdf": {
+  "content_type": "application/pdf",
+  "final_url": "https://www.ocbc.com/iwov-resources/sg/ocbc/personal/pdf/cards/tncs-governing-365-cc-cashback-programme.pdf",
+  "path": "data/raw/bank/www-ocbc-com-iwov-resources-sg-ocbc-personal-pdf-cards-tncs-governing-365-cc-cashback-programme-pdf-63be21a1.pdf",
+  "retrieved_at": "2026-09-27T08:40:31+00:00",
+  "sha256": "b05572c73e3955b096f674599012b908e68b0574b9571b744685a6c63c34e03a",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.ocbc.com/iwov-resources/sg/ocbc/personal/pdf/cards/tncs-governing-365-cc-cashback-programme.pdf"
+ },
+ "https://www.ocbc.com/iwov-resources/sg/ocbc/personal/pdf/cards/tncs-governing-ocbc-90n-card-annual-service-fee-option.pdf": {
+  "content_type": "application/pdf",
+  "final_url": "https://www.ocbc.com/iwov-resources/sg/ocbc/personal/pdf/cards/tncs-governing-ocbc-90n-card-annual-service-fee-option.pdf",
+  "path": "data/raw/bank/www-ocbc-com-iwov-resources-sg-ocbc-personal-pdf-cards-tncs-governing-ocbc-90n-card-annual-service-fee-option-pdf-24a8057d.pdf",
+  "retrieved_at": "2026-09-27T08:41:07+00:00",
+  "sha256": "7ef2a5c25211a8cac46f3a3d216570edb71025e4e0e5c7b230789888652873b7",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.ocbc.com/iwov-resources/sg/ocbc/personal/pdf/cards/tncs-governing-ocbc-90n-card-annual-service-fee-option.pdf"
+ },
+ "https://www.ocbc.com/iwov-resources/sg/ocbc/personal/pdf/cards/tncs-governing-ocbc-90n-card-programme.pdf": {
+  "content_type": "application/pdf",
+  "final_url": "https://www.ocbc.com/iwov-resources/sg/ocbc/personal/pdf/cards/tncs-governing-ocbc-90n-card-programme.pdf",
+  "path": "data/raw/bank/www-ocbc-com-iwov-resources-sg-ocbc-personal-pdf-cards-tncs-governing-ocbc-90n-card-programme-pdf-a1f0a76b.pdf",
+  "retrieved_at": "2026-09-27T08:40:59+00:00",
+  "sha256": "d59800a738d98d00f23e9420a6832a7f0da5cac0035c941a3ac5c910987580e4",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.ocbc.com/iwov-resources/sg/ocbc/personal/pdf/cards/tncs-governing-ocbc-90n-card-programme.pdf"
+ },
+ "https://www.ocbc.com/iwov-resources/sg/ocbc/personal/pdf/cards/tncs-governing-ocbc-90n-visa-cc-acquisition-promo.pdf": {
+  "content_type": "text/html",
+  "final_url": "https://www.ocbc.com/html/404.html",
+  "path": "data/raw/bank/www-ocbc-com-html-404-html-afc56c7b.html",
+  "retrieved_at": "2026-09-27T08:41:01+00:00",
+  "sha256": "8bd51daf86cfb53f3c86e813478a69d583ee5703cdcd0a2c5009a0c882a9cda0",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.ocbc.com/iwov-resources/sg/ocbc/personal/pdf/cards/tncs-governing-ocbc-90n-visa-cc-acquisition-promo.pdf"
+ },
+ "https://www.ocbc.com/iwov-resources/sg/ocbc/personal/pdf/cards/tncs-governing-ocbc-infinity-cashback-card-programme.pdf": {
+  "content_type": "application/pdf",
+  "final_url": "https://www.ocbc.com/iwov-resources/sg/ocbc/personal/pdf/cards/tncs-governing-ocbc-infinity-cashback-card-programme.pdf",
+  "path": "data/raw/bank/www-ocbc-com-iwov-resources-sg-ocbc-personal-pdf-cards-tncs-governing-ocbc-infinity-cashback-card-programme-pdf-1b72ad40.pdf",
+  "retrieved_at": "2026-09-27T08:41:31+00:00",
+  "sha256": "f6fb29feb871a0e9cc0d6f8dfd25f20dcfde02bad303b371749bd71390709191",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.ocbc.com/iwov-resources/sg/ocbc/personal/pdf/cards/tncs-governing-ocbc-infinity-cashback-card-programme.pdf"
+ },
+ "https://www.ocbc.com/iwov-resources/sg/ocbc/personal/pdf/cards/tncs-governing-ocbc-nxt-cc-promo.pdf": {
+  "content_type": "application/pdf",
+  "final_url": "https://www.ocbc.com/iwov-resources/sg/ocbc/personal/pdf/cards/tncs-governing-ocbc-nxt-cc-promo.pdf",
+  "path": "data/raw/bank/www-ocbc-com-iwov-resources-sg-ocbc-personal-pdf-cards-tncs-governing-ocbc-nxt-cc-promo-pdf-c23295a3.pdf",
+  "retrieved_at": "2026-09-27T08:41:39+00:00",
+  "sha256": "c83007f1777eddeaebe35725ed0e81048c21e38b217e99b5ba5d106b988b2680",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.ocbc.com/iwov-resources/sg/ocbc/personal/pdf/cards/tncs-governing-ocbc-nxt-cc-promo.pdf"
+ },
+ "https://www.ocbc.com/iwov-resources/sg/ocbc/personal/pdf/cards/tncs-governing-ocbc-spend-and-buy-miles-promotion.pdf": {
+  "content_type": "application/pdf",
+  "final_url": "https://www.ocbc.com/iwov-resources/sg/ocbc/personal/pdf/cards/tncs-governing-ocbc-spend-and-buy-miles-promotion.pdf",
+  "path": "data/raw/bank/www-ocbc-com-iwov-resources-sg-ocbc-personal-pdf-cards-tncs-governing-ocbc-spend-and-buy-miles-promotion-pdf-e1dc9144.pdf",
+  "retrieved_at": "2026-09-27T08:41:37+00:00",
+  "sha256": "9b28d7dc4d9afdffad86bfa30d51711ee406e6d984dc04cbfcf5d7e7c62af86a",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.ocbc.com/iwov-resources/sg/ocbc/personal/pdf/cards/tncs-governing-ocbc-spend-and-buy-miles-promotion.pdf"
+ },
+ "https://www.ocbc.com/iwov-resources/sg/ocbc/personal/pdf/cards/tncs-governing-the-ocbc-90n-explorer-promo.pdf": {
+  "content_type": "application/pdf",
+  "final_url": "https://www.ocbc.com/iwov-resources/sg/ocbc/personal/pdf/cards/tncs-governing-the-ocbc-90n-explorer-promo.pdf",
+  "path": "data/raw/bank/www-ocbc-com-iwov-resources-sg-ocbc-personal-pdf-cards-tncs-governing-the-ocbc-90n-explorer-promo-pdf-e0104c15.pdf",
+  "retrieved_at": "2026-09-27T08:41:03+00:00",
+  "sha256": "8d8e853051bb4ee0ebe635de5944fb59fc5028a5277db17a3bdfa72f07c15daf",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.ocbc.com/iwov-resources/sg/ocbc/personal/pdf/cards/tncs-governing-the-ocbc-90n-explorer-promo.pdf"
+ },
+ "https://www.ocbc.com/iwov-resources/sg/ocbc/personal/pdf/cards/tncs-governing-the-voyage-creditcard-programme.pdf": {
+  "content_type": "application/pdf",
+  "final_url": "https://www.ocbc.com/iwov-resources/sg/ocbc/personal/pdf/cards/tncs-governing-the-voyage-creditcard-programme.pdf",
+  "path": "data/raw/bank/www-ocbc-com-iwov-resources-sg-ocbc-personal-pdf-cards-tncs-governing-the-voyage-creditcard-programme-pdf-7a8ca9fa.pdf",
+  "retrieved_at": "2026-09-27T08:41:49+00:00",
+  "sha256": "e4747af6e26252de57317b1d8a9a62b2dcd9e6bcf149d3d6a0466b5bde635184",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.ocbc.com/iwov-resources/sg/ocbc/personal/pdf/cards/tncs-governing-the-voyage-creditcard-programme.pdf"
+ },
+ "https://www.ocbc.com/iwov-resources/sg/ocbc/personal/pdf/cards/tncs-nxtcard.pdf": {
+  "content_type": "application/pdf",
+  "final_url": "https://www.ocbc.com/iwov-resources/sg/ocbc/personal/pdf/cards/tncs-nxtcard.pdf",
+  "path": "data/raw/bank/www-ocbc-com-iwov-resources-sg-ocbc-personal-pdf-cards-tncs-nxtcard-pdf-0532be2c.pdf",
+  "retrieved_at": "2026-09-27T08:41:35+00:00",
+  "sha256": "71e50d4a7373368c110b7811c5769fb2b37161e58d8ff53d27e6606b75751c5d",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.ocbc.com/iwov-resources/sg/ocbc/personal/pdf/cards/tncs-nxtcard.pdf"
+ },
+ "https://www.ocbc.com/iwov-resources/sg/ocbc/personal/pdf/cards/tncs-ocbc-cardup-promo.pdf": {
+  "content_type": "text/html",
+  "final_url": "https://www.ocbc.com/html/404.html",
+  "path": "data/raw/bank/www-ocbc-com-html-404-html-fdc1f00d.html",
+  "retrieved_at": "2026-09-27T08:41:19+00:00",
+  "sha256": "8bd51daf86cfb53f3c86e813478a69d583ee5703cdcd0a2c5009a0c882a9cda0",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.ocbc.com/iwov-resources/sg/ocbc/personal/pdf/cards/tncs-ocbc-cardup-promo.pdf"
+ },
+ "https://www.ocbc.com/personal-banking/cards/365-cashback-credit-card": {
+  "content_type": "text/html",
+  "final_url": "https://www.ocbc.com/personal-banking/cards/365-cashback-credit-card",
+  "path": "data/raw/bank/www-ocbc-com-personal-banking-cards-365-cashback-credit-card-d1dd7ccd.html",
+  "retrieved_at": "2026-09-27T08:40:29+00:00",
+  "sha256": "ac0aa512df22c3b090189f8613f272f62b703b59adfb99c73efa62e3c2aac163",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.ocbc.com/personal-banking/cards/365-cashback-credit-card"
+ },
+ "https://www.ocbc.com/personal-banking/cards/90-degrees-travel-credit-card": {
+  "content_type": "text/html",
+  "final_url": "https://www.ocbc.com/personal-banking/cards/90-degrees-travel-credit-card",
+  "path": "data/raw/bank/www-ocbc-com-personal-banking-cards-90-degrees-travel-credit-card-1265747a.html",
+  "retrieved_at": "2026-09-27T08:40:57+00:00",
+  "sha256": "1a2d19dd4024744202af55be62beb8da67014991a1aa2c7c1bc9de7b243fba4d",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.ocbc.com/personal-banking/cards/90-degrees-travel-credit-card"
+ },
+ "https://www.ocbc.com/personal-banking/cards/bnpl-nxt-card.page": {
+  "content_type": "text/html",
+  "final_url": "https://www.ocbc.com/personal-banking/cards/bnpl-nxt-card.page",
+  "path": "data/raw/bank/www-ocbc-com-personal-banking-cards-bnpl-nxt-card-page-c97484b5.html",
+  "retrieved_at": "2026-09-27T08:41:33+00:00",
+  "sha256": "51993cac16d8ed27986478296b70cc4a8b803209eb58c8716aa35e34c4ef23be",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.ocbc.com/personal-banking/cards/bnpl-nxt-card.page"
+ },
+ "https://www.ocbc.com/personal-banking/cards/great-eastern-cashflo-credit-card.page": {
+  "content_type": "text/html",
+  "final_url": "https://www.ocbc.com/personal-banking/cards/great-eastern-cashflo-credit-card.page",
+  "path": "data/raw/bank/www-ocbc-com-personal-banking-cards-great-eastern-cashflo-credit-card-page-5d0eea0d.html",
+  "retrieved_at": "2026-09-27T08:41:25+00:00",
+  "sha256": "d6ab286f560358e8c311d1cb0a3407789dd2c7a8a058202dae2b6c14ddd6045e",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.ocbc.com/personal-banking/cards/great-eastern-cashflo-credit-card.page"
+ },
+ "https://www.ocbc.com/personal-banking/cards/infinity-unlimited-cashback-card.page": {
+  "content_type": "text/html",
+  "final_url": "https://www.ocbc.com/personal-banking/cards/infinity-unlimited-cashback-card.page",
+  "path": "data/raw/bank/www-ocbc-com-personal-banking-cards-infinity-unlimited-cashback-card-page-de694b5f.html",
+  "retrieved_at": "2026-09-27T08:41:29+00:00",
+  "sha256": "0fa127b29fdd80956c792a96820809b7af36cb9f8c5d13dabdba051f7ce000f8",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.ocbc.com/personal-banking/cards/infinity-unlimited-cashback-card.page"
+ },
+ "https://www.ocbc.com/personal-banking/cards/ocbc-frank-credit-card": {
+  "content_type": "text/html",
+  "final_url": "https://www.ocbc.com/personal-banking/cards/ocbc-frank-credit-card",
+  "path": "data/raw/bank/www-ocbc-com-personal-banking-cards-ocbc-frank-credit-card-2bacacc6.html",
+  "retrieved_at": "2026-09-27T08:41:21+00:00",
+  "sha256": "586bba198a43f7d269e3735ff6e4643f75eaea2caceab0eca4f5b1833c87c0b5",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.ocbc.com/personal-banking/cards/ocbc-frank-credit-card"
+ },
+ "https://www.ocbc.com/personal-banking/cards/rewards-card": {
+  "content_type": "text/html",
+  "final_url": "https://www.ocbc.com/personal-banking/cards/rewards-card",
+  "path": "data/raw/bank/www-ocbc-com-personal-banking-cards-rewards-card-3706e1ce.html",
+  "retrieved_at": "2026-09-27T08:41:41+00:00",
+  "sha256": "b9c2220aebd7c0c1f457d9579fa808e5a06643faa6e20dee85a341069f39295e",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.ocbc.com/personal-banking/cards/rewards-card"
+ },
+ "https://www.ocbc.com/personal-banking/cards/voyage-credit-card.page": {
+  "content_type": "text/html",
+  "final_url": "https://www.ocbc.com/personal-banking/cards/voyage-credit-card.page",
+  "path": "data/raw/bank/www-ocbc-com-personal-banking-cards-voyage-credit-card-page-3717b870.html",
+  "retrieved_at": "2026-09-27T08:41:47+00:00",
+  "sha256": "f7ec9ee89cd488170b79dd4523361ad4eb02d0580cee2d4e5de5e76647a5bcc8",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.ocbc.com/personal-banking/cards/voyage-credit-card.page"
+ },
+ "https://www.posb.com.sg/personal/cards/credit-cards/posb-everyday-card": {
+  "content_type": "text/html",
+  "final_url": "https://www.posb.com.sg/personal/cards/credit-cards/posb-everyday-card",
+  "path": "data/raw/bank/www-posb-com-sg-personal-cards-credit-cards-posb-everyday-card-25909654.html",
+  "retrieved_at": "2026-09-27T08:41:51+00:00",
+  "sha256": "ff6db2e25d8c96745b4fd0d5e120f295a6d3d3fcaf8ef340f8f0a4b0f45a317c",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.posb.com.sg/personal/cards/credit-cards/posb-everyday-card"
+ },
+ "https://www.sc.com/content/dam/sc/sg/en/documents/Standard-Chartered-Smart-Credit-Card-Terms-and-Conditions_6Dec2024.pdf": {
+  "content_type": "application/pdf",
+  "final_url": "https://www.sc.com/content/dam/sc/sg/en/documents/Standard-Chartered-Smart-Credit-Card-Terms-and-Conditions_6Dec2024.pdf",
+  "path": "data/raw/bank/www-sc-com-content-dam-sc-sg-en-documents-Standard-Chartered-Smart-Credit-Card-Terms-and-Conditions-6Dec2024-pdf-7cdb2c45.pdf",
+  "retrieved_at": "2026-09-27T08:42:34+00:00",
+  "sha256": "8e7cc31048e57d3d8197946edb276fa8b64f5b9e6b31296ff76708f9a256fb81",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.sc.com/content/dam/sc/sg/en/documents/Standard-Chartered-Smart-Credit-Card-Terms-and-Conditions_6Dec2024.pdf"
+ },
+ "https://www.sc.com/content/dam/sc/sg/en/documents/sg-journey-credit-card-terms-and-conditions.pdf": {
+  "content_type": "application/pdf",
+  "final_url": "https://www.sc.com/content/dam/sc/sg/en/documents/sg-journey-credit-card-terms-and-conditions.pdf",
+  "path": "data/raw/bank/www-sc-com-content-dam-sc-sg-en-documents-sg-journey-credit-card-terms-and-conditions-pdf-33b32f0f.pdf",
+  "retrieved_at": "2026-09-27T08:42:16+00:00",
+  "sha256": "f6d46f8480b07c23a5105cf7af7cef6a38444ec72a5f384d6a850bab45cf807d",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.sc.com/content/dam/sc/sg/en/documents/sg-journey-credit-card-terms-and-conditions.pdf"
+ },
+ "https://www.sc.com/content/dam/sc/sg/en/documents/sg-rewards-full-tcs-final.pdf": {
+  "content_type": "application/pdf",
+  "final_url": "https://www.sc.com/content/dam/sc/sg/en/documents/sg-rewards-full-tcs-final.pdf",
+  "path": "data/raw/bank/www-sc-com-content-dam-sc-sg-en-documents-sg-rewards-full-tcs-final-pdf-2d412d5e.pdf",
+  "retrieved_at": "2026-09-27T08:42:22+00:00",
+  "sha256": "06ce66cdacfca033efe1b472f7232eae1ae4ac20826344546763ddbf9bba909e",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.sc.com/content/dam/sc/sg/en/documents/sg-rewards-full-tcs-final.pdf"
+ },
+ "https://www.sc.com/content/dam/sc/sg/en/documents/sg-simply-cash-card-terms-and-conditions.pdf": {
+  "content_type": "application/pdf",
+  "final_url": "https://www.sc.com/content/dam/sc/sg/en/documents/sg-simply-cash-card-terms-and-conditions.pdf",
+  "path": "data/raw/bank/www-sc-com-content-dam-sc-sg-en-documents-sg-simply-cash-card-terms-and-conditions-pdf-f47bb702.pdf",
+  "retrieved_at": "2026-09-27T08:42:28+00:00",
+  "sha256": "7ff8e332cb5ebb38cfe58b92214e481840e48a32114f6c25a5e701f8a67a616c",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.sc.com/content/dam/sc/sg/en/documents/sg-simply-cash-card-terms-and-conditions.pdf"
+ },
+ "https://www.sc.com/content/dam/sc/sg/en/documents/sg-vi-tc-full.pdf": {
+  "content_type": "application/pdf",
+  "final_url": "https://www.sc.com/content/dam/sc/sg/en/documents/sg-vi-tc-full.pdf",
+  "path": "data/raw/bank/www-sc-com-content-dam-sc-sg-en-documents-sg-vi-tc-full-pdf-d0a19702.pdf",
+  "retrieved_at": "2026-09-27T08:42:41+00:00",
+  "sha256": "3a34b864029ce31411de6bfbaf336137e50279c63d112036ff7669512db0bb88",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.sc.com/content/dam/sc/sg/en/documents/sg-vi-tc-full.pdf"
+ },
+ "https://www.sc.com/sg/credit-cards/journey-credit-card/": {
+  "content_type": "text/html",
+  "final_url": "https://www.sc.com/sg/credit-cards/journey-credit-card/",
+  "path": "data/raw/bank/www-sc-com-sg-credit-cards-journey-credit-card-323c4658.html",
+  "retrieved_at": "2026-09-27T08:42:14+00:00",
+  "sha256": "b93df4a4288e9db38ae7d1a14bf5a69889d53d5a5a1ae25bf13d757aeced29e1",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.sc.com/sg/credit-cards/journey-credit-card/"
+ },
+ "https://www.sc.com/sg/credit-cards/rewards-plus-credit-card/": {
+  "content_type": "text/html",
+  "final_url": "https://www.sc.com/sg/credit-cards/rewards-plus-credit-card/",
+  "path": "data/raw/bank/www-sc-com-sg-credit-cards-rewards-plus-credit-card-63c381c0.html",
+  "retrieved_at": "2026-09-27T08:42:20+00:00",
+  "sha256": "9d5a122da6af685d225cd2829b3bb9b13c7f6c8f055c6e1847579e38e06e8786",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.sc.com/sg/credit-cards/rewards-plus-credit-card/"
+ },
+ "https://www.sc.com/sg/credit-cards/simply-cash-credit-card/": {
+  "content_type": "text/html",
+  "final_url": "https://www.sc.com/sg/credit-cards/simply-cash-credit-card/",
+  "path": "data/raw/bank/www-sc-com-sg-credit-cards-simply-cash-credit-card-1dfcb16f.html",
+  "retrieved_at": "2026-09-27T08:42:26+00:00",
+  "sha256": "d7a8050f4539abfea2a4e2eb02d340bf808ff21779008882a9fb0c60d6c09c36",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.sc.com/sg/credit-cards/simply-cash-credit-card/"
+ },
+ "https://www.sc.com/sg/credit-cards/smart-credit-card/": {
+  "content_type": "text/html",
+  "final_url": "https://www.sc.com/sg/credit-cards/smart-credit-card/",
+  "path": "data/raw/bank/www-sc-com-sg-credit-cards-smart-credit-card-4605e211.html",
+  "retrieved_at": "2026-09-27T08:42:32+00:00",
+  "sha256": "6c466bca350f466fd346f803f2c0cae64b586870da62ae35b772178a5edf17a6",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.sc.com/sg/credit-cards/smart-credit-card/"
+ },
+ "https://www.sc.com/sg/credit-cards/visa-infinite-card/": {
+  "content_type": "text/html",
+  "final_url": "https://www.sc.com/sg/credit-cards/visa-infinite-card/",
+  "path": "data/raw/bank/www-sc-com-sg-credit-cards-visa-infinite-card-34755149.html",
+  "retrieved_at": "2026-09-27T08:42:38+00:00",
+  "sha256": "9fdb4b8fcced7060b4a051e1d0b86f9f718799c4f35f37067e055acaac9035cc",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.sc.com/sg/credit-cards/visa-infinite-card/"
+ },
+ "https://www.sc.com/sg/terms-and-conditions/cc-retail-transaction-exclusions/": {
+  "content_type": "text/html",
+  "final_url": "https://www.sc.com/sg/terms-and-conditions/cc-retail-transaction-exclusions/",
+  "path": "data/raw/bank/www-sc-com-sg-terms-and-conditions-cc-retail-transaction-exclusions-8f7a8c14.html",
+  "retrieved_at": "2026-09-27T08:42:42+00:00",
+  "sha256": "038d14ed9964012f4a7c87e8143865d3bed600457aa9377cc6d81249a8458cb7",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.sc.com/sg/terms-and-conditions/cc-retail-transaction-exclusions/"
+ },
+ "https://www.uob.com.sg/assets/pdfs/add-on-card-terms-conditions.pdf": {
+  "content_type": "application/pdf",
+  "final_url": "https://www.uob.com.sg/assets/pdfs/add-on-card-terms-conditions.pdf",
+  "path": "data/raw/bank/www-uob-com-sg-assets-pdfs-add-on-card-terms-conditions-pdf-294d1c4b.pdf",
+  "retrieved_at": "2026-09-27T08:45:48+00:00",
+  "sha256": "42358e29d7350a9750c477afebed16d22e101f969821263b9777733152bf0a95",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.uob.com.sg/assets/pdfs/add-on-card-terms-conditions.pdf"
+ },
+ "https://www.uob.com.sg/assets/pdfs/kf_credit_card_full_tnc.pdf": {
+  "content_type": "application/pdf",
+  "final_url": "https://www.uob.com.sg/assets/pdfs/kf_credit_card_full_tnc.pdf",
+  "path": "data/raw/bank/www-uob-com-sg-assets-pdfs-kf-credit-card-full-tnc-pdf-abd86fb9.pdf",
+  "retrieved_at": "2026-09-27T08:37:26+00:00",
+  "sha256": "177cfca919e04bcf2ba40f848d6bccec278033cfa7f9c9df6c7d8b7bf743ae4c",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.uob.com.sg/assets/pdfs/kf_credit_card_full_tnc.pdf"
+ },
+ "https://www.uob.com.sg/assets/pdfs/kf_credit_card_full_tnc.pdf?i_cid=pfs:sg:owned:int:site:na:li:na:001812:070119-evergreen:direct:na&vid=none": {
+  "content_type": "application/pdf",
+  "final_url": "https://www.uob.com.sg/assets/pdfs/kf_credit_card_full_tnc.pdf?i_cid=pfs:sg:owned:int:site:na:li:na:001812:070119-evergreen:direct:na&vid=none",
+  "path": "data/raw/bank/www-uob-com-sg-assets-pdfs-kf-credit-card-full-tnc-pdf-70a95c51.pdf",
+  "retrieved_at": "2026-09-27T08:37:30+00:00",
+  "sha256": "177cfca919e04bcf2ba40f848d6bccec278033cfa7f9c9df6c7d8b7bf743ae4c",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.uob.com.sg/assets/pdfs/kf_credit_card_full_tnc.pdf?i_cid=pfs:sg:owned:int:site:na:li:na:001812:070119-evergreen:direct:na&vid=none"
+ },
+ "https://www.uob.com.sg/assets/pdfs/kf_credit_card_full_tnc.pdf?i_cid=pfs:sg:owned:int:site:na:li:na:na:na-evergreen:direct:na&vid=none": {
+  "content_type": "application/pdf",
+  "final_url": "https://www.uob.com.sg/assets/pdfs/kf_credit_card_full_tnc.pdf?i_cid=pfs:sg:owned:int:site:na:li:na:na:na-evergreen:direct:na&vid=none",
+  "path": "data/raw/bank/www-uob-com-sg-assets-pdfs-kf-credit-card-full-tnc-pdf-14965558.pdf",
+  "retrieved_at": "2026-09-27T08:37:34+00:00",
+  "sha256": "177cfca919e04bcf2ba40f848d6bccec278033cfa7f9c9df6c7d8b7bf743ae4c",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.uob.com.sg/assets/pdfs/kf_credit_card_full_tnc.pdf?i_cid=pfs:sg:owned:int:site:na:li:na:na:na-evergreen:direct:na&vid=none"
+ },
+ "https://www.uob.com.sg/assets/pdfs/kfcc-acq-tnc.pdf?i_cid=pfs:sg:owned:int:site:na:li:na:na:na-evergreen:direct:na&vid=none": {
+  "content_type": "application/pdf",
+  "final_url": "https://www.uob.com.sg/assets/pdfs/kfcc-acq-tnc.pdf?i_cid=pfs:sg:owned:int:site:na:li:na:na:na-evergreen:direct:na&vid=none",
+  "path": "data/raw/bank/www-uob-com-sg-assets-pdfs-kfcc-acq-tnc-pdf-472bc309.pdf",
+  "retrieved_at": "2026-09-27T08:37:28+00:00",
+  "sha256": "1951b0cae71a242ec00df837075a204ca9bbb750ef57b15f5f51a9e4dff83555",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.uob.com.sg/assets/pdfs/kfcc-acq-tnc.pdf?i_cid=pfs:sg:owned:int:site:na:li:na:na:na-evergreen:direct:na&vid=none"
+ },
+ "https://www.uob.com.sg/assets/pdfs/ladys-cards-tcs.pdf": {
+  "content_type": "application/pdf",
+  "final_url": "https://www.uob.com.sg/assets/pdfs/ladys-cards-tcs.pdf",
+  "path": "data/raw/bank/www-uob-com-sg-assets-pdfs-ladys-cards-tcs-pdf-ca6085c7.pdf",
+  "retrieved_at": "2026-09-27T08:43:51+00:00",
+  "sha256": "81f35dee522221c2ceea2d18b157771ac06308b87998d0177ac583966160eb51",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.uob.com.sg/assets/pdfs/ladys-cards-tcs.pdf"
+ },
+ "https://www.uob.com.sg/assets/pdfs/one-credit-card-changes-faq.pdf": {
+  "content_type": "application/pdf",
+  "final_url": "https://www.uob.com.sg/assets/pdfs/one-credit-card-changes-faq.pdf",
+  "path": "data/raw/bank/www-uob-com-sg-assets-pdfs-one-credit-card-changes-faq-pdf-da21cfa2.pdf",
+  "retrieved_at": "2026-09-27T08:44:21+00:00",
+  "sha256": "3dd0f7414dc4f2ba9f93f62d7645ee220057d20067c8ea388f8bef0fa9d21e5d",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.uob.com.sg/assets/pdfs/one-credit-card-changes-faq.pdf"
+ },
+ "https://www.uob.com.sg/assets/pdfs/one_card_full_tnc.pdf": {
+  "content_type": "application/pdf",
+  "final_url": "https://www.uob.com.sg/assets/pdfs/one_card_full_tnc.pdf",
+  "path": "data/raw/bank/www-uob-com-sg-assets-pdfs-one-card-full-tnc-pdf-4e2e6a6a.pdf",
+  "retrieved_at": "2026-09-27T08:44:15+00:00",
+  "sha256": "2ed33269412e1ec9a2a135f6a99582a77e99f0bf5dc2de2411b0053fe8b5cd34",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.uob.com.sg/assets/pdfs/one_card_full_tnc.pdf"
+ },
+ "https://www.uob.com.sg/assets/pdfs/payment-facility-tncs.pdf?s_cid=grm:sg:paid:sea:go:na:tx:na:001332:051022-311222:bauabsolute:&vid=MindshareSG": {
+  "content_type": "application/pdf",
+  "final_url": "https://www.uob.com.sg/assets/pdfs/payment-facility-tncs.pdf?s_cid=grm:sg:paid:sea:go:na:tx:na:001332:051022-311222:bauabsolute:&vid=MindshareSG",
+  "path": "data/raw/bank/www-uob-com-sg-assets-pdfs-payment-facility-tncs-pdf-24a61357.pdf",
+  "retrieved_at": "2026-09-27T08:45:34+00:00",
+  "sha256": "faf9e5f3c30a2e321f7c81f1e5c58796a3d47877e93d7a5e5bcb9791a18ac4d3",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.uob.com.sg/assets/pdfs/payment-facility-tncs.pdf?s_cid=grm:sg:paid:sea:go:na:tx:na:001332:051022-311222:bauabsolute:&vid=MindshareSG"
+ },
+ "https://www.uob.com.sg/assets/pdfs/personal/cards/rewardsplus_tnc.pdf": {
+  "content_type": "application/pdf",
+  "final_url": "https://www.uob.com.sg/assets/pdfs/personal/cards/rewardsplus_tnc.pdf",
+  "path": "data/raw/bank/www-uob-com-sg-assets-pdfs-personal-cards-rewardsplus-tnc-pdf-6e75e5ea.pdf",
+  "retrieved_at": "2026-09-27T08:45:12+00:00",
+  "sha256": "2c85a31ddb07f03ed5fce9f6ce0d232bd8dd9d5880ca5b95e9ea1cd89bf18273",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.uob.com.sg/assets/pdfs/personal/cards/rewardsplus_tnc.pdf"
+ },
+ "https://www.uob.com.sg/assets/pdfs/personal/cards/rewardsplus_tnc.pdf?s_cid=grm%3Asg%3Apaid%3Asea%3Ago%3Ana%3Atx%3Ana%3A001812%3A160223-evergreen%3Abau&vid=MindshareSG&pid=LSCPRSCO": {
+  "content_type": "application/pdf",
+  "final_url": "https://www.uob.com.sg/assets/pdfs/personal/cards/rewardsplus_tnc.pdf?s_cid=grm%3Asg%3Apaid%3Asea%3Ago%3Ana%3Atx%3Ana%3A001812%3A160223-evergreen%3Abau&vid=MindshareSG&pid=LSCPRSCO",
+  "path": "data/raw/bank/www-uob-com-sg-assets-pdfs-personal-cards-rewardsplus-tnc-pdf-3df4b70b.pdf",
+  "retrieved_at": "2026-09-27T08:43:57+00:00",
+  "sha256": "2c85a31ddb07f03ed5fce9f6ce0d232bd8dd9d5880ca5b95e9ea1cd89bf18273",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.uob.com.sg/assets/pdfs/personal/cards/rewardsplus_tnc.pdf?s_cid=grm%3Asg%3Apaid%3Asea%3Ago%3Ana%3Atx%3Ana%3A001812%3A160223-evergreen%3Abau&vid=MindshareSG&pid=LSCPRSCO"
+ },
+ "https://www.uob.com.sg/assets/pdfs/personal/krisflyer-uob/debit/krisflyer-account-tnc.pdf?i_cid=pfs:sg:owned:int:site:na:li:na:na:na-evergreen:direct:na&vid=none": {
+  "content_type": "application/pdf",
+  "final_url": "https://www.uob.com.sg/assets/pdfs/personal/krisflyer-uob/debit/krisflyer-account-tnc.pdf?i_cid=pfs:sg:owned:int:site:na:li:na:na:na-evergreen:direct:na&vid=none",
+  "path": "data/raw/bank/www-uob-com-sg-assets-pdfs-personal-krisflyer-uob-debit-krisflyer-account-tnc-pdf-506dc3ad.pdf",
+  "retrieved_at": "2026-09-27T08:37:38+00:00",
+  "sha256": "086a993a52a74bab49a1eaad3f06d1913943c435a87206f30eaa87df48242267",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.uob.com.sg/assets/pdfs/personal/krisflyer-uob/debit/krisflyer-account-tnc.pdf?i_cid=pfs:sg:owned:int:site:na:li:na:na:na-evergreen:direct:na&vid=none"
+ },
+ "https://www.uob.com.sg/assets/pdfs/terms-and-conditions-governing-uob-prvi-miles-card.pdf": {
+  "content_type": "application/pdf",
+  "final_url": "https://www.uob.com.sg/assets/pdfs/terms-and-conditions-governing-uob-prvi-miles-card.pdf",
+  "path": "data/raw/bank/www-uob-com-sg-assets-pdfs-terms-and-conditions-governing-uob-prvi-miles-card-pdf-4fa46789.pdf",
+  "retrieved_at": "2026-09-27T08:45:06+00:00",
+  "sha256": "36e516775a1f684c117de07de74d328d847a17d7e30bca519fff7cf93cb7e2e3",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.uob.com.sg/assets/pdfs/terms-and-conditions-governing-uob-prvi-miles-card.pdf"
+ },
+ "https://www.uob.com.sg/assets/pdfs/terms-and-conditions-governing-uob-prvi-miles-card.pdf?s_cid=grm:sg:paid:sea:go:na:tx:na:prvi:010922-311222:prvi22:na:ms-go&vid=mindshare_google&ms=grm:sg:paid:sea:go:na:tx:na:prvi:010922-311222:prvi22:na:ms-go": {
+  "content_type": "application/pdf",
+  "final_url": "https://www.uob.com.sg/assets/pdfs/terms-and-conditions-governing-uob-prvi-miles-card.pdf?s_cid=grm:sg:paid:sea:go:na:tx:na:prvi:010922-311222:prvi22:na:ms-go&vid=mindshare_google&ms=grm:sg:paid:sea:go:na:tx:na:prvi:010922-311222:prvi22:na:ms-go",
+  "path": "data/raw/bank/www-uob-com-sg-assets-pdfs-terms-and-conditions-governing-uob-prvi-miles-card-pdf-a9223940.pdf",
+  "retrieved_at": "2026-09-27T08:45:14+00:00",
+  "sha256": "36e516775a1f684c117de07de74d328d847a17d7e30bca519fff7cf93cb7e2e3",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.uob.com.sg/assets/pdfs/terms-and-conditions-governing-uob-prvi-miles-card.pdf?s_cid=grm:sg:paid:sea:go:na:tx:na:prvi:010922-311222:prvi22:na:ms-go&vid=mindshare_google&ms=grm:sg:paid:sea:go:na:tx:na:prvi:010922-311222:prvi22:na:ms-go"
+ },
+ "https://www.uob.com.sg/assets/pdfs/tncs-governing-uob-absolute-cashback-card.pdf": {
+  "content_type": "application/pdf",
+  "final_url": "https://www.uob.com.sg/assets/pdfs/tncs-governing-uob-absolute-cashback-card.pdf",
+  "path": "data/raw/bank/www-uob-com-sg-assets-pdfs-tncs-governing-uob-absolute-cashback-card-pdf-71b82393.pdf",
+  "retrieved_at": "2026-09-27T08:42:54+00:00",
+  "sha256": "0eaaef09b04b878ef894c79c45194cf5b1ecbb382d1997b113e9be69c32b6261",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.uob.com.sg/assets/pdfs/tncs-governing-uob-absolute-cashback-card.pdf"
+ },
+ "https://www.uob.com.sg/assets/pdfs/tncs-governing-uob-absolute-cashback-card.pdf?i_cid=pfs:sg:owned:int:site:na:li:na:na:na-evergreen:direct:na&vid=none": {
+  "content_type": "application/pdf",
+  "final_url": "https://www.uob.com.sg/assets/pdfs/tncs-governing-uob-absolute-cashback-card.pdf?i_cid=pfs:sg:owned:int:site:na:li:na:na:na-evergreen:direct:na&vid=none",
+  "path": "data/raw/bank/www-uob-com-sg-assets-pdfs-tncs-governing-uob-absolute-cashback-card-pdf-c6f9d5ff.pdf",
+  "retrieved_at": "2026-09-27T08:43:08+00:00",
+  "sha256": "0eaaef09b04b878ef894c79c45194cf5b1ecbb382d1997b113e9be69c32b6261",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.uob.com.sg/assets/pdfs/tncs-governing-uob-absolute-cashback-card.pdf?i_cid=pfs:sg:owned:int:site:na:li:na:na:na-evergreen:direct:na&vid=none"
+ },
+ "https://www.uob.com.sg/assets/pdfs/uob-evol-terms-and-conditions.pdf": {
+  "content_type": "application/pdf",
+  "final_url": "https://www.uob.com.sg/assets/pdfs/uob-evol-terms-and-conditions.pdf",
+  "path": "data/raw/bank/www-uob-com-sg-assets-pdfs-uob-evol-terms-and-conditions-pdf-628de1aa.pdf",
+  "retrieved_at": "2026-09-27T08:43:12+00:00",
+  "sha256": "8c8b4db1d31d747745e5375db9f57516116dcf97b7e6da624e189fa105f8b346",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.uob.com.sg/assets/pdfs/uob-evol-terms-and-conditions.pdf"
+ },
+ "https://www.uob.com.sg/assets/pdfs/uob-one-credit-card-faq.pdf": {
+  "content_type": "application/pdf",
+  "final_url": "https://www.uob.com.sg/assets/pdfs/uob-one-credit-card-faq.pdf",
+  "path": "data/raw/bank/www-uob-com-sg-assets-pdfs-uob-one-credit-card-faq-pdf-3c803008.pdf",
+  "retrieved_at": "2026-09-27T08:44:27+00:00",
+  "sha256": "bed290b5b01046ecfa40ba068549db6245aabab31deee9ae65bd570af5895427",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.uob.com.sg/assets/pdfs/uob-one-credit-card-faq.pdf"
+ },
+ "https://www.uob.com.sg/assets/web-resources/personal/cards/privilege/visa-infinite-metal-card/bonus-welcome-gift-cmpg-tnc.pdf": {
+  "content_type": "application/pdf",
+  "final_url": "https://www.uob.com.sg/assets/web-resources/personal/cards/privilege/visa-infinite-metal-card/bonus-welcome-gift-cmpg-tnc.pdf",
+  "path": "data/raw/bank/www-uob-com-sg-assets-web-resources-personal-cards-privilege-visa-infinite-metal-card-bonus-welcome-gift-cmpg-tnc-pdf-89f4de46.pdf",
+  "retrieved_at": "2026-09-27T08:45:32+00:00",
+  "sha256": "cbea17cf3773888cda2118d6cea5543499444a8bce2514ef230be3049bc74cc7",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.uob.com.sg/assets/web-resources/personal/cards/privilege/visa-infinite-metal-card/bonus-welcome-gift-cmpg-tnc.pdf"
+ },
+ "https://www.uob.com.sg/assets/web-resources/personal/pdf/cards/absolute-amex-card-contactless-campaign-tnc-cmpg.pdf": {
+  "content_type": "application/pdf",
+  "final_url": "https://www.uob.com.sg/assets/web-resources/personal/pdf/cards/absolute-amex-card-contactless-campaign-tnc-cmpg.pdf",
+  "path": "data/raw/bank/www-uob-com-sg-assets-web-resources-personal-pdf-cards-absolute-amex-card-contactless-campaign-tnc-cmpg-pdf-859a39b7.pdf",
+  "retrieved_at": "2026-09-27T08:42:56+00:00",
+  "sha256": "4b0d55cbeafe0cdc522bf1f4a0d1a1301f07ddd766c7836c41c240f35ff8df52",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.uob.com.sg/assets/web-resources/personal/pdf/cards/absolute-amex-card-contactless-campaign-tnc-cmpg.pdf"
+ },
+ "https://www.uob.com.sg/assets/web-resources/personal/pdf/cards/cashback/absolute-cashback-card/absolute-amex-card-contactless-campaign-tnc-cmpg202507.pdf": {
+  "content_type": "application/pdf",
+  "final_url": "https://www.uob.com.sg/assets/web-resources/personal/pdf/cards/cashback/absolute-cashback-card/absolute-amex-card-contactless-campaign-tnc-cmpg202507.pdf",
+  "path": "data/raw/bank/-resources-personal-pdf-cards-cashback-absolute-cashback-card-absolute-amex-card-contactless-campaign-tnc-cmpg202507-pdf-341adc42.pdf",
+  "retrieved_at": "2026-09-27T08:43:06+00:00",
+  "sha256": "5e0444fa0f1c69b2a42e3931dd77b407d23b33081fd6cce45b1d51241d2876eb",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.uob.com.sg/assets/web-resources/personal/pdf/cards/cashback/absolute-cashback-card/absolute-amex-card-contactless-campaign-tnc-cmpg202507.pdf"
+ },
+ "https://www.uob.com.sg/assets/web-resources/personal/pdf/cards/cashback/absolute-cashback-card/uob-absolute-cashback-card-q3-campaign-tnc.pdf": {
+  "content_type": "application/pdf",
+  "final_url": "https://www.uob.com.sg/assets/web-resources/personal/pdf/cards/cashback/absolute-cashback-card/uob-absolute-cashback-card-q3-campaign-tnc.pdf",
+  "path": "data/raw/bank/g-assets-web-resources-personal-pdf-cards-cashback-absolute-cashback-card-uob-absolute-cashback-card-q3-campaign-tnc-pdf-68e7188c.pdf",
+  "retrieved_at": "2026-09-27T08:43:04+00:00",
+  "sha256": "d8dc8cafee777a7ef18c964438666f441c3d35170b1782d3e0978e4e780a18c1",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.uob.com.sg/assets/web-resources/personal/pdf/cards/cashback/absolute-cashback-card/uob-absolute-cashback-card-q3-campaign-tnc.pdf"
+ },
+ "https://www.uob.com.sg/assets/web-resources/personal/pdf/cards/cashback/evol-card/governing-uob-evol-card-tnc-cmpg202601.pdf": {
+  "content_type": "application/pdf",
+  "final_url": "https://www.uob.com.sg/assets/web-resources/personal/pdf/cards/cashback/evol-card/governing-uob-evol-card-tnc-cmpg202601.pdf",
+  "path": "data/raw/bank/www-uob-com-sg-assets-web-resources-personal-pdf-cards-cashback-evol-card-governing-uob-evol-card-tnc-cmpg202601-pdf-5c0c41ec.pdf",
+  "retrieved_at": "2026-09-27T08:43:14+00:00",
+  "sha256": "c58647465439ac63b5ca870db7fef659cf95975727cb268745dbfcb50e35a436",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.uob.com.sg/assets/web-resources/personal/pdf/cards/cashback/evol-card/governing-uob-evol-card-tnc-cmpg202601.pdf"
+ },
+ "https://www.uob.com.sg/assets/web-resources/personal/pdf/cards/cashback/lazada-uob-card/airpods4-lazada-tnc-cmpg.pdf": {
+  "content_type": "application/pdf",
+  "final_url": "https://www.uob.com.sg/assets/web-resources/personal/pdf/cards/cashback/lazada-uob-card/airpods4-lazada-tnc-cmpg.pdf",
+  "path": "data/raw/bank/www-uob-com-sg-assets-web-resources-personal-pdf-cards-cashback-lazada-uob-card-airpods4-lazada-tnc-cmpg-pdf-92f0361e.pdf",
+  "retrieved_at": "2026-09-27T08:37:44+00:00",
+  "sha256": "f96140a34d31ccd27e351c48d5c3835e1ee8e305bca6b469b1119756bcf45c97",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.uob.com.sg/assets/web-resources/personal/pdf/cards/cashback/lazada-uob-card/airpods4-lazada-tnc-cmpg.pdf"
+ },
+ "https://www.uob.com.sg/assets/web-resources/personal/pdf/cards/cashback/metro-uob/metro-celebration-tnc-cmpg.pdf": {
+  "content_type": "application/pdf",
+  "final_url": "https://www.uob.com.sg/assets/web-resources/personal/pdf/cards/cashback/metro-uob/metro-celebration-tnc-cmpg.pdf",
+  "path": "data/raw/bank/www-uob-com-sg-assets-web-resources-personal-pdf-cards-cashback-metro-uob-metro-celebration-tnc-cmpg-pdf-9093410c.pdf",
+  "retrieved_at": "2026-09-27T08:40:26+00:00",
+  "sha256": "049eb68db2660da889c74ab5aafd45c9fb2b34779162d70623873d6a503fa942",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.uob.com.sg/assets/web-resources/personal/pdf/cards/cashback/metro-uob/metro-celebration-tnc-cmpg.pdf"
+ },
+ "https://www.uob.com.sg/assets/web-resources/personal/pdf/cards/cashback/one-card/one-credit-card-cmpg-tnc.pdf": {
+  "content_type": "application/pdf",
+  "final_url": "https://www.uob.com.sg/assets/web-resources/personal/pdf/cards/cashback/one-card/one-credit-card-cmpg-tnc.pdf",
+  "path": "data/raw/bank/www-uob-com-sg-assets-web-resources-personal-pdf-cards-cashback-one-card-one-credit-card-cmpg-tnc-pdf-41cd0354.pdf",
+  "retrieved_at": "2026-09-27T08:44:17+00:00",
+  "sha256": "8876b22d62f2b0cf09961d165fb71dfa8930733101db5785ac93760e345157b7",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.uob.com.sg/assets/web-resources/personal/pdf/cards/cashback/one-card/one-credit-card-cmpg-tnc.pdf"
+ },
+ "https://www.uob.com.sg/assets/web-resources/personal/pdf/cards/cashback/one-debit-card/debit-card-20-grab-voucher-promo-tnc.pdf": {
+  "content_type": "application/pdf",
+  "final_url": "https://www.uob.com.sg/assets/web-resources/personal/pdf/cards/cashback/one-debit-card/debit-card-20-grab-voucher-promo-tnc.pdf",
+  "path": "data/raw/bank/www-uob-com-sg-assets-web-resources-personal-pdf-cards-cashback-one-debit-card-debit-card-20-grab-voucher-promo-tnc-pdf-3ea1ee9c.pdf",
+  "retrieved_at": "2026-09-27T08:43:59+00:00",
+  "sha256": "48c9f45f29a0ee792f4faaff94147d6aa32eb1a3fbf771a18843a59ae025afbf",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.uob.com.sg/assets/web-resources/personal/pdf/cards/cashback/one-debit-card/debit-card-20-grab-voucher-promo-tnc.pdf"
+ },
+ "https://www.uob.com.sg/assets/web-resources/personal/pdf/cards/cashback/singtel-card/singtel-iphone-giveaway-tnc.pdf": {
+  "content_type": "application/pdf",
+  "final_url": "https://www.uob.com.sg/assets/web-resources/personal/pdf/cards/cashback/singtel-card/singtel-iphone-giveaway-tnc.pdf",
+  "path": "data/raw/bank/www-uob-com-sg-assets-web-resources-personal-pdf-cards-cashback-singtel-card-singtel-iphone-giveaway-tnc-pdf-97cc9e69.pdf",
+  "retrieved_at": "2026-09-27T08:42:05+00:00",
+  "sha256": "3ae179a3cc5e5cd1f2129fca1616a1c6b02ca63aedadbd37599c26410734c444",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.uob.com.sg/assets/web-resources/personal/pdf/cards/cashback/singtel-card/singtel-iphone-giveaway-tnc.pdf"
+ },
+ "https://www.uob.com.sg/assets/web-resources/personal/pdf/cards/cashback/singtel-card/singtel-shop-campaign.pdf": {
+  "content_type": "application/pdf",
+  "final_url": "https://www.uob.com.sg/assets/web-resources/personal/pdf/cards/cashback/singtel-card/singtel-shop-campaign.pdf",
+  "path": "data/raw/bank/www-uob-com-sg-assets-web-resources-personal-pdf-cards-cashback-singtel-card-singtel-shop-campaign-pdf-952d44fc.pdf",
+  "retrieved_at": "2026-09-27T08:42:07+00:00",
+  "sha256": "a5f6ac2acc8d9073d9054bcf4707bba872ac37cca348dd29574d72a40c7e42fe",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.uob.com.sg/assets/web-resources/personal/pdf/cards/cashback/singtel-card/singtel-shop-campaign.pdf"
+ },
+ "https://www.uob.com.sg/assets/web-resources/personal/pdf/cards/cashback/singtel-card/singtel-uob-fx-spend-tnc-cmpg.pdf": {
+  "content_type": "application/pdf",
+  "final_url": "https://www.uob.com.sg/assets/web-resources/personal/pdf/cards/cashback/singtel-card/singtel-uob-fx-spend-tnc-cmpg.pdf",
+  "path": "data/raw/bank/www-uob-com-sg-assets-web-resources-personal-pdf-cards-cashback-singtel-card-singtel-uob-fx-spend-tnc-cmpg-pdf-a7bf88ae.pdf",
+  "retrieved_at": "2026-09-27T08:41:55+00:00",
+  "sha256": "1c28d08fc29cb2ef9982c763abf24fa882e1a57d4ef6a91a620ebed4eb5f62ca",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.uob.com.sg/assets/web-resources/personal/pdf/cards/cashback/singtel-card/singtel-uob-fx-spend-tnc-cmpg.pdf"
+ },
+ "https://www.uob.com.sg/assets/web-resources/personal/pdf/cards/cashback/unionpay-card/upi-tnc.pdf": {
+  "content_type": "application/pdf",
+  "final_url": "https://www.uob.com.sg/assets/web-resources/personal/pdf/cards/cashback/unionpay-card/upi-tnc.pdf",
+  "path": "data/raw/bank/www-uob-com-sg-assets-web-resources-personal-pdf-cards-cashback-unionpay-card-upi-tnc-pdf-abd3d179.pdf",
+  "retrieved_at": "2026-09-27T08:45:18+00:00",
+  "sha256": "cbf44abdaad55271946ffe94cb2584e65af9c6f7f2f2585aee4544c00722337f",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.uob.com.sg/assets/web-resources/personal/pdf/cards/cashback/unionpay-card/upi-tnc.pdf"
+ },
+ "https://www.uob.com.sg/assets/web-resources/personal/pdf/cards/cashback/unionpay-card/upi-tnc.pdf?i_cid=pfs:sg:owned:int:site:na:li:na:undefined:na-evergreen:direct:na&vid=none": {
+  "content_type": "application/pdf",
+  "final_url": "https://www.uob.com.sg/assets/web-resources/personal/pdf/cards/cashback/unionpay-card/upi-tnc.pdf?i_cid=pfs:sg:owned:int:site:na:li:na:undefined:na-evergreen:direct:na&vid=none",
+  "path": "data/raw/bank/www-uob-com-sg-assets-web-resources-personal-pdf-cards-cashback-unionpay-card-upi-tnc-pdf-7b81923a.pdf",
+  "retrieved_at": "2026-09-27T08:45:24+00:00",
+  "sha256": "cbf44abdaad55271946ffe94cb2584e65af9c6f7f2f2585aee4544c00722337f",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.uob.com.sg/assets/web-resources/personal/pdf/cards/cashback/unionpay-card/upi-tnc.pdf?i_cid=pfs:sg:owned:int:site:na:li:na:undefined:na-evergreen:direct:na&vid=none"
+ },
+ "https://www.uob.com.sg/assets/web-resources/personal/pdf/cards/rewards/ladys-card/gift-redemption-ladys-card-year-end-festive-tnc-cmpg.pdf": {
+  "content_type": "application/pdf",
+  "final_url": "https://www.uob.com.sg/assets/web-resources/personal/pdf/cards/rewards/ladys-card/gift-redemption-ladys-card-year-end-festive-tnc-cmpg.pdf",
+  "path": "data/raw/bank/m-sg-assets-web-resources-personal-pdf-cards-rewards-ladys-card-gift-redemption-ladys-card-year-end-festive-tnc-cmpg-pdf-aa2436b3.pdf",
+  "retrieved_at": "2026-09-27T08:44:03+00:00",
+  "sha256": "b9775b287c7cf6590f1cb91042b52ee7041c29485bcc458531cae75e447b56a5",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.uob.com.sg/assets/web-resources/personal/pdf/cards/rewards/ladys-card/gift-redemption-ladys-card-year-end-festive-tnc-cmpg.pdf"
+ },
+ "https://www.uob.com.sg/assets/web-resources/personal/pdf/cards/rewards/ladys-card/iwd-promo-prize-fulfilment-tnc-cmpg.pdf": {
+  "content_type": "application/pdf",
+  "final_url": "https://www.uob.com.sg/assets/web-resources/personal/pdf/cards/rewards/ladys-card/iwd-promo-prize-fulfilment-tnc-cmpg.pdf",
+  "path": "data/raw/bank/www-uob-com-sg-assets-web-resources-personal-pdf-cards-rewards-ladys-card-iwd-promo-prize-fulfilment-tnc-cmpg-pdf-3a1ace72.pdf",
+  "retrieved_at": "2026-09-27T08:44:05+00:00",
+  "sha256": "49cbf131fbb853d4aa7043a12e90bf253e0dafa9cd8dcc8413db58786dff4dbe",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.uob.com.sg/assets/web-resources/personal/pdf/cards/rewards/ladys-card/iwd-promo-prize-fulfilment-tnc-cmpg.pdf"
+ },
+ "https://www.uob.com.sg/assets/web-resources/personal/pdf/cards/rewards/ladys-card/iwd-promo-winner-list-cmpg.pdf": {
+  "content_type": "application/pdf",
+  "final_url": "https://www.uob.com.sg/assets/web-resources/personal/pdf/cards/rewards/ladys-card/iwd-promo-winner-list-cmpg.pdf",
+  "path": "data/raw/bank/www-uob-com-sg-assets-web-resources-personal-pdf-cards-rewards-ladys-card-iwd-promo-winner-list-cmpg-pdf-63104a50.pdf",
+  "retrieved_at": "2026-09-27T08:44:07+00:00",
+  "sha256": "3c5fb33c30debb5b189788483b89b436e3281159f96555ae0bbc7613414c5754",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.uob.com.sg/assets/web-resources/personal/pdf/cards/rewards/ladys-card/iwd-promo-winner-list-cmpg.pdf"
+ },
+ "https://www.uob.com.sg/assets/web-resources/personal/pdf/cards/rewards/ladys-card/metro-private-shopping-tnc-cmpg.pdf": {
+  "content_type": "application/pdf",
+  "final_url": "https://www.uob.com.sg/assets/web-resources/personal/pdf/cards/rewards/ladys-card/metro-private-shopping-tnc-cmpg.pdf",
+  "path": "data/raw/bank/www-uob-com-sg-assets-web-resources-personal-pdf-cards-rewards-ladys-card-metro-private-shopping-tnc-cmpg-pdf-30019be1.pdf",
+  "retrieved_at": "2026-09-27T08:40:28+00:00",
+  "sha256": "542bc434144fd46c2760882d69d94d1c25b2548a609d0c3a26bd5838a88b9240",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.uob.com.sg/assets/web-resources/personal/pdf/cards/rewards/ladys-card/metro-private-shopping-tnc-cmpg.pdf"
+ },
+ "https://www.uob.com.sg/assets/web-resources/personal/pdf/cards/rewards/ladys-card/uob-ladys-debit-card-app-form-online-version.pdf": {
+  "content_type": "application/pdf",
+  "final_url": "https://www.uob.com.sg/assets/web-resources/personal/pdf/cards/rewards/ladys-card/uob-ladys-debit-card-app-form-online-version.pdf",
+  "path": "data/raw/bank/w-uob-com-sg-assets-web-resources-personal-pdf-cards-rewards-ladys-card-uob-ladys-debit-card-app-form-online-version-pdf-b2d98c98.pdf",
+  "retrieved_at": "2026-09-27T08:43:55+00:00",
+  "sha256": "bdae7266d2bd98830e26d0b4e6d5132688bcee2539a9a13dba489867ac44d89c",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.uob.com.sg/assets/web-resources/personal/pdf/cards/rewards/ladys-card/uob-ladys-debit-card-app-form-online-version.pdf"
+ },
+ "https://www.uob.com.sg/assets/web-resources/personal/pdf/cards/supplementary-card/uob-supplementary-card-promo-tncs.pdf": {
+  "content_type": "application/pdf",
+  "final_url": "https://www.uob.com.sg/assets/web-resources/personal/pdf/cards/supplementary-card/uob-supplementary-card-promo-tncs.pdf",
+  "path": "data/raw/bank/www-uob-com-sg-assets-web-resources-personal-pdf-cards-supplementary-card-uob-supplementary-card-promo-tncs-pdf-5ce91e24.pdf",
+  "retrieved_at": "2026-09-27T08:45:44+00:00",
+  "sha256": "52d9be91844ea791f0ac517649c682846b898bd8e978a61a5582f56c4e573b16",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.uob.com.sg/assets/web-resources/personal/pdf/cards/supplementary-card/uob-supplementary-card-promo-tncs.pdf"
+ },
+ "https://www.uob.com.sg/assets/web-resources/personal/pdf/cards/travel/revisions-to-krisflyer-uob-credit-and-debit-card-privileges-for-scoot.pdf": {
+  "content_type": "application/pdf",
+  "final_url": "https://www.uob.com.sg/assets/web-resources/personal/pdf/cards/travel/revisions-to-krisflyer-uob-credit-and-debit-card-privileges-for-scoot.pdf",
+  "path": "data/raw/bank/assets-web-resources-personal-pdf-cards-travel-revisions-to-krisflyer-uob-credit-and-debit-card-privileges-for-scoot-pdf-5fb4d566.pdf",
+  "retrieved_at": "2026-09-27T08:37:36+00:00",
+  "sha256": "168b1d918c7ce09f9f455bfce3f1c85a91db78ed3eb0bdfacfe6ed7e683a9240",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.uob.com.sg/assets/web-resources/personal/pdf/cards/travel/revisions-to-krisflyer-uob-credit-and-debit-card-privileges-for-scoot.pdf"
+ },
+ "https://www.uob.com.sg/assets/web-resources/personal/pdf/highlights/solutions/for-the-ladies/unstoppable-duo-promo.pdf": {
+  "content_type": "application/pdf",
+  "final_url": "https://www.uob.com.sg/assets/web-resources/personal/pdf/highlights/solutions/for-the-ladies/unstoppable-duo-promo.pdf",
+  "path": "data/raw/bank/www-uob-com-sg-assets-web-resources-personal-pdf-highlights-solutions-for-the-ladies-unstoppable-duo-promo-pdf-91fa84b5.pdf",
+  "retrieved_at": "2026-09-27T08:43:53+00:00",
+  "sha256": "71ea38bfb0c0f45d01692265335482ec708a5544053469840b631181e43684bc",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.uob.com.sg/assets/web-resources/personal/pdf/highlights/solutions/for-the-ladies/unstoppable-duo-promo.pdf"
+ },
+ "https://www.uob.com.sg/assets/web-resources/personal/pdf/promotions/cards/deals/disney-adventure/terms-and-conditions-uob-year-end-campaign-2024.pdf": {
+  "content_type": "application/pdf",
+  "final_url": "https://www.uob.com.sg/assets/web-resources/personal/pdf/promotions/cards/deals/disney-adventure/terms-and-conditions-uob-year-end-campaign-2024.pdf",
+  "path": "data/raw/bank/s-web-resources-personal-pdf-promotions-cards-deals-disney-adventure-terms-and-conditions-uob-year-end-campaign-2024-pdf-bbcbe8f3.pdf",
+  "retrieved_at": "2026-09-27T08:44:19+00:00",
+  "sha256": "799ed3a9a4face2a55df065e9c6b4007d852216ee1a9580e9ff49a2bd4d04a21",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.uob.com.sg/assets/web-resources/personal/pdf/promotions/cards/deals/disney-adventure/terms-and-conditions-uob-year-end-campaign-2024.pdf"
+ },
+ "https://www.uob.com.sg/credit-cards/pdf/online-cards-campaign.pdf": {
+  "content_type": "application/pdf",
+  "final_url": "https://www.uob.com.sg/credit-cards/pdf/online-cards-campaign.pdf",
+  "path": "data/raw/bank/www-uob-com-sg-credit-cards-pdf-online-cards-campaign-pdf-a28f442a.pdf",
+  "retrieved_at": "2026-09-27T08:45:42+00:00",
+  "sha256": "c13cf48e44b48d1aa3b0d0d5655f54f9001de57208d560ff29b09fc9ed8bc643",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.uob.com.sg/credit-cards/pdf/online-cards-campaign.pdf"
+ },
+ "https://www.uob.com.sg/debit/fees/debit-card-fees.pdf": {
+  "content_type": "application/pdf",
+  "final_url": "https://www.uob.com.sg/debit/fees/debit-card-fees.pdf",
+  "path": "data/raw/bank/www-uob-com-sg-debit-fees-debit-card-fees-pdf-bce1a7ed.pdf",
+  "retrieved_at": "2026-09-27T08:44:09+00:00",
+  "sha256": "8288a588164b3579b07a53b29657781c5883d3e528a881e657883fd252816e01",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.uob.com.sg/debit/fees/debit-card-fees.pdf"
+ },
+ "https://www.uob.com.sg/personal/cards/cashback/absolute-cashback-card.page": {
+  "content_type": "text/html",
+  "final_url": "https://www.uob.com.sg/personal/cards/cashback/absolute-cashback-card.page",
+  "path": "data/raw/bank/www-uob-com-sg-personal-cards-cashback-absolute-cashback-card-page-6a1e0254.html",
+  "retrieved_at": "2026-09-27T08:42:54+00:00",
+  "sha256": "1b6e70bd46d2bd4f8792b32b8beb038c25d324ddb792b4f8b531b296501019af",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.uob.com.sg/personal/cards/cashback/absolute-cashback-card.page"
+ },
+ "https://www.uob.com.sg/personal/cards/cashback/evol-card/index.page": {
+  "content_type": "text/html",
+  "final_url": "https://www.uob.com.sg/personal/cards/cashback/evol-card/index.page",
+  "path": "data/raw/bank/www-uob-com-sg-personal-cards-cashback-evol-card-index-page-c3af58fa.html",
+  "retrieved_at": "2026-09-27T08:43:11+00:00",
+  "sha256": "d69e96b86d3cccc12beb1df489126c16537be18f756a98f546ab30b3bef45aea",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.uob.com.sg/personal/cards/cashback/evol-card/index.page"
+ },
+ "https://www.uob.com.sg/personal/cards/cashback/lazada-uob-card.page": {
+  "content_type": "text/html",
+  "final_url": "https://www.uob.com.sg/personal/cards/cashback/lazada-uob-card.page",
+  "path": "data/raw/bank/www-uob-com-sg-personal-cards-cashback-lazada-uob-card-page-084fb14e.html",
+  "retrieved_at": "2026-09-27T08:37:40+00:00",
+  "sha256": "9dee0aa1bee3df9d65dc792d31946c1c41b22f3ad16e72f499f3e95de2dcaadb",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.uob.com.sg/personal/cards/cashback/lazada-uob-card.page"
+ },
+ "https://www.uob.com.sg/personal/cards/cashback/metro-uob-card.page": {
+  "content_type": "text/html",
+  "final_url": "https://www.uob.com.sg/personal/cards/cashback/metro-uob-card.page",
+  "path": "data/raw/bank/www-uob-com-sg-personal-cards-cashback-metro-uob-card-page-262aea82.html",
+  "retrieved_at": "2026-09-27T08:40:19+00:00",
+  "sha256": "54cfdeee25083e4fb9f9f14e1f64f06b864a11fe8a37b75062999c5c02113729",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.uob.com.sg/personal/cards/cashback/metro-uob-card.page"
+ },
+ "https://www.uob.com.sg/personal/cards/cashback/one-card.page": {
+  "content_type": "text/html",
+  "final_url": "https://www.uob.com.sg/personal/cards/cashback/one-card.page",
+  "path": "data/raw/bank/www-uob-com-sg-personal-cards-cashback-one-card-page-e75330c4.html",
+  "retrieved_at": "2026-09-27T08:44:14+00:00",
+  "sha256": "79b3ec624a4b29537e5854d7e1c8aa2bdc8dbb281a9e8c8fa3fc768d284ebef7",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.uob.com.sg/personal/cards/cashback/one-card.page"
+ },
+ "https://www.uob.com.sg/personal/cards/cashback/singtel-card.page": {
+  "content_type": "text/html",
+  "final_url": "https://www.uob.com.sg/personal/cards/cashback/singtel-card.page",
+  "path": "data/raw/bank/www-uob-com-sg-personal-cards-cashback-singtel-card-page-489f94e0.html",
+  "retrieved_at": "2026-09-27T08:41:52+00:00",
+  "sha256": "182a8f48337c935e578fc1ed875f81f878509a37139d281dae93f8154cb73a7f",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.uob.com.sg/personal/cards/cashback/singtel-card.page"
+ },
+ "https://www.uob.com.sg/personal/cards/cashback/unionpay-card.page": {
+  "content_type": "text/html",
+  "final_url": "https://www.uob.com.sg/personal/cards/cashback/unionpay-card.page",
+  "path": "data/raw/bank/www-uob-com-sg-personal-cards-cashback-unionpay-card-page-ec4614ff.html",
+  "retrieved_at": "2026-09-27T08:45:17+00:00",
+  "sha256": "deca0743ac2049f0dd011d92749f8748c0e1367803b84869f24ca0b92cba8cdc",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.uob.com.sg/personal/cards/cashback/unionpay-card.page"
+ },
+ "https://www.uob.com.sg/personal/cards/credit/visa-infinite/pdf/VI-Metal-Pdt-TnC.pdf": {
+  "content_type": "application/pdf",
+  "final_url": "https://www.uob.com.sg/personal/cards/credit/visa-infinite/pdf/VI-Metal-Pdt-TnC.pdf",
+  "path": "data/raw/bank/www-uob-com-sg-personal-cards-credit-visa-infinite-pdf-VI-Metal-Pdt-TnC-pdf-b3e646f0.pdf",
+  "retrieved_at": "2026-09-27T08:45:30+00:00",
+  "sha256": "0b0758141d849fd76b01b199436238e968714af865c5bce2172a1c4dec47841c",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.uob.com.sg/personal/cards/credit/visa-infinite/pdf/VI-Metal-Pdt-TnC.pdf"
+ },
+ "https://www.uob.com.sg/personal/cards/credit/visa-infinite/pdf/VI-Metal-Pdt-TnC.pdf?i_cid=pfs:sg:owned:int:site:na:li:na:na:na-evergreen:direct:na&vid=none": {
+  "content_type": "application/pdf",
+  "final_url": "https://www.uob.com.sg/personal/cards/credit/visa-infinite/pdf/VI-Metal-Pdt-TnC.pdf?i_cid=pfs:sg:owned:int:site:na:li:na:na:na-evergreen:direct:na&vid=none",
+  "path": "data/raw/bank/www-uob-com-sg-personal-cards-credit-visa-infinite-pdf-VI-Metal-Pdt-TnC-pdf-801897ba.pdf",
+  "retrieved_at": "2026-09-27T08:45:36+00:00",
+  "sha256": "0b0758141d849fd76b01b199436238e968714af865c5bce2172a1c4dec47841c",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.uob.com.sg/personal/cards/credit/visa-infinite/pdf/VI-Metal-Pdt-TnC.pdf?i_cid=pfs:sg:owned:int:site:na:li:na:na:na-evergreen:direct:na&vid=none"
+ },
+ "https://www.uob.com.sg/personal/cards/privilege/visa-infinite-metal-card.page": {
+  "content_type": "text/html",
+  "final_url": "https://www.uob.com.sg/personal/cards/privilege/visa-infinite-metal-card.page",
+  "path": "data/raw/bank/www-uob-com-sg-personal-cards-privilege-visa-infinite-metal-card-page-fca76719.html",
+  "retrieved_at": "2026-09-27T08:45:30+00:00",
+  "sha256": "3a7f924219c03fb88eb0bb3eef2e4c34b4f36f4c449d241d3ec05898dc65febc",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.uob.com.sg/personal/cards/privilege/visa-infinite-metal-card.page"
+ },
+ "https://www.uob.com.sg/personal/cards/rewards/ladys-card/index.page": {
+  "content_type": "text/html",
+  "final_url": "https://www.uob.com.sg/personal/cards/rewards/ladys-card/index.page",
+  "path": "data/raw/bank/www-uob-com-sg-personal-cards-rewards-ladys-card-index-page-9eb4bd50.html",
+  "retrieved_at": "2026-09-27T08:43:50+00:00",
+  "sha256": "ba30cc4aa2cf57684de5d541ab88891152444c6626d3bcee0eb0fc97a623f8ef",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.uob.com.sg/personal/cards/rewards/ladys-card/index.page"
+ },
+ "https://www.uob.com.sg/personal/cards/rewards/preferred-visa-card.page": {
+  "content_type": "text/html",
+  "final_url": "https://www.uob.com.sg/personal/cards/rewards/preferred-visa-card.page",
+  "path": "data/raw/bank/www-uob-com-sg-personal-cards-rewards-preferred-visa-card-page-eb2e6a54.html",
+  "retrieved_at": "2026-09-27T08:44:29+00:00",
+  "sha256": "f4496692e271455b97b6988e7e60bb939f7ce143c7f4f418dbef714f5a387815",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.uob.com.sg/personal/cards/rewards/preferred-visa-card.page"
+ },
+ "https://www.uob.com.sg/personal/cards/rewards/visa-signature-card.page": {
+  "content_type": "text/html",
+  "final_url": "https://www.uob.com.sg/personal/cards/rewards/visa-signature-card.page",
+  "path": "data/raw/bank/www-uob-com-sg-personal-cards-rewards-visa-signature-card-page-2e34f6d2.html",
+  "retrieved_at": "2026-09-27T08:45:39+00:00",
+  "sha256": "17688db150b8b9133f8657f805fd98c89f71f077a36543c8690cfba588159ca2",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.uob.com.sg/personal/cards/rewards/visa-signature-card.page"
+ },
+ "https://www.uob.com.sg/personal/cards/travel/krisflyer-card.page": {
+  "content_type": "text/html",
+  "final_url": "https://www.uob.com.sg/personal/cards/travel/krisflyer-card.page",
+  "path": "data/raw/bank/www-uob-com-sg-personal-cards-travel-krisflyer-card-page-0e760907.html",
+  "retrieved_at": "2026-09-27T08:37:25+00:00",
+  "sha256": "a9494d44f9b47321b618d3ed0cc3ce4fce5c98ccc9f0f7920cbc7d311d7724cf",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.uob.com.sg/personal/cards/travel/krisflyer-card.page"
+ },
+ "https://www.uob.com.sg/personal/cards/travel/prvi-miles-card.page": {
+  "content_type": "text/html",
+  "final_url": "https://www.uob.com.sg/personal/cards/travel/prvi-miles-card.page",
+  "path": "data/raw/bank/www-uob-com-sg-personal-cards-travel-prvi-miles-card-page-d9eef056.html",
+  "retrieved_at": "2026-09-27T08:45:06+00:00",
+  "sha256": "5c523d1bfcf9cd6f54a642df6f39fd6f9230a7de1bb73a54b7499b9086b3f19b",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.uob.com.sg/personal/cards/travel/prvi-miles-card.page"
+ },
+ "https://www.uob.com.sg/web-resources/personal/pdf/personal/cards/credit-cards/lazada-uob-card/lazada-uob-tnc.pdf": {
+  "content_type": "application/pdf",
+  "final_url": "https://www.uob.com.sg/web-resources/personal/pdf/personal/cards/credit-cards/lazada-uob-card/lazada-uob-tnc.pdf",
+  "path": "data/raw/bank/www-uob-com-sg-web-resources-personal-pdf-personal-cards-credit-cards-lazada-uob-card-lazada-uob-tnc-pdf-1d3530d7.pdf",
+  "retrieved_at": "2026-09-27T08:37:42+00:00",
+  "sha256": "0a9012338318a41efff0eeac2484ce820d46e219d4b578df2ec936f36eae4443",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.uob.com.sg/web-resources/personal/pdf/personal/cards/credit-cards/lazada-uob-card/lazada-uob-tnc.pdf"
+ },
+ "https://www.uob.com.sg/web-resources/personal/pdf/personal/cards/credit-cards/rebates-cards/evol/uob-evol-faq.pdf": {
+  "content_type": "application/pdf",
+  "final_url": "https://www.uob.com.sg/web-resources/personal/pdf/personal/cards/credit-cards/rebates-cards/evol/uob-evol-faq.pdf",
+  "path": "data/raw/bank/www-uob-com-sg-web-resources-personal-pdf-personal-cards-credit-cards-rebates-cards-evol-uob-evol-faq-pdf-6696ddb1.pdf",
+  "retrieved_at": "2026-09-27T08:43:16+00:00",
+  "sha256": "3da0b3b24423a4c19db90f4d66335186d9a36b75d60a511a9f5f9f13342914b0",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.uob.com.sg/web-resources/personal/pdf/personal/cards/credit-cards/rebates-cards/evol/uob-evol-faq.pdf"
+ },
+ "https://www.uob.com.sg/web-resources/personal/pdf/personal/cards/credit-cards/rebates-cards/metro-uob-card/metro-tnc.pdf": {
+  "content_type": "application/pdf",
+  "final_url": "https://www.uob.com.sg/web-resources/personal/pdf/personal/cards/credit-cards/rebates-cards/metro-uob-card/metro-tnc.pdf",
+  "path": "data/raw/bank/www-uob-com-sg-web-resources-personal-pdf-personal-cards-credit-cards-rebates-cards-metro-uob-card-metro-tnc-pdf-19f7b530.pdf",
+  "retrieved_at": "2026-09-27T08:40:20+00:00",
+  "sha256": "0fc06bc673f4439efa47ac1da0bb3b259ce766852232a96aea6b8f4d5748f33a",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.uob.com.sg/web-resources/personal/pdf/personal/cards/credit-cards/rebates-cards/metro-uob-card/metro-tnc.pdf"
+ },
+ "https://www.uob.com.sg/web-resources/personal/pdf/personal/cards/credit-cards/rebates-cards/singtel-uob-card/governing-singtel-uob-card-tnc.pdf": {
+  "content_type": "application/pdf",
+  "final_url": "https://www.uob.com.sg/web-resources/personal/pdf/personal/cards/credit-cards/rebates-cards/singtel-uob-card/governing-singtel-uob-card-tnc.pdf",
+  "path": "data/raw/bank/web-resources-personal-pdf-personal-cards-credit-cards-rebates-cards-singtel-uob-card-governing-singtel-uob-card-tnc-pdf-38696e5a.pdf",
+  "retrieved_at": "2026-09-27T08:42:01+00:00",
+  "sha256": "c6743d102dcb7233a8bac8746d6bf7ec32c3c73c3bbf9e8dcef89022cb44fe42",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.uob.com.sg/web-resources/personal/pdf/personal/cards/credit-cards/rebates-cards/singtel-uob-card/governing-singtel-uob-card-tnc.pdf"
+ },
+ "https://www.uob.com.sg/web-resources/personal/pdf/personal/cards/credit-cards/rebates-cards/singtel-uob-card/singtel-tnc.pdf": {
+  "content_type": "application/pdf",
+  "final_url": "https://www.uob.com.sg/web-resources/personal/pdf/personal/cards/credit-cards/rebates-cards/singtel-uob-card/singtel-tnc.pdf",
+  "path": "data/raw/bank/www-uob-com-sg-web-resources-personal-pdf-personal-cards-credit-cards-rebates-cards-singtel-uob-card-singtel-tnc-pdf-2c95cd2e.pdf",
+  "retrieved_at": "2026-09-27T08:41:53+00:00",
+  "sha256": "6c9c788f739c95d8b3fd1308cf4c0b1168909c5c5e64168e12b95383116ecfe3",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.uob.com.sg/web-resources/personal/pdf/personal/cards/credit-cards/rebates-cards/singtel-uob-card/singtel-tnc.pdf"
+ },
+ "https://www.uob.com.sg/web-resources/personal/pdf/personal/cards/credit-cards/rebates-cards/singtel-uob-card/stuob-faq-upgrade.pdf": {
+  "content_type": "application/pdf",
+  "final_url": "https://www.uob.com.sg/web-resources/personal/pdf/personal/cards/credit-cards/rebates-cards/singtel-uob-card/stuob-faq-upgrade.pdf",
+  "path": "data/raw/bank/w-uob-com-sg-web-resources-personal-pdf-personal-cards-credit-cards-rebates-cards-singtel-uob-card-stuob-faq-upgrade-pdf-b0aecd30.pdf",
+  "retrieved_at": "2026-09-27T08:41:59+00:00",
+  "sha256": "5d19b920ad6ac45f660a3ca9ea41bfb2c20f2ba2f9be9a739ef4dda8afbd4940",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.uob.com.sg/web-resources/personal/pdf/personal/cards/credit-cards/rebates-cards/singtel-uob-card/stuob-faq-upgrade.pdf"
+ },
+ "https://www.uob.com.sg/web-resources/personal/pdf/personal/cards/credit-cards/rewards-cards/uob-preferred-platinum-visa-card/terms-and-conditions-for-preferred-plat-visa.pdf": {
+  "content_type": "application/pdf",
+  "final_url": "https://www.uob.com.sg/web-resources/personal/pdf/personal/cards/credit-cards/rewards-cards/uob-preferred-platinum-visa-card/terms-and-conditions-for-preferred-plat-visa.pdf",
+  "path": "data/raw/bank/sonal-cards-credit-cards-rewards-cards-uob-preferred-platinum-visa-card-terms-and-conditions-for-preferred-plat-visa-pdf-ed33b1a0.pdf",
+  "retrieved_at": "2026-09-27T08:44:31+00:00",
+  "sha256": "611f5770008e3a55af9ea9a18349f45a5d5950813c15b1e3b4bddcc4129eb88e",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.uob.com.sg/web-resources/personal/pdf/personal/cards/credit-cards/rewards-cards/uob-preferred-platinum-visa-card/terms-and-conditions-for-preferred-plat-visa.pdf"
+ },
+ "https://www.uob.com.sg/web-resources/personal/pdf/personal/cards/credit-cards/rewards-cards/uob-preferred-platinum-visa-card/terms-and-conditions-for-preferred-plat-visa.pdf?i_cid=pfs:sg:owned:int:site:na:li:na:na:na-evergreen:direct:na&vid=none": {
+  "content_type": "application/pdf",
+  "final_url": "https://www.uob.com.sg/web-resources/personal/pdf/personal/cards/credit-cards/rewards-cards/uob-preferred-platinum-visa-card/terms-and-conditions-for-preferred-plat-visa.pdf?i_cid=pfs:sg:owned:int:site:na:li:na:na:na-evergreen:direct:na&vid=none",
+  "path": "data/raw/bank/sonal-cards-credit-cards-rewards-cards-uob-preferred-platinum-visa-card-terms-and-conditions-for-preferred-plat-visa-pdf-6c6c63e6.pdf",
+  "retrieved_at": "2026-09-27T08:44:35+00:00",
+  "sha256": "611f5770008e3a55af9ea9a18349f45a5d5950813c15b1e3b4bddcc4129eb88e",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.uob.com.sg/web-resources/personal/pdf/personal/cards/credit-cards/rewards-cards/uob-preferred-platinum-visa-card/terms-and-conditions-for-preferred-plat-visa.pdf?i_cid=pfs:sg:owned:int:site:na:li:na:na:na-evergreen:direct:na&vid=none"
+ },
+ "https://www.uob.com.sg/web-resources/personal/pdf/personal/cards/credit-cards/rewards-cards/uob-unionpay-platinum-card/upi-refresh-tc.pdf": {
+  "content_type": "application/pdf",
+  "final_url": "https://www.uob.com.sg/web-resources/personal/pdf/personal/cards/credit-cards/rewards-cards/uob-unionpay-platinum-card/upi-refresh-tc.pdf",
+  "path": "data/raw/bank/om-sg-web-resources-personal-pdf-personal-cards-credit-cards-rewards-cards-uob-unionpay-platinum-card-upi-refresh-tc-pdf-414c829b.pdf",
+  "retrieved_at": "2026-09-27T08:45:20+00:00",
+  "sha256": "f9f550487d62fd3b1534e82545209d207c1b276190a870ed35d1b2bfa4e42665",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.uob.com.sg/web-resources/personal/pdf/personal/cards/credit-cards/rewards-cards/uob-unionpay-platinum-card/upi-refresh-tc.pdf"
+ },
+ "https://www.uob.com.sg/web-resources/personal/pdf/personal/cards/credit-cards/travel-cards/uob-visa-signature-card/terms-and-conditions-governing-uob-visa-signature-card.pdf": {
+  "content_type": "application/pdf",
+  "final_url": "https://www.uob.com.sg/web-resources/personal/pdf/personal/cards/credit-cards/travel-cards/uob-visa-signature-card/terms-and-conditions-governing-uob-visa-signature-card.pdf",
+  "path": "data/raw/bank/sonal-cards-credit-cards-travel-cards-uob-visa-signature-card-terms-and-conditions-governing-uob-visa-signature-card-pdf-5570db79.pdf",
+  "retrieved_at": "2026-09-27T08:45:40+00:00",
+  "sha256": "0d166f4ab1ad15da03427a43b46d860061750d927525daf1c26dc90c5427ef75",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.uob.com.sg/web-resources/personal/pdf/personal/cards/credit-cards/travel-cards/uob-visa-signature-card/terms-and-conditions-governing-uob-visa-signature-card.pdf"
+ },
+ "https://www.uob.com.sg/web-resources/personal/pdf/personal/cards/credit-cards/travel-cards/uob-visa-signature-card/terms-and-conditions-governing-uob-visa-signature-card.pdf?i_cid=pfs:sg:owned:int:site:na:li:na:na:na-evergreen:direct:na&vid=none": {
+  "content_type": "application/pdf",
+  "final_url": "https://www.uob.com.sg/web-resources/personal/pdf/personal/cards/credit-cards/travel-cards/uob-visa-signature-card/terms-and-conditions-governing-uob-visa-signature-card.pdf?i_cid=pfs:sg:owned:int:site:na:li:na:na:na-evergreen:direct:na&vid=none",
+  "path": "data/raw/bank/sonal-cards-credit-cards-travel-cards-uob-visa-signature-card-terms-and-conditions-governing-uob-visa-signature-card-pdf-403e018a.pdf",
+  "retrieved_at": "2026-09-27T08:45:46+00:00",
+  "sha256": "0d166f4ab1ad15da03427a43b46d860061750d927525daf1c26dc90c5427ef75",
+  "source": "bank",
+  "status": 200,
+  "url": "https://www.uob.com.sg/web-resources/personal/pdf/personal/cards/credit-cards/travel-cards/uob-visa-signature-card/terms-and-conditions-governing-uob-visa-signature-card.pdf?i_cid=pfs:sg:owned:int:site:na:li:na:na:na-evergreen:direct:na&vid=none"
+ }
+}

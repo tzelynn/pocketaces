@@ -1,0 +1,76 @@
+{
+ "source": "moneysmart",
+ "source_id": "uob-prvi-amex",
+ "source_url": "https://www.moneysmart.sg/credit-cards/uob-prvi-amex",
+ "name": "UOB PRVI Miles American Express Card",
+ "bank": "UOB",
+ "card_id": "uob-prvi-miles-american-express",
+ "image_url": "https://photos.cdn-moneysmart.com/credit_cards/uploads/products/images/image_url_2020-10-16_UOB-PRIVI-Miles-Amex@3x-min.png",
+ "annual_fee": 261.6,
+ "earn_rates": {},
+ "caps": {},
+ "highlights": [
+  "S$1 = Up to 8 miles on agoda and Expedia bookings via UOB PRVI Miles website.",
+  "S$1 = Up to 3 miles on Overseas Spend",
+  "S$1 = 1.4 miles on Local Spend",
+  "Earn \n3 miles per S$1 spend\n (UNI$7.5 per S$5 spend) on regional spend in Indonesia, Malaysia, Thailand, Vietnam, including online shopping on overseas websites.",
+  "Earn \n2.4 miles per S$1 spend\n (UNI$6 per S$5 spend) on other overseas spend, including online shopping on overseas websites.",
+  "Earn \n1.4 miles per S$1 spend\n (UNI$3.5 per S$5 spend) on local spend.",
+  "4 complimentary lounge visits\n annually, exclusive for principal cardholders.",
+  "Earn \nup to 8 miles per S$1 spend\n (UNI$20 per S$5 spend) on agoda and Expedia bookings via UOB PRVI Miles website.",
+  "PRVI Miles Amex Exclusive: Earn \n20,000 loyalty miles\n every year",
+  "PRVI Miles Amex Exclusive: Earn \n5,000 overseas spend bonus miles\n every quarter",
+  "Earn \nup to 6 bonus KrisFlyer miles\n for every S$1 spend if you also apply for a new KrisFlyer UOB Account. Terms and conditions apply for all above-mentioned privileges. Visit \nhere\n for more details. Insured up to S$100,000 by SDIC.",
+  "Complimentary personal accident coverage and emergency medical assistance of up to S$500,000.",
+  "Choice to redeem for miles, cashback, or vouchers.",
+  "No minimum spend and no cap on earned miles",
+  "At MoneySmart, we strive to keep our information accurate and up to date. This information may be different from what you see when you visit a financial institution, service provider, or specific product site. MoneySmart shall not be liable to compensate the Customer should the information is not as updated as our Partner."
+ ],
+ "sign_up_offers": [],
+ "links": {
+  "product": "https://www.moneysmart.sg/credit-cards/uob-prvi-amex",
+  "review": "https://blog.moneysmart.sg/credit-cards/uob-prvi-miles-credit-card-review/"
+ },
+ "citation": {
+  "id": "moneysmart:fbcf8e7229a3",
+  "url": "https://www.moneysmart.sg/credit-cards?page=3",
+  "title": "UOB PRVI Miles American Express Card",
+  "source_type": "aggregator",
+  "retrieved_at": "2026-09-27T05:27:18+00:00",
+  "sha256": "fbcf8e7229a38611c3c767cd8447164e413b1306df1f54bebee269e3abf15202",
+  "snapshot": "data/raw/moneysmart/credit-cards-p3-707cb52c.html"
+ },
+ "extra": {
+  "summary": "The UOB PRVI Miles Amex shines for frequent regional travellers, especially with its boosted miles on spending in Indonesia, Malaysia, Thailand and Vietnam, including online shopping. The generous miles earn rate and no minimum spend requirement makes it simple to accumulate miles. ",
+  "badges": [
+   "Earn up to 8 Miles per S$1"
+  ],
+  "network": [
+   "American Express"
+  ],
+  "mobile_wallets": [],
+  "groups": {
+   "annual-interest-rate-and-fees": {
+    "Annual Interest Rate": "27.80",
+    "Annual Principal Fee": "261.60",
+    "Supplementary Annual Fee": "130.80",
+    "Fee Waiver": "1 year fee waiver, 1st supplementary card free",
+    "Minimum Monthly Repayment": "3% or S$50, whichever is higher",
+    "Interest Free Period": "21 days"
+   },
+   "minimum-income-requirements": {
+    "Singaporean/PR Minimum Annual Income": "30000",
+    "Non-Singaporean Minimum Annual Income": "40000"
+   },
+   "card-association": {
+    "American Express": "true"
+   }
+  },
+  "our_takes": {
+   "our-take": "The UOB PRVI Miles Amex shines for frequent regional travellers, especially with its boosted miles on spending in Indonesia, Malaysia, Thailand and Vietnam, including online shopping. The generous miles earn rate and no minimum spend requirement makes it simple to accumulate miles. However, factor in the 3.25% foreign transaction fees on non-SGD spends. Consider pairing it with a multi-currency card to further optimize costs on overseas transactions.",
+   "good-for": "Frequent travellers who want to maximise miles earned on overseas spending and enjoy complimentary lounge access.\nCardholders making large purchases like holiday bookings or home furnishings, seeking to earn substantial miles without spending caps.\nProfessionals who travel within Southeast Asia, benefiting from bonus miles on spending in Indonesia, Malaysia, Thailand, and Vietnam.",
+   "things-to-note": "A high 27.8% interest rate applies if you don't pay your balance in full.\nForeign transaction fees add 3.25% to non-SGD purchases, increasing your overseas spending cost.\nLate payments incur a S$100 fee each month affecting your overall repayment costs."
+  },
+  "updated_at": "2026-07-01T01:09:49+08:00"
+ }
+}

@@ -1,0 +1,154 @@
+{
+ "source": "singsaver",
+ "source_id": "cimb-visa-signature-card",
+ "source_url": "https://www.singsaver.com.sg/credit-card/products/cimb-visa-signature-card",
+ "name": "CIMB Visa Signature Card",
+ "bank": "CIMB Bank",
+ "card_id": "cimb-visa-signature",
+ "image_url": "https://mhgprod.blob.core.windows.net/singsaver/strapi-uploads/xs_blt7d981ec5b34fabe7_51d4998dd9.png",
+ "annual_fee_note": "For all Principal and Supplementary cards. | No Annual Fee",
+ "min_annual_income": 30000.0,
+ "min_monthly_spend": 800.0,
+ "earn_rates": {
+  "percent:retail": {
+   "value": 10.0,
+   "unit": "percent",
+   "note": "On Pet Shops and Veterinary Services only. Minimum spend of S$800 in same statement month, and capped at S$20 per category."
+  },
+  "percent:health": {
+   "value": 10.0,
+   "unit": "percent",
+   "note": "On Beauty & Wellness spending only. Minimum spend of S$800 in same statement month, and capped at S$20 per category."
+  },
+  "percent:local_online_shopping": {
+   "value": 10.0,
+   "unit": "percent",
+   "note": "Minimum spend of S$800 in same statement month, and capped at S$20 per category."
+  },
+  "percent:travel": {
+   "value": 10.0,
+   "unit": "percent",
+   "note": "On Cruises spending only. Minimum spend of S$800 in same statement month, and capped at S$20 per category."
+  },
+  "percent:supermarket": {
+   "value": 10.0,
+   "unit": "percent",
+   "note": "Minimum spend of S$800 in same statement month, and capped at S$20 per category."
+  },
+  "percent:overseas": {
+   "value": 3.0,
+   "unit": "percent",
+   "note": "Up to | Unlimited 3% cashback on overseas foreign currency spend, valid till 31 January 2025. Base rate 0.2%."
+  },
+  "percent:baseline": {
+   "value": 0.2,
+   "unit": "percent",
+   "note": "Unlimited 0.2% cashback on all other spends."
+  },
+  "percent:local": {
+   "value": 10.0,
+   "unit": "percent",
+   "note": "With minimum spending of S$600. On Online Shopping, Groceries, Beauty & Wellness, Pet Shops & Veterinary Services and Cruises only. Capped at $100 per statement month."
+  }
+ },
+ "caps": {
+  "cashback_bonus_cap": {
+   "value": 100.0,
+   "note": "S$ | 10% cashback on select categories is capped at S$100 per statement month. No cap on all other spend."
+  }
+ },
+ "highlights": [
+  "pros: 10% cashback on online shopping, groceries, beauty/wellness, pet shops/veterinary services and cruises.",
+  "pros: Unlimited 0.2% cashback on all other spend.",
+  "pros: Complimentary travel insurance of up to S$500,000 when you charge your travel fares to this card.",
+  "pros: No annual fees for life + up to 4 supplementary cards with no annual fees.",
+  "cons: Minimum spending of S$800 in the statement month to qualify for 10% cashback.",
+  "cons: 10% cashback is capped at S$100 per statement month per principal cardmember and up to S$20 per category. Earn 0.2% cashback on all spend when you exceed the cashback cap.",
+  "pros: Online shopping rebate",
+  "pros: Supermarket rebate",
+  "pros: Annual Fee waiver",
+  "cons: Rebate cap applied"
+ ],
+ "sign_up_offers": [
+  {
+   "kind": "exclusive_offer",
+   "title": "Stackable Welcome Offer",
+   "offer_id": "SG.2026-05-18.CC.CIMB.FANTHOM.BAU",
+   "valid_from": "2026-05-18T15:59:00Z",
+   "valid_to": "2026-09-30T15:59:00Z",
+   "gifts": [
+    {
+     "title": "Samsonite Black Label Fanthom Spinner 69/25 EXP TSA Luggage (worth S$1,150)",
+     "value_sgd": 1150
+    }
+   ],
+   "terms": "Welcome Offer promotion is valid from 19 May 2026 to 30 September 2026.\nPromotion is valid for new CIMB credit cardmembers only.\nApply and activate selected CIMB credit cards and make a min. spend of S$2,000 on eligible posted transactions within 60 days of card approval date to be eligible for reward.\nPromotion is stackable with SingSaver Exclusive Offer (additional T&Cs apply).\nTerms and Conditions\n apply.",
+   "tnc_url": null,
+   "bundle_with": []
+  },
+  {
+   "kind": "exclusive_offer",
+   "title": "SingSaver Exclusive Offer ",
+   "offer_id": "SG.2026-08-03.CC.CIMB.3XCC.50CASH.FANTHOM.BAUSTACK",
+   "valid_from": "2026-08-31T16:00:00Z",
+   "valid_to": "2026-09-30T15:59:00Z",
+   "gifts": [
+    {
+     "title": "S$50 Cash via PayNow",
+     "value_sgd": 50
+    }
+   ],
+   "terms": "SingSaver Exclusive Offer promotion is valid from 1 September 2026 to 30 September 2026.\nPromotion is valid for new CIMB credit cardmembers only.\nApply for select CIMB credit cards and make a min. spend of S$2,000 within 60 days of card approval to be eligible for reward.\nPromotion is stackable with other Welcome Offers from CIMB (\nadditional T&Cs apply\n).\nTerms and Conditions\n apply.",
+   "tnc_url": null,
+   "bundle_with": []
+  }
+ ],
+ "links": {
+  "apply": "https://www.singsaver.com.sg/apply-v3/17431"
+ },
+ "citation": {
+  "id": "singsaver:6949365d3283",
+  "url": "https://www.singsaver.com.sg/credit-card/products/cimb-visa-signature-card",
+  "title": "CIMB Visa Signature Card",
+  "source_type": "aggregator",
+  "retrieved_at": "2026-09-27T05:25:01+00:00",
+  "sha256": "6949365d3283b24cc3a44c8dc8bee9d674a1f62889681492b7a29cadc2f281f5",
+  "snapshot": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-cimb-visa-signature-card-b15f5ccd.html"
+ },
+ "extra": {
+  "network": [
+   "VISA Signature"
+  ],
+  "mobile_wallets": [
+   "Google Pay",
+   "Samsung Pay"
+  ],
+  "fx_fee_percent": 3.0,
+  "miles_conversion_fee": null,
+  "categories": [
+   "category:all-credit-cards",
+   "category:cashback",
+   "category:dining-promo",
+   "category:grocery-promo",
+   "category:installment",
+   "category:promo",
+   "category:retail-promo",
+   "needs:0-interest-rate",
+   "needs:all-cards-with-dining-promo",
+   "needs:all-cards-with-grocery-promo",
+   "needs:all-cards-with-promotion",
+   "needs:all-cards-with-retail-promo",
+   "needs:all-cashback-cards",
+   "needs:all-credit-cards",
+   "needs:all-installment-cards",
+   "needs:all-travel-cards",
+   "needs:free-travel-insurance",
+   "needs:high-cashback",
+   "needs:high-value-gifts",
+   "needs:long-tenure-installment",
+   "needs:singsaver-exclusive"
+  ],
+  "tag": "Best for dining, online & groceries cashback",
+  "description": "The CIMB Visa Signature Card is a unique cashback credit card that allows you to earn 10% cashback on online shopping, groceries, beauty & wellness, pet shops & veterinary services and cruises! Another great thing about it is that you'll never need to pay an annual fee."
+ }
+}

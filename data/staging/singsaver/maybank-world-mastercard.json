@@ -1,0 +1,177 @@
+{
+ "source": "singsaver",
+ "source_id": "maybank-world-mastercard",
+ "source_url": "https://www.singsaver.com.sg/credit-card/products/maybank-world-mastercard",
+ "name": "Maybank World Mastercard",
+ "bank": "Maybank",
+ "card_id": "maybank-world-mastercard",
+ "image_url": "https://mhgprod.blob.core.windows.net/singsaver/strapi-uploads/xs_blt1c5e6c91278bfb82_a67efe23e2.png",
+ "annual_fee": 261.6,
+ "annual_fee_note": "S$ | First Year Waived",
+ "min_annual_income": 80000.0,
+ "earn_rates": {
+  "percent:dining": {
+   "value": 2.7,
+   "unit": "percent",
+   "note": "(Indirect cashback) S$1 local spend = 10 TREATS Points on Shopping and Dining. 18,500 points redeemed = S$50 cash credit. Equivalent to 2.7% cash back."
+  },
+  "percent:petrol": {
+   "value": 2.7,
+   "unit": "percent",
+   "note": "(Indirect cashback) S$1 local spend = 10 TREATS Points on Shopping and Dining. 18,500 points redeemed = S$50 cash credit. Equivalent to 2.7% cash back."
+  },
+  "mpd:local": {
+   "value": 0.4,
+   "unit": "mpd",
+   "note": null
+  },
+  "mpd:retail": {
+   "value": 4.0,
+   "unit": "mpd",
+   "note": "At select merchants on TREATS SG app."
+  },
+  "mpd:petrol": {
+   "value": 4.0,
+   "unit": "mpd",
+   "note": null
+  },
+  "mpd:dining": {
+   "value": 4.0,
+   "unit": "mpd",
+   "note": "At select merchants on TREATS SG app."
+  },
+  "percent:baseline": {
+   "value": 0.27,
+   "unit": "percent",
+   "note": "(Indirect cashback) S$1 = 1 TREATS Point 18,500 TREATS Point  = S$50 cash credit, equivalent to 0.27% cashback."
+  },
+  "percent:retail": {
+   "value": 2.7,
+   "unit": "percent",
+   "note": "(Indirect cashback) S$1 local spend = 10 TREATS Points on Shopping and Dining. 18,500 points redeemed = S$50 cash credit. Equivalent to 2.7% cash back."
+  },
+  "mpd:baseline": {
+   "value": 0.4,
+   "unit": "mpd",
+   "note": null
+  },
+  "points_per_dollar:baseline": {
+   "value": 5.0,
+   "unit": "points_per_dollar",
+   "note": null
+  },
+  "points_per_dollar:local_spending": {
+   "value": 50.0,
+   "unit": "points_per_dollar",
+   "note": "At select merchants on TREATS SG app."
+  },
+  "percent:local": {
+   "value": 0.27,
+   "unit": "percent",
+   "note": "(Indirect cashback) S$1 = 1 TREATS Point 18,500 TREATS Point  = S$50 cash credit, equivalent to 0.27% cashback."
+  },
+  "percent:overseas": {
+   "value": 0.27,
+   "unit": "percent",
+   "note": "(Indirect cashback) S$1 = 1 TREATS Point 18,500 TREATS Point  = S$50 cash credit, equivalent to 0.27% cashback."
+  },
+  "mpd:overseas": {
+   "value": 0.4,
+   "unit": "mpd",
+   "note": null
+  },
+  "points_per_dollar:petrol": {
+   "value": 50.0,
+   "unit": "points_per_dollar",
+   "note": "On petrol transactions."
+  },
+  "points_per_dollar:dining": {
+   "value": 50.0,
+   "unit": "points_per_dollar",
+   "note": "At select merchants on TREATS SG app."
+  },
+  "points_per_dollar:retail": {
+   "value": 50.0,
+   "unit": "points_per_dollar",
+   "note": "At select merchants on TREATS SG app."
+  }
+ },
+ "caps": {
+  "rewards_bonus_cap": {
+   "value": 1000000.0,
+   "note": "Per card member"
+  }
+ },
+ "highlights": [
+  "4 miles per dollar on dining, petrol and retail and 0.4 mpd for other local and FCY spend.",
+  "pros: Earn 10X TREATS Points (4 miles) per S$1 spent at specially selected retail stores, restaurants, and all petrol stations islandwide+.",
+  "pros: Get up to 20.05% savings on petrol.",
+  "pros: Complimentary green fees at world-class golf fairways.",
+  "pros: Complimentary enrolment into Rewards Infinite Programme: TREATS Points never expire.",
+  "pros: Free air miles conversion",
+  "pros: Complimentary Plaza Premium airport lounge access with a minimum charge of S$1,000 in a single retail transaction.",
+  "pros: Complimentary travel insurance coverage of up to S$1,000,000 when air tickets/travel packages are charged in full to the card.",
+  "cons: TREATS Points awarded calculated based on blocks of S$5.",
+  "cons: Annual income requirement: S$80,000.",
+  "cons: Annual fee: S$240 (waived for first year only)",
+  "pros: Dining rebate",
+  "pros: Retail rebate",
+  "pros: Petrol rebate",
+  "pros: Airport lounge"
+ ],
+ "sign_up_offers": [],
+ "links": {},
+ "citation": {
+  "id": "singsaver:a58c880e425d",
+  "url": "https://www.singsaver.com.sg/credit-card/products/maybank-world-mastercard",
+  "title": "Maybank World Mastercard",
+  "source_type": "aggregator",
+  "retrieved_at": "2026-09-27T05:26:13+00:00",
+  "sha256": "a58c880e425da8ce371a2270d4faa2467893bf0f898bccbbe53b5d99c09016fb",
+  "snapshot": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-maybank-world-mastercard-7289f83e.html"
+ },
+ "extra": {
+  "network": [
+   "World Mastercard"
+  ],
+  "mobile_wallets": [
+   "Apple Pay",
+   "Samsung Pay"
+  ],
+  "fx_fee_percent": 3.25,
+  "miles_conversion_fee": null,
+  "categories": [
+   "category:airmiles",
+   "category:all-credit-cards",
+   "category:dining-promo",
+   "category:installment",
+   "category:promo",
+   "category:retail-promo",
+   "category:rewards",
+   "category:travel",
+   "needs:0-interest-rate",
+   "needs:0-processing-fee",
+   "needs:all-airmiles-cards",
+   "needs:all-cards-with-dining-promo",
+   "needs:all-cards-with-promotion",
+   "needs:all-cards-with-retail-promo",
+   "needs:all-credit-cards",
+   "needs:all-installment-cards",
+   "needs:all-rewards-cards",
+   "needs:all-travel-cards",
+   "needs:annual-fee-waiver-airmiles",
+   "needs:annual-fee-waiver-travel-cards",
+   "needs:apple-premium-gifts",
+   "needs:free-travel-insurance",
+   "needs:long-tenure-installment",
+   "needs:no-expiry-on-miles",
+   "needs:no-minimum-spend-required-airmiles",
+   "needs:no-minimum-spend-required-rewards",
+   "needs:online-booking-discount",
+   "needs:unlimited-airmiles",
+   "needs:unlimited-reward-points"
+  ],
+  "tag": null,
+  "description": "Enjoy golfing and travel benefits with the Maybank World MasterCard. With this card, you'll enjoy 4 miles per dollar on select merchants, with complimentary green fees all year round at 100 participating golf clubs."
+ }
+}

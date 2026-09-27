@@ -1,0 +1,257 @@
+{
+ "source": "singsaver",
+ "source_id": "dbs-altitude-visa-signature-card",
+ "source_url": "https://www.singsaver.com.sg/credit-card/products/dbs-altitude-visa-signature-card",
+ "name": "DBS Altitude Visa Signature Card",
+ "bank": "DBS",
+ "card_id": "dbs-altitude-visa-signature",
+ "image_url": "https://mhgprod.blob.core.windows.net/singsaver/strapi-uploads/m_DBS_Altitude_Visa_2025_12_cd1dc27f77.webp",
+ "annual_fee": 196.2,
+ "annual_fee_note": "S$ | First Year Waived",
+ "min_annual_income": 30000.0,
+ "earn_rates": {
+  "mpd:hotel_booking": {
+   "value": 2.2,
+   "unit": "mpd",
+   "note": "Up to "
+  },
+  "mpd:local": {
+   "value": 1.3,
+   "unit": "mpd",
+   "note": null
+  },
+  "mpd:flight_booking": {
+   "value": 2.2,
+   "unit": "mpd",
+   "note": "Up to "
+  },
+  "mpd:retail": {
+   "value": 1.3,
+   "unit": "mpd",
+   "note": null
+  },
+  "mpd:dining": {
+   "value": 1.3,
+   "unit": "mpd",
+   "note": null
+  },
+  "mpd:local_online_shopping": {
+   "value": 1.3,
+   "unit": "mpd",
+   "note": null
+  },
+  "mpd:overseas_online_shopping": {
+   "value": 2.2,
+   "unit": "mpd",
+   "note": null
+  },
+  "mpd:department_store": {
+   "value": 1.3,
+   "unit": "mpd",
+   "note": null
+  },
+  "mpd:supermarket": {
+   "value": 1.3,
+   "unit": "mpd",
+   "note": null
+  },
+  "mpd:transport": {
+   "value": 1.3,
+   "unit": "mpd",
+   "note": null
+  },
+  "mpd:petrol": {
+   "value": 1.3,
+   "unit": "mpd",
+   "note": null
+  },
+  "mpd:travel": {
+   "value": 10.0,
+   "unit": "mpd",
+   "note": "Up to | S$1 = 10 miles on hotel transactions on Kaligo; 6 miles per dollar on hotel bookings on Expedia."
+  },
+  "percent:local": {
+   "value": 0.5,
+   "unit": "percent",
+   "note": "(Non-direct Cashback) S$1 local spend = 1.3 miles on all local spend (0.6 DBS Points). $10 cash credit = 1,200 DBS Points. Equivalent to 0.5% cashback."
+  },
+  "percent:overseas": {
+   "value": 0.83,
+   "unit": "percent",
+   "note": "(Non-direct Cashback) S$1 local spend = 2.2 miles on all local spend (1 DBS Point). $10 cash credit = 1,200 DBS Points. Equivalent to 0.83% cashback."
+  },
+  "percent:baseline": {
+   "value": 0.5,
+   "unit": "percent",
+   "note": "(Non-direct Cashback) S$1 local spend = 1.3 miles on all local spend (0.6 DBS Points). $10 cash credit = 1,200 DBS Points. Equivalent to 0.5% cashback."
+  },
+  "mpd:baseline": {
+   "value": 1.3,
+   "unit": "mpd",
+   "note": null
+  },
+  "mpd:overseas": {
+   "value": 2.2,
+   "unit": "mpd",
+   "note": "Up to  | On overseas spend made in foreign currency."
+  }
+ },
+ "caps": {
+  "airmiles_bonus_cap": {
+   "value": null,
+   "note": "No Cap"
+  }
+ },
+ "highlights": [
+  "Up to 2.2 mpd for overseas FCY spend and 1.3 mpd on other local spend.",
+  "pros: Up to 1.3 miles per S$1 spent locally, including bus and train rides.",
+  "pros: Up to 2.2 miles per S$1 spent on overseas purchases in foreign currency.",
+  "pros: Receive 10,000 bonus miles when you pay the annual fee of S$196.20",
+  "pros: 2 free lounge visits within each 12-month period of your membership to over 1,500 airport lounges worldwide.",
+  "pros: Read our full review of the DBS Altitude Card.",
+  "cons: Miles are awarded in the form of DBS points which are awarded for every S$5 spent.",
+  "cons: Each conversion of DBS points to miles will be subjected to an administrative fee of S$25 (exclusive of GST).",
+  "pros: Bonus air miles",
+  "pros: Airport lounge",
+  "pros: No expiry air miles",
+  "pros: Unlimited air miles"
+ ],
+ "sign_up_offers": [
+  {
+   "kind": "welcome_offer",
+   "title": "Stackable Welcome Offer",
+   "offer_id": "SG.2026-04-01.CC.DBSX.CASHLINE.BAU",
+   "valid_from": "2026-08-31T16:00:00Z",
+   "valid_to": "2026-09-30T15:59:00Z",
+   "gifts": [
+    {
+     "title": "Up to S$200 Cashback on Cashline",
+     "value_sgd": 200
+    }
+   ],
+   "terms": "Stackable Welcome Offer promotion is valid from 1 September 2026 to 30 September 2026.\nPromotion is valid for new DBS / POSB credit cardmembers only.\nApply and get approved for selected credit cards from DBS and POSB during the promo period and select “Cashline” in your application on the DBS/POSB website (except foreigners) to be eligible for S$100 cash reward.\nReceive an additional S$100 cash with a minimum S$188 closing balance accumulated for Cashline withdrawals in the first two statement months upon account opening.\nTerms and Conditions\n apply.",
+   "tnc_url": null,
+   "bundle_with": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "kind": "exclusive_offer",
+   "title": "SingSaver Exclusive Offer",
+   "offer_id": "SG.2026-09-17.CC.DBSX.6XCC.288CASH-310GRAB-18KMAXM-MRMINI20-STRAREN-[DYSON-APPLE]",
+   "valid_from": "2026-09-16T16:00:00Z",
+   "valid_to": "2026-09-30T15:59:00Z",
+   "gifts": [
+    {
+     "title": "S$288 Cash via PayNow",
+     "value_sgd": 288
+    },
+    {
+     "title": "S$310 Grab Voucher",
+     "value_sgd": 310
+    },
+    {
+     "title": "18,000 Max Miles by HeyMax (worth S$324)",
+     "value_sgd": 324
+    },
+    {
+     "title": "Morning Mini Coffee Machine + 20 Capsules Bundle (worth S$425)",
+     "value_sgd": 425
+    },
+    {
+     "title": "Samsonite Straren Spinner 67/24 (worth S$600)",
+     "value_sgd": 600
+    },
+    {
+     "title": "Dyson V8 Cyclone Vacuum Cleaner (worth S$559, top up S$150)",
+     "value_sgd": 559
+    },
+    {
+     "title": "Dyson Airstrait™ hair straightener (worth S$799) (Top up S$200)",
+     "value_sgd": 799
+    },
+    {
+     "title": "Sony WH-1000XM6 Headphones (worth S$649) (top up S$200)",
+     "value_sgd": 649
+    },
+    {
+     "title": "Apple iPad (A16) 11\" 128GB WiFi (worth S$649) (Top up S$350)",
+     "value_sgd": 649
+    }
+   ],
+   "terms": "SingSaver Exclusive Offer promotion is valid from 17 September 2026 to 30 September 2026\nPromotion is valid for new DBS / POSB credit cardmembers only.\nApply for selected credit cards from DBS and POSB within the promo period using the promo code \"\nSINGSAVER\n\" during the application and make a min. spend of S$500 within 30 days from card approval date to be eligible for reward.\nHave a valid DBS PayLah! account by the end of the Qualifying Spend period to be eligible for the reward,\nSome rewards will require additional top-up to claim.\nPromotion does not stack with other welcome offers from DBS / POSB.\nTerms and Conditions\n apply.",
+   "tnc_url": null,
+   "bundle_with": []
+  }
+ ],
+ "links": {
+  "apply": "https://www.singsaver.com.sg/apply-v2b/17671"
+ },
+ "citation": {
+  "id": "singsaver:dbbacc539bba",
+  "url": "https://www.singsaver.com.sg/credit-card/products/dbs-altitude-visa-signature-card",
+  "title": "DBS Altitude Visa Signature Card",
+  "source_type": "aggregator",
+  "retrieved_at": "2026-09-27T05:25:19+00:00",
+  "sha256": "dbbacc539bba7758a0c789801ea007758c06a80600e79ae22f53e43e4d42a66a",
+  "snapshot": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-dbs-altitude-visa-signature-card-42aa86c6.html"
+ },
+ "extra": {
+  "network": [
+   "VISA Signature"
+  ],
+  "mobile_wallets": [
+   "Google Pay",
+   "Apple Pay",
+   "Samsung Pay",
+   "NETSPay"
+  ],
+  "fx_fee_percent": 3.25,
+  "miles_conversion_fee": 25.0,
+  "categories": [
+   "category:airmiles",
+   "category:all-credit-cards",
+   "category:buffet-promo",
+   "category:dining-promo",
+   "category:grocery-promo",
+   "category:installment",
+   "category:overseas",
+   "category:petrol-promo",
+   "category:promo",
+   "category:retail-promo",
+   "category:travel",
+   "needs:0-interest-rate",
+   "needs:airport-lounge-transfer",
+   "needs:all-airmiles-cards",
+   "needs:all-cards-with-buffet-promo",
+   "needs:all-cards-with-dining-promo",
+   "needs:all-cards-with-grocery-promo",
+   "needs:all-cards-with-petrol-promo",
+   "needs:all-cards-with-promotion",
+   "needs:all-cards-with-retail-promo",
+   "needs:all-credit-cards",
+   "needs:all-installment-cards",
+   "needs:all-overseas-cards",
+   "needs:all-travel-cards",
+   "needs:annual-fee-waiver-airmiles",
+   "needs:annual-fee-waiver-travel-cards",
+   "needs:bonus-miles",
+   "needs:high-miles-rebate",
+   "needs:long-tenure-installment",
+   "needs:no-minimum-spend-required-airmiles",
+   "needs:online-booking-discount",
+   "needs:unlimited-airmiles"
+  ],
+  "tag": null,
+  "description": "See the world in a new light with the DBS Altitude Visa Signature Card, a travel card that offers attractive miles earn rates of up to 1.3 mpd on local spend, and up to 2.2 mpd on overseas spend."
+ }
+}

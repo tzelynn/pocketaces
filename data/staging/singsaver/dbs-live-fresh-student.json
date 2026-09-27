@@ -1,0 +1,131 @@
+{
+ "source": "singsaver",
+ "source_id": "dbs-live-fresh-student-card",
+ "source_url": "https://www.singsaver.com.sg/credit-card/products/dbs-live-fresh-student-card",
+ "name": "DBS Live Fresh Student Card",
+ "bank": "DBS",
+ "card_id": "dbs-live-fresh-student",
+ "image_url": "https://mhgprod.blob.core.windows.net/singsaver/strapi-uploads/xs_blt68f2b08ef70e4ac6_bc50823e23.webp",
+ "annual_fee": 196.2,
+ "annual_fee_note": "S$ | First Five Years Waived",
+ "earn_rates": {
+  "percent:local": {
+   "value": 10.0,
+   "unit": "percent",
+   "note": "Up to | On McDonald's, Starbucks, Netflix, Spotify etc. Capped at S$15 per month, Additional 5% Green Cashback on selected eco-friendly merchants, Capped at $15 per month."
+  },
+  "percent:dining": {
+   "value": 10.0,
+   "unit": "percent",
+   "note": "Up to | On McDonald's, Starbucks, Netflix, Spotify etc.  Capped at S$15 per month  Additional 5% Green Cashback on selected eco-friendly merchants  Capped at $15 per month."
+  },
+  "percent:retail": {
+   "value": 5.0,
+   "unit": "percent",
+   "note": "On selected eco-friendly merchants  Capped at $15 per month."
+  },
+  "percent:supermarket": {
+   "value": 5.0,
+   "unit": "percent",
+   "note": "On selected eco-friendly merchants  Capped at $15 per month."
+  },
+  "percent:health": {
+   "value": 5.0,
+   "unit": "percent",
+   "note": "On selected eco-friendly merchants  Capped at $15 per month."
+  },
+  "percent:transport": {
+   "value": 5.0,
+   "unit": "percent",
+   "note": "On selected eco-friendly merchants  Capped at $15 per month."
+  },
+  "percent:overseas": {
+   "value": 0.3,
+   "unit": "percent",
+   "note": "Capped at S$20"
+  },
+  "percent:baseline": {
+   "value": 0.3,
+   "unit": "percent",
+   "note": "Capped at S$20"
+  },
+  "percent:contactless_spend": {
+   "value": 5.0,
+   "unit": "percent",
+   "note": "On McDonald's, Starbucks, Netflix, Spotify etc.  Capped at S$15 per month  Additional 5% Green Cashback on selected eco-friendly merchants  Capped at $15 per month."
+  },
+  "percent:local_online_shopping": {
+   "value": 5.0,
+   "unit": "percent",
+   "note": "On selected eco-friendly merchants  Capped at $15 per month."
+  }
+ },
+ "caps": {},
+ "highlights": [
+  "Earn up to 10% cashback on McDonald's, Starbucks, Netflix, Spotify, and more, capped at S$15 per month. You can also earn an additional 5% Green Cashback at selected eco-friendly merchants, also capped at S$15 per month. For all other transactions, earn 0.30% cashback, capped at S$20 per month. Monthly cashback cap of S$50",
+  "pros: Enjoy 5% Cashback on McDonald's, Starbucks, Golden Village, Netflix and Spotify.",
+  "pros: Enjoy additional 5% Green Cashback on selected eco-friendly Eateries, Retailers, and Transport Services.",
+  "pros: 0.3% Cashback on All Other Spend",
+  "pros: 5 Years Annual Fee Waiver",
+  "pros: No minimum spend required",
+  "pros: No minimum income required",
+  "cons: Monthly credit limit of S$500",
+  "cons: Monthly cashback cap of S$50",
+  "pros: Mobile contactless rebate",
+  "pros: Local spending rebate",
+  "pros: No income required",
+  "cons: Rebate cap applied"
+ ],
+ "sign_up_offers": [],
+ "links": {},
+ "citation": {
+  "id": "singsaver:8256c549dc22",
+  "url": "https://www.singsaver.com.sg/credit-card/products/dbs-live-fresh-student-card",
+  "title": "DBS Live Fresh Student Card",
+  "source_type": "aggregator",
+  "retrieved_at": "2026-09-27T05:25:25+00:00",
+  "sha256": "8256c549dc22a39064899ecfdfa89b779f23be589c51e2cf64e02b76edb6a5c4",
+  "snapshot": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-dbs-live-fresh-student-card-5905309a.html"
+ },
+ "extra": {
+  "network": [
+   "VISA Platinum"
+  ],
+  "mobile_wallets": [
+   "Google Pay",
+   "Apple Pay",
+   "Samsung Pay",
+   "NETSPay"
+  ],
+  "fx_fee_percent": 3.25,
+  "miles_conversion_fee": null,
+  "categories": [
+   "category:all-credit-cards",
+   "category:buffet-promo",
+   "category:cashback",
+   "category:dining-promo",
+   "category:grocery-promo",
+   "category:installment",
+   "category:petrol-promo",
+   "category:promo",
+   "category:retail-promo",
+   "category:travel",
+   "needs:0-interest-rate",
+   "needs:0-processing-fee",
+   "needs:all-cards-with-buffet-promo",
+   "needs:all-cards-with-dining-promo",
+   "needs:all-cards-with-grocery-promo",
+   "needs:all-cards-with-petrol-promo",
+   "needs:all-cards-with-promotion",
+   "needs:all-cards-with-retail-promo",
+   "needs:all-cashback-cards",
+   "needs:all-credit-cards",
+   "needs:all-installment-cards",
+   "needs:all-travel-cards",
+   "needs:long-tenure-installment",
+   "needs:online-booking-discount"
+  ],
+  "tag": null,
+  "description": "Tailor-made for the student lifestyle, the DBS Live Fresh Student Card offers a refreshing approach to managing your expenses. Enjoy cashback rewards on your everyday spending, exclusive discounts, and seamless mobile banking."
+ }
+}

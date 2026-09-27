@@ -1,0 +1,202 @@
+{
+ "source": "singsaver",
+ "source_id": "citi-smrt-card",
+ "source_url": "https://www.singsaver.com.sg/credit-card/products/citi-smrt-card",
+ "name": "Citi SMRT Card",
+ "bank": "Citibank",
+ "card_id": "citi-smrt",
+ "image_url": "https://mhgprod.blob.core.windows.net/singsaver/strapi-uploads/l_bltaabea223ec9fda7c_6862b5474b.png",
+ "annual_fee": 196.2,
+ "annual_fee_note": "S$ | First Two Years Waived",
+ "min_annual_income": 30000.0,
+ "min_monthly_spend": 500.0,
+ "earn_rates": {
+  "percent:retail": {
+   "value": 0.3,
+   "unit": "percent",
+   "note": "Excluding accelerated cashback categories"
+  },
+  "percent:local_online_shopping": {
+   "value": 5.0,
+   "unit": "percent",
+   "note": "With a minimum total spend of S$500 per statement month."
+  },
+  "percent:overseas_online_shopping": {
+   "value": 5.0,
+   "unit": "percent",
+   "note": "With a minimum total spend of S$500 per statement month."
+  },
+  "percent:local": {
+   "value": 0.3,
+   "unit": "percent",
+   "note": null
+  },
+  "percent:overseas": {
+   "value": 0.3,
+   "unit": "percent",
+   "note": null
+  },
+  "percent:taxi_ride_sharing": {
+   "value": 5.0,
+   "unit": "percent",
+   "note": "With a minimum total spend of S$500 per statement month."
+  },
+  "percent:supermarket": {
+   "value": 5.0,
+   "unit": "percent",
+   "note": "With a minimum total spend of S$500 per statement month."
+  },
+  "percent:baseline": {
+   "value": 0.3,
+   "unit": "percent",
+   "note": null
+  },
+  "percent:transport": {
+   "value": 5.0,
+   "unit": "percent",
+   "note": "With a minimum total spend of S$500 per statement month."
+  }
+ },
+ "caps": {},
+ "highlights": [
+  "Earn 5% cashback on supermarkets, transport, local online shopping, and overseas online shopping, each with a minimum total spend of S$500 per statement month. Additionally, earn 0.3% cashback as a baseline for local and overseas spending.",
+  "pros: 5% savings on online purchases.",
+  "pros: 5% savings at all supermarkets & grocery stores.",
+  "pros: 5% savings on taxi & public transport rides.",
+  "cons: Minimum monthly spend of S$500 required to get higher cashback rates.",
+  "pros: Public transportation",
+  "pros: Grab/taxi rebate",
+  "pros: Online shopping rebate",
+  "cons: Monthly spend required"
+ ],
+ "sign_up_offers": [
+  {
+   "kind": "exclusive_offer",
+   "title": "SingSaver Flash Deal",
+   "offer_id": "SG.2026-09-24.CC.CITI.6XCC.MYSTERYPHONE-FD",
+   "valid_from": "2026-09-23T16:00:00Z",
+   "valid_to": "2026-09-28T15:59:00Z",
+   "gifts": [
+    {
+     "title": "The latest smartphone (worth over S$1,8xx)",
+     "value_sgd": 1800
+    }
+   ],
+   "terms": "SingSaver Flash Deal promotion runs from 24 September 2026 to 28 September 2026.\nPromotion is valid for new Citi credit cardmembers only.\nBe the first eligible applicant at 3pm and 9pm every day during the flash deal period (2 total winners daily) to apply for select Citi credit cards via SingSaver and meet the min. spend criteria (S$500 within 30 days of card approval) to be eligible for the Flash Deal reward: \nlatest smartphone (worth over S$1,800)\nFlash Deal reward will be received \nin place of\n your selected SingSaver Exclusive Offer reward.\nRemaining applicants will receive the SingSaver Exclusive Offer reward selected in your Rewards Redemption Form.\nTerms and Conditions\n apply.",
+   "tnc_url": null,
+   "bundle_with": []
+  },
+  {
+   "kind": "exclusive_offer",
+   "title": "SingSaver Exclusive Offer",
+   "offer_id": "SG.2026-09-04.CC.CITI.SMRT.400CASH-25KMAXM-ASTRAIT-V8CYC-MCM20CAP-[DYSON-APPLE]",
+   "valid_from": "2026-09-24T16:00:00Z",
+   "valid_to": "2026-09-30T15:59:00Z",
+   "gifts": [
+    {
+     "title": "S$430 Cash via PayNow",
+     "value_sgd": 430
+    },
+    {
+     "title": "The Morning Coffee Machine + 20 Capsules Bundle (worth S$660)",
+     "value_sgd": 660
+    },
+    {
+     "title": "25,000 Max Miles by HeyMax (worth S$450)",
+     "value_sgd": 450
+    },
+    {
+     "title": "Dyson Airstrait™ straightener (worth S$799)",
+     "value_sgd": 799
+    },
+    {
+     "title": "Dyson V8 Cyclone Vacuum Cleaner (worth S$559)",
+     "value_sgd": 559
+    },
+    {
+     "title": "Dyson Airwrap™ multi-styler and dryer (worth S$799) (top up S$100)",
+     "value_sgd": 799
+    },
+    {
+     "title": "Dyson Clean+Wash Hygiene hard floor cleaner (worth S$729) (Top up S$150)",
+     "value_sgd": 729
+    },
+    {
+     "title": "Apple iPad (A16) 11\" 128GB WiFi (worth S$649) (Top up S$200)",
+     "value_sgd": 649
+    },
+    {
+     "title": "Apple Watch Series 12 Aluminum 42mm GPS (worth S$599) (Top-up S$140)",
+     "value_sgd": 599
+    },
+    {
+     "title": "Apple MacBook Neo (A18 Pro) 256GB w/ Magic Keyboard (worth S$999, top up S$550)",
+     "value_sgd": 999
+    },
+    {
+     "title": "Apple iPhone 18 Pro 256GB (worth S$1,899, top up S$1,330)",
+     "value_sgd": 1899
+    }
+   ],
+   "terms": "SingSaver Exclusive Offer promotion runs from 4 September 2026 to 30 September 2026.\nPromotion is valid for new Citi credit cardmembers only.\nApply for participating Citi credit cards and make a min. spend of S$500 within 30 days of card approval to be eligible for reward.\nFastest Reward Fulfilment:\n Receive your reward in as little as \n4 weeks\n!\nTerms and Conditions\n apply.",
+   "tnc_url": "https://singsaver.link/cc-rewards-campaign",
+   "bundle_with": []
+  },
+  {
+   "kind": "bundle_exclusive_offer",
+   "title": "SingSaver Card + Banking Bundle Offer",
+   "offer_id": "SG.2026-09-09.CITI.6XCC-B.500CASH.BUNDLE",
+   "valid_from": "2026-09-08T16:00:00Z",
+   "valid_to": "2026-09-30T15:59:00Z",
+   "gifts": [
+    {
+     "title": "S$500 Cash via PayNow",
+     "value_sgd": 500
+    }
+   ],
+   "terms": "This promotion runs from 9 September 2026 to 30 September 2026.\nEligible applicants must not hold an existing Citi credit card, or have closed one within the past 12 months from card account opening date.\nTo qualify for the S$500 Cash reward, applicants must:\nApply for a participating Citi credit card via SingSaver;\nMake a minimum spend of S$500 within 30 days of card approval; and\nHold a valid Citi banking account (existing or newly opened) by the end of the month following card approval.\nThe S$500 Cash reward replaces the standard SingSaver exclusive reward for your card—you receive one or the other, not the both. The S$500 Cash amount is the same regardless of which card you apply for.\nParticipating Citi banking account types are:\nExisting Citi banking relationship includes \nCitigold\n, \nCitigold Private Client\n, \nCiti Plus\n, \nCiti Priority\n, \nCitibanking\nNew Citi banking relationship is applicable for \nCitigold\n, \nCitigold Private Client\n, \nCiti Plus\nNew banking customers who open a Citigold account through SingSaver may qualify for an additional SingSaver Exclusive welcome gift (worth up to S$1,500 Cash or Apple iPhone 17)—this is a separate offer from the credit card reward (additional T&Cs apply).\nIn case you choose the S$500 cash reward option and there is no banking relationship by the last day of the following month from your card application date but you meet the criteria for the credit card only reward, you will get the default cash reward available for your chosen card on application date.\nTerms and Conditions\n apply.",
+   "tnc_url": null,
+   "bundle_with": [
+    "SG.CC.CITI.CITIBANK-M1-PLATINUM-VISA-CARD",
+    "SG.CC.CITI.CITI-SMRT-CARD",
+    "SG.CC.CITI.CITI-REWARDS-CARD"
+   ]
+  }
+ ],
+ "links": {
+  "apply": "https://www.singsaver.com.sg/apply-v3/17795"
+ },
+ "citation": {
+  "id": "singsaver:9c6affbada2c",
+  "url": "https://www.singsaver.com.sg/credit-card/products/citi-smrt-card",
+  "title": "Citi SMRT Card",
+  "source_type": "aggregator",
+  "retrieved_at": "2026-09-27T05:25:14+00:00",
+  "sha256": "9c6affbada2c551d58bc9fcd40f1858050e8ddb9f8f027ae029461de437ba70f",
+  "snapshot": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-citi-smrt-card-eb4a032a.html"
+ },
+ "extra": {
+  "network": [
+   "VISA Platinum"
+  ],
+  "mobile_wallets": [
+   "Google Pay",
+   "Apple Pay",
+   "Samsung Pay"
+  ],
+  "fx_fee_percent": 3.25,
+  "miles_conversion_fee": 25.0,
+  "categories": [
+   "category:all-credit-cards",
+   "category:cashback",
+   "category:dining-promo",
+   "category:grocery-promo",
+   "needs:all-cards-with-dining-promo",
+   "needs:all-cards-with-grocery-promo",
+   "needs:all-cashback-cards",
+   "needs:all-credit-cards"
+  ],
+  "tag": "Best for groceries, transport, daily savings",
+  "description": "Enjoy 5% savings on all groceries, online purchases, and transportation spend with the Citi SMRT Card. SMRT$ points are earned when you spend, which you can redeem for cash rebates or shopping vouchers."
+ }
+}

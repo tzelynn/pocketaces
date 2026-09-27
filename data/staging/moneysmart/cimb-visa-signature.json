@@ -1,0 +1,77 @@
+{
+ "source": "moneysmart",
+ "source_id": "cimb-visa-signature",
+ "source_url": "https://www.moneysmart.sg/credit-cards/cimb-visa-signature",
+ "name": "CIMB Visa Signature",
+ "bank": "CIMB",
+ "card_id": "cimb-visa-signature",
+ "image_url": "https://photos.cdn-moneysmart.com/credit_cards/uploads/products/images/image_url_2021-09-29_Details - Logo - CIMB Visa Signature.png",
+ "annual_fee": 0.0,
+ "earn_rates": {},
+ "caps": {},
+ "highlights": [
+  "Up to 10% Cash Back on Beauty & Wellness, Online Shopping, Groceries",
+  "800 Min. spend per month to qualify for the 10% Cash Back",
+  "100 Cash Back Cap per month",
+  "10% Cashback on Beauty & Wellness, Online Shopping, Groceries, Pet Shops & Veterniary Services, Cruises",
+  "To qualify for the 10% cashback, you must spend at least S$800, posted in the same statement month.",
+  "Complimentary Travel Insurance up to S$500,000",
+  "Visa Signature Concierge",
+  "No annual fees for life",
+  "Apply for up to 4 supplementary cards and have annual fees waived for all supplementary cards",
+  "Access to over 1,000 regional deals with discounts up to 50%",
+  "At MoneySmart, we strive to keep our information accurate and up to date. This information may be different from what you see when you visit a financial institution, service provider, or specific product site. MoneySmart shall not be liable to compensate the Customer should the information is not as updated as our Partner."
+ ],
+ "sign_up_offers": [],
+ "links": {
+  "product": "https://www.moneysmart.sg/credit-cards/cimb-visa-signature"
+ },
+ "citation": {
+  "id": "moneysmart:42909b088c22",
+  "url": "https://www.moneysmart.sg/credit-cards?page=2",
+  "title": "CIMB Visa Signature",
+  "source_type": "aggregator",
+  "retrieved_at": "2026-09-27T05:27:14+00:00",
+  "sha256": "42909b088c22cb063c120b532d19af920cb3535c52f6bfc313193c6c6ea14746",
+  "snapshot": "data/raw/moneysmart/credit-cards-p2-5f055203.html"
+ },
+ "extra": {
+  "summary": "No annual fee for life. Advertises one of the highest cash back at 10%, but only for selected categories and limited by cashback cap.",
+  "badges": [
+   "Earn up to 10% cashback"
+  ],
+  "network": [
+   "Visa"
+  ],
+  "mobile_wallets": [
+   "Visa Contactless",
+   "Samsung Pay"
+  ],
+  "groups": {
+   "annual-interest-rate-and-fees": {
+    "Annual Interest Rate": "27.80",
+    "Annual Principal Fee": "0",
+    "Supplementary Annual Fee": "Free",
+    "Fee Waiver": "Available",
+    "Minimum Monthly Repayment": "3% or S$50, whichever is higher",
+    "Interest Free Period": "23 days"
+   },
+   "minimum-income-requirements": {
+    "Singaporean/PR Minimum Annual Income": "30000"
+   },
+   "card-association": {
+    "Visa": "true"
+   },
+   "wireless-payment": {
+    "Visa Contactless": "true",
+    "Samsung Pay": "true"
+   }
+  },
+  "our_takes": {
+   "our-take": "The CIMB Visa Signature targets online shoppers and those frequenting beauty, wellness, and pet-related establishments. To unlock the 10% cashback, you'll need to hit a monthly spend of $800, with cashback capped at $20 per category and $100 overall. It makes sense if your spending aligns with the bonus categories. Otherwise, a general cashback card might be a better fit given the high minimum spend.",
+   "good-for": "Ideal for young professionals seeking cashback on online shopping, groceries, and beauty/wellness purchases.\nGreat for pet owners who frequently spend on pet shop items and veterinary services.\nSuited for individuals who can meet the minimum S$800 monthly spend to maximize cashback.",
+   "things-to-note": "A minimum spend of $800 is needed each month; otherwise, you won't receive cashback rewards.\nCashback is capped at $20 per category, limiting your total potential earnings each statement month.\nA high 27.80% annual interest rate applies if you don't pay your balance in full monthly."
+  },
+  "updated_at": "2025-04-21T22:23:38+08:00"
+ }
+}

@@ -1,0 +1,141 @@
+# Curated card record. Auto-drafted from staged sources; verify every value against the
+# official T&Cs (citations below), then set review.status: reviewed.
+id: citi-smrt
+bank: Citibank
+name: Citi SMRT Card
+image_url: https://mhgprod.blob.core.windows.net/singsaver/strapi-uploads/l_bltaabea223ec9fda7c_6862b5474b.png
+official_url: https://www.citibank.com.sg/credit-cards/cashback/smrt-credit-card
+annual_fee:
+  amount:
+    amount: 196.2
+    currency: SGD
+  waiver_notes: S$ | First Two Years Waived
+  sources: ['singsaver:9c6affbada2c']
+min_annual_income:
+  amount: 30000.0
+  currency: SGD
+reward_currency:
+  kind: cashback
+  name: Cashback
+earn_rules:
+- id: local-online-shopping
+  label: local online shopping, overseas online shopping, taxi ride sharing, supermarket, transport (SingSaver
+    — verify)
+  rate: 5.0
+  unit: percent
+  tier: bonus
+  eligibility:
+    include_mcc: ['5411']
+    description: With a minimum total spend of S$500 per statement month. [include_mcc auto-extracted
+      from official T&C — check it belongs to this rule]
+    sources: ['singsaver:9c6affbada2c', 'bank:c190661d8a48', 'bank:b81a08ff9609', 'bank:c190661d8a48',
+      'bank:472e40f873ba']
+  conditions:
+  - 'aggregator categories: ride_hailing, groceries, transport'
+  sources: ['singsaver:9c6affbada2c']
+- id: retail
+  label: retail, local, overseas (SingSaver — verify)
+  rate: 0.3
+  unit: percent
+  tier: bonus
+  eligibility:
+    tags: [shopping]
+    description: Excluding accelerated cashback categories
+    sources: ['singsaver:9c6affbada2c']
+  sources: ['singsaver:9c6affbada2c']
+- id: base
+  label: baseline (SingSaver — verify)
+  rate: 0.3
+  unit: percent
+  tier: base
+  eligibility:
+    all_spend: true
+    description: ''
+    sources: ['singsaver:9c6affbada2c']
+  sources: ['singsaver:9c6affbada2c']
+general_exclusions:
+  exclude_mcc: [3000-3350, 3351-3500, 3501-3999, '4111', '4112', '4121', '4131', '4411', '4511', '4722',
+    '4789', '5962', '7011', '7512']
+  description: Auto-extracted from official T&Cs — confirm each code applies to this card
+  sources: ['bank:c190661d8a48', 'bank:b81a08ff9609', 'bank:c190661d8a48', 'bank:472e40f873ba']
+sign_up_bonuses:
+- offered_by: singsaver
+  description: 'SingSaver Flash Deal: choice of The latest smartphone (worth over S$1,8xx)'
+  valid_from: '2026-09-23'
+  valid_to: '2026-09-28'
+  url: https://www.singsaver.com.sg/credit-card/products/citi-smrt-card
+  sources: ['singsaver:9c6affbada2c']
+- offered_by: singsaver
+  description: 'SingSaver Exclusive Offer: choice of S$430 Cash via PayNow; The Morning Coffee Machine
+    + 20 Capsules Bundle (worth S$660); 25,000 Max Miles by HeyMax (worth S$450); Dyson Airstrait™ straightener
+    (worth S$799); Dyson V8 Cyclone Vacuum Cleaner (worth S$559); Dyson Airwrap™ multi-styler and dryer
+    (worth S$799) (top up S$100); Dyson Clean+Wash Hygiene hard floor cleaner (worth S$729) (Top up S$150);
+    Apple iPad (A16) 11" 128GB WiFi (worth S$649) (Top up S$200); Apple Watch Series 12 Aluminum 42mm
+    GPS (worth S$599) (Top-up S$140); Apple MacBook Neo (A18 Pro) 256GB w/ Magic Keyboard (worth S$999,
+    top up S$550); Apple iPhone 18 Pro 256GB (worth S$1,899, top up S$1,330)'
+  value:
+    amount: 430.0
+    currency: SGD
+  valid_from: '2026-09-24'
+  valid_to: '2026-09-30'
+  url: https://singsaver.link/cc-rewards-campaign
+  sources: ['singsaver:9c6affbada2c']
+- offered_by: singsaver
+  description: 'SingSaver Card + Banking Bundle Offer: choice of S$500 Cash via PayNow'
+  value:
+    amount: 500.0
+    currency: SGD
+  valid_from: '2026-09-08'
+  valid_to: '2026-09-30'
+  url: https://www.singsaver.com.sg/credit-card/products/citi-smrt-card
+  sources: ['singsaver:9c6affbada2c']
+- offered_by: moneysmart
+  description: 'Choice of: S$400 Cash via PayNow; Shopee Voucher $450; Apple iPhone 18 Pro (256GB, Burgundy);
+    Apple AirPods Pro 3; Apple Watch Series 12, 42mm (GPS, Black Aluminium Case with Black Sport Band);
+    Sony WH-1000XM6 Wireless Noise Cancelling Headphones (Black). Terms: • Apply for a Citi Card by 30th
+    Sept 2026
+
+    • Spend a min. of S$500 within 30 days
+
+    • Submit the Claim Form by 30th Oct 2026'
+  url: https://www.moneysmart.sg/credit-cards/citibank-smrt-platinum-visa-card
+  sources: ['moneysmart:eeee24fb93a9']
+notes:
+- 'T&C mentions (check whether excluded): annual fee, balance transfer, bill payment, cash advance, education,
+  government, grabpay, instalment, interest, ipp, late payment charge, tax, top-ups'
+citations:
+- id: singsaver:9c6affbada2c
+  url: https://www.singsaver.com.sg/credit-card/products/citi-smrt-card
+  title: Citi SMRT Card
+  source_type: aggregator
+  retrieved_at: '2026-09-27T05:25:14+00:00'
+  sha256: 9c6affbada2c551d58bc9fcd40f1858050e8ddb9f8f027ae029461de437ba70f
+  snapshot: data/raw/singsaver/www-singsaver-com-sg-credit-card-products-citi-smrt-card-eb4a032a.html
+- id: moneysmart:eeee24fb93a9
+  url: https://www.moneysmart.sg/credit-cards
+  title: Citi SMRT Card
+  source_type: aggregator
+  retrieved_at: '2026-09-27T05:27:12+00:00'
+  sha256: eeee24fb93a9d85ef8b9194c11bda960b5b99ee30b3689cdc59fb650badebce7
+  snapshot: data/raw/moneysmart/credit-cards-p1-b55034ef.html
+- id: bank:c190661d8a48
+  url: https://www.citibank.com.sg/credit-cards/cashback/smrt-credit-card/pdf/citi-smrt-rewards-program.pdf
+  source_type: official
+  retrieved_at: '2026-09-27T08:36:31+00:00'
+  sha256: c190661d8a48d615baad891dcec18026e490e8428927acd4444979fe7abda828
+  snapshot: data/raw/bank/www-citibank-com-sg-credit-cards-cashback-smrt-credit-card-pdf-citi-smrt-rewards-program-pdf-7690b53e.pdf
+- id: bank:b81a08ff9609
+  url: https://www.citibank.com.sg/pdf/credit-cards/cashback/smrt-credit-card/my-ringgit-spend-promo.pdf
+  source_type: official
+  retrieved_at: '2026-09-27T08:36:29+00:00'
+  sha256: b81a08ff9609b469674a32e75651fbd4a74368588821865a83021f65858a6381
+  snapshot: data/raw/bank/www-citibank-com-sg-pdf-credit-cards-cashback-smrt-credit-card-my-ringgit-spend-promo-pdf-5d7d14a5.pdf
+- id: bank:472e40f873ba
+  url: https://www.citibank.com.sg/credit-cards/pdf/chargeback-dispute.pdf
+  source_type: official
+  retrieved_at: '2026-09-27T08:36:33+00:00'
+  sha256: 472e40f873baccd449fa577b73e5fad5cb7d75baccd88b038e0898bfeaf387f2
+  snapshot: data/raw/bank/www-citibank-com-sg-credit-cards-pdf-chargeback-dispute-pdf-092d6126.pdf
+review:
+  status: draft
+updated_at: '2026-09-27'

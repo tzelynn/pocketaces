@@ -1,0 +1,3576 @@
+{
+ "card_id": "krisflyer-uob",
+ "product_pages": [
+  {
+   "id": "bank:a9494d44f9b4",
+   "url": "https://www.uob.com.sg/personal/cards/travel/krisflyer-card.page",
+   "source_type": "official",
+   "retrieved_at": "2026-09-27T08:37:25+00:00",
+   "sha256": "a9494d44f9b47321b618d3ed0cc3ce4fce5c98ccc9f0f7920cbc7d311d7724cf",
+   "snapshot": "data/raw/bank/www-uob-com-sg-personal-cards-travel-krisflyer-card-page-0e760907.html"
+  }
+ ],
+ "documents": [
+  {
+   "url": "https://www.uob.com.sg/assets/pdfs/kf_credit_card_full_tnc.pdf",
+   "citation": {
+    "id": "bank:177cfca919e0",
+    "url": "https://www.uob.com.sg/assets/pdfs/kf_credit_card_full_tnc.pdf",
+    "source_type": "official",
+    "retrieved_at": "2026-09-27T08:37:26+00:00",
+    "sha256": "177cfca919e04bcf2ba40f848d6bccec278033cfa7f9c9df6c7d8b7bf743ae4c",
+    "snapshot": "data/raw/bank/www-uob-com-sg-assets-pdfs-kf-credit-card-full-tnc-pdf-abd86fb9.pdf"
+   },
+   "text_path": "data/raw/bank/www-uob-com-sg-assets-pdfs-kf-credit-card-full-tnc-pdf-abd86fb9.txt",
+   "sha256": "177cfca919e04bcf2ba40f848d6bccec278033cfa7f9c9df6c7d8b7bf743ae4c",
+   "changed": false,
+   "new": false,
+   "no_text_layer": false,
+   "effective_dates": [
+    "1 June 2025",
+    "15 July 2019"
+   ],
+   "mcc": {
+    "include": [
+     "4121",
+     "4816",
+     "4829",
+     "4900",
+     "5199",
+     "5262",
+     "5306",
+     "5309",
+     "5310",
+     "5311",
+     "5331",
+     "5399",
+     "5611",
+     "5621",
+     "5631",
+     "5641",
+     "5651",
+     "5661",
+     "5691",
+     "5699",
+     "5732",
+     "5733",
+     "5734",
+     "5735",
+     "5912",
+     "5942",
+     "5944-5949",
+     "5960",
+     "5964-5969",
+     "5965",
+     "5970",
+     "5992",
+     "5993",
+     "5999",
+     "6012",
+     "6050",
+     "6051",
+     "6211",
+     "6300",
+     "6399",
+     "6513",
+     "6529",
+     "6530",
+     "6534",
+     "6540",
+     "7278",
+     "7349",
+     "7511",
+     "7523",
+     "7995",
+     "8011",
+     "8062",
+     "8099",
+     "8211",
+     "8220",
+     "8241",
+     "8244",
+     "8249",
+     "8299",
+     "8398",
+     "8651",
+     "8661",
+     "8699",
+     "8999",
+     "9211",
+     "9222",
+     "9223",
+     "9311",
+     "9399",
+     "9402",
+     "9405"
+    ],
+    "exclude": [
+     "4121",
+     "5812",
+     "5813",
+     "5814"
+    ],
+    "unknown": [],
+    "conflicting": [
+     "4121"
+    ],
+    "unrecognised": [
+     "5306",
+     "6529",
+     "6530",
+     "6534"
+    ],
+    "hits": [
+     {
+      "code": "4829",
+      "polarity": "include",
+      "page": 4,
+      "line": "4829 Wire Transfer / Remittance (wef 16 March 2020)",
+      "reason": "following Merchant Category Codes (\u201cMCC\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "4900",
+      "polarity": "include",
+      "page": 4,
+      "line": "4900 Utilities (wef from 1 August 2022)",
+      "reason": "following Merchant Category Codes (\u201cMCC\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "5199",
+      "polarity": "include",
+      "page": 4,
+      "line": "5199 Nondurable Goods (wef 16 March 2020)",
+      "reason": "following Merchant Category Codes (\u201cMCC\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "5960",
+      "polarity": "include",
+      "page": 4,
+      "line": "5960 Direct Marketing \u2013 Insurance Services (wef 16 March 2020)",
+      "reason": "following Merchant Category Codes (\u201cMCC\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "5965",
+      "polarity": "include",
+      "page": 4,
+      "line": "5965 Direct marketing \u2013 Combination Catalog and Retail Merchants",
+      "reason": "following Merchant Category Codes (\u201cMCC\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "5993",
+      "polarity": "include",
+      "page": 4,
+      "line": "5993 Cigar Stores and Stands (wef 1 October 2024)",
+      "reason": "following Merchant Category Codes (\u201cMCC\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "6012",
+      "polarity": "include",
+      "page": 4,
+      "line": "6012 Member Financial Institution \u2013 Merchandise and Services",
+      "reason": "following Merchant Category Codes (\u201cMCC\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "6050",
+      "polarity": "include",
+      "page": 4,
+      "line": "6050 Quasi Cash \u2013 Financial Institutions, Merchandise and Services (wef",
+      "reason": "following Merchant Category Codes (\u201cMCC\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "6051",
+      "polarity": "include",
+      "page": 4,
+      "line": "6051 Quasi Cash \u2013 Merchant (Non-Financial Institutions \u2013 Foreign",
+      "reason": "following Merchant Category Codes (\u201cMCC\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "6211",
+      "polarity": "include",
+      "page": 4,
+      "line": "6211 Securities \u2013 Brokers and Dealers",
+      "reason": "following Merchant Category Codes (\u201cMCC\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "6300",
+      "polarity": "include",
+      "page": 4,
+      "line": "6300 Insurance Sales / Underwrite",
+      "reason": "following Merchant Category Codes (\u201cMCC\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "6399",
+      "polarity": "include",
+      "page": 5,
+      "line": "6399 Insurance",
+      "reason": "following Merchant Category Codes (\u201cMCC\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "6513",
+      "polarity": "include",
+      "page": 5,
+      "line": "6513 Real Estate Agents & Managers \u2013 Rentals (wef 16 March 2020)",
+      "reason": "following Merchant Category Codes (\u201cMCC\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "6529",
+      "polarity": "include",
+      "page": 5,
+      "line": "6529 Quasi Cash \u2013 Remote Stored Value Load-Financial Institute Rentals",
+      "reason": "following Merchant Category Codes (\u201cMCC\u201d):",
+      "in_reference": false
+     },
+     {
+      "code": "6530",
+      "polarity": "include",
+      "page": 5,
+      "line": "6530 Quasi Cash-Remote Stored Value Load \u2013 Merchant Rentals (wef 16",
+      "reason": "following Merchant Category Codes (\u201cMCC\u201d):",
+      "in_reference": false
+     },
+     {
+      "code": "6534",
+      "polarity": "include",
+      "page": 5,
+      "line": "6534 Quasi Cash \u2013 Remote Money Transfers (wef 16 March 2020)",
+      "reason": "following Merchant Category Codes (\u201cMCC\u201d):",
+      "in_reference": false
+     },
+     {
+      "code": "6540",
+      "polarity": "include",
+      "page": 5,
+      "line": "6540 Stored Value Card Purchase/Load",
+      "reason": "following Merchant Category Codes (\u201cMCC\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "7349",
+      "polarity": "include",
+      "page": 5,
+      "line": "7349 Clean/Maint/Janitorial Serv aka Property Management (wef 16",
+      "reason": "following Merchant Category Codes (\u201cMCC\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "7511",
+      "polarity": "include",
+      "page": 5,
+      "line": "7511 Quasi Cash \u2013 Truck Stop Trxns (wef 16 March 2020)",
+      "reason": "following Merchant Category Codes (\u201cMCC\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "7523",
+      "polarity": "include",
+      "page": 5,
+      "line": "7523 Automobile Parking Lots and Garages (wef 1 February 2021)",
+      "reason": "following Merchant Category Codes (\u201cMCC\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "7995",
+      "polarity": "include",
+      "page": 5,
+      "line": "7995 Gambling \u2013 Betting, including Lottery Tickets, Casino Gaming",
+      "reason": "following Merchant Category Codes (\u201cMCC\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "8062",
+      "polarity": "include",
+      "page": 5,
+      "line": "8062 Hospitals (wef 1 February 2021)",
+      "reason": "following Merchant Category Codes (\u201cMCC\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "8011",
+      "polarity": "include",
+      "page": 5,
+      "line": "8011 Doctors\u2013not elsewhere classified (wef 1 August 2022)",
+      "reason": "following Merchant Category Codes (\u201cMCC\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "8099",
+      "polarity": "include",
+      "page": 5,
+      "line": "8099 Health Practitioners, Medical Services \u2013 Not Classified Elsewhere",
+      "reason": "following Merchant Category Codes (\u201cMCC\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "8211",
+      "polarity": "include",
+      "page": 5,
+      "line": "8211 Schools, Elementary and Secondary",
+      "reason": "following Merchant Category Codes (\u201cMCC\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "8220",
+      "polarity": "include",
+      "page": 5,
+      "line": "8220 Colleges, Universities, Professional Schools and Junior Colleges",
+      "reason": "following Merchant Category Codes (\u201cMCC\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "8241",
+      "polarity": "include",
+      "page": 5,
+      "line": "8241 Schools, Correspondence",
+      "reason": "following Merchant Category Codes (\u201cMCC\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "8244",
+      "polarity": "include",
+      "page": 5,
+      "line": "8244 Schools, Business and Secretarial",
+      "reason": "following Merchant Category Codes (\u201cMCC\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "8249",
+      "polarity": "include",
+      "page": 5,
+      "line": "8249 Schools, Trade and Vocational",
+      "reason": "following Merchant Category Codes (\u201cMCC\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "8299",
+      "polarity": "include",
+      "page": 5,
+      "line": "8299 Schools and Educational Services \u2013 Not Elsewhere Classified",
+      "reason": "following Merchant Category Codes (\u201cMCC\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "8398",
+      "polarity": "include",
+      "page": 5,
+      "line": "8398 Organizations, Charitable and Social Service",
+      "reason": "following Merchant Category Codes (\u201cMCC\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "8651",
+      "polarity": "include",
+      "page": 5,
+      "line": "8651 Organizations, Political",
+      "reason": "following Merchant Category Codes (\u201cMCC\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "8661",
+      "polarity": "include",
+      "page": 5,
+      "line": "8661 Organizations, Religious",
+      "reason": "following Merchant Category Codes (\u201cMCC\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "8699",
+      "polarity": "include",
+      "page": 5,
+      "line": "8699 Membership Organizations (Not Elsewhere Classified) (wef 1",
+      "reason": "following Merchant Category Codes (\u201cMCC\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "8999",
+      "polarity": "include",
+      "page": 5,
+      "line": "8999 Professional Services (Not Elsewhere Classified) (wef 1 October",
+      "reason": "following Merchant Category Codes (\u201cMCC\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "9211",
+      "polarity": "include",
+      "page": 5,
+      "line": "9211 Court Costs including Alimony and Child Support",
+      "reason": "following Merchant Category Codes (\u201cMCC\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "9222",
+      "polarity": "include",
+      "page": 5,
+      "line": "9222 Fines",
+      "reason": "following Merchant Category Codes (\u201cMCC\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "9223",
+      "polarity": "include",
+      "page": 5,
+      "line": "9223 Bail and Bond Payments",
+      "reason": "following Merchant Category Codes (\u201cMCC\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "9311",
+      "polarity": "include",
+      "page": 5,
+      "line": "9311 Tax Payment",
+      "reason": "following Merchant Category Codes (\u201cMCC\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "9399",
+      "polarity": "include",
+      "page": 5,
+      "line": "9399 Government Services \u2013 not elsewhere classified",
+      "reason": "following Merchant Category Codes (\u201cMCC\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "9402",
+      "polarity": "include",
+      "page": 5,
+      "line": "9402 Postal Services \u2013 Government Only",
+      "reason": "following Merchant Category Codes (\u201cMCC\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "9405",
+      "polarity": "include",
+      "page": 5,
+      "line": "9405 Intra-Government Purchases \u2013 Government Only",
+      "reason": "following Merchant Category Codes (\u201cMCC\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "5812",
+      "polarity": "exclude",
+      "page": 19,
+      "line": "Eating places and 5812, 5813 and 5814",
+      "reason": "the exclusions set out above.",
+      "in_reference": true
+     },
+     {
+      "code": "5813",
+      "polarity": "exclude",
+      "page": 19,
+      "line": "Eating places and 5812, 5813 and 5814",
+      "reason": "the exclusions set out above.",
+      "in_reference": true
+     },
+     {
+      "code": "5814",
+      "polarity": "exclude",
+      "page": 19,
+      "line": "Eating places and 5812, 5813 and 5814",
+      "reason": "the exclusions set out above.",
+      "in_reference": true
+     },
+     {
+      "code": "4121",
+      "polarity": "exclude",
+      "page": 19,
+      "line": "and Foodpanda) 4121",
+      "reason": "the exclusions set out above.",
+      "in_reference": true
+     },
+     {
+      "code": "4816",
+      "polarity": "include",
+      "page": 19,
+      "line": "Online Shopping 4816, 5262 (wef 1 April 2021), 5306, 5309, 5310, 5311, 5331,",
+      "reason": "any one of the following Merchant Category Codes (MCC). UOB determines an online",
+      "in_reference": true
+     },
+     {
+      "code": "5262",
+      "polarity": "include",
+      "page": 19,
+      "line": "Online Shopping 4816, 5262 (wef 1 April 2021), 5306, 5309, 5310, 5311, 5331,",
+      "reason": "any one of the following Merchant Category Codes (MCC). UOB determines an online",
+      "in_reference": true
+     },
+     {
+      "code": "5306",
+      "polarity": "include",
+      "page": 19,
+      "line": "Online Shopping 4816, 5262 (wef 1 April 2021), 5306, 5309, 5310, 5311, 5331,",
+      "reason": "any one of the following Merchant Category Codes (MCC). UOB determines an online",
+      "in_reference": false
+     },
+     {
+      "code": "5309",
+      "polarity": "include",
+      "page": 19,
+      "line": "Online Shopping 4816, 5262 (wef 1 April 2021), 5306, 5309, 5310, 5311, 5331,",
+      "reason": "any one of the following Merchant Category Codes (MCC). UOB determines an online",
+      "in_reference": true
+     },
+     {
+      "code": "5310",
+      "polarity": "include",
+      "page": 19,
+      "line": "Online Shopping 4816, 5262 (wef 1 April 2021), 5306, 5309, 5310, 5311, 5331,",
+      "reason": "any one of the following Merchant Category Codes (MCC). UOB determines an online",
+      "in_reference": true
+     },
+     {
+      "code": "5311",
+      "polarity": "include",
+      "page": 19,
+      "line": "Online Shopping 4816, 5262 (wef 1 April 2021), 5306, 5309, 5310, 5311, 5331,",
+      "reason": "any one of the following Merchant Category Codes (MCC). UOB determines an online",
+      "in_reference": true
+     },
+     {
+      "code": "5331",
+      "polarity": "include",
+      "page": 19,
+      "line": "Online Shopping 4816, 5262 (wef 1 April 2021), 5306, 5309, 5310, 5311, 5331,",
+      "reason": "any one of the following Merchant Category Codes (MCC). UOB determines an online",
+      "in_reference": true
+     },
+     {
+      "code": "5399",
+      "polarity": "include",
+      "page": 19,
+      "line": "5399, 5611, 5621, 5631, 5641, 5651, 5661, 5691, 5699, 5732,",
+      "reason": "any one of the following Merchant Category Codes (MCC). UOB determines an online",
+      "in_reference": true
+     },
+     {
+      "code": "5611",
+      "polarity": "include",
+      "page": 19,
+      "line": "5399, 5611, 5621, 5631, 5641, 5651, 5661, 5691, 5699, 5732,",
+      "reason": "any one of the following Merchant Category Codes (MCC). UOB determines an online",
+      "in_reference": true
+     },
+     {
+      "code": "5621",
+      "polarity": "include",
+      "page": 19,
+      "line": "5399, 5611, 5621, 5631, 5641, 5651, 5661, 5691, 5699, 5732,",
+      "reason": "any one of the following Merchant Category Codes (MCC). UOB determines an online",
+      "in_reference": true
+     },
+     {
+      "code": "5631",
+      "polarity": "include",
+      "page": 19,
+      "line": "5399, 5611, 5621, 5631, 5641, 5651, 5661, 5691, 5699, 5732,",
+      "reason": "any one of the following Merchant Category Codes (MCC). UOB determines an online",
+      "in_reference": true
+     },
+     {
+      "code": "5641",
+      "polarity": "include",
+      "page": 19,
+      "line": "5399, 5611, 5621, 5631, 5641, 5651, 5661, 5691, 5699, 5732,",
+      "reason": "any one of the following Merchant Category Codes (MCC). UOB determines an online",
+      "in_reference": true
+     },
+     {
+      "code": "5651",
+      "polarity": "include",
+      "page": 19,
+      "line": "5399, 5611, 5621, 5631, 5641, 5651, 5661, 5691, 5699, 5732,",
+      "reason": "any one of the following Merchant Category Codes (MCC). UOB determines an online",
+      "in_reference": true
+     },
+     {
+      "code": "5661",
+      "polarity": "include",
+      "page": 19,
+      "line": "5399, 5611, 5621, 5631, 5641, 5651, 5661, 5691, 5699, 5732,",
+      "reason": "any one of the following Merchant Category Codes (MCC). UOB determines an online",
+      "in_reference": true
+     },
+     {
+      "code": "5691",
+      "polarity": "include",
+      "page": 19,
+      "line": "5399, 5611, 5621, 5631, 5641, 5651, 5661, 5691, 5699, 5732,",
+      "reason": "any one of the following Merchant Category Codes (MCC). UOB determines an online",
+      "in_reference": true
+     },
+     {
+      "code": "5699",
+      "polarity": "include",
+      "page": 19,
+      "line": "5399, 5611, 5621, 5631, 5641, 5651, 5661, 5691, 5699, 5732,",
+      "reason": "any one of the following Merchant Category Codes (MCC). UOB determines an online",
+      "in_reference": true
+     },
+     {
+      "code": "5732",
+      "polarity": "include",
+      "page": 19,
+      "line": "5399, 5611, 5621, 5631, 5641, 5651, 5661, 5691, 5699, 5732,",
+      "reason": "any one of the following Merchant Category Codes (MCC). UOB determines an online",
+      "in_reference": true
+     },
+     {
+      "code": "5944-5949",
+      "polarity": "include",
+      "page": 19,
+      "line": "5733, 5735, 5912, 5942, 5944-5949, 5999, 7278 (only for",
+      "reason": "any one of the following Merchant Category Codes (MCC). UOB determines an online",
+      "in_reference": null
+     },
+     {
+      "code": "5733",
+      "polarity": "include",
+      "page": 19,
+      "line": "5733, 5735, 5912, 5942, 5944-5949, 5999, 7278 (only for",
+      "reason": "any one of the following Merchant Category Codes (MCC). UOB determines an online",
+      "in_reference": true
+     },
+     {
+      "code": "5735",
+      "polarity": "include",
+      "page": 19,
+      "line": "5733, 5735, 5912, 5942, 5944-5949, 5999, 7278 (only for",
+      "reason": "any one of the following Merchant Category Codes (MCC). UOB determines an online",
+      "in_reference": true
+     },
+     {
+      "code": "5912",
+      "polarity": "include",
+      "page": 19,
+      "line": "5733, 5735, 5912, 5942, 5944-5949, 5999, 7278 (only for",
+      "reason": "any one of the following Merchant Category Codes (MCC). UOB determines an online",
+      "in_reference": true
+     },
+     {
+      "code": "5942",
+      "polarity": "include",
+      "page": 19,
+      "line": "5733, 5735, 5912, 5942, 5944-5949, 5999, 7278 (only for",
+      "reason": "any one of the following Merchant Category Codes (MCC). UOB determines an online",
+      "in_reference": true
+     },
+     {
+      "code": "5999",
+      "polarity": "include",
+      "page": 19,
+      "line": "5733, 5735, 5912, 5942, 5944-5949, 5999, 7278 (only for",
+      "reason": "any one of the following Merchant Category Codes (MCC). UOB determines an online",
+      "in_reference": true
+     },
+     {
+      "code": "7278",
+      "polarity": "include",
+      "page": 19,
+      "line": "5733, 5735, 5912, 5942, 5944-5949, 5999, 7278 (only for",
+      "reason": "any one of the following Merchant Category Codes (MCC). UOB determines an online",
+      "in_reference": true
+     },
+     {
+      "code": "5734",
+      "polarity": "include",
+      "page": 19,
+      "line": "payment made to Computer Software Stores (5734) ,",
+      "reason": "any one of the following Merchant Category Codes (MCC). UOB determines an online",
+      "in_reference": true
+     },
+     {
+      "code": "5964-5969",
+      "polarity": "include",
+      "page": 19,
+      "line": "Direct Marketing Merchants (5964 \u2013 5969), Artist Supply",
+      "reason": "any one of the following Merchant Category Codes (MCC). UOB determines an online",
+      "in_reference": null
+     },
+     {
+      "code": "5970",
+      "polarity": "include",
+      "page": 20,
+      "line": "Stores, Craft Shops (5970) and Florists (5992) are excluded",
+      "reason": "any one of the following Merchant Category Codes (MCC). UOB determines an online",
+      "in_reference": true
+     },
+     {
+      "code": "5992",
+      "polarity": "include",
+      "page": 20,
+      "line": "Stores, Craft Shops (5970) and Florists (5992) are excluded",
+      "reason": "any one of the following Merchant Category Codes (MCC). UOB determines an online",
+      "in_reference": true
+     },
+     {
+      "code": "4121",
+      "polarity": "include",
+      "page": 21,
+      "line": "Taxis and ride hailing 4121",
+      "reason": "any one of the following Merchant Category Codes (MCC). UOB determines an online",
+      "in_reference": true
+     }
+    ]
+   },
+   "transaction_modes": {
+    "online": [
+     "1.6 With effect from 1 June 2025, an additional 6 KrisFlyer miles will be awarded for every Singapore Five Dollars (S$5) spent (equivalent to 1.2 KrisFlyer miles per dollar) (\u201cAccelerated Miles\u201d) on Dining, Online Shopping, Online Travel and Transport Card Transactions with a minimum required sum of Singapore One Thousand Dollars (S$1,000) on Singapore Airlines Group Related Card Transactions char",
+     "For the avoidance of doubt, Dining, Online Shopping, Online Travel and Transport Card Transactions that are posted on or prior to 31 May 2025 will continue to be awarded an additional 9 KrisFlyer miles for every Singapore Five Dollars (S$5) spent (equivalent to 1.8 KrisFlyer miles per dollar) provided that the annual spend condition for Singapore Airlines Group Related Transactions is being met.",
+     "1.7 In summary, the benefits in Clauses 1.1 to 1.6 above are set out in the table below: KrisFlyer Miles earned Accelerated Miles per S$5 spent earned upon fulfilment of the conditions set out in Clause 1.6 All other spend 6 KrisFlyer miles - (equivalent to 1.2 KrisFlyer miles per Singapore Dollar) Dining, Online 6 KrisFlyer miles W.e.f.",
+     "1 June 2025, an Shopping, Online (equivalent to 1.2 additional 6 KrisFlyer Travel and Transport KrisFlyer miles per miles Card Transactions Singapore Dollar) (equivalent to 1.2 KrisFlyer miles per Singapore dollar) If transaction posted on or prior to 31 May 2025, an additional 9 KrisFlyer miles (equivalent to 1.8 KrisFlyer miles per dollar) Singapore Airlines 15 KrisFlyer miles - Group Related Ca",
+     "193500026Z ## RESTRICTED ## determines an online retail transaction based on system indicators.",
+     "Category Merchant Category Codes (MCC) or transaction description1 Eating places and 5812, 5813 and 5814 Restaurants, Bars and Fast food restaurants Online food DELIVEROO* delivery (Grab DELIVERY HERO* Food, Deliveroo FOODPANDA* and Foodpanda) 4121 PAYPAL *DELIVEROOSI (wef 1 April 2021) PAYPAL *FOODPANDASG (wef 1 April 2021) \u201cKrisFlyer programme\u201d means the frequent flyer programme operated by Sing",
+     "\u201cOnline Shopping\u201d means the Card Transaction(s) made at fashion websites that sells clothes, shoes, jewellery, accessories and bags as its main business activity including card-not-present transactions like ecommerce/mail/phone order transactions in local and foreign currencies, provided that such merchant fall within any one of the following Merchant Category Codes (MCC).",
+     "UOB determines an online retail transaction based on system indicators.",
+     "Category Merchant Category Codes (MCC) Online Shopping 4816, 5262 (wef 1 April 2021), 5306, 5309, 5310, 5311, 5331, 5399, 5611, 5621, 5631, 5641, 5651, 5661, 5691, 5699, 5732, 5733, 5735, 5912, 5942, 5944-5949, 5999, 7278 (only for Shopee, Lazada and Qoo10;",
+     "wef 1 Apr 2021) Note: WEF 1 July 2020, please be informed that any online payment made to Computer Software Stores (5734) , Direct Marketing Merchants (5964 \u2013 5969), Artist Supply United Overseas Bank Limited Co.",
+     "\u201cOnline Travel\u201d means the Card Transaction(s) made at the following merchants via their official websites or mobile applications bearing the corresponding transaction descriptions.",
+     "UOB determines an online transaction based on system indicators.",
+     "\u201cServices\u201d includes UOB ATM Service and UOB Internet Banking Service and any other services or facilities offered via electronic means in or outside Singapore."
+    ],
+    "in_app": [
+     "(b) Each new Kris+ user must successfully make a minimum payment of Singapore Five Dollars (S$5) via Apple Pay or Google PayTM via the payment function in the Kris+ app at any Kris+ partner with Kris+ payment enabled, or by purchasing a Kris+ in-app voucher."
+    ],
+    "mobile_wallet": [
+     "b) paid directly using your KrisFlyer UOB Credit Card by entering your card details at checkout and not via any digital wallet or mobile payment method (including but not limited to Apple Pay or Google Pay or similar platforms);",
+     "(b) Each new Kris+ user must successfully make a minimum payment of Singapore Five Dollars (S$5) via Apple Pay or Google PayTM via the payment function in the Kris+ app at any Kris+ partner with Kris+ payment enabled, or by purchasing a Kris+ in-app voucher."
+    ],
+    "foreign_currency": [
+     "TERMS AND CONDITIONS GOVERNING KRISFLYER UNITED OVERSEAS BANK LIMITED (\u201cUOB\u201d) CREDIT CARD This document sets out the general terms and conditions governing the KrisFlyer UOB Credit Card issued by us (\u201cCard\u201d or \u201cKrisFlyer UOB Credit Card\u201d) which we may provide to you from time to time.",
+     "1.4 With effect from 1 June 2025, 15 KrisFlyer miles will be awarded for every Singapore Five Dollars (S$5) spent (equivalent to 3 KrisFlyer miles per United Overseas Bank Limited Co.",
+     "Existing and new KrisFlyer UOB Credit Cardmembers whose Card Membership Year ends: \u2022 between April 2021 and August 2022 will require minimum annual spend of Singapore Three Hundred Dollars (S$300) on Singapore United Overseas Bank Limited Co.",
+     "1 June 2025, an Shopping, Online (equivalent to 1.2 additional 6 KrisFlyer Travel and Transport KrisFlyer miles per miles Card Transactions Singapore Dollar) (equivalent to 1.2 KrisFlyer miles per Singapore dollar) If transaction posted on or prior to 31 May 2025, an additional 9 KrisFlyer miles (equivalent to 1.8 KrisFlyer miles per dollar) Singapore Airlines 15 KrisFlyer miles - Group Related Ca",
+     "1.10 KrisFlyer miles will not be awarded for transactions bearing the following Merchant Category Codes (\u201cMCC\u201d): MCC Description 4829 Wire Transfer / Remittance (wef 16 March 2020) 4900 Utilities (wef from 1 August 2022) 5199 Nondurable Goods (wef 16 March 2020) 5960 Direct Marketing \u2013 Insurance Services (wef 16 March 2020) 5965 Direct marketing \u2013 Combination Catalog and Retail Merchants (wef 1 Oc",
+     "UOB shall not United Overseas Bank Limited Co.",
+     "United Overseas Bank Limited Co.",
+     "For the purposes of this clause, \u201ctotal eligible spend\u201d United Overseas Bank Limited Co.",
+     "United Overseas Bank Limited Co.",
+     "For the avoidance of doubt, this benefit applies to the Principal Cardmember only, and does not extend to United Overseas Bank Limited Co.",
+     "United Overseas Bank Limited Co.",
+     "United Overseas Bank Limited Co.",
+     "United Overseas Bank Limited Co.",
+     "7.8 For the avoidance of doubt, any KrisFlyer member who has either logged in to the Kris+ app outside of the Campaign Period or did not input the referral code United Overseas Bank Limited Co.",
+     "9 Fees for Foreign Currency Transactions and Transactions Processed Outside Singapore 1 Transaction made in foreign currency:- United Overseas Bank Limited Co."
+    ],
+    "local_currency": [
+     "193500026Z ## RESTRICTED ## means all transactions (whether processed inside or outside of Singapore and/or effected in a foreign or local currency), including instalment payment plans, which are successfully captured and posted to your Card Account BUT shall exclude the excluded transactions listed under the Exclusion section in Clauses 0 to 1.14 above.",
+     "193500026Z ## RESTRICTED ## (a) (i) Non-SGD, non-USD and non The transaction will be converted AUD transaction;",
+     "at the prevailing exchange rates of the relevant credit card company, first to USD, then to SGD;",
+     "OR (ii) USD or AUD transaction: The transaction will be converted to SGD at the prevailing exchange rates of the relevant credit card company;",
+     "(b) Non-SGD transaction;",
+     "2 Transaction made in SGD and processed outside Singapore:- SGD transaction processed An International Processing fee of outside of Singapore 1% of the transaction amount will be levied.",
+     "Deposit Insurance Scheme Singapore dollar deposits of non-bank depositors and monies and deposits denominated in Singapore dollars under the Supplementary Retirement Scheme are insured by the Singapore Deposit Insurance Corporation, for up to S$100,000 in aggregate per depositor per scheme member by law.",
+     "Monies and deposits denominated in Singapore dollars under the CPF Investment Scheme and CPF Retirement Sum Scheme are aggregated and separately insured up to S$100,000 for each depositor per Scheme member."
+    ]
+   },
+   "non_mcc_exclusions": [
+    "annual fee",
+    "axs",
+    "cash advance",
+    "charit",
+    "education",
+    "government",
+    "hospital",
+    "instalment",
+    "interest",
+    "ipaymy",
+    "ipp",
+    "tax",
+    "top-ups",
+    "utilit",
+    "youtrip"
+   ]
+  },
+  {
+   "url": "https://www.uob.com.sg/assets/pdfs/kfcc-acq-tnc.pdf?i_cid=pfs:sg:owned:int:site:na:li:na:na:na-evergreen:direct:na&vid=none",
+   "citation": {
+    "id": "bank:1951b0cae71a",
+    "url": "https://www.uob.com.sg/assets/pdfs/kfcc-acq-tnc.pdf?i_cid=pfs:sg:owned:int:site:na:li:na:na:na-evergreen:direct:na&vid=none",
+    "source_type": "official",
+    "retrieved_at": "2026-09-27T08:37:28+00:00",
+    "sha256": "1951b0cae71a242ec00df837075a204ca9bbb750ef57b15f5f51a9e4dff83555",
+    "snapshot": "data/raw/bank/www-uob-com-sg-assets-pdfs-kfcc-acq-tnc-pdf-472bc309.pdf"
+   },
+   "text_path": "data/raw/bank/www-uob-com-sg-assets-pdfs-kfcc-acq-tnc-pdf-472bc309.txt",
+   "sha256": "1951b0cae71a242ec00df837075a204ca9bbb750ef57b15f5f51a9e4dff83555",
+   "changed": false,
+   "new": false,
+   "no_text_layer": false,
+   "effective_dates": [],
+   "mcc": {
+    "include": [
+     "4829",
+     "4900",
+     "5199",
+     "5960",
+     "5965",
+     "5993",
+     "6012",
+     "6050",
+     "6051",
+     "6211",
+     "6300",
+     "6399",
+     "6513",
+     "6529",
+     "6530",
+     "6534",
+     "6540",
+     "7349",
+     "7511",
+     "7523",
+     "7995",
+     "8011",
+     "8062",
+     "8099",
+     "8211",
+     "8220",
+     "8241",
+     "8244",
+     "8249",
+     "8299",
+     "8398",
+     "8651",
+     "8661",
+     "8699",
+     "8999",
+     "9211",
+     "9222",
+     "9223",
+     "9311",
+     "9399",
+     "9402",
+     "9405"
+    ],
+    "exclude": [],
+    "unknown": [],
+    "conflicting": [],
+    "unrecognised": [
+     "6529",
+     "6530",
+     "6534"
+    ],
+    "hits": [
+     {
+      "code": "4829",
+      "polarity": "include",
+      "page": 2,
+      "line": "4829 Wire Transfer / Remittance",
+      "reason": "(xii) Any transaction classified under one or more of the following Merchant",
+      "in_reference": true
+     },
+     {
+      "code": "4900",
+      "polarity": "include",
+      "page": 2,
+      "line": "4900 Utilities",
+      "reason": "(xii) Any transaction classified under one or more of the following Merchant",
+      "in_reference": true
+     },
+     {
+      "code": "5199",
+      "polarity": "include",
+      "page": 2,
+      "line": "5199 Nondurable Goods",
+      "reason": "(xii) Any transaction classified under one or more of the following Merchant",
+      "in_reference": true
+     },
+     {
+      "code": "5960",
+      "polarity": "include",
+      "page": 2,
+      "line": "5960 Direct Marketing \u2013 Insurance Services",
+      "reason": "(xii) Any transaction classified under one or more of the following Merchant",
+      "in_reference": true
+     },
+     {
+      "code": "5965",
+      "polarity": "include",
+      "page": 2,
+      "line": "5965 Direct marketing \u2013Combination Catalog and Retail Merchants",
+      "reason": "(xii) Any transaction classified under one or more of the following Merchant",
+      "in_reference": true
+     },
+     {
+      "code": "5993",
+      "polarity": "include",
+      "page": 2,
+      "line": "5993 Cigar Stores and Stands (wef 1 Oct 2024)",
+      "reason": "(xii) Any transaction classified under one or more of the following Merchant",
+      "in_reference": true
+     },
+     {
+      "code": "6012",
+      "polarity": "include",
+      "page": 2,
+      "line": "6012 Member Financial Institution \u2013 Merchandise and Services",
+      "reason": "(xii) Any transaction classified under one or more of the following Merchant",
+      "in_reference": true
+     },
+     {
+      "code": "6050",
+      "polarity": "include",
+      "page": 2,
+      "line": "6050 Quasi Cash \u2013 Financial Institutions, Merchandise and Services",
+      "reason": "(xii) Any transaction classified under one or more of the following Merchant",
+      "in_reference": true
+     },
+     {
+      "code": "6051",
+      "polarity": "include",
+      "page": 2,
+      "line": "6051 Quasi Cash \u2013 Merchant (Non-Financial Institutions \u2013 Foreign",
+      "reason": "(xii) Any transaction classified under one or more of the following Merchant",
+      "in_reference": true
+     },
+     {
+      "code": "6211",
+      "polarity": "include",
+      "page": 2,
+      "line": "6211 Securities \u2013 Brokers and Dealers",
+      "reason": "(xii) Any transaction classified under one or more of the following Merchant",
+      "in_reference": true
+     },
+     {
+      "code": "6300",
+      "polarity": "include",
+      "page": 2,
+      "line": "6300 Insurance Sales / Underwrite",
+      "reason": "(xii) Any transaction classified under one or more of the following Merchant",
+      "in_reference": true
+     },
+     {
+      "code": "6399",
+      "polarity": "include",
+      "page": 2,
+      "line": "6399 Insurance",
+      "reason": "(xii) Any transaction classified under one or more of the following Merchant",
+      "in_reference": true
+     },
+     {
+      "code": "6513",
+      "polarity": "include",
+      "page": 2,
+      "line": "6513 Real Estate Agents & Managers \u2013 Rentals",
+      "reason": "(xii) Any transaction classified under one or more of the following Merchant",
+      "in_reference": true
+     },
+     {
+      "code": "6529",
+      "polarity": "include",
+      "page": 2,
+      "line": "6529 Quasi Cash \u2013 Remote Stored Value Load-Financial Institute",
+      "reason": "(xii) Any transaction classified under one or more of the following Merchant",
+      "in_reference": false
+     },
+     {
+      "code": "6530",
+      "polarity": "include",
+      "page": 2,
+      "line": "6530 Quasi Cash-Remote Stored Value Load \u2013 Merchant Rentals",
+      "reason": "(xii) Any transaction classified under one or more of the following Merchant",
+      "in_reference": false
+     },
+     {
+      "code": "6534",
+      "polarity": "include",
+      "page": 3,
+      "line": "6534 Quasi Cash \u2013 Remote Money Transfers",
+      "reason": "(xii) Any transaction classified under one or more of the following Merchant",
+      "in_reference": false
+     },
+     {
+      "code": "6540",
+      "polarity": "include",
+      "page": 3,
+      "line": "6540 Stored Value Card Purchase/Load",
+      "reason": "(xii) Any transaction classified under one or more of the following Merchant",
+      "in_reference": true
+     },
+     {
+      "code": "7349",
+      "polarity": "include",
+      "page": 3,
+      "line": "7349 Clean/Maint/Janitorial Serv aka Property Management",
+      "reason": "(xii) Any transaction classified under one or more of the following Merchant",
+      "in_reference": true
+     },
+     {
+      "code": "7511",
+      "polarity": "include",
+      "page": 3,
+      "line": "7511 Quasi Cash \u2013 Truck Stop Trxns",
+      "reason": "(xii) Any transaction classified under one or more of the following Merchant",
+      "in_reference": true
+     },
+     {
+      "code": "7523",
+      "polarity": "include",
+      "page": 3,
+      "line": "7523 Automobile Parking Lots and Garages",
+      "reason": "(xii) Any transaction classified under one or more of the following Merchant",
+      "in_reference": true
+     },
+     {
+      "code": "7995",
+      "polarity": "include",
+      "page": 3,
+      "line": "7995 Gambling \u2013 Betting, including Lottery Tickets, Casino Gaming",
+      "reason": "(xii) Any transaction classified under one or more of the following Merchant",
+      "in_reference": true
+     },
+     {
+      "code": "8062",
+      "polarity": "include",
+      "page": 3,
+      "line": "8062 Hospitals",
+      "reason": "(xii) Any transaction classified under one or more of the following Merchant",
+      "in_reference": true
+     },
+     {
+      "code": "8011",
+      "polarity": "include",
+      "page": 3,
+      "line": "8011 Doctors\u2013not elsewhere classified",
+      "reason": "(xii) Any transaction classified under one or more of the following Merchant",
+      "in_reference": true
+     },
+     {
+      "code": "8099",
+      "polarity": "include",
+      "page": 3,
+      "line": "8099 Health Practitioners, Medical Services \u2013 Not Classified Elsewhere",
+      "reason": "(xii) Any transaction classified under one or more of the following Merchant",
+      "in_reference": true
+     },
+     {
+      "code": "8211",
+      "polarity": "include",
+      "page": 3,
+      "line": "8211 Schools, Elementary and Secondary",
+      "reason": "(xii) Any transaction classified under one or more of the following Merchant",
+      "in_reference": true
+     },
+     {
+      "code": "8220",
+      "polarity": "include",
+      "page": 3,
+      "line": "8220 Colleges, Universities, Professional Schools and Junior Colleges",
+      "reason": "(xii) Any transaction classified under one or more of the following Merchant",
+      "in_reference": true
+     },
+     {
+      "code": "8241",
+      "polarity": "include",
+      "page": 3,
+      "line": "8241 Schools, Correspondence",
+      "reason": "(xii) Any transaction classified under one or more of the following Merchant",
+      "in_reference": true
+     },
+     {
+      "code": "8244",
+      "polarity": "include",
+      "page": 3,
+      "line": "8244 Schools, Business and Secretarial",
+      "reason": "(xii) Any transaction classified under one or more of the following Merchant",
+      "in_reference": true
+     },
+     {
+      "code": "8249",
+      "polarity": "include",
+      "page": 3,
+      "line": "8249 Schools, Trade and Vocational",
+      "reason": "(xii) Any transaction classified under one or more of the following Merchant",
+      "in_reference": true
+     },
+     {
+      "code": "8299",
+      "polarity": "include",
+      "page": 3,
+      "line": "8299 Schools and Educational Services \u2013 Not Elsewhere Classified",
+      "reason": "(xii) Any transaction classified under one or more of the following Merchant",
+      "in_reference": true
+     },
+     {
+      "code": "8398",
+      "polarity": "include",
+      "page": 3,
+      "line": "8398 Organizations, Charitable and Social Service",
+      "reason": "(xii) Any transaction classified under one or more of the following Merchant",
+      "in_reference": true
+     },
+     {
+      "code": "8651",
+      "polarity": "include",
+      "page": 3,
+      "line": "8651 Organizations, Political",
+      "reason": "(xii) Any transaction classified under one or more of the following Merchant",
+      "in_reference": true
+     },
+     {
+      "code": "8661",
+      "polarity": "include",
+      "page": 3,
+      "line": "8661 Organizations, Religious",
+      "reason": "(xii) Any transaction classified under one or more of the following Merchant",
+      "in_reference": true
+     },
+     {
+      "code": "8699",
+      "polarity": "include",
+      "page": 3,
+      "line": "8699 Membership Organizations (Not Elsewhere Classified) (wef 1 Oct",
+      "reason": "(xii) Any transaction classified under one or more of the following Merchant",
+      "in_reference": true
+     },
+     {
+      "code": "8999",
+      "polarity": "include",
+      "page": 3,
+      "line": "8999 Professional Services (Not Elsewhere Classified) (wef 1 Oct 2024)",
+      "reason": "(xii) Any transaction classified under one or more of the following Merchant",
+      "in_reference": true
+     },
+     {
+      "code": "9211",
+      "polarity": "include",
+      "page": 3,
+      "line": "9211 Court Costs including Alimony and Child Support",
+      "reason": "(xii) Any transaction classified under one or more of the following Merchant",
+      "in_reference": true
+     },
+     {
+      "code": "9222",
+      "polarity": "include",
+      "page": 3,
+      "line": "9222 Fines",
+      "reason": "(xii) Any transaction classified under one or more of the following Merchant",
+      "in_reference": true
+     },
+     {
+      "code": "9223",
+      "polarity": "include",
+      "page": 3,
+      "line": "9223 Bail and Bond Payments",
+      "reason": "(xii) Any transaction classified under one or more of the following Merchant",
+      "in_reference": true
+     },
+     {
+      "code": "9311",
+      "polarity": "include",
+      "page": 3,
+      "line": "9311 Tax Payment",
+      "reason": "(xii) Any transaction classified under one or more of the following Merchant",
+      "in_reference": true
+     },
+     {
+      "code": "9399",
+      "polarity": "include",
+      "page": 3,
+      "line": "9399 Government Services \u2013 not elsewhere classified",
+      "reason": "(xii) Any transaction classified under one or more of the following Merchant",
+      "in_reference": true
+     },
+     {
+      "code": "9402",
+      "polarity": "include",
+      "page": 3,
+      "line": "9402 Postal Services \u2013 Government Only",
+      "reason": "(xii) Any transaction classified under one or more of the following Merchant",
+      "in_reference": true
+     },
+     {
+      "code": "9405",
+      "polarity": "include",
+      "page": 3,
+      "line": "9405 Intra-Government Purchases \u2013 Government Only",
+      "reason": "(xii) Any transaction classified under one or more of the following Merchant",
+      "in_reference": true
+     }
+    ]
+   },
+   "transaction_modes": {
+    "online": [
+     "193500026Z ## RESTRICTED ## transmission or transaction or any delay or failure in posting any transaction or accessing any of UOB\u2019s online banking services or mobile banking services or third party applications, howsoever caused."
+    ],
+    "foreign_currency": [
+     "This Promotion is only open to individuals who are new to United Overseas Bank Limited (\u201cUOB\u201d) credit cards.",
+     "(xii) Any transaction classified under one or more of the following Merchant Category Codes (the \u201cMCC\u201d): MCC Description 4829 Wire Transfer / Remittance 4900 Utilities 5199 Nondurable Goods 5960 Direct Marketing \u2013 Insurance Services 5965 Direct marketing \u2013Combination Catalog and Retail Merchants (wef 1 Oct 2024) 5993 Cigar Stores and Stands (wef 1 Oct 2024) 6012 Member Financial Institution \u2013 Merc",
+     "193500026Z ## RESTRICTED ## 6534 Quasi Cash \u2013 Remote Money Transfers 6540 Stored Value Card Purchase/Load 7349 Clean/Maint/Janitorial Serv aka Property Management 7511 Quasi Cash \u2013 Truck Stop Trxns 7523 Automobile Parking Lots and Garages 7995 Gambling \u2013 Betting, including Lottery Tickets, Casino Gaming Chips, Off-Track Betting, and Wagers at Race Tracks 8062 Hospitals 8011 Doctors\u2013not elsewhere c",
+     "2.2 If you are eligible to receive the Gift, the Gift will be credited to, and reflected in, your KrisFlyer membership account that is successfully linked to your eligible KrisFlyer UOB Credit Card account by the applicable dates as set out in the table below (or such other date as UOB and Singapore Airlines may determine in their sole discretion): United Overseas Bank Limited Co.",
+     "United Overseas Bank Limited Co.",
+     "Without limiting the foregoing, UOB will not be liable or responsible for any undelivered, misdirected, corrupted, lost or delayed text, United Overseas Bank Limited Co.",
+     "Updated: February 2025 United Overseas Bank Limited Co."
+    ],
+    "local_currency": [
+     "(c) Eligible Transactions made in foreign currencies will be converted into Singapore dollars based on UOB\u2019s then prevailing exchange rate applicable at the time of exchange."
+    ]
+   },
+   "non_mcc_exclusions": [
+    "annual fee",
+    "axs",
+    "cash advance",
+    "charit",
+    "education",
+    "government",
+    "hospital",
+    "instalment",
+    "interest",
+    "ipaymy",
+    "ipp",
+    "tax",
+    "top-ups",
+    "utilit",
+    "youtrip"
+   ]
+  },
+  {
+   "url": "https://www.uob.com.sg/assets/pdfs/kf_credit_card_full_tnc.pdf?i_cid=pfs:sg:owned:int:site:na:li:na:001812:070119-evergreen:direct:na&vid=none",
+   "citation": {
+    "id": "bank:177cfca919e0",
+    "url": "https://www.uob.com.sg/assets/pdfs/kf_credit_card_full_tnc.pdf?i_cid=pfs:sg:owned:int:site:na:li:na:001812:070119-evergreen:direct:na&vid=none",
+    "source_type": "official",
+    "retrieved_at": "2026-09-27T08:37:30+00:00",
+    "sha256": "177cfca919e04bcf2ba40f848d6bccec278033cfa7f9c9df6c7d8b7bf743ae4c",
+    "snapshot": "data/raw/bank/www-uob-com-sg-assets-pdfs-kf-credit-card-full-tnc-pdf-70a95c51.pdf"
+   },
+   "text_path": "data/raw/bank/www-uob-com-sg-assets-pdfs-kf-credit-card-full-tnc-pdf-70a95c51.txt",
+   "sha256": "177cfca919e04bcf2ba40f848d6bccec278033cfa7f9c9df6c7d8b7bf743ae4c",
+   "changed": false,
+   "new": false,
+   "no_text_layer": false,
+   "effective_dates": [
+    "1 June 2025",
+    "15 July 2019"
+   ],
+   "mcc": {
+    "include": [
+     "4121",
+     "4816",
+     "4829",
+     "4900",
+     "5199",
+     "5262",
+     "5306",
+     "5309",
+     "5310",
+     "5311",
+     "5331",
+     "5399",
+     "5611",
+     "5621",
+     "5631",
+     "5641",
+     "5651",
+     "5661",
+     "5691",
+     "5699",
+     "5732",
+     "5733",
+     "5734",
+     "5735",
+     "5912",
+     "5942",
+     "5944-5949",
+     "5960",
+     "5964-5969",
+     "5965",
+     "5970",
+     "5992",
+     "5993",
+     "5999",
+     "6012",
+     "6050",
+     "6051",
+     "6211",
+     "6300",
+     "6399",
+     "6513",
+     "6529",
+     "6530",
+     "6534",
+     "6540",
+     "7278",
+     "7349",
+     "7511",
+     "7523",
+     "7995",
+     "8011",
+     "8062",
+     "8099",
+     "8211",
+     "8220",
+     "8241",
+     "8244",
+     "8249",
+     "8299",
+     "8398",
+     "8651",
+     "8661",
+     "8699",
+     "8999",
+     "9211",
+     "9222",
+     "9223",
+     "9311",
+     "9399",
+     "9402",
+     "9405"
+    ],
+    "exclude": [
+     "4121",
+     "5812",
+     "5813",
+     "5814"
+    ],
+    "unknown": [],
+    "conflicting": [
+     "4121"
+    ],
+    "unrecognised": [
+     "5306",
+     "6529",
+     "6530",
+     "6534"
+    ],
+    "hits": [
+     {
+      "code": "4829",
+      "polarity": "include",
+      "page": 4,
+      "line": "4829 Wire Transfer / Remittance (wef 16 March 2020)",
+      "reason": "following Merchant Category Codes (\u201cMCC\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "4900",
+      "polarity": "include",
+      "page": 4,
+      "line": "4900 Utilities (wef from 1 August 2022)",
+      "reason": "following Merchant Category Codes (\u201cMCC\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "5199",
+      "polarity": "include",
+      "page": 4,
+      "line": "5199 Nondurable Goods (wef 16 March 2020)",
+      "reason": "following Merchant Category Codes (\u201cMCC\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "5960",
+      "polarity": "include",
+      "page": 4,
+      "line": "5960 Direct Marketing \u2013 Insurance Services (wef 16 March 2020)",
+      "reason": "following Merchant Category Codes (\u201cMCC\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "5965",
+      "polarity": "include",
+      "page": 4,
+      "line": "5965 Direct marketing \u2013 Combination Catalog and Retail Merchants",
+      "reason": "following Merchant Category Codes (\u201cMCC\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "5993",
+      "polarity": "include",
+      "page": 4,
+      "line": "5993 Cigar Stores and Stands (wef 1 October 2024)",
+      "reason": "following Merchant Category Codes (\u201cMCC\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "6012",
+      "polarity": "include",
+      "page": 4,
+      "line": "6012 Member Financial Institution \u2013 Merchandise and Services",
+      "reason": "following Merchant Category Codes (\u201cMCC\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "6050",
+      "polarity": "include",
+      "page": 4,
+      "line": "6050 Quasi Cash \u2013 Financial Institutions, Merchandise and Services (wef",
+      "reason": "following Merchant Category Codes (\u201cMCC\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "6051",
+      "polarity": "include",
+      "page": 4,
+      "line": "6051 Quasi Cash \u2013 Merchant (Non-Financial Institutions \u2013 Foreign",
+      "reason": "following Merchant Category Codes (\u201cMCC\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "6211",
+      "polarity": "include",
+      "page": 4,
+      "line": "6211 Securities \u2013 Brokers and Dealers",
+      "reason": "following Merchant Category Codes (\u201cMCC\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "6300",
+      "polarity": "include",
+      "page": 4,
+      "line": "6300 Insurance Sales / Underwrite",
+      "reason": "following Merchant Category Codes (\u201cMCC\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "6399",
+      "polarity": "include",
+      "page": 5,
+      "line": "6399 Insurance",
+      "reason": "following Merchant Category Codes (\u201cMCC\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "6513",
+      "polarity": "include",
+      "page": 5,
+      "line": "6513 Real Estate Agents & Managers \u2013 Rentals (wef 16 March 2020)",
+      "reason": "following Merchant Category Codes (\u201cMCC\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "6529",
+      "polarity": "include",
+      "page": 5,
+      "line": "6529 Quasi Cash \u2013 Remote Stored Value Load-Financial Institute Rentals",
+      "reason": "following Merchant Category Codes (\u201cMCC\u201d):",
+      "in_reference": false
+     },
+     {
+      "code": "6530",
+      "polarity": "include",
+      "page": 5,
+      "line": "6530 Quasi Cash-Remote Stored Value Load \u2013 Merchant Rentals (wef 16",
+      "reason": "following Merchant Category Codes (\u201cMCC\u201d):",
+      "in_reference": false
+     },
+     {
+      "code": "6534",
+      "polarity": "include",
+      "page": 5,
+      "line": "6534 Quasi Cash \u2013 Remote Money Transfers (wef 16 March 2020)",
+      "reason": "following Merchant Category Codes (\u201cMCC\u201d):",
+      "in_reference": false
+     },
+     {
+      "code": "6540",
+      "polarity": "include",
+      "page": 5,
+      "line": "6540 Stored Value Card Purchase/Load",
+      "reason": "following Merchant Category Codes (\u201cMCC\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "7349",
+      "polarity": "include",
+      "page": 5,
+      "line": "7349 Clean/Maint/Janitorial Serv aka Property Management (wef 16",
+      "reason": "following Merchant Category Codes (\u201cMCC\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "7511",
+      "polarity": "include",
+      "page": 5,
+      "line": "7511 Quasi Cash \u2013 Truck Stop Trxns (wef 16 March 2020)",
+      "reason": "following Merchant Category Codes (\u201cMCC\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "7523",
+      "polarity": "include",
+      "page": 5,
+      "line": "7523 Automobile Parking Lots and Garages (wef 1 February 2021)",
+      "reason": "following Merchant Category Codes (\u201cMCC\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "7995",
+      "polarity": "include",
+      "page": 5,
+      "line": "7995 Gambling \u2013 Betting, including Lottery Tickets, Casino Gaming",
+      "reason": "following Merchant Category Codes (\u201cMCC\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "8062",
+      "polarity": "include",
+      "page": 5,
+      "line": "8062 Hospitals (wef 1 February 2021)",
+      "reason": "following Merchant Category Codes (\u201cMCC\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "8011",
+      "polarity": "include",
+      "page": 5,
+      "line": "8011 Doctors\u2013not elsewhere classified (wef 1 August 2022)",
+      "reason": "following Merchant Category Codes (\u201cMCC\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "8099",
+      "polarity": "include",
+      "page": 5,
+      "line": "8099 Health Practitioners, Medical Services \u2013 Not Classified Elsewhere",
+      "reason": "following Merchant Category Codes (\u201cMCC\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "8211",
+      "polarity": "include",
+      "page": 5,
+      "line": "8211 Schools, Elementary and Secondary",
+      "reason": "following Merchant Category Codes (\u201cMCC\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "8220",
+      "polarity": "include",
+      "page": 5,
+      "line": "8220 Colleges, Universities, Professional Schools and Junior Colleges",
+      "reason": "following Merchant Category Codes (\u201cMCC\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "8241",
+      "polarity": "include",
+      "page": 5,
+      "line": "8241 Schools, Correspondence",
+      "reason": "following Merchant Category Codes (\u201cMCC\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "8244",
+      "polarity": "include",
+      "page": 5,
+      "line": "8244 Schools, Business and Secretarial",
+      "reason": "following Merchant Category Codes (\u201cMCC\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "8249",
+      "polarity": "include",
+      "page": 5,
+      "line": "8249 Schools, Trade and Vocational",
+      "reason": "following Merchant Category Codes (\u201cMCC\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "8299",
+      "polarity": "include",
+      "page": 5,
+      "line": "8299 Schools and Educational Services \u2013 Not Elsewhere Classified",
+      "reason": "following Merchant Category Codes (\u201cMCC\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "8398",
+      "polarity": "include",
+      "page": 5,
+      "line": "8398 Organizations, Charitable and Social Service",
+      "reason": "following Merchant Category Codes (\u201cMCC\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "8651",
+      "polarity": "include",
+      "page": 5,
+      "line": "8651 Organizations, Political",
+      "reason": "following Merchant Category Codes (\u201cMCC\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "8661",
+      "polarity": "include",
+      "page": 5,
+      "line": "8661 Organizations, Religious",
+      "reason": "following Merchant Category Codes (\u201cMCC\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "8699",
+      "polarity": "include",
+      "page": 5,
+      "line": "8699 Membership Organizations (Not Elsewhere Classified) (wef 1",
+      "reason": "following Merchant Category Codes (\u201cMCC\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "8999",
+      "polarity": "include",
+      "page": 5,
+      "line": "8999 Professional Services (Not Elsewhere Classified) (wef 1 October",
+      "reason": "following Merchant Category Codes (\u201cMCC\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "9211",
+      "polarity": "include",
+      "page": 5,
+      "line": "9211 Court Costs including Alimony and Child Support",
+      "reason": "following Merchant Category Codes (\u201cMCC\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "9222",
+      "polarity": "include",
+      "page": 5,
+      "line": "9222 Fines",
+      "reason": "following Merchant Category Codes (\u201cMCC\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "9223",
+      "polarity": "include",
+      "page": 5,
+      "line": "9223 Bail and Bond Payments",
+      "reason": "following Merchant Category Codes (\u201cMCC\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "9311",
+      "polarity": "include",
+      "page": 5,
+      "line": "9311 Tax Payment",
+      "reason": "following Merchant Category Codes (\u201cMCC\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "9399",
+      "polarity": "include",
+      "page": 5,
+      "line": "9399 Government Services \u2013 not elsewhere classified",
+      "reason": "following Merchant Category Codes (\u201cMCC\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "9402",
+      "polarity": "include",
+      "page": 5,
+      "line": "9402 Postal Services \u2013 Government Only",
+      "reason": "following Merchant Category Codes (\u201cMCC\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "9405",
+      "polarity": "include",
+      "page": 5,
+      "line": "9405 Intra-Government Purchases \u2013 Government Only",
+      "reason": "following Merchant Category Codes (\u201cMCC\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "5812",
+      "polarity": "exclude",
+      "page": 19,
+      "line": "Eating places and 5812, 5813 and 5814",
+      "reason": "the exclusions set out above.",
+      "in_reference": true
+     },
+     {
+      "code": "5813",
+      "polarity": "exclude",
+      "page": 19,
+      "line": "Eating places and 5812, 5813 and 5814",
+      "reason": "the exclusions set out above.",
+      "in_reference": true
+     },
+     {
+      "code": "5814",
+      "polarity": "exclude",
+      "page": 19,
+      "line": "Eating places and 5812, 5813 and 5814",
+      "reason": "the exclusions set out above.",
+      "in_reference": true
+     },
+     {
+      "code": "4121",
+      "polarity": "exclude",
+      "page": 19,
+      "line": "and Foodpanda) 4121",
+      "reason": "the exclusions set out above.",
+      "in_reference": true
+     },
+     {
+      "code": "4816",
+      "polarity": "include",
+      "page": 19,
+      "line": "Online Shopping 4816, 5262 (wef 1 April 2021), 5306, 5309, 5310, 5311, 5331,",
+      "reason": "any one of the following Merchant Category Codes (MCC). UOB determines an online",
+      "in_reference": true
+     },
+     {
+      "code": "5262",
+      "polarity": "include",
+      "page": 19,
+      "line": "Online Shopping 4816, 5262 (wef 1 April 2021), 5306, 5309, 5310, 5311, 5331,",
+      "reason": "any one of the following Merchant Category Codes (MCC). UOB determines an online",
+      "in_reference": true
+     },
+     {
+      "code": "5306",
+      "polarity": "include",
+      "page": 19,
+      "line": "Online Shopping 4816, 5262 (wef 1 April 2021), 5306, 5309, 5310, 5311, 5331,",
+      "reason": "any one of the following Merchant Category Codes (MCC). UOB determines an online",
+      "in_reference": false
+     },
+     {
+      "code": "5309",
+      "polarity": "include",
+      "page": 19,
+      "line": "Online Shopping 4816, 5262 (wef 1 April 2021), 5306, 5309, 5310, 5311, 5331,",
+      "reason": "any one of the following Merchant Category Codes (MCC). UOB determines an online",
+      "in_reference": true
+     },
+     {
+      "code": "5310",
+      "polarity": "include",
+      "page": 19,
+      "line": "Online Shopping 4816, 5262 (wef 1 April 2021), 5306, 5309, 5310, 5311, 5331,",
+      "reason": "any one of the following Merchant Category Codes (MCC). UOB determines an online",
+      "in_reference": true
+     },
+     {
+      "code": "5311",
+      "polarity": "include",
+      "page": 19,
+      "line": "Online Shopping 4816, 5262 (wef 1 April 2021), 5306, 5309, 5310, 5311, 5331,",
+      "reason": "any one of the following Merchant Category Codes (MCC). UOB determines an online",
+      "in_reference": true
+     },
+     {
+      "code": "5331",
+      "polarity": "include",
+      "page": 19,
+      "line": "Online Shopping 4816, 5262 (wef 1 April 2021), 5306, 5309, 5310, 5311, 5331,",
+      "reason": "any one of the following Merchant Category Codes (MCC). UOB determines an online",
+      "in_reference": true
+     },
+     {
+      "code": "5399",
+      "polarity": "include",
+      "page": 19,
+      "line": "5399, 5611, 5621, 5631, 5641, 5651, 5661, 5691, 5699, 5732,",
+      "reason": "any one of the following Merchant Category Codes (MCC). UOB determines an online",
+      "in_reference": true
+     },
+     {
+      "code": "5611",
+      "polarity": "include",
+      "page": 19,
+      "line": "5399, 5611, 5621, 5631, 5641, 5651, 5661, 5691, 5699, 5732,",
+      "reason": "any one of the following Merchant Category Codes (MCC). UOB determines an online",
+      "in_reference": true
+     },
+     {
+      "code": "5621",
+      "polarity": "include",
+      "page": 19,
+      "line": "5399, 5611, 5621, 5631, 5641, 5651, 5661, 5691, 5699, 5732,",
+      "reason": "any one of the following Merchant Category Codes (MCC). UOB determines an online",
+      "in_reference": true
+     },
+     {
+      "code": "5631",
+      "polarity": "include",
+      "page": 19,
+      "line": "5399, 5611, 5621, 5631, 5641, 5651, 5661, 5691, 5699, 5732,",
+      "reason": "any one of the following Merchant Category Codes (MCC). UOB determines an online",
+      "in_reference": true
+     },
+     {
+      "code": "5641",
+      "polarity": "include",
+      "page": 19,
+      "line": "5399, 5611, 5621, 5631, 5641, 5651, 5661, 5691, 5699, 5732,",
+      "reason": "any one of the following Merchant Category Codes (MCC). UOB determines an online",
+      "in_reference": true
+     },
+     {
+      "code": "5651",
+      "polarity": "include",
+      "page": 19,
+      "line": "5399, 5611, 5621, 5631, 5641, 5651, 5661, 5691, 5699, 5732,",
+      "reason": "any one of the following Merchant Category Codes (MCC). UOB determines an online",
+      "in_reference": true
+     },
+     {
+      "code": "5661",
+      "polarity": "include",
+      "page": 19,
+      "line": "5399, 5611, 5621, 5631, 5641, 5651, 5661, 5691, 5699, 5732,",
+      "reason": "any one of the following Merchant Category Codes (MCC). UOB determines an online",
+      "in_reference": true
+     },
+     {
+      "code": "5691",
+      "polarity": "include",
+      "page": 19,
+      "line": "5399, 5611, 5621, 5631, 5641, 5651, 5661, 5691, 5699, 5732,",
+      "reason": "any one of the following Merchant Category Codes (MCC). UOB determines an online",
+      "in_reference": true
+     },
+     {
+      "code": "5699",
+      "polarity": "include",
+      "page": 19,
+      "line": "5399, 5611, 5621, 5631, 5641, 5651, 5661, 5691, 5699, 5732,",
+      "reason": "any one of the following Merchant Category Codes (MCC). UOB determines an online",
+      "in_reference": true
+     },
+     {
+      "code": "5732",
+      "polarity": "include",
+      "page": 19,
+      "line": "5399, 5611, 5621, 5631, 5641, 5651, 5661, 5691, 5699, 5732,",
+      "reason": "any one of the following Merchant Category Codes (MCC). UOB determines an online",
+      "in_reference": true
+     },
+     {
+      "code": "5944-5949",
+      "polarity": "include",
+      "page": 19,
+      "line": "5733, 5735, 5912, 5942, 5944-5949, 5999, 7278 (only for",
+      "reason": "any one of the following Merchant Category Codes (MCC). UOB determines an online",
+      "in_reference": null
+     },
+     {
+      "code": "5733",
+      "polarity": "include",
+      "page": 19,
+      "line": "5733, 5735, 5912, 5942, 5944-5949, 5999, 7278 (only for",
+      "reason": "any one of the following Merchant Category Codes (MCC). UOB determines an online",
+      "in_reference": true
+     },
+     {
+      "code": "5735",
+      "polarity": "include",
+      "page": 19,
+      "line": "5733, 5735, 5912, 5942, 5944-5949, 5999, 7278 (only for",
+      "reason": "any one of the following Merchant Category Codes (MCC). UOB determines an online",
+      "in_reference": true
+     },
+     {
+      "code": "5912",
+      "polarity": "include",
+      "page": 19,
+      "line": "5733, 5735, 5912, 5942, 5944-5949, 5999, 7278 (only for",
+      "reason": "any one of the following Merchant Category Codes (MCC). UOB determines an online",
+      "in_reference": true
+     },
+     {
+      "code": "5942",
+      "polarity": "include",
+      "page": 19,
+      "line": "5733, 5735, 5912, 5942, 5944-5949, 5999, 7278 (only for",
+      "reason": "any one of the following Merchant Category Codes (MCC). UOB determines an online",
+      "in_reference": true
+     },
+     {
+      "code": "5999",
+      "polarity": "include",
+      "page": 19,
+      "line": "5733, 5735, 5912, 5942, 5944-5949, 5999, 7278 (only for",
+      "reason": "any one of the following Merchant Category Codes (MCC). UOB determines an online",
+      "in_reference": true
+     },
+     {
+      "code": "7278",
+      "polarity": "include",
+      "page": 19,
+      "line": "5733, 5735, 5912, 5942, 5944-5949, 5999, 7278 (only for",
+      "reason": "any one of the following Merchant Category Codes (MCC). UOB determines an online",
+      "in_reference": true
+     },
+     {
+      "code": "5734",
+      "polarity": "include",
+      "page": 19,
+      "line": "payment made to Computer Software Stores (5734) ,",
+      "reason": "any one of the following Merchant Category Codes (MCC). UOB determines an online",
+      "in_reference": true
+     },
+     {
+      "code": "5964-5969",
+      "polarity": "include",
+      "page": 19,
+      "line": "Direct Marketing Merchants (5964 \u2013 5969), Artist Supply",
+      "reason": "any one of the following Merchant Category Codes (MCC). UOB determines an online",
+      "in_reference": null
+     },
+     {
+      "code": "5970",
+      "polarity": "include",
+      "page": 20,
+      "line": "Stores, Craft Shops (5970) and Florists (5992) are excluded",
+      "reason": "any one of the following Merchant Category Codes (MCC). UOB determines an online",
+      "in_reference": true
+     },
+     {
+      "code": "5992",
+      "polarity": "include",
+      "page": 20,
+      "line": "Stores, Craft Shops (5970) and Florists (5992) are excluded",
+      "reason": "any one of the following Merchant Category Codes (MCC). UOB determines an online",
+      "in_reference": true
+     },
+     {
+      "code": "4121",
+      "polarity": "include",
+      "page": 21,
+      "line": "Taxis and ride hailing 4121",
+      "reason": "any one of the following Merchant Category Codes (MCC). UOB determines an online",
+      "in_reference": true
+     }
+    ]
+   },
+   "transaction_modes": {
+    "online": [
+     "1.6 With effect from 1 June 2025, an additional 6 KrisFlyer miles will be awarded for every Singapore Five Dollars (S$5) spent (equivalent to 1.2 KrisFlyer miles per dollar) (\u201cAccelerated Miles\u201d) on Dining, Online Shopping, Online Travel and Transport Card Transactions with a minimum required sum of Singapore One Thousand Dollars (S$1,000) on Singapore Airlines Group Related Card Transactions char",
+     "For the avoidance of doubt, Dining, Online Shopping, Online Travel and Transport Card Transactions that are posted on or prior to 31 May 2025 will continue to be awarded an additional 9 KrisFlyer miles for every Singapore Five Dollars (S$5) spent (equivalent to 1.8 KrisFlyer miles per dollar) provided that the annual spend condition for Singapore Airlines Group Related Transactions is being met.",
+     "1.7 In summary, the benefits in Clauses 1.1 to 1.6 above are set out in the table below: KrisFlyer Miles earned Accelerated Miles per S$5 spent earned upon fulfilment of the conditions set out in Clause 1.6 All other spend 6 KrisFlyer miles - (equivalent to 1.2 KrisFlyer miles per Singapore Dollar) Dining, Online 6 KrisFlyer miles W.e.f.",
+     "1 June 2025, an Shopping, Online (equivalent to 1.2 additional 6 KrisFlyer Travel and Transport KrisFlyer miles per miles Card Transactions Singapore Dollar) (equivalent to 1.2 KrisFlyer miles per Singapore dollar) If transaction posted on or prior to 31 May 2025, an additional 9 KrisFlyer miles (equivalent to 1.8 KrisFlyer miles per dollar) Singapore Airlines 15 KrisFlyer miles - Group Related Ca",
+     "193500026Z ## RESTRICTED ## determines an online retail transaction based on system indicators.",
+     "Category Merchant Category Codes (MCC) or transaction description1 Eating places and 5812, 5813 and 5814 Restaurants, Bars and Fast food restaurants Online food DELIVEROO* delivery (Grab DELIVERY HERO* Food, Deliveroo FOODPANDA* and Foodpanda) 4121 PAYPAL *DELIVEROOSI (wef 1 April 2021) PAYPAL *FOODPANDASG (wef 1 April 2021) \u201cKrisFlyer programme\u201d means the frequent flyer programme operated by Sing",
+     "\u201cOnline Shopping\u201d means the Card Transaction(s) made at fashion websites that sells clothes, shoes, jewellery, accessories and bags as its main business activity including card-not-present transactions like ecommerce/mail/phone order transactions in local and foreign currencies, provided that such merchant fall within any one of the following Merchant Category Codes (MCC).",
+     "UOB determines an online retail transaction based on system indicators.",
+     "Category Merchant Category Codes (MCC) Online Shopping 4816, 5262 (wef 1 April 2021), 5306, 5309, 5310, 5311, 5331, 5399, 5611, 5621, 5631, 5641, 5651, 5661, 5691, 5699, 5732, 5733, 5735, 5912, 5942, 5944-5949, 5999, 7278 (only for Shopee, Lazada and Qoo10;",
+     "wef 1 Apr 2021) Note: WEF 1 July 2020, please be informed that any online payment made to Computer Software Stores (5734) , Direct Marketing Merchants (5964 \u2013 5969), Artist Supply United Overseas Bank Limited Co.",
+     "\u201cOnline Travel\u201d means the Card Transaction(s) made at the following merchants via their official websites or mobile applications bearing the corresponding transaction descriptions.",
+     "UOB determines an online transaction based on system indicators.",
+     "\u201cServices\u201d includes UOB ATM Service and UOB Internet Banking Service and any other services or facilities offered via electronic means in or outside Singapore."
+    ],
+    "in_app": [
+     "(b) Each new Kris+ user must successfully make a minimum payment of Singapore Five Dollars (S$5) via Apple Pay or Google PayTM via the payment function in the Kris+ app at any Kris+ partner with Kris+ payment enabled, or by purchasing a Kris+ in-app voucher."
+    ],
+    "mobile_wallet": [
+     "b) paid directly using your KrisFlyer UOB Credit Card by entering your card details at checkout and not via any digital wallet or mobile payment method (including but not limited to Apple Pay or Google Pay or similar platforms);",
+     "(b) Each new Kris+ user must successfully make a minimum payment of Singapore Five Dollars (S$5) via Apple Pay or Google PayTM via the payment function in the Kris+ app at any Kris+ partner with Kris+ payment enabled, or by purchasing a Kris+ in-app voucher."
+    ],
+    "foreign_currency": [
+     "TERMS AND CONDITIONS GOVERNING KRISFLYER UNITED OVERSEAS BANK LIMITED (\u201cUOB\u201d) CREDIT CARD This document sets out the general terms and conditions governing the KrisFlyer UOB Credit Card issued by us (\u201cCard\u201d or \u201cKrisFlyer UOB Credit Card\u201d) which we may provide to you from time to time.",
+     "1.4 With effect from 1 June 2025, 15 KrisFlyer miles will be awarded for every Singapore Five Dollars (S$5) spent (equivalent to 3 KrisFlyer miles per United Overseas Bank Limited Co.",
+     "Existing and new KrisFlyer UOB Credit Cardmembers whose Card Membership Year ends: \u2022 between April 2021 and August 2022 will require minimum annual spend of Singapore Three Hundred Dollars (S$300) on Singapore United Overseas Bank Limited Co.",
+     "1 June 2025, an Shopping, Online (equivalent to 1.2 additional 6 KrisFlyer Travel and Transport KrisFlyer miles per miles Card Transactions Singapore Dollar) (equivalent to 1.2 KrisFlyer miles per Singapore dollar) If transaction posted on or prior to 31 May 2025, an additional 9 KrisFlyer miles (equivalent to 1.8 KrisFlyer miles per dollar) Singapore Airlines 15 KrisFlyer miles - Group Related Ca",
+     "1.10 KrisFlyer miles will not be awarded for transactions bearing the following Merchant Category Codes (\u201cMCC\u201d): MCC Description 4829 Wire Transfer / Remittance (wef 16 March 2020) 4900 Utilities (wef from 1 August 2022) 5199 Nondurable Goods (wef 16 March 2020) 5960 Direct Marketing \u2013 Insurance Services (wef 16 March 2020) 5965 Direct marketing \u2013 Combination Catalog and Retail Merchants (wef 1 Oc",
+     "UOB shall not United Overseas Bank Limited Co.",
+     "United Overseas Bank Limited Co.",
+     "For the purposes of this clause, \u201ctotal eligible spend\u201d United Overseas Bank Limited Co.",
+     "United Overseas Bank Limited Co.",
+     "For the avoidance of doubt, this benefit applies to the Principal Cardmember only, and does not extend to United Overseas Bank Limited Co.",
+     "United Overseas Bank Limited Co.",
+     "United Overseas Bank Limited Co.",
+     "United Overseas Bank Limited Co.",
+     "7.8 For the avoidance of doubt, any KrisFlyer member who has either logged in to the Kris+ app outside of the Campaign Period or did not input the referral code United Overseas Bank Limited Co.",
+     "9 Fees for Foreign Currency Transactions and Transactions Processed Outside Singapore 1 Transaction made in foreign currency:- United Overseas Bank Limited Co."
+    ],
+    "local_currency": [
+     "193500026Z ## RESTRICTED ## means all transactions (whether processed inside or outside of Singapore and/or effected in a foreign or local currency), including instalment payment plans, which are successfully captured and posted to your Card Account BUT shall exclude the excluded transactions listed under the Exclusion section in Clauses 0 to 1.14 above.",
+     "193500026Z ## RESTRICTED ## (a) (i) Non-SGD, non-USD and non The transaction will be converted AUD transaction;",
+     "at the prevailing exchange rates of the relevant credit card company, first to USD, then to SGD;",
+     "OR (ii) USD or AUD transaction: The transaction will be converted to SGD at the prevailing exchange rates of the relevant credit card company;",
+     "(b) Non-SGD transaction;",
+     "2 Transaction made in SGD and processed outside Singapore:- SGD transaction processed An International Processing fee of outside of Singapore 1% of the transaction amount will be levied.",
+     "Deposit Insurance Scheme Singapore dollar deposits of non-bank depositors and monies and deposits denominated in Singapore dollars under the Supplementary Retirement Scheme are insured by the Singapore Deposit Insurance Corporation, for up to S$100,000 in aggregate per depositor per scheme member by law.",
+     "Monies and deposits denominated in Singapore dollars under the CPF Investment Scheme and CPF Retirement Sum Scheme are aggregated and separately insured up to S$100,000 for each depositor per Scheme member."
+    ]
+   },
+   "non_mcc_exclusions": [
+    "annual fee",
+    "axs",
+    "cash advance",
+    "charit",
+    "education",
+    "government",
+    "hospital",
+    "instalment",
+    "interest",
+    "ipaymy",
+    "ipp",
+    "tax",
+    "top-ups",
+    "utilit",
+    "youtrip"
+   ]
+  },
+  {
+   "url": "https://www.uob.com.sg/credit-cards/pdf/online-cards-campaign.pdf",
+   "citation": {
+    "id": "bank:c13cf48e44b4",
+    "url": "https://www.uob.com.sg/credit-cards/pdf/online-cards-campaign.pdf",
+    "source_type": "official",
+    "retrieved_at": "2026-09-27T08:37:32+00:00",
+    "sha256": "c13cf48e44b48d1aa3b0d0d5655f54f9001de57208d560ff29b09fc9ed8bc643",
+    "snapshot": "data/raw/bank/www-uob-com-sg-credit-cards-pdf-online-cards-campaign-pdf-a28f442a.pdf"
+   },
+   "text_path": "data/raw/bank/www-uob-com-sg-credit-cards-pdf-online-cards-campaign-pdf-a28f442a.txt",
+   "sha256": "c13cf48e44b48d1aa3b0d0d5655f54f9001de57208d560ff29b09fc9ed8bc643",
+   "changed": false,
+   "new": false,
+   "no_text_layer": false,
+   "effective_dates": [],
+   "mcc": {
+    "include": [
+     "4829",
+     "5199",
+     "5960",
+     "6012",
+     "6050",
+     "6051",
+     "6211",
+     "6300",
+     "6399",
+     "6513",
+     "6529",
+     "6530",
+     "6534",
+     "6540",
+     "7349",
+     "7511",
+     "7523",
+     "7995",
+     "8062",
+     "8211",
+     "8220",
+     "8241",
+     "8244",
+     "8249",
+     "8299",
+     "8398",
+     "8651",
+     "8661",
+     "9211",
+     "9222",
+     "9223",
+     "9311",
+     "9399",
+     "9402",
+     "9405"
+    ],
+    "exclude": [],
+    "unknown": [],
+    "conflicting": [],
+    "unrecognised": [
+     "6529",
+     "6530",
+     "6534"
+    ],
+    "hits": [
+     {
+      "code": "4829",
+      "polarity": "include",
+      "page": 2,
+      "line": "4829 Wire Transfer / Remittance",
+      "reason": "(ix) any transaction classified under one or more of the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "5199",
+      "polarity": "include",
+      "page": 2,
+      "line": "5199 Nondurable Goods",
+      "reason": "(ix) any transaction classified under one or more of the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "5960",
+      "polarity": "include",
+      "page": 2,
+      "line": "5960 Direct Marketing \u2013 Insurance Services",
+      "reason": "(ix) any transaction classified under one or more of the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "6012",
+      "polarity": "include",
+      "page": 2,
+      "line": "6012 Member Financial Institution \u2013 Merchandise and Services",
+      "reason": "(ix) any transaction classified under one or more of the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "6050",
+      "polarity": "include",
+      "page": 2,
+      "line": "6050 Quasi Cash \u2013 Financial Institutions, Merchandise and Services",
+      "reason": "(ix) any transaction classified under one or more of the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "6051",
+      "polarity": "include",
+      "page": 2,
+      "line": "6051 Quasi Cash \u2013 Merchant (Non-Financial Institutions \u2013 Foreign Currency, Non-",
+      "reason": "(ix) any transaction classified under one or more of the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "6211",
+      "polarity": "include",
+      "page": 2,
+      "line": "6211 Securities \u2013 Brokers and Dealers",
+      "reason": "(ix) any transaction classified under one or more of the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "6300",
+      "polarity": "include",
+      "page": 2,
+      "line": "6300 Insurance Sales / Underwrite",
+      "reason": "(ix) any transaction classified under one or more of the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "6399",
+      "polarity": "include",
+      "page": 2,
+      "line": "6399 Insurance",
+      "reason": "(ix) any transaction classified under one or more of the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "6513",
+      "polarity": "include",
+      "page": 2,
+      "line": "6513 Real Estate Agents & Managers \u2013 Rentals",
+      "reason": "(ix) any transaction classified under one or more of the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "6529",
+      "polarity": "include",
+      "page": 2,
+      "line": "6529 Quasi Cash \u2013 Remote Stored Value Load-Financial Institute Rentals",
+      "reason": "(ix) any transaction classified under one or more of the following Merchant Category Codes",
+      "in_reference": false
+     },
+     {
+      "code": "6530",
+      "polarity": "include",
+      "page": 2,
+      "line": "6530 Quasi Cash-Remote Stored Value Load \u2013 Merchant Rentals",
+      "reason": "(ix) any transaction classified under one or more of the following Merchant Category Codes",
+      "in_reference": false
+     },
+     {
+      "code": "6534",
+      "polarity": "include",
+      "page": 2,
+      "line": "6534 Quasi Cash \u2013 Remote Money Transfers",
+      "reason": "(ix) any transaction classified under one or more of the following Merchant Category Codes",
+      "in_reference": false
+     },
+     {
+      "code": "6540",
+      "polarity": "include",
+      "page": 2,
+      "line": "6540 Stored Value Card Purchase/Load",
+      "reason": "(ix) any transaction classified under one or more of the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "7349",
+      "polarity": "include",
+      "page": 2,
+      "line": "7349 Clean/Maint/Janitorial Serv aka Property Management",
+      "reason": "(ix) any transaction classified under one or more of the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "7511",
+      "polarity": "include",
+      "page": 2,
+      "line": "7511 Quasi Cash \u2013 Truck Stop Trxns",
+      "reason": "(ix) any transaction classified under one or more of the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "7523",
+      "polarity": "include",
+      "page": 2,
+      "line": "7523 Automobile Parking Lots and Garages",
+      "reason": "(ix) any transaction classified under one or more of the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "7995",
+      "polarity": "include",
+      "page": 2,
+      "line": "7995 Gambling \u2013 Betting, including Lottery Tickets, Casino Gaming Chips, Off-Track",
+      "reason": "(ix) any transaction classified under one or more of the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "8062",
+      "polarity": "include",
+      "page": 2,
+      "line": "8062 Hospitals",
+      "reason": "(ix) any transaction classified under one or more of the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "8211",
+      "polarity": "include",
+      "page": 2,
+      "line": "8211 Schools, Elementary and Secondary",
+      "reason": "(ix) any transaction classified under one or more of the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "8220",
+      "polarity": "include",
+      "page": 2,
+      "line": "8220 Colleges, Universities, Professional Schools and Junior Colleges",
+      "reason": "(ix) any transaction classified under one or more of the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "8241",
+      "polarity": "include",
+      "page": 2,
+      "line": "8241 Schools, Correspondence",
+      "reason": "(ix) any transaction classified under one or more of the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "8244",
+      "polarity": "include",
+      "page": 2,
+      "line": "8244 Schools, Business and Secretarial",
+      "reason": "(ix) any transaction classified under one or more of the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "8249",
+      "polarity": "include",
+      "page": 2,
+      "line": "8249 Schools, Trade and Vocational",
+      "reason": "(ix) any transaction classified under one or more of the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "8299",
+      "polarity": "include",
+      "page": 2,
+      "line": "8299 Schools and Educational Services \u2013 Not Elsewhere Classified",
+      "reason": "(ix) any transaction classified under one or more of the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "8398",
+      "polarity": "include",
+      "page": 2,
+      "line": "8398 Organizations, Charitable and Social Service",
+      "reason": "(ix) any transaction classified under one or more of the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "8661",
+      "polarity": "include",
+      "page": 2,
+      "line": "8661 Organizations, Religious",
+      "reason": "(ix) any transaction classified under one or more of the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "8651",
+      "polarity": "include",
+      "page": 2,
+      "line": "8651 Organizations, Political",
+      "reason": "(ix) any transaction classified under one or more of the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "9211",
+      "polarity": "include",
+      "page": 2,
+      "line": "9211 Court Costs including Alimony and Child Support",
+      "reason": "(ix) any transaction classified under one or more of the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "9222",
+      "polarity": "include",
+      "page": 2,
+      "line": "9222 Fines",
+      "reason": "(ix) any transaction classified under one or more of the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "9223",
+      "polarity": "include",
+      "page": 2,
+      "line": "9223 Bail and Bond Payments",
+      "reason": "(ix) any transaction classified under one or more of the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "9311",
+      "polarity": "include",
+      "page": 2,
+      "line": "9311 Tax Payment",
+      "reason": "(ix) any transaction classified under one or more of the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "9399",
+      "polarity": "include",
+      "page": 2,
+      "line": "9399 Government Services \u2013 not elsewhere classified",
+      "reason": "(ix) any transaction classified under one or more of the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "9402",
+      "polarity": "include",
+      "page": 2,
+      "line": "9402 Postal Services \u2013 Government Only",
+      "reason": "(ix) any transaction classified under one or more of the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "9405",
+      "polarity": "include",
+      "page": 2,
+      "line": "9405 Intra-Government Purchases \u2013 Government Only",
+      "reason": "(ix) any transaction classified under one or more of the following Merchant Category Codes",
+      "in_reference": true
+     }
+    ]
+   },
+   "transaction_modes": {
+    "online": [
+     "Without limiting the foregoing, UOB will not be liable or responsible for any undelivered, misdirected, corrupted, lost or delayed text, transmission or transaction or any delay or failure in posting any transaction or accessing any of UOB\u2019s online banking services or mobile banking services or third party applications, howsoever caused."
+    ],
+    "mobile_wallet": [
+     "(vii) any Grab mobile wallet top-up transactions;"
+    ],
+    "foreign_currency": [
+     "This Promotion is only open to individuals who are new to United Overseas Bank Limited (\u201cUOB\u201d) credit cards.",
+     "MCC Description 4829 Wire Transfer / Remittance 5199 Nondurable Goods 5960 Direct Marketing \u2013 Insurance Services 6012 Member Financial Institution \u2013 Merchandise and Services 6050 Quasi Cash \u2013 Financial Institutions, Merchandise and Services 6051 Quasi Cash \u2013 Merchant (Non-Financial Institutions \u2013 Foreign Currency, Non- Fiat Currency, Cryptocurrency) 6211 Securities \u2013 Brokers and Dealers 6300 Insur"
+    ],
+    "local_currency": [
+     "(c) Eligible Transactions made in foreign currencies will be converted into Singapore dollars based on UOB\u2019s then prevailing exchange rate applicable at the time of exchange."
+    ]
+   },
+   "non_mcc_exclusions": [
+    "axs",
+    "cardup",
+    "cash advance",
+    "charit",
+    "education",
+    "government",
+    "hospital",
+    "instalment",
+    "interest",
+    "ipaymy",
+    "late payment charge",
+    "tax",
+    "top-up"
+   ]
+  },
+  {
+   "url": "https://www.uob.com.sg/assets/pdfs/kf_credit_card_full_tnc.pdf?i_cid=pfs:sg:owned:int:site:na:li:na:na:na-evergreen:direct:na&vid=none",
+   "citation": {
+    "id": "bank:177cfca919e0",
+    "url": "https://www.uob.com.sg/assets/pdfs/kf_credit_card_full_tnc.pdf?i_cid=pfs:sg:owned:int:site:na:li:na:na:na-evergreen:direct:na&vid=none",
+    "source_type": "official",
+    "retrieved_at": "2026-09-27T08:37:34+00:00",
+    "sha256": "177cfca919e04bcf2ba40f848d6bccec278033cfa7f9c9df6c7d8b7bf743ae4c",
+    "snapshot": "data/raw/bank/www-uob-com-sg-assets-pdfs-kf-credit-card-full-tnc-pdf-14965558.pdf"
+   },
+   "text_path": "data/raw/bank/www-uob-com-sg-assets-pdfs-kf-credit-card-full-tnc-pdf-14965558.txt",
+   "sha256": "177cfca919e04bcf2ba40f848d6bccec278033cfa7f9c9df6c7d8b7bf743ae4c",
+   "changed": false,
+   "new": false,
+   "no_text_layer": false,
+   "effective_dates": [
+    "1 June 2025",
+    "15 July 2019"
+   ],
+   "mcc": {
+    "include": [
+     "4121",
+     "4816",
+     "4829",
+     "4900",
+     "5199",
+     "5262",
+     "5306",
+     "5309",
+     "5310",
+     "5311",
+     "5331",
+     "5399",
+     "5611",
+     "5621",
+     "5631",
+     "5641",
+     "5651",
+     "5661",
+     "5691",
+     "5699",
+     "5732",
+     "5733",
+     "5734",
+     "5735",
+     "5912",
+     "5942",
+     "5944-5949",
+     "5960",
+     "5964-5969",
+     "5965",
+     "5970",
+     "5992",
+     "5993",
+     "5999",
+     "6012",
+     "6050",
+     "6051",
+     "6211",
+     "6300",
+     "6399",
+     "6513",
+     "6529",
+     "6530",
+     "6534",
+     "6540",
+     "7278",
+     "7349",
+     "7511",
+     "7523",
+     "7995",
+     "8011",
+     "8062",
+     "8099",
+     "8211",
+     "8220",
+     "8241",
+     "8244",
+     "8249",
+     "8299",
+     "8398",
+     "8651",
+     "8661",
+     "8699",
+     "8999",
+     "9211",
+     "9222",
+     "9223",
+     "9311",
+     "9399",
+     "9402",
+     "9405"
+    ],
+    "exclude": [
+     "4121",
+     "5812",
+     "5813",
+     "5814"
+    ],
+    "unknown": [],
+    "conflicting": [
+     "4121"
+    ],
+    "unrecognised": [
+     "5306",
+     "6529",
+     "6530",
+     "6534"
+    ],
+    "hits": [
+     {
+      "code": "4829",
+      "polarity": "include",
+      "page": 4,
+      "line": "4829 Wire Transfer / Remittance (wef 16 March 2020)",
+      "reason": "following Merchant Category Codes (\u201cMCC\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "4900",
+      "polarity": "include",
+      "page": 4,
+      "line": "4900 Utilities (wef from 1 August 2022)",
+      "reason": "following Merchant Category Codes (\u201cMCC\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "5199",
+      "polarity": "include",
+      "page": 4,
+      "line": "5199 Nondurable Goods (wef 16 March 2020)",
+      "reason": "following Merchant Category Codes (\u201cMCC\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "5960",
+      "polarity": "include",
+      "page": 4,
+      "line": "5960 Direct Marketing \u2013 Insurance Services (wef 16 March 2020)",
+      "reason": "following Merchant Category Codes (\u201cMCC\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "5965",
+      "polarity": "include",
+      "page": 4,
+      "line": "5965 Direct marketing \u2013 Combination Catalog and Retail Merchants",
+      "reason": "following Merchant Category Codes (\u201cMCC\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "5993",
+      "polarity": "include",
+      "page": 4,
+      "line": "5993 Cigar Stores and Stands (wef 1 October 2024)",
+      "reason": "following Merchant Category Codes (\u201cMCC\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "6012",
+      "polarity": "include",
+      "page": 4,
+      "line": "6012 Member Financial Institution \u2013 Merchandise and Services",
+      "reason": "following Merchant Category Codes (\u201cMCC\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "6050",
+      "polarity": "include",
+      "page": 4,
+      "line": "6050 Quasi Cash \u2013 Financial Institutions, Merchandise and Services (wef",
+      "reason": "following Merchant Category Codes (\u201cMCC\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "6051",
+      "polarity": "include",
+      "page": 4,
+      "line": "6051 Quasi Cash \u2013 Merchant (Non-Financial Institutions \u2013 Foreign",
+      "reason": "following Merchant Category Codes (\u201cMCC\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "6211",
+      "polarity": "include",
+      "page": 4,
+      "line": "6211 Securities \u2013 Brokers and Dealers",
+      "reason": "following Merchant Category Codes (\u201cMCC\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "6300",
+      "polarity": "include",
+      "page": 4,
+      "line": "6300 Insurance Sales / Underwrite",
+      "reason": "following Merchant Category Codes (\u201cMCC\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "6399",
+      "polarity": "include",
+      "page": 5,
+      "line": "6399 Insurance",
+      "reason": "following Merchant Category Codes (\u201cMCC\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "6513",
+      "polarity": "include",
+      "page": 5,
+      "line": "6513 Real Estate Agents & Managers \u2013 Rentals (wef 16 March 2020)",
+      "reason": "following Merchant Category Codes (\u201cMCC\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "6529",
+      "polarity": "include",
+      "page": 5,
+      "line": "6529 Quasi Cash \u2013 Remote Stored Value Load-Financial Institute Rentals",
+      "reason": "following Merchant Category Codes (\u201cMCC\u201d):",
+      "in_reference": false
+     },
+     {
+      "code": "6530",
+      "polarity": "include",
+      "page": 5,
+      "line": "6530 Quasi Cash-Remote Stored Value Load \u2013 Merchant Rentals (wef 16",
+      "reason": "following Merchant Category Codes (\u201cMCC\u201d):",
+      "in_reference": false
+     },
+     {
+      "code": "6534",
+      "polarity": "include",
+      "page": 5,
+      "line": "6534 Quasi Cash \u2013 Remote Money Transfers (wef 16 March 2020)",
+      "reason": "following Merchant Category Codes (\u201cMCC\u201d):",
+      "in_reference": false
+     },
+     {
+      "code": "6540",
+      "polarity": "include",
+      "page": 5,
+      "line": "6540 Stored Value Card Purchase/Load",
+      "reason": "following Merchant Category Codes (\u201cMCC\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "7349",
+      "polarity": "include",
+      "page": 5,
+      "line": "7349 Clean/Maint/Janitorial Serv aka Property Management (wef 16",
+      "reason": "following Merchant Category Codes (\u201cMCC\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "7511",
+      "polarity": "include",
+      "page": 5,
+      "line": "7511 Quasi Cash \u2013 Truck Stop Trxns (wef 16 March 2020)",
+      "reason": "following Merchant Category Codes (\u201cMCC\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "7523",
+      "polarity": "include",
+      "page": 5,
+      "line": "7523 Automobile Parking Lots and Garages (wef 1 February 2021)",
+      "reason": "following Merchant Category Codes (\u201cMCC\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "7995",
+      "polarity": "include",
+      "page": 5,
+      "line": "7995 Gambling \u2013 Betting, including Lottery Tickets, Casino Gaming",
+      "reason": "following Merchant Category Codes (\u201cMCC\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "8062",
+      "polarity": "include",
+      "page": 5,
+      "line": "8062 Hospitals (wef 1 February 2021)",
+      "reason": "following Merchant Category Codes (\u201cMCC\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "8011",
+      "polarity": "include",
+      "page": 5,
+      "line": "8011 Doctors\u2013not elsewhere classified (wef 1 August 2022)",
+      "reason": "following Merchant Category Codes (\u201cMCC\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "8099",
+      "polarity": "include",
+      "page": 5,
+      "line": "8099 Health Practitioners, Medical Services \u2013 Not Classified Elsewhere",
+      "reason": "following Merchant Category Codes (\u201cMCC\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "8211",
+      "polarity": "include",
+      "page": 5,
+      "line": "8211 Schools, Elementary and Secondary",
+      "reason": "following Merchant Category Codes (\u201cMCC\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "8220",
+      "polarity": "include",
+      "page": 5,
+      "line": "8220 Colleges, Universities, Professional Schools and Junior Colleges",
+      "reason": "following Merchant Category Codes (\u201cMCC\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "8241",
+      "polarity": "include",
+      "page": 5,
+      "line": "8241 Schools, Correspondence",
+      "reason": "following Merchant Category Codes (\u201cMCC\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "8244",
+      "polarity": "include",
+      "page": 5,
+      "line": "8244 Schools, Business and Secretarial",
+      "reason": "following Merchant Category Codes (\u201cMCC\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "8249",
+      "polarity": "include",
+      "page": 5,
+      "line": "8249 Schools, Trade and Vocational",
+      "reason": "following Merchant Category Codes (\u201cMCC\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "8299",
+      "polarity": "include",
+      "page": 5,
+      "line": "8299 Schools and Educational Services \u2013 Not Elsewhere Classified",
+      "reason": "following Merchant Category Codes (\u201cMCC\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "8398",
+      "polarity": "include",
+      "page": 5,
+      "line": "8398 Organizations, Charitable and Social Service",
+      "reason": "following Merchant Category Codes (\u201cMCC\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "8651",
+      "polarity": "include",
+      "page": 5,
+      "line": "8651 Organizations, Political",
+      "reason": "following Merchant Category Codes (\u201cMCC\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "8661",
+      "polarity": "include",
+      "page": 5,
+      "line": "8661 Organizations, Religious",
+      "reason": "following Merchant Category Codes (\u201cMCC\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "8699",
+      "polarity": "include",
+      "page": 5,
+      "line": "8699 Membership Organizations (Not Elsewhere Classified) (wef 1",
+      "reason": "following Merchant Category Codes (\u201cMCC\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "8999",
+      "polarity": "include",
+      "page": 5,
+      "line": "8999 Professional Services (Not Elsewhere Classified) (wef 1 October",
+      "reason": "following Merchant Category Codes (\u201cMCC\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "9211",
+      "polarity": "include",
+      "page": 5,
+      "line": "9211 Court Costs including Alimony and Child Support",
+      "reason": "following Merchant Category Codes (\u201cMCC\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "9222",
+      "polarity": "include",
+      "page": 5,
+      "line": "9222 Fines",
+      "reason": "following Merchant Category Codes (\u201cMCC\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "9223",
+      "polarity": "include",
+      "page": 5,
+      "line": "9223 Bail and Bond Payments",
+      "reason": "following Merchant Category Codes (\u201cMCC\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "9311",
+      "polarity": "include",
+      "page": 5,
+      "line": "9311 Tax Payment",
+      "reason": "following Merchant Category Codes (\u201cMCC\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "9399",
+      "polarity": "include",
+      "page": 5,
+      "line": "9399 Government Services \u2013 not elsewhere classified",
+      "reason": "following Merchant Category Codes (\u201cMCC\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "9402",
+      "polarity": "include",
+      "page": 5,
+      "line": "9402 Postal Services \u2013 Government Only",
+      "reason": "following Merchant Category Codes (\u201cMCC\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "9405",
+      "polarity": "include",
+      "page": 5,
+      "line": "9405 Intra-Government Purchases \u2013 Government Only",
+      "reason": "following Merchant Category Codes (\u201cMCC\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "5812",
+      "polarity": "exclude",
+      "page": 19,
+      "line": "Eating places and 5812, 5813 and 5814",
+      "reason": "the exclusions set out above.",
+      "in_reference": true
+     },
+     {
+      "code": "5813",
+      "polarity": "exclude",
+      "page": 19,
+      "line": "Eating places and 5812, 5813 and 5814",
+      "reason": "the exclusions set out above.",
+      "in_reference": true
+     },
+     {
+      "code": "5814",
+      "polarity": "exclude",
+      "page": 19,
+      "line": "Eating places and 5812, 5813 and 5814",
+      "reason": "the exclusions set out above.",
+      "in_reference": true
+     },
+     {
+      "code": "4121",
+      "polarity": "exclude",
+      "page": 19,
+      "line": "and Foodpanda) 4121",
+      "reason": "the exclusions set out above.",
+      "in_reference": true
+     },
+     {
+      "code": "4816",
+      "polarity": "include",
+      "page": 19,
+      "line": "Online Shopping 4816, 5262 (wef 1 April 2021), 5306, 5309, 5310, 5311, 5331,",
+      "reason": "any one of the following Merchant Category Codes (MCC). UOB determines an online",
+      "in_reference": true
+     },
+     {
+      "code": "5262",
+      "polarity": "include",
+      "page": 19,
+      "line": "Online Shopping 4816, 5262 (wef 1 April 2021), 5306, 5309, 5310, 5311, 5331,",
+      "reason": "any one of the following Merchant Category Codes (MCC). UOB determines an online",
+      "in_reference": true
+     },
+     {
+      "code": "5306",
+      "polarity": "include",
+      "page": 19,
+      "line": "Online Shopping 4816, 5262 (wef 1 April 2021), 5306, 5309, 5310, 5311, 5331,",
+      "reason": "any one of the following Merchant Category Codes (MCC). UOB determines an online",
+      "in_reference": false
+     },
+     {
+      "code": "5309",
+      "polarity": "include",
+      "page": 19,
+      "line": "Online Shopping 4816, 5262 (wef 1 April 2021), 5306, 5309, 5310, 5311, 5331,",
+      "reason": "any one of the following Merchant Category Codes (MCC). UOB determines an online",
+      "in_reference": true
+     },
+     {
+      "code": "5310",
+      "polarity": "include",
+      "page": 19,
+      "line": "Online Shopping 4816, 5262 (wef 1 April 2021), 5306, 5309, 5310, 5311, 5331,",
+      "reason": "any one of the following Merchant Category Codes (MCC). UOB determines an online",
+      "in_reference": true
+     },
+     {
+      "code": "5311",
+      "polarity": "include",
+      "page": 19,
+      "line": "Online Shopping 4816, 5262 (wef 1 April 2021), 5306, 5309, 5310, 5311, 5331,",
+      "reason": "any one of the following Merchant Category Codes (MCC). UOB determines an online",
+      "in_reference": true
+     },
+     {
+      "code": "5331",
+      "polarity": "include",
+      "page": 19,
+      "line": "Online Shopping 4816, 5262 (wef 1 April 2021), 5306, 5309, 5310, 5311, 5331,",
+      "reason": "any one of the following Merchant Category Codes (MCC). UOB determines an online",
+      "in_reference": true
+     },
+     {
+      "code": "5399",
+      "polarity": "include",
+      "page": 19,
+      "line": "5399, 5611, 5621, 5631, 5641, 5651, 5661, 5691, 5699, 5732,",
+      "reason": "any one of the following Merchant Category Codes (MCC). UOB determines an online",
+      "in_reference": true
+     },
+     {
+      "code": "5611",
+      "polarity": "include",
+      "page": 19,
+      "line": "5399, 5611, 5621, 5631, 5641, 5651, 5661, 5691, 5699, 5732,",
+      "reason": "any one of the following Merchant Category Codes (MCC). UOB determines an online",
+      "in_reference": true
+     },
+     {
+      "code": "5621",
+      "polarity": "include",
+      "page": 19,
+      "line": "5399, 5611, 5621, 5631, 5641, 5651, 5661, 5691, 5699, 5732,",
+      "reason": "any one of the following Merchant Category Codes (MCC). UOB determines an online",
+      "in_reference": true
+     },
+     {
+      "code": "5631",
+      "polarity": "include",
+      "page": 19,
+      "line": "5399, 5611, 5621, 5631, 5641, 5651, 5661, 5691, 5699, 5732,",
+      "reason": "any one of the following Merchant Category Codes (MCC). UOB determines an online",
+      "in_reference": true
+     },
+     {
+      "code": "5641",
+      "polarity": "include",
+      "page": 19,
+      "line": "5399, 5611, 5621, 5631, 5641, 5651, 5661, 5691, 5699, 5732,",
+      "reason": "any one of the following Merchant Category Codes (MCC). UOB determines an online",
+      "in_reference": true
+     },
+     {
+      "code": "5651",
+      "polarity": "include",
+      "page": 19,
+      "line": "5399, 5611, 5621, 5631, 5641, 5651, 5661, 5691, 5699, 5732,",
+      "reason": "any one of the following Merchant Category Codes (MCC). UOB determines an online",
+      "in_reference": true
+     },
+     {
+      "code": "5661",
+      "polarity": "include",
+      "page": 19,
+      "line": "5399, 5611, 5621, 5631, 5641, 5651, 5661, 5691, 5699, 5732,",
+      "reason": "any one of the following Merchant Category Codes (MCC). UOB determines an online",
+      "in_reference": true
+     },
+     {
+      "code": "5691",
+      "polarity": "include",
+      "page": 19,
+      "line": "5399, 5611, 5621, 5631, 5641, 5651, 5661, 5691, 5699, 5732,",
+      "reason": "any one of the following Merchant Category Codes (MCC). UOB determines an online",
+      "in_reference": true
+     },
+     {
+      "code": "5699",
+      "polarity": "include",
+      "page": 19,
+      "line": "5399, 5611, 5621, 5631, 5641, 5651, 5661, 5691, 5699, 5732,",
+      "reason": "any one of the following Merchant Category Codes (MCC). UOB determines an online",
+      "in_reference": true
+     },
+     {
+      "code": "5732",
+      "polarity": "include",
+      "page": 19,
+      "line": "5399, 5611, 5621, 5631, 5641, 5651, 5661, 5691, 5699, 5732,",
+      "reason": "any one of the following Merchant Category Codes (MCC). UOB determines an online",
+      "in_reference": true
+     },
+     {
+      "code": "5944-5949",
+      "polarity": "include",
+      "page": 19,
+      "line": "5733, 5735, 5912, 5942, 5944-5949, 5999, 7278 (only for",
+      "reason": "any one of the following Merchant Category Codes (MCC). UOB determines an online",
+      "in_reference": null
+     },
+     {
+      "code": "5733",
+      "polarity": "include",
+      "page": 19,
+      "line": "5733, 5735, 5912, 5942, 5944-5949, 5999, 7278 (only for",
+      "reason": "any one of the following Merchant Category Codes (MCC). UOB determines an online",
+      "in_reference": true
+     },
+     {
+      "code": "5735",
+      "polarity": "include",
+      "page": 19,
+      "line": "5733, 5735, 5912, 5942, 5944-5949, 5999, 7278 (only for",
+      "reason": "any one of the following Merchant Category Codes (MCC). UOB determines an online",
+      "in_reference": true
+     },
+     {
+      "code": "5912",
+      "polarity": "include",
+      "page": 19,
+      "line": "5733, 5735, 5912, 5942, 5944-5949, 5999, 7278 (only for",
+      "reason": "any one of the following Merchant Category Codes (MCC). UOB determines an online",
+      "in_reference": true
+     },
+     {
+      "code": "5942",
+      "polarity": "include",
+      "page": 19,
+      "line": "5733, 5735, 5912, 5942, 5944-5949, 5999, 7278 (only for",
+      "reason": "any one of the following Merchant Category Codes (MCC). UOB determines an online",
+      "in_reference": true
+     },
+     {
+      "code": "5999",
+      "polarity": "include",
+      "page": 19,
+      "line": "5733, 5735, 5912, 5942, 5944-5949, 5999, 7278 (only for",
+      "reason": "any one of the following Merchant Category Codes (MCC). UOB determines an online",
+      "in_reference": true
+     },
+     {
+      "code": "7278",
+      "polarity": "include",
+      "page": 19,
+      "line": "5733, 5735, 5912, 5942, 5944-5949, 5999, 7278 (only for",
+      "reason": "any one of the following Merchant Category Codes (MCC). UOB determines an online",
+      "in_reference": true
+     },
+     {
+      "code": "5734",
+      "polarity": "include",
+      "page": 19,
+      "line": "payment made to Computer Software Stores (5734) ,",
+      "reason": "any one of the following Merchant Category Codes (MCC). UOB determines an online",
+      "in_reference": true
+     },
+     {
+      "code": "5964-5969",
+      "polarity": "include",
+      "page": 19,
+      "line": "Direct Marketing Merchants (5964 \u2013 5969), Artist Supply",
+      "reason": "any one of the following Merchant Category Codes (MCC). UOB determines an online",
+      "in_reference": null
+     },
+     {
+      "code": "5970",
+      "polarity": "include",
+      "page": 20,
+      "line": "Stores, Craft Shops (5970) and Florists (5992) are excluded",
+      "reason": "any one of the following Merchant Category Codes (MCC). UOB determines an online",
+      "in_reference": true
+     },
+     {
+      "code": "5992",
+      "polarity": "include",
+      "page": 20,
+      "line": "Stores, Craft Shops (5970) and Florists (5992) are excluded",
+      "reason": "any one of the following Merchant Category Codes (MCC). UOB determines an online",
+      "in_reference": true
+     },
+     {
+      "code": "4121",
+      "polarity": "include",
+      "page": 21,
+      "line": "Taxis and ride hailing 4121",
+      "reason": "any one of the following Merchant Category Codes (MCC). UOB determines an online",
+      "in_reference": true
+     }
+    ]
+   },
+   "transaction_modes": {
+    "online": [
+     "1.6 With effect from 1 June 2025, an additional 6 KrisFlyer miles will be awarded for every Singapore Five Dollars (S$5) spent (equivalent to 1.2 KrisFlyer miles per dollar) (\u201cAccelerated Miles\u201d) on Dining, Online Shopping, Online Travel and Transport Card Transactions with a minimum required sum of Singapore One Thousand Dollars (S$1,000) on Singapore Airlines Group Related Card Transactions char",
+     "For the avoidance of doubt, Dining, Online Shopping, Online Travel and Transport Card Transactions that are posted on or prior to 31 May 2025 will continue to be awarded an additional 9 KrisFlyer miles for every Singapore Five Dollars (S$5) spent (equivalent to 1.8 KrisFlyer miles per dollar) provided that the annual spend condition for Singapore Airlines Group Related Transactions is being met.",
+     "1.7 In summary, the benefits in Clauses 1.1 to 1.6 above are set out in the table below: KrisFlyer Miles earned Accelerated Miles per S$5 spent earned upon fulfilment of the conditions set out in Clause 1.6 All other spend 6 KrisFlyer miles - (equivalent to 1.2 KrisFlyer miles per Singapore Dollar) Dining, Online 6 KrisFlyer miles W.e.f.",
+     "1 June 2025, an Shopping, Online (equivalent to 1.2 additional 6 KrisFlyer Travel and Transport KrisFlyer miles per miles Card Transactions Singapore Dollar) (equivalent to 1.2 KrisFlyer miles per Singapore dollar) If transaction posted on or prior to 31 May 2025, an additional 9 KrisFlyer miles (equivalent to 1.8 KrisFlyer miles per dollar) Singapore Airlines 15 KrisFlyer miles - Group Related Ca",
+     "193500026Z ## RESTRICTED ## determines an online retail transaction based on system indicators.",
+     "Category Merchant Category Codes (MCC) or transaction description1 Eating places and 5812, 5813 and 5814 Restaurants, Bars and Fast food restaurants Online food DELIVEROO* delivery (Grab DELIVERY HERO* Food, Deliveroo FOODPANDA* and Foodpanda) 4121 PAYPAL *DELIVEROOSI (wef 1 April 2021) PAYPAL *FOODPANDASG (wef 1 April 2021) \u201cKrisFlyer programme\u201d means the frequent flyer programme operated by Sing",
+     "\u201cOnline Shopping\u201d means the Card Transaction(s) made at fashion websites that sells clothes, shoes, jewellery, accessories and bags as its main business activity including card-not-present transactions like ecommerce/mail/phone order transactions in local and foreign currencies, provided that such merchant fall within any one of the following Merchant Category Codes (MCC).",
+     "UOB determines an online retail transaction based on system indicators.",
+     "Category Merchant Category Codes (MCC) Online Shopping 4816, 5262 (wef 1 April 2021), 5306, 5309, 5310, 5311, 5331, 5399, 5611, 5621, 5631, 5641, 5651, 5661, 5691, 5699, 5732, 5733, 5735, 5912, 5942, 5944-5949, 5999, 7278 (only for Shopee, Lazada and Qoo10;",
+     "wef 1 Apr 2021) Note: WEF 1 July 2020, please be informed that any online payment made to Computer Software Stores (5734) , Direct Marketing Merchants (5964 \u2013 5969), Artist Supply United Overseas Bank Limited Co.",
+     "\u201cOnline Travel\u201d means the Card Transaction(s) made at the following merchants via their official websites or mobile applications bearing the corresponding transaction descriptions.",
+     "UOB determines an online transaction based on system indicators.",
+     "\u201cServices\u201d includes UOB ATM Service and UOB Internet Banking Service and any other services or facilities offered via electronic means in or outside Singapore."
+    ],
+    "in_app": [
+     "(b) Each new Kris+ user must successfully make a minimum payment of Singapore Five Dollars (S$5) via Apple Pay or Google PayTM via the payment function in the Kris+ app at any Kris+ partner with Kris+ payment enabled, or by purchasing a Kris+ in-app voucher."
+    ],
+    "mobile_wallet": [
+     "b) paid directly using your KrisFlyer UOB Credit Card by entering your card details at checkout and not via any digital wallet or mobile payment method (including but not limited to Apple Pay or Google Pay or similar platforms);",
+     "(b) Each new Kris+ user must successfully make a minimum payment of Singapore Five Dollars (S$5) via Apple Pay or Google PayTM via the payment function in the Kris+ app at any Kris+ partner with Kris+ payment enabled, or by purchasing a Kris+ in-app voucher."
+    ],
+    "foreign_currency": [
+     "TERMS AND CONDITIONS GOVERNING KRISFLYER UNITED OVERSEAS BANK LIMITED (\u201cUOB\u201d) CREDIT CARD This document sets out the general terms and conditions governing the KrisFlyer UOB Credit Card issued by us (\u201cCard\u201d or \u201cKrisFlyer UOB Credit Card\u201d) which we may provide to you from time to time.",
+     "1.4 With effect from 1 June 2025, 15 KrisFlyer miles will be awarded for every Singapore Five Dollars (S$5) spent (equivalent to 3 KrisFlyer miles per United Overseas Bank Limited Co.",
+     "Existing and new KrisFlyer UOB Credit Cardmembers whose Card Membership Year ends: \u2022 between April 2021 and August 2022 will require minimum annual spend of Singapore Three Hundred Dollars (S$300) on Singapore United Overseas Bank Limited Co.",
+     "1 June 2025, an Shopping, Online (equivalent to 1.2 additional 6 KrisFlyer Travel and Transport KrisFlyer miles per miles Card Transactions Singapore Dollar) (equivalent to 1.2 KrisFlyer miles per Singapore dollar) If transaction posted on or prior to 31 May 2025, an additional 9 KrisFlyer miles (equivalent to 1.8 KrisFlyer miles per dollar) Singapore Airlines 15 KrisFlyer miles - Group Related Ca",
+     "1.10 KrisFlyer miles will not be awarded for transactions bearing the following Merchant Category Codes (\u201cMCC\u201d): MCC Description 4829 Wire Transfer / Remittance (wef 16 March 2020) 4900 Utilities (wef from 1 August 2022) 5199 Nondurable Goods (wef 16 March 2020) 5960 Direct Marketing \u2013 Insurance Services (wef 16 March 2020) 5965 Direct marketing \u2013 Combination Catalog and Retail Merchants (wef 1 Oc",
+     "UOB shall not United Overseas Bank Limited Co.",
+     "United Overseas Bank Limited Co.",
+     "For the purposes of this clause, \u201ctotal eligible spend\u201d United Overseas Bank Limited Co.",
+     "United Overseas Bank Limited Co.",
+     "For the avoidance of doubt, this benefit applies to the Principal Cardmember only, and does not extend to United Overseas Bank Limited Co.",
+     "United Overseas Bank Limited Co.",
+     "United Overseas Bank Limited Co.",
+     "United Overseas Bank Limited Co.",
+     "7.8 For the avoidance of doubt, any KrisFlyer member who has either logged in to the Kris+ app outside of the Campaign Period or did not input the referral code United Overseas Bank Limited Co.",
+     "9 Fees for Foreign Currency Transactions and Transactions Processed Outside Singapore 1 Transaction made in foreign currency:- United Overseas Bank Limited Co."
+    ],
+    "local_currency": [
+     "193500026Z ## RESTRICTED ## means all transactions (whether processed inside or outside of Singapore and/or effected in a foreign or local currency), including instalment payment plans, which are successfully captured and posted to your Card Account BUT shall exclude the excluded transactions listed under the Exclusion section in Clauses 0 to 1.14 above.",
+     "193500026Z ## RESTRICTED ## (a) (i) Non-SGD, non-USD and non The transaction will be converted AUD transaction;",
+     "at the prevailing exchange rates of the relevant credit card company, first to USD, then to SGD;",
+     "OR (ii) USD or AUD transaction: The transaction will be converted to SGD at the prevailing exchange rates of the relevant credit card company;",
+     "(b) Non-SGD transaction;",
+     "2 Transaction made in SGD and processed outside Singapore:- SGD transaction processed An International Processing fee of outside of Singapore 1% of the transaction amount will be levied.",
+     "Deposit Insurance Scheme Singapore dollar deposits of non-bank depositors and monies and deposits denominated in Singapore dollars under the Supplementary Retirement Scheme are insured by the Singapore Deposit Insurance Corporation, for up to S$100,000 in aggregate per depositor per scheme member by law.",
+     "Monies and deposits denominated in Singapore dollars under the CPF Investment Scheme and CPF Retirement Sum Scheme are aggregated and separately insured up to S$100,000 for each depositor per Scheme member."
+    ]
+   },
+   "non_mcc_exclusions": [
+    "annual fee",
+    "axs",
+    "cash advance",
+    "charit",
+    "education",
+    "government",
+    "hospital",
+    "instalment",
+    "interest",
+    "ipaymy",
+    "ipp",
+    "tax",
+    "top-ups",
+    "utilit",
+    "youtrip"
+   ]
+  },
+  {
+   "url": "https://www.uob.com.sg/assets/web-resources/personal/pdf/cards/travel/revisions-to-krisflyer-uob-credit-and-debit-card-privileges-for-scoot.pdf",
+   "citation": {
+    "id": "bank:168b1d918c7c",
+    "url": "https://www.uob.com.sg/assets/web-resources/personal/pdf/cards/travel/revisions-to-krisflyer-uob-credit-and-debit-card-privileges-for-scoot.pdf",
+    "source_type": "official",
+    "retrieved_at": "2026-09-27T08:37:36+00:00",
+    "sha256": "168b1d918c7ce09f9f455bfce3f1c85a91db78ed3eb0bdfacfe6ed7e683a9240",
+    "snapshot": "data/raw/bank/assets-web-resources-personal-pdf-cards-travel-revisions-to-krisflyer-uob-credit-and-debit-card-privileges-for-scoot-pdf-5fb4d566.pdf"
+   },
+   "text_path": "data/raw/bank/assets-web-resources-personal-pdf-cards-travel-revisions-to-krisflyer-uob-credit-and-debit-card-privileges-for-scoot-pdf-5fb4d566.txt",
+   "sha256": "168b1d918c7ce09f9f455bfce3f1c85a91db78ed3eb0bdfacfe6ed7e683a9240",
+   "changed": false,
+   "new": false,
+   "no_text_layer": false,
+   "effective_dates": [
+    "10 June 2024"
+   ],
+   "mcc": {
+    "include": [],
+    "exclude": [],
+    "unknown": [],
+    "conflicting": [],
+    "unrecognised": [],
+    "hits": []
+   },
+   "transaction_modes": {
+    "foreign_currency": [
+     "United Overseas Bank Limited Co."
+    ]
+   },
+   "non_mcc_exclusions": []
+  },
+  {
+   "url": "https://www.uob.com.sg/assets/pdfs/personal/krisflyer-uob/debit/krisflyer-account-tnc.pdf?i_cid=pfs:sg:owned:int:site:na:li:na:na:na-evergreen:direct:na&vid=none",
+   "citation": {
+    "id": "bank:086a993a52a7",
+    "url": "https://www.uob.com.sg/assets/pdfs/personal/krisflyer-uob/debit/krisflyer-account-tnc.pdf?i_cid=pfs:sg:owned:int:site:na:li:na:na:na-evergreen:direct:na&vid=none",
+    "source_type": "official",
+    "retrieved_at": "2026-09-27T08:37:38+00:00",
+    "sha256": "086a993a52a74bab49a1eaad3f06d1913943c435a87206f30eaa87df48242267",
+    "snapshot": "data/raw/bank/www-uob-com-sg-assets-pdfs-personal-krisflyer-uob-debit-krisflyer-account-tnc-pdf-506dc3ad.pdf"
+   },
+   "text_path": "data/raw/bank/www-uob-com-sg-assets-pdfs-personal-krisflyer-uob-debit-krisflyer-account-tnc-pdf-506dc3ad.txt",
+   "sha256": "086a993a52a74bab49a1eaad3f06d1913943c435a87206f30eaa87df48242267",
+   "changed": false,
+   "new": false,
+   "no_text_layer": false,
+   "effective_dates": [
+    "1 January 2027",
+    "1 July 2019"
+   ],
+   "mcc": {
+    "include": [],
+    "exclude": [
+     "4829",
+     "4900",
+     "5199",
+     "5965",
+     "5993",
+     "6012",
+     "6050",
+     "6051",
+     "6211",
+     "6513",
+     "6529",
+     "6530",
+     "6534",
+     "6540",
+     "7349",
+     "7511",
+     "7523",
+     "7801",
+     "7995",
+     "8011",
+     "8062",
+     "8099",
+     "8211",
+     "8220",
+     "8241",
+     "8244",
+     "8249",
+     "8299",
+     "8651",
+     "8699",
+     "8999"
+    ],
+    "unknown": [],
+    "conflicting": [],
+    "unrecognised": [
+     "6529",
+     "6530",
+     "6534"
+    ],
+    "hits": [
+     {
+      "code": "4829",
+      "polarity": "exclude",
+      "page": 3,
+      "line": "4829 Wire Transfer / Remittance",
+      "reason": "1.7 KrisFlyer miles will not be awarded for the following Merchant Transaction",
+      "in_reference": true
+     },
+     {
+      "code": "4900",
+      "polarity": "exclude",
+      "page": 3,
+      "line": "4900 Utilities (wef from 1 August 2022)",
+      "reason": "1.7 KrisFlyer miles will not be awarded for the following Merchant Transaction",
+      "in_reference": true
+     },
+     {
+      "code": "5199",
+      "polarity": "exclude",
+      "page": 3,
+      "line": "5199 Nondurable Goods (wef 16 March 2020)",
+      "reason": "1.7 KrisFlyer miles will not be awarded for the following Merchant Transaction",
+      "in_reference": true
+     },
+     {
+      "code": "5965",
+      "polarity": "exclude",
+      "page": 3,
+      "line": "5965 Direct marketing \u2013 Combination Catalog and Retail",
+      "reason": "1.7 KrisFlyer miles will not be awarded for the following Merchant Transaction",
+      "in_reference": true
+     },
+     {
+      "code": "5993",
+      "polarity": "exclude",
+      "page": 3,
+      "line": "5993 Cigar Stores and Stands (wef 1 October 2024)",
+      "reason": "1.7 KrisFlyer miles will not be awarded for the following Merchant Transaction",
+      "in_reference": true
+     },
+     {
+      "code": "6012",
+      "polarity": "exclude",
+      "page": 3,
+      "line": "6012 Member Financial Institution \u2013 Merchandise and Services",
+      "reason": "1.7 KrisFlyer miles will not be awarded for the following Merchant Transaction",
+      "in_reference": true
+     },
+     {
+      "code": "6050",
+      "polarity": "exclude",
+      "page": 3,
+      "line": "6050 Quasi Cash \u2013 Financial Institutions, Merchandise and",
+      "reason": "1.7 KrisFlyer miles will not be awarded for the following Merchant Transaction",
+      "in_reference": true
+     },
+     {
+      "code": "6051",
+      "polarity": "exclude",
+      "page": 3,
+      "line": "6051 Quasi Cash \u2013 Merchant (Non-Financial Institutions \u2013 Foreign",
+      "reason": "1.7 KrisFlyer miles will not be awarded for the following Merchant Transaction",
+      "in_reference": true
+     },
+     {
+      "code": "6211",
+      "polarity": "exclude",
+      "page": 3,
+      "line": "6211 Securities \u2013 Brokers and Dealers",
+      "reason": "1.7 KrisFlyer miles will not be awarded for the following Merchant Transaction",
+      "in_reference": true
+     },
+     {
+      "code": "6513",
+      "polarity": "exclude",
+      "page": 3,
+      "line": "6513 Real Estate Agents & Managers \u2013 Rentals (wef 16 March",
+      "reason": "1.7 KrisFlyer miles will not be awarded for the following Merchant Transaction",
+      "in_reference": true
+     },
+     {
+      "code": "6529",
+      "polarity": "exclude",
+      "page": 3,
+      "line": "6529 Quasi Cash \u2013 Remote Stored Value Load-Financial Institute",
+      "reason": "1.7 KrisFlyer miles will not be awarded for the following Merchant Transaction",
+      "in_reference": false
+     },
+     {
+      "code": "6530",
+      "polarity": "exclude",
+      "page": 3,
+      "line": "6530 Quasi Cash-Remote Stored Value Load \u2013 Merchant Rentals",
+      "reason": "1.7 KrisFlyer miles will not be awarded for the following Merchant Transaction",
+      "in_reference": false
+     },
+     {
+      "code": "6534",
+      "polarity": "exclude",
+      "page": 3,
+      "line": "6534 Quasi Cash \u2013 Remote Money Transfers (wef 16 March 2020)",
+      "reason": "1.7 KrisFlyer miles will not be awarded for the following Merchant Transaction",
+      "in_reference": false
+     },
+     {
+      "code": "6540",
+      "polarity": "exclude",
+      "page": 3,
+      "line": "6540 Stored Value Card Purchase/Load",
+      "reason": "1.7 KrisFlyer miles will not be awarded for the following Merchant Transaction",
+      "in_reference": true
+     },
+     {
+      "code": "7349",
+      "polarity": "exclude",
+      "page": 3,
+      "line": "7349 Clean/Maint/Janitorial Serv aka Property Management (wef",
+      "reason": "1.7 KrisFlyer miles will not be awarded for the following Merchant Transaction",
+      "in_reference": true
+     },
+     {
+      "code": "7511",
+      "polarity": "exclude",
+      "page": 3,
+      "line": "7511 Quasi Cash \u2013 Truck Stop Trxns (wef 16 March 2020)",
+      "reason": "1.7 KrisFlyer miles will not be awarded for the following Merchant Transaction",
+      "in_reference": true
+     },
+     {
+      "code": "7523",
+      "polarity": "exclude",
+      "page": 3,
+      "line": "7523 Automobile Parking Lots and Garages",
+      "reason": "1.7 KrisFlyer miles will not be awarded for the following Merchant Transaction",
+      "in_reference": true
+     },
+     {
+      "code": "7801",
+      "polarity": "exclude",
+      "page": 3,
+      "line": "7801 Government-Licensed Casinos (Online or Internet Gambling)",
+      "reason": "1.7 KrisFlyer miles will not be awarded for the following Merchant Transaction",
+      "in_reference": true
+     },
+     {
+      "code": "7995",
+      "polarity": "exclude",
+      "page": 3,
+      "line": "7995 Gambling \u2013 Betting, including Lottery Tickets, Casino Gaming",
+      "reason": "1.7 KrisFlyer miles will not be awarded for the following Merchant Transaction",
+      "in_reference": true
+     },
+     {
+      "code": "8062",
+      "polarity": "exclude",
+      "page": 3,
+      "line": "8062 Hospitals (wef 1 February 2021)",
+      "reason": "1.7 KrisFlyer miles will not be awarded for the following Merchant Transaction",
+      "in_reference": true
+     },
+     {
+      "code": "8011",
+      "polarity": "exclude",
+      "page": 3,
+      "line": "8011 Doctors\u2013not elsewhere classified",
+      "reason": "1.7 KrisFlyer miles will not be awarded for the following Merchant Transaction",
+      "in_reference": true
+     },
+     {
+      "code": "8099",
+      "polarity": "exclude",
+      "page": 3,
+      "line": "8099 Health Practitioners, Medical Services \u2013 Not Classified",
+      "reason": "1.7 KrisFlyer miles will not be awarded for the following Merchant Transaction",
+      "in_reference": true
+     },
+     {
+      "code": "8211",
+      "polarity": "exclude",
+      "page": 3,
+      "line": "8211 Schools, Elementary and Secondary",
+      "reason": "1.7 KrisFlyer miles will not be awarded for the following Merchant Transaction",
+      "in_reference": true
+     },
+     {
+      "code": "8220",
+      "polarity": "exclude",
+      "page": 3,
+      "line": "8220 Colleges, Universities, Professional Schools and Junior",
+      "reason": "1.7 KrisFlyer miles will not be awarded for the following Merchant Transaction",
+      "in_reference": true
+     },
+     {
+      "code": "8241",
+      "polarity": "exclude",
+      "page": 3,
+      "line": "8241 Schools, Correspondence",
+      "reason": "1.7 KrisFlyer miles will not be awarded for the following Merchant Transaction",
+      "in_reference": true
+     },
+     {
+      "code": "8244",
+      "polarity": "exclude",
+      "page": 3,
+      "line": "8244 Schools, Business and Secretarial",
+      "reason": "1.7 KrisFlyer miles will not be awarded for the following Merchant Transaction",
+      "in_reference": true
+     },
+     {
+      "code": "8249",
+      "polarity": "exclude",
+      "page": 3,
+      "line": "8249 Schools, Trade and Vocational",
+      "reason": "1.7 KrisFlyer miles will not be awarded for the following Merchant Transaction",
+      "in_reference": true
+     },
+     {
+      "code": "8299",
+      "polarity": "exclude",
+      "page": 4,
+      "line": "8299 Schools and Educational Services \u2013 Not Elsewhere Classified",
+      "reason": "1.7 KrisFlyer miles will not be awarded for the following Merchant Transaction",
+      "in_reference": true
+     },
+     {
+      "code": "8651",
+      "polarity": "exclude",
+      "page": 4,
+      "line": "8651 Organizations, Political",
+      "reason": "1.7 KrisFlyer miles will not be awarded for the following Merchant Transaction",
+      "in_reference": true
+     },
+     {
+      "code": "8699",
+      "polarity": "exclude",
+      "page": 4,
+      "line": "8699 Membership Organizations (Not Elsewhere Classified) (wef 1",
+      "reason": "1.7 KrisFlyer miles will not be awarded for the following Merchant Transaction",
+      "in_reference": true
+     },
+     {
+      "code": "8999",
+      "polarity": "exclude",
+      "page": 4,
+      "line": "8999 Professional Services (Not Elsewhere Classified) (wef 1",
+      "reason": "1.7 KrisFlyer miles will not be awarded for the following Merchant Transaction",
+      "in_reference": true
+     }
+    ]
+   },
+   "transaction_modes": {
+    "online": [
+     "193500026Z ## RESTRICTED ## Merchant Description Transaction Code (MCC) 4829 Wire Transfer / Remittance 4900 Utilities (wef from 1 August 2022) 5199 Nondurable Goods (wef 16 March 2020) 5965 Direct marketing \u2013 Combination Catalog and Retail Merchants (wef 1 October 2024) 5993 Cigar Stores and Stands (wef 1 October 2024) 6012 Member Financial Institution \u2013 Merchandise and Services 6050 Quasi Cash \u2013",
+     "\u201cServices\u201d includes UOB ATM Service and UOB Internet Banking Service and any other services or facilities offered via electronic means in or outside Singapore."
+    ],
+    "in_app": [
+     "193500026Z ## RESTRICTED ## (b) Each new Kris+ user must successfully make a minimum payment of Singapore Five Dollars (S$5) via Apple Pay or Google PayTM via the payment function in the Kris+ app at any Kris+ partner with Kris+ payment enabled, or by purchasing a Kris+ in-app voucher."
+    ],
+    "mobile_wallet": [
+     "193500026Z ## RESTRICTED ## (b) Each new Kris+ user must successfully make a minimum payment of Singapore Five Dollars (S$5) via Apple Pay or Google PayTM via the payment function in the Kris+ app at any Kris+ partner with Kris+ payment enabled, or by purchasing a Kris+ in-app voucher."
+    ],
+    "foreign_currency": [
+     "TERMS AND CONDITIONS GOVERNING KRISFLYER UNITED OVERSEAS BANK LIMITED (\u201cUOB\u201d) DEBIT CARD AND KRISFLYER UOB ACCOUNTS AND SERVICES This document sets out the general terms and conditions governing the KrisFlyer UOB Debit Card issued by us and KrisFlyer UOB Account which we may provide to you from time to time.",
+     "Where your KrisFlyer UOB Account is the default account linked to KrisFlyer UOB FX and you have allowed transactions in foreign currencies supported by KrisFlyer UOB FX to be debited from your corresponding KrisFlyer UOB FX foreign currency account, such transactions other than Offshore Renminbi (CNH) charged to your Card will be debited from the corresponding KrisFlyer UOB FX foreign currency acc",
+     "1.7 KrisFlyer miles will not be awarded for the following Merchant Transaction Codes: United Overseas Bank Limited Co.",
+     "193500026Z ## RESTRICTED ## Merchant Description Transaction Code (MCC) 4829 Wire Transfer / Remittance 4900 Utilities (wef from 1 August 2022) 5199 Nondurable Goods (wef 16 March 2020) 5965 Direct marketing \u2013 Combination Catalog and Retail Merchants (wef 1 October 2024) 5993 Cigar Stores and Stands (wef 1 October 2024) 6012 Member Financial Institution \u2013 Merchandise and Services 6050 Quasi Cash \u2013",
+     "1.10 You will also not earn KrisFlyer miles for payment of funds to pre-paid accounts and transactions with the following transaction descriptions1: \u2022 AXS* \u2022 PLUS500UK LIMITED \u2022 AMAZE* (wef 1 Oct 2024) \u2022 Saxo Cap Mkts Pte Ltd \u2022 AMAZE* TRANSIT* (wef 1 \u2022 SKR*SKRILL.COM March 2022) \u2022 TRANSIT* \u2022 BANCDEBINARY.COM \u2022 WWW.IGMARKETS.COM.SG \u2022 BANC DE BINARY \u2022 WWW.MYEZLINK.COM.SG \u2022 CITY INDEX* \u2022 WWW.PLUS500.",
+     "The latest KrisFlyer terms and conditions is available at singaporeair.com United Overseas Bank Limited Co.",
+     "United Overseas Bank Limited Co.",
+     "3.5 Interest is payable on the balance in your KrisFlyer UOB Account and, where applicable, your KrisFlyer UOB FX foreign currency accounts linked to your KrisFlyer UOB Account.",
+     "For KrisFlyer UOB FX foreign currency accounts linked to your KrisFlyer UOB Account, interest payable will be in the currency denomination of the relevant KrisFlyer UOB FX foreign currency account.",
+     "S$1,600 in the month (\u201cSalary Credit\u201d) United Overseas Bank Limited Co.",
+     "3.12 Where your KrisFlyer UOB Account is the default account linked to KrisFlyer UOB FX, the balance amounts in your KrisFlyer UOB FX foreign currency accounts will be converted to Singapore Dollars at a rate we determine and count towards the requisite Monthly Average Balance for qualification for Bonus Miles.",
+     "3.15 Where your KrisFlyer UOB Account is the default account linked to KrisFlyer UOB FX and you are the primary account holder, you will earn miles at a rate we determine for conversions of Singapore Dollars in your KrisFlyer UOB Account to a foreign currency supported by KrisFlyer UOB FX in your relevant KrisFlyer UOB FX foreign currency accounts (\u201cConversion Miles\u201d).",
+     "You will only be awarded Conversion Miles for the first four (4) conversions in a calendar United Overseas Bank Limited Co.",
+     "For the avoidance of doubt, this benefit does not apply to specific preferred/standard United Overseas Bank Limited Co.",
+     "Other Benefits and Privileges 2 x S$10 worth of Grab Rides to or from Changi Airport United Overseas Bank Limited Co."
+    ],
+    "local_currency": [
+     "Where your KrisFlyer UOB Account is the default account linked to KrisFlyer UOB FX and you have allowed transactions in foreign currencies supported by KrisFlyer UOB FX to be debited from your corresponding KrisFlyer UOB FX foreign currency account, such transactions other than Offshore Renminbi (CNH) charged to your Card will be debited from the corresponding KrisFlyer UOB FX foreign currency acc",
+     "3.12 Where your KrisFlyer UOB Account is the default account linked to KrisFlyer UOB FX, the balance amounts in your KrisFlyer UOB FX foreign currency accounts will be converted to Singapore Dollars at a rate we determine and count towards the requisite Monthly Average Balance for qualification for Bonus Miles.",
+     "3.15 Where your KrisFlyer UOB Account is the default account linked to KrisFlyer UOB FX and you are the primary account holder, you will earn miles at a rate we determine for conversions of Singapore Dollars in your KrisFlyer UOB Account to a foreign currency supported by KrisFlyer UOB FX in your relevant KrisFlyer UOB FX foreign currency accounts (\u201cConversion Miles\u201d).",
+     "Deposit Insurance Scheme Singapore dollar deposits of non-bank depositors and monies and deposits denominated in Singapore dollars under the Supplementary Retirement Scheme are insured by the Singapore Deposit Insurance Corporation, for up to S$100,000 in aggregate per depositor per scheme member by law.",
+     "Monies and deposits denominated in Singapore dollars under the CPF Investment Scheme and CPF Retirement Sum Scheme are aggregated and separately insured up to S$100,000 for each depositor per Scheme member."
+    ]
+   },
+   "non_mcc_exclusions": [
+    "annual fee",
+    "axs",
+    "cash advance",
+    "education",
+    "government",
+    "hospital",
+    "interest",
+    "ipaymy",
+    "ipp",
+    "late payment charge",
+    "tax",
+    "top-ups",
+    "utilit"
+   ]
+  }
+ ],
+ "changed": false,
+ "removed_documents": []
+}

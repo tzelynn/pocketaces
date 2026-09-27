@@ -1,0 +1,48 @@
+{
+ "source": "singsaver",
+ "source_id": "revolut-standard-card",
+ "source_url": "https://www.singsaver.com.sg/credit-card/products/revolut-standard-card",
+ "name": "Revolut Standard Card",
+ "bank": "Revolut",
+ "image_url": "https://mhgprod.blob.core.windows.net/singsaver/strapi-uploads/xs_bltbe97b3a79a4622bc_e23c410215.webp",
+ "annual_fee_note": "No Annual Fee",
+ "earn_rates": {},
+ "caps": {},
+ "highlights": [
+  "pros: No income required",
+  "pros: No monthly spend required",
+  "pros: No foreign txn fee"
+ ],
+ "sign_up_offers": [],
+ "links": {
+  "apply": "https://revolut.ngih.net/singsaver"
+ },
+ "citation": {
+  "id": "singsaver:3b6dd2f3ea24",
+  "url": "https://www.singsaver.com.sg/credit-card/products/revolut-standard-card",
+  "title": "Revolut Standard Card",
+  "source_type": "aggregator",
+  "retrieved_at": "2026-09-27T05:26:33+00:00",
+  "sha256": "3b6dd2f3ea245b410bf97c432c23cefe41a1bb5d930b58b072f457ed2d99c5b2",
+  "snapshot": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-revolut-standard-card-ee53bcf7.html"
+ },
+ "extra": {
+  "network": [
+   "VISA Platinum"
+  ],
+  "mobile_wallets": [
+   "Google Pay",
+   "Visa PayWave"
+  ],
+  "fx_fee_percent": 0.5,
+  "miles_conversion_fee": null,
+  "categories": [
+   "category:overseas",
+   "category:travel",
+   "needs:all-overseas-cards",
+   "needs:all-travel-cards"
+  ],
+  "tag": null,
+  "description": "Experience borderless money management at your fingertips with the Revolute Standard Card, enabling you to spend, save, and send money globally with ease. Say goodbye to hidden fees and hello to real-time exchange rates, all within a sleek and secure card."
+ }
+}

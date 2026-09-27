@@ -1,0 +1,225 @@
+{
+ "source": "singsaver",
+ "source_id": "posb-everyday-card",
+ "source_url": "https://www.singsaver.com.sg/credit-card/products/posb-everyday-card",
+ "name": "POSB Everyday Card",
+ "bank": "POSB",
+ "card_id": "posb-everyday",
+ "image_url": "https://mhgprod.blob.core.windows.net/singsaver/strapi-uploads/xl_2026_01_DBS_POSB_EVERYDAY_CARD_fe174442c4.png",
+ "annual_fee": 196.2,
+ "annual_fee_note": "S$ | First Year Waived",
+ "min_annual_income": 30000.0,
+ "min_monthly_spend": 800.0,
+ "earn_rates": {
+  "percent:local": {
+   "value": 10.0,
+   "unit": "percent",
+   "note": "Up to | On shopping, fuel, dining, and SimplyGo. Minimum spend of S$800 required."
+  },
+  "percent:supermarket": {
+   "value": 5.0,
+   "unit": "percent",
+   "note": "Cash rebates at Sheng Siong. Capped at Daily$30 per calendar month. No minimum spend."
+  },
+  "percent:petrol": {
+   "value": 6.0,
+   "unit": "percent",
+   "note": "Up to  | Up to 6% fuel savings at SPC."
+  },
+  "percent:retail": {
+   "value": 5.0,
+   "unit": "percent",
+   "note": "Up to  | 3% cash rebate at Pet Lovers Centre (no cap); 5% cash rebates on Amazon.sg, Lazada, Qoo10, Shopee; 5% cash rebate at POPULAR and POPULAR online store, capped at Daily$20 cash rebates per calendar month."
+  },
+  "percent:local_online_shopping": {
+   "value": 5.0,
+   "unit": "percent",
+   "note": "Up to   | 5% cash rebates on Amazon.sg, Lazada, Shopee, RedMart, Taobao and TikTok Shop, capped at Daily$20 cash rebates per calendar month. Requires min. spend of S$800 per calendar month; otherwise receive 0.3% baseline cashback."
+  },
+  "percent:overseas_online_shopping": {
+   "value": 5.0,
+   "unit": "percent",
+   "note": "5% cash rebates on Amazon.sg, Lazada, Shopee, RedMart, Taobao and TikTok Shop, capped at Daily$20 cash rebates per calendar month. Requires min. spend of S$800 per calendar month; otherwise receive 0.3% baseline cashback."
+  },
+  "percent:overseas": {
+   "value": 10.0,
+   "unit": "percent",
+   "note": "Up to  | Up to 10% cash rebates on in-store spend in Malaysian Ringgit (MYR), capped at Daily$20 cash rebates per calendar month.."
+  },
+  "percent:dining": {
+   "value": 10.0,
+   "unit": "percent",
+   "note": "Up to  | 10% on online food delivery from Foodpanda and Deliveroo. In-person dining spend earns 5% cash rebates. Cashback rewarded in Daily$, capped at Daily$20 per calendar month. Minimum spend of S$800 required."
+  },
+  "percent:baseline": {
+   "value": 0.3,
+   "unit": "percent",
+   "note": "No minimum spend or cashback cap. Cashback awarded in Daily$."
+  },
+  "percent:transport": {
+   "value": 10.0,
+   "unit": "percent",
+   "note": "Up to  | Up to 10% cashback on SimplyGo, capped at Daily$20 per calendar month."
+  }
+ },
+ "caps": {
+  "rewards_bonus_cap": {
+   "value": 110.0,
+   "note": "S$ | (Daily$1 = S$1 cashback) Daily$20 cap per month on dining and food delivery spend; Daily$20 cap per month on transport spend; Daily$20 cap per month on offline spend in MYR; Daily$30 cap per month on Sheng Siong spend; no cap on all other spend."
+  },
+  "cashback_bonus_cap": {
+   "value": 120.0,
+   "note": "S$ | (Daily$1 = S$1 cashback) Daily$20 cap per month for dining, Sheng Shiong, Popular, online shopping, SimplyGo, and MYR categories respectively. no cap on all other spend."
+  }
+ },
+ "highlights": [
+  "10% cash rebates on online food delivery and 5% on dining out (capped at Daily$20). 10% cash rebates on in-store spend in MYR (capped at Daily$20). 10% cash rebates on SimplyGo (capped at Daily$20). 5% cash rebates on Amazon.sg, Lazada, Shopee, RedMart, Taobao and TikTok Shop (capped at Daily$20). 5% cash rebates at Popular bookstores (capped at Daily$20). All the above come with a minimum spend requirement of S$800 per calendar month. Additionally, get 5% cash rebates at Sheng Siong with no minimum spend required, capped at Daily$30 per calendar month, and 0.3% cash rebates on all other spending with no cap or minimum spend necessary.",
+  "pros: Up to 10% cash rebates on food delivery via foodpanda, GrabFood and Deliveroo.",
+  "pros: Up to 10% cash rebates on in-store spend in Malaysian Ringgit (MYR).",
+  "pros: Up to 10% cash rebates on SimplyGo.",
+  "pros: Up to 5% cash rebates on Amazon.sg, Lazada, Shopee, RedMart, Taobao and TikTok Shop.",
+  "pros: Up to 5% cash rebates at Popular bookstores (in-person and online)",
+  "pros: 5% cash rebates at Sheng Siong supermarkets.",
+  "pros: 6% cash rebates at SPC.",
+  "pros: 3% cash rebates at Pet Lovers Centre.",
+  "pros: 0.3% cash rebates on all other eligible spend.",
+  "pros: Cash rebates (in Daily$) never expire.",
+  "pros: Read our full review of the POSB Everyday Card.",
+  "cons: Min. spend of S$800 per calendar month required for accelerated cash rebate earn rate.",
+  "cons: S$20 monthly cash rebate cap for dining, Sheng Shiong, Popular, online shopping, SimplyGo, and MYR categories respectively.",
+  "pros: Food delivery",
+  "pros: Online shopping rebate",
+  "cons: Rebate cap applied",
+  "cons: Monthly spend required"
+ ],
+ "sign_up_offers": [
+  {
+   "kind": "welcome_offer",
+   "title": "Stackable Welcome Offer",
+   "offer_id": "SG.2026-04-01.CC.DBSX.CASHLINE.BAU",
+   "valid_from": "2026-08-31T16:00:00Z",
+   "valid_to": "2026-09-30T15:59:00Z",
+   "gifts": [
+    {
+     "title": "Up to S$200 Cashback on Cashline",
+     "value_sgd": 200
+    }
+   ],
+   "terms": "Stackable Welcome Offer promotion is valid from 1 September 2026 to 30 September 2026.\nPromotion is valid for new DBS / POSB credit cardmembers only.\nApply and get approved for selected credit cards from DBS and POSB during the promo period and select “Cashline” in your application on the DBS/POSB website (except foreigners) to be eligible for S$100 cash reward.\nReceive an additional S$100 cash with a minimum S$188 closing balance accumulated for Cashline withdrawals in the first two statement months upon account opening.\nTerms and Conditions\n apply.",
+   "tnc_url": null,
+   "bundle_with": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "kind": "exclusive_offer",
+   "title": "SingSaver Exclusive Offer",
+   "offer_id": "SG.2026-09-17.CC.DBSX.6XCC.288CASH-310GRAB-18KMAXM-MRMINI20-STRAREN-[DYSON-APPLE]",
+   "valid_from": "2026-09-16T16:00:00Z",
+   "valid_to": "2026-09-30T15:59:00Z",
+   "gifts": [
+    {
+     "title": "S$288 Cash via PayNow",
+     "value_sgd": 288
+    },
+    {
+     "title": "S$310 Grab Voucher",
+     "value_sgd": 310
+    },
+    {
+     "title": "18,000 Max Miles by HeyMax (worth S$324)",
+     "value_sgd": 324
+    },
+    {
+     "title": "Morning Mini Coffee Machine + 20 Capsules Bundle (worth S$425)",
+     "value_sgd": 425
+    },
+    {
+     "title": "Samsonite Straren Spinner 67/24 (worth S$600)",
+     "value_sgd": 600
+    },
+    {
+     "title": "Dyson V8 Cyclone Vacuum Cleaner (worth S$559, top up S$150)",
+     "value_sgd": 559
+    },
+    {
+     "title": "Dyson Airstrait™ hair straightener (worth S$799) (Top up S$200)",
+     "value_sgd": 799
+    },
+    {
+     "title": "Sony WH-1000XM6 Headphones (worth S$649) (top up S$200)",
+     "value_sgd": 649
+    },
+    {
+     "title": "Apple iPad (A16) 11\" 128GB WiFi (worth S$649) (Top up S$350)",
+     "value_sgd": 649
+    }
+   ],
+   "terms": "SingSaver Exclusive Offer promotion is valid from 17 September 2026 to 30 September 2026\nPromotion is valid for new DBS / POSB credit cardmembers only.\nApply for selected credit cards from DBS and POSB within the promo period using the promo code \"\nSINGSAVER\n\" during the application and make a min. spend of S$500 within 30 days from card approval date to be eligible for reward.\nHave a valid DBS PayLah! account by the end of the Qualifying Spend period to be eligible for the reward,\nSome rewards will require additional top-up to claim.\nPromotion does not stack with other welcome offers from DBS / POSB.\nTerms and Conditions\n apply.",
+   "tnc_url": null,
+   "bundle_with": []
+  }
+ ],
+ "links": {
+  "apply": "https://www.singsaver.com.sg/apply-v2b/17674"
+ },
+ "citation": {
+  "id": "singsaver:07b052cd3085",
+  "url": "https://www.singsaver.com.sg/credit-card/products/posb-everyday-card",
+  "title": "POSB Everyday Card",
+  "source_type": "aggregator",
+  "retrieved_at": "2026-09-27T05:26:31+00:00",
+  "sha256": "07b052cd3085728bd5f6597901b5dd125ed642e2aa2890d2faf33a2c05754735",
+  "snapshot": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-posb-everyday-card-02593a8a.html"
+ },
+ "extra": {
+  "network": [
+   "Mastercard"
+  ],
+  "mobile_wallets": [
+   "Google Pay",
+   "Apple Pay",
+   "Samsung Pay",
+   "NETSPay"
+  ],
+  "fx_fee_percent": 3.25,
+  "miles_conversion_fee": null,
+  "categories": [
+   "category:all-credit-cards",
+   "category:buffet-promo",
+   "category:cashback",
+   "category:dining-promo",
+   "category:grocery-promo",
+   "category:installment",
+   "category:petrol-promo",
+   "category:promo",
+   "category:retail-promo",
+   "category:travel",
+   "needs:0-interest-rate",
+   "needs:all-cards-with-buffet-promo",
+   "needs:all-cards-with-dining-promo",
+   "needs:all-cards-with-grocery-promo",
+   "needs:all-cards-with-petrol-promo",
+   "needs:all-cards-with-promotion",
+   "needs:all-cards-with-retail-promo",
+   "needs:all-cashback-cards",
+   "needs:all-credit-cards",
+   "needs:all-installment-cards",
+   "needs:all-travel-cards",
+   "needs:high-cashback",
+   "needs:long-tenure-installment",
+   "needs:online-booking-discount"
+  ],
+  "tag": null,
+  "description": "Make your everyday more rewarding with the POSB Everyday Card. Enjoy up to 10% cash rebates on your daily spend, along with bigger savings on dining, shopping, and more!"
+ }
+}

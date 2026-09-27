@@ -1,0 +1,1374 @@
+# Card registry: one entry per card. Our id, the bank, how each aggregator names it, and where the
+# official T&Cs live. `official.product_page` is scanned for T&C PDFs (patterns in sources.yaml);
+# `official.tnc_urls` lists documents explicitly. Add cards with `pocketaces discover --write`.
+cards:
+- id: amex-krisflyer
+  bank: American Express
+  bank_key: amex
+  name: American Express Singapore Airlines KrisFlyer Credit Card
+  sources:
+    singsaver: american-express-singapore-airlines-krisflyer-credit-card
+    moneysmart: american-express-singapore-airlines-krisflyer-credit-card
+  official:
+    product_page: https://www.americanexpress.com/sg/credit-cards/singapore-airlines-krisflyer-credit-card/
+    tnc_urls:
+    - https://www.americanexpress.com/content/dam/amex/sg/campaigns/pdfs/krisflyer-credit-card.pdf
+    - https://www.americanexpress.com/content/dam/amex/sg/benefits/amex-sg-exclusions.pdf
+    notes: First PDF is a combined 'Card Member Agreement and Benefits Terms and Conditions' document;
+      only its 'Benefits Terms and Conditions' section (earning KrisFlyer miles, bonus miles) is the relevant
+      rewards T&C, the rest is the generic cardmember agreement (kept as one file since Amex publishes
+      them together, not separable by URL). Second PDF is Amex's general non-eligible-purchases/MCC-style
+      exclusion list, which this card's earn rules explicitly reference (go.amex/sgexclusions redirects
+      to it) and which also covers Membership Rewards cards, the True Cashback card, and the SIA Business
+      card. Both verified 200/application-pdf.
+  aliases:
+  - AMEX KrisFlyer Credit Card
+- id: amex-krisflyer-ascend
+  bank: American Express
+  bank_key: amex
+  name: American Express Singapore Airlines KrisFlyer Ascend Credit Card
+  sources:
+    singsaver: american-express-singapore-airlines-krisflyer-ascend-credit-card
+    moneysmart: american-express-singapore-airlines-krisflyer-ascend-credit-card
+  official:
+    product_page: https://www.americanexpress.com/sg/credit-cards/singapore-airlines-krisflyer-ascend-credit-card/
+    tnc_urls:
+    - https://www.americanexpress.com/content/dam/amex/sg/campaigns/pdfs/krisflyer-ascend-credit-card.pdf
+    - https://www.americanexpress.com/content/dam/amex/sg/benefits/amex-sg-exclusions.pdf
+    notes: Same structure/caveats as amex-krisflyer. Both verified 200/application-pdf.
+  aliases:
+  - AMEX KrisFlyer Ascend
+- id: amex-platinum-charge
+  bank: American Express
+  bank_key: amex
+  name: American Express Platinum Card (charge card)
+  sources:
+    singsaver: american-express-platinum-card
+  official:
+    product_page: https://www.americanexpress.com/sg/charge-cards/platinum-card/
+    tnc_urls:
+    - https://www.americanexpress.com/content/dam/amex/sg/campaigns/pdfs/the-platinum-card.pdf
+    - https://www.americanexpress.com/content/dam/amex/sg/benefits/amex-sg-exclusions.pdf
+    notes: This is the charge-card 'The Platinum Card' (as opposed to the Platinum Credit Card). Combined
+      PDF includes Product Highlight Sheet + Benefit T&Cs (Membership Rewards earn rate/10Xcelerator)
+      + Card Member Agreement in one file. Exclusions doc section 2 (Membership Rewards Programme cards)
+      applies. Both verified 200/application-pdf.
+- id: amex-platinum-credit
+  bank: American Express
+  bank_key: amex
+  name: American Express Platinum Credit Card
+  sources:
+    singsaver: american-express-platinum-credit-card
+    moneysmart: american-express-platinum-credit-card
+  official:
+    product_page: https://www.americanexpress.com/sg/credit-cards/platinum-credit-card/
+    tnc_urls:
+    - https://www.americanexpress.com/content/dam/amex/sg/campaigns/pdfs/platinum-credit-card.pdf
+    - https://www.americanexpress.com/content/dam/amex/sg/benefits/amex-sg-exclusions.pdf
+    notes: Combined Benefits T&C + Card Member Agreement PDF, same caveat as other Amex cards. Both verified
+      200/application-pdf.
+- id: amex-true-cashback
+  bank: American Express
+  bank_key: amex
+  name: American Express True Cashback Card
+  sources:
+    singsaver: american-express-true-cashback-card
+    moneysmart: american-express-true-cashback-card
+  official:
+    product_page: https://www.americanexpress.com/sg/credit-cards/true-cashback-card/
+    tnc_urls:
+    - https://www.americanexpress.com/content/dam/amex/sg/campaigns/pdfs/true-cashback-card.pdf
+    - https://www.americanexpress.com/content/dam/amex/sg/benefits/amex-sg-exclusions.pdf
+    notes: Combined Benefits T&C (cashback earn rate/welcome bonus) + Card Member Agreement PDF. Exclusions
+      doc section 3 (True Cashback Card) applies. Both verified 200/application-pdf.
+- id: boc-elite-miles-world-mastercard
+  bank: Bank of China
+  bank_key: boc
+  name: BOC Elite Miles World Mastercard
+  sources:
+    singsaver: boc-elite-miles-world-mastercard
+  official:
+    product_page: https://www.bankofchina.com/sg/bcservice/bc1/201909/t20190903_16537165.html
+    tnc_urls:
+    - https://www.bankofchina.com/sg/bocinfo/bi5/201810/P020250701406428156884.pdf
+    notes: Product page verified 200, names the card. T&C PDF is 'Terms and Conditions Governing BOC Elite
+      Miles World Mastercard Programme' (effective 1 Jul 2025) - earn rates and MCC exclusions confirmed
+      by text extraction. Generic bank-wide BOC Rewards redemption T&C excluded as not card-specific.
+- id: boc-nvmo
+  bank: Bank of China
+  bank_key: boc
+  name: BOC NVMO Card
+  sources:
+    singsaver: boc-family-card
+  official:
+    product_page: https://www.bankofchina.com/sg/bcservice/bc1/201605/t20160503_6891836.html
+    tnc_urls:
+    - https://pic.bankofchina.com/bocappd/singapore/202606/P020260611353473424295.pdf
+    notes: Card was rebranded from 'BOC Family Card' to 'BOC NVMO Card' effective 13 Jun 2026; URL slugs
+      retain old naming but page/PDF content confirmed as NVMO. T&C PDF is 'Terms and Conditions Governing
+      BOC NVMO Credit Card Cashback Programme', hosted on the pic.bankofchina.com CDN subdomain (same
+      issuer, different subdomain).
+- id: boc-sheng-siong
+  bank: Bank of China
+  bank_key: boc
+  name: BOC Sheng Siong Card
+  sources:
+    singsaver: boc-sheng-siong-card
+  official:
+    product_page: https://www.bankofchina.com/sg/bcservice/bc1/201707/t20170717_9813258.html
+    tnc_urls:
+    - https://www.bankofchina.com/sg/bocinfo/bi5/201707/P020250618364198284675.pdf
+    notes: T&C PDF is 'Terms and Conditions Governing the BOC Sheng Siong Card Cash Rebate Programme'
+      (effective 15 Jun 2025) - confirmed by text extraction.
+- id: boc-visa-infinite
+  bank: Bank of China
+  bank_key: boc
+  name: BOC Visa Infinite Card
+  sources:
+    singsaver: boc-visa-infinite-card
+  official:
+    product_page: https://www.bankofchina.com/sg/bcservice/bc1/201603/t20160317_6758741.html
+    tnc_urls:
+    - https://www.bankofchina.com/sg/bocinfo/bi5/202506/P020250613354557074670.pdf
+    notes: T&C PDF is 'Terms and Conditions Governing BOC Visa Infinite Card Programme' (effective 15
+      Jun 2025) - confirmed by text extraction.
+- id: cimb-visa-infinite
+  bank: CIMB Bank
+  bank_key: cimb
+  name: CIMB Visa Infinite Card
+  sources:
+    singsaver: cimb-visa-infinite-card
+    moneysmart: cimb-visa-infinite
+  official:
+    product_page: https://www.cimb.com.sg/en/personal/banking-with-us/cards/credit-cards/cimb-visa-infinite.html
+    tnc_urls:
+    - https://www.cimb.com.sg/content/dam/cimbsg/personal/document/tnc/cards/cards-tnc/vi-card.pdf
+    notes: PDF is 'Terms and conditions governing CIMB Visa Infinite Cashback Programme' - base + category
+      cashback and MCC exclusions confirmed.
+- id: cimb-visa-signature
+  bank: CIMB Bank
+  bank_key: cimb
+  name: CIMB Visa Signature Card
+  sources:
+    singsaver: cimb-visa-signature-card
+    moneysmart: cimb-visa-signature
+  official:
+    product_page: https://www.cimb.com.sg/en/personal/banking-with-us/cards/credit-cards/cimb-visa-signature.html
+    tnc_urls:
+    - https://www.cimb.com.sg/content/dam/cimbsg/personal/document/tnc/cards/credit-card/conventional/visa-signature.pdf
+    notes: PDF is 'Terms and conditions governing CIMB Visa Signature Cashback Programme' - 0.2% base
+      + 10% category cashback with min spend criteria, confirmed.
+- id: cimb-world-mastercard
+  bank: CIMB Bank
+  bank_key: cimb
+  name: CIMB World Mastercard
+  sources:
+    singsaver: cimb-world-mastercard
+    moneysmart: cimb-world-mastercard
+  official:
+    product_page: https://www.cimb.com.sg/en/personal/banking-with-us/cards/credit-cards/cimb-world-mastercard.html
+    tnc_urls:
+    - https://www.cimb.com.sg/content/dam/cimbsg/personal/document/cards/terms-and-conditions/tnc-worldmastercard-wef-1nov22.pdf
+    notes: Two independent research passes disagreed here; resolved by direct verification. This 'wef-1nov22'
+      PDF ('Terms and conditions governing CIMB World Mastercard Cashback Programme', effective 1 Nov
+      2022, up to 2% cashback on 4 categories with S$1,000 min spend tiering, MCC exclusions) IS currently
+      linked from the live product page (confirmed via grep on page HTML) and content-verified. A different,
+      older PDF at .../tnc/cards/credit-card/conventional/world-mastercard.pdf also returns HTTP 200 but
+      is NOT linked from the current product page and was excluded as likely superseded/orphaned.
+- id: circles-zerofy-cashback
+  bank: Circles.Life
+  bank_key: circles-life
+  name: Circles Zerofy Visa Cashback Card
+  sources:
+    moneysmart: circles-zerofy-visa-cashback-card
+  official:
+    product_page: https://www.circles.life/sg/circles-zerofy-cashback-card/
+    tnc_urls:
+    - https://www.circles.life/sg/terms-conditions/zerofy-card-terms-conditions/
+    notes: HTML T&C page (Circles/Airwallex publish no PDF); confirmed 200, mentions cashback/MCC/exclusions/merchant
+      category. Card appears to be issued with Airwallex and may function as a debit/prepaid Visa rather
+      than a traditional credit card - flagging for review since this could affect how it should be treated
+      in the pipeline. Base ~1% instant cashback, up to 27% at partner merchants, MCC-based exclusions.
+- id: citi-cash-back
+  bank: Citibank
+  bank_key: citibank
+  name: Citi Cash Back Card
+  sources:
+    singsaver: citi-cash-back-card
+    moneysmart: citi-cash-back-card
+  official:
+    product_page: https://www.citibank.com.sg/credit-cards/cashback/cash-back-card
+    tnc_urls:
+    - https://www.citibank.com.sg/credit-cards/cashback/citi-cash-back-card/pdf/members-agreement.pdf
+    - https://www.citibank.com.sg/credit-cards/pdf/rewards-exclusion-list.pdf
+    notes: 'Citi bundles the actual reward-earning schedule into the same PDF as the general Cardmember''s
+      Agreement: this file contains a distinctly headed section ''CITI CASH BACK CARD PROGRAM INFORMATION''
+      with the 0.2% base rate, 5.8% dining/grocery and 7.8% petrol/commute bonus rates, caps, and exclusions.
+      Citi does not publish this program schedule as a separate PDF, so the combined agreement PDF is
+      included despite normally excluding generic cardmember agreements. rewards-exclusion-list.pdf is
+      Citi''s shared MCC exclusion list that explicitly names this card.'
+- id: citi-cash-back-plus
+  bank: Citibank
+  bank_key: citibank
+  name: Citi Cash Back+ Card
+  sources:
+    singsaver: citi-cash-back-plus-card
+    moneysmart: citi-cashback-plus-card
+  official:
+    product_page: https://www.citibank.com.sg/credit-cards/cashback/cashback-plus-card/
+    tnc_urls:
+    - https://www.citibank.com.sg/credit-cards/cashback/cashback-plus-card/pdf/cashback-plus-card-members-agreement.pdf
+    - https://www.citibank.com.sg/credit-cards/cashback/cashback-plus-card/pdf/bonus-cash-back-terms-and-conditions.pdf
+    - https://www.citibank.com.sg/credit-cards/pdf/rewards-exclusion-list.pdf
+    notes: As with Citi Cash Back, the base 1.6% cash back rate and MCC-type exclusions live in a 'CITI
+      CASH BACK+ CARD PROGRAM INFORMATION' section embedded in the Cardmember's Agreement PDF (not published
+      separately). bonus-cash-back-terms-and-conditions.pdf is the standing (non-time-limited) T&C for
+      the additional 0.4% Bonus Cash Back tier. rewards-exclusion-list.pdf is the shared MCC exclusion
+      list covering this card.
+- id: citi-clear
+  bank: Citibank
+  bank_key: citibank
+  name: Citi Clear Card
+  sources:
+    singsaver: citi-clear-card
+  official:
+    product_page: https://www.citibank.com.sg/credit-cards/student/citi-clear-card
+    tnc_urls:
+    - https://www.citibank.com.sg/credit-cards/student/citi-clear-card/pdf/card-members-agreement.pdf
+    - https://www.citibank.com.sg/credit-cards/rewards/pdf/rewards-promotion-terms-and-conditions.pdf
+    - https://www.citibank.com.sg/global_docs/pdf/Rewards_Exclusion_List.pdf
+    notes: The 1 Point per S$1 earn rate and MCC-type exclusions are embedded in the Cardmember's Agreement
+      PDF (section 'ISSUANCE OF POINTS'). 'Citi Cards - Rewards Promotion Terms and Conditions' separately
+      confirms this same 1 point/S$1 rate for Citi Clear Card, Citi Clear Platinum Card and Citi Platinum
+      Card. Rewards_Exclusion_List.pdf is the shared MCC exclusion list covering this card.
+- id: citi-m1-platinum-visa
+  bank: Citibank
+  bank_key: citibank
+  name: Citi M1 Platinum Visa Card
+  sources:
+    singsaver: citibank-m1-platinum-visa-card
+    moneysmart: citi-m1-credit-card
+  official:
+    product_page: https://www.citibank.com.sg/gcb/credit_cards/m1-platinum-visa-credit-card
+    tnc_urls:
+    - https://www.citibank.com.sg/gcb/credit_cards/m1-platinum-visa-credit-card.pdf
+    - https://www.citibank.com.sg/credit-cards/pdf/rewards-exclusion-list.pdf
+    notes: Unusually, the T&C PDF is served at the product page URL with '.pdf' appended; it is the full
+      Cardmember's Agreement, but contains an embedded 'Citi M1 Platinum Visa Citi M1 Rebate - The Cash
+      Rebate Program' section (0.3% base rate, 2.7%/4.7% bonus rates with MCC lists for M1 Shop/Telco/Entertainment
+      spend). rewards-exclusion-list.pdf is the shared MCC exclusion list covering this card.
+- id: citi-premiermiles
+  bank: Citibank
+  bank_key: citibank
+  name: Citi PremierMiles Card
+  sources:
+    singsaver: citi-premier-miles-card
+    moneysmart: citi-premiermiles-card
+  official:
+    product_page: https://www.citibank.com.sg/credit-cards/travel/premiermiles-card
+    tnc_urls:
+    - https://www.citibank.com.sg/credit-cards/travel/premiermiles-card/pdf/citi-premiermiles-card-members-agreement.pdf
+    - https://www.citibank.com.sg/global_docs/pdf/Rewards_Exclusion_List.pdf
+    notes: The Cardmember's Agreement PDF contains an embedded 'CITIBANK PREMIERMILES PROGRAM TERMS AND
+      CONDITIONS' section with the 1.2 mpd local / 2.2 mpd overseas earn rates and MCC-type exclusions;
+      Citi does not publish this as a standalone document. Rewards_Exclusion_List.pdf is the shared MCC
+      exclusion list covering this card.
+- id: citi-prestige
+  bank: Citibank
+  bank_key: citibank
+  name: Citi Prestige Card
+  sources:
+    singsaver: citi-prestige-card
+    moneysmart: citi-prestige-card
+  official:
+    product_page: https://www.citibank.com.sg/credit-cards/rewards/prestige-credit-card/
+    tnc_urls:
+    - https://www.citibank.com.sg/credit-cards/rewards/prestige-credit-card/pdf/card-members-agreement.pdf
+    - https://www.citibank.com.sg/credit-cards/pdf/rewards-exclusion-list.pdf
+    notes: Card still available for new applications in Singapore as of Sep 2026 (min. income S$120,000),
+      though benefits have been reduced over time and Citi Prestige has been discontinued in some other
+      markets. The Cardmember's Agreement PDF contains an embedded 'CITI PRESTIGE PROGRAM TERMS AND CONDITIONS'
+      section (3.25 points/S$1 local, 5 points/S$1 overseas, plus MCC exclusions); Citi does not publish
+      this as a standalone document. Excluded prestigemrctc.pdf and other 'Welcome Gift'/'online-acquisition-offer'
+      PDFs found on the page as they are time-limited sign-up promotions.
+- id: citi-rewards
+  bank: Citibank
+  bank_key: citibank
+  name: Citi Rewards Card
+  sources:
+    singsaver: citi-rewards-card
+    moneysmart: citibank-rewards-card
+  official:
+    product_page: https://www.citibank.com.sg/credit-cards/rewards/citi-rewards-card
+    tnc_urls:
+    - https://www.citibank.com.sg/credit-cards/rewards/citi-rewards-card/pdf/card-members-agreement.pdf
+    - https://www.citibank.com.sg/credit-cards/rewards/citi-rewards-card/pdf/10x-rewards-promotion-terms-and-conditions-2020.pdf
+    - https://www.citibank.com.sg/global_docs/pdf/Rewards_Exclusion_List.pdf
+    notes: Cardmember's Agreement PDF has the base 1 point/S$1 rate and general exclusions embedded ('ISSUANCE
+      OF POINTS' section). The '10X Rewards Promotion' T&C (still linked from the live product page despite
+      the '2020' in its filename) is the standing MCC-based bonus-category document (10X points on clothing/department-store-type
+      MCCs etc.), not a time-limited sign-up offer. Rewards_Exclusion_List.pdf is the shared MCC exclusion
+      list covering this card.
+- id: citi-smrt
+  bank: Citibank
+  bank_key: citibank
+  name: Citi SMRT Card
+  sources:
+    singsaver: citi-smrt-card
+    moneysmart: citibank-smrt-platinum-visa-card
+  official:
+    product_page: https://www.citibank.com.sg/credit-cards/cashback/smrt-credit-card
+    tnc_urls:
+    - https://www.citibank.com.sg/credit-cards/cashback/smrt-credit-card/pdf/citi-smrt-rewards-program.pdf
+    notes: Self-contained 'Citi SMRT$ Rewards Program Terms and Conditions' PDF with 0.3% base rate, 4.7%
+      bonus rate and its own detailed MCC/exclusion tables; not linked to the shared rewards-exclusion-list.pdf
+      on its product page, and not needed since this doc is already complete on its own.
+- id: dbs-altitude-american-express
+  bank: DBS
+  bank_key: dbs
+  name: DBS Altitude American Express Card
+  sources:
+    singsaver: dbs-altitude-american-express-card
+    moneysmart: dbs-altitude-american-express-card
+  official:
+    product_page: https://www.dbs.com.sg/personal/cards/credit-cards/dbs-altitude-cards
+    tnc_urls:
+    - https://www.dbs.com.sg/iwov-resources/pdf/cards/altitude-card-tnc.pdf
+    - https://www.dbs.com.sg/iwov-resources/pdf/cards/rewards_programme_tnc.pdf
+    notes: Product page is shared by DBS Altitude American Express and DBS Altitude Visa Signature cards.
+      altitude-card-tnc.pdf has the earn rates (1.3 mpd local / 2.2 mpd overseas) but for the MCC exclusion
+      list it refers to Clause 2.8 of the general 'DBS Rewards Terms and Conditions' (rewards_programme_tnc.pdf),
+      so both PDFs are needed together for full earn+exclusion terms.
+  aliases:
+  - DBS Altitude Card
+- id: dbs-altitude-visa-signature
+  bank: DBS
+  bank_key: dbs
+  name: DBS Altitude Visa Signature Card
+  sources:
+    singsaver: dbs-altitude-visa-signature-card
+    moneysmart: dbs-altitude-visa-signature-card
+  official:
+    product_page: https://www.dbs.com.sg/personal/cards/credit-cards/dbs-altitude-cards
+    tnc_urls:
+    - https://www.dbs.com.sg/iwov-resources/pdf/cards/altitude-card-tnc.pdf
+    - https://www.dbs.com.sg/iwov-resources/pdf/cards/rewards_programme_tnc.pdf
+    notes: Product page is shared by DBS Altitude American Express and DBS Altitude Visa Signature cards.
+      Same T&C documents apply as the Amex variant (see that entry's notes).
+  aliases:
+  - DBS Altitude Card
+- id: dbs-chromo
+  bank: DBS
+  bank_key: dbs
+  name: DBS Chromo Card
+  sources:
+    singsaver: dbs-chromo-card
+    moneysmart: dbs-chromo-card
+  official:
+    product_page: https://www.dbs.com.sg/personal/cards/credit-cards/dbs-chromo-card
+    tnc_urls:
+    - https://www.dbs.com.sg/iwov-resources/media/pdf/cards/dbs-chromo-tnc.pdf
+    notes: Self-contained T&C (cashback/miles earn rates plus its own MCC exclusion tables).
+- id: dbs-esso
+  bank: DBS
+  bank_key: dbs
+  name: DBS Esso Card
+  sources:
+    singsaver: dbs-esso-card
+    moneysmart: dbs-esso-card
+  official:
+    product_page: https://www.dbs.com.sg/personal/cards/credit-cards/dbs-esso-platinum-card
+    tnc_urls:
+    - https://www.dbs.com.sg/iwov-resources/media/pdf/cards/promotions/esso/esso-fuel-tnc-26.pdf
+    - https://www.dbs.com.sg/iwov-resources/pdf/cards/credit-cards/dbs-esso-card-smiles-campaign-tnc.pdf
+    notes: DBS labels these ongoing reward mechanics as 'Promotion' documents with a stated end date (currently
+      31 Dec 2026) that DBS periodically rolls forward; they are the card's core fuel-discount and Esso
+      Smiles points earn structure (not a one-off sign-up bonus), so both are included.
+- id: dbs-live-fresh
+  bank: DBS
+  bank_key: dbs
+  name: DBS Live Fresh Card
+  sources:
+    singsaver: dbs-live-fresh-card
+    moneysmart: dbs-live-fresh-card
+  official:
+    product_page: https://www.dbs.com.sg/personal/cards/credit-cards/live-fresh-dbs-visa-paywave-platinum-card
+    tnc_urls:
+    - https://www.dbs.com.sg/iwov-resources/media/pdf/cards/live-fresh-cashback-tnc.pdf
+- id: dbs-live-fresh-student
+  bank: DBS
+  bank_key: dbs
+  name: DBS Live Fresh Student Card
+  sources:
+    singsaver: dbs-live-fresh-student-card
+    moneysmart: dbs-live-fresh-student
+  official:
+    product_page: https://www.dbs.com.sg/personal/cards/credit-cards/live-fresh-dbs-visa-paywave-500-card
+    tnc_urls:
+    - https://www.dbs.com.sg/iwov-resources/media/pdf/cards/live-fresh-student-cashback-tnc.pdf
+    notes: Product page URL slug says '500-card' but og:title and page content ('DBS Live Fresh - Ideal
+      Starter Credit Card for Students', 113 mentions of 'student') confirm this is the Student variant's
+      page.
+- id: dbs-safra
+  bank: DBS
+  bank_key: dbs
+  name: DBS SAFRA Card
+  sources:
+    singsaver: dbs-safra-card
+    moneysmart: safra-dbs-card
+  official:
+    product_page: https://www.dbs.com.sg/personal/cards/credit-cards/dbs-safra-credit-card
+    tnc_urls:
+    - https://www.dbs.com.sg/iwov-resources/pdf/cards/safra-dbs-credit-card-cash-rebate-programme-tnc.pdf
+    notes: Self-contained cash rebate T&C with its own MCC exclusion table.
+- id: dbs-takashimaya-american-express
+  bank: DBS
+  bank_key: dbs
+  name: DBS Takashimaya American Express Card
+  sources:
+    singsaver: dbs-takashimaya-american-express-card
+    moneysmart: dbs-takashimaya-platinum-american-express-card
+  official:
+    product_page: https://www.dbs.com.sg/personal/cards/credit-cards/dbs-takashimaya-card
+    tnc_urls:
+    - https://www.dbs.com.sg/iwov-resources/media/pdf/cards/dbs-takashimya-card-tnc.pdf
+    notes: The card-specific URLs (.../dbs-takashimaya-american-express-platinum-card and .../dbs-takashimaya-visa-platinum-card)
+      both now soft-404 (redirect to default.page?rd=err with HTTP 200). The current live product page
+      is the shared 'dbs-takashimaya-card' page, which covers both the American Express and Visa variants;
+      its linked T&C PDF also covers both.
+- id: dbs-takashimaya-visa
+  bank: DBS
+  bank_key: dbs
+  name: DBS Takashimaya Visa Card
+  sources:
+    singsaver: dbs-takashimaya-visa-card
+  official:
+    product_page: https://www.dbs.com.sg/personal/cards/credit-cards/dbs-takashimaya-card
+    tnc_urls:
+    - https://www.dbs.com.sg/iwov-resources/media/pdf/cards/dbs-takashimya-card-tnc.pdf
+    notes: Shares the product page and T&C PDF with the American Express variant; see that entry's notes
+      on the dead dedicated URL.
+- id: dbs-vantage-visa-infinite
+  bank: DBS
+  bank_key: dbs
+  name: DBS Vantage Visa Infinite Card
+  sources:
+    singsaver: dbs-vantage-visa-infinite-card
+    moneysmart: dbs-vantage-visa-infinite-card
+  official:
+    product_page: https://www.dbs.com.sg/personal/cards/credit-cards/dbs-vantage-visa-infinite-card
+    tnc_urls:
+    - https://www.dbs.com.sg/iwov-resources/pdf/cards/vantage-card-T&Cs.pdf
+    - https://www.dbs.com.sg/iwov-resources/pdf/cards/rewards_programme_tnc.pdf
+    notes: vantage-card-T&Cs.pdf has the earn rates (1.5 mpd local / 2.2 mpd overseas or cashback equivalent)
+      but for the MCC exclusion list it refers to the general 'DBS Rewards Terms and Conditions' (rewards_programme_tnc.pdf,
+      same shared doc used by Altitude), so both PDFs are needed together.
+  aliases:
+  - DBS Vantage Card
+- id: dbs-womans
+  bank: DBS
+  bank_key: dbs
+  name: DBS Woman's Card
+  sources:
+    singsaver: dbs-womans-card
+    moneysmart: dbs-womans-card
+  official:
+    product_page: https://www.dbs.com.sg/personal/cards/credit-cards/dbs-woman-mastercard-card
+    tnc_urls:
+    - https://www.dbs.com.sg/iwov-resources/media/pdf/cards/dbs-womans-card-tnc.pdf
+    notes: Product page and T&C PDF are shared by DBS Woman's Card and DBS Woman's World Card (T&C document
+      explicitly states it governs both cards and includes its own MCC exclusion table).
+- id: dbs-womans-world
+  bank: DBS
+  bank_key: dbs
+  name: DBS Woman's World Card
+  sources:
+    singsaver: dbs-womans-world-card
+    moneysmart: dbs-woman-s-world-card
+  official:
+    product_page: https://www.dbs.com.sg/personal/cards/credit-cards/dbs-woman-mastercard-card
+    tnc_urls:
+    - https://www.dbs.com.sg/iwov-resources/media/pdf/cards/dbs-womans-card-tnc.pdf
+    notes: Shares product page and T&C PDF with DBS Woman's Card; see that entry's notes.
+- id: dbs-yuu-american-express
+  bank: DBS
+  bank_key: dbs
+  name: DBS yuu American Express Card
+  sources:
+    singsaver: dbs-yuu-american-express-card
+    moneysmart: dbs-yuu-american-express-card
+  official:
+    product_page: https://www.dbs.com.sg/personal/cards/credit-cards/dbs-yuu-cards
+    tnc_urls:
+    - https://www.dbs.com.sg/iwov-resources/media/pdf/cards/promotions/dbs-yuu-cards/dbs-yuu-card-promotion-tncs.pdf
+    notes: Product page and T&C are shared by DBS yuu American Express and DBS yuu Visa cards. Used the
+      current (updated 7 Aug 2026) 'DBS yuu Card Programme and Promotions' T&C linked from the live product
+      page, not the older dbs-yuu-card-terms-and-conditions.pdf (titled 'DBS yuu Card Launch Promotions',
+      last updated Dec 2022, appears superseded).
+  aliases:
+  - DBS yuu Card
+- id: dbs-yuu-visa
+  bank: DBS
+  bank_key: dbs
+  name: DBS yuu Visa Card
+  sources:
+    singsaver: dbs-yuu-visa-card
+    moneysmart: dbs-yuu-visa-card
+  official:
+    product_page: https://www.dbs.com.sg/personal/cards/credit-cards/dbs-yuu-cards
+    tnc_urls:
+    - https://www.dbs.com.sg/iwov-resources/media/pdf/cards/promotions/dbs-yuu-cards/dbs-yuu-card-promotion-tncs.pdf
+    notes: Shares product page and T&C with DBS yuu American Express card; see that entry's notes.
+  aliases:
+  - DBS yuu Card
+- id: dcs-cashback
+  bank: DCS
+  bank_key: dcs
+  name: DCS CASHBACK Card
+  sources:
+    singsaver: dcs-cashback-card
+  official:
+    product_page: https://cards.dcscc.com/cashback
+    tnc_urls:
+    - https://cards.dcscc.com/dcscc/v2/pdf/DCS%20Cashback%20Credit%20Card%20TCs.pdf
+    notes: 'Note: dcs.com.sg does not resolve to this issuer - real domain is dcscc.com (DCS Card Centre,
+      formerly Diners Club Singapore). This T&C PDF was not found linked directly in the /cashback page''s
+      HTML (which only surfaces a generic Flex-card-related footer link) but was independently located
+      by two separate research passes at the same URL and content-verified: ''DCS CASHBACK CREDIT CARD
+      TERMS AND CONDITIONS OF CASH REBATE'' - 5% rebate, S$50/month cap, S$500 min monthly spend, MCC
+      exclusions.'
+- id: dcs-don-don-donki
+  bank: DCS
+  bank_key: dcs
+  name: DCS DON DON DONKI Card
+  sources:
+    singsaver: dcs-don-don-donki-card
+  official:
+    product_page: https://cards.dcscc.com/don-don-donki
+    tnc_urls:
+    - https://cards.dcscc.com/dcscc/v2/pdf/DON%20DON%20DONKI%20Rebate%24%20TCs.pdf
+    notes: Two candidate URLs were found (cards.dcscc.com/pdf/... and cards.dcscc.com/dcscc/v2/pdf/...);
+      both returned HTTP 200 and, on rendering, contain identical 'REBATE$ TERMS AND CONDITIONS' content
+      (5% rebate up to S$1,000/month, or 2% up to S$500/month for the S$500-limit variant). Picked the
+      v2 path for consistency with the DCS Cashback card's URL pattern. PDF has no text layer (image-based)
+      - content was verified visually, not via text extraction. Like the Cashback card, not directly linked
+      from the page's scanned HTML.
+- id: dcs-flex-visa-platinum
+  bank: DCS
+  bank_key: dcs
+  name: DCS Flex Visa Platinum Card
+  sources:
+    singsaver: dcs-flex-visa-platinum-card
+    moneysmart: dcs-flex-visa-platinum-card
+  official:
+    product_page: https://cards.dcscc.com/flex
+    tnc_urls:
+    - https://static.dcscc.com/pdf/cardapps/flex/Terms%20and%20Conditions%20Governing%20DCS%20Flex%20Card%20Reward%20Programme%20and%20Card%20Design.pdf
+    notes: 'Directly confirmed linked from the live product page (grep on page HTML). Content verified:
+      ''Terms And Conditions Governing DCS Flex Card Reward Programme And Card Design'' - up to 8% cash
+      rebate/investment credits or 2.4 mpd depending on category and monthly spend, S$25 caps, S$600 min
+      spend. A separate ''General Terms and Conditions Governing DCS Flex Card'' PDF (the generic cardmember
+      agreement, no reward info) was excluded.'
+- id: dcs-ultimate-platinum-mastercard
+  bank: DCS
+  bank_key: dcs
+  name: DCS Ultimate Platinum Mastercard
+  sources:
+    singsaver: dcs-ultimate-platinum-mastercard
+    moneysmart: dcs-ultimate-platinum-mastercard
+  official:
+    product_page: https://cards.dcscc.com/ultimate
+    tnc_urls:
+    - https://static.dcscc.com/pdf/dcscc/legal/DCS%20Ultimate%20Platinum%20Card%20Terms%20and%20Conditions%20(1%20June%202025).pdf
+    notes: Product page HTML title is a generic 'DCS Ultimate Platinum Cards' label but body content is
+      Mastercard-specific. The linked T&C ('dcscc.com/legal/ultimate-card-tnc', which 302-redirects to
+      this static PDF) is confirmed directly linked from the product page. Unusually, this single document
+      merges the general cardmember agreement with the reward terms - cashback (2%, S$200/month cap, no
+      min spend) is in one section and the MCC exclusion list in another; no reward-only document exists
+      for this card family. Shared verbatim with the UnionPay variant (doc names both networks).
+- id: dcs-ultimate-platinum-unionpay
+  bank: DCS
+  bank_key: dcs
+  name: DCS Ultimate Platinum UnionPay Card
+  sources:
+    singsaver: dcs-ultimate-platinum-unionpay-card
+    moneysmart: dcs-ultimate-platinum-card
+  official:
+    product_page: https://cards.dcscc.com/ultimateupi
+    tnc_urls:
+    - https://static.dcscc.com/pdf/dcscc/legal/DCS%20Ultimate%20Platinum%20Card%20Terms%20and%20Conditions%20(1%20June%202025).pdf
+    notes: Separate product page from the Mastercard variant, but shares the identical combined T&C PDF
+      (see dcs-ultimate-platinum-mastercard notes).
+- id: hsbc-advance
+  bank: HSBC
+  bank_key: hsbc
+  name: HSBC Advance Credit Card
+  sources:
+    singsaver: hsbc-advance-credit-card
+    moneysmart: hsbc-advance-credit-card
+  official:
+    product_page: https://www.hsbc.com.sg/credit-cards/products/advance/
+    tnc_urls:
+    - https://www.hsbc.com.sg/content/dam/hsbc/sg/documents/credit-cards/terms-and-conditions-governing-advance-credit-card-cashback-programme.pdf
+    notes: Cashback programme T&C (effective 31 Mar 2025), verified 200/application-pdf; contains earn
+      rate, cap, and excluded-transaction/MCC-style list.
+- id: hsbc-live-plus
+  bank: HSBC
+  bank_key: hsbc
+  name: HSBC Live+ Credit Card
+  sources:
+    singsaver: hsbc-live-plus-credit-card
+    moneysmart: hsbc-live-plus-card
+  official:
+    product_page: https://www.hsbc.com.sg/credit-cards/products/liveplus/
+    tnc_urls:
+    - https://www.hsbc.com.sg/content/dam/hsbc/sg/documents/credit-cards/liveplus/terms-and-conditions-cashback.pdf
+    notes: 'Product page path is /liveplus/ (note: /live-plus/ 404s). Quarterly Cashback Programme T&C
+      effective 13 Mar 2026, verified.'
+- id: hsbc-revolution
+  bank: HSBC
+  bank_key: hsbc
+  name: HSBC Revolution Credit Card
+  sources:
+    singsaver: hsbc-revolution-credit-card
+    moneysmart: hsbc-revolution-credit-card
+  official:
+    product_page: https://www.hsbc.com.sg/credit-cards/products/revolution/
+    tnc_urls:
+    - https://www.hsbc.com.sg/content/dam/hsbc/sg/documents/credit-cards/revolution/offers/revolution-credit-card-reward-points-terms-and-conditions.pdf
+    notes: Reward Points Programme T&C effective 1 Apr 2026, verified content and MCC exclusions.
+- id: hsbc-travelone
+  bank: HSBC
+  bank_key: hsbc
+  name: HSBC TravelOne Credit Card
+  sources:
+    singsaver: hsbc-travelone-credit-card
+    moneysmart: hsbc-travelone-card
+  official:
+    product_page: https://www.hsbc.com.sg/credit-cards/products/travelone/
+    tnc_urls:
+    - https://www.hsbc.com.sg/content/dam/hsbc/sg/documents/credit-cards/travelone/credit-card-reward-points-programme-terms-and-conditions.pdf
+    notes: Reward Points Programme T&C effective 31 Mar 2025, includes explicit MCC exclusion list. Verified.
+- id: hsbc-visa-infinite
+  bank: HSBC
+  bank_key: hsbc
+  name: HSBC Visa Infinite Credit Card
+  sources:
+    singsaver: hsbc-visa-infinite-credit-card
+    moneysmart: hsbc-visa-infinite-credit-card
+  official:
+    product_page: https://www.hsbc.com.sg/credit-cards/products/visa-infinite/
+    tnc_urls:
+    - https://www.hsbc.com.sg/content/dam/hsbc/sg/documents/credit-cards/rewards/terms-and-conditions-wef-2025.pdf
+    notes: Visa Infinite is not on a card-specific reward-points programme; it earns under HSBC's general
+      Rewards Programme T&C (effective 31 Mar 2025), which explicitly covers all HSBC Visa/Mastercard
+      credit cards except Advance and Live+. A card-specific 'visa-infinite/terms-and-conditions.pdf'
+      also exists on the product page but is a scanned/image PDF (no extractable text) covering privileges,
+      not the reward-earning programme, so it was excluded.
+- id: hsbc-visa-platinum
+  bank: HSBC
+  bank_key: hsbc
+  name: HSBC Visa Platinum Credit Card
+  sources:
+    singsaver: hsbc-visa-platinum-credit-card
+  official:
+    product_page: https://www.hsbc.com.sg/credit-cards/products/visa-platinum/
+    tnc_urls:
+    - https://www.hsbc.com.sg/content/dam/hsbc/sg/documents/credit-cards/visa-platinum/terms-and-conditions-cash-rebate.pdf
+    notes: 'Card discontinued for new applications from 21 June 2024 (product page shows a notice: ''we
+      will no longer be offering'' it; existing cardholders with numbers starting 451297/496645 keep their
+      Quarterly Cash Rebate Programme benefits). Product page and T&C PDF both verified live/200 and still
+      describe this legacy programme.'
+  status: discontinued
+  status_note: closed to new applications since 21 Jun 2024
+- id: icbc-unionpay-dual-currency
+  bank: ICBC
+  bank_key: icbc
+  name: ICBC UnionPay Dual Currency Credit Card
+  sources:
+    singsaver: icbc-unionpay-dual-currency-credit-card
+  official:
+    product_page: https://www.icbc.com.sg/en/column/1438059017535897823.html
+    tnc_urls:
+    - https://v.icbc.com.cn/userfiles/resources/icbc/haiwai/singapore/download/2025/dualcurrency_tc.pdf
+    notes: Product page's HTML <title> is a generic ICBC template string, but body text names 'ICBC UnionPay
+      Dual Currency Credit Card'. T&C PDF is hosted on a separate ICBC document CDN (v.icbc.com.cn) rather
+      than icbc.com.sg itself, but it is the exact file the icbc.com.sg product page links to. It is one
+      shared cashback programme document covering both dual-currency cards (0.5% base up to S$500/month,
+      tiered up to 8% on qualifying spend, per-network cap columns for UnionPay vs Visa, full MCC exclusion
+      list). Generic cardmember agreement and fee schedule PDFs on the same CDN path were excluded.
+- id: icbc-visa-dual-currency
+  bank: ICBC
+  bank_key: icbc
+  name: ICBC Visa Dual Currency Credit Card
+  sources:
+    singsaver: icbc-visa-dual-currency-credit-card
+  official:
+    product_page: https://www.icbc.com.sg/en/column/1438059017468788827.html
+    tnc_urls:
+    - https://v.icbc.com.cn/userfiles/resources/icbc/haiwai/singapore/download/2025/dualcurrency_tc.pdf
+    notes: Same shared cashback T&C PDF as the UnionPay card (see icbc-unionpay-dual-currency notes).
+- id: krisflyer-uob
+  bank: UOB
+  bank_key: uob
+  name: KrisFlyer UOB Credit Card
+  sources:
+    singsaver: krisflyer-uob-credit-card
+    moneysmart: krisflyer-uob-credit-card
+  official:
+    product_page: https://www.uob.com.sg/personal/cards/travel/krisflyer-card.page
+    tnc_urls:
+    - https://www.uob.com.sg/assets/pdfs/kf_credit_card_full_tnc.pdf
+    notes: TnC PDF is 'Terms and Conditions Governing KrisFlyer United Overseas Bank Limited Credit Card',
+      includes miles earn rates and inline MCC exclusion list. Excluded a separate time-limited 'Acquisition
+      Promotion' sign-up T&C found on the same page.
+- id: lazada-uob
+  bank: UOB
+  bank_key: uob
+  name: Lazada-UOB Card
+  sources:
+    moneysmart: uob-lazada-card
+  official:
+    product_page: https://www.uob.com.sg/personal/cards/cashback/lazada-uob-card.page
+    tnc_urls:
+    - https://www.uob.com.sg/web-resources/personal/pdf/personal/cards/credit-cards/lazada-uob-card/lazada-uob-tnc.pdf
+    notes: PDF titled 'Terms and Conditions Governing Lazada-UOB Card', contains MCC and rebate/exclusion
+      clauses. An older/alternate copy of what appears to be the same document exists at a different path
+      (rebates-cards/... instead of credit-cards/...); the one reported is the current version actually
+      linked from the live product page.
+- id: maybank-duo-platinum-mastercard
+  bank: Maybank
+  bank_key: maybank
+  name: Maybank DUO Platinum Mastercard
+  sources:
+    singsaver: maybank-duo-platinum-mastercard
+  official:
+    product_page: https://www.maybank2u.com.sg/en/personal/cards/credit/maybank-duo-platinum-mastercard.page
+    notes: 'Discontinued. Page banner: ''Thank you for supporting Maybank DUO Platinum Mastercard... rebranded
+      to Maybank XL Cashback Card'' starting 1 August 2025, with the original DUO card deactivated 30
+      September 2025. No current reward T&C left to report; see maybank-xl-cashback for the successor
+      product.'
+  status: discontinued
+  status_note: rebranded to Maybank XL Cashback on 1 Aug 2025; deactivated 30 Sep 2025
+- id: maybank-family-friends
+  bank: Maybank
+  bank_key: maybank
+  name: Maybank Family & Friends Card
+  sources:
+    singsaver: maybank-family-friends-card
+    moneysmart: maybank-family-friends-mastercard
+  official:
+    product_page: https://www.maybank2u.com.sg/en/personal/cards/credit/maybank-family-and-friends-mastercard.page
+    tnc_urls:
+    - https://www.maybank2u.com.sg/iwov-resources/sg/pdf/cards/fnf-cashback-programme-tnc.pdf
+    notes: 8% Cashback Programme T&C with its own embedded MCC list per cashback category. Could not be
+      verified with a direct curl/HTTP request (see network caveat below); verified instead via an r.jina.ai
+      fetch proxy which returned the live PDF text matching the card.
+- id: maybank-fc-barcelona-visa-signature
+  bank: Maybank
+  bank_key: maybank
+  name: Maybank FC Barcelona Visa Signature Card
+  sources:
+    singsaver: maybank-fc-barcelona-visa-signature-card
+    moneysmart: maybank-fc-barcelona-visa-signature
+  official:
+    product_page: https://www.maybank2u.com.sg/en/personal/cards/credit/maybank-fc-barcelona-visa-signature-card.page
+    tnc_urls:
+    - https://www.maybank2u.com.sg/iwov-resources/sg/pdf/cards/fc-barcelona-visa-signature-tnc.pdf
+    notes: This card earns Cashback (1.6% unlimited, 0.3% on selected MCCs), not TREATS Points. Doc effective
+      March 2026, includes full MCC exclusion list. Verified via r.jina.ai proxy (see network caveat).
+- id: maybank-horizon-visa-signature
+  bank: Maybank
+  bank_key: maybank
+  name: Maybank Horizon Visa Signature Card
+  sources:
+    singsaver: maybank-horizon-visa-signature-card
+    moneysmart: maybank-horizon-visa-signature
+  official:
+    product_page: https://www.maybank2u.com.sg/en/personal/cards/credit/maybank-horizon-visa-signature-card.page
+    tnc_urls:
+    - https://www.maybank2u.com.sg/iwov-resources/sg/pdf/cards/horizon-visa-signature-card-benefits-tnc.pdf
+    - https://www.maybank2u.com.sg/iwov-resources/sg/pdf/cards/terms_and_conditions.pdf
+    notes: First doc (effective 1 Dec 2025) has the card-specific TREATS Points multipliers (3X/7X) and
+      bonus-category MCC list; it explicitly defers general excluded-transaction rules to the second doc,
+      the master 'Maybank Year-long TREATS Points Rewards Programme General Terms and Conditions' (effective
+      26 Jan 2026), which is the general MCC exclusion document applicable across TREATS-based Maybank
+      cards. Verified via r.jina.ai proxy (see network caveat).
+- id: maybank-manchester-united-platinum-visa
+  bank: Maybank
+  bank_key: maybank
+  name: Maybank Manchester United Platinum Visa Credit Card
+  sources:
+    singsaver: maybank-manchester-united-platinum-visa-card
+    moneysmart: maybank-manchester-united-platinum-visa-card
+  official:
+    product_page: https://www.maybank2u.com.sg/en/personal/cards/credit/maybank-manchester-united-credit-debit.page
+    tnc_urls:
+    - https://www.maybank2u.com.sg/iwov-resources/sg/pdf/cards/mucc-promo-tnc.pdf
+    notes: Product page now covers both the Manchester United credit and debit cards together; an older
+      dedicated slug (maybank-manchester-united-visa-platinum-card.page) may still exist but this combined
+      page is what the site currently links to. T&C doc is titled 'Maybank Manchester United Platinum
+      Visa Credit Card T&Cs' and is self-contained with its own MCC exclusion list plus the win/draw bonus
+      TREATS Points mechanics. Verified via r.jina.ai proxy (see network caveat).
+- id: maybank-platinum-visa
+  bank: Maybank
+  bank_key: maybank
+  name: Maybank Platinum Visa Card
+  sources:
+    singsaver: maybank-platinum-visa-card
+    moneysmart: maybank-platinum-visa-card
+  official:
+    product_page: https://www.maybank2u.com.sg/en/personal/cards/credit/maybank-platinum-visa-card.page
+    tnc_urls:
+    - https://www.maybank2u.com.sg/iwov-resources/sg/pdf/cards/platvisa-rebate-tnc.pdf
+    notes: 3.33% Quarterly Cashback Programme + 0.3% unlimited foreign currency cash rebate, effective
+      1 Dec 2025. Verified via r.jina.ai proxy (see network caveat).
+- id: maybank-visa-infinite
+  bank: Maybank
+  bank_key: maybank
+  name: Maybank Visa Infinite Card
+  sources:
+    singsaver: maybank-visa-infinite-card
+  official:
+    product_page: https://www.maybank2u.com.sg/en/personal/cards/credit/maybank-visa-infinite-card.page
+    tnc_urls:
+    - https://www.maybank2u.com.sg/iwov-resources/sg/pdf/cards/vi-privilege-tnc.pdf
+    - https://www.maybank2u.com.sg/iwov-resources/sg/pdf/cards/terms_and_conditions.pdf
+    notes: First doc ('Terms and Conditions Governing Privileges of Maybank Visa Infinite Credit Card',
+      updated 30 Mar 2026) has the card's TREATS Points multipliers (8X/5X/3X -> air miles conversion)
+      but refers to the master TREATS Programme T&C (second doc) for the general excluded-transaction/MCC
+      list. A separate 'vi-general-tnc.pdf' also linked from the product page was checked and found to
+      be only the generic Maybank credit card agreement (no reward content), so it was excluded. Verified
+      via r.jina.ai proxy (see network caveat).
+- id: maybank-world-mastercard
+  bank: Maybank
+  bank_key: maybank
+  name: Maybank World Mastercard
+  sources:
+    singsaver: maybank-world-mastercard
+    moneysmart: maybank-world-mastercard
+  official:
+    product_page: https://www.maybank2u.com.sg/en/personal/cards/credit/maybank-world-mastercard.page
+    tnc_urls:
+    - https://www.maybank2u.com.sg/iwov-resources/sg/pdf/cards/maybank-world-mastercard-tnc.pdf
+    notes: '''Maybank World Mastercard Privileges Terms and Conditions'' (effective 1 Dec 2025), self-contained
+      with the 1X/7X/8X TREATS Points foreign-spend earn rates, the 10X merchant list programme, and a
+      full MCC exclusion list. Verified via r.jina.ai proxy (see network caveat).'
+- id: maybank-xl-cashback
+  bank: Maybank
+  bank_key: maybank
+  name: Maybank XL Cashback Card
+  sources:
+    singsaver: maybank-xl-cashback-card
+    moneysmart: maybank-xl-cashback-card
+  official:
+    product_page: https://www.maybank2u.com.sg/en/personal/cards/credit/maybank-xl-card.page
+    tnc_urls:
+    - https://www.maybank2u.com.sg/iwov-resources/sg/pdf/cards/xl-cashback-card-tnc.pdf
+    notes: Product page covers both XL Cashback and XL Rewards variants together (no separate per-variant
+      product page found). T&C doc ('Maybank XL Cashback Card Cashback Programme Terms and Conditions',
+      effective 1 Dec 2025) is self-contained. This is the successor product to the discontinued DUO Platinum
+      Mastercard. Verified via r.jina.ai proxy (see network caveat).
+- id: maybank-xl-rewards
+  bank: Maybank
+  bank_key: maybank
+  name: Maybank XL Rewards Card
+  sources:
+    singsaver: maybank-xl-rewards-card
+    moneysmart: maybank-xl-rewards-card
+  official:
+    product_page: https://www.maybank2u.com.sg/en/personal/cards/credit/maybank-xl-card.page
+    tnc_urls:
+    - https://www.maybank2u.com.sg/iwov-resources/sg/pdf/cards/xl-privileges-tp-tnc.pdf
+    notes: Same combined product page as XL Cashback. T&C doc ('Maybank XL Rewards Card TREATS Points
+      Programme Terms and Conditions', effective 1 Dec 2025) is self-contained with its own 10X bonus-category
+      MCC list and exclusion list. A newer 'xl-rewards-new-tnc.pdf' (effective 1 Jul 2026) was also seen
+      in search results and appears to be a supplementary/updated notice rather than a standalone replacement;
+      not included given uncertainty, but flagged here for awareness. Verified via r.jina.ai proxy (see
+      network caveat).
+- id: metro-uob
+  bank: UOB
+  bank_key: uob
+  name: UOB Metro-UOB Card
+  sources:
+    singsaver: uob-metro-uob-card
+  official:
+    product_page: https://www.uob.com.sg/personal/cards/cashback/metro-uob-card.page
+    tnc_urls:
+    - https://www.uob.com.sg/web-resources/personal/pdf/personal/cards/credit-cards/rebates-cards/metro-uob-card/metro-tnc.pdf
+    notes: PDF is 'Terms and Conditions Governing UOB Metro-UOB Card', covers Metro Transactions under
+      the newer 'Metro Treasured Points' rebate scheme. Non-Metro spend earns UNI$ under the separate
+      generic UOB Rewards Programme, which is not Metro-specific and was not included.
+- id: ocbc-365
+  bank: OCBC
+  bank_key: ocbc
+  name: OCBC 365 Credit Card
+  sources:
+    singsaver: ocbc-365-credit-card
+    moneysmart: ocbc-365-credit-card
+  official:
+    product_page: https://www.ocbc.com/personal-banking/cards/365-cashback-credit-card
+    tnc_urls:
+    - https://www.ocbc.com/iwov-resources/sg/ocbc/personal/pdf/cards/tncs-governing-365-cc-cashback-programme.pdf
+    notes: PDF titled 'Terms and Conditions Governing OCBC 365 Credit Card Cashback Programme', contains
+      MCC references. No separate standalone MCC-exclusion PDF found; MCC list appears embedded in this
+      T&C.
+- id: ocbc-90-n-mastercard
+  bank: OCBC
+  bank_key: ocbc
+  name: OCBC 90°N Mastercard
+  sources:
+    singsaver: ocbc-90n-mastercard
+    moneysmart: ocbc-90-n-card
+  official:
+    product_page: https://www.ocbc.com/personal-banking/cards/90-degrees-travel-credit-card
+    tnc_urls:
+    - https://www.ocbc.com/iwov-resources/sg/ocbc/personal/pdf/cards/tncs-governing-ocbc-90n-card-programme.pdf
+    notes: OCBC 90°N Mastercard and 90°N Visa Card share one product page (verified content mentions both
+      '90°N Mastercard' and '90°N Visa'). TnC PDF explicitly states it applies to 'all OCBC 90°N Mastercard
+      and Visa Cardmembers' and covers 90°N Miles earning + MCC terms. An older legacy PDF using outdated
+      'Travel$' terminology is also linked on the page but appears superseded and was excluded.
+  aliases:
+  - OCBC 90°N Card
+- id: ocbc-90-n-visa
+  bank: OCBC
+  bank_key: ocbc
+  name: OCBC 90°N Visa Card
+  sources:
+    singsaver: ocbc-90n-visa-card
+    moneysmart: ocbc-90n-visa-card
+  official:
+    product_page: https://www.ocbc.com/personal-banking/cards/90-degrees-travel-credit-card
+    tnc_urls:
+    - https://www.ocbc.com/iwov-resources/sg/ocbc/personal/pdf/cards/tncs-governing-ocbc-90n-card-programme.pdf
+    notes: Shares product page and rewards T&C PDF with ocbc-90-n-mastercard (see notes there).
+  aliases:
+  - OCBC 90°N Card
+- id: ocbc-frank
+  bank: OCBC
+  bank_key: ocbc
+  name: OCBC Frank Card
+  sources:
+    singsaver: ocbc-frank-card
+    moneysmart: ocbc-frank-card
+  official:
+    product_page: https://www.ocbc.com/personal-banking/cards/ocbc-frank-credit-card
+    tnc_urls:
+    - https://www.ocbc.com/iwov-resources/sg/ocbc/personal/pdf/cards/terms-and-conditions-governing-ocbc-frank-credit-card.pdf
+    notes: PDF titled 'Terms and Conditions Governing OCBC Frank Credit Card', contains MCC references
+      for cashback earn categories.
+- id: ocbc-great-eastern-cashflo
+  bank: OCBC
+  bank_key: ocbc
+  name: OCBC Great Eastern Cashflo Credit Card
+  sources:
+    moneysmart: ocbc-cashflo-card
+  official:
+    product_page: https://www.ocbc.com/personal-banking/cards/great-eastern-cashflo-credit-card.page
+    tnc_urls:
+    - https://www.ocbc.com/iwov-resources/sg/ocbc/personal/pdf/cards/tncs-ge-cashflo-credit-card-wef1apr21.pdf
+    notes: 7-page PDF titled 'Terms and Conditions Governing OCBC Great Eastern Cashflo Credit Card',
+      contains MCC, cashback/rebate, and cap terms.
+- id: ocbc-infinity-cashback
+  bank: OCBC
+  bank_key: ocbc
+  name: OCBC INFINITY Cashback Credit Card
+  sources:
+    singsaver: ocbc-infinity-card
+    moneysmart: ocbc-infinity-cashback-card
+  official:
+    product_page: https://www.ocbc.com/personal-banking/cards/infinity-unlimited-cashback-card.page
+    tnc_urls:
+    - https://www.ocbc.com/iwov-resources/sg/ocbc/personal/pdf/cards/tncs-governing-ocbc-infinity-cashback-card-programme.pdf
+    notes: PDF titled 'Terms and Conditions Governing OCBC INFINITY Cashback Card Programme', contains
+      MCC/cashback references.
+- id: ocbc-nxt
+  bank: OCBC
+  bank_key: ocbc
+  name: OCBC NXT Credit Card
+  sources:
+    singsaver: ocbc-nxt-credit-card
+    moneysmart: ocbc-nxt-credit-card
+  official:
+    product_page: https://www.ocbc.com/personal-banking/cards/bnpl-nxt-card.page
+    tnc_urls:
+    - https://www.ocbc.com/iwov-resources/sg/ocbc/personal/pdf/cards/tncs-nxtcard.pdf
+    notes: 8-page PDF titled 'Terms and Conditions Governing OCBC NXT Credit Card', contains MCC/cashback/rebate/cap
+      terms in later pages.
+- id: ocbc-rewards
+  bank: OCBC
+  bank_key: ocbc
+  name: OCBC Rewards Credit Card
+  sources:
+    singsaver: ocbc-rewards-credit-card
+    moneysmart: ocbc-rewards-credit-card
+  official:
+    product_page: https://www.ocbc.com/personal-banking/cards/rewards-card
+    tnc_urls:
+    - https://www.ocbc.com/iwov-resources/sg/ocbc/personal/pdf/cards/tnc-ocbc-rewards-card-and-titanium-rewards-creditcard-programme-wef-1nov23.pdf
+    notes: PDF titled 'Terms and Conditions Governing OCBC Rewards Card Programme', explicitly covers
+      OCBC Rewards Card (successor to Titanium Rewards Credit Card) and contains MCC/earn-rate terms.
+- id: ocbc-voyage
+  bank: OCBC
+  bank_key: ocbc
+  name: OCBC Voyage Card
+  sources:
+    singsaver: ocbc-voyage-card
+  official:
+    product_page: https://www.ocbc.com/personal-banking/cards/voyage-credit-card.page
+    tnc_urls:
+    - https://www.ocbc.com/iwov-resources/sg/ocbc/personal/pdf/cards/tncs-governing-the-voyage-creditcard-programme.pdf
+    notes: 12-page PDF titled 'Terms and Conditions Governing the Voyage Credit Card Programme', contains
+      Merchant Category (MCC) and miles-earning exclusion terms; also covers Premier/Private Client/Bank
+      of Singapore VOYAGE variants under the same programme T&C.
+- id: posb-everyday
+  bank: POSB
+  bank_key: posb
+  name: POSB Everyday Card
+  sources:
+    singsaver: posb-everyday-card
+    moneysmart: posb-everyday-card
+  official:
+    product_page: https://www.posb.com.sg/personal/cards/credit-cards/posb-everyday-card
+    tnc_urls:
+    - https://www.posb.com.sg/iwov-resources/media/pdf/cards/posb-everyday-card-tncs.pdf
+    notes: Self-contained cash rebate T&C with its own MCC exclusion table.
+- id: singtel-uob
+  bank: UOB
+  bank_key: uob
+  name: Singtel-UOB Card
+  sources:
+    singsaver: uob-singtel-uob-card
+    moneysmart: singtel-uob-card
+  official:
+    product_page: https://www.uob.com.sg/personal/cards/cashback/singtel-card.page
+    tnc_urls:
+    - https://www.uob.com.sg/web-resources/personal/pdf/personal/cards/credit-cards/rebates-cards/singtel-uob-card/singtel-tnc.pdf
+    notes: PDF is 'Terms and Conditions Governing Singtel-UOB Card' (dated v2.7, 11 Sep 2026), contains
+      cashback/MCC/exclusion terms. The product page also links an older, shorter copy of the same-titled
+      document dated 28 Jul 2025; the newer/more comprehensive one was reported.
+- id: standard-chartered-journey-annual-fee-paying
+  bank: Standard Chartered
+  bank_key: standard-chartered
+  name: Standard Chartered Journey Credit Card (Annual Fee Paying)
+  sources:
+    singsaver: standard-chartered-journey-credit-card
+    moneysmart: standard-chartered-journey-credit-card-annual-fee-payable
+  official:
+    product_page: https://www.sc.com/sg/credit-cards/journey-credit-card/
+    tnc_urls:
+    - https://www.sc.com/content/dam/sc/sg/en/documents/sg-journey-credit-card-terms-and-conditions.pdf
+    - https://www.sc.com/sg/terms-and-conditions/cc-retail-transaction-exclusions/
+    notes: Same physical card/product page and same Rewards Promotion T&C document serve both the annual-fee-paying
+      and annual-fee-waiver sign-up options; the fee choice only changes the welcome-bonus miles and renewal
+      bonus, not the earn mechanics, so this record and standard-chartered-journey-annual-fee-waiver share
+      identical product_page/tnc_urls. Document includes MCC list for Bonus Online Transaction categories.
+  aliases:
+  - Standard Chartered Journey Card
+- id: standard-chartered-journey-annual-fee-waiver
+  bank: Standard Chartered
+  bank_key: standard-chartered
+  name: Standard Chartered Journey Credit Card (Annual Fee Waiver)
+  sources:
+    singsaver: standard-chartered-journey-credit-card-waiver
+    moneysmart: standard-chartered-journey-credit-card
+  official:
+    product_page: https://www.sc.com/sg/credit-cards/journey-credit-card/
+    tnc_urls:
+    - https://www.sc.com/content/dam/sc/sg/en/documents/sg-journey-credit-card-terms-and-conditions.pdf
+    - https://www.sc.com/sg/terms-and-conditions/cc-retail-transaction-exclusions/
+    notes: 'See standard-chartered-journey-annual-fee-paying note: same card/page/T&C, only the annual-fee/welcome-bonus
+      election differs, which is covered by a time-limited promo T&C (excluded per instructions).'
+  aliases:
+  - Standard Chartered Journey Card
+- id: standard-chartered-rewards-plus
+  bank: Standard Chartered
+  bank_key: standard-chartered
+  name: Standard Chartered Rewards+ Credit Card
+  sources:
+    singsaver: standard-chartered-rewards-credit-card
+    moneysmart: standard-chartered-rewards
+  official:
+    product_page: https://www.sc.com/sg/credit-cards/rewards-plus-credit-card/
+    tnc_urls:
+    - https://www.sc.com/content/dam/sc/sg/en/documents/sg-rewards-full-tcs-final.pdf
+    - https://www.sc.com/sg/terms-and-conditions/cc-retail-transaction-exclusions/
+    notes: Rewards+ Card Promotion T&C under the 360° Rewards Programme; includes MCC list for Qualifying
+      Dining Transactions. Verified 200/application-pdf.
+- id: standard-chartered-simply-cash
+  bank: Standard Chartered
+  bank_key: standard-chartered
+  name: Standard Chartered Simply Cash Credit Card
+  sources:
+    singsaver: standard-chartered-simply-cash-credit-card
+    moneysmart: standard-chartered-simply-cash-credit-card
+  official:
+    product_page: https://www.sc.com/sg/credit-cards/simply-cash-credit-card/
+    tnc_urls:
+    - https://www.sc.com/content/dam/sc/sg/en/documents/sg-simply-cash-card-terms-and-conditions.pdf
+    - https://www.sc.com/sg/terms-and-conditions/cc-retail-transaction-exclusions/
+    notes: 1.5% cashback T&C verified. MCC-based exclusion list is not embedded in this PDF; it is incorporated
+      by reference to an HTML-only page (sc.com/sg/terms-and-conditions/cc-retail-transaction-exclusions/),
+      which has no PDF version, so it was not added as a separate tnc_url.
+- id: standard-chartered-smart
+  bank: Standard Chartered
+  bank_key: standard-chartered
+  name: Standard Chartered Smart Credit Card
+  sources:
+    singsaver: standard-chartered-smart-credit-card
+    moneysmart: standard-chartered-smart-credit-card
+  official:
+    product_page: https://www.sc.com/sg/credit-cards/smart-credit-card/
+    tnc_urls:
+    - https://www.sc.com/content/dam/sc/sg/en/documents/Standard-Chartered-Smart-Credit-Card-Terms-and-Conditions_6Dec2024.pdf
+    - https://www.sc.com/sg/terms-and-conditions/cc-retail-transaction-exclusions/
+    notes: Smart Rewards Promotion T&C (version 13 Nov 2025) lists Bonus Merchant categories (Dining/Streaming/Transport).
+      Verified.
+- id: standard-chartered-visa-infinite
+  bank: Standard Chartered
+  bank_key: standard-chartered
+  name: Standard Chartered Visa Infinite Credit Card
+  sources:
+    singsaver: standard-chartered-visa-infinite-credit-card
+    moneysmart: standard-chartered-visa-infinite-credit-card
+  official:
+    product_page: https://www.sc.com/sg/credit-cards/visa-infinite-card/
+    tnc_urls:
+    - https://www.sc.com/content/dam/sc/sg/en/documents/sg-vi-tc-full.pdf
+    - https://www.sc.com/sg/terms-and-conditions/cc-retail-transaction-exclusions/
+    notes: This is the mass-market Visa Infinite product (distinct from the Priority Banking Visa Infinite
+      Card at /priority-visa-infinite-card/, which is a different product not requested). Doc confirms
+      it applies only to the standard VI Card, not the Priority Banking variant. Excluded-transaction
+      list is incorporated by reference to the same HTML-only exclusions page noted for Simply Cash.
+- id: trust-freedom
+  bank: Trust Bank
+  bank_key: trust
+  name: Trust Freedom Card
+  sources:
+    singsaver: trust-cashback-credit-card
+    moneysmart: trust-freedom-credit-card
+  official:
+    product_page: https://trustbank.sg/freedom-credit-card/
+    tnc_urls:
+    - https://trustbank.sg/legal/trust-freedom-credit-card-product-terms/
+    - https://trustbank.sg/legal/trust-freedom-credit-card-key-facts-sheet/
+    notes: HTML T&C pages only (Trust Bank does not publish PDFs for this card). Formerly known as the
+      'Trust Cashback' card. The Product Terms page holds the 'Exclusions from rewards' MCC list; the
+      Key Facts Sheet holds the reward modes and earn rates but also covers fees (Trust does not publish
+      a rewards-only document). Both pages confirmed 200 and content-verified to mention cashback/rewards
+      terms.
+- id: trust-link
+  bank: Trust Bank
+  bank_key: trust
+  name: Trust Link / NTUC Link Credit Card
+  sources:
+    singsaver: trust-bank-link-credit-card
+    moneysmart: ntuc-link-trust-card
+  official:
+    product_page: https://trustbank.sg/link-credit-card/
+    tnc_urls:
+    - https://trustbank.sg/legal/trust-link-credit-card-and-ntuc-link-credit-card-product-terms/
+    - https://trustbank.sg/legal/key-facts-sheet-credit-card/
+    notes: HTML T&C pages only. The Product Terms page covers both the Trust Link and NTUC Link card names
+      and holds the 'Exclusions from rewards' MCC list. The Key Facts Sheet URL looks generic but was
+      verified by content to be Trust Link/NTUC Link-specific (mentions 'Linkpoints', 'Trust Link', 'NTUC
+      Link'), holding the Linkpoints earn rates and FPG monthly/quarterly caps; it also covers fees since
+      Trust does not publish a rewards-only document.
+- id: uob-absolute-cashback
+  bank: UOB
+  bank_key: uob
+  name: UOB Absolute Cashback Card
+  sources:
+    singsaver: uob-absolute-cashback-card
+    moneysmart: uob-absolute-cashback-card
+  official:
+    product_page: https://www.uob.com.sg/personal/cards/cashback/absolute-cashback-card.page
+    tnc_urls:
+    - https://www.uob.com.sg/assets/pdfs/tncs-governing-uob-absolute-cashback-card.pdf
+    notes: 'PDF is ''Terms and Conditions Governing UOB Absolute Cashback Card'': 1.7% flat cashback on
+      Local/Overseas Card Transactions, 0.3% on Selected Local/Overseas Card Transactions, with full MCC
+      exclusion list embedded in the same document.'
+- id: uob-evol
+  bank: UOB
+  bank_key: uob
+  name: UOB EVOL Card
+  sources:
+    singsaver: uob-evol-card
+    moneysmart: uob-evol
+  official:
+    product_page: https://www.uob.com.sg/personal/cards/cashback/evol-card/index.page
+    tnc_urls:
+    - https://www.uob.com.sg/assets/pdfs/uob-evol-terms-and-conditions.pdf
+    notes: 'PDF is ''Terms and Conditions Governing UOB EVOL Card Cashback Programme'': tiered cashback
+      (10% on selected Gym/Telco/Streaming and Local Online/Mobile Contactless spend up to caps, 0.3%
+      on other spend) with MCC table for the bonus categories. Excluded a separate time-limited FX-cashback
+      campaign PDF found on the same page.'
+- id: uob-ladys
+  bank: UOB
+  bank_key: uob
+  name: UOB Lady's Card
+  sources:
+    singsaver: uob-ladys-card
+    moneysmart: uob-lady-s-card
+  official:
+    product_page: https://www.uob.com.sg/personal/cards/rewards/ladys-card/index.page
+    tnc_urls:
+    - https://www.uob.com.sg/assets/pdfs/ladys-cards-tcs.pdf
+    notes: This shared product page covers UOB Lady's Card, Lady's Solitaire Card, and Lady's Solitaire
+      Metal Card together (verified page mentions all variants); UOB does not appear to publish a separate
+      dedicated page for the plain Lady's Card. TnC PDF 'Terms and Conditions for the UOB Lady's Cards'
+      explicitly covers all Lady's Card variants with Base/Bonus UNI$ and MCC-based earn-rate clauses
+      (shared T&C).
+- id: uob-ladys-solitaire
+  bank: UOB
+  bank_key: uob
+  name: UOB Lady's Solitaire Card
+  sources:
+    singsaver: uob-ladys-solitaire-card
+    moneysmart: uob-ladys-solitaire-card
+  official:
+    product_page: https://www.uob.com.sg/personal/cards/rewards/ladys-card/index.page
+    tnc_urls:
+    - https://www.uob.com.sg/assets/pdfs/ladys-cards-tcs.pdf
+    notes: 'Shares product page and T&C PDF with uob-ladys (see notes there); PDF explicitly names ''UOB
+      Lady''s Solitaire Card'' as one of the covered cards. Note: UOB has a separate dedicated page for
+      the ''UOB Lady''s Solitaire Metal Card'' variant (a different, higher-tier product) at .../privilege/ladys-solitaire-metal-card.page,
+      not used here since it is a distinct product from the plain Solitaire Card requested.'
+- id: uob-one
+  bank: UOB
+  bank_key: uob
+  name: UOB One Card
+  sources:
+    singsaver: uob-one-card
+    moneysmart: uob-one-card
+  official:
+    product_page: https://www.uob.com.sg/personal/cards/cashback/one-card.page
+    tnc_urls:
+    - https://www.uob.com.sg/assets/pdfs/one_card_full_tnc.pdf
+    notes: 'PDF is ''Terms and Conditions Governing UOB One Card'': Base Cashback (0.03% flat) plus tiered
+      Quarterly Cashback based on minimum spend, with an exclusions clause. Excluded a separate time-limited
+      promo T&C and a plain FAQ PDF found on the same page.'
+- id: uob-preferred-visa
+  bank: UOB
+  bank_key: uob
+  name: UOB Preferred Visa Card
+  sources:
+    moneysmart: uob-preferred-platinum-visa-card
+  official:
+    product_page: https://www.uob.com.sg/personal/cards/rewards/preferred-visa-card.page
+    tnc_urls:
+    - https://www.uob.com.sg/web-resources/personal/pdf/personal/cards/credit-cards/rewards-cards/uob-preferred-platinum-visa-card/terms-and-conditions-for-preferred-plat-visa.pdf
+    notes: This is a UNI$ points card (not cashback). PDF explicitly states 'Terms and Conditions Governing
+      UOB Preferred Visa Card (Formerly known as UOB Preferred Platinum Visa Card)', with earn categories
+      and full MCC tables. The legacy filename/path still references 'preferred-platinum-visa-card' (UOB
+      renamed the card but kept the same document/URL) but content confirms it applies to the current
+      card.
+- id: uob-professionals-platinum
+  bank: UOB
+  bank_key: uob
+  name: UOB Professionals Platinum Card
+  sources:
+    singsaver: uob-professionals-platinum-card
+  official:
+    product_page: https://www.uob.com.sg/personal/cards/rewards/professionals-platinum-card.page
+    notes: 'Card is being discontinued: product page links a customer notice/FAQ confirming progressive
+      account closure starting 1 January 2027 (page content includes the words ''Discontinuation'' and
+      ''discontinued''). No dedicated card-specific rewards-earning T&C PDF could be found or verified
+      as applying to this card specifically; only association enrolment forms (ISCA/ACCA/Law Society/SMA)
+      are linked. A generic ''UOB Rewards Programme'' T&C PDF exists but makes no mention of ''Professionals
+      Platinum'', so it was not reported as unverified. tnc_urls left empty per instructions rather than
+      guessing.'
+  status: discontinued
+  status_note: being closed progressively from 1 Jan 2027
+- id: uob-prvi-miles-american-express
+  bank: UOB
+  bank_key: uob
+  name: UOB PRVI Miles American Express Card
+  sources:
+    singsaver: uob-prvi-miles-american-express-card
+    moneysmart: uob-prvi-amex
+  official:
+    product_page: https://www.uob.com.sg/personal/cards/travel/prvi-miles-card.page
+    tnc_urls:
+    - https://www.uob.com.sg/assets/pdfs/terms-and-conditions-governing-uob-prvi-miles-card.pdf
+    notes: PRVI Miles is presented on one shared product page covering all three network variants (Amex/World
+      Mastercard/Visa); dedicated per-variant apply pages 404. TnC PDF explicitly states it applies to
+      'your UOB PRVI Miles American Express, World Mastercard or Visa Cards' and contains UNI$ earn mechanics
+      plus an inline MCC exclusion list -- shared, correct earning T&C for all three PRVI Miles variants.
+  aliases:
+  - UOB PRVI Miles Card
+- id: uob-prvi-miles-visa
+  bank: UOB
+  bank_key: uob
+  name: UOB PRVI Miles Visa Card
+  sources:
+    singsaver: uob-prvi-miles-visa-card
+    moneysmart: uob-prvi-miles-card
+  official:
+    product_page: https://www.uob.com.sg/personal/cards/travel/prvi-miles-card.page
+    tnc_urls:
+    - https://www.uob.com.sg/assets/pdfs/terms-and-conditions-governing-uob-prvi-miles-card.pdf
+    notes: Same shared PRVI Miles product page and T&C PDF as the Amex/Mastercard variants (see uob-prvi-miles-american-express
+      notes).
+  aliases:
+  - UOB PRVI Miles Card
+- id: uob-prvi-miles-world-mastercard
+  bank: UOB
+  bank_key: uob
+  name: UOB PRVI Miles World MasterCard
+  sources:
+    singsaver: uob-prvi-miles-world-mastercard
+    moneysmart: uob-prvi-mastercard-miles-card
+  official:
+    product_page: https://www.uob.com.sg/personal/cards/travel/prvi-miles-card.page
+    tnc_urls:
+    - https://www.uob.com.sg/assets/pdfs/terms-and-conditions-governing-uob-prvi-miles-card.pdf
+    notes: Same shared PRVI Miles product page and T&C PDF as the Amex/Visa variants (see uob-prvi-miles-american-express
+      notes).
+  aliases:
+  - UOB PRVI Miles Card
+- id: uob-unionpay-platinum
+  bank: UOB
+  bank_key: uob
+  name: UOB UnionPay Platinum Card
+  sources:
+    singsaver: uob-unionpay-platinum-card
+  official:
+    product_page: https://www.uob.com.sg/personal/cards/cashback/unionpay-card.page
+    tnc_urls:
+    - https://www.uob.com.sg/assets/web-resources/personal/pdf/cards/cashback/unionpay-card/upi-tnc.pdf
+    - https://www.uob.com.sg/web-resources/personal/pdf/personal/cards/credit-cards/rewards-cards/uob-unionpay-platinum-card/upi-refresh-tc.pdf
+    notes: 'Both PDFs are titled ''Terms and Conditions Governing UOB UnionPay Credit Card'' (near-identical
+      content: 2% cashback with S$50/month cap, inline MCC exclusion list) and both are currently linked
+      live from the product page at two different URLs, so both are reported. Note the product page URL
+      pattern is ''cashback/unionpay-card.page'', not a ''rebates-cards/uob-unionpay-platinum-card'' style
+      path (that 404s).'
+- id: uob-visa-infinite-metal
+  bank: UOB
+  bank_key: uob
+  name: UOB Visa Infinite Metal Card
+  sources:
+    singsaver: uob-visa-infinite-metal-card
+    moneysmart: uob-visa-infinite-metal-card
+  official:
+    product_page: https://www.uob.com.sg/personal/cards/privilege/visa-infinite-metal-card.page
+    tnc_urls:
+    - https://www.uob.com.sg/personal/cards/credit/visa-infinite/pdf/VI-Metal-Pdt-TnC.pdf
+    notes: PDF is 'Terms and Conditions for UOB Visa Infinite Metal Card', contains UNI$/miles earn mechanics
+      and MCC references. Excluded linked promo/insurance/DragonPass FAQ PDFs on the same page as out
+      of scope.
+- id: uob-visa-signature
+  bank: UOB
+  bank_key: uob
+  name: UOB Visa Signature Card
+  sources:
+    singsaver: uob-visa-signature-card
+    moneysmart: uob-visa-signature-card
+  official:
+    product_page: https://www.uob.com.sg/personal/cards/rewards/visa-signature-card.page
+    tnc_urls:
+    - https://www.uob.com.sg/web-resources/personal/pdf/personal/cards/credit-cards/travel-cards/uob-visa-signature-card/terms-and-conditions-governing-uob-visa-signature-card.pdf
+    notes: An older-style product page URL pattern (.../credit-cards/travel-cards/uob-visa-signature-card.page)
+      404s; the live page is at .../cards/rewards/visa-signature-card.page. TnC PDF is 'Terms and Conditions
+      Governing UOB Visa Signature Card', contains UNI$ earn rates (incl. SimplyGo/contactless) and MCC-relevant
+      exclusions.

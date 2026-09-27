@@ -1,0 +1,25 @@
+{
+ "card_id": "dbs-live-fresh-student",
+ "product_pages": [
+  {
+   "id": "bank:cd1fe3defffa",
+   "url": "https://www.dbs.com.sg/personal/cards/credit-cards/live-fresh-dbs-visa-paywave-500-card",
+   "source_type": "official",
+   "retrieved_at": "2026-09-27T08:36:42+00:00",
+   "sha256": "cd1fe3defffa294571567540a690b37e50efce915377615c79ea2e15dc99e4de",
+   "snapshot": "data/raw/bank/www-dbs-com-sg-personal-cards-credit-cards-live-fresh-dbs-visa-paywave-500-card-dd88d67e.html"
+  }
+ ],
+ "documents": [
+  {
+   "url": "https://www.dbs.com.sg/iwov-resources/media/pdf/cards/live-fresh-student-cashback-tnc.pdf",
+   "error": "robots.txt disallows https://www.dbs.com.sg/iwov-resources/media/pdf/cards/live-fresh-student-cashback-tnc.pdf",
+   "changed": false
+  }
+ ],
+ "changed": true,
+ "removed_documents": [
+  "https://www.dbs.com.sg/iwov-resources/media/pdf/cards/live-fresh-student-cashback-faq.pdf",
+  "https://www.dbs.com.sg/iwov-resources/media/pdf/deposits/paylah-newuser-joinlah-tnc.pdf"
+ ]
+}

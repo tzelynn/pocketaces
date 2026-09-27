@@ -1,0 +1,13 @@
+{
+ "card_id": "maybank-family-friends",
+ "product_pages": [],
+ "documents": [
+  {
+   "url": "https://www.maybank2u.com.sg/iwov-resources/sg/pdf/cards/fnf-cashback-programme-tnc.pdf",
+   "error": "giving up on https://www.maybank2u.com.sg/iwov-resources/sg/pdf/cards/fnf-cashback-programme-tnc.pdf: The read operation timed out",
+   "changed": false
+  }
+ ],
+ "changed": false,
+ "removed_documents": []
+}

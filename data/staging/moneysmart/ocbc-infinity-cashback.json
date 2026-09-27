@@ -1,0 +1,118 @@
+{
+ "source": "moneysmart",
+ "source_id": "ocbc-infinity-cashback-card",
+ "source_url": "https://www.moneysmart.sg/credit-cards/ocbc-infinity-cashback-card",
+ "name": "OCBC INFINITY Cashback Card",
+ "bank": "OCBC",
+ "card_id": "ocbc-infinity-cashback",
+ "image_url": "https://photos.cdn-moneysmart.com/credit_cards/uploads/products/images/image_url_2023-11-30_New Project.jpg",
+ "min_annual_income": 15000.0,
+ "earn_rates": {},
+ "caps": {},
+ "highlights": [
+  "Earn 1.6% Cashback on eligible transactions",
+  "0 Min. Spend",
+  "Unlimited Cashback Cap",
+  "Earn 1.6% in unlimited cashback on transactions made in stores or online, locally or overseas.",
+  "No minimum spending required to earn cashback",
+  "No limit to the cashback you can earn",
+  "Cashback willl be credited automatically to your card account"
+ ],
+ "sign_up_offers": [
+  {
+   "kind": "MANUAL_GIFT",
+   "title": "S$200 Cash via PayNow",
+   "subtitle": null,
+   "is_cash": true,
+   "terms": "• Apply for an eligible OCBC Credit Card by 30th Sept 2026\n• Spend a min. of S$400 in eligible transactions within 30 days from card approval\n• Submit the Claim Form upon receiving the Unique Redemption Code from OCBC",
+   "campaign": "Credit Card | OCBC | 140926"
+  },
+  {
+   "kind": "STORE_PRODUCT",
+   "title": "Sennheiser Momentum True Wireless 4 Earbuds (Black Graphite)",
+   "subtitle": "worth S$449",
+   "is_cash": false,
+   "terms": "• Apply for an eligible OCBC Credit Card by 30th Sept 2026\n• Spend a min. of S$400 in eligible transactions within 30 days from card approval\n• Submit the Claim Form upon receiving the Unique Redemption Code from OCBC",
+   "campaign": "Credit Card | OCBC | 140926"
+  },
+  {
+   "kind": "STORE_PRODUCT",
+   "title": "Omnidesk Essential Electric Height-Adjustable Desk (Black)",
+   "subtitle": "worth S$369",
+   "is_cash": false,
+   "terms": "• Apply for an eligible OCBC Credit Card by 30th Sept 2026\n• Spend a min. of S$400 in eligible transactions within 30 days from card approval\n• Submit the Claim Form upon receiving the Unique Redemption Code from OCBC",
+   "campaign": "Credit Card | OCBC | 140926"
+  },
+  {
+   "kind": "STORE_PRODUCT",
+   "title": "TTRacing Swift X Pro Gaming Chair (Black)",
+   "subtitle": "worth S$429",
+   "is_cash": false,
+   "terms": "• Apply for an eligible OCBC Credit Card by 30th Sept 2026\n• Spend a min. of S$400 in eligible transactions within 30 days from card approval\n• Submit the Claim Form upon receiving the Unique Redemption Code from OCBC",
+   "campaign": "Credit Card | OCBC | 140926"
+  },
+  {
+   "kind": "STORE_PRODUCT",
+   "title": "LEVEL8 Luminous Textured Collection 28-inch Luggage (Black)",
+   "subtitle": "worth S$469",
+   "is_cash": false,
+   "terms": "• Apply for an eligible OCBC Credit Card by 30th Sept 2026\n• Spend a min. of S$400 in eligible transactions within 30 days from card approval\n• Submit the Claim Form upon receiving the Unique Redemption Code from OCBC",
+   "campaign": "Credit Card | OCBC | 140926"
+  }
+ ],
+ "links": {
+  "product": "https://www.moneysmart.sg/credit-cards/ocbc-infinity-cashback-card",
+  "review": "https://blog.moneysmart.sg/credit-cards/ocbc-infinity-cashback-card-review/"
+ },
+ "citation": {
+  "id": "moneysmart:42909b088c22",
+  "url": "https://www.moneysmart.sg/credit-cards?page=2",
+  "title": "OCBC INFINITY Cashback Card",
+  "source_type": "aggregator",
+  "retrieved_at": "2026-09-27T05:27:14+00:00",
+  "sha256": "42909b088c22cb063c120b532d19af920cb3535c52f6bfc313193c6c6ea14746",
+  "snapshot": "data/raw/moneysmart/credit-cards-p2-5f055203.html"
+ },
+ "extra": {
+  "summary": "The OCBC INFINITY Cashback Card offers a flat 1.6% cashback on all spending, excelling in its simplicity and lack of spending tiers or cashback caps. This makes it well-suited for those seeking predictable, fuss-free rewards, especially since there's no minimum spend required. ",
+  "badges": [
+   "Earn 1.6% unlimited cashback"
+  ],
+  "network": [
+   "Mastercard"
+  ],
+  "mobile_wallets": [
+   "Google Pay",
+   "Apple Pay",
+   "Samsung Pay"
+  ],
+  "groups": {
+   "annual-interest-rate-and-fees": {
+    "Annual Interest Rate": "27.78",
+    "Annual Principal Fee": "S$196.20 a year (waived for the first year)",
+    "Supplementary Annual Fee": "S$98.10 a year (waived for the first year)",
+    "Fee Waiver": "Available",
+    "Minimum Monthly Repayment": "3% or S$50, whichever is higher",
+    "Interest Free Period": "23 days"
+   },
+   "minimum-income-requirements": {
+    "Singaporean/PR Minimum Annual Income": "•At least S$30,000 for Singaporeans and Singapore PRs aged between 21 and 54\n•At least S$15,000 for Singaporeans and Singapore PRs aged 55 and above",
+    "Non-Singaporean Minimum Annual Income": "•At least S$45,000 for foreigners"
+   },
+   "card-association": {
+    "Mastercard": "true"
+   },
+   "wireless-payment": {
+    "Google Pay": "true",
+    "Apple Pay": "true",
+    "Samsung Pay": "true"
+   }
+  },
+  "our_takes": {
+   "our-take": "The OCBC INFINITY Cashback Card offers a flat 1.6% cashback on all spending, excelling in its simplicity and lack of spending tiers or cashback caps. This makes it well-suited for those seeking predictable, fuss-free rewards, especially since there's no minimum spend required. However, the 1.6% rate might not be optimal for those who concentrate their spending in specific categories like dining or groceries, as competing cards offer higher rates in those areas. Also, take note of the exclusions, particularly transactions via payment platforms like GrabPay or YouTrip, which don't earn cashback.",
+   "good-for": "Those who want fuss-free cashback on all spending, without tracking categories or minimum spends.\nCardholders looking for generous cashback on daily essentials and online purchases both locally and overseas.\nIndividuals who prefer simplicity with unlimited cashback and appreciate automatic crediting to their card account each month.",
+   "things-to-note": "S$196.20 annual fee applies after the first year, so evaluate if the cashback earned justifies the cost.\nLate payment fee is S$100, so set reminders and make payments on time to avoid unnecessary charges.\nCashback isn't earned on payments to EZ-Link, NETS FlashPay, GrabPay, and more, limiting earning potential."
+  },
+  "updated_at": "2025-07-01T11:36:24+08:00"
+ }
+}

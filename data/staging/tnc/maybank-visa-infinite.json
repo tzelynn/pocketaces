@@ -1,0 +1,18 @@
+{
+ "card_id": "maybank-visa-infinite",
+ "product_pages": [],
+ "documents": [
+  {
+   "url": "https://www.maybank2u.com.sg/iwov-resources/sg/pdf/cards/vi-privilege-tnc.pdf",
+   "error": "skipping https://www.maybank2u.com.sg/iwov-resources/sg/pdf/cards/vi-privilege-tnc.pdf: www.maybank2u.com.sg unreachable earlier in this run",
+   "changed": false
+  },
+  {
+   "url": "https://www.maybank2u.com.sg/iwov-resources/sg/pdf/cards/terms_and_conditions.pdf",
+   "error": "skipping https://www.maybank2u.com.sg/iwov-resources/sg/pdf/cards/terms_and_conditions.pdf: www.maybank2u.com.sg unreachable earlier in this run",
+   "changed": false
+  }
+ ],
+ "changed": false,
+ "removed_documents": []
+}

@@ -1,0 +1,132 @@
+{
+ "source": "moneysmart",
+ "source_id": "hsbc-live-plus-card",
+ "source_url": "https://www.moneysmart.sg/credit-cards/hsbc-live-plus-card",
+ "name": "HSBC Live+ Card",
+ "bank": "HSBC",
+ "card_id": "hsbc-live-plus",
+ "image_url": "https://photos.cdn-moneysmart.com/credit_cards/uploads/products/images/image_url_2024-10-24_liveplus Small.png",
+ "min_annual_income": 30000.0,
+ "earn_rates": {},
+ "caps": {},
+ "highlights": [
+  "8% Cashback* on Dining, Shopping and Entertainment",
+  "5% Cashback* on fuel at Caltex and Shell gas stations in Singapore",
+  "0.3% Cashback* on All Other Spends",
+  "Enjoy up to 8% cashback* when you dine, shop and live your life, both locally and overseas.  \n- 8% cashback* on dining, shopping and entertainment\n- 5% cashback on fuel at Caltex and Shell gas stations in Singapore\n- 0.3% cashback on other spends\n- Terms and Conditions apply.",
+  "Savour sweet deals of 15% discount at over 200 restaurants through our curated Live+ Dining Programme",
+  "A new income criteria for HSBC Credit Card and Loan will take effect from 1 October 2025. \n*Learn More"
+ ],
+ "sign_up_offers": [
+  {
+   "kind": "MANUAL_GIFT",
+   "title": "S$400 Cash via PayNow",
+   "subtitle": null,
+   "is_cash": true,
+   "terms": "• Apply for a HSBC credit card by 30th Sept 2026\n• Spend a \nmin. of S$500 from Card Account Opening Date to end of the following calendar month.\n• Submit the Claim Form by 30th Oct 2026",
+   "campaign": "Credit Card | HSBC Live+ | 250926"
+  },
+  {
+   "kind": "STORE_PRODUCT",
+   "title": "Shopee Voucher $450",
+   "subtitle": "worth S$450",
+   "is_cash": false,
+   "terms": "• Apply for a HSBC credit card by 30th Sept 2026\n• Spend a \nmin. of S$500 from Card Account Opening Date to end of the following calendar month.\n• Submit the Claim Form by 30th Oct 2026",
+   "campaign": "Credit Card | HSBC Live+ | 250926"
+  },
+  {
+   "kind": "STORE_PRODUCT",
+   "title": "Apple iPhone 18 Pro (256GB, Burgundy)",
+   "subtitle": "worth S$1899",
+   "is_cash": false,
+   "terms": "• Apply for a HSBC credit card by 30th Sept 2026\n• Spend a \nmin. of S$500 from Card Account Opening Date to end of the following calendar month.\n• Submit the Claim Form by 30th Oct 2026",
+   "campaign": "Credit Card | HSBC Live+ | 250926"
+  },
+  {
+   "kind": "STORE_PRODUCT",
+   "title": "Apple AirPods Pro 3",
+   "subtitle": "worth S$349",
+   "is_cash": false,
+   "terms": "• Apply for a HSBC credit card by 30th Sept 2026\n• Spend a \nmin. of S$500 from Card Account Opening Date to end of the following calendar month.\n• Submit the Claim Form by 30th Oct 2026",
+   "campaign": "Credit Card | HSBC Live+ | 250926"
+  },
+  {
+   "kind": "STORE_PRODUCT",
+   "title": "Apple Watch Series 12, 42mm (GPS, Black Aluminium Case with Black Sport Band)",
+   "subtitle": "worth S$599",
+   "is_cash": false,
+   "terms": "• Apply for a HSBC credit card by 30th Sept 2026\n• Spend a \nmin. of S$500 from Card Account Opening Date to end of the following calendar month.\n• Submit the Claim Form by 30th Oct 2026",
+   "campaign": "Credit Card | HSBC Live+ | 250926"
+  },
+  {
+   "kind": "STORE_PRODUCT",
+   "title": "Sony WH-1000XM6 Wireless Noise Cancelling Headphones (Black)",
+   "subtitle": "worth S$649",
+   "is_cash": false,
+   "terms": "• Apply for a HSBC credit card by 30th Sept 2026\n• Spend a \nmin. of S$500 from Card Account Opening Date to end of the following calendar month.\n• Submit the Claim Form by 30th Oct 2026",
+   "campaign": "Credit Card | HSBC Live+ | 250926"
+  }
+ ],
+ "links": {
+  "product": "https://www.moneysmart.sg/credit-cards/hsbc-live-plus-card"
+ },
+ "citation": {
+  "id": "moneysmart:eeee24fb93a9",
+  "url": "https://www.moneysmart.sg/credit-cards",
+  "title": "HSBC Live+ Card",
+  "source_type": "aggregator",
+  "retrieved_at": "2026-09-27T05:27:12+00:00",
+  "sha256": "eeee24fb93a9d85ef8b9194c11bda960b5b99ee30b3689cdc59fb650badebce7",
+  "snapshot": "data/raw/moneysmart/credit-cards-p1-b55034ef.html"
+ },
+ "extra": {
+  "summary": "The HSBC Live+ Card shines for lifestyle spenders seeking boosted cashback on dining, shopping, and entertainment, both locally and overseas. Earn up to 8% cashback on Dining, Shopping, Entertainment spends and 5% cashback on Petrol spends. The Live+ Dining Programme provide extra value for frequent diners.",
+  "badges": [
+   "Up to 8% Cashback | Instant Activation*"
+  ],
+  "network": [
+   "Visa"
+  ],
+  "mobile_wallets": [
+   "Visa Contactless",
+   "Google Pay",
+   "Apple Pay"
+  ],
+  "groups": {
+   "annual-interest-rate-and-fees": {
+    "Annual Interest Rate": "Effective Rate: 27.8% p.a. (minimum), Minimum Charge: S$2.50",
+    "Annual Principal Fee": "S$196.2 (inclusive of GST). First-year annual fee waived",
+    "Supplementary Annual Fee": "Free for life (up to 5 cards)",
+    "Fee Waiver": "For the second year onwards, we'll waive the Annual Fee for your card if you spend more than S$12,500 per year",
+    "Minimum Monthly Repayment": "100% of the monthly instalment plan amount and interest/fees, 1% of remaining outstanding balances, excess amount above your credit limit (if your account is overlimit) or $50 (in the currency of your account), whichever is greater",
+    "Interest Free Period": "20 days"
+   },
+   "minimum-income-requirements": {
+    "Singaporean/PR Minimum Annual Income": "(a) Singaporeans, Singapore Permanent Residents: SGD 65,000 OR \n (b) Singapore Citizens / Permanent Residents with HSBC total relationship balance (“TRB”)* of at least SGD50,000: SGD 30,000 for salaried employees \n SGD 40,000 for self-employed or commission-based (*Total Relationship Balance (TRB) refers to the total value of your deposits, investments, and insurance with HSBC Bank (Singapore) Limited, calculated based on the average monthly balance over the last 3 months.)",
+    "Non-Singaporean Minimum Annual Income": "S$65,000"
+   },
+   "card-association": {
+    "Visa": "true"
+   },
+   "wireless-payment": {
+    "Visa Contactless": "true",
+    "Google Pay": "true",
+    "Apple Pay": "true"
+   },
+   "documents-required": {
+    "SG Citizens or PRs": "Apply via MyInfo",
+    "Passport Validity (Foreigners)": "6 months",
+    "Work Permit Validity (Foreigners)": "6 months",
+    "Utility or Telephone Bill": "With Full Name & Address",
+    "Income Tax Notice of Assessment": "true",
+    "Latest Original Computerised Payslip": "true"
+   }
+  },
+  "our_takes": {
+   "our-take": "The HSBC Live+ Card shines for lifestyle spenders seeking boosted cashback on dining, shopping, and entertainment, both locally and overseas. The 8% rate is attractive, but remember the cashback is capped at SGD250 per quarter and requires minimum monthly spending of SGD600 (existing customers) or SGD1,000 per quarter (new customers). Consider whether your spending habits align, as other HSBC cards might offer better value if your spending is concentrated in other areas, or you want unlimited cashback. The Live+ Dining Programme provide extra value for frequent diners.",
+   "good-for": "Young adults and social butterflies seeking high cashback on dining, entertainment, and shopping expenses.\nIndividuals who frequently drive and want to save money with cashback on petrol purchases at Caltex and Shell.\nShoppers who spend at least $600 monthly to unlock the card's full cashback potential on everyday lifestyle expenses.",
+   "things-to-note": "Meeting the $600 monthly spend is crucial; falling short means missing out on the 8% cashback benefit.\nWatch the $250 quarterly cashback cap; spending beyond it won't earn extra rewards on dining and shopping.\nBe aware of the 27.8% p.a. interest rate; carrying balances will result in significant finance charges owed."
+  },
+  "updated_at": "2026-09-16T10:40:10+08:00"
+ }
+}

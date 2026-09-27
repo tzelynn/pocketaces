@@ -1,0 +1,22 @@
+{
+ "card_id": "dbs-chromo",
+ "product_pages": [
+  {
+   "id": "bank:975b61489668",
+   "url": "https://www.dbs.com.sg/personal/cards/credit-cards/dbs-chromo-card",
+   "source_type": "official",
+   "retrieved_at": "2026-09-27T08:36:38+00:00",
+   "sha256": "975b6148966872bdcf04d4254fb1525dabec7e76474bc39e98c5d78a0c5c2b75",
+   "snapshot": "data/raw/bank/www-dbs-com-sg-personal-cards-credit-cards-dbs-chromo-card-dda643d5.html"
+  }
+ ],
+ "documents": [
+  {
+   "url": "https://www.dbs.com.sg/iwov-resources/media/pdf/cards/dbs-chromo-tnc.pdf",
+   "error": "robots.txt disallows https://www.dbs.com.sg/iwov-resources/media/pdf/cards/dbs-chromo-tnc.pdf",
+   "changed": false
+  }
+ ],
+ "changed": false,
+ "removed_documents": []
+}

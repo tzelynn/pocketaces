@@ -1,0 +1,298 @@
+{
+ "source": "singsaver",
+ "source_id": "uob-ladys-solitaire-card",
+ "source_url": "https://www.singsaver.com.sg/credit-card/products/uob-ladys-solitaire-card",
+ "name": "UOB Lady's Solitaire Card",
+ "bank": "UOB",
+ "card_id": "uob-ladys-solitaire",
+ "image_url": "https://mhgprod.blob.core.windows.net/singsaver/strapi-uploads/xs_blta5d1b9cd0c5a5375_f468897b7e.png",
+ "annual_fee": 414.2,
+ "annual_fee_note": "S$ | First Year Waived",
+ "min_annual_income": 120000.0,
+ "earn_rates": {
+  "percent:local": {
+   "value": 2.8,
+   "unit": "percent",
+   "note": "(Indirect Cashback) S$5 local spend = UNI$1 point on all other spend. 2000 points redeemed = S$20 Cash Credit. Equivalent to 0.2% cashback."
+  },
+  "percent:overseas": {
+   "value": 2.8,
+   "unit": "percent",
+   "note": "Get up to 2.8% cashback on up to 2 rewards category(ies) out of 7; get 0.2% cashback on all other spend."
+  },
+  "percent:travel": {
+   "value": 2.8,
+   "unit": "percent",
+   "note": "Get up to 2.8% cashback on up to 2 rewards category(ies) out of 7; get 0.2% cashback on all other spend."
+  },
+  "percent:retail": {
+   "value": 2.8,
+   "unit": "percent",
+   "note": "Get up to 2.8% cashback on up to 2 rewards category(ies) out of 7; get 0.2% cashback on all other spend."
+  },
+  "mpd:retail": {
+   "value": 4.0,
+   "unit": "mpd",
+   "note": "Get up to 4 miles per dollar on up to 2 rewards categories out of 7; get 0.4 miles per dollar on all other spend."
+  },
+  "percent:baseline": {
+   "value": 0.2,
+   "unit": "percent",
+   "note": "(Indirect Cashback) S$5 local spend = UNI$1 point on all other spend. 2000 points redeemed = S$20 Cash Credit. Equivalent to 0.2% cashback."
+  },
+  "percent:health": {
+   "value": 2.8,
+   "unit": "percent",
+   "note": "Bonus UNI$ capped at 8,400 UNI$ (equivalent to S$3,000 spend) per month."
+  },
+  "percent:department_store": {
+   "value": 2.8,
+   "unit": "percent",
+   "note": "Bonus UNI$ capped at 8,400 UNI$ (equivalent to S$3,000 spend) per month."
+  },
+  "percent:digital_wallet": {
+   "value": 2.8,
+   "unit": "percent",
+   "note": "Bonus UNI$ capped at 8,400 UNI$ (equivalent to S$3,000 spend) per month."
+  },
+  "percent:contactless_spend": {
+   "value": 2.8,
+   "unit": "percent",
+   "note": "Bonus UNI$ capped at 8,400 UNI$ (equivalent to S$3,000 spend) per month."
+  },
+  "percent:transport": {
+   "value": 2.8,
+   "unit": "percent",
+   "note": "Bonus UNI$ capped at 8,400 UNI$ (equivalent to S$3,000 spend) per month."
+  },
+  "mpd:dining": {
+   "value": 4.0,
+   "unit": "mpd",
+   "note": "Get up to 4 miles per dollar on up to 2 rewards categories out of 7; get 0.4 miles per dollar on all other spend."
+  },
+  "mpd:local_online_shopping": {
+   "value": 4.0,
+   "unit": "mpd",
+   "note": "Get up to 4 miles per dollar on up to 2 rewards categories out of 7; get 0.4 miles per dollar on all other spend."
+  },
+  "mpd:overseas_online_shopping": {
+   "value": 4.0,
+   "unit": "mpd",
+   "note": "Get up to 4 miles per dollar on up to 2 rewards categories out of 7; get 0.4 miles per dollar on all other spend."
+  },
+  "mpd:department_store": {
+   "value": 4.0,
+   "unit": "mpd",
+   "note": "Get up to 4 miles per dollar on up to 2 rewards categories out of 7; get 0.4 miles per dollar on all other spend."
+  },
+  "mpd:supermarket": {
+   "value": 4.0,
+   "unit": "mpd",
+   "note": "Get up to 4 miles per dollar on up to 2 rewards categories out of 7; get 0.4 miles per dollar on all other spend."
+  },
+  "mpd:hotel_booking": {
+   "value": 4.0,
+   "unit": "mpd",
+   "note": "Get up to 4 miles per dollar on up to 2 rewards categories out of 7; get 0.4 miles per dollar on all other spend."
+  },
+  "mpd:flight_booking": {
+   "value": 4.0,
+   "unit": "mpd",
+   "note": "Get up to 4 miles per dollar on up to 2 rewards categories out of 7; get 0.4 miles per dollar on all other spend."
+  },
+  "mpd:transport": {
+   "value": 4.0,
+   "unit": "mpd",
+   "note": "Get up to 4 miles per dollar on up to 2 rewards categories out of 7; get 0.4 miles per dollar on all other spend."
+  },
+  "mpd:petrol": {
+   "value": 4.0,
+   "unit": "mpd",
+   "note": "Get up to 4 miles per dollar on up to 2 rewards categories out of 7; get 0.4 miles per dollar on all other spend."
+  },
+  "percent:dining": {
+   "value": 2.8,
+   "unit": "percent",
+   "note": "Get up to 2.8% cashback on up to 2 rewards category(ies) out of 7; get 0.2% cashback on all other spend."
+  },
+  "points_per_dollar:baseline": {
+   "value": 1.0,
+   "unit": "points_per_dollar",
+   "note": "UNI$"
+  },
+  "points_per_dollar:local_spending": {
+   "value": 10.0,
+   "unit": "points_per_dollar",
+   "note": "UNI$ | Choose one of these categories per quarter: beauty & wellness, dining, entertainment, grocery, children and infant wear stores, fashion, public transport, taxi and ride-hailing, hotels, and flights."
+  },
+  "points_per_dollar:overseas_spending": {
+   "value": 10.0,
+   "unit": "points_per_dollar",
+   "note": "UNI$ | Choose one of these categories per quarter: beauty & wellness, dining, entertainment, grocery, children and infant wear stores, fashion, public transport, taxi and ride-hailing, hotels, and flights."
+  },
+  "points_per_dollar:contactless_spend": {
+   "value": 10.0,
+   "unit": "points_per_dollar",
+   "note": "UNI$ | Choose one of these categories per quarter: beauty & wellness, dining, entertainment, grocery, children and infant wear stores, fashion, public transport, taxi and ride-hailing, hotels, and flights."
+  },
+  "points_per_dollar:online_shopping": {
+   "value": 10.0,
+   "unit": "points_per_dollar",
+   "note": "UNI$ | Choose one of these categories per quarter: beauty & wellness, dining, entertainment, grocery, children and infant wear stores, fashion, public transport, taxi and ride-hailing, hotels, and flights."
+  },
+  "points_per_dollar:retail": {
+   "value": 10.0,
+   "unit": "points_per_dollar",
+   "note": "UNI$ | Choose one of these categories per quarter: beauty & wellness, dining, entertainment, grocery, children and infant wear stores, fashion, public transport, taxi and ride-hailing, hotels, and flights."
+  },
+  "points_per_dollar:dining": {
+   "value": 10.0,
+   "unit": "points_per_dollar",
+   "note": "UNI$ | Choose one of these categories per quarter: beauty & wellness, dining, entertainment, grocery, children and infant wear stores, fashion, public transport, taxi and ride-hailing, hotels, and flights."
+  },
+  "points_per_dollar:online_food_delivery": {
+   "value": 10.0,
+   "unit": "points_per_dollar",
+   "note": "UNI$ | Choose one of these categories per quarter: beauty & wellness, dining, entertainment, grocery, children and infant wear stores, fashion, public transport, taxi and ride-hailing, hotels, and flights."
+  },
+  "points_per_dollar:grocery": {
+   "value": 10.0,
+   "unit": "points_per_dollar",
+   "note": "UNI$ | Choose one of these categories per quarter: beauty & wellness, dining, entertainment, grocery, children and infant wear stores, fashion, public transport, taxi and ride-hailing, hotels, and flights."
+  },
+  "points_per_dollar:transport": {
+   "value": 10.0,
+   "unit": "points_per_dollar",
+   "note": "UNI$ | Choose one of these categories per quarter: beauty & wellness, dining, entertainment, grocery, children and infant wear stores, fashion, public transport, taxi and ride-hailing, hotels, and flights; tranport includes MRT rides, buses, petrol kiosks, taxis, limousines, Grab rides, and Gojek rides."
+  },
+  "points_per_dollar:taxi_ride_sharing": {
+   "value": 10.0,
+   "unit": "points_per_dollar",
+   "note": "UNI$ | Choose one of these categories per quarter: beauty & wellness, dining, entertainment, grocery, children and infant wear stores, fashion, public transport, taxi and ride-hailing, hotels, and flights."
+  },
+  "points_per_dollar:hotel_booking": {
+   "value": 10.0,
+   "unit": "points_per_dollar",
+   "note": "UNI$ | Choose one of these categories per quarter: beauty & wellness, dining, entertainment, grocery, children and infant wear stores, fashion, public transport, taxi and ride-hailing, hotels, and flights."
+  },
+  "points_per_dollar:flight_booking": {
+   "value": 10.0,
+   "unit": "points_per_dollar",
+   "note": "UNI$ | Choose one of these categories per quarter: beauty & wellness, dining, entertainment, grocery, children and infant wear stores, fashion, public transport, taxi and ride-hailing, hotels, and flights."
+  },
+  "points_per_dollar:entertainment": {
+   "value": 10.0,
+   "unit": "points_per_dollar",
+   "note": "UNI$ | Choose one of these categories per quarter: beauty & wellness, dining, entertainment, grocery, children and infant wear stores, fashion, public transport, taxi and ride-hailing, hotels, and flights."
+  },
+  "points_per_dollar:petrol": {
+   "value": 10.0,
+   "unit": "points_per_dollar",
+   "note": "UNI$ | Choose one of these categories per quarter: beauty & wellness, dining, entertainment, grocery, children and infant wear stores, fashion, public transport, taxi and ride-hailing, hotels, and flights."
+  },
+  "mpd:local": {
+   "value": 4.0,
+   "unit": "mpd",
+   "note": "Get up to 4 miles per dollar on up to 2 rewards categories out of 7; get 0.4 miles per dollar on all other spend."
+  },
+  "mpd:baseline": {
+   "value": 0.4,
+   "unit": "mpd",
+   "note": "Unlimited 0.4 miles per dollar on all other spend outside enrolled rewards category."
+  },
+  "mpd:overseas": {
+   "value": 4.0,
+   "unit": "mpd",
+   "note": "Get up to 4 miles per dollar on up to 2 rewards categories out of 7; get 0.4 miles per dollar on all other spend."
+  }
+ },
+ "caps": {
+  "rewards_bonus_cap": {
+   "value": 5600.0,
+   "note": "S$ | Bonus UNI$ capped at 5,600 UNI$ (equivalent to S$2,000 spend) per calendar month."
+  },
+  "airmiles_bonus_cap": {
+   "value": 6000.0,
+   "note": "Bonus miles capped at 6,000 miles (equivalent to S$1,500 spend) per calendar month. No cap on other spend at baseline rate (0.4 mpd)."
+  }
+ },
+ "highlights": [
+  "Recive 4 mpd on 2 selected categories out of 7 (petrol, transport, flight bookings, hotel bookings, department stores, supermarkets, dining, retail, local purchases, and foreign currency spending). Plus, enjoy unlimited 0.4 mpd on all other spend outside enrolled rewards category. Bonus UNI$ is capped at 5,600 UNI$ / 8,000 miles (equivalent to S$2,000 in spend) per month.",
+  "pros: Pick from 7 rewards categories to earn up to 25X UNI$ for every S$5 spend (10 miles per S$1)",
+  "pros: 10X UNI$ for every S$5 spent (equivalent to 4 miles per S$1) on 2 of your preferred rewards categories..",
+  "pros: Up to additional 15X UNI$ per S$5 spent (6 miles per S$1) when you save with UOB Lady's Savings Account",
+  "pros: UNI$1 per S$5 spent (equivalent to 0.4 miles per S$1) on other purchases.",
+  "pros: Complimentary travel insurance coverage of up to US$100,000.",
+  "pros: Complimentary e-commerce protection",
+  "pros: 0% LuxePay",
+  "cons: S$120,000 annual income",
+  "cons: S$410.40 annual fee",
+  "cons: S$5 earning blocks for miles.",
+  "cons: Automatic UNI$ deductions",
+  "pros: Local spending rebate",
+  "pros: Installment",
+  "pros: No monthly spend required",
+  "cons: Rebate cap applied"
+ ],
+ "sign_up_offers": [],
+ "links": {},
+ "citation": {
+  "id": "singsaver:09b24b14939c",
+  "url": "https://www.singsaver.com.sg/credit-card/products/uob-ladys-solitaire-card",
+  "title": "UOB Lady's Solitaire Card",
+  "source_type": "aggregator",
+  "retrieved_at": "2026-09-27T05:26:52+00:00",
+  "sha256": "09b24b14939cd308fbc0061c575a75e2a856818feaad6055d021f77b8c2117e6",
+  "snapshot": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-uob-ladys-solitaire-card-e0e0ca01.html"
+ },
+ "extra": {
+  "network": [
+   "World Mastercard"
+  ],
+  "mobile_wallets": [
+   "Google Pay",
+   "Apple Pay",
+   "Samsung Pay",
+   "NETSPay"
+  ],
+  "fx_fee_percent": 3.25,
+  "miles_conversion_fee": 27.0,
+  "categories": [
+   "category:airmiles",
+   "category:all-credit-cards",
+   "category:buffet-promo",
+   "category:dining-promo",
+   "category:grocery-promo",
+   "category:installment",
+   "category:petrol-promo",
+   "category:promo",
+   "category:retail-promo",
+   "category:rewards",
+   "category:travel",
+   "needs:0-interest-rate",
+   "needs:0-processing-fee",
+   "needs:air-miles-conversion-rewards",
+   "needs:all-airmiles-cards",
+   "needs:all-cards-with-buffet-promo",
+   "needs:all-cards-with-dining-promo",
+   "needs:all-cards-with-grocery-promo",
+   "needs:all-cards-with-petrol-promo",
+   "needs:all-cards-with-promotion",
+   "needs:all-cards-with-retail-promo",
+   "needs:all-credit-cards",
+   "needs:all-installment-cards",
+   "needs:all-rewards-cards",
+   "needs:all-travel-cards",
+   "needs:annual-fee-waiver-airmiles",
+   "needs:free-travel-insurance",
+   "needs:high-miles-rebate",
+   "needs:high-rewards-rebate",
+   "needs:long-tenure-installment",
+   "needs:no-minimum-spend-required-airmiles",
+   "needs:no-minimum-spend-required-rewards",
+   "needs:online-booking-discount"
+  ],
+  "tag": null,
+  "description": "The UOB Lady's Solitaire Card is a tier above the UOB Lady's Card, with a higher income requirement. However, it comes with a S$1,500 monthly bonus cap instead. Plus, you'll be able to select two of seven preferred categories, instead of one (Fashion, Dining, Travel, Beauty and Wellness, Family, Transport or Entertainment)."
+ }
+}

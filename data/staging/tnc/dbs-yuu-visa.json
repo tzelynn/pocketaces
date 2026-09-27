@@ -1,0 +1,24 @@
+{
+ "card_id": "dbs-yuu-visa",
+ "product_pages": [
+  {
+   "id": "bank:835bbb0594c9",
+   "url": "https://www.dbs.com.sg/personal/cards/credit-cards/dbs-yuu-cards",
+   "source_type": "official",
+   "retrieved_at": "2026-09-27T08:36:58+00:00",
+   "sha256": "835bbb0594c97a16de1ccb7ad1bb40d75efbf40afcbc67c270da53beb5ce8130",
+   "snapshot": "data/raw/bank/www-dbs-com-sg-personal-cards-credit-cards-dbs-yuu-cards-96a39a34.html"
+  }
+ ],
+ "documents": [
+  {
+   "url": "https://www.dbs.com.sg/iwov-resources/media/pdf/cards/promotions/dbs-yuu-cards/dbs-yuu-card-promotion-tncs.pdf",
+   "error": "robots.txt disallows https://www.dbs.com.sg/iwov-resources/media/pdf/cards/promotions/dbs-yuu-cards/dbs-yuu-card-promotion-tncs.pdf",
+   "changed": false
+  }
+ ],
+ "changed": true,
+ "removed_documents": [
+  "https://www.dbs.com.sg/iwov-resources/media/pdf/deposits/paylah-newuser-joinlah-tnc.pdf"
+ ]
+}

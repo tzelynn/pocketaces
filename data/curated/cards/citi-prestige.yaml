@@ -1,0 +1,139 @@
+# Curated card record. Auto-drafted from staged sources; verify every value against the
+# official T&Cs (citations below), then set review.status: reviewed.
+id: citi-prestige
+bank: Citibank
+name: Citi Prestige Card
+network: mastercard
+image_url: https://mhgprod.blob.core.windows.net/singsaver/strapi-uploads/l_blt726412701091d85f_c3af52a7e8.png
+official_url: https://www.citibank.com.sg/credit-cards/rewards/prestige-credit-card/
+annual_fee:
+  amount:
+    amount: 651.82
+    currency: SGD
+  waiver_notes: S$ | Inclusive of GST.
+  sources: ['singsaver:0baa50b56337']
+min_annual_income:
+  amount: 120000.0
+  currency: SGD
+reward_currency:
+  kind: points
+  name: Points
+earn_rules:
+- id: overseas-spending
+  label: overseas spending (SingSaver — verify)
+  rate: 5.0
+  unit: points_per_dollar
+  tier: bonus
+  eligibility:
+    include_mcc: ['4829', '4900', '5199', '5960', '5993', '6012', '6050', '6051', '6211', '6300', '6513',
+      6529-6540, '6529', '6530', '6534', '6540', '7349', '7511', '7523', '7800', '7995', '8062', '8211',
+      8211-8299, '8220', '8241', '8244', '8249', '8299', '8398', 8651-8661, '8651', '8661', 9000-9999,
+      '9211', '9222', '9223', '9311', '9399', '9402', '9405', '9754']
+    description: 5 ThankYou Points (2 miles) per dollar on overseas spend. [include_mcc auto-extracted
+      from official T&C — check it belongs to this rule]
+    sources: ['singsaver:0baa50b56337', 'bank:0eefbfc5c00d', 'bank:d43f74d8ca64', 'bank:309cf3937767',
+      'bank:52db1faa0417', 'bank:c9a6bfecb009', 'bank:e02c77d8f4ba', 'bank:9c7e3ec84ef4', 'bank:797c112deff3']
+  sources: ['singsaver:0baa50b56337']
+- id: local-spending
+  label: local spending (SingSaver — verify)
+  rate: 3.25
+  unit: points_per_dollar
+  tier: bonus
+  eligibility:
+    description: 3.25 ThankYou Points (1.3 miles) per dollar on local spend.
+    sources: ['singsaver:0baa50b56337']
+  sources: ['singsaver:0baa50b56337']
+- id: base
+  label: baseline (SingSaver — verify)
+  rate: 3.25
+  unit: points_per_dollar
+  tier: base
+  eligibility:
+    all_spend: true
+    description: 3.25 ThankYou points per dollar on local spend.
+    sources: ['singsaver:0baa50b56337']
+  sources: ['singsaver:0baa50b56337']
+general_exclusions:
+  exclude_mcc: ['4111']
+  description: Auto-extracted from official T&Cs — confirm each code applies to this card
+  sources: ['bank:0eefbfc5c00d', 'bank:d43f74d8ca64', 'bank:309cf3937767', 'bank:52db1faa0417', 'bank:c9a6bfecb009',
+    'bank:e02c77d8f4ba', 'bank:9c7e3ec84ef4', 'bank:797c112deff3']
+notes:
+- 'Editorial review for cross-checking: Review: Citi Prestige Card (https://milelion.com/2026/08/22/review-citi-prestige-card/,
+  updated 2026-09-16)'
+- 'T&C mentions (check whether excluded): annual fee, axs, balance transfer, bill payment, cash advance,
+  charit, education, government, grabpay, hospital, instalment, interest, ipp, late payment charge, tax,
+  top-ups, utilit, youtrip'
+citations:
+- id: singsaver:0baa50b56337
+  url: https://www.singsaver.com.sg/credit-card/products/citi-prestige-card
+  title: Citi Prestige Card
+  source_type: aggregator
+  retrieved_at: '2026-09-27T05:25:11+00:00'
+  sha256: 0baa50b56337590b20bff5e3c0172bf2bb89c8c5ca123d296e91270e7a03f7f8
+  snapshot: data/raw/singsaver/www-singsaver-com-sg-credit-card-products-citi-prestige-card-a1fa4692.html
+- id: moneysmart:49fcb3586f25
+  url: https://www.moneysmart.sg/credit-cards?page=4
+  title: Citi Prestige Card
+  source_type: aggregator
+  retrieved_at: '2026-09-27T05:27:20+00:00'
+  sha256: 49fcb3586f252df0b2dacb9acecc465127e09c9defa7f151881c3db46d84649e
+  snapshot: data/raw/moneysmart/credit-cards-p4-1a322210.html
+- id: bank:0eefbfc5c00d
+  url: https://www.citibank.com.sg/credit-cards/rewards/prestige-credit-card/pdf/card-members-agreement.pdf
+  source_type: official
+  retrieved_at: '2026-09-27T08:32:10+00:00'
+  sha256: 0eefbfc5c00d7c186a8d921eedfac6d0b6a908f000f8eea0cf42f82090b6f23c
+  snapshot: data/raw/bank/www-citibank-com-sg-credit-cards-rewards-prestige-credit-card-pdf-card-members-agreement-pdf-ffba7954.pdf
+- id: bank:d43f74d8ca64
+  url: https://www.citibank.com.sg/credit-cards/pdf/rewards-exclusion-list.pdf
+  source_type: official
+  retrieved_at: '2026-09-27T08:32:12+00:00'
+  sha256: d43f74d8ca64a96141c244ca5126179e77543ae82cebe4c177a0c029c73b1a68
+  snapshot: data/raw/bank/www-citibank-com-sg-credit-cards-pdf-rewards-exclusion-list-pdf-cea07829.pdf
+- id: bank:309cf3937767
+  url: https://www.citibank.com.sg/credit-cards/rewards/prestige-credit-card/pdf/online-acquisition-offer-tnc.pdf
+  source_type: official
+  retrieved_at: '2026-09-27T08:32:14+00:00'
+  sha256: 309cf39377675efac6fcd083e34e95441d5d4435ac5b9aa9f542ca297fd87cf3
+  snapshot: data/raw/bank/www-citibank-com-sg-credit-cards-rewards-prestige-credit-card-pdf-online-acquisition-offer-tnc-pdf-2e04d38d.pdf
+- id: bank:52db1faa0417
+  url: https://www.citibank.com.sg/pdf/credit-cards/prestige-card/prestigemrctc.pdf
+  source_type: official
+  retrieved_at: '2026-09-27T08:32:16+00:00'
+  sha256: 52db1faa04178e128fd347ce6c51a5af94d9de5a7f2aa7d2ddec76f8f38d333f
+  snapshot: data/raw/bank/www-citibank-com-sg-pdf-credit-cards-prestige-card-prestigemrctc-pdf-f17ce990.pdf
+- id: bank:c9a6bfecb009
+  url: https://www.citibank.com.sg/pdf/0523/Sands-Lifestyle-membership.pdf
+  source_type: official
+  retrieved_at: '2026-09-27T08:32:19+00:00'
+  sha256: c9a6bfecb009caa78e078eec45ebbd42eeb20d6ea3d3c495d7b78ace1f39adfa
+  snapshot: data/raw/bank/www-citibank-com-sg-pdf-0523-Sands-Lifestyle-membership-pdf-7626c59e.pdf
+- id: bank:e02c77d8f4ba
+  url: https://www.citibank.com.sg/credit-card/pdf/citi-prestige-card-information-sheet.pdf
+  source_type: official
+  retrieved_at: '2026-09-27T08:32:21+00:00'
+  sha256: e02c77d8f4bac9f2e35fb019982a38fbe41cdd2ee889a7b38b1de294777ea011
+  snapshot: data/raw/bank/www-citibank-com-sg-credit-card-pdf-citi-prestige-card-information-sheet-pdf-6353e89e.pdf
+- id: bank:9c7e3ec84ef4
+  url: https://www.citibank.com.sg/pdf/credit-card/prestige-product-faq.pdf
+  source_type: official
+  retrieved_at: '2026-09-27T08:32:23+00:00'
+  sha256: 9c7e3ec84ef4f25ad5afcb90ffcdf166c20600eb7308f1c4da7041e90a10736f
+  snapshot: data/raw/bank/www-citibank-com-sg-pdf-credit-card-prestige-product-faq-pdf-234ebae5.pdf
+- id: bank:797c112deff3
+  url: https://www.citibank.com.sg/credit-cards/rewards/prestige-credit-card/pdf/haute-dining-tnc.pdf
+  source_type: official
+  retrieved_at: '2026-09-27T08:32:25+00:00'
+  sha256: 797c112deff30eb29ed54398ecb1ba109fd7d503512b5cb3d5b96d43b01bc362
+  snapshot: data/raw/bank/www-citibank-com-sg-credit-cards-rewards-prestige-credit-card-pdf-haute-dining-tnc-pdf-262da61e.pdf
+- id: milelion:9468b762c7cc
+  url: https://milelion.com/2026/08/22/review-citi-prestige-card/
+  title: 'Review: Citi Prestige Card'
+  source_type: editorial
+  retrieved_at: '2026-09-27T05:28:13+00:00'
+  sha256: 9468b762c7ccba008d123fe7146607f7521bbd8b87a3bd95bcccedaa55eeaceb
+  snapshot: data/raw/milelion/post-73847-a6e63c85.json
+review:
+  status: draft
+updated_at: '2026-09-27'

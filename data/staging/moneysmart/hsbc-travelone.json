@@ -1,0 +1,135 @@
+{
+ "source": "moneysmart",
+ "source_id": "hsbc-travelone-card",
+ "source_url": "https://www.moneysmart.sg/credit-cards/hsbc-travelone-card",
+ "name": "HSBC TravelOne Card",
+ "bank": "HSBC",
+ "card_id": "hsbc-travelone",
+ "image_url": "https://photos.cdn-moneysmart.com/credit_cards/uploads/products/images/image_url_2023-05-17_HSBC TravelOne.jpeg",
+ "annual_fee": 196.2,
+ "min_annual_income": 30000.0,
+ "earn_rates": {},
+ "caps": {},
+ "highlights": [
+  "S$1 = 1.2 miles on Local Spend",
+  "S$1 = 2.4 Miles on Foreign Currency Spend",
+  "Complimentary Travel Insurance coverage, Airport Lounge visits",
+  "Instant reward redemption with an extensive selection of airline and hotel partners via HSBC Singapore mobile app",
+  "Accelerated earn rate: up to 2.4 miles for your spending",
+  "Travel privileges: Complimentary travel insurance coverage (including COVID-19), 4 x complimentary airport lounge visits for primary cardholders and guests of primary cardholders and more",
+  "Split flexibly: Split your purchases across a range of flexible tenors that suits your needs with HSBC Instalment Plans",
+  "Receive complimentary access to ENTERTAINER with HSBC app, with over 1,000 worldwide 1-for-1 deals on dining, lifestyle and travel.",
+  "A new income criteria for HSBC Credit Card and Loan will take effect from 1 October 2025. \n*Learn More",
+  "At MoneySmart, we strive to keep our information accurate and up to date. This information may be different from what you see when you visit a financial institution, service provider, or specific product site. MoneySmart shall not be liable to compensate the Customer should the information is not as updated as our Partner."
+ ],
+ "sign_up_offers": [
+  {
+   "kind": "MANUAL_GIFT",
+   "title": "S$400 Cash via PayNow",
+   "subtitle": null,
+   "is_cash": true,
+   "terms": "• Apply for a HSBC credit card by 30th Sept 2026\n• Spend a \nmin. of S$500 from Card Account Opening Date to end of the following calendar month.\n• Submit the Claim Form by 30th Oct 2026",
+   "campaign": "Credit Card | HSBC Revo, TravelOne | 250926"
+  },
+  {
+   "kind": "STORE_PRODUCT",
+   "title": "Shopee Voucher $450",
+   "subtitle": "worth S$450",
+   "is_cash": false,
+   "terms": "• Apply for a HSBC credit card by 30th Sept 2026\n• Spend a \nmin. of S$500 from Card Account Opening Date to end of the following calendar month.\n• Submit the Claim Form by 30th Oct 2026",
+   "campaign": "Credit Card | HSBC Revo, TravelOne | 250926"
+  },
+  {
+   "kind": "STORE_PRODUCT",
+   "title": "Apple iPhone 18 Pro (256GB, Burgundy)",
+   "subtitle": "worth S$1899",
+   "is_cash": false,
+   "terms": "• Apply for a HSBC credit card by 30th Sept 2026\n• Spend a \nmin. of S$500 from Card Account Opening Date to end of the following calendar month.\n• Submit the Claim Form by 30th Oct 2026",
+   "campaign": "Credit Card | HSBC Revo, TravelOne | 250926"
+  },
+  {
+   "kind": "STORE_PRODUCT",
+   "title": "Apple AirPods Pro 3",
+   "subtitle": "worth S$349",
+   "is_cash": false,
+   "terms": "• Apply for a HSBC credit card by 30th Sept 2026\n• Spend a \nmin. of S$500 from Card Account Opening Date to end of the following calendar month.\n• Submit the Claim Form by 30th Oct 2026",
+   "campaign": "Credit Card | HSBC Revo, TravelOne | 250926"
+  },
+  {
+   "kind": "STORE_PRODUCT",
+   "title": "Apple Watch Series 12, 42mm (GPS, Black Aluminium Case with Black Sport Band)",
+   "subtitle": "worth S$599",
+   "is_cash": false,
+   "terms": "• Apply for a HSBC credit card by 30th Sept 2026\n• Spend a \nmin. of S$500 from Card Account Opening Date to end of the following calendar month.\n• Submit the Claim Form by 30th Oct 2026",
+   "campaign": "Credit Card | HSBC Revo, TravelOne | 250926"
+  },
+  {
+   "kind": "STORE_PRODUCT",
+   "title": "Sony WH-1000XM6 Wireless Noise Cancelling Headphones (Black)",
+   "subtitle": "worth S$649",
+   "is_cash": false,
+   "terms": "• Apply for a HSBC credit card by 30th Sept 2026\n• Spend a \nmin. of S$500 from Card Account Opening Date to end of the following calendar month.\n• Submit the Claim Form by 30th Oct 2026",
+   "campaign": "Credit Card | HSBC Revo, TravelOne | 250926"
+  }
+ ],
+ "links": {
+  "product": "https://www.moneysmart.sg/credit-cards/hsbc-travelone-card",
+  "review": "https://blog.moneysmart.sg/credit-cards/hsbc-travelone-card-review"
+ },
+ "citation": {
+  "id": "moneysmart:eeee24fb93a9",
+  "url": "https://www.moneysmart.sg/credit-cards",
+  "title": "HSBC TravelOne Card",
+  "source_type": "aggregator",
+  "retrieved_at": "2026-09-27T05:27:12+00:00",
+  "sha256": "eeee24fb93a9d85ef8b9194c11bda960b5b99ee30b3689cdc59fb650badebce7",
+  "snapshot": "data/raw/moneysmart/credit-cards-p1-b55034ef.html"
+ },
+ "extra": {
+  "summary": "The HSBC TravelOne Credit Card is tailored for travelers, offering a range of benefits to enhance their journeys. Cardholders can earn miles on their spending, with accelerated points for travel-related expenses, and redeem them for various rewards including airline miles and hotel stays. Additionally, the card provides complimentary airport lounge access through Priority Pass™ and travel insurance coverage. ",
+  "badges": [
+   "Earn up to 2.4 Miles | Instant Activation*"
+  ],
+  "network": [
+   "Mastercard"
+  ],
+  "mobile_wallets": [
+   "Google Pay",
+   "Apple Pay"
+  ],
+  "groups": {
+   "annual-interest-rate-and-fees": {
+    "Annual Interest Rate": "Effective Rate: 26.9% p.a. (minimum), Minimum Charge: S$2.50",
+    "Annual Principal Fee": "196.20",
+    "Fee Waiver": "For the second year onwards, we'll waive the Annual Fee for your card if you spend more than S$25,000 per year (No fee waiver for the first year.)",
+    "Minimum Monthly Repayment": "100% of the monthly instalment plan amount and interest/fees, 1% of remaining outstanding balances, excess amount above your credit limit (if your account is overlimit) or $50 (in the currency of your account), whichever is greater",
+    "Interest Free Period": "20 days"
+   },
+   "minimum-income-requirements": {
+    "Singaporean/PR Minimum Annual Income": "(a) Singaporeans, Singapore Permanent Residents: SGD 65,000 OR \n (b) Singapore Citizens / Permanent Residents with HSBC total relationship balance (“TRB”)* of at least SGD50,000: SGD 30,000 for salaried employees \n SGD 40,000 for self-employed or commission-based (*Total Relationship Balance (TRB) refers to the total value of your deposits, investments, and insurance with HSBC Bank (Singapore) Limited, calculated based on the average monthly balance over the last 3 months.)",
+    "Non-Singaporean Minimum Annual Income": "S$65,000"
+   },
+   "card-association": {
+    "Mastercard": "true"
+   },
+   "wireless-payment": {
+    "Google Pay": "true",
+    "Apple Pay": "true"
+   },
+   "documents-required": {
+    "SG Citizens or PRs": "Apply via MyInfo",
+    "Passport Validity (Foreigners)": "6 months",
+    "Work Permit Validity (Foreigners)": "6 months",
+    "Utility or Telephone Bill": "With Full Name & Address",
+    "Income Tax Notice of Assessment": "true",
+    "Latest Original Computerised Payslip": "true"
+   }
+  },
+  "our_takes": {
+   "our-take": "The HSBC TravelOne Card is tailored for frequent travellers seeking flexibility in miles redemption. Its instant rewards redemption via the HSBC app offers convenience, while accelerated earn rates enhance value. Given the annual fee, aim for the S$25,000 annual spend waiver to maximize cost-efficiency. Complimentary travel insurance and lounge access add tangible value for overseas trips including coverage for COVID-19. However, those prioritizing cashback over miles or seeking simple, uncapped rewards may find other cards more suitable. The 3.25% foreign transaction fee warrants consideration for international spending.",
+   "good-for": "Frequent travelers seeking accelerated miles, instant reward redemption, and complimentary travel insurance for peace of mind.\nCardholders looking for travel perks such as lounge access and ENTERTAINER deals to enhance their trips.\nThose who value flexibility in managing purchases with options for instalment plans that suit various financial needs.",
+   "things-to-note": "Watch out for the 26.9% p.a. interest; carrying a balance will incur substantial costs. Aim to pay in full each month.\nThe 3.25% foreign transaction fee applies; for overseas spending, explore cards with lower or no fees.\nThe S$100 late payment fee adds up; set reminders to pay by the due date to avoid extra charges."
+  },
+  "updated_at": "2025-09-26T17:49:00+08:00"
+ }
+}

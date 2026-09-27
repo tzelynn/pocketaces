@@ -1,0 +1,126 @@
+# Curated card record. Auto-drafted from staged sources; verify every value against the
+# official T&Cs (citations below), then set review.status: reviewed.
+id: hsbc-revolution
+bank: HSBC
+name: HSBC Revolution Credit Card
+image_url: https://mhgprod.blob.core.windows.net/singsaver/strapi-uploads/m_2026_04_HSBC_Revolution_0b18833683.png
+official_url: https://www.hsbc.com.sg/credit-cards/products/revolution/
+annual_fee:
+  amount:
+    amount: 0.0
+    currency: SGD
+  sources: ['moneysmart:eeee24fb93a9']
+min_annual_income:
+  amount: 65000.0
+  currency: SGD
+reward_currency:
+  kind: miles
+  name: Miles
+earn_rules:
+- id: local
+  label: local, overseas, retail, local online shopping, department store, dining, supermarket, transport,
+    travel, flight booking (SingSaver — verify)
+  rate: 4.0
+  unit: mpd
+  tier: bonus
+  eligibility:
+    include_mcc: [3000-3350, 3351-3500, 3501-3999, '4121', '4411', '4511', '4816', '5045', '5262', '5309',
+      '5310', '5311', '5331', '5399', '5441', '5462', '5611', '5621', '5631', '5641', '5651', '5655',
+      '5661', '5691', '5699', '5732', '5733', '5734', '5735', '5811', '5812', '5813', '5912', '5942',
+      '5944', '5945', '5946', '5947', '5948', '5949', '5964', '5965', '5966', '5967', '5968', '5969',
+      '5970', '5992', '5999', '7011', '7997']
+    modes_required: [contactless, online]
+    description: Up to | 10X Points (equivalent to 4 mpd) on online and contactless spending, capped at
+      5,400 bonus miles per month. / 10X Points (equivalent to 4 mpd) on online and contactless spending,
+      capped at 5,400 bonus points per month. / 10X Points (equivalent to 4 mpd) on online and contactless
+      spending, capped at 5,400 bonus miles per month. [include_mcc auto-extracted from official T&C —
+      check it belongs to this rule]
+    sources: ['singsaver:376bc02034d9', 'bank:e3778406a7d0']
+  bonus_cap:
+    amount: 5400.0
+    unit: miles
+    period: calendar_month
+    sources: ['singsaver:376bc02034d9']
+  conditions:
+  - bonus_cap parsed from aggregator text “capped at 5,400 bonus miles per month” — confirm amount, unit
+    and whether the period is calendar or statement month
+  - 'aggregator categories: shopping, dining, groceries, transport, travel, flights'
+  sources: ['singsaver:376bc02034d9']
+- id: base
+  label: baseline (SingSaver — verify)
+  rate: 0.4
+  unit: mpd
+  tier: base
+  eligibility:
+    all_spend: true
+    description: On all other transactions.
+    sources: ['singsaver:376bc02034d9']
+  sources: ['singsaver:376bc02034d9']
+general_exclusions:
+  exclude_mcc: ['4829', '4900', '5199', '5960', '6010', '6011', '6012', '6050', '6051', '6211', '6300',
+    '6513', '6529', '6530', '6532', '6533', '6534', '6536', '6537', '6538', '6540', '6555', '7299', '7349',
+    '7399', '7511', '7523', '7801', '7995', '8062', '8211', '8220', '8241', '8244', '8249', '8299', '8398',
+    '8651', '8661', '8999', '9211', '9222', '9223', '9311', '9399', '9402', '9405', '9754']
+  description: Auto-extracted from official T&Cs — confirm each code applies to this card
+  sources: ['bank:e3778406a7d0']
+sign_up_bonuses:
+- offered_by: singsaver
+  description: 'SingSaver Exclusive Offer: choice of S$450 Upsized Cash via PayNow; ECOVACS DEEBOT mini
+    2 (worth S$499); Dyson Airstrait™ straightener (worth S$799); Dyson V8 Cyclone Vacuum Cleaner (worth
+    S$559); 28,000 Max Miles by HeyMax (worth S$504); Dyson Airwrap™ multi-styler and dryer (worth S$799)
+    (top up S$50); Dyson Clean+Wash Hygiene hard floor cleaner (worth S$729) (Top up S$150); Apple Watch
+    Series 12 Aluminum 42mm GPS (worth S$599) (Top-up S$130); Apple iPad (A16) 11" 128GB WiFi (worth S$649)
+    (Top up S$150); Apple MacBook Neo (A18 Pro) 256GB w/ Magic Keyboard (worth S$999, top up S$540); Apple
+    iPhone 18 Pro 256GB (worth S$1,899, top up S$1,300)'
+  value:
+    amount: 450.0
+    currency: SGD
+  valid_from: '2026-08-31'
+  valid_to: '2026-09-30'
+  url: https://www.singsaver.com.sg/credit-card/products/hsbc-revolution-credit-card
+  sources: ['singsaver:376bc02034d9']
+- offered_by: moneysmart
+  description: "Choice of: S$400 Cash via PayNow; Shopee Voucher $450; Apple iPhone 18 Pro (256GB, Burgundy);\
+    \ Apple AirPods Pro 3; Apple Watch Series 12, 42mm (GPS, Black Aluminium Case with Black Sport Band);\
+    \ Sony WH-1000XM6 Wireless Noise Cancelling Headphones (Black). Terms: • Apply for a HSBC credit card\
+    \ by 30th Sept 2026\n• Spend a \nmin. of S$500 from Card Account Opening Date to end of the following\
+    \ calendar month.\n• Submit the Claim Form by 30th Oct 2026"
+  url: https://www.moneysmart.sg/credit-cards/hsbc-revolution-credit-card
+  sources: ['moneysmart:eeee24fb93a9']
+notes:
+- 'Editorial review for cross-checking: Review: HSBC Revolution Card (https://milelion.com/2026/04/08/review-hsbc-revolution-card/,
+  updated 2026-07-28)'
+- 'T&C mentions (check whether excluded): axs, balance transfer, cardup, cash advance, charit, e-wallet,
+  education, government, hospital, instalment, interest, ipaymy, late charge, revolut, tax, top-ups, utilit,
+  youtrip'
+citations:
+- id: singsaver:376bc02034d9
+  url: https://www.singsaver.com.sg/credit-card/products/hsbc-revolution-credit-card
+  title: HSBC Revolution Credit Card
+  source_type: aggregator
+  retrieved_at: '2026-09-27T05:25:49+00:00'
+  sha256: 376bc02034d9e9d2c2dda4529a7d0fd9710dfe526113b28ff8a84f1bb04124f0
+  snapshot: data/raw/singsaver/www-singsaver-com-sg-credit-card-products-hsbc-revolution-credit-card-a7abb103.html
+- id: moneysmart:eeee24fb93a9
+  url: https://www.moneysmart.sg/credit-cards
+  title: HSBC Revolution Credit Card
+  source_type: aggregator
+  retrieved_at: '2026-09-27T05:27:12+00:00'
+  sha256: eeee24fb93a9d85ef8b9194c11bda960b5b99ee30b3689cdc59fb650badebce7
+  snapshot: data/raw/moneysmart/credit-cards-p1-b55034ef.html
+- id: bank:e3778406a7d0
+  url: https://www.hsbc.com.sg/content/dam/hsbc/sg/documents/credit-cards/revolution/offers/revolution-credit-card-reward-points-terms-and-conditions.pdf
+  source_type: official
+  retrieved_at: '2026-09-27T05:24:20+00:00'
+  sha256: e3778406a7d0c2cec70afffbf8cbfe1d23ed7ed0ff80aeb0537f8e410795703e
+  snapshot: data/raw/bank/manual-hsbc-revolution-2a2b774d.pdf
+- id: milelion:67aa6b7a98df
+  url: https://milelion.com/2026/04/08/review-hsbc-revolution-card/
+  title: 'Review: HSBC Revolution Card'
+  source_type: editorial
+  retrieved_at: '2026-09-27T05:28:52+00:00'
+  sha256: 67aa6b7a98df0a5ab34c12fef5069dda50698bd797f1785af80fa27b831ae027
+  snapshot: data/raw/milelion/post-76421-e50fee02.json
+review:
+  status: draft
+updated_at: '2026-09-27'

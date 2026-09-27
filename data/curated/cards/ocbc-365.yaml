@@ -1,0 +1,148 @@
+# Curated card record. Auto-drafted from staged sources; verify every value against the
+# official T&Cs (citations below), then set review.status: reviewed.
+id: ocbc-365
+bank: OCBC
+name: OCBC 365 Credit Card
+image_url: https://mhgprod.blob.core.windows.net/singsaver/strapi-uploads/xs_blt6bd792da7d106572_f9e2aa1577.webp
+official_url: https://www.ocbc.com/personal-banking/cards/365-cashback-credit-card
+annual_fee:
+  amount:
+    amount: 196.2
+    currency: SGD
+  waiver_notes: S$ | First 2 Years Waived. Min. spend of S$10,000 per year for waiver of annual fee for
+    subsequent years.
+  sources: ['singsaver:bbd80934cf08']
+min_annual_income:
+  amount: 30000.0
+  currency: SGD
+reward_currency:
+  kind: cashback
+  name: Cashback
+earn_rules:
+- id: local
+  label: local, petrol (SingSaver — verify)
+  rate: 6.0
+  unit: percent
+  tier: bonus
+  eligibility:
+    include_mcc: ['4011', '4111', '4112', '4121', '4131', '4899', '5411', '5541', '5542', '5552', '5811',
+      '5812', '5814', '7311']
+    description: Up to | With minimum spending of S$800 or S$1,600 per calendar month. Cashback capped
+      at S$80 or S$160, depending on minimum spend. / With minimum spending of $800 per calendar month.
+      3% cashback on EV charging spend at Charging stations (e.g. SP Digital, Greenlots, Virta Charging
+      Stations and City Energy). [include_mcc auto-extracted from official T&C — check it belongs to this
+      rule]
+    sources: ['singsaver:bbd80934cf08', 'bank:b05572c73e39']
+  conditions: ['aggregator categories: petrol']
+  sources: ['singsaver:bbd80934cf08']
+- id: dining
+  label: dining (SingSaver — verify)
+  rate: 5.0
+  unit: percent
+  tier: bonus
+  eligibility:
+    tags: [dining]
+    modes_required: [online]
+    description: Online food delivery, local and overseas dining with min. S$800 spend per calendar month.
+    sources: ['singsaver:bbd80934cf08']
+  sources: ['singsaver:bbd80934cf08']
+- id: health
+  label: health, online bill payment spending, transport, supermarket (SingSaver — verify)
+  rate: 3.0
+  unit: percent
+  tier: bonus
+  eligibility:
+    tags: [healthcare, transport, groceries]
+    description: Only for purchases made at pharmacies like Guardian or Watson. With minimum spending
+      of $800 per calendar month. / Only for streaming services like Netflix, Disney+, Spotify and Apple
+      Music. With minimum spending of $800 per calendar month. / Bus and train rides using SimplyGo. Local
+      and overseas private hire rides (e.g. Grab (excluding GrabPay), Gojek and TADA). Local and overseas
+      taxi rides (e.g. ComfortDelGro). With minimum spending of $800 per calendar month. / With minimum
+      spending of $800 per calendar month.
+    sources: ['singsaver:bbd80934cf08']
+  sources: ['singsaver:bbd80934cf08']
+- id: overseas
+  label: overseas (SingSaver — verify)
+  rate: 0.25
+  unit: percent
+  tier: bonus
+  eligibility:
+    description: ''
+    sources: ['singsaver:bbd80934cf08']
+  sources: ['singsaver:bbd80934cf08']
+- id: base
+  label: baseline (SingSaver — verify)
+  rate: 0.25
+  unit: percent
+  tier: base
+  eligibility:
+    all_spend: true
+    description: ''
+    sources: ['singsaver:bbd80934cf08']
+  sources: ['singsaver:bbd80934cf08']
+general_exclusions:
+  exclude_mcc: ['4784', '4829', '5047', '5199', '5262', '5960', '5993', '6010', '6012', '6051', '6211',
+    '6300', '6513', '6540', '7349', '7523', '7995', '8062', '8211', '8220', '8241', '8244', '8249', '8299',
+    '8651', '8675', '8699', '9211', '9222', '9223', '9311', '9399', '9402', '9405']
+  description: Auto-extracted from official T&Cs — confirm each code applies to this card
+  sources: ['bank:b05572c73e39']
+sign_up_bonuses:
+- offered_by: singsaver
+  description: 'SingSaver Flash Deal: choice of Apple Watch Series 12 Aluminum 42mm GPS (worth S$599)'
+  valid_from: '2026-09-21'
+  valid_to: '2026-09-27'
+  url: https://www.singsaver.com.sg/credit-card/products/ocbc-365-credit-card
+  sources: ['singsaver:bbd80934cf08']
+- offered_by: singsaver
+  description: 'SingSaver Exclusive Offer: choice of S$400 Cash via PayNow; S$440 Grab Vouchers; 25,000
+    Max Miles by HeyMax (worth S$450); Dyson Airstrait™ straightener (worth S$799); Dyson V8 Cyclone Vacuum
+    Cleaner (worth S$559); Dyson Airwrap™ multi-styler and dryer (worth S$799) (top up S$80); Dyson Clean+Wash
+    Hygiene hard floor cleaner (worth S$729) (Top up S$150); Apple iPad (A16) 11" 128GB WiFi (worth S$649)
+    (Top up S$200); Apple Watch Series 12 Aluminum 42mm GPS (worth S$599) (Top-up S$150); Apple MacBook
+    Neo (A18 Pro) 256GB w/ Magic Keyboard (worth S$999, top up S$570); Apple iPhone 18 Pro (worth S$1,899,
+    top up S$1,350)'
+  value:
+    amount: 400.0
+    currency: SGD
+  valid_from: '2026-09-15'
+  valid_to: '2026-09-30'
+  url: https://www.singsaver.com.sg/credit-card/products/ocbc-365-credit-card
+  sources: ['singsaver:bbd80934cf08']
+- offered_by: moneysmart
+  description: 'Choice of: S$200 Cash via PayNow; Sennheiser Momentum True Wireless 4 Earbuds (Black Graphite);
+    Omnidesk Essential Electric Height-Adjustable Desk (Black); TTRacing Swift X Pro Gaming Chair (Black);
+    LEVEL8 Luminous Textured Collection 28-inch Luggage (Black). Terms: • Apply for an eligible OCBC Credit
+    Card by 30th Sept 2026
+
+    • Spend a min. of S$400 in eligible transactions within 30 days from card approval
+
+    • Submit the Claim Form upon receiving the Unique Redemption Code from OCBC'
+  url: https://www.moneysmart.sg/credit-cards/ocbc-365-credit-card
+  sources: ['moneysmart:eeee24fb93a9']
+notes:
+- 'T&C mentions (check whether excluded): axs, bill payment, cash advance, charit, education, government,
+  hospital, instalment, interest, late payment charge, tax, top-up'
+citations:
+- id: singsaver:bbd80934cf08
+  url: https://www.singsaver.com.sg/credit-card/products/ocbc-365-credit-card
+  title: OCBC 365 Credit Card
+  source_type: aggregator
+  retrieved_at: '2026-09-27T05:26:17+00:00'
+  sha256: bbd80934cf0840012cb33fd86dc8f0ae3ae36b0ccb31e298e6a1ab0e32f811d2
+  snapshot: data/raw/singsaver/www-singsaver-com-sg-credit-card-products-ocbc-365-credit-card-ee6c0aa7.html
+- id: moneysmart:eeee24fb93a9
+  url: https://www.moneysmart.sg/credit-cards
+  title: OCBC 365 Credit Card
+  source_type: aggregator
+  retrieved_at: '2026-09-27T05:27:12+00:00'
+  sha256: eeee24fb93a9d85ef8b9194c11bda960b5b99ee30b3689cdc59fb650badebce7
+  snapshot: data/raw/moneysmart/credit-cards-p1-b55034ef.html
+- id: bank:b05572c73e39
+  url: https://www.ocbc.com/iwov-resources/sg/ocbc/personal/pdf/cards/tncs-governing-365-cc-cashback-programme.pdf
+  source_type: official
+  retrieved_at: '2026-09-27T08:40:31+00:00'
+  sha256: b05572c73e3955b096f674599012b908e68b0574b9571b744685a6c63c34e03a
+  snapshot: data/raw/bank/www-ocbc-com-iwov-resources-sg-ocbc-personal-pdf-cards-tncs-governing-365-cc-cashback-programme-pdf-63be21a1.pdf
+review:
+  status: draft
+updated_at: '2026-09-27'

@@ -1,0 +1,75 @@
+{
+ "source": "moneysmart",
+ "source_id": "maybank-horizon-visa-signature",
+ "source_url": "https://www.moneysmart.sg/credit-cards/maybank-horizon-visa-signature",
+ "name": "Maybank Horizon Visa Signature",
+ "bank": "Maybank",
+ "card_id": "maybank-horizon-visa-signature",
+ "image_url": "https://photos.cdn-moneysmart.com/credit_cards/uploads/products/images/image_2026-07-06_20260210-Horizon Visa Signature Card.png",
+ "annual_fee": 196.2,
+ "earn_rates": {},
+ "caps": {},
+ "highlights": [
+  "S$1 = 7X Points on Air Tickets and Foreign Currency Spend",
+  "S$1 = 3X Points on local Shopping, Groceries, Dining, Hotel Bookings",
+  "1 Point = 0.4 Miles Rewards to Miles Conversion for Selected Airline Partners",
+  "Earn 2.8 air miles (7X TREATS Points) for every S$1 spent on air tickets and foreign currency transactions when you charge a min. of S$800 per calendar month",
+  "Earn 1.2 air miles (3X TREATS Points) for every S$1 spent on all local shopping, groceries, dining, hotel bookings and many more",
+  "Complimentary lounge access with minimum spend of S$1,000 in a single transaction on a retail purchase, accompanying guest(s) enjoys 20% off walk-in rates for lounge access.",
+  "Complimentary Travel Insurance up to S$1,000,000",
+  "3 years annual fee waived; spend min. S$18,000 per year to get subsequent waiver"
+ ],
+ "sign_up_offers": [],
+ "links": {
+  "product": "https://www.moneysmart.sg/credit-cards/maybank-horizon-visa-signature"
+ },
+ "citation": {
+  "id": "moneysmart:49fcb3586f25",
+  "url": "https://www.moneysmart.sg/credit-cards?page=4",
+  "title": "Maybank Horizon Visa Signature",
+  "source_type": "aggregator",
+  "retrieved_at": "2026-09-27T05:27:20+00:00",
+  "sha256": "49fcb3586f252df0b2dacb9acecc465127e09c9defa7f151881c3db46d84649e",
+  "snapshot": "data/raw/moneysmart/credit-cards-p4-1a322210.html"
+ },
+ "extra": {
+  "summary": "The Maybank Horizon Visa Signature Card is tailored for travelers and those who enjoy dining out and entertainment, offering a variety of benefits. Cardholders can earn greater rewards of up to 2.8 air miles per dollar (7X TREATS Points) on your air tickets and foreign spend when you charge a minimum of S$800 in each calendar month, and enjoy access to lifestyle privileges, complimentary airport lounge visits, travel insurance coverage. Get your Annual Fee waived for 3 years if you spend a min. of S$18,000 per year.",
+  "badges": [],
+  "network": [
+   "Visa"
+  ],
+  "mobile_wallets": [
+   "Visa Contactless",
+   "Apple Pay",
+   "Samsung Pay"
+  ],
+  "groups": {
+   "annual-interest-rate-and-fees": {
+    "Annual Interest Rate": "27.90% p.a. subject to a minimum charge of S$3.00",
+    "Annual Principal Fee": "196.20",
+    "Supplementary Annual Fee": "Complimentary",
+    "Fee Waiver": "Available with a total yearly minimum spend of S$18,000",
+    "Minimum Monthly Repayment": "3% of outstanding balance or S$20, whichever is higher",
+    "Interest Free Period": "20 days"
+   },
+   "minimum-income-requirements": {
+    "Singaporean/PR Minimum Annual Income": "30000",
+    "Non-Singaporean Minimum Annual Income": "S$60000. Malaysia Citizens (in employment for at least 1 year): S$45,000"
+   },
+   "card-association": {
+    "Visa": "true"
+   },
+   "wireless-payment": {
+    "Visa Contactless": "true",
+    "Apple Pay": "true",
+    "Samsung Pay": "true"
+   }
+  },
+  "our_takes": {
+   "our-take": "Our Take: The Maybank Horizon Visa Signature rewards frequent travellers, especially those who can hit the S$800 monthly spend. Earning 2.8 miles per S$1 on air tickets and foreign currency is competitive. The lounge access, requiring a S$1,000 single transaction, is a nice perk, but limited to one visit per month. Factor in the S$18,000 annual spend to waive the annual fee, otherwise the value proposition diminishes. Consider if your spending aligns mostly with travel to maximize rewards.",
+   "good-for": "Frequent travelers seeking air miles and complimentary lounge access for comfortable journeys.\nCardholders who spend over $800 monthly on foreign transactions to maximize air miles.\nProfessionals who book air tickets regularly and want travel insurance coverage.",
+   "things-to-note": "A high 27.90% annual interest rate can apply if you carry a balance month to month.\nS$18,000 annual spending is needed to waive the S$196.20 fee; factor it into your spending.\nLounge access needs S$1,000 spend in one transaction; access w/o costs S$45 per visit."
+  },
+  "updated_at": "2026-07-06T17:28:24+08:00"
+ }
+}

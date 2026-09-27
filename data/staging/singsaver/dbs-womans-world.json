@@ -1,0 +1,245 @@
+{
+ "source": "singsaver",
+ "source_id": "dbs-womans-world-card",
+ "source_url": "https://www.singsaver.com.sg/credit-card/products/dbs-womans-world-card",
+ "name": "DBS Woman's World Card",
+ "bank": "DBS",
+ "card_id": "dbs-womans-world",
+ "image_url": "https://mhgprod.blob.core.windows.net/singsaver/strapi-uploads/xl_2026_01_DBS_WOMAN_WORLD_MASTERCARD_CARD_4bda648ba7.png",
+ "annual_fee": 196.2,
+ "annual_fee_note": "S$ | First Year Waived",
+ "min_annual_income": 80000.0,
+ "earn_rates": {
+  "percent:overseas": {
+   "value": 0.5,
+   "unit": "percent",
+   "note": "S$5 overseas spend = 3 points on overseas purchases.  1,200 points redeemed = S$10 cash credit.  Equivalent to 0.5% cashback on overseas purchases."
+  },
+  "percent:local_online_shopping": {
+   "value": 1.67,
+   "unit": "percent",
+   "note": "(Indirect Cashback) S$1 local spend = 2 points on Online Shopping.  1,200 points redeemed = S$10 cash credit.  Equivalent to 1.67% cashback on online shopping."
+  },
+  "mpd:local": {
+   "value": 4.0,
+   "unit": "mpd",
+   "note": "10X DBS Points per S$5"
+  },
+  "mpd:overseas": {
+   "value": null,
+   "unit": "mpd",
+   "note": "10X DBS Points per S$5 on online transactions; otherwise 1.2 miles per dollar. (or 3X DBS Points). | 1.2-4 miles / dollar"
+  },
+  "mpd:retail": {
+   "value": 4.0,
+   "unit": "mpd",
+   "note": "10X DBS Points per S$5, online only."
+  },
+  "mpd:local_online_shopping": {
+   "value": 4.0,
+   "unit": "mpd",
+   "note": "Or 10X DBS Points per S$5"
+  },
+  "mpd:dining": {
+   "value": 4.0,
+   "unit": "mpd",
+   "note": "10 X DBS Points per S$5, online only."
+  },
+  "percent:baseline": {
+   "value": 0.17,
+   "unit": "percent",
+   "note": "S$5 spend = 1 point. 1200 points = S$10 cash credit, equivalent to 0.17% cashback."
+  },
+  "mpd:baseline": {
+   "value": 0.4,
+   "unit": "mpd",
+   "note": "1X DBS Point per S$5"
+  },
+  "mpd:hotel_booking": {
+   "value": 4.0,
+   "unit": "mpd",
+   "note": "10X DBS Points per S$5 on online transactions; otherwise 1.2 miles per dollar. (or 3X DBS Points)."
+  },
+  "mpd:flight_booking": {
+   "value": 4.0,
+   "unit": "mpd",
+   "note": "10X DBS Points per S$5 on online transactions; otherwise 1.2 miles per dollar. (or 3X DBS Points)."
+  },
+  "percent:overseas_online_shopping": {
+   "value": 1.67,
+   "unit": "percent",
+   "note": "(Indirect Cashback) S$1 local spend = 2 points on Online Shopping.  1,200 points redeemed = S$10 cash credit.  Equivalent to 1.67% cashback on online shopping."
+  },
+  "mpd:overseas_online_shopping": {
+   "value": 4.0,
+   "unit": "mpd",
+   "note": "10X DBS Points per S$5 on online transactions; otherwise 1.2 miles per dollar. (or 3X DBS Points)."
+  },
+  "mpd:department_store": {
+   "value": 0.4,
+   "unit": "mpd",
+   "note": "1X DBS Point per S$5"
+  },
+  "mpd:supermarket": {
+   "value": 4.0,
+   "unit": "mpd",
+   "note": "10X DBS Points per S$5 on online transactions; otherwise 1.2 miles per dollar. (or 3X DBS Points)."
+  },
+  "mpd:travel": {
+   "value": 4.0,
+   "unit": "mpd",
+   "note": "10X DBS Points per S$5 for online transactions; otherwise 1.2 miles per dollar. (or 3X DBS Points)."
+  },
+  "points_per_dollar:baseline": {
+   "value": 1.0,
+   "unit": "points_per_dollar",
+   "note": "1X DBS Points per S$5"
+  },
+  "points_per_dollar:local_spending": {
+   "value": 10.0,
+   "unit": "points_per_dollar",
+   "note": "10X DBS Points per S$5, online only."
+  },
+  "points_per_dollar:dining": {
+   "value": 10.0,
+   "unit": "points_per_dollar",
+   "note": "10X DBS Points per S$5, online only."
+  },
+  "points_per_dollar:online_food_delivery": {
+   "value": 10.0,
+   "unit": "points_per_dollar",
+   "note": "10X DBS Points per S$5, online only."
+  },
+  "points_per_dollar:grocery": {
+   "value": 10.0,
+   "unit": "points_per_dollar",
+   "note": "10X DBS Points per S$5, online only."
+  },
+  "points_per_dollar:taxi_ride_sharing": {
+   "value": 10.0,
+   "unit": "points_per_dollar",
+   "note": "10X DBS Points per S$5"
+  },
+  "points_per_dollar:hotel_booking": {
+   "value": 10.0,
+   "unit": "points_per_dollar",
+   "note": "10X DBS Points per S$5, online only."
+  },
+  "points_per_dollar:flight_booking": {
+   "value": 10.0,
+   "unit": "points_per_dollar",
+   "note": "10X DBS Points per S$5, online only."
+  },
+  "percent:local": {
+   "value": 0.17,
+   "unit": "percent",
+   "note": "S$5 spend = 1 point. 1200 points = S$10 cash credit, equivalent to 0.17% cashback."
+  },
+  "points_per_dollar:travel": {
+   "value": 10.0,
+   "unit": "points_per_dollar",
+   "note": "10X DBS Points per S$5, online only"
+  },
+  "points_per_dollar:online_shopping": {
+   "value": 10.0,
+   "unit": "points_per_dollar",
+   "note": "10X DBS Points per S$5, online only."
+  },
+  "points_per_dollar:overseas_spending": {
+   "value": 10.0,
+   "unit": "points_per_dollar",
+   "note": "10X DBS Points per S$5 on online transactions; otherwise 1.2 miles per dollar (or 3X DBS Points)."
+  },
+  "mpd:online_food_delivery": {
+   "value": 4.0,
+   "unit": "mpd",
+   "note": "10X DBS Points per S$5, online only."
+  }
+ },
+ "caps": {
+  "airmiles_bonus_cap": {
+   "value": 1500.0,
+   "note": "S$"
+  },
+  "rewards_bonus_cap": {
+   "value": 1500.0,
+   "note": "S$"
+  }
+ },
+ "highlights": [
+  "Earn 10 DBS Points for every S$5 spent on eligible online categories such as local spending, overseas spending, online shopping, dining, groceries, taxi rides, hotel bookings, flight bookings, and online food delivery. For non-online overseas transactions, you’ll earn 1.2 miles per dollar (or 3 DBS Points). For general spending, earn 1 DBS Point per S$5. Note that rewards are capped at S$1,500 per calendar month.",
+  "pros: 10X DBS points (20 miles) for every S$5 spent on online purchases.",
+  "pros: 3X DBS points (6 miles) for every S$5 spent on overseas purchases.",
+  "pros: 1X DBS points (2 miles) for every S$5 spent on other purchases.",
+  "pros: Complimentary e-commerce protection for online purchases.",
+  "pros: Enjoy special promotions and discounts for certain fashion, beauty and wellness stores.",
+  "pros: Both women and men can apply.",
+  "cons: DBS points are only awarded for every S$5 spent.",
+  "cons: 10X DBS points are only applicable for the first S$1,500 online spend per calendar month.",
+  "cons: Minimum income requirement for Singaporeans/PRs: S$80,000.",
+  "cons: Minimum income requirement for foreigners: S$80,000.",
+  "pros: Online shopping rebate",
+  "pros: Overseas rebate",
+  "pros: Installment",
+  "cons: Rebate cap applied"
+ ],
+ "sign_up_offers": [],
+ "links": {},
+ "citation": {
+  "id": "singsaver:5fff9a842eb7",
+  "url": "https://www.singsaver.com.sg/credit-card/products/dbs-womans-world-card",
+  "title": "DBS Woman's World Card",
+  "source_type": "aggregator",
+  "retrieved_at": "2026-09-27T05:25:34+00:00",
+  "sha256": "5fff9a842eb76a67bf3cdcec23aa31e1cacde3143be21b6ae2bd8d18a09e6cc3",
+  "snapshot": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-dbs-womans-world-card-5c983b31.html"
+ },
+ "extra": {
+  "network": [
+   "Mastercard"
+  ],
+  "mobile_wallets": [
+   "Google Pay",
+   "Apple Pay",
+   "Samsung Pay",
+   "NETSPay"
+  ],
+  "fx_fee_percent": 3.25,
+  "miles_conversion_fee": 25.0,
+  "categories": [
+   "category:airmiles",
+   "category:all-credit-cards",
+   "category:buffet-promo",
+   "category:dining-promo",
+   "category:grocery-promo",
+   "category:installment",
+   "category:petrol-promo",
+   "category:premium-cards",
+   "category:promo",
+   "category:retail-promo",
+   "category:rewards",
+   "category:travel",
+   "needs:0-interest-rate",
+   "needs:air-miles-conversion-rewards",
+   "needs:all-airmiles-cards",
+   "needs:all-cards-with-buffet-promo",
+   "needs:all-cards-with-dining-promo",
+   "needs:all-cards-with-grocery-promo",
+   "needs:all-cards-with-petrol-promo",
+   "needs:all-cards-with-promotion",
+   "needs:all-cards-with-retail-promo",
+   "needs:all-credit-cards",
+   "needs:all-installment-cards",
+   "needs:all-premium-cards",
+   "needs:all-rewards-cards",
+   "needs:all-travel-cards",
+   "needs:annual-fee-waiver-airmiles",
+   "needs:long-tenure-installment",
+   "needs:no-minimum-spend-required-airmiles",
+   "needs:no-minimum-spend-required-rewards",
+   "needs:online-booking-discount"
+  ],
+  "tag": null,
+  "description": "Bring out your inner shopaholic as you earn an equivalent of 4mpd on online spend with the DBS Woman's World Card, while enjoying exclusive card privileges in shopping, dining, and travel, all year round."
+ }
+}

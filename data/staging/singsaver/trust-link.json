@@ -1,0 +1,101 @@
+{
+ "source": "singsaver",
+ "source_id": "trust-bank-link-credit-card",
+ "source_url": "https://www.singsaver.com.sg/credit-card/products/trust-bank-link-credit-card",
+ "name": "Trust Link / NTUC Link Credit Card",
+ "bank": "Trust Bank",
+ "card_id": "trust-link",
+ "image_url": "https://mhgprod.blob.core.windows.net/singsaver/strapi-uploads/s_blt798d17d45714aab0_fe61b08fd0.png",
+ "annual_fee_note": "None",
+ "min_annual_income": 30000.0,
+ "earn_rates": {
+  "percent:local": {
+   "value": 21.0,
+   "unit": "percent",
+   "note": "Up to  | Get up to 21% Linkpoints when you meet the minimum spend requirement anywhere outside FairPrice Group. 0.22% on all other eligible spend."
+  },
+  "points_per_dollar:local_spending": {
+   "value": 21.0,
+   "unit": "points_per_dollar",
+   "note": "Up to  | Up to 21 Linkpoints / dollar when you meet the minimum spend requirement anywhere outside FairPrice Group. Base rate 0.22 Linkpoints / dollar."
+  },
+  "percent:overseas": {
+   "value": 21.0,
+   "unit": "percent",
+   "note": "Up to  | Get up to 21% Linkpoints when you meet the minimum spend requirement anywhere outside FairPrice Group. 0.22% on all other eligible spend."
+  },
+  "points_per_dollar:overseas_spending": {
+   "value": 21.0,
+   "unit": "points_per_dollar",
+   "note": "Up to  | Up to 21 Linkpoints / dollar when you meet the minimum spend requirement anywhere outside FairPrice Group. Base rate 0.22 Linkpoints / dollar."
+  },
+  "percent:baseline": {
+   "value": 0.22,
+   "unit": "percent",
+   "note": "Cashback given in Linkpoints (100 Linkpoints = S$1)."
+  },
+  "points_per_dollar:baseline": {
+   "value": 0.22,
+   "unit": "points_per_dollar",
+   "note": null
+  },
+  "percent:supermarket": {
+   "value": 21.0,
+   "unit": "percent",
+   "note": "Up to  | Get up to 21% Linkpoints when you meet the minimum spend requirement anywhere outside FairPrice Group. 0.22% on all other eligible spend."
+  },
+  "points_per_dollar:grocery": {
+   "value": 21.0,
+   "unit": "points_per_dollar",
+   "note": "Up to  | Up to 21 Linkpoints / dollar when you meet the minimum spend requirement anywhere outside FairPrice Group. Base rate 0.22 Linkpoints / dollar."
+  }
+ },
+ "caps": {},
+ "highlights": [
+  "Get up to 21% Linkpoints when you meet the minimum spend requirement anywhere outside FairPrice Group. 0.22% on all other eligible spend.",
+  "pros: Enjoy up to 21% savings on groceries and food at FairPrice Group when you spend on credit card.",
+  "pros: Enjoy up to 20% savings on fuel purchase at Caltex when you spend on credit card.",
+  "pros: Enjoy 0% foreign transaction fees",
+  "pros: No annual fees.",
+  "pros: No card replacement fee.",
+  "cons: Cashback provided in Linkpoints."
+ ],
+ "sign_up_offers": [],
+ "links": {
+  "apply": "https://join.trustbank.sg/ss_link_cc/products/LinkCreditCard?referralCode=SSWEB001"
+ },
+ "citation": {
+  "id": "singsaver:4493e1800a14",
+  "url": "https://www.singsaver.com.sg/credit-card/products/trust-bank-link-credit-card",
+  "title": "Trust Link / NTUC Link Credit Card",
+  "source_type": "aggregator",
+  "retrieved_at": "2026-09-27T05:26:44+00:00",
+  "sha256": "4493e1800a141f4aac2d0f3c82c16f3c7f6e8c7d01d648f0eba38ccddea7f57d",
+  "snapshot": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-trust-bank-link-credit-card-9917af02.html"
+ },
+ "extra": {
+  "network": [
+   "VISA"
+  ],
+  "mobile_wallets": [
+   "Google Pay",
+   "Apple Pay",
+   "Samsung Pay"
+  ],
+  "fx_fee_percent": null,
+  "miles_conversion_fee": null,
+  "categories": [
+   "category:all-credit-cards",
+   "category:cashback",
+   "category:grocery-promo",
+   "category:petrol-promo",
+   "needs:all-cards-with-grocery-promo",
+   "needs:all-cards-with-petrol-promo",
+   "needs:all-cashback-cards",
+   "needs:all-credit-cards",
+   "needs:singsaver-exclusive"
+  ],
+  "tag": "Best for NTUC members",
+  "description": "Get rewarded for your everyday expenses with the Trust Link / NTUC Link Credit Card. Enjoy up to 21% savings on groceries and food at FairPrice Group merchants."
+ }
+}

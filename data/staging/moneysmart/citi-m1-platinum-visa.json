@@ -1,0 +1,140 @@
+{
+ "source": "moneysmart",
+ "source_id": "citi-m1-credit-card",
+ "source_url": "https://www.moneysmart.sg/credit-cards/citi-m1-credit-card",
+ "name": "Citi M1 Credit Card",
+ "bank": "Citibank",
+ "card_id": "citi-m1-platinum-visa",
+ "image_url": "https://photos.cdn-moneysmart.com/credit_cards/uploads/products/images/image_url_2024-10-24_Screenshot 2024-10-08 at 11.39.43 AM Medium.jpeg",
+ "annual_fee": 196.2,
+ "earn_rates": {},
+ "caps": {},
+ "highlights": [
+  "Earn 4.7% Bonus Citi Rebate on eligible Entertainment Spend",
+  "Enjoy 2.7% Bonus Citi M1 Rebate on M1 Telco Bill Charges",
+  "Earn 2.7% Bonus Citi M1 Rebate on in-store purchases at M1 Shops",
+  "Earn 4.7% Bonus Citi M1 Rebate on eligible Entertainment spend.",
+  "Earn Up to 10% Citi M1 Rebate on your M1 recurring bills",
+  "Enjoy 2.7% Bonus Citi M1 Rebate on M1 Telco Bill Charges.",
+  "Earn 0.3% Citi M1 Rebate on retail transactions",
+  "Earn up to 1% Citi M1 Rebate on purchases at M1 Shops",
+  "Earn 2.7% Bonus Citi M1 Rebate on in-store purchases at M1 Shops",
+  "Enjoy 10% off device accessories at M1 Shops",
+  "Waiver of Activation Fees for Data Passport Registration Fees and M1 Value-Added Services",
+  "Citi M1 Rebate do not expire",
+  "Complimentary replacement for lost and damaged SIM cards"
+ ],
+ "sign_up_offers": [
+  {
+   "kind": "MANUAL_GIFT",
+   "title": "S$400 Cash via PayNow",
+   "subtitle": null,
+   "is_cash": true,
+   "terms": "• Apply for a Citi Card by 30th Sept 2026\n• Spend a min. of S$500 within 30 days\n• Submit the Claim Form by 30th Oct 2026",
+   "campaign": "Credit Card | Citibank | 210926"
+  },
+  {
+   "kind": "STORE_PRODUCT",
+   "title": "Shopee Voucher $450",
+   "subtitle": "worth S$450",
+   "is_cash": false,
+   "terms": "• Apply for a Citi Card by 30th Sept 2026\n• Spend a min. of S$500 within 30 days\n• Submit the Claim Form by 30th Oct 2026",
+   "campaign": "Credit Card | Citibank | 210926"
+  },
+  {
+   "kind": "STORE_PRODUCT",
+   "title": "Apple iPhone 18 Pro (256GB, Burgundy)",
+   "subtitle": "worth S$1899",
+   "is_cash": false,
+   "terms": "• Apply for a Citi Card by 30th Sept 2026\n• Spend a min. of S$500 within 30 days\n• Submit the Claim Form by 30th Oct 2026",
+   "campaign": "Credit Card | Citibank | 210926"
+  },
+  {
+   "kind": "STORE_PRODUCT",
+   "title": "Apple AirPods Pro 3",
+   "subtitle": "worth S$349",
+   "is_cash": false,
+   "terms": "• Apply for a Citi Card by 30th Sept 2026\n• Spend a min. of S$500 within 30 days\n• Submit the Claim Form by 30th Oct 2026",
+   "campaign": "Credit Card | Citibank | 210926"
+  },
+  {
+   "kind": "STORE_PRODUCT",
+   "title": "Apple Watch Series 12, 42mm (GPS, Black Aluminium Case with Black Sport Band)",
+   "subtitle": "worth S$599",
+   "is_cash": false,
+   "terms": "• Apply for a Citi Card by 30th Sept 2026\n• Spend a min. of S$500 within 30 days\n• Submit the Claim Form by 30th Oct 2026",
+   "campaign": "Credit Card | Citibank | 210926"
+  },
+  {
+   "kind": "STORE_PRODUCT",
+   "title": "Sony WH-1000XM6 Wireless Noise Cancelling Headphones (Black)",
+   "subtitle": "worth S$649",
+   "is_cash": false,
+   "terms": "• Apply for a Citi Card by 30th Sept 2026\n• Spend a min. of S$500 within 30 days\n• Submit the Claim Form by 30th Oct 2026",
+   "campaign": "Credit Card | Citibank | 210926"
+  }
+ ],
+ "links": {
+  "product": "https://www.moneysmart.sg/credit-cards/citi-m1-credit-card"
+ },
+ "citation": {
+  "id": "moneysmart:fbcf8e7229a3",
+  "url": "https://www.moneysmart.sg/credit-cards?page=3",
+  "title": "Citi M1 Credit Card",
+  "source_type": "aggregator",
+  "retrieved_at": "2026-09-27T05:27:18+00:00",
+  "sha256": "fbcf8e7229a38611c3c767cd8447164e413b1306df1f54bebee269e3abf15202",
+  "snapshot": "data/raw/moneysmart/credit-cards-p3-707cb52c.html"
+ },
+ "extra": {
+  "summary": "The Citi M1 Credit Card is best for M1 customers who want to earn rebates on their telco bills and enjoy discounts on accessories. You'll get up to 2.7% rebate on M1 bills and purchases at M1 Shops, plus 4.7% on entertainment, capped at S$60 monthly. While rebates don't expire, the card's 0.3% cashback on general spending is low compared to other cashback cards.",
+  "badges": [
+   "Earn Rebates at M1 | FASTER FULFILMENT"
+  ],
+  "network": [
+   "Visa"
+  ],
+  "mobile_wallets": [
+   "Visa Contactless",
+   "Google Pay",
+   "Apple Pay",
+   "Samsung Pay"
+  ],
+  "groups": {
+   "annual-interest-rate-and-fees": {
+    "Annual Interest Rate": "27.9",
+    "Annual Principal Fee": "196.20",
+    "Supplementary Annual Fee": "98.10",
+    "Minimum Monthly Repayment": "1% or S$50 (whichever is greater)",
+    "Interest Free Period": "25 days"
+   },
+   "minimum-income-requirements": {
+    "Singaporean/PR Minimum Annual Income": "30000",
+    "Non-Singaporean Minimum Annual Income": "42000"
+   },
+   "card-association": {
+    "Visa": "true"
+   },
+   "wireless-payment": {
+    "Visa Contactless": "true",
+    "Google Pay": "true",
+    "Apple Pay": "true",
+    "Samsung Pay": "true"
+   },
+   "documents-required": {
+    "SG Citizens or PRs": "Apply via MyInfo",
+    "Passport Validity (Foreigners)": "6 months",
+    "Work Permit Validity (Foreigners)": "6 months",
+    "Utility or Telephone Bill": "with Full Name & Address",
+    "Income Tax Notice of Assessment": "true",
+    "Latest Original Computerised Payslip": "true"
+   }
+  },
+  "our_takes": {
+   "our-take": "The Citi M1 Credit Card is best for M1 customers who want to earn rebates on their telco bills and enjoy discounts on accessories. You'll get up to 2.7% rebate on M1 bills and purchases at M1 Shops, plus 4.7% on entertainment, capped at S$60 monthly. While rebates don't expire, the card's 0.3% cashback on general spending is low compared to other cashback cards. Consider if the M1-specific perks outweigh the limited rewards on other purchases and hefty fees for foreign transactions and cash advances.",
+   "good-for": "M1 customers seeking rebates on their monthly telco bills and eligible entertainment purchases.\nSingaporeans who want to earn rebates on retail transactions and M1 shop purchases using a rewards card.\nIndividuals aiming to convert rebates into KrisFlyer miles for travel, maximizing lifestyle category spending.",
+   "things-to-note": "Annual fees of $196.20 can negate rewards; evaluate if your spending justifies the cost.\nForeign transaction fees of 3.25% apply, increasing costs when you spend overseas or online.\nCash advance fees are high at 8% or $15, so avoid using this card for cash withdrawals."
+  },
+  "updated_at": "2025-08-18T00:17:47+08:00"
+ }
+}

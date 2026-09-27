@@ -1,0 +1,178 @@
+# Curated card record. Auto-drafted from staged sources; verify every value against the
+# official T&Cs (citations below), then set review.status: reviewed.
+id: uob-ladys
+bank: UOB
+name: UOB Lady's Card
+network: mastercard
+image_url: https://mhgprod.blob.core.windows.net/singsaver/strapi-uploads/m_Ladys_Credit_MC_0ae02e955b.jpg
+official_url: https://www.uob.com.sg/personal/cards/rewards/ladys-card/index.page
+annual_fee:
+  amount:
+    amount: 196.2
+    currency: SGD
+  first_year_waived: true
+  waiver_notes: S$ | First Year Waived
+  sources: ['singsaver:c5e8e589f450']
+min_annual_income:
+  amount: 30000.0
+  currency: SGD
+reward_currency:
+  kind: miles
+  name: Miles
+earn_rules:
+- id: local
+  label: local, retail, dining, petrol, transport, overseas online shopping, local online shopping, department
+    store, supermarket, hotel booking, flight booking, overseas (SingSaver — verify)
+  rate: 10.0
+  unit: mpd
+  tier: bonus
+  eligibility:
+    include_mcc: ['4111', '4121', '4789', '4829', '4900', '5199', '5311', '5411', '5499', '5541', '5542',
+      '5611', '5621', '5631', '5641', '5651', '5655', '5661', '5691', '5699', '5811', '5812', '5813',
+      '5814', '5912', '5948', '5960', '5965', '5977', '5993', '6010', '6012', '6050', '6051', '6211',
+      '6300', '6399', '6513', '6529', '6530', '6534', '6540', '7230', '7231', '7297', '7298', '7349',
+      '7511', '7523', '7800', '7801', '7802', '7832', '7922', '7995', '8062', '8211', '8220', '8241',
+      '8244', '8249', '8299', '8398', '8651', '8661', '8699', '8999', '9211', '9222', '9223', '9311',
+      '9399', '9402', '9405']
+    description: Up to | Up to 10 mpd on 1 rewards category out of 7; get 0.4 mpd on all other spend.
+      / Up to | Capped at S$1,000 spend per calendar month / Up to | Up to 10 mpd on 1 selected rewards
+      category (choose from Dining, Travel, Fashion, Beauty & Wellness, Family, Transport, and Entertainment
+      spend); get 0.4 mpd on all other spend. [include_mcc auto-extracted from official T&C — check it
+      belongs to this rule]
+    sources: ['singsaver:c5e8e589f450', 'bank:81f35dee5222', 'bank:71ea38bfb0c0', 'bank:bdae7266d2bd',
+      'bank:2c85a31ddb07', 'bank:48c9f45f29a0', 'bank:42358e29d735', 'bank:b9775b287c7c', 'bank:49cbf131fbb8',
+      'bank:3c5fb33c30de', 'bank:8288a588164b', 'bank:c13cf48e44b4']
+  bonus_cap:
+    amount: 1000.0
+    unit: SGD_spend
+    period: calendar_month
+    sources: ['singsaver:c5e8e589f450']
+  conditions:
+  - bonus_cap parsed from aggregator text “Capped at S$1,000 spend per calendar month” — confirm amount,
+    unit and whether the period is calendar or statement month
+  - 'aggregator categories: shopping, dining, petrol, transport, groceries, hotels, flights'
+  sources: ['singsaver:c5e8e589f450']
+- id: base
+  label: baseline (SingSaver — verify)
+  rate: 0.4
+  unit: mpd
+  tier: base
+  eligibility:
+    all_spend: true
+    description: Unlimited 0.4 miles per dollar on all other spend outside enrolled rewards category.
+    sources: ['singsaver:c5e8e589f450']
+  sources: ['singsaver:c5e8e589f450']
+general_exclusions:
+  exclude_mcc: ['4829', '4900', '5199', '5960', '5965', '5993', '6012', '6050', '6051', '6211', '6300',
+    '6513', '6529', '6530', '6534', '6540', '7349', '7511', '7523', '7995', '8062', '8211', '8220', '8241',
+    '8244', '8249', '8299', '8398', '8651', '8661', '8699', '8999', '9211', '9222', '9223', '9311', '9399',
+    '9402', '9405']
+  description: Auto-extracted from official T&Cs — confirm each code applies to this card
+  sources: ['bank:81f35dee5222', 'bank:71ea38bfb0c0', 'bank:bdae7266d2bd', 'bank:2c85a31ddb07', 'bank:48c9f45f29a0',
+    'bank:42358e29d735', 'bank:b9775b287c7c', 'bank:49cbf131fbb8', 'bank:3c5fb33c30de', 'bank:8288a588164b',
+    'bank:c13cf48e44b4']
+sign_up_bonuses:
+- offered_by: singsaver
+  description: 'Welcome Offer: choice of S$100 Samsung Voucher'
+  valid_from: '2026-06-30'
+  valid_to: '2026-09-29'
+  url: https://www.singsaver.com.sg/credit-card/products/uob-ladys-card
+  sources: ['singsaver:c5e8e589f450']
+- offered_by: singsaver
+  description: 'SingSaver Flash Deal: choice of S$200 Cash via PayNow; Samsonite Straren Spinner 67/24
+    (worth S$600); S$90 Cash via PayNow'
+  value:
+    amount: 200.0
+    currency: SGD
+  valid_from: '2026-09-01'
+  valid_to: '2026-09-30'
+  url: https://www.singsaver.com.sg/credit-card/products/uob-ladys-card
+  sources: ['singsaver:c5e8e589f450']
+notes:
+- 'T&C mentions (check whether excluded): annual fee, axs, bill payment, cardup, cash advance, charit,
+  education, government, hospital, instalment, insurance premium, interest, ipaymy, ipp, late payment
+  charge, tax, top-up, top-ups, utilit, youtrip'
+citations:
+- id: singsaver:c5e8e589f450
+  url: https://www.singsaver.com.sg/credit-card/products/uob-ladys-card
+  title: UOB Lady's Card
+  source_type: aggregator
+  retrieved_at: '2026-09-27T05:26:50+00:00'
+  sha256: c5e8e589f4509e9588ee6aca7acf4c6cf33d8d1f1f917e313a99c6bafa2944bd
+  snapshot: data/raw/singsaver/www-singsaver-com-sg-credit-card-products-uob-ladys-card-94f9a98f.html
+- id: moneysmart:42909b088c22
+  url: https://www.moneysmart.sg/credit-cards?page=2
+  title: UOB Lady's Card
+  source_type: aggregator
+  retrieved_at: '2026-09-27T05:27:14+00:00'
+  sha256: 42909b088c22cb063c120b532d19af920cb3535c52f6bfc313193c6c6ea14746
+  snapshot: data/raw/moneysmart/credit-cards-p2-5f055203.html
+- id: bank:81f35dee5222
+  url: https://www.uob.com.sg/assets/pdfs/ladys-cards-tcs.pdf
+  source_type: official
+  retrieved_at: '2026-09-27T08:43:26+00:00'
+  sha256: 81f35dee522221c2ceea2d18b157771ac06308b87998d0177ac583966160eb51
+  snapshot: data/raw/bank/www-uob-com-sg-assets-pdfs-ladys-cards-tcs-pdf-ca6085c7.pdf
+- id: bank:71ea38bfb0c0
+  url: https://www.uob.com.sg/assets/web-resources/personal/pdf/highlights/solutions/for-the-ladies/unstoppable-duo-promo.pdf
+  source_type: official
+  retrieved_at: '2026-09-27T08:43:28+00:00'
+  sha256: 71ea38bfb0c0f45d01692265335482ec708a5544053469840b631181e43684bc
+  snapshot: data/raw/bank/www-uob-com-sg-assets-web-resources-personal-pdf-highlights-solutions-for-the-ladies-unstoppable-duo-promo-pdf-91fa84b5.pdf
+- id: bank:bdae7266d2bd
+  url: https://www.uob.com.sg/assets/web-resources/personal/pdf/cards/rewards/ladys-card/uob-ladys-debit-card-app-form-online-version.pdf
+  source_type: official
+  retrieved_at: '2026-09-27T08:43:31+00:00'
+  sha256: bdae7266d2bd98830e26d0b4e6d5132688bcee2539a9a13dba489867ac44d89c
+  snapshot: data/raw/bank/w-uob-com-sg-assets-web-resources-personal-pdf-cards-rewards-ladys-card-uob-ladys-debit-card-app-form-online-version-pdf-b2d98c98.pdf
+- id: bank:2c85a31ddb07
+  url: https://www.uob.com.sg/assets/pdfs/personal/cards/rewardsplus_tnc.pdf?s_cid=grm%3Asg%3Apaid%3Asea%3Ago%3Ana%3Atx%3Ana%3A001812%3A160223-evergreen%3Abau&vid=MindshareSG&pid=LSCPRSCO
+  source_type: official
+  retrieved_at: '2026-09-27T08:43:33+00:00'
+  sha256: 2c85a31ddb07f03ed5fce9f6ce0d232bd8dd9d5880ca5b95e9ea1cd89bf18273
+  snapshot: data/raw/bank/www-uob-com-sg-assets-pdfs-personal-cards-rewardsplus-tnc-pdf-3df4b70b.pdf
+- id: bank:48c9f45f29a0
+  url: https://www.uob.com.sg/assets/web-resources/personal/pdf/cards/cashback/one-debit-card/debit-card-20-grab-voucher-promo-tnc.pdf
+  source_type: official
+  retrieved_at: '2026-09-27T08:43:35+00:00'
+  sha256: 48c9f45f29a0ee792f4faaff94147d6aa32eb1a3fbf771a18843a59ae025afbf
+  snapshot: data/raw/bank/www-uob-com-sg-assets-web-resources-personal-pdf-cards-cashback-one-debit-card-debit-card-20-grab-voucher-promo-tnc-pdf-3ea1ee9c.pdf
+- id: bank:42358e29d735
+  url: https://www.uob.com.sg/assets/pdfs/add-on-card-terms-conditions.pdf
+  source_type: official
+  retrieved_at: '2026-09-27T08:43:37+00:00'
+  sha256: 42358e29d7350a9750c477afebed16d22e101f969821263b9777733152bf0a95
+  snapshot: data/raw/bank/www-uob-com-sg-assets-pdfs-add-on-card-terms-conditions-pdf-294d1c4b.pdf
+- id: bank:b9775b287c7c
+  url: https://www.uob.com.sg/assets/web-resources/personal/pdf/cards/rewards/ladys-card/gift-redemption-ladys-card-year-end-festive-tnc-cmpg.pdf
+  source_type: official
+  retrieved_at: '2026-09-27T08:43:39+00:00'
+  sha256: b9775b287c7cf6590f1cb91042b52ee7041c29485bcc458531cae75e447b56a5
+  snapshot: data/raw/bank/m-sg-assets-web-resources-personal-pdf-cards-rewards-ladys-card-gift-redemption-ladys-card-year-end-festive-tnc-cmpg-pdf-aa2436b3.pdf
+- id: bank:49cbf131fbb8
+  url: https://www.uob.com.sg/assets/web-resources/personal/pdf/cards/rewards/ladys-card/iwd-promo-prize-fulfilment-tnc-cmpg.pdf
+  source_type: official
+  retrieved_at: '2026-09-27T08:43:41+00:00'
+  sha256: 49cbf131fbb853d4aa7043a12e90bf253e0dafa9cd8dcc8413db58786dff4dbe
+  snapshot: data/raw/bank/www-uob-com-sg-assets-web-resources-personal-pdf-cards-rewards-ladys-card-iwd-promo-prize-fulfilment-tnc-cmpg-pdf-3a1ace72.pdf
+- id: bank:3c5fb33c30de
+  url: https://www.uob.com.sg/assets/web-resources/personal/pdf/cards/rewards/ladys-card/iwd-promo-winner-list-cmpg.pdf
+  source_type: official
+  retrieved_at: '2026-09-27T08:43:43+00:00'
+  sha256: 3c5fb33c30debb5b189788483b89b436e3281159f96555ae0bbc7613414c5754
+  snapshot: data/raw/bank/www-uob-com-sg-assets-web-resources-personal-pdf-cards-rewards-ladys-card-iwd-promo-winner-list-cmpg-pdf-63104a50.pdf
+- id: bank:8288a588164b
+  url: https://www.uob.com.sg/debit/fees/debit-card-fees.pdf
+  source_type: official
+  retrieved_at: '2026-09-27T08:43:45+00:00'
+  sha256: 8288a588164b3579b07a53b29657781c5883d3e528a881e657883fd252816e01
+  snapshot: data/raw/bank/www-uob-com-sg-debit-fees-debit-card-fees-pdf-bce1a7ed.pdf
+- id: bank:c13cf48e44b4
+  url: https://www.uob.com.sg/credit-cards/pdf/online-cards-campaign.pdf
+  source_type: official
+  retrieved_at: '2026-09-27T08:43:47+00:00'
+  sha256: c13cf48e44b48d1aa3b0d0d5655f54f9001de57208d560ff29b09fc9ed8bc643
+  snapshot: data/raw/bank/www-uob-com-sg-credit-cards-pdf-online-cards-campaign-pdf-a28f442a.pdf
+review:
+  status: draft
+updated_at: '2026-09-27'

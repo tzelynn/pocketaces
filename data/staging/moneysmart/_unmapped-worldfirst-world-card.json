@@ -1,0 +1,106 @@
+{
+ "source": "moneysmart",
+ "source_id": "worldfirst-world-card",
+ "source_url": "https://www.moneysmart.sg/credit-cards/worldfirst-world-card",
+ "name": "WorldFirst Corporate Card",
+ "bank": "WorldFirst",
+ "image_url": "https://photos.cdn-moneysmart.com/credit_cards/uploads/products/images/image_url_2025-10-14_World Card Medium.jpeg",
+ "annual_fee": 0.0,
+ "earn_rates": {},
+ "caps": {},
+ "highlights": [
+  "1.2% Monthly Cashback Uncapped",
+  "0 FX Fees",
+  "0 Annual Fees",
+  "Enjoy 0% FX fees when using your multi-currency card in all overseas spend, deducted from your WorldFirst account balance",
+  "Spend in 150+ currencies across 210+ countries and territories, wherever you do business",
+  "Pay for purchases anywhere Mastercard is accepted and earn up to 5.2% cashback* with 0% FX admin fees on your business transactions",
+  "Issue multiple cards tailored to your company's structure or department budgets. Stay in control by managing spending limits in real time",
+  "Minimum Deposit of S$400 into your account to be eligible for MoneySmart rewards",
+  "*Please note that this product is a Debit Card"
+ ],
+ "sign_up_offers": [
+  {
+   "kind": "MANUAL_GIFT",
+   "title": "S$420 Cash via PayNow",
+   "subtitle": null,
+   "is_cash": true,
+   "terms": "• Apply for an WorldFirst account through MoneySmart by 30th Sept 2026\n• Complete your KYC and get approval\n• Fund your account within 30 days from approval\n• Submit your Claim Form by 30th Oct 2026",
+   "campaign": "Credit Card | WorldFirst | 010926"
+  },
+  {
+   "kind": "STORE_PRODUCT",
+   "title": "Omnidesk Embrace Pro Ergonomic Office Chair (Black, Mesh)",
+   "subtitle": "worth S$729",
+   "is_cash": false,
+   "terms": "• Apply for an WorldFirst account through MoneySmart by 30th Sept 2026\n• Complete your KYC and get approval\n• Fund your account within 30 days from approval\n• Submit your Claim Form by 30th Oct 2026",
+   "campaign": "Credit Card | WorldFirst | 010926"
+  },
+  {
+   "kind": "STORE_PRODUCT",
+   "title": "LEVEL8 Adventure Trolley Luggage Case (28-inch, Black)",
+   "subtitle": "worth S$829",
+   "is_cash": false,
+   "terms": "• Apply for an WorldFirst account through MoneySmart by 30th Sept 2026\n• Complete your KYC and get approval\n• Fund your account within 30 days from approval\n• Submit your Claim Form by 30th Oct 2026",
+   "campaign": "Credit Card | WorldFirst | 010926"
+  },
+  {
+   "kind": "STORE_PRODUCT",
+   "title": "Nintendo Switch OLED Model (White)",
+   "subtitle": "worth S$549",
+   "is_cash": false,
+   "terms": "• Apply for an WorldFirst account through MoneySmart by 30th Sept 2026\n• Complete your KYC and get approval\n• Fund your account within 30 days from approval\n• Submit your Claim Form by 30th Oct 2026",
+   "campaign": "Credit Card | WorldFirst | 010926"
+  },
+  {
+   "kind": "STORE_PRODUCT",
+   "title": "Shopee Voucher $10",
+   "subtitle": "worth S$10",
+   "is_cash": false,
+   "terms": "• Apply for an WorldFirst account through MoneySmart by 30th Sept 2026\n• Complete your KYC and get approval\n• Fund your account within 30 days from approval\n• Submit your Claim Form by 30th Oct 2026",
+   "campaign": "Credit Card | WorldFirst | 010926"
+  }
+ ],
+ "links": {
+  "product": "https://www.moneysmart.sg/credit-cards/worldfirst-world-card"
+ },
+ "citation": {
+  "id": "moneysmart:eeee24fb93a9",
+  "url": "https://www.moneysmart.sg/credit-cards",
+  "title": "WorldFirst Corporate Card",
+  "source_type": "aggregator",
+  "retrieved_at": "2026-09-27T05:27:12+00:00",
+  "sha256": "eeee24fb93a9d85ef8b9194c11bda960b5b99ee30b3689cdc59fb650badebce7",
+  "snapshot": "data/raw/moneysmart/credit-cards-p1-b55034ef.html"
+ },
+ "extra": {
+  "summary": "",
+  "badges": [],
+  "network": [
+   "Mastercard"
+  ],
+  "mobile_wallets": [],
+  "groups": {
+   "annual-interest-rate-and-fees": {
+    "Annual Principal Fee": "0",
+    "Supplementary Annual Fee": "0"
+   },
+   "card-association": {
+    "Mastercard": "true"
+   },
+   "wireless-payment": {
+    "Google Pay": "Coming soon",
+    "Apple Pay": "Coming soon"
+   },
+   "documents-required": {
+    "SG Citizens or PRs": "ID & valid business registration documents"
+   }
+  },
+  "our_takes": {
+   "our-take": "The WorldFirst Corporate Card is a business debit card built for companies with international spending needs. Its strongest value comes from fee-free foreign card payments when you hold the same currency, combined with multi-currency balances and spend controls. This makes it practical for paying overseas suppliers, subscriptions, and travel costs while avoiding typical FX card surcharges. However, it offers no credit float, and any rewards (such as cashback) are programme-dependent, so its appeal is primarily cost efficiency and control, not financing.",
+   "good-for": "Businesses paying overseas vendors or FCY subscriptions\nTeams that want tight spend control without interest\nOnline-first companies using card-not-present payments\nSMEs managing employee expenses with limits and controls",
+   "things-to-note": "This is a \ndebit card\n—payments draw from available balances only\n“No FX fee” works best when you hold the same currency; conversions still apply otherwise\nCashback (if any) is offer-dependent, not guaranteed\nRestricted categories may trigger transaction declines\nATM access is limited; designed mainly for cashless spend"
+  },
+  "updated_at": "2026-06-10T14:58:36+08:00"
+ }
+}

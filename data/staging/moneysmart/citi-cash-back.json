@@ -1,0 +1,137 @@
+{
+ "source": "moneysmart",
+ "source_id": "citi-cash-back-card",
+ "source_url": "https://www.moneysmart.sg/credit-cards/citi-cash-back-card",
+ "name": "Citi Cash Back Card",
+ "bank": "Citibank",
+ "card_id": "citi-cash-back",
+ "image_url": "https://photos.cdn-moneysmart.com/credit_cards/uploads/products/images/image_url_2025-01-02_Citi Cash Back MC Medium.jpeg",
+ "annual_fee": 196.2,
+ "earn_rates": {},
+ "caps": {},
+ "highlights": [
+  "Up to 8% Cash Back on Groceries, Petrol & Private Commute",
+  "80 Total Cash Back Cap, per month",
+  "Up to 23.64% savings at Caltex, Shell & Esso",
+  "8% cash back on petrol and private commute spend",
+  "6% cash back on dining and groceries spend",
+  "0.2% cash back on all other retail spend",
+  "Up to 23.64% savings at Caltex, Esso and Shell",
+  "Up to S$1,000,000 coverage when you charge your travel tickets to the card",
+  "With Citi PayAll, you can earn and accumulate Citi Miles, Citi ThankYou PointsSM or Cash Back quickly when you pay your big-ticket bills such as rent, insurance premiums, education expenses, taxes, utilities and more. T&Cs apply.",
+  "At MoneySmart, we strive to keep our information accurate and up to date. This information may be different from what you see when you visit a financial institution, service provider, or specific product site. MoneySmart shall not be liable to compensate the Customer should the information is not as updated as our Partner."
+ ],
+ "sign_up_offers": [
+  {
+   "kind": "MANUAL_GIFT",
+   "title": "S$400 Cash via PayNow",
+   "subtitle": null,
+   "is_cash": true,
+   "terms": "• Apply for a Citi Card by 30th Sept 2026\n• Spend a min. of S$500 within 30 days\n• Submit the Claim Form by 30th Oct 2026",
+   "campaign": "Credit Card | Citibank | 210926"
+  },
+  {
+   "kind": "STORE_PRODUCT",
+   "title": "Shopee Voucher $450",
+   "subtitle": "worth S$450",
+   "is_cash": false,
+   "terms": "• Apply for a Citi Card by 30th Sept 2026\n• Spend a min. of S$500 within 30 days\n• Submit the Claim Form by 30th Oct 2026",
+   "campaign": "Credit Card | Citibank | 210926"
+  },
+  {
+   "kind": "STORE_PRODUCT",
+   "title": "Apple iPhone 18 Pro (256GB, Burgundy)",
+   "subtitle": "worth S$1899",
+   "is_cash": false,
+   "terms": "• Apply for a Citi Card by 30th Sept 2026\n• Spend a min. of S$500 within 30 days\n• Submit the Claim Form by 30th Oct 2026",
+   "campaign": "Credit Card | Citibank | 210926"
+  },
+  {
+   "kind": "STORE_PRODUCT",
+   "title": "Apple AirPods Pro 3",
+   "subtitle": "worth S$349",
+   "is_cash": false,
+   "terms": "• Apply for a Citi Card by 30th Sept 2026\n• Spend a min. of S$500 within 30 days\n• Submit the Claim Form by 30th Oct 2026",
+   "campaign": "Credit Card | Citibank | 210926"
+  },
+  {
+   "kind": "STORE_PRODUCT",
+   "title": "Apple Watch Series 12, 42mm (GPS, Black Aluminium Case with Black Sport Band)",
+   "subtitle": "worth S$599",
+   "is_cash": false,
+   "terms": "• Apply for a Citi Card by 30th Sept 2026\n• Spend a min. of S$500 within 30 days\n• Submit the Claim Form by 30th Oct 2026",
+   "campaign": "Credit Card | Citibank | 210926"
+  },
+  {
+   "kind": "STORE_PRODUCT",
+   "title": "Sony WH-1000XM6 Wireless Noise Cancelling Headphones (Black)",
+   "subtitle": "worth S$649",
+   "is_cash": false,
+   "terms": "• Apply for a Citi Card by 30th Sept 2026\n• Spend a min. of S$500 within 30 days\n• Submit the Claim Form by 30th Oct 2026",
+   "campaign": "Credit Card | Citibank | 210926"
+  }
+ ],
+ "links": {
+  "product": "https://www.moneysmart.sg/credit-cards/citi-cash-back-card",
+  "review": "https://blog.moneysmart.sg/credit-cards/citibank-cash-back-card-review/"
+ },
+ "citation": {
+  "id": "moneysmart:42909b088c22",
+  "url": "https://www.moneysmart.sg/credit-cards?page=2",
+  "title": "Citi Cash Back Card",
+  "source_type": "aggregator",
+  "retrieved_at": "2026-09-27T05:27:14+00:00",
+  "sha256": "42909b088c22cb063c120b532d19af920cb3535c52f6bfc313193c6c6ea14746",
+  "snapshot": "data/raw/moneysmart/credit-cards-p2-5f055203.html"
+ },
+ "extra": {
+  "summary": "The Citi Cash Back Card is best for drivers and those with consistent dining and grocery expenses, offering up to 7.8% cashback on petrol/private transport and 5.8% on dining/groceries. However, you NEED to hit the S$800 minimum monthly spend to unlock these bonus rates; otherwise, you'll earn a mere 0.2%. Cashback is capped at S$80/month. Consider if your spending habits align with these categories and if you can consistently meet the minimum spend to maximize rewards.",
+  "badges": [
+   "FASTER REWARD FULFILMENT | UP TO 8% CASHBACK"
+  ],
+  "network": [
+   "Mastercard"
+  ],
+  "mobile_wallets": [
+   "Google Pay",
+   "Apple Pay",
+   "Samsung Pay"
+  ],
+  "groups": {
+   "annual-interest-rate-and-fees": {
+    "Annual Interest Rate": "27.9%",
+    "Annual Principal Fee": "196.20",
+    "Supplementary Annual Fee": "98.10",
+    "Fee Waiver": "Available",
+    "Minimum Monthly Repayment": "1% plus 1% of any outstanding unbilled instalment amounts plus interest charges plus late payment charge or S$50, whichever is higher",
+    "Interest Free Period": "25 days"
+   },
+   "minimum-income-requirements": {
+    "Singaporean/PR Minimum Annual Income": "30000",
+    "Non-Singaporean Minimum Annual Income": "42000"
+   },
+   "card-association": {
+    "Mastercard": "true"
+   },
+   "wireless-payment": {
+    "Google Pay": "true",
+    "Apple Pay": "true",
+    "Samsung Pay": "true"
+   },
+   "documents-required": {
+    "SG Citizens or PRs": "Apply via MyInfo",
+    "Passport Validity (Foreigners)": "6 months",
+    "Work Permit Validity (Foreigners)": "6 months",
+    "Utility or Telephone Bill": "With Full Name and Address",
+    "Income Tax Notice of Assessment": "true",
+    "Latest Original Computerised Payslip": "true"
+   }
+  },
+  "our_takes": {
+   "our-take": "The Citi Cash Back Card is best for drivers and those with consistent dining and grocery expenses, offering up to 7.8% cashback on petrol/private transport and 5.8% on dining/groceries. However, you NEED to hit the S$800 minimum monthly spend to unlock these bonus rates; otherwise, you'll earn a mere 0.2%. Cashback is capped at S$80/month. Consider if your spending habits align with these categories and if you can consistently meet the minimum spend to maximize rewards.",
+   "good-for": "Perfect for families who spend at least S$800 monthly and want cashback on groceries and petrol.\nIdeal for frequent diners seeking to maximize rewards on restaurant spending, provided they meet the minimum monthly spend.\nSuited for commuters who frequently use private transport and want to earn cashback on petrol and ride-hailing services.",
+   "things-to-note": "Earning bonus cashback requires a minimum S$800 monthly spend; otherwise, you'll only receive the base 0.2% rate.\nCashback is capped at S$80 per month; spending beyond this limit won't yield additional rewards.\n27.9% annual interest rate accrues if you don't fully repay your balance monthly, substantially increasing debt."
+  },
+  "updated_at": "2025-07-01T11:28:32+08:00"
+ }
+}

@@ -1,0 +1,72 @@
+{
+ "source": "moneysmart",
+ "source_id": "maybank-platinum-visa-card",
+ "source_url": "https://www.moneysmart.sg/credit-cards/maybank-platinum-visa-card",
+ "name": "Maybank Platinum Visa Card",
+ "bank": "Maybank",
+ "card_id": "maybank-platinum-visa",
+ "image_url": "https://photos.cdn-moneysmart.com/credit_cards/uploads/products/images/image_url_2022-10-06_1. Maybank_Platinum Visa Card_shadow (1) (1) (1).jpg",
+ "earn_rates": {},
+ "caps": {},
+ "highlights": [
+  "Up to 3.33% Cashback on Local & Foreign Spend",
+  "300 Min. Spend per month",
+  "30 Cashback Cap per quarter when you spend S$300 per month",
+  "3.33% cashback on all local and foreign spend, up to S$200 per quarter",
+  "3.33% cashback on insurance payment (only 50% of each tier considered)",
+  "Complimentary Travel Insurance coverage up to S$500,000"
+ ],
+ "sign_up_offers": [],
+ "links": {
+  "product": "https://www.moneysmart.sg/credit-cards/maybank-platinum-visa-card"
+ },
+ "citation": {
+  "id": "moneysmart:49fcb3586f25",
+  "url": "https://www.moneysmart.sg/credit-cards?page=4",
+  "title": "Maybank Platinum Visa Card",
+  "source_type": "aggregator",
+  "retrieved_at": "2026-09-27T05:27:20+00:00",
+  "sha256": "49fcb3586f252df0b2dacb9acecc465127e09c9defa7f151881c3db46d84649e",
+  "snapshot": "data/raw/moneysmart/credit-cards-p4-1a322210.html"
+ },
+ "extra": {
+  "summary": "",
+  "badges": [],
+  "network": [
+   "Visa"
+  ],
+  "mobile_wallets": [
+   "Visa Contactless",
+   "Apple Pay",
+   "Samsung Pay"
+  ],
+  "groups": {
+   "annual-interest-rate-and-fees": {
+    "Annual Interest Rate": "27.90% p.a. subject to a minimum charge of S$3.00",
+    "Annual Principal Fee": "S$196.20 (Waived for first 3 years)",
+    "Supplementary Annual Fee": "Free",
+    "Fee Waiver": "Subsequent annual fee will be automatically waived with a minimum spend of S$18,000 yearly",
+    "Minimum Monthly Repayment": "3% of outstanding balance or S$20, whichever is higher",
+    "Interest Free Period": "20 days"
+   },
+   "minimum-income-requirements": {
+    "Singaporean/PR Minimum Annual Income": "30000",
+    "Non-Singaporean Minimum Annual Income": "60000"
+   },
+   "card-association": {
+    "Visa": "true"
+   },
+   "wireless-payment": {
+    "Visa Contactless": "true",
+    "Apple Pay": "true",
+    "Samsung Pay": "true"
+   }
+  },
+  "our_takes": {
+   "our-take": "The Maybank Platinum Visa offers a flat 3.33% cashback on all spend, capped at $200 per quarter. This card suits those with consistent spending habits, as maximizing the cashback requires hitting specific monthly thresholds: $300, $1,000, or $2,000. The annual fee is waived for the first three years, and subsequently with an $18,000 annual spend. A significant drawback: insurance transactions are only partially factored into the minimum spend requirement. Consider this card if you value simplicity, but be mindful of the spend tiers to unlock the full cashback potential.",
+   "good-for": "Salaried professionals who want cashback on all spending and can comfortably meet the minimum monthly spend.\nCardholders seeking a card with complimentary travel insurance coverage for peace of mind on trips.\nIndividuals who want a straightforward cashback card for online and offline spending with no category restrictions.",
+   "things-to-note": "A high 27.90% interest rate applies if you don't pay your balance in full, increasing debt.\nWhile the annual fee is waived for 3 years, it's $196.20 afterward; spend $18,000 to waive it.\nCashback is capped at $200 per quarter; spending above the limit won't earn more rewards."
+  },
+  "updated_at": "2025-02-21T10:34:24+08:00"
+ }
+}

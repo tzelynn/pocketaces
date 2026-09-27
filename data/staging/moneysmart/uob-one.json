@@ -1,0 +1,83 @@
+{
+ "source": "moneysmart",
+ "source_id": "uob-one-card",
+ "source_url": "https://www.moneysmart.sg/credit-cards/uob-one-card",
+ "name": "UOB One Card",
+ "bank": "UOB",
+ "card_id": "uob-one",
+ "image_url": "https://photos.cdn-moneysmart.com/credit_cards/uploads/products/images/image_url_2021-09-29_Details - Logo - UOB One Card.png",
+ "annual_fee": 196.2,
+ "earn_rates": {},
+ "caps": {},
+ "highlights": [
+  "Up to 10% cashback on daily spend at McDonald's, Grab, SimplyGo & Shopee",
+  "Up to 8% cashback at all grocery spend",
+  "Up to S$2,240 cashback cap a year",
+  "Up to 10% cashback on McDonald's (including McDelivery®)",
+  "Up to 10% cashback at Shopee Singapore (excludes ShopeePay)",
+  "Up to 10% cashback at Grab (including GrabFood, excludes Grab mobile wallet top-ups)",
+  "Up to 10% cashback on SimplyGo (bus and train rides)",
+  "Up to 8% cashback on all grocery spend",
+  "Up to 4.33% cashback on Singapore Power utilities bill.",
+  "Up to 3.33% cashback on all retail spend (based on S$600, S$1,000 or S$2,000)",
+  "Fuel savings of up to 22.66% at Shell and SPC",
+  "Exclusions and T&Cs at uob.com.sg/onetncs",
+  "At MoneySmart, we strive to keep our information accurate and up to date. This information may be different from what you see when you visit a financial institution, service provider, or specific product site. MoneySmart shall not be liable to compensate the Customer should the information is not as updated as our Partner."
+ ],
+ "sign_up_offers": [],
+ "links": {
+  "product": "https://www.moneysmart.sg/credit-cards/uob-one-card",
+  "review": "https://blog.moneysmart.sg/credit-cards/uob-one-card-review/"
+ },
+ "citation": {
+  "id": "moneysmart:eeee24fb93a9",
+  "url": "https://www.moneysmart.sg/credit-cards",
+  "title": "UOB One Card",
+  "source_type": "aggregator",
+  "retrieved_at": "2026-09-27T05:27:12+00:00",
+  "sha256": "eeee24fb93a9d85ef8b9194c11bda960b5b99ee30b3689cdc59fb650badebce7",
+  "snapshot": "data/raw/moneysmart/credit-cards-p1-b55034ef.html"
+ },
+ "extra": {
+  "summary": "The UOB One Card is best for those diligent about hitting specific monthly spending tiers (S$600, S$1,000, or S$2,000) to unlock the highest cashback rates. The up to 10% cashback on everyday categories like McDonald's, Shopee, Grab, and even SimplyGo rides, makes it ideal for maximizing rewards on daily expenses. Consolidate spending within the bonus categories to truly maximize value.",
+  "badges": [
+   "Enjoy up to 10% Cashback!"
+  ],
+  "network": [
+   "Visa"
+  ],
+  "mobile_wallets": [
+   "Visa Contactless",
+   "Apple Pay",
+   "Samsung Pay"
+  ],
+  "groups": {
+   "annual-interest-rate-and-fees": {
+    "Annual Interest Rate": "27.80",
+    "Annual Principal Fee": "196.20",
+    "Supplementary Annual Fee": "1st Supplementary Card free, $98.10 for subsequent Supplementary Cards",
+    "Fee Waiver": "1st year fee waiver",
+    "Minimum Monthly Repayment": "3% of S$50, whichever is higher",
+    "Interest Free Period": "21 days"
+   },
+   "minimum-income-requirements": {
+    "Singaporean/PR Minimum Annual Income": "30000",
+    "Non-Singaporean Minimum Annual Income": "40000"
+   },
+   "card-association": {
+    "Visa": "true"
+   },
+   "wireless-payment": {
+    "Visa Contactless": "true",
+    "Apple Pay": "true",
+    "Samsung Pay": "true"
+   }
+  },
+  "our_takes": {
+   "our-take": "The UOB One Card is best for those diligent about hitting specific monthly spending tiers (S$600, S$1,000, or S$2,000) to unlock the highest cashback rates. The up to 10% cashback on everyday categories like McDonald's, Shopee, Grab, and even SimplyGo rides, makes it ideal for maximizing rewards on daily expenses. Be mindful of the S$100 late payment fee and hefty 27.8% interest on unpaid balances if you tend to miss payment deadlines. Consolidate spending within the bonus categories to truly maximize value.",
+   "good-for": "Shoppers seeking high cashback rates at participating merchants like Shopee, Cold Storage, and 7-Eleven.\nCommuters and everyday spenders aiming to maximize returns on Grab, SimplyGo, and Singapore Power utilities bills.\nConsumers who consistently spend S$600 to S$2,000 monthly and want to track expenses for cashback rewards.",
+   "things-to-note": "High interest at 27.8% annually is charged on unpaid balances; avoid carrying balances to minimise costs.\nLate payment fees of S$100 are applied monthly; ensure timely payments to avoid penalties.\nA 3.25% foreign transaction fee applies; use alternative cards for overseas spending to save money."
+  },
+  "updated_at": "2025-07-01T16:24:30+08:00"
+ }
+}

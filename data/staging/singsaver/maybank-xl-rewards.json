@@ -1,0 +1,144 @@
+{
+ "source": "singsaver",
+ "source_id": "maybank-xl-rewards-card",
+ "source_url": "https://www.singsaver.com.sg/credit-card/products/maybank-xl-rewards-card",
+ "name": "Maybank XL Rewards Card",
+ "bank": "Maybank",
+ "card_id": "maybank-xl-rewards",
+ "image_url": "https://mhgprod.blob.core.windows.net/singsaver/strapi-uploads/m_Maybank_XL_Rewards_70dbc10967.png",
+ "annual_fee": 87.2,
+ "annual_fee_note": "S$ | First 2 Years Waived; Subsequent annual fee will be automatically waived with a minimum spend of S$6,000 yearly.",
+ "min_annual_income": 30000.0,
+ "earn_rates": {
+  "mpd:baseline": {
+   "value": 0.4,
+   "unit": "mpd",
+   "note": "0.4 miles per dollar (1X TREATS Points) on all other spend."
+  },
+  "mpd:local": {
+   "value": 4.0,
+   "unit": "mpd",
+   "note": "4 miles per dollar (10X TREATS Points) on eligible spend categories (Dine, Shop, Travel, Play) with min. S$500 spend per calendar month. Capped at 10,000 bonus TREATS Points monthly (~4,000 miles). Base rate 0.4 mpd."
+  },
+  "percent:overseas": {
+   "value": 4.0,
+   "unit": "percent",
+   "note": "4 miles per dollar (10X TREATS Points) on foreign currency spend (overseas & online) with min. S$500 spend per calendar month. Capped at 10,000 bonus TREATS Points monthly (~4,000 miles). Base rate 0.4 mpd."
+  },
+  "mpd:forex": {
+   "value": 4.0,
+   "unit": "mpd",
+   "note": "4 miles per dollar (10X TREATS Points) on eligible spend categories (Dine, Shop, Travel, Play) with min. S$500 spend per calendar month. Capped at 10,000 bonus TREATS Points monthly (~4,000 miles). Base rate 0.4 mpd."
+  },
+  "mpd:dining": {
+   "value": 4.0,
+   "unit": "mpd",
+   "note": "4 miles per dollar (10X TREATS Points) on eligible spend categories (Dine, Shop, Travel, Play) with min. S$500 spend per calendar month. Capped at 10,000 bonus TREATS Points monthly (~4,000 miles). Base rate 0.4 mpd."
+  },
+  "mpd:retail": {
+   "value": 4.0,
+   "unit": "mpd",
+   "note": "4 miles per dollar (10X TREATS Points) on eligible spend categories (Dine, Shop, Travel, Play) with min. S$500 spend per calendar month. Capped at 10,000 bonus TREATS Points monthly (~4,000 miles). Base rate 0.4 mpd."
+  },
+  "mpd:travel": {
+   "value": 4.0,
+   "unit": "mpd",
+   "note": "4 miles per dollar (10X TREATS Points) on eligible spend categories (Dine, Shop, Travel, Play) with min. S$500 spend per calendar month. Capped at 10,000 bonus TREATS Points monthly (~4,000 miles). Base rate 0.4 mpd."
+  },
+  "mpd:entertainment": {
+   "value": 4.0,
+   "unit": "mpd",
+   "note": "4 miles per dollar (10X TREATS Points) on eligible spend categories (Dine, Shop, Travel, Play) with min. S$500 spend per calendar month. Capped at 10,000 bonus TREATS Points monthly (~4,000 miles). Base rate 0.4 mpd."
+  }
+ },
+ "caps": {},
+ "highlights": [
+  "5% cashback on Dine, Shop, Travel and Play categories + FCY spend (overseas & online), unlocked with min. S$500 spend per calendar month, capped at S$80 per calendar month. All other spend at 0.2% unlimited cashback.",
+  "pros: 4 air miles per dollar (10X TREATS Points) whenever you spend in the Dine, Shop, Travel and Play categories, as well as in Foreign currencies.",
+  "pros: Up to 10,000 bonus TREATS Points monthly. (Other transactions will earn 5 TREATS points for every S$5 spent.)",
+  "pros: Credit Cards with one of the widest number of spending categories in the market:\nDine: Restaurants, fast food, bakeries, food delivery, etc.\nShop: Apparel, departmental stores, sports apparel, online shopping, etc.\nTravel: Airlines, online travel agencies, hotel booking, etc.\nPlay: Bars, KTV, cinemas, online streaming, video game arcade, etc.\n+all foreign currency spend (overseas & online)",
+  "cons: Extremely limited age range (21 to 39 years old only).",
+  "cons: 4 miles per dollar rate requires S$500 min. spend per calendar month.",
+  "pros: Annual Fee waiver",
+  "pros: No monthly spend required",
+  "pros: No rebate cap",
+  "pros: Overseas rebate"
+ ],
+ "sign_up_offers": [
+  {
+   "kind": "welcome_offer",
+   "title": "Maybank Welcome Offer",
+   "offer_id": "SG.2026-07-01.CC.MAYB.XLRW.15K-TREATS.BAU",
+   "valid_from": "2026-06-30T16:00:00Z",
+   "valid_to": "2026-09-30T15:59:00Z",
+   "gifts": [
+    {
+     "title": "Get an increased 15,000 TREATS Points Cap",
+     "value_sgd": null
+    }
+   ],
+   "terms": "Welcome Offer promotion is valid from 1 July 2026 to 30 September 2026.\nPromotion is valid for new Maybank credit cardmembers only.\nApply and get approved for the Maybank XL Rewards Card within the promo period and meet the min. monthly spend requirement to unlock an increased \n15,000 TREATS Points cap\n (instead of 10,000 TREATS Points) per calendar month for 3 months starting from the month of card approval.\nTerms and Conditions\n apply.",
+   "tnc_url": null,
+   "bundle_with": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  }
+ ],
+ "links": {
+  "apply": "https://www.maybank2u.com.sg/en/personal/cards/credit/maybank-xl-card.page?sc=acq4"
+ },
+ "citation": {
+  "id": "singsaver:c7ca3ef02e44",
+  "url": "https://www.singsaver.com.sg/credit-card/products/maybank-xl-rewards-card",
+  "title": "Maybank XL Rewards Card",
+  "source_type": "aggregator",
+  "retrieved_at": "2026-09-27T05:26:16+00:00",
+  "sha256": "c7ca3ef02e448b8f88cf666b57aa3c6ca2f4a8f4419d1eed3a7bc611a0068af4",
+  "snapshot": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-maybank-xl-rewards-card-f4921a92.html"
+ },
+ "extra": {
+  "network": [
+   "Mastercard"
+  ],
+  "mobile_wallets": [
+   "Apple Pay",
+   "Samsung Pay"
+  ],
+  "fx_fee_percent": 3.25,
+  "miles_conversion_fee": null,
+  "categories": [
+   "category:cashback",
+   "category:dining-promo",
+   "category:installment",
+   "category:promo",
+   "category:retail-promo",
+   "category:rewards",
+   "needs:0-interest-rate",
+   "needs:0-processing-fee",
+   "needs:all-cards-with-dining-promo",
+   "needs:all-cards-with-promotion",
+   "needs:all-cards-with-retail-promo",
+   "needs:all-cashback-cards",
+   "needs:all-credit-cards",
+   "needs:all-installment-cards",
+   "needs:all-rewards-cards",
+   "needs:all-travel-cards",
+   "needs:apple-premium-gifts",
+   "needs:free-travel-insurance",
+   "needs:long-tenure-installment",
+   "needs:online-booking-discount",
+   "needs:unlimited-cashback"
+  ],
+  "tag": null,
+  "description": "Get XL rewards when you dine, shop, travel, and play with the Maybank XL Rewards Card. Offering 4 mpd on foreign currency spending and a broad range of other categories, this card will help you get even more out of the best years of your life."
+ }
+}

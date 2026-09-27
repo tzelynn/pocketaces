@@ -1,0 +1,223 @@
+Terms and Conditions Governing UOB Preferred Visa Card (Formerly known as “UOB Preferred Platinum
+Visa Card”)
+1. Definitions
+(a) The following terms shall have the following meaning when used in these Terms and Conditions:
+(i) “Card” refers to UOB Preferred Visa Card issued by United Overseas Bank Limited (“UOB”) in
+Singapore.
+(ii) “Card Account” refers to any account in respect of the Card.
+(iii) “Cardmember” refers to you as the Principal Cardmember of the Card.
+(iv) “Card Transactions” refers to the credit card transactions which are successfully charged to the
+Card Account by you as the Principal Cardmember and/or the Supplementary Cardmember and
+captured or posted on UOB’s systems.
+(v) “Contactless Transactions” refers to Card Transactions that are performed using the Card via Visa
+payWave.
+(vi) “Mobile Contactless Transactions” refers collectively to: Card Transactions made via Apple Pay,
+Google Pay and/or Samsung Pay (or such other payment or mobile wallet services as UOB may
+from time to time approve at its sole discretion), that is effected at any Visa payWave Readers by
+waving the mobile device against the physical Visa payWave Readers in-person at the merchant’s
+physical store. In-app transactions made via Apple Pay, Google Pay and Samsung Pay or any other
+payment or mobile wallet service do not constitute “Mobile Contactless Transactions”.
+(vii) “SimplyGo (ABT) Transactions” refers to payments for bus or train fares which are made by
+tapping or waving the Card or mobile device against the reader on the bus or train, and made using
+an Account Based Ticketing System which enables such payments to be charged directly to the
+Card account.
+(viii) “Other Retail Transactions” refers to all Card Transactions that is charged to the Card Account
+which is not a Selected Online Transaction or a Mobile Contactless Transaction.
+(ix) “Selected Online Transactions” refers to online retail Card Transactions (whether made locally
+or overseas) via websites for the purchase of products or services sold by or made available by
+any merchant provided that such merchant falls within any one of the following Merchant Category
+Codes (MCC) and the transaction must not be under any recurring payment arrangement:
+Category Merchant Category Codes (MCC)
+Department Stores and 4816, 5262, 5306, 5309, 5310, 5311, 5331, 5399, 5611,
+Retail Stores 5621, 5631, 5641, 5651, 5661, 5691, 5699, 5732-5735,
+5912, 5942, 5944-5949, 5964, 5966-5970, 5992, 5999
+With effect from 1 October 2024, UNI$ will no longer be
+awarded for transactions with MCC 5965 Direct Marketing –
+Combination Catalog and Retail Merchants.
+Supermarkets, Dining and 5811,5812,5814, 5333, 5411, 5441, 5462, 5499, 8012, 9751
+Food Delivery
+Entertainment and Ticketing 7278, 7832, 7841, 7922, 7991, 7996, 7998-7999
+UOB reserves the right to amend the list of MCC from time to time without any prior notice or giving
+any reason or being liability to any party.
+## RESTRICTED ##(x) “Terms and Conditions” refers to the terms and conditions governing the Card.
+(xi) “UOB” refers to United Overseas Bank Limited and shall include its successors and assigns.
+(xii) “Visa payWave Transactions” refers to Card and/or mobile payment or mobile wallet
+transactions that are performed/effected at any Visa payWave readers by tapping the Card and/or
+mobile device on the Visa payWave Readers, and which shall be subject to such terms and
+conditions as UOB and Visa Worldwide Pte. Ltd. may agree from time to time.
+(xiii) “Visa payWave Readers” refers to any point of sale device or point of sale terminal (as approved
+by UOB in its sole and absolute discretion from time to time) at which the Card and/or mobile
+device may be used to execute the Card Transactions, ether by tapping or waving the Card and/or
+mobile device against such reader without requiring any signature, PIN or other authentication on
+the part of the Cardmember.
+(b) Unless the context otherwise requires, or the Terms and Conditions expressly provide otherwise, all words
+and expressions defined in the prevailing UOB Cardmember Agreement shall have the same meanings
+when used or referred to herein.
+2. UNI$ Earned
+(a) You will earn UNI$10 for every S$5 charged to your Card Account for Selected Online Transactions.
+(b) You will earn UNI$10 for every S$5 charged to your Card Account for Contactless Transactions up to
+21 May 2020. With effect from 22 May 2020, UOB will cease the awarding of UNI$10 for every S$5 charged
+to your Card Account for all Contactless Transactions.
+(c) You will earn UNI$10 for every S$5 charged to your Card Account for Mobile Contactless Transactions.
+(d) You will earn UNI$1 for every S$5 charged to your Card Account for SimplyGo (ABT) Transactions.
+UNI$ for SimplyGo (ABT) Transactions are accumulated based on each calendar month and awarded to
+you on the 7th calendar day of the following month. With effect from 28 Aug 2025, SimplyGo (ABT)
+Transactions will be treated as Mobile Contactless Transactions. Accordingly, you will earn UNI$10 per
+S$5 spend on the accumulated spend on SimplyGo (ABT) Transactions subject to all the terms and
+conditions applicable to Mobile Contactless Transactions. UNI$ for eligible SimplyGo (ABT) Transactions
+are accumulated based on each calendar month and awarded to you on the 7th calendar day of the
+following month.
+(e) You will earn UNI$1 for every S$5 charged to your Card Account for all Other Retail Transactions.
+(f) Card Transactions shall exclude the following transactions for which UNI$ will not be awarded:
+(i) any credit card transaction that was charged to the Card Account but was subsequently cancelled,
+void or reversed for any reason;
+(ii) NETS and NETS-related transactions, 0% Instalment Payment Plans, SmartPay, personal loan,
+balance/funds transfers, cash advances, fees, interests, finance charges, late payment charges,
+annual fee charges, reversals, other financial charges
+(iii) any fees payable to UOB (or any third party) for transfer of any debit balance on any other credit
+card;
+## RESTRICTED ##(iv) any transactions or payments made to SPC Service Stations and Shell Service Stations;
+(v) all transactions in relation to or in connection with bill payment, top-ups and payment of funds to
+payment service providers or prepaid accounts;
+(vi) any transactions made with the following transaction descriptions:
+• AXS* • OANDAASIAPA
+• AMAZE* (w.e.f. 1 Oct 2024) • PAYPAL * BIZCONSULTA
+• AMAZE* TRANSIT* • PAYPAL * CAPITALROYA
+• BANC DE BINARY* • PAYPAL * OANDAASIAPA
+• BANCDEBINARY.COM* • Saxo Cap Mkts Pte Ltd
+• EZ LINK PTE LTD (FEVO) • SKR*SKRILL.COM
+• EZ Link transport • SKR*xglobalmarkets.com*
+• EZ Link* • SKYFX.COM*
+• EZ-LINK (IMAGINE CARD) • TRANSIT*
+• EZ-Link EZ-Reload (ATU) • WWW.IGMARKETS.COM.SG
+• EZLINK* • IPAYMY*
+• EzLink* • RWS-LEVY*
+• EZ-LINK* • SMOOVE PAY*
+• FlashPay ATU*
+• SINGPOST-SAM*
+• MB * MONEYBOOKERS.COM
+• RazerPay*
+• NETS VCASHCARD*
+• NORWDS* (w.e.f. 21 Jul 2024)
+• OANDA ASIA PAC*
+The transaction descriptions accompanied by the symbol “*” in the table above include any combination or
+derivation of that description, such as a shopper statement of the type of product or service offered by the
+merchant and/or transaction condition. For example, the transaction description “AMAZE*” includes
+variations such as “AMAZE12345”, and other combinations that begin with “AMAZE”.
+(vii) any transactions under the following Merchant Category Code (MCC):
+Merchant Category Description
+Code (MCC)
+4829 Wire Transfer/Remittance
+4900 Utilities (with effect from 1 August 2022)
+5199 Nondurable Good
+5960 Direct Marketing - Insurance Services
+5965 Direct Marketing – Combination Catalog and Retail Merchants (with effect
+from 1 October 2024)
+5993 Cigar Stores and Stands (with effect from 1 October 2024)
+6012 Member Financial Institution–Merchandise and Services
+6050 Quasi Cash–Financial Institutions, Merchandise and Services
+6051 Quasi Cash–Merchant (Non-Financial Institutions – Foreign Currency, Non-
+Fiat Currency, Cryptocurrency)
+6211 Securities–Brokers and Dealers
+6300 Insurance Sales/Underwrite
+6513 Real Estate Agents & Managers – Rentals
+6529 Quasi Cash-Remote Stored Value Load-Financial Institute Rentals
+6530 Quasi Cash-Remote Stored Value Load-Merchant Rentals
+6534 Quasi Cash-Remote Money Transfers
+6540 Stored Value Card Purchase/Load
+7349 Clean/Maint/Janitorial Serv aka Property Management
+## RESTRICTED ##7511 Quasi Cash – Truck Stop Trxns
+7523 Automobile Parking Lots and Garages
+7995 Gambling - Betting, including Lottery Tickets, Casino Gaming Chips, Off-
+Track Betting, and Wagers at Race Tracks
+8062 Hospitals
+8211 Schools, Elementary and Secondary
+8220 Colleges, Universities, Professional Schools and Junior Colleges
+8241 Schools, Correspondence
+8244 Schools, Business and Secretarial
+8249 Schools, Trade and Vocational
+8299 Schools and Educational Services–Not Elsewhere Classified
+8398 Organizations, Charitable and Social Service
+8661 Organizations, Religious
+8651 Organizations, Political
+8699 Membership Organizations (Not Elsewhere Classified) (with effect from 1
+October 2024)
+8999 Professional Services (Not Elsewhere Classified) (with effect from 1
+October 2024)
+9211 Court Costs including Alimony and Child Support
+9222 Fines
+9223 Bail and Bond Payments
+9311 Tax Payment
+9402 Postal Services—Government Only
+9405 Intra-Government Purchases—Government Only
+9399 Government Services—not elsewhere classified
+(viii) any other transactions that UOB may exclude from time to time without prior notice.
+3. Other conditions
+a) Any usage of a Card and/or mobile wallet via a mobile device at any Visa payWave Readers, if permitted
+by UOB, shall be subject to such terms and conditions as UOB and Visa Worldwide Pte. Ltd. may mutually
+agree from time to time.
+b) The Card may be used to carry out any Contactless Transactions and/or Mobile Contactless Transactions
+at all Visa payWave Readers and at such other readers or systems as UOB may from time to time approve.
+The first Contactless Transaction and/or Mobile Contactless Transaction shall be subject to such activation
+and authentication procedures as UOB may in its sole and absolute discretion prescribe from time to time.
+c) W.e.f. 1 October 2025, a revised rewards awarding structure, as stated below shall apply:
+(i) The UNI$10 awarded to you from qualifying spend on Selected Online Transactions is comprised of
+a basic UNI$1 earned plus a bonus UNI$9. The bonus UNI$ awarded to you from qualifying spend
+on Selected Online Transactions is capped at UNI$1,080 for each calendar month.
+(ii) The UNI$10 awarded to you from qualifying spend on Mobile Contactless Transactions is comprised
+of a basic UNI$1 earned plus a bonus UNI$9. The bonus UNI$ awarded to you from qualifying spend
+on Mobile Contactless Transactions is capped at UNI$1,080 for each calendar month.
+(iii) UOB will not be liable for any late transaction postings affecting your eligibility to qualify for the bonus
+UNI$.
+## RESTRICTED ##(iv) Selected Online Transactions and Mobile Contactless Transactions are treated as separate
+categories. Each category has its own separate bonus UNI$ cap.
+d) Adjustments will be made to the UNI$ if there is any credit posted to your Card Account or if there are any
+unposted, voided, cancelled, disputed and/or reversed transactions including those arising from returned
+goods or services, billing disputes, or any other reason or if there at the sole and absolute discretion of
+UOB.
+e) Should your spending be deemed to be for commercial and/or non-personal purposes, UOB reserves the
+right to refuse to award any UNI$ for such transactions. UOB reserves the right to cancel and void any
+UNI$ awarded in your statement of account at any time if it deems that such UNI$ was not earned from
+qualifying spend and you shall not be entitled to any compensation or payment whatsoever.
+f) For the avoidance of doubt, spending incurred by your Supplementary Cardmember(s) of the Card shall
+accrue to you as the Principal Cardmember of the Card only.
+g) To earn UNI$, your Card Account must be in good standing and cannot be cancelled for any reason. UOB
+shall not be liable in any manner whatsoever for any loss, expenses, delays, mistake, neglect or omission
+in the transfer or transmission of the UNI$ or the posting of the credit card transactions.
+h) In the event that your Card Account is delinquent, voluntarily or involuntarily closed or terminated or
+suspended for any reasons whatsoever before the UNI$ is awarded into such Card Account, such
+UNI$ earned shall be forfeited and you shall not be entitled to any compensation or payment whatsoever.
+The decision of UOB on all matters pertaining to the award or use of any or all of the benefits and privileges
+stated below are at its discretion and shall be final, conclusive and binding. The benefits and privileges
+described under these Terms and Conditions may be amended, supplemented or revoked by UOB at any
+time in UOB’s sole and absolute discretion. In addition, UOB’s decision on all matters relating to your Card
+Account are at its discretion and shall be final, conclusive and binding on you and no payment or
+compensation will be given or paid by UOB to any person. UOB shall not be obliged to give any reason or
+prior notice or enter into any correspondence with any person on any matter relating to its decision and no
+appeal shall be entertained.
+i) UOB reserves the right, at its sole and absolute discretion and at any time and without giving prior notice
+or any reason, to terminate, vary, amend, add or delete any of these Terms and Conditions without
+assuming any liability to any person. Should you continue to use the Card after the change takes effect
+shall be deemed to have accepted the change without reservation.
+j) These Terms and Conditions supplement, and are to be read together with and form an integral part of, the
+prevailing UOB Cardmembers Agreement. The prevailing full terms and conditions of the UOB
+Cardmembers Agreement and the UOB Rewards Programme (collectively, the “Standard Terms”) will
+continue to apply and you agree to be bound by the Standard Terms upon receipt or acceptance of or
+signing on or use of the Cards. In the event of any inconsistency between these Terms and Conditions and
+the Standard Terms, these Terms and Conditions shall prevail in relation to any matter concerning the Card.
+These Terms and Conditions shall prevail in the event of any inconsistency between these Terms and
+Conditions and any advertising, promotional, publicity, brochure, marketing or other materials relating to or
+in connection with the privileges and/or benefits stated herein.
+k) While all information is correct at the time of publishing or printing, UOB makes no representation or
+warranty whether expressed or implied and accepts no responsibility or liability for its completeness or
+accuracy.
+l) A person or party who is not a party to any agreement governed by these Terms and Conditions shall have
+no rights under the Contracts (Rights of Third Parties) Act (Cap 53B) to enforce any of these Terms and
+Conditions or any term of such agreement.
+## RESTRICTED ##m) These Terms and Conditions shall be governed by the laws of the Republic of Singapore and the
+Cardmembers shall be deemed to have agreed to submit to the exclusive jurisdiction of the courts of the
+Republic of Singapore.
+n) Except where the context otherwise requires, words denoting the singular include the plural and vice versa.
+Updated 10 March 2026 (Ver 3.0)
+United Overseas Bank Limited Co. Reg. No. 193500026Z
+## RESTRICTED ##

@@ -1,0 +1,83 @@
+# Curated card record. Auto-drafted from staged sources; verify every value against the
+# official T&Cs (citations below), then set review.status: reviewed.
+id: maybank-family-friends
+bank: Maybank
+name: Maybank Family & Friends Card
+network: mastercard
+image_url: https://mhgprod.blob.core.windows.net/singsaver/strapi-uploads/s_2026_04_Maybank_Family_and_Friends_c4c102405d.png
+official_url: https://www.maybank2u.com.sg/en/personal/cards/credit/maybank-family-and-friends-mastercard.page
+annual_fee:
+  amount:
+    amount: 196.2
+    currency: SGD
+  waiver_notes: S$ | First Three Years Waived
+  sources: ['singsaver:e68ba5463cc4']
+min_annual_income:
+  amount: 30000.0
+  currency: SGD
+reward_currency:
+  kind: cashback
+  name: Cashback
+earn_rules:
+- id: local
+  label: local, overseas, dining, supermarket, retail, local online shopping, overseas online shopping,
+    health, department store, digital wallet, contactless spend, transport (SingSaver — verify)
+  rate: 8.0
+  unit: percent
+  tier: bonus
+  eligibility:
+    tags: [dining, groceries, shopping, healthcare, transport]
+    modes_required: [contactless]
+    description: 'Up to  | On 5 Preferred Categories (local & overseas) and all Malaysian Ringgit and
+      Indonesian Rupiah spend. Monthly up to S$30 cap per category. / 8% on restaurants, Foodpanda, and
+      Deliveroo with min. monthly spend of S$800 per month. S$25 monthly cashback cap per category. /
+      NTUC FairPrice/Finest/X-tra, Cold Storage, Giant, Market Place, Jasons, Sheng Siong, DON DON DONKI,
+      HAO Mart, RedMart, Amazon Fresh, and all other grocery stores and supermarkets globally, with min.
+      spend of S$800 per month. S$25 monthly cashback cap per category. / 8% on selected pet and retail
+      merchants with min. monthly spend of S$800. S$25 monthly cashback cap per category. / 8% on apparels,
+      shoes, accessories, leather goods, luggage, and other fashion purchases globally with min. monthly
+      spend of S$800. S$25 monthly cashback cap per category. / Massage parlors, Health & beauty spas
+      and Barber shops globally. S$25 monthly cashback cap. / S$25 monthly cashback cap / Petrol stations,
+      contactless bus and train rides, limousines, taxis, Grab/GOJEK rides, other passenger transportation
+      services and automotive related services globally. S$25 monthly cashback cap. '
+    sources: ['singsaver:e68ba5463cc4']
+  sources: ['singsaver:e68ba5463cc4']
+- id: online-bill-payment-spending
+  label: online bill payment spending (SingSaver — verify)
+  rate: 0.3
+  unit: percent
+  tier: bonus
+  eligibility:
+    description: 0.3% cashback on AXS bill payments. Cashback is capped at S$50 per transaction.
+    sources: ['singsaver:e68ba5463cc4']
+  sources: ['singsaver:e68ba5463cc4']
+- id: base
+  label: baseline (SingSaver — verify)
+  rate: 0.22
+  unit: percent
+  tier: base
+  eligibility:
+    all_spend: true
+    description: 0.22% on all other categories & all spend if monthly spend falls below S$800.
+    sources: ['singsaver:e68ba5463cc4']
+  sources: ['singsaver:e68ba5463cc4']
+general_exclusions:
+  description: Auto-extracted from official T&Cs — confirm each code applies to this card
+citations:
+- id: singsaver:e68ba5463cc4
+  url: https://www.singsaver.com.sg/credit-card/products/maybank-family-friends-card
+  title: Maybank Family & Friends Card
+  source_type: aggregator
+  retrieved_at: '2026-09-27T05:26:04+00:00'
+  sha256: e68ba5463cc48fa241b4bad51c79243e8e9434d6b60bcd8d263d05ae2d3081da
+  snapshot: data/raw/singsaver/www-singsaver-com-sg-credit-card-products-maybank-family-friends-card-59d7fa8d.html
+- id: moneysmart:49fcb3586f25
+  url: https://www.moneysmart.sg/credit-cards?page=4
+  title: Maybank Family & Friends Card
+  source_type: aggregator
+  retrieved_at: '2026-09-27T05:27:20+00:00'
+  sha256: 49fcb3586f252df0b2dacb9acecc465127e09c9defa7f151881c3db46d84649e
+  snapshot: data/raw/moneysmart/credit-cards-p4-1a322210.html
+review:
+  status: draft
+updated_at: '2026-09-27'

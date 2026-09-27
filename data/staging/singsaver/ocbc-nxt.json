@@ -1,0 +1,150 @@
+{
+ "source": "singsaver",
+ "source_id": "ocbc-nxt-credit-card",
+ "source_url": "https://www.singsaver.com.sg/credit-card/products/ocbc-nxt-credit-card",
+ "name": "OCBC NXT Credit Card",
+ "bank": "OCBC",
+ "card_id": "ocbc-nxt",
+ "image_url": "https://mhgprod.blob.core.windows.net/singsaver/strapi-uploads/xs_blt076bd08364a5b407_6dd82b88fb.webp",
+ "annual_fee": 163.5,
+ "annual_fee_note": "S$ | First 2 Years Waived. Min. spend of S$10,000 per year for waiver of annual fee for subsequent years.",
+ "min_annual_income": 30000.0,
+ "earn_rates": {
+  "percent:baseline": {
+   "value": 0.5,
+   "unit": "percent",
+   "note": "0.5% on all eligible retail spend below S$1,000 per calendar month. Max Cashback = S$100/month."
+  },
+  "percent:overseas": {
+   "value": 1.0,
+   "unit": "percent",
+   "note": "Up to | With a minimum spend of $1,000 and above per calendar month, otherwise 0.5% cashback."
+  },
+  "percent:travel": {
+   "value": 1.0,
+   "unit": "percent",
+   "note": "Up to | With a minimum spend of $1,000 and above per calendar month, otherwise 0.5% cashback."
+  },
+  "percent:dining": {
+   "value": 1.0,
+   "unit": "percent",
+   "note": "Up to | With a minimum spend of $1,000 and above per calendar month, otherwise 0.5% cashback. "
+  },
+  "percent:supermarket": {
+   "value": 1.0,
+   "unit": "percent",
+   "note": "Up to | With a minimum spend of $1,000 and above per calendar month, otherwise 0.5% cashback. "
+  },
+  "percent:petrol": {
+   "value": 1.0,
+   "unit": "percent",
+   "note": "Up to | With a minimum spend of $1,000 and above per calendar month, otherwise 0.5% cashback. "
+  },
+  "percent:retail": {
+   "value": 1.0,
+   "unit": "percent",
+   "note": "Up to | With a minimum spend of $1,000 and above per calendar month, otherwise 0.5% cashback. "
+  },
+  "percent:local_online_shopping": {
+   "value": 1.0,
+   "unit": "percent",
+   "note": "Up to | With a minimum spend of $1,000 and above per calendar month, otherwise 0.5% cashback. "
+  },
+  "percent:overseas_online_shopping": {
+   "value": 1.0,
+   "unit": "percent",
+   "note": "Up to | With a minimum spend of $1,000 and above per calendar month, otherwise 0.5% cashback. "
+  },
+  "percent:health": {
+   "value": 1.0,
+   "unit": "percent",
+   "note": "Up to | With a minimum spend of $1,000 and above per calendar month, otherwise 0.5% cashback. "
+  },
+  "percent:department_store": {
+   "value": 1.0,
+   "unit": "percent",
+   "note": "Up to | With a minimum spend of $1,000 and above per calendar month, otherwise 0.5% cashback. "
+  },
+  "percent:digital_wallet": {
+   "value": 1.0,
+   "unit": "percent",
+   "note": "Up to | With a minimum spend of $1,000 and above per calendar month, otherwise 0.5% cashback. "
+  },
+  "percent:contactless_spend": {
+   "value": 1.0,
+   "unit": "percent",
+   "note": "Up to | With a minimum spend of $1,000 and above per calendar month, otherwise 0.5% cashback. "
+  },
+  "percent:transport": {
+   "value": 1.0,
+   "unit": "percent",
+   "note": "Up to | With a minimum spend of $1,000 and above per calendar month, otherwise 0.5% cashback.   Except Grab, Gojek, and taxis."
+  },
+  "percent:local": {
+   "value": 1.0,
+   "unit": "percent",
+   "note": "Up to | With a minimum spend of $1,000 and above per calendar month, otherwise 0.5% cashback."
+  }
+ },
+ "caps": {},
+ "highlights": [
+  "Earn up to 1% cashback on eligible retail spend when you meet a minimum monthly spend of S$1,000, otherwise earn 0.5% cashback. Cashback is capped at S$100 per month and excludes Grab, Gojek, and taxi transactions.",
+  "pros: Purchases are automatically split into monthly installments to ease your cashflow.",
+  "pros: 0% interest on monthly instalments.",
+  "pros: Earn 1% cash rebates when your monthly bill is S$1,000 or more.",
+  "cons: Not applicable to any cash advance, balance transfer, instalment payment plan, interest fees and other promotions and transactions.",
+  "pros: Installment",
+  "cons: Rebate cap applied",
+  "cons: Monthly spend required",
+  "cons: Annual Fee required"
+ ],
+ "sign_up_offers": [],
+ "links": {},
+ "citation": {
+  "id": "singsaver:c824f2e0bb8c",
+  "url": "https://www.singsaver.com.sg/credit-card/products/ocbc-nxt-credit-card",
+  "title": "OCBC NXT Credit Card",
+  "source_type": "aggregator",
+  "retrieved_at": "2026-09-27T05:26:26+00:00",
+  "sha256": "c824f2e0bb8c743fb08d9f7ca176b931fcfefdd21ad183bd4d9b79f0a5cbab51",
+  "snapshot": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-ocbc-nxt-credit-card-9dc0741f.html"
+ },
+ "extra": {
+  "network": [
+   "Mastercard"
+  ],
+  "mobile_wallets": [
+   "Google Pay",
+   "Apple Pay",
+   "Samsung Pay",
+   "Fitbit Pay",
+   "Garmin Pay",
+   "NETSPay"
+  ],
+  "fx_fee_percent": 3.25,
+  "miles_conversion_fee": null,
+  "categories": [
+   "category:all-credit-cards",
+   "category:buffet-promo",
+   "category:cashback",
+   "category:dining-promo",
+   "category:grocery-promo",
+   "category:installment",
+   "category:petrol-promo",
+   "category:retail-promo",
+   "needs:0-interest-rate",
+   "needs:all-cards-with-buffet-promo",
+   "needs:all-cards-with-dining-promo",
+   "needs:all-cards-with-grocery-promo",
+   "needs:all-cards-with-petrol-promo",
+   "needs:all-cards-with-retail-promo",
+   "needs:all-cashback-cards",
+   "needs:all-credit-cards",
+   "needs:all-installment-cards",
+   "needs:all-travel-cards",
+   "needs:online-booking-discount"
+  ],
+  "tag": null,
+  "description": "The OCBC NXT Credit Card offers a great option for big purchases, with interest-free auto instalments that are split across 3 or 6 months, plus a sweet 1% cash rebate with min. spend of S$1,000."
+ }
+}

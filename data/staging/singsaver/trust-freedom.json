@@ -1,0 +1,139 @@
+{
+ "source": "singsaver",
+ "source_id": "trust-cashback-credit-card",
+ "source_url": "https://www.singsaver.com.sg/credit-card/products/trust-cashback-credit-card",
+ "name": "Trust Freedom Card",
+ "bank": "Trust Bank",
+ "card_id": "trust-freedom",
+ "image_url": "https://mhgprod.blob.core.windows.net/singsaver/strapi-uploads/m_Trust_Freedom_Card_2026_08_6c1010e1f9.png",
+ "annual_fee_note": "None",
+ "min_annual_income": 30000.0,
+ "earn_rates": {
+  "points_per_dollar:baseline": {
+   "value": 3.0,
+   "unit": "points_per_dollar",
+   "note": "Get 3% Stockback on your local and foreign spends. Stockback rewards accumulate until it reaches S$10, then is automatically invested in your selected stock or ETF."
+  },
+  "percent:local": {
+   "value": 15.0,
+   "unit": "percent",
+   "note": "Up to  | Up to 15% cashback on your preferred category (capped at S$250 per quarter) and unlimited 1.0% instant cashback on all other eligible local spend (including preferred & non-preferred categories) (0.5% cashback for foreign currency spend)."
+  },
+  "percent:overseas": {
+   "value": 15.0,
+   "unit": "percent",
+   "note": "Up to  | Up to 15% cashback on your preferred category (capped at S$250 per quarter) and unlimited 1.0% instant cashback on all other eligible local spend (including preferred & non-preferred categories) (0.5% cashback for foreign currency spend)."
+  },
+  "percent:baseline": {
+   "value": 1.0,
+   "unit": "percent",
+   "note": "Up to  | 1.0% unlimited instant cashback on Local Eligible Spend, 0.5% unlimited instant cashback on Foreign Eligible Spend"
+  },
+  "percent:dining": {
+   "value": 15.0,
+   "unit": "percent",
+   "note": "Up to  | Up to 15% cashback if selected as your preferred category. Otherwise, up to 1.0% instant cashback on all other eligible spend (including preferred & non-preferred categories)"
+  },
+  "percent:travel": {
+   "value": 15.0,
+   "unit": "percent",
+   "note": "Up to  | Up to 15% cashback if selected as your preferred category. Otherwise, up to 1.0% instant cashback on all other eligible spend (including preferred & non-preferred categories)"
+  },
+  "percent:entertainment": {
+   "value": 15.0,
+   "unit": "percent",
+   "note": "Up to  | Up to 15% cashback if selected as your preferred category. Otherwise, up to 1.0% instant cashback on all other eligible spend (including preferred & non-preferred categories)"
+  },
+  "percent:retail": {
+   "value": 15.0,
+   "unit": "percent",
+   "note": "Up to  | Up to 15% cashback if selected as your preferred category. Otherwise, up to 1.0% instant cashback on all other eligible spend (including preferred & non-preferred categories)"
+  },
+  "percent:health": {
+   "value": 15.0,
+   "unit": "percent",
+   "note": "Up to  | Up to 15% cashback if selected as your preferred category. Otherwise, up to 1.0% instant cashback on all other eligible spend (including preferred & non-preferred categories)"
+  },
+  "percent:transport": {
+   "value": 15.0,
+   "unit": "percent",
+   "note": "Up to  | Up to 15% cashback if selected as your preferred category. Otherwise, up to 1.0% instant cashback on all other eligible spend (including preferred & non-preferred categories)"
+  }
+ },
+ "caps": {
+  "cashback_bonus_cap": {
+   "value": 250.0,
+   "note": "S$ | 15% cashback on preferred category capped at S$250 per quarter. No cap on all other eligible spend (including preferred & non-preferred categories) at up to 1% cashback rate."
+  }
+ },
+ "highlights": [
+  "Get up to 15% cashback on a spend category of your choice (dining, shopping, travel, wellness, transport, or entertainment), capped at S$250 per quarter. All other local eligible spend earns unlimited 1% cashback and all foreign eligible spend earns 0.5% cashback.",
+  "pros: One credit card, multiple ways to earn. You choose: 3% Stockback, 1.3 miles per dollar, up to 1.5% unlimited cashback or up to 15% bonus cashback. See \nTrust Freedom Card Key Facts Sheet\n for more details.",
+  "pros: From 21 Sept 2026, sign up, select miles and spend to earn up to 100K Max Miles. \nT&Cs apply\n*",
+  "pros: From 13 Aug 2026, stand to win up to 8K USD stocks. \nT&Cs apply\n*",
+  "pros: Switch your rewards every quarter",
+  "pros: Enjoy 0% foreign transaction fees",
+  "pros: $$0 annual fee",
+  "pros: $$0 commission fee for selling stocks"
+ ],
+ "sign_up_offers": [
+  {
+   "kind": "exclusive_offer",
+   "title": "Welcome Offer",
+   "offer_id": "SG.2026-08-28.CC.TRBX.FREEDOM.8KUSD-STONKS",
+   "valid_from": "2026-08-27T16:00:00Z",
+   "valid_to": "2026-10-30T16:00:00Z",
+   "gifts": [
+    {
+     "title": "Win a sure-win stock gift worth up to USD 8,000!",
+     "value_sgd": 10000
+    }
+   ],
+   "terms": "Welcome Offer promotion is valid until 31 October 2026. \nPromotion is valid for new Trust credit cardmembers only.\nSign up and get approved for the Trust Freedom Credit Card and choose Stockback as your reward category to be eligible for a sure-win stock gift worth up to USD 8,000 in stock!\nTerms and Conditions\n apply.",
+   "tnc_url": null,
+   "bundle_with": []
+  },
+  {
+   "kind": "exclusive_offer",
+   "title": "Welcome Offer",
+   "offer_id": "SG.2026-09-21.CC.TRBX.FREEDOM.100KMAXM",
+   "valid_from": "2026-09-20T16:00:00Z",
+   "valid_to": "2026-10-30T16:00:00Z",
+   "gifts": [
+    {
+     "title": "Receive up to 100,000 Max Miles by HeyMax!",
+     "value_sgd": "$undefined"
+    }
+   ],
+   "terms": "Welcome Offer promotion is valid until 31 October 2026. \nPromotion is valid for new Trust credit cardmembers only.\nSign up and get approved for the Trust Freedom Credit Card, choose Miles as your reward category and reach the minimum spend threshold to be eligible for reward:\nReach S$1K spend to receive \n20,000 Max Miles\n by HeyMax\n.\nReach S$5K spend to receive \n3\n0,000 Max Miles\n by HeyMax\n.\nReach S$15K spend to receive \n50,000 Max Miles\n by HeyMax\n.\nEach of the above rewards are cumulative (i.e. if you reach S$15K spend, you will be eligible for 50K+30K+20K Max Miles by HeyMax)\nTerms and Conditions\n apply.",
+   "tnc_url": null,
+   "bundle_with": []
+  }
+ ],
+ "links": {
+  "apply": "https://join.trustbank.sg/ss_cb_cc/products/FreedomCreditCard?referralCode=SSWEB001"
+ },
+ "citation": {
+  "id": "singsaver:f3bf8b0b47ad",
+  "url": "https://www.singsaver.com.sg/credit-card/products/trust-cashback-credit-card",
+  "title": "Trust Freedom Card",
+  "source_type": "aggregator",
+  "retrieved_at": "2026-09-27T05:26:46+00:00",
+  "sha256": "f3bf8b0b47adbd800964da540ae9b5aff3e4248c11083c288a5ca11b8f0f4ee6",
+  "snapshot": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-trust-cashback-credit-card-21a135db.html"
+ },
+ "extra": {
+  "network": [
+   "VISA"
+  ],
+  "mobile_wallets": [
+   "Google Pay",
+   "Apple Pay"
+  ],
+  "fx_fee_percent": null,
+  "miles_conversion_fee": null,
+  "categories": [],
+  "tag": null,
+  "description": "The Trust Freedom Card is an excellent choice for first-timers and frequent spenders, giving you freedom to choose your rewards between 3% Stockback, 1.3 miles per dollar, up to 1.5% unlimited cashback, or up to 15% bonus cashback on your preferred spend category."
+ }
+}

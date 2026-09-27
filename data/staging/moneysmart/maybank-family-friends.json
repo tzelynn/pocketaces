@@ -1,0 +1,81 @@
+{
+ "source": "moneysmart",
+ "source_id": "maybank-family-friends-mastercard",
+ "source_url": "https://www.moneysmart.sg/credit-cards/maybank-family-friends-mastercard",
+ "name": "Maybank Family & Friends Card",
+ "bank": "Maybank",
+ "card_id": "maybank-family-friends",
+ "image_url": "https://photos.cdn-moneysmart.com/credit_cards/uploads/products/images/image_2026-07-06_F_F_Card_Face_1200x628.png",
+ "annual_fee": 196.2,
+ "earn_rates": {},
+ "caps": {},
+ "highlights": [
+  "Up to 8% Cashback globally on 5 preferred cashback categories",
+  "Up to 8% Cashback on Malaysian Ringgit and Indonesia Rupiah spend",
+  "Up to S$180  Cashback Per Month",
+  "Earn up to 8% cashback globally on your 5 preferred cashback categories",
+  "Up to 8% cashback in local and overseas restaurant dining and online food delivery (e.g. Foodpanda and Deliveroo)",
+  "Up to 8% cashback on online purchases on Marketplace and other ecommerce platforms",
+  "Up to 8% cashback on petrol, EV charging and automotive related services",
+  "Up to 8% cashback on data communication & online TV streaming",
+  "Earn up to 8% cashback on all Malaysian Ringgit and Indonesian Rupiah spend on top of your 5 preferred cashback categories",
+  "Earn 6% cashback on online local and overseas groceries (e.g. Redmart, FairPrice Online)",
+  "Unlimited 0.22% cashback on all other spend",
+  "3 years annual fee waived; spend min. S$12,000 per year to get subsequent waiver"
+ ],
+ "sign_up_offers": [],
+ "links": {
+  "product": "https://www.moneysmart.sg/credit-cards/maybank-family-friends-mastercard"
+ },
+ "citation": {
+  "id": "moneysmart:49fcb3586f25",
+  "url": "https://www.moneysmart.sg/credit-cards?page=4",
+  "title": "Maybank Family & Friends Card",
+  "source_type": "aggregator",
+  "retrieved_at": "2026-09-27T05:27:20+00:00",
+  "sha256": "49fcb3586f252df0b2dacb9acecc465127e09c9defa7f151881c3db46d84649e",
+  "snapshot": "data/raw/moneysmart/credit-cards-p4-1a322210.html"
+ },
+ "extra": {
+  "summary": "The Maybank Family and Friends Mastercard is designed to cater to the lifestyle and spending habits of families and friends, offering up to 8% cashback rewards on 5 categories such as dining & food delivery, online shopping, beauty & wellness, transport & petrol and online streaming. ",
+  "badges": [
+   "Earn up to 8% Cashback"
+  ],
+  "network": [
+   "Mastercard"
+  ],
+  "mobile_wallets": [
+   "MasterCard PayPass",
+   "Apple Pay",
+   "Samsung Pay"
+  ],
+  "groups": {
+   "annual-interest-rate-and-fees": {
+    "Annual Interest Rate": "27.90% p.a. subject to a minimum charge of S$3.00",
+    "Annual Principal Fee": "196.20",
+    "Supplementary Annual Fee": "0",
+    "Fee Waiver": "Available",
+    "Minimum Monthly Repayment": "3% of outstanding balance or S$20, whichever is higher",
+    "Interest Free Period": "20 days"
+   },
+   "minimum-income-requirements": {
+    "Singaporean/PR Minimum Annual Income": "30000",
+    "Non-Singaporean Minimum Annual Income": "60000"
+   },
+   "card-association": {
+    "Mastercard": "true"
+   },
+   "wireless-payment": {
+    "MasterCard PayPass": "true",
+    "Apple Pay": "true",
+    "Samsung Pay": "true"
+   }
+  },
+  "our_takes": {
+   "our-take": "The Maybank Family & Friends Card shines for households targeting 8% cashback across daily essentials - groceries, transport, dining, and select online services, capped at $25 per category. Hitting the $800 monthly minimum spend is crucial to unlock these rates. A bonus: 8% on Malaysia/Indonesia spend, excluding existing categories. Consider this if you consolidate family expenses, but be mindful of the category caps. It’s less ideal for those with inconsistent spending or who prefer simpler, uncapped cashback cards. Activate categories post-card receipt for eligibility.",
+   "good-for": "Families who spend on varied categories like groceries, dining, and retail, benefiting from the 8% cashback.\nIndividuals seeking rewards on daily transport, online streaming, and food delivery, maximizing returns on everyday expenses.\nThose frequently travelling to Malaysia and Indonesia, enjoying 8% cashback on eligible Ringgit and Rupiah spending.",
+   "things-to-note": "$800 minimum monthly spend is required; failing to meet it forfeits the 8% cashback.\nCashback is capped at $25 per category monthly, limiting potential rewards if you overspend.\nA 27.9% p.a. interest rate applies if you carry a balance, costing you significantly."
+  },
+  "updated_at": "2026-07-06T17:21:43+08:00"
+ }
+}

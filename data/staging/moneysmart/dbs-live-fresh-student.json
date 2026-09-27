@@ -1,0 +1,82 @@
+{
+ "source": "moneysmart",
+ "source_id": "dbs-live-fresh-student",
+ "source_url": "https://www.moneysmart.sg/credit-cards/dbs-live-fresh-student",
+ "name": "DBS Live Fresh Student Card",
+ "bank": "DBS",
+ "card_id": "dbs-live-fresh-student",
+ "image_url": "https://photos.cdn-moneysmart.com/credit_cards/uploads/products/images/image_2026-08-04_image_url_2020-10-16_DBS-Live-Fresh-Student@3x-min.png",
+ "annual_fee": 196.2,
+ "earn_rates": {},
+ "caps": {},
+ "highlights": [
+  "5% Cash Back on McDonald’s, Starbucks, Netflix etc.",
+  "Additional 5% Green Cashback on selected Eco-Eateries, Retailers and Transport Services",
+  "0.3% Cashback on All Other Spend",
+  "Singapore's first-ever eco-friendly recycled card, made from 85.5% recycled plastic",
+  "Get 5% Cashback on Golden Village, McDonald’s, McDelivery, Netflix, Spotify and Starbucks",
+  "Get an additional 5% Green Cashback on selected Eco-Eateries, Retailers and Transport Services",
+  "Get 0.3% Cashback on All Other Spend",
+  "Enjoy 5 years annual fee waiver",
+  "No minimum spend required",
+  "No minimum income required",
+  "To apply, students must be a Singapore Citizen/Permanent Resident between 21 to 27 years old and enrolled in either NUS, NTU, SIM, SIT, SMU, SUSS, SUTD, Nanyang Polytechnic, Ngee Ann Polytechnic, Temasek Polytechnic, Singapore Polytechnic or Republic Polytechnic",
+  "Credit limit is capped at S$500 per calendar month",
+  "At MoneySmart, we strive to keep our information accurate and up to date. This information may be different from what you see when you visit a financial institution, service provider, or specific product site. MoneySmart shall not be liable to compensate the Customer should the information is not as updated as our Partner."
+ ],
+ "sign_up_offers": [],
+ "links": {
+  "product": "https://www.moneysmart.sg/credit-cards/dbs-live-fresh-student"
+ },
+ "citation": {
+  "id": "moneysmart:fbcf8e7229a3",
+  "url": "https://www.moneysmart.sg/credit-cards?page=3",
+  "title": "DBS Live Fresh Student Card",
+  "source_type": "aggregator",
+  "retrieved_at": "2026-09-27T05:27:18+00:00",
+  "sha256": "fbcf8e7229a38611c3c767cd8447164e413b1306df1f54bebee269e3abf15202",
+  "snapshot": "data/raw/moneysmart/credit-cards-p3-707cb52c.html"
+ },
+ "extra": {
+  "summary": "DBS Live Fresh Student Card is one of the best starter cashback student credit cards in Singapore. Benefits include annual fee waivers, no minimum spend and income, and attractive 5% cash back on McDelivery, Netflix, and more. This credit card comes with a S$500 credit limit.",
+  "badges": [],
+  "network": [
+   "Visa"
+  ],
+  "mobile_wallets": [
+   "Visa Contactless",
+   "Google Pay",
+   "Apple Pay",
+   "Samsung Pay"
+  ],
+  "groups": {
+   "annual-interest-rate-and-fees": {
+    "Annual Interest Rate": "27.80",
+    "Annual Principal Fee": "196.20",
+    "Supplementary Annual Fee": "N/A",
+    "Fee Waiver": "5 years",
+    "Minimum Monthly Repayment": "3% or S$50, whichever is greater",
+    "Interest Free Period": "25 days"
+   },
+   "minimum-income-requirements": {
+    "Singaporean/PR Minimum Annual Income": "0",
+    "Non-Singaporean Minimum Annual Income": "0"
+   },
+   "card-association": {
+    "Visa": "true"
+   },
+   "wireless-payment": {
+    "Visa Contactless": "true",
+    "Google Pay": "true",
+    "Apple Pay": "true",
+    "Samsung Pay": "true"
+   }
+  },
+  "our_takes": {
+   "our-take": "The DBS Live Fresh Student Card is tailored for students aged 21-27 in local universities and polytechnics seeking a first credit card. Earning 5% cashback on merchants like Golden Village and McDonald's aligns with student lifestyles, but be mindful of the $15 cap per category. The additional 5% \"Green Cashback\" on eco-friendly purchases, capped at $15, may appeal to environmentally conscious students. While offering a 5-year annual fee waiver and no minimum spend, the card's $500 credit limit is restrictive and you will need to spend sustainably and at certain merchants to maximise it.",
+   "good-for": "* Students who frequently purchase coffee or fast food and want to earn cashback on these expenses.\n* Students who enjoy streaming movies and music, seeking cashback on subscriptions like Netflix or Spotify.\n* Eco-conscious students looking to support sustainable businesses and earn extra cashback on green purchases.",
+   "things-to-note": "* Late payment fees of S$100 can negate cashback earnings; always pay on time to avoid this fee.\n* A 27.80% annual interest rate applies if you don't pay in full; interest charges add up quickly.\n* The maximum S$50 monthly cashback cap limits rewards; plan spending to maximize within the limit."
+  },
+  "updated_at": "2026-08-04T13:26:18+08:00"
+ }
+}

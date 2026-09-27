@@ -1,0 +1,87 @@
+# Curated card record. Auto-drafted from staged sources; verify every value against the
+# official T&Cs (citations below), then set review.status: reviewed.
+id: standard-chartered-smart
+bank: Standard Chartered
+name: Standard Chartered Smart Credit Card
+network: visa
+image_url: https://mhgprod.blob.core.windows.net/singsaver/strapi-uploads/xs_bltba8402d422c15304_55022c982c.webp
+official_url: https://www.sc.com/sg/credit-cards/smart-credit-card/
+min_annual_income:
+  amount: 30000.0
+  currency: SGD
+reward_currency:
+  kind: points
+  name: Points
+earn_rules:
+- id: local-spending
+  label: local spending, overseas spending, dining, transport (SingSaver — verify)
+  rate: 32.0
+  unit: points_per_dollar
+  tier: bonus
+  eligibility:
+    include_mcc: ['4829', '4900', '5047', '5199', '5552', '6012', '6050', '6051', '6211', '6513', '6529',
+      '6530', '6534', '6540', '7299', '7349', '7511', '7523', '8062', '8211', '8220', '8241', '8244',
+      '8249', '8299', '8398', '8651', '8661', '8999', '9211', '9222', '9223', '9311', '9399', '9402',
+      '9405']
+    description: Up to | Earn up to 32 points per S$1 for spends above S$1,500 on selected Bonus Merchants.
+      / Up to  | Earn up to 32 points per S$1 for spends above S$1,500 on selected Bonus Merchants. [include_mcc
+      auto-extracted from official T&C — check it belongs to this rule]
+    sources: ['singsaver:9ebec3120fb4', 'bank:8e7cc31048e5', 'bank:7e39de3721c8']
+  conditions:
+  - 'aggregator categories: dining, transport'
+  sources: ['singsaver:9ebec3120fb4']
+- id: base
+  label: baseline (SingSaver — verify)
+  rate: 1.6
+  unit: points_per_dollar
+  tier: base
+  eligibility:
+    all_spend: true
+    description: S$1 local spend = 1.6 point on qualifying spend. 3200 points redeemed = S$10 cash credit.
+    sources: ['singsaver:9ebec3120fb4']
+  sources: ['singsaver:9ebec3120fb4']
+general_exclusions:
+  description: Auto-extracted from official T&Cs — confirm each code applies to this card
+notes:
+- 'Editorial review for cross-checking: Review: Standard Chartered Smart Card (https://milelion.com/2026/02/06/review-standard-chartered-smart-card/,
+  updated 2026-02-06)'
+- 'T&C mentions (check whether excluded): annual fee, axs, bill payment, cash advance, charit, education,
+  government, hospital, instalment, insurance premium, interest, late payment charge, tax, top-up, top-ups,
+  utilit'
+citations:
+- id: singsaver:9ebec3120fb4
+  url: https://www.singsaver.com.sg/credit-card/products/standard-chartered-smart-credit-card
+  title: Standard Chartered Smart Credit Card
+  source_type: aggregator
+  retrieved_at: '2026-09-27T05:26:41+00:00'
+  sha256: 9ebec3120fb4e46cd226b5fba6189e126a03a57ab0c89295902bc5617c5f08df
+  snapshot: data/raw/singsaver/www-singsaver-com-sg-credit-card-products-standard-chartered-smart-credit-card-3ff12bed.html
+- id: moneysmart:49fcb3586f25
+  url: https://www.moneysmart.sg/credit-cards?page=4
+  title: Standard Chartered Smart Credit Card
+  source_type: aggregator
+  retrieved_at: '2026-09-27T05:27:20+00:00'
+  sha256: 49fcb3586f252df0b2dacb9acecc465127e09c9defa7f151881c3db46d84649e
+  snapshot: data/raw/moneysmart/credit-cards-p4-1a322210.html
+- id: bank:8e7cc31048e5
+  url: https://www.sc.com/content/dam/sc/sg/en/documents/Standard-Chartered-Smart-Credit-Card-Terms-and-Conditions_6Dec2024.pdf
+  source_type: official
+  retrieved_at: '2026-09-27T08:42:34+00:00'
+  sha256: 8e7cc31048e57d3d8197946edb276fa8b64f5b9e6b31296ff76708f9a256fb81
+  snapshot: data/raw/bank/www-sc-com-content-dam-sc-sg-en-documents-Standard-Chartered-Smart-Credit-Card-Terms-and-Conditions-6Dec2024-pdf-7cdb2c45.pdf
+- id: bank:7e39de3721c8
+  url: https://www.sc.com/sg/terms-and-conditions/cc-retail-transaction-exclusions/
+  source_type: official
+  retrieved_at: '2026-09-27T08:42:36+00:00'
+  sha256: 7e39de3721c8dc1e8fc0e339e1889c390ae3193707d505450ff8aa262df02b54
+  snapshot: data/raw/bank/www-sc-com-sg-terms-and-conditions-cc-retail-transaction-exclusions-8f7a8c14.html
+- id: milelion:cd5042a3521e
+  url: https://milelion.com/2026/02/06/review-standard-chartered-smart-card/
+  title: 'Review: Standard Chartered Smart Card'
+  source_type: editorial
+  retrieved_at: '2026-09-27T05:29:13+00:00'
+  sha256: cd5042a3521ed60824c2d938dd39d9d9365afc11fa06ea54a5727c13cd471b71
+  snapshot: data/raw/milelion/post-157879-26cf36ff.json
+review:
+  status: draft
+updated_at: '2026-09-27'

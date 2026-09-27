@@ -1,0 +1,100 @@
+# Curated card record. Auto-drafted from staged sources; verify every value against the
+# official T&Cs (citations below), then set review.status: reviewed.
+id: dcs-flex-visa-platinum
+bank: DCS
+name: DCS Flex Visa Platinum Card
+network: visa
+image_url: https://mhgprod.blob.core.windows.net/singsaver/strapi-uploads/xl_blt4e050e86a41171f9_12b2d1bc05.png
+official_url: https://cards.dcscc.com/flex
+annual_fee:
+  amount:
+    amount: 130.8
+    currency: SGD
+  first_year_waived: true
+  waiver_notes: S$ | Charged monthly, First Year Waived
+  sources: ['singsaver:c42ebd6a9140']
+min_annual_income:
+  amount: 30000.0
+  currency: SGD
+reward_currency:
+  kind: miles
+  name: Miles
+earn_rules:
+- id: overseas
+  label: overseas (SingSaver — verify)
+  rate: 2.4
+  unit: mpd
+  tier: bonus
+  eligibility:
+    include_mcc: ['4784', '4829', '4900', '5199', '5960', '6010', '6011', '6012', '6050', '6051', '6211',
+      '6300', '6513', '6540', '7349', '7523', '7800', '7801', '7802', '7995', '8062', '8211', '8220',
+      '8241', '8244', '8249', '8299', '8398', '8651', '8661', '9211', '9222', '9223', '9311', '9399',
+      '9402', '9405', '9406']
+    description: On foreign currency spend, with min. monthly spend of S$600. Capped at 750 miles. [include_mcc
+      auto-extracted from official T&C — check it belongs to this rule]
+    sources: ['singsaver:c42ebd6a9140', 'bank:98fa14ed292d']
+  sources: ['singsaver:c42ebd6a9140']
+- id: contactless-spend
+  label: contactless spend, local online shopping (SingSaver — verify)
+  rate: 1.8
+  unit: mpd
+  tier: bonus
+  eligibility:
+    modes_required: [contactless, online]
+    description: On contactless purchases in SGD, with min. monthly spend of S$600. Capped at 750 miles.
+      / On online transactions in SGD, with min. monthly spend of S$600. Capped at 750 miles.
+    sources: ['singsaver:c42ebd6a9140']
+  sources: ['singsaver:c42ebd6a9140']
+- id: base
+  label: baseline (SingSaver — verify)
+  rate: 0.4
+  unit: mpd
+  tier: base
+  eligibility:
+    all_spend: true
+    description: On all other spend. Capped at 750 miles.
+    sources: ['singsaver:c42ebd6a9140']
+  sources: ['singsaver:c42ebd6a9140']
+general_exclusions:
+  description: Auto-extracted from official T&Cs — confirm each code applies to this card
+sign_up_bonuses:
+- offered_by: singsaver
+  description: 'SingSaver Exclusive Welcome Offer: choice of 10,000 Miles or 24" Caterpillar Trunk Luggage
+    worth S$380'
+  valid_from: '2026-08-31'
+  valid_to: '2026-12-31'
+  url: https://www.singsaver.com.sg/credit-card/products/dcs-flex-visa-platinum-card
+  sources: ['singsaver:c42ebd6a9140']
+- offered_by: moneysmart
+  description: 'Choice of: S$50 GrabGifts Voucher. Terms: - Valid for New-To-DCS Credit Card customers
+
+    - Spend a min. of S$800 in Eligible Transactions within 30 days'
+  url: https://www.moneysmart.sg/credit-cards/dcs-flex-visa-platinum-card
+  sources: ['moneysmart:42909b088c22']
+notes:
+- 'T&C mentions (check whether excluded): annual fee, axs, balance transfer, bill payment, cash advance,
+  charit, education, government, hospital, instalment, interest, ipaymy, late payment charge, tax, utilit'
+citations:
+- id: singsaver:c42ebd6a9140
+  url: https://www.singsaver.com.sg/credit-card/products/dcs-flex-visa-platinum-card
+  title: DCS Flex Visa Platinum Card
+  source_type: aggregator
+  retrieved_at: '2026-09-27T05:25:42+00:00'
+  sha256: c42ebd6a914009be602e690029cc1e538449be8c7f33c3ef935526c75422e3e1
+  snapshot: data/raw/singsaver/www-singsaver-com-sg-credit-card-products-dcs-flex-visa-platinum-card-13c93e9b.html
+- id: moneysmart:42909b088c22
+  url: https://www.moneysmart.sg/credit-cards?page=2
+  title: DCS Flex Visa Platinum Card
+  source_type: aggregator
+  retrieved_at: '2026-09-27T05:27:14+00:00'
+  sha256: 42909b088c22cb063c120b532d19af920cb3535c52f6bfc313193c6c6ea14746
+  snapshot: data/raw/moneysmart/credit-cards-p2-5f055203.html
+- id: bank:98fa14ed292d
+  url: https://static.dcscc.com/pdf/cardapps/flex/Terms%20and%20Conditions%20Governing%20DCS%20Flex%20Card%20Reward%20Programme%20and%20Card%20Design.pdf
+  source_type: official
+  retrieved_at: '2026-09-27T08:37:06+00:00'
+  sha256: 98fa14ed292d3454d74e18481f912e0520c69c3477ce8853c710b0dabe5b3e06
+  snapshot: data/raw/bank/df-cardapps-flex-Terms-20and-20Conditions-20Governing-20DCS-20Flex-20Card-20Reward-20Programme-20and-20Card-20Design-pdf-7a2f131c.pdf
+review:
+  status: draft
+updated_at: '2026-09-27'

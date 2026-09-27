@@ -1,0 +1,87 @@
+{
+ "source": "singsaver",
+ "source_id": "uob-professionals-platinum-card",
+ "source_url": "https://www.singsaver.com.sg/credit-card/products/uob-professionals-platinum-card",
+ "name": "UOB Professionals Platinum Card",
+ "bank": "UOB",
+ "card_id": "uob-professionals-platinum",
+ "image_url": "https://mhgprod.blob.core.windows.net/singsaver/strapi-uploads/xs_blt9172aa3bc71cb76c_7e271df9a1.webp",
+ "annual_fee_note": "Free for Life",
+ "min_annual_income": 30000.0,
+ "earn_rates": {
+  "percent:baseline": {
+   "value": 0.2,
+   "unit": "percent",
+   "note": "S$5 local spend = UNI$1. UNI$2000 redeems $20 vouchers. Equivalent to 0.2% cashback."
+  },
+  "percent:overseas": {
+   "value": 0.2,
+   "unit": "percent",
+   "note": "(Indirect Cashback) S$5 local spend = UNI$1. UNI$2000 redeems $20 voucher. Equivalent to 0.2% cashback."
+  },
+  "percent:local": {
+   "value": 0.2,
+   "unit": "percent",
+   "note": "S$5 local spend = UNI$1. UNI$2000 redeems $20 vouchers. Equivalent to 0.2% cashback."
+  }
+ },
+ "caps": {},
+ "highlights": [
+  "pros: Earn 1 SMART$ for every S$1 spent to offset your purchases.",
+  "pros: Get up to 10% SMART$ rebate at participating stores islandwide.",
+  "pros: Exclusive dining offers at the likes of Din Tai Fung, The Fullerton Hotel Singapore, Goodwood Park Hotel, Timbre and more.",
+  "pros: Enjoy up to 20.8% and 24% fuel savings at Shell and SPC respectively.",
+  "pros: Lifetime annual fee waiver.",
+  "cons: Applicant must be an existing member of Alumni Association, ISCA, Law Society of Singapore, SMA or ACCA.",
+  "cons: UNI$ will not be awarded on transactions at SMART$ merchants where SMART$ are issued.",
+  "pros: Dining savings",
+  "pros: Petrol savings",
+  "pros: Annual Fee waiver",
+  "pros: Retail rebate"
+ ],
+ "sign_up_offers": [],
+ "links": {},
+ "citation": {
+  "id": "singsaver:d3bcd8193ffc",
+  "url": "https://www.singsaver.com.sg/credit-card/products/uob-professionals-platinum-card",
+  "title": "UOB Professionals Platinum Card",
+  "source_type": "aggregator",
+  "retrieved_at": "2026-09-27T05:26:58+00:00",
+  "sha256": "d3bcd8193ffce491fc02e8b6f5468b8692e701bad636923d8a6a19587ad6dec8",
+  "snapshot": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-uob-professionals-platinum-card-fdda0345.html"
+ },
+ "extra": {
+  "network": [
+   "VISA"
+  ],
+  "mobile_wallets": [
+   "Google Pay",
+   "Apple Pay",
+   "Samsung Pay",
+   "NETSPay"
+  ],
+  "fx_fee_percent": 3.25,
+  "miles_conversion_fee": 27.0,
+  "categories": [
+   "category:buffet-promo",
+   "category:cashback",
+   "category:dining-promo",
+   "category:installment",
+   "category:overseas",
+   "category:petrol-promo",
+   "category:retail-promo",
+   "needs:0-interest-rate",
+   "needs:0-processing-fee",
+   "needs:all-cards-with-buffet-promo",
+   "needs:all-cards-with-dining-promo",
+   "needs:all-cards-with-petrol-promo",
+   "needs:all-cards-with-retail-promo",
+   "needs:all-cashback-cards",
+   "needs:all-installment-cards",
+   "needs:all-overseas-cards",
+   "needs:long-tenure-installment"
+  ],
+  "tag": null,
+  "description": "The UOB Professionals Platinum Card lets you earn Rewards Points on your daily spending to offset your future purchases. It also provides cardholders with exclusive dining offers at select merchants."
+ }
+}

@@ -1,0 +1,199 @@
+{
+ "source": "singsaver",
+ "source_id": "cimb-visa-infinite-card",
+ "source_url": "https://www.singsaver.com.sg/credit-card/products/cimb-visa-infinite-card",
+ "name": "CIMB Visa Infinite Card",
+ "bank": "CIMB Bank",
+ "card_id": "cimb-visa-infinite",
+ "image_url": "https://mhgprod.blob.core.windows.net/singsaver/strapi-uploads/xs_blt02b529abf50c5818_f0cff49a30.png",
+ "annual_fee_note": "No Annual Fee",
+ "min_annual_income": 120000.0,
+ "min_monthly_spend": 2000.0,
+ "earn_rates": {
+  "percent:local": {
+   "value": 2.0,
+   "unit": "percent",
+   "note": "Unlimited"
+  },
+  "percent:dining": {
+   "value": 1.0,
+   "unit": "percent",
+   "note": "Unlimited"
+  },
+  "percent:retail": {
+   "value": 1.0,
+   "unit": "percent",
+   "note": "Unlimited"
+  },
+  "percent:baseline": {
+   "value": 1.0,
+   "unit": "percent",
+   "note": "Unlimited | 1% cashback on all local spend. No minimum spend required. No cashback cap."
+  },
+  "percent:petrol": {
+   "value": 1.0,
+   "unit": "percent",
+   "note": "Unlimited"
+  },
+  "percent:health": {
+   "value": 1.0,
+   "unit": "percent",
+   "note": null
+  },
+  "percent:department_store": {
+   "value": 1.0,
+   "unit": "percent",
+   "note": null
+  },
+  "percent:online_bill_payment_spending": {
+   "value": 1.0,
+   "unit": "percent",
+   "note": null
+  },
+  "percent:contactless_spend": {
+   "value": 1.0,
+   "unit": "percent",
+   "note": null
+  },
+  "percent:transport": {
+   "value": 1.0,
+   "unit": "percent",
+   "note": null
+  },
+  "percent:overseas_online_shopping": {
+   "value": 2.0,
+   "unit": "percent",
+   "note": "Unlimited | With $2,000 min. spend posted in the same statement month. No cap."
+  },
+  "percent:supermarket": {
+   "value": 1.0,
+   "unit": "percent",
+   "note": "Unlimited"
+  },
+  "points_per_dollar:baseline": {
+   "value": 1.0,
+   "unit": "points_per_dollar",
+   "note": "Per dollar"
+  },
+  "percent:overseas": {
+   "value": 3.0,
+   "unit": "percent",
+   "note": "Unlimited | For a limited time, earn 3% on overseas foreign currency spend (valid till 31 Jan 2025). 2% cashback on overseas and travel related spend. Charge a minimum of S$2,000 in month. No cashback cap."
+  },
+  "percent:local_online_shopping": {
+   "value": 1.0,
+   "unit": "percent",
+   "note": "Unlimited"
+  },
+  "percent:travel": {
+   "value": 2.0,
+   "unit": "percent",
+   "note": "Unlimited | 2% cashback on overseas and travel related spend with $2,000 min. spend posted in the same statement month. No cap."
+  }
+ },
+ "caps": {},
+ "highlights": [
+  "Unlimited  | For a limited time, earn 3% on overseas foreign currency spend (valid till 31 Jan 2025). Enjoy unlimited 1% cashback on all local spending, including health, department stores, online bill payments, transport, dining, supermarkets, petrol, retail, and local online shopping, with no minimum spend or cashback cap. For overseas and travel-related spending, earn 2% cashback with a minimum spend of S$2,000 in the same statement month, also with no cashback cap.",
+  "pros: Unlimited 2% cashback on travel, overseas spend and online spend in foreign currencies.",
+  "pros: Unlimited 1% on all other retail spends.",
+  "pros: Principal cardmembers enjoy 3 complimentary global lounge access at more than 1,000 airports annually.",
+  "pros: Charge your full travel fares to your CIMB Visa Infinite and automatically get travel insurance coverage of up to S$1 million for you and your family.",
+  "pros: No annual fees for life + Up to 4 supplementary cards with no annual fees.",
+  "cons: Min. spending of S$2,000 in the statement month to qualify for the 2% cashback.",
+  "cons: Only Singapore citizens and Permanent Residents may apply.",
+  "cons: Minimum annual income requirement: S$120,000.",
+  "pros: No rebate cap",
+  "pros: Airport lounge",
+  "pros: Travel insurance",
+  "pros: Annual Fee waiver"
+ ],
+ "sign_up_offers": [
+  {
+   "kind": "exclusive_offer",
+   "title": "Stackable Welcome Offer",
+   "offer_id": "SG.2026-05-18.CC.CIMB.FANTHOM.BAU",
+   "valid_from": "2026-05-18T15:59:00Z",
+   "valid_to": "2026-09-30T15:59:00Z",
+   "gifts": [
+    {
+     "title": "Samsonite Black Label Fanthom Spinner 69/25 EXP TSA Luggage (worth S$1,150)",
+     "value_sgd": 1150
+    }
+   ],
+   "terms": "Welcome Offer promotion is valid from 19 May 2026 to 30 September 2026.\nPromotion is valid for new CIMB credit cardmembers only.\nApply and activate selected CIMB credit cards and make a min. spend of S$2,000 on eligible posted transactions within 60 days of card approval date to be eligible for reward.\nPromotion is stackable with SingSaver Exclusive Offer (additional T&Cs apply).\nTerms and Conditions\n apply.",
+   "tnc_url": null,
+   "bundle_with": []
+  },
+  {
+   "kind": "exclusive_offer",
+   "title": "SingSaver Exclusive Offer ",
+   "offer_id": "SG.2026-08-03.CC.CIMB.3XCC.50CASH.FANTHOM.BAUSTACK",
+   "valid_from": "2026-08-31T16:00:00Z",
+   "valid_to": "2026-09-30T15:59:00Z",
+   "gifts": [
+    {
+     "title": "S$50 Cash via PayNow",
+     "value_sgd": 50
+    }
+   ],
+   "terms": "SingSaver Exclusive Offer promotion is valid from 1 September 2026 to 30 September 2026.\nPromotion is valid for new CIMB credit cardmembers only.\nApply for select CIMB credit cards and make a min. spend of S$2,000 within 60 days of card approval to be eligible for reward.\nPromotion is stackable with other Welcome Offers from CIMB (\nadditional T&Cs apply\n).\nTerms and Conditions\n apply.",
+   "tnc_url": null,
+   "bundle_with": []
+  }
+ ],
+ "links": {
+  "apply": "https://www.singsaver.com.sg/apply-v3/17430"
+ },
+ "citation": {
+  "id": "singsaver:82b7b8366d9e",
+  "url": "https://www.singsaver.com.sg/credit-card/products/cimb-visa-infinite-card",
+  "title": "CIMB Visa Infinite Card",
+  "source_type": "aggregator",
+  "retrieved_at": "2026-09-27T05:24:59+00:00",
+  "sha256": "82b7b8366d9e49800984fb368e9d4bba5a11a27089fda4c57bef214909f4b0fc",
+  "snapshot": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-cimb-visa-infinite-card-0f8c0dd6.html"
+ },
+ "extra": {
+  "network": [
+   "VISA Infinite"
+  ],
+  "mobile_wallets": [
+   "Google Pay",
+   "Samsung Pay"
+  ],
+  "fx_fee_percent": 3.0,
+  "miles_conversion_fee": null,
+  "categories": [
+   "category:all-credit-cards",
+   "category:cashback",
+   "category:dining-promo",
+   "category:grocery-promo",
+   "category:installment",
+   "category:overseas",
+   "category:premium-cards",
+   "category:promo",
+   "category:retail-promo",
+   "category:travel",
+   "needs:0-interest-rate",
+   "needs:0-processing-fee",
+   "needs:airport-lounge-transfer",
+   "needs:all-cards-with-dining-promo",
+   "needs:all-cards-with-grocery-promo",
+   "needs:all-cards-with-promotion",
+   "needs:all-cards-with-retail-promo",
+   "needs:all-cashback-cards",
+   "needs:all-credit-cards",
+   "needs:all-installment-cards",
+   "needs:all-overseas-cards",
+   "needs:all-premium-cards",
+   "needs:all-travel-cards",
+   "needs:free-travel-insurance",
+   "needs:high-value-gifts",
+   "needs:online-booking-discount",
+   "needs:singsaver-exclusive",
+   "needs:unlimited-cashback"
+  ],
+  "tag": "Best for luxury travel & premium lifestyle",
+  "description": "The CIMB Visa Infinite Card is a premium travel card that allows you to earn unlimited 2% cashback on travel and overseas transactions, provided a minimum spend of S$2,000 is made within a statement month. Travel perks include 3 complimentary lounge visits per year and complimentary travel insurance with coverage up to S$1 million. Its annual fee is also waived for life!"
+ }
+}

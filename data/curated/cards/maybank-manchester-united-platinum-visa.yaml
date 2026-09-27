@@ -1,0 +1,61 @@
+# Curated card record. Auto-drafted from staged sources; verify every value against the
+# official T&Cs (citations below), then set review.status: reviewed.
+id: maybank-manchester-united-platinum-visa
+bank: Maybank
+name: Maybank Manchester United Platinum Visa Credit Card
+image_url: https://mhgprod.blob.core.windows.net/singsaver/strapi-uploads/xs_blt300db20118a1c8ab_db039f1a0e.png
+official_url: https://www.maybank2u.com.sg/en/personal/cards/credit/maybank-manchester-united-credit-debit.page
+annual_fee:
+  amount:
+    amount: 87.2
+    currency: SGD
+  waiver_notes: S$ | First 2 Years Waived, thereafter can be waived if min spend of $3.6K is met per annum
+  sources: ['singsaver:d571031efa15']
+min_annual_income:
+  amount: 30000.0
+  currency: SGD
+reward_currency:
+  kind: miles
+  name: Miles
+earn_rules:
+- id: local
+  label: local, overseas (SingSaver — verify)
+  rate: 2.0
+  unit: mpd
+  tier: bonus
+  eligibility:
+    description: Up to | When Manchester United Wins a Premier Leage Match, otherwise earn 0.4 miles per
+      dollar.
+    sources: ['singsaver:d571031efa15']
+  sources: ['singsaver:d571031efa15']
+- id: base
+  label: baseline (SingSaver — verify)
+  rate: 2.0
+  unit: mpd
+  tier: base
+  eligibility:
+    all_spend: true
+    description: Up to | When Manchester United Wins a Premier Leage Match, otherwise earn 0.4 miles per
+      dollar.
+    sources: ['singsaver:d571031efa15']
+  sources: ['singsaver:d571031efa15']
+general_exclusions:
+  description: Auto-extracted from official T&Cs — confirm each code applies to this card
+citations:
+- id: singsaver:d571031efa15
+  url: https://www.singsaver.com.sg/credit-card/products/maybank-manchester-united-platinum-visa-card
+  title: Maybank Manchester United Platinum Visa Credit Card
+  source_type: aggregator
+  retrieved_at: '2026-09-27T05:26:09+00:00'
+  sha256: d571031efa1525d1fec2cf2855e3d9074b2abf229866d23489cd29092990c425
+  snapshot: data/raw/singsaver/www-singsaver-com-sg-credit-card-products-maybank-manchester-united-platinum-visa-card-048e94b4.html
+- id: moneysmart:49fcb3586f25
+  url: https://www.moneysmart.sg/credit-cards?page=4
+  title: Maybank Manchester United Platinum Visa Card
+  source_type: aggregator
+  retrieved_at: '2026-09-27T05:27:20+00:00'
+  sha256: 49fcb3586f252df0b2dacb9acecc465127e09c9defa7f151881c3db46d84649e
+  snapshot: data/raw/moneysmart/credit-cards-p4-1a322210.html
+review:
+  status: draft
+updated_at: '2026-09-27'

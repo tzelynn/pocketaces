@@ -1,0 +1,239 @@
+{
+ "source": "singsaver",
+ "source_id": "citi-premier-miles-card",
+ "source_url": "https://www.singsaver.com.sg/credit-card/products/citi-premier-miles-card",
+ "name": "Citi PremierMiles Card",
+ "bank": "Citibank",
+ "card_id": "citi-premiermiles",
+ "image_url": "https://mhgprod.blob.core.windows.net/singsaver/strapi-uploads/m_Citi_Premier_Miles_2025_12_12_6e676c09b7.png",
+ "annual_fee": 196.2,
+ "annual_fee_note": "S$ | First Year Waived",
+ "min_annual_income": 30000.0,
+ "earn_rates": {
+  "percent:local": {
+   "value": 0.73,
+   "unit": "percent",
+   "note": "S$1 = 1.2 miles on all local spend. S$10 cash rebate = 1,650 miles, equivalent to spend of S$1,375."
+  },
+  "percent:overseas": {
+   "value": 1.32,
+   "unit": "percent",
+   "note": "S$1 = 2.2 miles on all local spend. S$10 cash rebate = 1,650 miles, equivalent to spend of S$825."
+  },
+  "percent:travel": {
+   "value": 4.24,
+   "unit": "percent",
+   "note": "S$1 = 7 miles on spend at Agoda. S$10 cash rebate = 1,650 miles, equivalent to spend of S$235 and cashback rate of 4.24%."
+  },
+  "mpd:travel": {
+   "value": 10.0,
+   "unit": "mpd",
+   "note": "Up to | Up to 10 Miles per S$1 on Kaligo, valid till 31 December 2025. Up to 7.2 Miles per S$1 on Agoda, valid for bookings made now till 31 December 2025 and for stays until 30 April 2026. T&Cs apply."
+  },
+  "mpd:hotel_booking": {
+   "value": 1.2,
+   "unit": "mpd",
+   "note": null
+  },
+  "mpd:baseline": {
+   "value": 1.2,
+   "unit": "mpd",
+   "note": null
+  },
+  "percent:baseline": {
+   "value": 0.73,
+   "unit": "percent",
+   "note": "S$1 = 1.2 miles on all local spend. S$10 cash rebate = 1,650 miles, equivalent to spend of S$1,375."
+  },
+  "mpd:overseas": {
+   "value": 2.2,
+   "unit": "mpd",
+   "note": null
+  },
+  "mpd:local": {
+   "value": 1.2,
+   "unit": "mpd",
+   "note": null
+  }
+ },
+ "caps": {
+  "airmiles_bonus_cap": {
+   "value": null,
+   "note": "No cap"
+  }
+ },
+ "highlights": [
+  "10 mpd on Kaligo, up to 7.2 mpd on Agoda, 2.2 mpd on other FCY spend and 1.2 mpd on other local spend. T&Cs apply.",
+  "pros: 1.2 miles per S$1 spent locally.",
+  "pros: 2.2 miles per S$1 spent in foreign currency.",
+  "pros: Citi Miles never expire. Can be exchanged for a variety of frequent flyer miles, hotel stays, rewards and cash rebates.",
+  "pros: Citi PayAll lets you earn Citi Miles or Citi ThankYou℠ Points on major payments such as insurance premiums, taxes, renovation expenses, wedding payments and more, even where credit cards may not typically be accepted.",
+  "pros: Enjoy up to 0.6% Bonus Cash Rebate on eligible Citi PayAll fee-paying transactions with a minimum qualifying spend of S$6,000 from 1 September to 31 December 2026. T&Cs apply.",
+  "pros: 2 free airport lounge visits per year to participating Priority Pass lounges worldwide.",
+  "pros: Up to S$1 million travel insurance coverage when you charge your travel tickets to this card. There will be a revision made to the Citi Credit Cards complimentary travel insurance. The Travel Insurance coverage in respect of a Trip charged to Citi PremierMiles Card will be updated to end on \n31 March 2026\n. For more information, please click \nhere\n.",
+  "pros: 11 different airline and hotel transfer partners.",
+  "pros: Generous sign-up bonus with relatively low minimum spend.",
+  "pros: Read our full review of the \nCiti PremierMiles Card\n.",
+  "cons: Admin fee of S$25 (excluding GST) for each conversion of Citi Miles to frequent flyer miles.",
+  "cons: Service fee applies to Citi PayAll facility.",
+  "pros: No expiry air miles",
+  "pros: Airport lounge",
+  "pros: Travel rebate",
+  "pros: Gift: Apple product"
+ ],
+ "sign_up_offers": [
+  {
+   "kind": "exclusive_offer",
+   "title": "SingSaver Flash Deal",
+   "offer_id": "SG.2026-09-24.CC.CITI.6XCC.MYSTERYPHONE-FD",
+   "valid_from": "2026-09-23T16:00:00Z",
+   "valid_to": "2026-09-28T15:59:00Z",
+   "gifts": [
+    {
+     "title": "The latest smartphone (worth over S$1,8xx)",
+     "value_sgd": 1800
+    }
+   ],
+   "terms": "SingSaver Flash Deal promotion runs from 24 September 2026 to 28 September 2026.\nPromotion is valid for new Citi credit cardmembers only.\nBe the first eligible applicant at 3pm and 9pm every day during the flash deal period (2 total winners daily) to apply for select Citi credit cards via SingSaver and meet the min. spend criteria (S$500 within 30 days of card approval) to be eligible for the Flash Deal reward: \nlatest smartphone (worth over S$1,800)\nFlash Deal reward will be received \nin place of\n your selected SingSaver Exclusive Offer reward.\nRemaining applicants will receive the SingSaver Exclusive Offer reward selected in your Rewards Redemption Form.\nTerms and Conditions\n apply.",
+   "tnc_url": null,
+   "bundle_with": []
+  },
+  {
+   "kind": "exclusive_offer",
+   "title": "SingSaver Exclusive Offer",
+   "offer_id": "SG.2026-09-01.CC.CITI.PMRWCP.400CASH-25KMAXM-ASTRAIT-V8CYC-MCM20CAP-[DYSON-APPLE]",
+   "valid_from": "2026-09-24T16:00:00Z",
+   "valid_to": "2026-09-30T15:59:00Z",
+   "gifts": [
+    {
+     "title": "S$400 Cash via PayNow",
+     "value_sgd": 400
+    },
+    {
+     "title": "The Morning Coffee Machine + 20 Capsules Bundle (worth S$660)",
+     "value_sgd": 660
+    },
+    {
+     "title": "25,000 Max Miles by HeyMax (worth S$450)",
+     "value_sgd": 450
+    },
+    {
+     "title": "Dyson Airstrait™ straightener (worth S$799)",
+     "value_sgd": 799
+    },
+    {
+     "title": "Dyson V8 Cyclone Vacuum Cleaner (worth S$559)",
+     "value_sgd": 559
+    },
+    {
+     "title": "Dyson Airwrap™ multi-styler and dryer (worth S$799) (top up S$100)",
+     "value_sgd": 799
+    },
+    {
+     "title": "Dyson Clean+Wash Hygiene hard floor cleaner (worth S$729) (Top up S$150)",
+     "value_sgd": 729
+    },
+    {
+     "title": "Apple iPad (A16) 11\" 128GB WiFi (worth S$649) (Top up S$200)",
+     "value_sgd": 649
+    },
+    {
+     "title": "Apple Watch Series 12 Aluminum 42mm GPS (worth S$599) (Top-up S$140)",
+     "value_sgd": 599
+    },
+    {
+     "title": "Apple MacBook Neo (A18 Pro) 256GB w/ Magic Keyboard (worth S$999, top up S$580)",
+     "value_sgd": 999
+    },
+    {
+     "title": "Apple iPhone 18 Pro 256GB (worth S$1,899, top up S$1,330)",
+     "value_sgd": 1899
+    }
+   ],
+   "terms": "SingSaver Exclusive Offer promotion runs from 1 September 2026 to 30 September 2026.\nPromotion is valid for new Citi credit cardmembers only.\nApply for participating Citi credit cards and make a min. spend of S$500 within 30 days of card approval to be eligible for reward.\nFastest Reward Fulfilment:\n Receive your reward in as little as \n4 weeks\n!\nTerms and Conditions\n apply.",
+   "tnc_url": "https://singsaver.link/cc-rewards-campaign",
+   "bundle_with": []
+  },
+  {
+   "kind": "bundle_exclusive_offer",
+   "title": "SingSaver Card + Banking Bundle Offer",
+   "offer_id": "SG.2026-09-09.CITI.6XCC-A.500CASH.BUNDLE",
+   "valid_from": "2026-09-08T16:00:00Z",
+   "valid_to": "2026-09-30T15:59:00Z",
+   "gifts": [
+    {
+     "title": "S$500 Cash via PayNow",
+     "value_sgd": 500
+    }
+   ],
+   "terms": "This promotion runs from 9 September 2026 to 30 September 2026.\nEligible applicants must not hold an existing Citi credit card, or have closed one within the past 12 months from card account opening date.\nTo qualify for the S$500 Cash reward, applicants must:\nApply for a participating Citi credit card via SingSaver;\nMake a minimum spend of S$500 within 30 days of card approval; and\nHold a valid Citi banking account (existing or newly opened) by the end of the month following card approval.\nThe S$500 Cash reward replaces the standard SingSaver exclusive reward for your card—you receive one or the other, not the both. The S$500 Cash amount is the same regardless of which card you apply for.\nParticipating Citi banking account types are:\nExisting Citi banking relationship includes \nCitigold\n, \nCitigold Private Client\n, \nCiti Plus\n, \nCiti Priority\n, \nCitibanking\nNew Citi banking relationship is applicable for \nCitigold\n, \nCitigold Private Client\n, \nCiti Plus\nNew banking customers who open a Citigold account through SingSaver may qualify for an additional SingSaver Exclusive welcome gift (worth up to S$1,500 Cash or Apple iPhone 17)—this is a separate offer from the credit card reward (additional T&Cs apply).\nIn case you choose the S$500 cash reward option and there is no banking relationship by the last day of the following month from your card application date but you meet the criteria for the credit card only reward, you will get the default cash reward available for your chosen card on application date.\nTerms and Conditions\n apply.",
+   "tnc_url": null,
+   "bundle_with": [
+    "SG.CC.CITI.PREMIER-MILES-CARD",
+    "SG.CC.CITI.CITI-CASH-BACK-CARD",
+    "SG.CC.CITI.CITI-CASH-BACK+-CARD"
+   ]
+  }
+ ],
+ "links": {
+  "apply": "https://www.singsaver.com.sg/apply-v3/17790"
+ },
+ "citation": {
+  "id": "singsaver:23484d8fec06",
+  "url": "https://www.singsaver.com.sg/credit-card/products/citi-premier-miles-card",
+  "title": "Citi PremierMiles Card",
+  "source_type": "aggregator",
+  "retrieved_at": "2026-09-27T05:25:08+00:00",
+  "sha256": "23484d8fec06b23fc9591e69f854bf35a8e5ab41a698444fb3539cbdc5637505",
+  "snapshot": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-citi-premier-miles-card-7b9e50cd.html"
+ },
+ "extra": {
+  "network": [
+   "Mastercard"
+  ],
+  "mobile_wallets": [
+   "Google Pay",
+   "Apple Pay",
+   "Samsung Pay"
+  ],
+  "fx_fee_percent": 3.25,
+  "miles_conversion_fee": 25.0,
+  "categories": [
+   "category:airmiles",
+   "category:all-credit-cards",
+   "category:buffet-promo",
+   "category:dining-promo",
+   "category:grocery-promo",
+   "category:installment",
+   "category:overseas",
+   "category:petrol-promo",
+   "category:promo",
+   "category:retail-promo",
+   "category:travel",
+   "needs:0-interest-rate",
+   "needs:airport-lounge-transfer",
+   "needs:all-airmiles-cards",
+   "needs:all-cards-with-buffet-promo",
+   "needs:all-cards-with-dining-promo",
+   "needs:all-cards-with-grocery-promo",
+   "needs:all-cards-with-petrol-promo",
+   "needs:all-cards-with-promotion",
+   "needs:all-cards-with-retail-promo",
+   "needs:all-credit-cards",
+   "needs:all-installment-cards",
+   "needs:all-overseas-cards",
+   "needs:all-travel-cards",
+   "needs:annual-fee-waiver-airmiles",
+   "needs:annual-fee-waiver-travel-cards",
+   "needs:apple-premium-gifts",
+   "needs:high-value-gifts",
+   "needs:no-expiry-on-miles",
+   "needs:no-minimum-spend-required-airmiles",
+   "needs:online-booking-discount",
+   "needs:singsaver-exclusive",
+   "needs:unlimited-airmiles"
+  ],
+  "tag": "Best for unlimited miles with broad airline transfer options",
+  "description": "The Citi PremierMiles Card stands out as a premier choice for frequent flyers, offering exclusive benefits like Priority Pass airport lounge access, comprehensive travel insurance coverage, Citi Miles that never expire, and enticing online travel booking promotions. Moreover, its inclusion of Citi-wide lifestyle and dining promotions, coupled with a reasonable minimum income requirement, positions it as an excellent entry-level air miles card, appealing to a wide range of potential users.\nCiti PremierMiles cardholders earn 1.2 miles per S$1 spent on local spending and 2.2 miles per S$1 spent on foreign currency spending, enabling you to accumulate miles quickly. Arguably, one of the best parts of the Citi PremierMiles Card is that its Citi Miles, which you can convert to a wide range of frequent flyer programmes like KrisFlyer, never expire – offering unparalleled convenience and redemption flexibility.\nMoreover, Citibank will gift you with a renewal bonus of 10,000 Citi Miles upon your card anniversary. On top of all that, cardholders enjoy additional luxuries of Priority Pass airport lounge access at selected airports – with the Principal Cardholder being entitled to 2 complimentary visits per calendar year at participating airport lounges worldwide."
+ }
+}

@@ -1,0 +1,299 @@
+{
+ "source": "singsaver",
+ "source_id": "uob-ladys-card",
+ "source_url": "https://www.singsaver.com.sg/credit-card/products/uob-ladys-card",
+ "name": "UOB Lady's Card",
+ "bank": "UOB",
+ "card_id": "uob-ladys",
+ "image_url": "https://mhgprod.blob.core.windows.net/singsaver/strapi-uploads/m_Ladys_Credit_MC_0ae02e955b.jpg",
+ "annual_fee": 196.2,
+ "annual_fee_note": "S$ | First Year Waived",
+ "min_annual_income": 30000.0,
+ "earn_rates": {
+  "mpd:local": {
+   "value": 10.0,
+   "unit": "mpd",
+   "note": "Up to | Up to 10 mpd on 1 rewards category out of 7; get 0.4 mpd on all other spend."
+  },
+  "mpd:retail": {
+   "value": 10.0,
+   "unit": "mpd",
+   "note": "Up to | Capped at S$1,000 spend per calendar month"
+  },
+  "mpd:dining": {
+   "value": 10.0,
+   "unit": "mpd",
+   "note": "Up to | Capped at S$1,000 spend per calendar month"
+  },
+  "mpd:petrol": {
+   "value": 10.0,
+   "unit": "mpd",
+   "note": "Up to | Capped at S$1,000 spend per calendar month"
+  },
+  "mpd:transport": {
+   "value": 10.0,
+   "unit": "mpd",
+   "note": "Up to | Capped at S$1,000 spend per calendar month"
+  },
+  "mpd:overseas_online_shopping": {
+   "value": 10.0,
+   "unit": "mpd",
+   "note": "Up to | Capped at S$1,000 spend per calendar month"
+  },
+  "mpd:local_online_shopping": {
+   "value": 10.0,
+   "unit": "mpd",
+   "note": "Up to | Capped at S$1,000 spend per calendar month"
+  },
+  "mpd:department_store": {
+   "value": 10.0,
+   "unit": "mpd",
+   "note": "Up to | Capped at S$1,000 spend per calendar month"
+  },
+  "mpd:supermarket": {
+   "value": 10.0,
+   "unit": "mpd",
+   "note": "Up to | Capped at S$1,000 spend per calendar month"
+  },
+  "mpd:hotel_booking": {
+   "value": 10.0,
+   "unit": "mpd",
+   "note": "Up to | Capped at S$1,000 spend per calendar month"
+  },
+  "mpd:flight_booking": {
+   "value": 10.0,
+   "unit": "mpd",
+   "note": "Up to | Capped at S$1,000 spend per calendar month"
+  },
+  "points_per_dollar:baseline": {
+   "value": 1.0,
+   "unit": "points_per_dollar",
+   "note": "UNI$"
+  },
+  "points_per_dollar:local_spending": {
+   "value": 25.0,
+   "unit": "points_per_dollar",
+   "note": "UNI$ | Choose one of these categories per quarter: beauty & wellness, dining, entertainment, grocery, children and infant wear stores, fashion, public transport, taxi and ride-hailing, hotels, and flights."
+  },
+  "points_per_dollar:overseas_spending": {
+   "value": 25.0,
+   "unit": "points_per_dollar",
+   "note": "UNI$ | Choose one of these categories per quarter: beauty & wellness, dining, entertainment, grocery, children and infant wear stores, fashion, public transport, taxi and ride-hailing, hotels, and flights."
+  },
+  "points_per_dollar:contactless_spend": {
+   "value": 25.0,
+   "unit": "points_per_dollar",
+   "note": "UNI$ | Choose one of these categories per quarter: beauty & wellness, dining, entertainment, grocery, children and infant wear stores, fashion, public transport, taxi and ride-hailing, hotels, and flights."
+  },
+  "points_per_dollar:online_shopping": {
+   "value": 2.0,
+   "unit": "points_per_dollar",
+   "note": "UNI$ | Choose one of these categories per quarter: beauty & wellness, dining, entertainment, grocery, children and infant wear stores, fashion, public transport, taxi and ride-hailing, hotels, and flights."
+  },
+  "points_per_dollar:retail": {
+   "value": 25.0,
+   "unit": "points_per_dollar",
+   "note": "UNI$ | Choose one of these categories per quarter: Dining, Travel, Fashion, Beauty & Wellness, Family, Transport, and Entertainment spend."
+  },
+  "points_per_dollar:dining": {
+   "value": 25.0,
+   "unit": "points_per_dollar",
+   "note": "UNI$ | Choose one of these categories per quarter: Dining, Travel, Fashion, Beauty & Wellness, Family, Transport, and Entertainment spend."
+  },
+  "points_per_dollar:online_food_delivery": {
+   "value": 25.0,
+   "unit": "points_per_dollar",
+   "note": "UNI$ | Choose one of these categories per quarter: Dining, Travel, Fashion, Beauty & Wellness, Family, Transport, and Entertainment spend."
+  },
+  "points_per_dollar:grocery": {
+   "value": 25.0,
+   "unit": "points_per_dollar",
+   "note": "UNI$ | Choose one of these categories per quarter: beauty & wellness, dining, entertainment, grocery, children and infant wear stores, fashion, public transport, taxi and ride-hailing, hotels, and flights."
+  },
+  "points_per_dollar:transport": {
+   "value": 25.0,
+   "unit": "points_per_dollar",
+   "note": "UNI$ | Choose one of these categories per quarter: beauty & wellness, dining, entertainment, grocery, children and infant wear stores, fashion, public transport, taxi and ride-hailing, hotels, and flights."
+  },
+  "points_per_dollar:taxi_ride_sharing": {
+   "value": 25.0,
+   "unit": "points_per_dollar",
+   "note": "UNI$ | Choose one of these categories per quarter: beauty & wellness, dining, entertainment, grocery, children and infant wear stores, fashion, public transport, taxi and ride-hailing, hotels, and flights."
+  },
+  "points_per_dollar:hotel_booking": {
+   "value": 25.0,
+   "unit": "points_per_dollar",
+   "note": "UNI$ | Choose one of these categories per quarter: beauty & wellness, dining, entertainment, grocery, children and infant wear stores, fashion, public transport, taxi and ride-hailing, hotels, and flights."
+  },
+  "points_per_dollar:flight_booking": {
+   "value": 25.0,
+   "unit": "points_per_dollar",
+   "note": "UNI$ | Choose one of these categories per quarter: beauty & wellness, dining, entertainment, grocery, children and infant wear stores, fashion, public transport, taxi and ride-hailing, hotels, and flights."
+  },
+  "points_per_dollar:entertainment": {
+   "value": 25.0,
+   "unit": "points_per_dollar",
+   "note": "UNI$ | Choose one of these categories per quarter: beauty & wellness, dining, entertainment, grocery, children and infant wear stores, fashion, public transport, taxi and ride-hailing, hotels, and flights."
+  },
+  "points_per_dollar:petrol": {
+   "value": 25.0,
+   "unit": "points_per_dollar",
+   "note": "UNI$ | Choose one of these categories per quarter: beauty & wellness, dining, entertainment, grocery, children and infant wear stores, fashion, public transport, taxi and ride-hailing, hotels, and flights."
+  },
+  "points_per_dollar:travel": {
+   "value": 25.0,
+   "unit": "points_per_dollar",
+   "note": "UNI$ | Choose one of these categories per quarter: beauty & wellness, dining, entertainment, grocery, children and infant wear stores, fashion, public transport, taxi and ride-hailing, hotels, and flights."
+  },
+  "mpd:overseas": {
+   "value": 10.0,
+   "unit": "mpd",
+   "note": "Up to | Up to 10 mpd on 1 selected rewards category (choose from Dining, Travel, Fashion, Beauty & Wellness, Family, Transport, and Entertainment spend); get 0.4 mpd on all other spend."
+  },
+  "mpd:baseline": {
+   "value": 0.4,
+   "unit": "mpd",
+   "note": "Unlimited 0.4 miles per dollar on all other spend outside enrolled rewards category."
+  }
+ },
+ "caps": {
+  "rewards_bonus_cap": {
+   "value": 1000.0,
+   "note": "S$ | Bonus UNI$ capped at 2,800 UNI$ (equivalent to S$1,000 spend) per calendar month."
+  },
+  "airmiles_bonus_cap": {
+   "value": 1000.0,
+   "note": "S$ | Bonus 4 mpd rate + up to 6 mpd rate is capped at S$1,000 spend per month"
+  }
+ },
+ "highlights": [
+  "Up to 10 miles per dollar on your preferred rewards category from Dining, Travel, Fashion, Beauty & Wellness, Family, Transport and Entertainment spend, be it locally or overseas. Plus, enjoy unlimited 0.4 mpd on all other spend outside enrolled rewards category. Capped at S$1,000 spend per calendar month",
+  "pros: Pick from 7 rewards categories to earn up to 25X UNI$ for every S$5 spend (10 miles per S$1)",
+  "pros: Spend on UOB Lady's Credit Card to earn 10X UNI$ (4 miles per S$1) and enjoy additional up to 15X UNI$ (6 miles per S$1) when you pair your UOB Lady's Credit Card with UOB Lady's Savings Account",
+  "pros: LuxePay: Enjoy 0% 6 or 12-month instalment plan when you purchase your favorite luxury apparels.",
+  "pros: Complimentary e-Commerce protection on your online purchases.",
+  "pros: Enjoy UOB$ rebate on your daily essentials, entertainment and shopping.",
+  "cons: You can only choose 1 rewards category out of 7 to earn up to 25X UNI$ (10 miles per S$1). Feel free to change your category every quarter.",
+  "cons: You must save with UOB Lady’s Savings Account to unlock up to additional 15X UNI$ (6 miles per S$1) earn rate on your preferred rewards category.",
+  "cons: Terms and conditions apply for all above-mentioned privileges. Visit \nhere\n   for more details. Insured up to S$100,000 by SDIC.",
+  "pros: Local & Overseas spending rewards",
+  "pros: Installment",
+  "pros: No monthly spend required",
+  "cons: Monthly rewards cap applies."
+ ],
+ "sign_up_offers": [
+  {
+   "kind": "welcome_offer",
+   "title": "Welcome Offer",
+   "offer_id": "SG.2026-07-01.CC.UOBX.9XCC.100SAMSUNG.BAU",
+   "valid_from": "2026-06-30T16:00:00Z",
+   "valid_to": "2026-09-29T16:00:00Z",
+   "gifts": [
+    {
+     "title": "S$100 Samsung Voucher",
+     "value_sgd": 100
+    }
+   ],
+   "terms": "Welcome Offer promotion is valid from 1 July 2026 to 30 September 2026.\nPromotion is valid for new-to-UOB credit card customers only.\nSuccessfully apply to be the principal cardholder for select UOB Credit Cards within the promo period and spend a min. of S$1,000 within 30 days of card approval to be eligible for \nS$100 Samsung Voucher\n reward.\nPlus, receive a 10% discount when you use your UOB Credit Card on Samsung Singapore transactions via the Samsung online store with min. spend of S$1,000.\nSamsung reserves the right to amend or withdraw the discount promotion without prior notice.\nTerms and Conditions\n apply.",
+   "tnc_url": null,
+   "bundle_with": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "kind": "exclusive_offer",
+   "title": "SingSaver Flash Deal",
+   "offer_id": "SG.2026-09-02.CC.UOBX.9XCC.200CASH-STRAREN-90CASH",
+   "valid_from": "2026-09-01T16:00:00Z",
+   "valid_to": "2026-09-30T15:59:00Z",
+   "gifts": [
+    {
+     "title": "S$200 Cash via PayNow",
+     "value_sgd": 200
+    },
+    {
+     "title": "Samsonite Straren Spinner 67/24 (worth S$600)",
+     "value_sgd": 600
+    },
+    {
+     "title": "S$90 Cash via PayNow",
+     "value_sgd": 90
+    }
+   ],
+   "terms": "SingSaver Flash Deal promotion is valid from 2 September 2026 to 30 September 2026.\nPromotion is valid for new-to-UOB credit cardmembers only.\nBe one of the first 2 applicants at 2 PM & 10PM every day during the flash deal period to apply for selected UOB credit cards and make a min. spend of S$500 within the first 30 days of card approval to be eligible for the Flash Deal reward:\nS$200 Cash via PayNow\n; or a\nSamsonite Straren Spinner 67/24 (worth S$600)\n.\nRemaining applicants will receive \nS$90 Cash via PayNow\n.\nPromotion is stackable with UOB Welcome Offer (additional T&Cs apply).\nTerms and Conditions\n apply",
+   "tnc_url": null,
+   "bundle_with": []
+  }
+ ],
+ "links": {
+  "apply": "https://www.singsaver.com.sg/apply-v3/17462"
+ },
+ "citation": {
+  "id": "singsaver:c5e8e589f450",
+  "url": "https://www.singsaver.com.sg/credit-card/products/uob-ladys-card",
+  "title": "UOB Lady's Card",
+  "source_type": "aggregator",
+  "retrieved_at": "2026-09-27T05:26:50+00:00",
+  "sha256": "c5e8e589f4509e9588ee6aca7acf4c6cf33d8d1f1f917e313a99c6bafa2944bd",
+  "snapshot": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-uob-ladys-card-94f9a98f.html"
+ },
+ "extra": {
+  "network": [
+   "Mastercard"
+  ],
+  "mobile_wallets": [
+   "Google Pay",
+   "Apple Pay",
+   "Samsung Pay",
+   "NETSPay"
+  ],
+  "fx_fee_percent": 3.25,
+  "miles_conversion_fee": 27.0,
+  "categories": [
+   "category:airmiles",
+   "category:all-credit-cards",
+   "category:buffet-promo",
+   "category:dining-promo",
+   "category:grocery-promo",
+   "category:installment",
+   "category:petrol-promo",
+   "category:promo",
+   "category:retail-promo",
+   "category:rewards",
+   "category:travel",
+   "needs:0-interest-rate",
+   "needs:0-processing-fee",
+   "needs:air-miles-conversion-rewards",
+   "needs:all-airmiles-cards",
+   "needs:all-cards-with-buffet-promo",
+   "needs:all-cards-with-dining-promo",
+   "needs:all-cards-with-grocery-promo",
+   "needs:all-cards-with-petrol-promo",
+   "needs:all-cards-with-promotion",
+   "needs:all-cards-with-retail-promo",
+   "needs:all-credit-cards",
+   "needs:all-installment-cards",
+   "needs:all-rewards-cards",
+   "needs:all-travel-cards",
+   "needs:annual-fee-waiver-airmiles",
+   "needs:free-travel-insurance",
+   "needs:high-miles-rebate",
+   "needs:high-rewards-rebate",
+   "needs:long-tenure-installment",
+   "needs:no-minimum-spend-required-airmiles",
+   "needs:no-minimum-spend-required-rewards",
+   "needs:online-booking-discount"
+  ],
+  "tag": null,
+  "description": "The UOB Lady’s Card lets you live the life you want and earn up to 10 miles per dollar on your preferred rewards category from a list of seven - Dining, Travel, Fashion, Beauty & Wellness, Family, Transport and Entertainment. Cardholders can choose and change their preferred category every quarter to maximise their rewards. In fact, it's one of the best rewards card to earn miles quickly for your next getaway."
+ }
+}

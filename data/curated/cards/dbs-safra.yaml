@@ -1,0 +1,68 @@
+# Curated card record. Auto-drafted from staged sources; verify every value against the
+# official T&Cs (citations below), then set review.status: reviewed.
+id: dbs-safra
+bank: DBS
+name: DBS SAFRA Card
+network: mastercard
+image_url: https://mhgprod.blob.core.windows.net/singsaver/strapi-uploads/l_2026_01_SAFRA_DBS_CARD_97d10c6088.png
+official_url: https://www.dbs.com.sg/personal/cards/credit-cards/dbs-safra-credit-card
+min_annual_income:
+  amount: 30000.0
+  currency: SGD
+reward_currency:
+  kind: cashback
+  name: Cashback
+earn_rules:
+- id: local
+  label: local, transport, contactless spend, local online shopping (SingSaver — verify)
+  rate: 3.0
+  unit: percent
+  tier: bonus
+  eligibility:
+    tags: [transport]
+    modes_required: [contactless]
+    description: On local Mastercard contactless transactions with minimum spend of S$500. Earned in the
+      form of SAFRA$. Capped at SAFRA$50 per calendar month. / Including bus/train rides via SimplyGo  With
+      minimum spend of S$500  Earned in the form of SAFRA$  Capped at SAFRA$50 per calendar month. / With
+      minimum spend of S$500  Earned in the form of SAFRA$  Capped at SAFRA$50 per calendar month.
+    sources: ['singsaver:a2fa5d01829d']
+  sources: ['singsaver:a2fa5d01829d']
+- id: overseas
+  label: overseas (SingSaver — verify)
+  rate: 0.3
+  unit: percent
+  tier: bonus
+  eligibility:
+    description: Earned in the form of SAFRA$  Capped at SAFRA$50 per calendar month.
+    sources: ['singsaver:a2fa5d01829d']
+  sources: ['singsaver:a2fa5d01829d']
+- id: base
+  label: baseline (SingSaver — verify)
+  rate: 0.3
+  unit: percent
+  tier: base
+  eligibility:
+    all_spend: true
+    description: Earned in the form of SAFRA$  Capped at SAFRA$50 per calendar month.
+    sources: ['singsaver:a2fa5d01829d']
+  sources: ['singsaver:a2fa5d01829d']
+general_exclusions:
+  description: Auto-extracted from official T&Cs — confirm each code applies to this card
+citations:
+- id: singsaver:a2fa5d01829d
+  url: https://www.singsaver.com.sg/credit-card/products/dbs-safra-card
+  title: DBS SAFRA Card
+  source_type: aggregator
+  retrieved_at: '2026-09-27T05:25:27+00:00'
+  sha256: a2fa5d01829d679624eb476c628e4f29e1dfac6d16246cdbc91e213880f3da95
+  snapshot: data/raw/singsaver/www-singsaver-com-sg-credit-card-products-dbs-safra-card-cc06c8b7.html
+- id: moneysmart:fbcf8e7229a3
+  url: https://www.moneysmart.sg/credit-cards?page=3
+  title: SAFRA DBS Card
+  source_type: aggregator
+  retrieved_at: '2026-09-27T05:27:18+00:00'
+  sha256: fbcf8e7229a38611c3c767cd8447164e413b1306df1f54bebee269e3abf15202
+  snapshot: data/raw/moneysmart/credit-cards-p3-707cb52c.html
+review:
+  status: draft
+updated_at: '2026-09-27'

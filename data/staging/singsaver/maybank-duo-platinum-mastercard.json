@@ -1,0 +1,133 @@
+{
+ "source": "singsaver",
+ "source_id": "maybank-duo-platinum-mastercard",
+ "source_url": "https://www.singsaver.com.sg/credit-card/products/maybank-duo-platinum-mastercard",
+ "name": "Maybank DUO Platinum Mastercard",
+ "bank": "Maybank",
+ "card_id": "maybank-duo-platinum-mastercard",
+ "image_url": "https://mhgprod.blob.core.windows.net/singsaver/strapi-uploads/xs_blt2a3b102bcff5ab44_1bc5014854.png",
+ "annual_fee": 130.8,
+ "annual_fee_note": "S$ | First Three Years Waived",
+ "min_annual_income": 30000.0,
+ "earn_rates": {
+  "percent:local": {
+   "value": 5.0,
+   "unit": "percent",
+   "note": "Cashback rate on petrol transactions in Singapore and Malaysia."
+  },
+  "percent:overseas": {
+   "value": 1.5,
+   "unit": "percent",
+   "note": "No minimum spend and no cap."
+  },
+  "percent:petrol": {
+   "value": 5.0,
+   "unit": "percent",
+   "note": "In Singapore and Malaysia."
+  },
+  "percent:baseline": {
+   "value": 0.27,
+   "unit": "percent",
+   "note": "(Indirect cashback) S$5 = 5 TREATS Points 18,500 points = S$50 cash credit, equivalent to 0.27% cashback."
+  },
+  "mpd:local": {
+   "value": 0.4,
+   "unit": "mpd",
+   "note": "Excluding petrol transactions."
+  },
+  "percent:overseas_online_shopping": {
+   "value": 1.5,
+   "unit": "percent",
+   "note": "No minimum spend and no cap."
+  },
+  "points_per_dollar:local_spending": {
+   "value": 5.0,
+   "unit": "points_per_dollar",
+   "note": "Excluding petrol transactions."
+  },
+  "mpd:baseline": {
+   "value": 0.4,
+   "unit": "mpd",
+   "note": null
+  },
+  "mpd:overseas": {
+   "value": 0.4,
+   "unit": "mpd",
+   "note": null
+  },
+  "points_per_dollar:baseline": {
+   "value": 5.0,
+   "unit": "points_per_dollar",
+   "note": "Excluding petrol transactions"
+  }
+ },
+ "caps": {},
+ "highlights": [
+  "5% cashback on petrol transactions in Singapore and Malaysia, and 1.5% cashback on foreign currency spending, with no minimum spend or cap. Additionally, receive 0.27% cashback on any eligible expenses. Min. spend of S$300 each calendar month to qualify for bonus TREATS Points, capped at 30,000 bonus TREATS.",
+  "pros: 5% cashback on petrol in Singapore and Malaysia.",
+  "pros: 1.5% cashback in foreign currency.",
+  "pros: 5 TREATS Points per $5 spent in local currency.",
+  "pros: Complimentary Supplementary Cards for your loved ones.",
+  "pros: Complimentary travel insurance coverage of up to S$500,000.",
+  "cons: TREATS Points awarded calculated based on blocks of S$5.",
+  "cons: Min. spend of S$300 each calendar month to qualify for bonus TREATS Points, capped at 30,000 bonus TREATS.",
+  "pros: Petrol rebate",
+  "pros: Overseas rebate",
+  "pros: Travel insurance",
+  "pros: Annual Fee waiver"
+ ],
+ "sign_up_offers": [],
+ "links": {},
+ "citation": {
+  "id": "singsaver:c81f74b9e706",
+  "url": "https://www.singsaver.com.sg/credit-card/products/maybank-duo-platinum-mastercard",
+  "title": "Maybank DUO Platinum Mastercard",
+  "source_type": "aggregator",
+  "retrieved_at": "2026-09-27T05:26:03+00:00",
+  "sha256": "c81f74b9e70666e40190cb22a0eb89bc283ffcd03c5f2f020960f2c7b4ae069f",
+  "snapshot": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-maybank-duo-platinum-mastercard-e4656e93.html"
+ },
+ "extra": {
+  "network": [
+   "Mastercard"
+  ],
+  "mobile_wallets": [
+   "Apple Pay",
+   "Samsung Pay"
+  ],
+  "fx_fee_percent": 3.25,
+  "miles_conversion_fee": 25.0,
+  "categories": [
+   "category:all-credit-cards",
+   "category:cashback",
+   "category:dining-promo",
+   "category:installment",
+   "category:overseas",
+   "category:promo",
+   "category:retail-promo",
+   "category:rewards",
+   "needs:0-interest-rate",
+   "needs:0-processing-fee",
+   "needs:air-miles-conversion-rewards",
+   "needs:all-cards-with-dining-promo",
+   "needs:all-cards-with-promotion",
+   "needs:all-cards-with-retail-promo",
+   "needs:all-cashback-cards",
+   "needs:all-credit-cards",
+   "needs:all-installment-cards",
+   "needs:all-overseas-cards",
+   "needs:all-rewards-cards",
+   "needs:all-travel-cards",
+   "needs:apple-premium-gifts",
+   "needs:free-travel-insurance",
+   "needs:long-tenure-installment",
+   "needs:no-minimum-spend-required-cashback",
+   "needs:no-minimum-spend-required-rewards",
+   "needs:online-booking-discount",
+   "needs:unlimited-cashback",
+   "needs:unlimited-reward-points"
+  ],
+  "tag": null,
+  "description": "Made for drivers, the Maybank DUO Platinum MasterCard allows cardholders to earn 5% cashback on petrol transactions in Singapore and Malaysia. You'll also enjoy 1.5% cashback in foreign currency spend and 5 TREATS Points per $5 spent in local currency."
+ }
+}

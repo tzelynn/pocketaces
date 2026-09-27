@@ -1,0 +1,113 @@
+# Curated card record. Auto-drafted from staged sources; verify every value against the
+# official T&Cs (citations below), then set review.status: reviewed.
+id: dbs-altitude-american-express
+bank: DBS
+name: DBS Altitude American Express Card
+network: amex
+image_url: https://mhgprod.blob.core.windows.net/singsaver/strapi-uploads/m_2026_01_DBS_ALTITUDE_AMEX_CARD_80890db4ef.png
+official_url: https://www.dbs.com.sg/personal/cards/credit-cards/dbs-altitude-cards
+annual_fee:
+  amount:
+    amount: 196.2
+    currency: SGD
+  first_year_waived: true
+  waiver_notes: S$ | First Year Waived
+  sources: ['singsaver:8613b6178b3e']
+min_annual_income:
+  amount: 30000.0
+  currency: SGD
+reward_currency:
+  kind: miles
+  name: Miles
+earn_rules:
+- id: flight-booking
+  label: flight booking, overseas online shopping, travel, overseas, hotel booking (SingSaver — verify)
+  rate: 2.2
+  unit: mpd
+  tier: bonus
+  eligibility:
+    tags: [flights, travel, hotels]
+    description: 'Up to  / Up to  | 2.2 mpd on foreign currency spend, 1.3 mpd on local spend. / Up to  |
+      On overseas spend made in foreign currency. '
+    sources: ['singsaver:8613b6178b3e']
+  sources: ['singsaver:8613b6178b3e']
+- id: local
+  label: local, retail, dining, local online shopping, department store, supermarket, transport, petrol
+    (SingSaver — verify)
+  rate: 1.3
+  unit: mpd
+  tier: bonus
+  eligibility:
+    tags: [shopping, dining, groceries, transport, petrol]
+    description: 'Up to '
+    sources: ['singsaver:8613b6178b3e']
+  sources: ['singsaver:8613b6178b3e']
+- id: base
+  label: baseline (SingSaver — verify)
+  rate: 1.3
+  unit: mpd
+  tier: base
+  eligibility:
+    all_spend: true
+    description: ''
+    sources: ['singsaver:8613b6178b3e']
+  sources: ['singsaver:8613b6178b3e']
+general_exclusions:
+  description: Auto-extracted from official T&Cs — confirm each code applies to this card
+sign_up_bonuses:
+- offered_by: singsaver
+  description: 'Stackable Welcome Offer: choice of Up to S$200 Cashback on Cashline'
+  value:
+    amount: 200.0
+    currency: SGD
+  valid_from: '2026-08-31'
+  valid_to: '2026-09-30'
+  url: https://www.singsaver.com.sg/credit-card/products/dbs-altitude-american-express-card
+  sources: ['singsaver:8613b6178b3e']
+- offered_by: singsaver
+  description: 'SingSaver Exclusive Offer: choice of S$288 Cash via PayNow; S$310 Grab Voucher; 18,000
+    Max Miles by HeyMax (worth S$324); Morning Mini Coffee Machine + 20 Capsules Bundle (worth S$425);
+    Samsonite Straren Spinner 67/24 (worth S$600); Dyson V8 Cyclone Vacuum Cleaner (worth S$559, top up
+    S$150); Dyson Airstrait™ hair straightener (worth S$799) (Top up S$200); Sony WH-1000XM6 Headphones
+    (worth S$649) (top up S$200); Apple iPad (A16) 11" 128GB WiFi (worth S$649) (Top up S$350)'
+  value:
+    amount: 288.0
+    currency: SGD
+  valid_from: '2026-09-16'
+  valid_to: '2026-09-30'
+  url: https://www.singsaver.com.sg/credit-card/products/dbs-altitude-american-express-card
+  sources: ['singsaver:8613b6178b3e']
+- offered_by: moneysmart
+  description: "Choice of: Samsonite MINTER 80/30 Luggage; Up to 38,000 miles. Terms: Valid for New Customers\
+    \ only\nUse promo code \nMINTER\n when applying\nCharge a min. of S$800 within 60 days from the date\
+    \ of card approval\nHave a valid DBS PayLah! account by the end of the Qualifying Spend period"
+  url: https://www.moneysmart.sg/credit-cards/dbs-altitude-american-express-card
+  sources: ['moneysmart:fbcf8e7229a3']
+notes:
+- 'Editorial review for cross-checking: Review: DBS Altitude Card (https://milelion.com/2026/05/24/review-dbs-altitude-card/,
+  updated 2026-07-25)'
+citations:
+- id: singsaver:8613b6178b3e
+  url: https://www.singsaver.com.sg/credit-card/products/dbs-altitude-american-express-card
+  title: DBS Altitude American Express Card
+  source_type: aggregator
+  retrieved_at: '2026-09-27T05:25:17+00:00'
+  sha256: 8613b6178b3ef687efc9bab5a66a6f50481022397e18186c28e7b00448f814fa
+  snapshot: data/raw/singsaver/www-singsaver-com-sg-credit-card-products-dbs-altitude-american-express-card-61d03784.html
+- id: moneysmart:fbcf8e7229a3
+  url: https://www.moneysmart.sg/credit-cards?page=3
+  title: DBS Altitude American Express Card
+  source_type: aggregator
+  retrieved_at: '2026-09-27T05:27:18+00:00'
+  sha256: fbcf8e7229a38611c3c767cd8447164e413b1306df1f54bebee269e3abf15202
+  snapshot: data/raw/moneysmart/credit-cards-p3-707cb52c.html
+- id: milelion:4aa7234670bb
+  url: https://milelion.com/2026/05/24/review-dbs-altitude-card/
+  title: 'Review: DBS Altitude Card'
+  source_type: editorial
+  retrieved_at: '2026-09-27T05:28:46+00:00'
+  sha256: 4aa7234670bbf36a0b7738620d9ae319787e6880e572c2bda158b2efedc33420
+  snapshot: data/raw/milelion/post-72991-0736e36f.json
+review:
+  status: draft
+updated_at: '2026-09-27'

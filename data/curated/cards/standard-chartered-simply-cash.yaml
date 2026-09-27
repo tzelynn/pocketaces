@@ -1,0 +1,114 @@
+# Curated card record. Auto-drafted from staged sources; verify every value against the
+# official T&Cs (citations below), then set review.status: reviewed.
+id: standard-chartered-simply-cash
+bank: Standard Chartered
+name: Standard Chartered Simply Cash Credit Card
+image_url: https://mhgprod.blob.core.windows.net/singsaver/strapi-uploads/l_bltcf04de69dae34697_0c73f5d6cb.png
+official_url: https://www.sc.com/sg/credit-cards/simply-cash-credit-card/
+annual_fee:
+  amount:
+    amount: 196.2
+    currency: SGD
+  first_year_waived: true
+  waiver_notes: S$ | First Year Waived
+  sources: ['singsaver:539a5fd39984']
+min_annual_income:
+  amount: 30000.0
+  currency: SGD
+reward_currency:
+  kind: cashback
+  name: Cashback
+earn_rules:
+- id: local
+  label: local, overseas, dining, supermarket, retail, petrol, health, travel, department store, local
+    online shopping, overseas online shopping, online bill payment spending, contactless spend, transport
+    (SingSaver — verify)
+  rate: 1.5
+  unit: percent
+  tier: bonus
+  eligibility:
+    include_mcc: ['4829', '4900', '5047', '5199', '6012', '6050', '6051', '6211', '6513', '6529', '6530',
+      '6534', '6540', '7299', '7349', '7511', '7523', '8062', '8211', '8220', '8241', '8244', '8249',
+      '8299', '8398', '8651', '8661', '8999', '9211', '9222', '9223', '9311', '9399', '9402', '9405']
+    description: 1.5% unlimited cashback with no min. spend. [include_mcc auto-extracted from official
+      T&C — check it belongs to this rule]
+    sources: ['singsaver:539a5fd39984', 'bank:7ff8e332cb5e', 'bank:2c6123a41433']
+  conditions:
+  - 'aggregator categories: dining, groceries, shopping, petrol, healthcare, travel, transport'
+  sources: ['singsaver:539a5fd39984']
+- id: base
+  label: baseline (SingSaver — verify)
+  rate: 1.5
+  unit: percent
+  tier: base
+  eligibility:
+    all_spend: true
+    description: 1.5% unlimited cashback with no min. spend.
+    sources: ['singsaver:539a5fd39984']
+  sources: ['singsaver:539a5fd39984']
+general_exclusions:
+  description: Auto-extracted from official T&Cs — confirm each code applies to this card
+sign_up_bonuses:
+- offered_by: singsaver
+  description: 'SingSaver Exclusive Offer: rewards applicable on applying for 2 products: choice of Apple
+    iPad Air (M4) 11" 128GB WiFi (worth S$1,149) (Top up S$780); Apple MacBook Neo (A18 Pro) 256GB w/
+    Magic Keyboard (worth S$999, top up S$620); Apple iPad (A16) 11" 128GB WiFi (worth S$649) (Top up
+    S$300); Dyson Clean+Wash Hygiene hard floor cleaner (worth S$729) (Top up S$200); Dyson Airstrait™
+    straightener (worth S$799) (Top up S$100); Dyson V8 Cyclone Vacuum Cleaner (worth S$559, top up S$100);
+    Dyson Cool™ AM07 Tower Fan (worth S$499); S$370 Grab Vouchers; S$350 Cash via PayNow'
+  value:
+    amount: 350.0
+    currency: SGD
+  valid_from: '2026-08-31'
+  valid_to: '2026-09-30'
+  url: https://www.singsaver.com.sg/credit-card/products/standard-chartered-simply-cash-credit-card
+  sources: ['singsaver:539a5fd39984']
+- offered_by: moneysmart
+  description: 'Choice of: S$350 Cash via PayNow; Apple AirPods Pro 3; ErgoTune Joobie Lite (M); Sony
+    WF-1000XM6 Wireless Noise Cancelling Headphones; Insta360 GO 3S Special Edition (64GB, Canvas White).
+    Terms: • A
+
+    pply for the card by 30th Sept 2026
+
+    • 
+
+    Spend a min. of S$800 in eligible transactions within 30 days from card approval date.
+
+    • Apply and get approval for either: EasyPay, Bonus$aver Account, CashOne Loan, Funds Transfer
+
+    • Submit your Claim Form by 30th Oct 2026'
+  url: https://www.moneysmart.sg/credit-cards/standard-chartered-simply-cash-credit-card
+  sources: ['moneysmart:eeee24fb93a9']
+notes:
+- 'T&C mentions (check whether excluded): axs, bill payment, cash advance, charit, education, government,
+  hospital, instalment, insurance premium, interest, late payment charge, tax, top-up, top-ups, utilit'
+citations:
+- id: singsaver:539a5fd39984
+  url: https://www.singsaver.com.sg/credit-card/products/standard-chartered-simply-cash-credit-card
+  title: Standard Chartered Simply Cash Credit Card
+  source_type: aggregator
+  retrieved_at: '2026-09-27T05:26:40+00:00'
+  sha256: 539a5fd39984f6687a3229e5429ed12510c3da3765a562caa028987901263c5e
+  snapshot: data/raw/singsaver/www-singsaver-com-sg-credit-card-products-standard-chartered-simply-cash-credit-card-7edd74d4.html
+- id: moneysmart:eeee24fb93a9
+  url: https://www.moneysmart.sg/credit-cards
+  title: Standard Chartered Simply Cash Credit Card
+  source_type: aggregator
+  retrieved_at: '2026-09-27T05:27:12+00:00'
+  sha256: eeee24fb93a9d85ef8b9194c11bda960b5b99ee30b3689cdc59fb650badebce7
+  snapshot: data/raw/moneysmart/credit-cards-p1-b55034ef.html
+- id: bank:7ff8e332cb5e
+  url: https://www.sc.com/content/dam/sc/sg/en/documents/sg-simply-cash-card-terms-and-conditions.pdf
+  source_type: official
+  retrieved_at: '2026-09-27T08:42:28+00:00'
+  sha256: 7ff8e332cb5ebb38cfe58b92214e481840e48a32114f6c25a5e701f8a67a616c
+  snapshot: data/raw/bank/www-sc-com-content-dam-sc-sg-en-documents-sg-simply-cash-card-terms-and-conditions-pdf-f47bb702.pdf
+- id: bank:2c6123a41433
+  url: https://www.sc.com/sg/terms-and-conditions/cc-retail-transaction-exclusions/
+  source_type: official
+  retrieved_at: '2026-09-27T08:42:30+00:00'
+  sha256: 2c6123a41433e3eb416cbb9cad5877c38d36aad2df7b0760b09d2f8324e5284a
+  snapshot: data/raw/bank/www-sc-com-sg-terms-and-conditions-cc-retail-transaction-exclusions-8f7a8c14.html
+review:
+  status: draft
+updated_at: '2026-09-27'

@@ -1,0 +1,1602 @@
+CITI CLEAR VISA/MASTERCARD®
+CARDMEMBER’S AGREEMENT
+Before you use the Citi Clear Visa/Mastercard, please read this agreement
+thoroughly. By signing on or using the card, you are accepting the terms and
+conditions of this agreement and will be bound by them. Your use of the card
+is governed by this agreement.
+1. DEFINITIONS
+1.1 When we use the following words in this agreement, they have the
+meanings as respectively set out below:-
+Alerts
+a service that allows Citibank to send you specific prompts in respect of
+certain information from time to time (whether requested or not by you), and
+such information includes but is not limited to account activity, transactions,
+and demographic updates. Some Alerts may only be sent according to your
+preference
+ATM
+an automated teller machine or card-operated machine, whether belonging
+to us or other participating banks or financial institutions or to the Visa or
+Mastercard Global ATM Network or their affiliated networks, which accepts
+the card
+Authority
+any competent regulatory, prosecuting, tax or governmental authority in any
+jurisdiction, domestic or foreign
+Business day
+refers to any day on which banks are open for business in Singapore other
+than Saturday, Sunday and gazetted public holidays in Singapore
+Card
+the Citi Clear Visa or Mastercard issued by us and a renewal or replacement
+Card account
+an account which you maintain with us in respect of the card
+Card transaction
+a transaction carried out whether by using the card, the card account
+number and/or the PIN or via TBS or otherwise, whether with or without
+your knowledge or authority (including a payment for any goods, services
+and/or benefits and a payment for any charitable purpose and any cash
+advance)
+Cash advance
+a disbursement of funds in any currency
+Citigroup, Inc.
+Citigroup, Inc., a corporation incorporated in the United States of America
+Citigroup Organisation
+any affiliate or subsidiary of Citigroup, Inc.
+Collected Amount
+an amount for or on account of, or which represents, withholding, income
+tax, value added tax, tax on the sale or disposition of any property, duties,
+or any other lawfully collected amount.
+Combined credit limit
+the maximum limit permitted by us, and communicated to you by us from
+time to time, in respect of which the total outstanding balance must not
+exceed at any time
+Communication
+includes all Alerts, notices, demands, requests, instructions, including
+without limitation, stop payment instructions (or cancellation thereof)
+in respect of any advice, statement of account, card, PIN and all other
+communication
+Current balance
+your total liabilities outstanding and owing to us at any given time in
+connection with your card account(s) and/or this agreement, including
+but not limited to all card transactions, interest, charges, fees, costs,
+billed instalments and expenses (including legal costs), whether actual or
+contingent and whether incurred now or in the future
+Equipment
+any electronic, wireless, communication, transmission or telecommunication
+equipment, device or medium, including without limitation, the Internet, any
+computer or mobile phone, equipment, device, terminal or system or otherwise
+1Instalment plans
+a payment plan under which the billing for goods and services and/or a
+loan is made by way of equal instalments over the applicable tenure,
+including any associated interest
+Law or Regulation
+the law or regulation of any jurisdiction, domestic or foreign, or any
+agreement entered into with or between Authorities
+Outstanding unbilled instalment amount
+the sum of any unbilled instalment principal amount under an instalment
+plan and any associated interest or fees
+Parent
+a parent or guardian (as the case may be) of a cardmember who is below
+21 years old
+Payment due date
+the date specified in the statement of account or where we are unable to
+send you a statement of account, such date that we may select by which
+payment of the current balance is to be received by us, and for the purpose
+of calculating interest
+Payment Infrastructure Provider
+a third party that forms part of the global payment system infrastructure,
+including without limitation communications, clearing or payment
+systems, intermediary banks and correspondent banks
+PIN
+Personal Identification Number issued by us to allow you to use the card
+at an ATM to obtain cash advances
+Points refers to Citi ThankYou Points or ThankYou Points earned on your
+Citi Clear Visa/Mastercard;
+Points Validity Period means a period of 12 months, by reference to which
+Points are calculated, but so that the first Points Validity Period shall
+commence on the date when the cardmember is entitled to participate
+in the Program and expire at the end of 12 months thereafter and each
+subsequent Points Validity Period will commence on the expiry of the
+previous one;
+Privacy Circular
+refers to the notification provided by us to explain the purposes for our
+collection, use and disclosure of personal data (as defined in the Personal
+Data Protection Act 2012 of Singapore), including amendments thereto
+Program means the Citi ThankYou Rewards Program
+Quasi-cash transactions
+are transactions representing a purchase of foreign currency or items
+(including but not limited to, gaming chips, money orders, lottery tickets,
+traveler’s cheques and precious metals) which may be convertible to cash,
+and may also include transactions such as the transfer of funds under a wire
+transfer money order, the funding of accounts and such other transactions
+as determined by the relevant card association from time to time
+Representatives
+our officers, directors, employees, agents, representatives, professional
+advisers and Third Party Service Providers
+Retail purchase means a purchase of any goods or services by the use
+of the card and may, at our reasonable discretion and with reasonable
+notice, include or exclude any card transaction as may be determined by
+us;
+Reward means any goods, services, benefits, arrangements or
+other privileges (including, without limitation, a waiver of annual
+cardmembership fees or a cash rebate), as may be determined by us in our
+reasonable discretion, which may be redeemed or obtained by the use of
+Points under Program.
+SMS
+Short message service provided by your mobile service provider which:
+(a) we may use to send any communication to your mobile phone at the
+mobile phone number provided by you to us and as may from time to
+time be updated by you; and
+(b) for you to give us instructions in respect of your card and/or card
+account in accordance with our prescribed procedure prevailing at that
+time from your mobile phone at the mobile phone number provided by
+you to us and as may from time to time be updated by you
+Statement of account
+a statement of account issued by us in respect of your card account
+2specifying the current balance and the minimum payment due for the
+specified period
+Third Party Service Provider
+a third party selected by us or any Citigroup Organisation or Representative to
+provide services and who is not a Payment Infrastructure Provider. Examples
+of Third Party Service Providers include technology service providers, business
+process outsourcing service providers and call centre service providers.
+Total outstanding balance
+sum of your current balance and any unbilled instalment principal amount
+Unbilled instalment principal amount
+Principal amount under an instalment plan less any billed instalment
+principal amount
+Valid signature
+your signature which is identical to the specimen signature on your
+application for the card furnished to us
+We, our, us
+Citibank Singapore Ltd and its successors and any novatee, assignee,
+transferee or purchaser of Citibank Singapore Ltd’s rights and/or
+obligations hereunder
+You, your, cardmember
+the person to whom the card is issued
+1.2 (a) “ TBS” and “TBS Access Code” have the same meanings as set out in the
+terms and conditions relating to Telephone Banking Service.
+(b) Unless the context otherwise requires, words referring to the singular
+number shall include the plural number and vice versa; and reference
+to a person includes reference to a sole proprietor, partnership firm and
+company.
+(c) We use headings in this agreement for ease of reference but this
+agreement is not to be interpreted by reference to the headings.
+2. THE CARD
+2.1 Collection of card
+When your application is approved by us, we may send you the card, and a
+renewal or replacement thereof, by ordinary post to the address we have
+on record for you. In the event you fail to receive the card and unauthorized
+transactions occur on the card account, you will not be liable for the
+balances arising there from provided you have not acted fraudulently or
+negligently. We are not liable to you for any loss or damage which you may
+suffer if you fail to receive the card.
+2.2 After receipt of card
+When you receive the card, you must immediately sign on the card. You are
+deemed to have accepted and agreed to this agreement when you retain
+or use the card.
+2.3 Return of card
+The card remains our property at all times. You must immediately return
+the card to us upon our request which we may make at any time in our
+reasonable discretion.
+3. CREDIT LIMIT
+3.1 Must not exceed credit limit
+Subject to clause 15.2, you must not use the card such that the total
+outstanding balance exceeds your credit limit.
+3.2 Calculating if credit limit exceeded
+In calculating whether the credit limit has been exceeded, we may take
+into account the amount of any card transaction which you have carried
+out but which has not been debited to your card account and any proposed
+card transaction for which we have given authorization to a third party.
+3.3 To pay excess if credit limit exceeded
+If you carry out any card transaction which results in the credit limit
+being exceeded, whether with or without our prior consent, you must
+immediately pay us the amount in excess of the credit limit in such manner
+and to such account as we may in our reasonable discretion direct and we
+may communicate this direction to you by any means we deem fit. We
+reserve the right, without prejudice to any of our rights or remedies, to
+terminate your card account with reasonable notice to you.
+4. FACILITIES AVAILABLE WITH THE CARD
+4.1 Use during validity period
+You may use the card to carry out card transactions during the validity
+period specified on the card.
+34.2 Operating card account via TBS
+We may, in our absolute discretion, issue without your request a TBS
+Access Code to allow you to operate your card account via TBS. Your use
+or operation of the TBS is subject to the terms and conditions relating to
+TBS then prevailing.
+4.3 Card transaction by mail / telephone / facsimile / electronic mail/ internet
+A request via mail, telephone, facsimile, electronic mail, internet or other means
+of communication to a merchant for the supply of goods and/or services to be
+charged to the card account, whether made or authorized by you and whether a
+sales draft, voucher or document is signed by you, is a valid card transaction and
+we will debit your card account with such card transaction.
+4.4 Cash advance within given limit
+You may obtain cash advances up to such limit as we may determine.
+4.5 Cash advance subject to fees and charges
+Each cash advance obtained is subject to the fees and charges calculated
+according to clause 10.
+4.6 Prohibited use of card
+(a) You must not use the card, and/or otherwise operate the card account
+to pay the current balance.
+(b) You shall not use and we will not permit the card to be used to effect any
+card transaction which would contravene the laws of any jurisdiction.
+5. ISSUANCE OF POINTS
+5.1 Under the Program, cardmembers will receive, on a monthly basis, Points
+which will be credited to his card account at the rate of 1 Point for every S$1
+charged to his card account for retail purchases:
+5.2 Points shall be calculated on the amount of each retail purchase
+transaction and rounded to the nearest Point. Any refunded retail charges
+from the pre-termination of any easy/ extended payment plans (EPP) will
+not be accredited Points. The bank will be entitled to claw back from the
+card account of a cardmember any Points already credited to such card
+account in respect of refunded retail purchases and refunded tax on retail
+purchases.
+5.3 In determining the amount of retail purchases for purposes of calculation of
+Points, the following transactions/charges shall not be taken into account
+and will not earn any Points:
+(i) annual fees, interest charges, late payment charges, GST, cash
+advances, instalment/easy/extended/equal payment plans, preferred
+payment plans, balance transfers, cash advances, quasi-cash
+transactions, all fees charged by Citibank or third party, miscellaneous
+charges imposed by Citibank (unless otherwise stated in writing by
+Citibank);
+(ii) funds transfers using the card as source of funds;
+(iii) bill payments (including via Citibank Online or via any other channel or
+agent);
+(iv) payments to educational institutions;
+(v) payments to government institutions and services (including but
+not limited to court cases, fines, bail and bonds, tax payment, postal
+services, parking lots and garages, intra-government purchases);
+(vi) payments to insurance companies (sales, underwriting, and
+premiums);
+(vii) payments to financial institutions (including banks and brokerages);
+(viii) payments to non-profit organizations;
+(ix) betting or gambling (including lottery tickets, casino gaming chips, off-
+track betting, and wagers at race tracks) through any channel;
+(x) any top-ups or payment of funds to payment service providers, prepaid
+cards and any prepaid accounts;
+(xi) transit-related transactions; and
+(xii) transactions performed at establishments/businesses/merchants
+that fall within an excluded Merchant Category or a merchant that has
+been excluded by the bank, as set out in
+(you acknowledge that this list of excluded Merchant Categories or
+merchants may be updated from time to time at our discretion and you
+agree to refer to this list for any updates);
+provided always that the bank is entitled, in its reasonable discretion, to
+take into account or disregard any card transaction or charges or retail
+purchase in the calculation of Points or to otherwise vary the basis of
+calculation of Points. Any Points earned from any of the above transactions
+will be debited.
+5.4 During each Points Validity Period, the cardmember will receive Points
+based on the amount of retail purchases made during that Points Validity
+Period and the cardmember may use the Points in their account to
+4redeem any Rewards at any time during that Points Validity Period. Points
+accumulated in any 1 Points Validity Period shall not be carried forward to
+subsequent Points Validity Period. Any Points which are not used as at the
+last day of a Points Validity Period shall be available for use for a further 1
+month; thereupon such unused Points shall be automatically cancelled
+and shall not thereafter be available for use by the cardmember nor be
+reinstated.
+5.5 The accumulation and usage of Points shall be specified in the monthly
+statement of account. Points are not transferable and not exchangeable
+for cash or credit.
+5.6 Points earned by a supplementary cardmember, if applicable, will be
+credited to the card account of the basic cardmember
+5.7 Cardmembers who wish to redeem their Points for cash rebates can only
+do so via channels approved by the bank. The rebate will be reflected as a
+credit in the statement of account and is not to be taken as a payment in
+reduction of the minimum payment due.
+5.8 If a cardmember terminates his card account, any accumulated Points shall
+be automatically forfeited; such Points shall not be transferable to any
+other card account.
+5.9 If the principal cardmember’s card account is terminated for any reason,
+whether by the principal cardmember or by Citibank, the principal
+cardmember and supplementary cardmember, if applicable, will forthwith
+be disqualified from participating in the Program and all Points then
+accumulated shall automatically be forfeited.
+5.10 If a supplementary card, if applicable, is terminated at any time for any
+reason, the principal cardmember will not be disqualified from participating
+in the Program.
+5.11 For the avoidance of doubt, in this clause, the terms “card” or “cards”
+refer to the card(s) which earns Points and the terms “cardmember” or
+“cardmembers” refer to the cardmember(s) of such card(s).
+6. AS THE CITI REBATE PROGRAM HAS CEASED, THIS CLAUSE HAS
+BEEN REMOVED
+7. OTHER CONDITIONS
+7.1 The bank is entitled in its reasonable discretion, at any time and from
+time to time with reasonable notice, to vary the Rewards or substitute any
+Reward with another of a similar value.
+7.2 The bank may at any time vary, modify or amend these terms and conditions
+as it may, in its reasonable discretion, think fit, and the cardmember shall
+be bound by such variations and amendments.
+7.3 Any abuse or fraud in respect of the issuance of Points, or redemption of
+Rewards (including any Points transfer to designated airlines’ programmes),
+may result in the cancellation of accrued Points, and any Rewards Voucher
+already issued.
+7.4 You will be entitled to participate in the Program if your card account is in
+good standing, as determined by us in our sole discretion.
+7.5 Without prejudice to any of the bank’s rights and remedies, the bank is
+entitled, at any time, in its reasonable discretion and with reasonable
+notice, to terminate the Program or withdraw, cancel or invalidate any
+Reward, and/or Points already issued.
+7.6 The bank is not liable if it is unable to perform its obligations under these
+terms and conditions, due directly or indirectly to the failure of any machine
+or communication system, industrial dispute, war, Act of God, or anything
+outside the control of the bank or its servants or agents. The bank shall not
+be responsible for any delay in the transmission to the bank of evidence of
+retail purchases by the participating merchants or any other third party.
+7.7 Save in the case of gross negligence or wilful default, the bank shall not be
+liable for any errors, delays, omissions in the performance of its obligations
+under these terms and conditions.
+7.8 The bank’s records of all matters relating to the Program are conclusive and
+binding on the cardmember. The bank is entitled, for any reason and at any
+time, without liability, to suspend the calculation or accrual of Points, to
+rectify any errors in the calculation, or otherwise adjust such calculation.
+7.9 The bank’s decision on all matters relating to the Program is final and
+binding on the cardmember.
+7.10 Any redemption of any Reward shall be governed by the Citi ThankYou
+Rewards Program Terms and Conditions as amended from time to time.
+58. STATEMENT OF ACCOUNT
+8.1 Sending periodic statement of account
+We will send you a statement of account on a monthly or other periodic
+basis as we deem fit but we may not send you a statement of account
+for any period during which your card account is inactive or has been
+terminated.
+8.2 Statement is conclusive and binding
+You must inspect and examine the statement of account and notify us of
+any irregularity or error in the statement of account within 10 days from
+the date of the statement of account, failing which the statement of
+account is conclusive evidence of your liability in respect of the amounts
+stated therein save for our manifest or clerical error, provided that we are
+entitled, at any time and without liability, to rectify any irregularity or error
+in the statement of account.
+9. PAYMENT
+9.1 Current balance debited to card account
+We will debit the current balance to your card account.
+9.2 Liability for current balance
+Without prejudice to clause 9.5, you are liable to pay the current balance shown
+on a statement of account to be outstanding as at the date of that statement of
+account. You may, however, pay less than the specified current balance but you
+must pay at least the minimum payment (calculated according to clause 9.3),
+which we must receive on or before the payment due date.
+9.3 Minimum Payment and Overlimit Amount
+Minimum Payment Amount
+Current Minimum Payment
+Balance
+S$0 to <S$25 Current Balance
+>=S$25 The minimum payment amount is specified in your
+statement of account and is computed by taking
+greater of –
+(a) (i) 1% of the current balance; plus
+(ii) 1% of any outstanding unbilled instalment
+amounts; plus
+(iii) all interest charges (including interest charged
+under our instalment plans); plus
+(iv) all upfront service fees for our instalment
+plans; plus
+(v) late payment charges;
+or
+(b) S$25;
+plus any overdue amounts.
+Overlimit Amount
+The overlimit amount is specified in your statement of account and refers
+to the balance (including any unbilled balances) in excess of your credit
+limit and must be paid immediately. The overlimit amount is in addition to
+the minimum payment amount.
+9.4 Pay interest and charges if current balance not paid in full
+If we do not receive the current balance specified in the statement of
+account in full on or before the payment due date, you must pay us the
+fees, interests and charges specified in clause 10.
+9.5 Pay total outstanding balance upon our demand
+Notwithstanding and without prejudice to any other terms and conditions
+of this agreement, you must pay within the period notified to you, total
+outstanding balance upon our demand which we may make at any time.
+9.6 Payment to be made in full
+You must pay us all sums due under this agreement in full without any
+deduction or withholding (whether in respect of set off, counterclaim, taxes,
+charges or otherwise) unless the deduction or withholding is required by law.
+If a deduction or withholding is required by law, you must immediately pay us
+an additional amount so that we receive an amount equal to the full amount
+which we would have received had no such deduction or withholding been
+made; and you must furnish us an official receipt of the relevant authority
+involved for all amounts so deducted or withheld.
+69.7 To pay GST
+Without prejudice to clause 9.6, you must pay, in addition to all other
+sums payable under this agreement, any goods and services tax (“GST”,
+which expression includes any tax of a similar nature that may be
+substituted for it or levied in addition to it by whatever name called) which
+may be imposed by law, in respect of any sums payable to or received or
+receivable by us or any expenses incurred by us in connection with this
+agreement (except to the extent prohibited by law); and we will debit the
+same to your card account.
+9.8 Payment in Singapore dollars
+You must pay us all sums due under this agreement in Singapore dollars.
+If we receive a payment in a currency other than Singapore dollars, we
+will convert it to Singapore dollars at such time and rate of exchange
+as we may in our reasonable discretion adopt in accordance with our
+usual practice. You must bear all exchange risks, and reasonably incurred
+losses, commission, fees and charges which may thereby arise.
+9.9 Transactions in Foreign Currencies and Transactions Processed Outside
+Singapore
+a. Foreign currency transactions
+(i) Card transactions (including online and overseas transactions)
+effected in US dollars will be converted into Singapore dollars.
+Card transactions effected in foreign currencies other than US
+dollars will be converted to US dollars before being converted
+into Singapore dollars, except for Australian dollars on Visa
+cards which will be converted into Singapore dollars directly. The
+conversion will take place on the date on which the transaction
+is received and recorded by us (“posting date”). The currency
+conversion will be based on our prevailing foreign exchange
+rate or an exchange rate determined by VISA or Mastercard
+International depending on whether the conversion is done by us,
+VISA or Mastercard International.
+(ii) In addition, the card transaction will be subject to an
+administrative fee of up to 3.25% on the converted Singapore
+dollar amount if processed by VISA or Mastercard International
+or such other rate(s) as determined by us and notified to you.
+b. Dynamic Currency Conversion
+(i) If your card transaction (including online and overseas
+transactions) is converted into Singapore dollars via dynamic
+currency conversion (a service offered at certain ATMs and
+merchants which allows a cardmember to convert a transaction
+denominated in a foreign currency to Singapore Dollars at the
+point of withdrawal/sale), you acknowledge that the process of
+conversion and the exchange rates applied will be determined
+by the relevant ATM operator, merchant or dynamic currency
+conversion service provider, as the case may be. You acknowledge
+that we do not determine whether a card transaction will be
+converted into Singapore dollars via dynamic currency conversion
+and, where your card transaction is for a retail purchase, you
+may have to check with the relevant merchant whether such
+conversion was done.
+(ii) In addition, the card transaction will be subject to an
+administrative fee of 1% levied by VISA/Mastercard International
+on the converted Singapore dollar amount if it is a VISA/
+Mastercard International card transaction.
+c. Singapore Dollars transactions processed outside Singapore
+If the Singapore Dollars card transaction (including online transactions)
+is effected:
+(i) with a local merchant whose payments are processed through an
+overseas intermediary; or
+(ii) with a merchant who is registered as an overseas merchant
+regardless of its actual location,
+such card transaction will be subject to an administrative fee of 1% on
+the transaction amount if the card transaction is processed by VISA/
+Mastercard International.
+This charges will be charged on card transactions including but not
+limited to any VISA/Mastercard International retail card transaction
+presented in foreign currency that you choose to pay in Singapore
+Dollars at point-of-sale via dynamic currency conversion or any online
+VISA/Mastercard International retail card transaction in Singapore
+Dollars which was processed outside Singapore. You may have to
+check with the relevant merchant whether such transaction was
+processed outside Singapore.
+79.10 Refund or credit
+We will be entitled to credit any account that you maintain with us
+(including any deposit account or other card account) with any refund
+in respect of any Card Transaction or any payment or other credit due
+to you at such time as we may determine in accordance with our usual
+practice after our receipt of the amount of such refund, payment or credit
+in Singapore. If such refund, payment or credit is received in a currency
+other than Singapore dollars, we will convert it to Singapore dollars at such
+time and rate of exchange as we may in our reasonable discretion adopt in
+accordance with our usual practice. If such refund, payment or credit is
+credited into any card account that you maintain with us, the same shall
+not be remitted to you unless we otherwise determine but shall be applied
+towards the full or partial discharge of any current balance on such card
+account.
+9.11 Payments to merchants
+You acknowledge and agree that:
+a. where any of your card transactions or the adding/provisioning of your
+card into any third party digital wallet has been authenticated by way
+of an OTP sent to your registered mobile number with us or to your
+Citi Mobile Token (where applicable) or by such other authentication
+methods as allowed by Citibank, any transactions so authenticated
+will be considered as authorised by you and you shall be liable for these
+card transactions and any card transactions made using the card
+so added/provisioned in the third party digital wallet. Accordingly,
+you agree to ensure that you will keep your OTP confidential and not
+disclose your OTP to anyone. The card transactions referred to above
+include transactions at 3DS merchants where “3DS” refers to the
+3-Domain Secure protocol which is used by banks to authenticate
+online card transactions. Cardmembers can recognize the participating
+3DS merchants by the logo of the 3DS schemes such as Visa’s Verified-
+by-Visa and MasterCard SecureCode; and
+b. (i) where you have stored your card-on-file with a merchant or
+otherwise provided your card details to a merchant for payment
+purposes (including recurring payments); or
+(ii) where you have added your card details to any digital checkout
+solution offered by a merchant/relevant card association
+(including but not limited to Click to Pay) for payment purposes;
+and your card details have been tokenized by the relevant card
+association in connection with the above, your card can continue
+to be used for payment to such merchants in accordance with your
+instructions to such merchants, even if your card has been renewed/
+replaced close to expiry or replaced due to it being damaged.
+Accordingly, you agree to be liable for these card transactions
+notwithstanding any change in the expiry date of your card. You
+acknowledge that you will need to check with your merchant/
+digital checkout solution provider whether your card details have
+been tokenized. If you do not wish for your card to be charged by the
+merchant as set out above, please contact the relevant merchant/
+digital checkout solution provider directly to remove your card details.
+10. INTEREST AND CHARGES
+10.1 If we do not receive your full payment of the current balance specified in
+the statement of account on or before the payment due date, you must
+pay daily interest at the rate of S$3.00 per month or 2.34% per month,
+whichever is the greater, on:-
+(a) the amount of each unpaid card transaction, or part thereof, listed
+in the current statement of account, from the date each such card
+transaction was effected until the date of the current statement of
+account; and
+(b) the current balance specified in the statement of account, from the
+date of the statement of account until the day before the date when we
+receive payment of the current balance (entirely or partly); and
+(c) the current balance specified in the statement of account less any
+partial payment, from the date of such partial payment to the date
+of the next statement of account or the date when we receive full
+payment of the current balance, whichever is the earlier; and
+(d) the amount of each card transaction debited to the card account
+after the date of the statement of account, from the date each such
+card transaction was effected until the date of the next statement
+of account or the date when we receive full payment of the current
+balance, whichever is the earlier.
+10.2 You must also pay:-
+8(a) Late payment charge
+a monthly late payment charge at a rate(s) determined by us and
+notified to you from time to time if we do not receive your full payment
+of the minimum payment amount specified in the statement of
+account on or before the payment due date; and
+(b) Annual fee
+a non-refundable annual fee; and
+(c) Card renewal/replacement fee
+a handling fee for the renewal or replacement of the card; and
+(d) Handling fee for dishonoured check/payment order
+a handling fee of S$25.00 if any check or other payment order tendered
+as payment to us is dishonoured for any reason; and
+(e) Fee for foreign currency payment
+a handling fee for any foreign currency payment tendered to us; and
+(f) Interest on cash advance and quasi-cash transactions
+interest calculated at the rate of 2.34% per month (subject to a
+minimum charge of S$3.00 per month) on each cash advance or quasi-
+cash transaction from the date of the cash advance or quasi-cash
+transaction, as the case may be, until we receive full payment; and
+(g) Cash advance fee
+a cash advance fee in respect of each cash advance you obtained
+calculated at the rate of S$15 or 8% of the amount drawn, whichever is
+higher; and
+(h) Administrative fee for production of documents
+an administrative fee for our production or copying at your request,
+calculated as follows :-
+Administrative fee
+Document
+Administrative
+sales draft:
+(i) current to 2 months old S$ 5.00
+(ii) more than 2 months to 1 year old S$ 15.00
+statement of account:
+(i) current to 2 months old S$ 0.00
+(ii) more than 2 months to 1 year old S$ 15.00
+(iii) more than 1 year to 5 years old S$ 30.00
+(iv) more than 5 years old S$100.00
+(i) Service charge/administrative fee
+a service charge or administrative fee for any service or facility provided
+by us or any action taken by us in carrying out any of your instructions
+and/or requests relating to your card account, whether such service or
+action is referred to or contemplated in this agreement or otherwise;
+and
+(j) Overlimit fee
+an overlimit fee of S$40 if the total outstanding balance on your
+account exceeds your credit limit.
+(k) Paper Statement fee
+a monthly fee of S$1 will be charged to your account for paper
+statements of account
+(l) Branch Service fee
+Service fee of S$10.90 (inclusive of 9% GST) is charged (on a per account
+basis) for each payment made to your Citi credit card account(s) over
+the counter at Citibank branches.
+10.3 Variation of interest and charges
+We are entitled, in our reasonable discretion, to vary or determine, at
+any time and from time to time, the amounts, rates, types and/or basis
+of calculation of all interests, fees and charges payable by you under
+this agreement after giving reasonable notice. Without prejudice to the
+foregoing, such notice of changes of interests, fees and charges may be
+contained in the statement of account, which shall be effective from such
+date as we may specify. We may debit the same to your card account and/
+or request that you pay the same on demand as we may deem fit.
+10.4 Payment of interest
+All interests and charges provided by this agreement to be payable by
+you are calculated on a 365/366 (leap year)-day year; and payable by you
+after as well as before judgment.
+11. PIN AND USE AT ATM
+11.1 Issue of PIN
+We may in our absolute discretion issue a PIN to you and/or permit you
+to select or change the PIN via TBS. We may send you the PIN by ordinary
+post at your sole risk.
+911.2 Not to disclose PIN
+You must not disclose the PIN and must take all care to prevent the PIN
+from being disclosed to any other person.
+11.3 Liability for all card transactions
+Subject to clause 12.3, you are liable for all card transactions effected by
+the use of the card at an ATM whether with or without your knowledge or
+authority, save in the case of our or our employees’ fraud, gross negligence
+or wilful default.
+11.4 Change/terminating use of PIN
+We are entitled at our reasonable discretion to change or terminate your
+use of the PIN at any time after giving reasonable notice.
+12. LOSS/THEFT/DISCLOSURE
+12.1 Duty to prevent loss, theft and fraud
+You must keep the card in a safe and secure place and ensure that the
+PIN and the TBS Access Code are not disclosed to any third party or kept
+with the card and you must take all steps and precaution to prevent any
+forgery, fraud, loss or theft in respect of or in relation to the card, the PIN
+and the TBS Access Code.
+12.2 Loss/theft/disclosure
+If your card is lost, stolen or used by any other person or your PIN and/ or
+TBS Access Code is disclosed to any other person, you must:-
+(a) immediately notify us; and
+(b) furnish to us a statutory declaration in such form as we will specify and/
+or a police report and/or any other information we may require.
+12.3 Liability for all card transactions
+You are liable for all unauthorized card transactions, whether they are
+effected as a result of the unauthorized use of the card, the PIN and/ or
+the TBS Access Code or otherwise. Notwithstanding the foregoing, your
+liability for all unauthorized transactions on your card which are effected
+prior to you notifying us shall be limited to S$100 provided:-
+(a) you have fully complied with clauses 12.1 and 12.2;
+(b) you assist in the investigations and recovery; and
+(c) we are satisfied that such unauthorized card transactions are not due
+to your negligence and that you have not acted fraudulently.
+12.4 Recovery of lost or stolen card
+If the lost or stolen card is recovered, you must immediately return to us
+the card cut in half without using it. You must not use the PIN and/ or the
+TBS Access Code after reporting to us that the PIN and/or the TBS Access
+Code has been disclosed to a third party.
+12.5 Issue of new card/PIN
+We may, in our absolute discretion, issue a replacement card or a new PIN
+upon such terms and conditions as we may deem fit.
+13. TERMINATION OF CARD ACCOUNT
+13.1 Your option to terminate
+You may terminate your card account if you:-
+(a) give us notice of termination; and
+(b) return to us the card cut in half; and
+(c) pay us the total outstanding balance in full (including the amount
+of any card transaction which you have carried out but which has
+not been debited to your card account before we receive your
+card), provided that such termination will only take effect after our
+receipt of the card and full payment of the total outstanding balance
+including any Collected Amount, interest, charges and fees due or
+funds required to be made by Law or Regulation.
+13.2 Our right of termination
+We are entitled in our reasonable discretion, at any time and after giving
+reasonable notice but without giving any reason and without any liability,
+to terminate your card account and/or to demand immediate payment of
+the total outstanding balance, whether or not you are in default of this
+agreement and whether or not the total outstanding balance is due. If we
+terminate your card account for any reason, you must:-
+(a) immediately return to us the card cut in half; and
+(b) pay the total outstanding balance in full (including such card
+transaction which you have carried out but which has not been debited
+to your card account before we receive your card).
+13.3 Our rights not prejudiced
+Our rights and remedies shall not be determined, affected or prejudiced
+by, and the total outstanding balance shall immediately become due and
+payable in the event of your bankruptcy, insanity, death or other legal
+disability, and you or your representative shall be bound to immediately
+return to us the card cut in half, and pay the total outstanding balance
+10in full (including all liabilities incurred by you or notified to us after such
+occurrence of any of the foregoing events).
+13.4 Obligations continue
+We will not refund you the annual or other fees in respect of your card
+account in the event of the termination of the card account by either party
+and your obligations and liabilities under this agreement will continue
+notwithstanding the termination of your card account by either party for
+any reason.
+14. CARDMEMBER BELOW 21 YEARS OLD
+The following provisions are applicable if the cardmember is below 21
+years old on the date the cardemmber accepts and agrees to the terms
+and conditions of this agreement.
+14.1 Consent of parent
+(a) In allowing the cardmember to sign on or use the card, the parent
+consents and agrees to a card account being opened for and the
+card being issued to the cardmember until the said card account is
+terminated, upon the terms and conditions of this agreement.
+(b) Without prejudice to the generality of this clause, the parent expressly
+consents and agrees, on behalf of the cardmember, to the release,
+disclosure and/or other use of information relating to the cardmember
+as set out in clause 13 of this agreement.
+14.2 Communication and Service of Documents
+The provisions of clause 14 of this agreement shall apply to the parent,
+where appropriate.
+15. DISCRETION
+15.1 May not allow card transactions
+Without prejudice to any of our rights and remedies, we are entitled to,
+at any time in our reasonable discretion and without giving any reason or
+notice, refuse to approve any proposed card transaction notwithstanding
+that the total outstanding balance, if the proposed card transaction was
+debited to the card account, would not have exceeded the credit limit.
+15.2 Allowing total outstanding balance to exceed credit limit
+Without prejudice and notwithstanding the other provisions of this
+agreement, we may:
+(a) allow or approve any card transaction; and
+(b) impose such fees and charges, even if such action will result in the total
+outstanding balance exceeding the credit limit.
+15.3 Suspension of card account
+Notwithstanding and without prejudice to the other provisions of this
+agreement, we are entitled at any time in our absolute discretion from a
+risk management perspective and if required by the relevant authority
+or under any Law or Regulation, without notice to you and without giving
+any reason, suspend your right to use the card entirely or in respect of
+specified facilities.
+15.4 Discretion in relation to card/facilities
+Notwithstanding and without prejudice to the other provisions of this
+agreement, we are entitled to, at any time in our reasonable discretion
+with notice and without giving any reason :-
+(a) increase or decrease the credit limit; and/or
+(b) refuse to re-issue, renew or replace the card; and/or
+(c) introduce, amend, vary, terminate or withdraw all or any of the
+benefits, services, facilities and privileges in respect of or in
+connection with your card account and your being a cardmember
+(e.g. preferential interest rate balance transfer programs,
+instalment plans, exclusive invitations to events, access to health,
+travel, credit balance repayment insurance offered in collaboration
+with key insurance companies) whether specifically relating to
+you or generally to all cardmembers. Updated information on the
+benefits, services, facilities and privileges will be provided by us via
+such means as we deem appropriate including via our online portal
+.
+15.5 Change of card account number
+(a) We may at your request or at any time without incurring any liability
+or giving any reason, and upon giving you notice, change your card
+account number; and issue a replacement card; and transfer the total
+outstanding balance and all credits (if any) from your original card
+account to the new card account. After we have given you such notice,
+you must immediately return to us the card cut in half.
+(b) Your obligations and liabilities under this agreement will not be affected
+or prejudiced by such change of your card account and this agreement.
+You may be required to re-establish your direct debit authorizations /
+11GIRO instructions by providing your new card account number to the
+relevant billing organization and/or by providing updated instructions
+to us as we may require. In such instances, Citibank will not be liable
+for any damage, loss, claims which may arise from your failure to do the
+above.
+15.6 Discretion to handle credit balance in card account
+We shall be entitled to pay the credit balance (if any) on the card account
+to the basic cardmember (or to the basic cardmember’s executor(s) or
+administrator(s) in the event of the basic cardmember’s death) and shall
+not be obligated to enquire about the beneficial rights to such funds.
+Without prejudice to the generality of the foregoing and subject to clause
+18.2, if the credit balance on the card account is at any time more than
+S$30,000 (or such other amount as we may from time to time in our
+discretion determine), we shall be entitled to:
+(i) transfer all or any part of such credit balance on the card account by
+way of funds transfer to any of the basic cardmember’s account(s) with
+us, including banking account(s), provided that if any account(s) that
+the basic cardmember has an outstanding balance(s), such funds will
+be applied to set-off such outstanding balance(s) first; or
+(ii) pay all or any part of such credit balance by such mode as we determine
+appropriate including by way of cheque or cashier’s order to the basic
+cardmember.
+15.7 Wrongful credit
+Notwithstanding any statements of account or notices sent by us to
+you, we have the right, in our reasonable discretion, to reverse any entry,
+demand refund of and/or debit your card account in respect of any
+overpayment or wrongful credit into your card account.
+16. RELEASE OF INFORMATION
+16.1 Disclosing information relating to you
+We may, whenever we consider it in our interest, at any time and without
+liability to you, whether before or after termination of your Card account,
+disclose any information relating to you or any Card transaction or your
+Card account or any other account which you may have with us (including
+information we obtain from third parties such as any credit bureau
+recognized by the Monetary Authority of Singapore (“MAS”) under or
+pursuant to the Banking Act (Chapter 19)), to any third party as we may
+deem fit at our reasonable discretion, including, without prejudice to
+the generality of the foregoing, Citibank, N.A.’s branches, subsidiaries
+and affiliates worldwide, our servants, agents, correspondents, and/or
+independent contractors; any person authorized by you to operate your
+Card account; any person involved in facilitating, effecting, processing
+or providing any facilities or services in respect of or in connection
+with your Card account and/or this agreement; any merchant, bank
+or financial institution; any government agency, statutory board or
+authority in Singapore or elsewhere; and any other person to whom we
+consider it in our interest to make such disclosure. Without prejudice to
+the generality of the foregoing, where we are a member of, or subscriber
+for the information sharing services of, any credit bureau recognized by
+the MAS under or pursuant to the Banking Act (Chapter 19), you expressly
+authorize:-
+(a) us to transfer and disclose to any such credit bureau; and
+(b) any such bureau to transfer and disclose to any fellow member or
+subscriber as may be recognized as such by MAS, any information
+relating to you and/or your Card account and/or any other account
+which you may have with us (and for such purposes) as may be
+permitted under of pursuant to the Banking Act (Chapter 19).
+16.2 Permission for disclosure/Privacy
+You agree that your signing of the card application form shall constitute
+your written permission for any such disclosure for the purposes of
+Section 47 and the Third Schedule of the Banking Act (Chapter 19) or for
+any other disclosure required by Law or Regulation.
+You agree to the terms of, and that we may collect, use and disclose
+personal data in the manner and for the purposes as described in the
+Privacy Circular, which is deemed to be incorporated by reference into this
+clause 16.2. Further, if you are a foreign national/resident and where a data
+privacy circular applicable to your country of nationality/residency has
+been prepared by Citi (whether now or in the future) to address applicable
+data privacy requirements, you acknowledge that you agree to the terms
+of such data privacy circular as set out in the Citibank Singapore Website
+(Website Footer > Privacy) which may be updated by Citi from time to time.
+For the purpose of complying with applicable Law or Regulation, you
+agree to waive any bank secrecy, privacy or data protection rights related
+to your card account.
+1217. COMMUNICATION AND SERVICE OF DOCUMENTS
+17.1 Sending communication to you
+(a) We may send all communication to you by leaving it at, or by
+sending it by ordinary post to, your last known address (whether
+within or outside Singapore and whether such address is a Post
+Office Box or is a place of residence or business) or by facsimile
+transmission to your facsimile number as may be provided to us or
+to our solicitors. Notwithstanding the above, we may also contact
+you via telephone, electronic mail, short message service provided
+by telecommunications providers, or such other means, to provide
+you with account related information (including informing you about
+your account payment status). You shall inform us upon receipt of
+communication that is garbled, incomplete or inaccurate or which is
+not intended for you and you agree to delete all such information from
+your equipment immediately
+(b) You acknowledge that we will send Alerts to you via email and/or
+SMS and/or push notification to an email address and/or mobile
+number as provided by you (according to your Alerts preference), in
+real time or on a batched basis, and that in addition to the duties set
+out at Clause 22.8(b) below, you acknowledge and agree that:
+(i) you will provide updated and accurate account contact details
+for us to send you Alerts (in accordance with your Alerts
+preferences);
+(ii) you shall enable and monitor Alerts;
+(iii) your receipt of Alerts is subject to other conditions not within
+our control including whether your internet and/or mobile
+phone operator is able to support the service;
+(iv) We will not be liable for any loss damage suffered or incurred
+by you arising from or in connection with your failure to comply
+with any of your duties in relation to these Alerts or your failure
+to receive any Alerts.
+(v) We will not be liable for or any failure, suspension, cessation,
+delay, disruption, errors, defects or fault in third party
+equipment, software, hardware, Internet, Internet browsers,
+online networks, Internet service providers, telecommunication
+service providers or other service providers, telecommunication,
+computer or other electronic equipment or system.
+17.2 When communication deemed to be received by you
+All communication is deemed to have been received by you on the date of
+delivery if it is delivered by hand; or on the date immediately after the date
+of posting if it is sent by post (notwithstanding that it may be returned
+to us undelivered); or at the time of transmission if sent by facsimile
+transmission, electronic mail and/or SMS.
+17.3 Communication to us
+(a) Unless otherwise provided in this agreement, all communication,
+requests and instructions from you may be personally delivered to us
+in writing; or sent by registered post, electronic mail or SMS to us in
+accordance with our prescribed verification procedure prevailing at the
+time.
+(b) Notwithstanding the aforesaid, we are entitled in our absolute
+discretion to rely and act on any communication, which we in our
+sole discretion believe to have been given, made or authorized by you,
+whether or not given with your consent or authority and whether it
+is given or made orally (whether in person or over the telephone and
+whether or not via TBS); or by facsimile transmission , telex , cable
+electronic mail or SMS; or by other means of communication; and any
+act on our part pursuant to such communication, will be binding on you
+notwithstanding that it may not have been given by you or with your
+consent or authority.
+(c) We may in good faith and without any liability to you, regard any
+communication given by you which are referable to you in accordance
+with our prescribed verification procedure prevailing at that time
+as authentic and duly authorised and shall be under no obligation
+to investigate the authenticity or authority of persons sending or
+purporting to send the communication or to verify the accuracy and
+completeness thereof. We may, at our discretion, provide for additional
+security measures or verification procedures, including but not limited
+to, specific electronic mail and/or SMS confirmatory authorisation. The
+communication given by you to us shall be deemed to be irrevocable
+and binding on you notwithstanding that they may be given in error,
+lack clarity or reasonably capable of being misunderstood inaccurate
+or incomplete. You shall inform us immediately upon your awareness
+of and/or knowledge of any communication which is unauthorised,
+given in error, forged, fraudulent, unclear or reasonably capable of
+being misunderstood, garbled, inaccurate or incomplete and rectify
+the same promptly.
+13(d) Unless otherwise provided in this agreement, all communication
+from you will take effect only after one (1) business day or such other
+period as determined in our reasonable discretion after the actual
+receipt by our relevant officers in charge of the subject matter of such
+communication.
+(e) We will not be liable for any loss or damage suffered or incurred by you
+howsoever or whatsoever arising from or in connection with:
+(i) any use of electronic mail or SMS services; or
+(ii) any failure to follow prevailing instructions, procedures,
+form and directions prescribed by us for the provision of any
+communication to us; or
+(iii) any failure to use electronic mail services and/or SMS procedures
+or forms which are prescribed by us; or
+(iv) any failure, suspension, interruption, cessation, delay, disruption,
+errors, defects or fault in third party equipment, software,
+hardware, Internet, Internet browsers, online networks, Internet
+service providers, telecommunication service providers or
+other service providers, telecommunication, computer or other
+electronic equipment or system; or
+(v) any failure, suspension, interruption, cessation, delay, disruption,
+errors, defects or fault in the transmission of communication to us
+or authorizations or acknowledgements from us or any wrongful
+interception of any communication through any online networks,
+Internet service providers, telecommunication service providers
+or other service providers, telecommunication, computer or
+other electronic equipment or system whether or not owned,
+operated or maintained by you, us or any other person beyond our
+reasonable control; or
+(vi) any delay or refusal by us, in our reasonable discretion, to execute
+any communication that may be validly be given by you or
+authenticated by you including for reasons due to applicable law;
+or
+(vii) any capacity inadequacies, network vulnerabilities, control
+weaknesses, security shortcomings, malicious attacks and
+hacking incidents (except in the case of our fraud, gross
+negligence or wilful default); or
+(viii) any corruption or loss of any data or communication stored in
+any equipment or in the course of transmission thereof through
+online networks, Internet service providers, telecommunication
+service providers or other service providers, telecommunication,
+computer or other electronic equipment or system including
+any errors generated in the transmission of any communication
+beyond our reasonable control; or
+(ix) our failure to acknowledge any communication sent by you to us;
+or
+(x) your provision of wrong or inaccurate information including your
+mailing address, electronic mail address or mobile phone number
+to us or your failure to update us of any change or proposed
+change in your electronic mail address or mobile phone number;
+or
+(xi) your failure to regularly check for correspondence from us in
+accordance with clause 17.1.
+17.4 Notify changes of particulars
+You must notify us promptly if:-
+(a) you intend to reside outside Singapore; and/or
+(b) there is any change or proposed change in the particulars which you
+have given to us (including but not limited to your name, identification
+numbers, mailing, home, electronic mail or office address, your home,
+office, facsimile, telephone number including mobile phone number,
+and your employment), and you must immediately provide us with any
+or other information and documents as we may require from time to
+time in our absolute discretion.
+17.5 Service of legal process
+(a) We may serve a writ of summons, statement of claim or other legal
+process or any other document requiring personal service in respect
+of any action or proceedings under this agreement on you by leaving
+it at, or sending it by pre-paid airmail, local ordinary post or local
+registered post to, your last known address (whether within or outside
+Singapore and whether such address is a Post Office Box or is a place
+of residence or business), or by telex, facsimile or electronic mail to your
+telex, facsimile or electronic mail address as may be provided to us or to
+our solicitors. Nothing in this clause shall affect our right to serve legal
+process in any other manner permitted by law.
+(b) Such legal process or document shall be deemed to have been duly
+served on you on the day it was personally delivered or transmitted
+14by telex, facsimile or electronic mail or if sent by post, on the day
+immediately after the posting, notwithstanding that it may be returned
+to us undelivered.
+17.6 Miscellaneous
+Notwithstanding anything in this agreement, all communication from us
+may be sent to your electronic mail address or mobile phone number as
+provided by you to us. You represent that you are the registered owner on
+record of the electronic mail address or mobile phone number that you
+have provided to us.
+17.7 Other Products and Services
+As our customer, you have access to a suite of financial products and
+services availed by ourselves, our affiliates and strategic partners
+designed to help you address and achieve your financial needs and goals.
+You agree that you can obtain information about such Products and
+Services via our website and you further agree that
+we can from time to time communicate information in relation to such
+Products or Services to you specifically or generally to all cardmembers
+via such communication mode as we consider appropriate.
+“Products” refers to products which we may make available to you from
+time to time, including but not limited to those products listed under
+the general section in the Citibank Singapore Global Consumer Banking
+Terms and Conditions entitled “PRODUCTS” and as set out in our online
+portal .
+“Services” refers to the services which we may make available to you
+from time to time, including but not limited to those services listed under
+the general section in the Citibank Singapore Global Consumer Banking
+Terms and Conditions entitled “SERVICES” and as set out in our online
+portal .
+18. APPROPRIATION OF PAYMENT/RIGHT OF SET-OFF
+18.1 Right of appropriation
+(a) We shall be entitled in our reasonable discretion to apply and
+appropriate all payments received by us in such a manner or order of
+priority as we may deem fit, notwithstanding any specific appropriation
+of such sums by you or any person making such payment. Without
+prejudice to the generality of the foregoing, we may apply payments
+received by us in the following order of priority:
+(i) all billed but unpaid interest, fees and charges;
+(ii) all unpaid balance transfer balances, cash advances, instalment
+plans, card transactions shown in any previous statements of
+account;
+(iii) all unpaid balance transfer balances, cash advances, instalment
+plans, card transactions shown in the current statement of
+account; and
+(iv) all unpaid balance transfer balances, cash advances, instalment
+plans, card transactions not yet included in any statement of
+account.
+(b) For each category of unpaid balances referred to in each of sub-clauses
+18.1(a)(ii), (iii) and (iv):
+(i) the balances with the highest applicable interest rate will be
+repaid in priority to the other balances within such category; and
+(ii) where the interest rate applicable to any unpaid balance transfer
+balances within such category is the same, payments received
+by us will reduce the balances transferred under the latest fund
+transfer program (after it has been reflected in your statement
+of account) first, notwithstanding that you may have unpaid
+balance transfer balances from earlier fund transfer programs.
+18.2 Right of set-off
+(a) We may at any time and from time to time and without liability in any
+way to you, combine or consolidate any one or more accounts which
+you may have with us and set-off or apply any monies standing to
+the credit of such accounts in or towards the discharge of the current
+balance or vice versa.
+(b) Where such combination, consolidation and/or set-off requires the
+conversion of one currency into another, we are entitled to effect
+such conversion at such time and rate of exchange in accordance with
+our usual practice and you must bear all exchange risks, reasonably
+incurred losses, commission and other bank charges which may
+thereby arise.
+19. EXCLUSION OF LIABILITY
+19.1 Goods/services supplied by merchant
+You will not hold us responsible for goods or services supplied by any
+15merchant or the quality or performance of any goods or services pursuant
+to or in relation to any card transaction. If you have any complaint against
+any merchant (including but not limited to any claims that the merchant
+had coerced or pressured you to perform the card transaction), you shall
+resolve such dispute with the merchant; your liability owing to us will not
+be affected by such dispute or any counterclaim or right of set-off which
+you may have against such merchant. Your rights under this agreement
+are not to be assigned or otherwise disposed of.
+19.2 Card not accepted by merchant
+You will not hold us liable in any way and you will have no claims against us
+if the card is not accepted or honoured by any merchant, bank, financial
+institution or any other person for any reason.
+19.3 Loss/damage in connection with your card account
+Save where expressly provided in this agreement, we are not liable to you
+for any loss, damage, inconvenience, embarrassment, cost and expense
+of any nature which in any way may be suffered or incurred by you or by any
+other person in respect of or in connection with your card account and/or
+this agreement, any repossession of the card or any request for its return;
+any malfunction or failure of any machine or system of authorization or
+transmission link or ATM; any damage or loss of the card; or any inability to
+retrieve any data or information that may be stored in the card howsoever
+caused.
+19.4 Inability to perform our obligations
+We are not liable if we are unable to perform our obligations under this
+agreement, due directly or indirectly to the failure of any machine or
+communication system, defect or damage of the card except in the case of
+our fraud, gross negligence or wilful default, industrial dispute, war, Act of
+God, or anything outside our control or the control of our Representatives.
+If we are unable to produce or send a statement of account to you for any
+reason whatsoever, we are not liable to you in any way and your liabilities
+and obligations under this agreement will not be prejudiced and will
+continue to accrue.
+19.5 Act or default of agents/contractors
+You agree that we have the discretion to use such agents, contractors or
+correspondents as we deem fit to carry out or procure any of the matters
+or transactions governed by or contemplated in this agreement, and save
+where expressly provided in this agreement we are not liable to you for any
+act, omission or neglect on the part of such agents, contractors and/or
+correspondents.
+20. INDEMNITY
+20.1 Compensate us for loss/damage
+You will compensate us and hold us harmless against any loss, damage,
+liability, cost and expense (including legal costs) which we may reasonably
+incur or suffer as a result of or in connection with your card account and/
+or this agreement, including without prejudice to the generality of the
+foregoing:
+(a) your breach of any of your obligations under this agreement;
+(b) the actual or attempted enforcement or protection of any of our rights
+and remedies against you; and/or
+(c) any change in any law, regulation or official directive which has an
+effect on the card, the card account and/or this agreement, and the
+same may be debited to your card account and/or shall be paid by you
+on demand.
+21. RECURRING/INSTALMENT PAYMENTS
+21.1 Authorization and payment
+If you use the card to purchase goods or services by instalments or to
+make payments on a recurring basis, you thereby authorize us to pay such
+instalments for you as they become due and you agree to make payment
+for each such instalment when we debit the same to your card account.
+21.2 Automatic transfer to new card account
+If you are issued with a replacement card with a different card number,
+you will need to re-establish any recurring payment instructions
+you have with your respective billing organization(s) to avoid any
+disruption to your bill payments and/or lapses in your policies (where
+applicable) and we will not be liable for any loss or damages incurred
+by you in connection with your failure to do such update. Further, if
+your recurring payment instruction is with a Specified Organisation
+named in , you agree that
+we may, but are not obliged to, automatically charge your bills to such
+replacement card.
+1621.3 Suspension/Termination of account
+If your right to use the card is suspended or your card account is
+terminated, we may at our option and without prejudice to any of our
+rights and remedies, stop paying the said instalments for you, or bill the
+aggregate sum of the remaining instalments to you forthwith.
+21.4 Other terms and conditions
+You also agree to be bound by any other specific terms and conditions
+governing such recurring/instalment payment scheme. In the event
+of conflict, such specific terms and conditions are to prevail over the
+provisions of this clause but only to the extent necessary to give full effect
+to those terms and conditions.
+22. GENERAL
+22.1 Change of agreement
+(a) We may at any time vary, modify, add to or delete the terms and
+conditions of this agreement and the Privacy Circular and we will notify
+you of any such changes in such manner as we may, in our reasonable
+discretion, deem fit.
+(b) If you do not accept such changes, you may terminate your card
+account in accordance with clause 13 within 10 days after we have
+given such notice of change.
+(c) If you retain or use the card or the PIN or otherwise operate the card
+account after we have given such notice of change, you will be deemed
+to have accepted such changes without reservation.
+22.2 Rights are cumulative
+The rights and remedies provided in this agreement are cumulative and
+not exclusive of any other rights or remedies (whether provided by law
+or otherwise).
+22.3 No waiver of our rights
+(a) No failure on our part to exercise and no delay on our part in exercising
+any right or remedy under this agreement will operate as a waiver of
+such right or remedy, nor will any single or partial exercise of any right or
+remedy preclude any other or further exercise of such right or remedy or
+the exercise of any other right or remedy.
+(b) Any waiver by us of our rights or remedies in respect of any term of this
+agreement or any breach of this agreement on your part must be in
+writing and may be given subject to such terms and conditions as we
+may deem fit and is effective only in the instance and for the purpose
+for which it is given.
+22.4 Use of artificial intelligence or data analytics
+You acknowledge that we may use artificial intelligence or data analytics
+(i.e. technologies that assist or replace human decision-making) whilst
+providing products and services to you, for purposes including but not
+limited to risk assessment, statistical, trend analysis and planning; and to
+make decisions, provide, operate, process and administer your accounts
+and services with us.
+22.5 Record is conclusive and binding
+Our records (including computer and microfilm stored records or any
+other electronic records stored by us) of all matters relating to you, any
+card transaction, your card and/or your card account and/or yourself
+is conclusive evidence of such matters and is binding against you for all
+purposes, save for manifest or clerical error, subject to our right to rectify
+any error or omission therein and our right to adduce other evidence. You
+hereby agree not to at any time dispute the authenticity or accuracy of
+any computer output relied upon by us for any purpose whatsoever. We
+may, in our absolute discretion, destroy any document relating to any
+card transaction or your card account after microfilming or otherwise
+recording the same in such manner as we may deem fit as well as to
+destroy such microfilm and records(including any electronic records) at
+any time.
+22.6 Provisions are severable
+Each of the terms and conditions of this agreement is severable and
+distinct from one another and if at any time any one or more of the terms
+and conditions of this agreement or any part thereof is or becomes invalid,
+illegal or unenforceable, the validity, legality or enforceability of the
+remaining provisions will not thereby be affected or impaired in any way.
+22.7 Recording telephone calls
+You consent to our recording of your telephone calls with us (whether
+made via TBS or otherwise) and for such recordings to be used for any
+purpose as we deem fit including to provide evidence of instructions
+and other verbal communications, for quality and training purposes, as
+evidence in any proceedings against you or any other person.
+1722.8 Bound by other terms and conditions
+(a) You agree to be bound by all terms and conditions (“Other Terms
+and Conditions”) governing the use of such facilities, benefits or
+services, which may from time to time be made available to you by us
+in connection with your card account, as the same may be amended
+or varied and notified to you from time to time. If there is any conflict
+between this agreement and the Other Terms and Conditions
+(including but not limited to the Telephone Banking Service Terms
+and Conditions), then subject to clause 19.3 the former will prevail and
+apply and the latter will be deemed to be modified so far only as it is
+necessary to give effect to the provisions of this agreement. Unless
+otherwise provided by this agreement, nothing in this agreement will
+affect the validity and enforceability of our rights or remedies under
+the Other Terms and Conditions which will continue to apply. For the
+purposes of this clause, “Alerts” refer to notification alerts for outgoing
+payment transactions, activation of digital security token (which
+includes our Citi Mobile App with enhanced security) and the conduct
+of high-risk activities made from your card account, where the context
+applies.
+(b) You agree to observe the duties imposed on you under the E-Payments
+User Protection Guidelines (“Guidelines”) issued by the Monetary
+Authority of Singapore in connection with your card account, which
+include but are not limited to the following:
+(i) providing updated and accurate account contact details
+(including mobile phone number and email address) for us to send
+you Alerts (in accordance with your alert preferences) in real time
+or on a batched basis;
+(ii) enabling and monitoring Alerts. In this regard, the Guidelines
+state that it is your responsibility to enable notification alerts on
+any device used to receive notification alerts from the responsible
+financial institution, to opt to receive all notification alerts via
+SMS, email or in-app/push notifications for all outgoing payment
+transactions of (any amount that is above the transaction
+notification threshold), activation of digital security token (which
+includes our Citi Mobile App with enhanced security) and the
+conduct of high-risk activities made from your card account, and
+to monitor the notification alerts sent to you. You acknowledge
+that we may assume that you will monitor such notification alerts
+without further reminders or repeat notifications. All reference to
+“high-risk activities” in this clause refer to the definition under the
+Guidelines;
+(iii) (aa) not voluntarily disclosing your card account access codes
+to a third party (including our staff), (bb) not disclosing your card
+account access codes in a recognizable way, (cc) not keeping a
+record of your card account access codes in a way that allows a
+third party to easily misuse your card account access code. All
+references to access codes in this clause refer to the definition
+under the Guidelines;
+(iv) protecting your login credentials to your card account, where
+login credentials include your login ID, access code, PIN/
+password, OTP or other credentials that are used to authenticate
+your identity;
+(v) where you use a device to access your card account, you should
+(aa) download our Citi Mobile App only from official sources such
+as Apple App Store or Google Play Store; (bb) update the device’s
+browser to the latest version available; (cc) patch the device’s
+operating systems with regular security updates provided by
+the operating system provider; (dd) install and maintain the
+latest anti-virus software on the device, where applicable and
+(ee) use strong passwords, such as a mixture of letters, numbers
+and symbols or strong authentication methods made available
+by the device provider such as facial recognition or fingerprint
+authentication methods; (ff) not root or jailbreak the devices
+used; (gg) not download and install applications from third-party
+websites outside official sources (i.e. sideload apps), in particular
+unverified applications which request device permissions that
+are unrelated to their intended functionalities;
+(vi) reading content sent with access codes before completing
+payment transactions or high-risk activities. Examples include
+content sent with OTPs sent via SMS or equivalent push
+notifications via the Citi Mobile App;
+(vii) referring to official sources to obtain our Citibank website address
+and phone number such as the MAS Financial Institutions
+Directory, our Citi Mobile App or the back of your card and to
+contact us using only the contact details obtained from official
+sources;
+(viii) not clicking on links or scan QR codes purportedly sent by us
+unless you are expecting to receive information on our products
+and services via these links or QR codes. You acknowledge that
+we would not send you links or QR codes which directly result you
+18in providing us any access code or to make a payment transaction
+or high-risk activity;
+(ix) reading the risk warning messages sent by us and not to perform
+any high-risk activities unless you understand the risk and
+implications of doing so. You agree that by proceeding to perform
+the high-risk activities, you have read and understood the risks
+and implications as presented by us;
+(x) reporting any unauthorized activity to us (via the available
+reporting channels) as soon as practicable, and no later than 30
+days after receipt of any Alert for any unauthorized activity on
+your card account (e.g. transactions, high-risk activities, and
+the activation of a digital security token (which includes our Citi
+Mobile App with enhanced security), that has not been initiated
+by you or with your consent). Where such reporting is delayed, to
+provide us with reasons for the delayed report;
+(xi) activating our Kill Switch feature on the Citi Mobile App promptly
+to block further mobile and online access to your card account
+as soon as practicable after you are notified of any unauthorised
+transactions and have reason to believe that your card account
+has been compromised, or if you are unable to contact us;
+(xii) providing us with information, upon our request, on any
+unauthorized transactions within a reasonable time. As set out
+in the Guidelines, information that may be requested will include
+(aa) how you recorded your card account access codes and
+whether you had disclosed your card account access codes to
+anyone; (bb) a description of the scam incident, including details
+of the communications with the suspected scammer(s); (cc)
+details of the remote software downloaded (if any) as instructed
+by the scammer(s); (dd) whether you had received any OTPs and/
+or transaction notifications sent by us, and where applicable/
+possible a confirmation from telecommunication operators to
+verify the receipt status only if you are able to obtain it; and (ee)
+suspected compromised applications (if any) in your device; and
+(xiii) making a police report as soon as practicable if requested by us
+in order to facilitate our claims investigation process and provide
+that to us within 3 calendar days of our request. You further agree
+to cooperate with the Police and provide evidence (for example,
+you can furnish your mobile device to the Police for forensics
+investigation) as far as practicable.
+For the purposes of clause 22.8(b) and (c), unauthorized activity
+includes an “unauthorized transaction” which in relation to your card
+account, means any payment transaction initiated by any person
+without your actual or imputed knowledge and implied or express
+consent. This includes “seemingly authorized transactions” as defined
+in the Guidelines to the Shared Responsibility Framework issued by the
+MAS and the Infocomm Media Development Authority of Singapore.
+For the purposes of clause 22.8(b) and (c), “payment transaction”
+means the placing, transfer or withdrawal of money, whether for the
+purpose of paying for goods or services or any other purpose; and
+regardless of whether the intended recipient of the money is entitled
+to the money, where the placing, transfer or withdrawal of money is
+initiated through electronic means and where the money is received
+through electronic means.
+(c) You acknowledge that:
+(i) Alerts will be sent for outgoing payment transactions from your
+card account in accordance with your transaction notification
+threshold. Where you have not set any such threshold, the default
+industry-baseline transaction notification threshold will apply;
+and
+(ii) clause 17.1(b) applies to these Alerts.
+(d) As a responsible financial institution, we will observe our duties under
+the Guidelines and in the event of any inconsistency between the terms
+and conditions of this agreement and the Guidelines, the Guidelines
+will prevail. For the avoidance of doubt, the liability apportionment
+set out in section 5 of the Guidelines does not apply to payment
+transactions on credit cards issued by us in Singapore.
+22.9 Tax
+You agree that we, any Citigroup Organisation or Third Party Service
+Provider may withhold or deduct any Collected Amount which is required
+to be withheld or deducted to comply with any Law or Regulation from
+any payment to you, or to or from an account that you maintain with
+us. Any Collected Amount shall be timely paid to the relevant Authority
+in accordance with the relevant requirement. We will notify you of any
+Collected Amount as soon as reasonably practicable. You acknowledge
+that we will not be required to reimburse you for any amount withheld or
+deducted by a Payment Infrastructure Provider. Further, to the extent we
+or any Citigroup Organisation or Third Party Service Provider pays or has
+paid from its own funds or is or will become required to make a payment
+to an Authority in respect of an amount that should have been, but was
+19not, a Collected Amount, you will indemnify us for such payment, plus any
+interest and penalties thereon. You understand and agree that we are not
+required to contest any demand made by an Authority for such payment.
+If you have any questions about your tax position as a result of opening an
+account with us or effecting any transaction on an account with us, you
+should engage an independent tax adviser as you consider appropriate.
+22.10 Assignment
+We may at any time in our absolute discretion assign any of our rights under
+this agreement or any card account to any third party whosoever without
+your consent. Without prejudice to the generality of the foregoing, you
+hereby irrevocably agree to any novation of the agreement made between
+you and us hereunder and any other agreement, document, assurance
+and guarantee in connection therewith (including but not limited to the
+Other Terms and Conditions) or with your card account(s) or any facilities
+and services available in connection with the card or securing your
+obligations thereunder, and irrevocably agree that we are entitled to and
+may assign or transfer absolutely to a transferee all or some of our rights,
+title, interests, benefits, obligations and liabilities under the terms and
+conditions of this agreement and/ or under any instrument(s) and/or any
+other agreement, document, assurance and/ or guarantee in connection
+therewith (including but not limited to the Other Terms and Conditions)
+and/or with your card account(s) and/or any
+facilities and services available in connection with the card and/or
+securing your obligations thereunder. You further irrevocably agree
+that any such novation, assignment or transfer may be effected by our
+delivering to you a notice to that effect whereupon:
+(a) our assigned or transferred rights, title, interests and benefits
+thereunder shall be transferred to and assumed by the transferee,
+(b) we shall thereafter be fully discharged and released from our assigned
+or transferred obligations and liabilities thereunder,
+(c) we shall retain all rights, title, interests, benefits, obligations and
+liabilities not so assigned or transferred,
+(d) the transferee shall thereafter be bound by identical rights, title,
+interests, benefits, obligations and liabilities thereunder which we
+assigned or transferred and
+(e) any acknowledgement (including but not limited to risk disclosure
+statements and acknowledgements), information (including but
+not limited to information provided in respect of risk profiling),
+instruction, order, direction, mandate or authority given by you to us
+in relation to your card account(s), any facilities and services available
+in connection with the card, this agreement, the Other Terms and
+Conditions or securing your obligations thereunder may be relied
+and acted upon by the assignee or transferee as if given by you to
+the assignee or transferee and shall, unless and until revoked or
+cancelled, apply and have effect in relation thereto. You also hereby
+irrevocably undertake to execute and sign any document (if any)
+which may be required to give effect to the foregoing.
+22.11 Governing law
+This agreement is governed by Singapore law and you hereby submit
+irrevocably to the non-exclusive jurisdiction of the Singapore courts.
+22.12 Exclusion of Rights of Third Parties
+Nothing in these terms and conditions shall confer on any third party a
+right to enforce any provision herein and the provisions of the Contracts
+(Rights of Third Parties) Act (Chapter 53B) which might otherwise
+be interpreted to confer such rights shall not apply and are expressly
+excluded from applying herein and no consent of any third party is
+required for any variation (including any release or compromise of any
+liability) or termination of these terms and conditions.
+22.13 U.S. Laws and Regulations
+You understand that as a subsidiary of Citigroup Inc., a U.S. financial
+holding company, we are required to observe certain U.S. laws and
+regulations, including but not limited to those relating to economic
+sanctions on certain countries, organizations and/or individuals issued
+by the U.S. government. You understand and accept that these laws
+and regulations may result in us taking or refraining from taking certain
+actions, including but not limited to suspending or terminating your
+card account(s) or holding or returning the funds which are the subject
+of payment instructions made by you or in your favour. Neither Citibank
+Singapore Limited nor any Citigroup Organisation will be liable for any loss
+to you as a result of our taking or refraining from taking any actions (which
+we consider in our sole determination, to be appropriate or requested) to
+comply with any U.S. laws or regulations.
+20TELEPHONE BANKING SERVICE
+TERMS AND CONDITIONS
+Before using any Telephone Banking Service, please read the terms and
+conditions set out below, which govern your use of such service. By using
+your TBS Access Code to operate the Telephone Banking Service, you are
+accepting the terms and conditions set out below and will be bound by them.
+1. DEFINITIONS
+(a) In these terms and conditions, unless the context otherwise requires,
+the following words when used have the following meanings
+respectively set out below:-
+“Account” means an account maintained by an Account Holder with
+the Bank;
+“Account Holder” means the person in whose name an Account is
+maintained and includes, where the context requires, a supplementary
+cardmember of a Citibank Visa/Mastercard credit card account;
+“Bank” means Citibank Singapore Limited;
+“Service Instructions” means such instructions given to the Bank via
+any Telephone Banking Service;
+“Telephone Banking Service” or “TBS” means any banking service
+operated over the telephone (by whatever name it may be known as)
+offered by the Bank, in connection with the Service Instructions and
+includes but is not limited to such services respectively known as Self
+Service Phone Banking and CitiPhone Banking; and
+“TBS Access Code” means any code or number as may be prescribed
+by the Bank to enable the Account Holder to operate any Telephone
+Banking Service and includes but is not limited to such access codes
+known as the Customer Identification Number (“CIN”) and/or the
+Telephone Personal Identification Number (“T-PIN”) (as the case may
+be).
+(b) Words importing the singular include the plural and vice versa;
+words importing the masculine gender include the feminine and
+neuter gender and references to a person includes a sole proprietor,
+partnership or company. Headings to the clauses herein are for easy
+reference only and shall not be taken into account in the interpretation
+of these terms and conditions.
+2. USE OF TBS ACCESS CODE
+(a) An Account Holder may operate the TBS in relation to his Account by
+using his TBS Access Code.
+(b) Any Service Instructions identified by the Account Holder’s TBS Access
+Code shall be deemed to be given by the Account Holder and shall be
+conclusive and binding on the Account Holder and the Account Holder
+hereby authorises the Bank to act on any such Service Instructions
+identified by the Account Holder’s TBS Access Code.
+(c) All acts on the part of the Bank pursuant to such Service Instructions
+identified by the Account Holder’s TBS Access Code shall be conclusive
+and binding on the Account Holder (notwithstanding that such Service
+Instructions may not have been given by the Account Holder or with his
+consent or authority).
+(d) Notwithstanding and without prejudice to the other terms and
+conditions herein, the Bank shall be entitled (but not obliged), in its
+reasonable discretion, to permit the Account Holder to operate the TBS
+without the use of his T-PIN upon verifying the identity of the Account
+Holder in accordance with the Bank’s prevailing prescribed procedure
+at the time.
+(e) Notwithstanding and without prejudice to the other terms and
+conditions herein, the Bank shall be entitled, in its reasonable
+discretion to refuse to act on all or any Service Instructions; and the
+Bank shall be entitled in its reasonable discretion to require written
+confirmation of the Account Holder’s Service Instructions (even where
+identified by the Account Holder’s TBS Access Code), and to refuse
+to act on any such Service Instructions unless and until such written
+confirmation is received by the Bank.
+(f) The use of any TBS and the TBS Access Code is also subject to the
+Bank’s terms and conditions governing the type of Account or facility of
+which the TBS may be operated in connection therewith and nothing in
+these terms and conditions shall be construed as amending or varying
+those terms and conditions.
+(g) The Bank shall at its reasonable discretion, be entitled to change, de-
+activate or revoke the use of the TBS Access Code at any time without
+giving any reason but with reasonable notice to the Account Holder.
+213. DISCLOSURE OF TBS ACCESS CODE TO THIRD PARTY
+(a) The Account Holder must exercise all care to ensure that the TBS Access
+Code is not disclosed to any person and shall take all steps to prevent
+forgery or fraud in connection with the use of his TBS Access Code
+and/or the operation of the TBS. If the TBS Access Code is disclosed to
+any person, the Account Holder must forthwith give the Bank written
+notice thereof, thereupon the Account Holder shall immediately cease
+to use the TBS Access Code.
+(b) Unless and until the Bank receives such written notice of disclosure,
+the Account Holder shall be fully liable and be bound by all
+transactions effected by the use of such TBS, with or without his
+consent or knowledge.
+4. RECORDING OF SERVICE INSTRUCTIONS
+The Bank may (but shall not be obliged to) at its absolute discretion tape
+or otherwise record all Service Instructions, and the Account Holder
+agrees to the use of such tapes or recordings and any transcripts thereof
+which the Bank may make for any purpose that the Bank deems desirable,
+including their use as evidence in any proceedings against the Account
+Holder or any other person.
+5. BANK’S RECORD OF TRANSACTIONS
+The Bank’s record of transactions in respect of and in connection with the
+use and operation of TBS is conclusive and binding on the Account Holder
+for all purposes whatsoever save for any manifest error or clerical error
+but nothing herein shall preclude the Bank from rectifying at any time any
+error, irregularity or omission therein.
+6. CHANGE OF T-PIN
+The Account Holder may change his T-PIN from time to time in accordance
+with the Bank’s prescribed procedure then prevailing. The Bank shall be
+entitled, in its reasonable discretion but without liability and without
+giving any reason, to reject any selection made by the Account Holder as
+his substituted T-PIN; if the Bank so approves, such substituted T-PIN,
+shall take effect from the time of receipt by the Bank of such instructions
+from the Account Holder. The Account Holder shall take all steps not
+to select such numbers as a substitute T-PIN which may easily be
+ascertained or otherwise facilitate fraud or forgery.
+7. CANCELLATION OF TBS ACCESS CODE
+The Account Holder may cancel his TBS Access Code by giving notice to
+the Bank in writing or in any other manner as may be determined by the
+Bank, and such notice shall only be effective upon actual receipt thereof
+by the relevant officer-in-charge at the Bank.
+8. FUND TRANSFER FACILITIES VIA TBS
+The Account Holder may apply, in accordance with the Bank’s prescribed
+procedure then prevailing and the Bank may, in its reasonable discretion,
+permit the Account Holder to operate such fund transfer facilities via the
+TBS, including without limitation, GIRO or direct debit banking system as
+may be made available by the Bank from time to time. The Account Holder
+acknowledges that the operation of such fund transfer facilities shall be
+subject to the relevant terms and conditions governing such facilities.
+9. BANK’S DISCRETION
+Notwithstanding and without prejudice to any other terms and conditions
+herein, the Bank shall be entitled at any time, in its reasonable discretion
+and with reasonable notice, to amend, vary, withdraw, restrict, suspend
+or terminate all or any of the facilities in respect of or in relation to the
+TBS Access Code and/or the TBS. The Bank may, from time to time, in its
+reasonable discretion, make available through the operation of TBS, such
+other services and/or facilities as the Bank may deem fit.
+10. LIMITATION OF LIABILITY
+(a) Save in the case of the Bank’s fraud, negligence or wilful default, the
+Bank shall not be liable for any loss, damage, cost or expense which
+the Account Holder may suffer or incur in connection with or as a
+result of the Bank acting on any Service Instructions identified by the
+Account Holder’s TBS Access Code (notwithstanding that such Service
+Instructions may not have been given by the Account Holder or with his
+consent or authority) and the Account Holder agrees to indemnify the
+Bank against any loss, damage, cost, expense and fees (including legal
+fees on a full indemnity basis) which the Bank may thereby suffer or
+incur.
+(b) The Bank shall not be liable if it is unable to perform its obligations
+under these terms and conditions due, directly or indirectly, to the
+22failure of any machine or communication system, any industrial
+dispute, war, Act of God or anything outside the control of the Bank, its
+servants and/or agents.
+(c) The Bank reserves the right to act through such agents, contractors
+or correspondents as the Bank deems fit to carry out or procure any
+of the matters or transactions governed by or contemplated in this
+Agreement.
+11. VARIATION OF TERMS AND CONDITIONS
+The Bank may at any time amend or vary any of these terms and conditions
+governing the operation or use of the TBS. The Bank shall notify the
+Account Holder of any changes. If the Account Holder continues to use
+or operate the TBS after the Bank has given such notice of change, the
+Account Holder shall be deemed to have accepted and agreed to such
+changes without reservation.
+12. TERMS AND CONDITIONS TO PREVAIL
+These terms and conditions herein prevail over all existing terms and
+conditions relating to TBS and the TBS Access Code, in so far as and only
+to the extent that such existing terms and conditions are inconsistent
+with these terms and conditions herein.
+13. GENERAL
+(a) If any one or more of these terms and conditions or any part thereof
+shall be declared to be illegal, invalid or unenforceable under any Law
+or Regulation, it shall not affect the legality, validity or enforceability of
+any other part thereof or any other terms and conditions herein.
+(b) The remedies under these terms and conditions are cumulative and are
+not exclusive of the remedies provided by law.
+(c) No failure or delay to exercise or enforce the Bank’s rights, remedies
+and powers shall operate as a waiver thereof and no waiver by the
+Bank of a breach of any of these terms and conditions on the part of
+the Account Holder shall be considered as a waiver of any subsequent
+breach of the same or any other terms and conditions herein.
+(d) These terms and conditions are governed by Singapore law and the
+Account Holder hereby submits irrevocably to the non-exclusive
+jurisdiction of the Singapore courts.
+Printed on Feb 2025. With effect from 1 May 2025.
+All published information is correct and complete at the time of printing.
+Citibank cannot assume responsibility for changes which occur after printing.
+Co. Reg. No. 200309485K
+23

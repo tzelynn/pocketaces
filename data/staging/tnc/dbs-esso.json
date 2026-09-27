@@ -1,0 +1,29 @@
+{
+ "card_id": "dbs-esso",
+ "product_pages": [
+  {
+   "id": "bank:121359830409",
+   "url": "https://www.dbs.com.sg/personal/cards/credit-cards/dbs-esso-platinum-card",
+   "source_type": "official",
+   "retrieved_at": "2026-09-27T08:36:40+00:00",
+   "sha256": "12135983040918f4f4b7906a97a3b5c1e28b29b2c3144b06df0d5c2857de1bec",
+   "snapshot": "data/raw/bank/www-dbs-com-sg-personal-cards-credit-cards-dbs-esso-platinum-card-e4759239.html"
+  }
+ ],
+ "documents": [
+  {
+   "url": "https://www.dbs.com.sg/iwov-resources/media/pdf/cards/promotions/esso/esso-fuel-tnc-26.pdf",
+   "error": "robots.txt disallows https://www.dbs.com.sg/iwov-resources/media/pdf/cards/promotions/esso/esso-fuel-tnc-26.pdf",
+   "changed": false
+  },
+  {
+   "url": "https://www.dbs.com.sg/iwov-resources/pdf/cards/credit-cards/dbs-esso-card-smiles-campaign-tnc.pdf",
+   "error": "robots.txt disallows https://www.dbs.com.sg/iwov-resources/pdf/cards/credit-cards/dbs-esso-card-smiles-campaign-tnc.pdf",
+   "changed": false
+  }
+ ],
+ "changed": true,
+ "removed_documents": [
+  "https://www.dbs.com.sg/iwov-resources/media/pdf/deposits/paylah-newuser-joinlah-tnc.pdf"
+ ]
+}

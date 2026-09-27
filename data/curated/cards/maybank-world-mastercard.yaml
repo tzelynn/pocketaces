@@ -1,0 +1,80 @@
+# Curated card record. Auto-drafted from staged sources; verify every value against the
+# official T&Cs (citations below), then set review.status: reviewed.
+id: maybank-world-mastercard
+bank: Maybank
+name: Maybank World Mastercard
+image_url: https://mhgprod.blob.core.windows.net/singsaver/strapi-uploads/xs_blt1c5e6c91278bfb82_a67efe23e2.png
+official_url: https://www.maybank2u.com.sg/en/personal/cards/credit/maybank-world-mastercard.page
+annual_fee:
+  amount:
+    amount: 261.6
+    currency: SGD
+  first_year_waived: true
+  waiver_notes: S$ | First Year Waived
+  sources: ['singsaver:a58c880e425d']
+min_annual_income:
+  amount: 80000.0
+  currency: SGD
+reward_currency:
+  kind: miles
+  name: Miles
+earn_rules:
+- id: retail
+  label: retail, petrol, dining (SingSaver — verify)
+  rate: 4.0
+  unit: mpd
+  tier: bonus
+  eligibility:
+    tags: [shopping, petrol, dining]
+    description: At select merchants on TREATS SG app.
+    sources: ['singsaver:a58c880e425d']
+  sources: ['singsaver:a58c880e425d']
+- id: local
+  label: local, overseas (SingSaver — verify)
+  rate: 0.4
+  unit: mpd
+  tier: bonus
+  eligibility:
+    description: ''
+    sources: ['singsaver:a58c880e425d']
+  sources: ['singsaver:a58c880e425d']
+- id: base
+  label: baseline (SingSaver — verify)
+  rate: 0.4
+  unit: mpd
+  tier: base
+  eligibility:
+    all_spend: true
+    description: ''
+    sources: ['singsaver:a58c880e425d']
+  sources: ['singsaver:a58c880e425d']
+general_exclusions:
+  description: Auto-extracted from official T&Cs — confirm each code applies to this card
+notes:
+- 'Editorial review for cross-checking: Review: Maybank World Mastercard (https://milelion.com/2026/09/27/review-maybank-world-mastercard/,
+  updated 2026-09-27)'
+citations:
+- id: singsaver:a58c880e425d
+  url: https://www.singsaver.com.sg/credit-card/products/maybank-world-mastercard
+  title: Maybank World Mastercard
+  source_type: aggregator
+  retrieved_at: '2026-09-27T05:26:13+00:00'
+  sha256: a58c880e425da8ce371a2270d4faa2467893bf0f898bccbbe53b5d99c09016fb
+  snapshot: data/raw/singsaver/www-singsaver-com-sg-credit-card-products-maybank-world-mastercard-7289f83e.html
+- id: moneysmart:49fcb3586f25
+  url: https://www.moneysmart.sg/credit-cards?page=4
+  title: Maybank World Mastercard
+  source_type: aggregator
+  retrieved_at: '2026-09-27T05:27:20+00:00'
+  sha256: 49fcb3586f252df0b2dacb9acecc465127e09c9defa7f151881c3db46d84649e
+  snapshot: data/raw/moneysmart/credit-cards-p4-1a322210.html
+- id: milelion:a66187e7cbf3
+  url: https://milelion.com/2026/09/27/review-maybank-world-mastercard/
+  title: 'Review: Maybank World Mastercard'
+  source_type: editorial
+  retrieved_at: '2026-09-27T05:28:04+00:00'
+  sha256: a66187e7cbf32df3d49f2b1b7a2a69d4f58daf7bb103a70f4360d52b07485d21
+  snapshot: data/raw/milelion/post-183960-21e730a2.json
+review:
+  status: draft
+updated_at: '2026-09-27'

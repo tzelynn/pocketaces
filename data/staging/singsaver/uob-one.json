@@ -1,0 +1,216 @@
+{
+ "source": "singsaver",
+ "source_id": "uob-one-card",
+ "source_url": "https://www.singsaver.com.sg/credit-card/products/uob-one-card",
+ "name": "UOB One Card",
+ "bank": "UOB",
+ "card_id": "uob-one",
+ "image_url": "https://mhgprod.blob.core.windows.net/singsaver/strapi-uploads/xs_bltc084e4ed3c026a82_e1163aca8d.png",
+ "annual_fee": 196.2,
+ "annual_fee_note": "S$ | First Year Waived",
+ "min_annual_income": 30000.0,
+ "min_monthly_spend": 600.0,
+ "earn_rates": {
+  "percent:local_online_shopping": {
+   "value": 10.0,
+   "unit": "percent",
+   "note": "Up to"
+  },
+  "percent:baseline": {
+   "value": 3.33,
+   "unit": "percent",
+   "note": "Up to | Min. spend of S$600 / S$1,000 / S$2,000 per month (min. 10 transactions) for qualifying quarter"
+  },
+  "percent:overseas": {
+   "value": 3.33,
+   "unit": "percent",
+   "note": "Up to | Min. spend of S$600 / S$1,000 / S$2,000 per month (min. 10 transactions) for qualifying quarter"
+  },
+  "percent:retail": {
+   "value": 10.0,
+   "unit": "percent",
+   "note": "Up to  | Up to 10% cashback on Shopee"
+  },
+  "percent:local": {
+   "value": 20.0,
+   "unit": "percent",
+   "note": "Up to | Up to 20% cashback on daily spend at McDonald’s, Grab, SimplyGo (bus/train rides) and Shopee; up to 18% cashback on all grocery spend; and up to 4.33% on SP Group and more. "
+  },
+  "percent:transport": {
+   "value": 10.0,
+   "unit": "percent",
+   "note": "Up to  | Up to 10% cashback on daily spend at Grab and SimplyGo (bus/train rides)"
+  },
+  "percent:supermarket": {
+   "value": 8.0,
+   "unit": "percent",
+   "note": "Up to | Up to 8% cashback on all grocery spend"
+  },
+  "percent:dining": {
+   "value": 10.0,
+   "unit": "percent",
+   "note": "Up to  | Up to 10% cashback on daily spend at McDonald's, GrabFood and Grab Dine Out"
+  }
+ },
+ "caps": {
+  "rewards_bonus_cap": {
+   "value": null,
+   "note": null
+  },
+  "cashback_bonus_cap": {
+   "value": 200.0,
+   "note": "S$ | Get S$50 / S$100 / S$200 cashback per quarter when you meet a min. spend of S$600 / S$1,000 / S$2,000 per month across min. 5 purchases for the entire spend quarter."
+  }
+ },
+ "highlights": [
+  "Up to 20% cashback on daily spend at McDonald’s, Grab, SimplyGo (bus/train rides) and Shopee; up to 18% cashback on all grocery spend; and up to 4.33% on SP Group and more",
+  "pros: Up to 20% cashback on daily spend at McDonald's, Grab, SimplyGo (bus/train rides) and Shopee.",
+  "pros: Up to 18% cashback on all grocery spend.",
+  "pros: Up to 4.33% on SP utilities bill.",
+  "pros: Up to 3.33% cashback on all retail spend.",
+  "pros: Petrol savings of up to 22.66% at Shell and SPC.",
+  "pros: Greater savings with up to 3.4% p.a. interest with UOB One Account+.",
+  "cons: Spend at least $600 monthly based on your qualifying quarter to enjoy up to 10% cashback.",
+  "cons: Awarding of cash rebate only comes every quarter.",
+  "cons: Qualifying monthly spend for cash rebate has to be spread out across min. 10 different purchases.",
+  "cons: Terms and conditions apply for all above-mentioned privileges. Visit \nhere\n   for more details. Insured up to S$100,000 by SDIC.",
+  "pros: Supermarket rebate",
+  "pros: Grab/taxi rebate",
+  "cons: Monthly spend required",
+  "cons: Rebate cap applied"
+ ],
+ "sign_up_offers": [
+  {
+   "kind": "welcome_offer",
+   "title": "Welcome Offer",
+   "offer_id": "SG.2026-05-15.CC.UOBX.ONE.20PCCB.BAU",
+   "valid_from": "2026-05-14T16:00:00Z",
+   "valid_to": "2026-09-30T15:59:00Z",
+   "gifts": [
+    {
+     "title": "Enjoy up to 20% cashback on daily spend",
+     "value_sgd": 200
+    }
+   ],
+   "terms": "Welcome Offer promotion is valid from 15 May 2026 to 30 September 2026.\nPromotion is valid for new-to-UOB credit card customers only.\nApply and get approved for the UOB One Credit Card during the promo period and make a min. spend of S$600 over 10 card transactions in each statement month to receive enhanced cashback.\nTerms and Conditions\n apply",
+   "tnc_url": "https://www.uob.com.sg/assets/web-resources/personal/pdf/cards/cashback/one-card/one-credit-card-cmpg-tnc.pdf",
+   "bundle_with": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "kind": "welcome_offer",
+   "title": "Welcome Offer",
+   "offer_id": "SG.2026-07-01.CC.UOBX.9XCC.100SAMSUNG.BAU",
+   "valid_from": "2026-06-30T16:00:00Z",
+   "valid_to": "2026-09-29T16:00:00Z",
+   "gifts": [
+    {
+     "title": "S$100 Samsung Voucher",
+     "value_sgd": 100
+    }
+   ],
+   "terms": "Welcome Offer promotion is valid from 1 July 2026 to 30 September 2026.\nPromotion is valid for new-to-UOB credit card customers only.\nSuccessfully apply to be the principal cardholder for select UOB Credit Cards within the promo period and spend a min. of S$1,000 within 30 days of card approval to be eligible for \nS$100 Samsung Voucher\n reward.\nPlus, receive a 10% discount when you use your UOB Credit Card on Samsung Singapore transactions via the Samsung online store with min. spend of S$1,000.\nSamsung reserves the right to amend or withdraw the discount promotion without prior notice.\nTerms and Conditions\n apply.",
+   "tnc_url": null,
+   "bundle_with": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "kind": "exclusive_offer",
+   "title": "SingSaver Flash Deal",
+   "offer_id": "SG.2026-09-02.CC.UOBX.9XCC.200CASH-STRAREN-90CASH",
+   "valid_from": "2026-09-01T16:00:00Z",
+   "valid_to": "2026-09-30T15:59:00Z",
+   "gifts": [
+    {
+     "title": "S$200 Cash via PayNow",
+     "value_sgd": 200
+    },
+    {
+     "title": "Samsonite Straren Spinner 67/24 (worth S$600)",
+     "value_sgd": 600
+    },
+    {
+     "title": "S$90 Cash via PayNow",
+     "value_sgd": 90
+    }
+   ],
+   "terms": "SingSaver Flash Deal promotion is valid from 2 September 2026 to 30 September 2026.\nPromotion is valid for new-to-UOB credit cardmembers only.\nBe one of the first 2 applicants at 2 PM & 10PM every day during the flash deal period to apply for selected UOB credit cards and make a min. spend of S$500 within the first 30 days of card approval to be eligible for the Flash Deal reward:\nS$200 Cash via PayNow\n; or a\nSamsonite Straren Spinner 67/24 (worth S$600)\n.\nRemaining applicants will receive \nS$90 Cash via PayNow\n.\nPromotion is stackable with UOB Welcome Offer (additional T&Cs apply).\nTerms and Conditions\n apply",
+   "tnc_url": null,
+   "bundle_with": []
+  }
+ ],
+ "links": {
+  "apply": "https://www.singsaver.com.sg/apply-v3/17463"
+ },
+ "citation": {
+  "id": "singsaver:b75574a4d371",
+  "url": "https://www.singsaver.com.sg/credit-card/products/uob-one-card",
+  "title": "UOB One Card",
+  "source_type": "aggregator",
+  "retrieved_at": "2026-09-27T05:26:55+00:00",
+  "sha256": "b75574a4d3716d35ff29119f9c1aaa6381bc4e4ceeadb36bc948f811f6f6bbd2",
+  "snapshot": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-uob-one-card-a0a439b1.html"
+ },
+ "extra": {
+  "network": [
+   "VISA Signature"
+  ],
+  "mobile_wallets": [
+   "Google Pay",
+   "Apple Pay",
+   "Samsung Pay",
+   "NETSPay"
+  ],
+  "fx_fee_percent": 3.25,
+  "miles_conversion_fee": null,
+  "categories": [
+   "category:all-credit-cards",
+   "category:buffet-promo",
+   "category:cashback",
+   "category:dining-promo",
+   "category:grocery-promo",
+   "category:installment",
+   "category:petrol-promo",
+   "category:promo",
+   "category:retail-promo",
+   "category:travel",
+   "needs:0-interest-rate",
+   "needs:all-cards-with-buffet-promo",
+   "needs:all-cards-with-dining-promo",
+   "needs:all-cards-with-grocery-promo",
+   "needs:all-cards-with-petrol-promo",
+   "needs:all-cards-with-promotion",
+   "needs:all-cards-with-retail-promo",
+   "needs:all-cashback-cards",
+   "needs:all-credit-cards",
+   "needs:all-installment-cards",
+   "needs:all-travel-cards",
+   "needs:free-travel-insurance",
+   "needs:high-cashback",
+   "needs:long-tenure-installment",
+   "needs:online-booking-discount"
+  ],
+  "tag": null,
+  "description": "With up to 20% cashback on daily spending categories, the UOB One Card might be one of the most generous cashback credit cards in the market. Featuring a tiered cashback system, you'll enjoy the highest cashback on daily spend at Grab, McDonald’s and more. Get up to 4.33% cashback on SP utilities bill payment and 3.33% cashback on other eligible spend."
+ }
+}

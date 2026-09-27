@@ -1,0 +1,152 @@
+# Curated card record. Auto-drafted from staged sources; verify every value against the
+# official T&Cs (citations below), then set review.status: reviewed.
+id: standard-chartered-journey-annual-fee-paying
+bank: Standard Chartered
+name: Standard Chartered Journey Credit Card (Annual Fee Paying)
+network: visa
+image_url: https://mhgprod.blob.core.windows.net/singsaver/strapi-uploads/xs_blt1ada55d00a76d204_ea9a3c3faa.webp
+official_url: https://www.sc.com/sg/credit-cards/journey-credit-card/
+annual_fee:
+  amount:
+    amount: 196.2
+    currency: SGD
+  first_year_waived: true
+  waiver_notes: S$ | First Year Waived (Optional)
+  sources: ['singsaver:fcbd9a457a48']
+min_annual_income:
+  amount: 30000.0
+  currency: SGD
+reward_currency:
+  kind: miles
+  name: Miles
+earn_rules:
+- id: supermarket
+  label: supermarket, dining, hotel booking, transport, online food delivery, local online shopping (SingSaver
+    — verify)
+  rate: 3.0
+  unit: mpd
+  tier: bonus
+  eligibility:
+    include_mcc: ['4111', '4121', '4411', '4789', '4829', '4900', '5047', '5199', '5411', '5462', '5499',
+      '5811', '5812', '5814', '5921', '6012', '6050', '6051', '6211', '6513', '6529', '6530', '6534',
+      '6540', '7299', '7349', '7511', '7523', '8062', '8211', '8220', '8241', '8244', '8249', '8299',
+      '8398', '8651', '8661', '8999', '9211', '9222', '9223', '9311', '9399', '9402', '9405']
+    modes_required: [online]
+    description: On Online Grocery merchants, capped at S$1,000 spend per statement month / Capped at
+      S$1,000 spend per statement month / Earn 3 miles per S$1 on transport, food delivery, and online
+      groceries (capped at S$1,000/month, or 3,000 miles). Beyond that, earn 1.2 miles per S$1. / Up to
+      | Earn 3 miles per S$1 on transport, food delivery, and online groceries (capped at S$1,000/month,
+      or 3,000 miles). Beyond that, earn 1.2 miles per S$1. / Up to [include_mcc auto-extracted from official
+      T&C — check it belongs to this rule]
+    sources: ['singsaver:fcbd9a457a48', 'bank:f6d46f8480b0', 'bank:e0cd4e4aadea']
+  bonus_cap:
+    amount: 1000.0
+    unit: SGD_spend
+    period: statement_month
+    sources: ['singsaver:fcbd9a457a48']
+  conditions:
+  - bonus_cap parsed from aggregator text “capped at S$1,000 spend per statement month” — confirm amount,
+    unit and whether the period is calendar or statement month
+  - 'aggregator categories: groceries, dining, hotels, transport'
+  sources: ['singsaver:fcbd9a457a48']
+- id: overseas-online-shopping
+  label: overseas online shopping, overseas (SingSaver — verify)
+  rate: 2.0
+  unit: mpd
+  tier: bonus
+  eligibility:
+    description: ''
+    sources: ['singsaver:fcbd9a457a48']
+  sources: ['singsaver:fcbd9a457a48']
+- id: travel
+  label: travel, local (SingSaver — verify)
+  rate: 1.2
+  unit: mpd
+  tier: bonus
+  eligibility:
+    tags: [travel]
+    description: ''
+    sources: ['singsaver:fcbd9a457a48']
+  sources: ['singsaver:fcbd9a457a48']
+- id: base
+  label: baseline (SingSaver — verify)
+  rate: 1.2
+  unit: mpd
+  tier: base
+  eligibility:
+    all_spend: true
+    description: On local spend.
+    sources: ['singsaver:fcbd9a457a48']
+  sources: ['singsaver:fcbd9a457a48']
+general_exclusions:
+  description: Auto-extracted from official T&Cs — confirm each code applies to this card
+sign_up_bonuses:
+- offered_by: singsaver
+  description: 'SingSaver Exclusive Offer: rewards applicable on applying for 2 products: choice of Samsonite
+    Straren Spinner 67/24 (worth S$600); S$180 Cash via PayNow; Samsung Galaxy Buds4 Pro (worth S$349);
+    12,000 Max Miles by HeyMax (worth S$216)'
+  value:
+    amount: 180.0
+    currency: SGD
+  valid_from: '2026-08-31'
+  valid_to: '2026-09-30'
+  url: https://www.singsaver.com.sg/credit-card/products/standard-chartered-journey-credit-card
+  sources: ['singsaver:fcbd9a457a48']
+- offered_by: moneysmart
+  description: 'Choice of: S$180 Cash via PayNow; LEVEL8 Voyageur 20-inch Luggage (Matcha Green Colour);
+    Hinomi Q1 Ergonomic Office Chair (Black); Samsung Galaxy Buds4 Pro (Black). Terms: • A
+
+    pply for the card by 30th Sept 2026
+
+    • 
+
+    Spend a min. of S$800 in eligible transactions within 60 days from card approval date.
+
+    • Apply and get approval for either: EasyPay, Bonus$aver Account, CashOne Loan, Funds Transfer
+
+    • Submit your Claim Form by 30th Oct 2026'
+  url: https://www.moneysmart.sg/credit-cards/standard-chartered-journey-credit-card-annual-fee-payable
+  sources: ['moneysmart:42909b088c22']
+notes:
+- 'Editorial review for cross-checking: Review: Standard Chartered Journey Card (https://milelion.com/2026/08/30/review-standard-chartered-journey-card/,
+  updated 2026-09-01)'
+- 'T&C mentions (check whether excluded): annual fee, axs, bill payment, cash advance, charit, education,
+  government, hospital, instalment, insurance premium, interest, late payment charge, tax, top-up, top-ups,
+  utilit'
+citations:
+- id: singsaver:fcbd9a457a48
+  url: https://www.singsaver.com.sg/credit-card/products/standard-chartered-journey-credit-card
+  title: Standard Chartered Journey Credit Card (Annual Fee Paying)
+  source_type: aggregator
+  retrieved_at: '2026-09-27T05:26:36+00:00'
+  sha256: fcbd9a457a4807f2e87cfca82b64dc193288deef9a6dae226b31c5e800e3849f
+  snapshot: data/raw/singsaver/www-singsaver-com-sg-credit-card-products-standard-chartered-journey-credit-card-bdec743e.html
+- id: moneysmart:42909b088c22
+  url: https://www.moneysmart.sg/credit-cards?page=2
+  title: Standard Chartered Journey Credit Card (Annual Fee Payable)
+  source_type: aggregator
+  retrieved_at: '2026-09-27T05:27:14+00:00'
+  sha256: 42909b088c22cb063c120b532d19af920cb3535c52f6bfc313193c6c6ea14746
+  snapshot: data/raw/moneysmart/credit-cards-p2-5f055203.html
+- id: bank:f6d46f8480b0
+  url: https://www.sc.com/content/dam/sc/sg/en/documents/sg-journey-credit-card-terms-and-conditions.pdf
+  source_type: official
+  retrieved_at: '2026-09-27T08:42:10+00:00'
+  sha256: f6d46f8480b07c23a5105cf7af7cef6a38444ec72a5f384d6a850bab45cf807d
+  snapshot: data/raw/bank/www-sc-com-content-dam-sc-sg-en-documents-sg-journey-credit-card-terms-and-conditions-pdf-33b32f0f.pdf
+- id: bank:e0cd4e4aadea
+  url: https://www.sc.com/sg/terms-and-conditions/cc-retail-transaction-exclusions/
+  source_type: official
+  retrieved_at: '2026-09-27T08:42:12+00:00'
+  sha256: e0cd4e4aadea03f0cda3e2e7b28cf3ba5849c1f485651131264d3f5f0406a4cd
+  snapshot: data/raw/bank/www-sc-com-sg-terms-and-conditions-cc-retail-transaction-exclusions-8f7a8c14.html
+- id: milelion:9721894f0381
+  url: https://milelion.com/2026/08/30/review-standard-chartered-journey-card/
+  title: 'Review: Standard Chartered Journey Card'
+  source_type: editorial
+  retrieved_at: '2026-09-27T05:28:10+00:00'
+  sha256: 9721894f03813071f78582e954ad493df806e05a5c2510ba5c10e6d6d29df4eb
+  snapshot: data/raw/milelion/post-146312-95d3bb09.json
+review:
+  status: draft
+updated_at: '2026-09-27'

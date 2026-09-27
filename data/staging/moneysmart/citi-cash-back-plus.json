@@ -1,0 +1,138 @@
+{
+ "source": "moneysmart",
+ "source_id": "citi-cashback-plus-card",
+ "source_url": "https://www.moneysmart.sg/credit-cards/citi-cashback-plus-card",
+ "name": "Citi Cash Back+ Card",
+ "bank": "Citibank",
+ "card_id": "citi-cash-back-plus",
+ "image_url": "https://photos.cdn-moneysmart.com/credit_cards/uploads/products/images/image_url_2025-01-02_Citi Cash Back Plus MC Medium.jpeg",
+ "annual_fee": 196.2,
+ "earn_rates": {},
+ "caps": {},
+ "highlights": [
+  "1.6% Cash Back on Eligible Spend",
+  "0 Min. Spend per month",
+  "Unlimited Cash Back Cap per month",
+  "1.6% cash back on your eligible spend all year round",
+  "No minimum spend required and no cap on cash back earned",
+  "Cash back earned does not expire",
+  "Redeem your cash back instantly on-the-go",
+  "Earn 0.4% Bonus Cash Back on your eligible spend if you are a Citi Plus customer who is the Primary Account Holder of a Citi Interest Booster Account",
+  "With Citi PayAll, you can earn and accumulate Citi Miles, Citi ThankYou PointsSM or Cash Back quickly when you pay your big-ticket bills such as rent, insurance premiums, education expenses, taxes, utilities and more. T&Cs apply.",
+  "With \nCiti PayLite® Bundle Program\n, you can pay off your retail purchases in 3-month instalment payments at no processing fees. \nTerms and Conditions apply",
+  "At MoneySmart, we strive to keep our information accurate and up to date. This information may be different from what you see when you visit a financial institution, service provider, or specific product site. MoneySmart shall not be liable to compensate the Customer should the information is not as updated as our Partner."
+ ],
+ "sign_up_offers": [
+  {
+   "kind": "MANUAL_GIFT",
+   "title": "S$400 Cash via PayNow",
+   "subtitle": null,
+   "is_cash": true,
+   "terms": "• Apply for a Citi Card by 30th Sept 2026\n• Spend a min. of S$500 within 30 days\n• Submit the Claim Form by 30th Oct 2026",
+   "campaign": "Credit Card | Citibank | 210926"
+  },
+  {
+   "kind": "STORE_PRODUCT",
+   "title": "Shopee Voucher $450",
+   "subtitle": "worth S$450",
+   "is_cash": false,
+   "terms": "• Apply for a Citi Card by 30th Sept 2026\n• Spend a min. of S$500 within 30 days\n• Submit the Claim Form by 30th Oct 2026",
+   "campaign": "Credit Card | Citibank | 210926"
+  },
+  {
+   "kind": "STORE_PRODUCT",
+   "title": "Apple iPhone 18 Pro (256GB, Burgundy)",
+   "subtitle": "worth S$1899",
+   "is_cash": false,
+   "terms": "• Apply for a Citi Card by 30th Sept 2026\n• Spend a min. of S$500 within 30 days\n• Submit the Claim Form by 30th Oct 2026",
+   "campaign": "Credit Card | Citibank | 210926"
+  },
+  {
+   "kind": "STORE_PRODUCT",
+   "title": "Apple AirPods Pro 3",
+   "subtitle": "worth S$349",
+   "is_cash": false,
+   "terms": "• Apply for a Citi Card by 30th Sept 2026\n• Spend a min. of S$500 within 30 days\n• Submit the Claim Form by 30th Oct 2026",
+   "campaign": "Credit Card | Citibank | 210926"
+  },
+  {
+   "kind": "STORE_PRODUCT",
+   "title": "Apple Watch Series 12, 42mm (GPS, Black Aluminium Case with Black Sport Band)",
+   "subtitle": "worth S$599",
+   "is_cash": false,
+   "terms": "• Apply for a Citi Card by 30th Sept 2026\n• Spend a min. of S$500 within 30 days\n• Submit the Claim Form by 30th Oct 2026",
+   "campaign": "Credit Card | Citibank | 210926"
+  },
+  {
+   "kind": "STORE_PRODUCT",
+   "title": "Sony WH-1000XM6 Wireless Noise Cancelling Headphones (Black)",
+   "subtitle": "worth S$649",
+   "is_cash": false,
+   "terms": "• Apply for a Citi Card by 30th Sept 2026\n• Spend a min. of S$500 within 30 days\n• Submit the Claim Form by 30th Oct 2026",
+   "campaign": "Credit Card | Citibank | 210926"
+  }
+ ],
+ "links": {
+  "product": "https://www.moneysmart.sg/credit-cards/citi-cashback-plus-card",
+  "review": "https://blog.moneysmart.sg/credit-cards/citi-cash-back-plus-credit-card-review/"
+ },
+ "citation": {
+  "id": "moneysmart:eeee24fb93a9",
+  "url": "https://www.moneysmart.sg/credit-cards",
+  "title": "Citi Cash Back+ Card",
+  "source_type": "aggregator",
+  "retrieved_at": "2026-09-27T05:27:12+00:00",
+  "sha256": "eeee24fb93a9d85ef8b9194c11bda960b5b99ee30b3689cdc59fb650badebce7",
+  "snapshot": "data/raw/moneysmart/credit-cards-p1-b55034ef.html"
+ },
+ "extra": {
+  "summary": "The Citi Cash Back+ Card stands out with its straightforward 1.6% cashback on all eligible spending, appealing to those who dislike tracking categories or minimum spends. Cashback doesn't expire, providing long-term value. It’s especially good if you want a fuss-free experience. Though it lacks category-specific bonuses, this card offers simplicity and predictability for everyday spending.",
+  "badges": [
+   "FASTER REWARD FULFILMENT | UNLIMITED 1.6% CASHBACK"
+  ],
+  "network": [
+   "Mastercard"
+  ],
+  "mobile_wallets": [
+   "Google Pay",
+   "Apple Pay",
+   "Samsung Pay"
+  ],
+  "groups": {
+   "annual-interest-rate-and-fees": {
+    "Annual Interest Rate": "27.9%",
+    "Annual Principal Fee": "196.20",
+    "Supplementary Annual Fee": "98.10",
+    "Fee Waiver": "First year annual fee waived",
+    "Minimum Monthly Repayment": "1% of the current balance plus 1% of any outstanding unbilled instalment amounts plus interest charges plus late payment charge or S$50, whichever is greater",
+    "Interest Free Period": "25 days"
+   },
+   "minimum-income-requirements": {
+    "Singaporean/PR Minimum Annual Income": "30000",
+    "Non-Singaporean Minimum Annual Income": "42000"
+   },
+   "card-association": {
+    "Mastercard": "true"
+   },
+   "wireless-payment": {
+    "Google Pay": "true",
+    "Apple Pay": "true",
+    "Samsung Pay": "true"
+   },
+   "documents-required": {
+    "SG Citizens or PRs": "Apply via MyInfo",
+    "Passport Validity (Foreigners)": "6 months",
+    "Work Permit Validity (Foreigners)": "6 months",
+    "Utility or Telephone Bill": "With Full Name and Address",
+    "Income Tax Notice of Assessment": "true",
+    "Latest Original Computerised Payslip": "true"
+   }
+  },
+  "our_takes": {
+   "our-take": "The Citi Cash Back+ Card stands out with its straightforward 1.6% cashback on all eligible spending, appealing to those who dislike tracking categories or minimum spends. Cashback doesn't expire, providing long-term value. It’s especially good if you want a fuss-free experience. Though it lacks category-specific bonuses, this card offers simplicity and predictability for everyday spending. The 3.25% foreign transaction fee is something to consider for overseas spending.",
+   "good-for": "Those seeking fuss-free cashback on all purchases, without tracking categories or minimum spends easily benefit.\nCardholders who need cashback on big-ticket purchases like furniture or electronics, thanks to the uncapped rewards.\nCiti Plus account holders looking to boost cashback earnings on everyday spending, such as groceries and transportation costs.",
+   "things-to-note": "$196.20 annual fee applies after the first year; consider if the cashback earned justifies the cost.\nLate payment fees of $100 can negate cashback earnings, so always pay on time.\nCash advance fees are high at 8% or $15, so avoid using this card for cash withdrawals."
+  },
+  "updated_at": "2026-02-27T10:34:21+08:00"
+ }
+}

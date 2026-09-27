@@ -1,0 +1,22 @@
+{
+ "card_id": "hsbc-live-plus",
+ "product_pages": [
+  {
+   "id": "bank:31277eb1d4b0",
+   "url": "https://www.hsbc.com.sg/credit-cards/products/liveplus/",
+   "source_type": "official",
+   "retrieved_at": "2026-09-27T08:37:14+00:00",
+   "sha256": "31277eb1d4b052834987154cb16523d05012101e4065f6e218d6a5be6b6d741c",
+   "snapshot": "data/raw/bank/www-hsbc-com-sg-credit-cards-products-liveplus-6d3f797d.html"
+  }
+ ],
+ "documents": [
+  {
+   "url": "https://www.hsbc.com.sg/content/dam/hsbc/sg/documents/credit-cards/liveplus/terms-and-conditions-cashback.pdf",
+   "error": "robots.txt disallows https://www.hsbc.com.sg/content/dam/hsbc/sg/documents/credit-cards/liveplus/terms-and-conditions-cashback.pdf",
+   "changed": false
+  }
+ ],
+ "changed": false,
+ "removed_documents": []
+}

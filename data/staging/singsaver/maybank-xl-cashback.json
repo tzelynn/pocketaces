@@ -1,0 +1,144 @@
+{
+ "source": "singsaver",
+ "source_id": "maybank-xl-cashback-card",
+ "source_url": "https://www.singsaver.com.sg/credit-card/products/maybank-xl-cashback-card",
+ "name": "Maybank XL Cashback Card",
+ "bank": "Maybank",
+ "card_id": "maybank-xl-cashback",
+ "image_url": "https://mhgprod.blob.core.windows.net/singsaver/strapi-uploads/m_Maybank_XL_Cashback_b04cdc90a3.png",
+ "annual_fee": 87.2,
+ "annual_fee_note": "S$ | First 2 Years Waived; Subsequent annual fee will be automatically waived with a minimum spend of S$6,000 yearly.",
+ "min_annual_income": 30000.0,
+ "earn_rates": {
+  "percent:baseline": {
+   "value": 0.4,
+   "unit": "percent",
+   "note": "0.2% unlimited cashback (1x TREATS Points) for all other spend."
+  },
+  "percent:local": {
+   "value": 5.0,
+   "unit": "percent",
+   "note": "5% cashback (10X TREATS Points) on eligible spend categories (Dine, Shop, Travel, Play) with min. S$500 spend per calendar month. Bonus cashback capped at S$80. Base rate 0.2%."
+  },
+  "percent:overseas": {
+   "value": 5.0,
+   "unit": "percent",
+   "note": "5% cashback (10X TREATS Points) on foreign currency spend overseas with min. S$500 spend per calendar month. Bonus cashback capped at S$80. Base rate 0.2%."
+  },
+  "percent:forex": {
+   "value": 5.0,
+   "unit": "percent",
+   "note": "5% cashback (10X TREATS Points) on foreign currency spend (overseas or online) with min. S$500 spend per calendar month. Bonus cashback capped at S$80. Base rate 0.2%."
+  },
+  "percent:dining": {
+   "value": 5.0,
+   "unit": "percent",
+   "note": "5% cashback (10X TREATS Points) on eligible spend categories (Dine, Shop, Travel, Play) with min. S$500 spend per calendar month. Bonus cashback capped at S$80. Base rate 0.2%."
+  },
+  "percent:retail": {
+   "value": 5.0,
+   "unit": "percent",
+   "note": "5% cashback (10X TREATS Points) on eligible spend categories (Dine, Shop, Travel, Play) with min. S$500 spend per calendar month. Bonus cashback capped at S$80. Base rate 0.2%."
+  },
+  "percent:travel": {
+   "value": 5.0,
+   "unit": "percent",
+   "note": "5% cashback (10X TREATS Points) on eligible spend categories (Dine, Shop, Travel, Play) with min. S$500 spend per calendar month. Bonus cashback capped at S$80. Base rate 0.2%."
+  },
+  "percent:entertainment": {
+   "value": 5.0,
+   "unit": "percent",
+   "note": "5% cashback (10X TREATS Points) on eligible spend categories (Dine, Shop, Travel, Play) with min. S$500 spend per calendar month. Bonus cashback capped at S$80. Base rate 0.2%."
+  }
+ },
+ "caps": {},
+ "highlights": [
+  "5% cashback on Dine, Shop, Travel and Play categories + FCY spend (overseas & online), unlocked with min. S$500 spend per calendar month, capped at S$80 per calendar month. All other spend at 0.2% unlimited cashback.",
+  "pros: 5% cashback* whenever you spend in the Dine, Shop, Travel and Play categories, as well as in Foreign currencies.",
+  "pros: Up to S$80 bonus cashback monthly (Other transactions will earn unlimited cashback at 0.2% cashback.)",
+  "pros: Credit Cards with one of the widest number of spending categories in the market:\nDine: Restaurants, fast food, bakeries, food delivery, etc.\nShop: Apparel, departmental stores, sports apparel, online shopping, etc.\nTravel: Airlines, online travel agencies, hotel booking, etc.\nPlay: Bars, KTV, cinemas, online streaming, video game arcade, etc.\n+all foreign currency spend (overseas & online)",
+  "cons: Extremely limited age range (21 to 39 years old only).",
+  "cons: 5% bonus cashback rate requires S$500 min. spend per calendar month.",
+  "pros: Annual Fee waiver",
+  "pros: No monthly spend required",
+  "pros: No rebate cap",
+  "pros: Overseas rebate"
+ ],
+ "sign_up_offers": [
+  {
+   "kind": "welcome_offer",
+   "title": "Maybank Welcome Offer",
+   "offer_id": "SG.2026-07-01.CC.MAYB.XLCB.100CB.BAU",
+   "valid_from": "2026-06-30T16:00:00Z",
+   "valid_to": "2026-09-30T15:59:00Z",
+   "gifts": [
+    {
+     "title": "Get an increased S$100 Cashback Cap",
+     "value_sgd": null
+    }
+   ],
+   "terms": "Welcome Offer promotion is valid from 1 July 2026 to 30 September 2026.\nPromotion is valid for new Maybank credit cardmembers only.\nApply and get approved for the Maybank XL Cashback Card within the promo period and meet the min. monthly spend requirement to unlock an increased \nS$100 bonus cashback cap\n per calendar month (instead of S$80) for 3 months starting from the month of card approval.\nTerms and Conditions\n apply.",
+   "tnc_url": null,
+   "bundle_with": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  }
+ ],
+ "links": {
+  "apply": "https://www.maybank2u.com.sg/en/personal/cards/credit/maybank-xl-card.page?sc=acq4"
+ },
+ "citation": {
+  "id": "singsaver:46ec5be2e413",
+  "url": "https://www.singsaver.com.sg/credit-card/products/maybank-xl-cashback-card",
+  "title": "Maybank XL Cashback Card",
+  "source_type": "aggregator",
+  "retrieved_at": "2026-09-27T05:26:15+00:00",
+  "sha256": "46ec5be2e413250e17976f5a815adb4fc768edf708243e147e0a0105752dedcb",
+  "snapshot": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-maybank-xl-cashback-card-01ec3303.html"
+ },
+ "extra": {
+  "network": [
+   "Mastercard"
+  ],
+  "mobile_wallets": [
+   "Apple Pay",
+   "Samsung Pay"
+  ],
+  "fx_fee_percent": 3.25,
+  "miles_conversion_fee": null,
+  "categories": [
+   "category:cashback",
+   "category:dining-promo",
+   "category:installment",
+   "category:promo",
+   "category:retail-promo",
+   "category:rewards",
+   "needs:0-interest-rate",
+   "needs:0-processing-fee",
+   "needs:all-cards-with-dining-promo",
+   "needs:all-cards-with-promotion",
+   "needs:all-cards-with-retail-promo",
+   "needs:all-cashback-cards",
+   "needs:all-credit-cards",
+   "needs:all-installment-cards",
+   "needs:all-rewards-cards",
+   "needs:all-travel-cards",
+   "needs:apple-premium-gifts",
+   "needs:free-travel-insurance",
+   "needs:long-tenure-installment",
+   "needs:online-booking-discount",
+   "needs:unlimited-cashback"
+  ],
+  "tag": null,
+  "description": "Make the most of your best years with the Maybank XL Cashback Card. With a whopping 5% cashback on foreign currency spend and one of the widest number of spending categories on the market, you can score extra large rewards whenever you Dine, Shop, Travel, and Play."
+ }
+}

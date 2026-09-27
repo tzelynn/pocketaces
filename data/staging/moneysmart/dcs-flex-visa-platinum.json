@@ -1,0 +1,88 @@
+{
+ "source": "moneysmart",
+ "source_id": "dcs-flex-visa-platinum-card",
+ "source_url": "https://www.moneysmart.sg/credit-cards/dcs-flex-visa-platinum-card",
+ "name": "DCS Flex Visa Platinum Card",
+ "bank": "DCS",
+ "card_id": "dcs-flex-visa-platinum",
+ "image_url": "https://photos.cdn-moneysmart.com/credit_cards/uploads/products/images/image_url_2024-10-21_Visa Flex_Basic Yellow Card_PNG Medium.jpeg",
+ "min_annual_income": 30000.0,
+ "earn_rates": {},
+ "caps": {},
+ "highlights": [
+  "S$1 = 2.4 miles or 8% cash rebate/ investment credits/ carbon credits on Foreign Currency Spend",
+  "S$1 = 1.8 miles or 6% cash rebate/ investment credits/ carbon credits on Online & Contactless Spend in SGD",
+  "S$1 = 0.4 miles or 0.3% cash rebate/ investment credits/ carbon credits on All Other Spend",
+  "Switch your preferred rewards flexibly between up to 2.4 miles per S$1 or 8% cash rebate or 8% investment credits or 8% carbon credits",
+  "Reward switching is available once a month!",
+  "Choose from 4 card designs that best fit your style",
+  "Complimentary travel insurance coverage of up to S$1m",
+  "Enjoy first 12 months waiver on monthly service fee"
+ ],
+ "sign_up_offers": [
+  {
+   "kind": "MANUAL_GIFT",
+   "title": "S$50 GrabGifts Voucher",
+   "subtitle": null,
+   "is_cash": false,
+   "terms": "- Valid for New-To-DCS Credit Card customers\n- Spend a min. of S$800 in Eligible Transactions within 30 days",
+   "campaign": "Credit Card | DCS | Flex Card | 040926"
+  }
+ ],
+ "links": {
+  "product": "https://www.moneysmart.sg/credit-cards/dcs-flex-visa-platinum-card"
+ },
+ "citation": {
+  "id": "moneysmart:42909b088c22",
+  "url": "https://www.moneysmart.sg/credit-cards?page=2",
+  "title": "DCS Flex Visa Platinum Card",
+  "source_type": "aggregator",
+  "retrieved_at": "2026-09-27T05:27:14+00:00",
+  "sha256": "42909b088c22cb063c120b532d19af920cb3535c52f6bfc313193c6c6ea14746",
+  "snapshot": "data/raw/moneysmart/credit-cards-p2-5f055203.html"
+ },
+ "extra": {
+  "summary": "",
+  "badges": [],
+  "network": [
+   "Visa"
+  ],
+  "mobile_wallets": [
+   "Visa Contactless",
+   "Google Pay",
+   "Apple Pay"
+  ],
+  "groups": {
+   "annual-interest-rate-and-fees": {
+    "Annual Interest Rate": "27.8",
+    "Annual Principal Fee": "S$10 Monthly Service Fee (GST applies)",
+    "Supplementary Annual Fee": "S$5 Monthly Service Fee (GST applies)",
+    "Fee Waiver": "Waived for first 12 months",
+    "Minimum Monthly Repayment": "5% of outstanding balance or S$50 (whichever is greater), or the full amount if below S$50; plus all past due amount and any amount exceeding Credit Limit"
+   },
+   "minimum-income-requirements": {
+    "Singaporean/PR Minimum Annual Income": "S$30,000 per annum",
+    "Non-Singaporean Minimum Annual Income": "S$60,000 per annum"
+   },
+   "card-association": {
+    "Visa": "true"
+   },
+   "wireless-payment": {
+    "Visa Contactless": "true",
+    "Google Pay": "true",
+    "Apple Pay": "true"
+   },
+   "documents-required": {
+    "SG Citizens or PRs": "Apply via MyInfo",
+    "Income Tax Notice of Assessment": "Latest NOA",
+    "Latest Original Computerised Payslip": "Latest 3 or 6 months"
+   }
+  },
+  "our_takes": {
+   "our-take": "The DCS Flex Visa Platinum Card offers flexibility with its customizable rewards – choose between miles, cashback, or investment credits. However, the monthly service fee (waived for the first year) is unusual for a card requiring a S$30,000 minimum income. While the S$1 million travel insurance is a plus, weigh this against the relatively high 3.25% foreign transaction fee if you frequently spend overseas. This card suits those who value choice and are confident in maximizing their chosen reward type to offset the recurring fee after the first year.",
+   "good-for": "* Ideal for individuals who enjoy the flexibility to split credit limits with supplementary cardholders for family spending.\n* Suitable for those who prioritize rewards, with options of earning miles, cash rebate or investment credits based on spending habits.\n* Good for affluent individuals seeking a premium card with travel insurance coverage and stylish card design choices.",
+   "things-to-note": "* Waived monthly fees are for the first 12 months; factor in subsequent fees to maximize card benefits.\n* High 27.8% interest means carrying balances can be costly; aim to pay in full each month.\n* Foreign transaction fees are 3.25%; consider alternatives when spending overseas to minimize extra charges."
+  },
+  "updated_at": "2025-07-18T15:26:38+08:00"
+ }
+}

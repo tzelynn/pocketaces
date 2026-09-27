@@ -1,0 +1,72 @@
+{
+ "source": "moneysmart",
+ "source_id": "dbs-vantage-visa-infinite-card",
+ "source_url": "https://www.moneysmart.sg/credit-cards/dbs-vantage-visa-infinite-card",
+ "name": "DBS Vantage Visa Infinite Card",
+ "bank": "DBS",
+ "card_id": "dbs-vantage-visa-infinite",
+ "image_url": "https://photos.cdn-moneysmart.com/credit_cards/uploads/products/images/image_url_2022-06-22_DBS-Vantage-Card-(with-chip)AA.png",
+ "min_annual_income": 120000.0,
+ "earn_rates": {},
+ "caps": {},
+ "highlights": [
+  "S$1 = 1.5 miles or 1.5% cashback Local Spend",
+  "S$1 = 2.2 miles or 2.2% cashback Overseas Spend",
+  "25,000 Bonus Miles when you pay the Card's Annual Fee",
+  "Switch your rewards flexibly between up to 2.2 miles per S$1 or 2.2% Cashback",
+  "Complimentary Accor Plus Explorer membership with 1 free hotel night stay",
+  "Complimentary Priority Pass™ Digital Membership with access to over 1,500 airport lounges and travel experiences worldwide: 10 free visits within each 12-month period of your membership",
+  "Enjoy exclusive access to members-only dining privileges.",
+  "Receive 25,000 bonus miles (in the form of 12,500 DBS Points) when you pay the annual fee of S$599.50 (inclusive of GST)",
+  "At MoneySmart, we strive to keep our information accurate and up to date. This information may be different from what you see when you visit a financial institution, service provider, or specific product site. MoneySmart shall not be liable to compensate the Customer should the information is not as updated as our Partner."
+ ],
+ "sign_up_offers": [],
+ "links": {
+  "product": "https://www.moneysmart.sg/credit-cards/dbs-vantage-visa-infinite-card"
+ },
+ "citation": {
+  "id": "moneysmart:fbcf8e7229a3",
+  "url": "https://www.moneysmart.sg/credit-cards?page=3",
+  "title": "DBS Vantage Visa Infinite Card",
+  "source_type": "aggregator",
+  "retrieved_at": "2026-09-27T05:27:18+00:00",
+  "sha256": "fbcf8e7229a38611c3c767cd8447164e413b1306df1f54bebee269e3abf15202",
+  "snapshot": "data/raw/moneysmart/credit-cards-p3-707cb52c.html"
+ },
+ "extra": {
+  "summary": "DBS Vantage Card is one of the credit cards in Singapore with a high earn rate for both local and overseas spend, with the flexibility to switch between miles and cashback, along with benefits such as dining and travel privileges catered for both locally and abroad.",
+  "badges": [
+   "Miles or Cashback – you decide"
+  ],
+  "network": [],
+  "mobile_wallets": [],
+  "groups": {
+   "annual-interest-rate-and-fees": {
+    "Annual Interest Rate": "27.8%",
+    "Annual Principal Fee": "$599.50 (inclusive of 9% GST)",
+    "Supplementary Annual Fee": "0",
+    "Fee Waiver": "While the Annual Fee is strictly non-waivable for the first year, you will enjoy a waiver in the subsequent years if a minimum of S$60,000 worth of retail spend is made in the preceding Card Year",
+    "Interest Free Period": "25 days"
+   },
+   "minimum-income-requirements": {
+    "Singaporean/PR Minimum Annual Income": "S$120,000",
+    "Non-Singaporean Minimum Annual Income": "S$120,000"
+   },
+   "card-association": {
+    "Visa": "Yes"
+   },
+   "wireless-payment": {
+    "Visa Contactless": "Yes",
+    "Google Pay": "Yes",
+    "Apple Pay": "Yes",
+    "Samsung Pay": "Yes"
+   }
+  },
+  "our_takes": {
+   "our-take": "The DBS Vantage card suits those who value flexible rewards, offering both miles (up to 2.2 per S$1) and cashback (up to 2.2%) options. The Accor Plus membership with a free night stay adds value for frequent travellers. However, the relatively high S$599.50 annual fee (waived only with S$60,000 annual spend) and S$27 miles conversion fee mean you should spend strategically to maximize benefits and offset costs. The 3-year expiry on points is a drawback compared to cards with unlimited expiry.",
+   "good-for": "Affluent individuals who want to earn accelerated rewards on both local and overseas spending.\nTravel enthusiasts seeking complimentary airport lounge access and a free hotel night annually.\nHigh-income earners who can meet the annual fee or spending requirements for ongoing benefits.",
+   "things-to-note": "The S$599.50 annual fee can outweigh the benefits, so ensure rewards earned justify the cost.\nPoints/cashback expire after 3 years, so redeem them promptly to avoid losing your benefits.\nA S$27 fee applies per DBS Points to miles conversion, impacting the value of your rewards."
+  },
+  "updated_at": "2026-05-07T18:14:00+08:00"
+ }
+}

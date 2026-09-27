@@ -1,0 +1,359 @@
+Citi PayLite/Citi PayLite Bundle/Citi FlexiBill Terms & Conditions
+Definitions
+Program: refers to either Citi PayLite, Citi PayLite Bundle or Citi FlexiBill applied for by the customer. In the case of Citi PayLite Bundle, Program
+refers to the Citi PayLite Bundle or where the context applies, the Citi PayLite instalment loans converted under the Citi PayLite Bundle Program.
+Citi PayLite refers to the program under which your unbilled retail transactions are converted into instalments.
+Citi PayLite Bundle refers to the program under which certain of your unbilled Eligible retail transactions are converted by Citi into Citi PayLite
+instalments in accordance with these Terms.
+Citi FlexiBill refers to the program under which your statemented retail balances are converted into instalments.
+Terms: refers to these terms and conditions.
+Citi, we, us: refers to Citibank Singapore Limited.
+You, your: refer to the person who applied for the Program.
+Account Terms: refers to the agreement governing the Account.
+Account: refers to the Citi Credit Card or Citibank Ready Credit Card, as the case may be.
+Application Terms: refers to the terms, if any, found in any application for the Program.
+Approved Instalment, Approved Instalments: refers to the monthly instalment amount repayable upon approval of the Program Application
+made by you.
+CC: refers to Citi Credit Card account(s).
+Citibank Instalment Programs: refers to the Citi Instalment Payment Plan, Citibank Quick Cash and such other instalment loan programs as
+determined by Citi.
+CRC: refers to Citibank Ready Credit account.
+Credit Insure: refers to Credit Insure or Credit Insure Gold which are insurance plans underwritten by AIA Singapore Private Limited (Reg. No.
+201106386R). For more information on Credit Insure/Credit Insure Gold, please visit https://www.citibank.com.sg.
+EIR: the effective rate of interest applicable to the Program which may be revised by us.
+Eligible retail transactions: refers to the retail transactions which are eligible for Citi PayLite Bundle Program as further set out in these terms.
+Fee–based Program: refers to a 0% interest Program.
+Interest-based Program: refers to a Program with monthly interest charged.
+Statement of Account: refers to a monthly statement of account issued by us in respect of your Account specifying the current balance and
+the minimum payment due for the specified period.
+Transaction Amount: refers to either Citi PayLite or Citi FlexiBill transaction amount. In the case of Citi PayLite Bundle Program, the
+Transaction Amount is the amount in respect of the relevant Eligible retail transaction which is converted into a Citi PayLite instalment loan.
+General
+1. The Program is governed by these Terms, Application Terms, and the Account Terms. We can vary these Terms including the amount of
+EIR and cancellation fee by providing reasonable prior notice to you.
+2. The Transaction Amount for the Program is subject to your Account being in good standing as Citi may determine in its absolute discretion
+and is subject to review and approval by Citi.
+3. Approval of the Program is subject to our discretion. Citi is entitled to reject this Program without providing any reason.
+4. Approval of your Program is also subject to, amongst other things, the following conditions:
+(a) Your Transaction Amount must be for an amount not less than the minimum transaction amount, as prescribed by Citi from time to time;
+(b) The available combined credit limit in your Account, excluding any temporary credit line increase, must be sufficient to cover the
+Transaction Amount;
+(c) You must not be in breach of any Account Terms;
+(d) Your Account outstanding balance not exceeding 90% of the permanent combined credit limit of all your Account or such other limit as
+may be determined by us (Applicable for Citi PayLite and Citi FlexiBill Programs only); and
+(e) Your Account being in good standing and in this regard, you warrant that there are no changes or adverse circumstances which may
+materially and/or adversely affect your ability to perform or discharge your obligations under the Account Terms and/or the Program (if
+approved).
+5. If the Program is approved, you acknowledge that if you are enrolled for Electronic Advice, the bank may send you the Confirmation Letter
+via email or such other communication methods as the bank may determine, in accordance with the terms and conditions governing your
+account.
+6. The Program is not applicable to any Cash Advance, Balance Transfer, Citibank Instalment Programs and such other promotions and
+transactions as Citi may determine.
+7. You can apply for Citi FlexiBill only once per CRC and/or per CC (if you have multiple Citi Credit Cards) in any statement month regardless
+of channel or amount.
+8. If you have applied for Credit Insure on your Account, the Credit Insure premium rate would be computed based on the current balance (as
+specified in your monthly Account statement) and the outstanding Program unbilled principal amount. For more information and the terms
+governing your existing Credit Insure/Credit Insure Gold on your account, please refer to the Credit Insure Certificate of Nomination.
+9. The tenure of each Program shall commence on the date the Program is approved.
+10. The Program, including any upfront service fee and/or interest (where applicable) will not earn any rewards under any Citi loyalty programs.
+11. Citi exercises no control and is not liable for any Program not successfully submitted due to disruption in this service regardless of the cause
+of disruption.
+12. Our decision on all matters relating to this Program shall be final and no correspondence shall be entertained.
+Repayment
+13. The Transaction Amount shall be repaid by way of equal monthly instalments over such tenures available from time to time. We have the
+discretion to vary your tenure and/or the amount of each Approved Instalment with notice. The Program Approved Instalments will be billed
+to Account and reflected in your monthly Statement of Account. Each Approved Instalment will be reflected in your Statement of Account as
+a normal charge to your Account and be payable by you in accordance with the relevant Account Terms.
+Combined Updated: January 2026 Co.Reg.No. 200309485K14. For Fee-based Program: A one-time service fee will be charged upfront upon approval of the Fee-based Program. The Approved Instalment
+and service fee may be varied at our discretion.
+The monthly instalment shall be a fixed amount computed by:
+Transaction Amount ÷ tenor [months]
+Please refer to clauses 20 and 21 for further details.
+15. For Interest-based Program:
+(a) The Program Approved Instalment shall be a fixed amount and consists of both principal and interest where the interest component
+of each monthly instalment is computed by:
+EIR x the outstanding Transaction Amount ÷ 12 [months];
+(b) If the time between the date the Program is approved and the date of your next Statement of Account (i.e. the monthly Account
+statement in which your first Program Approved Instalment is to be billed) is less than 30 days, the monthly interest payable in
+respect of your first Program Approved Instalment will be pro-rated on a 365 days basis and on a 366 days basis in a leap year; and
+(c) Interest on the Program is chargeable from the date your application for the Program is approved.
+Please refer to clauses 20 and 21 for further details.
+16. (Applicable to Citi PayLite instalment loans converted under the Citi PayLite Bundle Program only)
+For 0% interest with no service fee Citi PayLite Bundle Program:
+The monthly instalment shall be a fixed amount computed by:
+Transaction Amount ÷ tenor [months]*
+*The first month instalment amount may be subject to rounding difference
+However, interest on Citi PayLite Bundle Program is chargeable when you do not make full payment of the current balance (Total Amount
+Due) on your CC as set out in clause 20 below.
+17. For Program booked on CC: Your available combined CC permanent credit limit will be progressively restored by an amount equivalent to
+each Approved Instalment as each Approved Instalment is paid and to the extent that actual payment is received by us.
+18. For Program booked on CRC: Your CRC credit limit will be progressively restored by an amount equivalent to each Approved Instalment
+as each Approved Instalment is paid and to the extent that actual payment is received by us.
+19. If you have an existing GIRO arrangement to pay the outstanding balance reflected in your Statement of Account in full, the full amount of
+the current balance for your Account (including the Transaction Amount set out in this Program) or the minimum amount due, as the case
+maybe, as reflected in your Statement of Account issued immediately before the date of your Program, will be paid via GIRO on the relevant
+payment due date. You accept that in this case, reversal of the Transaction Amount earlier paid in full by GIRO and your first Approved
+Instalment will only be reflected in the next statement cycle.
+20. For Program drawn on Citi Credit Card (CC): We will charge the interest rate and/or fees (including any applicable upfront service fee) as
+disclosed at the date of availing the instalment loan which shall be applicable during its entire term and no additional fees and interest will
+be charged for this instalment loan, ONLY if we receive (or had received) payment in full of the current balance (Total Amount Due) stated
+on your monthly statement of account by the payment due date every month until you have paid all instalments.
+However, if we did not receive the full payment of the current balance (Total Amount Due) as indicated in your current or previous monthly
+statement of account, (i) the billed monthly instalment due in current statement, and (ii) any unpaid portion of any previous monthly
+instalment(s) in your current Statement of Account will be subject to daily interest at (i) $3 per month, or (ii) at the prevailing interest rate as
+set out in the statement of account, whichever is greater. This daily interest on the instalment loan will be charged from one day after
+statement date till:
+a. one day before the payment date of the instalment loan, if you pay the full current balance (Total Amount Due) on or before the
+payment due date OR
+b. till the date you pay the full current balance (Total Amount Due) after the payment due
+In addition, if we do not receive the full payment of the minimum amount due by the payment due date, you must also pay a monthly late
+payment charge at a rate(s) determined by us and notified to you from time to time; and your credit records will reflect payment delinquency.
+The above is subject to the CC Account Terms. The prevailing interest rate can be found at the back of your monthly statement of account.
+For Program on your CC, please note that the instalment loan will take more than the scheduled term to pay off in full if only minimum amount
+due is paid on your CC.
+Below is an illustration on the retail interest charge on the billed instalment amount if you do not make a full payment of the current balance
+by the payment due date. (Important: Please note the example below is for illustrative purposes)
+Statement Date 15-Feb
+Payment Due Date 12-Mar
+Billed monthly instalment amount S$500
+Retail interest rate as set out in the statement of account 27.9%1 p.a.
+Combined Updated: January 2026 Co.Reg.No. 200309485KMinimum payment specified in statement of account S$50
+Payment made on 20 Feb S$50
+Interest charged on the billed monthly instalment amount ($500) from current statement date till payment S$1.53
+date at retail interest rate 27.9%1 p.a.
+Remaining unpaid monthly instalment amount S$450
+Interest charged on the unpaid portion of the billed monthly instalment amount ($450) from payment date S$8.26
+till next statement of account at retail interest rate 27.9%1 p.a.
+Total interest payable S$9.79
+1 Effective 24 July 2023
+21. For Program drawn on Citibank Ready Credit (CRC): If the relevant minimum payment amount specified in your CRC Statement of
+Account is not received within 30 days from the relevant payment due date, the billed monthly instalment due in current statement, and any
+unpaid portion of any previous monthly instalment(s) in your current statement of account is subject to daily interest at (i) S$5 per month, or
+(ii) the prevailing CRC interest rate as we may determine in our discretion, whichever is greater, on all Citi Instalment Programs monthly
+instalment amounts that are due but remain unpaid. CRC minimum payment amount refers to the minimum amount due and payable on the
+CRC outstanding balance which includes all transactions, interest, fees (including any applicable upfront service fee), charges, and liabilities
+(including any Citi Instalment Program minimum payment) due and payable to us in any month.
+In addition, if we do not receive the full payment of the minimum amount due by the payment due date, you must also pay a monthly late
+payment charge at a rate(s) determined by us and notified to you from time to time; and your credit records will reflect payment delinquency.
+The above is subject to the CRC Account Terms. The prevailing interest rate can be found at the back of your monthly statement of account.
+For Program booked on your CRC, please note that the instalment loan will take more than the scheduled term to pay off in full if less than
+minimum amount is paid on your CRC.
+Below is an illustration if you make a full payment of the minimum amount due (including all transactions, interest, fees (including any
+applicable upfront service fee), charges, and liabilities (including any Citi Instalment Programs minimum payment) due and payable to us
+in any month) by the payment due date. (Important: Please note the example below is for illustrative purposes)
+Statement Date 20-Feb
+Payment Due Date 18-Mar
+Billed monthly instalment amount S$500
+Account interest rate as set out in the statement of account 22.95%1p.a.
+Minimum payment specified in statement of account S$500
+Payment made on 15 Mar S$500
+No interest charged on the billed instalment amount ($500) since payment is received before payment due date.
+1Effective 24 July 2023
+Prepayment and Termination
+22. This Program is not revocable by you without our prior approval.
+23. If the minimum payment amount is not paid in full for two consecutive months, we have the right to immediately terminate the Program
+(including any Citi PayLite instalment loans converted under the Citi PayLite Bundle Program) without further notice to you and in such event,
+the entire outstanding unbilled Program principal amount will be billed to you in your monthly Account statement and shall be payable by
+you in accordance with the Account Terms.
+24. The Citi PayLite Program, including the Citi PayLite instalment loans converted pursuant to the Citi PayLite Bundle Program* or the Citi
+FlexiBill Program cannot be pre-paid partially.
+Termination by you: The Citi PayLite Program, the Citi PayLite instalment loans converted pursuant to the Citi PayLite Bundle Program*
+or the Citi FlexiBill Program may be terminated or cancelled in full at any time by you provided that you call in Citiphone Banking, or such
+other methods we may allow from time to time, of your intention to terminate the Program and we acknowledge the same.
+Termination by us: We may also terminate or cancel in full the Citi PayLite Program, the Citi PayLite Bundle Program or any of the Citi
+PayLite instalment loans converted pursuant to the Citi PayLite Bundle* and the Citi FlexiBill Program, by providing reasonable prior notice
+to you.
+Combined Updated: January 2026 Co.Reg.No. 200309485KConsequence of Termination: For cancellation of any Citi PayLite Program, Citi PayLite instalment loans converted pursuant to the Citi
+PayLite Bundle Program or Citi FlexiBill Program, the entire outstanding balance under the Program will be billed in your monthly Account
+statement and shall be payable by you in accordance with the Account Terms.
+*To cancel the Citi PayLite Bundle Program itself (i.e. if you no longer wish to have the conversion of your unbilled Eligible retail
+transactions under the Citi PayLite Bundle Program), you must do so via the Citi Mobile App, or such other methods we may allow from
+time to time, and we must acknowledge the same. Please note that if your request for cancellation of the Citi PayLite Bundle Program is
+acknowledged, the Cancellation Effective Date will be determined in accordance with clause 33 of these Terms.
+25. Citi reserves the right at our absolute discretion to terminate the Program or vary, delete, add to or in any way amend these Terms in its
+discretion from time to time with notice.
+26. Without prejudice to any of our other rights under the Account Terms, we shall be entitled to demand immediate repayment of all outstanding
+sums owed under the Program upon the occurrence of any one or more of the following events:-
+(a) You are in breach of any of these Terms, Application Terms or any provision of the Account Terms;
+(b) You default in the payment of any sums due under these Terms, Application Terms or the Account Terms;
+(c) Citi terminates or suspends your Account;
+(d) You terminate your Account;
+(e) You terminate this Program;
+(f) Your death, bankruptcy or other legal disability; and/or
+(g) Any provision herein is held by any judicial or competent authority to be void, voidable or otherwise unenforceable.
+The outstanding amount will be reflected as a charge in your Statement of Account and shall be payable by you in accordance with the
+Account Terms.
+Application of Payments
+27. We are entitled to apply and appropriate all payments received in such manner or order of priority we deem fit but generally, we apply
+payments received in respect of the Program in the following order:
+(a) For Program booked on your CC Account:
+(i) all billed and unpaid interest, fees and charges;
+(ii) all unpaid balance transfer balances, cash advances, Citibank Instalment Programs, card transactions (A) first, in any previous
+statements of account (B) thereafter, in the current statement of account and (C) then, such transactions not yet included in any
+statement of account. For each category of unpaid balances: (aa) the balances with the highest applicable interest rate will be
+repaid in priority to the other balances within such category; and (bb) where the interest rate applicable to any unpaid balance
+transfer balances within such category is the same, payments received by us will reduce the balances transferred under the latest
+fund transfer program (after it has been reflected in your statement of account) first, notwithstanding that you may have unpaid
+balance transfer balances from earlier fund transfer programs.
+(b) For Program booked on your CRC Account:
+(i) all unpaid interest and fees on any Citibank Instalment Programs;
+(ii) all unpaid principal on any Citibank Instalment Programs;
+(iii) all other unpaid interests, fees and charges;
+(iv) all unpaid principal on any Citibank balance transfer programs (the “Unpaid Balance Transfer Balance”), all unpaid transactions
+effected by you by drawing CRC cheques or by using the CRC Card, Citibank ATM/Debit Card, via GIRO or all unpaid transactions
+effected from your CRC account, (each an “Unpaid Balance” and collectively, “Unpaid Balances”).
+In respect of the Unpaid Balances, (A) the Unpaid Balances with the highest applicable interest rate will be repaid in priority to the other
+Unpaid Balances; and (B) where the interest rate applicable to any Unpaid Balance Transfer Balances is the same, payments received
+by Citibank will reduce the balances transferred under the latest balance transfer program (after it has been reflected in your statement
+of account) first, notwithstanding that you may have Unpaid Balance Transfer Balances from earlier balance transfer programs.
+Citi PayLite Bundle Program
+The following additional terms apply if you are applying for a Citi PayLite Bundle Program.
+28. Definitions
+(a) Application Approval Date: refers to the date when your application for the Citi PayLite Bundle Program is approved.
+(b) Bundle Period: refers to the monthly period starting from the day after your Statement Date to your next Statement Date provided
+that the first Bundle Period after your Citi PayLite Bundle Program is approved will be the period starting from the day after the
+Application Approval Date to your next Statement Date. Please note that for the first 36 hours after the Application Approval Date, the
+Bundle Period as displayed in the Citi Mobile App is tentative and subject to change due to processing time required.
+(c) Cancellation Approval Date: refers to the date when your request for cancellation of the Citi PayLite Bundle Program was approved
+by Citi.
+(d) Cancellation Effective Date: refers to the date when the cancellation of the Citi PayLite Bundle Program by you is effective.
+(e) MCC or Merchant Category Code: refers to a four-digit number assigned to a merchant/business by the merchant’s acquiring bank.
+The acquiring bank provides the credit card payment facilities used by the merchant and it determines and applies (with respect to the
+account), the MCC which in its view best describes the merchant activity. Citibank does not determine the merchant’s MCC.
+(f) Posting Date: refers to the date the transaction is received and recorded by Citi. The Posting Date may be a few days after the retail
+transaction date.
+Combined Updated: January 2026 Co.Reg.No. 200309485K(g) Statement Date: refers to the date on which your statement was generated for the CC in respect of which you had applied for Citi
+PayLite Bundle Program.
+(h) Specified CC: refers to the Citi Credit Card type that is specified/determined by Citi, at its discretion, as being eligible to participate in
+the Citi PayLite Bundle Program. Citi reserves the right to determine, at its discretion, which is a Specified CC.
+29. You may only apply for the Citi PayLite Bundle Program on a Specified CC if you are a basic/main/primary Citi Credit cardmember of the
+Specified CC. Supplementary cardmembers of the Specified CC are not eligible for Citi PayLite Bundle Program. Citi reserves the right to
+determine, at its discretion, which is a Specified CC. All Citibank Ready Credit customers are not eligible for Citi PayLite Bundle Program
+unless otherwise determined by Citi.
+30. All applications for Citi PayLite Bundle Program are subject to Citi’s approval. Once approved, the Citi PayLite Bundle will continue unless
+terminated or cancelled by us or by you in accordance with these Terms.
+31. Under Citi PayLite Bundle Program, you agree that Citi has the right, but not the obligation, to convert the first three (3) Eligible retail
+transactions each of minimum amount S$500, charged to the Specified CC in every Bundle Period, to three (3) Citi PayLite instalment loans
+with each Citi PayLite instalment loan having a tenure of three (3) months. You agree that this conversion will continue on an ongoing
+basis until the Citi PayLite Bundle Program is terminated/cancelled in accordance with these Terms. For the avoidance of doubt, each of
+the Citi PayLite instalment loans converted under the Citi PayLite Bundle Program is a Citi PayLite instalment loan booked to the Specified
+CC and each of such Citi PayLite instalment is subject to these Terms and the Account Terms. Citi will send you a confirmation letter of each
+Citi PayLite instalment loan that is converted.
+Eligible retail transactions refer only to retail transactions charged to the Specified CC which satisfy the following criteria:
+(a) The retail transaction must be a minimum of SGD500; and
+(b) The retail transaction date must be after the Application Approval Date; and
+(c) The retail transaction’s Posting Date must be within the relevant Bundle Period; and
+(d) The retail transactions are not any of the following transactions:
+(i) Merchant Country Code is Overseas (i.e. not SG or SGP);
+(ii) Transactions are made in currencies other than Singapore dollars (SGD);
+(iii) Apple Pay transactions;
+(iv) Google Pay transactions;
+(v) Samsung Pay transactions; or
+(vi) Transactions performed at establishment/businesses/merchants that fall within the following excluded Merchant Category Codes
+(“MCC”), please note that this list of excluded MCCs is not exhaustive and may be updated from time to time at any time by Citi
+at our discretion:
+Category Excluded MCCs Short Description
+Quasi Cash / M CC 4829 Wire Transfer Money Orders (WTMOs)
+Financial Services,
+such as but not MCC 5960 Direct Marketing – Insurance Services
+limited to:
+MCC 6012 Financial Institutions – Merchandise, Services, and Debt
+Repayment
+MCC 6051 Non-Financial Institutions – Foreign Currency, Money Orders
+(Not Wire Transfer), Stored Value Card/Load, Travelers
+Cheques, and Debt Repayment
+MCC 6211 Securities – Brokers and Dealers
+M CC 6300 I nsurance Sales, Underwriting and Premiums
+MCC 7523 Parking Lots, Parking Meters and Garages
+MCC 7800 Government-Owned Lotteries (US Region only)
+MCC 7995 Betting, including Lottery Tickets, Casino Gaming Chips, Off-
+Track Betting, and Wagers at Race Tracks
+Professional M CC 8651 P olitical Organizations
+Services and
+Membership
+Organizations, such as
+but not limited to:
+Government MCC 9211 Court Costs Including Alimony and Child Support
+Services, such as
+but not limited to: MCC 9222 Fines
+MCC 9223 Bail and Bond Payments
+MCC 9399 Government Services (Not Elsewhere Classified)
+MCC 9405 U.S. Federal Government Agencies or Departments
+Combined Updated: January 2026 Co.Reg.No. 200309485KBusiness Services, MCC 7801 Government-Licensed Casinos (Online or Internet Gambling)
+such as but not limited
+to: MCC 7802 Government-Licensed Horse/Dog Racing
+Please refer to Illustration A below for an example of how the conversion applies.
+32. You acknowledge that you may still receive SMSes, push notifications or other forms of communication from us to convert an Eligible retail
+transaction under Citi PayLite Program, even if you have applied for Citi PayLite Bundle Program. You agree that in the event if you agree
+to proceed to convert an Eligible retail transaction under Citi PayLite Program which may impose an upfront service fee or interest charges,
+the Eligible retail transaction will be converted under Citi PayLite Program and not be converted under Citi PayLite Bundle Program.
+33. Without prejudice to clause 24 above, any request to cancel the Citi PayLite Bundle Program itself* (i.e. if you no longer wish to have the
+conversion of your unbilled Eligible retail transactions under the Citi PayLite Bundle Program), must be done by you via the Citi Mobile App,
+or such other methods we may allow from time to time, and we must acknowledge the same. If the cancellation request is acknowledged,
+the Cancellation Effective Date will depend on whether there were any Eligible retail transactions that were converted for the Bundle Period
+prior to the Cancellation Approval Date:
+(a) If there were no converted Eligible retail transactions for such Bundle Period prior to the Cancellation Approval Date, the Cancellation
+Effective Date will be the same as the Cancellation Approval Date. Please refer to illustration C below; or
+(b) If there was one or more converted Eligible retail transaction(s) for such Bundle Period prior to the Cancellation Approval Date, then
+the Cancellation Effective Date will be one (1) day after the end of such Bundle Period. Please refer to illustration B below.
+*For cancellation/termination of any of the Citi PayLite instalment loans converted pursuant to the Citi PayLite Bundle Program, please
+refer to clause 24 above.
+34. The awarding of any miles/points/cash back/other rewards currency in respect of any retail transaction charged to your Specified CC is
+governed by the relevant cardmember’s agreement of such Specified CC. For the avoidance of doubt, no additional miles/points/cash
+back/other rewards currency will be accorded in respect of any Eligible retail transaction under the Citi PayLite Bundle Program.
+Illustrations relating to Citi PayLite Bundle Program
+Important: Please note that the following are for illustrative purposes only and not intended to be relied on. The illustrations are not meant
+to cater for all scenarios. All illustrations are based on the assumption that the cardmember has successfully applied for a Citi PayLite Bundle
+on the Specified CC and that the only retail transactions a cardmember has charged to the Specified CC is reflected in the relevant illustration.
+Application
+A. Below is an illustration if a cardmember has successfully applied for the Citi PayLite Bundle Program.
+Will the retail transaction be converted into Citi PayLite
+instalment loan under the Citi PayLite Bundle Program?
+Statement Cycle: 8th of every month
+Application Approval Date: 21-Mar
+Upcoming Statement Cycle: 8-Apr
+Current Bundle Period: 22-Mar to 8-Apr
+Retail transaction of S$500 made on 20-Mar with a Posting Date of 21- No; the retail transaction date (20-Mar) must be after the
+Mar Application Approval Date (21-Mar). This is not an Eligible
+retail transaction.
+Retail transaction of S$500 made on 22-Mar with a Posting Date of 22- Yes; the retail transaction date (22-Mar) is later than the
+Mar and such retail transaction does not fall under clause 31(d)(i) to (vi) Application Approval Date (21-Mar) and the Posted Date falls
+above. within the Current Bundle Period. This is an Eligible retail
+transaction.
+Combined Updated: January 2026 Co.Reg.No. 200309485KCancellation
+B. Below is an illustration if a cardmember has requested to cancel the Citi PayLite Bundle Program which was approved and such
+cardmember has at least one Eligible retail transaction converted to a Citi PayLite instalment loan, pursuant to the Citi PayLite Bundle
+Program, in the Bundle Period prior to the Cancellation Approval Date. As such, the Cancellation Effective Date will be one (1) day after
+the end of the cardmember’s Current Bundle Period.
+Will the retail transaction be converted into Citi PayLite
+instalment loan under the Citi PayLite Bundle Program?
+Statement Cycle: 8th of every month
+Application Approval Date: 21-Mar
+Upcoming Statement Cycle: 8-Apr
+Current Bundle Period: 22-Mar to 8-Apr
+Date that cancellation request was made: 23-Mar
+Cancellation Approval Date: 23-Mar
+Cancellation Effective Date: 9-Apr
+Retail transaction with a Posting Date of 22-Mar Yes; Cancellation Effective Date will be 9-Apr.
+Retail transaction with a Posting Date of 8-Apr Yes; Cancellation Effective Date will be 9-Apr.
+Retail transaction with a Posting Date of 9-Apr No; Cancellation Effective Date is 9-Apr.
+^ Assume that the retail transaction dates are all after Application Approval Date and customer has not fully utilized the Citi PayLite Bundle.
+C. Below is an illustration if a cardmember has requested to cancel the Citi PayLite Bundle Program which was approved and such
+cardmember does not have any transactions converted to a Citi PayLite instalment loan, pursuant to the Citi PayLite Bundle Program, in
+the Bundle Period prior to the Cancellation Approval Date. As such, the Cancellation Effective Date will be the same as the Cancellation
+Approval Date.
+Will the retail transaction be converted into Citi PayLite
+instalment loan under the Citi PayLite Bundle Program?
+Statement Cycle: 8th of every month
+Application Approval Date: 21-Mar
+Upcoming Statement Cycle: 8-Apr
+Current Bundle Period: 22-Mar to 8-Apr
+Date that cancellation request was made: 23-Mar
+Cancellation Approval Date: 23-Mar
+Cancellation Effective Date: 23-Mar
+Retail transaction with a Posting Date of 23-Mar (Assuming that No; Cancellation Effective Date will be immediate.
+cancellation was done before Eligible retail transaction was posted)
+Retail transaction with a Posting Date of 24-Mar No; Cancellation Effective Date is 23-Mar.
+^ Assume that the retail transaction dates are all after Application Approval Date
+Important: Please retain a copy of these Terms for your reference
+Combined Updated: January 2026 Co.Reg.No. 200309485K

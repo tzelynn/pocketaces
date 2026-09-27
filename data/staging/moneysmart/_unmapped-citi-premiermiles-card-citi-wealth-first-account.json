@@ -1,0 +1,98 @@
+{
+ "source": "moneysmart",
+ "source_id": "citi-premiermiles-card-citi-wealth-first-account",
+ "source_url": "https://www.moneysmart.sg/credit-cards/citi-premiermiles-card-citi-wealth-first-account",
+ "name": "Citi PremierMiles Card + Citi Wealth First Account",
+ "bank": "Citibank",
+ "image_url": "https://photos.cdn-moneysmart.com/credit_cards/uploads/products/images/image_url_2024-04-19_26Mar_CC_Citigold (1).png",
+ "annual_fee": 196.2,
+ "earn_rates": {},
+ "caps": {},
+ "highlights": [
+  "S$1 = Up to 2.2 Miles on Foreign Currency Spend",
+  "Up to 7.51% Interest on your Citi Wealth First Account",
+  "300000 Min. Deposit",
+  "Introducing our groundbreaking all-in-one bundle: Citi PremierMiles Card + Citi Wealth First Account Bundle, offering seamless financial empowerment and unparalleled travel rewards in one effortless application process.",
+  "Get more attractive gift incentives when you sign up for the Bundle",
+  "Citi PremierMiles Card:",
+  "Earn up to 2.2 Citi Miles per S$1 when you spend on your Citi PremierMiles Card",
+  "Earn up to 10 Citi Miles per S$1 on online travel bookings via Kaligo and Agoda",
+  "Citi Miles never expire",
+  "Principal Cardholder gets to enjoy 2 complimentary visits every year to over 1,300 airport lounges worldwide.",
+  "Receive renewal bonus of 10,000 Citi Miles on your Card anniversary",
+  "Citi Wealth First Account:",
+  "Enjoy up to 7.51% p.a. interest when you join Citigold and open a Wealth First account. T&Cs apply.",
+  "Enjoy zero foreign transaction or currency conversion fees in over 15 currencies with Citibank Global wallet when you pay with your Citigold Debit Mastercard.",
+  "Enjoy 0%* commission buy trades online for U.S. & Hong Kong markets for 6 months when you open a new Citibank Brokerage account.",
+  "Get wealth management advice and solutions from a dedicated Relationship Manager and team of wealth specialists",
+  "Receive in-depth global market insights and research knowledge from a team of over 350) research analysts.",
+  "Enjoy fully personalised wealth management solutions with Citigold's Total Wealth Advisor",
+  "Citigold status is maintained at Citibank brances overseas",
+  "To be eligible for MoneySmart Exclusive Promotion:",
+  "Open a Wealth First Account within one month from application",
+  "Fund in S$300k into Wealth First Account by MOB3",
+  "Meet their RM to complete Invest Risk and Fact Find by MOB3"
+ ],
+ "sign_up_offers": [],
+ "links": {
+  "product": "https://www.moneysmart.sg/credit-cards/citi-premiermiles-card-citi-wealth-first-account"
+ },
+ "citation": {
+  "id": "moneysmart:49fcb3586f25",
+  "url": "https://www.moneysmart.sg/credit-cards?page=4",
+  "title": "Citi PremierMiles Card + Citi Wealth First Account",
+  "source_type": "aggregator",
+  "retrieved_at": "2026-09-27T05:27:20+00:00",
+  "sha256": "49fcb3586f252df0b2dacb9acecc465127e09c9defa7f151881c3db46d84649e",
+  "snapshot": "data/raw/moneysmart/credit-cards-p4-1a322210.html"
+ },
+ "extra": {
+  "summary": "Embark on your holistic wealth journey with Citi to meet your financial goals. Apply for a bank account and a credit card with one seamless application, and enjoy exclusive rewards when you start now.",
+  "badges": [
+   "BUNDLE | SINGLE SEAMLESS APPLICATION JOURNEY"
+  ],
+  "network": [
+   "Mastercard"
+  ],
+  "mobile_wallets": [
+   "Google Pay",
+   "Apple Pay",
+   "Samsung Pay"
+  ],
+  "groups": {
+   "annual-interest-rate-and-fees": {
+    "Annual Interest Rate": "27.9",
+    "Annual Principal Fee": "196.20",
+    "Supplementary Annual Fee": "98.10",
+    "Minimum Monthly Repayment": "1% plus 1% of any outstanding unbilled instalment amounts plus interest charges plus late payment charge or S$50, whichever is higher",
+    "Interest Free Period": "25 days"
+   },
+   "minimum-income-requirements": {
+    "Singaporean/PR Minimum Annual Income": "30000",
+    "Non-Singaporean Minimum Annual Income": "42000"
+   },
+   "card-association": {
+    "Mastercard": "true"
+   },
+   "wireless-payment": {
+    "Google Pay": "true",
+    "Apple Pay": "true",
+    "Samsung Pay": "true"
+   },
+   "documents-required": {
+    "SG Citizens or PRs": "Apply via MyInfo",
+    "Passport Validity (Foreigners)": "6 months",
+    "Work Permit Validity (Foreigners)": "6 months",
+    "Utility or Telephone Bill": "With Full Name and Address",
+    "Income Tax Notice of Assessment": "true",
+    "Latest Original Computerised Payslip": "true"
+   }
+  },
+  "our_takes": {
+   "our-take": "The Citi PremierMiles Card, paired with a Citi Wealth First Account, suits frequent travellers who also seek wealth management. Earn miles on travel and dining, accelerating rewards. The Citi Wealth First Account unlocks wealth solutions, personalized advice, and potentially boosts your savings. Benefit from global market insights, exclusive wealth management, and achieve your financial goals. Consider this card if you're ready to manage and grow your wealth while also collecting miles for travel. Note the annual fee of S$196.20, weigh this against potential miles earned and wealth benefits.",
+   "good-for": "Affluent travelers who want to earn miles on everyday spending and redeem them for luxury travel experiences.\nHigh-net-worth individuals seeking personalized wealth management and priority banking services to optimize their financial portfolios.\nProfessionals looking to grow their savings with bonus interest and achieve their financial goals through insurance and investments.",
+   "things-to-note": "Annual fee of S$196.20 applies; ensure rewards outweigh this cost or consider other cards.\nFunding of the Citi Wealth First Account is required, along with meeting your dedicated Relationship Manager.\nForeign transaction fee is 3.25%; use alternative cards for overseas spending to save."
+  },
+  "updated_at": "2025-11-01T00:00:02+08:00"
+ }
+}

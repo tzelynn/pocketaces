@@ -1,0 +1,96 @@
+# Curated card record. Auto-drafted from staged sources; verify every value against the
+# official T&Cs (citations below), then set review.status: reviewed.
+id: uob-unionpay-platinum
+bank: UOB
+name: UOB UnionPay Platinum Card
+image_url: https://mhgprod.blob.core.windows.net/singsaver/strapi-uploads/xs_blt6c0e640340dbe730_b1a027b72d.png
+official_url: https://www.uob.com.sg/personal/cards/cashback/unionpay-card.page
+annual_fee:
+  amount:
+    amount: 196.2
+    currency: SGD
+  waiver_notes: S$ | First Three Years Waived
+  sources: ['singsaver:54640191d596']
+min_annual_income:
+  amount: 30000.0
+  currency: SGD
+reward_currency:
+  kind: cashback
+  name: Cashback
+earn_rules:
+- id: overseas
+  label: overseas, local, dining, supermarket, petrol, travel, retail, local online shopping, overseas
+    online shopping, health, department store, digital wallet (SingSaver — verify)
+  rate: 2.0
+  unit: percent
+  tier: bonus
+  eligibility:
+    include_mcc: ['4829', '5199', '5960', '5965', '5993', '6012', '6050', '6051', '6211', '6300', '6399',
+      '6513', '6529', '6530', '6534', '6540', '7349', '7511', '7523', '7995', '8062', '8211', '8220',
+      '8241', '8244', '8249', '8299', '8398', '8651', '8661', '8699', '8999', '9211', '9222', '9223',
+      '9311', '9399', '9402', '9405']
+    description: On eligible transactions, capped at S$50 per statement month. No minimum spend. / Enjoy
+      up to 21.6% off petrol purchases at SPC. [include_mcc auto-extracted from official T&C — check it
+      belongs to this rule]
+    sources: ['singsaver:54640191d596', 'bank:cbf44abdaad5', 'bank:f9f550487d62', 'bank:42358e29d735',
+      'bank:cbf44abdaad5', 'bank:c13cf48e44b4']
+  bonus_cap:
+    amount: 50.0
+    unit: SGD_cashback
+    period: statement_month
+    sources: ['singsaver:54640191d596']
+  conditions:
+  - bonus_cap parsed from aggregator text “capped at S$50 per statement month” — confirm amount, unit
+    and whether the period is calendar or statement month
+  - 'aggregator categories: dining, groceries, petrol, travel, shopping, healthcare'
+  sources: ['singsaver:54640191d596']
+- id: base
+  label: baseline (SingSaver — verify)
+  rate: 2.0
+  unit: percent
+  tier: base
+  eligibility:
+    all_spend: true
+    description: On eligible transactions, capped at S$50 per statement month. No minimum spend.
+    sources: ['singsaver:54640191d596']
+  sources: ['singsaver:54640191d596']
+general_exclusions:
+  description: Auto-extracted from official T&Cs — confirm each code applies to this card
+notes:
+- 'T&C mentions (check whether excluded): annual fee, axs, cardup, cash advance, charit, education, government,
+  hospital, instalment, interest, ipaymy, late payment charge, tax, top-up, top-ups, utilit'
+citations:
+- id: singsaver:54640191d596
+  url: https://www.singsaver.com.sg/credit-card/products/uob-unionpay-platinum-card
+  title: UOB UnionPay Platinum Card
+  source_type: aggregator
+  retrieved_at: '2026-09-27T05:27:05+00:00'
+  sha256: 54640191d59668760b1296bafbc10199114835ad1725b6c4b5d4de75b45b50d6
+  snapshot: data/raw/singsaver/www-singsaver-com-sg-credit-card-products-uob-unionpay-platinum-card-a665b097.html
+- id: bank:cbf44abdaad5
+  url: https://www.uob.com.sg/assets/web-resources/personal/pdf/cards/cashback/unionpay-card/upi-tnc.pdf?i_cid=pfs:sg:owned:int:site:na:li:na:undefined:na-evergreen:direct:na&vid=none
+  source_type: official
+  retrieved_at: '2026-09-27T08:45:24+00:00'
+  sha256: cbf44abdaad55271946ffe94cb2584e65af9c6f7f2f2585aee4544c00722337f
+  snapshot: data/raw/bank/www-uob-com-sg-assets-web-resources-personal-pdf-cards-cashback-unionpay-card-upi-tnc-pdf-7b81923a.pdf
+- id: bank:f9f550487d62
+  url: https://www.uob.com.sg/web-resources/personal/pdf/personal/cards/credit-cards/rewards-cards/uob-unionpay-platinum-card/upi-refresh-tc.pdf
+  source_type: official
+  retrieved_at: '2026-09-27T08:45:20+00:00'
+  sha256: f9f550487d62fd3b1534e82545209d207c1b276190a870ed35d1b2bfa4e42665
+  snapshot: data/raw/bank/om-sg-web-resources-personal-pdf-personal-cards-credit-cards-rewards-cards-uob-unionpay-platinum-card-upi-refresh-tc-pdf-414c829b.pdf
+- id: bank:42358e29d735
+  url: https://www.uob.com.sg/assets/pdfs/add-on-card-terms-conditions.pdf
+  source_type: official
+  retrieved_at: '2026-09-27T08:45:22+00:00'
+  sha256: 42358e29d7350a9750c477afebed16d22e101f969821263b9777733152bf0a95
+  snapshot: data/raw/bank/www-uob-com-sg-assets-pdfs-add-on-card-terms-conditions-pdf-294d1c4b.pdf
+- id: bank:c13cf48e44b4
+  url: https://www.uob.com.sg/credit-cards/pdf/online-cards-campaign.pdf
+  source_type: official
+  retrieved_at: '2026-09-27T08:45:26+00:00'
+  sha256: c13cf48e44b48d1aa3b0d0d5655f54f9001de57208d560ff29b09fc9ed8bc643
+  snapshot: data/raw/bank/www-uob-com-sg-credit-cards-pdf-online-cards-campaign-pdf-a28f442a.pdf
+review:
+  status: draft
+updated_at: '2026-09-27'

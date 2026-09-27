@@ -1,0 +1,126 @@
+{
+ "source": "singsaver",
+ "source_id": "dbs-takashimaya-american-express-card",
+ "source_url": "https://www.singsaver.com.sg/credit-card/products/dbs-takashimaya-american-express-card",
+ "name": "DBS Takashimaya American Express Card",
+ "bank": "DBS",
+ "card_id": "dbs-takashimaya-american-express",
+ "image_url": "https://mhgprod.blob.core.windows.net/singsaver/strapi-uploads/xs_blt0531e426e68a8c6c_b516634be7.webp",
+ "annual_fee": 196.2,
+ "annual_fee_note": "S$ | First Year Waived",
+ "min_annual_income": 30000.0,
+ "earn_rates": {
+  "percent:baseline": {
+   "value": 0.17,
+   "unit": "percent",
+   "note": "(Indirect Cashback) S$1 local spend = 0.2 point on all spend. 1,200 points redeemed = S$10 cash credit. Equivalent to 0.17% cashback."
+  },
+  "percent:overseas": {
+   "value": 0.17,
+   "unit": "percent",
+   "note": "(Indirect Cashback) S$1 local spend = 0.2 point on all spend. 1,200 points redeemed = S$10 cash credit. Equivalent to 0.17% cashback."
+  },
+  "percent:supermarket": {
+   "value": 6.0,
+   "unit": "percent",
+   "note": "Up to | In voucher rebates in Takashimaya Department Store."
+  },
+  "percent:health": {
+   "value": 6.0,
+   "unit": "percent",
+   "note": "In voucher rebates in Takashimaya Department Store  (Indirect cashback) Every S$10 spent = 2 Takashimaya Bonus Points, S$500 spent = 100 Takashimaya Bonus Points = S$30 worth of Takashimaya vouchers, equivalent to 6% cashback."
+  },
+  "percent:department_store": {
+   "value": 6.0,
+   "unit": "percent",
+   "note": "In voucher rebates in Takashimaya Department Store  (Indirect cashback) Every S$10 spent = 2 Takashimaya Bonus Points, S$500 spent = 100 Takashimaya Bonus Points = S$30 worth of Takashimaya vouchers, equivalent to 6% cashback."
+  },
+  "points_per_dollar:retail": {
+   "value": 2.0,
+   "unit": "points_per_dollar",
+   "note": "With every S$10 charged in Takashima Department Store."
+  },
+  "points_per_dollar:dining": {
+   "value": 2.0,
+   "unit": "points_per_dollar",
+   "note": "With every S$10 charged in Takashima Department Store."
+  },
+  "points_per_dollar:grocery": {
+   "value": 2.0,
+   "unit": "points_per_dollar",
+   "note": "With every S$10 charged in Takashima Department Store."
+  },
+  "percent:local": {
+   "value": 0.17,
+   "unit": "percent",
+   "note": "(Indirect Cashback) S$1 local spend = 0.2 point on all spend. 1,200 points redeemed = S$10 cash credit. Equivalent to 0.17% cashback."
+  },
+  "percent:retail": {
+   "value": 6.0,
+   "unit": "percent",
+   "note": "Up to | In voucher rebates in Takashimaya Department Store."
+  }
+ },
+ "caps": {},
+ "highlights": [
+  "Earn up to 6% cashback in voucher rebates at Takashimaya Department Store on retail, health, and supermarket purchases. Additionally, receive 0.17% cashback on local and overseas spending, with every S$1 spent equaling 0.2 points, redeemable for S$10 cash credit after accumulating 1,200 points.",
+  "pros: Get 6% voucher rebates in Takashimaya Department Store (Earn 2 Takashimaya Bonus Points with every S$10 charged)",
+  "pros: Get 2% voucher rebates in Takashimaya Shopping Centre (Earn 2 Takashimaya Bonus Points with every S$30 charged)",
+  "pros: Redeem S$30 worth of Takashimaya Gift Vouchers with every 100 Takashimaya Bonus Points.",
+  "pros: Enjoy additional 10% off during selected sale events at Takashimaya Department Store.",
+  "pros: Enjoy up to 5% discount at selected Takashimaya stores in Asia.",
+  "cons: Rebates can only be redeemed for Takashimaya vouchers.",
+  "pros: Retail rebate",
+  "pros: Retail discount",
+  "pros: Voucher redeemable",
+  "pros: No rebate cap"
+ ],
+ "sign_up_offers": [],
+ "links": {},
+ "citation": {
+  "id": "singsaver:23923a307220",
+  "url": "https://www.singsaver.com.sg/credit-card/products/dbs-takashimaya-american-express-card",
+  "title": "DBS Takashimaya American Express Card",
+  "source_type": "aggregator",
+  "retrieved_at": "2026-09-27T05:25:28+00:00",
+  "sha256": "23923a307220f23525403da6194bee8324997cc95abbc8d43a30ff29065e9f94",
+  "snapshot": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-dbs-takashimaya-american-express-card-4a8cc249.html"
+ },
+ "extra": {
+  "network": [
+   "American Express"
+  ],
+  "mobile_wallets": [
+   "Google Pay",
+   "Samsung Pay",
+   "NETSPay"
+  ],
+  "fx_fee_percent": 3.25,
+  "miles_conversion_fee": null,
+  "categories": [
+   "category:all-credit-cards",
+   "category:buffet-promo",
+   "category:dining-promo",
+   "category:grocery-promo",
+   "category:installment",
+   "category:petrol-promo",
+   "category:promo",
+   "category:retail-promo",
+   "category:travel",
+   "needs:0-interest-rate",
+   "needs:all-cards-with-buffet-promo",
+   "needs:all-cards-with-dining-promo",
+   "needs:all-cards-with-grocery-promo",
+   "needs:all-cards-with-petrol-promo",
+   "needs:all-cards-with-promotion",
+   "needs:all-cards-with-retail-promo",
+   "needs:all-credit-cards",
+   "needs:all-installment-cards",
+   "needs:all-travel-cards",
+   "needs:long-tenure-installment",
+   "needs:online-booking-discount"
+  ],
+  "tag": null,
+  "description": "Shop to your heart's content with the DBS Takashimaya American Express Card. This shopping credit card allows you to receive up to 6% voucher rebates on your Takashimaya spend, plus an additional 10% off during selected sale events."
+ }
+}

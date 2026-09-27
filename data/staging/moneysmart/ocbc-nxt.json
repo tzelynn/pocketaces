@@ -1,0 +1,74 @@
+{
+ "source": "moneysmart",
+ "source_id": "ocbc-nxt-credit-card",
+ "source_url": "https://www.moneysmart.sg/credit-cards/ocbc-nxt-credit-card",
+ "name": "OCBC NXT Credit Card",
+ "bank": "OCBC",
+ "card_id": "ocbc-nxt",
+ "image_url": "https://photos.cdn-moneysmart.com/credit_cards/uploads/products/images/image_url_2023-07-03_OCBC NXT.jpg",
+ "min_annual_income": 15000.0,
+ "earn_rates": {},
+ "caps": {},
+ "highlights": [
+  "1% Cash Rebates when monthly bill is above S$1,000",
+  "Interest Free monthly instalment payments",
+  "Payments Split into 3 or 6 months",
+  "The first Buy Now Pay Later Credit Card that allows you to split any payment and enjoy 0% interest instalments.",
+  "Interest-free auto-instalments - automatically splits your transactions into monthly instalments, so you don’t have to worry about paying all your expenses at one go.",
+  "Ease of split payments across 3 or 6 months",
+  "Earn 1% cash rebates when your monthly bill is S$1,000 or more"
+ ],
+ "sign_up_offers": [],
+ "links": {
+  "product": "https://www.moneysmart.sg/credit-cards/ocbc-nxt-credit-card"
+ },
+ "citation": {
+  "id": "moneysmart:49fcb3586f25",
+  "url": "https://www.moneysmart.sg/credit-cards?page=4",
+  "title": "OCBC NXT Credit Card",
+  "source_type": "aggregator",
+  "retrieved_at": "2026-09-27T05:27:20+00:00",
+  "sha256": "49fcb3586f252df0b2dacb9acecc465127e09c9defa7f151881c3db46d84649e",
+  "snapshot": "data/raw/moneysmart/credit-cards-p4-1a322210.html"
+ },
+ "extra": {
+  "summary": "",
+  "badges": [],
+  "network": [
+   "Mastercard"
+  ],
+  "mobile_wallets": [
+   "Google Pay",
+   "Apple Pay",
+   "Samsung Pay"
+  ],
+  "groups": {
+   "annual-interest-rate-and-fees": {
+    "Annual Interest Rate": "27.78",
+    "Annual Principal Fee": "S$162 (waived for first 2 years)",
+    "Supplementary Annual Fee": "81",
+    "Fee Waiver": "Minimum Spend of S$10,000 in 1 year",
+    "Minimum Monthly Repayment": "S$50 or 3% of the Total Balance, whichever is higher, and any overdue amount",
+    "Interest Free Period": "23 days"
+   },
+   "minimum-income-requirements": {
+    "Singaporean/PR Minimum Annual Income": "•At least S$30,000 for Singaporeans and Singapore PRs aged between 21 and 54\n•At least S$15,000 for Singaporeans and Singapore PRs aged 55 and above",
+    "Non-Singaporean Minimum Annual Income": "•At least S$45,000 for foreigners"
+   },
+   "card-association": {
+    "Mastercard": "true"
+   },
+   "wireless-payment": {
+    "Google Pay": "true",
+    "Apple Pay": "true",
+    "Samsung Pay": "true"
+   }
+  },
+  "our_takes": {
+   "our-take": "The OCBC NXT card’s \"Buy Now, Pay Later\" feature offers flexibility by splitting purchases into 3- or 6-month installments – useful for managing larger expenses but remember, it’s tied to your credit limit. Aim for at least S$1,000 monthly spend to unlock the 1% cashback; otherwise, it's a low 0.5%. The S$162 annual fee (waived for the first two years, then with S$10,000 spend) makes it ideal for those who can consolidate spending, but less appealing if you won’t hit the threshold. Weigh the convenience against potential fees, as late payments can negate any cashback earned.",
+   "good-for": "Those wanting to split payments into smaller installments, ideal for managing larger purchases over time.\nCardholders who spend at least S$1,000 monthly, aiming to maximize cashback earnings on various retail transactions.\nSavers looking for interest-free options, particularly for eligible Great Eastern insurance premiums with a processing fee.",
+   "things-to-note": "Waived for 2 years, the S$162 annual fee applies thereafter; spend S$10,000 yearly to avoid it.\nLate payments incur S$100 fees plus high 27.78% interest, escalating debt quickly if unpaid.\n1% cashback is capped at S$100 monthly, limiting rewards if you spend over S$10,000."
+  },
+  "updated_at": "2024-09-16T12:16:13+08:00"
+ }
+}

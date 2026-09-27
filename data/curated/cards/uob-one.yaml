@@ -1,0 +1,179 @@
+# Curated card record. Auto-drafted from staged sources; verify every value against the
+# official T&Cs (citations below), then set review.status: reviewed.
+id: uob-one
+bank: UOB
+name: UOB One Card
+image_url: https://mhgprod.blob.core.windows.net/singsaver/strapi-uploads/xs_bltc084e4ed3c026a82_e1163aca8d.png
+official_url: https://www.uob.com.sg/personal/cards/cashback/one-card.page
+annual_fee:
+  amount:
+    amount: 196.2
+    currency: SGD
+  first_year_waived: true
+  waiver_notes: S$ | First Year Waived
+  sources: ['singsaver:b75574a4d371']
+min_annual_income:
+  amount: 30000.0
+  currency: SGD
+reward_currency:
+  kind: cashback
+  name: Cashback
+earn_rules:
+- id: local
+  label: local (SingSaver — verify)
+  rate: 20.0
+  unit: percent
+  tier: bonus
+  eligibility:
+    include_mcc: ['4829', '5199', '5960', '5965', '5993', '6012', '6050', '6051', '6211', '6300', '6399',
+      '6513', '6529', '6530', '6534', '6540', '7349', '7511', '7523', '7995', '8062', '8211', '8220',
+      '8241', '8244', '8249', '8299', '8398', '8651', '8661', '8699', '8999', '9211', '9222', '9223',
+      '9311', '9399', '9402', '9405']
+    description: Up to | Up to 20% cashback on daily spend at McDonald’s, Grab, SimplyGo (bus/train rides)
+      and Shopee; up to 18% cashback on all grocery spend; and up to 4.33% on SP Group and more.  [include_mcc
+      auto-extracted from official T&C — check it belongs to this rule]
+    sources: ['singsaver:b75574a4d371', 'bank:2ed33269412e', 'bank:8876b22d62f2', 'bank:799ed3a9a4fa',
+      'bank:3dd0f7414dc4', 'bank:42358e29d735', 'bank:c13cf48e44b4', 'bank:bed290b5b010']
+  sources: ['singsaver:b75574a4d371']
+- id: local-online-shopping
+  label: local online shopping, retail, transport, dining (SingSaver — verify)
+  rate: 10.0
+  unit: percent
+  tier: bonus
+  eligibility:
+    tags: [shopping, transport, dining]
+    description: Up to / Up to  | Up to 10% cashback on Shopee / Up to  | Up to 10% cashback on daily
+      spend at Grab and SimplyGo (bus/train rides) / Up to  | Up to 10% cashback on daily spend at McDonald's,
+      GrabFood and Grab Dine Out
+    sources: ['singsaver:b75574a4d371']
+  sources: ['singsaver:b75574a4d371']
+- id: supermarket
+  label: supermarket (SingSaver — verify)
+  rate: 8.0
+  unit: percent
+  tier: bonus
+  eligibility:
+    tags: [groceries]
+    description: Up to | Up to 8% cashback on all grocery spend
+    sources: ['singsaver:b75574a4d371']
+  sources: ['singsaver:b75574a4d371']
+- id: overseas
+  label: overseas (SingSaver — verify)
+  rate: 3.33
+  unit: percent
+  tier: bonus
+  eligibility:
+    description: Up to | Min. spend of S$600 / S$1,000 / S$2,000 per month (min. 10 transactions) for
+      qualifying quarter
+    sources: ['singsaver:b75574a4d371']
+  sources: ['singsaver:b75574a4d371']
+- id: base
+  label: baseline (SingSaver — verify)
+  rate: 3.33
+  unit: percent
+  tier: base
+  eligibility:
+    all_spend: true
+    description: Up to | Min. spend of S$600 / S$1,000 / S$2,000 per month (min. 10 transactions) for
+      qualifying quarter
+    sources: ['singsaver:b75574a4d371']
+  sources: ['singsaver:b75574a4d371']
+general_exclusions:
+  exclude_mcc: ['4119', '4814', '4816', '4821', '4829', '4899', '4900', '5199', '5411', '5960', '5965',
+    '5993', '6010', '6011', '6012', '6050', '6051', '6211', '6300', '6381', '6513', '6529', '6530', '6534',
+    '6535', '6536', '6537', '6538', '6539', '6540', '6611', '6760', '7280', '7349', '7511', '7523', '7800',
+    '7801', '7802', '7995', '8062', '8211', '8220', '8241', '8244', '8249', '8299', '8398', '8651', '8661',
+    '8999', '9211', '9222', '9223', '9311', '9399', '9402', '9405']
+  description: Auto-extracted from official T&Cs — confirm each code applies to this card
+  sources: ['bank:2ed33269412e', 'bank:8876b22d62f2', 'bank:799ed3a9a4fa', 'bank:3dd0f7414dc4', 'bank:42358e29d735',
+    'bank:c13cf48e44b4', 'bank:bed290b5b010']
+sign_up_bonuses:
+- offered_by: singsaver
+  description: 'Welcome Offer: choice of Enjoy up to 20% cashback on daily spend'
+  value:
+    amount: 200.0
+    currency: SGD
+  valid_from: '2026-05-14'
+  valid_to: '2026-09-30'
+  url: https://www.uob.com.sg/assets/web-resources/personal/pdf/cards/cashback/one-card/one-credit-card-cmpg-tnc.pdf
+  sources: ['singsaver:b75574a4d371']
+- offered_by: singsaver
+  description: 'Welcome Offer: choice of S$100 Samsung Voucher'
+  valid_from: '2026-06-30'
+  valid_to: '2026-09-29'
+  url: https://www.singsaver.com.sg/credit-card/products/uob-one-card
+  sources: ['singsaver:b75574a4d371']
+- offered_by: singsaver
+  description: 'SingSaver Flash Deal: choice of S$200 Cash via PayNow; Samsonite Straren Spinner 67/24
+    (worth S$600); S$90 Cash via PayNow'
+  value:
+    amount: 200.0
+    currency: SGD
+  valid_from: '2026-09-01'
+  valid_to: '2026-09-30'
+  url: https://www.singsaver.com.sg/credit-card/products/uob-one-card
+  sources: ['singsaver:b75574a4d371']
+notes:
+- 'T&C mentions (check whether excluded): annual fee, axs, bill payment, cardup, cash advance, charit,
+  education, government, grabpay, hospital, instalment, insurance premium, interest, ipaymy, ipp, late
+  payment charge, tax, top-up, top-ups, utilit, youtrip'
+citations:
+- id: singsaver:b75574a4d371
+  url: https://www.singsaver.com.sg/credit-card/products/uob-one-card
+  title: UOB One Card
+  source_type: aggregator
+  retrieved_at: '2026-09-27T05:26:55+00:00'
+  sha256: b75574a4d3716d35ff29119f9c1aaa6381bc4e4ceeadb36bc948f811f6f6bbd2
+  snapshot: data/raw/singsaver/www-singsaver-com-sg-credit-card-products-uob-one-card-a0a439b1.html
+- id: moneysmart:eeee24fb93a9
+  url: https://www.moneysmart.sg/credit-cards
+  title: UOB One Card
+  source_type: aggregator
+  retrieved_at: '2026-09-27T05:27:12+00:00'
+  sha256: eeee24fb93a9d85ef8b9194c11bda960b5b99ee30b3689cdc59fb650badebce7
+  snapshot: data/raw/moneysmart/credit-cards-p1-b55034ef.html
+- id: bank:2ed33269412e
+  url: https://www.uob.com.sg/assets/pdfs/one_card_full_tnc.pdf
+  source_type: official
+  retrieved_at: '2026-09-27T08:44:15+00:00'
+  sha256: 2ed33269412e1ec9a2a135f6a99582a77e99f0bf5dc2de2411b0053fe8b5cd34
+  snapshot: data/raw/bank/www-uob-com-sg-assets-pdfs-one-card-full-tnc-pdf-4e2e6a6a.pdf
+- id: bank:8876b22d62f2
+  url: https://www.uob.com.sg/assets/web-resources/personal/pdf/cards/cashback/one-card/one-credit-card-cmpg-tnc.pdf
+  source_type: official
+  retrieved_at: '2026-09-27T08:44:17+00:00'
+  sha256: 8876b22d62f2b0cf09961d165fb71dfa8930733101db5785ac93760e345157b7
+  snapshot: data/raw/bank/www-uob-com-sg-assets-web-resources-personal-pdf-cards-cashback-one-card-one-credit-card-cmpg-tnc-pdf-41cd0354.pdf
+- id: bank:799ed3a9a4fa
+  url: https://www.uob.com.sg/assets/web-resources/personal/pdf/promotions/cards/deals/disney-adventure/terms-and-conditions-uob-year-end-campaign-2024.pdf
+  source_type: official
+  retrieved_at: '2026-09-27T08:44:19+00:00'
+  sha256: 799ed3a9a4face2a55df065e9c6b4007d852216ee1a9580e9ff49a2bd4d04a21
+  snapshot: data/raw/bank/s-web-resources-personal-pdf-promotions-cards-deals-disney-adventure-terms-and-conditions-uob-year-end-campaign-2024-pdf-bbcbe8f3.pdf
+- id: bank:3dd0f7414dc4
+  url: https://www.uob.com.sg/assets/pdfs/one-credit-card-changes-faq.pdf
+  source_type: official
+  retrieved_at: '2026-09-27T08:44:21+00:00'
+  sha256: 3dd0f7414dc4f2ba9f93f62d7645ee220057d20067c8ea388f8bef0fa9d21e5d
+  snapshot: data/raw/bank/www-uob-com-sg-assets-pdfs-one-credit-card-changes-faq-pdf-da21cfa2.pdf
+- id: bank:42358e29d735
+  url: https://www.uob.com.sg/assets/pdfs/add-on-card-terms-conditions.pdf
+  source_type: official
+  retrieved_at: '2026-09-27T08:44:23+00:00'
+  sha256: 42358e29d7350a9750c477afebed16d22e101f969821263b9777733152bf0a95
+  snapshot: data/raw/bank/www-uob-com-sg-assets-pdfs-add-on-card-terms-conditions-pdf-294d1c4b.pdf
+- id: bank:c13cf48e44b4
+  url: https://www.uob.com.sg/credit-cards/pdf/online-cards-campaign.pdf
+  source_type: official
+  retrieved_at: '2026-09-27T08:44:25+00:00'
+  sha256: c13cf48e44b48d1aa3b0d0d5655f54f9001de57208d560ff29b09fc9ed8bc643
+  snapshot: data/raw/bank/www-uob-com-sg-credit-cards-pdf-online-cards-campaign-pdf-a28f442a.pdf
+- id: bank:bed290b5b010
+  url: https://www.uob.com.sg/assets/pdfs/uob-one-credit-card-faq.pdf
+  source_type: official
+  retrieved_at: '2026-09-27T08:44:27+00:00'
+  sha256: bed290b5b01046ecfa40ba068549db6245aabab31deee9ae65bd570af5895427
+  snapshot: data/raw/bank/www-uob-com-sg-assets-pdfs-uob-one-credit-card-faq-pdf-3c803008.pdf
+review:
+  status: draft
+updated_at: '2026-09-27'

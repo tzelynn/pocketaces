@@ -1,0 +1,84 @@
+{
+ "source": "singsaver",
+ "source_id": "citi-prestige-card",
+ "source_url": "https://www.singsaver.com.sg/credit-card/products/citi-prestige-card",
+ "name": "Citi Prestige Card",
+ "bank": "Citibank",
+ "card_id": "citi-prestige",
+ "image_url": "https://mhgprod.blob.core.windows.net/singsaver/strapi-uploads/l_blt726412701091d85f_c3af52a7e8.png",
+ "annual_fee": 651.82,
+ "annual_fee_note": "S$ | Inclusive of GST.",
+ "min_annual_income": 120000.0,
+ "min_monthly_spend": 0.0,
+ "earn_rates": {
+  "points_per_dollar:overseas_spending": {
+   "value": 5.0,
+   "unit": "points_per_dollar",
+   "note": "5 ThankYou Points (2 miles) per dollar on overseas spend."
+  },
+  "points_per_dollar:baseline": {
+   "value": 3.25,
+   "unit": "points_per_dollar",
+   "note": "3.25 ThankYou points per dollar on local spend."
+  },
+  "points_per_dollar:local_spending": {
+   "value": 3.25,
+   "unit": "points_per_dollar",
+   "note": "3.25 ThankYou Points (1.3 miles) per dollar on local spend."
+  }
+ },
+ "caps": {},
+ "highlights": [
+  "Earn 5 ThankYou Points for every dollar spent overseas, and 3.25 ThankYou Points for each dollar spent locally.",
+  "pros: 5 ThankYou Points per dollar on overseas spend.",
+  "pros: 3.25 ThankYou Points per dollar on local spend.",
+  "pros: Points earned do not expire and have no cap.",
+  "pros: Twelve (12) complimentary lounge visits per calendar year to over 1,700 airport lounges and experiences in cities around the world through Priority Pass membership.",
+  "pros: Complimentary night stays when you book a minimum consecutive four-night stay at any hotel or resort.",
+  "pros: Up to 30% more ThankYou Points for your relationship with Citibank.",
+  "pros: Six complimentary golf games locally and overseas.",
+  "pros: Read our full review of the \nCiti Prestige Card\n.",
+  "cons: Minimum annual income requirement of S$120,000.",
+  "cons: Annual Fee of S$651.82 (incl. GST).",
+  "cons: Can no longer convert Citi ThankYou Points into miles (as of February 2026).",
+  "pros: Airport lounge",
+  "pros: Dining Benefits",
+  "pros: Complimentary Hotel Night Stay",
+  "pros: Complimentary Limo Rides"
+ ],
+ "sign_up_offers": [],
+ "links": {},
+ "citation": {
+  "id": "singsaver:0baa50b56337",
+  "url": "https://www.singsaver.com.sg/credit-card/products/citi-prestige-card",
+  "title": "Citi Prestige Card",
+  "source_type": "aggregator",
+  "retrieved_at": "2026-09-27T05:25:11+00:00",
+  "sha256": "0baa50b56337590b20bff5e3c0172bf2bb89c8c5ca123d296e91270e7a03f7f8",
+  "snapshot": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-citi-prestige-card-a1fa4692.html"
+ },
+ "extra": {
+  "network": [
+   "Mastercard"
+  ],
+  "mobile_wallets": [
+   "Google Pay",
+   "Apple Pay",
+   "Samsung Pay"
+  ],
+  "fx_fee_percent": 3.25,
+  "miles_conversion_fee": 25.0,
+  "categories": [
+   "category:airmiles",
+   "category:all-credit-cards",
+   "category:travel",
+   "needs:airport-lounge-transfer",
+   "needs:all-airmiles-cards",
+   "needs:all-credit-cards",
+   "needs:all-travel-cards",
+   "needs:no-expiry-on-miles"
+  ],
+  "tag": "Best for luxury perks, global travel rewards",
+  "description": "The Citi Prestige Credit Card is the perfect card for affluent travellers with a taste for the premium, providing a wide range of premium benefits such as complimentary stays, accelerated rewards, complimentary golf, Four Hands Dining invitations, global concierge services and lounge access. Cardholders get to enjoy accelerated rewards with up to 5 ThankYou Points for every S$1 spent overseas and 3.25 ThankYou Points for every S$1 spent locally."
+ }
+}

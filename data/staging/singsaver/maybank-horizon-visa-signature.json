@@ -1,0 +1,227 @@
+{
+ "source": "singsaver",
+ "source_id": "maybank-horizon-visa-signature-card",
+ "source_url": "https://www.singsaver.com.sg/credit-card/products/maybank-horizon-visa-signature-card",
+ "name": "Maybank Horizon Visa Signature Card",
+ "bank": "Maybank",
+ "card_id": "maybank-horizon-visa-signature",
+ "image_url": "https://mhgprod.blob.core.windows.net/singsaver/strapi-uploads/l_2026_04_Maybank_Horizon_db0f820b1f.png",
+ "annual_fee": 196.2,
+ "annual_fee_note": "S$ | First Three Years Waived",
+ "min_annual_income": 30000.0,
+ "min_monthly_spend": 800.0,
+ "earn_rates": {
+  "mpd:flight_booking": {
+   "value": 2.8,
+   "unit": "mpd",
+   "note": "On air tickets. 7X TREATS Points per S$1 spent, equivalent to 2.8 miles per dollar"
+  },
+  "mpd:dining": {
+   "value": 1.2,
+   "unit": "mpd",
+   "note": null
+  },
+  "mpd:overseas": {
+   "value": 2.8,
+   "unit": "mpd",
+   "note": "On foreign spend. 7X TREATS Points per S$1 spent, equivalent to 2.8 miles per dollar"
+  },
+  "mpd:petrol": {
+   "value": 1.2,
+   "unit": "mpd",
+   "note": null
+  },
+  "mpd:transport": {
+   "value": 1.2,
+   "unit": "mpd",
+   "note": "For Taxi and ContactlessBus/Train rides."
+  },
+  "percent:overseas": {
+   "value": 2.16,
+   "unit": "percent",
+   "note": "(Indirect cashback) S$1 = 7 TREATS Point 18,500 TREATS Point  = S$50 cash credit, equivalent to 2.16% cashback."
+  },
+  "mpd:local": {
+   "value": 1.2,
+   "unit": "mpd",
+   "note": "On dining, petrol, Grab or taxi rides and Agoda hotel bookings."
+  },
+  "percent:baseline": {
+   "value": 0.27,
+   "unit": "percent",
+   "note": "(Indirect cashback) S$1 = 1 TREATS Point 18,500 TREATS Point  = S$50 cash credit, equivalent to 0.27% cashback."
+  },
+  "mpd:baseline": {
+   "value": 0.4,
+   "unit": "mpd",
+   "note": null
+  },
+  "percent:travel": {
+   "value": 2.16,
+   "unit": "percent",
+   "note": "(Indirect cashback) S$1 = 3 TREATS Points. 18,500 TREATS Points = S$50 cash credit, equivalent to 0.81% cashback."
+  },
+  "percent:dining": {
+   "value": 0.81,
+   "unit": "percent",
+   "note": "(Indirect cashback) S$1 = 3 TREATS Points. 18,500 TREATS Points = S$50 cash credit, equivalent to 0.81% cashback."
+  },
+  "percent:petrol": {
+   "value": 0.81,
+   "unit": "percent",
+   "note": "(Indirect cashback) S$1 = 3 TREATS Points. 18,500 TREATS Points = S$50 cash credit, equivalent to 0.81% cashback."
+  },
+  "percent:overseas_online_shopping": {
+   "value": 1.89,
+   "unit": "percent",
+   "note": "(Indirect cashback) S$1 = 7 TREATS Points. 18,500 TREATS Points = S$50 cash credit, equivalent to 1.89% cashback."
+  },
+  "percent:transport": {
+   "value": 1.89,
+   "unit": "percent",
+   "note": "(Indirect cashback) S$1 = 7 TREATS Points. 18,500 TREATS Points = S$50 cash credit, equivalent to 1.89% cashback."
+  },
+  "mpd:hotel_booking": {
+   "value": 1.2,
+   "unit": "mpd",
+   "note": "On Agoda bookings."
+  },
+  "mpd:travel": {
+   "value": 1.2,
+   "unit": "mpd",
+   "note": "On cruise and travel packages."
+  },
+  "points_per_dollar:baseline": {
+   "value": 5.0,
+   "unit": "points_per_dollar",
+   "note": null
+  },
+  "points_per_dollar:local_spending": {
+   "value": 15.0,
+   "unit": "points_per_dollar",
+   "note": "Up to | On dining, petrol, Grab or taxi rides and Agoda hotel bookings."
+  },
+  "points_per_dollar:overseas_spending": {
+   "value": 35.0,
+   "unit": "points_per_dollar",
+   "note": "On foreign spend."
+  },
+  "points_per_dollar:dining": {
+   "value": 15.0,
+   "unit": "points_per_dollar",
+   "note": null
+  },
+  "points_per_dollar:transport": {
+   "value": 15.0,
+   "unit": "points_per_dollar",
+   "note": "For ContactlessBus/Train rides."
+  },
+  "points_per_dollar:taxi_ride_sharing": {
+   "value": 15.0,
+   "unit": "points_per_dollar",
+   "note": "For local taxi providers."
+  },
+  "points_per_dollar:hotel_booking": {
+   "value": 15.0,
+   "unit": "points_per_dollar",
+   "note": "For Agoda bookings."
+  },
+  "points_per_dollar:flight_booking": {
+   "value": 35.0,
+   "unit": "points_per_dollar",
+   "note": "For air tickets."
+  },
+  "points_per_dollar:travel": {
+   "value": 15.0,
+   "unit": "points_per_dollar",
+   "note": "Up to | For Agoda bookings and travel bookings."
+  },
+  "points_per_dollar:petrol": {
+   "value": 15.0,
+   "unit": "points_per_dollar",
+   "note": "On petrol transactions."
+  },
+  "percent:local": {
+   "value": 0.27,
+   "unit": "percent",
+   "note": "(Indirect cashback) S$1 = 1 TREATS Point 18,500 TREATS Point  = S$50 cash credit, equivalent to 0.27% cashback."
+  },
+  "mpd:overseas_online_shopping": {
+   "value": 2.8,
+   "unit": "mpd",
+   "note": "On foreign spend. 7X TREATS Points per S$1 spent, equivalent to 2.8 miles per dollar."
+  }
+ },
+ "caps": {
+  "rewards_bonus_cap": {
+   "value": 30000.0,
+   "note": "Per calendar month"
+  }
+ },
+ "highlights": [
+  "Earn up to 2.8 miles per dollar on foreign spending and air tickets, with 7X TREATS Points per S$1 spent, equivalent to 2.8 miles;1.2 miles per dollar on taxi rides, contactless bus/train rides, dining, petrol, Grab rides, Agoda bookings, and cruise or travel packages. And 0.4 mpd for all other eiligible spend",
+  "pros: Earn 2.8 air miles (7X TREATS Points) per S$1 spent on air tickets and in foreign currencies.",
+  "pros: Earn 1.2 air miles (3X TREATS Points) per S$1 spent on all local shopping, groceries, dining, hotel bookings and more",
+  "pros: Earn miles when you spend on Insurance, Medical, Education, Rentals & more.",
+  "pros: Fuel savings of 20.05% + 3X TREATS Points at Caltex stations with Diamond Sky Fuel card",
+  "pros: Travel in comfort with complimentary access to selected VIP lounges",
+  "cons: Air miles are only applicable if redemption is made on TREATS SG app",
+  "cons: TREATS Points awarded calculated based on blocks of S$5.",
+  "cons: TREATS Points expire after one year.",
+  "pros: Overseas/Foreign spend",
+  "pros: Air tickets",
+  "pros: Dining",
+  "cons: Rebate cap applied"
+ ],
+ "sign_up_offers": [],
+ "links": {},
+ "citation": {
+  "id": "singsaver:9466faaac725",
+  "url": "https://www.singsaver.com.sg/credit-card/products/maybank-horizon-visa-signature-card",
+  "title": "Maybank Horizon Visa Signature Card",
+  "source_type": "aggregator",
+  "retrieved_at": "2026-09-27T05:26:07+00:00",
+  "sha256": "9466faaac725d633897152c8d8c6cc4907166bc33a497386221b0b6e162c6df2",
+  "snapshot": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-maybank-horizon-visa-signature-card-decdff21.html"
+ },
+ "extra": {
+  "network": [
+   "VISA Signature"
+  ],
+  "mobile_wallets": [
+   "Apple Pay",
+   "Samsung Pay"
+  ],
+  "fx_fee_percent": 3.25,
+  "miles_conversion_fee": 25.0,
+  "categories": [
+   "category:airmiles",
+   "category:all-credit-cards",
+   "category:dining-promo",
+   "category:installment",
+   "category:promo",
+   "category:retail-promo",
+   "category:rewards",
+   "category:travel",
+   "needs:0-interest-rate",
+   "needs:0-processing-fee",
+   "needs:air-miles-conversion-rewards",
+   "needs:all-airmiles-cards",
+   "needs:all-cards-with-dining-promo",
+   "needs:all-cards-with-promotion",
+   "needs:all-cards-with-retail-promo",
+   "needs:all-credit-cards",
+   "needs:all-installment-cards",
+   "needs:all-rewards-cards",
+   "needs:all-travel-cards",
+   "needs:annual-fee-waiver-airmiles",
+   "needs:annual-fee-waiver-travel-cards",
+   "needs:apple-premium-gifts",
+   "needs:free-travel-insurance",
+   "needs:long-tenure-installment",
+   "needs:online-booking-discount"
+  ],
+  "tag": null,
+  "description": "Level up your miles game with the Maybank Horizon Visa Signature Card. Earn up to 2.8 miles on air tickets, foreign spend, hotel booking, dining and more with a low minimum spend of S$800 per month. Plus, travel with peace of mind with complimentary travel insurance worth up to S$1 million."
+ }
+}

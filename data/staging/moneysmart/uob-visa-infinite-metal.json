@@ -1,0 +1,87 @@
+{
+ "source": "moneysmart",
+ "source_id": "uob-visa-infinite-metal-card",
+ "source_url": "https://www.moneysmart.sg/credit-cards/uob-visa-infinite-metal-card",
+ "name": "UOB Visa Infinite Metal Card",
+ "bank": "UOB",
+ "card_id": "uob-visa-infinite-metal",
+ "image_url": "https://photos.cdn-moneysmart.com/credit_cards/uploads/products/images/image_url_2023-07-19_UOBX_VIM.png",
+ "min_annual_income": 120000.0,
+ "earn_rates": {},
+ "caps": {},
+ "highlights": [
+  "Earn 1.4 Miles per S$1 spent locally",
+  "Earn 2.4 Miles per S$1 spent in Foreign Currency",
+  "Unlimited Access to 1,300 Airport Lounges worldwide for you and a guest",
+  "Earn 2.4 air miles per S$1 spent in foreign currency, and 1.4 air miles per S$1 spent locally",
+  "Enjoy unparalleled rewards of up to 40,000 air miles annually when you renew your UOB Visa Infinite Metal Card membership",
+  "Enhance your airport experience with The Airport Companion Program by DragonPass:",
+  "Unlimited access for you and a guest at over 1,300 airport lounges worldwide",
+  "Up to 25% discount at restaurants in airports worldwide",
+  "5% discount on Limousine and Meet & Greet services",
+  "Complimentary night stay at selected hotels when you stay a min. of 3 nights",
+  "24/7 UOB Visa Infinite Concierge for your banking and lifestyle needs",
+  "Waiver of miles conversion fees"
+ ],
+ "sign_up_offers": [],
+ "links": {
+  "product": "https://www.moneysmart.sg/credit-cards/uob-visa-infinite-metal-card"
+ },
+ "citation": {
+  "id": "moneysmart:fbcf8e7229a3",
+  "url": "https://www.moneysmart.sg/credit-cards?page=3",
+  "title": "UOB Visa Infinite Metal Card",
+  "source_type": "aggregator",
+  "retrieved_at": "2026-09-27T05:27:18+00:00",
+  "sha256": "fbcf8e7229a38611c3c767cd8447164e413b1306df1f54bebee269e3abf15202",
+  "snapshot": "data/raw/moneysmart/credit-cards-p3-707cb52c.html"
+ },
+ "extra": {
+  "summary": "",
+  "badges": [],
+  "network": [
+   "Visa"
+  ],
+  "mobile_wallets": [
+   "Visa Contactless",
+   "Google Pay",
+   "Apple Pay"
+  ],
+  "groups": {
+   "annual-interest-rate-and-fees": {
+    "Annual Interest Rate": "27.8",
+    "Annual Principal Fee": "S$654 (inclusive of 9% GST)",
+    "Supplementary Annual Fee": "First Supplementary Card: Free for life. S$293.38 (inclusive of 9% GST) for second and subsequent card(s)",
+    "Fee Waiver": "Strictly no waiver",
+    "Minimum Monthly Repayment": "3% of current balance or $50, whichever is higher, plus any overdue amounts",
+    "Interest Free Period": "Up to 21 days"
+   },
+   "minimum-income-requirements": {
+    "Singaporean/PR Minimum Annual Income": "Minimum annual income of S$120,000 is required",
+    "Non-Singaporean Minimum Annual Income": "Minimum annual income of S$120,000 is required"
+   },
+   "card-association": {
+    "Visa": "true"
+   },
+   "wireless-payment": {
+    "Visa Contactless": "true",
+    "Google Pay": "true",
+    "Apple Pay": "true"
+   },
+   "documents-required": {
+    "SG Citizens or PRs": "Apply via MyInfo",
+    "Passport Validity (Foreigners)": "6 months",
+    "Work Permit Validity (Foreigners)": "6 months",
+    "Utility or Telephone Bill": "true",
+    "Income Tax Notice of Assessment": "true",
+    "Latest Original Computerised Payslip": "true"
+   }
+  },
+  "our_takes": {
+   "our-take": "The UOB Visa Infinite Metal Card targets high-income earners who prioritize travel and dining perks. The 2.4 miles per S$1 overseas and unlimited lounge access (plus one guest) are valuable for frequent travelers. A significant hurdle is the S$100,000 annual spend required to unlock the 15,000 loyalty bonus miles upon renewal. While the welcome and annual bonus miles are attractive, the S$654 annual fee without waiver and high spending requirement make it suitable only for those with substantial and consistent spending habits. Consider alternatives if you spend less or prefer cashback.",
+   "good-for": "Affluent individuals seeking premium travel benefits, such as complimentary lounge access and travel insurance for enhanced travel experiences.\nHigh-spending professionals aiming to maximize air miles on both local and overseas transactions to redeem for flights and upgrades.\nLoyal customers who spend over S$100,000 annually, seeking bonus miles and ongoing rewards to offset the annual fee.",
+   "things-to-note": "$654 annual fee is non-waivable; ensure the card's benefits justify the cost each year.\nA S$100,000 spend is needed for the loyalty bonus, potentially unachievable for some users.\nHigh 27.8% interest means carrying a balance can lead to significant debt accumulation quickly."
+  },
+  "updated_at": "2025-07-31T13:55:25+08:00"
+ }
+}

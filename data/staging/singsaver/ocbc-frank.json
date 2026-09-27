@@ -1,0 +1,122 @@
+{
+ "source": "singsaver",
+ "source_id": "ocbc-frank-card",
+ "source_url": "https://www.singsaver.com.sg/credit-card/products/ocbc-frank-card",
+ "name": "OCBC Frank Card",
+ "bank": "OCBC",
+ "card_id": "ocbc-frank",
+ "image_url": "https://mhgprod.blob.core.windows.net/singsaver/strapi-uploads/xs_blt82bf6c7654fd4898_bbf9f8db45.webp",
+ "annual_fee": 196.2,
+ "annual_fee_note": "S$ | First Two Years Fee automatically waived with min. spend of S$10,000 from date of issue",
+ "min_annual_income": 30000.0,
+ "min_monthly_spend": 800.0,
+ "earn_rates": {
+  "percent:local": {
+   "value": 10.0,
+   "unit": "percent",
+   "note": "Up to | For online transactions and contactless mobile transactions in SGD  Additional 2% cashback at eco-friendly merchants and services  capped at S$25  minimum spend of S$800 required."
+  },
+  "percent:dining": {
+   "value": 8.0,
+   "unit": "percent",
+   "note": "Up to | 8% for contactless mobile transactions  Additional 2% cashback at eco-friendly merchants  capped at S$25  minimum spend of S$800 required."
+  },
+  "percent:supermarket": {
+   "value": 10.0,
+   "unit": "percent",
+   "note": "Up to | 8% for contactless mobile transactions  Additional 2% cashback at eco-friendly merchants and services  capped at S$25  minimum spend of S$800 required."
+  },
+  "percent:retail": {
+   "value": 10.0,
+   "unit": "percent",
+   "note": "Up to | 8% for contactless mobile transactions  Additional 2% cashback at eco-friendly merchants and services  capped at S$25  minimum spend of S$800 required."
+  },
+  "percent:local_online_shopping": {
+   "value": 10.0,
+   "unit": "percent",
+   "note": "Up to | 8% for contactless mobile transactions  Additional 2% cashback at eco-friendly merchants and services  capped at S$25  minimum spend of S$800 required."
+  },
+  "percent:overseas_online_shopping": {
+   "value": 8.0,
+   "unit": "percent",
+   "note": "For purchases made in foreign currency, both online and in stores  capped at S$25  minimum spend of S$800 required."
+  },
+  "percent:transport": {
+   "value": 10.0,
+   "unit": "percent",
+   "note": "Up to  | 8% for contactless mobile transactions  Additional 2% cashback at eco-friendly merchants and services  capped at S$25  minimum spend of S$800 required."
+  },
+  "percent:contactless_spend": {
+   "value": 10.0,
+   "unit": "percent",
+   "note": "Up to | 8% for contactless mobile transactions  Additional 2% cashback at eco-friendly merchants and services  capped at S$25  minimum spend of S$800 required."
+  },
+  "percent:overseas": {
+   "value": 8.0,
+   "unit": "percent",
+   "note": "For purchases made in foreign currency, both online and in stores  capped at S$25  minimum spend of S$800 required."
+  },
+  "percent:baseline": {
+   "value": 0.3,
+   "unit": "percent",
+   "note": "Capped at S$25"
+  }
+ },
+ "caps": {},
+ "highlights": [
+  "10% cashback on supermarkets, retail, local purchases, contactless payments, and transport, with 8% cashback on FCY spending. You can also earn up to 8% cashback on dining and 0.3% on other purchases. Note that all cashback is capped at S$25, and a minimum spend of S$800 is required. Cashback capped at S$100 per month.",
+  "pros: Enjoy 8% cashback on foreign currency transactions.",
+  "pros: Enjoy 8% cashback on online/contactless mobile transactions in SGD.",
+  "pros: Enjoy 2% cashback at selected green merchants.",
+  "pros: Annual fee waiver of 2 years",
+  "cons: Minimum spend of S$800 required to earn higher cashback rate.",
+  "cons: Cashback capped at S$100 per month.",
+  "cons: Automatic annual fee waiver requires min. annual spend of S$10,000.",
+  "pros: Contactless payment",
+  "pros: Overseas rebate",
+  "pros: Online shopping rebate",
+  "cons: Monthly spend required"
+ ],
+ "sign_up_offers": [],
+ "links": {},
+ "citation": {
+  "id": "singsaver:81d130552464",
+  "url": "https://www.singsaver.com.sg/credit-card/products/ocbc-frank-card",
+  "title": "OCBC Frank Card",
+  "source_type": "aggregator",
+  "retrieved_at": "2026-09-27T05:26:22+00:00",
+  "sha256": "81d1305524641b044d2eec331094021b4a0b5ee91c99af47d894cae6b3b4d2c2",
+  "snapshot": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-ocbc-frank-card-d5d85fe6.html"
+ },
+ "extra": {
+  "network": [
+   "VISA Platinum"
+  ],
+  "mobile_wallets": [
+   "Google Pay",
+   "Apple Pay",
+   "Samsung Pay",
+   "Fitbit Pay",
+   "Garmin Pay",
+   "NETSPay"
+  ],
+  "fx_fee_percent": 3.25,
+  "miles_conversion_fee": null,
+  "categories": [
+   "category:all-credit-cards",
+   "category:buffet-promo",
+   "category:dining-promo",
+   "category:grocery-promo",
+   "category:petrol-promo",
+   "category:retail-promo",
+   "needs:all-cards-with-buffet-promo",
+   "needs:all-cards-with-dining-promo",
+   "needs:all-cards-with-grocery-promo",
+   "needs:all-cards-with-petrol-promo",
+   "needs:all-cards-with-retail-promo",
+   "needs:all-credit-cards"
+  ],
+  "tag": null,
+  "description": "Designed for the young and the bold, the OCBC Frank Cards offers a spectrum of exclusive benefits, from up to 10% cashback on lifestyle essentials to personalised designs that mirror your unique style. Embrace a card that celebrates your individuality while empowering your financial journey."
+ }
+}

@@ -1,0 +1,447 @@
+{
+ "card_id": "ocbc-voyage",
+ "product_pages": [
+  {
+   "id": "bank:f7ec9ee89cd4",
+   "url": "https://www.ocbc.com/personal-banking/cards/voyage-credit-card.page",
+   "source_type": "official",
+   "retrieved_at": "2026-09-27T08:41:47+00:00",
+   "sha256": "f7ec9ee89cd488170b79dd4523361ad4eb02d0580cee2d4e5de5e76647a5bcc8",
+   "snapshot": "data/raw/bank/www-ocbc-com-personal-banking-cards-voyage-credit-card-page-3717b870.html"
+  }
+ ],
+ "documents": [
+  {
+   "url": "https://www.ocbc.com/iwov-resources/sg/ocbc/personal/pdf/cards/tncs-governing-the-voyage-creditcard-programme.pdf",
+   "citation": {
+    "id": "bank:e4747af6e262",
+    "url": "https://www.ocbc.com/iwov-resources/sg/ocbc/personal/pdf/cards/tncs-governing-the-voyage-creditcard-programme.pdf",
+    "source_type": "official",
+    "retrieved_at": "2026-09-27T08:41:49+00:00",
+    "sha256": "e4747af6e26252de57317b1d8a9a62b2dcd9e6bcf149d3d6a0466b5bde635184",
+    "snapshot": "data/raw/bank/www-ocbc-com-iwov-resources-sg-ocbc-personal-pdf-cards-tncs-governing-the-voyage-creditcard-programme-pdf-7a8ca9fa.pdf"
+   },
+   "text_path": "data/raw/bank/www-ocbc-com-iwov-resources-sg-ocbc-personal-pdf-cards-tncs-governing-the-voyage-creditcard-programme-pdf-7a8ca9fa.txt",
+   "sha256": "e4747af6e26252de57317b1d8a9a62b2dcd9e6bcf149d3d6a0466b5bde635184",
+   "changed": false,
+   "new": true,
+   "no_text_layer": false,
+   "effective_dates": [],
+   "mcc": {
+    "include": [],
+    "exclude": [
+     "4784",
+     "4829",
+     "4900",
+     "5047",
+     "5199",
+     "5960",
+     "5993",
+     "6010",
+     "6012",
+     "6051",
+     "6211",
+     "6300",
+     "6513",
+     "6540",
+     "7349",
+     "7523",
+     "7995",
+     "8062",
+     "8099",
+     "8211",
+     "8220",
+     "8241",
+     "8244",
+     "8249",
+     "8299",
+     "8398",
+     "8651",
+     "8661",
+     "8675",
+     "8699",
+     "9211",
+     "9222",
+     "9223",
+     "9311",
+     "9399",
+     "9402",
+     "9405"
+    ],
+    "unknown": [],
+    "conflicting": [],
+    "unrecognised": [],
+    "hits": [
+     {
+      "code": "4784",
+      "polarity": "exclude",
+      "page": 3,
+      "line": "4784 Tolls and Bridge Fees",
+      "reason": "not earn VOYAGE Miles:",
+      "in_reference": true
+     },
+     {
+      "code": "4829",
+      "polarity": "exclude",
+      "page": 3,
+      "line": "4829 Wire Transfer Money Orders (WTMOs)",
+      "reason": "not earn VOYAGE Miles:",
+      "in_reference": true
+     },
+     {
+      "code": "4900",
+      "polarity": "exclude",
+      "page": 3,
+      "line": "4900 Utilities\u2013Electric, Gas, Heating Oil, Sanitary, Water",
+      "reason": "not earn VOYAGE Miles:",
+      "in_reference": true
+     },
+     {
+      "code": "5047",
+      "polarity": "exclude",
+      "page": 3,
+      "line": "5047 Medical, Dental, Ophthalmic and Hospital Equipment and Supplies",
+      "reason": "not earn VOYAGE Miles:",
+      "in_reference": true
+     },
+     {
+      "code": "5199",
+      "polarity": "exclude",
+      "page": 3,
+      "line": "5199 Nondurable Goods (Not Elsewhere Classified)",
+      "reason": "not earn VOYAGE Miles:",
+      "in_reference": true
+     },
+     {
+      "code": "5960",
+      "polarity": "exclude",
+      "page": 3,
+      "line": "5960 Direct Marketing Insurance Services",
+      "reason": "not earn VOYAGE Miles:",
+      "in_reference": true
+     },
+     {
+      "code": "5993",
+      "polarity": "exclude",
+      "page": 3,
+      "line": "5993 Cigars, Stores and Stands",
+      "reason": "not earn VOYAGE Miles:",
+      "in_reference": true
+     },
+     {
+      "code": "6010",
+      "polarity": "exclude",
+      "page": 3,
+      "line": "6010 Member Financial Institution\u2013Manual Cash Disbursements",
+      "reason": "not earn VOYAGE Miles:",
+      "in_reference": true
+     },
+     {
+      "code": "6012",
+      "polarity": "exclude",
+      "page": 3,
+      "line": "6012 Member Financial Institution\u2013Merchandise and Services",
+      "reason": "not earn VOYAGE Miles:",
+      "in_reference": true
+     },
+     {
+      "code": "6051",
+      "polarity": "exclude",
+      "page": 3,
+      "line": "6051",
+      "reason": "not earn VOYAGE Miles:",
+      "in_reference": true
+     },
+     {
+      "code": "6211",
+      "polarity": "exclude",
+      "page": 3,
+      "line": "6211 Securities\u2013Brokers and Dealers",
+      "reason": "not earn VOYAGE Miles:",
+      "in_reference": true
+     },
+     {
+      "code": "6300",
+      "polarity": "exclude",
+      "page": 3,
+      "line": "6300 Insurance Sales, Underwriting and Premiums",
+      "reason": "not earn VOYAGE Miles:",
+      "in_reference": true
+     },
+     {
+      "code": "6513",
+      "polarity": "exclude",
+      "page": 3,
+      "line": "6513 Real Estate Agents and Managers\u2013Rentals",
+      "reason": "not earn VOYAGE Miles:",
+      "in_reference": true
+     },
+     {
+      "code": "6540",
+      "polarity": "exclude",
+      "page": 3,
+      "line": "6540 Non-Financial Institutions \u2013 Stored Value Card Purchase/Load",
+      "reason": "not earn VOYAGE Miles:",
+      "in_reference": true
+     },
+     {
+      "code": "7349",
+      "polarity": "exclude",
+      "page": 3,
+      "line": "7349 Cleaning, Maintenance and Janitorial Services",
+      "reason": "not earn VOYAGE Miles:",
+      "in_reference": true
+     },
+     {
+      "code": "7523",
+      "polarity": "exclude",
+      "page": 3,
+      "line": "7523 Automobile Parking Lots and Garages",
+      "reason": "not earn VOYAGE Miles:",
+      "in_reference": true
+     },
+     {
+      "code": "7995",
+      "polarity": "exclude",
+      "page": 3,
+      "line": "7995",
+      "reason": "not earn VOYAGE Miles:",
+      "in_reference": true
+     },
+     {
+      "code": "8062",
+      "polarity": "exclude",
+      "page": 3,
+      "line": "8062 Hospitals",
+      "reason": "not earn VOYAGE Miles:",
+      "in_reference": true
+     },
+     {
+      "code": "8099",
+      "polarity": "exclude",
+      "page": 3,
+      "line": "8099 Singhealth",
+      "reason": "not earn VOYAGE Miles:",
+      "in_reference": true
+     },
+     {
+      "code": "8211",
+      "polarity": "exclude",
+      "page": 3,
+      "line": "8211 Schools, Elementary and Secondary",
+      "reason": "not earn VOYAGE Miles:",
+      "in_reference": true
+     },
+     {
+      "code": "8220",
+      "polarity": "exclude",
+      "page": 3,
+      "line": "8220 Colleges, Universities, Professional Schools and Junior Colleges",
+      "reason": "not earn VOYAGE Miles:",
+      "in_reference": true
+     },
+     {
+      "code": "8241",
+      "polarity": "exclude",
+      "page": 3,
+      "line": "8241 Schools, Correspondence",
+      "reason": "not earn VOYAGE Miles:",
+      "in_reference": true
+     },
+     {
+      "code": "8244",
+      "polarity": "exclude",
+      "page": 3,
+      "line": "8244 Schools, Business and Secretarial",
+      "reason": "not earn VOYAGE Miles:",
+      "in_reference": true
+     },
+     {
+      "code": "8249",
+      "polarity": "exclude",
+      "page": 3,
+      "line": "8249 Schools, Trade and Vocational",
+      "reason": "not earn VOYAGE Miles:",
+      "in_reference": true
+     },
+     {
+      "code": "8299",
+      "polarity": "exclude",
+      "page": 4,
+      "line": "8299 Schools and Educational Services\u2013Not Elsewhere Classified",
+      "reason": "not earn VOYAGE Miles:",
+      "in_reference": true
+     },
+     {
+      "code": "8398",
+      "polarity": "exclude",
+      "page": 4,
+      "line": "8398 Organizations, Charitable and Social Service",
+      "reason": "not earn VOYAGE Miles:",
+      "in_reference": true
+     },
+     {
+      "code": "8651",
+      "polarity": "exclude",
+      "page": 4,
+      "line": "8651 Organizations, Political",
+      "reason": "not earn VOYAGE Miles:",
+      "in_reference": true
+     },
+     {
+      "code": "8661",
+      "polarity": "exclude",
+      "page": 4,
+      "line": "8661 Organizations, Religious",
+      "reason": "not earn VOYAGE Miles:",
+      "in_reference": true
+     },
+     {
+      "code": "8675",
+      "polarity": "exclude",
+      "page": 4,
+      "line": "8675 Automobile Associations",
+      "reason": "not earn VOYAGE Miles:",
+      "in_reference": true
+     },
+     {
+      "code": "8699",
+      "polarity": "exclude",
+      "page": 4,
+      "line": "8699 Organizations, Membership\u2013Not Elsewhere Classified (Labor Union)",
+      "reason": "not earn VOYAGE Miles:",
+      "in_reference": true
+     },
+     {
+      "code": "9211",
+      "polarity": "exclude",
+      "page": 4,
+      "line": "9211 Court Costs Including Alimony and Child Support",
+      "reason": "not earn VOYAGE Miles:",
+      "in_reference": true
+     },
+     {
+      "code": "9222",
+      "polarity": "exclude",
+      "page": 4,
+      "line": "9222 Fines",
+      "reason": "not earn VOYAGE Miles:",
+      "in_reference": true
+     },
+     {
+      "code": "9223",
+      "polarity": "exclude",
+      "page": 4,
+      "line": "9223 Bail and Bond Payments",
+      "reason": "not earn VOYAGE Miles:",
+      "in_reference": true
+     },
+     {
+      "code": "9311",
+      "polarity": "exclude",
+      "page": 4,
+      "line": "9311 Tax Payments",
+      "reason": "not earn VOYAGE Miles:",
+      "in_reference": true
+     },
+     {
+      "code": "9399",
+      "polarity": "exclude",
+      "page": 4,
+      "line": "9399 Government Services\u2013Not Elsewhere Classified",
+      "reason": "not earn VOYAGE Miles:",
+      "in_reference": true
+     },
+     {
+      "code": "9402",
+      "polarity": "exclude",
+      "page": 4,
+      "line": "9402 Postal Services\u2013Government Only",
+      "reason": "not earn VOYAGE Miles:",
+      "in_reference": true
+     },
+     {
+      "code": "9405",
+      "polarity": "exclude",
+      "page": 4,
+      "line": "9405 Intra-Government Purchases\u2013Government Only",
+      "reason": "not earn VOYAGE Miles:",
+      "in_reference": true
+     }
+    ]
+   },
+   "transaction_modes": {
+    "recurring": [
+     "1.4.6 Recurring payments for utilities and telecommunication services."
+    ],
+    "foreign_currency": [
+     "Overseas Spend: earn 11 VOYAGE Miles for every S$5 equivalent charged in foreign currency to the Card, which is equivalent to 2.2 VOYAGE Miles per $1 spend.",
+     "For the avoidance of doubt, any overseas retail spend charged to the Card in Singapore dollars will earn 6.5 VOYAGE Miles for every S$5 equivalent spend, which is equivalent to 1.3 VOYAGE Miles per $1 spend.",
+     "OCBC Premier VOYAGE Credit Card and Bank of Singapore VOYAGE Credit Card only Overseas Spend: earn 11.5 VOYAGE Miles for every S$5 equivalent charged in foreign currency to the Card, which is equivalent to 2.3 VOYAGE Miles per $1 spend.",
+     "For the avoidance of doubt, any overseas retail spend charged to the Card in Singapore dollars will earn 8 VOYAGE Miles for every S$5 equivalent spend, which is equivalent to 1.6 VOYAGE Miles per S$1 spend.",
+     "1.1.6 Overseas Spend: earn 11.5 VOYAGE Miles for every S$5 equivalent charged in foreign currency to the Card, which is equivalent to 2.3 VOYAGE Miles per $1 spend.",
+     "For the avoidance of doubt, any overseas retail spend charged to the Card in Singapore dollars will earn 8 VOYAGE Miles for every S$5 equivalent spend, which is equivalent to 1.6 VOYAGE Miles per S$1 spend.",
+     "As an illustration, a OCBC Premier VOYAGE customer who spends in foreign currency spend with an amount between S$10 and S$14.99 in a single transaction charged in foreign currency can earn 23 VOYAGE Miles (i.e.",
+     "However, a customer who spends S$4.90 in a single transaction charged in foreign currency, or who spends S$2.50 in one transaction and S$2.50 in another transaction charged in foreign currency, will not be awarded any VOYAGE Miles.",
+     "1.4.7 In addition, transactions made with the following Merchant Category Codes (\u201cMCC\u201d) will not earn VOYAGE Miles: Merchant Description Description Code (MCC) 4784 Tolls and Bridge Fees 4829 Wire Transfer Money Orders (WTMOs) 4900 Utilities\u2013Electric, Gas, Heating Oil, Sanitary, Water 5047 Medical, Dental, Ophthalmic and Hospital Equipment and Supplies 5199 Nondurable Goods (Not Elsewhere Classifi",
+     "2.8.1 If a Cardmember charges at least S$12,000 (or its equivalent in foreign currency) on his/her Card within a quarter in the eligible spend categories detailed in section 1 of these Terms and Conditions, the Principal Cardmember will be awarded with two complimentary one- way Service."
+    ],
+    "local_currency": [
+     "For the avoidance of doubt, any overseas retail spend charged to the Card in Singapore dollars will earn 6.5 VOYAGE Miles for every S$5 equivalent spend, which is equivalent to 1.3 VOYAGE Miles per $1 spend.",
+     "For the avoidance of doubt, any overseas retail spend charged to the Card in Singapore dollars will earn 8 VOYAGE Miles for every S$5 equivalent spend, which is equivalent to 1.6 VOYAGE Miles per S$1 spend.",
+     "For the avoidance of doubt, any overseas retail spend charged to the Card in Singapore dollars will earn 8 VOYAGE Miles for every S$5 equivalent spend, which is equivalent to 1.6 VOYAGE Miles per S$1 spend."
+    ]
+   },
+   "non_mcc_exclusions": [
+    "annual fee",
+    "axs",
+    "balance transfer",
+    "cash advance",
+    "charit",
+    "education",
+    "government",
+    "grabpay",
+    "hospital",
+    "instalment",
+    "interest",
+    "late payment charge",
+    "tax",
+    "utilit",
+    "youtrip"
+   ]
+  },
+  {
+   "url": "https://www.ocbc.com/iwov-resources/sg/ocbc/personal/pdf/campaign/cards/tncs-governing-the-gourmet-experiences-programme.pdf",
+   "citation": {
+    "id": "bank:0a112e273295",
+    "url": "https://www.ocbc.com/iwov-resources/sg/ocbc/personal/pdf/campaign/cards/tncs-governing-the-gourmet-experiences-programme.pdf",
+    "source_type": "official",
+    "retrieved_at": "2026-09-27T08:41:51+00:00",
+    "sha256": "0a112e2732956cae5a4fdf25699a730b14a0b6960c0225c106b97e499b1fe700",
+    "snapshot": "data/raw/bank/www-ocbc-com-iwov-resources-sg-ocbc-personal-pdf-campaign-cards-tncs-governing-the-gourmet-experiences-programme-pdf-dbd7d8fd.pdf"
+   },
+   "text_path": "data/raw/bank/www-ocbc-com-iwov-resources-sg-ocbc-personal-pdf-campaign-cards-tncs-governing-the-gourmet-experiences-programme-pdf-dbd7d8fd.txt",
+   "sha256": "0a112e2732956cae5a4fdf25699a730b14a0b6960c0225c106b97e499b1fe700",
+   "changed": false,
+   "new": true,
+   "no_text_layer": false,
+   "effective_dates": [],
+   "mcc": {
+    "include": [],
+    "exclude": [],
+    "unknown": [],
+    "conflicting": [],
+    "unrecognised": [],
+    "hits": []
+   },
+   "transaction_modes": {
+    "local_currency": [
+     "All prices listed are in Singapore Dollars."
+    ]
+   },
+   "non_mcc_exclusions": []
+  }
+ ],
+ "changed": false,
+ "removed_documents": []
+}

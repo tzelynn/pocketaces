@@ -1,0 +1,102 @@
+# Curated card record. Auto-drafted from staged sources; verify every value against the
+# official T&Cs (citations below), then set review.status: reviewed.
+id: boc-nvmo
+bank: Bank of China
+name: BOC NVMO Card
+image_url: https://mhgprod.blob.core.windows.net/singsaver/strapi-uploads/m_BOC_NVMO_Card_49220f2ff6.png
+official_url: https://www.bankofchina.com/sg/bcservice/bc1/201605/t20160503_6891836.html
+annual_fee:
+  amount:
+    amount: 207.1
+    currency: SGD
+  first_year_waived: true
+  waiver_notes: S$ | Enjoy first year annual fee waiver (S$207.10 incl. GST) for both principal and supplementary
+    cards.
+  sources: ['singsaver:814a8c9370be']
+min_annual_income:
+  amount: 30000.0
+  currency: SGD
+reward_currency:
+  kind: cashback
+  name: Cashback
+earn_rules:
+- id: local
+  label: local, overseas, dining (SingSaver — verify)
+  rate: 10.0
+  unit: percent
+  tier: bonus
+  eligibility:
+    include_mcc: ['8062']
+    description: Up to  | Get up to 10% cashback with minimum monthly spend of S$800, capped at S$25.
+      Base rate 0.3%. / Get 10% cashback on dining & food delivery spend globally with S$800 min. monthly
+      spend, capped at S$25. [include_mcc auto-extracted from official T&C — check it belongs to this
+      rule]
+    sources: ['singsaver:814a8c9370be', 'bank:81b5fb4d086e']
+  conditions: ['aggregator categories: dining']
+  sources: ['singsaver:814a8c9370be']
+- id: travel
+  label: travel, entertainment (SingSaver — verify)
+  rate: 8.0
+  unit: percent
+  tier: bonus
+  eligibility:
+    tags: [travel, entertainment]
+    description: Get 8% cashback on travel & entertainment spend with S$800 min. monthly spend, capped
+      at S$25. Base rate 0.3%.
+    sources: ['singsaver:814a8c9370be']
+  sources: ['singsaver:814a8c9370be']
+- id: transport
+  label: transport, retail, local online shopping, overseas online shopping, supermarket, health (SingSaver
+    — verify)
+  rate: 3.0
+  unit: percent
+  tier: bonus
+  eligibility:
+    tags: [transport, shopping, groceries, healthcare]
+    modes_required: [contactless]
+    description: Get 3% cashback on ride hailing and contactless bus & train rides with S$800 min. monthly
+      spend, capped at S$25. / Get 3% cashback on shopping & lifestyle spend with S$800 min. monthly spend,
+      capped at S$25. Base rate 0.3%. / Up to  | Get up to 3% cashback on health & wellness spend with
+      S$800 min. monthly spend, capped at S$25. Base rate 0.3%.
+    sources: ['singsaver:814a8c9370be']
+  sources: ['singsaver:814a8c9370be']
+- id: base
+  label: baseline (SingSaver — verify)
+  rate: 0.3
+  unit: percent
+  tier: base
+  eligibility:
+    all_spend: true
+    description: 0.3% cash rebate will be awarded on all other spend categories (or all categories if
+      monthly spend is less than S$800).
+    sources: ['singsaver:814a8c9370be']
+  sources: ['singsaver:814a8c9370be']
+general_exclusions:
+  exclude_mcc: ['0742', '4111', '4121', '4722', '4784', '4814', '4829', '4899', '4900', '5047', '5199',
+    '5262', '5411', '5812', '5814', '5815', '5960', '5965', '5993', '5995', '6010', '6011', '6012', '6050',
+    '6051', '6211', '6300', '6381', '6399', '6513', '6529', '6530', '6534', '6540', '7273', '7349', '7372',
+    '7399', '7511', '7523', '7922', '7995', '8062', '8211', '8220', '8241', '8244', '8249', '8299', '8398',
+    '8651', '8661', '8699', '8999', '9211', '9222', '9223', '9311', '9399', '9402', '9405']
+  description: Auto-extracted from official T&Cs — confirm each code applies to this card
+  sources: ['bank:81b5fb4d086e']
+notes:
+- 'T&C mentions (check whether excluded): annual fee, axs, bill payment, cardup, charit, education, government,
+  grabpay, hospital, instalment, insurance premium, interest, ipaymy, ipp, late payment charge, tax, top-up,
+  utilit, youtrip'
+citations:
+- id: singsaver:814a8c9370be
+  url: https://www.singsaver.com.sg/credit-card/products/boc-family-card
+  title: BOC NVMO Card
+  source_type: aggregator
+  retrieved_at: '2026-09-27T05:24:51+00:00'
+  sha256: 814a8c9370be9d7e771c8367b93314ba514ca414c5b9aae5378e0dbd293f2087
+  snapshot: data/raw/singsaver/www-singsaver-com-sg-credit-card-products-boc-family-card-1d614703.html
+- id: bank:81b5fb4d086e
+  url: https://pic.bankofchina.com/bocappd/singapore/202606/P020260611353473424295.pdf
+  source_type: official
+  retrieved_at: '2026-09-27T07:15:16+00:00'
+  sha256: 81b5fb4d086e8a99f64e6e04e4a58b2e704a36698820760dcc836d0805c623f2
+  snapshot: data/raw/bank/pic-bankofchina-com-bocappd-singapore-202606-P020260611353473424295-pdf-fe37401d.pdf
+review:
+  status: draft
+updated_at: '2026-09-27'

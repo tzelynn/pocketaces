@@ -1,0 +1,96 @@
+# Curated card record. Auto-drafted from staged sources; verify every value against the
+# official T&Cs (citations below), then set review.status: reviewed.
+id: ocbc-frank
+bank: OCBC
+name: OCBC Frank Card
+image_url: https://mhgprod.blob.core.windows.net/singsaver/strapi-uploads/xs_blt82bf6c7654fd4898_bbf9f8db45.webp
+official_url: https://www.ocbc.com/personal-banking/cards/ocbc-frank-credit-card
+annual_fee:
+  amount:
+    amount: 196.2
+    currency: SGD
+  waiver_notes: S$ | First Two Years Fee automatically waived with min. spend of S$10,000 from date of
+    issue
+  sources: ['singsaver:81d130552464']
+min_annual_income:
+  amount: 30000.0
+  currency: SGD
+reward_currency:
+  kind: cashback
+  name: Cashback
+earn_rules:
+- id: local
+  label: local, supermarket, retail, local online shopping, transport, contactless spend (SingSaver —
+    verify)
+  rate: 10.0
+  unit: percent
+  tier: bonus
+  eligibility:
+    include_mcc: ['4784', '4829', '4900', '5047', '5199', '5552', '5960', '5993', '6010', '6012', '6051',
+      '6211', '6300', '6513', '6540', '7349', '7523', '7995', '8062', '8211', '8220', '8241', '8244',
+      '8249', '8299', '8398', '8651', '8661', '8675', '8699', '9211', '9222', '9223', '9311', '9399',
+      '9402', '9405']
+    modes_required: [contactless, online]
+    description: Up to | For online transactions and contactless mobile transactions in SGD  Additional
+      2% cashback at eco-friendly merchants and services  capped at S$25  minimum spend of S$800 required.
+      / Up to | 8% for contactless mobile transactions  Additional 2% cashback at eco-friendly merchants
+      and services  capped at S$25  minimum spend of S$800 required. / Up to  | 8% for contactless mobile
+      transactions  Additional 2% cashback at eco-friendly merchants and services  capped at S$25  minimum
+      spend of S$800 required. [include_mcc auto-extracted from official T&C — check it belongs to this
+      rule]
+    sources: ['singsaver:81d130552464', 'bank:fc5446be68b3']
+  conditions:
+  - 'aggregator categories: groceries, shopping, transport'
+  sources: ['singsaver:81d130552464']
+- id: dining
+  label: dining, overseas online shopping, overseas (SingSaver — verify)
+  rate: 8.0
+  unit: percent
+  tier: bonus
+  eligibility:
+    tags: [dining]
+    modes_required: [contactless, online]
+    description: Up to | 8% for contactless mobile transactions  Additional 2% cashback at eco-friendly
+      merchants  capped at S$25  minimum spend of S$800 required. / For purchases made in foreign currency,
+      both online and in stores  capped at S$25  minimum spend of S$800 required.
+    sources: ['singsaver:81d130552464']
+  sources: ['singsaver:81d130552464']
+- id: base
+  label: baseline (SingSaver — verify)
+  rate: 0.3
+  unit: percent
+  tier: base
+  eligibility:
+    all_spend: true
+    description: Capped at S$25
+    sources: ['singsaver:81d130552464']
+  sources: ['singsaver:81d130552464']
+general_exclusions:
+  description: Auto-extracted from official T&Cs — confirm each code applies to this card
+notes:
+- 'T&C mentions (check whether excluded): axs, balance transfer, cash advance, charit, education, government,
+  grabpay, hospital, instalment, interest, late payment charge, tax, top-ups, utilit, youtrip'
+citations:
+- id: singsaver:81d130552464
+  url: https://www.singsaver.com.sg/credit-card/products/ocbc-frank-card
+  title: OCBC Frank Card
+  source_type: aggregator
+  retrieved_at: '2026-09-27T05:26:22+00:00'
+  sha256: 81d1305524641b044d2eec331094021b4a0b5ee91c99af47d894cae6b3b4d2c2
+  snapshot: data/raw/singsaver/www-singsaver-com-sg-credit-card-products-ocbc-frank-card-d5d85fe6.html
+- id: moneysmart:49fcb3586f25
+  url: https://www.moneysmart.sg/credit-cards?page=4
+  title: OCBC Frank Card
+  source_type: aggregator
+  retrieved_at: '2026-09-27T05:27:20+00:00'
+  sha256: 49fcb3586f252df0b2dacb9acecc465127e09c9defa7f151881c3db46d84649e
+  snapshot: data/raw/moneysmart/credit-cards-p4-1a322210.html
+- id: bank:fc5446be68b3
+  url: https://www.ocbc.com/iwov-resources/sg/ocbc/personal/pdf/cards/terms-and-conditions-governing-ocbc-frank-credit-card.pdf
+  source_type: official
+  retrieved_at: '2026-09-27T08:41:23+00:00'
+  sha256: fc5446be68b3fcef650f734e9c8b14c1bc2cc5470ef76cd216866fe49b4d66d4
+  snapshot: data/raw/bank/www-ocbc-com-iwov-resources-sg-ocbc-personal-pdf-cards-terms-and-conditions-governing-ocbc-frank-credit-card-pdf-a466cae8.pdf
+review:
+  status: draft
+updated_at: '2026-09-27'

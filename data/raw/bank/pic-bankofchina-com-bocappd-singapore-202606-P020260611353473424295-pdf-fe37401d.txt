@@ -1,0 +1,293 @@
+Terms and Conditions Governing BOC NVMO Credit Card Cashback Programme (Effective 13 June 2026)
+Under the Bank of China Limited, Singapore Branch (“BOC”) NVMO Credit Card Cashback Programme (this
+“Programme”), Cashback will be awarded on spend made by a BOC NVMO Credit Card Cardmember
+(“Cardmember”) with his/her BOC NVMO Credit Card (“Card”).
+The terms and conditions of this Programme (“Terms and Conditions”) are set out below. BOC may in its
+absolute discretion amend, supplement or vary any of these Terms and Conditions or change, cancel or
+withdraw this Programme at any time without giving any reason or prior notice. These Terms and
+Conditions are additional to, and shall be read together with, the terms contained in the prevailing BOC
+Cardmember Agreement, which shall continue to apply. Unless the context otherwise requires or these
+Terms and Conditions expressly provide otherwise, all words and expressions defined in the prevailing
+BOC Cardmember Agreement shall have the same meanings when used or referred to below.
+1. Definitions
+For the purpose of these Terms and Conditions:
+“Billing Cycle” means the length of time between the last Card statement closing date and the next.
+“Card Account” means the account of the Cardmember maintained with BOC in respect of the Card.
+“Card Transactions” means the transactions successfully charged and posted to the Card Account of
+which the Cardmember is the Principal cardholder or the Card that is issued to a person that
+Cardmember authorises as a Supplementary cardholder, but excludes the “Exclusions”.
+“Exclusions” refers to the Card Transactions and the categories of spend as set out in Clause 3, and such
+other transactions and/or categories of spend as BOC may determine at its discretion from time to time,
+which do not qualify to earn any Cashback and shall not be counted towards the minimum spend
+requirement of this Programme.
+2. Cashback
+(a) Base Cashback
+If a Cardmember charges less than S$800 to his/her Card Account in a Billing Cycle,
+the Cardmember will be awarded 0.3% Cashback on all Card Transactions subject to
+the “Exclusions” in Clause 3.
+(b) NVMO Cashback
+If a Cardmember charges S$800 or more to his/her Card Account in a Billing Cycle, the
+Cardmember will be awarded NVMO Cashback on Card Transactions falling within the
+following spend categories:
+(i) 10% Cashback on Dining and Online Food Delivery
+Dining and Online Food Delivery
+“Dining and Online Food Delivery” means Singapore and Overseas Card
+Transactions made at all restaurants, cafes and fast food restaurants and
+online food delivery platforms with assigned Merchant Category Code (MCC)
+MCC 5812 - Eating Places and Restaurants; and MCC 5814 - Fast Food
+Restaurants, excluding all food and beverage spend within hotels and
+wedding banquet held in hotels.
+V2026
+Page 1 of 7The NVMO Cashback for Dining and Online Food Delivery is capped at S$25
+per Card Account per Billing Cycle.
+(ii) 8% Cashback on Travel and Entertainment
+Travel
+In-store Malaysia and Indonesia Overseas Spend
+“In-store Malaysia and Indonesia Overseas Spend” means on-site Card
+transactions charged physically to the Card in Malaysia and Indonesia,
+charged in Malaysian Ringgit (MYR) or Indonesian Rupiah (IDR), and exclude
+the following:
+• Card transactions made overseas but effected or charged in Singapore
+dollars via Dynamic Currency Conversion;
+• Online transactions effected in foreign currencies;
+• Payments processed through mobile wallet or app-based platforms;
+• Transactions stated in the “Exclusions”;
+• Any other transactions determined by BOC from time to time.
+Online Travel Agencies
+“Online Travel Agencies” means Card Transactions which are made via the
+internet at all Online Travel Agencies with assigned MCC 4722 – Travel
+Agencies and Tour Operators and processed by the respective
+merchants/acquiring banks as online transactions.
+Entertainment
+“Entertainment” means Card Transactions made at merchants with assigned
+MCC 4899 – Cable, Satellite and Other Pay Television/Radio/Streaming
+Service; MCC 5815 – Digital Goods Media – Books, Movies, Digital
+artwork/images, Music; and MCC – 7922 Ticket Agencies and Theatrical
+Producers (except Motion Pictures).
+The NVMO Cashback for Travel and Entertainment is capped at S$25 per Card
+Account per Billing Cycle.
+(iii) 3% Cashback on Shopping and Lifestyle
+Transport
+“Transport” means Card Transactions made on public buses and MRT rides
+paid via contactless credit card payment (SimplyGo), limousines, taxi and ride-
+hailing services with assigned MCC 4111 – Local and Suburban Commuter
+Passenger Transportation, excluding SimplyGo Top Up; and MCC 4121 –
+Taxicabs and Limousines.
+Supermarkets
+“Supermarkets” means Card Transactions made at all major supermarkets
+and/or hypermarket stores globally with assigned MCC 5411 – Grocery Stores
+and Supermarkets.
+Online purchases
+V2026
+Page 2 of 7“Online purchases” means Card Transactions which are made via the internet,
+charged to the Card and processed by the respective merchants/acquiring
+banks as online transactions through Visa/MasterCard Worldwide networks
+but for the avoidance of doubt, shall exclude the “Exclusions”.
+The NVMO Cashback for Shopping and Lifestyle transactions is capped at S$25
+per Card Account per Billing Cycle.
+(iv) Up to 3% Cashback on Health and Wellness
+3% Cashback on Hospital
+“Hospital” means on-site Card Transactions made at hospitals in Singapore
+with assigned MCC 8062 – Hospitals. For the avoidance of doubt, all
+transactions made at hospitals in Singapore that do not fall within the
+assigned MCC 8062 will be eligible for 0.3% Cashback unless it is stated in the
+“Exclusions”.
+3% Cashback on Veterinary and Pet
+“Veterinary and Pet” means Card Transactions made at pet and veterinary
+related services in Singapore with assigned MCC 0742 – Veterinary Services;
+and MCC 5995 – Pet Shops, Pet Food and Supplies.
+1% Cashback on Insurance
+“Insurance” means Card Transactions made at insurance related services in
+Singapore with the assigned MCC 5960 – Direct Marketing Insurance Services;
+MCC 6300 – Insurance Sales, Underwriting and Premiums; MCC 6381 –
+Insurance Premiums; and MCC 6399 Insurance Not Elsewhere Classified.
+The NVMO Cashback for Health and Wellness transactions is capped at S$25
+per Card Account per Billing Cycle.
+(v) 0.3% Cashback on all other retail purchases (“other spend”) subject to
+the “Exclusions” in Clause 3.
+3. Exclusions
+3.1 The following Card Transactions do not qualify to earn any Cashback (as determined by BOC in its
+reasonable discretion and may be amended, supplemented or varied from time to time, without prior
+notice) (collectively referred to as the ““Exclusions””):
+(a) any interest charges, card annual fees, late payment charges, goods and services taxes, cash
+advances, fund transfers, purchases made through Installment Payment Plans (IPP), any form of purchase
+or statement instalments, tax payment plans, unposted, cancelled, disputed and refunded transactions,
+all fees charged by BOC or any other third parties (including but not limited to foreign currency
+transaction fees or administrative fees imposed by card networks) (if any);
+(b) any payment made with the following Merchant Category Codes (MCC);
+V2026
+Page 3 of 7MCC Excluded Categories
+4111 Local and Suburban Commuter Passenger Transportation, Including Ferries
+(SimplyGo Top Up)
+4784 Tolls and Bridge Fees
+4814 Telecommunication Services, including Local and Long-Distance Calls, Credit Card
+Calls, Calls Through Use of Magnetic-Stripe-Reading Telephones, and Fax Services
+4829 Wire Transfer Money Orders (WTMOs)
+4900 Utilities – electric, gas, water and sanitary
+5047 Medical, Dental, Ophthalmic and Hospital Equipment and Supplies
+5199 Nondurable Goods (Not Elsewhere Classified)
+5262 Marketplaces (only for Shopee Pay)
+5965 Direct marketing - Combination Catalog and Retail Merchants
+5993 Cigar Stores and Stands
+6010, Member Financial Institution- Manual
+6011, Cash Disbursements/ Automated Cash Disbursement/Merchandise And Services
+6012
+6050 Quasi Cash- Financial Institutions, Merchandise, Services
+6051 Non-Financial Institutions - Foreign Currency, Non-Fiat Currency (for example:
+Cryptocurrency), Money Orders (Not Money Transfer), Account Funding (not
+Stored Value Load), Travelers Cheques and Debt Repayment
+6211 Securities–Brokers and Dealers
+6513 Real Estate Agents and Managers
+6529, Payments of funds to prepaid accounts and/or merchants who are categorised as
+6530, "payment service providers"
+6534,
+6540
+7273 Dating and Escort Services
+7349 Cleaning, maintenance and janitorial services
+7372 Computing Programming, Data Processing, and Integrated Systems Design
+Services
+7399 Business Services (Not Elsewhere Classified)
+7511 Quasi Cash -Truck Stop Trxns
+7523 Parking Lots, Parking Meters and Garages
+7995 Betting including Lottery Tickets, Casino Gaming Chips, Off-Track Betting and
+Wagers at Race Tracks
+8211, Schools, Elementary and Secondary / Colleges,
+8220, Universities, Professional Schools and Junior Colleges /
+8241, Schools, Correspondence / Schools, Business and
+8244, Secretarial / Schools, Trade and Vocational / Schools
+8249, And Educational Services–Not Elsewhere Classified
+8299
+9211 Court Costs, Including Alimony and Child Support
+9222 Fines
+9223 Bail and Bond Payments
+9311 Tax Payments
+9399 Government Services–Not Elsewhere Classified
+V2026
+Page 4 of 79402 Postal Services–Government Only
+9405 Intra-Government Purchases–Government Only
+8398, Charitable/Religious Organizations
+8661
+8651 Political Organizations
+8699 Organizations, Membership-Not Elsewhere Classified
+(Labor Union)
+8999 Professional Services (Not Elsewhere Classified)
+(c) Some examples of merchants which are excluded:
+Category Examples
+Government Institutions/Services ACRA, CPF, HDB SEASON PARKING, ICA, LTA,
+MOM, Town Council, URA, PARKING.SG
+Financial Institutions/Services CardUp, FOREX.COM, helloPay, IG MARKETS, ipaymy,
+(including banks and brokerages) MatchMove Pay, MONEYBOOKERS.COM, OANDA
+PACIFIC, Saxo Cap Markets, Swiss Money
+Transfer
+Money Transfer and Remittance MoneyGram, Swiss Money Transfer, Western Union,
+Services Wise, WorldRemit, Instarem, Remitly
+Utility Bill Payments/Other SP Services , AXS, SAM payments
+Payments
+Prepaid accounts and payment EZLINK (FEVO), EZLINK (IMAGINE), TransitLink,
+service providers NETS FlashPay, SingTel Dash, Youtrip, GrabPay Top up,
+MatchMove Pay, HelloPay, ShopeePay, SimplyGo Top up,
+Lazada wallet top-up transactions, Amaze wallet top-up
+transactions
+Cleaning, Maintenance, and Helpling, Sendhelper, UrbanCompany
+Janitorial Services
+3.2 The above table of merchants is provided as an example and is not exhaustive. BOC reserves the
+right to add, remove and/or reclassify merchants in the above table from time to time at its reasonable
+discretion, without prior notice.
+3.3 A merchant’s registered MCC may not always correspond with its nature of business. The MCCs are
+assigned by the merchant’s acquiring bank. BOC does not determine the merchants’ MCC. BOC shall not
+be liable in any way whatsoever relating to the categorisation of a merchant’s MCC.
+4. Other Terms and Conditions
+4.1 The total spend by a Cardmember and Cashback awarded per Card Account in one Billing Cycle are
+based on posted local and foreign retail transactions in that Billing Cycle, and excludes the “Exclusions”.
+All applicable fees and charges, as set out in the BOC’s prevailing Credit Card Charges (available on our
+website), shall continue to apply and are not affected by this Programme. The “Exclusions” and such
+other transactions as determined by BOC from time to time at its reasonable discretion, may be
+amended, supplemented or varied without prior notice.
+4.2 Should a Cardmember’s spending be deemed to be for commercial and/or non-personal purposes,
+BOC reserves the right to refuse to award any Cashback for such transactions, without prior notice. BOC
+reserves the right to cancel and reverse any Cashback awarded in a Cardmember’s statement of account
+V2026
+Page 5 of 7at any time if it deems that such Cashback was not earned from qualifying spend of a Cardmember and
+the Cardmember shall not be entitled to any compensation or payment whatsoever.
+4.3 Combined spend from Principal and Supplementary Cards is allowed for the purposes of the award of
+the Base Cashback or NVMO Cashback. Base Cashback or NVMO Cashback awarded will be credited into
+the Card Account in the next Billing Cycle. The Cashback awarded will be reflected on the Principal
+Cardmember’s monthly statement.
+4.4 The Cashback amount for each transaction category will be computed based on the total value of all
+transactions in that category which are successfully charged to the Card and posted onto BOC’s systems
+in a Billing Cycle as shown in the Card statement in respect of that Billing Cycle but subject to the
+“Exclusions”, and will be rounded down to the nearest two decimal places.
+4.5 Transactions made must be posted transactions before the end of each Billing Cycle. BOC shall not
+be responsible for any delay in the transmission to BOC of evidence of retail purchases by the merchants
+or any other third parties. Further, BOC identifies transactions and their categories via universal MCC
+assigned by Visa. The MCC is not decided by BOC but rather by the respective merchants and their
+acquiring banks. As such, BOC shall not be liable in any way whatsoever to award any cashback to any
+Cardmember or to compensate any Cardmember for any losses, liabilities, expenses or claims suffered
+or incurred by any such Cardmember, if a relevant merchant classifies its MCC inaccurately and results
+in BOC not awarding any cashback to such Cardmember.
+4.6 The Cashback amount credited will be used to automatically offset the billed amount for the Card
+Account in the next statement month. The Cashback cannot be withdrawn as cash, cannot be
+transferred to any other BOC credit card or debit card accounts or BOC accounts (unless otherwise
+agreed by BOC), and cannot be used to offset any minimum payment due, late payment charge, interest
+charges or any other fees imposed by BOC.
+4.7 In the event of a reversal, refund or cancellation of any posted transactions, the amount of such
+reversed, refunded or cancelled posted transactions shall be deducted from the relevant monthly billed
+amount for computation and award of Cashback. BOC reserves the right to debit the Card Account for
+Cashback credited and/or to charge the Cardmember in relation to such reversal, refund or cancellation
+of posted transactions.
+4.8 Where any transaction posted to the Card Account is subsequently voided, refunded, cancelled,
+reversed, disputed and/or reversed for any reason (whether in whole or in part), BOC shall have the sole
+discretion to reverse and forfeit the Cashback awarded in respect of the transaction amount voided,
+refunded, cancelled, reversed, disputed and/or reversed.
+4.9 All unused Cashback will be forfeited on the earlier of: (i) the expiry of such Cashback at the end of
+two (2) calendar years from the month on which the Cashback was first credited into the Card Account;
+or (ii) BOC’s receipt of the Principal Cardmember’s request to terminate his/her Card; or (iii) the
+termination of the Principal Card by BOC for any reason whatsoever.
+4.10 The Card Account must be in good standing at the time of crediting of the Cashback. In the event the
+Card Account is delinquent, terminated or suspended for any reason whatsoever before the Cashback is
+credited into the said Card Account, BOC reserves the right to forfeit the Cashback at its sole discretion.
+4.11 BOC may vary the percentage of the Cashback or revise the minimum spend required at any time
+without giving any reason.
+4.12 BOC's records of all matters relating to this Programme are conclusive and binding on the
+Cardmembers. BOC is entitled, for any reason and at any time, without liability, to suspend the
+V2026
+Page 6 of 7computation or awarding of Cashback, to rectify any errors in the computation, or otherwise adjust
+such computation. Any abuse or fraud in respect of the issuance of Cashback may result in the
+cancellation of Cashback already credited into the Card Account.
+4.13 BOC may, at its reasonable discretion and without prior notice, suspend or discontinue this
+Programme at any time.
+4.14 In the case of any dispute, BOC’s decision on all matters relating to the Card Account and the
+Programme shall be final, conclusive and binding and no payment or compensation will be given or paid
+by BOC to any person. BOC shall not be obliged to give any reason or enter into any correspondence with
+any person on any matter relating to its decision.
+4.15 By participating in this Programme, a Cardmember irrevocably consents and authorises BOC and
+its agents and vendors (including but not limited to the parties involved in organising, promoting and
+conducting this Programme) to collect, use and disclose his/her personal data to any person for the
+purpose of this Programme, and confirm that he/she has read and agrees to be bound by the terms of
+BOC’s Personal Data Protection Policy, as may be amended, supplemented and/or substituted by BOC
+from time to time, a copy of which can be found on www.bankofchina.com/sg/aboutus
+4.16 BOC shall not be liable if it is unable to perform its obligations under these Terms and Conditions,
+due directly or indirectly to the failure of any machine or communication system, industrial dispute,
+war, Acts of God, or anything outside the control of BOC or its servants or agents.
+4.17 BOC shall not be liable for any errors, delays, omissions in the performance of its obligations under
+these Terms and Conditions.
+4.18 BOC shall have the absolute discretion to use any agents, contractors, vendors or third parties to
+administer and/or implement this Programme and BOC shall not be liable to any person for any act of
+omission or neglect on the part of such agents, contractors, vendors or third parties.
+4.19 BOC reserves the right to amend, supplement, vary or cancel any of these Terms and Conditions
+at any time at its sole discretion and without liability to any person without giving any reason. If a
+Cardmember does not wish to accept any of the amended Terms and Conditions, he/she should not
+participate in this Programme or immediately withdraw from this Programme.
+4.20 All information is correct at the time of publishing or posting online. However, BOC makes no
+representation or warranty whether express or implied, and accepts no responsibility or liability for its
+completeness or accuracy.
+4.21 In the event of any inconsistency between these Terms and Conditions and any brochure, marketing
+or promotional material relating to this Programme, these Terms and Conditions as set out herein shall
+prevail.
+4.22 A person who is not a party to these Terms and Conditions has no right under the Contracts (Rights
+of Third Parties) Act 2001 of Singapore to enforce any of these Terms and Conditions.
+4.23 These Terms and Conditions shall be governed by the laws of Singapore and any Cardmember
+participating in this Programme irrevocably submits to the nonexclusive jurisdiction of the Singapore
+courts.
+V2026
+Page 7 of 7

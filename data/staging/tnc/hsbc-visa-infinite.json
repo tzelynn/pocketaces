@@ -1,0 +1,32 @@
+{
+ "card_id": "hsbc-visa-infinite",
+ "product_pages": [
+  {
+   "id": "bank:964b68795a64",
+   "url": "https://www.hsbc.com.sg/credit-cards/products/visa-infinite/",
+   "source_type": "official",
+   "retrieved_at": "2026-09-27T08:37:20+00:00",
+   "sha256": "964b68795a642bd332342183262be359751aaa5889f3555916a6d4343e336869",
+   "snapshot": "data/raw/bank/www-hsbc-com-sg-credit-cards-products-visa-infinite-a775ed1d.html"
+  }
+ ],
+ "documents": [
+  {
+   "url": "https://www.hsbc.com.sg/content/dam/hsbc/sg/documents/credit-cards/rewards/terms-and-conditions-wef-2025.pdf",
+   "error": "robots.txt disallows https://www.hsbc.com.sg/content/dam/hsbc/sg/documents/credit-cards/rewards/terms-and-conditions-wef-2025.pdf",
+   "changed": false
+  },
+  {
+   "url": "https://www.hsbc.com.sg/content/dam/hsbc/sg/documents/credit-cards/visa-infinite/terms-and-conditions.pdf",
+   "error": "robots.txt disallows https://www.hsbc.com.sg/content/dam/hsbc/sg/documents/credit-cards/visa-infinite/terms-and-conditions.pdf",
+   "changed": false
+  },
+  {
+   "url": "https://www.hsbc.com.sg/content/dam/hsbc/sg/documents/credit-cards/visa-infinite/step-up-terms-and-conditions.pdf",
+   "error": "robots.txt disallows https://www.hsbc.com.sg/content/dam/hsbc/sg/documents/credit-cards/visa-infinite/step-up-terms-and-conditions.pdf",
+   "changed": false
+  }
+ ],
+ "changed": false,
+ "removed_documents": []
+}

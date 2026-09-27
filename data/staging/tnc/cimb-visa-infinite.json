@@ -1,0 +1,67 @@
+{
+ "card_id": "cimb-visa-infinite",
+ "product_pages": [
+  {
+   "id": "bank:8248726db7e1",
+   "url": "https://www.cimb.com.sg/en/personal/banking-with-us/cards/credit-cards/cimb-visa-infinite.html",
+   "source_type": "official",
+   "retrieved_at": "2026-09-27T07:15:34+00:00",
+   "sha256": "8248726db7e1911b3c0545d9addc0ee6fc940163c335b4c0dc5ee55d879fa476",
+   "snapshot": "data/raw/bank/www-cimb-com-sg-en-personal-banking-with-us-cards-credit-cards-cimb-visa-infinite-html-fcc0f0a9.html"
+  }
+ ],
+ "documents": [
+  {
+   "url": "https://www.cimb.com.sg/content/dam/cimbsg/personal/document/tnc/cards/cards-tnc/vi-card.pdf",
+   "citation": {
+    "id": "bank:b8cfe8d00350",
+    "url": "https://www.cimb.com.sg/content/dam/cimbsg/personal/document/tnc/cards/cards-tnc/vi-card.pdf",
+    "source_type": "official",
+    "retrieved_at": "2026-09-27T07:30:46+00:00",
+    "sha256": "b8cfe8d0035066cde12ec48e2199280e736229f368ac6a697e032227e6ff057f",
+    "snapshot": "data/raw/bank/www-cimb-com-sg-content-dam-cimbsg-personal-document-tnc-cards-cards-tnc-vi-card-pdf-a2cd10fe.pdf"
+   },
+   "text_path": "data/raw/bank/www-cimb-com-sg-content-dam-cimbsg-personal-document-tnc-cards-cards-tnc-vi-card-pdf-a2cd10fe.txt",
+   "sha256": "b8cfe8d0035066cde12ec48e2199280e736229f368ac6a697e032227e6ff057f",
+   "changed": false,
+   "new": false,
+   "no_text_layer": false,
+   "effective_dates": [],
+   "mcc": {
+    "include": [],
+    "exclude": [],
+    "unknown": [],
+    "conflicting": [],
+    "unrecognised": [],
+    "hits": []
+   },
+   "transaction_modes": {
+    "online": [
+     "Transactions in foreign currencies are inclusive of transactions made both online and offline."
+    ],
+    "foreign_currency": [
+     "Additional 1% cashback is applicable only for transactions that fulfils ANY of the following conditions: o Made and processed overseas o In foreign currencies o Travel related",
+     "Overseas spend refers to transactions made and processed outside of Singapore, both in Singapore dollars and foreign currencies inclusive."
+    ],
+    "local_currency": [
+     "Transactions below SGD$1 will not be awarded any 1% base cashback.",
+     "Overseas spend refers to transactions made and processed outside of Singapore, both in Singapore dollars and foreign currencies inclusive."
+    ]
+   },
+   "non_mcc_exclusions": [
+    "axs",
+    "bill payment",
+    "cash advance",
+    "charit",
+    "government",
+    "instalment",
+    "interest",
+    "late payment charge",
+    "tax",
+    "utilit"
+   ]
+  }
+ ],
+ "changed": false,
+ "removed_documents": []
+}

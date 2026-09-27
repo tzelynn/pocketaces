@@ -1,0 +1,171 @@
+{
+ "card_id": "amex-krisflyer",
+ "product_pages": [
+  {
+   "id": "bank:ddeea97f528e",
+   "url": "https://www.americanexpress.com/sg/credit-cards/singapore-airlines-krisflyer-credit-card/",
+   "source_type": "official",
+   "retrieved_at": "2026-09-27T05:29:54+00:00",
+   "sha256": "ddeea97f528e3bc98890801eec4f1459dc4f340a795799db3122eaec7ccab173",
+   "snapshot": "data/raw/bank/www-americanexpress-com-sg-credit-cards-singapore-airlines-krisflyer-credit-card-2d7dc6bb.html"
+  }
+ ],
+ "documents": [
+  {
+   "url": "https://www.americanexpress.com/content/dam/amex/sg/campaigns/pdfs/krisflyer-credit-card.pdf",
+   "citation": {
+    "id": "bank:1272d6b78a7a",
+    "url": "https://www.americanexpress.com/content/dam/amex/sg/campaigns/pdfs/krisflyer-credit-card.pdf",
+    "source_type": "official",
+    "retrieved_at": "2026-09-27T05:29:56+00:00",
+    "sha256": "1272d6b78a7aa61afff70e40ded8e93b0851fe57c0461bb7d1d310364ffaef0f",
+    "snapshot": "data/raw/bank/www-americanexpress-com-content-dam-amex-sg-campaigns-pdfs-krisflyer-credit-card-pdf-26592490.pdf"
+   },
+   "text_path": "data/raw/bank/www-americanexpress-com-content-dam-amex-sg-campaigns-pdfs-krisflyer-credit-card-pdf-26592490.txt",
+   "sha256": "1272d6b78a7aa61afff70e40ded8e93b0851fe57c0461bb7d1d310364ffaef0f",
+   "changed": false,
+   "new": false,
+   "no_text_layer": false,
+   "effective_dates": [],
+   "mcc": {
+    "include": [],
+    "exclude": [],
+    "unknown": [],
+    "conflicting": [],
+    "unrecognised": [],
+    "hits": []
+   },
+   "transaction_modes": {
+    "online": [
+     "\u2022 2 KrisFlyer miles for every S$1 spent on eligible purchases in Singapore Dollars at KrisShop onboard Singapore Airlines flights, and directly online at krisshop.com.",
+     "and (c) way of the internet or using other electronic means.",
+     "22.7 Electronic or Telephone Communication If you contact us by any electronic means, we may record the telephone number or internet protocol address, associated with that means of contacting us at the time."
+    ],
+    "mobile_wallet": [
+     "This excludes purchases made via digital wallets such as Google Pay and Apple Pay."
+    ],
+    "recurring": [
+     "23.INSTALMENT GOODS AND SERVICES If you use the Credit Card to buy goods or services, such as insurance, requiring recurring or instalment payments, you authorise us to pay such instalments for you when due and you agree to pay us for the same when we bill you."
+    ],
+    "foreign_currency": [
+     "c)where third parties convert charges in foreign currency, those third parties may treat refunds diff erently to the original foreign currency charge.",
+     "When making a transaction in foreign currency, you may be given the option to allow a third party (for example, the retailer) to convert the transaction into Singapore Dollars before submitting it to us.",
+     "c) where third parties convert charges in foreign currency, those third parties may treat refunds diff erently to the original foreign currency charge.",
+     "When making a transaction in foreign currency, you may be given the option to allow a third party (for example, the retailer) to convert the transaction into Singapore Dollars before submitting it to us."
+    ],
+    "local_currency": [
+     "Card Member will receive: \u2022 2 KrisFlyer miles for every S$1 spent on eligible Singapore Airlines flight bookings originating from Singapore which are purchased in Singapore Dollars directly from Singapore Airlines Limited via phone bookings or through singaporeair.com and/or the SingaporeAir mobile app.",
+     "\u2022 2 KrisFlyer miles for every S$1 spent on eligible Scoot flight bookings originating from Singapore which are purchased in Singapore Dollars directly from Scoot Pte Ltd through flyscoot.com and/or the Scoot mobile app.",
+     "\u2022 2 KrisFlyer miles for every S$1 spent on eligible purchases in Singapore Dollars at KrisShop onboard Singapore Airlines flights, and directly online at krisshop.com.",
+     "\u2022 2 KrisFlyer miles for every S$1 spent on eligible bookings or purchases in Singapore Dollars at Pelago through pelago.com and the Pelago mobile app.",
+     "American Express Singapore Airlines KrisFlyer Credit Card Members who meet the Qualifying Spend within the Qualifying Period will receive a S$150 cashback for use with their next Singapore Airlines flight booking(s) originating from Singapore which are purchased in Singapore Dollars directly from Singapore Airlines Limited through singaporeair.com or the SingaporeAir mobile app (\u201cEligible SIA Flig",
+     "(v) You must always pay us in Singapore Dollars via the payment methods notifi ed by us to you.",
+     "(vi) If we decide to accept payment in another currency, we shall convert your payment to Singapore Dollars at our rate and credit it to your Account.",
+     "FOREIGN EXCHANGE CHARGES If we receive a transaction or refund for processing in a currency other than Singapore Dollars (\u201cForeign Charge\u201d), our currency conversion affi liate, AE Exposure Management Limited (\u201cAEEML\u201d) will convert it into US Dollars fi rst (unless it was submitted to us in US Dollars) and convert it from US Dollars into Singapore Dollars.",
+     "When making a transaction in foreign currency, you may be given the option to allow a third party (for example, the retailer) to convert the transaction into Singapore Dollars before submitting it to us.",
+     "If you decide to do this, then that third party will determine the exchange rate and any commission or fees payable for the currency conversion and submit that transaction to us in Singapore Dollars, meaning we will not convert the transaction or apply a currency conversion fee.",
+     "7.Foreign Exchange Charges If we receive a transaction or refund for processing in a currency other than Singapore Dollars (\u201cForeign Charge\u201d), our currency conversion affiliate, AE Exposure Management Limited (\u201cAEEML\u201d) will convert it into US Dollars first (unless it was submitted to us in US Dollars) and convert it from US Dollars into Singapore Dollars.",
+     "When making a transaction in foreign currency, you may be given the option to allow a third party (for example, the retailer) to convert the transaction into Singapore Dollars before submitting it to us.",
+     "If you decide to do this, then that third party will determine the exchange rate and any commission or fees payable for the currency conversion and submit that transaction to us in Singapore Dollars, meaning we will not convert the transaction or apply a currency conversion fee."
+    ]
+   },
+   "non_mcc_exclusions": [
+    "annual fee",
+    "balance transfer",
+    "cash advance",
+    "government",
+    "grabpay",
+    "instalment",
+    "interest",
+    "late payment charge",
+    "tax",
+    "top-up"
+   ]
+  },
+  {
+   "url": "https://www.americanexpress.com/content/dam/amex/sg/benefits/amex-sg-exclusions.pdf",
+   "citation": {
+    "id": "bank:c228cd1bc86a",
+    "url": "https://www.americanexpress.com/content/dam/amex/sg/benefits/amex-sg-exclusions.pdf",
+    "source_type": "official",
+    "retrieved_at": "2026-09-27T05:29:58+00:00",
+    "sha256": "c228cd1bc86a7cef6ff37d92bd1a91bc42d2446a7c0f7dae38349c35d69e42f1",
+    "snapshot": "data/raw/bank/www-americanexpress-com-content-dam-amex-sg-benefits-amex-sg-exclusions-pdf-a83329a0.pdf"
+   },
+   "text_path": "data/raw/bank/www-americanexpress-com-content-dam-amex-sg-benefits-amex-sg-exclusions-pdf-a83329a0.txt",
+   "sha256": "c228cd1bc86a7cef6ff37d92bd1a91bc42d2446a7c0f7dae38349c35d69e42f1",
+   "changed": false,
+   "new": false,
+   "no_text_layer": false,
+   "effective_dates": [
+    "30 September 2025"
+   ],
+   "mcc": {
+    "include": [],
+    "exclude": [],
+    "unknown": [],
+    "conflicting": [],
+    "unrecognised": [],
+    "hits": []
+   },
+   "transaction_modes": {
+    "online": [
+     "SAM kiosks, mobile app, online portal);",
+     "SAM kiosks, mobile app, online portal);",
+     "SAM kiosks, mobile app, online portal);"
+    ],
+    "foreign_currency": [
+     "h) Tax refunds from overseas purchases;",
+     "h) Tax refunds from overseas purchases;",
+     "h) Tax refunds from overseas purchases;",
+     "e) Tax refunds from overseas purchases."
+    ]
+   },
+   "non_mcc_exclusions": [
+    "balance transfer",
+    "bill payment",
+    "cash advance",
+    "charit",
+    "education",
+    "grabpay",
+    "hospital",
+    "instalment",
+    "interest",
+    "sam kiosk",
+    "tax",
+    "top-up",
+    "top-ups",
+    "utilit"
+   ]
+  },
+  {
+   "url": "https://www.americanexpress.com/content/dam/amex/sg/campaigns/pdfs/krisflyer-credit-card-welcomeoffer.pdf",
+   "citation": {
+    "id": "bank:7595a491c2e7",
+    "url": "https://www.americanexpress.com/content/dam/amex/sg/campaigns/pdfs/krisflyer-credit-card-welcomeoffer.pdf",
+    "source_type": "official",
+    "retrieved_at": "2026-09-27T05:30:00+00:00",
+    "sha256": "7595a491c2e713dcfa70014bfba987822721389f85638b415d7d37406d65b9f6",
+    "snapshot": "data/raw/bank/www-americanexpress-com-content-dam-amex-sg-campaigns-pdfs-krisflyer-credit-card-welcomeoffer-pdf-38583bcf.pdf"
+   },
+   "text_path": "data/raw/bank/www-americanexpress-com-content-dam-amex-sg-campaigns-pdfs-krisflyer-credit-card-welcomeoffer-pdf-38583bcf.txt",
+   "sha256": "7595a491c2e713dcfa70014bfba987822721389f85638b415d7d37406d65b9f6",
+   "changed": false,
+   "new": false,
+   "no_text_layer": false,
+   "effective_dates": [],
+   "mcc": {
+    "include": [],
+    "exclude": [],
+    "unknown": [],
+    "conflicting": [],
+    "unrecognised": [],
+    "hits": []
+   },
+   "transaction_modes": {},
+   "non_mcc_exclusions": []
+  }
+ ],
+ "changed": false,
+ "removed_documents": []
+}

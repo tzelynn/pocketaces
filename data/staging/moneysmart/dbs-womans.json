@@ -1,0 +1,77 @@
+{
+ "source": "moneysmart",
+ "source_id": "dbs-womans-card",
+ "source_url": "https://www.moneysmart.sg/credit-cards/dbs-womans-card",
+ "name": "DBS Woman's Card",
+ "bank": "DBS",
+ "card_id": "dbs-womans",
+ "image_url": "https://photos.cdn-moneysmart.com/credit_cards/uploads/products/images/image_url_2021-09-29_Details - Logo - DBS Womans Card.png",
+ "annual_fee": 163.5,
+ "earn_rates": {},
+ "caps": {},
+ "highlights": [
+  "S$5 = 5 DBS Points (2 Miles per S$1) on Online Purchases",
+  "S$5 = 1 DBS Point (0.4 Miles per S$1) on Other Purchases",
+  "Complimentary e-Commerce Protection for Online Purchases",
+  "5X DBS Points per S$5 / 2 miles per S$1 on online purchases",
+  "1X DBS Points per S$5 / 0.4 miles per S$1 on other purchases",
+  "Complimentary e-Commerce Protection on online purchases",
+  "Enjoy first year annual fee waiver",
+  "At MoneySmart, we strive to keep our information accurate and up to date. This information may be different from what you see when you visit a financial institution, service provider, or specific product site. MoneySmart shall not be liable to compensate the Customer should the information is not as updated as our Partner."
+ ],
+ "sign_up_offers": [],
+ "links": {
+  "product": "https://www.moneysmart.sg/credit-cards/dbs-womans-card"
+ },
+ "citation": {
+  "id": "moneysmart:fbcf8e7229a3",
+  "url": "https://www.moneysmart.sg/credit-cards?page=3",
+  "title": "DBS Woman's Card",
+  "source_type": "aggregator",
+  "retrieved_at": "2026-09-27T05:27:18+00:00",
+  "sha256": "fbcf8e7229a38611c3c767cd8447164e413b1306df1f54bebee269e3abf15202",
+  "snapshot": "data/raw/moneysmart/credit-cards-p3-707cb52c.html"
+ },
+ "extra": {
+  "summary": "DBS Woman’s Card is one of the best ladies’ rewards credit cards in Singapore for shopping. DBS rewards points earned expire in a year, and can be redeemed for cashback, Fairprice vouchers, Apple AirPods, and more. Other benefits include annual fee waiver, fashion, beauty, and hotel deals and promotions.",
+  "badges": [
+   "Online Shopping"
+  ],
+  "network": [
+   "Mastercard"
+  ],
+  "mobile_wallets": [
+   "Google Pay",
+   "Apple Pay",
+   "Samsung Pay"
+  ],
+  "groups": {
+   "annual-interest-rate-and-fees": {
+    "Annual Interest Rate": "27.80% p.a. chargeable on daily basis (subject to compounding)",
+    "Annual Principal Fee": "163.50",
+    "Supplementary Annual Fee": "81.75",
+    "Fee Waiver": "First year waived",
+    "Minimum Monthly Repayment": "3.00% or S$50, whichever is greater",
+    "Interest Free Period": "25 days"
+   },
+   "minimum-income-requirements": {
+    "Singaporean/PR Minimum Annual Income": "30000",
+    "Non-Singaporean Minimum Annual Income": "45000"
+   },
+   "card-association": {
+    "Mastercard": "true"
+   },
+   "wireless-payment": {
+    "Google Pay": "true",
+    "Apple Pay": "true",
+    "Samsung Pay": "true"
+   }
+  },
+  "our_takes": {
+   "our-take": "The DBS Woman's Card rewards online spending (5X points per S$5, capped at S$1,000/month), which translates to 2 miles per dollar – useful if you spend heavily online on things like e-commerce, health, or beauty. While it offers first-year fee waiver, be mindful of the S$163.50 annual fee thereafter. Consider if your monthly online spending justifies the ongoing cost. Note that certain transaction types are excluded and interest is high at 27.8% if you don't pay in full. This card suits those who actively track and redeem rewards points earned from online shopping.",
+   "good-for": "* Online shoppers seeking accelerated rewards on everyday e-commerce purchases, up to S$1,000 per month.\n* Those who want to earn rewards points for online transactions, redeemable for shopping and other lifestyle perks.\n* Young professionals who appreciate e-commerce protection and a first-year annual fee waiver on a rewards card.",
+   "things-to-note": "* A 27.80% annual interest rate applies if you carry a balance, increasing your debt quickly.\n* Late payment fees of S$100 apply for balances over S$200, so pay promptly.\n* Points exclude certain MCCs and transactions, limiting reward earning opportunities on some purchases."
+  },
+  "updated_at": "2025-04-22T18:20:04+08:00"
+ }
+}

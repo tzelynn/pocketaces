@@ -1,0 +1,79 @@
+{
+ "source": "moneysmart",
+ "source_id": "dbs-live-fresh-card",
+ "source_url": "https://www.moneysmart.sg/credit-cards/dbs-live-fresh-card",
+ "name": "DBS Live Fresh Card",
+ "bank": "DBS",
+ "card_id": "dbs-live-fresh",
+ "image_url": "https://photos.cdn-moneysmart.com/credit_cards/uploads/products/images/image_url_2021-05-18_DBS Live Fresh Card (Front) (1).jpg",
+ "annual_fee": 196.2,
+ "earn_rates": {},
+ "caps": {},
+ "highlights": [
+  "Up to 6% Cashback on Shopping & Transport Spend",
+  "800 Min. Spend",
+  "Up to S$70 Cashback Cap",
+  "Score up to 6% cashback on your shopping sprees & daily commutes",
+  "Up to 6% cashback on Shopping & Transport Spend",
+  "0.3% unlimited cashback on All Spend",
+  "Enjoy first year annual fee waiver",
+  "At MoneySmart, we strive to keep our information accurate and up to date. This information may be different from what you see when you visit a financial institution, service provider, or specific product site. MoneySmart shall not be liable to compensate the Customer should the information is not as updated as our Partner."
+ ],
+ "sign_up_offers": [],
+ "links": {
+  "product": "https://www.moneysmart.sg/credit-cards/dbs-live-fresh-card"
+ },
+ "citation": {
+  "id": "moneysmart:49fcb3586f25",
+  "url": "https://www.moneysmart.sg/credit-cards?page=4",
+  "title": "DBS Live Fresh Card",
+  "source_type": "aggregator",
+  "retrieved_at": "2026-09-27T05:27:20+00:00",
+  "sha256": "49fcb3586f252df0b2dacb9acecc465127e09c9defa7f151881c3db46d84649e",
+  "snapshot": "data/raw/moneysmart/credit-cards-p4-1a322210.html"
+ },
+ "extra": {
+  "summary": "",
+  "badges": [
+   "Shopping and Transportation"
+  ],
+  "network": [
+   "Visa"
+  ],
+  "mobile_wallets": [
+   "Visa Contactless",
+   "Google Pay",
+   "Apple Pay",
+   "Samsung Pay"
+  ],
+  "groups": {
+   "annual-interest-rate-and-fees": {
+    "Annual Interest Rate": "27.80",
+    "Annual Principal Fee": "196.20",
+    "Supplementary Annual Fee": "98.10",
+    "Fee Waiver": "First year waived",
+    "Minimum Monthly Repayment": "3.00% or S$50, whichever is higher",
+    "Interest Free Period": "25 days"
+   },
+   "minimum-income-requirements": {
+    "Singaporean/PR Minimum Annual Income": "30000",
+    "Non-Singaporean Minimum Annual Income": "45000"
+   },
+   "card-association": {
+    "Visa": "true"
+   },
+   "wireless-payment": {
+    "Visa Contactless": "true",
+    "Google Pay": "true",
+    "Apple Pay": "true",
+    "Samsung Pay": "true"
+   }
+  },
+  "our_takes": {
+   "our-take": "The DBS Live Fresh Card is a solid choice for young working adults in Singapore who spend at least S$800 monthly. Score up to 6% cashback on shopping and transport, capped at S$50 and S$20 respectively. The 0.3% cashback on all other spend provides a small safety net. While the S$800 minimum spend may be challenging for some, the card's first-year fee waiver and compatibility with Apple/Samsung/Google Pay enhance its appeal. Consider if your spending habits align with the categories to maximize rewards.",
+   "good-for": "* Young working adults who spend on shopping, transport and are able to meet the S$800 monthly spend.\n* Individuals seeking cashback on daily commutes, public transport, and ride-hailing services to offset transportation costs.\n* Shoppers who want to earn cashback on purchases across apparel, electronics, and home appliances with no cashback expiry.",
+   "things-to-note": "* A S$196.20 annual fee applies after the first year; ensure rewards outweigh the cost, or consider cancelling.\n* Paying late incurs a S$100 fee, which can negate any cashback earned, so always pay promptly.\n* The 27.80% annual interest rate can make debt expensive; aim to pay your balance in full monthly."
+  },
+  "updated_at": "2026-09-07T08:00:03+08:00"
+ }
+}

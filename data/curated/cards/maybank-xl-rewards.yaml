@@ -1,0 +1,81 @@
+# Curated card record. Auto-drafted from staged sources; verify every value against the
+# official T&Cs (citations below), then set review.status: reviewed.
+id: maybank-xl-rewards
+bank: Maybank
+name: Maybank XL Rewards Card
+network: mastercard
+image_url: https://mhgprod.blob.core.windows.net/singsaver/strapi-uploads/m_Maybank_XL_Rewards_70dbc10967.png
+official_url: https://www.maybank2u.com.sg/en/personal/cards/credit/maybank-xl-card.page
+annual_fee:
+  amount:
+    amount: 87.2
+    currency: SGD
+  waiver_notes: S$ | First 2 Years Waived; Subsequent annual fee will be automatically waived with a minimum
+    spend of S$6,000 yearly.
+  sources: ['singsaver:c7ca3ef02e44']
+min_annual_income:
+  amount: 30000.0
+  currency: SGD
+reward_currency:
+  kind: miles
+  name: Miles
+earn_rules:
+- id: local
+  label: local, forex, dining, retail, travel, entertainment (SingSaver — verify)
+  rate: 4.0
+  unit: mpd
+  tier: bonus
+  eligibility:
+    tags: [dining, shopping, travel, entertainment]
+    description: 4 miles per dollar (10X TREATS Points) on eligible spend categories (Dine, Shop, Travel,
+      Play) with min. S$500 spend per calendar month. Capped at 10,000 bonus TREATS Points monthly (~4,000
+      miles). Base rate 0.4 mpd.
+    sources: ['singsaver:c7ca3ef02e44']
+  sources: ['singsaver:c7ca3ef02e44']
+- id: base
+  label: baseline (SingSaver — verify)
+  rate: 0.4
+  unit: mpd
+  tier: base
+  eligibility:
+    all_spend: true
+    description: 0.4 miles per dollar (1X TREATS Points) on all other spend.
+    sources: ['singsaver:c7ca3ef02e44']
+  sources: ['singsaver:c7ca3ef02e44']
+general_exclusions:
+  description: Auto-extracted from official T&Cs — confirm each code applies to this card
+sign_up_bonuses:
+- offered_by: singsaver
+  description: 'Maybank Welcome Offer: choice of Get an increased 15,000 TREATS Points Cap'
+  valid_from: '2026-06-30'
+  valid_to: '2026-09-30'
+  url: https://www.singsaver.com.sg/credit-card/products/maybank-xl-rewards-card
+  sources: ['singsaver:c7ca3ef02e44']
+notes:
+- 'Editorial review for cross-checking: Review: Maybank XL Rewards Card (https://milelion.com/2026/07/05/review-maybank-xl-rewards-card/,
+  updated 2026-08-23)'
+citations:
+- id: singsaver:c7ca3ef02e44
+  url: https://www.singsaver.com.sg/credit-card/products/maybank-xl-rewards-card
+  title: Maybank XL Rewards Card
+  source_type: aggregator
+  retrieved_at: '2026-09-27T05:26:16+00:00'
+  sha256: c7ca3ef02e448b8f88cf666b57aa3c6ca2f4a8f4419d1eed3a7bc611a0068af4
+  snapshot: data/raw/singsaver/www-singsaver-com-sg-credit-card-products-maybank-xl-rewards-card-f4921a92.html
+- id: moneysmart:eeee24fb93a9
+  url: https://www.moneysmart.sg/credit-cards
+  title: Maybank XL Rewards Card
+  source_type: aggregator
+  retrieved_at: '2026-09-27T05:27:12+00:00'
+  sha256: eeee24fb93a9d85ef8b9194c11bda960b5b99ee30b3689cdc59fb650badebce7
+  snapshot: data/raw/moneysmart/credit-cards-p1-b55034ef.html
+- id: milelion:4caa28e3958a
+  url: https://milelion.com/2026/07/05/review-maybank-xl-rewards-card/
+  title: 'Review: Maybank XL Rewards Card'
+  source_type: editorial
+  retrieved_at: '2026-09-27T05:28:36+00:00'
+  sha256: 4caa28e3958a2d1aefc34066d93538ed01a2be17cf561e87ff1b3cac81b23b18
+  snapshot: data/raw/milelion/post-362981-856beacc.json
+review:
+  status: draft
+updated_at: '2026-09-27'

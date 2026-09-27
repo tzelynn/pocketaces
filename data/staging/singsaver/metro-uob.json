@@ -1,0 +1,85 @@
+{
+ "source": "singsaver",
+ "source_id": "uob-metro-uob-card",
+ "source_url": "https://www.singsaver.com.sg/credit-card/products/uob-metro-uob-card",
+ "name": "UOB Metro-UOB Card",
+ "bank": "UOB",
+ "card_id": "metro-uob",
+ "image_url": "https://mhgprod.blob.core.windows.net/singsaver/strapi-uploads/xs_blta571c4fc10fc6ade_20e1344af8.webp",
+ "annual_fee": 196.2,
+ "annual_fee_note": "S$ | First Year Waived",
+ "min_annual_income": 30000.0,
+ "earn_rates": {
+  "percent:baseline": {
+   "value": 0.2,
+   "unit": "percent",
+   "note": "(Indirect Cashback) S%5 local spend = UNI$1. UNI$2000 redeems $20 vouchers. Equivalent to 0.2% cashback."
+  },
+  "percent:overseas": {
+   "value": 0.2,
+   "unit": "percent",
+   "note": "(Indirect Cashback) S$5 local spend = UNI$1. UNI$2000 redeems $20 vouchers. Equivalent to 0.2% cashback."
+  },
+  "percent:local": {
+   "value": 0.2,
+   "unit": "percent",
+   "note": "(Indirect Cashback) S%5 local spend = UNI$1. UNI$2000 redeems $20 vouchers. Equivalent to 0.2% cashback."
+  },
+  "percent:department_store": {
+   "value": 10.0,
+   "unit": "percent",
+   "note": "10% discount on regular-priced items with blue tags in Metro, 5% rebate on all merchandise and sale items."
+  }
+ },
+ "caps": {},
+ "highlights": [
+  "10% discount on regular-priced items with blue tags in Metro and a 5% rebate on all merchandise and sale items. earn 0.20% cashback indirect cashback, where S$5 spent equals UNI$1, and UNI$2000 can be redeemed for S$20 vouchers, effectively providing a cashback equivalent of 0.2%.",
+  "pros: Get 10% off regular-priced items all year round at Metro.",
+  "pros: Enjoy 5% Metro$ rebates on all merchandise, including sale items at Metro.",
+  "pros: Earn UNI$1 for every S$5 spent; redeem over 1,000 rewards from dining treats to shopping vouchers.",
+  "pros: Indulge in savoury treats and discounts at over 1,000 dining establishments.",
+  "pros: 20% off regular items in Metro on your birthday month.",
+  "pros: Exclusive invites to Double Metro$ Day, events and previews.",
+  "pros: Free delivery service when you spend a minimum of S$150 nett at Metro.",
+  "cons: 10% discounts applies to regular-priced items with a blue tag.",
+  "cons: 5% rebate is awarded in the form of Metro$ based on the nett amount charged to the Metro-UOB Card.",
+  "pros: Retail rebate",
+  "pros: Dining savings",
+  "pros: No monthly spend required",
+  "pros: No rebate cap"
+ ],
+ "sign_up_offers": [],
+ "links": {},
+ "citation": {
+  "id": "singsaver:1e2e12ef2122",
+  "url": "https://www.singsaver.com.sg/credit-card/products/uob-metro-uob-card",
+  "title": "UOB Metro-UOB Card",
+  "source_type": "aggregator",
+  "retrieved_at": "2026-09-27T05:26:54+00:00",
+  "sha256": "1e2e12ef2122620424f67c0077c15743dc439f4ee89cc3f8cc880abb4e567cc7",
+  "snapshot": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-uob-metro-uob-card-a8d8e309.html"
+ },
+ "extra": {
+  "network": [
+   "VISA Platinum"
+  ],
+  "mobile_wallets": null,
+  "fx_fee_percent": 3.25,
+  "miles_conversion_fee": 27.0,
+  "categories": [
+   "category:all-credit-cards",
+   "category:cashback",
+   "category:installment",
+   "category:promo",
+   "category:retail-promo",
+   "needs:all-cards-with-promotion",
+   "needs:all-cards-with-retail-promo",
+   "needs:all-cashback-cards",
+   "needs:all-credit-cards",
+   "needs:high-cashback",
+   "needs:no-minimum-spend-required-airmiles"
+  ],
+  "tag": null,
+  "description": "Embrace a new level of style and savings with the UOB Metro-UOB Card. Elevate your retail experiences with attractive discounts, exclusive rewards, and tailored privileges."
+ }
+}

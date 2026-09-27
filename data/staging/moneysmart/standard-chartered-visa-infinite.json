@@ -1,0 +1,87 @@
+{
+ "source": "moneysmart",
+ "source_id": "standard-chartered-visa-infinite-credit-card",
+ "source_url": "https://www.moneysmart.sg/credit-cards/standard-chartered-visa-infinite-credit-card",
+ "name": "Standard Chartered Visa Infinite Credit Card",
+ "bank": "Standard Chartered",
+ "card_id": "standard-chartered-visa-infinite",
+ "image_url": "https://photos.cdn-moneysmart.com/credit_cards/uploads/products/images/image_url_2025-03-31_SCB_VisaInfiniteBlack_KeithWong_0000_v5 Small.jpeg",
+ "annual_fee": 599.5,
+ "min_annual_income": 30000.0,
+ "earn_rates": {},
+ "caps": {},
+ "highlights": [
+  "S$1 = 3 miles on Overseas Spend",
+  "S$1 = 1.4 Miles on Local Spend",
+  "6 Complimentary visits to Airport Lounges worldwide",
+  "Earn up to 3 miles for every S$1 spent. Simply charge a minimum of S$2,000 on eligible spend in a statement cycle.",
+  "$1 = 1.4 miles (Local)",
+  "$1 = 3 miles (Overseas)",
+  "Enjoy 6 complimentary visits to Priority Pass lounges worldwide.",
+  "Pay your taxes and earn miles with the Credit Card Income Tax Payment Facility.",
+  "Earn miles when you charge your income tax to your Visa Infinite Credit Card, with a preferential one-time processing fee of 1.9% on your tax payable amount.",
+  "Simply charge a minimum of S$2,000 on eligible spends in a statement cycle. All spends below S$2,000 will earn 2.5 reward points or 1 mile for every S$1 spent. Additional points will be credited in the next statement cycle.",
+  "Have a peace of mind when you travel with complimentary travel insurance coverage of up to S$1,000,000. Simply charge your full fare to your card before you go abroad.",
+  "At MoneySmart, we strive to keep our information accurate and up to date. This information may be different from what you see when you visit a financial institution, service provider, or specific product site. MoneySmart shall not be liable to compensate the Customer should the information is not as updated as our Partner."
+ ],
+ "sign_up_offers": [],
+ "links": {
+  "product": "https://www.moneysmart.sg/credit-cards/standard-chartered-visa-infinite-credit-card",
+  "review": "https://blog.moneysmart.sg/credit-cards/standard-chartered-visa-infinite-credit-card-review/"
+ },
+ "citation": {
+  "id": "moneysmart:49fcb3586f25",
+  "url": "https://www.moneysmart.sg/credit-cards?page=4",
+  "title": "Standard Chartered Visa Infinite Credit Card",
+  "source_type": "aggregator",
+  "retrieved_at": "2026-09-27T05:27:20+00:00",
+  "sha256": "49fcb3586f252df0b2dacb9acecc465127e09c9defa7f151881c3db46d84649e",
+  "snapshot": "data/raw/moneysmart/credit-cards-p4-1a322210.html"
+ },
+ "extra": {
+  "summary": "",
+  "badges": [],
+  "network": [
+   "Visa"
+  ],
+  "mobile_wallets": [
+   "Visa Contactless",
+   "Google Pay",
+   "Apple Pay",
+   "Samsung Pay"
+  ],
+  "groups": {
+   "annual-interest-rate-and-fees": {
+    "Annual Interest Rate": "27.9% per annum (minimum). If payment is not made in full by the due date, finance charges will be calculated on a daily basis at 0.076% from the respective transaction dates for all transactions to the date the payment is received.",
+    "Annual Principal Fee": "599.50",
+    "Minimum Monthly Repayment": "1% or S$50, whichever is higher"
+   },
+   "minimum-income-requirements": {
+    "Singaporean/PR Minimum Annual Income": "For Priority/Private Banking customers: \nSingapore Citizens and Permanent Residents: S$30,000 \nFor all other customers: S$150,000",
+    "Non-Singaporean Minimum Annual Income": "For Priority/Private Banking customers: \nForeigners with Employment Passes: S$90,000 \nFor all other customers: S$150,000"
+   },
+   "card-association": {
+    "Visa": "true"
+   },
+   "wireless-payment": {
+    "Visa Contactless": "true",
+    "Google Pay": "true",
+    "Apple Pay": "true",
+    "Samsung Pay": "true"
+   },
+   "documents-required": {
+    "SG Citizens or PRs": "Apply via MyInfo and prepare the following, \n1. Copy of Passport (6 months validity), and page with address displayed (where applicable), \n2. Copy of Employment Pass, \n3. Either one of the following: utility bill, tax bill, latest bank /credit card statement, rental agreement showing your address, latest mobile phone statement, letter from employer stating current address, government-issued document stating current address",
+    "Passport Validity (Foreigners)": "6 months",
+    "Work Permit Validity (Foreigners)": "6 months",
+    "Utility or Telephone Bill": "true",
+    "Income Tax Notice of Assessment": "true"
+   }
+  },
+  "our_takes": {
+   "our-take": "The Visa Infinite Credit Card offers premium benefits tailored for frequent travelers and high spenders. Earn up to 3 miles per S$1 spent, with accelerated rates of 1.4 miles locally and 3 miles overseas, contingent upon a minimum spend of S$2,000 per statement cycle. Enjoy exclusive perks such as 6 complimentary visits to Priority Pass lounges globally and the convenience of earning miles when paying income taxes at a preferential processing fee of 1.9%. Additional features include comprehensive travel insurance coverage up to S$1,000,000, reinforcing its appeal to discerning travelers seeking both luxury and practicality in their credit card choice.",
+   "good-for": "Frequent travelers aiming for substantial miles on both local and overseas expenditures.\nBusiness owners looking to earn miles while paying taxes through a convenient facility.\nJet-setters who value luxury travel benefits like Priority Pass lounge access worldwide.",
+   "things-to-note": "While the card offers high miles rewards, the annual fee applies after the first year. Evaluate if the benefits justify the cost.\nBe mindful of the preferential 1.9% processing fee for income tax payments, which can add to your tax bill.\nAlthough the card provides complimentary travel insurance, ensure your full fare is charged to the card before traveling to activate coverage completely."
+  },
+  "updated_at": "2025-08-22T00:00:03+08:00"
+ }
+}

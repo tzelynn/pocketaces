@@ -1,0 +1,547 @@
+{
+ "card_id": "ocbc-365",
+ "product_pages": [
+  {
+   "id": "bank:ac0aa512df22",
+   "url": "https://www.ocbc.com/personal-banking/cards/365-cashback-credit-card",
+   "source_type": "official",
+   "retrieved_at": "2026-09-27T08:40:29+00:00",
+   "sha256": "ac0aa512df22c3b090189f8613f272f62b703b59adfb99c73efa62e3c2aac163",
+   "snapshot": "data/raw/bank/www-ocbc-com-personal-banking-cards-365-cashback-credit-card-d1dd7ccd.html"
+  }
+ ],
+ "documents": [
+  {
+   "url": "https://www.ocbc.com/iwov-resources/sg/ocbc/personal/pdf/cards/tncs-governing-365-cc-cashback-programme.pdf",
+   "citation": {
+    "id": "bank:b05572c73e39",
+    "url": "https://www.ocbc.com/iwov-resources/sg/ocbc/personal/pdf/cards/tncs-governing-365-cc-cashback-programme.pdf",
+    "source_type": "official",
+    "retrieved_at": "2026-09-27T08:40:31+00:00",
+    "sha256": "b05572c73e3955b096f674599012b908e68b0574b9571b744685a6c63c34e03a",
+    "snapshot": "data/raw/bank/www-ocbc-com-iwov-resources-sg-ocbc-personal-pdf-cards-tncs-governing-365-cc-cashback-programme-pdf-63be21a1.pdf"
+   },
+   "text_path": "data/raw/bank/www-ocbc-com-iwov-resources-sg-ocbc-personal-pdf-cards-tncs-governing-365-cc-cashback-programme-pdf-63be21a1.txt",
+   "sha256": "b05572c73e3955b096f674599012b908e68b0574b9571b744685a6c63c34e03a",
+   "changed": false,
+   "new": true,
+   "no_text_layer": false,
+   "effective_dates": [],
+   "mcc": {
+    "include": [
+     "4011",
+     "4111",
+     "4112",
+     "4121",
+     "4131",
+     "4899",
+     "5411",
+     "5541",
+     "5542",
+     "5552",
+     "5811",
+     "5812",
+     "5814",
+     "7311"
+    ],
+    "exclude": [
+     "4784",
+     "4829",
+     "5047",
+     "5199",
+     "5262",
+     "5960",
+     "5993",
+     "6010",
+     "6012",
+     "6051",
+     "6211",
+     "6300",
+     "6513",
+     "6540",
+     "7349",
+     "7523",
+     "7995",
+     "8062",
+     "8211",
+     "8220",
+     "8241",
+     "8244",
+     "8249",
+     "8299",
+     "8651",
+     "8675",
+     "8699",
+     "9211",
+     "9222",
+     "9223",
+     "9311",
+     "9399",
+     "9402",
+     "9405"
+    ],
+    "unknown": [],
+    "conflicting": [],
+    "unrecognised": [
+     "5552"
+    ],
+    "hits": [
+     {
+      "code": "5811",
+      "polarity": "include",
+      "page": 1,
+      "line": "\u2022 MCC 5811 (Caterers); ita",
+      "reason": "(i) \u201cDining\u201d is defined as Card Transactions classified under the following Merchant Category e",
+      "in_reference": true
+     },
+     {
+      "code": "5812",
+      "polarity": "include",
+      "page": 1,
+      "line": "\u2022 MCC 5812 (Restaurants and eating places); and p ro",
+      "reason": "(i) \u201cDining\u201d is defined as Card Transactions classified under the following Merchant Category e",
+      "in_reference": true
+     },
+     {
+      "code": "5811",
+      "polarity": "include",
+      "page": 1,
+      "line": "ood and Deliveroo made under the MCC 5811, 5812, or 5814 (Fast g n ik",
+      "reason": "(i) \u201cDining\u201d is defined as Card Transactions classified under the following Merchant Category e",
+      "in_reference": true
+     },
+     {
+      "code": "5812",
+      "polarity": "include",
+      "page": 1,
+      "line": "ood and Deliveroo made under the MCC 5811, 5812, or 5814 (Fast g n ik",
+      "reason": "(i) \u201cDining\u201d is defined as Card Transactions classified under the following Merchant Category e",
+      "in_reference": true
+     },
+     {
+      "code": "5814",
+      "polarity": "include",
+      "page": 1,
+      "line": "ood and Deliveroo made under the MCC 5811, 5812, or 5814 (Fast g n ik",
+      "reason": "(i) \u201cDining\u201d is defined as Card Transactions classified under the following Merchant Category e",
+      "in_reference": true
+     },
+     {
+      "code": "5411",
+      "polarity": "include",
+      "page": 2,
+      "line": "the MCC 5411 (Grocery Stores), which includes:",
+      "reason": "the 5% cashback under this category. Such transactions will only be eligible to receive the",
+      "in_reference": true
+     },
+     {
+      "code": "4111",
+      "polarity": "include",
+      "page": 2,
+      "line": "a. MCC 4111 (Local/Suburban Commuter Passenger Transportation);",
+      "reason": "(i) \u201cLand Transport\u201d is defined as Card Transactions classified under the following MCC:",
+      "in_reference": true
+     },
+     {
+      "code": "4011",
+      "polarity": "include",
+      "page": 2,
+      "line": "b. MCC 4011 (Railroads);",
+      "reason": "(i) \u201cLand Transport\u201d is defined as Card Transactions classified under the following MCC:",
+      "in_reference": true
+     },
+     {
+      "code": "4112",
+      "polarity": "include",
+      "page": 2,
+      "line": "c. MCC 4112 (Passenger Railways);",
+      "reason": "(i) \u201cLand Transport\u201d is defined as Card Transactions classified under the following MCC:",
+      "in_reference": true
+     },
+     {
+      "code": "4121",
+      "polarity": "include",
+      "page": 2,
+      "line": "d. MCC 4121 (Taxicabs and Limousines); and",
+      "reason": "(i) \u201cLand Transport\u201d is defined as Card Transactions classified under the following MCC:",
+      "in_reference": true
+     },
+     {
+      "code": "4131",
+      "polarity": "include",
+      "page": 2,
+      "line": "e. MCC 4131 (Bus Lines, Including Charters, Tour Buses);",
+      "reason": "(i) \u201cLand Transport\u201d is defined as Card Transactions classified under the following MCC:",
+      "in_reference": true
+     },
+     {
+      "code": "5541",
+      "polarity": "include",
+      "page": 2,
+      "line": "\u2022 MCC 5541 (Service Stations); and",
+      "reason": "(i) \u201cPetrol\u201d is defined as Card Transactions classified under the following MCC:",
+      "in_reference": true
+     },
+     {
+      "code": "5542",
+      "polarity": "include",
+      "page": 2,
+      "line": "\u2022 MCC 5542 (Automated Fuel Dispensers);",
+      "reason": "(i) \u201cPetrol\u201d is defined as Card Transactions classified under the following MCC:",
+      "in_reference": true
+     },
+     {
+      "code": "4899",
+      "polarity": "include",
+      "page": 3,
+      "line": "\u2022 MCC 4899 (Cable, Satellite, and Other Pay Television and Radio Services); and",
+      "reason": "(i) \u201cStreaming\u201d is defined as transactions classified under the following MCC and names:",
+      "in_reference": true
+     },
+     {
+      "code": "5552",
+      "polarity": "include",
+      "page": 3,
+      "line": "(i) \u201cElectric Vehicle Charging\u201d is defined as Card Transactions classified under the MCC 5552",
+      "reason": "(i) \u201cStreaming\u201d is defined as transactions classified under the following MCC and names:",
+      "in_reference": false
+     },
+     {
+      "code": "7311",
+      "polarity": "include",
+      "page": 4,
+      "line": "\u2022 FACEBOOK and META made under MCC 7311 (Advertising Services)",
+      "reason": "Category Codes (\u201cMCC\u201d) and the following merchant names:",
+      "in_reference": true
+     },
+     {
+      "code": "7311",
+      "polarity": "include",
+      "page": 4,
+      "line": "\u2022 FACEBOOK and META made under MCC 7311 (Advertising Services)",
+      "reason": "Category Codes (\u201cMCC\u201d) and the following merchant names:",
+      "in_reference": true
+     },
+     {
+      "code": "4784",
+      "polarity": "exclude",
+      "page": 5,
+      "line": "4784 Tolls and Bridge Fees",
+      "reason": "MCC Excluded Categories",
+      "in_reference": true
+     },
+     {
+      "code": "4829",
+      "polarity": "exclude",
+      "page": 5,
+      "line": "4829 Wire Transfer Money Orders (WTMOs)",
+      "reason": "MCC Excluded Categories",
+      "in_reference": true
+     },
+     {
+      "code": "5047",
+      "polarity": "exclude",
+      "page": 5,
+      "line": "5047 Medical, Dental, Ophthalmic and Hospital Equipment and",
+      "reason": "MCC Excluded Categories",
+      "in_reference": true
+     },
+     {
+      "code": "5199",
+      "polarity": "exclude",
+      "page": 5,
+      "line": "5199 Nondurable Goods (Not Elsewhere Classified)",
+      "reason": "MCC Excluded Categories",
+      "in_reference": true
+     },
+     {
+      "code": "5262",
+      "polarity": "exclude",
+      "page": 5,
+      "line": "5262 Marketplaces (only for Shopee Pay)",
+      "reason": "MCC Excluded Categories",
+      "in_reference": true
+     },
+     {
+      "code": "5993",
+      "polarity": "exclude",
+      "page": 5,
+      "line": "5993 Cigars, Stores and Stands",
+      "reason": "MCC Excluded Categories",
+      "in_reference": true
+     },
+     {
+      "code": "6010",
+      "polarity": "exclude",
+      "page": 5,
+      "line": "6010, 6012 Member Financial Institution\u2013Manual Cash",
+      "reason": "MCC Excluded Categories",
+      "in_reference": true
+     },
+     {
+      "code": "6012",
+      "polarity": "exclude",
+      "page": 5,
+      "line": "6010, 6012 Member Financial Institution\u2013Manual Cash",
+      "reason": "MCC Excluded Categories",
+      "in_reference": true
+     },
+     {
+      "code": "6051",
+      "polarity": "exclude",
+      "page": 5,
+      "line": "6051 Quasi Cash\u2013Merchant (Non-Financial Institutions \u2013",
+      "reason": "MCC Excluded Categories",
+      "in_reference": true
+     },
+     {
+      "code": "6211",
+      "polarity": "exclude",
+      "page": 5,
+      "line": "6211 Securities\u2013Brokers and Dealers",
+      "reason": "MCC Excluded Categories",
+      "in_reference": true
+     },
+     {
+      "code": "6300",
+      "polarity": "exclude",
+      "page": 5,
+      "line": "6300, 5960 Insurance Sales, Underwriting and Premiums/ Direct",
+      "reason": "MCC Excluded Categories",
+      "in_reference": true
+     },
+     {
+      "code": "5960",
+      "polarity": "exclude",
+      "page": 5,
+      "line": "6300, 5960 Insurance Sales, Underwriting and Premiums/ Direct",
+      "reason": "MCC Excluded Categories",
+      "in_reference": true
+     },
+     {
+      "code": "6513",
+      "polarity": "exclude",
+      "page": 5,
+      "line": "6513 Real Estate Agents and Managers",
+      "reason": "MCC Excluded Categories",
+      "in_reference": true
+     },
+     {
+      "code": "6540",
+      "polarity": "exclude",
+      "page": 5,
+      "line": "6540 Non-Financial Institutions \u2013 Stored Value Card",
+      "reason": "MCC Excluded Categories",
+      "in_reference": true
+     },
+     {
+      "code": "7349",
+      "polarity": "exclude",
+      "page": 5,
+      "line": "7349 Cleaning, Maintenance and Janitorial Services",
+      "reason": "MCC Excluded Categories",
+      "in_reference": true
+     },
+     {
+      "code": "7523",
+      "polarity": "exclude",
+      "page": 5,
+      "line": "7523 Automobile Parking Lots and Garages",
+      "reason": "MCC Excluded Categories",
+      "in_reference": true
+     },
+     {
+      "code": "7995",
+      "polarity": "exclude",
+      "page": 5,
+      "line": "7995 Gambling - Betting, including Lottery Tickets, Casino",
+      "reason": "MCC Excluded Categories",
+      "in_reference": true
+     },
+     {
+      "code": "8062",
+      "polarity": "exclude",
+      "page": 5,
+      "line": "8062 Hospitals",
+      "reason": "MCC Excluded Categories",
+      "in_reference": true
+     },
+     {
+      "code": "8211",
+      "polarity": "exclude",
+      "page": 5,
+      "line": "8211, 8220, Schools, Elementary and Secondary / Colleges,",
+      "reason": "MCC Excluded Categories",
+      "in_reference": true
+     },
+     {
+      "code": "8220",
+      "polarity": "exclude",
+      "page": 5,
+      "line": "8211, 8220, Schools, Elementary and Secondary / Colleges,",
+      "reason": "MCC Excluded Categories",
+      "in_reference": true
+     },
+     {
+      "code": "8241",
+      "polarity": "exclude",
+      "page": 5,
+      "line": "8241, 8244, Universities, Professional Schools and Junior Colleges /",
+      "reason": "MCC Excluded Categories",
+      "in_reference": true
+     },
+     {
+      "code": "8244",
+      "polarity": "exclude",
+      "page": 5,
+      "line": "8241, 8244, Universities, Professional Schools and Junior Colleges /",
+      "reason": "MCC Excluded Categories",
+      "in_reference": true
+     },
+     {
+      "code": "8249",
+      "polarity": "exclude",
+      "page": 5,
+      "line": "8249, 8299 Schools, Correspondence / Schools, Business and",
+      "reason": "MCC Excluded Categories",
+      "in_reference": true
+     },
+     {
+      "code": "8299",
+      "polarity": "exclude",
+      "page": 5,
+      "line": "8249, 8299 Schools, Correspondence / Schools, Business and",
+      "reason": "MCC Excluded Categories",
+      "in_reference": true
+     },
+     {
+      "code": "8651",
+      "polarity": "exclude",
+      "page": 5,
+      "line": "8651 Political Organizations",
+      "reason": "MCC Excluded Categories",
+      "in_reference": true
+     },
+     {
+      "code": "8675",
+      "polarity": "exclude",
+      "page": 5,
+      "line": "8675 Automobile Associations",
+      "reason": "MCC Excluded Categories",
+      "in_reference": true
+     },
+     {
+      "code": "8699",
+      "polarity": "exclude",
+      "page": 5,
+      "line": "8699 Organizations, Membership-Not Elsewhere Classified",
+      "reason": "MCC Excluded Categories",
+      "in_reference": true
+     },
+     {
+      "code": "9211",
+      "polarity": "exclude",
+      "page": 5,
+      "line": "9211 Court Costs Including Alimony and Child Support",
+      "reason": "MCC Excluded Categories",
+      "in_reference": true
+     },
+     {
+      "code": "9222",
+      "polarity": "exclude",
+      "page": 5,
+      "line": "9222 Fines",
+      "reason": "MCC Excluded Categories",
+      "in_reference": true
+     },
+     {
+      "code": "9223",
+      "polarity": "exclude",
+      "page": 6,
+      "line": "9223 Bail and Bond Payments",
+      "reason": "MCC Excluded Categories",
+      "in_reference": true
+     },
+     {
+      "code": "9311",
+      "polarity": "exclude",
+      "page": 6,
+      "line": "9311 Tax Payments",
+      "reason": "MCC Excluded Categories",
+      "in_reference": true
+     },
+     {
+      "code": "9399",
+      "polarity": "exclude",
+      "page": 6,
+      "line": "9399 Government Services\u2013Not Elsewhere Classified",
+      "reason": "MCC Excluded Categories",
+      "in_reference": true
+     },
+     {
+      "code": "9402",
+      "polarity": "exclude",
+      "page": 6,
+      "line": "9402 Postal Services\u2013Government Only",
+      "reason": "MCC Excluded Categories",
+      "in_reference": true
+     },
+     {
+      "code": "9405",
+      "polarity": "exclude",
+      "page": 6,
+      "line": "9405 Intra-Government Purchases\u2013Government Only",
+      "reason": "MCC Excluded Categories",
+      "in_reference": true
+     }
+    ]
+   },
+   "transaction_modes": {
+    "online": [
+     "and \u2022 Online transactions such as food delivery made via the internet and processed by the respective merchants/acquirers as an online transaction type through the Visa/MasterCard Worldwide networks.",
+     "and \u2022 Online Card Transactions such as grocery delivery made via the internet and processed by the respective merchants/acquirers as an online transaction type through the Visa/MasterCard Worldwide networks.",
+     "and is processed by the respective merchants/acquirers (whether as an online transaction or otherwise) through the Visa/MasterCard Worldwide networks.",
+     "Online Card Transactions made at Watsons via the internet and processed as an online transaction type through the Visa/MasterCard Worldwide networks.",
+     "Such transactions will only be eligible to receive the Base Cashback: \u2022 Watsons purchases made on online marketplaces.",
+     "Examples of online marketplaces are \u2013 Lazada, Shopee, Amazon etc",
+     "Table 1 MCC Excluded Categories 4784 Tolls and Bridge Fees 4829 Wire Transfer Money Orders (WTMOs) 5047 Medical, Dental, Ophthalmic and Hospital Equipment and Supplies 5199 Nondurable Goods (Not Elsewhere Classified) 5262 Marketplaces (only for Shopee Pay) 5993 Cigars, Stores and Stands 6010, 6012 Member Financial Institution\u2013Manual Cash Disbursements/ Merchandise And Services 6051 Quasi Cash\u2013Merc"
+    ],
+    "contactless": [
+     "Only Account-Based Ticketing and the use of contactless payment for public transport fare payments will be eligible to earn the 3% cashback under this category."
+    ],
+    "mobile_wallet": [
+     "(i) \u201cAdvertising Platform\u201d is defined as merchants classified under the following Merchant 3 Category Codes (\u201cMCC\u201d) and the following merchant names: \u2022 99.CO \u2022 EDGEPRO \u2022 PROPERTYGURU \u2022 STREETSINE \u2022 FACEBOOK and META made under MCC 7311 (Advertising Services) (ii) For avoidance of doubt, payments made via mobile wallet services (that OCBC Bank may determine in its sole discretion) for \u201cAdvertising ",
+     "(i) \u201cAdvertising Platform\u201d is defined as merchants classified under the following Merchant Category Codes (\u201cMCC\u201d) and the following merchant names: \u2022 99.CO \u2022 EDGEPRO \u2022 PROPERTYGURU \u2022 STREETSINE \u2022 FACEBOOK and META made under MCC 7311 (Advertising Services) (ii) For avoidance of doubt, payments made via mobile wallet services (that OCBC Bank may determine in its sole discretion) for \u201cAdvertising Pl"
+    ],
+    "recurring": [
+     "e) 3% cashback on \u201cRecurring Telecommunications bill\u201d and \u201cRecurring Electricity bill\u201d Card Transactions",
+     "(i) \u201cRecurring Telecommunications bill\u201d is defined as bill payment made to the telecommunication companies in Singapore and is charged to the OCBC 365 Card on a monthly basis via the recurring payment service.",
+     "(ii) \u201cRecurring Electricity bill\u201d is defined as bill payment made to the electricity companies in Singapore and is automatically charged to the OCBC 365 Card on a monthly basis via the recurring payment service."
+    ],
+    "foreign_currency": [
+     "and p ro C \u2022 F F o o o o d d p R a e n s d t a a , u G ra r n a t b s F ) ood and Deliveroo made under the MCC 5811, 5812, or 5814 (Fast g n ik n a B e W 2 3 0 0 0 2 se n 3 9 1 ih C :.o a e -N .g sre v O e R .o C 1 (ii) Cashback on Dining includes: \u2022 all in-store transactions in Singapore and Overseas;",
+     "(i) \u201cGrocery\u201d is defined as Card Transactions made in all grocery stores classified under the MCC 5411 (Grocery Stores), which includes: \u2022 In-store Card Transactions made in grocery stores in Singapore and Overseas;",
+     "(ii) Cashback on petrol transactions includes all transactions over the counter in Singapore and Overseas, but excludes fleet card top ups such as Abecha Esso Fleet 2 Card or Speedpass, or such others similar top-up transactions.",
+     "All Watsons in-store transactions made in Singapore and Overseas;",
+     "Table 1 MCC Excluded Categories 4784 Tolls and Bridge Fees 4829 Wire Transfer Money Orders (WTMOs) 5047 Medical, Dental, Ophthalmic and Hospital Equipment and Supplies 5199 Nondurable Goods (Not Elsewhere Classified) 5262 Marketplaces (only for Shopee Pay) 5993 Cigars, Stores and Stands 6010, 6012 Member Financial Institution\u2013Manual Cash Disbursements/ Merchandise And Services 6051 Quasi Cash\u2013Merc"
+    ]
+   },
+   "non_mcc_exclusions": [
+    "axs",
+    "bill payment",
+    "cash advance",
+    "charit",
+    "education",
+    "government",
+    "hospital",
+    "instalment",
+    "interest",
+    "late payment charge",
+    "tax",
+    "top-up"
+   ]
+  }
+ ],
+ "changed": false,
+ "removed_documents": []
+}

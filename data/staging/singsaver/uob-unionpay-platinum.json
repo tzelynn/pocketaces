@@ -1,0 +1,135 @@
+{
+ "source": "singsaver",
+ "source_id": "uob-unionpay-platinum-card",
+ "source_url": "https://www.singsaver.com.sg/credit-card/products/uob-unionpay-platinum-card",
+ "name": "UOB UnionPay Platinum Card",
+ "bank": "UOB",
+ "card_id": "uob-unionpay-platinum",
+ "image_url": "https://mhgprod.blob.core.windows.net/singsaver/strapi-uploads/xs_blt6c0e640340dbe730_b1a027b72d.png",
+ "annual_fee": 196.2,
+ "annual_fee_note": "S$ | First Three Years Waived",
+ "min_annual_income": 30000.0,
+ "earn_rates": {
+  "percent:baseline": {
+   "value": 2.0,
+   "unit": "percent",
+   "note": "On eligible transactions, capped at S$50 per statement month. No minimum spend."
+  },
+  "percent:overseas": {
+   "value": 2.0,
+   "unit": "percent",
+   "note": "On eligible transactions, capped at S$50 per statement month. No minimum spend."
+  },
+  "percent:local": {
+   "value": 2.0,
+   "unit": "percent",
+   "note": "On eligible transactions, capped at S$50 per statement month. No minimum spend."
+  },
+  "percent:dining": {
+   "value": 2.0,
+   "unit": "percent",
+   "note": "On eligible transactions, capped at S$50 per statement month. No minimum spend."
+  },
+  "percent:supermarket": {
+   "value": 2.0,
+   "unit": "percent",
+   "note": "On eligible transactions, capped at S$50 per statement month. No minimum spend."
+  },
+  "percent:petrol": {
+   "value": 2.0,
+   "unit": "percent",
+   "note": "Enjoy up to 21.6% off petrol purchases at SPC."
+  },
+  "percent:travel": {
+   "value": 2.0,
+   "unit": "percent",
+   "note": "On eligible transactions, capped at S$50 per statement month. No minimum spend."
+  },
+  "percent:retail": {
+   "value": 2.0,
+   "unit": "percent",
+   "note": "On eligible transactions, capped at S$50 per statement month. No minimum spend."
+  },
+  "percent:local_online_shopping": {
+   "value": 2.0,
+   "unit": "percent",
+   "note": "On eligible transactions, capped at S$50 per statement month. No minimum spend."
+  },
+  "percent:overseas_online_shopping": {
+   "value": 2.0,
+   "unit": "percent",
+   "note": "On eligible transactions, capped at S$50 per statement month. No minimum spend."
+  },
+  "percent:health": {
+   "value": 2.0,
+   "unit": "percent",
+   "note": "On eligible transactions, capped at S$50 per statement month. No minimum spend."
+  },
+  "percent:department_store": {
+   "value": 2.0,
+   "unit": "percent",
+   "note": "On eligible transactions, capped at S$50 per statement month. No minimum spend."
+  },
+  "percent:digital_wallet": {
+   "value": 2.0,
+   "unit": "percent",
+   "note": "On eligible transactions, capped at S$50 per statement month. No minimum spend."
+  }
+ },
+ "caps": {},
+ "highlights": [
+  "On eligible transactions, capped at S$50 per statement month. No minimum spend.",
+  "pros: 2% cash rebate on all spends, no minimum spend required.",
+  "pros: Up to 10% discount at over 100 International Airport Duty Free Shops.",
+  "pros: Up to 21.6% fuel savings at SPC.",
+  "pros: 1-for-1 movie tickets at Shaw Theatres.",
+  "pros: 24-hour concierge service for personal lifestyle errands.",
+  "cons: Total cash rebate is capped at S$50 per calendar month.",
+  "pros: Local spending rebate",
+  "pros: No monthly spend required",
+  "pros: Petrol savings",
+  "cons: Rebate cap applied"
+ ],
+ "sign_up_offers": [],
+ "links": {},
+ "citation": {
+  "id": "singsaver:54640191d596",
+  "url": "https://www.singsaver.com.sg/credit-card/products/uob-unionpay-platinum-card",
+  "title": "UOB UnionPay Platinum Card",
+  "source_type": "aggregator",
+  "retrieved_at": "2026-09-27T05:27:05+00:00",
+  "sha256": "54640191d59668760b1296bafbc10199114835ad1725b6c4b5d4de75b45b50d6",
+  "snapshot": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-uob-unionpay-platinum-card-a665b097.html"
+ },
+ "extra": {
+  "network": [
+   "UnionPay Platinum"
+  ],
+  "mobile_wallets": [
+   "Google Pay",
+   "Apple Pay",
+   "Samsung Pay",
+   "NETSPay"
+  ],
+  "fx_fee_percent": 3.25,
+  "miles_conversion_fee": 27.0,
+  "categories": [
+   "category:all-credit-cards",
+   "category:cashback",
+   "category:installment",
+   "category:petrol-promo",
+   "category:promo",
+   "category:travel",
+   "needs:0-interest-rate",
+   "needs:0-processing-fee",
+   "needs:all-cards-with-petrol-promo",
+   "needs:all-cards-with-promotion",
+   "needs:all-cashback-cards",
+   "needs:all-credit-cards",
+   "needs:all-installment-cards",
+   "needs:long-tenure-installment"
+  ],
+  "tag": null,
+  "description": "Enjoy cashback with no-fuss when you use the UOB UnionPay Platinum Card, with 2% cashback on both local and overseas spend with no minimum spend requirement. Plus, enjoy unique UnionPay perks such as waived transaction fees on Alipay and WeChat Pay."
+ }
+}

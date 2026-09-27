@@ -1,0 +1,34 @@
+[project]
+name = "pocketaces"
+version = "0.1.0"
+description = "Credit card data collection for pocket-aces"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "httpx>=0.27",
+    "beautifulsoup4>=4.12",
+    "lxml>=5.0",
+    "pdfplumber>=0.11",
+    "pydantic>=2.7",
+    "pyyaml>=6.0",
+]
+
+[project.optional-dependencies]
+browser = ["playwright>=1.45"]
+llm = ["anthropic>=0.70"]
+
+[project.scripts]
+pocketaces = "pocketaces.cli:main"
+
+[dependency-groups]
+dev = ["pytest>=8"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/pocketaces"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

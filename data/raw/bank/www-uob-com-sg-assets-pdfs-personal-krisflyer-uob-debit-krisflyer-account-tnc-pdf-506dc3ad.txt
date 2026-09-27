@@ -1,0 +1,595 @@
+TERMS AND CONDITIONS GOVERNING KRISFLYER UNITED OVERSEAS BANK LIMITED
+(“UOB”) DEBIT CARD AND KRISFLYER UOB ACCOUNTS AND SERVICES
+This document sets out the general terms and conditions governing the KrisFlyer UOB
+Debit Card issued by us and KrisFlyer UOB Account which we may provide to you
+from time to time. These terms and conditions are binding on you therefore it is
+important that you read and understand this document. Please refer to Clause 11
+(Definitions) for the definitions of some of the words used in this document.
+By applying for or using the KrisFlyer UOB Debit Card and KrisFlyer UOB Account, you
+commit yourself to comply with all of the terms and conditions set out herein (“these
+Terms”). You are deemed to have already read, understood and accepted every Term.
+These Terms supplement, are additional to and are to be read together with:-
+(a) our UOB Debit Cardmember Agreement;
+(b) our Terms and Conditions Governing Accounts and Services (Individual
+Customers);
+(c) the terms and conditions for the KrisFlyer UOB Account found on our
+application form;
+(d) the terms and conditions governing the specific product or service offered by
+us alone or by us together with third parties; and
+(e) the terms and conditions of any other document or agreement governing your
+relationship with us.
+(a) to (e) above are collectively known as the “Other Terms”.
+If there is any conflict or inconsistency between these Terms and the Other Terms,
+these Terms shall prevail over the Other Terms to the extent necessary to give effect
+to these Terms.
+KRISFLYER UOB DEBIT CARD
+1. KrisFlyer miles
+1.1 As a KrisFlyer UOB Debit Cardmember, you will earn KrisFlyer miles for all
+qualifying spend on your KrisFlyer UOB Debit Card (“Card”) in accordance with
+these terms and conditions.
+1.2 KrisFlyer miles earned will be calculated at the end of each calendar month
+and will be automatically credited to your KrisFlyer membership account
+maintained with Singapore Airlines, that is linked to your Card. The KrisFlyer
+Singapore Australia Brunei Canada China France Hong Kong India Indonesia Japan
+Malaysia Myanmar Philippines South Korea Taiwan Thailand United Kingdom USA Vietnam
+## RESTRICTED ##miles earned are solely for your benefit and will only be credited to your own
+individual KrisFlyer membership account bearing your own name
+1.3 You will earn base 2 KrisFlyer miles (equivalent to 0.4 KrisFlyer miles per dollar)
+(“Base Miles”) for every Singapore Five Dollars (S$5) spend (excluding
+Singapore Airlines Group Related Card Transactions and Kris+ Card
+Transactions) on Eligible Transaction(s) successfully charged to your Card in a
+calendar month.
+1.4 You will earn 5 KrisFlyer miles (equivalent to 1 KrisFlyer miles per dollar)
+(“Singapore Airlines Miles”) for every Singapore Five Dollars (S$5) spend on
+Singapore Airlines Group Related Card Transactions and Kris+ Card
+Transactions successfully charged to your Card in a calendar month.
+1.5 A transaction is successfully charged if it has been posted in your statement
+within a calendar month. Where your KrisFlyer UOB Account is the default
+account linked to KrisFlyer UOB FX and you have allowed transactions in
+foreign currencies supported by KrisFlyer UOB FX to be debited from your
+corresponding KrisFlyer UOB FX foreign currency account, such transactions
+other than Offshore Renminbi (CNH) charged to your Card will be debited from
+the corresponding KrisFlyer UOB FX foreign currency account provided that
+there is sufficient foreign currency balance in it, and your spending in the
+supported foreign currencies will be converted to Singapore Dollars at a rate
+we determine and count towards fulfilment of the Condition.
+Exclusion
+For the purposes of this section (Exclusion), all references to “KrisFlyer miles”
+in Clauses 1.6 to 1.11 below shall include both Base Miles and Bonus Miles
+(defined in Clause 3.7 below).
+1.6 KrisFlyer miles will not be awarded for NETS and NETS-related transactions,
+0% Installment Payment Plans, balance/funds transfers, cash advances, fees,
+interests, finance charges, late payment charges, annual fee charges,
+reversals, transactions relating to top-ups of any pre-paid card and brokerage
+/ securities, any gambling related transactions, any trading transactions
+(including but not limited to websites for trading of shares and cryptocurrency),
+other financial charges and any other transactions we may exclude from time
+to time without prior notice.
+1.7 KrisFlyer miles will not be awarded for the following Merchant Transaction
+Codes:
+United Overseas Bank Limited Co. Reg. No. 193500026Z
+## RESTRICTED ##Merchant Description
+Transaction
+Code (MCC)
+4829 Wire Transfer / Remittance
+4900 Utilities (wef from 1 August 2022)
+5199 Nondurable Goods (wef 16 March 2020)
+5965 Direct marketing – Combination Catalog and Retail
+Merchants (wef 1 October 2024)
+5993 Cigar Stores and Stands (wef 1 October 2024)
+6012 Member Financial Institution – Merchandise and Services
+6050 Quasi Cash – Financial Institutions, Merchandise and
+Services (wef 16 March 2020)
+6051 Quasi Cash – Merchant (Non-Financial Institutions – Foreign
+Currency, Non-Fiat Currency, Cryptocurrency)
+6211 Securities – Brokers and Dealers
+6513 Real Estate Agents & Managers – Rentals (wef 16 March
+2020)
+6529 Quasi Cash – Remote Stored Value Load-Financial Institute
+Rentals (wef 16 March 2020)
+6530 Quasi Cash-Remote Stored Value Load – Merchant Rentals
+(wef 16 March 2020)
+6534 Quasi Cash – Remote Money Transfers (wef 16 March 2020)
+6540 Stored Value Card Purchase/Load
+7349 Clean/Maint/Janitorial Serv aka Property Management (wef
+16 March 2020)
+7511 Quasi Cash – Truck Stop Trxns (wef 16 March 2020)
+7523 Automobile Parking Lots and Garages
+(wef 1 February 2021)
+7801 Government-Licensed Casinos (Online or Internet Gambling)
+7995 Gambling – Betting, including Lottery Tickets, Casino Gaming
+Chips, Off-Track Betting, and Wagers at Race Tracks
+8062 Hospitals (wef 1 February 2021)
+8011 Doctors–not elsewhere classified
+(wef 1 August 2022 and only for KrisFlyer UOB Credit Card)
+8099 Health Practitioners, Medical Services – Not Classified
+Elsewhere
+(wef 1 August 2022 and only for Krisflyer UOB Credit Card)
+8211 Schools, Elementary and Secondary
+8220 Colleges, Universities, Professional Schools and Junior
+Colleges
+8241 Schools, Correspondence
+8244 Schools, Business and Secretarial
+8249 Schools, Trade and Vocational
+United Overseas Bank Limited Co. Reg. No. 193500026Z
+## RESTRICTED ##8299 Schools and Educational Services – Not Elsewhere Classified
+8651 Organizations, Political
+8699 Membership Organizations (Not Elsewhere Classified) (wef 1
+October 2024)
+8999 Professional Services (Not Elsewhere Classified) (wef 1
+October 2024)
+1.8 Please note that a merchant’s registered MCC may not always correspond
+with its nature of business. The MCCs are assigned by the merchant’s acquiring
+bank. UOB does not determine the merchants’ MCC. UOB shall not be liable in
+any way whatsoever relating to the categorisation of a merchant’s MCC.
+1.9 KrisFlyer miles will not be awarded for transactions made at:
+• UOB$ merchants (list of UOB$ merchants available at
+uob.com.sg/rewardsplus)
+• Shell Service Stations
+• SPC Service Stations (wef 1 December 2021)
+1.10 You will also not earn KrisFlyer miles for payment of funds to pre-paid
+accounts and transactions with the following transaction descriptions1:
+• AXS* • PLUS500UK LIMITED
+• AMAZE* (wef 1 Oct 2024) • Saxo Cap Mkts Pte Ltd
+• AMAZE* TRANSIT* (wef 1 • SKR*SKRILL.COM
+March 2022) • TRANSIT*
+• BANCDEBINARY.COM • WWW.IGMARKETS.COM.SG
+• BANC DE BINARY • WWW.MYEZLINK.COM.SG
+• CITY INDEX* • WWW.PLUS500.CO.UK
+• EZLINK* • SKYFX.COM
+• EZ Link* • SKR*PLUS500CY LTD
+• EZ-LINK* • SKR*xglobalmarkets.com
+• EZ LINK PTE LTD (FEVO) • IPAYMY* (wef 1 August 2022)
+• EZLINKS.COM • RWS-LEVY* (wef 1 August
+• FlashPay ATU 2022)
+• MB * MONEYBOOKERS.COM • SMOOVE PAY* (wef 1 August
+• NORWDS* (Wef 21 July 2024) 2022)
+• OANDAASIAPA • SINGPOST-SAM* (wef 1 August
+• OANDA ASIA PAC 2022)
+• PAYPAL* • RazerPay* (wef 1 August 2022)
+• PLUS500
+United Overseas Bank Limited Co. Reg. No. 193500026Z
+## RESTRICTED ##1The transaction descriptions accompanied by the symbol “*” in the table above include any
+combination or derivation of that description, such as a shopper statement of the type of
+product or service offered by the merchant and/or transaction condition. For example, the
+transaction description “GRAB*” includes variations such as “GRAB12345”, “GRABFOOD123456”,
+and other combinations that begin with “GRAB”.
+1.11 We reserve the right at any time and from time to time at its sole and absolute
+discretion to vary, amend, add or delete the above lists of transactions which
+KrisFlyer miles will not be awarded for, without giving any reason or prior
+notice or assuming any liability to you, and you shall be bound by these
+amendments.
+Crediting of KrisFlyer Miles
+1.12 You will earn KrisFlyer miles for every Singapore Five Dollars (S$5) of the
+monthly sum of your Eligible Transaction(s).
+1.13 Any calculation or determination by us of the amount of KrisFlyer miles to be
+awarded, is in the absence of manifest error, final and conclusive evidence of
+the matters to which it relates.
+1.14 KrisFlyer miles earned will be reflected in the monthly Card or Account
+statement.
+1.15 KrisFlyer miles earned cannot be:
+(i) converted to or exchanged for cash;
+(ii) transferred or paid to any person in any manner whatsoever; or
+(iii) used to settle or pay any other liability of any person whatsoever.
+1.16 Once KrisFlyer miles are credited to your KrisFlyer membership account, they
+are governed by the terms and conditions of the KrisFlyer programme.
+Redemption and use of KrisFlyer miles through KrisFlyer programme are
+governed by the terms and conditions of the KrisFlyer Programme.
+Membership of KrisFlyer Programme
+1.17 To earn KrisFlyer miles, you must be a member of the KrisFlyer programme.
+Participation in the KrisFlyer programme is subject to the KrisFlyer terms and
+conditions. The latest KrisFlyer terms and conditions is available at
+singaporeair.com
+United Overseas Bank Limited Co. Reg. No. 193500026Z
+## RESTRICTED ##2. Welcome Miles
+2.1 With effect from 1 July 2019, new first time applicants of the KrisFlyer UOB
+Debit Card who are approved as Cardmembers on or after 1 July 2019 will
+receive 1,000 KrisFlyer miles (“Welcome Miles”) when a single Eligible
+Transaction of at least Singapore Five Dollars (S$5) is successfully charged to
+his/her KrisFlyer UOB Debit Card.
+2.2 From 1 November 2022 onwards (inclusive of the date mentioned), new first
+time applicants of the KrisFlyer UOB Debit Card who are approved as
+Cardmembers on or after 1 November 2022 will receive 3,000 KrisFlyer miles
+(“Welcome Miles”) when a single Eligible Transaction of at least Singapore
+Five Dollars (S$5) is successfully charged to his/her KrisFlyer UOB Debit Card.
+2.3 The Welcome Miles will be automatically credited directly into the eligible
+Cardmember’s KrisFlyer membership account linked to his/her KrisFlyer UOB
+Debit Card in the following month after such Eligible Transaction is made.
+Only new first time applicants of the KrisFlyer UOB Debit Card who are
+approved as Cardmembers on or after 1 July 2019 are eligible for the Welcome
+Miles. All other persons (including existing Cardmembers who were approved
+as Cardmembers before 1 July 2019 and former Cardmembers who have
+cancelled their KrisFlyer UOB Debit Card) will not be eligible for the Welcome
+Miles.
+2.4 The benefits under this Clauses 2.1 to 2.3 above are governed by and subject
+to the applicable KrisFlyer programme terms and conditions.
+KRISFLYER UOB ACCOUNT
+3. Account and Services
+3.1 The KrisFlyer UOB Account is denominated in Singapore Dollar.
+3.2 The periodic statements of account will be made available to accountholder
+of KrisFlyer UOB Account via electronic means. Unless you have opted for
+statements of account to be made available by post, no statement will be sent
+by post.
+United Overseas Bank Limited Co. Reg. No. 193500026Z
+## RESTRICTED ##3.3 The KrisFlyer UOB Account can be opened singly or jointly. You can maintain
+only one KrisFlyer UOB Account as a primary account holder at any time. If we
+become aware that you are holding more than one KrisFlyer UOB Account as
+a primary account holder, whether singly or jointly, we reserve the right in our
+sole discretion to close and terminate any additional KrisFlyer UOB Account.
+A primary account holder is the person listed as the main applicant in the
+KrisFlyer UOB Account application.
+3.4 You will be provided with a KrisFlyer UOB Debit Card which is linked to your
+KrisFlyer UOB Account.
+3.5 Interest is payable on the balance in your KrisFlyer UOB Account and, where
+applicable, your KrisFlyer UOB FX foreign currency accounts linked to your
+KrisFlyer UOB Account. Please refer to uob.com.sg/KrisFlyerUOB for the
+interest schedule.
+3.6 Interest payable accrues daily and is calculated based on each day-end
+balance, and is credited at the end of each calendar month. For KrisFlyer UOB
+FX foreign currency accounts linked to your KrisFlyer UOB Account, interest
+payable will be in the currency denomination of the relevant KrisFlyer UOB FX
+foreign currency account.
+Bonus Miles
+3.7 If in a calendar month, you maintain the minimum required Monthly Average
+Balance of S$1,000 in your KrisFlyer UOB Account (where you are the primary
+account holder), you will be eligible to earn bonus KrisFlyer miles on your
+Eligible Transaction(s) on your Eligible Card(s) (“Bonus Miles”) for that
+calendar month in the following manner (A or B):
+Condition fulfilled in a calendar Bonus Miles
+month
+A. 5 bonus miles per S$1 spend on
+Monthly Average Balance of S$1,000 Eligible Card(s)
+in your KrisFlyer UOB Account
+B. 6 bonus mile per S$1 spend on
+Monthly Average Balance of S$1,000 Eligible Card(s)
+in your KrisFlyer UOB Account AND
+credit your salary of min. S$1,600 in
+the month (“Salary Credit”)
+United Overseas Bank Limited Co. Reg. No. 193500026Z
+## RESTRICTED ##3.8 If the minimum Monthly Average Balance of S$1,000 requirement in Clause 3.7
+is not met for any calendar month, you will not be able to earn any Bonus Miles
+for that calendar month.
+3.9 The Salary Credit (min. S$1,600) must be made into your KrisFlyer UOB Account
+via GIRO and reflected as “SALA”. Any other forms of salary credit will not
+qualify.
+3.10 For the avoidance of doubt, only principal Eligible Card(s) held by the primary
+account holder of the KrisFlyer UOB Account will earn Bonus Miles. Bonus
+Miles will be issued to the KrisFlyer membership of the KrisFlyer UOB Account
+primary account holder.
+3.11 The amount of Bonus Miles that may be earned and awarded to you is subject
+to 5% cap calculated against the Monthly Average Balance in your KrisFlyer
+UOB Account for that particular month.
+3.12 Where your KrisFlyer UOB Account is the default account linked to KrisFlyer
+UOB FX, the balance amounts in your KrisFlyer UOB FX foreign currency
+accounts will be converted to Singapore Dollars at a rate we determine and
+count towards the requisite Monthly Average Balance for qualification for
+Bonus Miles.
+3.13 In the event that you hold more than one KrisFlyer UOB Account, only the credit
+balances in one of the KrisFlyer UOB Accounts where you are the primary
+account holder (which we will determine at our sole discretion) will be used to
+determine if you are eligible for the Bonus Miles.
+3.14 The prevailing payout rate and/or eligibility requirements for the Base Miles
+and Bonus Miles are available at here.
+Conversion Miles
+3.15 Where your KrisFlyer UOB Account is the default account linked to KrisFlyer
+UOB FX and you are the primary account holder, you will earn miles at a rate
+we determine for conversions of Singapore Dollars in your KrisFlyer UOB
+Account to a foreign currency supported by KrisFlyer UOB FX in your relevant
+KrisFlyer UOB FX foreign currency accounts (“Conversion Miles”). You will only
+be awarded Conversion Miles for the first four (4) conversions in a calendar
+United Overseas Bank Limited Co. Reg. No. 193500026Z
+## RESTRICTED ##year, where each conversion shall be a minimum amount of Singapore One
+Thousand Dollars (S$1,000) or an equivalent amount. The prevailing payout
+rate and/or eligibility requirements for Conversion Miles are available here.
+Cheques
+3.16 You will be provided with an optional cheque facility under which you may
+draw and issue Singapore Dollar cheques on the KrisFlyer UOB Account.
+Charges may be applicable for issue of cheque books.
+4. Privileges on Scoot
+Complimentary BoardMeFirst (Priority check-in and boarding) for Scoot
+Flights
+4.1 You and each member of your travelling party will enjoy complimentary
+BoardMeFirst (priority check-in and boarding) benefits for flights on Scoot,
+provided that the you are in the travelling party and payment for the flight of
+the travelling party was made on your Card in the same booking through the
+dedicated site.
+Upgraded Baggage Allowance for Scoot Flights
+4.2 If you purchase a minimum of twenty kilograms (20kg) baggage fare bundle
+at the initial point of purchase of your flight on Scoot not less than 24 hours
+before departure, you will enjoy a complimentary five kilograms (5kg) upgrade
+for baggage via an email notification thereafter. Payment for such flight must
+be made on your Card through the dedicated site. For the avoidance of doubt,
+this benefit applies to you only and does not extend to other member(s) of
+your travelling party, even if payment for the flight of your travelling party was
+made on your Card in the same booking. This benefit does not apply if the
+baggage fare bundle is added on after the initial purchase, even if payment
+for such subsequent add-on was made on your Card for the same flight
+itinerary.
+Complimentary Preferred / Standard Seat Selection for Scoot Flights
+4.3 You and each member of your travelling party will enjoy complimentary
+preferred/standard seat selection for flights on Scoot, provided that you are
+in the travelling party and payment for the flight of the travelling party was
+made on your Card in the same booking through the dedicated site. For the
+avoidance of doubt, this benefit does not apply to specific preferred/standard
+United Overseas Bank Limited Co. Reg. No. 193500026Z
+## RESTRICTED ##seats. If non-eligible preferred/standard seats are selected, full prices(s) for
+such seat(s) will apply.
+4.4 The benefits under this Clause 4 are governed by and subject to the applicable
+Scoot terms and conditions. Benefits are only applicable at the initial point of
+purchase of flight, and does not apply if they are added on subsequently, even
+if subsequent payments are made with a qualified Cardmember’s Card.
+5. Privileges on KrisShop
+Earn up to 3 miles at KrisShop
+5.1 Cardmembers, who are enrolled as a KrisShopper Member will earn 3 KrisFlyer
+miles for every Singapore One Dollar (S$1) spent on all KrisShop purchases
+made inflight on Singapore Airlines and on KrisShop.com using their Card,
+where:
+a) 1 KrisFlyer miles for every Singapore Five Dollar (S$5) spent (equivalent
+to 1 KrisFlyer miles per Singapore Dollar) will be awarded by UOB in
+accordance with Clause 1.3 above, and
+b) 2 KrisFlyer miles for every Singapore One Dollar (S$1) spent will be
+awarded by KrisShop, up to 31 December 2026. This benefit will be
+discontinued with effect from 1 January 2027.
+5.2 For the 2 KrisFlyer miles for every Singapore One Dollar (S$1) spent that is
+awarded by KrisShop, KrisFlyer miles will only be earned on the portion paid
+with the Card (excluding taxes, delivery fees, import duties and postal
+clearance charges), and not on any remaining portion of the purchase that is
+redeemed using KrisFlyer miles.
+5.3 The benefits mentioned in this Clause 5 are governed by and subject to the
+applicable KrisShop terms and conditions at krisshop.com/en/page/kf-miles,.
+6. Other Benefits and Privileges
+2 x S$10 worth of Grab Rides to or from Changi Airport
+United Overseas Bank Limited Co. Reg. No. 193500026Z
+## RESTRICTED ##6.1 You will enjoy two (2) Grab Promotion Codes (“Grab Promo Code”) worth
+Singapore Ten Dollars (S$10) to or from Changi Airport with the promotion code
+“KFUOB” in a calendar year. The Grab Promo Code may be used for all Grab
+rides (except for GrabAssist Plus, GrabCar for Cyclists, GrabHitch, GrabShare
+and GrabPet XL) made using the Grab mobile application and which are
+charged to the Cardmember’s Card. The Cardmember’s Card must be set as the
+primary payment method in the Grab mobile application in order to use the
+Grab Promo Code. The Grab Promo Code may be redeemed once per half yearly
+(i.e January to June and July to December).
+6.2 UOB reserves the right to update the applicable Grab rides from time to time
+without prior notice.
+S$10 off ChangiWiFi
+6.3 You will enjoy one (1) ChangiWiFi e-cash redemption code worth Singapore Ten
+Dollars (S$10) in a calendar year. An e-redemption code will be issued to a
+Cardmember when he/she SMSes “KFUOB<space>16-digit card number” to
+77862. The booking must be made at www.changirecommends.com/owifi.aspx
+and payment must be made on the Card at Changi Recommends counter. The
+ChangiWiFi e-cash redemption code may be redeemed once per calendar year
+and offer is subject to WiFi router availability.
+The e-cash redemption code expires on 31 December 2026 (inclusive of the date
+mentioned).
+S$10 Kris+ Sign Up Bonus
+6.4 From 1 January 2026 to 31 December 2026 (both dates inclusive) (“Campaign
+Period”), a KrisFlyer member who resides in Singapore and has successfully
+completed an Eligible Kris+ Sign Up (defined in Clause 6.5 below) during the
+Promotional Period (“Participant”) shall receive 1,000 KrisPay miles
+(equivalent to Singapore Ten Dollars (“S$10”)) (“Sign-Up Bonus Miles”).
+6.5 For the purposes of these terms and conditions, an “Eligible Kris+ Sign Up” is
+defined as below:
+(a) when a KrisFlyer member logs into the Kris+ app for the first time, during
+the Campaign Period, and successfully inputs the referral code KPUOB26 when
+prompted with the referral code field during the first Kris+ login/ Wallet
+creation login process.
+United Overseas Bank Limited Co. Reg. No. 193500026Z
+## RESTRICTED ##(b) Each new Kris+ user must successfully make a minimum payment of
+Singapore Five Dollars (S$5) via Apple Pay or Google PayTM via the payment
+function in the Kris+ app at any Kris+ partner with Kris+ payment enabled, or
+by purchasing a Kris+ in-app voucher.
+6.6 The Sign-Up Bonus Miles will be awarded to each Participant who successfully
+completes an Eligible Kris+ Sign-Up. The Sign-Up Bonus Miles shall be valid for
+six (6) months from the date of credit, following which they shall expire and no
+extensions will be permitted.
+6.7 For the avoidance of doubt, any KrisFlyer member who has either logged in to
+the Kris+ app outside of the Campaign Period or did not input the referral code
+KPUOB26 when he/she logs into the Kris+ app for the first time during the
+Campaign Period will not be eligible for any Sign-Up Bonus Miles.
+6.8 KrisPay miles credited into the Participant’s KrisPay account can only be used
+within the Kris+ app and cannot be transferred into any KrisFlyer account.
+KrisPay miles are also non-transferable to other Kris+ accounts and cannot be
+exchanged for cash.
+6.9 All decisions made by Singapore Airlines in respect to any matter relating to
+the Sign-Up Bonus Miles shall be final.
+6.10 The benefits under Clauses 6.4 to 6.9 above are governed by and subject to
+the applicable Kris+ terms and conditions.
+7. Complimentary travel insurance
+Cardmembers must charge the entire fare for travel on public
+conveyance/transportation (limited to air, land or water conveyance which is
+duly licensed for the regular transportation of fare-paying passengers but
+shall exclude any hired or rental car or any conveyance operated for the
+purpose of amusement or entertainment) in advance of the scheduled
+departure time to their Cards to qualify for the complimentary travel insurance
+(the “Travel Insurance”) which has the following benefits:
+Travel Personal Accident Insurance of up to S$500,000
+Covers accidental death or disablement whilst on public conveyance:
+• Singapore Five Hundred Thousand Dollars (S$500,000) for
+Cardmember.
+United Overseas Bank Limited Co. Reg. No. 193500026Z
+## RESTRICTED ##Emergency Medical Evacuation and Repatriation
+• Up to Singapore Fifty Thousand Dollars (S$50,000) for Cardmember.
+The specific terms, conditions and exclusions applicable to this Travel
+Insurance are set out in the Insurance Certificate and Agreement which is the
+operative document. You should seek advice from a qualified adviser or call
+the insurance firm directly if in doubt.
+GENERAL
+8. Third Party Rights
+Unless expressly stated so, a person who is not a party to these Terms has no
+right under the Contracts (Rights of Third Parties) Act 2001 of Singapore to
+enforce or enjoy the benefit of any of these Terms.
+9. Applicable Law and Jurisdiction
+9.1 These Terms are governed by and will be interpreted according to the laws of
+Singapore. You agree to irrevocably submit to the exclusive jurisdiction of the
+courts of Singapore which means that legal proceedings against us can only
+be brought in the courts of Singapore and no other unless we expressly agree
+otherwise in writing. You agree not to enforce any judgment or order made by
+the courts of Singapore against any of our branches overseas. This clause
+does not limit our right to bring legal proceedings in any country and to take
+concurrent legal proceedings in more than one country. Without prejudice to
+any other provision in these Terms, any sum payable by or due from us under
+any KrisFlyer UOB Account or Card Account or any type of document
+whatsoever shall be payable solely and exclusively by and at our branch from
+which payment of the sum is due and shall be governed exclusively by the laws
+of the country where such branch is located unless we agree otherwise in
+writing.
+9.2 You can only bring a proceeding against us for the recovery of any sum
+claimed or any payment obligation allegedly due from us solely and
+exclusively in the courts of the country where such branch is located unless
+expressly agreed otherwise in writing, and any judgment or order made
+against us by the courts of that country cannot be enforced or executed
+against us in a different country.
+United Overseas Bank Limited Co. Reg. No. 193500026Z
+## RESTRICTED ##9.3 You agree not to bring any action against us in connection with any KrisFlyer
+UOB Account or Service or Card Account if more than one year has passed
+after the cause of action has arisen.
+9.4 We may take all actions we consider appropriate in order for us to meet any
+obligation or requirement, either in Singapore or elsewhere in the world, in
+connection with the prevention of any unlawful activity including fraud, money
+laundering, terrorist activity, bribery, corruption, or tax evasion or the
+enforcement of any economic or trade sanction. The actions we may take
+include closing your Card Account and/or KrisFlyer UOB Account and
+terminating all Services and making such reports and taking such actions we
+may deem appropriate.
+10. General Conditions
+10.1 We reserve the right at any time and from time to time at our sole and absolute
+discretion to vary, amend or modify the rate at which KrisFlyer miles are
+awarded under these Terms, the quantum of the Monthly Average Balance
+required to be maintained in a KrisFlyer UOB Account for awarding Bonus
+Miles, the cap on Bonus Miles, the minimum qualifying spend amount, minimum
+required sum of salary credit, and the privileges on Scoot without giving any
+reason or prior notice or assuming any liability to you, and you shall be bound
+by these amendments.
+10.2 We reserve the right, at our sole and absolute discretion and at any time and
+without giving prior notice or any reason, to vary, amend, add or delete any of
+these Terms without assuming any liability to any person. The change will
+take effect from the date specified in a notice given in accordance with our
+usual practice. If you continue to use the Card and/or the KrisFlyer UOB
+Account after the change takes effect, you shall be deemed to have accepted
+the change without reservation.
+10.3 We reserve the right to reject any request for KrisFlyer miles adjustment in its
+sole and absolute discretion without assigning any reason therefor and is not
+obliged to enter into any correspondence with you concerning such
+adjustments.
+United Overseas Bank Limited Co. Reg. No. 193500026Z
+## RESTRICTED ##10.4 Adjustments will be made to the KrisFlyer miles if there is any unposted, voided,
+cancelled, disputed and/or reversed transaction including those arising from
+returned goods or services, billing disputes, or any other reason at our sole
+and absolute discretion.
+10.5 Should your spending be deemed to be for commercial and/or non-personal
+purposes, we reserve the right to refuse to award any KrisFlyer miles for such
+transactions. We reserve the right to cancel and void any KrisFlyer miles
+awarded at any time if we deem that such KrisFlyer miles was not earned from
+qualifying spend and you shall not be entitled to any compensation or
+payment whatsoever.
+10.6 To earn and receive KrisFlyer miles, your Card Account, Eligible Card(s) card
+account, and your KrisFlyer UOB Account must be valid, subsisting and in good
+standing at all times as determined by us and cannot be cancelled/closed for
+any reason. In the event that your Card Account and/or Eligible Card(s) card
+account and/or KrisFlyer UOB Account is delinquent, voluntarily or
+involuntarily closed or terminated or suspended for any reasons whatsoever
+before any KrisFlyer miles is credited to your KrisFlyer membership account,
+such KrisFlyer miles earned shall be forfeited and you shall not be entitled to
+any compensation or payment whatsoever. We are not responsible for any
+loss or damage if KrisFlyer miles are not credited or available for use, and you
+are responsible for ensuring that your KrisFlyer membership account is able to
+be credited with KrisFlyer miles.
+10.7 Participation in the KrisFlyer programme is subject to the terms and conditions
+of the KrisFlyer programme. If Singapore Airlines discontinues, or makes and
+changes to the KrisFlyer programme, we will not be responsible for the impact
+this may have on the KrisFlyer miles earned under these Terms.
+10.8 We shall not be responsible for (i) any failure or delay in the transmission of
+evidence of card transactions by any acquiring merchants, merchants
+establishments, Mastercard International Incorporated, postal or
+telecommunication authorities or any other parties which may result in a delay
+or a transaction made by you being omitted (whether from being posted to
+the your Card Account and/or captured in our system or otherwise); or (ii) any
+late posting of the transactions and thereby affecting your eligibility for
+KrisFlyer miles or any promotion.
+United Overseas Bank Limited Co. Reg. No. 193500026Z
+## RESTRICTED ##10.9 We are not an agent of the KrisFlyer programme, Singapore Airlines and Scoot
+or any merchant and as such, any dispute about the quality or service
+standard of the goods and services offered by KrisFlyer programme,
+Singapore Airlines, Scoot or any merchant must be resolved directly with them
+respectively. We assume no liability or responsibility in any manner
+whatsoever for the acts or defaults of the KrisFlyer programme, Singapore
+Airlines and Scoot or any merchant or defects in the goods and services
+offered by them, or for any injuries, loss damage, costs or expenses in
+connection with or arising out of the redemption or usage of the goods and
+services offered by the KrisFlyer programme, Singapore Airlines and Scoot or
+any merchant.
+10.10 Our decision on all matters relating to your Card Account and/or KrisFlyer UOB
+Account and on all matters pertaining to the rebate, award or use of any or
+all of the benefits and privileges stated herein shall be final, conclusive and
+binding on you. We reserve the right at any time, and from time to time in our
+discretion to withdraw, cancel or vary the rebate, award, benefits and
+privileges conferred by the use of the Card and/or KrisFlyer UOB Account
+without having to disclose any reason therefor, and you shall not be entitled
+to any payment or compensation whatsoever.
+10.11 The KrisFlyer UOB Account is not valid with any other privileges or promotions
+relating to deposit accounts unless otherwise stated.
+10.12 Full terms and conditions of Nets FlashPay will apply and you agree to be
+bound by such terms and conditions from NETS upon receipt or acceptance of
+or signing on or use of the Cards. Please visit nets.com.sg for full details.
+10.13 Without prejudice to any other provisions in these Terms as well as the Other
+Terms, you hereby expressly authorize us to use and disclose to Singapore
+Airlines and its subsidiaries all such information relating to your Card Account
+and KrisFlyer UOB Account for purposes of the crediting of KrisFlyer miles,
+including but not limited to your KrisFlyer membership account number,
+research and marketing.
+10.14 In the event of any inconsistency between these Terms and any advertising,
+promotional, publicity, brochure, marketing or other materials relating to or in
+United Overseas Bank Limited Co. Reg. No. 193500026Z
+## RESTRICTED ##connection with the Card and/or the KrisFlyer UOB Account, these Terms shall
+prevail.
+10.15 All information is correct at the time of publishing and we make no
+representation or warranty whether express or implied, and accepts no
+responsibility or liability for its completeness or accuracy.
+11. Definitions
+The following terms shall have the following meanings when used in these
+terms and conditions:
+“Card” means the KrisFlyer UOB Debit Card.
+“Card Account” means any account in respect of the Card.
+“Cardmember” means KrisFlyer UOB Debit Cardmembers.
+“Eligible Transaction(s)” means the card transaction(s) successfully charged
+to the Eligible Card’s card account by the cardholder and captured or posted
+on UOB’s systems but excludes the exclusions set out in these Terms, or Terms
+of the respective card.
+“Eligible Card(s)” means KrisFlyer UOB Debit Card, KrisFlyer UOB Credit Card,
+UOB Reserve Card, UOB Visa Infinite Metal Card, UOB Visa Infinite Card, UOB
+Privilege Banking Card, UOB PRVI Miles American Express Card, UOB PRVI
+Miles Mastercard and UOB PRVI Miles Visa Card.
+“KrisFlyer programme” means the frequent flyer programme operated by
+Singapore Airlines.
+“KrisFlyer UOB FX” means the fixed set of foreign currency accounts which
+may be linked to a KrisFlyer UOB Account.
+“Monthly Average Balance / MAB” means the summation of each day-end
+balance in KrisFlyer UOB Account for each month divided by the number of
+calendar days for that month.
+“Scoot” means Scoot Pte Ltd.
+“Services” includes UOB ATM Service and UOB Internet Banking Service and
+any other services or facilities offered via electronic means in or outside
+Singapore.
+United Overseas Bank Limited Co. Reg. No. 193500026Z
+## RESTRICTED ##“Singapore Airlines” means Singapore Airlines Limited.
+“Singapore Airlines Group Related Card Transaction(s)” means the card
+transaction(s) made with Singapore Airlines, Scoot and KrisShop. For
+avoidance of doubt, Kris+ Transactions are not considered Singapore Airlines
+Group Related Card Transactions.
+“we / us / our / ourselves / the Bank / UOB” means United Overseas Bank
+Limited and shall include its successors and assigns.
+“wef” means with effect from.
+“you / yourself” refers to you (whether alone or jointly with another
+person/persons).
+Deposit Insurance Scheme
+Singapore dollar deposits of non-bank depositors and monies and deposits
+denominated in Singapore dollars under the Supplementary Retirement Scheme are
+insured by the Singapore Deposit Insurance Corporation, for up to S$100,000 in
+aggregate per depositor per scheme member by law. Monies and deposits
+denominated in Singapore dollars under the CPF Investment Scheme and CPF
+Retirement Sum Scheme are aggregated and separately insured up to S$100,000 for
+each depositor per Scheme member. Foreign currency deposits, dual currency
+investments, structured deposits and other investment products are not insured.
+Updated: July 2026
+United Overseas Bank Limited Co. Reg. No. 193500026Z
+## RESTRICTED ##

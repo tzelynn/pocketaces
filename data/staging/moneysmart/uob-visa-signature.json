@@ -1,0 +1,85 @@
+{
+ "source": "moneysmart",
+ "source_id": "uob-visa-signature-card",
+ "source_url": "https://www.moneysmart.sg/credit-cards/uob-visa-signature-card",
+ "name": "UOB Visa Signature Card",
+ "bank": "UOB",
+ "card_id": "uob-visa-signature",
+ "image_url": "https://photos.cdn-moneysmart.com/credit_cards/uploads/products/images/image_url_2025-12-31_Visa Signature 2024 (2) Medium 2.jpeg",
+ "annual_fee": 218.0,
+ "earn_rates": {},
+ "caps": {},
+ "highlights": [
+  "4 miles per S$1 on Overseas Transactions (including Online)",
+  "4 miles per S$1 on Petrol, Contactless Transactions",
+  "4 miles per S$1 on SimplyGo Transactions",
+  "Up to UNI$10 per S$5 spend (4 miles per S$1 spend) on Overseas Transactions (including online)",
+  "Up to UNI$10 per S$5 spend (4 miles per S$1 spend) Petrol Spend and/or Contactless Transactions",
+  "Up to UNI$10 per S$5 spend (4 miles per S$1 spend) on SimplyGo transactions (using Contactless payment)",
+  "Waiver of first year annual fee",
+  "Earn UOB$ cashback on all purchases in-store at over 1,000 participating merchants(across all categories islandwide) and use it to offset your next purchase"
+ ],
+ "sign_up_offers": [],
+ "links": {
+  "product": "https://www.moneysmart.sg/credit-cards/uob-visa-signature-card"
+ },
+ "citation": {
+  "id": "moneysmart:eeee24fb93a9",
+  "url": "https://www.moneysmart.sg/credit-cards",
+  "title": "UOB Visa Signature Card",
+  "source_type": "aggregator",
+  "retrieved_at": "2026-09-27T05:27:12+00:00",
+  "sha256": "eeee24fb93a9d85ef8b9194c11bda960b5b99ee30b3689cdc59fb650badebce7",
+  "snapshot": "data/raw/moneysmart/credit-cards-p1-b55034ef.html"
+ },
+ "extra": {
+  "summary": "",
+  "badges": [],
+  "network": [
+   "Visa"
+  ],
+  "mobile_wallets": [
+   "Visa Contactless",
+   "Google Pay",
+   "Apple Pay",
+   "Samsung Pay"
+  ],
+  "groups": {
+   "annual-interest-rate-and-fees": {
+    "Annual Interest Rate": "27.8",
+    "Annual Principal Fee": "218",
+    "Supplementary Annual Fee": "1st Supplementary Card free, S$ 109.00 for subsequent Supplementary Cards",
+    "Fee Waiver": "First year waived",
+    "Minimum Monthly Repayment": "3% or S$50 (whichever is greater)",
+    "Interest Free Period": "21 days"
+   },
+   "minimum-income-requirements": {
+    "Singaporean/PR Minimum Annual Income": "30000",
+    "Non-Singaporean Minimum Annual Income": "40000"
+   },
+   "card-association": {
+    "Visa": "true"
+   },
+   "wireless-payment": {
+    "Visa Contactless": "true",
+    "Google Pay": "true",
+    "Apple Pay": "true",
+    "Samsung Pay": "true"
+   },
+   "documents-required": {
+    "SG Citizens or PRs": "Apply via MyInfo",
+    "Passport Validity (Foreigners)": "6 months",
+    "Work Permit Validity (Foreigners)": "6 months",
+    "Utility or Telephone Bill": "with Full Name & Address",
+    "Income Tax Notice of Assessment": "true",
+    "Latest Original Computerised Payslip": "true"
+   }
+  },
+  "our_takes": {
+   "our-take": "The UOB Visa Signature Card is a strong miles-earning card for disciplined spenders who can consistently meet its monthly spend requirements. Its key draw is the ability to earn up to ~4 miles per S$1 equivalent on overseas, contactless, petrol, and eligible online spend—making it well-suited for frequent travellers and commuters who want to convert everyday spending into air miles. However, the value drops sharply if you miss the qualifying thresholds or exceed monthly caps.",
+   "good-for": "Miles chasers with consistent monthly spending\nTravellers who spend frequently overseas or online\nContactless and petrol spenders\nDaily commuters using SimplyGo",
+   "things-to-note": "You need to meet a monthly spend threshold to unlock bonus miles; otherwise, earn the lower base rate\nBonus miles are capped each statement month—extra spend earns less\nFX fees (~3.25%) apply on overseas transactions despite bonus miles\nSpend is tracked by statement cycle, not calendar month\nUNI$ expire and can be affected by account adjustments"
+  },
+  "updated_at": "2026-01-08T14:03:34+08:00"
+ }
+}

@@ -1,0 +1,74 @@
+{
+ "source": "moneysmart",
+ "source_id": "circles-zerofy-visa-cashback-card",
+ "source_url": "https://www.moneysmart.sg/credit-cards/circles-zerofy-visa-cashback-card",
+ "name": "Circles Zerofy Visa Cashback Card",
+ "bank": "Circles.Life",
+ "card_id": "circles-zerofy-cashback",
+ "image_url": "https://photos.cdn-moneysmart.com/credit_cards/uploads/products/images/image_2026-05-21_circles cardface image zerofy.png",
+ "annual_fee": 0.0,
+ "earn_rates": {},
+ "caps": {},
+ "highlights": [
+  "Unlimited 1% Cashback on Local & Overseas Spends",
+  "Instant Cashback Confirmation",
+  "Zero Tricks No FX Fees, No Min. Spend, No Cap",
+  "Earn unlimited 1% cashback on local and overseas spends (standard exclusions apply), with no minimum spend",
+  "Receive cashback that's credited instantly after your transaction",
+  "Enjoy zero FX fees on overseas spends",
+  "Shop through the Circles.life app on merchants under the Zerofy Cashback Program (e.g., Lazada, Shopee, Apple) to get up to 28% off"
+ ],
+ "sign_up_offers": [],
+ "links": {
+  "product": "https://www.moneysmart.sg/credit-cards/circles-zerofy-visa-cashback-card"
+ },
+ "citation": {
+  "id": "moneysmart:49fcb3586f25",
+  "url": "https://www.moneysmart.sg/credit-cards?page=4",
+  "title": "Circles Zerofy Visa Cashback Card",
+  "source_type": "aggregator",
+  "retrieved_at": "2026-09-27T05:27:20+00:00",
+  "sha256": "49fcb3586f252df0b2dacb9acecc465127e09c9defa7f151881c3db46d84649e",
+  "snapshot": "data/raw/moneysmart/credit-cards-p4-1a322210.html"
+ },
+ "extra": {
+  "summary": "",
+  "badges": [],
+  "network": [
+   "Visa"
+  ],
+  "mobile_wallets": [
+   "Google Pay",
+   "Apple Pay",
+   "Samsung Pay"
+  ],
+  "groups": {
+   "annual-interest-rate-and-fees": {
+    "Annual Principal Fee": "0",
+    "Supplementary Annual Fee": "0"
+   },
+   "minimum-income-requirements": {
+    "Singaporean/PR Minimum Annual Income": "0",
+    "Non-Singaporean Minimum Annual Income": "0"
+   },
+   "card-association": {
+    "Visa": "true"
+   },
+   "wireless-payment": {
+    "Google Pay": "true",
+    "Apple Pay": "true",
+    "Samsung Pay": "true"
+   },
+   "documents-required": {
+    "SG Citizens or PRs": "SingPass Verification",
+    "Work Permit Validity (Foreigners)": "SingPass Verification"
+   }
+  },
+  "our_takes": {
+   "our-take": "",
+   "good-for": "",
+   "things-to-note": ""
+  },
+  "updated_at": "2026-05-25T14:10:53+08:00"
+ }
+}

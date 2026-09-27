@@ -1,0 +1,94 @@
+{
+ "source": "singsaver",
+ "source_id": "boc-elite-miles-world-mastercard",
+ "source_url": "https://www.singsaver.com.sg/credit-card/products/boc-elite-miles-world-mastercard",
+ "name": "BOC Elite Miles World Mastercard",
+ "bank": "Bank of China",
+ "card_id": "boc-elite-miles-world-mastercard",
+ "image_url": "https://mhgprod.blob.core.windows.net/singsaver/strapi-uploads/s_2026_06_BOC_Elite_Miles_World_Mastercard_fe27d2d6aa.png",
+ "annual_fee": 207.1,
+ "annual_fee_note": "S$ | First year annual fee waived for principal and supplementary cards.",
+ "min_annual_income": 30000.0,
+ "earn_rates": {
+  "mpd:baseline": {
+   "value": 1.4,
+   "unit": "mpd",
+   "note": "Earn 1.4 miles per S$1 local spend (awarded as 7 BOC Bonus Points per S$1)."
+  },
+  "mpd:local": {
+   "value": 1.4,
+   "unit": "mpd",
+   "note": "Earn 1.4 miles per S$1 local spend (awarded as 7 BOC Bonus Points per S$1)."
+  },
+  "mpd:overseas": {
+   "value": 2.8,
+   "unit": "mpd",
+   "note": "Earn 2.8 miles per S$1 overseas spend (awarded as 14 BOC Bonus Points per S$1)."
+  },
+  "points_per_dollar:baseline": {
+   "value": 7.0,
+   "unit": "points_per_dollar",
+   "note": "Earn 1.4 miles per S$1 local spend (awarded as 7 BOC Bonus Points per S$1)."
+  },
+  "points_per_dollar:local_spending": {
+   "value": 7.0,
+   "unit": "points_per_dollar",
+   "note": "Earn 7 BOC Bonus Points per S$1 local spend (equivalent to 1.4 miles per dollar)"
+  },
+  "points_per_dollar:overseas_spending": {
+   "value": 14.0,
+   "unit": "points_per_dollar",
+   "note": "Earn 14 BOC Bonus Points per S$1 overseas spend (equivalent to 2.8 miles per dollar)"
+  }
+ },
+ "caps": {},
+ "highlights": [
+  "Earn 2.8 miles per dollar on overseas spend and 1.4 miles per dollar on local spend. Airmiles awarded in the form of BOC Bonus Points.",
+  "pros: Earn 2.8 miles per dollar on overseas spend (awarded as 14 BOC Bonus Points per dollar).",
+  "pros: Earn 1.4 miles per dollar on local spend (awarded as 7 BOC Bonus Points per dollar).",
+  "pros: Redeem other rewards, such as shopping vouchers",
+  "pros: Enjoy exclusive benefits curated for World Mastercard Cardmembers.",
+  "pros: 24-hour Mastercard Concierge Service",
+  "pros: First year annual fee waiver for primary and supplementary cards.",
+  "cons: S$30.56 airmiles conversion fee",
+  "pros: Bonus miles",
+  "pros: Unlimited air miles",
+  "cons: Airmiles conversion required"
+ ],
+ "sign_up_offers": [],
+ "links": {},
+ "citation": {
+  "id": "singsaver:5158f5d05b2f",
+  "url": "https://www.singsaver.com.sg/credit-card/products/boc-elite-miles-world-mastercard",
+  "title": "BOC Elite Miles World Mastercard",
+  "source_type": "aggregator",
+  "retrieved_at": "2026-09-27T05:24:50+00:00",
+  "sha256": "5158f5d05b2f2ebeeb31a9cbb6ac592dccb5aced6346621805ed54baab0326fc",
+  "snapshot": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-boc-elite-miles-world-mastercard-682c7b86.html"
+ },
+ "extra": {
+  "network": [
+   "World Mastercard"
+  ],
+  "mobile_wallets": null,
+  "fx_fee_percent": 3.0,
+  "miles_conversion_fee": 30.56,
+  "categories": [
+   "category:airmiles",
+   "category:all-credit-cards",
+   "category:buffet-promo",
+   "category:dining-promo",
+   "category:grocery-promo",
+   "category:retail-promo",
+   "needs:all-airmiles-cards",
+   "needs:all-cards-with-buffet-promo",
+   "needs:all-cards-with-dining-promo",
+   "needs:all-cards-with-grocery-promo",
+   "needs:all-cards-with-retail-promo",
+   "needs:all-credit-cards",
+   "needs:unlimited-airmiles"
+  ],
+  "tag": "Best for bonus airmiles",
+  "description": "Specially tailored for those well-travelled, the BOC Elite Miles World Mastercard allows cardholders to earn miles on both local and overseas spending, with no minimum spend or cap."
+ }
+}

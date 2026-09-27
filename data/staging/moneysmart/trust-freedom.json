@@ -1,0 +1,103 @@
+{
+ "source": "moneysmart",
+ "source_id": "trust-freedom-credit-card",
+ "source_url": "https://www.moneysmart.sg/credit-cards/trust-freedom-credit-card",
+ "name": "Trust Freedom Credit Card",
+ "bank": "Trust Bank",
+ "card_id": "trust-freedom",
+ "image_url": "https://photos.cdn-moneysmart.com/credit_cards/uploads/products/images/image_2026-08-17_Freedom cardface.png",
+ "annual_fee": 0.0,
+ "earn_rates": {},
+ "caps": {},
+ "highlights": [
+  "3% Stockback",
+  "Up to 15% Cashback",
+  "1.3 miles per dollar spent",
+  "One credit card. Multiple ways to earn. You choose",
+  "3% Stockback, for those who want to earn stocks and build your portfolio",
+  "1.3 miles per dollar, for those who want to earn miles with no FX fee",
+  "Up to 1.5% Unlimited Cashback, for those who want fuss-free cashback on all eligible spends",
+  "Up to 15% Bonus Cashback, for those who want bigger cashback on your preferred category",
+  "Switch your rewards every quarter if you like",
+  "$0 Foreign Transaction Fee",
+  "$0 Annual Card Fee",
+  "$0 Commission Fee for selling stocks"
+ ],
+ "sign_up_offers": [
+  {
+   "kind": "special_promotion",
+   "title": "Sure-win stock gift of up to 8K USD stocks",
+   "subtitle": null,
+   "is_cash": null,
+   "terms": "Apply for a Trust Credit Card\nOnly valid for New-To-Trust Customers",
+   "campaign": null
+  },
+  {
+   "kind": "special_promotion",
+   "title": "Up to 100,000 miles",
+   "subtitle": null,
+   "is_cash": null,
+   "terms": "Apply for a Trust Credit Card\nOnly valid for New-To-Trust Customers\nMeet the relevant spending requirement to be eligible",
+   "campaign": null
+  }
+ ],
+ "links": {
+  "product": "https://www.moneysmart.sg/credit-cards/trust-freedom-credit-card"
+ },
+ "citation": {
+  "id": "moneysmart:eeee24fb93a9",
+  "url": "https://www.moneysmart.sg/credit-cards",
+  "title": "Trust Freedom Credit Card",
+  "source_type": "aggregator",
+  "retrieved_at": "2026-09-27T05:27:12+00:00",
+  "sha256": "eeee24fb93a9d85ef8b9194c11bda960b5b99ee30b3689cdc59fb650badebce7",
+  "snapshot": "data/raw/moneysmart/credit-cards-p1-b55034ef.html"
+ },
+ "extra": {
+  "summary": "",
+  "badges": [
+   "Earn Stockback | First in Singapore!"
+  ],
+  "network": [
+   "Visa"
+  ],
+  "mobile_wallets": [
+   "Visa Contactless",
+   "Google Pay",
+   "Apple Pay",
+   "Samsung Pay"
+  ],
+  "groups": {
+   "annual-interest-rate-and-fees": {
+    "Annual Interest Rate": "You will be assigned a personalised EIR, ranging from 18.9% to 29.9% p.a., or such other rate that we determine from time to time",
+    "Annual Principal Fee": "0",
+    "Supplementary Annual Fee": "0",
+    "Minimum Monthly Repayment": "(a) The greater of either S$50 or 1% of principal, plus (b) interest, finance fees and charges, and (c) any overlimit amount and past due amount.",
+    "Interest Free Period": "Make a full repayment by your payment date or within 15 days after your credit card statement is generated"
+   },
+   "minimum-income-requirements": {
+    "Singaporean/PR Minimum Annual Income": "30000",
+    "Non-Singaporean Minimum Annual Income": "60000"
+   },
+   "card-association": {
+    "Visa": "true"
+   },
+   "wireless-payment": {
+    "Visa Contactless": "true",
+    "Google Pay": "true",
+    "Apple Pay": "true",
+    "Samsung Pay": "true"
+   },
+   "documents-required": {
+    "SG Citizens or PRs": "Apply via MyInfo",
+    "Latest Original Computerised Payslip": "Yes + copy of Passport (For Foreigners only)"
+   }
+  },
+  "our_takes": {
+   "our-take": "The Trust Freedom Credit Card works like three cards in one — stockback, cashback or miles — and you can switch modes each quarter without a new application. Stockback is the headline: every eligible dollar builds up stockback value, and once it hits S$10 Trust buys fractional shares of a US stock or ETF you've picked from a list of 50. The S$0 annual fee and S$0 foreign transaction fee apply across all modes, which makes overseas spending straightforward whichever reward you're chasing. Worth considering if you value the flexibility to change your mind each quarter, and are comfortable committing to one reward type at a time.",
+   "good-for": "All purpose cash back, air miles or stockback credit card, with 1.3 miles for local & overseas OR 1.5% cash back. 3% Stock back as an additional option.\nFrequent overseas spenders, since there's no foreign transaction fee and miles are earned at the same 1.3 mpd rate abroad as locally.\nFirst-time investors who'd rather have their spending auto-invested into US stocks or ETFs than open a brokerage account themselves.",
+   "things-to-note": "Stockback is capped at S$500 a quarter, and the promotional 3% rate drops to 2% local / 0.5% foreign from 1 Jan 2027.\nThe headline 15% cashback applies to one preferred category only, and needs S$2,000 monthly spend in all three months of the quarter.\nWelcome offers are for new-to-trust which are defined as anyone who has not held a principle Trust card at any point in the past."
+  },
+  "updated_at": "2026-09-22T10:14:43+08:00"
+ }
+}

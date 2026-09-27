@@ -1,0 +1,1724 @@
+{
+ "card_id": "uob-preferred-visa",
+ "product_pages": [
+  {
+   "id": "bank:f4496692e271",
+   "url": "https://www.uob.com.sg/personal/cards/rewards/preferred-visa-card.page",
+   "source_type": "official",
+   "retrieved_at": "2026-09-27T08:44:29+00:00",
+   "sha256": "f4496692e271455b97b6988e7e60bb939f7ce143c7f4f418dbef714f5a387815",
+   "snapshot": "data/raw/bank/www-uob-com-sg-personal-cards-rewards-preferred-visa-card-page-eb2e6a54.html"
+  }
+ ],
+ "documents": [
+  {
+   "url": "https://www.uob.com.sg/web-resources/personal/pdf/personal/cards/credit-cards/rewards-cards/uob-preferred-platinum-visa-card/terms-and-conditions-for-preferred-plat-visa.pdf",
+   "citation": {
+    "id": "bank:611f5770008e",
+    "url": "https://www.uob.com.sg/web-resources/personal/pdf/personal/cards/credit-cards/rewards-cards/uob-preferred-platinum-visa-card/terms-and-conditions-for-preferred-plat-visa.pdf",
+    "source_type": "official",
+    "retrieved_at": "2026-09-27T08:44:31+00:00",
+    "sha256": "611f5770008e3a55af9ea9a18349f45a5d5950813c15b1e3b4bddcc4129eb88e",
+    "snapshot": "data/raw/bank/sonal-cards-credit-cards-rewards-cards-uob-preferred-platinum-visa-card-terms-and-conditions-for-preferred-plat-visa-pdf-ed33b1a0.pdf"
+   },
+   "text_path": "data/raw/bank/sonal-cards-credit-cards-rewards-cards-uob-preferred-platinum-visa-card-terms-and-conditions-for-preferred-plat-visa-pdf-ed33b1a0.txt",
+   "sha256": "611f5770008e3a55af9ea9a18349f45a5d5950813c15b1e3b4bddcc4129eb88e",
+   "changed": false,
+   "new": true,
+   "no_text_layer": false,
+   "effective_dates": [
+    "1\nOctober 2024",
+    "1 August 2022",
+    "1 October 2024",
+    "22 May 2020",
+    "28 Aug 2025"
+   ],
+   "mcc": {
+    "include": [
+     "4816",
+     "4829",
+     "4900",
+     "5199",
+     "5262",
+     "5306",
+     "5309",
+     "5310",
+     "5311",
+     "5331",
+     "5333",
+     "5399",
+     "5411",
+     "5441",
+     "5462",
+     "5499",
+     "5611",
+     "5621",
+     "5631",
+     "5641",
+     "5651",
+     "5661",
+     "5691",
+     "5699",
+     "5732-5735",
+     "5912",
+     "5942",
+     "5944-5949",
+     "5960",
+     "5964",
+     "5965",
+     "5966-5970",
+     "5992",
+     "5993",
+     "5999",
+     "6012",
+     "6050",
+     "6051",
+     "6211",
+     "6300",
+     "6513",
+     "6529",
+     "6530",
+     "6534",
+     "6540",
+     "7278",
+     "7349",
+     "7511",
+     "7523",
+     "7832",
+     "7841",
+     "7922",
+     "7991",
+     "7995",
+     "7996",
+     "7998-7999",
+     "8012",
+     "8062",
+     "8211",
+     "8220",
+     "8241",
+     "8244",
+     "8249",
+     "8299",
+     "8398",
+     "8651",
+     "8661",
+     "8699",
+     "8999",
+     "9211",
+     "9222",
+     "9223",
+     "9311",
+     "9399",
+     "9402",
+     "9405",
+     "9751"
+    ],
+    "exclude": [],
+    "unknown": [],
+    "conflicting": [],
+    "unrecognised": [
+     "5306",
+     "5333",
+     "6529",
+     "6530",
+     "6534",
+     "8012",
+     "9751"
+    ],
+    "hits": [
+     {
+      "code": "4816",
+      "polarity": "include",
+      "page": 1,
+      "line": "Department Stores and 4816, 5262, 5306, 5309, 5310, 5311, 5331, 5399, 5611,",
+      "reason": "any merchant provided that such merchant falls within any one of the following Merchant Category",
+      "in_reference": true
+     },
+     {
+      "code": "5262",
+      "polarity": "include",
+      "page": 1,
+      "line": "Department Stores and 4816, 5262, 5306, 5309, 5310, 5311, 5331, 5399, 5611,",
+      "reason": "any merchant provided that such merchant falls within any one of the following Merchant Category",
+      "in_reference": true
+     },
+     {
+      "code": "5306",
+      "polarity": "include",
+      "page": 1,
+      "line": "Department Stores and 4816, 5262, 5306, 5309, 5310, 5311, 5331, 5399, 5611,",
+      "reason": "any merchant provided that such merchant falls within any one of the following Merchant Category",
+      "in_reference": false
+     },
+     {
+      "code": "5309",
+      "polarity": "include",
+      "page": 1,
+      "line": "Department Stores and 4816, 5262, 5306, 5309, 5310, 5311, 5331, 5399, 5611,",
+      "reason": "any merchant provided that such merchant falls within any one of the following Merchant Category",
+      "in_reference": true
+     },
+     {
+      "code": "5310",
+      "polarity": "include",
+      "page": 1,
+      "line": "Department Stores and 4816, 5262, 5306, 5309, 5310, 5311, 5331, 5399, 5611,",
+      "reason": "any merchant provided that such merchant falls within any one of the following Merchant Category",
+      "in_reference": true
+     },
+     {
+      "code": "5311",
+      "polarity": "include",
+      "page": 1,
+      "line": "Department Stores and 4816, 5262, 5306, 5309, 5310, 5311, 5331, 5399, 5611,",
+      "reason": "any merchant provided that such merchant falls within any one of the following Merchant Category",
+      "in_reference": true
+     },
+     {
+      "code": "5331",
+      "polarity": "include",
+      "page": 1,
+      "line": "Department Stores and 4816, 5262, 5306, 5309, 5310, 5311, 5331, 5399, 5611,",
+      "reason": "any merchant provided that such merchant falls within any one of the following Merchant Category",
+      "in_reference": true
+     },
+     {
+      "code": "5399",
+      "polarity": "include",
+      "page": 1,
+      "line": "Department Stores and 4816, 5262, 5306, 5309, 5310, 5311, 5331, 5399, 5611,",
+      "reason": "any merchant provided that such merchant falls within any one of the following Merchant Category",
+      "in_reference": true
+     },
+     {
+      "code": "5611",
+      "polarity": "include",
+      "page": 1,
+      "line": "Department Stores and 4816, 5262, 5306, 5309, 5310, 5311, 5331, 5399, 5611,",
+      "reason": "any merchant provided that such merchant falls within any one of the following Merchant Category",
+      "in_reference": true
+     },
+     {
+      "code": "5732-5735",
+      "polarity": "include",
+      "page": 1,
+      "line": "Retail Stores 5621, 5631, 5641, 5651, 5661, 5691, 5699, 5732-5735,",
+      "reason": "any merchant provided that such merchant falls within any one of the following Merchant Category",
+      "in_reference": null
+     },
+     {
+      "code": "5621",
+      "polarity": "include",
+      "page": 1,
+      "line": "Retail Stores 5621, 5631, 5641, 5651, 5661, 5691, 5699, 5732-5735,",
+      "reason": "any merchant provided that such merchant falls within any one of the following Merchant Category",
+      "in_reference": true
+     },
+     {
+      "code": "5631",
+      "polarity": "include",
+      "page": 1,
+      "line": "Retail Stores 5621, 5631, 5641, 5651, 5661, 5691, 5699, 5732-5735,",
+      "reason": "any merchant provided that such merchant falls within any one of the following Merchant Category",
+      "in_reference": true
+     },
+     {
+      "code": "5641",
+      "polarity": "include",
+      "page": 1,
+      "line": "Retail Stores 5621, 5631, 5641, 5651, 5661, 5691, 5699, 5732-5735,",
+      "reason": "any merchant provided that such merchant falls within any one of the following Merchant Category",
+      "in_reference": true
+     },
+     {
+      "code": "5651",
+      "polarity": "include",
+      "page": 1,
+      "line": "Retail Stores 5621, 5631, 5641, 5651, 5661, 5691, 5699, 5732-5735,",
+      "reason": "any merchant provided that such merchant falls within any one of the following Merchant Category",
+      "in_reference": true
+     },
+     {
+      "code": "5661",
+      "polarity": "include",
+      "page": 1,
+      "line": "Retail Stores 5621, 5631, 5641, 5651, 5661, 5691, 5699, 5732-5735,",
+      "reason": "any merchant provided that such merchant falls within any one of the following Merchant Category",
+      "in_reference": true
+     },
+     {
+      "code": "5691",
+      "polarity": "include",
+      "page": 1,
+      "line": "Retail Stores 5621, 5631, 5641, 5651, 5661, 5691, 5699, 5732-5735,",
+      "reason": "any merchant provided that such merchant falls within any one of the following Merchant Category",
+      "in_reference": true
+     },
+     {
+      "code": "5699",
+      "polarity": "include",
+      "page": 1,
+      "line": "Retail Stores 5621, 5631, 5641, 5651, 5661, 5691, 5699, 5732-5735,",
+      "reason": "any merchant provided that such merchant falls within any one of the following Merchant Category",
+      "in_reference": true
+     },
+     {
+      "code": "5944-5949",
+      "polarity": "include",
+      "page": 1,
+      "line": "5912, 5942, 5944-5949, 5964, 5966-5970, 5992, 5999",
+      "reason": "any merchant provided that such merchant falls within any one of the following Merchant Category",
+      "in_reference": null
+     },
+     {
+      "code": "5966-5970",
+      "polarity": "include",
+      "page": 1,
+      "line": "5912, 5942, 5944-5949, 5964, 5966-5970, 5992, 5999",
+      "reason": "any merchant provided that such merchant falls within any one of the following Merchant Category",
+      "in_reference": null
+     },
+     {
+      "code": "5912",
+      "polarity": "include",
+      "page": 1,
+      "line": "5912, 5942, 5944-5949, 5964, 5966-5970, 5992, 5999",
+      "reason": "any merchant provided that such merchant falls within any one of the following Merchant Category",
+      "in_reference": true
+     },
+     {
+      "code": "5942",
+      "polarity": "include",
+      "page": 1,
+      "line": "5912, 5942, 5944-5949, 5964, 5966-5970, 5992, 5999",
+      "reason": "any merchant provided that such merchant falls within any one of the following Merchant Category",
+      "in_reference": true
+     },
+     {
+      "code": "5964",
+      "polarity": "include",
+      "page": 1,
+      "line": "5912, 5942, 5944-5949, 5964, 5966-5970, 5992, 5999",
+      "reason": "any merchant provided that such merchant falls within any one of the following Merchant Category",
+      "in_reference": true
+     },
+     {
+      "code": "5992",
+      "polarity": "include",
+      "page": 1,
+      "line": "5912, 5942, 5944-5949, 5964, 5966-5970, 5992, 5999",
+      "reason": "any merchant provided that such merchant falls within any one of the following Merchant Category",
+      "in_reference": true
+     },
+     {
+      "code": "5999",
+      "polarity": "include",
+      "page": 1,
+      "line": "5912, 5942, 5944-5949, 5964, 5966-5970, 5992, 5999",
+      "reason": "any merchant provided that such merchant falls within any one of the following Merchant Category",
+      "in_reference": true
+     },
+     {
+      "code": "5965",
+      "polarity": "include",
+      "page": 1,
+      "line": "awarded for transactions with MCC 5965 Direct Marketing \u2013",
+      "reason": "any merchant provided that such merchant falls within any one of the following Merchant Category",
+      "in_reference": true
+     },
+     {
+      "code": "5333",
+      "polarity": "include",
+      "page": 1,
+      "line": "Supermarkets, Dining and 5811,5812,5814, 5333, 5411, 5441, 5462, 5499, 8012, 9751",
+      "reason": "any merchant provided that such merchant falls within any one of the following Merchant Category",
+      "in_reference": false
+     },
+     {
+      "code": "5411",
+      "polarity": "include",
+      "page": 1,
+      "line": "Supermarkets, Dining and 5811,5812,5814, 5333, 5411, 5441, 5462, 5499, 8012, 9751",
+      "reason": "any merchant provided that such merchant falls within any one of the following Merchant Category",
+      "in_reference": true
+     },
+     {
+      "code": "5441",
+      "polarity": "include",
+      "page": 1,
+      "line": "Supermarkets, Dining and 5811,5812,5814, 5333, 5411, 5441, 5462, 5499, 8012, 9751",
+      "reason": "any merchant provided that such merchant falls within any one of the following Merchant Category",
+      "in_reference": true
+     },
+     {
+      "code": "5462",
+      "polarity": "include",
+      "page": 1,
+      "line": "Supermarkets, Dining and 5811,5812,5814, 5333, 5411, 5441, 5462, 5499, 8012, 9751",
+      "reason": "any merchant provided that such merchant falls within any one of the following Merchant Category",
+      "in_reference": true
+     },
+     {
+      "code": "5499",
+      "polarity": "include",
+      "page": 1,
+      "line": "Supermarkets, Dining and 5811,5812,5814, 5333, 5411, 5441, 5462, 5499, 8012, 9751",
+      "reason": "any merchant provided that such merchant falls within any one of the following Merchant Category",
+      "in_reference": true
+     },
+     {
+      "code": "8012",
+      "polarity": "include",
+      "page": 1,
+      "line": "Supermarkets, Dining and 5811,5812,5814, 5333, 5411, 5441, 5462, 5499, 8012, 9751",
+      "reason": "any merchant provided that such merchant falls within any one of the following Merchant Category",
+      "in_reference": false
+     },
+     {
+      "code": "9751",
+      "polarity": "include",
+      "page": 1,
+      "line": "Supermarkets, Dining and 5811,5812,5814, 5333, 5411, 5441, 5462, 5499, 8012, 9751",
+      "reason": "any merchant provided that such merchant falls within any one of the following Merchant Category",
+      "in_reference": false
+     },
+     {
+      "code": "7998-7999",
+      "polarity": "include",
+      "page": 1,
+      "line": "Entertainment and Ticketing 7278, 7832, 7841, 7922, 7991, 7996, 7998-7999",
+      "reason": "any merchant provided that such merchant falls within any one of the following Merchant Category",
+      "in_reference": null
+     },
+     {
+      "code": "7278",
+      "polarity": "include",
+      "page": 1,
+      "line": "Entertainment and Ticketing 7278, 7832, 7841, 7922, 7991, 7996, 7998-7999",
+      "reason": "any merchant provided that such merchant falls within any one of the following Merchant Category",
+      "in_reference": true
+     },
+     {
+      "code": "7832",
+      "polarity": "include",
+      "page": 1,
+      "line": "Entertainment and Ticketing 7278, 7832, 7841, 7922, 7991, 7996, 7998-7999",
+      "reason": "any merchant provided that such merchant falls within any one of the following Merchant Category",
+      "in_reference": true
+     },
+     {
+      "code": "7841",
+      "polarity": "include",
+      "page": 1,
+      "line": "Entertainment and Ticketing 7278, 7832, 7841, 7922, 7991, 7996, 7998-7999",
+      "reason": "any merchant provided that such merchant falls within any one of the following Merchant Category",
+      "in_reference": true
+     },
+     {
+      "code": "7922",
+      "polarity": "include",
+      "page": 1,
+      "line": "Entertainment and Ticketing 7278, 7832, 7841, 7922, 7991, 7996, 7998-7999",
+      "reason": "any merchant provided that such merchant falls within any one of the following Merchant Category",
+      "in_reference": true
+     },
+     {
+      "code": "7991",
+      "polarity": "include",
+      "page": 1,
+      "line": "Entertainment and Ticketing 7278, 7832, 7841, 7922, 7991, 7996, 7998-7999",
+      "reason": "any merchant provided that such merchant falls within any one of the following Merchant Category",
+      "in_reference": true
+     },
+     {
+      "code": "7996",
+      "polarity": "include",
+      "page": 1,
+      "line": "Entertainment and Ticketing 7278, 7832, 7841, 7922, 7991, 7996, 7998-7999",
+      "reason": "any merchant provided that such merchant falls within any one of the following Merchant Category",
+      "in_reference": true
+     },
+     {
+      "code": "4829",
+      "polarity": "include",
+      "page": 3,
+      "line": "4829 Wire Transfer/Remittance",
+      "reason": "(vii) any transactions under the following Merchant Category Code (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "4900",
+      "polarity": "include",
+      "page": 3,
+      "line": "4900 Utilities (with effect from 1 August 2022)",
+      "reason": "(vii) any transactions under the following Merchant Category Code (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "5199",
+      "polarity": "include",
+      "page": 3,
+      "line": "5199 Nondurable Good",
+      "reason": "(vii) any transactions under the following Merchant Category Code (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "5960",
+      "polarity": "include",
+      "page": 3,
+      "line": "5960 Direct Marketing - Insurance Services",
+      "reason": "(vii) any transactions under the following Merchant Category Code (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "5965",
+      "polarity": "include",
+      "page": 3,
+      "line": "5965 Direct Marketing \u2013 Combination Catalog and Retail Merchants (with effect",
+      "reason": "(vii) any transactions under the following Merchant Category Code (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "5993",
+      "polarity": "include",
+      "page": 3,
+      "line": "5993 Cigar Stores and Stands (with effect from 1 October 2024)",
+      "reason": "(vii) any transactions under the following Merchant Category Code (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "6012",
+      "polarity": "include",
+      "page": 3,
+      "line": "6012 Member Financial Institution\u2013Merchandise and Services",
+      "reason": "(vii) any transactions under the following Merchant Category Code (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "6050",
+      "polarity": "include",
+      "page": 3,
+      "line": "6050 Quasi Cash\u2013Financial Institutions, Merchandise and Services",
+      "reason": "(vii) any transactions under the following Merchant Category Code (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "6051",
+      "polarity": "include",
+      "page": 3,
+      "line": "6051 Quasi Cash\u2013Merchant (Non-Financial Institutions \u2013 Foreign Currency, Non-",
+      "reason": "(vii) any transactions under the following Merchant Category Code (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "6211",
+      "polarity": "include",
+      "page": 3,
+      "line": "6211 Securities\u2013Brokers and Dealers",
+      "reason": "(vii) any transactions under the following Merchant Category Code (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "6300",
+      "polarity": "include",
+      "page": 3,
+      "line": "6300 Insurance Sales/Underwrite",
+      "reason": "(vii) any transactions under the following Merchant Category Code (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "6513",
+      "polarity": "include",
+      "page": 3,
+      "line": "6513 Real Estate Agents & Managers \u2013 Rentals",
+      "reason": "(vii) any transactions under the following Merchant Category Code (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "6529",
+      "polarity": "include",
+      "page": 3,
+      "line": "6529 Quasi Cash-Remote Stored Value Load-Financial Institute Rentals",
+      "reason": "(vii) any transactions under the following Merchant Category Code (MCC):",
+      "in_reference": false
+     },
+     {
+      "code": "6530",
+      "polarity": "include",
+      "page": 3,
+      "line": "6530 Quasi Cash-Remote Stored Value Load-Merchant Rentals",
+      "reason": "(vii) any transactions under the following Merchant Category Code (MCC):",
+      "in_reference": false
+     },
+     {
+      "code": "6534",
+      "polarity": "include",
+      "page": 3,
+      "line": "6534 Quasi Cash-Remote Money Transfers",
+      "reason": "(vii) any transactions under the following Merchant Category Code (MCC):",
+      "in_reference": false
+     },
+     {
+      "code": "6540",
+      "polarity": "include",
+      "page": 3,
+      "line": "6540 Stored Value Card Purchase/Load",
+      "reason": "(vii) any transactions under the following Merchant Category Code (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "7349",
+      "polarity": "include",
+      "page": 3,
+      "line": "7349 Clean/Maint/Janitorial Serv aka Property Management",
+      "reason": "(vii) any transactions under the following Merchant Category Code (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "7511",
+      "polarity": "include",
+      "page": 4,
+      "line": "7511 Quasi Cash \u2013 Truck Stop Trxns",
+      "reason": "(vii) any transactions under the following Merchant Category Code (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "7523",
+      "polarity": "include",
+      "page": 4,
+      "line": "7523 Automobile Parking Lots and Garages",
+      "reason": "(vii) any transactions under the following Merchant Category Code (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "7995",
+      "polarity": "include",
+      "page": 4,
+      "line": "7995 Gambling - Betting, including Lottery Tickets, Casino Gaming Chips, Off-",
+      "reason": "(vii) any transactions under the following Merchant Category Code (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "8062",
+      "polarity": "include",
+      "page": 4,
+      "line": "8062 Hospitals",
+      "reason": "(vii) any transactions under the following Merchant Category Code (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "8211",
+      "polarity": "include",
+      "page": 4,
+      "line": "8211 Schools, Elementary and Secondary",
+      "reason": "(vii) any transactions under the following Merchant Category Code (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "8220",
+      "polarity": "include",
+      "page": 4,
+      "line": "8220 Colleges, Universities, Professional Schools and Junior Colleges",
+      "reason": "(vii) any transactions under the following Merchant Category Code (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "8241",
+      "polarity": "include",
+      "page": 4,
+      "line": "8241 Schools, Correspondence",
+      "reason": "(vii) any transactions under the following Merchant Category Code (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "8244",
+      "polarity": "include",
+      "page": 4,
+      "line": "8244 Schools, Business and Secretarial",
+      "reason": "(vii) any transactions under the following Merchant Category Code (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "8249",
+      "polarity": "include",
+      "page": 4,
+      "line": "8249 Schools, Trade and Vocational",
+      "reason": "(vii) any transactions under the following Merchant Category Code (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "8299",
+      "polarity": "include",
+      "page": 4,
+      "line": "8299 Schools and Educational Services\u2013Not Elsewhere Classified",
+      "reason": "(vii) any transactions under the following Merchant Category Code (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "8398",
+      "polarity": "include",
+      "page": 4,
+      "line": "8398 Organizations, Charitable and Social Service",
+      "reason": "(vii) any transactions under the following Merchant Category Code (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "8661",
+      "polarity": "include",
+      "page": 4,
+      "line": "8661 Organizations, Religious",
+      "reason": "(vii) any transactions under the following Merchant Category Code (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "8651",
+      "polarity": "include",
+      "page": 4,
+      "line": "8651 Organizations, Political",
+      "reason": "(vii) any transactions under the following Merchant Category Code (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "8699",
+      "polarity": "include",
+      "page": 4,
+      "line": "8699 Membership Organizations (Not Elsewhere Classified) (with effect from 1",
+      "reason": "(vii) any transactions under the following Merchant Category Code (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "8999",
+      "polarity": "include",
+      "page": 4,
+      "line": "8999 Professional Services (Not Elsewhere Classified) (with effect from 1",
+      "reason": "(vii) any transactions under the following Merchant Category Code (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "9211",
+      "polarity": "include",
+      "page": 4,
+      "line": "9211 Court Costs including Alimony and Child Support",
+      "reason": "(vii) any transactions under the following Merchant Category Code (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "9222",
+      "polarity": "include",
+      "page": 4,
+      "line": "9222 Fines",
+      "reason": "(vii) any transactions under the following Merchant Category Code (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "9223",
+      "polarity": "include",
+      "page": 4,
+      "line": "9223 Bail and Bond Payments",
+      "reason": "(vii) any transactions under the following Merchant Category Code (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "9311",
+      "polarity": "include",
+      "page": 4,
+      "line": "9311 Tax Payment",
+      "reason": "(vii) any transactions under the following Merchant Category Code (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "9402",
+      "polarity": "include",
+      "page": 4,
+      "line": "9402 Postal Services\u2014Government Only",
+      "reason": "(vii) any transactions under the following Merchant Category Code (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "9405",
+      "polarity": "include",
+      "page": 4,
+      "line": "9405 Intra-Government Purchases\u2014Government Only",
+      "reason": "(vii) any transactions under the following Merchant Category Code (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "9399",
+      "polarity": "include",
+      "page": 4,
+      "line": "9399 Government Services\u2014not elsewhere classified",
+      "reason": "(vii) any transactions under the following Merchant Category Code (MCC):",
+      "in_reference": true
+     }
+    ]
+   },
+   "transaction_modes": {
+    "online": [
+     "(viii) \u201cOther Retail Transactions\u201d refers to all Card Transactions that is charged to the Card Account which is not a Selected Online Transaction or a Mobile Contactless Transaction.",
+     "(ix) \u201cSelected Online Transactions\u201d refers to online retail Card Transactions (whether made locally or overseas) via websites for the purchase of products or services sold by or made available by any merchant provided that such merchant falls within any one of the following Merchant Category Codes (MCC) and the transaction must not be under any recurring payment arrangement: Category Merchant Cate",
+     "(a) You will earn UNI$10 for every S$5 charged to your Card Account for Selected Online Transactions.",
+     "(i) The UNI$10 awarded to you from qualifying spend on Selected Online Transactions is comprised of a basic UNI$1 earned plus a bonus UNI$9.",
+     "The bonus UNI$ awarded to you from qualifying spend on Selected Online Transactions is capped at UNI$1,080 for each calendar month.",
+     "## RESTRICTED ## (iv) Selected Online Transactions and Mobile Contactless Transactions are treated as separate categories."
+    ],
+    "in_app": [
+     "In-app transactions made via Apple Pay, Google Pay and Samsung Pay or any other payment or mobile wallet service do not constitute \u201cMobile Contactless Transactions\u201d."
+    ],
+    "contactless": [
+     "(v) \u201cContactless Transactions\u201d refers to Card Transactions that are performed using the Card via Visa payWave.",
+     "(vi) \u201cMobile Contactless Transactions\u201d refers collectively to: Card Transactions made via Apple Pay, Google Pay and/or Samsung Pay (or such other payment or mobile wallet services as UOB may from time to time approve at its sole discretion), that is effected at any Visa payWave Readers by waving the mobile device against the physical Visa payWave Readers in-person at the merchant\u2019s physical store.",
+     "In-app transactions made via Apple Pay, Google Pay and Samsung Pay or any other payment or mobile wallet service do not constitute \u201cMobile Contactless Transactions\u201d.",
+     "(viii) \u201cOther Retail Transactions\u201d refers to all Card Transactions that is charged to the Card Account which is not a Selected Online Transaction or a Mobile Contactless Transaction.",
+     "(xii) \u201cVisa payWave Transactions\u201d refers to Card and/or mobile payment or mobile wallet transactions that are performed/effected at any Visa payWave readers by tapping the Card and/or mobile device on the Visa payWave Readers, and which shall be subject to such terms and conditions as UOB and Visa Worldwide Pte.",
+     "(xiii) \u201cVisa payWave Readers\u201d refers to any point of sale device or point of sale terminal (as approved by UOB in its sole and absolute discretion from time to time) at which the Card and/or mobile device may be used to execute the Card Transactions, ether by tapping or waving the Card and/or mobile device against such reader without requiring any signature, PIN or other authentication on the part",
+     "(b) You will earn UNI$10 for every S$5 charged to your Card Account for Contactless Transactions up to 21 May 2020.",
+     "With effect from 22 May 2020, UOB will cease the awarding of UNI$10 for every S$5 charged to your Card Account for all Contactless Transactions.",
+     "(c) You will earn UNI$10 for every S$5 charged to your Card Account for Mobile Contactless Transactions.",
+     "With effect from 28 Aug 2025, SimplyGo (ABT) Transactions will be treated as Mobile Contactless Transactions.",
+     "Accordingly, you will earn UNI$10 per S$5 spend on the accumulated spend on SimplyGo (ABT) Transactions subject to all the terms and conditions applicable to Mobile Contactless Transactions.",
+     "a) Any usage of a Card and/or mobile wallet via a mobile device at any Visa payWave Readers, if permitted by UOB, shall be subject to such terms and conditions as UOB and Visa Worldwide Pte.",
+     "b) The Card may be used to carry out any Contactless Transactions and/or Mobile Contactless Transactions at all Visa payWave Readers and at such other readers or systems as UOB may from time to time approve.",
+     "The first Contactless Transaction and/or Mobile Contactless Transaction shall be subject to such activation and authentication procedures as UOB may in its sole and absolute discretion prescribe from time to time.",
+     "(ii) The UNI$10 awarded to you from qualifying spend on Mobile Contactless Transactions is comprised of a basic UNI$1 earned plus a bonus UNI$9."
+    ],
+    "mobile_wallet": [
+     "(vi) \u201cMobile Contactless Transactions\u201d refers collectively to: Card Transactions made via Apple Pay, Google Pay and/or Samsung Pay (or such other payment or mobile wallet services as UOB may from time to time approve at its sole discretion), that is effected at any Visa payWave Readers by waving the mobile device against the physical Visa payWave Readers in-person at the merchant\u2019s physical store.",
+     "In-app transactions made via Apple Pay, Google Pay and Samsung Pay or any other payment or mobile wallet service do not constitute \u201cMobile Contactless Transactions\u201d.",
+     "(xii) \u201cVisa payWave Transactions\u201d refers to Card and/or mobile payment or mobile wallet transactions that are performed/effected at any Visa payWave readers by tapping the Card and/or mobile device on the Visa payWave Readers, and which shall be subject to such terms and conditions as UOB and Visa Worldwide Pte.",
+     "a) Any usage of a Card and/or mobile wallet via a mobile device at any Visa payWave Readers, if permitted by UOB, shall be subject to such terms and conditions as UOB and Visa Worldwide Pte."
+    ],
+    "recurring": [
+     "(ix) \u201cSelected Online Transactions\u201d refers to online retail Card Transactions (whether made locally or overseas) via websites for the purchase of products or services sold by or made available by any merchant provided that such merchant falls within any one of the following Merchant Category Codes (MCC) and the transaction must not be under any recurring payment arrangement: Category Merchant Cate"
+    ],
+    "foreign_currency": [
+     "(i) \u201cCard\u201d refers to UOB Preferred Visa Card issued by United Overseas Bank Limited (\u201cUOB\u201d) in Singapore.",
+     "(ix) \u201cSelected Online Transactions\u201d refers to online retail Card Transactions (whether made locally or overseas) via websites for the purchase of products or services sold by or made available by any merchant provided that such merchant falls within any one of the following Merchant Category Codes (MCC) and the transaction must not be under any recurring payment arrangement: Category Merchant Cate",
+     "(xi) \u201cUOB\u201d refers to United Overseas Bank Limited and shall include its successors and assigns.",
+     "(vii) any transactions under the following Merchant Category Code (MCC): Merchant Category Description Code (MCC) 4829 Wire Transfer/Remittance 4900 Utilities (with effect from 1 August 2022) 5199 Nondurable Good 5960 Direct Marketing - Insurance Services 5965 Direct Marketing \u2013 Combination Catalog and Retail Merchants (with effect from 1 October 2024) 5993 Cigar Stores and Stands (with effect fro",
+     "Updated 10 March 2026 (Ver 3.0) United Overseas Bank Limited Co."
+    ]
+   },
+   "non_mcc_exclusions": [
+    "annual fee",
+    "axs",
+    "bill payment",
+    "cash advance",
+    "charit",
+    "education",
+    "government",
+    "hospital",
+    "instalment",
+    "interest",
+    "ipaymy",
+    "late payment charge",
+    "tax",
+    "top-ups",
+    "utilit"
+   ]
+  },
+  {
+   "url": "https://www.uob.com.sg/assets/web-resources/personal/pdf/cards/supplementary-card/uob-supplementary-card-promo-tncs.pdf",
+   "citation": {
+    "id": "bank:52d9be91844e",
+    "url": "https://www.uob.com.sg/assets/web-resources/personal/pdf/cards/supplementary-card/uob-supplementary-card-promo-tncs.pdf",
+    "source_type": "official",
+    "retrieved_at": "2026-09-27T08:44:33+00:00",
+    "sha256": "52d9be91844ea791f0ac517649c682846b898bd8e978a61a5582f56c4e573b16",
+    "snapshot": "data/raw/bank/www-uob-com-sg-assets-web-resources-personal-pdf-cards-supplementary-card-uob-supplementary-card-promo-tncs-pdf-5ce91e24.pdf"
+   },
+   "text_path": "data/raw/bank/www-uob-com-sg-assets-web-resources-personal-pdf-cards-supplementary-card-uob-supplementary-card-promo-tncs-pdf-5ce91e24.txt",
+   "sha256": "52d9be91844ea791f0ac517649c682846b898bd8e978a61a5582f56c4e573b16",
+   "changed": false,
+   "new": true,
+   "no_text_layer": false,
+   "effective_dates": [
+    "1 October 2024"
+   ],
+   "mcc": {
+    "include": [],
+    "exclude": [],
+    "unknown": [],
+    "conflicting": [],
+    "unrecognised": [],
+    "hits": []
+   },
+   "transaction_modes": {
+    "online": [
+     "(i) \u201cEligible Transactions\u201d refers to transactions for the purchase of goods and/or services which are successfully charged to your UOB Card via online or mobile payment wallets (Apple Pay, Google Pay, Samsung Pay or Fitbit Pay) and posted on UOB\u2019s systems, but shall exclude the Excluded Transactions.",
+     "(ii) \u201cExcluded Transactions\u201d means bill payment transactions, funds to prepaid accounts (including top-ups for any pre-paid card or mobile wallet such as GrabPay, ShopeePay, WeChat Pay or Alipay), Instalment Payment Plan, online money transfers, balance/funds transfers, cash advances, personal loans, fees, interests, finance charges, late payment charges, annual fee charges, reversals, other finan",
+     "Without limiting the foregoing, UOB will not be liable or responsible for any undelivered, misdirected, corrupted, lost or delayed text, transmission or transaction or any delay or failure in posting any transaction or accessing any of UOB\u2019s online banking services or mobile banking services or third party applications, howsoever caused."
+    ],
+    "mobile_wallet": [
+     "(i) \u201cEligible Transactions\u201d refers to transactions for the purchase of goods and/or services which are successfully charged to your UOB Card via online or mobile payment wallets (Apple Pay, Google Pay, Samsung Pay or Fitbit Pay) and posted on UOB\u2019s systems, but shall exclude the Excluded Transactions.",
+     "(ii) \u201cExcluded Transactions\u201d means bill payment transactions, funds to prepaid accounts (including top-ups for any pre-paid card or mobile wallet such as GrabPay, ShopeePay, WeChat Pay or Alipay), Instalment Payment Plan, online money transfers, balance/funds transfers, cash advances, personal loans, fees, interests, finance charges, late payment charges, annual fee charges, reversals, other finan"
+    ],
+    "recurring": [
+     "(ii) \u201cExcluded Transactions\u201d means bill payment transactions, funds to prepaid accounts (including top-ups for any pre-paid card or mobile wallet such as GrabPay, ShopeePay, WeChat Pay or Alipay), Instalment Payment Plan, online money transfers, balance/funds transfers, cash advances, personal loans, fees, interests, finance charges, late payment charges, annual fee charges, reversals, other finan"
+    ],
+    "foreign_currency": [
+     "(iii) \u201cUOB\u201d means United Overseas Bank Limited.",
+     "Published on 1 October 2024 United Overseas Bank Limited Co."
+    ],
+    "local_currency": [
+     "For non-Singapore dollar Eligible Transactions charged to the UOB Card, the transaction amount posted by UOB (in Singapore Dollars) in such UOB Card account will be used for the purposes of computing the Minimum Eligible Spend for this Promotion."
+    ]
+   },
+   "non_mcc_exclusions": [
+    "annual fee",
+    "axs",
+    "bill payment",
+    "cash advance",
+    "charit",
+    "education",
+    "government",
+    "grabpay",
+    "instalment",
+    "interest",
+    "late payment charge",
+    "top-ups",
+    "utilit"
+   ]
+  },
+  {
+   "url": "https://www.uob.com.sg/web-resources/personal/pdf/personal/cards/credit-cards/rewards-cards/uob-preferred-platinum-visa-card/terms-and-conditions-for-preferred-plat-visa.pdf?i_cid=pfs:sg:owned:int:site:na:li:na:na:na-evergreen:direct:na&vid=none",
+   "citation": {
+    "id": "bank:611f5770008e",
+    "url": "https://www.uob.com.sg/web-resources/personal/pdf/personal/cards/credit-cards/rewards-cards/uob-preferred-platinum-visa-card/terms-and-conditions-for-preferred-plat-visa.pdf?i_cid=pfs:sg:owned:int:site:na:li:na:na:na-evergreen:direct:na&vid=none",
+    "source_type": "official",
+    "retrieved_at": "2026-09-27T08:44:35+00:00",
+    "sha256": "611f5770008e3a55af9ea9a18349f45a5d5950813c15b1e3b4bddcc4129eb88e",
+    "snapshot": "data/raw/bank/sonal-cards-credit-cards-rewards-cards-uob-preferred-platinum-visa-card-terms-and-conditions-for-preferred-plat-visa-pdf-6c6c63e6.pdf"
+   },
+   "text_path": "data/raw/bank/sonal-cards-credit-cards-rewards-cards-uob-preferred-platinum-visa-card-terms-and-conditions-for-preferred-plat-visa-pdf-6c6c63e6.txt",
+   "sha256": "611f5770008e3a55af9ea9a18349f45a5d5950813c15b1e3b4bddcc4129eb88e",
+   "changed": false,
+   "new": true,
+   "no_text_layer": false,
+   "effective_dates": [
+    "1\nOctober 2024",
+    "1 August 2022",
+    "1 October 2024",
+    "22 May 2020",
+    "28 Aug 2025"
+   ],
+   "mcc": {
+    "include": [
+     "4816",
+     "4829",
+     "4900",
+     "5199",
+     "5262",
+     "5306",
+     "5309",
+     "5310",
+     "5311",
+     "5331",
+     "5333",
+     "5399",
+     "5411",
+     "5441",
+     "5462",
+     "5499",
+     "5611",
+     "5621",
+     "5631",
+     "5641",
+     "5651",
+     "5661",
+     "5691",
+     "5699",
+     "5732-5735",
+     "5912",
+     "5942",
+     "5944-5949",
+     "5960",
+     "5964",
+     "5965",
+     "5966-5970",
+     "5992",
+     "5993",
+     "5999",
+     "6012",
+     "6050",
+     "6051",
+     "6211",
+     "6300",
+     "6513",
+     "6529",
+     "6530",
+     "6534",
+     "6540",
+     "7278",
+     "7349",
+     "7511",
+     "7523",
+     "7832",
+     "7841",
+     "7922",
+     "7991",
+     "7995",
+     "7996",
+     "7998-7999",
+     "8012",
+     "8062",
+     "8211",
+     "8220",
+     "8241",
+     "8244",
+     "8249",
+     "8299",
+     "8398",
+     "8651",
+     "8661",
+     "8699",
+     "8999",
+     "9211",
+     "9222",
+     "9223",
+     "9311",
+     "9399",
+     "9402",
+     "9405",
+     "9751"
+    ],
+    "exclude": [],
+    "unknown": [],
+    "conflicting": [],
+    "unrecognised": [
+     "5306",
+     "5333",
+     "6529",
+     "6530",
+     "6534",
+     "8012",
+     "9751"
+    ],
+    "hits": [
+     {
+      "code": "4816",
+      "polarity": "include",
+      "page": 1,
+      "line": "Department Stores and 4816, 5262, 5306, 5309, 5310, 5311, 5331, 5399, 5611,",
+      "reason": "any merchant provided that such merchant falls within any one of the following Merchant Category",
+      "in_reference": true
+     },
+     {
+      "code": "5262",
+      "polarity": "include",
+      "page": 1,
+      "line": "Department Stores and 4816, 5262, 5306, 5309, 5310, 5311, 5331, 5399, 5611,",
+      "reason": "any merchant provided that such merchant falls within any one of the following Merchant Category",
+      "in_reference": true
+     },
+     {
+      "code": "5306",
+      "polarity": "include",
+      "page": 1,
+      "line": "Department Stores and 4816, 5262, 5306, 5309, 5310, 5311, 5331, 5399, 5611,",
+      "reason": "any merchant provided that such merchant falls within any one of the following Merchant Category",
+      "in_reference": false
+     },
+     {
+      "code": "5309",
+      "polarity": "include",
+      "page": 1,
+      "line": "Department Stores and 4816, 5262, 5306, 5309, 5310, 5311, 5331, 5399, 5611,",
+      "reason": "any merchant provided that such merchant falls within any one of the following Merchant Category",
+      "in_reference": true
+     },
+     {
+      "code": "5310",
+      "polarity": "include",
+      "page": 1,
+      "line": "Department Stores and 4816, 5262, 5306, 5309, 5310, 5311, 5331, 5399, 5611,",
+      "reason": "any merchant provided that such merchant falls within any one of the following Merchant Category",
+      "in_reference": true
+     },
+     {
+      "code": "5311",
+      "polarity": "include",
+      "page": 1,
+      "line": "Department Stores and 4816, 5262, 5306, 5309, 5310, 5311, 5331, 5399, 5611,",
+      "reason": "any merchant provided that such merchant falls within any one of the following Merchant Category",
+      "in_reference": true
+     },
+     {
+      "code": "5331",
+      "polarity": "include",
+      "page": 1,
+      "line": "Department Stores and 4816, 5262, 5306, 5309, 5310, 5311, 5331, 5399, 5611,",
+      "reason": "any merchant provided that such merchant falls within any one of the following Merchant Category",
+      "in_reference": true
+     },
+     {
+      "code": "5399",
+      "polarity": "include",
+      "page": 1,
+      "line": "Department Stores and 4816, 5262, 5306, 5309, 5310, 5311, 5331, 5399, 5611,",
+      "reason": "any merchant provided that such merchant falls within any one of the following Merchant Category",
+      "in_reference": true
+     },
+     {
+      "code": "5611",
+      "polarity": "include",
+      "page": 1,
+      "line": "Department Stores and 4816, 5262, 5306, 5309, 5310, 5311, 5331, 5399, 5611,",
+      "reason": "any merchant provided that such merchant falls within any one of the following Merchant Category",
+      "in_reference": true
+     },
+     {
+      "code": "5732-5735",
+      "polarity": "include",
+      "page": 1,
+      "line": "Retail Stores 5621, 5631, 5641, 5651, 5661, 5691, 5699, 5732-5735,",
+      "reason": "any merchant provided that such merchant falls within any one of the following Merchant Category",
+      "in_reference": null
+     },
+     {
+      "code": "5621",
+      "polarity": "include",
+      "page": 1,
+      "line": "Retail Stores 5621, 5631, 5641, 5651, 5661, 5691, 5699, 5732-5735,",
+      "reason": "any merchant provided that such merchant falls within any one of the following Merchant Category",
+      "in_reference": true
+     },
+     {
+      "code": "5631",
+      "polarity": "include",
+      "page": 1,
+      "line": "Retail Stores 5621, 5631, 5641, 5651, 5661, 5691, 5699, 5732-5735,",
+      "reason": "any merchant provided that such merchant falls within any one of the following Merchant Category",
+      "in_reference": true
+     },
+     {
+      "code": "5641",
+      "polarity": "include",
+      "page": 1,
+      "line": "Retail Stores 5621, 5631, 5641, 5651, 5661, 5691, 5699, 5732-5735,",
+      "reason": "any merchant provided that such merchant falls within any one of the following Merchant Category",
+      "in_reference": true
+     },
+     {
+      "code": "5651",
+      "polarity": "include",
+      "page": 1,
+      "line": "Retail Stores 5621, 5631, 5641, 5651, 5661, 5691, 5699, 5732-5735,",
+      "reason": "any merchant provided that such merchant falls within any one of the following Merchant Category",
+      "in_reference": true
+     },
+     {
+      "code": "5661",
+      "polarity": "include",
+      "page": 1,
+      "line": "Retail Stores 5621, 5631, 5641, 5651, 5661, 5691, 5699, 5732-5735,",
+      "reason": "any merchant provided that such merchant falls within any one of the following Merchant Category",
+      "in_reference": true
+     },
+     {
+      "code": "5691",
+      "polarity": "include",
+      "page": 1,
+      "line": "Retail Stores 5621, 5631, 5641, 5651, 5661, 5691, 5699, 5732-5735,",
+      "reason": "any merchant provided that such merchant falls within any one of the following Merchant Category",
+      "in_reference": true
+     },
+     {
+      "code": "5699",
+      "polarity": "include",
+      "page": 1,
+      "line": "Retail Stores 5621, 5631, 5641, 5651, 5661, 5691, 5699, 5732-5735,",
+      "reason": "any merchant provided that such merchant falls within any one of the following Merchant Category",
+      "in_reference": true
+     },
+     {
+      "code": "5944-5949",
+      "polarity": "include",
+      "page": 1,
+      "line": "5912, 5942, 5944-5949, 5964, 5966-5970, 5992, 5999",
+      "reason": "any merchant provided that such merchant falls within any one of the following Merchant Category",
+      "in_reference": null
+     },
+     {
+      "code": "5966-5970",
+      "polarity": "include",
+      "page": 1,
+      "line": "5912, 5942, 5944-5949, 5964, 5966-5970, 5992, 5999",
+      "reason": "any merchant provided that such merchant falls within any one of the following Merchant Category",
+      "in_reference": null
+     },
+     {
+      "code": "5912",
+      "polarity": "include",
+      "page": 1,
+      "line": "5912, 5942, 5944-5949, 5964, 5966-5970, 5992, 5999",
+      "reason": "any merchant provided that such merchant falls within any one of the following Merchant Category",
+      "in_reference": true
+     },
+     {
+      "code": "5942",
+      "polarity": "include",
+      "page": 1,
+      "line": "5912, 5942, 5944-5949, 5964, 5966-5970, 5992, 5999",
+      "reason": "any merchant provided that such merchant falls within any one of the following Merchant Category",
+      "in_reference": true
+     },
+     {
+      "code": "5964",
+      "polarity": "include",
+      "page": 1,
+      "line": "5912, 5942, 5944-5949, 5964, 5966-5970, 5992, 5999",
+      "reason": "any merchant provided that such merchant falls within any one of the following Merchant Category",
+      "in_reference": true
+     },
+     {
+      "code": "5992",
+      "polarity": "include",
+      "page": 1,
+      "line": "5912, 5942, 5944-5949, 5964, 5966-5970, 5992, 5999",
+      "reason": "any merchant provided that such merchant falls within any one of the following Merchant Category",
+      "in_reference": true
+     },
+     {
+      "code": "5999",
+      "polarity": "include",
+      "page": 1,
+      "line": "5912, 5942, 5944-5949, 5964, 5966-5970, 5992, 5999",
+      "reason": "any merchant provided that such merchant falls within any one of the following Merchant Category",
+      "in_reference": true
+     },
+     {
+      "code": "5965",
+      "polarity": "include",
+      "page": 1,
+      "line": "awarded for transactions with MCC 5965 Direct Marketing \u2013",
+      "reason": "any merchant provided that such merchant falls within any one of the following Merchant Category",
+      "in_reference": true
+     },
+     {
+      "code": "5333",
+      "polarity": "include",
+      "page": 1,
+      "line": "Supermarkets, Dining and 5811,5812,5814, 5333, 5411, 5441, 5462, 5499, 8012, 9751",
+      "reason": "any merchant provided that such merchant falls within any one of the following Merchant Category",
+      "in_reference": false
+     },
+     {
+      "code": "5411",
+      "polarity": "include",
+      "page": 1,
+      "line": "Supermarkets, Dining and 5811,5812,5814, 5333, 5411, 5441, 5462, 5499, 8012, 9751",
+      "reason": "any merchant provided that such merchant falls within any one of the following Merchant Category",
+      "in_reference": true
+     },
+     {
+      "code": "5441",
+      "polarity": "include",
+      "page": 1,
+      "line": "Supermarkets, Dining and 5811,5812,5814, 5333, 5411, 5441, 5462, 5499, 8012, 9751",
+      "reason": "any merchant provided that such merchant falls within any one of the following Merchant Category",
+      "in_reference": true
+     },
+     {
+      "code": "5462",
+      "polarity": "include",
+      "page": 1,
+      "line": "Supermarkets, Dining and 5811,5812,5814, 5333, 5411, 5441, 5462, 5499, 8012, 9751",
+      "reason": "any merchant provided that such merchant falls within any one of the following Merchant Category",
+      "in_reference": true
+     },
+     {
+      "code": "5499",
+      "polarity": "include",
+      "page": 1,
+      "line": "Supermarkets, Dining and 5811,5812,5814, 5333, 5411, 5441, 5462, 5499, 8012, 9751",
+      "reason": "any merchant provided that such merchant falls within any one of the following Merchant Category",
+      "in_reference": true
+     },
+     {
+      "code": "8012",
+      "polarity": "include",
+      "page": 1,
+      "line": "Supermarkets, Dining and 5811,5812,5814, 5333, 5411, 5441, 5462, 5499, 8012, 9751",
+      "reason": "any merchant provided that such merchant falls within any one of the following Merchant Category",
+      "in_reference": false
+     },
+     {
+      "code": "9751",
+      "polarity": "include",
+      "page": 1,
+      "line": "Supermarkets, Dining and 5811,5812,5814, 5333, 5411, 5441, 5462, 5499, 8012, 9751",
+      "reason": "any merchant provided that such merchant falls within any one of the following Merchant Category",
+      "in_reference": false
+     },
+     {
+      "code": "7998-7999",
+      "polarity": "include",
+      "page": 1,
+      "line": "Entertainment and Ticketing 7278, 7832, 7841, 7922, 7991, 7996, 7998-7999",
+      "reason": "any merchant provided that such merchant falls within any one of the following Merchant Category",
+      "in_reference": null
+     },
+     {
+      "code": "7278",
+      "polarity": "include",
+      "page": 1,
+      "line": "Entertainment and Ticketing 7278, 7832, 7841, 7922, 7991, 7996, 7998-7999",
+      "reason": "any merchant provided that such merchant falls within any one of the following Merchant Category",
+      "in_reference": true
+     },
+     {
+      "code": "7832",
+      "polarity": "include",
+      "page": 1,
+      "line": "Entertainment and Ticketing 7278, 7832, 7841, 7922, 7991, 7996, 7998-7999",
+      "reason": "any merchant provided that such merchant falls within any one of the following Merchant Category",
+      "in_reference": true
+     },
+     {
+      "code": "7841",
+      "polarity": "include",
+      "page": 1,
+      "line": "Entertainment and Ticketing 7278, 7832, 7841, 7922, 7991, 7996, 7998-7999",
+      "reason": "any merchant provided that such merchant falls within any one of the following Merchant Category",
+      "in_reference": true
+     },
+     {
+      "code": "7922",
+      "polarity": "include",
+      "page": 1,
+      "line": "Entertainment and Ticketing 7278, 7832, 7841, 7922, 7991, 7996, 7998-7999",
+      "reason": "any merchant provided that such merchant falls within any one of the following Merchant Category",
+      "in_reference": true
+     },
+     {
+      "code": "7991",
+      "polarity": "include",
+      "page": 1,
+      "line": "Entertainment and Ticketing 7278, 7832, 7841, 7922, 7991, 7996, 7998-7999",
+      "reason": "any merchant provided that such merchant falls within any one of the following Merchant Category",
+      "in_reference": true
+     },
+     {
+      "code": "7996",
+      "polarity": "include",
+      "page": 1,
+      "line": "Entertainment and Ticketing 7278, 7832, 7841, 7922, 7991, 7996, 7998-7999",
+      "reason": "any merchant provided that such merchant falls within any one of the following Merchant Category",
+      "in_reference": true
+     },
+     {
+      "code": "4829",
+      "polarity": "include",
+      "page": 3,
+      "line": "4829 Wire Transfer/Remittance",
+      "reason": "(vii) any transactions under the following Merchant Category Code (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "4900",
+      "polarity": "include",
+      "page": 3,
+      "line": "4900 Utilities (with effect from 1 August 2022)",
+      "reason": "(vii) any transactions under the following Merchant Category Code (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "5199",
+      "polarity": "include",
+      "page": 3,
+      "line": "5199 Nondurable Good",
+      "reason": "(vii) any transactions under the following Merchant Category Code (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "5960",
+      "polarity": "include",
+      "page": 3,
+      "line": "5960 Direct Marketing - Insurance Services",
+      "reason": "(vii) any transactions under the following Merchant Category Code (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "5965",
+      "polarity": "include",
+      "page": 3,
+      "line": "5965 Direct Marketing \u2013 Combination Catalog and Retail Merchants (with effect",
+      "reason": "(vii) any transactions under the following Merchant Category Code (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "5993",
+      "polarity": "include",
+      "page": 3,
+      "line": "5993 Cigar Stores and Stands (with effect from 1 October 2024)",
+      "reason": "(vii) any transactions under the following Merchant Category Code (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "6012",
+      "polarity": "include",
+      "page": 3,
+      "line": "6012 Member Financial Institution\u2013Merchandise and Services",
+      "reason": "(vii) any transactions under the following Merchant Category Code (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "6050",
+      "polarity": "include",
+      "page": 3,
+      "line": "6050 Quasi Cash\u2013Financial Institutions, Merchandise and Services",
+      "reason": "(vii) any transactions under the following Merchant Category Code (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "6051",
+      "polarity": "include",
+      "page": 3,
+      "line": "6051 Quasi Cash\u2013Merchant (Non-Financial Institutions \u2013 Foreign Currency, Non-",
+      "reason": "(vii) any transactions under the following Merchant Category Code (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "6211",
+      "polarity": "include",
+      "page": 3,
+      "line": "6211 Securities\u2013Brokers and Dealers",
+      "reason": "(vii) any transactions under the following Merchant Category Code (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "6300",
+      "polarity": "include",
+      "page": 3,
+      "line": "6300 Insurance Sales/Underwrite",
+      "reason": "(vii) any transactions under the following Merchant Category Code (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "6513",
+      "polarity": "include",
+      "page": 3,
+      "line": "6513 Real Estate Agents & Managers \u2013 Rentals",
+      "reason": "(vii) any transactions under the following Merchant Category Code (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "6529",
+      "polarity": "include",
+      "page": 3,
+      "line": "6529 Quasi Cash-Remote Stored Value Load-Financial Institute Rentals",
+      "reason": "(vii) any transactions under the following Merchant Category Code (MCC):",
+      "in_reference": false
+     },
+     {
+      "code": "6530",
+      "polarity": "include",
+      "page": 3,
+      "line": "6530 Quasi Cash-Remote Stored Value Load-Merchant Rentals",
+      "reason": "(vii) any transactions under the following Merchant Category Code (MCC):",
+      "in_reference": false
+     },
+     {
+      "code": "6534",
+      "polarity": "include",
+      "page": 3,
+      "line": "6534 Quasi Cash-Remote Money Transfers",
+      "reason": "(vii) any transactions under the following Merchant Category Code (MCC):",
+      "in_reference": false
+     },
+     {
+      "code": "6540",
+      "polarity": "include",
+      "page": 3,
+      "line": "6540 Stored Value Card Purchase/Load",
+      "reason": "(vii) any transactions under the following Merchant Category Code (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "7349",
+      "polarity": "include",
+      "page": 3,
+      "line": "7349 Clean/Maint/Janitorial Serv aka Property Management",
+      "reason": "(vii) any transactions under the following Merchant Category Code (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "7511",
+      "polarity": "include",
+      "page": 4,
+      "line": "7511 Quasi Cash \u2013 Truck Stop Trxns",
+      "reason": "(vii) any transactions under the following Merchant Category Code (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "7523",
+      "polarity": "include",
+      "page": 4,
+      "line": "7523 Automobile Parking Lots and Garages",
+      "reason": "(vii) any transactions under the following Merchant Category Code (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "7995",
+      "polarity": "include",
+      "page": 4,
+      "line": "7995 Gambling - Betting, including Lottery Tickets, Casino Gaming Chips, Off-",
+      "reason": "(vii) any transactions under the following Merchant Category Code (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "8062",
+      "polarity": "include",
+      "page": 4,
+      "line": "8062 Hospitals",
+      "reason": "(vii) any transactions under the following Merchant Category Code (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "8211",
+      "polarity": "include",
+      "page": 4,
+      "line": "8211 Schools, Elementary and Secondary",
+      "reason": "(vii) any transactions under the following Merchant Category Code (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "8220",
+      "polarity": "include",
+      "page": 4,
+      "line": "8220 Colleges, Universities, Professional Schools and Junior Colleges",
+      "reason": "(vii) any transactions under the following Merchant Category Code (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "8241",
+      "polarity": "include",
+      "page": 4,
+      "line": "8241 Schools, Correspondence",
+      "reason": "(vii) any transactions under the following Merchant Category Code (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "8244",
+      "polarity": "include",
+      "page": 4,
+      "line": "8244 Schools, Business and Secretarial",
+      "reason": "(vii) any transactions under the following Merchant Category Code (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "8249",
+      "polarity": "include",
+      "page": 4,
+      "line": "8249 Schools, Trade and Vocational",
+      "reason": "(vii) any transactions under the following Merchant Category Code (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "8299",
+      "polarity": "include",
+      "page": 4,
+      "line": "8299 Schools and Educational Services\u2013Not Elsewhere Classified",
+      "reason": "(vii) any transactions under the following Merchant Category Code (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "8398",
+      "polarity": "include",
+      "page": 4,
+      "line": "8398 Organizations, Charitable and Social Service",
+      "reason": "(vii) any transactions under the following Merchant Category Code (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "8661",
+      "polarity": "include",
+      "page": 4,
+      "line": "8661 Organizations, Religious",
+      "reason": "(vii) any transactions under the following Merchant Category Code (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "8651",
+      "polarity": "include",
+      "page": 4,
+      "line": "8651 Organizations, Political",
+      "reason": "(vii) any transactions under the following Merchant Category Code (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "8699",
+      "polarity": "include",
+      "page": 4,
+      "line": "8699 Membership Organizations (Not Elsewhere Classified) (with effect from 1",
+      "reason": "(vii) any transactions under the following Merchant Category Code (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "8999",
+      "polarity": "include",
+      "page": 4,
+      "line": "8999 Professional Services (Not Elsewhere Classified) (with effect from 1",
+      "reason": "(vii) any transactions under the following Merchant Category Code (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "9211",
+      "polarity": "include",
+      "page": 4,
+      "line": "9211 Court Costs including Alimony and Child Support",
+      "reason": "(vii) any transactions under the following Merchant Category Code (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "9222",
+      "polarity": "include",
+      "page": 4,
+      "line": "9222 Fines",
+      "reason": "(vii) any transactions under the following Merchant Category Code (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "9223",
+      "polarity": "include",
+      "page": 4,
+      "line": "9223 Bail and Bond Payments",
+      "reason": "(vii) any transactions under the following Merchant Category Code (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "9311",
+      "polarity": "include",
+      "page": 4,
+      "line": "9311 Tax Payment",
+      "reason": "(vii) any transactions under the following Merchant Category Code (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "9402",
+      "polarity": "include",
+      "page": 4,
+      "line": "9402 Postal Services\u2014Government Only",
+      "reason": "(vii) any transactions under the following Merchant Category Code (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "9405",
+      "polarity": "include",
+      "page": 4,
+      "line": "9405 Intra-Government Purchases\u2014Government Only",
+      "reason": "(vii) any transactions under the following Merchant Category Code (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "9399",
+      "polarity": "include",
+      "page": 4,
+      "line": "9399 Government Services\u2014not elsewhere classified",
+      "reason": "(vii) any transactions under the following Merchant Category Code (MCC):",
+      "in_reference": true
+     }
+    ]
+   },
+   "transaction_modes": {
+    "online": [
+     "(viii) \u201cOther Retail Transactions\u201d refers to all Card Transactions that is charged to the Card Account which is not a Selected Online Transaction or a Mobile Contactless Transaction.",
+     "(ix) \u201cSelected Online Transactions\u201d refers to online retail Card Transactions (whether made locally or overseas) via websites for the purchase of products or services sold by or made available by any merchant provided that such merchant falls within any one of the following Merchant Category Codes (MCC) and the transaction must not be under any recurring payment arrangement: Category Merchant Cate",
+     "(a) You will earn UNI$10 for every S$5 charged to your Card Account for Selected Online Transactions.",
+     "(i) The UNI$10 awarded to you from qualifying spend on Selected Online Transactions is comprised of a basic UNI$1 earned plus a bonus UNI$9.",
+     "The bonus UNI$ awarded to you from qualifying spend on Selected Online Transactions is capped at UNI$1,080 for each calendar month.",
+     "## RESTRICTED ## (iv) Selected Online Transactions and Mobile Contactless Transactions are treated as separate categories."
+    ],
+    "in_app": [
+     "In-app transactions made via Apple Pay, Google Pay and Samsung Pay or any other payment or mobile wallet service do not constitute \u201cMobile Contactless Transactions\u201d."
+    ],
+    "contactless": [
+     "(v) \u201cContactless Transactions\u201d refers to Card Transactions that are performed using the Card via Visa payWave.",
+     "(vi) \u201cMobile Contactless Transactions\u201d refers collectively to: Card Transactions made via Apple Pay, Google Pay and/or Samsung Pay (or such other payment or mobile wallet services as UOB may from time to time approve at its sole discretion), that is effected at any Visa payWave Readers by waving the mobile device against the physical Visa payWave Readers in-person at the merchant\u2019s physical store.",
+     "In-app transactions made via Apple Pay, Google Pay and Samsung Pay or any other payment or mobile wallet service do not constitute \u201cMobile Contactless Transactions\u201d.",
+     "(viii) \u201cOther Retail Transactions\u201d refers to all Card Transactions that is charged to the Card Account which is not a Selected Online Transaction or a Mobile Contactless Transaction.",
+     "(xii) \u201cVisa payWave Transactions\u201d refers to Card and/or mobile payment or mobile wallet transactions that are performed/effected at any Visa payWave readers by tapping the Card and/or mobile device on the Visa payWave Readers, and which shall be subject to such terms and conditions as UOB and Visa Worldwide Pte.",
+     "(xiii) \u201cVisa payWave Readers\u201d refers to any point of sale device or point of sale terminal (as approved by UOB in its sole and absolute discretion from time to time) at which the Card and/or mobile device may be used to execute the Card Transactions, ether by tapping or waving the Card and/or mobile device against such reader without requiring any signature, PIN or other authentication on the part",
+     "(b) You will earn UNI$10 for every S$5 charged to your Card Account for Contactless Transactions up to 21 May 2020.",
+     "With effect from 22 May 2020, UOB will cease the awarding of UNI$10 for every S$5 charged to your Card Account for all Contactless Transactions.",
+     "(c) You will earn UNI$10 for every S$5 charged to your Card Account for Mobile Contactless Transactions.",
+     "With effect from 28 Aug 2025, SimplyGo (ABT) Transactions will be treated as Mobile Contactless Transactions.",
+     "Accordingly, you will earn UNI$10 per S$5 spend on the accumulated spend on SimplyGo (ABT) Transactions subject to all the terms and conditions applicable to Mobile Contactless Transactions.",
+     "a) Any usage of a Card and/or mobile wallet via a mobile device at any Visa payWave Readers, if permitted by UOB, shall be subject to such terms and conditions as UOB and Visa Worldwide Pte.",
+     "b) The Card may be used to carry out any Contactless Transactions and/or Mobile Contactless Transactions at all Visa payWave Readers and at such other readers or systems as UOB may from time to time approve.",
+     "The first Contactless Transaction and/or Mobile Contactless Transaction shall be subject to such activation and authentication procedures as UOB may in its sole and absolute discretion prescribe from time to time.",
+     "(ii) The UNI$10 awarded to you from qualifying spend on Mobile Contactless Transactions is comprised of a basic UNI$1 earned plus a bonus UNI$9."
+    ],
+    "mobile_wallet": [
+     "(vi) \u201cMobile Contactless Transactions\u201d refers collectively to: Card Transactions made via Apple Pay, Google Pay and/or Samsung Pay (or such other payment or mobile wallet services as UOB may from time to time approve at its sole discretion), that is effected at any Visa payWave Readers by waving the mobile device against the physical Visa payWave Readers in-person at the merchant\u2019s physical store.",
+     "In-app transactions made via Apple Pay, Google Pay and Samsung Pay or any other payment or mobile wallet service do not constitute \u201cMobile Contactless Transactions\u201d.",
+     "(xii) \u201cVisa payWave Transactions\u201d refers to Card and/or mobile payment or mobile wallet transactions that are performed/effected at any Visa payWave readers by tapping the Card and/or mobile device on the Visa payWave Readers, and which shall be subject to such terms and conditions as UOB and Visa Worldwide Pte.",
+     "a) Any usage of a Card and/or mobile wallet via a mobile device at any Visa payWave Readers, if permitted by UOB, shall be subject to such terms and conditions as UOB and Visa Worldwide Pte."
+    ],
+    "recurring": [
+     "(ix) \u201cSelected Online Transactions\u201d refers to online retail Card Transactions (whether made locally or overseas) via websites for the purchase of products or services sold by or made available by any merchant provided that such merchant falls within any one of the following Merchant Category Codes (MCC) and the transaction must not be under any recurring payment arrangement: Category Merchant Cate"
+    ],
+    "foreign_currency": [
+     "(i) \u201cCard\u201d refers to UOB Preferred Visa Card issued by United Overseas Bank Limited (\u201cUOB\u201d) in Singapore.",
+     "(ix) \u201cSelected Online Transactions\u201d refers to online retail Card Transactions (whether made locally or overseas) via websites for the purchase of products or services sold by or made available by any merchant provided that such merchant falls within any one of the following Merchant Category Codes (MCC) and the transaction must not be under any recurring payment arrangement: Category Merchant Cate",
+     "(xi) \u201cUOB\u201d refers to United Overseas Bank Limited and shall include its successors and assigns.",
+     "(vii) any transactions under the following Merchant Category Code (MCC): Merchant Category Description Code (MCC) 4829 Wire Transfer/Remittance 4900 Utilities (with effect from 1 August 2022) 5199 Nondurable Good 5960 Direct Marketing - Insurance Services 5965 Direct Marketing \u2013 Combination Catalog and Retail Merchants (with effect from 1 October 2024) 5993 Cigar Stores and Stands (with effect fro",
+     "Updated 10 March 2026 (Ver 3.0) United Overseas Bank Limited Co."
+    ]
+   },
+   "non_mcc_exclusions": [
+    "annual fee",
+    "axs",
+    "bill payment",
+    "cash advance",
+    "charit",
+    "education",
+    "government",
+    "hospital",
+    "instalment",
+    "interest",
+    "ipaymy",
+    "late payment charge",
+    "tax",
+    "top-ups",
+    "utilit"
+   ]
+  },
+  {
+   "url": "https://www.uob.com.sg/assets/pdfs/add-on-card-terms-conditions.pdf",
+   "citation": {
+    "id": "bank:42358e29d735",
+    "url": "https://www.uob.com.sg/assets/pdfs/add-on-card-terms-conditions.pdf",
+    "source_type": "official",
+    "retrieved_at": "2026-09-27T08:44:37+00:00",
+    "sha256": "42358e29d7350a9750c477afebed16d22e101f969821263b9777733152bf0a95",
+    "snapshot": "data/raw/bank/www-uob-com-sg-assets-pdfs-add-on-card-terms-conditions-pdf-294d1c4b.pdf"
+   },
+   "text_path": "data/raw/bank/www-uob-com-sg-assets-pdfs-add-on-card-terms-conditions-pdf-294d1c4b.txt",
+   "sha256": "42358e29d7350a9750c477afebed16d22e101f969821263b9777733152bf0a95",
+   "changed": false,
+   "new": true,
+   "no_text_layer": false,
+   "effective_dates": [],
+   "mcc": {
+    "include": [],
+    "exclude": [],
+    "unknown": [],
+    "conflicting": [],
+    "unrecognised": [],
+    "hits": []
+   },
+   "transaction_modes": {
+    "recurring": [
+     "There must be minimum 1 and maximum 8 Singtel accounts charged to Singtel- UOB card on recurring basis at all times to enjoy all benefits and privileges including perpetual annual fee waiver, else an annual fee of S$196.20 will apply."
+    ]
+   },
+   "non_mcc_exclusions": [
+    "annual fee",
+    "tax"
+   ]
+  }
+ ],
+ "changed": false,
+ "removed_documents": []
+}

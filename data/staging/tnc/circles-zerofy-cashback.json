@@ -1,0 +1,77 @@
+{
+ "card_id": "circles-zerofy-cashback",
+ "product_pages": [
+  {
+   "id": "bank:7926eae33406",
+   "url": "https://www.circles.life/sg/circles-zerofy-cashback-card/",
+   "source_type": "official",
+   "retrieved_at": "2026-09-27T07:30:54+00:00",
+   "sha256": "7926eae334065ff2f36cbe894dc8399ed22f43530a58db989b34bbe25d7d569c",
+   "snapshot": "data/raw/bank/www-circles-life-sg-circles-zerofy-cashback-card-c7879eb8.html"
+  }
+ ],
+ "documents": [
+  {
+   "url": "https://www.circles.life/sg/terms-conditions/zerofy-card-terms-conditions/",
+   "citation": {
+    "id": "bank:937aa787e116",
+    "url": "https://www.circles.life/sg/terms-conditions/zerofy-card-terms-conditions/",
+    "source_type": "official",
+    "retrieved_at": "2026-09-27T07:30:56+00:00",
+    "sha256": "937aa787e1164e494203bf05e63df1a8382b3b79ad2c067487acd1645058537b",
+    "snapshot": "data/raw/bank/www-circles-life-sg-terms-conditions-zerofy-card-terms-conditions-1e201a51.html"
+   },
+   "text_path": "data/raw/bank/www-circles-life-sg-terms-conditions-zerofy-card-terms-conditions-1e201a51.txt",
+   "sha256": "937aa787e1164e494203bf05e63df1a8382b3b79ad2c067487acd1645058537b",
+   "changed": false,
+   "new": false,
+   "no_text_layer": false,
+   "effective_dates": [],
+   "mcc": {
+    "include": [],
+    "exclude": [
+     "1000"
+    ],
+    "unknown": [],
+    "conflicting": [],
+    "unrecognised": [
+     "1000"
+    ],
+    "hits": [
+     {
+      "code": "1000",
+      "polarity": "exclude",
+      "page": 1,
+      "line": "Circles.Life\u2019s total liability shall not exceed SGD 1000 or the value of Cashback earned in the preceding 6 months, whichever is lower. We are not liable for:",
+      "reason": "Cashback rates vary by merchant category, promotion, or program structure and are subject to change without prior notice. The applicable percentage will be applied to the net eligible spend, excluding fees, taxes, or surcharges.",
+      "in_reference": false
+     }
+    ]
+   },
+   "transaction_modes": {
+    "online": [
+     "Usage of the Zerofy Card The Zerofy Card may be used for: Online and in-app purchases where Visa (or relevant network) is accepted;"
+    ],
+    "in_app": [
+     "Usage of the Zerofy Card The Zerofy Card may be used for: Online and in-app purchases where Visa (or relevant network) is accepted;"
+    ],
+    "recurring": [
+     "Eligibility and Account Requirements The Zerofy Card is available to active Circles.Life customers who: Hold a valid Circles.Life subscription in good standing;"
+    ],
+    "local_currency": [
+     "Liability Circles.Life\u2019s total liability shall not exceed SGD 1000 or the value of Cashback earned in the preceding 6 months, whichever is lower."
+    ]
+   },
+   "non_mcc_exclusions": [
+    "charit",
+    "e-wallet",
+    "government",
+    "tax",
+    "top-ups",
+    "utilit"
+   ]
+  }
+ ],
+ "changed": false,
+ "removed_documents": []
+}

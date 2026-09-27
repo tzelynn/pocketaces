@@ -1,0 +1,22 @@
+{
+ "https://www.singaporeair.com/content/dam/sia/web-assets/pdfs/ppsclub-krisflyer/krisflyer/progupdates/awardcharts/SingaporeAirlines_One-Way_AdvantageSaver_Award_Chart_260819.pdf": {
+  "content_type": "application/pdf",
+  "final_url": "https://www.singaporeair.com/content/dam/sia/web-assets/pdfs/ppsclub-krisflyer/krisflyer/progupdates/awardcharts/SingaporeAirlines_One-Way_AdvantageSaver_Award_Chart_260819.pdf",
+  "path": "data/raw/singaporeair/pdfs-ppsclub-krisflyer-krisflyer-progupdates-awardcharts-SingaporeAirlines-One-Way-AdvantageSaver-Award-Chart-260819-pdf-c01f0274.pdf",
+  "retrieved_at": "2026-09-27T05:24:33+00:00",
+  "sha256": "1f321d9ded4bdda7dac7bce5da846385826acd1bacb8c808bfaa4563e8a42c99",
+  "source": "singaporeair",
+  "status": 200,
+  "url": "https://www.singaporeair.com/content/dam/sia/web-assets/pdfs/ppsclub-krisflyer/krisflyer/progupdates/awardcharts/SingaporeAirlines_One-Way_AdvantageSaver_Award_Chart_260819.pdf"
+ },
+ "https://www.singaporeair.com/en_UK/sg/ppsclub-krisflyer/use-miles/redeem-miles/": {
+  "content_type": "text/html",
+  "final_url": "https://www.singaporeair.com/en_UK/sg/ppsclub-krisflyer/use-miles/redeem-miles/",
+  "path": "data/raw/singaporeair/www-singaporeair-com-en-UK-sg-ppsclub-krisflyer-use-miles-redeem-miles-dfa98f7e.html",
+  "retrieved_at": "2026-09-27T05:24:31+00:00",
+  "sha256": "1f1214377a85fdfa4309de436b594dcbe763911f842a23d96043ef2f7901f5f0",
+  "source": "singaporeair",
+  "status": 200,
+  "url": "https://www.singaporeair.com/en_UK/sg/ppsclub-krisflyer/use-miles/redeem-miles/"
+ }
+}

@@ -1,0 +1,89 @@
+{
+ "source": "moneysmart",
+ "source_id": "standard-chartered-smart-credit-card",
+ "source_url": "https://www.moneysmart.sg/credit-cards/standard-chartered-smart-credit-card",
+ "name": "Standard Chartered Smart Credit Card",
+ "bank": "Standard Chartered",
+ "card_id": "standard-chartered-smart",
+ "image_url": "https://photos.cdn-moneysmart.com/credit_cards/uploads/products/images/image_url_2021-09-29_SC_Card_Smart_AssetA_v3-min-min.png",
+ "earn_rates": {},
+ "caps": {},
+ "highlights": [
+  "10% Bonus Cashback on spends above S$1,500 on Bonus Categories",
+  "8% Bonus Cashback on spends above S$800 on Bonus Categories",
+  "0.5% Cashback on eligible spends below S$800",
+  "Get up to 10% bonus cashback on 3 bonus categories: Smart Dining, Smart Streaming and Smart Transport",
+  "Smart Dining merchants: McDonald's, KFC, Burger King, Ya Kun Kaya Toast, Toast Box, Starbucks, The Coffee Bean & Tea Leaf, and many more!",
+  "Smart Streaming merchants: Netflix, Spotify, YouTube, Disney+​, Amazon Prime, Viu, iQiyi, HBO GO",
+  "Smart Transport: Bus & MRT commute via SimplyGo, Electric Vehicle Charging",
+  "Enjoy 1% cashback on all other eligible spends (for card spend above S$1,500)",
+  "No cap on your cashback",
+  "Enjoy SmartDelay - complimentary access to selected airport lounges worldwide in event of flight delay (effective 15 Jan 2025 onwards)",
+  "At MoneySmart, we strive to keep our information accurate and up to date. This information may be different from what you see when you visit a financial institution, service provider, or specific product site. MoneySmart shall not be liable to compensate the Customer should the information is not as updated as our Partner."
+ ],
+ "sign_up_offers": [],
+ "links": {
+  "product": "https://www.moneysmart.sg/credit-cards/standard-chartered-smart-credit-card",
+  "review": "https://blog.moneysmart.sg/credit-cards/standard-chartered-smart-credit-card-moneysmart-review/"
+ },
+ "citation": {
+  "id": "moneysmart:49fcb3586f25",
+  "url": "https://www.moneysmart.sg/credit-cards?page=4",
+  "title": "Standard Chartered Smart Credit Card",
+  "source_type": "aggregator",
+  "retrieved_at": "2026-09-27T05:27:20+00:00",
+  "sha256": "49fcb3586f252df0b2dacb9acecc465127e09c9defa7f151881c3db46d84649e",
+  "snapshot": "data/raw/moneysmart/credit-cards-p4-1a322210.html"
+ },
+ "extra": {
+  "summary": "Introducing the Standard Chartered Smart Credit Card, your gateway to smart spending and rewarding perks! With this card, you can earn a whopping 10% cashback on selected merchants like McDonald's, Starbucks, Netflix, Disney+, Spotify and SimplyGo when you spend a min. of S$1,500 per month!",
+  "badges": [
+   "Earn up to 10% Bonus Cashback"
+  ],
+  "network": [
+   "Visa"
+  ],
+  "mobile_wallets": [
+   "Visa Contactless",
+   "Google Pay",
+   "Apple Pay",
+   "Samsung Pay"
+  ],
+  "groups": {
+   "annual-interest-rate-and-fees": {
+    "Annual Interest Rate": "27.9",
+    "Annual Principal Fee": "S$91 (excluding GST)",
+    "Supplementary Annual Fee": "0",
+    "Fee Waiver": "Annual Fee waived if your annual spend is above S$10,000",
+    "Minimum Monthly Repayment": "S$50 OR 1% of principal / interest, fees & charges / overlimit amount / past due amount, whichever is higher",
+    "Interest Free Period": "Available"
+   },
+   "minimum-income-requirements": {
+    "Singaporean/PR Minimum Annual Income": "30000",
+    "Non-Singaporean Minimum Annual Income": "90000"
+   },
+   "card-association": {
+    "Visa": "true"
+   },
+   "wireless-payment": {
+    "Visa Contactless": "true",
+    "Google Pay": "true",
+    "Apple Pay": "true",
+    "Samsung Pay": "true"
+   },
+   "documents-required": {
+    "SG Citizens or PRs": "Apply via MyInfo and prepare the following, \n1. Copy of Passport (6 months validity), and page with address displayed (where applicable), \n2. Copy of Employment Pass, \n3. Either one of the following: utility bill, tax bill, latest bank /credit card statement, rental agreement showing your address, latest mobile phone statement, letter from employer stating current address, government-issued document stating current address",
+    "Passport Validity (Foreigners)": "6 months",
+    "Work Permit Validity (Foreigners)": "6 months",
+    "Utility or Telephone Bill": "true",
+    "Income Tax Notice of Assessment": "true"
+   }
+  },
+  "our_takes": {
+   "our-take": "The Standard Chartered Smart Credit Card is best for those who concentrate their spending in dining, streaming, and transport. If you hit the S$1,500 monthly spend, the boosted 10% cashback makes this card a strong contender in those categories. For lower spenders, the cashback rates are less competitive. Consider if your spending habits align, as maximizing the card's value hinges on meeting the minimum spend and focusing on bonus categories. The lack of cashback cap gives unlimited potential, which is rare!",
+   "good-for": "Young adults who frequently order food online and stream movies, seeking cashback benefits.\nCommuters using public transport or electric vehicle charging looking to maximize rewards on daily expenses.\nIndividuals looking to earn cashback on dining and transport, with no cashback cap for higher spending.",
+   "things-to-note": "Spending less than S$800 earns only 0.5% cashback, reducing your potential returns.\n27.9% annual interest rate means carrying a balance can result in substantial interest charges.\nThe S$91 annual fee (excluding GST) applies after the first year, offsetting rewards if spending is below S$10,000 yearly."
+  },
+  "updated_at": "2026-02-01T00:00:05+08:00"
+ }
+}

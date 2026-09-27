@@ -1,0 +1,140 @@
+# Curated card record. Auto-drafted from staged sources; verify every value against the
+# official T&Cs (citations below), then set review.status: reviewed.
+id: uob-absolute-cashback
+bank: UOB
+name: UOB Absolute Cashback Card
+network: amex
+image_url: https://mhgprod.blob.core.windows.net/singsaver/strapi-uploads/xs_blt7e392c21d2c3baf8_3af1702fcb.png
+official_url: https://www.uob.com.sg/personal/cards/cashback/absolute-cashback-card.page
+annual_fee:
+  amount:
+    amount: 196.2
+    currency: SGD
+  first_year_waived: true
+  waiver_notes: S$ | First Year Waived
+  sources: ['singsaver:a10d06a05070']
+min_annual_income:
+  amount: 30000.0
+  currency: SGD
+reward_currency:
+  kind: cashback
+  name: Cashback
+earn_rules:
+- id: health
+  label: health, travel, dining, supermarket, petrol, retail, local online shopping, overseas online shopping,
+    department store, digital wallet, online bill payment spending, contactless spend, transport, local,
+    insurance, overseas (SingSaver — verify)
+  rate: 1.7
+  unit: percent
+  tier: bonus
+  eligibility:
+    include_mcc: ['0742', '4011', '4111', '4112', '4121', '4131', '4784', '4789', '4816', '4829', '4900',
+      '5047', '5122', '5199', '5311', '5611', '5621', '5631', '5641', '5651', '5661', '5691', '5699',
+      '5732', '5734', '5912', '5944', '5945', '5946', '5947', '5948', '5949', '5960', '5970', '5975',
+      '5992', '5999', '6012', '6050', '6051', '6211', '6300', '6399', '6513', '6529', '6530', '6534',
+      '6540', '7261', '7278', '7311', '7349', '7361', '7392', '7511', '7523', '7911', '7995', '8011',
+      '8021', '8041', '8042', '8043', '8049', '8062', '8071', '8099', '8211', '8220', '8241', '8244',
+      '8249', '8299', '8398', '8651', '8661', '8999', '9211', '9222', '9223', '9311', '9399', '9402',
+      '9405']
+    description: Up to [include_mcc auto-extracted from official T&C — check it belongs to this rule]
+    sources: ['singsaver:a10d06a05070', 'bank:0eaaef09b04b', 'bank:4b0d55cbeafe', 'bank:c13cf48e44b4',
+      'bank:42358e29d735', 'bank:52d9be91844e', 'bank:d8dc8cafee77', 'bank:5e0444fa0f1c', 'bank:0eaaef09b04b']
+  conditions:
+  - 'aggregator categories: healthcare, travel, dining, groceries, petrol, shopping, transport'
+  sources: ['singsaver:a10d06a05070']
+- id: base
+  label: baseline (SingSaver — verify)
+  rate: 1.7
+  unit: percent
+  tier: base
+  eligibility:
+    all_spend: true
+    description: ''
+    sources: ['singsaver:a10d06a05070']
+  sources: ['singsaver:a10d06a05070']
+general_exclusions:
+  exclude_mcc: ['5812', '5814']
+  description: Auto-extracted from official T&Cs — confirm each code applies to this card
+  sources: ['bank:0eaaef09b04b', 'bank:4b0d55cbeafe', 'bank:c13cf48e44b4', 'bank:42358e29d735', 'bank:52d9be91844e',
+    'bank:d8dc8cafee77', 'bank:5e0444fa0f1c', 'bank:0eaaef09b04b']
+sign_up_bonuses:
+- offered_by: singsaver
+  description: 'Welcome Offer: choice of S$100 Samsung Voucher'
+  valid_from: '2026-06-30'
+  valid_to: '2026-09-29'
+  url: https://www.singsaver.com.sg/credit-card/products/uob-absolute-cashback-card
+  sources: ['singsaver:a10d06a05070']
+- offered_by: singsaver
+  description: 'SingSaver Flash Deal: choice of S$200 Cash via PayNow; Samsonite Straren Spinner 67/24
+    (worth S$600); S$90 Cash via PayNow'
+  value:
+    amount: 200.0
+    currency: SGD
+  valid_from: '2026-09-01'
+  valid_to: '2026-09-30'
+  url: https://www.singsaver.com.sg/credit-card/products/uob-absolute-cashback-card
+  sources: ['singsaver:a10d06a05070']
+notes:
+- 'T&C mentions (check whether excluded): annual fee, axs, bill payment, cardup, cash advance, charit,
+  education, government, grabpay, hospital, instalment, interest, ipaymy, late payment charge, tax, top-up,
+  top-ups, utilit'
+citations:
+- id: singsaver:a10d06a05070
+  url: https://www.singsaver.com.sg/credit-card/products/uob-absolute-cashback-card
+  title: UOB Absolute Cashback Card
+  source_type: aggregator
+  retrieved_at: '2026-09-27T05:26:47+00:00'
+  sha256: a10d06a0507074856aa30cc7cd84381192484d4936ef6f717e305c3d9b477a56
+  snapshot: data/raw/singsaver/www-singsaver-com-sg-credit-card-products-uob-absolute-cashback-card-32483fc6.html
+- id: moneysmart:fbcf8e7229a3
+  url: https://www.moneysmart.sg/credit-cards?page=3
+  title: UOB Absolute Cashback Card
+  source_type: aggregator
+  retrieved_at: '2026-09-27T05:27:18+00:00'
+  sha256: fbcf8e7229a38611c3c767cd8447164e413b1306df1f54bebee269e3abf15202
+  snapshot: data/raw/moneysmart/credit-cards-p3-707cb52c.html
+- id: bank:0eaaef09b04b
+  url: https://www.uob.com.sg/assets/pdfs/tncs-governing-uob-absolute-cashback-card.pdf?i_cid=pfs:sg:owned:int:site:na:li:na:na:na-evergreen:direct:na&vid=none
+  source_type: official
+  retrieved_at: '2026-09-27T08:43:08+00:00'
+  sha256: 0eaaef09b04b878ef894c79c45194cf5b1ecbb382d1997b113e9be69c32b6261
+  snapshot: data/raw/bank/www-uob-com-sg-assets-pdfs-tncs-governing-uob-absolute-cashback-card-pdf-c6f9d5ff.pdf
+- id: bank:4b0d55cbeafe
+  url: https://www.uob.com.sg/assets/web-resources/personal/pdf/cards/absolute-amex-card-contactless-campaign-tnc-cmpg.pdf
+  source_type: official
+  retrieved_at: '2026-09-27T08:42:56+00:00'
+  sha256: 4b0d55cbeafe0cdc522bf1f4a0d1a1301f07ddd766c7836c41c240f35ff8df52
+  snapshot: data/raw/bank/www-uob-com-sg-assets-web-resources-personal-pdf-cards-absolute-amex-card-contactless-campaign-tnc-cmpg-pdf-859a39b7.pdf
+- id: bank:c13cf48e44b4
+  url: https://www.uob.com.sg/credit-cards/pdf/online-cards-campaign.pdf
+  source_type: official
+  retrieved_at: '2026-09-27T08:42:58+00:00'
+  sha256: c13cf48e44b48d1aa3b0d0d5655f54f9001de57208d560ff29b09fc9ed8bc643
+  snapshot: data/raw/bank/www-uob-com-sg-credit-cards-pdf-online-cards-campaign-pdf-a28f442a.pdf
+- id: bank:42358e29d735
+  url: https://www.uob.com.sg/assets/pdfs/add-on-card-terms-conditions.pdf
+  source_type: official
+  retrieved_at: '2026-09-27T08:43:00+00:00'
+  sha256: 42358e29d7350a9750c477afebed16d22e101f969821263b9777733152bf0a95
+  snapshot: data/raw/bank/www-uob-com-sg-assets-pdfs-add-on-card-terms-conditions-pdf-294d1c4b.pdf
+- id: bank:52d9be91844e
+  url: https://www.uob.com.sg/assets/web-resources/personal/pdf/cards/supplementary-card/uob-supplementary-card-promo-tncs.pdf
+  source_type: official
+  retrieved_at: '2026-09-27T08:43:02+00:00'
+  sha256: 52d9be91844ea791f0ac517649c682846b898bd8e978a61a5582f56c4e573b16
+  snapshot: data/raw/bank/www-uob-com-sg-assets-web-resources-personal-pdf-cards-supplementary-card-uob-supplementary-card-promo-tncs-pdf-5ce91e24.pdf
+- id: bank:d8dc8cafee77
+  url: https://www.uob.com.sg/assets/web-resources/personal/pdf/cards/cashback/absolute-cashback-card/uob-absolute-cashback-card-q3-campaign-tnc.pdf
+  source_type: official
+  retrieved_at: '2026-09-27T08:43:04+00:00'
+  sha256: d8dc8cafee777a7ef18c964438666f441c3d35170b1782d3e0978e4e780a18c1
+  snapshot: data/raw/bank/g-assets-web-resources-personal-pdf-cards-cashback-absolute-cashback-card-uob-absolute-cashback-card-q3-campaign-tnc-pdf-68e7188c.pdf
+- id: bank:5e0444fa0f1c
+  url: https://www.uob.com.sg/assets/web-resources/personal/pdf/cards/cashback/absolute-cashback-card/absolute-amex-card-contactless-campaign-tnc-cmpg202507.pdf
+  source_type: official
+  retrieved_at: '2026-09-27T08:43:06+00:00'
+  sha256: 5e0444fa0f1c69b2a42e3931dd77b407d23b33081fd6cce45b1d51241d2876eb
+  snapshot: data/raw/bank/-resources-personal-pdf-cards-cashback-absolute-cashback-card-absolute-amex-card-contactless-campaign-tnc-cmpg202507-pdf-341adc42.pdf
+review:
+  status: draft
+updated_at: '2026-09-27'

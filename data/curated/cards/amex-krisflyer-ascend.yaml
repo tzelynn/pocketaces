@@ -1,0 +1,108 @@
+# Curated card record. Auto-drafted from staged sources; verify every value against the
+# official T&Cs (citations below), then set review.status: reviewed.
+id: amex-krisflyer-ascend
+bank: American Express
+name: American Express Singapore Airlines KrisFlyer Ascend Credit Card
+network: amex
+image_url: https://mhgprod.blob.core.windows.net/singsaver/strapi-uploads/s_AMEX_KFACC_2025_11_C_f43cc17234.png
+official_url: https://www.americanexpress.com/sg/credit-cards/singapore-airlines-krisflyer-ascend-credit-card/
+annual_fee:
+  amount:
+    amount: 397.85
+    currency: SGD
+  waiver_notes: S$
+  sources: ['singsaver:d48d6e6569f3']
+reward_currency:
+  kind: miles
+  name: Miles
+earn_rules:
+- id: travel
+  label: travel, flight booking (SingSaver — verify)
+  rate: 2.0
+  unit: mpd
+  tier: bonus
+  eligibility:
+    tags: [travel, flights]
+    description: 'On eligible Singapore Airlines and Scoot flight bookings, KrisShop and Pelago purchases
+      / On eligible Singapore Airlines and Scoot flight bookings, KrisShop and Pelago purchases
+
+      '
+    sources: ['singsaver:d48d6e6569f3']
+  sources: ['singsaver:d48d6e6569f3']
+- id: local
+  label: local, overseas (SingSaver — verify)
+  rate: 1.2
+  unit: mpd
+  tier: bonus
+  eligibility:
+    description: ''
+    sources: ['singsaver:d48d6e6569f3']
+  sources: ['singsaver:d48d6e6569f3']
+- id: base
+  label: baseline (SingSaver — verify)
+  rate: 1.2
+  unit: mpd
+  tier: base
+  eligibility:
+    all_spend: true
+    description: ''
+    sources: ['singsaver:d48d6e6569f3']
+  sources: ['singsaver:d48d6e6569f3']
+general_exclusions:
+  description: Auto-extracted from official T&Cs — confirm each code applies to this card
+sign_up_bonuses:
+- offered_by: singsaver
+  description: 'Offer: choice of Up to 45,000 KrisFlyer Miles'
+  valid_from: '2026-06-16'
+  valid_to: '2027-01-31'
+  url: https://www.americanexpress.com/content/dam/amex/sg/campaigns/pdfs/kfa-ntb-welcomeoffer-17jun26to31jan27.pdf
+  sources: ['singsaver:d48d6e6569f3']
+notes:
+- 'Editorial review for cross-checking: Review: AMEX KrisFlyer Ascend (https://milelion.com/2025/11/22/review-amex-krisflyer-ascend/,
+  updated 2026-06-12)'
+- 'T&C mentions (check whether excluded): annual fee, balance transfer, bill payment, cash advance, charit,
+  education, government, grabpay, hospital, instalment, interest, late payment charge, sam kiosk, tax,
+  top-up, top-ups, utilit'
+citations:
+- id: singsaver:d48d6e6569f3
+  url: https://www.singsaver.com.sg/credit-card/products/american-express-singapore-airlines-krisflyer-ascend-credit-card
+  title: American Express Singapore Airlines KrisFlyer Ascend Credit Card
+  source_type: aggregator
+  retrieved_at: '2026-09-27T05:24:44+00:00'
+  sha256: d48d6e6569f373a75b5337b9ef00868c96ef2748a781cca7c86551cec47c3e44
+  snapshot: data/raw/singsaver/www-singsaver-com-sg-credit-card-products-american-express-singapore-airlines-krisflyer-ascend-credit-card-75b4c2c7.html
+- id: moneysmart:42909b088c22
+  url: https://www.moneysmart.sg/credit-cards?page=2
+  title: American Express Singapore Airlines KrisFlyer Ascend Credit Card
+  source_type: aggregator
+  retrieved_at: '2026-09-27T05:27:14+00:00'
+  sha256: 42909b088c22cb063c120b532d19af920cb3535c52f6bfc313193c6c6ea14746
+  snapshot: data/raw/moneysmart/credit-cards-p2-5f055203.html
+- id: bank:2ca077796dcb
+  url: https://www.americanexpress.com/content/dam/amex/sg/campaigns/pdfs/krisflyer-ascend-credit-card.pdf
+  source_type: official
+  retrieved_at: '2026-09-27T05:30:04+00:00'
+  sha256: 2ca077796dcbef4cf3d372a7b739675696190f680e4c0d457b12ba2223966c4f
+  snapshot: data/raw/bank/www-americanexpress-com-content-dam-amex-sg-campaigns-pdfs-krisflyer-ascend-credit-card-pdf-cfa169c9.pdf
+- id: bank:c228cd1bc86a
+  url: https://www.americanexpress.com/content/dam/amex/sg/benefits/amex-sg-exclusions.pdf
+  source_type: official
+  retrieved_at: '2026-09-27T05:30:06+00:00'
+  sha256: c228cd1bc86a7cef6ff37d92bd1a91bc42d2446a7c0f7dae38349c35d69e42f1
+  snapshot: data/raw/bank/www-americanexpress-com-content-dam-amex-sg-benefits-amex-sg-exclusions-pdf-a83329a0.pdf
+- id: bank:389532badbc0
+  url: https://www.americanexpress.com/content/dam/amex/sg/campaigns/pdfs/krisflyer-ascend-credit-card-welcomeoffer.pdf
+  source_type: official
+  retrieved_at: '2026-09-27T05:30:08+00:00'
+  sha256: 389532badbc013c9df6bcd6cddf149c66cd3a9338cc0d242706c985360e91e4b
+  snapshot: data/raw/bank/www-americanexpress-com-content-dam-amex-sg-campaigns-pdfs-krisflyer-ascend-credit-card-welcomeoffer-pdf-2f5d79d1.pdf
+- id: milelion:4acb65a64466
+  url: https://milelion.com/2025/11/22/review-amex-krisflyer-ascend/
+  title: 'Review: AMEX KrisFlyer Ascend'
+  source_type: editorial
+  retrieved_at: '2026-09-27T05:29:19+00:00'
+  sha256: 4acb65a64466f551cbdba1fd3dca1897cdc9a37425fdf47281ff57a0d546334a
+  snapshot: data/raw/milelion/post-73136-e6468708.json
+review:
+  status: draft
+updated_at: '2026-09-27'

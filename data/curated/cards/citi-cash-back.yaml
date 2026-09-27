@@ -1,0 +1,176 @@
+# Curated card record. Auto-drafted from staged sources; verify every value against the
+# official T&Cs (citations below), then set review.status: reviewed.
+id: citi-cash-back
+bank: Citibank
+name: Citi Cash Back Card
+network: mastercard
+image_url: https://mhgprod.blob.core.windows.net/singsaver/strapi-uploads/l_blt30a1ae18b5f03c39_4d0ec48ba1.png
+official_url: https://www.citibank.com.sg/credit-cards/cashback/cash-back-card
+annual_fee:
+  amount:
+    amount: 196.2
+    currency: SGD
+  first_year_waived: true
+  waiver_notes: S$ | First Year Waived
+  sources: ['singsaver:d55c05f54417']
+min_annual_income:
+  amount: 30000.0
+  currency: SGD
+reward_currency:
+  kind: cashback
+  name: Cashback
+earn_rules:
+- id: local
+  label: local, overseas, taxi ride sharing, transport, petrol (SingSaver — verify)
+  rate: 8.0
+  unit: percent
+  tier: bonus
+  eligibility:
+    include_mcc: ['4829', '4900', '5199', '5960', '5993', '6012', '6050', '6051', '6211', '6300', '6513',
+      6529-6540, '6529', '6530', '6534', '6540', '7349', '7511', '7523', '7800', '7995', '8062', '8211',
+      8211-8299, '8220', '8241', '8244', '8249', '8299', '8398', 8651-8661, '8651', '8661', 9000-9999,
+      '9211', '9222', '9223', '9311', '9399', '9402', '9405', '9754']
+    description: Up to | 8% cash back on private commute and petrol spend and 6% cash back on dining and
+      groceries spend. Minimum S$800 spend per statement month. S$80 combined cash back cap across all
+      categories. / 8% cashback on petrol and private commute. 6% cashback on dining and grocery. 0.20%
+      on all other retail spend. No minimum spend. S$80 combined cashback cap across all categories. /
+      Up to  | 8% cash back on private commute spend with min. S$800 spend per statement month. / Up to  |
+      8% cash back at all petrol stations with a min. monthly spend of S$800. [include_mcc auto-extracted
+      from official T&C — check it belongs to this rule]
+    sources: ['singsaver:d55c05f54417', 'bank:188bcaa8e33a', 'bank:d43f74d8ca64', 'bank:d5032b477a74',
+      'bank:a1653bcbce38', 'bank:472e40f873ba']
+  conditions:
+  - 'aggregator categories: ride_hailing, transport, petrol'
+  sources: ['singsaver:d55c05f54417']
+- id: dining
+  label: dining, supermarket (SingSaver — verify)
+  rate: 6.0
+  unit: percent
+  tier: bonus
+  eligibility:
+    tags: [dining, groceries]
+    description: 6% on any dining merchant worldwide with a min. monthly spend of S$800. Base cashback
+      0.2%. / Up to  | 6% cash back at all grocery stores worldwide with a min. monthly spend of S$800.
+      Base cashback 0.2%.
+    sources: ['singsaver:d55c05f54417']
+  sources: ['singsaver:d55c05f54417']
+- id: retail
+  label: retail, local online shopping (SingSaver — verify)
+  rate: 0.2
+  unit: percent
+  tier: bonus
+  eligibility:
+    tags: [shopping]
+    description: 0.20% on all other retail spend. No min. spend. S$80 combined cashback cap across all
+      categories.
+    sources: ['singsaver:d55c05f54417']
+  sources: ['singsaver:d55c05f54417']
+- id: base
+  label: baseline (SingSaver — verify)
+  rate: 0.2
+  unit: percent
+  tier: base
+  eligibility:
+    all_spend: true
+    description: 0.20% on all other retail spend. No minimum spend. S$80 combined cashback cap across
+      all categories.
+    sources: ['singsaver:d55c05f54417']
+  sources: ['singsaver:d55c05f54417']
+general_exclusions:
+  exclude_mcc: ['4111']
+  description: Auto-extracted from official T&Cs — confirm each code applies to this card
+  sources: ['bank:188bcaa8e33a', 'bank:d43f74d8ca64', 'bank:d5032b477a74', 'bank:a1653bcbce38', 'bank:472e40f873ba']
+sign_up_bonuses:
+- offered_by: singsaver
+  description: 'SingSaver Flash Deal: choice of The latest smartphone (worth over S$1,8xx)'
+  valid_from: '2026-09-23'
+  valid_to: '2026-09-28'
+  url: https://www.singsaver.com.sg/credit-card/products/citi-cash-back-card
+  sources: ['singsaver:d55c05f54417']
+- offered_by: singsaver
+  description: 'SingSaver Exclusive Offer: choice of S$400 Cash via PayNow; The Morning Coffee Machine
+    + 20 Capsules Bundle (worth S$660); 25,000 Max Miles by HeyMax (worth S$450); Dyson Airstrait™ straightener
+    (worth S$799); Dyson V8 Cyclone Vacuum Cleaner (worth S$559); Dyson Airwrap™ multi-styler and dryer
+    (worth S$799) (top up S$100); Dyson Clean+Wash Hygiene hard floor cleaner (worth S$729) (Top up S$150);
+    Apple iPad (A16) 11" 128GB WiFi (worth S$649) (Top up S$200); Apple Watch Series 12 Aluminum 42mm
+    GPS (worth S$599) (Top-up S$140); Apple MacBook Neo (A18 Pro) 256GB w/ Magic Keyboard (worth S$999,
+    top up S$580); Apple iPhone 18 Pro 256GB (worth S$1,899, top up S$1,330)'
+  value:
+    amount: 400.0
+    currency: SGD
+  valid_from: '2026-09-24'
+  valid_to: '2026-09-30'
+  url: https://singsaver.link/cc-rewards-campaign
+  sources: ['singsaver:d55c05f54417']
+- offered_by: singsaver
+  description: 'SingSaver Card + Banking Bundle Offer: choice of S$500 Cash via PayNow'
+  value:
+    amount: 500.0
+    currency: SGD
+  valid_from: '2026-09-08'
+  valid_to: '2026-09-30'
+  url: https://www.singsaver.com.sg/credit-card/products/citi-cash-back-card
+  sources: ['singsaver:d55c05f54417']
+- offered_by: moneysmart
+  description: 'Choice of: S$400 Cash via PayNow; Shopee Voucher $450; Apple iPhone 18 Pro (256GB, Burgundy);
+    Apple AirPods Pro 3; Apple Watch Series 12, 42mm (GPS, Black Aluminium Case with Black Sport Band);
+    Sony WH-1000XM6 Wireless Noise Cancelling Headphones (Black). Terms: • Apply for a Citi Card by 30th
+    Sept 2026
+
+    • Spend a min. of S$500 within 30 days
+
+    • Submit the Claim Form by 30th Oct 2026'
+  url: https://www.moneysmart.sg/credit-cards/citi-cash-back-card
+  sources: ['moneysmart:42909b088c22']
+notes:
+- 'T&C mentions (check whether excluded): annual fee, axs, balance transfer, bill payment, cash advance,
+  charit, education, government, hospital, instalment, interest, ipp, late payment charge, tax, top-ups,
+  utilit, youtrip'
+citations:
+- id: singsaver:d55c05f54417
+  url: https://www.singsaver.com.sg/credit-card/products/citi-cash-back-card
+  title: Citi Cash Back Card
+  source_type: aggregator
+  retrieved_at: '2026-09-27T05:25:04+00:00'
+  sha256: d55c05f5441715f9dbc9d4e85ac7c7cded8ef5be818d6881c93c1d14f2bd32ab
+  snapshot: data/raw/singsaver/www-singsaver-com-sg-credit-card-products-citi-cash-back-card-5ee9583a.html
+- id: moneysmart:42909b088c22
+  url: https://www.moneysmart.sg/credit-cards?page=2
+  title: Citi Cash Back Card
+  source_type: aggregator
+  retrieved_at: '2026-09-27T05:27:14+00:00'
+  sha256: 42909b088c22cb063c120b532d19af920cb3535c52f6bfc313193c6c6ea14746
+  snapshot: data/raw/moneysmart/credit-cards-p2-5f055203.html
+- id: bank:188bcaa8e33a
+  url: https://www.citibank.com.sg/credit-cards/cashback/citi-cash-back-card/pdf/members-agreement.pdf
+  source_type: official
+  retrieved_at: '2026-09-27T07:30:59+00:00'
+  sha256: 188bcaa8e33a3b92614d4f7b3350f3600361f3e78331f2d65346beb03e525872
+  snapshot: data/raw/bank/www-citibank-com-sg-credit-cards-cashback-citi-cash-back-card-pdf-members-agreement-pdf-6ab92ece.pdf
+- id: bank:d43f74d8ca64
+  url: https://www.citibank.com.sg/credit-cards/pdf/rewards-exclusion-list.pdf
+  source_type: official
+  retrieved_at: '2026-09-27T07:31:01+00:00'
+  sha256: d43f74d8ca64a96141c244ca5126179e77543ae82cebe4c177a0c029c73b1a68
+  snapshot: data/raw/bank/www-citibank-com-sg-credit-cards-pdf-rewards-exclusion-list-pdf-cea07829.pdf
+- id: bank:d5032b477a74
+  url: https://www.citibank.com.sg/pdf/credit-cards/cashback/citi-cash-back-card/welcome-offer.pdf
+  source_type: official
+  retrieved_at: '2026-09-27T07:31:03+00:00'
+  sha256: d5032b477a740f49f7c50617e155bef71858d993f517ae20af2f8d6886ca826c
+  snapshot: data/raw/bank/www-citibank-com-sg-pdf-credit-cards-cashback-citi-cash-back-card-welcome-offer-pdf-0e0847bb.pdf
+- id: bank:a1653bcbce38
+  url: https://www.citibank.com.sg/credit-cards/cashback/citi-cash-back-card/pdf/information-sheet.pdf
+  source_type: official
+  retrieved_at: '2026-09-27T07:31:05+00:00'
+  sha256: a1653bcbce38261d32df6cefd75e47b0e5ec9706a32902377bba197b2fd3e112
+  snapshot: data/raw/bank/www-citibank-com-sg-credit-cards-cashback-citi-cash-back-card-pdf-information-sheet-pdf-9c3fd926.pdf
+- id: bank:472e40f873ba
+  url: https://www.citibank.com.sg/credit-cards/pdf/chargeback-dispute.pdf
+  source_type: official
+  retrieved_at: '2026-09-27T07:31:07+00:00'
+  sha256: 472e40f873baccd449fa577b73e5fad5cb7d75baccd88b038e0898bfeaf387f2
+  snapshot: data/raw/bank/www-citibank-com-sg-credit-cards-pdf-chargeback-dispute-pdf-092d6126.pdf
+review:
+  status: draft
+updated_at: '2026-09-27'

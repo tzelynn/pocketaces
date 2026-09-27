@@ -1,0 +1,22 @@
+{
+ "card_id": "posb-everyday",
+ "product_pages": [
+  {
+   "id": "bank:ff6db2e25d8c",
+   "url": "https://www.posb.com.sg/personal/cards/credit-cards/posb-everyday-card",
+   "source_type": "official",
+   "retrieved_at": "2026-09-27T08:41:51+00:00",
+   "sha256": "ff6db2e25d8c96745b4fd0d5e120f295a6d3d3fcaf8ef340f8f0a4b0f45a317c",
+   "snapshot": "data/raw/bank/www-posb-com-sg-personal-cards-credit-cards-posb-everyday-card-25909654.html"
+  }
+ ],
+ "documents": [
+  {
+   "url": "https://www.posb.com.sg/iwov-resources/media/pdf/cards/posb-everyday-card-tncs.pdf",
+   "error": "robots.txt disallows https://www.posb.com.sg/iwov-resources/media/pdf/cards/posb-everyday-card-tncs.pdf",
+   "changed": false
+  }
+ ],
+ "changed": false,
+ "removed_documents": []
+}

@@ -1,0 +1,89 @@
+{
+ "source": "moneysmart",
+ "source_id": "ntuc-link-trust-card",
+ "source_url": "https://www.moneysmart.sg/credit-cards/ntuc-link-trust-card",
+ "name": "NTUC Link Credit Card by Trust",
+ "bank": "Trust Bank",
+ "card_id": "trust-link",
+ "image_url": "https://photos.cdn-moneysmart.com/credit_cards/uploads/products/images/image_url_2023-08-02_NTUC trust (3).png",
+ "annual_fee": 0.0,
+ "earn_rates": {},
+ "caps": {},
+ "highlights": [
+  "Up to 21% savings on groceries and food",
+  "Up to 20% petrol savings (on Caltex and Esso)",
+  "0 FX Fees",
+  "No Foreign Transaction Fees (not even the 1% Visa charge)",
+  "No Annual Fees",
+  "Great exchange rates",
+  "Up to 21% savings on groceries and food at FairPrice Group merchants",
+  "Up to 20% petrol savings at Caltex and Esso",
+  "Track rewards and get repayment reminders with the Trust app"
+ ],
+ "sign_up_offers": [
+  {
+   "kind": "special_promotion",
+   "title": "Sure-win stock gift of up to S$8K cashback",
+   "subtitle": null,
+   "is_cash": null,
+   "terms": "Apply for a Trust Credit Card\nOnly valid for New-To-Trust Customers",
+   "campaign": null
+  }
+ ],
+ "links": {
+  "product": "https://www.moneysmart.sg/credit-cards/ntuc-link-trust-card",
+  "review": "https://blog.moneysmart.sg/credit-cards/trust-bank-credit-card-review-moneysmart/"
+ },
+ "citation": {
+  "id": "moneysmart:42909b088c22",
+  "url": "https://www.moneysmart.sg/credit-cards?page=2",
+  "title": "NTUC Link Credit Card by Trust",
+  "source_type": "aggregator",
+  "retrieved_at": "2026-09-27T05:27:14+00:00",
+  "sha256": "42909b088c22cb063c120b532d19af920cb3535c52f6bfc313193c6c6ea14746",
+  "snapshot": "data/raw/moneysmart/credit-cards-p2-5f055203.html"
+ },
+ "extra": {
+  "summary": "",
+  "badges": [],
+  "network": [
+   "Visa"
+  ],
+  "mobile_wallets": [
+   "Google Pay",
+   "Apple Pay"
+  ],
+  "groups": {
+   "annual-interest-rate-and-fees": {
+    "Annual Interest Rate": "From 1 July 2026 onwards, credit card Effective Interest Rate (EIR) is personalized based on credit behaviour and ranges from 18.9% p.a to 29.9% p.a.",
+    "Annual Principal Fee": "0",
+    "Supplementary Annual Fee": "0",
+    "Minimum Monthly Repayment": "(a) The greater of either S$50 or 1% of principal, plus (b) interest, finance fees and charges, and (c) any overlimit amount and past due amount.",
+    "Interest Free Period": "45 days"
+   },
+   "minimum-income-requirements": {
+    "Singaporean/PR Minimum Annual Income": "$30,000 Annual Income",
+    "Non-Singaporean Minimum Annual Income": "$60,000 Annual Income"
+   },
+   "card-association": {
+    "Visa": "true"
+   },
+   "wireless-payment": {
+    "Google Pay": "true",
+    "Apple Pay": "true"
+   },
+   "documents-required": {
+    "SG Citizens or PRs": "Apply via MyInfo",
+    "Passport Validity (Foreigners)": "NA",
+    "Work Permit Validity (Foreigners)": "NA",
+    "Latest Original Computerised Payslip": "Yes + copy of Passport"
+   }
+  },
+  "our_takes": {
+   "our-take": "The NTUC Link Credit Card by Trust shines for everyday spending, especially at FairPrice Group, offering up to 21% savings on groceries and food. A huge plus is no foreign transaction fees, which means real savings for overseas trips or online shopping in foreign currencies. The Trust app simplifies tracking rewards and managing payments. Be mindful that interest accrues daily if you don't pay in full, so aim to clear your balance by the due date. It's a solid choice if you want to avoid hidden fees while earning on essential spending.",
+   "good-for": "Ideal for budget-conscious families seeking substantial savings on their frequent grocery runs at FairPrice.\nPerfect for individuals who travel often and wish to avoid foreign transaction fees and get great exchange rates.\nGreat for individuals who want to maximize rewards on petrol purchases at Caltex or Esso stations with significant discounts.",
+   "things-to-note": "Late payment fees of $100 apply; set up payment reminders to avoid these costly charges.\n26.9% EIR is charged daily on unpaid balances; pay in full to avoid high-interest costs.\nCash advances accrue interest immediately; avoid using them unless absolutely necessary and repay promptly."
+  },
+  "updated_at": "2026-01-06T12:02:00+08:00"
+ }
+}

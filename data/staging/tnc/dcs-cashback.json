@@ -1,0 +1,235 @@
+{
+ "card_id": "dcs-cashback",
+ "product_pages": [
+  {
+   "id": "bank:a1b1dac16443",
+   "url": "https://cards.dcscc.com/cashback",
+   "source_type": "official",
+   "retrieved_at": "2026-09-27T08:36:58+00:00",
+   "sha256": "a1b1dac16443b888c8eba0486ab5a37dedcd2a160a1e5b2d0c2dd53b38a90f1f",
+   "snapshot": "data/raw/bank/cards-dcscc-com-cashback-4b1e0ead.html"
+  }
+ ],
+ "documents": [
+  {
+   "url": "https://cards.dcscc.com/dcscc/v2/pdf/DCS%20Cashback%20Credit%20Card%20TCs.pdf",
+   "citation": {
+    "id": "bank:b65f2e85fe41",
+    "url": "https://cards.dcscc.com/dcscc/v2/pdf/DCS%20Cashback%20Credit%20Card%20TCs.pdf",
+    "source_type": "official",
+    "retrieved_at": "2026-09-27T08:37:00+00:00",
+    "sha256": "b65f2e85fe416d68bd06607e25efe383e17a5079d200dd3c0ba9031cc687e62a",
+    "snapshot": "data/raw/bank/cards-dcscc-com-dcscc-v2-pdf-DCS-20Cashback-20Credit-20Card-20TCs-pdf-37c3fedb.pdf"
+   },
+   "text_path": "data/raw/bank/cards-dcscc-com-dcscc-v2-pdf-DCS-20Cashback-20Credit-20Card-20TCs-pdf-37c3fedb.txt",
+   "sha256": "b65f2e85fe416d68bd06607e25efe383e17a5079d200dd3c0ba9031cc687e62a",
+   "changed": false,
+   "new": false,
+   "no_text_layer": false,
+   "effective_dates": [],
+   "mcc": {
+    "include": [
+     "4829",
+     "5199",
+     "5960",
+     "6012",
+     "6050",
+     "6051",
+     "6211",
+     "6300",
+     "6529",
+     "6530",
+     "6534",
+     "6540",
+     "7995",
+     "9222",
+     "9223",
+     "9311",
+     "9399",
+     "9402",
+     "9405"
+    ],
+    "exclude": [],
+    "unknown": [],
+    "conflicting": [],
+    "unrecognised": [
+     "6529",
+     "6530",
+     "6534"
+    ],
+    "hits": [
+     {
+      "code": "4829",
+      "polarity": "include",
+      "page": 1,
+      "line": "4829 Money Transfer Merchant",
+      "reason": "q. Any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "5199",
+      "polarity": "include",
+      "page": 1,
+      "line": "5199 Nondurable Goods Not Elsewhere Classified",
+      "reason": "q. Any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "5960",
+      "polarity": "include",
+      "page": 2,
+      "line": "5960 Direct Marketing Insurance Services",
+      "reason": "q. Any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "6012",
+      "polarity": "include",
+      "page": 2,
+      "line": "6012 Member Financial Institution, Merchandise And Services",
+      "reason": "q. Any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "6050",
+      "polarity": "include",
+      "page": 2,
+      "line": "6050 Quasi Cash - Member Financial Institution",
+      "reason": "q. Any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "6051",
+      "polarity": "include",
+      "page": 2,
+      "line": "6051 Quasi Cash Merchant",
+      "reason": "q. Any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "6211",
+      "polarity": "include",
+      "page": 2,
+      "line": "6211 Securities Brokers/Dealers",
+      "reason": "q. Any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "6300",
+      "polarity": "include",
+      "page": 2,
+      "line": "6300 Insurance Sales, Underwriting And Premiums",
+      "reason": "q. Any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "6529",
+      "polarity": "include",
+      "page": 2,
+      "line": "6529 Quasi Cash-Remote Stored Value Load-Financial Institute Rentals",
+      "reason": "q. Any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": false
+     },
+     {
+      "code": "6530",
+      "polarity": "include",
+      "page": 2,
+      "line": "6530 Quasi Cash-Remote Stored Value Load-Merchant Rentals",
+      "reason": "q. Any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": false
+     },
+     {
+      "code": "6534",
+      "polarity": "include",
+      "page": 2,
+      "line": "6534 Money Transfer",
+      "reason": "q. Any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": false
+     },
+     {
+      "code": "6540",
+      "polarity": "include",
+      "page": 2,
+      "line": "6540 Nonfi Stored Value Gift Card",
+      "reason": "q. Any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "7995",
+      "polarity": "include",
+      "page": 2,
+      "line": "7995 Gambling Transactions Entertainment",
+      "reason": "q. Any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "9222",
+      "polarity": "include",
+      "page": 2,
+      "line": "9222 Fines",
+      "reason": "q. Any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "9223",
+      "polarity": "include",
+      "page": 2,
+      "line": "9223 Bail And Bond Payments",
+      "reason": "q. Any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "9311",
+      "polarity": "include",
+      "page": 2,
+      "line": "9311 Tax Payments",
+      "reason": "q. Any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "9399",
+      "polarity": "include",
+      "page": 2,
+      "line": "9399 Government Services Not Elsewhere Classified",
+      "reason": "q. Any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "9402",
+      "polarity": "include",
+      "page": 2,
+      "line": "9402 Postal Services Government Only",
+      "reason": "q. Any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     },
+     {
+      "code": "9405",
+      "polarity": "include",
+      "page": 2,
+      "line": "9405 Intra-Government Purchases-Government Only",
+      "reason": "q. Any transaction made with the following Merchant Category Codes (MCC):",
+      "in_reference": true
+     }
+    ]
+   },
+   "transaction_modes": {
+    "recurring": [
+     "Entrance and/ or subscription and/or renewal fees;"
+    ]
+   },
+   "non_mcc_exclusions": [
+    "axs",
+    "balance transfer",
+    "bill payment",
+    "cash advance",
+    "government",
+    "instalment",
+    "interest",
+    "late payment charge",
+    "tax"
+   ]
+  }
+ ],
+ "changed": false,
+ "removed_documents": []
+}

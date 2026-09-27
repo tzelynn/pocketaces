@@ -1,0 +1,311 @@
+{
+ "source": "singsaver",
+ "source_id": "ocbc-rewards-credit-card",
+ "source_url": "https://www.singsaver.com.sg/credit-card/products/ocbc-rewards-credit-card",
+ "name": "OCBC Rewards Credit Card",
+ "bank": "OCBC",
+ "card_id": "ocbc-rewards",
+ "image_url": "https://mhgprod.blob.core.windows.net/singsaver/strapi-uploads/xl_bltf26783f85532678d_ae451c594c.png",
+ "annual_fee": 196.2,
+ "annual_fee_note": "S$ | First 2 Years Waived. Min. spend of S$10,000 per year for waiver of annual fee for subsequent years.",
+ "min_annual_income": 30000.0,
+ "earn_rates": {
+  "percent:local": {
+   "value": 2.78,
+   "unit": "percent",
+   "note": "S$1 local spend = 10 OCBC$. 18,000 OCBC$ redeems S$50 Titanium Cash. Equivalent to 2.78% cashback."
+  },
+  "percent:dining": {
+   "value": 0.28,
+   "unit": "percent",
+   "note": "(Non-direct Cashback) S$1 local spend = 1 OCBC$. 18,000 OCBC$ redeems S$50 Titanium Cash. Equivalent to 0.28% cashback."
+  },
+  "percent:retail": {
+   "value": 2.78,
+   "unit": "percent",
+   "note": "(Indirect Cashback) S$1 local spend = 10 OCBC$. 18,000 OCBC$ redeems S$50 Titanium Cash. Equivalent to 2.78% cashback."
+  },
+  "percent:local_online_shopping": {
+   "value": 2.78,
+   "unit": "percent",
+   "note": "(Indirect Cashback) S$1 local spend = 10 OCBC$. 18,000 OCBC$ redeems S$50 Titanium Cash. Equivalent to 2.78% cashback."
+  },
+  "mpd:local": {
+   "value": 4.0,
+   "unit": "mpd",
+   "note": "Up to | 4 mpd on selected online and offline shopping capped at S$1,110 per calendar month"
+  },
+  "mpd:retail": {
+   "value": 6.0,
+   "unit": "mpd",
+   "note": "Up to | Now till 30 June 2025, earn 15 OCBC$ (6 miles) per S$1 spent at Watsons and department stores (up from 4 miles). Get up to 5,000 extra OCBC$, on top of the usual 10,000 monthly bonus OCBC$!"
+  },
+  "mpd:local_online_shopping": {
+   "value": 4.0,
+   "unit": "mpd",
+   "note": "10X OCBC$ (equivalent to 4 air miles) per S$1 spent"
+  },
+  "mpd:dining": {
+   "value": 0.4,
+   "unit": "mpd",
+   "note": null
+  },
+  "mpd:baseline": {
+   "value": 0.4,
+   "unit": "mpd",
+   "note": null
+  },
+  "percent:baseline": {
+   "value": 0.28,
+   "unit": "percent",
+   "note": "S$1 local spend = 1 OCBC$. 18,000 OCBC$ redeems S$50 Titanium Cash. Equivalent to 0.28% cashback."
+  },
+  "percent:overseas": {
+   "value": 0.28,
+   "unit": "percent",
+   "note": "S$1 local spend = 1 OCBC$. 18,000 OCBC$ redeems S$50 Titanium Cash. Equivalent to 0.28% cashback."
+  },
+  "points_per_dollar:overseas_spending": {
+   "value": 10.0,
+   "unit": "points_per_dollar",
+   "note": "Capped at 120,000 OCBC$ per anniversary year."
+  },
+  "points_per_dollar:contactless_spend": {
+   "value": 10.0,
+   "unit": "points_per_dollar",
+   "note": "Capped at 120,000 OCBC$ per anniversary year."
+  },
+  "points_per_dollar:dining": {
+   "value": 1.0,
+   "unit": "points_per_dollar",
+   "note": null
+  },
+  "points_per_dollar:online_food_delivery": {
+   "value": 1.0,
+   "unit": "points_per_dollar",
+   "note": null
+  },
+  "points_per_dollar:grocery": {
+   "value": 1.0,
+   "unit": "points_per_dollar",
+   "note": null
+  },
+  "points_per_dollar:transport": {
+   "value": 1.0,
+   "unit": "points_per_dollar",
+   "note": null
+  },
+  "points_per_dollar:taxi_ride_sharing": {
+   "value": 1.0,
+   "unit": "points_per_dollar",
+   "note": null
+  },
+  "points_per_dollar:hotel_booking": {
+   "value": 1.0,
+   "unit": "points_per_dollar",
+   "note": null
+  },
+  "points_per_dollar:flight_booking": {
+   "value": 1.0,
+   "unit": "points_per_dollar",
+   "note": null
+  },
+  "points_per_dollar:entertainment": {
+   "value": 1.0,
+   "unit": "points_per_dollar",
+   "note": null
+  },
+  "points_per_dollar:petrol": {
+   "value": 1.0,
+   "unit": "points_per_dollar",
+   "note": null
+  },
+  "points_per_dollar:travel": {
+   "value": 1.0,
+   "unit": "points_per_dollar",
+   "note": null
+  },
+  "mpd:overseas": {
+   "value": 0.4,
+   "unit": "mpd",
+   "note": null
+  },
+  "points_per_dollar:baseline": {
+   "value": 1.0,
+   "unit": "points_per_dollar",
+   "note": "Base rate"
+  },
+  "points_per_dollar:retail": {
+   "value": 15.0,
+   "unit": "points_per_dollar",
+   "note": "Up to | Now till 30 June 2025, earn 15 OCBC$ (6 miles) per S$1 spent at Watsons and department stores (up from 4 miles). Get up to 5,000 extra OCBC$, on top of the usual 10,000 monthly bonus OCBC$!"
+  },
+  "points_per_dollar:online_shopping": {
+   "value": 15.0,
+   "unit": "points_per_dollar",
+   "note": "Capped at 120,000 OCBC$ per anniversary year."
+  },
+  "points_per_dollar:local_spending": {
+   "value": 10.0,
+   "unit": "points_per_dollar",
+   "note": "Earn 10 OCBC$ for every S$1 spent at selected merchants (both online and in stores)"
+  }
+ },
+ "caps": {
+  "rewards_bonus_cap": {
+   "value": 10000.0,
+   "note": "Per month"
+  },
+  "airmiles_bonus_cap": {
+   "value": 1100.0,
+   "note": "S$ | 4 mpd on bonus category capped at S$1,110 per calendar month"
+  }
+ },
+ "highlights": [
+  "Earn 15 OCBC$ for every dollar spent at Watsons and online shopping platforms (Lazada, Shopee, Taobao and TikTok Shop), and 1 OCBC$ for each dollar spent on petrol, entertainment, travel, flight bookings, hotel bookings, transport, groceries, online food delivery, and dining. Note 15 OCBC$ per S$1 earn rate is capped at 10,000 bonus OCBC$ cap per month.",
+  "pros: Earn 15 OCBC$ (equivalent to 6 miles) per S$1 spent at Watsons and online shopping platforms (Lazada, Shopee, Taobao and TikTok Shop).",
+  "pros: Earn 1X OCBC$ (or 0.4 miles) on all other spends, including public transport rides.",
+  "pros: Enjoy complimentary e-commerce protection on all your online purchases made with this card.",
+  "pros: Get fast approval and use your digital card instantly when you apply via MyInfo.",
+  "pros: Read our full review of the \nOCBC Rewards Card\n.",
+  "cons: 15 OCBC$ per S$1 earn rate is capped at 10,000 bonus OCBC$ cap per month.",
+  "cons: OCBC$ awarded in blocks of S$5 charged per transaction.",
+  "pros: Retail rebate",
+  "pros: Online shopping rebate",
+  "pros: Gift: Apple product",
+  "pros: No monthly spend required"
+ ],
+ "sign_up_offers": [
+  {
+   "kind": "exclusive_offer",
+   "title": "SingSaver Flash Deal",
+   "offer_id": "SG.2026-09-22.CC.OCBC.5XCC.AWS12-FD",
+   "valid_from": "2026-09-21T16:00:00Z",
+   "valid_to": "2026-09-27T15:59:00Z",
+   "gifts": [
+    {
+     "title": "Apple Watch Series 12 Aluminum 42mm GPS (worth S$599)",
+     "value_sgd": 599
+    }
+   ],
+   "terms": "SingSaver Flash Deal campaign runs from 22 September 2026 to 27 September 2026.\nPromotion is valid for new OCBC credit card members only.\nBe one of the first 3 cardmembers at \n2pm\n and \n8pm\n every day during the flash deal period to apply for select OCBC credit cards via SingSaver and spend at least S$400 in qualifying transactions within 30 days of card approval to be eligible for the Flash Deal reward: \nApple Watch Series 12 (Aluminum, 42mm, GPS) (worth S$599)\nFlash Deal reward will be received \nin place of\n your selected SingSaver Exclusive Offer reward.\nRemaining applicants will receive the SingSaver Exclusive Offer reward selected in your Rewards Redemption Form only.\nTerms and Conditions\n apply.",
+   "tnc_url": null,
+   "bundle_with": []
+  },
+  {
+   "kind": "exclusive_offer",
+   "title": "SingSaver Exclusive Offer",
+   "offer_id": "SG.2026-09-16.CC.OCBC.REWARDS.400CASH-440GRAB-25KMAXM-ASTRAIT-V8CYC-[DYSON-APPLE]",
+   "valid_from": "2026-09-15T16:00:00Z",
+   "valid_to": "2026-09-30T15:59:00Z",
+   "gifts": [
+    {
+     "title": "S$400 Cash via PayNow",
+     "value_sgd": 400
+    },
+    {
+     "title": "S$440 Grab Vouchers",
+     "value_sgd": 440
+    },
+    {
+     "title": "25,000 Max Miles by HeyMax (worth S$450)",
+     "value_sgd": 450
+    },
+    {
+     "title": "Dyson Airstrait™ straightener (worth S$799)",
+     "value_sgd": 799
+    },
+    {
+     "title": "Dyson V8 Cyclone Vacuum Cleaner (worth S$559)",
+     "value_sgd": 559
+    },
+    {
+     "title": "Dyson Airwrap™ multi-styler and dryer (worth S$799) (top up S$80)",
+     "value_sgd": 799
+    },
+    {
+     "title": "Dyson Clean+Wash Hygiene hard floor cleaner (worth S$729) (Top up S$150)",
+     "value_sgd": 729
+    },
+    {
+     "title": "Apple iPad (A16) 11\" 128GB WiFi (worth S$649) (Top up S$200)",
+     "value_sgd": 649
+    },
+    {
+     "title": "Apple Watch Series 12 Aluminum 42mm GPS (worth S$599) (Top-up S$150)",
+     "value_sgd": 599
+    },
+    {
+     "title": "Apple MacBook Neo (A18 Pro) 256GB w/ Magic Keyboard (worth S$999, top up S$570)",
+     "value_sgd": 999
+    },
+    {
+     "title": "Apple iPhone 18 Pro (worth S$1,899, top up S$1,350)",
+     "value_sgd": 1899
+    }
+   ],
+   "terms": "SingSaver Exclusive Offer promotion is valid from 16 September 2026 to 30 September 2026.\nPromotion is valid for new OCBC credit cardmembers only.\nApply for participating OCBC credit cards via SingSaver and spend at least S$400 in qualifying transactions within 30 days of card approval to be eligible for reward.\nTerms and Conditions\n apply.",
+   "tnc_url": null,
+   "bundle_with": []
+  }
+ ],
+ "links": {
+  "apply": "https://www.singsaver.com.sg/apply-v2b/17822"
+ },
+ "citation": {
+  "id": "singsaver:2bc38b2794e0",
+  "url": "https://www.singsaver.com.sg/credit-card/products/ocbc-rewards-credit-card",
+  "title": "OCBC Rewards Credit Card",
+  "source_type": "aggregator",
+  "retrieved_at": "2026-09-27T05:26:28+00:00",
+  "sha256": "2bc38b2794e0a6bee05faf4cee0e531195c0c7b6f006385333dd59121f9123ef",
+  "snapshot": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-ocbc-rewards-credit-card-9305675d.html"
+ },
+ "extra": {
+  "network": [
+   "World Mastercard"
+  ],
+  "mobile_wallets": [
+   "Google Pay",
+   "Apple Pay",
+   "Samsung Pay",
+   "Fitbit Pay",
+   "Garmin Pay",
+   "NETSPay"
+  ],
+  "fx_fee_percent": 3.25,
+  "miles_conversion_fee": 25.0,
+  "categories": [
+   "category:all-credit-cards",
+   "category:buffet-promo",
+   "category:dining-promo",
+   "category:grocery-promo",
+   "category:installment",
+   "category:petrol-promo",
+   "category:promo",
+   "category:retail-promo",
+   "category:rewards",
+   "category:travel",
+   "needs:0-interest-rate",
+   "needs:air-miles-conversion-rewards",
+   "needs:all-cards-with-buffet-promo",
+   "needs:all-cards-with-dining-promo",
+   "needs:all-cards-with-grocery-promo",
+   "needs:all-cards-with-petrol-promo",
+   "needs:all-cards-with-promotion",
+   "needs:all-cards-with-retail-promo",
+   "needs:all-credit-cards",
+   "needs:all-installment-cards",
+   "needs:all-rewards-cards",
+   "needs:all-travel-cards",
+   "needs:annual-fee-waiver-travel-cards",
+   "needs:apple-premium-gifts",
+   "needs:high-value-gifts",
+   "needs:no-minimum-spend-required-rewards",
+   "needs:online-booking-discount",
+   "needs:singsaver-exclusive"
+  ],
+  "tag": "Best for high points for shopping",
+  "description": "Unleash the shopaholic within you with the OCBC Rewards Card. Spending in retail categories - both online and in stores - will net you 6 miles per dollar in the form of OCBC$ points. These points can be redeemed as cash rebate, miles, vouchers, products or lifestyle experiences. Card approval is also instant as long as you apply using Myinfo."
+ }
+}

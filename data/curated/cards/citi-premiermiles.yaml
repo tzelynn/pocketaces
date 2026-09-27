@@ -1,0 +1,194 @@
+# Curated card record. Auto-drafted from staged sources; verify every value against the
+# official T&Cs (citations below), then set review.status: reviewed.
+id: citi-premiermiles
+bank: Citibank
+name: Citi PremierMiles Card
+network: mastercard
+image_url: https://mhgprod.blob.core.windows.net/singsaver/strapi-uploads/m_Citi_Premier_Miles_2025_12_12_6e676c09b7.png
+official_url: https://www.citibank.com.sg/credit-cards/travel/premiermiles-card
+annual_fee:
+  amount:
+    amount: 196.2
+    currency: SGD
+  first_year_waived: true
+  waiver_notes: S$ | First Year Waived
+  sources: ['singsaver:23484d8fec06']
+min_annual_income:
+  amount: 30000.0
+  currency: SGD
+reward_currency:
+  kind: miles
+  name: Miles
+earn_rules:
+- id: travel
+  label: travel (SingSaver — verify)
+  rate: 10.0
+  unit: mpd
+  tier: bonus
+  eligibility:
+    include_mcc: ['4829', '4900', '5199', '5960', '5993', '6012', '6050', '6051', '6211', '6300', '6513',
+      6529-6540, '6529', '6530', '6534', '6540', '7349', '7511', '7523', '7800', '7995', '8062', '8211',
+      8211-8299, '8220', '8241', '8244', '8249', '8299', '8398', 8651-8661, '8651', '8661', 9000-9999,
+      '9211', '9222', '9223', '9311', '9399', '9402', '9405', '9754']
+    description: Up to | Up to 10 Miles per S$1 on Kaligo, valid till 31 December 2025. Up to 7.2 Miles
+      per S$1 on Agoda, valid for bookings made now till 31 December 2025 and for stays until 30 April
+      2026. T&Cs apply. [include_mcc auto-extracted from official T&C — check it belongs to this rule]
+    sources: ['singsaver:23484d8fec06', 'bank:a7b75de60ccb', 'bank:d43f74d8ca64', 'bank:4adeded2dc36',
+      'bank:115ed1049c2d', 'bank:293374db88e5', 'bank:efcc2d6c75d8', 'bank:07786d997fbc', 'bank:18ee2dc125da']
+  conditions: ['aggregator categories: travel']
+  sources: ['singsaver:23484d8fec06']
+- id: overseas
+  label: overseas (SingSaver — verify)
+  rate: 2.2
+  unit: mpd
+  tier: bonus
+  eligibility:
+    description: ''
+    sources: ['singsaver:23484d8fec06']
+  sources: ['singsaver:23484d8fec06']
+- id: hotel-booking
+  label: hotel booking, local (SingSaver — verify)
+  rate: 1.2
+  unit: mpd
+  tier: bonus
+  eligibility:
+    tags: [hotels]
+    description: ''
+    sources: ['singsaver:23484d8fec06']
+  sources: ['singsaver:23484d8fec06']
+- id: base
+  label: baseline (SingSaver — verify)
+  rate: 1.2
+  unit: mpd
+  tier: base
+  eligibility:
+    all_spend: true
+    description: ''
+    sources: ['singsaver:23484d8fec06']
+  sources: ['singsaver:23484d8fec06']
+general_exclusions:
+  exclude_mcc: ['4111']
+  description: Auto-extracted from official T&Cs — confirm each code applies to this card
+  sources: ['bank:a7b75de60ccb', 'bank:d43f74d8ca64', 'bank:4adeded2dc36', 'bank:115ed1049c2d', 'bank:293374db88e5',
+    'bank:efcc2d6c75d8', 'bank:07786d997fbc', 'bank:18ee2dc125da']
+sign_up_bonuses:
+- offered_by: singsaver
+  description: 'SingSaver Flash Deal: choice of The latest smartphone (worth over S$1,8xx)'
+  valid_from: '2026-09-23'
+  valid_to: '2026-09-28'
+  url: https://www.singsaver.com.sg/credit-card/products/citi-premier-miles-card
+  sources: ['singsaver:23484d8fec06']
+- offered_by: singsaver
+  description: 'SingSaver Exclusive Offer: choice of S$400 Cash via PayNow; The Morning Coffee Machine
+    + 20 Capsules Bundle (worth S$660); 25,000 Max Miles by HeyMax (worth S$450); Dyson Airstrait™ straightener
+    (worth S$799); Dyson V8 Cyclone Vacuum Cleaner (worth S$559); Dyson Airwrap™ multi-styler and dryer
+    (worth S$799) (top up S$100); Dyson Clean+Wash Hygiene hard floor cleaner (worth S$729) (Top up S$150);
+    Apple iPad (A16) 11" 128GB WiFi (worth S$649) (Top up S$200); Apple Watch Series 12 Aluminum 42mm
+    GPS (worth S$599) (Top-up S$140); Apple MacBook Neo (A18 Pro) 256GB w/ Magic Keyboard (worth S$999,
+    top up S$580); Apple iPhone 18 Pro 256GB (worth S$1,899, top up S$1,330)'
+  value:
+    amount: 400.0
+    currency: SGD
+  valid_from: '2026-09-24'
+  valid_to: '2026-09-30'
+  url: https://singsaver.link/cc-rewards-campaign
+  sources: ['singsaver:23484d8fec06']
+- offered_by: singsaver
+  description: 'SingSaver Card + Banking Bundle Offer: choice of S$500 Cash via PayNow'
+  value:
+    amount: 500.0
+    currency: SGD
+  valid_from: '2026-09-08'
+  valid_to: '2026-09-30'
+  url: https://www.singsaver.com.sg/credit-card/products/citi-premier-miles-card
+  sources: ['singsaver:23484d8fec06']
+- offered_by: moneysmart
+  description: 'Choice of: S$400 Cash via PayNow; Shopee Voucher $450; Apple iPhone 18 Pro (256GB, Burgundy);
+    Apple AirPods Pro 3; Apple Watch Series 12, 42mm (GPS, Black Aluminium Case with Black Sport Band);
+    Sony WH-1000XM6 Wireless Noise Cancelling Headphones (Black). Terms: • Apply for a Citi Card by 30th
+    Sept 2026
+
+    • Spend a min. of S$500 within 30 days
+
+    • Submit the Claim Form by 30th Oct 2026'
+  url: https://www.moneysmart.sg/credit-cards/citi-premiermiles-card
+  sources: ['moneysmart:eeee24fb93a9']
+notes:
+- 'Editorial review for cross-checking: Review: Citi PremierMiles Card (https://milelion.com/2026/05/16/review-citi-premiermiles-card/,
+  updated 2026-05-16)'
+- 'T&C mentions (check whether excluded): annual fee, axs, balance transfer, bill payment, cash advance,
+  charit, education, government, hospital, instalment, interest, late payment charge, tax, top-ups, utilit,
+  youtrip'
+citations:
+- id: singsaver:23484d8fec06
+  url: https://www.singsaver.com.sg/credit-card/products/citi-premier-miles-card
+  title: Citi PremierMiles Card
+  source_type: aggregator
+  retrieved_at: '2026-09-27T05:25:08+00:00'
+  sha256: 23484d8fec06b23fc9591e69f854bf35a8e5ab41a698444fb3539cbdc5637505
+  snapshot: data/raw/singsaver/www-singsaver-com-sg-credit-card-products-citi-premier-miles-card-7b9e50cd.html
+- id: moneysmart:eeee24fb93a9
+  url: https://www.moneysmart.sg/credit-cards
+  title: Citi PremierMiles Card
+  source_type: aggregator
+  retrieved_at: '2026-09-27T05:27:12+00:00'
+  sha256: eeee24fb93a9d85ef8b9194c11bda960b5b99ee30b3689cdc59fb650badebce7
+  snapshot: data/raw/moneysmart/credit-cards-p1-b55034ef.html
+- id: bank:a7b75de60ccb
+  url: https://www.citibank.com.sg/credit-cards/travel/premiermiles-card/pdf/citi-premiermiles-card-members-agreement.pdf
+  source_type: official
+  retrieved_at: '2026-09-27T08:31:52+00:00'
+  sha256: a7b75de60ccbcc3f02d6a1970aa060b33ddf650555793f14897bd7e7328d2f78
+  snapshot: data/raw/bank/www-citibank-com-sg-credit-cards-travel-premiermiles-card-pdf-citi-premiermiles-card-members-agreement-pdf-cfe690be.pdf
+- id: bank:d43f74d8ca64
+  url: https://www.citibank.com.sg/credit-cards/pdf/rewards-exclusion-list.pdf
+  source_type: official
+  retrieved_at: '2026-09-27T08:31:54+00:00'
+  sha256: d43f74d8ca64a96141c244ca5126179e77543ae82cebe4c177a0c029c73b1a68
+  snapshot: data/raw/bank/www-citibank-com-sg-credit-cards-pdf-rewards-exclusion-list-pdf-c33f164e.pdf
+- id: bank:4adeded2dc36
+  url: https://www.citibank.com.sg/pdf/1224/2025-premiermiles-kaligo-tncs.pdf?icid=SGLEUJ5ENPREMCAAN07
+  source_type: official
+  retrieved_at: '2026-09-27T08:31:56+00:00'
+  sha256: 4adeded2dc36d7945f139727ff8e6c0d721b7c58e2eb289535f3bb4d00308169
+  snapshot: data/raw/bank/www-citibank-com-sg-pdf-1224-2025-premiermiles-kaligo-tncs-pdf-bf948cd8.pdf
+- id: bank:115ed1049c2d
+  url: https://www.citibank.com.sg/pdf/1224/2025-premiermiles-agoda-tncs.pdf?icid=SGLEUJ5ENPREMCAAN09
+  source_type: official
+  retrieved_at: '2026-09-27T08:31:58+00:00'
+  sha256: 115ed1049c2d8b4ab3512444ef4c047ea975edce80e8f1f51fca090bcbc1ee1f
+  snapshot: data/raw/bank/www-citibank-com-sg-pdf-1224-2025-premiermiles-agoda-tncs-pdf-96f447c2.pdf
+- id: bank:293374db88e5
+  url: https://www.citibank.com.sg/content/dam/cgcpc/sg/prelogin/www-citibank-com-sg/pdf/global_docs/pdf/citipremiermiles-onelineflashdeal-tncs.pdf
+  source_type: official
+  retrieved_at: '2026-09-27T08:32:00+00:00'
+  sha256: 293374db88e5a0c747bcc4d7af31671367bfc48a8cc4f5f6ef4432d1d4fbeb5c
+  snapshot: data/raw/bank/-com-sg-content-dam-cgcpc-sg-prelogin-www-citibank-com-sg-pdf-global-docs-pdf-citipremiermiles-onelineflashdeal-tncs-pdf-520aedce.pdf
+- id: bank:efcc2d6c75d8
+  url: https://www.citibank.com.sg/pdf/credit-cards/travel/premiermiles-card/welcome-offer.pdf?icid=SGLEUJ5ENPREMCAAN16
+  source_type: official
+  retrieved_at: '2026-09-27T08:32:02+00:00'
+  sha256: efcc2d6c75d86b44596b068e56c46c1fdcf66ccce34d81c38a1517d2c944e1d2
+  snapshot: data/raw/bank/www-citibank-com-sg-pdf-credit-cards-travel-premiermiles-card-welcome-offer-pdf-51c5a1a0.pdf
+- id: bank:07786d997fbc
+  url: https://www.citibank.com.sg/credit-cards/travel/premiermiles-card/pdf/online-acquisition-offer-tnc.pdf?icid=SGLEUJ5ENPREMCAAN17
+  source_type: official
+  retrieved_at: '2026-09-27T08:32:04+00:00'
+  sha256: 07786d997fbc4fc3ed7d5c9454b4412f7caa1e0dac3a79144278d79b9179366d
+  snapshot: data/raw/bank/www-citibank-com-sg-credit-cards-travel-premiermiles-card-pdf-online-acquisition-offer-tnc-pdf-37af15c6.pdf
+- id: bank:18ee2dc125da
+  url: https://www.citibank.com.sg/credit-cards/travel/premiermiles-card/pdf/information-sheet.pdf?icid=SGLEUJ5ENPREMCAAN22
+  source_type: official
+  retrieved_at: '2026-09-27T08:32:06+00:00'
+  sha256: 18ee2dc125daad1a16cbab185ad4f9c2ba387514b50dee898068c1ef44c00bd3
+  snapshot: data/raw/bank/www-citibank-com-sg-credit-cards-travel-premiermiles-card-pdf-information-sheet-pdf-ebf71159.pdf
+- id: milelion:c234b0a13d34
+  url: https://milelion.com/2026/05/16/review-citi-premiermiles-card/
+  title: 'Review: Citi PremierMiles Card'
+  source_type: editorial
+  retrieved_at: '2026-09-27T05:28:48+00:00'
+  sha256: c234b0a13d34b5d29f3f815938f703758bf5bd59aede2640e1937945cada80b5
+  snapshot: data/raw/milelion/post-72800-cec127a6.json
+review:
+  status: draft
+updated_at: '2026-09-27'

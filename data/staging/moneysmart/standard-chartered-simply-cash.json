@@ -1,0 +1,126 @@
+{
+ "source": "moneysmart",
+ "source_id": "standard-chartered-simply-cash-credit-card",
+ "source_url": "https://www.moneysmart.sg/credit-cards/standard-chartered-simply-cash-credit-card",
+ "name": "Standard Chartered Simply Cash Credit Card",
+ "bank": "Standard Chartered",
+ "card_id": "standard-chartered-simply-cash",
+ "image_url": "https://photos.cdn-moneysmart.com/credit_cards/uploads/products/images/image_url_2022-12-03_SimplyCash_front.jpg",
+ "annual_fee": 196.2,
+ "earn_rates": {},
+ "caps": {},
+ "highlights": [
+  "1.5% Cashback on eligible spends",
+  "0 Min Spend",
+  "Unlimited Cashback Cap",
+  "Flat 1.5% cashback rate for all eligible purchases",
+  "No cashback cap and no minimum spend",
+  "Enjoy dining and shopping discount privileges at over 3,000 outlets in Asia with Standard Chartered’s The Good Life Program",
+  "1 year annual fee waiver, no minimum spend required",
+  "At MoneySmart, we strive to keep our information accurate and up to date. This information may be different from what you see when you visit a financial institution, service provider, or specific product site. MoneySmart shall not be liable to compensate the Customer should the information is not as updated as our Partner."
+ ],
+ "sign_up_offers": [
+  {
+   "kind": "MANUAL_GIFT",
+   "title": "S$350 Cash via PayNow",
+   "subtitle": null,
+   "is_cash": true,
+   "terms": "• A\npply for the card by 30th Sept 2026\n• \nSpend a min. of S$800 in eligible transactions within 30 days from card approval date.\n• Apply and get approval for either: EasyPay, Bonus$aver Account, CashOne Loan, Funds Transfer\n• Submit your Claim Form by 30th Oct 2026",
+   "campaign": "Credit Card | SCB | Simply Cash | 010926"
+  },
+  {
+   "kind": "STORE_PRODUCT",
+   "title": "Apple AirPods Pro 3",
+   "subtitle": "worth S$349",
+   "is_cash": false,
+   "terms": "• A\npply for the card by 30th Sept 2026\n• \nSpend a min. of S$800 in eligible transactions within 30 days from card approval date.\n• Apply and get approval for either: EasyPay, Bonus$aver Account, CashOne Loan, Funds Transfer\n• Submit your Claim Form by 30th Oct 2026",
+   "campaign": "Credit Card | SCB | Simply Cash | 010926"
+  },
+  {
+   "kind": "STORE_PRODUCT",
+   "title": "ErgoTune Joobie Lite (M)",
+   "subtitle": "worth S$449",
+   "is_cash": false,
+   "terms": "• A\npply for the card by 30th Sept 2026\n• \nSpend a min. of S$800 in eligible transactions within 30 days from card approval date.\n• Apply and get approval for either: EasyPay, Bonus$aver Account, CashOne Loan, Funds Transfer\n• Submit your Claim Form by 30th Oct 2026",
+   "campaign": "Credit Card | SCB | Simply Cash | 010926"
+  },
+  {
+   "kind": "STORE_PRODUCT",
+   "title": "Sony WF-1000XM6 Wireless Noise Cancelling Headphones",
+   "subtitle": "worth S$359",
+   "is_cash": false,
+   "terms": "• A\npply for the card by 30th Sept 2026\n• \nSpend a min. of S$800 in eligible transactions within 30 days from card approval date.\n• Apply and get approval for either: EasyPay, Bonus$aver Account, CashOne Loan, Funds Transfer\n• Submit your Claim Form by 30th Oct 2026",
+   "campaign": "Credit Card | SCB | Simply Cash | 010926"
+  },
+  {
+   "kind": "STORE_PRODUCT",
+   "title": "Insta360 GO 3S Special Edition (64GB, Canvas White)",
+   "subtitle": "worth S$359",
+   "is_cash": false,
+   "terms": "• A\npply for the card by 30th Sept 2026\n• \nSpend a min. of S$800 in eligible transactions within 30 days from card approval date.\n• Apply and get approval for either: EasyPay, Bonus$aver Account, CashOne Loan, Funds Transfer\n• Submit your Claim Form by 30th Oct 2026",
+   "campaign": "Credit Card | SCB | Simply Cash | 010926"
+  }
+ ],
+ "links": {
+  "product": "https://www.moneysmart.sg/credit-cards/standard-chartered-simply-cash-credit-card",
+  "review": "https://blog.moneysmart.sg/credit-cards/standard-chartered-simply-cash-credit-card-review/"
+ },
+ "citation": {
+  "id": "moneysmart:eeee24fb93a9",
+  "url": "https://www.moneysmart.sg/credit-cards",
+  "title": "Standard Chartered Simply Cash Credit Card",
+  "source_type": "aggregator",
+  "retrieved_at": "2026-09-27T05:27:12+00:00",
+  "sha256": "eeee24fb93a9d85ef8b9194c11bda960b5b99ee30b3689cdc59fb650badebce7",
+  "snapshot": "data/raw/moneysmart/credit-cards-p1-b55034ef.html"
+ },
+ "extra": {
+  "summary": "The Standard Chartered Simply Cash offers a 1.5% unlimited cashback on most spending, making it ideal for those who dislike tracking bonus categories. This simplicity suits users with varied spending habits. ",
+  "badges": [
+   "1.5% Unlimited Cashback"
+  ],
+  "network": [
+   "Mastercard"
+  ],
+  "mobile_wallets": [
+   "Google Pay",
+   "Apple Pay",
+   "Samsung Pay"
+  ],
+  "groups": {
+   "annual-interest-rate-and-fees": {
+    "Annual Interest Rate": "27.90",
+    "Annual Principal Fee": "196.20",
+    "Supplementary Annual Fee": "0",
+    "Fee Waiver": "First 1 year waived",
+    "Minimum Monthly Repayment": "S$50 OR 1% of principal / interest, fees & charges / overlimit amount / past due amount, whichever is higher",
+    "Interest Free Period": "Available"
+   },
+   "minimum-income-requirements": {
+    "Singaporean/PR Minimum Annual Income": "30000",
+    "Non-Singaporean Minimum Annual Income": "90000"
+   },
+   "card-association": {
+    "Mastercard": "true"
+   },
+   "wireless-payment": {
+    "Google Pay": "true",
+    "Apple Pay": "true",
+    "Samsung Pay": "true"
+   },
+   "documents-required": {
+    "SG Citizens or PRs": "Apply via MyInfo and prepare the following, \n1. Copy of Passport (6 months validity), and page with address displayed (where applicable), \n2. Copy of Employment Pass, \n3. Either one of the following: utility bill, tax bill, latest bank /credit card statement, rental agreement showing your address, latest mobile phone statement, letter from employer stating current address, government-issued document stating current address",
+    "Passport Validity (Foreigners)": "6 months",
+    "Work Permit Validity (Foreigners)": "6 months",
+    "Utility or Telephone Bill": "true",
+    "Income Tax Notice of Assessment": "true"
+   }
+  },
+  "our_takes": {
+   "our-take": "The Standard Chartered Simply Cash offers 1.5% unlimited cashback on most spending, making it ideal for those who dislike tracking bonus categories. This simplicity suits users with varied spending habits. The first-year fee waiver helps you test the card's value. However, big spenders focused on maximizing specific categories like dining or travel might find other cards with tiered rewards more lucrative. Take note to avoid transactions such as AXS payments and insurance premiums as these are not eligible for cashback.",
+   "good-for": "Cashback-focused individuals who want a flat cashback rate on all eligible purchases, without tracking spending categories or minimums.\nCardholders who dine out and shop frequently in Asia can enjoy discounts through Standard Chartered's The Good Life Program.\nEnjoy first year annual fee waiver",
+   "things-to-note": "Watch out for the 27.90% annual interest rate; carrying a balance incurs high charges on purchases.\nLate payment fees are S$100; avoid these by paying at least the minimum amount of S$50 monthly.\n3.5% foreign currency transaction fee applies, increasing the cost of overseas spending."
+  },
+  "updated_at": "2025-11-01T00:19:42+08:00"
+ }
+}

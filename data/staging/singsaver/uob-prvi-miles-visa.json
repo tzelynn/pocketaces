@@ -1,0 +1,317 @@
+{
+ "source": "singsaver",
+ "source_id": "uob-prvi-miles-visa-card",
+ "source_url": "https://www.singsaver.com.sg/credit-card/products/uob-prvi-miles-visa-card",
+ "name": "UOB PRVI Miles Visa Card",
+ "bank": "UOB",
+ "card_id": "uob-prvi-miles-visa",
+ "image_url": "https://mhgprod.blob.core.windows.net/singsaver/strapi-uploads/l_blt7baa04fecd01d85d_64330a664a.png",
+ "annual_fee": 261.6,
+ "annual_fee_note": "S$ | First Year Waived",
+ "min_annual_income": 30000.0,
+ "earn_rates": {
+  "percent:local": {
+   "value": 0.8,
+   "unit": "percent",
+   "note": "S$5 local spend = UNI$3.5 earned. UNI$8700 redeemed = S$100. Equivalent to 0.8% cash rebate."
+  },
+  "percent:overseas": {
+   "value": 1.37,
+   "unit": "percent",
+   "note": "S$5 spend = UNI$6 earned. UNI$8700 redeemed = S$100. Equivalent to 1.37% cash rebate."
+  },
+  "percent:baseline": {
+   "value": 0.8,
+   "unit": "percent",
+   "note": "S$5 local spend = UNI$3.5 earned. UNI$8700 redeemed = S$100. Equivalent to 0.8% cash rebate."
+  },
+  "mpd:baseline": {
+   "value": 1.4,
+   "unit": "mpd",
+   "note": null
+  },
+  "mpd:retail": {
+   "value": 1.4,
+   "unit": "mpd",
+   "note": null
+  },
+  "mpd:dining": {
+   "value": 1.4,
+   "unit": "mpd",
+   "note": null
+  },
+  "mpd:local_online_shopping": {
+   "value": 1.4,
+   "unit": "mpd",
+   "note": null
+  },
+  "mpd:overseas_online_shopping": {
+   "value": 2.4,
+   "unit": "mpd",
+   "note": null
+  },
+  "mpd:department_store": {
+   "value": 1.4,
+   "unit": "mpd",
+   "note": null
+  },
+  "mpd:supermarket": {
+   "value": 1.4,
+   "unit": "mpd",
+   "note": null
+  },
+  "mpd:hotel_booking": {
+   "value": 6.0,
+   "unit": "mpd",
+   "note": "Up to | On bookings made on Agoda, Expedia, and UOB Travel."
+  },
+  "mpd:flight_booking": {
+   "value": 6.0,
+   "unit": "mpd",
+   "note": "Up to | On bookings made on Agoda, Expedia, and UOB Travel."
+  },
+  "mpd:transport": {
+   "value": 1.4,
+   "unit": "mpd",
+   "note": null
+  },
+  "mpd:petrol": {
+   "value": 1.4,
+   "unit": "mpd",
+   "note": null
+  },
+  "mpd:bill_payment": {
+   "value": 1.0,
+   "unit": "mpd",
+   "note": "Or UNI$2.5 per S$5 when you pay your bills via UOB Payment Facility."
+  },
+  "points_per_dollar:baseline": {
+   "value": 3.5,
+   "unit": "points_per_dollar",
+   "note": "UNI$ | Per S$5 "
+  },
+  "points_per_dollar:local_spending": {
+   "value": 3.5,
+   "unit": "points_per_dollar",
+   "note": "UNI$ | Per S$5 "
+  },
+  "points_per_dollar:contactless_spend": {
+   "value": 3.5,
+   "unit": "points_per_dollar",
+   "note": "UNI$ | Per S$5 "
+  },
+  "points_per_dollar:online_shopping": {
+   "value": 3.5,
+   "unit": "points_per_dollar",
+   "note": "UNI$ | Per S$5 "
+  },
+  "points_per_dollar:retail": {
+   "value": 3.5,
+   "unit": "points_per_dollar",
+   "note": "UNI$ | Per S$5 "
+  },
+  "points_per_dollar:dining": {
+   "value": 3.5,
+   "unit": "points_per_dollar",
+   "note": "UNI$ | Per S$5 "
+  },
+  "points_per_dollar:online_food_delivery": {
+   "value": 3.5,
+   "unit": "points_per_dollar",
+   "note": "UNI$ | Per S$5 "
+  },
+  "points_per_dollar:grocery": {
+   "value": 3.5,
+   "unit": "points_per_dollar",
+   "note": "UNI$ | Per S$5 "
+  },
+  "points_per_dollar:transport": {
+   "value": 3.5,
+   "unit": "points_per_dollar",
+   "note": "UNI$ | Per S$5 "
+  },
+  "points_per_dollar:taxi_ride_sharing": {
+   "value": 3.5,
+   "unit": "points_per_dollar",
+   "note": "UNI$ | Per S$5 "
+  },
+  "points_per_dollar:hotel_booking": {
+   "value": 15.0,
+   "unit": "points_per_dollar",
+   "note": "UNI$ | Per S$5 spend on major airlines and hotels through Expedia, Agoda, and UOB Travel."
+  },
+  "points_per_dollar:flight_booking": {
+   "value": 15.0,
+   "unit": "points_per_dollar",
+   "note": "UNI$ | Per S$5 spend on major airlines and hotels through Expedia, Agoda, and UOB Travel."
+  },
+  "points_per_dollar:travel": {
+   "value": 15.0,
+   "unit": "points_per_dollar",
+   "note": "UNI$ | Per S$5 spend on major airlines and hotels through Expedia, Agoda, and UOB Travel."
+  },
+  "points_per_dollar:entertainment": {
+   "value": 3.5,
+   "unit": "points_per_dollar",
+   "note": "UNI$ | Per S$5 "
+  },
+  "points_per_dollar:petrol": {
+   "value": 3.5,
+   "unit": "points_per_dollar",
+   "note": "UNI$ | Per S$5 "
+  },
+  "points_per_dollar:overseas_spending": {
+   "value": 6.0,
+   "unit": "points_per_dollar",
+   "note": "UNI$ | Per S$5"
+  },
+  "mpd:local": {
+   "value": 1.4,
+   "unit": "mpd",
+   "note": null
+  },
+  "mpd:travel": {
+   "value": 8.0,
+   "unit": "mpd",
+   "note": "Up to | (Up to UNI$20 per S$5 spend) on major airlines and hotels worldwide via Agoda and Expedia"
+  },
+  "mpd:overseas": {
+   "value": 3.0,
+   "unit": "mpd",
+   "note": "Up to | Earn 3 miles per S$1 spend (UNI$7.5 per S$5 spend) on regional spend in Indonesia, Malaysia, Thailand, Vietnam, including online shopping on overseas websites. Earn 2.4 miles per S$1 spend (UNI$6 per S$5 spend) on other overseas spend."
+  }
+ },
+ "caps": {},
+ "highlights": [
+  "Earn up to 8 miles per dollar on travel, hotel and flight bookings though Agoda and Expedia. Enjoy up to 3 miles per dollar for overseas purchases and 1.4 miles per dollar on local spend, including dining, retail and online spend. Additionally, receive 1 mile per S$1 or UNI$2.5 per S$5 for bill payments via the UOB Payment Facility.",
+  "pros: Earn 3 miles per S$1 spend (UNI$7.5 per S$5 spend) on regional spend in Indonesia, Malaysia, Thailand, Vietnam, including online shopping on overseas website.",
+  "pros: Earn 2.4 miles per S$1 spend (UNI$6 per S$5 spend) on other overseas spend, including online shopping on overseas websites.",
+  "pros: Earn 1.4 miles per S$1 spend (UNI$3.5 per S$5 spend) on local spend.",
+  "pros: 4 complimentary lounge visits annually, exclusive for Principal Cardmembers.",
+  "pros: Earn up to 8 miles per S$1 spend (UNI$20 per S$5 spend) on agoda and Expedia bookings via UOB PRVI Miles website.",
+  "pros: Earn up to 6 bonus KrisFlyer miles for every S$1 spend if you also apply for a new KrisFlyer UOB Account.",
+  "pros: Complimentary personal accident coverage and emergency medical assistance of up to S$500,000.",
+  "pros: Choice to redeem for miles, cashback, or vouchers.",
+  "pros: No minimum spend and no cap on earned miles",
+  "cons: Annual fee of S$261.60",
+  "cons: Terms and conditions apply for all above-mentioned privileges. Visit \nhere\n   for more details. Insured up to S$100,000 by SDIC.",
+  "pros: Bonus air miles",
+  "pros: Unlimited air miles",
+  "pros: Travel insurance",
+  "pros: No monthly spend required"
+ ],
+ "sign_up_offers": [
+  {
+   "kind": "welcome_offer",
+   "title": "Welcome Offer",
+   "offer_id": "SG.2026-07-01.CC.UOBX.9XCC.100SAMSUNG.BAU",
+   "valid_from": "2026-06-30T16:00:00Z",
+   "valid_to": "2026-09-29T16:00:00Z",
+   "gifts": [
+    {
+     "title": "S$100 Samsung Voucher",
+     "value_sgd": 100
+    }
+   ],
+   "terms": "Welcome Offer promotion is valid from 1 July 2026 to 30 September 2026.\nPromotion is valid for new-to-UOB credit card customers only.\nSuccessfully apply to be the principal cardholder for select UOB Credit Cards within the promo period and spend a min. of S$1,000 within 30 days of card approval to be eligible for \nS$100 Samsung Voucher\n reward.\nPlus, receive a 10% discount when you use your UOB Credit Card on Samsung Singapore transactions via the Samsung online store with min. spend of S$1,000.\nSamsung reserves the right to amend or withdraw the discount promotion without prior notice.\nTerms and Conditions\n apply.",
+   "tnc_url": null,
+   "bundle_with": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "kind": "exclusive_offer",
+   "title": "SingSaver Flash Deal",
+   "offer_id": "SG.2026-09-02.CC.UOBX.9XCC.200CASH-STRAREN-90CASH",
+   "valid_from": "2026-09-01T16:00:00Z",
+   "valid_to": "2026-09-30T15:59:00Z",
+   "gifts": [
+    {
+     "title": "S$200 Cash via PayNow",
+     "value_sgd": 200
+    },
+    {
+     "title": "Samsonite Straren Spinner 67/24 (worth S$600)",
+     "value_sgd": 600
+    },
+    {
+     "title": "S$90 Cash via PayNow",
+     "value_sgd": 90
+    }
+   ],
+   "terms": "SingSaver Flash Deal promotion is valid from 2 September 2026 to 30 September 2026.\nPromotion is valid for new-to-UOB credit cardmembers only.\nBe one of the first 2 applicants at 2 PM & 10PM every day during the flash deal period to apply for selected UOB credit cards and make a min. spend of S$500 within the first 30 days of card approval to be eligible for the Flash Deal reward:\nS$200 Cash via PayNow\n; or a\nSamsonite Straren Spinner 67/24 (worth S$600)\n.\nRemaining applicants will receive \nS$90 Cash via PayNow\n.\nPromotion is stackable with UOB Welcome Offer (additional T&Cs apply).\nTerms and Conditions\n apply",
+   "tnc_url": null,
+   "bundle_with": []
+  }
+ ],
+ "links": {
+  "apply": "https://www.singsaver.com.sg/apply-v3/17465"
+ },
+ "citation": {
+  "id": "singsaver:151ba3457450",
+  "url": "https://www.singsaver.com.sg/credit-card/products/uob-prvi-miles-visa-card",
+  "title": "UOB PRVI Miles Visa Card",
+  "source_type": "aggregator",
+  "retrieved_at": "2026-09-27T05:27:01+00:00",
+  "sha256": "151ba34574506546d43a67dc129137b4e483503a83007f3e5e9587eda3ae393c",
+  "snapshot": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-uob-prvi-miles-visa-card-a93aa28e.html"
+ },
+ "extra": {
+  "network": [
+   "VISA"
+  ],
+  "mobile_wallets": [
+   "Google Pay",
+   "Apple Pay",
+   "Samsung Pay",
+   "NETSPay"
+  ],
+  "fx_fee_percent": 3.25,
+  "miles_conversion_fee": 27.0,
+  "categories": [
+   "category:airmiles",
+   "category:all-credit-cards",
+   "category:buffet-promo",
+   "category:dining-promo",
+   "category:grocery-promo",
+   "category:installment",
+   "category:overseas",
+   "category:petrol-promo",
+   "category:promo",
+   "category:retail-promo",
+   "category:travel",
+   "needs:0-interest-rate",
+   "needs:0-processing-fee",
+   "needs:all-airmiles-cards",
+   "needs:all-cards-with-buffet-promo",
+   "needs:all-cards-with-dining-promo",
+   "needs:all-cards-with-grocery-promo",
+   "needs:all-cards-with-promotion",
+   "needs:all-cards-with-retail-promo",
+   "needs:all-credit-cards",
+   "needs:all-installment-cards",
+   "needs:all-overseas-cards",
+   "needs:all-travel-cards",
+   "needs:annual-fee-waiver-airmiles",
+   "needs:annual-fee-waiver-travel-cards",
+   "needs:bonus-miles",
+   "needs:free-travel-insurance",
+   "needs:high-miles-rebate",
+   "needs:long-tenure-installment",
+   "needs:no-minimum-spend-required-airmiles",
+   "needs:online-booking-discount",
+   "needs:unlimited-airmiles"
+  ],
+  "tag": null,
+  "description": "The UOB PRVI Miles Visa Card lets you earn miles at a rate of up to 3 miles per S$1 spend overseas, 1.4 miles per S$1 spend locally and up to 8 miles per S$1 spend on your hotel and airlines bookings via Agoda and Expedia through dedicated link on UOB PRVI Miles website. Plus, you can also enjoy 4 complimentary lounge visits before jetting off to your favourite destinations!"
+ }
+}

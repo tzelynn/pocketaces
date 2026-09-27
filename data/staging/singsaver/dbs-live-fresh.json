@@ -1,0 +1,142 @@
+{
+ "source": "singsaver",
+ "source_id": "dbs-live-fresh-card",
+ "source_url": "https://www.singsaver.com.sg/credit-card/products/dbs-live-fresh-card",
+ "name": "DBS Live Fresh Card",
+ "bank": "DBS",
+ "card_id": "dbs-live-fresh",
+ "image_url": "https://mhgprod.blob.core.windows.net/singsaver/strapi-uploads/l_blt4210178ed3fd5c99_5d24be21b1.png",
+ "annual_fee": 196.2,
+ "annual_fee_note": "S$ | First Year Waived",
+ "min_annual_income": 30000.0,
+ "min_monthly_spend": 800.0,
+ "earn_rates": {
+  "percent:transport": {
+   "value": 6.0,
+   "unit": "percent",
+   "note": "Up to | On Transport spend. Capped at S$20 per calendar month."
+  },
+  "percent:local": {
+   "value": 6.0,
+   "unit": "percent",
+   "note": "Up to | On Shopping and Transport spend. Capped at S$50 for Shopping spend and S$20 for Transport spend per calendar month."
+  },
+  "percent:retail": {
+   "value": 6.0,
+   "unit": "percent",
+   "note": "Up to  | On Shopping spend. Capped at S$50 per calendar month."
+  },
+  "percent:local_online_shopping": {
+   "value": 6.0,
+   "unit": "percent",
+   "note": "Up to | On Shopping spend. Capped at S$50 per calendar month."
+  },
+  "percent:overseas_online_shopping": {
+   "value": 6.0,
+   "unit": "percent",
+   "note": "Up to | On Shopping spend. Capped at S$50 per calendar month."
+  },
+  "percent:baseline": {
+   "value": 0.3,
+   "unit": "percent",
+   "note": "Unlimited base cashback on All spend."
+  },
+  "percent:overseas": {
+   "value": 6.0,
+   "unit": "percent",
+   "note": "Up to | On Shopping and Transport spend. Capped at S$50 for Shopping spend and S$20 for Transport spend per calendar month."
+  },
+  "percent:travel": {
+   "value": 0.3,
+   "unit": "percent",
+   "note": "Unlimited base cashback on All spend."
+  },
+  "percent:dining": {
+   "value": 0.3,
+   "unit": "percent",
+   "note": "Unlimited base cashback on All spend."
+  },
+  "percent:supermarket": {
+   "value": 0.3,
+   "unit": "percent",
+   "note": "Unlimited base cashback on All spend."
+  },
+  "percent:contactless_spend": {
+   "value": 6.0,
+   "unit": "percent",
+   "note": "Up to | On Shopping and Transport spend. Capped at S$50 for Shopping spend and S$20 for Transport spend per calendar month."
+  }
+ },
+ "caps": {
+  "rewards_bonus_cap": {
+   "value": 70.0,
+   "note": "S$ | S$50 cap on Shopping spend and S$20 cap on Transport spend per calendar month."
+  },
+  "cashback_bonus_cap": {
+   "value": 70.0,
+   "note": "S$ | S$50 cap on Shopping spend and S$20 cap on Transport spend per calendar month."
+  }
+ },
+ "highlights": [
+  "Earn up to 6 % cashback on shopping and daily rides, capped at S$50 for shopping and S$20 for transport per calendar month, with a minimum spend of S$800 per calendar month. Plus, earn extra 3.25% cashback on selected overseas spend in Asia, capped at S$50 per calendar month. Additionally, enjoy unlimited 0.3% base cashback on all eligible spend.",
+  "pros: Get up to 6% cashback on Shopping and Transport spend",
+  "pros: Get unlimited 0.3% cashback on all spend",
+  "pros: Earn an extra 3.25% cashback on In-store Overseas Spend at your favourite destinations in Asia from Japan, Malaysia, Thailand and more",
+  "pros: Enjoy first-year annual fee waiver",
+  "pros: Enjoy more fresh deals and exclusive perks",
+  "pros: Spending on the card and crediting your salary can earn you 0.05% p.a. or more on your DBS Multiplier account",
+  "cons: Min. monthly spending of S$800 required to earn up to 6% cashback on Shopping and Transport spend",
+  "cons: Cashback on Shopping spend capped at S$50 per calendar month",
+  "cons: Cashback on Transport spend capped at S$20 per calendar month",
+  "pros: Online Rebate",
+  "pros: Shopping",
+  "pros: Public transportation",
+  "cons: Rebate cap applied",
+  "cons: Monthly spend required"
+ ],
+ "sign_up_offers": [],
+ "links": {},
+ "citation": {
+  "id": "singsaver:8a7535ff6b3a",
+  "url": "https://www.singsaver.com.sg/credit-card/products/dbs-live-fresh-card",
+  "title": "DBS Live Fresh Card",
+  "source_type": "aggregator",
+  "retrieved_at": "2026-09-27T05:25:23+00:00",
+  "sha256": "8a7535ff6b3a78dd539c73e71aa28bb5a2858c4376a713d3f7817cd0bd739f8e",
+  "snapshot": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-dbs-live-fresh-card-f5274451.html"
+ },
+ "extra": {
+  "network": [
+   "VISA Platinum"
+  ],
+  "mobile_wallets": [
+   "Google Pay",
+   "Apple Pay",
+   "Samsung Pay",
+   "NETSPay"
+  ],
+  "fx_fee_percent": 3.25,
+  "miles_conversion_fee": null,
+  "categories": [
+   "category:all-credit-cards",
+   "category:cashback",
+   "category:installment",
+   "category:promo",
+   "category:retail-promo",
+   "category:shopping-cards-promo",
+   "needs:0-interest-rate",
+   "needs:all-cards-with-buffet-promo",
+   "needs:all-cards-with-promotion",
+   "needs:all-cards-with-retail-promo",
+   "needs:all-cashback-cards",
+   "needs:all-credit-cards",
+   "needs:all-installment-cards",
+   "needs:all-travel-cards",
+   "needs:high-cashback",
+   "needs:long-tenure-installment",
+   "needs:online-booking-discount"
+  ],
+  "tag": null,
+  "description": "Get the most out of your daily spends with the DBS Live Fresh Card, which lets you score up to 6% cashback on your shopping sprees and daily commutes."
+ }
+}

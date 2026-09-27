@@ -1,0 +1,103 @@
+# Curated card record. Auto-drafted from staged sources; verify every value against the
+# official T&Cs (citations below), then set review.status: reviewed.
+id: hsbc-travelone
+bank: HSBC
+name: HSBC TravelOne Credit Card
+network: mastercard
+image_url: https://mhgprod.blob.core.windows.net/singsaver/strapi-uploads/s_bltb1909376af571a0e_bb280c9954.webp
+official_url: https://www.hsbc.com.sg/credit-cards/products/travelone/
+annual_fee:
+  amount:
+    amount: 196.2
+    currency: SGD
+  waiver_notes: S$
+  sources: ['singsaver:1d87a80ab2e0']
+min_annual_income:
+  amount: 65000.0
+  currency: SGD
+reward_currency:
+  kind: miles
+  name: Miles
+earn_rules:
+- id: overseas
+  label: overseas (SingSaver — verify)
+  rate: 2.4
+  unit: mpd
+  tier: bonus
+  eligibility:
+    description: ''
+    sources: ['singsaver:1d87a80ab2e0']
+  sources: ['singsaver:1d87a80ab2e0']
+- id: local
+  label: local (SingSaver — verify)
+  rate: 1.2
+  unit: mpd
+  tier: bonus
+  eligibility:
+    description: ''
+    sources: ['singsaver:1d87a80ab2e0']
+  sources: ['singsaver:1d87a80ab2e0']
+- id: base
+  label: baseline (SingSaver — verify)
+  rate: 1.2
+  unit: mpd
+  tier: base
+  eligibility:
+    all_spend: true
+    description: ''
+    sources: ['singsaver:1d87a80ab2e0']
+  sources: ['singsaver:1d87a80ab2e0']
+general_exclusions:
+  description: Auto-extracted from official T&Cs — confirm each code applies to this card
+sign_up_bonuses:
+- offered_by: singsaver
+  description: 'SingSaver Exclusive Offer: choice of S$450 Upsized Cash via PayNow; ECOVACS DEEBOT mini
+    2 (worth S$499); Dyson Airstrait™ straightener (worth S$799); Dyson V8 Cyclone Vacuum Cleaner (worth
+    S$559); 28,000 Max Miles by HeyMax (worth S$504); Dyson Airwrap™ multi-styler and dryer (worth S$799)
+    (top up S$50); Dyson Clean+Wash Hygiene hard floor cleaner (worth S$729) (Top up S$150); Apple Watch
+    Series 12 Aluminum 42mm GPS (worth S$599) (Top-up S$130); Apple iPad (A16) 11" 128GB WiFi (worth S$649)
+    (Top up S$150); Apple MacBook Neo (A18 Pro) 256GB w/ Magic Keyboard (worth S$999, top up S$540); Apple
+    iPhone 18 Pro 256GB (worth S$1,899, top up S$1,300)'
+  value:
+    amount: 450.0
+    currency: SGD
+  valid_from: '2026-08-31'
+  valid_to: '2026-09-30'
+  url: https://www.singsaver.com.sg/credit-card/products/hsbc-travelone-credit-card
+  sources: ['singsaver:1d87a80ab2e0']
+- offered_by: moneysmart
+  description: "Choice of: S$400 Cash via PayNow; Shopee Voucher $450; Apple iPhone 18 Pro (256GB, Burgundy);\
+    \ Apple AirPods Pro 3; Apple Watch Series 12, 42mm (GPS, Black Aluminium Case with Black Sport Band);\
+    \ Sony WH-1000XM6 Wireless Noise Cancelling Headphones (Black). Terms: • Apply for a HSBC credit card\
+    \ by 30th Sept 2026\n• Spend a \nmin. of S$500 from Card Account Opening Date to end of the following\
+    \ calendar month.\n• Submit the Claim Form by 30th Oct 2026"
+  url: https://www.moneysmart.sg/credit-cards/hsbc-travelone-card
+  sources: ['moneysmart:eeee24fb93a9']
+notes:
+- 'Editorial review for cross-checking: Review: HSBC TravelOne Card (https://milelion.com/2026/03/20/review-hsbc-travelone-card/,
+  updated 2026-04-21)'
+citations:
+- id: singsaver:1d87a80ab2e0
+  url: https://www.singsaver.com.sg/credit-card/products/hsbc-travelone-credit-card
+  title: HSBC TravelOne Credit Card
+  source_type: aggregator
+  retrieved_at: '2026-09-27T05:25:50+00:00'
+  sha256: 1d87a80ab2e0b8a2789d4cd5aef9daea54832eae0a17f45c93933a9433c88089
+  snapshot: data/raw/singsaver/www-singsaver-com-sg-credit-card-products-hsbc-travelone-credit-card-36f380a7.html
+- id: moneysmart:eeee24fb93a9
+  url: https://www.moneysmart.sg/credit-cards
+  title: HSBC TravelOne Card
+  source_type: aggregator
+  retrieved_at: '2026-09-27T05:27:12+00:00'
+  sha256: eeee24fb93a9d85ef8b9194c11bda960b5b99ee30b3689cdc59fb650badebce7
+  snapshot: data/raw/moneysmart/credit-cards-p1-b55034ef.html
+- id: milelion:d641faf5a5d8
+  url: https://milelion.com/2026/03/20/review-hsbc-travelone-card/
+  title: 'Review: HSBC TravelOne Card'
+  source_type: editorial
+  retrieved_at: '2026-09-27T05:28:56+00:00'
+  sha256: d641faf5a5d8fcabd3eee16420d09302b571ecdee1d7d4a0bbd8946f90aee2fc
+  snapshot: data/raw/milelion/post-146461-3179030e.json
+review:
+  status: draft
+updated_at: '2026-09-27'

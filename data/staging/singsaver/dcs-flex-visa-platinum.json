@@ -1,0 +1,142 @@
+{
+ "source": "singsaver",
+ "source_id": "dcs-flex-visa-platinum-card",
+ "source_url": "https://www.singsaver.com.sg/credit-card/products/dcs-flex-visa-platinum-card",
+ "name": "DCS Flex Visa Platinum Card",
+ "bank": "DCS",
+ "card_id": "dcs-flex-visa-platinum",
+ "image_url": "https://mhgprod.blob.core.windows.net/singsaver/strapi-uploads/xl_blt4e050e86a41171f9_12b2d1bc05.png",
+ "annual_fee": 130.8,
+ "annual_fee_note": "S$ | Charged monthly, First Year Waived",
+ "min_annual_income": 30000.0,
+ "min_monthly_spend": 600.0,
+ "earn_rates": {
+  "percent:local_online_shopping": {
+   "value": 6.0,
+   "unit": "percent",
+   "note": "On online transactions in SGD, with min. monthly spend of S$600. Capped at S$25."
+  },
+  "percent:contactless_spend": {
+   "value": 6.0,
+   "unit": "percent",
+   "note": "On contactless purchases in SGD, with min. monthly spend of S$600. Capped at S$25."
+  },
+  "percent:overseas": {
+   "value": 8.0,
+   "unit": "percent",
+   "note": "On foreign currency spend, with min. monthly spend of S$600. Capped at S$25."
+  },
+  "mpd:baseline": {
+   "value": 0.4,
+   "unit": "mpd",
+   "note": "On all other spend. Capped at 750 miles."
+  },
+  "mpd:overseas": {
+   "value": 2.4,
+   "unit": "mpd",
+   "note": "On foreign currency spend, with min. monthly spend of S$600. Capped at 750 miles."
+  },
+  "mpd:contactless_spend": {
+   "value": 1.8,
+   "unit": "mpd",
+   "note": "On contactless purchases in SGD, with min. monthly spend of S$600. Capped at 750 miles."
+  },
+  "mpd:local_online_shopping": {
+   "value": 1.8,
+   "unit": "mpd",
+   "note": "On online transactions in SGD, with min. monthly spend of S$600. Capped at 750 miles."
+  },
+  "points_per_dollar:contactless_spend": {
+   "value": 6.0,
+   "unit": "points_per_dollar",
+   "note": "On contactless purchases in SGD, with min. monthly spend of S$600. Capped at S$25."
+  },
+  "points_per_dollar:online_shopping": {
+   "value": 6.0,
+   "unit": "points_per_dollar",
+   "note": "On online transactions in SGD, with min. monthly spend of S$600. Capped at S$25."
+  },
+  "points_per_dollar:overseas_spending": {
+   "value": 8.0,
+   "unit": "points_per_dollar",
+   "note": "On foreign currency spend, with min. monthly spend of S$600. Capped at S$25."
+  },
+  "points_per_dollar:baseline": {
+   "value": 0.3,
+   "unit": "points_per_dollar",
+   "note": "On all other spend. Capped at S$25."
+  },
+  "percent:baseline": {
+   "value": 0.3,
+   "unit": "percent",
+   "note": "On all other spend. Capped at S$25 cashback / S$25 investment credits / 750 miles depending on selected reward category."
+  }
+ },
+ "caps": {},
+ "highlights": [
+  "Rewards can be received in the form of cashback, airmiles, investment credits, or carbon credits. 8% cashback/investment credits/carbon credits or 2.4mpd on foreign currency spend; 6% cashback/investment credits/carbon credits or 1.8mpd on online transactions and contactless purchases in SGD; 0.3% cashback/investment credits or 0.4mpd on all other purchases.",
+  "pros: Switch your preferred rewards flexibly between cashback, air miles, investment credits or carbon credits",
+  "pros: Up to 8% cashback / investment credits / carbon credits or 2.4 mpd from foreign currency spend",
+  "pros: Up to 6% cashback / investment credits / carbon credits or 1.8 mpd from online shopping and contactless transactions",
+  "pros: Complimentary insurance coverage of up to S$1 million for Regular Credit Cardmembers.",
+  "cons: S$600 minimum monthly spend.",
+  "cons: Monthly service fee applies (waived for first 12 months).",
+  "pros: Shopping Rebate",
+  "pros: Dining Rebate",
+  "pros: Online Rebate",
+  "pros: Overseas Rebate",
+  "cons: Monthly Spend Required"
+ ],
+ "sign_up_offers": [
+  {
+   "kind": "exclusive_offer",
+   "title": "SingSaver Exclusive Welcome Offer",
+   "offer_id": "SG.2026-09-01.CC.DCSX.FLEX.10KMI-CATLUG24",
+   "valid_from": "2026-08-31T16:00:00Z",
+   "valid_to": "2026-12-31T15:59:00Z",
+   "gifts": [
+    {
+     "title": "10,000 Miles or 24\" Caterpillar Trunk Luggage worth S$380",
+     "value_sgd": 380
+    }
+   ],
+   "terms": "SingSaver Exclusive Welcome Offer promotion is valid from 1 September 2026 to 31 December 2026.\nPromotion is valid for New-to-DCS customers only.\nApply and get approved for the DCS Flex Visa Platinum Card and make the min. spend of S$800 within 30 days of card approval to be eligible for reward.\nRewards are fulfilled by DCS.\nPromotion is stackable with other Welcome Offers from DCS where applicable (additional T&Cs apply).\nTerms and Conditions\n apply.",
+   "tnc_url": null,
+   "bundle_with": []
+  }
+ ],
+ "links": {
+  "apply": "https://cards.dcscc.com/flex?staff_id=SI01&location=SSR05"
+ },
+ "citation": {
+  "id": "singsaver:c42ebd6a9140",
+  "url": "https://www.singsaver.com.sg/credit-card/products/dcs-flex-visa-platinum-card",
+  "title": "DCS Flex Visa Platinum Card",
+  "source_type": "aggregator",
+  "retrieved_at": "2026-09-27T05:25:42+00:00",
+  "sha256": "c42ebd6a914009be602e690029cc1e538449be8c7f33c3ef935526c75422e3e1",
+  "snapshot": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-dcs-flex-visa-platinum-card-13c93e9b.html"
+ },
+ "extra": {
+  "network": [
+   "VISA"
+  ],
+  "mobile_wallets": null,
+  "fx_fee_percent": 3.25,
+  "miles_conversion_fee": null,
+  "categories": [
+   "category:all-credit-cards",
+   "category:cashback",
+   "category:installment",
+   "category:promo",
+   "needs:0-interest-rate",
+   "needs:airmiles",
+   "needs:all-airmiles-cards",
+   "needs:all-cards-with-promotion",
+   "needs:all-cashback-cards",
+   "needs:all-credit-cards"
+  ],
+  "tag": null,
+  "description": "Chasing your next holiday? Fast-track your flight redemptions with the DCS Flex Visa Platinum Card. Rack up up to 2.4 miles per dollar (mpd) on all your online shopping, daily contactless taps, and overseas holiday spend. If your travel plans change, no stress—toggle inside the app anytime to switch between Air Miles, up to 8% Cash Rebates, Investment Credits, or Carbon Offsets. Skip the rigid rules and earn miles on your own terms. Start flexing."
+ }
+}

@@ -1,0 +1,495 @@
+{
+ "card_id": "boc-sheng-siong",
+ "product_pages": [
+  {
+   "id": "bank:353829b7f17f",
+   "url": "https://www.bankofchina.com/sg/bcservice/bc1/201707/t20170717_9813258.html",
+   "source_type": "official",
+   "retrieved_at": "2026-09-27T07:15:20+00:00",
+   "sha256": "353829b7f17fb0037d6d4d0b602bb03324be39493a89bd426ff2ee1e0a930063",
+   "snapshot": "data/raw/bank/www-bankofchina-com-sg-bcservice-bc1-201707-t20170717-9813258-html-5d1dd1b3.html"
+  }
+ ],
+ "documents": [
+  {
+   "url": "https://www.bankofchina.com/sg/bocinfo/bi5/201707/P020250618364198284675.pdf",
+   "citation": {
+    "id": "bank:b31556b97093",
+    "url": "https://www.bankofchina.com/sg/bocinfo/bi5/201707/P020250618364198284675.pdf",
+    "source_type": "official",
+    "retrieved_at": "2026-09-27T07:15:27+00:00",
+    "sha256": "b31556b9709389b7f73316574f83c9bd362ad278ccfeaba7ce3300687926cf20",
+    "snapshot": "data/raw/bank/www-bankofchina-com-sg-bocinfo-bi5-201707-P020250618364198284675-pdf-228d6527.pdf"
+   },
+   "text_path": "data/raw/bank/www-bankofchina-com-sg-bocinfo-bi5-201707-P020250618364198284675-pdf-228d6527.txt",
+   "sha256": "b31556b9709389b7f73316574f83c9bd362ad278ccfeaba7ce3300687926cf20",
+   "changed": false,
+   "new": false,
+   "no_text_layer": false,
+   "effective_dates": [
+    "15 June 2025"
+   ],
+   "mcc": {
+    "include": [
+     "4784",
+     "4814",
+     "4829",
+     "4900",
+     "5199",
+     "5411",
+     "5960",
+     "5965",
+     "5993",
+     "6010",
+     "6011",
+     "6012",
+     "6050",
+     "6051",
+     "6211",
+     "6300",
+     "6381",
+     "6399",
+     "6513",
+     "6529",
+     "6530",
+     "6534",
+     "6540",
+     "7349",
+     "7399",
+     "7511",
+     "7523",
+     "7995",
+     "8062",
+     "8244",
+     "8249",
+     "8299",
+     "8398",
+     "8651",
+     "8661",
+     "8699",
+     "8999",
+     "9211",
+     "9222",
+     "9223",
+     "9311",
+     "9331",
+     "9399",
+     "9402",
+     "9405"
+    ],
+    "exclude": [
+     "5411"
+    ],
+    "unknown": [],
+    "conflicting": [
+     "5411"
+    ],
+    "unrecognised": [
+     "6529",
+     "6530",
+     "6534",
+     "9331"
+    ],
+    "hits": [
+     {
+      "code": "5411",
+      "polarity": "exclude",
+      "page": 1,
+      "line": "(MCC) 5411 \u2013 Grocery Stores and Supermarkets (\u201cSheng Siong Spend\u201d) for the same Billing",
+      "reason": "\u201cExclusions\u201d refers to the Card Transactions described under Clause 3 below.",
+      "in_reference": true
+     },
+     {
+      "code": "4829",
+      "polarity": "include",
+      "page": 2,
+      "line": "Quasi Cash/Financial 4829 Payment of funds for money transfers",
+      "reason": "(b) any payment made with the following Merchant Category Codes (\u201cMCC\u201d);",
+      "in_reference": true
+     },
+     {
+      "code": "4900",
+      "polarity": "include",
+      "page": 2,
+      "line": "not limited to 4900 Utilities \u2013 electric, gas, water and sanitary",
+      "reason": "(b) any payment made with the following Merchant Category Codes (\u201cMCC\u201d);",
+      "in_reference": true
+     },
+     {
+      "code": "5199",
+      "polarity": "include",
+      "page": 2,
+      "line": "5199 Non-durable goods (not elsewhere",
+      "reason": "(b) any payment made with the following Merchant Category Codes (\u201cMCC\u201d);",
+      "in_reference": true
+     },
+     {
+      "code": "5960",
+      "polarity": "include",
+      "page": 2,
+      "line": "5960 Direct Marketing \u2013 Insurance services,",
+      "reason": "(b) any payment made with the following Merchant Category Codes (\u201cMCC\u201d);",
+      "in_reference": true
+     },
+     {
+      "code": "6010",
+      "polarity": "include",
+      "page": 2,
+      "line": "6010, 6012, 6051, Payments to financial institutions",
+      "reason": "(b) any payment made with the following Merchant Category Codes (\u201cMCC\u201d);",
+      "in_reference": true
+     },
+     {
+      "code": "6012",
+      "polarity": "include",
+      "page": 2,
+      "line": "6010, 6012, 6051, Payments to financial institutions",
+      "reason": "(b) any payment made with the following Merchant Category Codes (\u201cMCC\u201d);",
+      "in_reference": true
+     },
+     {
+      "code": "6051",
+      "polarity": "include",
+      "page": 2,
+      "line": "6010, 6012, 6051, Payments to financial institutions",
+      "reason": "(b) any payment made with the following Merchant Category Codes (\u201cMCC\u201d);",
+      "in_reference": true
+     },
+     {
+      "code": "6211",
+      "polarity": "include",
+      "page": 2,
+      "line": "6211 (including banks and brokerages) for",
+      "reason": "(b) any payment made with the following Merchant Category Codes (\u201cMCC\u201d);",
+      "in_reference": true
+     },
+     {
+      "code": "6011",
+      "polarity": "include",
+      "page": 2,
+      "line": "6011 Financial Institutions \u2013 Automated Cash",
+      "reason": "(b) any payment made with the following Merchant Category Codes (\u201cMCC\u201d);",
+      "in_reference": true
+     },
+     {
+      "code": "6050",
+      "polarity": "include",
+      "page": 2,
+      "line": "6050 Quasi Cash - Financial Institutions,",
+      "reason": "(b) any payment made with the following Merchant Category Codes (\u201cMCC\u201d);",
+      "in_reference": true
+     },
+     {
+      "code": "6300",
+      "polarity": "include",
+      "page": 3,
+      "line": "6300 Insurance Sales, Underwriting and",
+      "reason": "(b) any payment made with the following Merchant Category Codes (\u201cMCC\u201d);",
+      "in_reference": true
+     },
+     {
+      "code": "6381",
+      "polarity": "include",
+      "page": 3,
+      "line": "6381 Insurance Premiums",
+      "reason": "(b) any payment made with the following Merchant Category Codes (\u201cMCC\u201d);",
+      "in_reference": true
+     },
+     {
+      "code": "6399",
+      "polarity": "include",
+      "page": 3,
+      "line": "6399 Insurance, Not Elsewhere Classified",
+      "reason": "(b) any payment made with the following Merchant Category Codes (\u201cMCC\u201d);",
+      "in_reference": true
+     },
+     {
+      "code": "6513",
+      "polarity": "include",
+      "page": 3,
+      "line": "6513 Real Estate agents and managers",
+      "reason": "(b) any payment made with the following Merchant Category Codes (\u201cMCC\u201d);",
+      "in_reference": true
+     },
+     {
+      "code": "6529",
+      "polarity": "include",
+      "page": 3,
+      "line": "6529 Quasi Cash - Remote Stored Value Load",
+      "reason": "(b) any payment made with the following Merchant Category Codes (\u201cMCC\u201d);",
+      "in_reference": false
+     },
+     {
+      "code": "6530",
+      "polarity": "include",
+      "page": 3,
+      "line": "6530 Payment transactions \u2013 merchants",
+      "reason": "(b) any payment made with the following Merchant Category Codes (\u201cMCC\u201d);",
+      "in_reference": false
+     },
+     {
+      "code": "6534",
+      "polarity": "include",
+      "page": 3,
+      "line": "6534 Quasi Cash - Money Transfer - Member",
+      "reason": "(b) any payment made with the following Merchant Category Codes (\u201cMCC\u201d);",
+      "in_reference": false
+     },
+     {
+      "code": "6540",
+      "polarity": "include",
+      "page": 3,
+      "line": "6540 Non-Financial Institutions - Stored Value",
+      "reason": "(b) any payment made with the following Merchant Category Codes (\u201cMCC\u201d);",
+      "in_reference": true
+     },
+     {
+      "code": "7511",
+      "polarity": "include",
+      "page": 3,
+      "line": "7511 Quasi Cash - Truck Stop Transactions",
+      "reason": "(b) any payment made with the following Merchant Category Codes (\u201cMCC\u201d);",
+      "in_reference": true
+     },
+     {
+      "code": "7995",
+      "polarity": "include",
+      "page": 3,
+      "line": "7995 Betting, including lottery tickets, casino",
+      "reason": "(b) any payment made with the following Merchant Category Codes (\u201cMCC\u201d);",
+      "in_reference": true
+     },
+     {
+      "code": "7349",
+      "polarity": "include",
+      "page": 3,
+      "line": "Business Services, such 7349 Cleaning, maintenance and janitorial",
+      "reason": "(b) any payment made with the following Merchant Category Codes (\u201cMCC\u201d);",
+      "in_reference": true
+     },
+     {
+      "code": "7523",
+      "polarity": "include",
+      "page": 3,
+      "line": "7523 Parking lots and garages",
+      "reason": "(b) any payment made with the following Merchant Category Codes (\u201cMCC\u201d);",
+      "in_reference": true
+     },
+     {
+      "code": "8244",
+      "polarity": "include",
+      "page": 3,
+      "line": "such as but not limited to 8244, 8249, 8299",
+      "reason": "(b) any payment made with the following Merchant Category Codes (\u201cMCC\u201d);",
+      "in_reference": true
+     },
+     {
+      "code": "8249",
+      "polarity": "include",
+      "page": 3,
+      "line": "such as but not limited to 8244, 8249, 8299",
+      "reason": "(b) any payment made with the following Merchant Category Codes (\u201cMCC\u201d);",
+      "in_reference": true
+     },
+     {
+      "code": "8299",
+      "polarity": "include",
+      "page": 3,
+      "line": "such as but not limited to 8244, 8249, 8299",
+      "reason": "(b) any payment made with the following Merchant Category Codes (\u201cMCC\u201d);",
+      "in_reference": true
+     },
+     {
+      "code": "8062",
+      "polarity": "include",
+      "page": 3,
+      "line": "Professional Services 8062 Hospitals",
+      "reason": "(b) any payment made with the following Merchant Category Codes (\u201cMCC\u201d);",
+      "in_reference": true
+     },
+     {
+      "code": "8398",
+      "polarity": "include",
+      "page": 3,
+      "line": "and Membership 8398 Charitable and Social Service",
+      "reason": "(b) any payment made with the following Merchant Category Codes (\u201cMCC\u201d);",
+      "in_reference": true
+     },
+     {
+      "code": "8651",
+      "polarity": "include",
+      "page": 3,
+      "line": "but not limited to 8651 Political Organisations",
+      "reason": "(b) any payment made with the following Merchant Category Codes (\u201cMCC\u201d);",
+      "in_reference": true
+     },
+     {
+      "code": "8661",
+      "polarity": "include",
+      "page": 3,
+      "line": "8661 Religious Organisations",
+      "reason": "(b) any payment made with the following Merchant Category Codes (\u201cMCC\u201d);",
+      "in_reference": true
+     },
+     {
+      "code": "8699",
+      "polarity": "include",
+      "page": 3,
+      "line": "8699 Membership Organisations (Not",
+      "reason": "(b) any payment made with the following Merchant Category Codes (\u201cMCC\u201d);",
+      "in_reference": true
+     },
+     {
+      "code": "8999",
+      "polarity": "include",
+      "page": 3,
+      "line": "8999 Professional Services (Not Elsewhere",
+      "reason": "(b) any payment made with the following Merchant Category Codes (\u201cMCC\u201d);",
+      "in_reference": true
+     },
+     {
+      "code": "4784",
+      "polarity": "include",
+      "page": 3,
+      "line": "Government services, 4784 Toll and Bridge Fees",
+      "reason": "(b) any payment made with the following Merchant Category Codes (\u201cMCC\u201d);",
+      "in_reference": true
+     },
+     {
+      "code": "9211",
+      "polarity": "include",
+      "page": 3,
+      "line": "such as but not limited to 9211, 9222, 9223, Payments to government institutions",
+      "reason": "(b) any payment made with the following Merchant Category Codes (\u201cMCC\u201d);",
+      "in_reference": true
+     },
+     {
+      "code": "9222",
+      "polarity": "include",
+      "page": 3,
+      "line": "such as but not limited to 9211, 9222, 9223, Payments to government institutions",
+      "reason": "(b) any payment made with the following Merchant Category Codes (\u201cMCC\u201d);",
+      "in_reference": true
+     },
+     {
+      "code": "9223",
+      "polarity": "include",
+      "page": 3,
+      "line": "such as but not limited to 9211, 9222, 9223, Payments to government institutions",
+      "reason": "(b) any payment made with the following Merchant Category Codes (\u201cMCC\u201d);",
+      "in_reference": true
+     },
+     {
+      "code": "9311",
+      "polarity": "include",
+      "page": 3,
+      "line": "9311, 9399, 9402, and/or payments for government related",
+      "reason": "(b) any payment made with the following Merchant Category Codes (\u201cMCC\u201d);",
+      "in_reference": true
+     },
+     {
+      "code": "9399",
+      "polarity": "include",
+      "page": 3,
+      "line": "9311, 9399, 9402, and/or payments for government related",
+      "reason": "(b) any payment made with the following Merchant Category Codes (\u201cMCC\u201d);",
+      "in_reference": true
+     },
+     {
+      "code": "9402",
+      "polarity": "include",
+      "page": 3,
+      "line": "9311, 9399, 9402, and/or payments for government related",
+      "reason": "(b) any payment made with the following Merchant Category Codes (\u201cMCC\u201d);",
+      "in_reference": true
+     },
+     {
+      "code": "9405",
+      "polarity": "include",
+      "page": 3,
+      "line": "9405 services",
+      "reason": "(b) any payment made with the following Merchant Category Codes (\u201cMCC\u201d);",
+      "in_reference": true
+     },
+     {
+      "code": "9331",
+      "polarity": "include",
+      "page": 3,
+      "line": "9331 Tax Payments",
+      "reason": "(b) any payment made with the following Merchant Category Codes (\u201cMCC\u201d);",
+      "in_reference": false
+     },
+     {
+      "code": "4814",
+      "polarity": "include",
+      "page": 3,
+      "line": "Others, including but not 4814 Telecommunication Services, including",
+      "reason": "(b) any payment made with the following Merchant Category Codes (\u201cMCC\u201d);",
+      "in_reference": true
+     },
+     {
+      "code": "5411",
+      "polarity": "include",
+      "page": 3,
+      "line": "5411 Grocery Stores and Supermarkets",
+      "reason": "(b) any payment made with the following Merchant Category Codes (\u201cMCC\u201d);",
+      "in_reference": true
+     },
+     {
+      "code": "5965",
+      "polarity": "include",
+      "page": 3,
+      "line": "5965 Direct marketing \u2013Combination Catalog",
+      "reason": "(b) any payment made with the following Merchant Category Codes (\u201cMCC\u201d);",
+      "in_reference": true
+     },
+     {
+      "code": "5993",
+      "polarity": "include",
+      "page": 3,
+      "line": "5993 Cigar Stores and Stands",
+      "reason": "(b) any payment made with the following Merchant Category Codes (\u201cMCC\u201d);",
+      "in_reference": true
+     },
+     {
+      "code": "7399",
+      "polarity": "include",
+      "page": 3,
+      "line": "7399 Business Services",
+      "reason": "(b) any payment made with the following Merchant Category Codes (\u201cMCC\u201d);",
+      "in_reference": true
+     }
+    ]
+   },
+   "transaction_modes": {
+    "online": [
+     "\u201cSheng Siong\u201d means such stores and stalls (including any online store) engaged in groceries retailing and operated by Sheng Siong Group Ltd and its subsidiaries.",
+     "4.21 All information is correct at the time of publishing or posting online."
+    ]
+   },
+   "non_mcc_exclusions": [
+    "annual fee",
+    "axs",
+    "bill payment",
+    "cardup",
+    "cash advance",
+    "charit",
+    "education",
+    "government",
+    "grabpay",
+    "hospital",
+    "instalment",
+    "insurance premium",
+    "interest",
+    "ipaymy",
+    "ipp",
+    "late payment charge",
+    "tax",
+    "utilit",
+    "youtrip"
+   ]
+  }
+ ],
+ "changed": false,
+ "removed_documents": []
+}

@@ -1,0 +1,83 @@
+{
+ "source": "moneysmart",
+ "source_id": "ocbc-frank-card",
+ "source_url": "https://www.moneysmart.sg/credit-cards/ocbc-frank-card",
+ "name": "OCBC Frank Card",
+ "bank": "OCBC",
+ "card_id": "ocbc-frank",
+ "image_url": "https://photos.cdn-moneysmart.com/credit_cards/uploads/products/images/image_2026-08-04_image_url_2023-07-03_OCBC FRank.jpg",
+ "min_annual_income": 15000.0,
+ "earn_rates": {},
+ "caps": {},
+ "highlights": [
+  "Up to 10% Cash Back",
+  "100 Cash Back Cap per month",
+  "800 Min. Spend per month on Total Purchases",
+  "Earn 8% cashback on online/ contactless mobile transactions in SGD",
+  "Earn 8% cashback on Foreign Currency transactions",
+  "Earn 2% bonus cashback at selected Green Merchants: SimplyGo, BlueSG, Scoop Wholefoods and more.",
+  "0.3% cashback on other eligible spends",
+  "To enjoy the cashback, you need to spend a minimum of S$800 based on posted transactions in a calendar month",
+  "If you spend less than S$800, a flat 0.3% cashback is awarded",
+  "Min. annual spend of S$10,000 from date of approval to qualify for automatic annual fee waiver",
+  "At MoneySmart, we strive to keep our information accurate and up to date. This information may be different from what you see when you visit a financial institution, service provider, or specific product site. MoneySmart shall not be liable to compensate the Customer should the information is not as updated as our Partner."
+ ],
+ "sign_up_offers": [],
+ "links": {
+  "product": "https://www.moneysmart.sg/credit-cards/ocbc-frank-card",
+  "review": "https://blog.moneysmart.sg/credit-cards/ocbc-frank-card-review/"
+ },
+ "citation": {
+  "id": "moneysmart:49fcb3586f25",
+  "url": "https://www.moneysmart.sg/credit-cards?page=4",
+  "title": "OCBC Frank Card",
+  "source_type": "aggregator",
+  "retrieved_at": "2026-09-27T05:27:20+00:00",
+  "sha256": "49fcb3586f252df0b2dacb9acecc465127e09c9defa7f151881c3db46d84649e",
+  "snapshot": "data/raw/moneysmart/credit-cards-p4-1a322210.html"
+ },
+ "extra": {
+  "summary": "",
+  "badges": [
+   "Earn up to 10% cashback"
+  ],
+  "network": [
+   "Visa"
+  ],
+  "mobile_wallets": [
+   "Visa Contactless",
+   "Google Pay",
+   "Apple Pay",
+   "Samsung Pay"
+  ],
+  "groups": {
+   "annual-interest-rate-and-fees": {
+    "Annual Interest Rate": "27.78",
+    "Annual Principal Fee": "S$196.20 (First 2 Years Fee Waived)",
+    "Supplementary Annual Fee": "S$98.10 (First 2 Years Fee Waived)",
+    "Fee Waiver": "Available",
+    "Minimum Monthly Repayment": "3% or S$50, whichever is higher",
+    "Interest Free Period": "23 days"
+   },
+   "minimum-income-requirements": {
+    "Singaporean/PR Minimum Annual Income": "•At least S$30,000 for Singaporeans and Singapore PRs aged between 21 and 54\n•At least S$15,000 for Singaporeans and Singapore PRs aged 55 and above",
+    "Non-Singaporean Minimum Annual Income": "•At least S$45,000 for foreigners"
+   },
+   "card-association": {
+    "Visa": "true"
+   },
+   "wireless-payment": {
+    "Visa Contactless": "true",
+    "Google Pay": "true",
+    "Apple Pay": "true",
+    "Samsung Pay": "true"
+   }
+  },
+  "our_takes": {
+   "our-take": "The OCBC Frank Card’s 8% cashback on online/mobile contactless and foreign currency transactions is attractive, but requires a steep S$800 minimum monthly spend. This makes it ideal for those with consistent, significant spending in these categories. Miss the threshold, and you only get 0.3% cashback. The S$25 cap per category limits maximum rewards(S$100). Consider if your spending habits align with these categories and the high minimum to maximize its value; otherwise, a card with lower spending requirements might be more suitable.",
+   "good-for": "Young adults who frequently shop online or via mobile, seeking cashback on everyday digital transactions.\nIndividuals who make frequent foreign currency transactions and want to maximize cashback on those international purchases.\nEnvironmentally conscious consumers looking for cashback rewards when spending at selected eco-friendly merchants and sustainable transport options.",
+   "things-to-note": "Spending less than S$800 monthly means only 0.3% cashback, greatly reducing your rewards potential.\nMissing the minimum monthly repayment means incurring a hefty S$100 late payment fee.\nExceeding the S$100 monthly cashback cap means you won't earn rewards on extra spending."
+  },
+  "updated_at": "2026-08-04T13:29:28+08:00"
+ }
+}

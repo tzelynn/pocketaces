@@ -1,0 +1,77 @@
+{
+ "source": "singsaver",
+ "source_id": "boc-sheng-siong-card",
+ "source_url": "https://www.singsaver.com.sg/credit-card/products/boc-sheng-siong-card",
+ "name": "BOC Sheng Siong Card",
+ "bank": "Bank of China",
+ "card_id": "boc-sheng-siong",
+ "image_url": "https://mhgprod.blob.core.windows.net/singsaver/strapi-uploads/xs_blte852f56c537298e0_2b467d0c0a.png",
+ "annual_fee": 32.1,
+ "annual_fee_note": "S$ | First Year Waived",
+ "min_annual_income": 30000.0,
+ "earn_rates": {
+  "percent:local": {
+   "value": 12.0,
+   "unit": "percent",
+   "note": "Up to 12% with S$600 spend outside of Sheng Siong."
+  },
+  "percent:overseas": {
+   "value": 1.6,
+   "unit": "percent",
+   "note": "No cap on cash rebate earned and no minimum spend."
+  },
+  "percent:supermarket": {
+   "value": 12.0,
+   "unit": "percent",
+   "note": "Up to 12% with S$600 spend outside of Sheng Siong."
+  },
+  "percent:baseline": {
+   "value": 0.3,
+   "unit": "percent",
+   "note": null
+  }
+ },
+ "caps": {},
+ "highlights": [
+  "Enjoy up to 12% cashback on supermarket spending (excluding Sheng Siong) with a minimum spend of S$600. Earn 1.60% cashback on all overseas purchases, with no cap and no minimum spend required. Plus, earn a baseline of 0.30% cashback on all other purchases. Total cash rebate for Sheng Siong is capped at S$75.",
+  "pros: Enjoy up to 12% cash rebate at Sheng Siong.",
+  "pros: Additional 6% cash rebate on your Sheng Siong purchases when you spend S$600 elsewhere.",
+  "pros: 1.6% unlimited cash rebate on your overseas spend including online purchases.",
+  "pros: 0.3% cashback on all other purchases.",
+  "cons: Minimum S$600 out-store spending required to get the 12% cashback at Sheng Siong. Otherwise, you will be awarded with 6% cash rebate which is not subject to any minimum spend.",
+  "cons: Total cash rebate for Sheng Siong is capped at S$75.",
+  "pros: Supermarket rebate",
+  "pros: No rebate cap",
+  "pros: No monthly spend required",
+  "cons: Rebate cap applied"
+ ],
+ "sign_up_offers": [],
+ "links": {},
+ "citation": {
+  "id": "singsaver:c59dbdae82e6",
+  "url": "https://www.singsaver.com.sg/credit-card/products/boc-sheng-siong-card",
+  "title": "BOC Sheng Siong Card",
+  "source_type": "aggregator",
+  "retrieved_at": "2026-09-27T05:24:56+00:00",
+  "sha256": "c59dbdae82e6b06368ffc3a7564b2d5b1f3edab85143f1aed48696f52269a1aa",
+  "snapshot": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-boc-sheng-siong-card-d5752cc6.html"
+ },
+ "extra": {
+  "network": [
+   "VISA Platinum"
+  ],
+  "mobile_wallets": null,
+  "fx_fee_percent": 2.0,
+  "miles_conversion_fee": 30.0,
+  "categories": [
+   "category:all-credit-cards",
+   "category:cashback",
+   "category:grocery-promo",
+   "needs:all-cards-with-grocery-promo",
+   "needs:all-cashback-cards",
+   "needs:all-credit-cards"
+  ],
+  "tag": "Best for supermarket rebates at Sheng Siong",
+  "description": "Enjoy greater savings at Sheng Siong with the BOC Sheng Siong Card. Benefits include 6% cash rebate, and unlimited 1.5% cash rebate for overseas and local purchases."
+ }
+}

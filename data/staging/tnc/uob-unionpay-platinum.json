@@ -1,0 +1,715 @@
+{
+ "card_id": "uob-unionpay-platinum",
+ "product_pages": [
+  {
+   "id": "bank:deca0743ac20",
+   "url": "https://www.uob.com.sg/personal/cards/cashback/unionpay-card.page",
+   "source_type": "official",
+   "retrieved_at": "2026-09-27T08:45:17+00:00",
+   "sha256": "deca0743ac2049f0dd011d92749f8748c0e1367803b84869f24ca0b92cba8cdc",
+   "snapshot": "data/raw/bank/www-uob-com-sg-personal-cards-cashback-unionpay-card-page-ec4614ff.html"
+  }
+ ],
+ "documents": [
+  {
+   "url": "https://www.uob.com.sg/assets/web-resources/personal/pdf/cards/cashback/unionpay-card/upi-tnc.pdf",
+   "citation": {
+    "id": "bank:cbf44abdaad5",
+    "url": "https://www.uob.com.sg/assets/web-resources/personal/pdf/cards/cashback/unionpay-card/upi-tnc.pdf",
+    "source_type": "official",
+    "retrieved_at": "2026-09-27T08:45:18+00:00",
+    "sha256": "cbf44abdaad55271946ffe94cb2584e65af9c6f7f2f2585aee4544c00722337f",
+    "snapshot": "data/raw/bank/www-uob-com-sg-assets-web-resources-personal-pdf-cards-cashback-unionpay-card-upi-tnc-pdf-abd3d179.pdf"
+   },
+   "text_path": "data/raw/bank/www-uob-com-sg-assets-web-resources-personal-pdf-cards-cashback-unionpay-card-upi-tnc-pdf-abd3d179.txt",
+   "sha256": "cbf44abdaad55271946ffe94cb2584e65af9c6f7f2f2585aee4544c00722337f",
+   "changed": false,
+   "new": true,
+   "no_text_layer": false,
+   "effective_dates": [
+    "1 Aug 2022",
+    "1 Feb 2021"
+   ],
+   "mcc": {
+    "include": [
+     "5965",
+     "5993",
+     "8699",
+     "8999"
+    ],
+    "exclude": [],
+    "unknown": [],
+    "conflicting": [],
+    "unrecognised": [],
+    "hits": [
+     {
+      "code": "5965",
+      "polarity": "include",
+      "page": 3,
+      "line": "5965 Direct marketing \u2013 Combination Catalog and Retail Merchants (wef 1 October 2024)",
+      "reason": "(m) any payment made with the following Merchant Category Codes (\u201cMCC\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "5993",
+      "polarity": "include",
+      "page": 3,
+      "line": "5993 Cigar Stores and Stands (wef 1 October 2024)",
+      "reason": "(m) any payment made with the following Merchant Category Codes (\u201cMCC\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "8699",
+      "polarity": "include",
+      "page": 3,
+      "line": "8699 Membership Organizations (Not Elsewhere Classified) (wef 1 October 2024)",
+      "reason": "(m) any payment made with the following Merchant Category Codes (\u201cMCC\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "8999",
+      "polarity": "include",
+      "page": 3,
+      "line": "8999 Professional Services (Not Elsewhere Classified) (wef 1 October 2024)",
+      "reason": "(m) any payment made with the following Merchant Category Codes (\u201cMCC\u201d):",
+      "in_reference": true
+     }
+    ]
+   },
+   "transaction_modes": {
+    "mobile_wallet": [
+     "(n) selected transactions such as insurance payments, Grab mobile wallet top- ups, wire transfers, payments to Non-Financial Institutions, quasi-cash and more;"
+    ],
+    "foreign_currency": [
+     "TERMS AND CONDITIONS GOVERNING UNITED OVERSEAS BANK LIMITED (\u201cUOB\u201d) UNIONPAY CREDIT CARD This document sets out the general terms and conditions governing the UOB UnionPay Credit Card issued by us which we may provide to you from time to time.",
+     "\u201cCard Transaction(s)\u201d means any retail transaction(s) (whether in Singapore or overseas) successfully carried out on and charged to the Card Account by the Cardmember, and which is successfully captured or posted on UOB\u2019s systems, and excludes the Exclusions (as defined in Clause 3).",
+     "\u201dwe / us / our / ourselves / the Bank / UOB\u201d means United Overseas Bank Limited and shall include its successors and assigns.",
+     "United Overseas Bank Limited Co."
+    ],
+    "local_currency": [
+     "## CONFIDENTIAL ## Page 1 of 5 #### RREESSTTRRIICCTTEEDD #### 1.2 The Cashback is calculated on a monthly basis, in Singapore Dollars, as 2% of the total amount of Cash Transactions charged to the Card Account in a calendar month.",
+     "1.4 The Cashback is capped at a maximum of Singapore Dollars Fifty Dollars (S$50) per calendar month, for each principal Cardmember\u2019s Card Account.",
+     "1.6 For the purposes of determining the amount of the Cashback, the Card Transactions made in foreign currencies will be converted to Singapore dollars based on UOB\u2019s then prevailing exchange rate on the date of conversion."
+    ]
+   },
+   "non_mcc_exclusions": [
+    "axs",
+    "cash advance",
+    "charit",
+    "education",
+    "government",
+    "hospital",
+    "interest",
+    "ipaymy",
+    "late payment charge",
+    "tax",
+    "top-ups",
+    "utilit"
+   ]
+  },
+  {
+   "url": "https://www.uob.com.sg/web-resources/personal/pdf/personal/cards/credit-cards/rewards-cards/uob-unionpay-platinum-card/upi-refresh-tc.pdf",
+   "citation": {
+    "id": "bank:f9f550487d62",
+    "url": "https://www.uob.com.sg/web-resources/personal/pdf/personal/cards/credit-cards/rewards-cards/uob-unionpay-platinum-card/upi-refresh-tc.pdf",
+    "source_type": "official",
+    "retrieved_at": "2026-09-27T08:45:20+00:00",
+    "sha256": "f9f550487d62fd3b1534e82545209d207c1b276190a870ed35d1b2bfa4e42665",
+    "snapshot": "data/raw/bank/om-sg-web-resources-personal-pdf-personal-cards-credit-cards-rewards-cards-uob-unionpay-platinum-card-upi-refresh-tc-pdf-414c829b.pdf"
+   },
+   "text_path": "data/raw/bank/om-sg-web-resources-personal-pdf-personal-cards-credit-cards-rewards-cards-uob-unionpay-platinum-card-upi-refresh-tc-pdf-414c829b.txt",
+   "sha256": "f9f550487d62fd3b1534e82545209d207c1b276190a870ed35d1b2bfa4e42665",
+   "changed": false,
+   "new": true,
+   "no_text_layer": false,
+   "effective_dates": [
+    "1 Aug 2022",
+    "1 Feb 2021"
+   ],
+   "mcc": {
+    "include": [
+     "5965",
+     "5993",
+     "8699",
+     "8999"
+    ],
+    "exclude": [],
+    "unknown": [],
+    "conflicting": [],
+    "unrecognised": [],
+    "hits": [
+     {
+      "code": "5965",
+      "polarity": "include",
+      "page": 3,
+      "line": "5965 Direct marketing \u2013 Combination Catalog and Retail Merchants (wef 1 October 2024)",
+      "reason": "(m) any payment made with the following Merchant Category Codes (\u201cMCC\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "5993",
+      "polarity": "include",
+      "page": 3,
+      "line": "5993 Cigar Stores and Stands (wef 1 October 2024)",
+      "reason": "(m) any payment made with the following Merchant Category Codes (\u201cMCC\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "8699",
+      "polarity": "include",
+      "page": 3,
+      "line": "8699 Membership Organizations (Not Elsewhere Classified) (wef 1 October 2024)",
+      "reason": "(m) any payment made with the following Merchant Category Codes (\u201cMCC\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "8999",
+      "polarity": "include",
+      "page": 3,
+      "line": "8999 Professional Services (Not Elsewhere Classified) (wef 1 October 2024)",
+      "reason": "(m) any payment made with the following Merchant Category Codes (\u201cMCC\u201d):",
+      "in_reference": true
+     }
+    ]
+   },
+   "transaction_modes": {
+    "mobile_wallet": [
+     "(n) selected transactions such as insurance payments, Grab mobile wallet top- ups, wire transfers, payments to Non-Financial Institutions, quasi-cash and more;"
+    ],
+    "foreign_currency": [
+     "TERMS AND CONDITIONS GOVERNING UNITED OVERSEAS BANK LIMITED (\u201cUOB\u201d) UNIONPAY CREDIT CARD This document sets out the general terms and conditions governing the UOB UnionPay Credit Card issued by us which we may provide to you from time to time.",
+     "\u201cCard Transaction(s)\u201d means any retail transaction(s) (whether in Singapore or overseas) successfully carried out on and charged to the Card Account by the Cardmember, and which is successfully captured or posted on UOB\u2019s systems, and excludes the Exclusions (as defined in Clause 3).",
+     "\u201dwe / us / our / ourselves / the Bank / UOB\u201d means United Overseas Bank Limited and shall include its successors and assigns.",
+     "Date of publishing: September 2024 United Overseas Bank Limited Co."
+    ],
+    "local_currency": [
+     "## CONFIDENTIAL ## Page 1 of 5 #### RREESSTTRRIICCTTEEDD #### 1.2 The Cashback is calculated on a monthly basis, in Singapore Dollars, as 2% of the total amount of Cash Transactions charged to the Card Account in a calendar month.",
+     "1.4 The Cashback is capped at a maximum of Singapore Dollars Fifty Dollars (S$50) per calendar month, for each principal Cardmember\u2019s Card Account.",
+     "1.6 For the purposes of determining the amount of the Cashback, the Card Transactions made in foreign currencies will be converted to Singapore dollars based on UOB\u2019s then prevailing exchange rate on the date of conversion."
+    ]
+   },
+   "non_mcc_exclusions": [
+    "axs",
+    "cash advance",
+    "charit",
+    "education",
+    "government",
+    "hospital",
+    "interest",
+    "ipaymy",
+    "late payment charge",
+    "tax",
+    "top-ups",
+    "utilit"
+   ]
+  },
+  {
+   "url": "https://www.uob.com.sg/assets/pdfs/add-on-card-terms-conditions.pdf",
+   "citation": {
+    "id": "bank:42358e29d735",
+    "url": "https://www.uob.com.sg/assets/pdfs/add-on-card-terms-conditions.pdf",
+    "source_type": "official",
+    "retrieved_at": "2026-09-27T08:45:22+00:00",
+    "sha256": "42358e29d7350a9750c477afebed16d22e101f969821263b9777733152bf0a95",
+    "snapshot": "data/raw/bank/www-uob-com-sg-assets-pdfs-add-on-card-terms-conditions-pdf-294d1c4b.pdf"
+   },
+   "text_path": "data/raw/bank/www-uob-com-sg-assets-pdfs-add-on-card-terms-conditions-pdf-294d1c4b.txt",
+   "sha256": "42358e29d7350a9750c477afebed16d22e101f969821263b9777733152bf0a95",
+   "changed": false,
+   "new": true,
+   "no_text_layer": false,
+   "effective_dates": [],
+   "mcc": {
+    "include": [],
+    "exclude": [],
+    "unknown": [],
+    "conflicting": [],
+    "unrecognised": [],
+    "hits": []
+   },
+   "transaction_modes": {
+    "recurring": [
+     "There must be minimum 1 and maximum 8 Singtel accounts charged to Singtel- UOB card on recurring basis at all times to enjoy all benefits and privileges including perpetual annual fee waiver, else an annual fee of S$196.20 will apply."
+    ]
+   },
+   "non_mcc_exclusions": [
+    "annual fee",
+    "tax"
+   ]
+  },
+  {
+   "url": "https://www.uob.com.sg/assets/web-resources/personal/pdf/cards/cashback/unionpay-card/upi-tnc.pdf?i_cid=pfs:sg:owned:int:site:na:li:na:undefined:na-evergreen:direct:na&vid=none",
+   "citation": {
+    "id": "bank:cbf44abdaad5",
+    "url": "https://www.uob.com.sg/assets/web-resources/personal/pdf/cards/cashback/unionpay-card/upi-tnc.pdf?i_cid=pfs:sg:owned:int:site:na:li:na:undefined:na-evergreen:direct:na&vid=none",
+    "source_type": "official",
+    "retrieved_at": "2026-09-27T08:45:24+00:00",
+    "sha256": "cbf44abdaad55271946ffe94cb2584e65af9c6f7f2f2585aee4544c00722337f",
+    "snapshot": "data/raw/bank/www-uob-com-sg-assets-web-resources-personal-pdf-cards-cashback-unionpay-card-upi-tnc-pdf-7b81923a.pdf"
+   },
+   "text_path": "data/raw/bank/www-uob-com-sg-assets-web-resources-personal-pdf-cards-cashback-unionpay-card-upi-tnc-pdf-7b81923a.txt",
+   "sha256": "cbf44abdaad55271946ffe94cb2584e65af9c6f7f2f2585aee4544c00722337f",
+   "changed": false,
+   "new": true,
+   "no_text_layer": false,
+   "effective_dates": [
+    "1 Aug 2022",
+    "1 Feb 2021"
+   ],
+   "mcc": {
+    "include": [
+     "5965",
+     "5993",
+     "8699",
+     "8999"
+    ],
+    "exclude": [],
+    "unknown": [],
+    "conflicting": [],
+    "unrecognised": [],
+    "hits": [
+     {
+      "code": "5965",
+      "polarity": "include",
+      "page": 3,
+      "line": "5965 Direct marketing \u2013 Combination Catalog and Retail Merchants (wef 1 October 2024)",
+      "reason": "(m) any payment made with the following Merchant Category Codes (\u201cMCC\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "5993",
+      "polarity": "include",
+      "page": 3,
+      "line": "5993 Cigar Stores and Stands (wef 1 October 2024)",
+      "reason": "(m) any payment made with the following Merchant Category Codes (\u201cMCC\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "8699",
+      "polarity": "include",
+      "page": 3,
+      "line": "8699 Membership Organizations (Not Elsewhere Classified) (wef 1 October 2024)",
+      "reason": "(m) any payment made with the following Merchant Category Codes (\u201cMCC\u201d):",
+      "in_reference": true
+     },
+     {
+      "code": "8999",
+      "polarity": "include",
+      "page": 3,
+      "line": "8999 Professional Services (Not Elsewhere Classified) (wef 1 October 2024)",
+      "reason": "(m) any payment made with the following Merchant Category Codes (\u201cMCC\u201d):",
+      "in_reference": true
+     }
+    ]
+   },
+   "transaction_modes": {
+    "mobile_wallet": [
+     "(n) selected transactions such as insurance payments, Grab mobile wallet top- ups, wire transfers, payments to Non-Financial Institutions, quasi-cash and more;"
+    ],
+    "foreign_currency": [
+     "TERMS AND CONDITIONS GOVERNING UNITED OVERSEAS BANK LIMITED (\u201cUOB\u201d) UNIONPAY CREDIT CARD This document sets out the general terms and conditions governing the UOB UnionPay Credit Card issued by us which we may provide to you from time to time.",
+     "\u201cCard Transaction(s)\u201d means any retail transaction(s) (whether in Singapore or overseas) successfully carried out on and charged to the Card Account by the Cardmember, and which is successfully captured or posted on UOB\u2019s systems, and excludes the Exclusions (as defined in Clause 3).",
+     "\u201dwe / us / our / ourselves / the Bank / UOB\u201d means United Overseas Bank Limited and shall include its successors and assigns.",
+     "United Overseas Bank Limited Co."
+    ],
+    "local_currency": [
+     "## CONFIDENTIAL ## Page 1 of 5 #### RREESSTTRRIICCTTEEDD #### 1.2 The Cashback is calculated on a monthly basis, in Singapore Dollars, as 2% of the total amount of Cash Transactions charged to the Card Account in a calendar month.",
+     "1.4 The Cashback is capped at a maximum of Singapore Dollars Fifty Dollars (S$50) per calendar month, for each principal Cardmember\u2019s Card Account.",
+     "1.6 For the purposes of determining the amount of the Cashback, the Card Transactions made in foreign currencies will be converted to Singapore dollars based on UOB\u2019s then prevailing exchange rate on the date of conversion."
+    ]
+   },
+   "non_mcc_exclusions": [
+    "axs",
+    "cash advance",
+    "charit",
+    "education",
+    "government",
+    "hospital",
+    "interest",
+    "ipaymy",
+    "late payment charge",
+    "tax",
+    "top-ups",
+    "utilit"
+   ]
+  },
+  {
+   "url": "https://www.uob.com.sg/credit-cards/pdf/online-cards-campaign.pdf",
+   "citation": {
+    "id": "bank:c13cf48e44b4",
+    "url": "https://www.uob.com.sg/credit-cards/pdf/online-cards-campaign.pdf",
+    "source_type": "official",
+    "retrieved_at": "2026-09-27T08:45:26+00:00",
+    "sha256": "c13cf48e44b48d1aa3b0d0d5655f54f9001de57208d560ff29b09fc9ed8bc643",
+    "snapshot": "data/raw/bank/www-uob-com-sg-credit-cards-pdf-online-cards-campaign-pdf-a28f442a.pdf"
+   },
+   "text_path": "data/raw/bank/www-uob-com-sg-credit-cards-pdf-online-cards-campaign-pdf-a28f442a.txt",
+   "sha256": "c13cf48e44b48d1aa3b0d0d5655f54f9001de57208d560ff29b09fc9ed8bc643",
+   "changed": false,
+   "new": true,
+   "no_text_layer": false,
+   "effective_dates": [],
+   "mcc": {
+    "include": [
+     "4829",
+     "5199",
+     "5960",
+     "6012",
+     "6050",
+     "6051",
+     "6211",
+     "6300",
+     "6399",
+     "6513",
+     "6529",
+     "6530",
+     "6534",
+     "6540",
+     "7349",
+     "7511",
+     "7523",
+     "7995",
+     "8062",
+     "8211",
+     "8220",
+     "8241",
+     "8244",
+     "8249",
+     "8299",
+     "8398",
+     "8651",
+     "8661",
+     "9211",
+     "9222",
+     "9223",
+     "9311",
+     "9399",
+     "9402",
+     "9405"
+    ],
+    "exclude": [],
+    "unknown": [],
+    "conflicting": [],
+    "unrecognised": [
+     "6529",
+     "6530",
+     "6534"
+    ],
+    "hits": [
+     {
+      "code": "4829",
+      "polarity": "include",
+      "page": 2,
+      "line": "4829 Wire Transfer / Remittance",
+      "reason": "(ix) any transaction classified under one or more of the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "5199",
+      "polarity": "include",
+      "page": 2,
+      "line": "5199 Nondurable Goods",
+      "reason": "(ix) any transaction classified under one or more of the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "5960",
+      "polarity": "include",
+      "page": 2,
+      "line": "5960 Direct Marketing \u2013 Insurance Services",
+      "reason": "(ix) any transaction classified under one or more of the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "6012",
+      "polarity": "include",
+      "page": 2,
+      "line": "6012 Member Financial Institution \u2013 Merchandise and Services",
+      "reason": "(ix) any transaction classified under one or more of the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "6050",
+      "polarity": "include",
+      "page": 2,
+      "line": "6050 Quasi Cash \u2013 Financial Institutions, Merchandise and Services",
+      "reason": "(ix) any transaction classified under one or more of the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "6051",
+      "polarity": "include",
+      "page": 2,
+      "line": "6051 Quasi Cash \u2013 Merchant (Non-Financial Institutions \u2013 Foreign Currency, Non-",
+      "reason": "(ix) any transaction classified under one or more of the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "6211",
+      "polarity": "include",
+      "page": 2,
+      "line": "6211 Securities \u2013 Brokers and Dealers",
+      "reason": "(ix) any transaction classified under one or more of the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "6300",
+      "polarity": "include",
+      "page": 2,
+      "line": "6300 Insurance Sales / Underwrite",
+      "reason": "(ix) any transaction classified under one or more of the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "6399",
+      "polarity": "include",
+      "page": 2,
+      "line": "6399 Insurance",
+      "reason": "(ix) any transaction classified under one or more of the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "6513",
+      "polarity": "include",
+      "page": 2,
+      "line": "6513 Real Estate Agents & Managers \u2013 Rentals",
+      "reason": "(ix) any transaction classified under one or more of the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "6529",
+      "polarity": "include",
+      "page": 2,
+      "line": "6529 Quasi Cash \u2013 Remote Stored Value Load-Financial Institute Rentals",
+      "reason": "(ix) any transaction classified under one or more of the following Merchant Category Codes",
+      "in_reference": false
+     },
+     {
+      "code": "6530",
+      "polarity": "include",
+      "page": 2,
+      "line": "6530 Quasi Cash-Remote Stored Value Load \u2013 Merchant Rentals",
+      "reason": "(ix) any transaction classified under one or more of the following Merchant Category Codes",
+      "in_reference": false
+     },
+     {
+      "code": "6534",
+      "polarity": "include",
+      "page": 2,
+      "line": "6534 Quasi Cash \u2013 Remote Money Transfers",
+      "reason": "(ix) any transaction classified under one or more of the following Merchant Category Codes",
+      "in_reference": false
+     },
+     {
+      "code": "6540",
+      "polarity": "include",
+      "page": 2,
+      "line": "6540 Stored Value Card Purchase/Load",
+      "reason": "(ix) any transaction classified under one or more of the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "7349",
+      "polarity": "include",
+      "page": 2,
+      "line": "7349 Clean/Maint/Janitorial Serv aka Property Management",
+      "reason": "(ix) any transaction classified under one or more of the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "7511",
+      "polarity": "include",
+      "page": 2,
+      "line": "7511 Quasi Cash \u2013 Truck Stop Trxns",
+      "reason": "(ix) any transaction classified under one or more of the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "7523",
+      "polarity": "include",
+      "page": 2,
+      "line": "7523 Automobile Parking Lots and Garages",
+      "reason": "(ix) any transaction classified under one or more of the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "7995",
+      "polarity": "include",
+      "page": 2,
+      "line": "7995 Gambling \u2013 Betting, including Lottery Tickets, Casino Gaming Chips, Off-Track",
+      "reason": "(ix) any transaction classified under one or more of the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "8062",
+      "polarity": "include",
+      "page": 2,
+      "line": "8062 Hospitals",
+      "reason": "(ix) any transaction classified under one or more of the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "8211",
+      "polarity": "include",
+      "page": 2,
+      "line": "8211 Schools, Elementary and Secondary",
+      "reason": "(ix) any transaction classified under one or more of the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "8220",
+      "polarity": "include",
+      "page": 2,
+      "line": "8220 Colleges, Universities, Professional Schools and Junior Colleges",
+      "reason": "(ix) any transaction classified under one or more of the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "8241",
+      "polarity": "include",
+      "page": 2,
+      "line": "8241 Schools, Correspondence",
+      "reason": "(ix) any transaction classified under one or more of the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "8244",
+      "polarity": "include",
+      "page": 2,
+      "line": "8244 Schools, Business and Secretarial",
+      "reason": "(ix) any transaction classified under one or more of the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "8249",
+      "polarity": "include",
+      "page": 2,
+      "line": "8249 Schools, Trade and Vocational",
+      "reason": "(ix) any transaction classified under one or more of the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "8299",
+      "polarity": "include",
+      "page": 2,
+      "line": "8299 Schools and Educational Services \u2013 Not Elsewhere Classified",
+      "reason": "(ix) any transaction classified under one or more of the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "8398",
+      "polarity": "include",
+      "page": 2,
+      "line": "8398 Organizations, Charitable and Social Service",
+      "reason": "(ix) any transaction classified under one or more of the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "8661",
+      "polarity": "include",
+      "page": 2,
+      "line": "8661 Organizations, Religious",
+      "reason": "(ix) any transaction classified under one or more of the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "8651",
+      "polarity": "include",
+      "page": 2,
+      "line": "8651 Organizations, Political",
+      "reason": "(ix) any transaction classified under one or more of the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "9211",
+      "polarity": "include",
+      "page": 2,
+      "line": "9211 Court Costs including Alimony and Child Support",
+      "reason": "(ix) any transaction classified under one or more of the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "9222",
+      "polarity": "include",
+      "page": 2,
+      "line": "9222 Fines",
+      "reason": "(ix) any transaction classified under one or more of the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "9223",
+      "polarity": "include",
+      "page": 2,
+      "line": "9223 Bail and Bond Payments",
+      "reason": "(ix) any transaction classified under one or more of the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "9311",
+      "polarity": "include",
+      "page": 2,
+      "line": "9311 Tax Payment",
+      "reason": "(ix) any transaction classified under one or more of the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "9399",
+      "polarity": "include",
+      "page": 2,
+      "line": "9399 Government Services \u2013 not elsewhere classified",
+      "reason": "(ix) any transaction classified under one or more of the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "9402",
+      "polarity": "include",
+      "page": 2,
+      "line": "9402 Postal Services \u2013 Government Only",
+      "reason": "(ix) any transaction classified under one or more of the following Merchant Category Codes",
+      "in_reference": true
+     },
+     {
+      "code": "9405",
+      "polarity": "include",
+      "page": 2,
+      "line": "9405 Intra-Government Purchases \u2013 Government Only",
+      "reason": "(ix) any transaction classified under one or more of the following Merchant Category Codes",
+      "in_reference": true
+     }
+    ]
+   },
+   "transaction_modes": {
+    "online": [
+     "Without limiting the foregoing, UOB will not be liable or responsible for any undelivered, misdirected, corrupted, lost or delayed text, transmission or transaction or any delay or failure in posting any transaction or accessing any of UOB\u2019s online banking services or mobile banking services or third party applications, howsoever caused."
+    ],
+    "mobile_wallet": [
+     "(vii) any Grab mobile wallet top-up transactions;"
+    ],
+    "foreign_currency": [
+     "This Promotion is only open to individuals who are new to United Overseas Bank Limited (\u201cUOB\u201d) credit cards.",
+     "MCC Description 4829 Wire Transfer / Remittance 5199 Nondurable Goods 5960 Direct Marketing \u2013 Insurance Services 6012 Member Financial Institution \u2013 Merchandise and Services 6050 Quasi Cash \u2013 Financial Institutions, Merchandise and Services 6051 Quasi Cash \u2013 Merchant (Non-Financial Institutions \u2013 Foreign Currency, Non- Fiat Currency, Cryptocurrency) 6211 Securities \u2013 Brokers and Dealers 6300 Insur"
+    ],
+    "local_currency": [
+     "(c) Eligible Transactions made in foreign currencies will be converted into Singapore dollars based on UOB\u2019s then prevailing exchange rate applicable at the time of exchange."
+    ]
+   },
+   "non_mcc_exclusions": [
+    "axs",
+    "cardup",
+    "cash advance",
+    "charit",
+    "education",
+    "government",
+    "hospital",
+    "instalment",
+    "interest",
+    "ipaymy",
+    "late payment charge",
+    "tax",
+    "top-up"
+   ]
+  }
+ ],
+ "changed": false,
+ "removed_documents": []
+}

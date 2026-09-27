@@ -1,0 +1,80 @@
+{
+ "source": "moneysmart",
+ "source_id": "uob-evol",
+ "source_url": "https://www.moneysmart.sg/credit-cards/uob-evol",
+ "name": "UOB EVOL Credit Card",
+ "bank": "UOB",
+ "card_id": "uob-evol",
+ "image_url": "https://photos.cdn-moneysmart.com/credit_cards/uploads/products/images/image_url_2021-09-29_Details - Logo - UOB EVOL Credit Card.png",
+ "annual_fee": 0.0,
+ "earn_rates": {},
+ "caps": {},
+ "highlights": [
+  "10% Cashback on Local Online, Mobile Contactless, Telco, Gym, Streaming spend",
+  "0% FX Fees on overseas FX spend worldwide, with no min spend, no cap",
+  "800 Min. Spend per month for 10% cashback",
+  "Enjoy 10% cashback on local online and mobile contactless (Apple Pay, Samsung Pay, Google Pay) spend",
+  "Enjoy 10% cashback on selected gym, telco and streaming spend",
+  "Enjoy 0% FX fees on overseas FX spend worldwide, with no min spend, no cap",
+  "Up to 1% cashback on overseas FX spend (no min. spend and no cap) till 31 Dec 2026",
+  "No annual fees on your card effective 1 July 2026",
+  "Up to S$100 cashback per month refers to: S$30 for local Online/Mobile spend; S$20 for selected Gym, Telco and Streaming spend, S$30 for other spend + tactical S$20 for overseas FX spend valid until 30 Jun 2026",
+  "With min. S$800 spend per statement monthy, otherwise base on base cashback of 0.3% will be awareded. Exclusions and T&Cs at uob.com.sg/evoltncs",
+  "At MoneySmart, we strive to keep our information accurate and up to date. This information may be different from what you see when you visit a financial institution, service provider, or specific product site. MoneySmart shall not be liable to compensate the Customer should the information is not as updated as our Partner."
+ ],
+ "sign_up_offers": [],
+ "links": {
+  "product": "https://www.moneysmart.sg/credit-cards/uob-evol",
+  "review": "https://blog.moneysmart.sg/credit-cards/uob-evol-credit-card-review/"
+ },
+ "citation": {
+  "id": "moneysmart:eeee24fb93a9",
+  "url": "https://www.moneysmart.sg/credit-cards",
+  "title": "UOB EVOL Credit Card",
+  "source_type": "aggregator",
+  "retrieved_at": "2026-09-27T05:27:12+00:00",
+  "sha256": "eeee24fb93a9d85ef8b9194c11bda960b5b99ee30b3689cdc59fb650badebce7",
+  "snapshot": "data/raw/moneysmart/credit-cards-p1-b55034ef.html"
+ },
+ "extra": {
+  "summary": "",
+  "badges": [
+   "Up to 10% Cashback"
+  ],
+  "network": [
+   "Visa"
+  ],
+  "mobile_wallets": [
+   "Visa Contactless",
+   "Apple Pay",
+   "Samsung Pay"
+  ],
+  "groups": {
+   "annual-interest-rate-and-fees": {
+    "Annual Interest Rate": "27.80",
+    "Annual Principal Fee": "0",
+    "Supplementary Annual Fee": "1st Supplementary Card free, $98.10 for subsequent Supplementary Cards",
+    "Minimum Monthly Repayment": "3% or S$50, whichever is higher",
+    "Interest Free Period": "21 days"
+   },
+   "minimum-income-requirements": {
+    "Singaporean/PR Minimum Annual Income": "30000",
+    "Non-Singaporean Minimum Annual Income": "40000"
+   },
+   "card-association": {
+    "Visa": "true"
+   },
+   "wireless-payment": {
+    "Visa Contactless": "true",
+    "Apple Pay": "true",
+    "Samsung Pay": "true"
+   }
+  },
+  "our_takes": {
+   "our-take": "UOB EVOL is great for lifestyle and travel users who prefer no-fee cards, regularly use options like Apple Pay or Samsung Pay, offering 10% cashback on online and mobile contactless spend, plus for a limited time only enjoy up to 1% cashback on eligible overseas FX transactions. Enjoy 0% FX fees on overseas transaction. To maximize value, spend at least S$800 monthly; otherwise, the cashback drops to 0.3%. Note the S$100 cashback cap split across online/mobile (S$30), selected gym, telco, streaming spend (S$20), and other spend (S$30), overseas FX spend till 31 Dec 2026 (S$20). Enjoy no annual fees on your card effective 1 July 2026.",
+   "good-for": "Ideal for digital natives who want cashback on online and mobile contactless payments.\nTravellers who are looking to maximise their travel spending with up to 1% cashback on overseas transactions\nGreat for those who appreciate no annual fees by hitting minimum spend of at least 3 transactions monthly.\nSuited for individuals seeking rewards on overseas purchases made in foreign currencies.",
+   "things-to-note": "Missing minimum monthly spend leads to reduced cashback, costing you rewards on your UOB EVOL card.\nCarrying balances incurs 27.8% annual interest; unpaid amounts quickly increase your debt.\nLate payments incur a S$100 fee per month, escalating costs if not paid on time."
+  },
+  "updated_at": "2026-07-01T01:07:37+08:00"
+ }
+}

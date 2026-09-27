@@ -1,0 +1,87 @@
+{
+ "source": "singsaver",
+ "source_id": "uob-singtel-uob-card",
+ "source_url": "https://www.singsaver.com.sg/credit-card/products/uob-singtel-uob-card",
+ "name": "Singtel-UOB Card",
+ "bank": "UOB",
+ "card_id": "singtel-uob",
+ "image_url": "https://mhgprod.blob.core.windows.net/singsaver/strapi-uploads/s_UOB_Singtel_Card_2025_08_a5dba2d103.png",
+ "annual_fee": 196.2,
+ "annual_fee_note": "S$ | First Year Fee waived. Subsequent years waived with 12-month recurring Singtel/GOMO bills.",
+ "min_annual_income": 30000.0,
+ "earn_rates": {
+  "percent:baseline": {
+   "value": 0.3,
+   "unit": "percent",
+   "note": "On all other spend, capped at S$20 per statement month"
+  },
+  "percent:overseas": {
+   "value": 0.3,
+   "unit": "percent",
+   "note": "No FX fees on foreign currency spend."
+  },
+  "percent:local": {
+   "value": 12.0,
+   "unit": "percent",
+   "note": "Up to  | Enjoy 12% cashback on your Singtel/GOMO spend, 10% cashback on online/mobile spend. Cashback capped at S$80 monthly (S$30 Singtel spend, S$30 online/mobile spend, S$20 other spend). Plus, get 0% FX fees on overseas foreign currency spend with no min spend."
+  },
+  "percent:utilities": {
+   "value": 12.0,
+   "unit": "percent",
+   "note": "12% cashback on your Singtel/GOMO spend, capped at S$30 per statement month. "
+  }
+ },
+ "caps": {},
+ "highlights": [
+  "Enjoy 12% cashback on your Singtel/GOMO spend, 10% cashback on online/mobile spend. Cashback capped at S$80 monthly (S$30 Singtel spend, S$30 online/mobile spend, S$20 other spend). Plus, get 0% FX fees on overseas foreign currency spend with no min spend.",
+  "pros: Enjoy 12% cashback on Singtel and GOMO spend.",
+  "pros: Enjoy 10% cashback on Local Online and Mobile Contactless (Apple Pay, Google Pay) spend.",
+  "pros: Enjoy no FX fees on overseas foreign currency spend with no min. spend.",
+  "pros: Waiver of Annual Fee with 12-month recurring Singtel and/or GOMO bills",
+  "pros: Enjoy up to S$300 Singtel vouchers per year when you spend S$12,000/yr locally on the card",
+  "cons: Minimum spend of S$800 each statement month to enjoy accelerated cashback",
+  "cons: S$80 total cashback cap per statement month (S$30 cap for Singtel spend, S$30 cap for local online and mobile spend; S$20 cap for all other spend.)",
+  "pros: Singtel/GOMO spend rebate",
+  "pros: Online shopping rebate",
+  "pros: Mobile contactless rebate",
+  "pros: No FX fee",
+  "pros: Voucher redeemable yearly",
+  "cons: Rebate cap applied",
+  "cons: Monthly spend required"
+ ],
+ "sign_up_offers": [],
+ "links": {
+  "apply": "https://forms.uob.com/sg/apply/?productId=001803&s_cid=pfs:sg:paid:aff:site:na:bu:na:001803:280920-evergreen:na:na:ss&vid=singsaver&pib=false&dclid=CJrlv8vc3voCFZLscwEdAvULRg"
+ },
+ "citation": {
+  "id": "singsaver:426a3007bd31",
+  "url": "https://www.singsaver.com.sg/credit-card/products/uob-singtel-uob-card",
+  "title": "Singtel-UOB Card",
+  "source_type": "aggregator",
+  "retrieved_at": "2026-09-27T05:27:04+00:00",
+  "sha256": "426a3007bd31532cb78d538925bd87512048f7ec8c44eb7f97fdbedf3463c206",
+  "snapshot": "data/raw/singsaver/www-singsaver-com-sg-credit-card-products-uob-singtel-uob-card-044ee947.html"
+ },
+ "extra": {
+  "network": [
+   "VISA Signature"
+  ],
+  "mobile_wallets": [
+   "Apple Pay",
+   "Google Pay",
+   "Samsung Pay"
+  ],
+  "fx_fee_percent": null,
+  "miles_conversion_fee": null,
+  "categories": [
+   "category:all-credit-cards",
+   "category:cashback",
+   "category:promo",
+   "needs:all-cards-with-promotion",
+   "needs:all-cashback-cards",
+   "needs:all-credit-cards"
+  ],
+  "tag": null,
+  "description": "The Singtel-UOB Card seamlessly combines financial convenience with telecom perks for a smarter, more rewarding lifestyle. Enjoy cashback on your Singtel bills and/or GOMO charges and perpetual waiver of your annual fee."
+ }
+}

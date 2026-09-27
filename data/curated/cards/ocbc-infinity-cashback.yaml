@@ -1,0 +1,110 @@
+# Curated card record. Auto-drafted from staged sources; verify every value against the
+# official T&Cs (citations below), then set review.status: reviewed.
+id: ocbc-infinity-cashback
+bank: OCBC
+name: OCBC INFINITY Cashback Credit Card
+network: mastercard
+image_url: https://mhgprod.blob.core.windows.net/singsaver/strapi-uploads/s_blt453f005cb681db05_37ffa9a837.png
+official_url: https://www.ocbc.com/personal-banking/cards/infinity-unlimited-cashback-card.page
+annual_fee:
+  amount:
+    amount: 196.2
+    currency: SGD
+  first_year_waived: true
+  waiver_notes: S$ | First Year Waived. Min. spend of S$10,000 per year for waiver of annual fee for subsequent
+    years.
+  sources: ['singsaver:e22fe54563d2']
+min_annual_income:
+  amount: 30000.0
+  currency: SGD
+reward_currency:
+  kind: cashback
+  name: Cashback
+earn_rules:
+- id: local
+  label: local, dining, supermarket, retail, local online shopping, overseas online shopping, transport,
+    overseas, contactless spend (SingSaver — verify)
+  rate: 1.6
+  unit: percent
+  tier: bonus
+  eligibility:
+    tags: [dining, groceries, shopping, transport]
+    description: ''
+    sources: ['singsaver:e22fe54563d2']
+  sources: ['singsaver:e22fe54563d2']
+- id: base
+  label: baseline (SingSaver — verify)
+  rate: 1.6
+  unit: percent
+  tier: base
+  eligibility:
+    all_spend: true
+    description: On all spends
+    sources: ['singsaver:e22fe54563d2']
+  sources: ['singsaver:e22fe54563d2']
+general_exclusions:
+  exclude_mcc: ['4784', '4829', '4900', '5047', '5199', '5960', '5993', '6010', '6012', '6051', '6211',
+    '6300', '6513', '6540', '7349', '7523', '7995', '8062', '8211', '8220', '8241', '8244', '8249', '8299',
+    '8398', '8651', '8661', '8675', '8699', '9211', '9222', '9223', '9311', '9399', '9402', '9405']
+  description: Auto-extracted from official T&Cs — confirm each code applies to this card
+  sources: ['bank:f6fb29feb871']
+sign_up_bonuses:
+- offered_by: singsaver
+  description: 'SingSaver Flash Deal: choice of Apple Watch Series 12 Aluminum 42mm GPS (worth S$599)'
+  valid_from: '2026-09-21'
+  valid_to: '2026-09-27'
+  url: https://www.singsaver.com.sg/credit-card/products/ocbc-infinity-card
+  sources: ['singsaver:e22fe54563d2']
+- offered_by: singsaver
+  description: 'SingSaver Exclusive Offer: choice of S$400 Cash via PayNow; S$440 Grab Vouchers; 25,000
+    Max Miles by HeyMax (worth S$450); Dyson Airstrait™ straightener (worth S$799); Dyson V8 Cyclone Vacuum
+    Cleaner (worth S$559); Dyson Airwrap™ multi-styler and dryer (worth S$799) (top up S$80); Dyson Clean+Wash
+    Hygiene hard floor cleaner (worth S$729) (Top up S$150); Apple iPad (A16) 11" 128GB WiFi (worth S$649)
+    (Top up S$200); Apple Watch Series 12 Aluminum 42mm GPS (worth S$599) (Top-up S$150); Apple MacBook
+    Neo (A18 Pro) 256GB w/ Magic Keyboard (worth S$999, top up S$570); Apple iPhone 18 Pro (worth S$1,899,
+    top up S$1,350)'
+  value:
+    amount: 400.0
+    currency: SGD
+  valid_from: '2026-09-15'
+  valid_to: '2026-09-30'
+  url: https://www.singsaver.com.sg/credit-card/products/ocbc-infinity-card
+  sources: ['singsaver:e22fe54563d2']
+- offered_by: moneysmart
+  description: 'Choice of: S$200 Cash via PayNow; Sennheiser Momentum True Wireless 4 Earbuds (Black Graphite);
+    Omnidesk Essential Electric Height-Adjustable Desk (Black); TTRacing Swift X Pro Gaming Chair (Black);
+    LEVEL8 Luminous Textured Collection 28-inch Luggage (Black). Terms: • Apply for an eligible OCBC Credit
+    Card by 30th Sept 2026
+
+    • Spend a min. of S$400 in eligible transactions within 30 days from card approval
+
+    • Submit the Claim Form upon receiving the Unique Redemption Code from OCBC'
+  url: https://www.moneysmart.sg/credit-cards/ocbc-infinity-cashback-card
+  sources: ['moneysmart:42909b088c22']
+notes:
+- 'T&C mentions (check whether excluded): annual fee, axs, balance transfer, bill payment, cash advance,
+  charit, education, government, grabpay, hospital, instalment, interest, tax, utilit, youtrip'
+citations:
+- id: singsaver:e22fe54563d2
+  url: https://www.singsaver.com.sg/credit-card/products/ocbc-infinity-card
+  title: OCBC INFINITY Cashback Credit Card
+  source_type: aggregator
+  retrieved_at: '2026-09-27T05:26:24+00:00'
+  sha256: e22fe54563d2f6ae61680cb230271236c6e5affd6ec4b74fa902447747585b9e
+  snapshot: data/raw/singsaver/www-singsaver-com-sg-credit-card-products-ocbc-infinity-card-ee6ae9d9.html
+- id: moneysmart:42909b088c22
+  url: https://www.moneysmart.sg/credit-cards?page=2
+  title: OCBC INFINITY Cashback Card
+  source_type: aggregator
+  retrieved_at: '2026-09-27T05:27:14+00:00'
+  sha256: 42909b088c22cb063c120b532d19af920cb3535c52f6bfc313193c6c6ea14746
+  snapshot: data/raw/moneysmart/credit-cards-p2-5f055203.html
+- id: bank:f6fb29feb871
+  url: https://www.ocbc.com/iwov-resources/sg/ocbc/personal/pdf/cards/tncs-governing-ocbc-infinity-cashback-card-programme.pdf
+  source_type: official
+  retrieved_at: '2026-09-27T08:41:31+00:00'
+  sha256: f6fb29feb871a0e9cc0d6f8dfd25f20dcfde02bad303b371749bd71390709191
+  snapshot: data/raw/bank/www-ocbc-com-iwov-resources-sg-ocbc-personal-pdf-cards-tncs-governing-ocbc-infinity-cashback-card-programme-pdf-1b72ad40.pdf
+review:
+  status: draft
+updated_at: '2026-09-27'

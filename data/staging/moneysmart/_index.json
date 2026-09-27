@@ -1,0 +1,562 @@
+[
+ {
+  "card_id": "hsbc-revolution",
+  "source_id": "hsbc-revolution-credit-card",
+  "name": "HSBC Revolution Credit Card",
+  "bank": "HSBC",
+  "url": "https://www.moneysmart.sg/credit-cards/hsbc-revolution-credit-card"
+ },
+ {
+  "card_id": "citi-cash-back-plus",
+  "source_id": "citi-cashback-plus-card",
+  "name": "Citi Cash Back+ Card",
+  "bank": "Citibank",
+  "url": "https://www.moneysmart.sg/credit-cards/citi-cashback-plus-card"
+ },
+ {
+  "card_id": "hsbc-live-plus",
+  "source_id": "hsbc-live-plus-card",
+  "name": "HSBC Live+ Card",
+  "bank": "HSBC",
+  "url": "https://www.moneysmart.sg/credit-cards/hsbc-live-plus-card"
+ },
+ {
+  "card_id": "citi-rewards",
+  "source_id": "citibank-rewards-card",
+  "name": "Citi Rewards Card",
+  "bank": "Citibank",
+  "url": "https://www.moneysmart.sg/credit-cards/citibank-rewards-card"
+ },
+ {
+  "card_id": "citi-premiermiles",
+  "source_id": "citi-premiermiles-card",
+  "name": "Citi PremierMiles Card",
+  "bank": "Citibank",
+  "url": "https://www.moneysmart.sg/credit-cards/citi-premiermiles-card"
+ },
+ {
+  "card_id": "ocbc-365",
+  "source_id": "ocbc-365-credit-card",
+  "name": "OCBC 365 Credit Card",
+  "bank": "OCBC",
+  "url": "https://www.moneysmart.sg/credit-cards/ocbc-365-credit-card"
+ },
+ {
+  "card_id": "hsbc-travelone",
+  "source_id": "hsbc-travelone-card",
+  "name": "HSBC TravelOne Card",
+  "bank": "HSBC",
+  "url": "https://www.moneysmart.sg/credit-cards/hsbc-travelone-card"
+ },
+ {
+  "card_id": "standard-chartered-simply-cash",
+  "source_id": "standard-chartered-simply-cash-credit-card",
+  "name": "Standard Chartered Simply Cash Credit Card",
+  "bank": "Standard Chartered",
+  "url": "https://www.moneysmart.sg/credit-cards/standard-chartered-simply-cash-credit-card"
+ },
+ {
+  "card_id": "citi-smrt",
+  "source_id": "citibank-smrt-platinum-visa-card",
+  "name": "Citi SMRT Card",
+  "bank": "Citibank",
+  "url": "https://www.moneysmart.sg/credit-cards/citibank-smrt-platinum-visa-card"
+ },
+ {
+  "card_id": "cimb-world-mastercard",
+  "source_id": "cimb-world-mastercard",
+  "name": "CIMB World Mastercard",
+  "bank": "CIMB",
+  "url": "https://www.moneysmart.sg/credit-cards/cimb-world-mastercard"
+ },
+ {
+  "card_id": "trust-freedom",
+  "source_id": "trust-freedom-credit-card",
+  "name": "Trust Freedom Credit Card",
+  "bank": "Trust Bank",
+  "url": "https://www.moneysmart.sg/credit-cards/trust-freedom-credit-card"
+ },
+ {
+  "card_id": "dcs-ultimate-platinum-mastercard",
+  "source_id": "dcs-ultimate-platinum-mastercard",
+  "name": "DCS Ultimate Platinum MasterCard",
+  "bank": "DCS",
+  "url": "https://www.moneysmart.sg/credit-cards/dcs-ultimate-platinum-mastercard"
+ },
+ {
+  "card_id": null,
+  "source_id": "worldfirst-world-card",
+  "name": "WorldFirst Corporate Card",
+  "bank": "WorldFirst",
+  "url": "https://www.moneysmart.sg/credit-cards/worldfirst-world-card"
+ },
+ {
+  "card_id": "uob-one",
+  "source_id": "uob-one-card",
+  "name": "UOB One Card",
+  "bank": "UOB",
+  "url": "https://www.moneysmart.sg/credit-cards/uob-one-card"
+ },
+ {
+  "card_id": null,
+  "source_id": "airwallex-corporate-debit-card",
+  "name": "Airwallex Corporate Debit Card",
+  "bank": "Airwallex",
+  "url": "https://www.moneysmart.sg/credit-cards/airwallex-corporate-debit-card"
+ },
+ {
+  "card_id": "uob-evol",
+  "source_id": "uob-evol",
+  "name": "UOB EVOL Credit Card",
+  "bank": "UOB",
+  "url": "https://www.moneysmart.sg/credit-cards/uob-evol"
+ },
+ {
+  "card_id": null,
+  "source_id": "hsbc-revolution-credit-card-and-everyday-global-account-personal-banking-bundle",
+  "name": "HSBC Revolution Credit Card & Everyday Global Account (Personal Banking) Bundle",
+  "bank": "HSBC",
+  "url": "https://www.moneysmart.sg/credit-cards/hsbc-revolution-credit-card-and-everyday-global-account-personal-banking-bundle"
+ },
+ {
+  "card_id": "maybank-xl-rewards",
+  "source_id": "maybank-xl-rewards-card",
+  "name": "Maybank XL Rewards Card",
+  "bank": "Maybank",
+  "url": "https://www.moneysmart.sg/credit-cards/maybank-xl-rewards-card"
+ },
+ {
+  "card_id": "maybank-xl-cashback",
+  "source_id": "maybank-xl-cashback-card",
+  "name": "Maybank XL Cashback Card",
+  "bank": "Maybank",
+  "url": "https://www.moneysmart.sg/credit-cards/maybank-xl-cashback-card"
+ },
+ {
+  "card_id": "uob-visa-signature",
+  "source_id": "uob-visa-signature-card",
+  "name": "UOB Visa Signature Card",
+  "bank": "UOB",
+  "url": "https://www.moneysmart.sg/credit-cards/uob-visa-signature-card"
+ },
+ {
+  "card_id": "ocbc-infinity-cashback",
+  "source_id": "ocbc-infinity-cashback-card",
+  "name": "OCBC INFINITY Cashback Card",
+  "bank": "OCBC",
+  "url": "https://www.moneysmart.sg/credit-cards/ocbc-infinity-cashback-card"
+ },
+ {
+  "card_id": "dcs-flex-visa-platinum",
+  "source_id": "dcs-flex-visa-platinum-card",
+  "name": "DCS Flex Visa Platinum Card",
+  "bank": "DCS",
+  "url": "https://www.moneysmart.sg/credit-cards/dcs-flex-visa-platinum-card"
+ },
+ {
+  "card_id": "dcs-ultimate-platinum-unionpay",
+  "source_id": "dcs-ultimate-platinum-card",
+  "name": "DCS Ultimate Platinum UnionPay",
+  "bank": "DCS",
+  "url": "https://www.moneysmart.sg/credit-cards/dcs-ultimate-platinum-card"
+ },
+ {
+  "card_id": "dbs-chromo",
+  "source_id": "dbs-chromo-card",
+  "name": "DBS Chromo Card",
+  "bank": "DBS",
+  "url": "https://www.moneysmart.sg/credit-cards/dbs-chromo-card"
+ },
+ {
+  "card_id": "amex-krisflyer-ascend",
+  "source_id": "american-express-singapore-airlines-krisflyer-ascend-credit-card",
+  "name": "American Express Singapore Airlines KrisFlyer Ascend Credit Card",
+  "bank": "American Express",
+  "url": "https://www.moneysmart.sg/credit-cards/american-express-singapore-airlines-krisflyer-ascend-credit-card"
+ },
+ {
+  "card_id": "standard-chartered-journey-annual-fee-paying",
+  "source_id": "standard-chartered-journey-credit-card-annual-fee-payable",
+  "name": "Standard Chartered Journey Credit Card (Annual Fee Payable)",
+  "bank": "Standard Chartered",
+  "url": "https://www.moneysmart.sg/credit-cards/standard-chartered-journey-credit-card-annual-fee-payable"
+ },
+ {
+  "card_id": "ocbc-90-n-mastercard",
+  "source_id": "ocbc-90-n-card",
+  "name": " OCBC 90\u00b0N Card",
+  "bank": "OCBC",
+  "url": "https://www.moneysmart.sg/credit-cards/ocbc-90-n-card"
+ },
+ {
+  "card_id": "cimb-visa-infinite",
+  "source_id": "cimb-visa-infinite",
+  "name": "CIMB Visa Infinite",
+  "bank": "CIMB",
+  "url": "https://www.moneysmart.sg/credit-cards/cimb-visa-infinite"
+ },
+ {
+  "card_id": "amex-krisflyer",
+  "source_id": "american-express-singapore-airlines-krisflyer-credit-card",
+  "name": "American Express Singapore Airlines KrisFlyer Credit Card",
+  "bank": "American Express",
+  "url": "https://www.moneysmart.sg/credit-cards/american-express-singapore-airlines-krisflyer-credit-card"
+ },
+ {
+  "card_id": "amex-true-cashback",
+  "source_id": "american-express-true-cashback-card",
+  "name": "American Express True Cashback Card",
+  "bank": "American Express",
+  "url": "https://www.moneysmart.sg/credit-cards/american-express-true-cashback-card"
+ },
+ {
+  "card_id": "standard-chartered-journey-annual-fee-waiver",
+  "source_id": "standard-chartered-journey-credit-card",
+  "name": "Standard Chartered Journey Credit Card (No Annual Fee)",
+  "bank": "Standard Chartered",
+  "url": "https://www.moneysmart.sg/credit-cards/standard-chartered-journey-credit-card"
+ },
+ {
+  "card_id": "ocbc-rewards",
+  "source_id": "ocbc-rewards-credit-card",
+  "name": "OCBC Rewards Credit Card",
+  "bank": "OCBC",
+  "url": "https://www.moneysmart.sg/credit-cards/ocbc-rewards-credit-card"
+ },
+ {
+  "card_id": "ocbc-90-n-visa",
+  "source_id": "ocbc-90n-visa-card",
+  "name": "OCBC 90\u00b0N Visa Card",
+  "bank": "OCBC",
+  "url": "https://www.moneysmart.sg/credit-cards/ocbc-90n-visa-card"
+ },
+ {
+  "card_id": "cimb-visa-signature",
+  "source_id": "cimb-visa-signature",
+  "name": "CIMB Visa Signature",
+  "bank": "CIMB",
+  "url": "https://www.moneysmart.sg/credit-cards/cimb-visa-signature"
+ },
+ {
+  "card_id": "trust-link",
+  "source_id": "ntuc-link-trust-card",
+  "name": "NTUC Link Credit Card by Trust",
+  "bank": "Trust Bank",
+  "url": "https://www.moneysmart.sg/credit-cards/ntuc-link-trust-card"
+ },
+ {
+  "card_id": "hsbc-advance",
+  "source_id": "hsbc-advance-credit-card",
+  "name": " HSBC Advance Credit Card",
+  "bank": "HSBC",
+  "url": "https://www.moneysmart.sg/credit-cards/hsbc-advance-credit-card"
+ },
+ {
+  "card_id": "citi-cash-back",
+  "source_id": "citi-cash-back-card",
+  "name": "Citi Cash Back Card",
+  "bank": "Citibank",
+  "url": "https://www.moneysmart.sg/credit-cards/citi-cash-back-card"
+ },
+ {
+  "card_id": "amex-platinum-credit",
+  "source_id": "american-express-platinum-credit-card",
+  "name": "American Express Platinum Credit Card",
+  "bank": "American Express",
+  "url": "https://www.moneysmart.sg/credit-cards/american-express-platinum-credit-card"
+ },
+ {
+  "card_id": "uob-ladys",
+  "source_id": "uob-lady-s-card",
+  "name": "UOB Lady's Card",
+  "bank": "UOB",
+  "url": "https://www.moneysmart.sg/credit-cards/uob-lady-s-card"
+ },
+ {
+  "card_id": "dbs-yuu-visa",
+  "source_id": "dbs-yuu-visa-card",
+  "name": "DBS yuu Visa Card",
+  "bank": "DBS",
+  "url": "https://www.moneysmart.sg/credit-cards/dbs-yuu-visa-card"
+ },
+ {
+  "card_id": "dbs-yuu-american-express",
+  "source_id": "dbs-yuu-american-express-card",
+  "name": "DBS yuu American Express\u00ae Card",
+  "bank": "DBS",
+  "url": "https://www.moneysmart.sg/credit-cards/dbs-yuu-american-express-card"
+ },
+ {
+  "card_id": "uob-prvi-miles-american-express",
+  "source_id": "uob-prvi-amex",
+  "name": "UOB PRVI Miles American Express Card",
+  "bank": "UOB",
+  "url": "https://www.moneysmart.sg/credit-cards/uob-prvi-amex"
+ },
+ {
+  "card_id": "uob-prvi-miles-world-mastercard",
+  "source_id": "uob-prvi-mastercard-miles-card",
+  "name": "UOB PRVI Miles Mastercard Card",
+  "bank": "UOB",
+  "url": "https://www.moneysmart.sg/credit-cards/uob-prvi-mastercard-miles-card"
+ },
+ {
+  "card_id": "uob-prvi-miles-visa",
+  "source_id": "uob-prvi-miles-card",
+  "name": "UOB PRVI Miles Visa Card",
+  "bank": "UOB",
+  "url": "https://www.moneysmart.sg/credit-cards/uob-prvi-miles-card"
+ },
+ {
+  "card_id": "uob-absolute-cashback",
+  "source_id": "uob-absolute-cashback-card",
+  "name": "UOB Absolute Cashback Card",
+  "bank": "UOB",
+  "url": "https://www.moneysmart.sg/credit-cards/uob-absolute-cashback-card"
+ },
+ {
+  "card_id": "dbs-altitude-visa-signature",
+  "source_id": "dbs-altitude-visa-signature-card",
+  "name": "DBS Altitude Visa Signature Card",
+  "bank": "DBS",
+  "url": "https://www.moneysmart.sg/credit-cards/dbs-altitude-visa-signature-card"
+ },
+ {
+  "card_id": "krisflyer-uob",
+  "source_id": "krisflyer-uob-credit-card",
+  "name": "KrisFlyer UOB Credit Card",
+  "bank": "UOB",
+  "url": "https://www.moneysmart.sg/credit-cards/krisflyer-uob-credit-card"
+ },
+ {
+  "card_id": "posb-everyday",
+  "source_id": "posb-everyday-card",
+  "name": "POSB Everyday Card",
+  "bank": "POSB",
+  "url": "https://www.moneysmart.sg/credit-cards/posb-everyday-card"
+ },
+ {
+  "card_id": "dbs-vantage-visa-infinite",
+  "source_id": "dbs-vantage-visa-infinite-card",
+  "name": "DBS Vantage Visa Infinite Card",
+  "bank": "DBS",
+  "url": "https://www.moneysmart.sg/credit-cards/dbs-vantage-visa-infinite-card"
+ },
+ {
+  "card_id": "dbs-altitude-american-express",
+  "source_id": "dbs-altitude-american-express-card",
+  "name": "DBS Altitude American Express Card",
+  "bank": "DBS",
+  "url": "https://www.moneysmart.sg/credit-cards/dbs-altitude-american-express-card"
+ },
+ {
+  "card_id": null,
+  "source_id": "standard-chartered-simply-cash-credit-card-funds-transfer",
+  "name": "Standard Chartered Simply Cash + Credit Card Funds Transfer",
+  "bank": "Standard Chartered",
+  "url": "https://www.moneysmart.sg/credit-cards/standard-chartered-simply-cash-credit-card-funds-transfer"
+ },
+ {
+  "card_id": "dbs-womans",
+  "source_id": "dbs-womans-card",
+  "name": "DBS Woman's Card",
+  "bank": "DBS",
+  "url": "https://www.moneysmart.sg/credit-cards/dbs-womans-card"
+ },
+ {
+  "card_id": "dbs-womans-world",
+  "source_id": "dbs-woman-s-world-card",
+  "name": "DBS Woman's World Card",
+  "bank": "DBS",
+  "url": "https://www.moneysmart.sg/credit-cards/dbs-woman-s-world-card"
+ },
+ {
+  "card_id": "citi-m1-platinum-visa",
+  "source_id": "citi-m1-credit-card",
+  "name": "Citi M1 Credit Card",
+  "bank": "Citibank",
+  "url": "https://www.moneysmart.sg/credit-cards/citi-m1-credit-card"
+ },
+ {
+  "card_id": "dbs-takashimaya-american-express",
+  "source_id": "dbs-takashimaya-platinum-american-express-card",
+  "name": "DBS Takashimaya American Express Card",
+  "bank": "DBS",
+  "url": "https://www.moneysmart.sg/credit-cards/dbs-takashimaya-platinum-american-express-card"
+ },
+ {
+  "card_id": "dbs-live-fresh-student",
+  "source_id": "dbs-live-fresh-student",
+  "name": "DBS Live Fresh Student Card",
+  "bank": "DBS",
+  "url": "https://www.moneysmart.sg/credit-cards/dbs-live-fresh-student"
+ },
+ {
+  "card_id": "dbs-esso",
+  "source_id": "dbs-esso-card",
+  "name": "DBS Esso Card",
+  "bank": "DBS",
+  "url": "https://www.moneysmart.sg/credit-cards/dbs-esso-card"
+ },
+ {
+  "card_id": "dbs-safra",
+  "source_id": "safra-dbs-card",
+  "name": "SAFRA DBS Card",
+  "bank": "DBS",
+  "url": "https://www.moneysmart.sg/credit-cards/safra-dbs-card"
+ },
+ {
+  "card_id": "uob-visa-infinite-metal",
+  "source_id": "uob-visa-infinite-metal-card",
+  "name": "UOB Visa Infinite Metal Card",
+  "bank": "UOB",
+  "url": "https://www.moneysmart.sg/credit-cards/uob-visa-infinite-metal-card"
+ },
+ {
+  "card_id": "uob-ladys-solitaire",
+  "source_id": "uob-ladys-solitaire-card",
+  "name": "UOB Lady's Solitaire Card",
+  "bank": "UOB",
+  "url": "https://www.moneysmart.sg/credit-cards/uob-ladys-solitaire-card"
+ },
+ {
+  "card_id": "lazada-uob",
+  "source_id": "uob-lazada-card",
+  "name": "Lazada-UOB Card",
+  "bank": "UOB",
+  "url": "https://www.moneysmart.sg/credit-cards/uob-lazada-card"
+ },
+ {
+  "card_id": "singtel-uob",
+  "source_id": "singtel-uob-card",
+  "name": "Singtel-UOB Card",
+  "bank": "UOB",
+  "url": "https://www.moneysmart.sg/credit-cards/singtel-uob-card"
+ },
+ {
+  "card_id": "circles-zerofy-cashback",
+  "source_id": "circles-zerofy-visa-cashback-card",
+  "name": "Circles Zerofy Visa Cashback Card",
+  "bank": "Circles.Life",
+  "url": "https://www.moneysmart.sg/credit-cards/circles-zerofy-visa-cashback-card"
+ },
+ {
+  "card_id": "standard-chartered-smart",
+  "source_id": "standard-chartered-smart-credit-card",
+  "name": "Standard Chartered Smart Credit Card",
+  "bank": "Standard Chartered",
+  "url": "https://www.moneysmart.sg/credit-cards/standard-chartered-smart-credit-card"
+ },
+ {
+  "card_id": "standard-chartered-rewards-plus",
+  "source_id": "standard-chartered-rewards",
+  "name": "Standard Chartered Rewards+ Credit Card",
+  "bank": "Standard Chartered",
+  "url": "https://www.moneysmart.sg/credit-cards/standard-chartered-rewards"
+ },
+ {
+  "card_id": "maybank-family-friends",
+  "source_id": "maybank-family-friends-mastercard",
+  "name": "Maybank Family & Friends Card",
+  "bank": "Maybank",
+  "url": "https://www.moneysmart.sg/credit-cards/maybank-family-friends-mastercard"
+ },
+ {
+  "card_id": "maybank-horizon-visa-signature",
+  "source_id": "maybank-horizon-visa-signature",
+  "name": "Maybank Horizon Visa Signature",
+  "bank": "Maybank",
+  "url": "https://www.moneysmart.sg/credit-cards/maybank-horizon-visa-signature"
+ },
+ {
+  "card_id": "hsbc-visa-infinite",
+  "source_id": "hsbc-visa-infinite-credit-card",
+  "name": "HSBC Visa Infinite Credit Card",
+  "bank": "HSBC",
+  "url": "https://www.moneysmart.sg/credit-cards/hsbc-visa-infinite-credit-card"
+ },
+ {
+  "card_id": "ocbc-nxt",
+  "source_id": "ocbc-nxt-credit-card",
+  "name": "OCBC NXT Credit Card",
+  "bank": "OCBC",
+  "url": "https://www.moneysmart.sg/credit-cards/ocbc-nxt-credit-card"
+ },
+ {
+  "card_id": "maybank-world-mastercard",
+  "source_id": "maybank-world-mastercard",
+  "name": "Maybank World Mastercard",
+  "bank": "Maybank",
+  "url": "https://www.moneysmart.sg/credit-cards/maybank-world-mastercard"
+ },
+ {
+  "card_id": "standard-chartered-visa-infinite",
+  "source_id": "standard-chartered-visa-infinite-credit-card",
+  "name": "Standard Chartered Visa Infinite Credit Card",
+  "bank": "Standard Chartered",
+  "url": "https://www.moneysmart.sg/credit-cards/standard-chartered-visa-infinite-credit-card"
+ },
+ {
+  "card_id": "maybank-manchester-united-platinum-visa",
+  "source_id": "maybank-manchester-united-platinum-visa-card",
+  "name": "Maybank Manchester United Platinum Visa Card",
+  "bank": "Maybank",
+  "url": "https://www.moneysmart.sg/credit-cards/maybank-manchester-united-platinum-visa-card"
+ },
+ {
+  "card_id": "maybank-fc-barcelona-visa-signature",
+  "source_id": "maybank-fc-barcelona-visa-signature",
+  "name": "Maybank FC Barcelona Visa Signature",
+  "bank": "Maybank",
+  "url": "https://www.moneysmart.sg/credit-cards/maybank-fc-barcelona-visa-signature"
+ },
+ {
+  "card_id": "maybank-platinum-visa",
+  "source_id": "maybank-platinum-visa-card",
+  "name": "Maybank Platinum Visa Card",
+  "bank": "Maybank",
+  "url": "https://www.moneysmart.sg/credit-cards/maybank-platinum-visa-card"
+ },
+ {
+  "card_id": "uob-preferred-visa",
+  "source_id": "uob-preferred-platinum-visa-card",
+  "name": "UOB Preferred Visa Card",
+  "bank": "UOB",
+  "url": "https://www.moneysmart.sg/credit-cards/uob-preferred-platinum-visa-card"
+ },
+ {
+  "card_id": "ocbc-frank",
+  "source_id": "ocbc-frank-card",
+  "name": "OCBC Frank Card",
+  "bank": "OCBC",
+  "url": "https://www.moneysmart.sg/credit-cards/ocbc-frank-card"
+ },
+ {
+  "card_id": "ocbc-great-eastern-cashflo",
+  "source_id": "ocbc-cashflo-card",
+  "name": "OCBC Great Eastern Cashflo Credit Card",
+  "bank": "OCBC",
+  "url": "https://www.moneysmart.sg/credit-cards/ocbc-cashflo-card"
+ },
+ {
+  "card_id": null,
+  "source_id": "citi-premiermiles-card-citi-wealth-first-account",
+  "name": "Citi PremierMiles Card + Citi Wealth First Account",
+  "bank": "Citibank",
+  "url": "https://www.moneysmart.sg/credit-cards/citi-premiermiles-card-citi-wealth-first-account"
+ },
+ {
+  "card_id": "citi-prestige",
+  "source_id": "citi-prestige-card",
+  "name": "Citi Prestige Card",
+  "bank": "Citibank",
+  "url": "https://www.moneysmart.sg/credit-cards/citi-prestige-card"
+ },
+ {
+  "card_id": "dbs-live-fresh",
+  "source_id": "dbs-live-fresh-card",
+  "name": "DBS Live Fresh Card",
+  "bank": "DBS",
+  "url": "https://www.moneysmart.sg/credit-cards/dbs-live-fresh-card"
+ }
+]

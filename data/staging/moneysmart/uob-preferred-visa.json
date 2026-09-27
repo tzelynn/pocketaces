@@ -1,0 +1,78 @@
+{
+ "source": "moneysmart",
+ "source_id": "uob-preferred-platinum-visa-card",
+ "source_url": "https://www.moneysmart.sg/credit-cards/uob-preferred-platinum-visa-card",
+ "name": "UOB Preferred Visa Card",
+ "bank": "UOB",
+ "card_id": "uob-preferred-visa",
+ "image_url": "https://photos.cdn-moneysmart.com/credit_cards/uploads/products/images/image_url_2026-03-10_UOB Preferred Visa.jpeg",
+ "annual_fee": 196.2,
+ "earn_rates": {},
+ "caps": {},
+ "highlights": [
+  "S$5 = 10X UNI$ on Online Shopping, Entertainment & Contactless Payments",
+  "S$5 = 10X UNI$ on SimplyGo Transactions",
+  "1 UNI$ = 2 Miles Rewards to Miles Conversion",
+  "Up to UNI$10 per S$5 spend (4 miles per S$1 spend) on selected online shopping and entertainment",
+  "Up to UNI$10 per S$5 spend (4 miles per S$1 spend) via mobile contactless payment",
+  "From 28 August 2025 onwards, earn 10X UNI$ per S$5 spend on SimplyGo transactions (using mobile contactless payment)",
+  "Earn UOB$ cashback on all purchases in-store at over 1,000 participating merchants(across all categories islandwide) and use it to offset your next purchase",
+  "At MoneySmart, we strive to keep our information accurate and up to date. This information may be different from what you see when you visit a financial institution, service provider, or specific product site. MoneySmart shall not be liable to compensate the Customer should the information is not as updated as our Partner."
+ ],
+ "sign_up_offers": [],
+ "links": {
+  "product": "https://www.moneysmart.sg/credit-cards/uob-preferred-platinum-visa-card",
+  "review": "https://blog.moneysmart.sg/credit-cards/uob-preferred-platinum-visa-card-review/"
+ },
+ "citation": {
+  "id": "moneysmart:49fcb3586f25",
+  "url": "https://www.moneysmart.sg/credit-cards?page=4",
+  "title": "UOB Preferred Visa Card",
+  "source_type": "aggregator",
+  "retrieved_at": "2026-09-27T05:27:20+00:00",
+  "sha256": "49fcb3586f252df0b2dacb9acecc465127e09c9defa7f151881c3db46d84649e",
+  "snapshot": "data/raw/moneysmart/credit-cards-p4-1a322210.html"
+ },
+ "extra": {
+  "summary": "The UOB Preferred Visa shines for online and mobile contactless spend, rewarding you with accelerated UNI$ on these everyday categories. Ideal for those spending around $1,000 monthly, it maximizes rewards on groceries, dining, and shopping via mobile payments like Apple or Samsung Pay, and online marketplaces. ",
+  "badges": [],
+  "network": [
+   "Visa"
+  ],
+  "mobile_wallets": [
+   "Visa Contactless",
+   "Google Pay",
+   "Apple Pay",
+   "Samsung Pay"
+  ],
+  "groups": {
+   "annual-interest-rate-and-fees": {
+    "Annual Interest Rate": "27.80",
+    "Annual Principal Fee": "196.20",
+    "Supplementary Annual Fee": "1st Supplementary Card free, $98.10 for subsequent Supplementary Cards",
+    "Fee Waiver": "1st year fee waiver",
+    "Minimum Monthly Repayment": "3% or S$50, whichever is higher",
+    "Interest Free Period": "21 days"
+   },
+   "minimum-income-requirements": {
+    "Singaporean/PR Minimum Annual Income": "30000",
+    "Non-Singaporean Minimum Annual Income": "40000"
+   },
+   "card-association": {
+    "Visa": "true"
+   },
+   "wireless-payment": {
+    "Visa Contactless": "true",
+    "Google Pay": "true",
+    "Apple Pay": "true",
+    "Samsung Pay": "true"
+   }
+  },
+  "our_takes": {
+   "our-take": "The UOB Preferred Visa shines for online and mobile contactless spend, rewarding you with accelerated UNI$ on these everyday categories. Ideal for those spending around $1,000 monthly, it maximizes rewards on public transport, groceries, dining, and shopping via mobile payments like Apple or Samsung Pay, and online marketplaces. However, factor in the 3.25% foreign transaction fee if you make frequent overseas purchases. While UNI$ can offset purchases, ensure you track your spending to avoid the hefty S$100 late payment fee.",
+   "good-for": "For online shoppers who want increased rewards on e-commerce purchases like groceries, apparel, and entertainment subscriptions.\nGood for individuals who enjoy mobile contactless payments to earn UNI$ for everyday spending on dining, shopping and public transport.\nSuited for people who frequent UOB’s participating merchants and prefer using UNI$ cashback for purchases in-store.",
+   "things-to-note": "27.8% interest rate can apply if you don't pay your balance in full and on time.\n3.25% fee applies for foreign transactions, so avoid using it overseas to save money.\nLate payments incur a S$100 fee, so set reminders to avoid extra charges each month."
+  },
+  "updated_at": "2026-03-10T10:40:19+08:00"
+ }
+}
