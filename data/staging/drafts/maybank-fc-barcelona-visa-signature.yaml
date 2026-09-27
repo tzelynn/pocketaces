@@ -1,0 +1,59 @@
+# Curated card record. Auto-drafted from staged sources; verify every value against the
+# official T&Cs (citations below), then set review.status: reviewed.
+id: maybank-fc-barcelona-visa-signature
+bank: Maybank
+name: Maybank FC Barcelona Visa Signature Card
+image_url: https://mhgprod.blob.core.windows.net/singsaver/strapi-uploads/xs_bltff79ab274a856fe5_9678a80d1f.png
+official_url: https://www.maybank2u.com.sg/en/personal/cards/credit/maybank-fc-barcelona-visa-signature-card.page
+annual_fee:
+  amount:
+    amount: 130.8
+    currency: SGD
+  waiver_notes: S$ | First 2 Years Waived, thereafter can be waived if min spend of $10K is hit per annum
+  sources: ['singsaver:c585ac636d7d']
+min_annual_income:
+  amount: 30000.0
+  currency: SGD
+reward_currency:
+  kind: points
+  name: Points
+earn_rules:
+- id: overseas-spending
+  label: overseas spending (SingSaver — verify)
+  rate: 10.0
+  unit: points_per_dollar
+  tier: bonus
+  eligibility:
+    description: Spent in foreign currency.
+    sources: ['singsaver:c585ac636d7d']
+  sources: ['singsaver:c585ac636d7d']
+- id: base
+  label: baseline (SingSaver — verify)
+  rate: 10.0
+  unit: points_per_dollar
+  tier: base
+  eligibility:
+    all_spend: true
+    description: For foreign currency spend only.
+    sources: ['singsaver:c585ac636d7d']
+  sources: ['singsaver:c585ac636d7d']
+general_exclusions:
+  description: Auto-extracted from official T&Cs — confirm each code applies to this card
+citations:
+- id: singsaver:c585ac636d7d
+  url: https://www.singsaver.com.sg/credit-card/products/maybank-fc-barcelona-visa-signature-card
+  title: Maybank FC Barcelona Visa Signature Card
+  source_type: aggregator
+  retrieved_at: '2026-09-27T05:26:05+00:00'
+  sha256: c585ac636d7dddb78ddf00b4b421c3dc796a74c22ad7e4854350b5015f13eaaa
+  snapshot: data/raw/singsaver/www-singsaver-com-sg-credit-card-products-maybank-fc-barcelona-visa-signature-card-c824cb0c.html
+- id: moneysmart:49fcb3586f25
+  url: https://www.moneysmart.sg/credit-cards?page=4
+  title: Maybank FC Barcelona Visa Signature
+  source_type: aggregator
+  retrieved_at: '2026-09-27T05:27:20+00:00'
+  sha256: 49fcb3586f252df0b2dacb9acecc465127e09c9defa7f151881c3db46d84649e
+  snapshot: data/raw/moneysmart/credit-cards-p4-1a322210.html
+review:
+  status: draft
+updated_at: '2026-09-27'

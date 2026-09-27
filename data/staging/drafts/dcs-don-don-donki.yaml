@@ -1,0 +1,59 @@
+# Curated card record. Auto-drafted from staged sources; verify every value against the
+# official T&Cs (citations below), then set review.status: reviewed.
+id: dcs-don-don-donki
+bank: DCS
+name: DCS DON DON DONKI Card
+image_url: https://mhgprod.blob.core.windows.net/singsaver/strapi-uploads/xs_blt864311210e64eda2_dcc99b5b4e.webp
+official_url: https://cards.dcscc.com/don-don-donki
+annual_fee:
+  amount:
+    amount: 196.2
+    currency: SGD
+  first_year_waived: true
+  waiver_notes: S$ | First Year Waived
+  sources: ['singsaver:575f5c6f5971']
+min_annual_income:
+  amount: 30000.0
+  currency: SGD
+reward_currency:
+  kind: miles
+  name: Miles
+earn_rules:
+- id: local
+  label: local, overseas (SingSaver — verify)
+  rate: 0.22
+  unit: mpd
+  tier: bonus
+  eligibility:
+    description: ''
+    sources: ['singsaver:575f5c6f5971']
+  sources: ['singsaver:575f5c6f5971']
+- id: base
+  label: baseline (SingSaver — verify)
+  rate: 0.22
+  unit: mpd
+  tier: base
+  eligibility:
+    all_spend: true
+    description: ''
+    sources: ['singsaver:575f5c6f5971']
+  sources: ['singsaver:575f5c6f5971']
+general_exclusions:
+  description: Auto-extracted from official T&Cs — confirm each code applies to this card
+citations:
+- id: singsaver:575f5c6f5971
+  url: https://www.singsaver.com.sg/credit-card/products/dcs-don-don-donki-card
+  title: DCS DON DON DONKI Card
+  source_type: aggregator
+  retrieved_at: '2026-09-27T05:25:40+00:00'
+  sha256: 575f5c6f59714d16fca48f26d83b90713b7b897663cbd1e5984e4d2df1d87cbf
+  snapshot: data/raw/singsaver/www-singsaver-com-sg-credit-card-products-dcs-don-don-donki-card-bf5d3722.html
+- id: bank:dc07b29859df
+  url: https://cards.dcscc.com/dcscc/v2/pdf/DON%20DON%20DONKI%20Rebate%24%20TCs.pdf
+  source_type: official
+  retrieved_at: '2026-09-27T08:37:04+00:00'
+  sha256: dc07b29859dfea2fe754a846c512ace55a1472aa6d5e355d1ff1b0c8ae48d161
+  snapshot: data/raw/bank/cards-dcscc-com-dcscc-v2-pdf-DON-20DON-20DONKI-20Rebate-24-20TCs-pdf-0c17a1ef.pdf
+review:
+  status: draft
+updated_at: '2026-09-27'

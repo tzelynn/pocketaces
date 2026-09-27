@@ -7,8 +7,8 @@ For each card in config/cards.yaml:
   2. download and snapshot each document, extract its text (kept next to the snapshot so the exact
      wording we relied on stays in git);
   3. compare hashes with the previous run → `changed` documents mark curated records stale;
-  4. extract MCC include/exclude lists and transaction-mode statements for review, and optionally
-     run LLM extraction (verified against the text).
+  4. extract MCC include/exclude lists, transaction-mode and spend-cycle statements for review,
+     and optionally run LLM extraction (verified against the text).
 """
 
 from __future__ import annotations
@@ -48,6 +48,17 @@ NON_MCC_EXCLUSIONS = (
     r"instalment|IPP|annual fee|interest|late (?:payment )?charge|insurance premium|"
     r"hospital|education|government|tax|utilit|charit|bill payment|CardUp|ipaymy|RentHero"
 )
+
+# Which month min spend and caps are counted over. Only sentences that tie the period to spend,
+# a minimum or a cap count: "calendar month" also appears in crediting dates ("awarded on the 7th
+# of the following calendar month") and deposit balances, which say nothing about the spend cycle.
+SPEND_CYCLE_PATTERNS = {
+    "statement_month": r"statement\s+(?:month|cycle|period)|billing\s+(?:cycle|month|period)",
+    "calendar_month": r"calendar\s+month",
+}
+_CYCLE_SUBJECT = re.compile(r"\bspend|\bcharge|\bminimum|\bmin\.?\s|\bcap(?:ped|s)?\b|\bmaximum|\bup\s+to\b", re.I)
+_CYCLE_NOISE = re.compile(
+    r"(?:next|following|preceding|subsequent)\s+calendar\s+month|average\s+(?:daily\s+)?balance", re.I)
 
 
 def _doc_urls(card: dict, f: Fetcher) -> tuple[list[str], list[Snapshot], bool]:
@@ -102,6 +113,19 @@ def _modes(text: str) -> dict[str, list[str]]:
         hits = [" ".join(s.split())[:400] for s in sentences if rx.search(s)]
         if hits:
             out[mode] = hits[:15]
+    return out
+
+
+def _spend_cycle(text: str) -> dict[str, list[str]]:
+    """Sentences stating the month that spend/caps are counted over, by `SpendCycle` value."""
+    sentences = re.split(r"(?<=[.;])\s+|\n(?=\d+\.|\(?[a-z]\))", text)
+    out: dict[str, list[str]] = {}
+    for cycle, pat in SPEND_CYCLE_PATTERNS.items():
+        rx = re.compile(pat, re.I)
+        hits = [" ".join(s.split())[:400] for s in sentences
+                if rx.search(s) and _CYCLE_SUBJECT.search(s) and not _CYCLE_NOISE.search(s)]
+        if hits:
+            out[cycle] = list(dict.fromkeys(hits))[:10]
     return out
 
 
@@ -169,6 +193,7 @@ def process_card(card: dict, f: Fetcher, *, use_llm: bool = False) -> dict:
                 r"(?:effective|with effect)\s+(?:from\s+)?(\d{1,2}\s+\w+\s+\d{4})", text, re.I))),
             "mcc": extraction.to_dict(),
             "transaction_modes": _modes(text),
+            "spend_cycle": _spend_cycle(text),
             "non_mcc_exclusions": sorted({m.group(0).lower() for m in
                                           re.finditer(NON_MCC_EXCLUSIONS, text, re.I)}),
         })

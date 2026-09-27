@@ -1,0 +1,104 @@
+# Curated card record. Auto-drafted from staged sources; verify every value against the
+# official T&Cs (citations below), then set review.status: reviewed.
+id: metro-uob
+bank: UOB
+name: UOB Metro-UOB Card
+image_url: https://mhgprod.blob.core.windows.net/singsaver/strapi-uploads/xs_blta571c4fc10fc6ade_20e1344af8.webp
+official_url: https://www.uob.com.sg/personal/cards/cashback/metro-uob-card.page
+annual_fee:
+  amount:
+    amount: 196.2
+    currency: SGD
+  first_year_waived: true
+  waiver_notes: S$ | First Year Waived
+  sources: ['singsaver:1e2e12ef2122']
+min_annual_income:
+  amount: 30000.0
+  currency: SGD
+reward_currency:
+  kind: cashback
+  name: Cashback
+earn_rules:
+- id: department-store
+  label: department store (SingSaver — verify)
+  rate: 10.0
+  unit: percent
+  tier: bonus
+  eligibility:
+    include_mcc: ['4829', '5199', '5960', '6012', '6050', '6051', '6211', '6300', '6399', '6513', '6529',
+      '6530', '6534', '6540', '7349', '7511', '7523', '7995', '8062', '8211', '8220', '8241', '8244',
+      '8249', '8299', '8398', '8651', '8661', '9211', '9222', '9223', '9311', '9399', '9402', '9405']
+    description: 10% discount on regular-priced items with blue tags in Metro, 5% rebate on all merchandise
+      and sale items. [include_mcc auto-extracted from official T&C — check it belongs to this rule]
+    sources: ['singsaver:1e2e12ef2122', 'bank:0fc06bc673f4', 'bank:42358e29d735', 'bank:c13cf48e44b4',
+      'bank:049eb68db266', 'bank:542bc434144f']
+  conditions: ['aggregator categories: shopping']
+  sources: ['singsaver:1e2e12ef2122']
+- id: overseas
+  label: overseas, local (SingSaver — verify)
+  rate: 0.2
+  unit: percent
+  tier: bonus
+  eligibility:
+    description: (Indirect Cashback) S$5 local spend = UNI$1. UNI$2000 redeems $20 vouchers. Equivalent
+      to 0.2% cashback. / (Indirect Cashback) S%5 local spend = UNI$1. UNI$2000 redeems $20 vouchers.
+      Equivalent to 0.2% cashback.
+    sources: ['singsaver:1e2e12ef2122']
+  sources: ['singsaver:1e2e12ef2122']
+- id: base
+  label: baseline (SingSaver — verify)
+  rate: 0.2
+  unit: percent
+  tier: base
+  eligibility:
+    all_spend: true
+    description: (Indirect Cashback) S%5 local spend = UNI$1. UNI$2000 redeems $20 vouchers. Equivalent
+      to 0.2% cashback.
+    sources: ['singsaver:1e2e12ef2122']
+  sources: ['singsaver:1e2e12ef2122']
+general_exclusions:
+  description: Auto-extracted from official T&Cs — confirm each code applies to this card
+notes:
+- 'T&C mentions (check whether excluded): annual fee, axs, cardup, cash advance, charit, education, government,
+  hospital, instalment, interest, ipaymy, late payment charge, tax, top-up'
+citations:
+- id: singsaver:1e2e12ef2122
+  url: https://www.singsaver.com.sg/credit-card/products/uob-metro-uob-card
+  title: UOB Metro-UOB Card
+  source_type: aggregator
+  retrieved_at: '2026-09-27T05:26:54+00:00'
+  sha256: 1e2e12ef2122620424f67c0077c15743dc439f4ee89cc3f8cc880abb4e567cc7
+  snapshot: data/raw/singsaver/www-singsaver-com-sg-credit-card-products-uob-metro-uob-card-a8d8e309.html
+- id: bank:0fc06bc673f4
+  url: https://www.uob.com.sg/web-resources/personal/pdf/personal/cards/credit-cards/rebates-cards/metro-uob-card/metro-tnc.pdf
+  source_type: official
+  retrieved_at: '2026-09-27T08:40:20+00:00'
+  sha256: 0fc06bc673f4439efa47ac1da0bb3b259ce766852232a96aea6b8f4d5748f33a
+  snapshot: data/raw/bank/www-uob-com-sg-web-resources-personal-pdf-personal-cards-credit-cards-rebates-cards-metro-uob-card-metro-tnc-pdf-19f7b530.pdf
+- id: bank:42358e29d735
+  url: https://www.uob.com.sg/assets/pdfs/add-on-card-terms-conditions.pdf
+  source_type: official
+  retrieved_at: '2026-09-27T08:40:22+00:00'
+  sha256: 42358e29d7350a9750c477afebed16d22e101f969821263b9777733152bf0a95
+  snapshot: data/raw/bank/www-uob-com-sg-assets-pdfs-add-on-card-terms-conditions-pdf-294d1c4b.pdf
+- id: bank:c13cf48e44b4
+  url: https://www.uob.com.sg/credit-cards/pdf/online-cards-campaign.pdf
+  source_type: official
+  retrieved_at: '2026-09-27T08:40:24+00:00'
+  sha256: c13cf48e44b48d1aa3b0d0d5655f54f9001de57208d560ff29b09fc9ed8bc643
+  snapshot: data/raw/bank/www-uob-com-sg-credit-cards-pdf-online-cards-campaign-pdf-a28f442a.pdf
+- id: bank:049eb68db266
+  url: https://www.uob.com.sg/assets/web-resources/personal/pdf/cards/cashback/metro-uob/metro-celebration-tnc-cmpg.pdf
+  source_type: official
+  retrieved_at: '2026-09-27T08:40:26+00:00'
+  sha256: 049eb68db2660da889c74ab5aafd45c9fb2b34779162d70623873d6a503fa942
+  snapshot: data/raw/bank/www-uob-com-sg-assets-web-resources-personal-pdf-cards-cashback-metro-uob-metro-celebration-tnc-cmpg-pdf-9093410c.pdf
+- id: bank:542bc434144f
+  url: https://www.uob.com.sg/assets/web-resources/personal/pdf/cards/rewards/ladys-card/metro-private-shopping-tnc-cmpg.pdf
+  source_type: official
+  retrieved_at: '2026-09-27T08:40:28+00:00'
+  sha256: 542bc434144fd46c2760882d69d94d1c25b2548a609d0c3a26bd5838a88b9240
+  snapshot: data/raw/bank/www-uob-com-sg-assets-web-resources-personal-pdf-cards-rewards-ladys-card-metro-private-shopping-tnc-cmpg-pdf-30019be1.pdf
+review:
+  status: draft
+updated_at: '2026-09-27'

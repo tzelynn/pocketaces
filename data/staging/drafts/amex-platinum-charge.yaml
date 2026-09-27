@@ -1,0 +1,101 @@
+# Curated card record. Auto-drafted from staged sources; verify every value against the
+# official T&Cs (citations below), then set review.status: reviewed.
+id: amex-platinum-charge
+bank: American Express
+name: American Express Platinum Card (charge card)
+network: amex
+image_url: https://mhgprod.blob.core.windows.net/singsaver/strapi-uploads/xs_blta4d3ae2534420ff9_6c472c76c6.png
+official_url: https://www.americanexpress.com/sg/charge-cards/platinum-card/
+annual_fee:
+  amount:
+    amount: 1744.0
+    currency: SGD
+  waiver_notes: S$
+  sources: ['singsaver:179a6c940486']
+reward_currency:
+  kind: miles
+  name: Miles
+earn_rules:
+- id: retail
+  label: retail, dining (SingSaver — verify)
+  rate: 6.94
+  unit: mpd
+  tier: bonus
+  eligibility:
+    tags: [shopping, dining]
+    description: Up to | On 10Xcelerator merchants.
+    sources: ['singsaver:179a6c940486']
+  sources: ['singsaver:179a6c940486']
+- id: flight-booking
+  label: flight booking (SingSaver — verify)
+  rate: 1.73
+  unit: mpd
+  tier: bonus
+  eligibility:
+    tags: [flights]
+    description: Up to | With SIA and Scoot.
+    sources: ['singsaver:179a6c940486']
+  sources: ['singsaver:179a6c940486']
+- id: local
+  label: local (SingSaver — verify)
+  rate: 0.69
+  unit: mpd
+  tier: bonus
+  eligibility:
+    description: ''
+    sources: ['singsaver:179a6c940486']
+  sources: ['singsaver:179a6c940486']
+- id: base
+  label: baseline (SingSaver — verify)
+  rate: 0.69
+  unit: mpd
+  tier: base
+  eligibility:
+    all_spend: true
+    description: ''
+    sources: ['singsaver:179a6c940486']
+  sources: ['singsaver:179a6c940486']
+general_exclusions:
+  description: Auto-extracted from official T&Cs — confirm each code applies to this card
+notes:
+- 'Editorial review for cross-checking: Review: American Express Platinum Charge (https://milelion.com/2026/03/07/review-american-express-platinum-charge/,
+  updated 2026-03-07)'
+- 'T&C mentions (check whether excluded): annual fee, balance transfer, bill payment, cash advance, charit,
+  education, government, grabpay, hospital, instalment, interest, late payment charge, sam kiosk, tax,
+  top-up, top-ups, utilit'
+citations:
+- id: singsaver:179a6c940486
+  url: https://www.singsaver.com.sg/credit-card/products/american-express-platinum-card
+  title: American Express Platinum Card
+  source_type: aggregator
+  retrieved_at: '2026-09-27T05:24:41+00:00'
+  sha256: 179a6c940486a2ca8a111ad3969bd9b746b0ddd46510938519109bd7e2e0e671
+  snapshot: data/raw/singsaver/www-singsaver-com-sg-credit-card-products-american-express-platinum-card-19ab324b.html
+- id: bank:458a33eecbc6
+  url: https://www.americanexpress.com/content/dam/amex/sg/campaigns/pdfs/the-platinum-card.pdf
+  source_type: official
+  retrieved_at: '2026-09-27T05:30:12+00:00'
+  sha256: 458a33eecbc6fb0479105149b0405543b09821444bd0b7495ba693a088449087
+  snapshot: data/raw/bank/www-americanexpress-com-content-dam-amex-sg-campaigns-pdfs-the-platinum-card-pdf-19daf834.pdf
+- id: bank:c228cd1bc86a
+  url: https://www.americanexpress.com/content/dam/amex/sg/benefits/amex-sg-exclusions.pdf
+  source_type: official
+  retrieved_at: '2026-09-27T05:30:14+00:00'
+  sha256: c228cd1bc86a7cef6ff37d92bd1a91bc42d2446a7c0f7dae38349c35d69e42f1
+  snapshot: data/raw/bank/www-americanexpress-com-content-dam-amex-sg-benefits-amex-sg-exclusions-pdf-a83329a0.pdf
+- id: bank:ca1de18a9b1e
+  url: https://www.americanexpress.com/content/dam/amex/sg/campaigns/pdfs/the-platinum-card-welcomeoffer.pdf
+  source_type: official
+  retrieved_at: '2026-09-27T05:30:16+00:00'
+  sha256: ca1de18a9b1ecc6a31ebc84d3d129f86d0f4f58ba2370a862736734941bcf2ba
+  snapshot: data/raw/bank/www-americanexpress-com-content-dam-amex-sg-campaigns-pdfs-the-platinum-card-welcomeoffer-pdf-8856350b.pdf
+- id: milelion:cc41405fe2e0
+  url: https://milelion.com/2026/03/07/review-american-express-platinum-charge/
+  title: 'Review: American Express Platinum Charge'
+  source_type: editorial
+  retrieved_at: '2026-09-27T05:28:57+00:00'
+  sha256: cc41405fe2e0e8f14aab5255053cb83f3fb6c379fedd84e2fdda080132b8410b
+  snapshot: data/raw/milelion/post-520639-1268b09c.json
+review:
+  status: draft
+updated_at: '2026-09-27'

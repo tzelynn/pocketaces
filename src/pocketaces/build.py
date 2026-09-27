@@ -13,7 +13,7 @@ import re
 from datetime import date, datetime
 
 from . import config, paths, tagging
-from .curate import load_curated
+from .curate import load_curated, pending_suggestions
 from .models import Card, ReviewStatus
 from .sources.common import load_staging
 from .sources.mcc_reference import known_codes
@@ -123,6 +123,7 @@ def run() -> dict:
         "config": validate_config(),
         "invalid": [],
         "stale": [],
+        "suggestions": [],
         "conflicts": [],
         "unverified": [],
         "expired_offers": [],
@@ -175,6 +176,8 @@ def run() -> dict:
             if not s.card_id:
                 report["unmapped"].append(f"{source}: {s.name} ({s.source_id})")
     report["no_curated_record"] = sorted(registry_ids - curated_ids)
+    report["suggestions"] = [f"{cid}: data/staging/suggestions/{cid}.yaml (+ .diff)"
+                             for cid in pending_suggestions()]
 
     shortlists = _shortlists(cards_out)
     paths.BUILD.mkdir(parents=True, exist_ok=True)
@@ -213,6 +216,7 @@ SECTIONS = [
     ("config", "Config problems"),
     ("invalid", "Invalid curated records"),
     ("stale", "Stale reviews (official T&C changed)"),
+    ("suggestions", "Reviewed cards whose sources changed (merge suggestions by hand, then delete them)"),
     ("conflicts", "Curated value disagrees with an aggregator"),
     ("expired_offers", "Expired sign-up offers in curated records"),
     ("expired_aggregator_claims", "Aggregator text referring to past dates (likely outdated)"),

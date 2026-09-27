@@ -1,0 +1,45 @@
+# Curated card record. Auto-drafted from staged sources; verify every value against the
+# official T&Cs (citations below), then set review.status: reviewed.
+id: dbs-takashimaya-visa
+bank: DBS
+name: DBS Takashimaya Visa Card
+network: visa
+image_url: https://mhgprod.blob.core.windows.net/singsaver/strapi-uploads/xl_2026_01_DBS_TAKASHIMAYA_VISA_CARD_2a04140c4c.png
+official_url: https://www.dbs.com.sg/personal/cards/credit-cards/dbs-takashimaya-card
+annual_fee:
+  amount:
+    amount: 196.2
+    currency: SGD
+  first_year_waived: true
+  waiver_notes: S$ | First Year Waived
+  sources: ['singsaver:b2d496b7e33c']
+min_annual_income:
+  amount: 30000.0
+  currency: SGD
+reward_currency:
+  kind: points
+  name: Points
+earn_rules:
+- id: retail
+  label: retail, dining, grocery (SingSaver — verify)
+  rate: 2.0
+  unit: points_per_dollar
+  tier: bonus
+  eligibility:
+    tags: [shopping, dining, groceries]
+    description: With every S$12 charged in Takashima Department Store.
+    sources: ['singsaver:b2d496b7e33c']
+  sources: ['singsaver:b2d496b7e33c']
+general_exclusions:
+  description: Auto-extracted from official T&Cs — confirm each code applies to this card
+citations:
+- id: singsaver:b2d496b7e33c
+  url: https://www.singsaver.com.sg/credit-card/products/dbs-takashimaya-visa-card
+  title: DBS Takashimaya Visa Card
+  source_type: aggregator
+  retrieved_at: '2026-09-27T05:25:29+00:00'
+  sha256: b2d496b7e33c60199a8e9fd3e8e39ec0f0a8439cb7021fc032c529db4b37c629
+  snapshot: data/raw/singsaver/www-singsaver-com-sg-credit-card-products-dbs-takashimaya-visa-card-7eca27b6.html
+review:
+  status: draft
+updated_at: '2026-09-27'

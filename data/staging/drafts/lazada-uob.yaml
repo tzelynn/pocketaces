@@ -1,0 +1,55 @@
+# Curated card record. Auto-drafted from staged sources; verify every value against the
+# official T&Cs (citations below), then set review.status: reviewed.
+id: lazada-uob
+bank: UOB
+name: Lazada-UOB Card
+network: mastercard
+image_url: https://photos.cdn-moneysmart.com/credit_cards/uploads/products/images/image_url_2024-07-18_uob
+  lazada cardface Medium.jpeg
+official_url: https://www.uob.com.sg/personal/cards/cashback/lazada-uob-card.page
+annual_fee:
+  amount:
+    amount: 196.2
+    currency: SGD
+  sources: ['moneysmart:49fcb3586f25']
+reward_currency:
+  kind: cashback
+  name: Cashback
+general_exclusions:
+  exclude_mcc: ['5262', '5310', '5311', '5331', '5399', '5411', '5732', '5999']
+  description: Auto-extracted from official T&Cs — confirm each code applies to this card
+  sources: ['bank:0a9012338318', 'bank:f96140a34d31', 'bank:42358e29d735']
+notes:
+- 'No structured earn rates from aggregators: add earn_rules from the official T&C before review'
+- 'T&C mentions (check whether excluded): annual fee, axs, cardup, cash advance, charit, e-wallet, education,
+  government, hospital, instalment, interest, ipaymy, late payment charge, tax, top-up'
+citations:
+- id: moneysmart:49fcb3586f25
+  url: https://www.moneysmart.sg/credit-cards?page=4
+  title: Lazada-UOB Card
+  source_type: aggregator
+  retrieved_at: '2026-09-27T05:27:20+00:00'
+  sha256: 49fcb3586f252df0b2dacb9acecc465127e09c9defa7f151881c3db46d84649e
+  snapshot: data/raw/moneysmart/credit-cards-p4-1a322210.html
+- id: bank:0a9012338318
+  url: https://www.uob.com.sg/web-resources/personal/pdf/personal/cards/credit-cards/lazada-uob-card/lazada-uob-tnc.pdf
+  source_type: official
+  retrieved_at: '2026-09-27T08:37:42+00:00'
+  sha256: 0a9012338318a41efff0eeac2484ce820d46e219d4b578df2ec936f36eae4443
+  snapshot: data/raw/bank/www-uob-com-sg-web-resources-personal-pdf-personal-cards-credit-cards-lazada-uob-card-lazada-uob-tnc-pdf-1d3530d7.pdf
+- id: bank:f96140a34d31
+  url: https://www.uob.com.sg/assets/web-resources/personal/pdf/cards/cashback/lazada-uob-card/airpods4-lazada-tnc-cmpg.pdf
+  source_type: official
+  retrieved_at: '2026-09-27T08:37:44+00:00'
+  sha256: f96140a34d31ccd27e351c48d5c3835e1ee8e305bca6b469b1119756bcf45c97
+  snapshot: data/raw/bank/www-uob-com-sg-assets-web-resources-personal-pdf-cards-cashback-lazada-uob-card-airpods4-lazada-tnc-cmpg-pdf-92f0361e.pdf
+- id: bank:42358e29d735
+  url: https://www.uob.com.sg/assets/pdfs/add-on-card-terms-conditions.pdf
+  source_type: official
+  retrieved_at: '2026-09-27T08:37:46+00:00'
+  sha256: 42358e29d7350a9750c477afebed16d22e101f969821263b9777733152bf0a95
+  snapshot: data/raw/bank/www-uob-com-sg-assets-pdfs-add-on-card-terms-conditions-pdf-294d1c4b.pdf
+review:
+  status: draft
+updated_at: '2026-09-27'
+earn_rules: []

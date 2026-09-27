@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "lib": ["ES2023", "WebWorker"],
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "strict": true,
+    "skipLibCheck": true,
+    "noEmit": true,
+    "types": [],
+    "tsBuildInfoFile": "./node_modules/.tmp/sw.tsbuildinfo"
+  },
+  "include": ["src/sw.ts", "src/lib/reminders.ts", "src/lib/dates.ts", "src/types.ts"]
+}

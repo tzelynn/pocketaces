@@ -1,0 +1,62 @@
+# Curated card record. Auto-drafted from staged sources; verify every value against the
+# official T&Cs (citations below), then set review.status: reviewed.
+id: uob-preferred-visa
+bank: UOB
+name: UOB Preferred Visa Card
+network: visa
+image_url: https://photos.cdn-moneysmart.com/credit_cards/uploads/products/images/image_url_2026-03-10_UOB
+  Preferred Visa.jpeg
+official_url: https://www.uob.com.sg/personal/cards/rewards/preferred-visa-card.page
+annual_fee:
+  amount:
+    amount: 196.2
+    currency: SGD
+  sources: ['moneysmart:49fcb3586f25']
+reward_currency:
+  kind: cashback
+  name: Cashback
+general_exclusions:
+  description: Auto-extracted from official T&Cs — confirm each code applies to this card
+notes:
+- 'No structured earn rates from aggregators: add earn_rules from the official T&C before review'
+- 'Editorial review for cross-checking: Review: UOB Preferred Visa Card (https://milelion.com/2026/03/29/review-uob-preferred-platinum-visa-card/,
+  updated 2026-07-30)'
+- 'T&C mentions (check whether excluded): annual fee, axs, bill payment, cash advance, charit, education,
+  government, grabpay, hospital, instalment, interest, ipaymy, late payment charge, tax, top-ups, utilit'
+citations:
+- id: moneysmart:49fcb3586f25
+  url: https://www.moneysmart.sg/credit-cards?page=4
+  title: UOB Preferred Visa Card
+  source_type: aggregator
+  retrieved_at: '2026-09-27T05:27:20+00:00'
+  sha256: 49fcb3586f252df0b2dacb9acecc465127e09c9defa7f151881c3db46d84649e
+  snapshot: data/raw/moneysmart/credit-cards-p4-1a322210.html
+- id: bank:611f5770008e
+  url: https://www.uob.com.sg/web-resources/personal/pdf/personal/cards/credit-cards/rewards-cards/uob-preferred-platinum-visa-card/terms-and-conditions-for-preferred-plat-visa.pdf?i_cid=pfs:sg:owned:int:site:na:li:na:na:na-evergreen:direct:na&vid=none
+  source_type: official
+  retrieved_at: '2026-09-27T08:44:35+00:00'
+  sha256: 611f5770008e3a55af9ea9a18349f45a5d5950813c15b1e3b4bddcc4129eb88e
+  snapshot: data/raw/bank/sonal-cards-credit-cards-rewards-cards-uob-preferred-platinum-visa-card-terms-and-conditions-for-preferred-plat-visa-pdf-6c6c63e6.pdf
+- id: bank:52d9be91844e
+  url: https://www.uob.com.sg/assets/web-resources/personal/pdf/cards/supplementary-card/uob-supplementary-card-promo-tncs.pdf
+  source_type: official
+  retrieved_at: '2026-09-27T08:44:33+00:00'
+  sha256: 52d9be91844ea791f0ac517649c682846b898bd8e978a61a5582f56c4e573b16
+  snapshot: data/raw/bank/www-uob-com-sg-assets-web-resources-personal-pdf-cards-supplementary-card-uob-supplementary-card-promo-tncs-pdf-5ce91e24.pdf
+- id: bank:42358e29d735
+  url: https://www.uob.com.sg/assets/pdfs/add-on-card-terms-conditions.pdf
+  source_type: official
+  retrieved_at: '2026-09-27T08:44:37+00:00'
+  sha256: 42358e29d7350a9750c477afebed16d22e101f969821263b9777733152bf0a95
+  snapshot: data/raw/bank/www-uob-com-sg-assets-pdfs-add-on-card-terms-conditions-pdf-294d1c4b.pdf
+- id: milelion:5cda0a3aca0f
+  url: https://milelion.com/2026/03/29/review-uob-preferred-platinum-visa-card/
+  title: 'Review: UOB Preferred Visa Card'
+  source_type: editorial
+  retrieved_at: '2026-09-27T05:28:54+00:00'
+  sha256: 5cda0a3aca0f4901e2de1f51ad05b8ab0c1662bb46b61f4ec3f368964a3c19a6
+  snapshot: data/raw/milelion/post-74608-c9ddf1df.json
+review:
+  status: draft
+updated_at: '2026-09-27'
+earn_rules: []

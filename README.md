@@ -1,17 +1,48 @@
 # pocketaces
 
-Data collection for pocket-aces: which Singapore credit card to apply for, and which card to use for
-which spend. Requirements are in [specs/data-collection.md](specs/data-collection.md); design notes
-are in [specs/data-collection-plan.md](specs/data-collection-plan.md).
+pocket-aces helps you decide which Singapore credit card to apply for and which card to use for
+which spend, and tracks the bills, fees and spend on the cards you hold. The repo has two parts:
 
-## Setup
+- **Data collection** (Python, `src/`): scrapes, curates and builds the card data. Requirements are in
+  [specs/data-collection.md](specs/data-collection.md); design notes are in
+  [specs/data-collection-plan.md](specs/data-collection-plan.md).
+- **The app** (`app/`): an installable web app (PWA) built from `data/build/cards.json`.
+  Requirements are in [specs/app-functionalities.md](specs/app-functionalities.md); design notes are in
+  [specs/app-plan.md](specs/app-plan.md).
+
+## App
+
+```sh
+cd app
+npm install
+npm run dev        # http://localhost:5173 (service worker is disabled in dev)
+npm test
+npm run build      # → app/dist; `npm run preview` serves it with the service worker on
+```
+
+`npm run dev` and `npm run build` first regenerate `app/public/catalog.json` from
+`data/build/cards.json` and `config/categories.yaml`. After a data refresh, `pocketaces build`
+followed by a push to `main` is all that's needed: `.github/workflows/pages.yml` rebuilds and
+deploys to GitHub Pages. Set **Settings → Pages → Source** to *GitHub Actions* once. Installed apps
+pick up the new version from **Settings → Check for updates**, or when they next detect the update.
+
+User data (my cards, notes, bill/fee check-offs, spend logs) never leaves the device. It's kept in
+IndexedDB with a localStorage mirror, and can be exported as a JSON backup from Settings.
+
+Reminders: the app shows due bills and fees when opened and can send system notifications.
+Background notifications only work in the installed app on Android/Chromium (Periodic Background
+Sync). On iOS, use **Add reminders to my calendar**, which exports an `.ics` file with alarms.
+
+## Data collection
+
+### Setup
 
 ```sh
 uv sync --extra browser          # add --extra llm for LLM-assisted T&C extraction
 uv run playwright install chromium   # needed for Moneysmart (Cloudflare)
 ```
 
-## Refreshing data
+### Refreshing data
 
 ```sh
 uv run pocketaces refresh        # full pipeline; add --llm to also run LLM extraction
@@ -47,7 +78,7 @@ kept:
 Hosts that fail twice at the connection level (e.g. maybank2u.com.sg from some networks) are
 skipped for the rest of the run instead of timing out on every card.
 
-## Review workflow (accuracy)
+### Review workflow (accuracy)
 
 Scraped data is evidence, not truth. A card only counts as verified once a person has checked it
 against the official T&Cs:
@@ -80,7 +111,7 @@ T&C caveats handled by the pipeline, each surfaced in `report.md`:
   T&C, Citi Rewards Exclusion List, Amex exclusions, SC's HTML exclusions page). List every relevant
   document in `tnc_urls`.
 
-## Other data
+### Other data
 
 - **Spend tags**: `config/categories.yaml` maps tags (travel, transport, dining, big_ticket …) to
   MCCs. The build computes each card's tag coverage from its best earn rule.
@@ -91,7 +122,7 @@ T&C caveats handled by the pipeline, each surfaced in `report.md`:
   log sightings with `pocketaces awards log …`, and `pocketaces awards ranges` summarises them by
   days booked in advance.
 
-## Tests
+### Tests
 
 ```sh
 uv run --group dev pytest

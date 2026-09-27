@@ -1,0 +1,109 @@
+# Curated card record. Auto-drafted from staged sources; verify every value against the
+# official T&Cs (citations below), then set review.status: reviewed.
+id: standard-chartered-rewards-plus
+bank: Standard Chartered
+name: Standard Chartered Rewards+ Credit Card
+image_url: https://mhgprod.blob.core.windows.net/singsaver/strapi-uploads/s_bltc6253747c947df41_82b4199b04.png
+official_url: https://www.sc.com/sg/credit-cards/rewards-plus-credit-card/
+annual_fee:
+  amount:
+    amount: 196.2
+    currency: SGD
+  first_year_waived: true
+  waiver_notes: S$ | First Year Waived
+  sources: ['singsaver:8d864d4cf70a']
+min_annual_income:
+  amount: 30000.0
+  currency: SGD
+reward_currency:
+  kind: miles
+  name: Miles
+earn_rules:
+- id: travel
+  label: travel (SingSaver — verify)
+  rate: 6.0
+  unit: mpd
+  tier: bonus
+  eligibility:
+    include_mcc: ['4829', '4900', '5047', '5199', '5311', '5811', '5812', '5813', '5814', '6012', '6050',
+      '6051', '6211', '6513', '6529', '6530', '6534', '6540', '7299', '7349', '7511', '7523', '8062',
+      '8211', '8220', '8241', '8244', '8249', '8299', '8398', '8651', '8661', '8999', '9211', '9222',
+      '9223', '9311', '9399', '9402', '9405']
+    description: (Up to UNI$15 per S$5 spend) on major airlines and hotels worldwide via Agoda, Expedia
+      and UOB Travel. [include_mcc auto-extracted from official T&C — check it belongs to this rule]
+    sources: ['singsaver:8d864d4cf70a', 'bank:06ce66cdacfc', 'bank:d16aa0c6bbaf']
+  conditions: ['aggregator categories: travel']
+  sources: ['singsaver:8d864d4cf70a']
+- id: overseas
+  label: overseas (SingSaver — verify)
+  rate: 2.9
+  unit: mpd
+  tier: bonus
+  eligibility:
+    description: 'Overseas retail, dining and travel. '
+    sources: ['singsaver:8d864d4cf70a']
+  sources: ['singsaver:8d864d4cf70a']
+- id: dining
+  label: dining (SingSaver — verify)
+  rate: 1.45
+  unit: mpd
+  tier: bonus
+  eligibility:
+    tags: [dining]
+    description: If you hold the Standard Chartered X Credit Card as well.
+    sources: ['singsaver:8d864d4cf70a']
+  sources: ['singsaver:8d864d4cf70a']
+- id: local
+  label: local (SingSaver — verify)
+  rate: 0.29
+  unit: mpd
+  tier: bonus
+  eligibility:
+    description: ''
+    sources: ['singsaver:8d864d4cf70a']
+  sources: ['singsaver:8d864d4cf70a']
+- id: base
+  label: baseline (SingSaver — verify)
+  rate: 0.29
+  unit: mpd
+  tier: base
+  eligibility:
+    all_spend: true
+    description: ''
+    sources: ['singsaver:8d864d4cf70a']
+  sources: ['singsaver:8d864d4cf70a']
+general_exclusions:
+  description: Auto-extracted from official T&Cs — confirm each code applies to this card
+notes:
+- 'T&C mentions (check whether excluded): axs, bill payment, cash advance, charit, education, government,
+  hospital, instalment, insurance premium, interest, late payment charge, tax, top-up, top-ups, utilit'
+citations:
+- id: singsaver:8d864d4cf70a
+  url: https://www.singsaver.com.sg/credit-card/products/standard-chartered-rewards-credit-card
+  title: Standard Chartered Rewards+ Credit Card
+  source_type: aggregator
+  retrieved_at: '2026-09-27T05:26:39+00:00'
+  sha256: 8d864d4cf70abcf368aca2838130dba494cd7df9b221ee4f3ea3a2e220908b75
+  snapshot: data/raw/singsaver/www-singsaver-com-sg-credit-card-products-standard-chartered-rewards-credit-card-e7a57b80.html
+- id: moneysmart:49fcb3586f25
+  url: https://www.moneysmart.sg/credit-cards?page=4
+  title: Standard Chartered Rewards+ Credit Card
+  source_type: aggregator
+  retrieved_at: '2026-09-27T05:27:20+00:00'
+  sha256: 49fcb3586f252df0b2dacb9acecc465127e09c9defa7f151881c3db46d84649e
+  snapshot: data/raw/moneysmart/credit-cards-p4-1a322210.html
+- id: bank:06ce66cdacfc
+  url: https://www.sc.com/content/dam/sc/sg/en/documents/sg-rewards-full-tcs-final.pdf
+  source_type: official
+  retrieved_at: '2026-09-27T08:42:22+00:00'
+  sha256: 06ce66cdacfca033efe1b472f7232eae1ae4ac20826344546763ddbf9bba909e
+  snapshot: data/raw/bank/www-sc-com-content-dam-sc-sg-en-documents-sg-rewards-full-tcs-final-pdf-2d412d5e.pdf
+- id: bank:d16aa0c6bbaf
+  url: https://www.sc.com/sg/terms-and-conditions/cc-retail-transaction-exclusions/
+  source_type: official
+  retrieved_at: '2026-09-27T08:42:24+00:00'
+  sha256: d16aa0c6bbafa1e96f7e6ad6cedcd8c0bb4c58dc88e2bd6deda0ce92b0b748dd
+  snapshot: data/raw/bank/www-sc-com-sg-terms-and-conditions-cc-retail-transaction-exclusions-8f7a8c14.html
+review:
+  status: draft
+updated_at: '2026-09-27'

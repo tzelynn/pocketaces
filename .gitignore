@@ -2,7 +2,8 @@
 __pycache__/
 *.py[cod]
 *.egg-info/
-build/
+# Python build output only: data/build/ holds the card data the app is built from
+/build/
 dist/
 .venv/
 .pytest_cache/
