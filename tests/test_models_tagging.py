@@ -48,3 +48,13 @@ def test_tags():
 def test_general_exclusions_remove_codes():
     c = card(general_exclusions={"exclude_mcc": ["3000-3350", "4511"]})
     assert "flights" not in tagging.coverage(c)
+
+
+def test_spend_cycle_defaults_to_calendar_month():
+    assert card().spend_cycle.value == "calendar_month"
+    c = card(spend_cycle="statement_month", spend_cycle_sources=["c1"])
+    assert c.spend_cycle.value == "statement_month"
+    with pytest.raises(ValueError):
+        card(spend_cycle="quarter")
+    with pytest.raises(ValueError, match="unknown citation"):
+        card(spend_cycle="statement_month", spend_cycle_sources=["nope"])

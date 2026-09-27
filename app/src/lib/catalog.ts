@@ -1,4 +1,4 @@
-import type { CatalogCard, Period, Rule } from "../types";
+import type { Bonus, CatalogCard, Period, Rule, Ymd } from "../types";
 
 /** Effective reward in % of spend, or null when it can't be valued (points: no conversion data). */
 export function effectivePct(rule: Rule, centsPerMile: number): number | null {
@@ -9,11 +9,26 @@ export function effectivePct(rule: Rule, centsPerMile: number): number | null {
 
 /** The rule to headline: the best one covering `tag` if given, else the best bonus rule. */
 export function headlineRule(card: CatalogCard, tag: string | null): Rule | null {
-  const pool = tag
-    ? card.rules.filter((r) => card.coverage[tag]?.rules.includes(r.id))
-    : card.rules.filter((r) => r.tier === "bonus");
+  const pool = tag ? card.rules.filter((r) => r.tags.includes(tag)) : card.rules.filter((r) => r.tier === "bonus");
   const rules = pool.length ? pool : card.rules;
   return rules.reduce<Rule | null>((best, r) => (!best || r.rate > best.rate ? r : best), null);
+}
+
+/**
+ * Rules worth a row of their own, best first: those above 1% cashback or 1 mpd (points, which can't
+ * be valued, above the base rate), restricted to `tag` if given. A base rule matched by a bonus rule
+ * is dropped as a duplicate. Falls back to the headline rule alone.
+ */
+export function rateRules(card: CatalogCard, tag: string | null): Rule[] {
+  const base = baseRule(card);
+  const pool = tag ? card.rules.filter((r) => r.tags.includes(tag)) : card.rules;
+  const rows = pool
+    .filter((r) => r.rate > (r.unit === "points_per_dollar" ? base?.rate ?? 1 : 1))
+    .filter((r) => r.tier === "bonus" || !pool.some((b) => b.tier === "bonus" && b.rate === r.rate))
+    .sort((a, b) => b.rate - a.rate);
+  if (rows.length) return rows;
+  const head = headlineRule(card, tag);
+  return head ? [head] : [];
 }
 
 export const baseRule = (card: CatalogCard): Rule | null => card.rules.find((r) => r.tier === "base") ?? null;
@@ -73,3 +88,46 @@ export function trackingDefaults(card: CatalogCard): { minSpend?: number; maxSpe
     maxSpend: caps.length ? Math.round(Math.min(...caps)) : undefined,
   };
 }
+
+/** A flash deal only goes to the first few applicants each day, so it isn't a gift you can count on. */
+export const isFlashDeal = (b: Bonus) => /flash/i.test(b.title ?? "");
+
+/** Sign-up offers still open on `on`, most valuable first; flash deals after the offers anyone can get. */
+export const activeBonuses = (card: CatalogCard, on: Ymd, centsPerMile: number): Bonus[] =>
+  card.bonuses
+    .filter((b) => !b.validTo || b.validTo >= on)
+    .sort((a, b) => Number(isFlashDeal(a)) - Number(isFlashDeal(b))
+      || (bonusValue(b, centsPerMile) ?? -1) - (bonusValue(a, centsPerMile) ?? -1));
+
+/** Rough S$ value of an offer's best gift: cash, a gift's stated worth, or miles at `centsPerMile`. */
+export function bonusValue(b: Bonus, centsPerMile: number): number | null {
+  const v = Math.max(b.value ?? 0, b.worth ?? 0, b.miles ? (b.miles * centsPerMile) / 100 : 0);
+  return v || null;
+}
+
+const dropWorth = (o: string) => o.replace(/\s*\((?:worth|top)[^)]*\)/gi, "").trim();
+
+/** What to headline for an offer: its best gift, then what else is on the menu. */
+export function bonusHeadline(b: Bonus, centsPerMile: number): { big: string; sub: string | null; text: boolean } {
+  const others = b.options.length - 1;
+  const more = others > 0 ? `or ${others} other gift${others > 1 ? "s" : ""}` : null;
+  const join = (...p: (string | null)[]) => p.filter(Boolean).join(" · ") || null;
+  const milesValue = b.miles ? (b.miles * centsPerMile) / 100 : 0;
+  const best = Math.max(b.value ?? 0, b.worth ?? 0, milesValue);
+  if (!best) return { big: dropWorth(b.options[0] ?? b.desc), sub: more, text: true };
+  if (best === b.value) return { big: fmtMoney(b.value), sub: join("cash", more), text: false };
+  if (best === b.worth) {
+    const gift = b.options.find((o) => o.includes(fmtMoney(b.worth!).slice(2)));
+    return { big: fmtMoney(b.worth), sub: join(gift ? `gift: ${dropWorth(gift)}` : "gift", more), text: false };
+  }
+  // "Up to 100,000 miles" is usually tiered: the full count needs far more than the min spend
+  const upTo = b.options.some((o) => /\bup to\b/i.test(o) && /miles/i.test(o));
+  const count = b.miles! % 1000 === 0 ? `${b.miles! / 1000}k` : b.miles!.toLocaleString("en-SG");
+  return { big: `${count} miles`, sub: join(`${upTo ? "up to " : ""}≈ ${fmtMoney(milesValue)}`, more), text: false };
+}
+
+export const OFFERED_BY: Record<string, string> = { singsaver: "SingSaver", moneysmart: "Moneysmart", bank: "the bank" };
+
+/** "in 30 days", "in 6 months" */
+export const withinLabel = (days: number) =>
+  days % 30 === 0 && days >= 60 ? `in ${days / 30} months` : `in ${days} days`;

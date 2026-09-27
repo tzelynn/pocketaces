@@ -1,0 +1,44 @@
+# Curated card record. Auto-drafted from staged sources; verify every value against the
+# official T&Cs (citations below), then set review.status: reviewed.
+id: ocbc-great-eastern-cashflo
+bank: OCBC
+name: OCBC Great Eastern Cashflo Credit Card
+network: mastercard
+image_url: https://photos.cdn-moneysmart.com/credit_cards/uploads/products/images/image_url_2023-07-03_OCBC
+  Cashflo.jpg
+official_url: https://www.ocbc.com/personal-banking/cards/great-eastern-cashflo-credit-card.page
+annual_fee:
+  amount:
+    amount: 163.5
+    currency: SGD
+  sources: ['moneysmart:49fcb3586f25']
+min_annual_income:
+  amount: 15000.0
+  currency: SGD
+reward_currency:
+  kind: cashback
+  name: Cashback
+general_exclusions:
+  description: Auto-extracted from official T&Cs — confirm each code applies to this card
+notes:
+- 'No structured earn rates from aggregators: add earn_rules from the official T&C before review'
+- 'T&C mentions (check whether excluded): axs, balance transfer, bill payment, cash advance, charit, education,
+  government, grabpay, hospital, instalment, interest, late payment charge, tax, top-ups, utilit, youtrip'
+citations:
+- id: moneysmart:49fcb3586f25
+  url: https://www.moneysmart.sg/credit-cards?page=4
+  title: OCBC Great Eastern Cashflo Credit Card
+  source_type: aggregator
+  retrieved_at: '2026-09-27T05:27:20+00:00'
+  sha256: 49fcb3586f252df0b2dacb9acecc465127e09c9defa7f151881c3db46d84649e
+  snapshot: data/raw/moneysmart/credit-cards-p4-1a322210.html
+- id: bank:7c2142532c98
+  url: https://www.ocbc.com/iwov-resources/sg/ocbc/personal/pdf/cards/tncs-ge-cashflo-credit-card-wef1apr21.pdf
+  source_type: official
+  retrieved_at: '2026-09-27T08:41:27+00:00'
+  sha256: 7c2142532c98f847fa340d2117f4c96bf1efe53a64dd074f711ad33e7541bde7
+  snapshot: data/raw/bank/www-ocbc-com-iwov-resources-sg-ocbc-personal-pdf-cards-tncs-ge-cashflo-credit-card-wef1apr21-pdf-7fa759c0.pdf
+review:
+  status: draft
+updated_at: '2026-09-27'
+earn_rules: []

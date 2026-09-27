@@ -201,6 +201,21 @@ input:focus, select:focus, textarea:focus { outline: none; border-color: var(--a
 .filters { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
 .sort { display: flex; align-items: center; gap: 4px; margin-left: auto; }
 .sort select { padding: 6px 10px; }
+.switches { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 14px; padding: 0 4px; }
+.switch { display: inline-flex; align-items: center; gap: 8px; font-size: 0.87rem; cursor: pointer; user-select: none; }
+.switch input {
+  appearance: none; margin: 0; padding: 0; border: none; flex: none; position: relative; cursor: pointer;
+  width: 34px; height: 20px; border-radius: 999px; background: var(--line); transition: background 0.15s;
+}
+.switch input::before {
+  content: ""; position: absolute; top: 2px; left: 2px; width: 16px; height: 16px; border-radius: 50%;
+  background: #fff; box-shadow: 0 1px 2px rgb(0 0 0 / 25%); transition: transform 0.15s;
+}
+.switch input:checked { background: var(--accent); }
+.switch input:checked::before { transform: translateX(14px); }
+.switch input:focus { box-shadow: none; }
+.switch input:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+@media (prefers-reduced-motion: reduce) { .switch input, .switch input::before { transition: none; } }
 
 .card-art { width: 76px; aspect-ratio: 1.586; object-fit: contain; border-radius: 6px; flex: none; }
 .card-art.small { width: 52px; border-radius: 4px; }
@@ -216,7 +231,7 @@ input:focus, select:focus, textarea:focus { outline: none; border-color: var(--a
 .card-row {
   display: grid; align-items: center; gap: 8px 10px;
   grid-template-columns: minmax(0, 1.35fr) repeat(3, minmax(0, 1fr));
-  grid-template-areas: "main main main star" "reward min cap fee" "peek peek peek peek";
+  grid-template-areas: "main main main star" "rates rates rates rates" "min cap fee fee" "out out out out" "peek peek peek peek";
   padding: 12px; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius);
 }
 .card-row.mine { border-color: color-mix(in srgb, var(--gold) 55%, var(--line)); background: linear-gradient(90deg, var(--gold-soft), var(--surface) 55%); }
@@ -227,26 +242,79 @@ input:focus, select:focus, textarea:focus { outline: none; border-color: var(--a
 .row-name .bank { color: var(--muted); font-size: 0.83rem; display: flex; gap: 6px; align-items: center; flex-wrap: wrap; }
 .tag-unverified { font-size: 0.68rem; text-transform: uppercase; letter-spacing: 0.05em; padding: 0 5px; border-radius: 4px; border: 1px dashed var(--line); color: var(--muted); }
 .card-row .cell { display: flex; flex-direction: column; min-width: 0; }
-.card-row .cell.reward { grid-area: reward; flex-direction: row; align-items: center; gap: 8px; }
+/* reward rate + earns on: one row per rule, the only multi-row part of a card */
+.card-row .rates { grid-area: rates; display: grid; grid-template-columns: minmax(96px, auto) minmax(0, 1fr); gap: 6px 10px; align-items: center; }
+.card-row .rate-row { display: contents; }
+.card-row .cell.reward { flex-direction: row; align-items: center; gap: 8px; }
+.card-row .cell.reward > div { min-width: 0; }
 .card-row .c-min { grid-area: min; }
 .card-row .c-cap { grid-area: cap; }
 .card-row .c-fee { grid-area: fee; }
+.card-row .c-out { grid-area: out; }
+.card-row .c-in > .muted, .card-row .c-out > .muted { font-size: 0.8rem; }
 .card-row .cell[data-label]::before { content: attr(data-label); font-size: 0.68rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.04em; }
 .card-row .big { font-weight: 600; font-variant-numeric: tabular-nums; }
 .card-row .cell .sub { font-size: 0.76rem; line-height: 1.2; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .card-row .cell.reward .big { font-size: 1.05rem; }
 .card-row .cell.reward .reward-badge { display: none; }
 @media (min-width: 420px) { .card-row .cell.reward .reward-badge { display: inline-grid; } }
+/* sign-up bonus view: one row per offer across the reward, qualifies, min spend and end-date columns */
+.card-row.bonus-view { grid-template-areas: "main main main star" "rates rates rates rates" "fee fee out out" "peek peek peek peek"; }
+.card-row .rates.offer-rows { grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr); gap: 8px 10px; align-items: start; }
+.card-row .rates.offer-rows .c-min, .card-row .rates.offer-rows .c-cap { grid-area: auto; }
+.card-row .rates.offer-rows .rate-row + .rate-row .cell.reward,
+.card-row .rates.offer-rows .rate-row + .rate-row .c-in { border-top: 1px dashed var(--line); padding-top: 8px; }
+.card-row .big.text { font-size: 0.9rem; font-weight: 500; line-height: 1.25; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.card-row .cell.reward .big.text { font-size: 0.9rem; }
+.reward-badge.bonus { background: var(--gold-soft); color: var(--gold); }
+.pills { display: flex; flex-wrap: wrap; gap: 4px; margin-top: 3px; }
+.pill { font-size: 0.7rem; line-height: 1; padding: 3px 6px; border-radius: 999px; background: var(--surface-2); color: var(--muted); white-space: nowrap; }
+.pill.good { background: var(--accent-soft); color: var(--accent); }
+.pill.warn { background: var(--gold-soft); color: var(--gold); }
+.more-offers {
+  grid-column: 1 / -1; justify-self: start; border: 0; background: none; padding: 0; cursor: pointer;
+  color: var(--accent); font-size: 0.78rem;
+}
+.more-offers:hover { text-decoration: underline; }
 .notes-cell { display: none !important; }
 .note-peek { grid-area: peek; display: flex; gap: 6px; align-items: baseline; font-size: 0.83rem; color: var(--muted); cursor: pointer; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .star { grid-area: star; align-self: start; justify-self: end; border: 0; background: none; color: var(--muted); cursor: pointer; width: 36px; height: 36px; display: grid; place-items: center; border-radius: 10px; }
 .star:hover { background: var(--surface-2); color: var(--gold); }
 .star.on { color: var(--gold); }
 
+/* category icons: accent tint for what earns, red tint for what's excluded */
+.tag-icons { list-style: none; margin: 2px 0 0; padding: 0; display: flex; flex-wrap: wrap; gap: 3px; }
+.tag-icons li, .tag-icon { display: inline-grid; place-items: center; width: 22px; height: 22px; border-radius: 6px; flex: none; }
+.tag-icons.in li, .tag-icon.in { background: var(--accent-soft); color: var(--accent); }
+.tag-icons.out li, .tag-icon.out { background: var(--red-soft); color: var(--red); }
+/* transaction modes: outlined, so they read apart from the categories they sit beside */
+.tag-icons.in li.mode, .tag-icon.in.mode { background: transparent; box-shadow: inset 0 0 0 1.5px color-mix(in srgb, var(--accent) 45%, transparent); }
+
+.list-label .key-btn { margin-left: auto; }
+.key-btn {
+  display: inline-flex; align-items: center; gap: 4px; padding: 3px 9px; border: 1px solid var(--line); border-radius: 999px;
+  background: var(--surface); color: var(--muted); cursor: pointer; font-size: 0.75rem; text-transform: none; letter-spacing: 0;
+}
+.key-btn:hover { color: var(--ink); border-color: color-mix(in srgb, var(--ink) 25%, var(--line)); }
+.list-label .key-btn svg { color: inherit; }
+.icon-key {
+  width: min(360px, calc(100% - 32px)); max-height: min(80dvh, 620px); overflow-y: auto;
+  padding: 16px 18px; border: 1px solid var(--line); border-radius: var(--radius);
+  background: var(--surface); color: var(--ink); box-shadow: 0 8px 40px rgb(0 0 0 / 18%);
+}
+.icon-key::backdrop { background: rgb(15 20 18 / 25%); }
+.icon-key[popover]:popover-open { animation: up 0.18s ease-out; }
+.icon-key h3 { font-family: var(--serif); font-size: 1.1rem; font-weight: 600; }
+.icon-key .hint { margin: 4px 0 12px; }
+.icon-key h4 { margin: 12px 0 6px; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); font-weight: 600; }
+.icon-key ul { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: 1fr 1fr; gap: 6px 12px; }
+.icon-key li { display: flex; align-items: center; gap: 8px; font-size: 0.85rem; line-height: 1.2; }
+
 .reward-badge { display: inline-grid; place-items: center; width: 26px; height: 26px; border-radius: 8px; flex: none; }
 .reward-badge.miles { background: var(--miles-soft); color: var(--miles); }
 .reward-badge.cashback { background: var(--accent-soft); color: var(--accent); }
 .reward-badge.points { background: var(--points-soft); color: var(--points); }
+.reward-badge.spacer { visibility: hidden; }
 
 .table-head { display: none; }
 
@@ -257,14 +325,18 @@ input:focus, select:focus, textarea:focus { outline: none; border-color: var(--a
   .chips { flex-basis: 100%; margin: 0; padding: 2px 0 4px; flex-wrap: wrap; }
 
   .table-head, .card-row {
-    grid-template-columns: minmax(250px, 2.3fr) 1.15fr 0.8fr 0.9fr 0.85fr minmax(160px, 1.5fr) 40px;
-    grid-template-areas: "main reward min cap fee notes star";
+    grid-template-columns: minmax(210px, 1.8fr) minmax(128px, 1fr) 1.3fr 0.75fr 0.85fr 0.75fr 1.2fr minmax(120px, 1.1fr) 40px;
+    grid-template-areas: "main rates rates min cap fee out notes star";
   }
   .table-head {
     display: grid; gap: 10px; padding: 0 12px; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted);
     position: sticky; top: 57px; z-index: 5; background: var(--bg); padding-block: 8px;
   }
   .card-row { padding: 10px 12px; }
+  .card-row .rates { grid-template-columns: subgrid; }
+  .card-row.bonus-view { grid-template-areas: "main rates rates rates rates fee out notes star"; }
+  .card-row .rates.offer-rows { grid-template-columns: subgrid; align-items: center; }
+  .card-row .rates.offer-rows .rate-row + .rate-row .cell { border-top: 1px dashed var(--line); padding-top: 8px; }
   .card-row .cell[data-label]::before { display: none; }
   .notes-cell { display: flex !important; grid-area: notes; }
   .note-peek { display: none; }
@@ -331,6 +403,15 @@ input:focus, select:focus, textarea:focus { outline: none; border-color: var(--a
 .rule-meta span { color: var(--ink); }
 .offers { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 8px; }
 .offers li { padding: 10px 12px; border-left: 3px solid var(--gold); background: var(--gold-soft); border-radius: 0 10px 10px 0; font-size: 0.9rem; }
+.offers li p + p { margin-top: 3px; }
+.offers .offer-head strong { font-size: 1rem; }
+.offers .pills { margin-top: 6px; }
+.offers .pill { background: var(--surface); }
+.offer-more { margin-top: 6px; font-size: 0.83rem; }
+.offer-more summary { cursor: pointer; color: var(--muted); }
+.offer-more ul { margin: 4px 0 0; padding-left: 18px; }
+.offers .offer-more li { padding: 1px 0; border: 0; background: none; border-radius: 0; font-size: inherit; }
+.offer-more p { margin-top: 4px; color: var(--muted); line-height: 1.45; }
 .fine-print { font-size: 0.85rem; color: var(--muted); }
 .fine-print summary { cursor: pointer; color: var(--ink); }
 .fine-print ul { padding-left: 18px; margin: 8px 0 0; display: flex; flex-direction: column; gap: 4px; word-break: break-word; }

@@ -1,7 +1,9 @@
 import { ExternalLink, Gift, Info, Star, StickyNote } from "lucide-react";
 import type { CatalogCard } from "../types";
 import { useUser } from "../lib/store";
-import { capPeriod, effectivePct, fmtMoney, fmtRate, PERIOD_SHORT, spendCap } from "../lib/catalog";
+import {
+  activeBonuses, bonusHeadline, capPeriod, OFFERED_BY, effectivePct, fmtMoney, fmtRate, PERIOD_SHORT, spendCap, withinLabel,
+} from "../lib/catalog";
 import { fmtDate, today } from "../lib/dates";
 import { useWalletActions } from "../lib/wallet";
 import { CardArt, NoteField, REWARD_LABEL, RewardBadge, Sheet } from "./ui";
@@ -19,7 +21,7 @@ export function CardDetail({ card, onClose }: { card: CatalogCard | null; onClos
   const isMine = owned.has(card.id);
   const cpm = state.settings.centsPerMile;
   const on = today();
-  const offers = card.bonuses.filter((b) => !b.validTo || b.validTo >= on);
+  const offers = activeBonuses(card, on, cpm);
   const rules = [...card.rules].sort((a, b) => (a.tier === b.tier ? b.rate - a.rate : a.tier === "bonus" ? -1 : 1));
   const official = card.sources.filter((s) => s.type === "official");
   const note = state.notes[card.id] ?? "";
@@ -85,13 +87,34 @@ export function CardDetail({ card, onClose }: { card: CatalogCard | null; onClos
         <>
           <h3 className="section-title"><Gift size={16} aria-hidden /> Sign-up offers</h3>
           <ul className="offers">
-            {offers.map((b, i) => (
-              <li key={i}>
-                <p>{b.desc}</p>
-                <p className="sub">via {b.by}{b.validTo ? ` · until ${fmtDate(b.validTo, true)}` : ""}
-                  {b.url && <> · <a href={b.url} target="_blank" rel="noreferrer">terms</a></>}</p>
-              </li>
-            ))}
+            {offers.map((b, i) => {
+              const head = bonusHeadline(b, cpm);
+              return (
+                <li key={i}>
+                  <p className="offer-head"><strong>{head.big}</strong>{head.sub && <span className="sub"> {head.sub}</span>}</p>
+                  <p className="sub">{b.title ?? "Offer"} via {OFFERED_BY[b.by] ?? b.by}{b.validTo ? ` · until ${fmtDate(b.validTo, true)}` : ""}
+                    {b.url && <> · <a href={b.url} target="_blank" rel="noreferrer">terms</a></>}</p>
+                  <p className="pills">
+                    {b.minSpend != null && <span className="pill">Spend {fmtMoney(b.minSpend)}{b.withinDays ? ` ${withinLabel(b.withinDays)}` : ""}</span>}
+                    {b.newToBank && <span className="pill">New to {card.bank} only</span>}
+                    {b.stackable === true && <span className="pill good">Stacks with bank offer</span>}
+                    {b.stackable === false && <span className="pill">Doesn't stack</span>}
+                  </p>
+                  {b.options.length > 1 && (
+                    <details className="offer-more">
+                      <summary>Choose from {b.options.length} gifts</summary>
+                      <ul>{b.options.map((o) => <li key={o}>{o}</li>)}</ul>
+                    </details>
+                  )}
+                  {b.terms && (
+                    <details className="offer-more">
+                      <summary>Qualifying terms</summary>
+                      <p>{b.terms}</p>
+                    </details>
+                  )}
+                </li>
+              );
+            })}
           </ul>
         </>
       )}

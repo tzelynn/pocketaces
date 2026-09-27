@@ -1,0 +1,96 @@
+# Curated card record. Auto-drafted from staged sources; verify every value against the
+# official T&Cs (citations below), then set review.status: reviewed.
+id: dbs-live-fresh
+bank: DBS
+name: DBS Live Fresh Card
+image_url: https://mhgprod.blob.core.windows.net/singsaver/strapi-uploads/l_blt4210178ed3fd5c99_5d24be21b1.png
+official_url: https://www.dbs.com.sg/personal/cards/credit-cards/live-fresh-dbs-visa-paywave-platinum-card
+annual_fee:
+  amount:
+    amount: 196.2
+    currency: SGD
+  first_year_waived: true
+  waiver_notes: S$ | First Year Waived
+  sources: ['singsaver:8a7535ff6b3a']
+min_annual_income:
+  amount: 30000.0
+  currency: SGD
+reward_currency:
+  kind: cashback
+  name: Cashback
+earn_rules:
+- id: transport
+  label: transport, local, retail, local online shopping, overseas online shopping, overseas, contactless
+    spend (SingSaver — verify)
+  rate: 6.0
+  unit: percent
+  tier: bonus
+  eligibility:
+    tags: [transport, shopping]
+    description: Up to | On Transport spend. Capped at S$20 per calendar month. / Up to | On Shopping
+      and Transport spend. Capped at S$50 for Shopping spend and S$20 for Transport spend per calendar
+      month. / Up to  | On Shopping spend. Capped at S$50 per calendar month. / Up to | On Shopping spend.
+      Capped at S$50 per calendar month.
+    sources: ['singsaver:8a7535ff6b3a']
+  min_spend:
+    amount: 800.0
+    currency: SGD
+  min_spend_period: statement_month
+  bonus_cap:
+    amount: 20.0
+    unit: SGD_cashback
+    period: calendar_month
+    sources: ['singsaver:8a7535ff6b3a']
+  conditions:
+  - bonus_cap parsed from aggregator text “Capped at S$20 per calendar month” — confirm amount, unit and
+    whether the period is calendar or statement month
+  - min spend S$800/month from singsaver — confirm the period (statement vs calendar month) and which
+    rules it unlocks
+  sources: ['singsaver:8a7535ff6b3a']
+- id: travel
+  label: travel, dining, supermarket (SingSaver — verify)
+  rate: 0.3
+  unit: percent
+  tier: bonus
+  eligibility:
+    tags: [travel, dining, groceries]
+    description: Unlimited base cashback on All spend.
+    sources: ['singsaver:8a7535ff6b3a']
+  min_spend:
+    amount: 800.0
+    currency: SGD
+  min_spend_period: statement_month
+  conditions:
+  - min spend S$800/month from singsaver — confirm the period (statement vs calendar month) and which
+    rules it unlocks
+  sources: ['singsaver:8a7535ff6b3a']
+- id: base
+  label: baseline (SingSaver — verify)
+  rate: 0.3
+  unit: percent
+  tier: base
+  eligibility:
+    all_spend: true
+    description: Unlimited base cashback on All spend.
+    sources: ['singsaver:8a7535ff6b3a']
+  sources: ['singsaver:8a7535ff6b3a']
+general_exclusions:
+  description: Auto-extracted from official T&Cs — confirm each code applies to this card
+citations:
+- id: singsaver:8a7535ff6b3a
+  url: https://www.singsaver.com.sg/credit-card/products/dbs-live-fresh-card
+  title: DBS Live Fresh Card
+  source_type: aggregator
+  retrieved_at: '2026-09-27T05:25:23+00:00'
+  sha256: 8a7535ff6b3a78dd539c73e71aa28bb5a2858c4376a713d3f7817cd0bd739f8e
+  snapshot: data/raw/singsaver/www-singsaver-com-sg-credit-card-products-dbs-live-fresh-card-f5274451.html
+- id: moneysmart:49fcb3586f25
+  url: https://www.moneysmart.sg/credit-cards?page=4
+  title: DBS Live Fresh Card
+  source_type: aggregator
+  retrieved_at: '2026-09-27T05:27:20+00:00'
+  sha256: 49fcb3586f252df0b2dacb9acecc465127e09c9defa7f151881c3db46d84649e
+  snapshot: data/raw/moneysmart/credit-cards-p4-1a322210.html
+review:
+  status: draft
+updated_at: '2026-09-27'

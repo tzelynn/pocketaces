@@ -112,3 +112,16 @@ categories:
   gambling:
     label: Gambling
     mcc: ["7800", "7801", "7802", "7995", "9754"]
+
+# How a transaction is made, keyed by models.TransactionMode. Not MCC-based, so the pipeline's tagging
+# ignores these; the app shows them as a "Transaction mode" filter and beside the spend-category icons.
+transaction_modes:
+  online: Online
+  in_app: In-app
+  contactless: Contactless (physical card tap)
+  mobile_wallet: Mobile wallet (Apple/Google/Samsung Pay)
+  chip_pin: Chip & PIN
+  recurring: Recurring payments
+  foreign_currency: Overseas (foreign currency)
+  local_currency: Local (SGD)
+  overseas_in_sgd: Overseas merchant charging SGD

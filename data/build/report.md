@@ -24,6 +24,10 @@ None.
 
 None.
 
+## Reviewed cards whose sources changed (merge suggestions by hand, then delete them) (0)
+
+None.
+
 ## Curated value disagrees with an aggregator (17)
 
 - citi-prestige: annual fee 651.82 vs moneysmart 535.0

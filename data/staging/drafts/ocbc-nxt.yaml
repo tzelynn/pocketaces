@@ -1,0 +1,95 @@
+# Curated card record. Auto-drafted from staged sources; verify every value against the
+# official T&Cs (citations below), then set review.status: reviewed.
+id: ocbc-nxt
+bank: OCBC
+name: OCBC NXT Credit Card
+network: mastercard
+image_url: https://mhgprod.blob.core.windows.net/singsaver/strapi-uploads/xs_blt076bd08364a5b407_6dd82b88fb.webp
+official_url: https://www.ocbc.com/personal-banking/cards/bnpl-nxt-card.page
+annual_fee:
+  amount:
+    amount: 163.5
+    currency: SGD
+  waiver_notes: S$ | First 2 Years Waived. Min. spend of S$10,000 per year for waiver of annual fee for
+    subsequent years.
+  sources: ['singsaver:c824f2e0bb8c']
+min_annual_income:
+  amount: 30000.0
+  currency: SGD
+reward_currency:
+  kind: cashback
+  name: Cashback
+earn_rules:
+- id: overseas
+  label: overseas, travel, dining, supermarket, petrol, retail, local online shopping, overseas online
+    shopping, health, department store, digital wallet, contactless spend, transport, local (SingSaver
+    — verify)
+  rate: 1.0
+  unit: percent
+  tier: bonus
+  eligibility:
+    include_mcc: ['4784', '4829', '4900', '5047', '5199', '5960', '5993', '6010', '6012', '6051', '6211',
+      '6300', '6513', '6540', '7349', '7523', '7995', '8062', '8211', '8220', '8241', '8244', '8249',
+      '8299', '8398', '8651', '8661', '8675', '8699', '9211', '9222', '9223', '9311', '9399', '9402',
+      '9405']
+    description: Up to | With a minimum spend of $1,000 and above per calendar month, otherwise 0.5% cashback.
+      / Up to | With a minimum spend of $1,000 and above per calendar month, otherwise 0.5% cashback.  /
+      Up to | With a minimum spend of $1,000 and above per calendar month, otherwise 0.5% cashback.   Except
+      Grab, Gojek, and taxis. [include_mcc auto-extracted from official T&C — check it belongs to this
+      rule]
+    sources: ['singsaver:c824f2e0bb8c', 'bank:71e50d4a7373', 'bank:9b28d7dc4d9a', 'bank:c83007f1777e']
+  conditions:
+  - 'aggregator categories: travel, dining, groceries, petrol, shopping, healthcare, transport'
+  sources: ['singsaver:c824f2e0bb8c']
+- id: base
+  label: baseline (SingSaver — verify)
+  rate: 0.5
+  unit: percent
+  tier: base
+  eligibility:
+    all_spend: true
+    description: 0.5% on all eligible retail spend below S$1,000 per calendar month. Max Cashback = S$100/month.
+    sources: ['singsaver:c824f2e0bb8c']
+  sources: ['singsaver:c824f2e0bb8c']
+general_exclusions:
+  description: Auto-extracted from official T&Cs — confirm each code applies to this card
+notes:
+- 'T&C mentions (check whether excluded): axs, balance transfer, bill payment, cash advance, charit, education,
+  government, grabpay, hospital, instalment, insurance premium, interest, ipp, late payment charge, tax,
+  top-up, top-ups, utilit, youtrip'
+citations:
+- id: singsaver:c824f2e0bb8c
+  url: https://www.singsaver.com.sg/credit-card/products/ocbc-nxt-credit-card
+  title: OCBC NXT Credit Card
+  source_type: aggregator
+  retrieved_at: '2026-09-27T05:26:26+00:00'
+  sha256: c824f2e0bb8c743fb08d9f7ca176b931fcfefdd21ad183bd4d9b79f0a5cbab51
+  snapshot: data/raw/singsaver/www-singsaver-com-sg-credit-card-products-ocbc-nxt-credit-card-9dc0741f.html
+- id: moneysmart:49fcb3586f25
+  url: https://www.moneysmart.sg/credit-cards?page=4
+  title: OCBC NXT Credit Card
+  source_type: aggregator
+  retrieved_at: '2026-09-27T05:27:20+00:00'
+  sha256: 49fcb3586f252df0b2dacb9acecc465127e09c9defa7f151881c3db46d84649e
+  snapshot: data/raw/moneysmart/credit-cards-p4-1a322210.html
+- id: bank:71e50d4a7373
+  url: https://www.ocbc.com/iwov-resources/sg/ocbc/personal/pdf/cards/tncs-nxtcard.pdf
+  source_type: official
+  retrieved_at: '2026-09-27T08:41:35+00:00'
+  sha256: 71e50d4a7373368c110b7811c5769fb2b37161e58d8ff53d27e6606b75751c5d
+  snapshot: data/raw/bank/www-ocbc-com-iwov-resources-sg-ocbc-personal-pdf-cards-tncs-nxtcard-pdf-0532be2c.pdf
+- id: bank:9b28d7dc4d9a
+  url: https://www.ocbc.com/iwov-resources/sg/ocbc/personal/pdf/cards/tncs-governing-ocbc-spend-and-buy-miles-promotion.pdf
+  source_type: official
+  retrieved_at: '2026-09-27T08:41:37+00:00'
+  sha256: 9b28d7dc4d9afdffad86bfa30d51711ee406e6d984dc04cbfcf5d7e7c62af86a
+  snapshot: data/raw/bank/www-ocbc-com-iwov-resources-sg-ocbc-personal-pdf-cards-tncs-governing-ocbc-spend-and-buy-miles-promotion-pdf-e1dc9144.pdf
+- id: bank:c83007f1777e
+  url: https://www.ocbc.com/iwov-resources/sg/ocbc/personal/pdf/cards/tncs-governing-ocbc-nxt-cc-promo.pdf
+  source_type: official
+  retrieved_at: '2026-09-27T08:41:39+00:00'
+  sha256: c83007f1777eddeaebe35725ed0e81048c21e38b217e99b5ba5d106b988b2680
+  snapshot: data/raw/bank/www-ocbc-com-iwov-resources-sg-ocbc-personal-pdf-cards-tncs-governing-ocbc-nxt-cc-promo-pdf-c23295a3.pdf
+review:
+  status: draft
+updated_at: '2026-09-27'

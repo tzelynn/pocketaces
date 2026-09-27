@@ -50,6 +50,11 @@ class ExtractedTnc(BaseModel):
     redemption_min_block: str | None
     redemption_fee: str | None
     points_expiry: str | None
+    spend_cycle: str | None = Field(
+        description="'calendar_month' if monthly min spend and caps reset on the 1st, "
+        "'statement_month' if they follow the statement/billing cycle; null if not stated")
+    spend_cycle_evidence: list[str] = Field(
+        description="verbatim sentence(s) stating the spend cycle")
     other_notes: list[str]
 
 
@@ -88,7 +93,8 @@ def _codes_in_text(text: str) -> set[int]:
 
 
 def verify(result: ExtractedTnc, text: str, regex_codes: set[str]) -> dict:
-    """Check model output against the source text. Returns {rejected, missed} lists."""
+    """Check model output against the source text. Returns {rejected, missed} lists. A spend
+    cycle whose evidence isn't quoted from the text is dropped (and listed as rejected)."""
     present = _codes_in_text(text)
     rejected: list[str] = []
     claimed: set[int] = set()
@@ -110,5 +116,12 @@ def verify(result: ExtractedTnc, text: str, regex_codes: set[str]) -> dict:
         else:
             rejected.append(f"general_exclude_mcc:{code}")
     result.general_exclude_mcc = kept
+    if result.spend_cycle:
+        flat = " ".join(text.split()).lower()
+        quoted = [q for q in result.spend_cycle_evidence if " ".join(q.split()).lower() in flat]
+        if result.spend_cycle not in ("calendar_month", "statement_month") or not quoted:
+            rejected.append(f"spend_cycle:{result.spend_cycle}")
+            result.spend_cycle = None
+        result.spend_cycle_evidence = quoted if result.spend_cycle else []
     missed = sorted(c for c in regex_codes if not expand([c]) <= claimed)
     return {"rejected": rejected, "missed_by_llm": missed}

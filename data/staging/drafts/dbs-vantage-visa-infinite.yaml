@@ -1,0 +1,115 @@
+# Curated card record. Auto-drafted from staged sources; verify every value against the
+# official T&Cs (citations below), then set review.status: reviewed.
+id: dbs-vantage-visa-infinite
+bank: DBS
+name: DBS Vantage Visa Infinite Card
+image_url: https://mhgprod.blob.core.windows.net/singsaver/strapi-uploads/xs_blt1396105454583551_773417666f.webp
+official_url: https://www.dbs.com.sg/personal/cards/credit-cards/dbs-vantage-visa-infinite-card
+annual_fee:
+  amount:
+    amount: 599.5
+    currency: SGD
+  first_year_waived: true
+  waiver_notes: S$ | Non-waivable for first year. Waiver will be granted in subsequent years with a minimum
+    eligible spend of S$60,000 within in a calendar year.
+  sources: ['singsaver:669435333fe4']
+min_annual_income:
+  amount: 120000.0
+  currency: SGD
+reward_currency:
+  kind: miles
+  name: Miles
+earn_rules:
+- id: hotel-booking
+  label: hotel booking, flight booking, travel (SingSaver — verify)
+  rate: 6.0
+  unit: mpd
+  tier: bonus
+  eligibility:
+    tags: [hotels, flights, travel]
+    description: 'When you book a flight ticket, hotel stay or travel package on Expedia at any participating
+      airline or hotel partners.  / 6 miles per dollar when you book a flight ticket, hotel stay or travel
+      package on Expedia at any participating airline or hotel partners. '
+    sources: ['singsaver:669435333fe4']
+  min_spend:
+    amount: 2000.0
+    currency: SGD
+  min_spend_period: statement_month
+  conditions:
+  - min spend S$2000/month from singsaver — confirm the period (statement vs calendar month) and which
+    rules it unlocks
+  sources: ['singsaver:669435333fe4']
+- id: overseas
+  label: overseas (SingSaver — verify)
+  rate: 2.2
+  unit: mpd
+  tier: bonus
+  eligibility:
+    description: S$1 overseas spend = 2.2 miles
+    sources: ['singsaver:669435333fe4']
+  min_spend:
+    amount: 2000.0
+    currency: SGD
+  min_spend_period: statement_month
+  conditions:
+  - min spend S$2000/month from singsaver — confirm the period (statement vs calendar month) and which
+    rules it unlocks
+  sources: ['singsaver:669435333fe4']
+- id: local
+  label: local, retail, dining, local online shopping, overseas online shopping, department store, supermarket,
+    transport, petrol (SingSaver — verify)
+  rate: 1.5
+  unit: mpd
+  tier: bonus
+  eligibility:
+    tags: [shopping, dining, groceries, transport, petrol]
+    description: S$1 local spend = 1.5 miles
+    sources: ['singsaver:669435333fe4']
+  min_spend:
+    amount: 2000.0
+    currency: SGD
+  min_spend_period: statement_month
+  conditions:
+  - min spend S$2000/month from singsaver — confirm the period (statement vs calendar month) and which
+    rules it unlocks
+  sources: ['singsaver:669435333fe4']
+- id: base
+  label: baseline (SingSaver — verify)
+  rate: 1.5
+  unit: mpd
+  tier: base
+  eligibility:
+    all_spend: true
+    description: S$1 local spend = 1.5 miles
+    sources: ['singsaver:669435333fe4']
+  sources: ['singsaver:669435333fe4']
+general_exclusions:
+  description: Auto-extracted from official T&Cs — confirm each code applies to this card
+notes:
+- 'Editorial review for cross-checking: Review: DBS Vantage Card (https://milelion.com/2026/08/12/review-dbs-vantage-card/,
+  updated 2026-08-12)'
+citations:
+- id: singsaver:669435333fe4
+  url: https://www.singsaver.com.sg/credit-card/products/dbs-vantage-visa-infinite-card
+  title: DBS Vantage Visa Infinite Card
+  source_type: aggregator
+  retrieved_at: '2026-09-27T05:25:31+00:00'
+  sha256: 669435333fe4805428d02ccd38930c64787141d1c4a8cd71f330626b072d459a
+  snapshot: data/raw/singsaver/www-singsaver-com-sg-credit-card-products-dbs-vantage-visa-infinite-card-6ba243a3.html
+- id: moneysmart:fbcf8e7229a3
+  url: https://www.moneysmart.sg/credit-cards?page=3
+  title: DBS Vantage Visa Infinite Card
+  source_type: aggregator
+  retrieved_at: '2026-09-27T05:27:18+00:00'
+  sha256: fbcf8e7229a38611c3c767cd8447164e413b1306df1f54bebee269e3abf15202
+  snapshot: data/raw/moneysmart/credit-cards-p3-707cb52c.html
+- id: milelion:f3f89f11b3b4
+  url: https://milelion.com/2026/08/12/review-dbs-vantage-card/
+  title: 'Review: DBS Vantage Card'
+  source_type: editorial
+  retrieved_at: '2026-09-27T05:28:18+00:00'
+  sha256: f3f89f11b3b4cd60eace129cfcdf60d7334e0e4ad39b7d6b52ae7422476fc4da
+  snapshot: data/raw/milelion/post-125552-ef67cc4a.json
+review:
+  status: draft
+updated_at: '2026-09-27'

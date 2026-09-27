@@ -1,0 +1,78 @@
+# Curated card record. Auto-drafted from staged sources; verify every value against the
+# official T&Cs (citations below), then set review.status: reviewed.
+id: icbc-unionpay-dual-currency
+bank: ICBC
+name: ICBC UnionPay Dual Currency Credit Card
+network: unionpay
+image_url: https://mhgprod.blob.core.windows.net/singsaver/strapi-uploads/xs_blt9c9a3ababb6e3c8e_cafdde173e.webp
+official_url: https://www.icbc.com.sg/en/column/1438059017535897823.html
+annual_fee:
+  amount:
+    amount: 30.0
+    currency: SGD
+  waiver_notes: S$ | First Three Years Waived
+  sources: ['singsaver:eccd48c19a58']
+min_annual_income:
+  amount: 30000.0
+  currency: SGD
+reward_currency:
+  kind: cashback
+  name: Cashback
+earn_rules:
+- id: overseas
+  label: overseas, local, travel, dining, supermarket, petrol, retail, local online shopping, overseas
+    online shopping, department store, online bill payment spending, contactless spend, transport (SingSaver
+    — verify)
+  rate: 8.0
+  unit: percent
+  tier: bonus
+  eligibility:
+    tags: [travel, dining, groceries, petrol, shopping, transport]
+    description: Up to  | For all qualifying spend S$500 and above for three consecutive months in a quarter,
+      monthly cashback capped at S$60. / Up to | For all qualifying spend above S$500. / Up to | For all
+      qualifying spend S$500 and above for three consecutive months in a quarter, monthly cashback capped
+      at S$60.
+    sources: ['singsaver:eccd48c19a58']
+  min_spend:
+    amount: 500.0
+    currency: SGD
+  min_spend_period: statement_month
+  conditions:
+  - min spend S$500/month from singsaver — confirm the period (statement vs calendar month) and which
+    rules it unlocks
+  sources: ['singsaver:eccd48c19a58']
+- id: base
+  label: baseline (SingSaver — verify)
+  rate: 0.5
+  unit: percent
+  tier: base
+  eligibility:
+    all_spend: true
+    description: For all qualifying spend up to S$500 monthly per quarter.
+    sources: ['singsaver:eccd48c19a58']
+  sources: ['singsaver:eccd48c19a58']
+general_exclusions:
+  exclude_mcc: ['4829', '4900', '5199', '5960', '6012', '6050', '6051', '6211', '6300', '6513', '6529',
+    '6530', '6540', '7523', '7995', '8062', '8211', '8220', '8241', '8244', '8249', '8299', '8398', '8651',
+    '8661', '8699', '9211', '9222', '9223', '9311', '9399', '9402', '9405', '9498']
+  description: Auto-extracted from official T&Cs — confirm each code applies to this card
+  sources: ['bank:1e7fc70513b7']
+notes:
+- 'T&C mentions (check whether excluded): axs, government, grabpay, interest, ipp, tax, top-up'
+citations:
+- id: singsaver:eccd48c19a58
+  url: https://www.singsaver.com.sg/credit-card/products/icbc-unionpay-dual-currency-credit-card
+  title: ICBC UnionPay Dual Currency Credit Card
+  source_type: aggregator
+  retrieved_at: '2026-09-27T05:25:55+00:00'
+  sha256: eccd48c19a5819a544aae1a6d7d683b537acdbd97ebe7ed593e7ce94c7a19a47
+  snapshot: data/raw/singsaver/www-singsaver-com-sg-credit-card-products-icbc-unionpay-dual-currency-credit-card-9c082160.html
+- id: bank:1e7fc70513b7
+  url: https://v.icbc.com.cn/userfiles/resources/icbc/haiwai/singapore/download/2025/dualcurrency_tc.pdf
+  source_type: official
+  retrieved_at: '2026-09-27T08:37:21+00:00'
+  sha256: 1e7fc70513b7f1a4c03c8d91fb1a3d6625b608adf05e470ca8ea17253e7c3034
+  snapshot: data/raw/bank/v-icbc-com-cn-userfiles-resources-icbc-haiwai-singapore-download-2025-dualcurrency-tc-pdf-e0ab8ee0.pdf
+review:
+  status: draft
+updated_at: '2026-09-27'

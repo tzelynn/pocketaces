@@ -1,0 +1,52 @@
+# Curated card record. Auto-drafted from staged sources; verify every value against the
+# official T&Cs (citations below), then set review.status: reviewed.
+id: dbs-takashimaya-american-express
+bank: DBS
+name: DBS Takashimaya American Express Card
+network: amex
+image_url: https://mhgprod.blob.core.windows.net/singsaver/strapi-uploads/xs_blt0531e426e68a8c6c_b516634be7.webp
+official_url: https://www.dbs.com.sg/personal/cards/credit-cards/dbs-takashimaya-card
+annual_fee:
+  amount:
+    amount: 196.2
+    currency: SGD
+  first_year_waived: true
+  waiver_notes: S$ | First Year Waived
+  sources: ['singsaver:23923a307220']
+min_annual_income:
+  amount: 30000.0
+  currency: SGD
+reward_currency:
+  kind: points
+  name: Points
+earn_rules:
+- id: retail
+  label: retail, dining, grocery (SingSaver — verify)
+  rate: 2.0
+  unit: points_per_dollar
+  tier: bonus
+  eligibility:
+    tags: [shopping, dining, groceries]
+    description: With every S$10 charged in Takashima Department Store.
+    sources: ['singsaver:23923a307220']
+  sources: ['singsaver:23923a307220']
+general_exclusions:
+  description: Auto-extracted from official T&Cs — confirm each code applies to this card
+citations:
+- id: singsaver:23923a307220
+  url: https://www.singsaver.com.sg/credit-card/products/dbs-takashimaya-american-express-card
+  title: DBS Takashimaya American Express Card
+  source_type: aggregator
+  retrieved_at: '2026-09-27T05:25:28+00:00'
+  sha256: 23923a307220f23525403da6194bee8324997cc95abbc8d43a30ff29065e9f94
+  snapshot: data/raw/singsaver/www-singsaver-com-sg-credit-card-products-dbs-takashimaya-american-express-card-4a8cc249.html
+- id: moneysmart:fbcf8e7229a3
+  url: https://www.moneysmart.sg/credit-cards?page=3
+  title: DBS Takashimaya American Express Card
+  source_type: aggregator
+  retrieved_at: '2026-09-27T05:27:18+00:00'
+  sha256: fbcf8e7229a38611c3c767cd8447164e413b1306df1f54bebee269e3abf15202
+  snapshot: data/raw/moneysmart/credit-cards-p3-707cb52c.html
+review:
+  status: draft
+updated_at: '2026-09-27'

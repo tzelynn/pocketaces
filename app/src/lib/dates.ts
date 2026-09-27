@@ -1,4 +1,4 @@
-import type { MyCard, Ymd } from "../types";
+import type { MyCard, SpendPeriod, Ymd } from "../types";
 
 /** Used when a card has a due day but no statement day (typical SG grace period is 20–25 days). */
 export const ESTIMATED_GRACE_DAYS = 21;
@@ -89,10 +89,13 @@ export function feeInstance(card: MyCard, on: Ymd, graceDays = 30): Ymd | null {
   return daysBetween(thisYear, on) <= graceDays ? thisYear : toYmd(dayInMonth(y + 1, mm - 1, dd));
 }
 
-/** Inclusive [start, end] of the spend-tracking period that contains `on`. */
-export function spendWindow(card: MyCard, on: Ymd): { start: Ymd; end: Ymd } {
+/**
+ * Inclusive [start, end] of the spend-tracking period that contains `on`. `cardCycle` is the
+ * catalogue card's cycle, used unless the user overrode it; statement cycles need a statement day.
+ */
+export function spendWindow(card: MyCard, on: Ymd, cardCycle: SpendPeriod = "calendar"): { start: Ymd; end: Ymd } {
   const d = parseYmd(on);
-  if (card.spendPeriod === "statement" && card.statementDay) {
+  if ((card.spendPeriod ?? cardCycle) === "statement" && card.statementDay) {
     const y = d.getFullYear(), m = d.getMonth();
     const thisStmt = toYmd(dayInMonth(y, m, card.statementDay));
     if (on <= thisStmt) {
@@ -106,8 +109,8 @@ export function spendWindow(card: MyCard, on: Ymd): { start: Ymd; end: Ymd } {
   };
 }
 
-export function spentInWindow(card: MyCard, on: Ymd): number {
-  const { start, end } = spendWindow(card, on);
+export function spentInWindow(card: MyCard, on: Ymd, cardCycle?: SpendPeriod): number {
+  const { start, end } = spendWindow(card, on, cardCycle);
   return card.spends.filter((s) => s.date >= start && s.date <= end).reduce((a, s) => a + s.amount, 0);
 }
 

@@ -68,6 +68,13 @@ class Period(str, Enum):
     calendar_year = "calendar_year"
 
 
+class SpendCycle(str, Enum):
+    """Which month min spend and bonus caps are counted over."""
+
+    calendar_month = "calendar_month"  # resets on the 1st
+    statement_month = "statement_month"  # follows the billing cycle (statement date to statement date)
+
+
 class RateUnit(str, Enum):
     percent = "percent"  # cashback %
     mpd = "mpd"  # KrisFlyer (or airline) miles per S$1
@@ -176,10 +183,13 @@ class RewardCurrency(Strict):
 class SignUpBonus(Strict):
     offered_by: str  # "bank" or aggregator name
     description: str
-    value: Money | None = None
+    options: list[str] = Field(default_factory=list)  # gifts to choose between, one per entry
+    value: Money | None = None  # headline value: the cash option where there is one
     min_spend: Money | None = None
     spend_within_days: int | None = None
     new_to_bank_only: bool | None = None
+    stackable: bool | None = None  # combinable with the bank's own welcome offer
+    terms: str | None = None  # the offer's qualifying conditions, as the source states them
     valid_from: date | None = None
     valid_to: date | None = None
     url: str | None = None
@@ -216,6 +226,11 @@ class Card(Strict):
     min_annual_income: Money | None = None
     reward_currency: RewardCurrency
     earn_rules: list[EarnRule]
+    spend_cycle: SpendCycle = Field(
+        SpendCycle.calendar_month,
+        description="whether monthly min spend and caps follow the calendar month or the billing cycle",
+    )
+    spend_cycle_sources: list[str] = Field(default_factory=list)
     general_exclusions: Eligibility = Field(
         default_factory=Eligibility, description="exclusions that apply to all earn rules"
     )
@@ -236,7 +251,7 @@ class Card(Strict):
             if isinstance(obj, BaseModel):
                 for name in type(obj).model_fields:
                     val = getattr(obj, name)
-                    if name == "sources" and isinstance(val, list):
+                    if (name == "sources" or name.endswith("_sources")) and isinstance(val, list):
                         missing.update(s for s in val if s not in ids)
                     else:
                         visit(val)

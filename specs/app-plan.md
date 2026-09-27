@@ -24,8 +24,20 @@ Companion to [app-functionalities.md](app-functionalities.md). Describes how the
 - **Comparing miles with cashback**: miles are valued at a user-set cents per mile (default 1.5¢) to
   get an effective %. Points have no conversion data in the build yet, so they are shown in their own
   unit and sorted after valued cards, not guessed.
-- **Headline rate per category**: with a spend category selected, the rate shown is the best rule that
-  covers it (`tag_coverage`), otherwise the best bonus rule.
+- **Reward rate rows**: each card lists every rule above 1% cashback or 1 mpd (points: above the base
+  rate) as its own reward-rate + earns-on row, best first; min spend, cap, fee and exclusions stay one
+  per card and follow the best rule. With a spend category or transaction mode selected, only rules
+  that count for it are listed. With none above the threshold, the best bonus rule is shown alone.
+- **Sign-up bonuses** are a second view of the Cards list (Earn rates | Sign-up bonus toggle), not
+  extra columns: the same columns become Sign-up bonus / Who qualifies / Min spend / Offer ends, with
+  annual fee, exclusions and notes unchanged. Only cards with an open offer are listed, and the spend
+  category and "no min spend" filters are hidden because offers aren't tied to a category. Each card
+  shows its best offer, with "+N more offers" to expand. An offer's value is its best gift: cash, a
+  gift's stated worth (not counting gifts that need a top-up) or miles at the user's cents per mile.
+  Flash deals, which only the first few applicants each day get, rank after offers anyone can get.
+- **Transaction modes** (online, contactless, overseas …, `transaction_modes` in
+  `config/categories.yaml`) come from a rule's `modes_required` plus its aggregator label, and appear
+  as outlined icons in Earns on and as a "Transaction mode" filter group.
 - **Spend cap** is expressed as S$ of spend: `max_spend`, or `bonus_cap` divided by the rate
   (e.g. S$60 cashback cap at 8% → S$750 spend). Uncapped sorts first.
 - **Check-offs roll over by keying**: bills are keyed by statement date and fees by fee date, so each
@@ -53,3 +65,23 @@ Companion to [app-functionalities.md](app-functionalities.md). Describes how the
 `curate` previously dropped the aggregators' card-level `min_monthly_spend`, so every card was tagged
 `no_min_spend`. Drafts now carry it onto bonus rules (`statement_month`, with a "confirm the period"
 condition for review).
+
+Cards carry `spend_cycle` (`calendar_month`, the default, or `statement_month`, citations in
+`spend_cycle_sources`): the month that monthly min spend and caps are counted over. The Wallet counts
+spend over that window. A statement cycle needs the card's statement day and falls back to the calendar
+month without one. The user can override it per card (`MyCard.spendPeriod`; unset means follow the
+catalogue).
+
+The refresh fills `spend_cycle` in drafts: `tnc` stages, per document, the sentences that tie
+"statement month/cycle/period", "billing cycle" or "calendar month" to spend, a minimum or a cap
+(crediting dates like "the following calendar month" and balance definitions are ignored). With
+`--llm` the model also reports it, and it is kept only if its quoted evidence appears in the text.
+`curate` uses the LLM answer if there is one. Otherwise it uses the regex evidence only when every
+document agrees, since campaign T&Cs often use a different month. On a conflict it leaves the
+field unset and adds a note. A known cycle also sets the period of the aggregator min spend and of
+caps quoted "per month". Drafts only write `spend_cycle` when a source states it.
+
+Sign-up offers carry `options` (the gifts to choose from), `min_spend`, `spend_within_days`,
+`new_to_bank_only`, `stackable` and `terms`. `curate` parses these from the aggregators' offer terms
+("make a min. spend of S$800 within 60 days", "valid for new … cardmembers only"), plus Moneysmart's
+"apply by" date as `valid_to`. It records only what the text states outright.

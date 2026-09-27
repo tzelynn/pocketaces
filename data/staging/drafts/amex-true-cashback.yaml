@@ -1,0 +1,78 @@
+# Curated card record. Auto-drafted from staged sources; verify every value against the
+# official T&Cs (citations below), then set review.status: reviewed.
+id: amex-true-cashback
+bank: American Express
+name: American Express True Cashback Card
+network: amex
+image_url: https://mhgprod.blob.core.windows.net/singsaver/strapi-uploads/xs_blt06a2800337838e73_3b64eb3de2.png
+official_url: https://www.americanexpress.com/sg/credit-cards/true-cashback-card/
+annual_fee:
+  amount:
+    amount: 174.4
+    currency: SGD
+  first_year_waived: true
+  waiver_notes: S$ | First Year Waived
+  sources: ['singsaver:c040761bd6a9']
+reward_currency:
+  kind: cashback
+  name: Cashback
+earn_rules:
+- id: local
+  label: local, overseas, dining, supermarket, retail, local online shopping, insurance, overseas online
+    shopping, petrol, health, department store, contactless spend, transport (SingSaver — verify)
+  rate: 1.5
+  unit: percent
+  tier: bonus
+  eligibility:
+    tags: [dining, groceries, shopping, petrol, healthcare, transport]
+    description: For new Card Members, enjoy 3% Cashback on all eligible purchases, up to S$5,000 spend
+      in the first 6 months. Earn 1.5% Cashback on all subsequent eligible purchases with no minimum spending.
+    sources: ['singsaver:c040761bd6a9']
+  sources: ['singsaver:c040761bd6a9']
+- id: base
+  label: baseline (SingSaver — verify)
+  rate: 1.5
+  unit: percent
+  tier: base
+  eligibility:
+    all_spend: true
+    description: For new Card Members, enjoy 3% Cashback on all eligible purchases, up to S$5,000 spend
+      in the first 6 months. Earn 1.5% Cashback on all subsequent eligible purchases with no minimum spending.
+    sources: ['singsaver:c040761bd6a9']
+  sources: ['singsaver:c040761bd6a9']
+general_exclusions:
+  description: Auto-extracted from official T&Cs — confirm each code applies to this card
+notes:
+- 'T&C mentions (check whether excluded): annual fee, balance transfer, bill payment, cash advance, charit,
+  education, government, grabpay, hospital, instalment, interest, late payment charge, sam kiosk, tax,
+  top-up, top-ups, utilit'
+citations:
+- id: singsaver:c040761bd6a9
+  url: https://www.singsaver.com.sg/credit-card/products/american-express-true-cashback-card
+  title: American Express True Cashback Card
+  source_type: aggregator
+  retrieved_at: '2026-09-27T05:24:47+00:00'
+  sha256: c040761bd6a9b8e70abb78cfe18136b39b809227f88f816cced867549dde78f2
+  snapshot: data/raw/singsaver/www-singsaver-com-sg-credit-card-products-american-express-true-cashback-card-20904f88.html
+- id: moneysmart:42909b088c22
+  url: https://www.moneysmart.sg/credit-cards?page=2
+  title: American Express True Cashback Card
+  source_type: aggregator
+  retrieved_at: '2026-09-27T05:27:14+00:00'
+  sha256: 42909b088c22cb063c120b532d19af920cb3535c52f6bfc313193c6c6ea14746
+  snapshot: data/raw/moneysmart/credit-cards-p2-5f055203.html
+- id: bank:1b5a328881b4
+  url: https://www.americanexpress.com/content/dam/amex/sg/campaigns/pdfs/true-cashback-card.pdf
+  source_type: official
+  retrieved_at: '2026-09-27T06:11:38+00:00'
+  sha256: 1b5a328881b475e29770d5d53928fad2ff3a2910074edc342a98d6e5fe0007d9
+  snapshot: data/raw/bank/www-americanexpress-com-content-dam-amex-sg-campaigns-pdfs-true-cashback-card-pdf-4987d1f3.pdf
+- id: bank:c228cd1bc86a
+  url: https://www.americanexpress.com/content/dam/amex/sg/benefits/amex-sg-exclusions.pdf
+  source_type: official
+  retrieved_at: '2026-09-27T06:11:41+00:00'
+  sha256: c228cd1bc86a7cef6ff37d92bd1a91bc42d2446a7c0f7dae38349c35d69e42f1
+  snapshot: data/raw/bank/www-americanexpress-com-content-dam-amex-sg-benefits-amex-sg-exclusions-pdf-a83329a0.pdf
+review:
+  status: draft
+updated_at: '2026-09-27'

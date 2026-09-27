@@ -1,19 +1,20 @@
 import { describe, expect, it } from "vitest";
-import type { CatalogCard, MyCard, Rule } from "../types";
+import type { Bonus, CatalogCard, MyCard, Rule } from "../types";
 import { DEFAULT_SETTINGS } from "../types";
 import { billCycles, daysBetween, feeInstance, spendWindow, spentInWindow } from "./dates";
 import { remindersFor, unnotified } from "./reminders";
-import { effectivePct, headlineRule, spendCap, trackingDefaults } from "./catalog";
+import { activeBonuses, bonusHeadline, bonusValue, effectivePct, headlineRule, rateRules, spendCap, trackingDefaults } from "./catalog";
 import { buildIcs } from "./ics";
 import { normalise } from "./storage";
 
 const card = (p: Partial<MyCard> = {}): MyCard => ({
-  id: "c1", nickname: "Test", spendPeriod: "calendar", spends: [], bills: {}, fees: {}, addedAt: "", ...p,
+  id: "c1", nickname: "Test", spends: [], bills: {}, fees: {}, addedAt: "", ...p,
 });
 
 const rule = (p: Partial<Rule> = {}): Rule => ({
   id: "r", label: "r", rate: 1, unit: "percent", tier: "bonus", allSpend: false, desc: null, minSpend: null,
-  minSpendPeriod: null, maxSpend: null, maxSpendPeriod: null, cap: null, modes: [], conditions: [], ...p,
+  minSpendPeriod: null, maxSpend: null, maxSpendPeriod: null, cap: null, modes: [], conditions: [], includes: [],
+  tags: [], ...p,
 });
 
 describe("bill cycles", () => {
@@ -74,6 +75,16 @@ describe("spend window", () => {
     expect(spendWindow(c, "2026-09-27")).toEqual({ start: "2026-09-26", end: "2026-10-25" });
     expect(spentInWindow(c, "2026-09-27")).toBe(70);
   });
+  it("follows the catalogue card's cycle unless overridden", () => {
+    const c = card({ spends, statementDay: 25 });
+    expect(spendWindow(c, "2026-09-27", "statement")).toEqual({ start: "2026-09-26", end: "2026-10-25" });
+    expect(spentInWindow(c, "2026-09-27", "statement")).toBe(70);
+    expect(spendWindow({ ...c, spendPeriod: "calendar" }, "2026-09-27", "statement"))
+      .toEqual({ start: "2026-09-01", end: "2026-09-30" });
+  });
+  it("counts per calendar month when a statement cycle has no statement day", () => {
+    expect(spendWindow(card(), "2026-09-27", "statement")).toEqual({ start: "2026-09-01", end: "2026-09-30" });
+  });
 });
 
 describe("reminders", () => {
@@ -123,16 +134,28 @@ describe("catalogue maths", () => {
 
   const cc = {
     rules: [
-      rule({ id: "dining", rate: 6, minSpend: 800 }),
+      rule({ id: "dining", rate: 6, minSpend: 800, tags: ["dining"] }),
       rule({ id: "online", rate: 10, minSpend: 800, cap: { amount: 60, unit: "SGD_cashback", period: "statement_month" } }),
       rule({ id: "base", rate: 0.3, tier: "base" }),
     ],
-    coverage: { dining: { level: "full", rules: ["dining"] } },
   } as unknown as CatalogCard;
 
   it("headlines the best rule for a category", () => {
     expect(headlineRule(cc, null)?.id).toBe("online");
     expect(headlineRule(cc, "dining")?.id).toBe("dining");
+  });
+
+  it("lists every rule above 1% / 1 mpd as its own row", () => {
+    expect(rateRules(cc, null).map((r) => r.id)).toEqual(["online", "dining"]);
+    expect(rateRules(cc, "dining").map((r) => r.id)).toEqual(["dining"]);
+    const flat = { rules: [rule({ id: "b", rate: 1.5 }), rule({ id: "base", rate: 1.5, tier: "base" })] } as unknown as CatalogCard;
+    expect(rateRules(flat, null).map((r) => r.id)).toEqual(["b"]);
+    const low = { rules: [rule({ id: "base", rate: 0.4, unit: "mpd", tier: "base" })] } as unknown as CatalogCard;
+    expect(rateRules(low, null).map((r) => r.id)).toEqual(["base"]);
+    const pts = {
+      rules: [rule({ id: "x", rate: 10, unit: "points_per_dollar" }), rule({ id: "base", rate: 2, unit: "points_per_dollar", tier: "base" })],
+    } as unknown as CatalogCard;
+    expect(rateRules(pts, null).map((r) => r.id)).toEqual(["x"]);
   });
 
   it("prefills wallet targets", () => {
@@ -154,7 +177,7 @@ describe("calendar export", () => {
 describe("backup parsing", () => {
   it("fills missing fields and rejects junk", () => {
     const s = normalise({ myCards: [{ id: "x", nickname: "X" }] });
-    expect(s.myCards[0]).toMatchObject({ spends: [], bills: {}, fees: {}, spendPeriod: "calendar" });
+    expect(s.myCards[0]).toMatchObject({ spends: [], bills: {}, fees: {} });
     expect(s.settings.centsPerMile).toBe(1.5);
     expect(() => normalise({ hello: 1 })).toThrow();
   });
@@ -162,4 +185,35 @@ describe("backup parsing", () => {
 
 it("daysBetween ignores DST and time of day", () => {
   expect(daysBetween("2026-03-01", "2026-04-01")).toBe(31);
+});
+
+describe("sign-up bonuses", () => {
+  const bonus = (p: Partial<Bonus> = {}): Bonus => ({
+    by: "singsaver", title: null, desc: "", options: ["Gift"], value: null, worth: null, miles: null, minSpend: null,
+    withinDays: null, newToBank: null, stackable: null, terms: null, validTo: null, url: null, ...p,
+  });
+
+  it("values the best gift: cash, stated worth or miles at the user's rate", () => {
+    expect(bonusValue(bonus({ value: 400, worth: 660 }), 1.5)).toBe(660);
+    expect(bonusValue(bonus({ miles: 45000 }), 1.5)).toBe(675);
+    expect(bonusValue(bonus(), 1.5)).toBeNull();
+  });
+
+  it("headlines the best gift and counts the rest", () => {
+    const cash = bonusHeadline(bonus({ value: 400, options: ["S$400 Cash via PayNow", "Luggage", "Watch"] }), 1.5);
+    expect(cash).toEqual({ big: "S$400", sub: "cash · or 2 other gifts", text: false });
+    const gift = bonusHeadline(bonus({ worth: 1150, options: ["Samsonite Luggage (worth S$1,150)"] }), 1.5);
+    expect(gift.big).toBe("S$1,150");
+    expect(gift.sub).toBe("gift: Samsonite Luggage");
+    expect(bonusHeadline(bonus({ miles: 45000, options: ["Up to 45,000 KrisFlyer Miles"] }), 1.5))
+      .toEqual({ big: "45k miles", sub: "up to ≈ S$675", text: false });
+    expect(bonusHeadline(bonus({ options: ["Up to 40,000 points"] }), 1.5)).toMatchObject({ big: "Up to 40,000 points", text: true });
+  });
+
+  it("drops expired offers and ranks the rest by value", () => {
+    const c = { bonuses: [bonus({ value: 50 }), bonus({ value: 999, validTo: "2026-01-31" }), bonus({ value: 200, validTo: "2026-02-01" })] } as CatalogCard;
+    expect(activeBonuses(c, "2026-02-01", 1.5).map((b) => b.value)).toEqual([200, 50]);
+    c.bonuses.push(bonus({ value: 500, title: "SingSaver Flash Deal" }));
+    expect(activeBonuses(c, "2026-02-01", 1.5).map((b) => b.value)).toEqual([200, 50, 500]);
+  });
 });

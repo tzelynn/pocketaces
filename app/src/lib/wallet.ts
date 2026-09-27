@@ -15,7 +15,6 @@ export function newMyCard(card?: CatalogCard, nickname?: string): MyCard {
     id: uid(),
     catalogId: card?.id,
     nickname: nickname ?? (card ? shortName(card) : "My card"),
-    spendPeriod: "calendar",
     spends: [],
     bills: {},
     fees: {},

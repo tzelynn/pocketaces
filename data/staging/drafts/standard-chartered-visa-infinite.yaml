@@ -1,0 +1,112 @@
+# Curated card record. Auto-drafted from staged sources; verify every value against the
+# official T&Cs (citations below), then set review.status: reviewed.
+id: standard-chartered-visa-infinite
+bank: Standard Chartered
+name: Standard Chartered Visa Infinite Credit Card
+image_url: https://mhgprod.blob.core.windows.net/singsaver/strapi-uploads/xs_blt66141990e1db7494_3fe92ef4bb.webp
+official_url: https://www.sc.com/sg/credit-cards/visa-infinite-card/
+annual_fee:
+  amount:
+    amount: 599.5
+    currency: SGD
+  waiver_notes: S$ | Strictly non-waivable.
+  sources: ['singsaver:0e084637ef70']
+min_annual_income:
+  amount: 150000.0
+  currency: SGD
+reward_currency:
+  kind: miles
+  name: Miles
+earn_rules:
+- id: overseas-online-shopping
+  label: overseas online shopping, overseas (SingSaver — verify)
+  rate: 3.0
+  unit: mpd
+  tier: bonus
+  eligibility:
+    include_mcc: ['4829', '4900', '5047', '5199', '6012', '6050', '6051', '6211', '6513', '6529', '6530',
+      '6534', '6540', '7299', '7349', '7511', '7523', '8062', '8211', '8220', '8241', '8244', '8249',
+      '8299', '8398', '8651', '8661', '8999', '9211', '9222', '9223', '9311', '9399', '9402', '9405']
+    description: ' [include_mcc auto-extracted from official T&C — check it belongs to this rule]'
+    sources: ['singsaver:0e084637ef70', 'bank:3a34b864029c', 'bank:038d14ed9964']
+  min_spend:
+    amount: 2000.0
+    currency: SGD
+  min_spend_period: statement_month
+  conditions:
+  - min spend S$2000/month from singsaver — confirm the period (statement vs calendar month) and which
+    rules it unlocks
+  sources: ['singsaver:0e084637ef70']
+- id: hotel-booking
+  label: hotel booking, flight booking, retail, dining, local online shopping, department store, supermarket,
+    transport, petrol, travel, local (SingSaver — verify)
+  rate: 1.4
+  unit: mpd
+  tier: bonus
+  eligibility:
+    tags: [hotels, flights, shopping, dining, groceries, transport, petrol, travel]
+    description: '1 mile per S$1 otherwise if monthly spend is below S$2,000. '
+    sources: ['singsaver:0e084637ef70']
+  min_spend:
+    amount: 2000.0
+    currency: SGD
+  min_spend_period: statement_month
+  conditions:
+  - min spend S$2000/month from singsaver — confirm the period (statement vs calendar month) and which
+    rules it unlocks
+  sources: ['singsaver:0e084637ef70']
+- id: base
+  label: baseline (SingSaver — verify)
+  rate: 1.0
+  unit: mpd
+  tier: base
+  eligibility:
+    all_spend: true
+    description: If minimum S$2,000 eligible spend is not met per calendar month.
+    sources: ['singsaver:0e084637ef70']
+  sources: ['singsaver:0e084637ef70']
+general_exclusions:
+  description: Auto-extracted from official T&Cs — confirm each code applies to this card
+notes:
+- 'Editorial review for cross-checking: Review: Standard Chartered Visa Infinite Card (https://milelion.com/2026/07/20/review-standard-chartered-visa-infinite-card/,
+  updated 2026-08-25)'
+- 'T&C mentions (check whether excluded): annual fee, axs, bill payment, cash advance, charit, education,
+  government, hospital, instalment, insurance premium, interest, late payment charge, tax, top-up, top-ups,
+  utilit'
+citations:
+- id: singsaver:0e084637ef70
+  url: https://www.singsaver.com.sg/credit-card/products/standard-chartered-visa-infinite-credit-card
+  title: Standard Chartered Visa Infinite Credit Card
+  source_type: aggregator
+  retrieved_at: '2026-09-27T05:26:43+00:00'
+  sha256: 0e084637ef7038f5ecd7397ef75c656cac005de141ae30da7f9b7c9129611e81
+  snapshot: data/raw/singsaver/www-singsaver-com-sg-credit-card-products-standard-chartered-visa-infinite-credit-card-4d7c5311.html
+- id: moneysmart:49fcb3586f25
+  url: https://www.moneysmart.sg/credit-cards?page=4
+  title: Standard Chartered Visa Infinite Credit Card
+  source_type: aggregator
+  retrieved_at: '2026-09-27T05:27:20+00:00'
+  sha256: 49fcb3586f252df0b2dacb9acecc465127e09c9defa7f151881c3db46d84649e
+  snapshot: data/raw/moneysmart/credit-cards-p4-1a322210.html
+- id: bank:3a34b864029c
+  url: https://www.sc.com/content/dam/sc/sg/en/documents/sg-vi-tc-full.pdf
+  source_type: official
+  retrieved_at: '2026-09-27T08:42:41+00:00'
+  sha256: 3a34b864029ce31411de6bfbaf336137e50279c63d112036ff7669512db0bb88
+  snapshot: data/raw/bank/www-sc-com-content-dam-sc-sg-en-documents-sg-vi-tc-full-pdf-d0a19702.pdf
+- id: bank:038d14ed9964
+  url: https://www.sc.com/sg/terms-and-conditions/cc-retail-transaction-exclusions/
+  source_type: official
+  retrieved_at: '2026-09-27T08:42:42+00:00'
+  sha256: 038d14ed9964012f4a7c87e8143865d3bed600457aa9377cc6d81249a8458cb7
+  snapshot: data/raw/bank/www-sc-com-sg-terms-and-conditions-cc-retail-transaction-exclusions-8f7a8c14.html
+- id: milelion:25a59567425a
+  url: https://milelion.com/2026/07/20/review-standard-chartered-visa-infinite-card/
+  title: 'Review: Standard Chartered Visa Infinite Card'
+  source_type: editorial
+  retrieved_at: '2026-09-27T05:28:28+00:00'
+  sha256: 25a59567425a39b9d78c0455af971538910ecd865e02da8badfadceba3b2ba0a
+  snapshot: data/raw/milelion/post-149371-ae762223.json
+review:
+  status: draft
+updated_at: '2026-09-27'

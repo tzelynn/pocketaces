@@ -2,7 +2,7 @@ import { useMemo, useState } from "react";
 import {
   CalendarPlus, Check, CircleCheck, HandCoins, Pencil, Plus, Receipt, Search, Spade, Target, Trash2, Undo2, Wallet,
 } from "lucide-react";
-import type { MyCard } from "../types";
+import type { CatalogCard, MyCard, SpendPeriod } from "../types";
 import { useUser } from "../lib/store";
 import { billCycles, daysBetween, feeInstance, fmtDate, relDays, spendWindow, spentInWindow, toYmd } from "../lib/dates";
 import { FEE_GRACE_DAYS, type Reminder } from "../lib/reminders";
@@ -14,9 +14,13 @@ import { CardArt, Empty, Segmented, Sheet, SpendBar } from "../components/ui";
 
 type Guidance = { card: MyCard; spent: number; status: "unlock" | "room" | "open" | "capped"; text: string; order: number };
 
-function guidance(cards: MyCard[], on: string): Guidance[] {
+/** The catalogue card's spend cycle (custom cards count per calendar month). */
+const cardCycle = (byId: Map<string, CatalogCard>, card: MyCard): SpendPeriod | undefined =>
+  card.catalogId ? byId.get(card.catalogId)?.spendCycle : undefined;
+
+function guidance(cards: MyCard[], on: string, byId: Map<string, CatalogCard>): Guidance[] {
   return cards.map((card): Guidance => {
-    const spent = spentInWindow(card, on);
+    const spent = spentInWindow(card, on, cardCycle(byId, card));
     const { minSpend: min, maxSpend: max } = card;
     if (max && spent >= max) return { card, spent, status: "capped", text: "Capped for this period. Use another card.", order: 3e9 };
     if (min && spent < min) return { card, spent, status: "unlock", text: `${fmtMoney(min - spent)} more to hit the min spend`, order: min - spent };
@@ -30,7 +34,7 @@ export function WalletPage() {
   const [editing, setEditing] = useState<string | null>(null);
   const [adding, setAdding] = useState(false);
   const cards = state.myCards;
-  const guide = useMemo(() => guidance(cards.filter((c) => c.minSpend || c.maxSpend), on), [cards, on]);
+  const guide = useMemo(() => guidance(cards.filter((c) => c.minSpend || c.maxSpend), on, byId), [cards, on, byId]);
 
   const checkBill = (card: MyCard, statement: string, paid: boolean) =>
     update((s) => patchCard(s, card.id, (c) => {
@@ -153,8 +157,8 @@ function CardTile({ card, onEdit, onBill, onFee }: {
   const cat = card.catalogId ? byId.get(card.catalogId) : undefined;
   const { current, next } = billCycles(card, on);
   const fee = feeInstance(card, on, FEE_GRACE_DAYS);
-  const win = spendWindow(card, on);
-  const spent = spentInWindow(card, on);
+  const win = spendWindow(card, on, cat?.spendCycle);
+  const spent = spentInWindow(card, on, cat?.spendCycle);
   const entries = card.spends.filter((s) => s.date >= win.start && s.date <= win.end).sort((a, b) => b.date.localeCompare(a.date));
   const [amt, setAmt] = useState("");
   const [note, setNote] = useState("");
@@ -330,6 +334,8 @@ function EditCardSheet({ card, onClose }: { card: MyCard | null; onClose: () => 
   const { update, byId } = useUser();
   if (!card) return <Sheet open={false} onClose={onClose} title="">{null}</Sheet>;
   const cat = card.catalogId ? byId.get(card.catalogId) : undefined;
+  const defaultCycle: SpendPeriod = cat?.spendCycle ?? "calendar";
+  const period = card.spendPeriod ?? defaultCycle;
   const set = (p: Partial<MyCard>) => update((s) => patchCard(s, card.id, (c) => ({ ...c, ...p })));
   const [fm, fd] = card.feeDate ? card.feeDate.split("-").map(Number) : [0, 0];
   const setFee = (m: number, d: number) =>
@@ -383,10 +389,15 @@ function EditCardSheet({ card, onClose }: { card: MyCard | null; onClose: () => 
             <label>Bonus cap (S$ spend)<input type="number" min={0} inputMode="decimal" placeholder="none"
               value={card.maxSpend ?? ""} onChange={(e) => set({ maxSpend: num(e.target.value) || undefined })} /></label>
           </div>
-          <Segmented label="Spend resets" value={card.spendPeriod}
-            onChange={(v) => set({ spendPeriod: v })}
+          <Segmented label="Spend resets" value={period}
+            // only store a choice that differs from the card's T&Cs, so corrected data still flows through
+            onChange={(v) => set({ spendPeriod: v === defaultCycle ? undefined : v })}
             options={[{ value: "calendar", label: "Resets on the 1st" }, { value: "statement", label: "Resets at statement" }]} />
-          {card.spendPeriod === "statement" && !card.statementDay && <p className="hint warn">Set a statement day to reset at statement.</p>}
+          {period === "statement" && !card.statementDay && <p className="hint warn">Set a statement day to reset at statement. Until then spend is counted per calendar month.</p>}
+          {cat && <p className="hint">
+            The card's T&Cs count spend per {cat.spendCycle === "statement" ? "statement cycle" : "calendar month"}
+            {card.spendPeriod && card.spendPeriod !== defaultCycle && <> (you changed this). <button type="button" className="link" onClick={() => set({ spendPeriod: undefined })}>Use the T&Cs</button></>}.
+          </p>}
           {cat && <p className="hint">Prefilled from the card's listed min spend and bonus cap, where known. Check them against the T&Cs.</p>}
         </fieldset>
 

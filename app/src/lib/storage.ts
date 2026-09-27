@@ -20,7 +20,6 @@ export function normalise(raw: unknown): UserState {
     // fill fields a hand-edited or older backup may lack
     myCards: s.myCards.map((c) => ({
       ...c,
-      spendPeriod: c.spendPeriod ?? "calendar",
       spends: c.spends ?? [],
       bills: c.bills ?? {},
       fees: c.fees ?? {},

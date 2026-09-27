@@ -10,6 +10,9 @@ export type Period =
   | "membership_year"
   | "calendar_year";
 
+/** Month that min spend and caps are counted over: the billing cycle, or 1st to month end. */
+export type SpendPeriod = "statement" | "calendar";
+
 export interface Rule {
   id: string;
   label: string;
@@ -25,6 +28,35 @@ export interface Rule {
   cap: { amount: number; unit: "SGD_spend" | "SGD_cashback" | "miles" | "points"; period: Period } | null;
   modes: string[];
   conditions: string[];
+  /** what the rule explicitly earns on: spend category keys, then transaction mode keys */
+  includes: string[];
+  /** filter keys the rule counts for (categories, their groups, transaction modes) */
+  tags: string[];
+}
+
+/** A sign-up offer: a gift (or choice of gifts) for new cardholders who meet a qualifying spend. */
+export interface Bonus {
+  /** "bank" or the aggregator it's offered through */
+  by: string;
+  title: string | null;
+  desc: string;
+  /** the gifts to choose between */
+  options: string[];
+  /** the cash option, S$ */
+  value: number | null;
+  /** the priciest gift's stated worth, S$ */
+  worth: number | null;
+  /** miles awarded by a miles gift with no stated worth */
+  miles: number | null;
+  minSpend: number | null;
+  /** days from card approval to meet the min spend */
+  withinDays: number | null;
+  newToBank: boolean | null;
+  /** combinable with the bank's own welcome offer */
+  stackable: boolean | null;
+  terms: string | null;
+  validTo: string | null;
+  url: string | null;
 }
 
 export interface CatalogCard {
@@ -38,9 +70,12 @@ export interface CatalogCard {
   currency: string;
   fee: { amount: number; firstYearWaived: boolean | null } | null;
   income: number | null;
+  /** whether the T&Cs count monthly min spend / caps per statement or per calendar month */
+  spendCycle: SpendPeriod;
   rules: Rule[];
-  coverage: Record<string, { level: string; rules: string[] }>;
-  bonuses: { by: string; desc: string; value: number | null; validTo: string | null; url: string | null }[];
+  /** commonly-excluded categories the T&Cs explicitly exclude (exclusion keys) */
+  excludes: string[];
+  bonuses: Bonus[];
   notes: string[];
   status: "draft" | "reviewed" | "stale";
   sources: { url: string; type: string; title: string | null }[];
@@ -56,6 +91,7 @@ export interface Category {
 export interface Catalog {
   builtAt: string;
   categories: Category[];
+  exclusions: { key: string; label: string }[];
   cards: CatalogCard[];
 }
 
@@ -84,8 +120,8 @@ export interface MyCard {
   feeDate?: string;
   minSpend?: number;
   maxSpend?: number;
-  /** spend tracking resets on the statement date, or on the 1st */
-  spendPeriod: "statement" | "calendar";
+  /** user override: spend tracking resets on the statement date, or on the 1st; unset = follow the catalogue card */
+  spendPeriod?: SpendPeriod;
   spends: SpendEntry[];
   /** keyed by statement date */
   bills: Record<Ymd, { paidAt: string }>;

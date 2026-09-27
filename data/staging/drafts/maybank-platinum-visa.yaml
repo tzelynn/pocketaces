@@ -1,0 +1,80 @@
+# Curated card record. Auto-drafted from staged sources; verify every value against the
+# official T&Cs (citations below), then set review.status: reviewed.
+id: maybank-platinum-visa
+bank: Maybank
+name: Maybank Platinum Visa Card
+image_url: https://mhgprod.blob.core.windows.net/singsaver/strapi-uploads/xs_bltd34ddb6a380578f1_b448907c99.png
+official_url: https://www.maybank2u.com.sg/en/personal/cards/credit/maybank-platinum-visa-card.page
+annual_fee:
+  amount:
+    amount: 20.0
+    currency: SGD
+  waiver_notes: S$ | First Three Year Waived
+  sources: ['singsaver:3103f3955f7a']
+min_annual_income:
+  amount: 30000.0
+  currency: SGD
+reward_currency:
+  kind: cashback
+  name: Cashback
+earn_rules:
+- id: local
+  label: local, travel, dining, supermarket, petrol, retail, local online shopping, overseas online shopping,
+    health, department store, digital wallet, insurance, online bill payment spending, contactless spend,
+    transport, overseas (SingSaver — verify)
+  rate: 3.33
+  unit: percent
+  tier: bonus
+  eligibility:
+    tags: [travel, dining, groceries, petrol, shopping, healthcare, transport]
+    description: Up to | Quarterly cashback capped at S$30 with a minimum monthly spend of S$300 per quarter,
+      and S$100 with a minimum monthly spend of S$1,000 per quarter. No quarterly cashback will be awarded
+      if monthly minimum spend isn't met.
+    sources: ['singsaver:3103f3955f7a']
+  min_spend:
+    amount: 300.0
+    currency: SGD
+  min_spend_period: statement_month
+  bonus_cap:
+    amount: 30.0
+    unit: SGD_cashback
+    period: quarter
+    sources: ['singsaver:3103f3955f7a']
+  conditions:
+  - bonus_cap parsed from aggregator text “capped at S$30 with a minimum monthly spend of S$300 per quarter”
+    — confirm amount, unit and whether the period is calendar or statement month
+  - min spend S$300/month from singsaver — confirm the period (statement vs calendar month) and which
+    rules it unlocks
+  sources: ['singsaver:3103f3955f7a']
+- id: base
+  label: baseline (SingSaver — verify)
+  rate: 3.33
+  unit: percent
+  tier: base
+  eligibility:
+    all_spend: true
+    description: Quarterly cashback capped at S$30 with a minimum monthly spend of S$300 per quarter,
+      and S$100 with a minimum monthly spend of S$1,000 per quarter. No quarterly cashback will be awarded
+      if monthly minimum spend isn't met.
+    sources: ['singsaver:3103f3955f7a']
+  sources: ['singsaver:3103f3955f7a']
+general_exclusions:
+  description: Auto-extracted from official T&Cs — confirm each code applies to this card
+citations:
+- id: singsaver:3103f3955f7a
+  url: https://www.singsaver.com.sg/credit-card/products/maybank-platinum-visa-card
+  title: Maybank Platinum Visa Card
+  source_type: aggregator
+  retrieved_at: '2026-09-27T05:26:10+00:00'
+  sha256: 3103f3955f7ac9f7a3d447260cb9dad07b64c1296791b1598496c5cfaab41ae7
+  snapshot: data/raw/singsaver/www-singsaver-com-sg-credit-card-products-maybank-platinum-visa-card-2695f7da.html
+- id: moneysmart:49fcb3586f25
+  url: https://www.moneysmart.sg/credit-cards?page=4
+  title: Maybank Platinum Visa Card
+  source_type: aggregator
+  retrieved_at: '2026-09-27T05:27:20+00:00'
+  sha256: 49fcb3586f252df0b2dacb9acecc465127e09c9defa7f151881c3db46d84649e
+  snapshot: data/raw/moneysmart/credit-cards-p4-1a322210.html
+review:
+  status: draft
+updated_at: '2026-09-27'

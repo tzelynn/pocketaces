@@ -1,0 +1,42 @@
+# Curated card record. Auto-drafted from staged sources; verify every value against the
+# official T&Cs (citations below), then set review.status: reviewed.
+id: circles-zerofy-cashback
+bank: Circles.Life
+name: Circles Zerofy Visa Cashback Card
+network: visa
+image_url: https://photos.cdn-moneysmart.com/credit_cards/uploads/products/images/image_2026-05-21_circles
+  cardface image zerofy.png
+official_url: https://www.circles.life/sg/circles-zerofy-cashback-card/
+annual_fee:
+  amount:
+    amount: 0.0
+    currency: SGD
+  sources: ['moneysmart:49fcb3586f25']
+reward_currency:
+  kind: cashback
+  name: Cashback
+general_exclusions:
+  exclude_mcc: ['1000']
+  description: Auto-extracted from official T&Cs — confirm each code applies to this card
+  sources: ['bank:937aa787e116']
+notes:
+- 'No structured earn rates from aggregators: add earn_rules from the official T&C before review'
+- 'T&C mentions (check whether excluded): charit, e-wallet, government, tax, top-ups, utilit'
+citations:
+- id: moneysmart:49fcb3586f25
+  url: https://www.moneysmart.sg/credit-cards?page=4
+  title: Circles Zerofy Visa Cashback Card
+  source_type: aggregator
+  retrieved_at: '2026-09-27T05:27:20+00:00'
+  sha256: 49fcb3586f252df0b2dacb9acecc465127e09c9defa7f151881c3db46d84649e
+  snapshot: data/raw/moneysmart/credit-cards-p4-1a322210.html
+- id: bank:937aa787e116
+  url: https://www.circles.life/sg/terms-conditions/zerofy-card-terms-conditions/
+  source_type: official
+  retrieved_at: '2026-09-27T07:30:56+00:00'
+  sha256: 937aa787e1164e494203bf05e63df1a8382b3b79ad2c067487acd1645058537b
+  snapshot: data/raw/bank/www-circles-life-sg-terms-conditions-zerofy-card-terms-conditions-1e201a51.html
+review:
+  status: draft
+updated_at: '2026-09-27'
+earn_rules: []

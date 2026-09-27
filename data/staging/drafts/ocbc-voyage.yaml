@@ -1,0 +1,81 @@
+# Curated card record. Auto-drafted from staged sources; verify every value against the
+# official T&Cs (citations below), then set review.status: reviewed.
+id: ocbc-voyage
+bank: OCBC
+name: OCBC Voyage Card
+network: visa
+image_url: https://mhgprod.blob.core.windows.net/singsaver/strapi-uploads/xs_blt17929ae1589414d4_d65d7e2586.png
+official_url: https://www.ocbc.com/personal-banking/cards/voyage-credit-card.page
+annual_fee:
+  amount:
+    amount: 497.06
+    currency: SGD
+  waiver_notes: S$ | With 15,000 VOYAGE Miles or S$3,240 a year with 150,000 VOYAGE Miles.
+  sources: ['singsaver:b854c15f0133']
+min_annual_income:
+  amount: 120000.0
+  currency: SGD
+reward_currency:
+  kind: miles
+  name: Miles
+earn_rules:
+- id: overseas
+  label: overseas (SingSaver — verify)
+  rate: 2.2
+  unit: mpd
+  tier: bonus
+  eligibility:
+    description: ''
+    sources: ['singsaver:b854c15f0133']
+  sources: ['singsaver:b854c15f0133']
+- id: base
+  label: local (SingSaver — verify)
+  rate: 1.3
+  unit: mpd
+  tier: base
+  eligibility:
+    all_spend: true
+    description: ''
+    sources: ['singsaver:b854c15f0133']
+  sources: ['singsaver:b854c15f0133']
+general_exclusions:
+  exclude_mcc: ['4784', '4829', '4900', '5047', '5199', '5960', '5993', '6010', '6012', '6051', '6211',
+    '6300', '6513', '6540', '7349', '7523', '7995', '8062', '8099', '8211', '8220', '8241', '8244', '8249',
+    '8299', '8398', '8651', '8661', '8675', '8699', '9211', '9222', '9223', '9311', '9399', '9402', '9405']
+  description: Auto-extracted from official T&Cs — confirm each code applies to this card
+  sources: ['bank:e4747af6e262', 'bank:0a112e273295']
+notes:
+- 'Editorial review for cross-checking: Review: OCBC VOYAGE Card (https://milelion.com/2025/11/26/review-ocbc-voyage-card/,
+  updated 2025-11-26)'
+- 'T&C mentions (check whether excluded): annual fee, axs, balance transfer, cash advance, charit, education,
+  government, grabpay, hospital, instalment, interest, late payment charge, tax, utilit, youtrip'
+citations:
+- id: singsaver:b854c15f0133
+  url: https://www.singsaver.com.sg/credit-card/products/ocbc-voyage-card
+  title: OCBC Voyage Card
+  source_type: aggregator
+  retrieved_at: '2026-09-27T05:26:29+00:00'
+  sha256: b854c15f01332ec12215ef5ca14396a042a132604f6a88be94ba92e71b31f55f
+  snapshot: data/raw/singsaver/www-singsaver-com-sg-credit-card-products-ocbc-voyage-card-2309c620.html
+- id: bank:e4747af6e262
+  url: https://www.ocbc.com/iwov-resources/sg/ocbc/personal/pdf/cards/tncs-governing-the-voyage-creditcard-programme.pdf
+  source_type: official
+  retrieved_at: '2026-09-27T08:41:49+00:00'
+  sha256: e4747af6e26252de57317b1d8a9a62b2dcd9e6bcf149d3d6a0466b5bde635184
+  snapshot: data/raw/bank/www-ocbc-com-iwov-resources-sg-ocbc-personal-pdf-cards-tncs-governing-the-voyage-creditcard-programme-pdf-7a8ca9fa.pdf
+- id: bank:0a112e273295
+  url: https://www.ocbc.com/iwov-resources/sg/ocbc/personal/pdf/campaign/cards/tncs-governing-the-gourmet-experiences-programme.pdf
+  source_type: official
+  retrieved_at: '2026-09-27T08:41:51+00:00'
+  sha256: 0a112e2732956cae5a4fdf25699a730b14a0b6960c0225c106b97e499b1fe700
+  snapshot: data/raw/bank/www-ocbc-com-iwov-resources-sg-ocbc-personal-pdf-campaign-cards-tncs-governing-the-gourmet-experiences-programme-pdf-dbd7d8fd.pdf
+- id: milelion:27666b12efb8
+  url: https://milelion.com/2025/11/26/review-ocbc-voyage-card/
+  title: 'Review: OCBC VOYAGE Card'
+  source_type: editorial
+  retrieved_at: '2026-09-27T05:29:17+00:00'
+  sha256: 27666b12efb887822cf739ca9ffb716eeca6ace291a6204103c5b9ae28758694
+  snapshot: data/raw/milelion/post-129826-cafaeb57.json
+review:
+  status: draft
+updated_at: '2026-09-27'

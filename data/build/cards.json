@@ -1,5 +1,5 @@
 {
- "built_at": "2026-09-27T16:58:40",
+ "built_at": "2026-09-27T18:22:10",
  "count": 90,
  "shortlists": {
   "top_mpd": [
@@ -1620,6 +1620,8 @@
      ]
     }
    ],
+   "spend_cycle": "calendar_month",
+   "spend_cycle_sources": [],
    "general_exclusions": {
     "tags": [],
     "include_mcc": [],
@@ -1636,6 +1638,16 @@
     {
      "offered_by": "singsaver",
      "description": "Offer: choice of Up to 45,000 KrisFlyer Miles",
+     "options": [
+      "Up to 45,000 KrisFlyer Miles"
+     ],
+     "min_spend": {
+      "amount": 8000.0,
+      "currency": "SGD"
+     },
+     "spend_within_days": 180,
+     "new_to_bank_only": true,
+     "terms": "Promotion runs from 17 June 2026 to 31 January 2027. Promotion is valid for new American Express card members only. Apply for the American Express Singapore Airlines KrisFlyer Ascend Credit Card, pay the annual fee (S$397.85 incl. GST) and make a min. spend of S$8,000 within the first 6 months of card approval to be eligible for reward Receive 20,000 KrisFlyer miles upon fulfilment of reward criteria Receive 20,000 KrisFlyer miles on your first spend in the 15th month of Card Membership and upon annual fee payment (S$397.85 incl. GST) Receive 5,000 KrisFlyer miles upon first transaction on card (for first time American Express Singapore Airlines Credit Card applicants) Terms and Conditions apply. SingSaver General Promotion T&Cs apply .",
      "valid_from": "2026-06-16",
      "valid_to": "2027-01-31",
      "url": "https://www.americanexpress.com/content/dam/amex/sg/campaigns/pdfs/kfa-ntb-welcomeoffer-17jun26to31jan27.pdf",
@@ -1875,6 +1887,8 @@
      ]
     }
    ],
+   "spend_cycle": "calendar_month",
+   "spend_cycle_sources": [],
    "general_exclusions": {
     "tags": [],
     "include_mcc": [],
@@ -1891,6 +1905,16 @@
     {
      "offered_by": "singsaver",
      "description": "Offer: choice of Up to 16,000 KrisFlyer Miles",
+     "options": [
+      "Up to 16,000 KrisFlyer Miles"
+     ],
+     "min_spend": {
+      "amount": 2000.0,
+      "currency": "SGD"
+     },
+     "spend_within_days": 90,
+     "new_to_bank_only": true,
+     "terms": "Promotion is valid from 17 June 2026 to 31 January 2027. Promotion is valid for new American Express card members only. Apply for the AMEX Singapore Airlines KrisFlyer Credit Card and make a min. spend of S$2,000 within 3 months of card approval to be eligible for rewards Receive 11,000 KrisFlyer miles upon fulfillment of reward criteria Receive 5,000 KrisFlyer miles upon first transaction on card (for first-time American Express Singapore Airlines credit card applicants) Terms and Conditions apply. SingSaver General Promotion Terms and Conditions apply.",
      "valid_from": "2026-06-16",
      "valid_to": "2027-01-31",
      "url": "https://www.americanexpress.com/content/dam/amex/sg/campaigns/pdfs/krisflyer-credit-card-welcomeoffer.pdf",
@@ -2120,6 +2144,8 @@
      ]
     }
    ],
+   "spend_cycle": "calendar_month",
+   "spend_cycle_sources": [],
    "general_exclusions": {
     "tags": [],
     "include_mcc": [],
@@ -2327,6 +2353,8 @@
      ]
     }
    ],
+   "spend_cycle": "calendar_month",
+   "spend_cycle_sources": [],
    "general_exclusions": {
     "tags": [],
     "include_mcc": [],
@@ -2343,6 +2371,16 @@
     {
      "offered_by": "singsaver",
      "description": "Offer: choice of Up to 40,000 Membership Rewards® points",
+     "options": [
+      "Up to 40,000 Membership Rewards® points"
+     ],
+     "min_spend": {
+      "amount": 4000.0,
+      "currency": "SGD"
+     },
+     "spend_within_days": 90,
+     "new_to_bank_only": true,
+     "terms": "Promotion is valid from 17 June 2026 to 31 January 2027. Promotion is valid for new American Express card members only. For new-to-American Express card members : Apply for the AMEX Platinum Credit Card, pay the annual fee (S$327 incl. GST) and make a min. spend of S$4,000 within the first 3 months of card approval to be eligible for rewards. Receive 40,000 Membership Rewards® points upon fulfilment of reward criteria. Terms and Conditions apply. SingSaver General Promotion T&Cs apply .",
      "valid_from": "2026-06-16",
      "valid_to": "2027-01-31",
      "url": "https://www.americanexpress.com/content/dam/amex/sg/campaigns/pdfs/platg-ntb-welcomeoffer-17jun26to31jan27.pdf",
@@ -2559,6 +2597,8 @@
      ]
     }
    ],
+   "spend_cycle": "calendar_month",
+   "spend_cycle_sources": [],
    "general_exclusions": {
     "tags": [],
     "include_mcc": [],
@@ -2838,6 +2878,8 @@
      ]
     }
    ],
+   "spend_cycle": "calendar_month",
+   "spend_cycle_sources": [],
    "general_exclusions": {
     "tags": [],
     "include_mcc": [],
@@ -3117,6 +3159,8 @@
      ]
     }
    ],
+   "spend_cycle": "calendar_month",
+   "spend_cycle_sources": [],
    "general_exclusions": {
     "tags": [],
     "include_mcc": [],
@@ -3392,6 +3436,8 @@
      ]
     }
    ],
+   "spend_cycle": "calendar_month",
+   "spend_cycle_sources": [],
    "general_exclusions": {
     "tags": [],
     "include_mcc": [],
@@ -3637,6 +3683,8 @@
      ]
     }
    ],
+   "spend_cycle": "calendar_month",
+   "spend_cycle_sources": [],
    "general_exclusions": {
     "tags": [],
     "include_mcc": [],
@@ -3759,6 +3807,8 @@
      ]
     }
    ],
+   "spend_cycle": "calendar_month",
+   "spend_cycle_sources": [],
    "general_exclusions": {
     "tags": [],
     "include_mcc": [],
@@ -3775,6 +3825,17 @@
     {
      "offered_by": "singsaver",
      "description": "Stackable Welcome Offer: choice of Samsonite Black Label Fanthom Spinner 69/25 EXP TSA Luggage (worth S$1,150)",
+     "options": [
+      "Samsonite Black Label Fanthom Spinner 69/25 EXP TSA Luggage (worth S$1,150)"
+     ],
+     "min_spend": {
+      "amount": 2000.0,
+      "currency": "SGD"
+     },
+     "spend_within_days": 60,
+     "new_to_bank_only": true,
+     "stackable": true,
+     "terms": "Welcome Offer promotion is valid from 19 May 2026 to 30 September 2026. Promotion is valid for new CIMB credit cardmembers only. Apply and activate selected CIMB credit cards and make a min. spend of S$2,000 on eligible posted transactions within 60 days of card approval date to be eligible for reward. Promotion is stackable with SingSaver Exclusive Offer (additional T&Cs apply). Terms and Conditions apply.",
      "valid_from": "2026-05-18",
      "valid_to": "2026-09-30",
      "url": "https://www.singsaver.com.sg/credit-card/products/cimb-visa-infinite-card",
@@ -3784,11 +3845,22 @@
     },
     {
      "offered_by": "singsaver",
-     "description": "SingSaver Exclusive Offer : choice of S$50 Cash via PayNow",
+     "description": "SingSaver Exclusive Offer: choice of S$50 Cash via PayNow",
+     "options": [
+      "S$50 Cash via PayNow"
+     ],
      "value": {
       "amount": 50.0,
       "currency": "SGD"
      },
+     "min_spend": {
+      "amount": 2000.0,
+      "currency": "SGD"
+     },
+     "spend_within_days": 60,
+     "new_to_bank_only": true,
+     "stackable": true,
+     "terms": "SingSaver Exclusive Offer promotion is valid from 1 September 2026 to 30 September 2026. Promotion is valid for new CIMB credit cardmembers only. Apply for select CIMB credit cards and make a min. spend of S$2,000 within 60 days of card approval to be eligible for reward. Promotion is stackable with other Welcome Offers from CIMB ( additional T&Cs apply ). Terms and Conditions apply.",
      "valid_from": "2026-08-31",
      "valid_to": "2026-09-30",
      "url": "https://www.singsaver.com.sg/credit-card/products/cimb-visa-infinite-card",
@@ -4184,6 +4256,8 @@
      ]
     }
    ],
+   "spend_cycle": "calendar_month",
+   "spend_cycle_sources": [],
    "general_exclusions": {
     "tags": [],
     "include_mcc": [],
@@ -4200,6 +4274,17 @@
     {
      "offered_by": "singsaver",
      "description": "Stackable Welcome Offer: choice of Samsonite Black Label Fanthom Spinner 69/25 EXP TSA Luggage (worth S$1,150)",
+     "options": [
+      "Samsonite Black Label Fanthom Spinner 69/25 EXP TSA Luggage (worth S$1,150)"
+     ],
+     "min_spend": {
+      "amount": 2000.0,
+      "currency": "SGD"
+     },
+     "spend_within_days": 60,
+     "new_to_bank_only": true,
+     "stackable": true,
+     "terms": "Welcome Offer promotion is valid from 19 May 2026 to 30 September 2026. Promotion is valid for new CIMB credit cardmembers only. Apply and activate selected CIMB credit cards and make a min. spend of S$2,000 on eligible posted transactions within 60 days of card approval date to be eligible for reward. Promotion is stackable with SingSaver Exclusive Offer (additional T&Cs apply). Terms and Conditions apply.",
      "valid_from": "2026-05-18",
      "valid_to": "2026-09-30",
      "url": "https://www.singsaver.com.sg/credit-card/products/cimb-visa-signature-card",
@@ -4209,11 +4294,22 @@
     },
     {
      "offered_by": "singsaver",
-     "description": "SingSaver Exclusive Offer : choice of S$50 Cash via PayNow",
+     "description": "SingSaver Exclusive Offer: choice of S$50 Cash via PayNow",
+     "options": [
+      "S$50 Cash via PayNow"
+     ],
      "value": {
       "amount": 50.0,
       "currency": "SGD"
      },
+     "min_spend": {
+      "amount": 2000.0,
+      "currency": "SGD"
+     },
+     "spend_within_days": 60,
+     "new_to_bank_only": true,
+     "stackable": true,
+     "terms": "SingSaver Exclusive Offer promotion is valid from 1 September 2026 to 30 September 2026. Promotion is valid for new CIMB credit cardmembers only. Apply for select CIMB credit cards and make a min. spend of S$2,000 within 60 days of card approval to be eligible for reward. Promotion is stackable with other Welcome Offers from CIMB ( additional T&Cs apply ). Terms and Conditions apply.",
      "valid_from": "2026-08-31",
      "valid_to": "2026-09-30",
      "url": "https://www.singsaver.com.sg/credit-card/products/cimb-visa-signature-card",
@@ -4454,6 +4550,8 @@
      ]
     }
    ],
+   "spend_cycle": "calendar_month",
+   "spend_cycle_sources": [],
    "general_exclusions": {
     "tags": [],
     "include_mcc": [],
@@ -4470,6 +4568,17 @@
     {
      "offered_by": "singsaver",
      "description": "Stackable Welcome Offer: choice of Samsonite Black Label Fanthom Spinner 69/25 EXP TSA Luggage (worth S$1,150)",
+     "options": [
+      "Samsonite Black Label Fanthom Spinner 69/25 EXP TSA Luggage (worth S$1,150)"
+     ],
+     "min_spend": {
+      "amount": 2000.0,
+      "currency": "SGD"
+     },
+     "spend_within_days": 60,
+     "new_to_bank_only": true,
+     "stackable": true,
+     "terms": "Welcome Offer promotion is valid from 19 May 2026 to 30 September 2026. Promotion is valid for new CIMB credit cardmembers only. Apply and activate selected CIMB credit cards and make a min. spend of S$2,000 on eligible posted transactions within 60 days of card approval date to be eligible for reward. Promotion is stackable with SingSaver Exclusive Offer (additional T&Cs apply). Terms and Conditions apply.",
      "valid_from": "2026-05-18",
      "valid_to": "2026-09-30",
      "url": "https://www.singsaver.com.sg/credit-card/products/cimb-world-mastercard",
@@ -4479,11 +4588,22 @@
     },
     {
      "offered_by": "singsaver",
-     "description": "SingSaver Exclusive Offer : choice of S$50 Cash via PayNow",
+     "description": "SingSaver Exclusive Offer: choice of S$50 Cash via PayNow",
+     "options": [
+      "S$50 Cash via PayNow"
+     ],
      "value": {
       "amount": 50.0,
       "currency": "SGD"
      },
+     "min_spend": {
+      "amount": 2000.0,
+      "currency": "SGD"
+     },
+     "spend_within_days": 60,
+     "new_to_bank_only": true,
+     "stackable": true,
+     "terms": "SingSaver Exclusive Offer promotion is valid from 1 September 2026 to 30 September 2026. Promotion is valid for new CIMB credit cardmembers only. Apply for select CIMB credit cards and make a min. spend of S$2,000 within 60 days of card approval to be eligible for reward. Promotion is stackable with other Welcome Offers from CIMB ( additional T&Cs apply ). Terms and Conditions apply.",
      "valid_from": "2026-08-31",
      "valid_to": "2026-09-30",
      "url": "https://www.singsaver.com.sg/credit-card/products/cimb-world-mastercard",
@@ -4637,6 +4757,8 @@
     }
    },
    "earn_rules": [],
+   "spend_cycle": "calendar_month",
+   "spend_cycle_sources": [],
    "general_exclusions": {
     "tags": [],
     "include_mcc": [],
@@ -4854,6 +4976,8 @@
      ]
     }
    ],
+   "spend_cycle": "calendar_month",
+   "spend_cycle_sources": [],
    "general_exclusions": {
     "tags": [],
     "include_mcc": [],
@@ -4898,6 +5022,16 @@
     {
      "offered_by": "singsaver",
      "description": "SingSaver Flash Deal: choice of The latest smartphone (worth over S$1,8xx)",
+     "options": [
+      "The latest smartphone (worth over S$1,8xx)"
+     ],
+     "min_spend": {
+      "amount": 500.0,
+      "currency": "SGD"
+     },
+     "spend_within_days": 30,
+     "new_to_bank_only": true,
+     "terms": "SingSaver Flash Deal promotion runs from 24 September 2026 to 28 September 2026. Promotion is valid for new Citi credit cardmembers only. Be the first eligible applicant at 3pm and 9pm every day during the flash deal period (2 total winners daily) to apply for select Citi credit cards via SingSaver and meet the min. spend criteria (S$500 within 30 days of card approval) to be eligible for the Flash Deal reward: latest smartphone (worth over S$1,800) Flash Deal reward will be received in place of your selected SingSaver Exclusive Offer reward. Remaining applicants will receive the SingSaver Exclusive Offer reward selected in your Rewards Redemption Form. Terms and Conditions apply.",
      "valid_from": "2026-09-23",
      "valid_to": "2026-09-28",
      "url": "https://www.singsaver.com.sg/credit-card/products/citi-cash-back-plus-card",
@@ -4908,10 +5042,30 @@
     {
      "offered_by": "singsaver",
      "description": "SingSaver Exclusive Offer: choice of S$400 Cash via PayNow; The Morning Coffee Machine + 20 Capsules Bundle (worth S$660); 25,000 Max Miles by HeyMax (worth S$450); Dyson Airstrait™ straightener (worth S$799); Dyson V8 Cyclone Vacuum Cleaner (worth S$559); Dyson Airwrap™ multi-styler and dryer (worth S$799) (top up S$100); Dyson Clean+Wash Hygiene hard floor cleaner (worth S$729) (Top up S$150); Apple iPad (A16) 11\" 128GB WiFi (worth S$649) (Top up S$200); Apple Watch Series 12 Aluminum 42mm GPS (worth S$599) (Top-up S$140); Apple MacBook Neo (A18 Pro) 256GB w/ Magic Keyboard (worth S$999, top up S$580); Apple iPhone 18 Pro 256GB (worth S$1,899, top up S$1,330)",
+     "options": [
+      "S$400 Cash via PayNow",
+      "The Morning Coffee Machine + 20 Capsules Bundle (worth S$660)",
+      "25,000 Max Miles by HeyMax (worth S$450)",
+      "Dyson Airstrait™ straightener (worth S$799)",
+      "Dyson V8 Cyclone Vacuum Cleaner (worth S$559)",
+      "Dyson Airwrap™ multi-styler and dryer (worth S$799) (top up S$100)",
+      "Dyson Clean+Wash Hygiene hard floor cleaner (worth S$729) (Top up S$150)",
+      "Apple iPad (A16) 11\" 128GB WiFi (worth S$649) (Top up S$200)",
+      "Apple Watch Series 12 Aluminum 42mm GPS (worth S$599) (Top-up S$140)",
+      "Apple MacBook Neo (A18 Pro) 256GB w/ Magic Keyboard (worth S$999, top up S$580)",
+      "Apple iPhone 18 Pro 256GB (worth S$1,899, top up S$1,330)"
+     ],
      "value": {
       "amount": 400.0,
       "currency": "SGD"
      },
+     "min_spend": {
+      "amount": 500.0,
+      "currency": "SGD"
+     },
+     "spend_within_days": 30,
+     "new_to_bank_only": true,
+     "terms": "SingSaver Exclusive Offer promotion runs from 1 September 2026 to 30 September 2026. Promotion is valid for new Citi credit cardmembers only. Apply for participating Citi credit cards and make a min. spend of S$500 within 30 days of card approval to be eligible for reward. Fastest Reward Fulfilment: Receive your reward in as little as 4 weeks ! Terms and Conditions apply.",
      "valid_from": "2026-09-24",
      "valid_to": "2026-09-30",
      "url": "https://singsaver.link/cc-rewards-campaign",
@@ -4922,10 +5076,20 @@
     {
      "offered_by": "singsaver",
      "description": "SingSaver Card + Banking Bundle Offer: choice of S$500 Cash via PayNow",
+     "options": [
+      "S$500 Cash via PayNow"
+     ],
      "value": {
       "amount": 500.0,
       "currency": "SGD"
      },
+     "min_spend": {
+      "amount": 500.0,
+      "currency": "SGD"
+     },
+     "spend_within_days": 30,
+     "new_to_bank_only": true,
+     "terms": "This promotion runs from 9 September 2026 to 30 September 2026. Eligible applicants must not hold an existing Citi credit card, or have closed one within the past 12 months from card account opening date. To qualify for the S$500 Cash reward, applicants must: Apply for a participating Citi credit card via SingSaver; Make a minimum spend of S$500 within 30 days of card approval; and Hold a valid Citi banking account (existing or newly opened) by the end of the month following card approval. The S$500 Cash reward replaces the standard SingSaver exclusive reward for your card—you receive one or the other, not the both. The S$500 Cash amount is the same regardless of which card you apply for. Participating Citi banking account types are: Existing Citi banking relationship includes Citigold , Citigold Private Client , Citi Plus , Citi Priority , Citibanking New Citi banking relationship is applicable for Citigold , Citigold Private Client , Citi Plus New banking customers who open a Citigold account through SingSaver may qualify for an additional SingSaver Exclusive welcome gift (worth up to S$1,500 Cash or Apple iPhone 17)—this is a separate offer from the credit card reward (additional T&Cs apply). In case you choose the S$500 cash reward option and there is no banking relationship by the last day of the following month from your card application date but you meet the criteria for the credit card only reward, you will get the default cash reward available for your chosen card on application date. Terms and Conditions apply.",
      "valid_from": "2026-09-08",
      "valid_to": "2026-09-30",
      "url": "https://www.singsaver.com.sg/credit-card/products/citi-cash-back-plus-card",
@@ -4935,7 +5099,26 @@
     },
     {
      "offered_by": "moneysmart",
-     "description": "Choice of: S$400 Cash via PayNow; Shopee Voucher $450; Apple iPhone 18 Pro (256GB, Burgundy); Apple AirPods Pro 3; Apple Watch Series 12, 42mm (GPS, Black Aluminium Case with Black Sport Band); Sony WH-1000XM6 Wireless Noise Cancelling Headphones (Black). Terms: • Apply for a Citi Card by 30th Sept 2026\n• Spend a min. of S$500 within 30 days\n• Submit the Claim Form by 30th Oct 2026",
+     "description": "Choice of: S$400 Cash via PayNow; Shopee Voucher $450; Apple iPhone 18 Pro (256GB, Burgundy); Apple AirPods Pro 3; Apple Watch Series 12, 42mm (GPS, Black Aluminium Case with Black Sport Band); Sony WH-1000XM6 Wireless Noise Cancelling Headphones (Black)",
+     "options": [
+      "S$400 Cash via PayNow",
+      "Shopee Voucher $450",
+      "Apple iPhone 18 Pro (256GB, Burgundy)",
+      "Apple AirPods Pro 3",
+      "Apple Watch Series 12, 42mm (GPS, Black Aluminium Case with Black Sport Band)",
+      "Sony WH-1000XM6 Wireless Noise Cancelling Headphones (Black)"
+     ],
+     "value": {
+      "amount": 400.0,
+      "currency": "SGD"
+     },
+     "min_spend": {
+      "amount": 500.0,
+      "currency": "SGD"
+     },
+     "spend_within_days": 30,
+     "terms": "• Apply for a Citi Card by 30th Sept 2026 • Spend a min. of S$500 within 30 days • Submit the Claim Form by 30th Oct 2026",
+     "valid_to": "2026-09-30",
      "url": "https://www.moneysmart.sg/credit-cards/citi-cashback-plus-card",
      "sources": [
       "moneysmart:eeee24fb93a9"
@@ -5264,6 +5447,8 @@
      ]
     }
    ],
+   "spend_cycle": "calendar_month",
+   "spend_cycle_sources": [],
    "general_exclusions": {
     "tags": [],
     "include_mcc": [],
@@ -5288,6 +5473,16 @@
     {
      "offered_by": "singsaver",
      "description": "SingSaver Flash Deal: choice of The latest smartphone (worth over S$1,8xx)",
+     "options": [
+      "The latest smartphone (worth over S$1,8xx)"
+     ],
+     "min_spend": {
+      "amount": 500.0,
+      "currency": "SGD"
+     },
+     "spend_within_days": 30,
+     "new_to_bank_only": true,
+     "terms": "SingSaver Flash Deal promotion runs from 24 September 2026 to 28 September 2026. Promotion is valid for new Citi credit cardmembers only. Be the first eligible applicant at 3pm and 9pm every day during the flash deal period (2 total winners daily) to apply for select Citi credit cards via SingSaver and meet the min. spend criteria (S$500 within 30 days of card approval) to be eligible for the Flash Deal reward: latest smartphone (worth over S$1,800) Flash Deal reward will be received in place of your selected SingSaver Exclusive Offer reward. Remaining applicants will receive the SingSaver Exclusive Offer reward selected in your Rewards Redemption Form. Terms and Conditions apply.",
      "valid_from": "2026-09-23",
      "valid_to": "2026-09-28",
      "url": "https://www.singsaver.com.sg/credit-card/products/citi-cash-back-card",
@@ -5298,10 +5493,30 @@
     {
      "offered_by": "singsaver",
      "description": "SingSaver Exclusive Offer: choice of S$400 Cash via PayNow; The Morning Coffee Machine + 20 Capsules Bundle (worth S$660); 25,000 Max Miles by HeyMax (worth S$450); Dyson Airstrait™ straightener (worth S$799); Dyson V8 Cyclone Vacuum Cleaner (worth S$559); Dyson Airwrap™ multi-styler and dryer (worth S$799) (top up S$100); Dyson Clean+Wash Hygiene hard floor cleaner (worth S$729) (Top up S$150); Apple iPad (A16) 11\" 128GB WiFi (worth S$649) (Top up S$200); Apple Watch Series 12 Aluminum 42mm GPS (worth S$599) (Top-up S$140); Apple MacBook Neo (A18 Pro) 256GB w/ Magic Keyboard (worth S$999, top up S$580); Apple iPhone 18 Pro 256GB (worth S$1,899, top up S$1,330)",
+     "options": [
+      "S$400 Cash via PayNow",
+      "The Morning Coffee Machine + 20 Capsules Bundle (worth S$660)",
+      "25,000 Max Miles by HeyMax (worth S$450)",
+      "Dyson Airstrait™ straightener (worth S$799)",
+      "Dyson V8 Cyclone Vacuum Cleaner (worth S$559)",
+      "Dyson Airwrap™ multi-styler and dryer (worth S$799) (top up S$100)",
+      "Dyson Clean+Wash Hygiene hard floor cleaner (worth S$729) (Top up S$150)",
+      "Apple iPad (A16) 11\" 128GB WiFi (worth S$649) (Top up S$200)",
+      "Apple Watch Series 12 Aluminum 42mm GPS (worth S$599) (Top-up S$140)",
+      "Apple MacBook Neo (A18 Pro) 256GB w/ Magic Keyboard (worth S$999, top up S$580)",
+      "Apple iPhone 18 Pro 256GB (worth S$1,899, top up S$1,330)"
+     ],
      "value": {
       "amount": 400.0,
       "currency": "SGD"
      },
+     "min_spend": {
+      "amount": 500.0,
+      "currency": "SGD"
+     },
+     "spend_within_days": 30,
+     "new_to_bank_only": true,
+     "terms": "SingSaver Exclusive Offer promotion runs from 1 September 2026 to 30 September 2026. Promotion is valid for new Citi credit cardmembers only. Apply for participating Citi credit cards and make a min. spend of S$500 within 30 days of card approval to be eligible for reward. Fastest Reward Fulfilment: Receive your reward in as little as 4 weeks ! Terms and Conditions apply.",
      "valid_from": "2026-09-24",
      "valid_to": "2026-09-30",
      "url": "https://singsaver.link/cc-rewards-campaign",
@@ -5312,10 +5527,20 @@
     {
      "offered_by": "singsaver",
      "description": "SingSaver Card + Banking Bundle Offer: choice of S$500 Cash via PayNow",
+     "options": [
+      "S$500 Cash via PayNow"
+     ],
      "value": {
       "amount": 500.0,
       "currency": "SGD"
      },
+     "min_spend": {
+      "amount": 500.0,
+      "currency": "SGD"
+     },
+     "spend_within_days": 30,
+     "new_to_bank_only": true,
+     "terms": "This promotion runs from 9 September 2026 to 30 September 2026. Eligible applicants must not hold an existing Citi credit card, or have closed one within the past 12 months from card account opening date. To qualify for the S$500 Cash reward, applicants must: Apply for a participating Citi credit card via SingSaver; Make a minimum spend of S$500 within 30 days of card approval; and Hold a valid Citi banking account (existing or newly opened) by the end of the month following card approval. The S$500 Cash reward replaces the standard SingSaver exclusive reward for your card—you receive one or the other, not the both. The S$500 Cash amount is the same regardless of which card you apply for. Participating Citi banking account types are: Existing Citi banking relationship includes Citigold , Citigold Private Client , Citi Plus , Citi Priority , Citibanking New Citi banking relationship is applicable for Citigold , Citigold Private Client , Citi Plus New banking customers who open a Citigold account through SingSaver may qualify for an additional SingSaver Exclusive welcome gift (worth up to S$1,500 Cash or Apple iPhone 17)—this is a separate offer from the credit card reward (additional T&Cs apply). In case you choose the S$500 cash reward option and there is no banking relationship by the last day of the following month from your card application date but you meet the criteria for the credit card only reward, you will get the default cash reward available for your chosen card on application date. Terms and Conditions apply.",
      "valid_from": "2026-09-08",
      "valid_to": "2026-09-30",
      "url": "https://www.singsaver.com.sg/credit-card/products/citi-cash-back-card",
@@ -5325,7 +5550,26 @@
     },
     {
      "offered_by": "moneysmart",
-     "description": "Choice of: S$400 Cash via PayNow; Shopee Voucher $450; Apple iPhone 18 Pro (256GB, Burgundy); Apple AirPods Pro 3; Apple Watch Series 12, 42mm (GPS, Black Aluminium Case with Black Sport Band); Sony WH-1000XM6 Wireless Noise Cancelling Headphones (Black). Terms: • Apply for a Citi Card by 30th Sept 2026\n• Spend a min. of S$500 within 30 days\n• Submit the Claim Form by 30th Oct 2026",
+     "description": "Choice of: S$400 Cash via PayNow; Shopee Voucher $450; Apple iPhone 18 Pro (256GB, Burgundy); Apple AirPods Pro 3; Apple Watch Series 12, 42mm (GPS, Black Aluminium Case with Black Sport Band); Sony WH-1000XM6 Wireless Noise Cancelling Headphones (Black)",
+     "options": [
+      "S$400 Cash via PayNow",
+      "Shopee Voucher $450",
+      "Apple iPhone 18 Pro (256GB, Burgundy)",
+      "Apple AirPods Pro 3",
+      "Apple Watch Series 12, 42mm (GPS, Black Aluminium Case with Black Sport Band)",
+      "Sony WH-1000XM6 Wireless Noise Cancelling Headphones (Black)"
+     ],
+     "value": {
+      "amount": 400.0,
+      "currency": "SGD"
+     },
+     "min_spend": {
+      "amount": 500.0,
+      "currency": "SGD"
+     },
+     "spend_within_days": 30,
+     "terms": "• Apply for a Citi Card by 30th Sept 2026 • Spend a min. of S$500 within 30 days • Submit the Claim Form by 30th Oct 2026",
+     "valid_to": "2026-09-30",
      "url": "https://www.moneysmart.sg/credit-cards/citi-cash-back-card",
      "sources": [
       "moneysmart:42909b088c22"
@@ -5541,6 +5785,8 @@
      ]
     }
    ],
+   "spend_cycle": "calendar_month",
+   "spend_cycle_sources": [],
    "general_exclusions": {
     "tags": [],
     "include_mcc": [],
@@ -5820,6 +6066,8 @@
      ]
     }
    ],
+   "spend_cycle": "calendar_month",
+   "spend_cycle_sources": [],
    "general_exclusions": {
     "tags": [],
     "include_mcc": [],
@@ -5843,6 +6091,16 @@
     {
      "offered_by": "singsaver",
      "description": "SingSaver Flash Deal: choice of The latest smartphone (worth over S$1,8xx)",
+     "options": [
+      "The latest smartphone (worth over S$1,8xx)"
+     ],
+     "min_spend": {
+      "amount": 500.0,
+      "currency": "SGD"
+     },
+     "spend_within_days": 30,
+     "new_to_bank_only": true,
+     "terms": "SingSaver Flash Deal promotion runs from 24 September 2026 to 28 September 2026. Promotion is valid for new Citi credit cardmembers only. Be the first eligible applicant at 3pm and 9pm every day during the flash deal period (2 total winners daily) to apply for select Citi credit cards via SingSaver and meet the min. spend criteria (S$500 within 30 days of card approval) to be eligible for the Flash Deal reward: latest smartphone (worth over S$1,800) Flash Deal reward will be received in place of your selected SingSaver Exclusive Offer reward. Remaining applicants will receive the SingSaver Exclusive Offer reward selected in your Rewards Redemption Form. Terms and Conditions apply.",
      "valid_from": "2026-09-23",
      "valid_to": "2026-09-28",
      "url": "https://www.singsaver.com.sg/credit-card/products/citibank-m1-platinum-visa-card",
@@ -5853,10 +6111,30 @@
     {
      "offered_by": "singsaver",
      "description": "SingSaver Exclusive Offer: choice of S$400 Cash via PayNow; The Morning Coffee Machine + 20 Capsules Bundle (worth S$660); 25,000 Max Miles by HeyMax (worth S$450); Dyson Airstrait™ straightener (worth S$799); Dyson V8 Cyclone Vacuum Cleaner (worth S$559); Dyson Airwrap™ multi-styler and dryer (worth S$799) (top up S$100); Dyson Clean+Wash Hygiene hard floor cleaner (worth S$729) (Top up S$150); Apple iPad (A16) 11\" 128GB WiFi (worth S$649) (Top up S$200); Apple Watch Series 12 Aluminum 42mm GPS (worth S$599) (Top-up S$140); Apple MacBook Neo (A18 Pro) 256GB w/ Magic Keyboard (worth S$999, top up S$580); Apple iPhone 18 Pro 256GB (worth S$1,899, top up S$1,330)",
+     "options": [
+      "S$400 Cash via PayNow",
+      "The Morning Coffee Machine + 20 Capsules Bundle (worth S$660)",
+      "25,000 Max Miles by HeyMax (worth S$450)",
+      "Dyson Airstrait™ straightener (worth S$799)",
+      "Dyson V8 Cyclone Vacuum Cleaner (worth S$559)",
+      "Dyson Airwrap™ multi-styler and dryer (worth S$799) (top up S$100)",
+      "Dyson Clean+Wash Hygiene hard floor cleaner (worth S$729) (Top up S$150)",
+      "Apple iPad (A16) 11\" 128GB WiFi (worth S$649) (Top up S$200)",
+      "Apple Watch Series 12 Aluminum 42mm GPS (worth S$599) (Top-up S$140)",
+      "Apple MacBook Neo (A18 Pro) 256GB w/ Magic Keyboard (worth S$999, top up S$580)",
+      "Apple iPhone 18 Pro 256GB (worth S$1,899, top up S$1,330)"
+     ],
      "value": {
       "amount": 400.0,
       "currency": "SGD"
      },
+     "min_spend": {
+      "amount": 500.0,
+      "currency": "SGD"
+     },
+     "spend_within_days": 30,
+     "new_to_bank_only": true,
+     "terms": "SingSaver Exclusive Offer promotion runs from 1 September 2026 to 30 September 2026. Promotion is valid for new Citi credit cardmembers only. Apply for participating Citi credit cards and make a min. spend of S$500 within 30 days of card approval to be eligible for reward. Fastest Reward Fulfilment: Receive your reward in as little as 4 weeks ! Terms and Conditions apply.",
      "valid_from": "2026-09-24",
      "valid_to": "2026-09-30",
      "url": "https://singsaver.link/cc-rewards-campaign",
@@ -5867,10 +6145,20 @@
     {
      "offered_by": "singsaver",
      "description": "SingSaver Card + Banking Bundle Offer: choice of S$500 Cash via PayNow",
+     "options": [
+      "S$500 Cash via PayNow"
+     ],
      "value": {
       "amount": 500.0,
       "currency": "SGD"
      },
+     "min_spend": {
+      "amount": 500.0,
+      "currency": "SGD"
+     },
+     "spend_within_days": 30,
+     "new_to_bank_only": true,
+     "terms": "This promotion runs from 9 September 2026 to 30 September 2026. Eligible applicants must not hold an existing Citi credit card, or have closed one within the past 12 months from card account opening date. To qualify for the S$500 Cash reward, applicants must: Apply for a participating Citi credit card via SingSaver; Make a minimum spend of S$500 within 30 days of card approval; and Hold a valid Citi banking account (existing or newly opened) by the end of the month following card approval. The S$500 Cash reward replaces the standard SingSaver exclusive reward for your card—you receive one or the other, not the both. The S$500 Cash amount is the same regardless of which card you apply for. Participating Citi banking account types are: Existing Citi banking relationship includes Citigold , Citigold Private Client , Citi Plus , Citi Priority , Citibanking New Citi banking relationship is applicable for Citigold , Citigold Private Client , Citi Plus New banking customers who open a Citigold account through SingSaver may qualify for an additional SingSaver Exclusive welcome gift (worth up to S$1,500 Cash or Apple iPhone 17)—this is a separate offer from the credit card reward (additional T&Cs apply). In case you choose the S$500 cash reward option and there is no banking relationship by the last day of the following month from your card application date but you meet the criteria for the credit card only reward, you will get the default cash reward available for your chosen card on application date. Terms and Conditions apply.",
      "valid_from": "2026-09-08",
      "valid_to": "2026-09-30",
      "url": "https://www.singsaver.com.sg/credit-card/products/citibank-m1-platinum-visa-card",
@@ -5880,7 +6168,26 @@
     },
     {
      "offered_by": "moneysmart",
-     "description": "Choice of: S$400 Cash via PayNow; Shopee Voucher $450; Apple iPhone 18 Pro (256GB, Burgundy); Apple AirPods Pro 3; Apple Watch Series 12, 42mm (GPS, Black Aluminium Case with Black Sport Band); Sony WH-1000XM6 Wireless Noise Cancelling Headphones (Black). Terms: • Apply for a Citi Card by 30th Sept 2026\n• Spend a min. of S$500 within 30 days\n• Submit the Claim Form by 30th Oct 2026",
+     "description": "Choice of: S$400 Cash via PayNow; Shopee Voucher $450; Apple iPhone 18 Pro (256GB, Burgundy); Apple AirPods Pro 3; Apple Watch Series 12, 42mm (GPS, Black Aluminium Case with Black Sport Band); Sony WH-1000XM6 Wireless Noise Cancelling Headphones (Black)",
+     "options": [
+      "S$400 Cash via PayNow",
+      "Shopee Voucher $450",
+      "Apple iPhone 18 Pro (256GB, Burgundy)",
+      "Apple AirPods Pro 3",
+      "Apple Watch Series 12, 42mm (GPS, Black Aluminium Case with Black Sport Band)",
+      "Sony WH-1000XM6 Wireless Noise Cancelling Headphones (Black)"
+     ],
+     "value": {
+      "amount": 400.0,
+      "currency": "SGD"
+     },
+     "min_spend": {
+      "amount": 500.0,
+      "currency": "SGD"
+     },
+     "spend_within_days": 30,
+     "terms": "• Apply for a Citi Card by 30th Sept 2026 • Spend a min. of S$500 within 30 days • Submit the Claim Form by 30th Oct 2026",
+     "valid_to": "2026-09-30",
      "url": "https://www.moneysmart.sg/credit-cards/citi-m1-credit-card",
      "sources": [
       "moneysmart:fbcf8e7229a3"
@@ -6167,6 +6474,8 @@
      ]
     }
    ],
+   "spend_cycle": "calendar_month",
+   "spend_cycle_sources": [],
    "general_exclusions": {
     "tags": [],
     "include_mcc": [],
@@ -6194,6 +6503,16 @@
     {
      "offered_by": "singsaver",
      "description": "SingSaver Flash Deal: choice of The latest smartphone (worth over S$1,8xx)",
+     "options": [
+      "The latest smartphone (worth over S$1,8xx)"
+     ],
+     "min_spend": {
+      "amount": 500.0,
+      "currency": "SGD"
+     },
+     "spend_within_days": 30,
+     "new_to_bank_only": true,
+     "terms": "SingSaver Flash Deal promotion runs from 24 September 2026 to 28 September 2026. Promotion is valid for new Citi credit cardmembers only. Be the first eligible applicant at 3pm and 9pm every day during the flash deal period (2 total winners daily) to apply for select Citi credit cards via SingSaver and meet the min. spend criteria (S$500 within 30 days of card approval) to be eligible for the Flash Deal reward: latest smartphone (worth over S$1,800) Flash Deal reward will be received in place of your selected SingSaver Exclusive Offer reward. Remaining applicants will receive the SingSaver Exclusive Offer reward selected in your Rewards Redemption Form. Terms and Conditions apply.",
      "valid_from": "2026-09-23",
      "valid_to": "2026-09-28",
      "url": "https://www.singsaver.com.sg/credit-card/products/citi-premier-miles-card",
@@ -6204,10 +6523,30 @@
     {
      "offered_by": "singsaver",
      "description": "SingSaver Exclusive Offer: choice of S$400 Cash via PayNow; The Morning Coffee Machine + 20 Capsules Bundle (worth S$660); 25,000 Max Miles by HeyMax (worth S$450); Dyson Airstrait™ straightener (worth S$799); Dyson V8 Cyclone Vacuum Cleaner (worth S$559); Dyson Airwrap™ multi-styler and dryer (worth S$799) (top up S$100); Dyson Clean+Wash Hygiene hard floor cleaner (worth S$729) (Top up S$150); Apple iPad (A16) 11\" 128GB WiFi (worth S$649) (Top up S$200); Apple Watch Series 12 Aluminum 42mm GPS (worth S$599) (Top-up S$140); Apple MacBook Neo (A18 Pro) 256GB w/ Magic Keyboard (worth S$999, top up S$580); Apple iPhone 18 Pro 256GB (worth S$1,899, top up S$1,330)",
+     "options": [
+      "S$400 Cash via PayNow",
+      "The Morning Coffee Machine + 20 Capsules Bundle (worth S$660)",
+      "25,000 Max Miles by HeyMax (worth S$450)",
+      "Dyson Airstrait™ straightener (worth S$799)",
+      "Dyson V8 Cyclone Vacuum Cleaner (worth S$559)",
+      "Dyson Airwrap™ multi-styler and dryer (worth S$799) (top up S$100)",
+      "Dyson Clean+Wash Hygiene hard floor cleaner (worth S$729) (Top up S$150)",
+      "Apple iPad (A16) 11\" 128GB WiFi (worth S$649) (Top up S$200)",
+      "Apple Watch Series 12 Aluminum 42mm GPS (worth S$599) (Top-up S$140)",
+      "Apple MacBook Neo (A18 Pro) 256GB w/ Magic Keyboard (worth S$999, top up S$580)",
+      "Apple iPhone 18 Pro 256GB (worth S$1,899, top up S$1,330)"
+     ],
      "value": {
       "amount": 400.0,
       "currency": "SGD"
      },
+     "min_spend": {
+      "amount": 500.0,
+      "currency": "SGD"
+     },
+     "spend_within_days": 30,
+     "new_to_bank_only": true,
+     "terms": "SingSaver Exclusive Offer promotion runs from 1 September 2026 to 30 September 2026. Promotion is valid for new Citi credit cardmembers only. Apply for participating Citi credit cards and make a min. spend of S$500 within 30 days of card approval to be eligible for reward. Fastest Reward Fulfilment: Receive your reward in as little as 4 weeks ! Terms and Conditions apply.",
      "valid_from": "2026-09-24",
      "valid_to": "2026-09-30",
      "url": "https://singsaver.link/cc-rewards-campaign",
@@ -6218,10 +6557,20 @@
     {
      "offered_by": "singsaver",
      "description": "SingSaver Card + Banking Bundle Offer: choice of S$500 Cash via PayNow",
+     "options": [
+      "S$500 Cash via PayNow"
+     ],
      "value": {
       "amount": 500.0,
       "currency": "SGD"
      },
+     "min_spend": {
+      "amount": 500.0,
+      "currency": "SGD"
+     },
+     "spend_within_days": 30,
+     "new_to_bank_only": true,
+     "terms": "This promotion runs from 9 September 2026 to 30 September 2026. Eligible applicants must not hold an existing Citi credit card, or have closed one within the past 12 months from card account opening date. To qualify for the S$500 Cash reward, applicants must: Apply for a participating Citi credit card via SingSaver; Make a minimum spend of S$500 within 30 days of card approval; and Hold a valid Citi banking account (existing or newly opened) by the end of the month following card approval. The S$500 Cash reward replaces the standard SingSaver exclusive reward for your card—you receive one or the other, not the both. The S$500 Cash amount is the same regardless of which card you apply for. Participating Citi banking account types are: Existing Citi banking relationship includes Citigold , Citigold Private Client , Citi Plus , Citi Priority , Citibanking New Citi banking relationship is applicable for Citigold , Citigold Private Client , Citi Plus New banking customers who open a Citigold account through SingSaver may qualify for an additional SingSaver Exclusive welcome gift (worth up to S$1,500 Cash or Apple iPhone 17)—this is a separate offer from the credit card reward (additional T&Cs apply). In case you choose the S$500 cash reward option and there is no banking relationship by the last day of the following month from your card application date but you meet the criteria for the credit card only reward, you will get the default cash reward available for your chosen card on application date. Terms and Conditions apply.",
      "valid_from": "2026-09-08",
      "valid_to": "2026-09-30",
      "url": "https://www.singsaver.com.sg/credit-card/products/citi-premier-miles-card",
@@ -6231,7 +6580,26 @@
     },
     {
      "offered_by": "moneysmart",
-     "description": "Choice of: S$400 Cash via PayNow; Shopee Voucher $450; Apple iPhone 18 Pro (256GB, Burgundy); Apple AirPods Pro 3; Apple Watch Series 12, 42mm (GPS, Black Aluminium Case with Black Sport Band); Sony WH-1000XM6 Wireless Noise Cancelling Headphones (Black). Terms: • Apply for a Citi Card by 30th Sept 2026\n• Spend a min. of S$500 within 30 days\n• Submit the Claim Form by 30th Oct 2026",
+     "description": "Choice of: S$400 Cash via PayNow; Shopee Voucher $450; Apple iPhone 18 Pro (256GB, Burgundy); Apple AirPods Pro 3; Apple Watch Series 12, 42mm (GPS, Black Aluminium Case with Black Sport Band); Sony WH-1000XM6 Wireless Noise Cancelling Headphones (Black)",
+     "options": [
+      "S$400 Cash via PayNow",
+      "Shopee Voucher $450",
+      "Apple iPhone 18 Pro (256GB, Burgundy)",
+      "Apple AirPods Pro 3",
+      "Apple Watch Series 12, 42mm (GPS, Black Aluminium Case with Black Sport Band)",
+      "Sony WH-1000XM6 Wireless Noise Cancelling Headphones (Black)"
+     ],
+     "value": {
+      "amount": 400.0,
+      "currency": "SGD"
+     },
+     "min_spend": {
+      "amount": 500.0,
+      "currency": "SGD"
+     },
+     "spend_within_days": 30,
+     "terms": "• Apply for a Citi Card by 30th Sept 2026 • Spend a min. of S$500 within 30 days • Submit the Claim Form by 30th Oct 2026",
+     "valid_to": "2026-09-30",
      "url": "https://www.moneysmart.sg/credit-cards/citi-premiermiles-card",
      "sources": [
       "moneysmart:eeee24fb93a9"
@@ -6515,6 +6883,8 @@
      ]
     }
    ],
+   "spend_cycle": "calendar_month",
+   "spend_cycle_sources": [],
    "general_exclusions": {
     "tags": [],
     "include_mcc": [],
@@ -6837,6 +7207,8 @@
      ]
     }
    ],
+   "spend_cycle": "calendar_month",
+   "spend_cycle_sources": [],
    "general_exclusions": {
     "tags": [],
     "include_mcc": [],
@@ -6879,6 +7251,16 @@
     {
      "offered_by": "singsaver",
      "description": "SingSaver Flash Deal: choice of The latest smartphone (worth over S$1,8xx)",
+     "options": [
+      "The latest smartphone (worth over S$1,8xx)"
+     ],
+     "min_spend": {
+      "amount": 500.0,
+      "currency": "SGD"
+     },
+     "spend_within_days": 30,
+     "new_to_bank_only": true,
+     "terms": "SingSaver Flash Deal promotion runs from 24 September 2026 to 28 September 2026. Promotion is valid for new Citi credit cardmembers only. Be the first eligible applicant at 3pm and 9pm every day during the flash deal period (2 total winners daily) to apply for select Citi credit cards via SingSaver and meet the min. spend criteria (S$500 within 30 days of card approval) to be eligible for the Flash Deal reward: latest smartphone (worth over S$1,800) Flash Deal reward will be received in place of your selected SingSaver Exclusive Offer reward. Remaining applicants will receive the SingSaver Exclusive Offer reward selected in your Rewards Redemption Form. Terms and Conditions apply.",
      "valid_from": "2026-09-23",
      "valid_to": "2026-09-28",
      "url": "https://www.singsaver.com.sg/credit-card/products/citi-rewards-card",
@@ -6889,10 +7271,30 @@
     {
      "offered_by": "singsaver",
      "description": "SingSaver Exclusive Offer: choice of S$400 Cash via PayNow; The Morning Coffee Machine + 20 Capsules Bundle (worth S$660); 25,000 Max Miles by HeyMax (worth S$450); Dyson Airstrait™ straightener (worth S$799); Dyson V8 Cyclone Vacuum Cleaner (worth S$559); Dyson Airwrap™ multi-styler and dryer (worth S$799) (top up S$100); Dyson Clean+Wash Hygiene hard floor cleaner (worth S$729) (Top up S$150); Apple iPad (A16) 11\" 128GB WiFi (worth S$649) (Top up S$200); Apple Watch Series 12 Aluminum 42mm GPS (worth S$599) (Top-up S$140); Apple MacBook Neo (A18 Pro) 256GB w/ Magic Keyboard (worth S$999, top up S$580); Apple iPhone 18 Pro 256GB (worth S$1,899, top up S$1,330)",
+     "options": [
+      "S$400 Cash via PayNow",
+      "The Morning Coffee Machine + 20 Capsules Bundle (worth S$660)",
+      "25,000 Max Miles by HeyMax (worth S$450)",
+      "Dyson Airstrait™ straightener (worth S$799)",
+      "Dyson V8 Cyclone Vacuum Cleaner (worth S$559)",
+      "Dyson Airwrap™ multi-styler and dryer (worth S$799) (top up S$100)",
+      "Dyson Clean+Wash Hygiene hard floor cleaner (worth S$729) (Top up S$150)",
+      "Apple iPad (A16) 11\" 128GB WiFi (worth S$649) (Top up S$200)",
+      "Apple Watch Series 12 Aluminum 42mm GPS (worth S$599) (Top-up S$140)",
+      "Apple MacBook Neo (A18 Pro) 256GB w/ Magic Keyboard (worth S$999, top up S$580)",
+      "Apple iPhone 18 Pro 256GB (worth S$1,899, top up S$1,330)"
+     ],
      "value": {
       "amount": 400.0,
       "currency": "SGD"
      },
+     "min_spend": {
+      "amount": 500.0,
+      "currency": "SGD"
+     },
+     "spend_within_days": 30,
+     "new_to_bank_only": true,
+     "terms": "SingSaver Exclusive Offer promotion runs from 1 September 2026 to 30 September 2026. Promotion is valid for new Citi credit cardmembers only. Apply for participating Citi credit cards and make a min. spend of S$500 within 30 days of card approval to be eligible for reward. Fastest Reward Fulfilment: Receive your reward in as little as 4 weeks ! Terms and Conditions apply.",
      "valid_from": "2026-09-24",
      "valid_to": "2026-09-30",
      "url": "https://singsaver.link/cc-rewards-campaign",
@@ -6903,10 +7305,20 @@
     {
      "offered_by": "singsaver",
      "description": "SingSaver Card + Banking Bundle Offer: choice of S$500 Cash via PayNow",
+     "options": [
+      "S$500 Cash via PayNow"
+     ],
      "value": {
       "amount": 500.0,
       "currency": "SGD"
      },
+     "min_spend": {
+      "amount": 500.0,
+      "currency": "SGD"
+     },
+     "spend_within_days": 30,
+     "new_to_bank_only": true,
+     "terms": "This promotion runs from 9 September 2026 to 30 September 2026. Eligible applicants must not hold an existing Citi credit card, or have closed one within the past 12 months from card account opening date. To qualify for the S$500 Cash reward, applicants must: Apply for a participating Citi credit card via SingSaver; Make a minimum spend of S$500 within 30 days of card approval; and Hold a valid Citi banking account (existing or newly opened) by the end of the month following card approval. The S$500 Cash reward replaces the standard SingSaver exclusive reward for your card—you receive one or the other, not the both. The S$500 Cash amount is the same regardless of which card you apply for. Participating Citi banking account types are: Existing Citi banking relationship includes Citigold , Citigold Private Client , Citi Plus , Citi Priority , Citibanking New Citi banking relationship is applicable for Citigold , Citigold Private Client , Citi Plus New banking customers who open a Citigold account through SingSaver may qualify for an additional SingSaver Exclusive welcome gift (worth up to S$1,500 Cash or Apple iPhone 17)—this is a separate offer from the credit card reward (additional T&Cs apply). In case you choose the S$500 cash reward option and there is no banking relationship by the last day of the following month from your card application date but you meet the criteria for the credit card only reward, you will get the default cash reward available for your chosen card on application date. Terms and Conditions apply.",
      "valid_from": "2026-09-08",
      "valid_to": "2026-09-30",
      "url": "https://www.singsaver.com.sg/credit-card/products/citi-rewards-card",
@@ -6916,7 +7328,26 @@
     },
     {
      "offered_by": "moneysmart",
-     "description": "Choice of: S$400 Cash via PayNow; Shopee Voucher $450; Apple iPhone 18 Pro (256GB, Burgundy); Apple AirPods Pro 3; Apple Watch Series 12, 42mm (GPS, Black Aluminium Case with Black Sport Band); Sony WH-1000XM6 Wireless Noise Cancelling Headphones (Black). Terms: • Apply for a Citi Card by 30th Sept 2026\n• Spend a min. of S$500 within 30 days\n• Submit the Claim Form by 30th Oct 2026",
+     "description": "Choice of: S$400 Cash via PayNow; Shopee Voucher $450; Apple iPhone 18 Pro (256GB, Burgundy); Apple AirPods Pro 3; Apple Watch Series 12, 42mm (GPS, Black Aluminium Case with Black Sport Band); Sony WH-1000XM6 Wireless Noise Cancelling Headphones (Black)",
+     "options": [
+      "S$400 Cash via PayNow",
+      "Shopee Voucher $450",
+      "Apple iPhone 18 Pro (256GB, Burgundy)",
+      "Apple AirPods Pro 3",
+      "Apple Watch Series 12, 42mm (GPS, Black Aluminium Case with Black Sport Band)",
+      "Sony WH-1000XM6 Wireless Noise Cancelling Headphones (Black)"
+     ],
+     "value": {
+      "amount": 400.0,
+      "currency": "SGD"
+     },
+     "min_spend": {
+      "amount": 500.0,
+      "currency": "SGD"
+     },
+     "spend_within_days": 30,
+     "terms": "• Apply for a Citi Card by 30th Sept 2026 • Spend a min. of S$500 within 30 days • Submit the Claim Form by 30th Oct 2026",
+     "valid_to": "2026-09-30",
      "url": "https://www.moneysmart.sg/credit-cards/citibank-rewards-card",
      "sources": [
       "moneysmart:eeee24fb93a9"
@@ -7185,6 +7616,8 @@
      ]
     }
    ],
+   "spend_cycle": "calendar_month",
+   "spend_cycle_sources": [],
    "general_exclusions": {
     "tags": [],
     "include_mcc": [],
@@ -7221,6 +7654,16 @@
     {
      "offered_by": "singsaver",
      "description": "SingSaver Flash Deal: choice of The latest smartphone (worth over S$1,8xx)",
+     "options": [
+      "The latest smartphone (worth over S$1,8xx)"
+     ],
+     "min_spend": {
+      "amount": 500.0,
+      "currency": "SGD"
+     },
+     "spend_within_days": 30,
+     "new_to_bank_only": true,
+     "terms": "SingSaver Flash Deal promotion runs from 24 September 2026 to 28 September 2026. Promotion is valid for new Citi credit cardmembers only. Be the first eligible applicant at 3pm and 9pm every day during the flash deal period (2 total winners daily) to apply for select Citi credit cards via SingSaver and meet the min. spend criteria (S$500 within 30 days of card approval) to be eligible for the Flash Deal reward: latest smartphone (worth over S$1,800) Flash Deal reward will be received in place of your selected SingSaver Exclusive Offer reward. Remaining applicants will receive the SingSaver Exclusive Offer reward selected in your Rewards Redemption Form. Terms and Conditions apply.",
      "valid_from": "2026-09-23",
      "valid_to": "2026-09-28",
      "url": "https://www.singsaver.com.sg/credit-card/products/citi-smrt-card",
@@ -7231,10 +7674,30 @@
     {
      "offered_by": "singsaver",
      "description": "SingSaver Exclusive Offer: choice of S$430 Cash via PayNow; The Morning Coffee Machine + 20 Capsules Bundle (worth S$660); 25,000 Max Miles by HeyMax (worth S$450); Dyson Airstrait™ straightener (worth S$799); Dyson V8 Cyclone Vacuum Cleaner (worth S$559); Dyson Airwrap™ multi-styler and dryer (worth S$799) (top up S$100); Dyson Clean+Wash Hygiene hard floor cleaner (worth S$729) (Top up S$150); Apple iPad (A16) 11\" 128GB WiFi (worth S$649) (Top up S$200); Apple Watch Series 12 Aluminum 42mm GPS (worth S$599) (Top-up S$140); Apple MacBook Neo (A18 Pro) 256GB w/ Magic Keyboard (worth S$999, top up S$550); Apple iPhone 18 Pro 256GB (worth S$1,899, top up S$1,330)",
+     "options": [
+      "S$430 Cash via PayNow",
+      "The Morning Coffee Machine + 20 Capsules Bundle (worth S$660)",
+      "25,000 Max Miles by HeyMax (worth S$450)",
+      "Dyson Airstrait™ straightener (worth S$799)",
+      "Dyson V8 Cyclone Vacuum Cleaner (worth S$559)",
+      "Dyson Airwrap™ multi-styler and dryer (worth S$799) (top up S$100)",
+      "Dyson Clean+Wash Hygiene hard floor cleaner (worth S$729) (Top up S$150)",
+      "Apple iPad (A16) 11\" 128GB WiFi (worth S$649) (Top up S$200)",
+      "Apple Watch Series 12 Aluminum 42mm GPS (worth S$599) (Top-up S$140)",
+      "Apple MacBook Neo (A18 Pro) 256GB w/ Magic Keyboard (worth S$999, top up S$550)",
+      "Apple iPhone 18 Pro 256GB (worth S$1,899, top up S$1,330)"
+     ],
      "value": {
       "amount": 430.0,
       "currency": "SGD"
      },
+     "min_spend": {
+      "amount": 500.0,
+      "currency": "SGD"
+     },
+     "spend_within_days": 30,
+     "new_to_bank_only": true,
+     "terms": "SingSaver Exclusive Offer promotion runs from 4 September 2026 to 30 September 2026. Promotion is valid for new Citi credit cardmembers only. Apply for participating Citi credit cards and make a min. spend of S$500 within 30 days of card approval to be eligible for reward. Fastest Reward Fulfilment: Receive your reward in as little as 4 weeks ! Terms and Conditions apply.",
      "valid_from": "2026-09-24",
      "valid_to": "2026-09-30",
      "url": "https://singsaver.link/cc-rewards-campaign",
@@ -7245,10 +7708,20 @@
     {
      "offered_by": "singsaver",
      "description": "SingSaver Card + Banking Bundle Offer: choice of S$500 Cash via PayNow",
+     "options": [
+      "S$500 Cash via PayNow"
+     ],
      "value": {
       "amount": 500.0,
       "currency": "SGD"
      },
+     "min_spend": {
+      "amount": 500.0,
+      "currency": "SGD"
+     },
+     "spend_within_days": 30,
+     "new_to_bank_only": true,
+     "terms": "This promotion runs from 9 September 2026 to 30 September 2026. Eligible applicants must not hold an existing Citi credit card, or have closed one within the past 12 months from card account opening date. To qualify for the S$500 Cash reward, applicants must: Apply for a participating Citi credit card via SingSaver; Make a minimum spend of S$500 within 30 days of card approval; and Hold a valid Citi banking account (existing or newly opened) by the end of the month following card approval. The S$500 Cash reward replaces the standard SingSaver exclusive reward for your card—you receive one or the other, not the both. The S$500 Cash amount is the same regardless of which card you apply for. Participating Citi banking account types are: Existing Citi banking relationship includes Citigold , Citigold Private Client , Citi Plus , Citi Priority , Citibanking New Citi banking relationship is applicable for Citigold , Citigold Private Client , Citi Plus New banking customers who open a Citigold account through SingSaver may qualify for an additional SingSaver Exclusive welcome gift (worth up to S$1,500 Cash or Apple iPhone 17)—this is a separate offer from the credit card reward (additional T&Cs apply). In case you choose the S$500 cash reward option and there is no banking relationship by the last day of the following month from your card application date but you meet the criteria for the credit card only reward, you will get the default cash reward available for your chosen card on application date. Terms and Conditions apply.",
      "valid_from": "2026-09-08",
      "valid_to": "2026-09-30",
      "url": "https://www.singsaver.com.sg/credit-card/products/citi-smrt-card",
@@ -7258,7 +7731,26 @@
     },
     {
      "offered_by": "moneysmart",
-     "description": "Choice of: S$400 Cash via PayNow; Shopee Voucher $450; Apple iPhone 18 Pro (256GB, Burgundy); Apple AirPods Pro 3; Apple Watch Series 12, 42mm (GPS, Black Aluminium Case with Black Sport Band); Sony WH-1000XM6 Wireless Noise Cancelling Headphones (Black). Terms: • Apply for a Citi Card by 30th Sept 2026\n• Spend a min. of S$500 within 30 days\n• Submit the Claim Form by 30th Oct 2026",
+     "description": "Choice of: S$400 Cash via PayNow; Shopee Voucher $450; Apple iPhone 18 Pro (256GB, Burgundy); Apple AirPods Pro 3; Apple Watch Series 12, 42mm (GPS, Black Aluminium Case with Black Sport Band); Sony WH-1000XM6 Wireless Noise Cancelling Headphones (Black)",
+     "options": [
+      "S$400 Cash via PayNow",
+      "Shopee Voucher $450",
+      "Apple iPhone 18 Pro (256GB, Burgundy)",
+      "Apple AirPods Pro 3",
+      "Apple Watch Series 12, 42mm (GPS, Black Aluminium Case with Black Sport Band)",
+      "Sony WH-1000XM6 Wireless Noise Cancelling Headphones (Black)"
+     ],
+     "value": {
+      "amount": 400.0,
+      "currency": "SGD"
+     },
+     "min_spend": {
+      "amount": 500.0,
+      "currency": "SGD"
+     },
+     "spend_within_days": 30,
+     "terms": "• Apply for a Citi Card by 30th Sept 2026 • Spend a min. of S$500 within 30 days • Submit the Claim Form by 30th Oct 2026",
+     "valid_to": "2026-09-30",
      "url": "https://www.moneysmart.sg/credit-cards/citibank-smrt-platinum-visa-card",
      "sources": [
       "moneysmart:eeee24fb93a9"
@@ -7459,6 +7951,8 @@
      ]
     }
    ],
+   "spend_cycle": "calendar_month",
+   "spend_cycle_sources": [],
    "general_exclusions": {
     "tags": [],
     "include_mcc": [],
@@ -7475,10 +7969,16 @@
     {
      "offered_by": "singsaver",
      "description": "Stackable Welcome Offer: choice of Up to S$200 Cashback on Cashline",
+     "options": [
+      "Up to S$200 Cashback on Cashline"
+     ],
      "value": {
       "amount": 200.0,
       "currency": "SGD"
      },
+     "new_to_bank_only": true,
+     "stackable": true,
+     "terms": "Stackable Welcome Offer promotion is valid from 1 September 2026 to 30 September 2026. Promotion is valid for new DBS / POSB credit cardmembers only. Apply and get approved for selected credit cards from DBS and POSB during the promo period and select “Cashline” in your application on the DBS/POSB website (except foreigners) to be eligible for S$100 cash reward. Receive an additional S$100 cash with a minimum S$188 closing balance accumulated for Cashline withdrawals in the first two statement months upon account opening. Terms and Conditions apply.",
      "valid_from": "2026-08-31",
      "valid_to": "2026-09-30",
      "url": "https://www.singsaver.com.sg/credit-card/products/dbs-altitude-american-express-card",
@@ -7489,10 +7989,29 @@
     {
      "offered_by": "singsaver",
      "description": "SingSaver Exclusive Offer: choice of S$288 Cash via PayNow; S$310 Grab Voucher; 18,000 Max Miles by HeyMax (worth S$324); Morning Mini Coffee Machine + 20 Capsules Bundle (worth S$425); Samsonite Straren Spinner 67/24 (worth S$600); Dyson V8 Cyclone Vacuum Cleaner (worth S$559, top up S$150); Dyson Airstrait™ hair straightener (worth S$799) (Top up S$200); Sony WH-1000XM6 Headphones (worth S$649) (top up S$200); Apple iPad (A16) 11\" 128GB WiFi (worth S$649) (Top up S$350)",
+     "options": [
+      "S$288 Cash via PayNow",
+      "S$310 Grab Voucher",
+      "18,000 Max Miles by HeyMax (worth S$324)",
+      "Morning Mini Coffee Machine + 20 Capsules Bundle (worth S$425)",
+      "Samsonite Straren Spinner 67/24 (worth S$600)",
+      "Dyson V8 Cyclone Vacuum Cleaner (worth S$559, top up S$150)",
+      "Dyson Airstrait™ hair straightener (worth S$799) (Top up S$200)",
+      "Sony WH-1000XM6 Headphones (worth S$649) (top up S$200)",
+      "Apple iPad (A16) 11\" 128GB WiFi (worth S$649) (Top up S$350)"
+     ],
      "value": {
       "amount": 288.0,
       "currency": "SGD"
      },
+     "min_spend": {
+      "amount": 500.0,
+      "currency": "SGD"
+     },
+     "spend_within_days": 30,
+     "new_to_bank_only": true,
+     "stackable": false,
+     "terms": "SingSaver Exclusive Offer promotion is valid from 17 September 2026 to 30 September 2026 Promotion is valid for new DBS / POSB credit cardmembers only. Apply for selected credit cards from DBS and POSB within the promo period using the promo code \" SINGSAVER \" during the application and make a min. spend of S$500 within 30 days from card approval date to be eligible for reward. Have a valid DBS PayLah! account by the end of the Qualifying Spend period to be eligible for the reward, Some rewards will require additional top-up to claim. Promotion does not stack with other welcome offers from DBS / POSB. Terms and Conditions apply.",
      "valid_from": "2026-09-16",
      "valid_to": "2026-09-30",
      "url": "https://www.singsaver.com.sg/credit-card/products/dbs-altitude-american-express-card",
@@ -7502,7 +8021,18 @@
     },
     {
      "offered_by": "moneysmart",
-     "description": "Choice of: Samsonite MINTER 80/30 Luggage; Up to 38,000 miles. Terms: Valid for New Customers only\nUse promo code \nMINTER\n when applying\nCharge a min. of S$800 within 60 days from the date of card approval\nHave a valid DBS PayLah! account by the end of the Qualifying Spend period",
+     "description": "Choice of: Samsonite MINTER 80/30 Luggage; Up to 38,000 miles",
+     "options": [
+      "Samsonite MINTER 80/30 Luggage",
+      "Up to 38,000 miles"
+     ],
+     "min_spend": {
+      "amount": 800.0,
+      "currency": "SGD"
+     },
+     "spend_within_days": 60,
+     "new_to_bank_only": true,
+     "terms": "Valid for New Customers only Use promo code MINTER when applying Charge a min. of S$800 within 60 days from the date of card approval Have a valid DBS PayLah! account by the end of the Qualifying Spend period",
      "url": "https://www.moneysmart.sg/credit-cards/dbs-altitude-american-express-card",
      "sources": [
       "moneysmart:fbcf8e7229a3"
@@ -7752,6 +8282,8 @@
      ]
     }
    ],
+   "spend_cycle": "calendar_month",
+   "spend_cycle_sources": [],
    "general_exclusions": {
     "tags": [],
     "include_mcc": [],
@@ -7768,10 +8300,16 @@
     {
      "offered_by": "singsaver",
      "description": "Stackable Welcome Offer: choice of Up to S$200 Cashback on Cashline",
+     "options": [
+      "Up to S$200 Cashback on Cashline"
+     ],
      "value": {
       "amount": 200.0,
       "currency": "SGD"
      },
+     "new_to_bank_only": true,
+     "stackable": true,
+     "terms": "Stackable Welcome Offer promotion is valid from 1 September 2026 to 30 September 2026. Promotion is valid for new DBS / POSB credit cardmembers only. Apply and get approved for selected credit cards from DBS and POSB during the promo period and select “Cashline” in your application on the DBS/POSB website (except foreigners) to be eligible for S$100 cash reward. Receive an additional S$100 cash with a minimum S$188 closing balance accumulated for Cashline withdrawals in the first two statement months upon account opening. Terms and Conditions apply.",
      "valid_from": "2026-08-31",
      "valid_to": "2026-09-30",
      "url": "https://www.singsaver.com.sg/credit-card/products/dbs-altitude-visa-signature-card",
@@ -7782,10 +8320,29 @@
     {
      "offered_by": "singsaver",
      "description": "SingSaver Exclusive Offer: choice of S$288 Cash via PayNow; S$310 Grab Voucher; 18,000 Max Miles by HeyMax (worth S$324); Morning Mini Coffee Machine + 20 Capsules Bundle (worth S$425); Samsonite Straren Spinner 67/24 (worth S$600); Dyson V8 Cyclone Vacuum Cleaner (worth S$559, top up S$150); Dyson Airstrait™ hair straightener (worth S$799) (Top up S$200); Sony WH-1000XM6 Headphones (worth S$649) (top up S$200); Apple iPad (A16) 11\" 128GB WiFi (worth S$649) (Top up S$350)",
+     "options": [
+      "S$288 Cash via PayNow",
+      "S$310 Grab Voucher",
+      "18,000 Max Miles by HeyMax (worth S$324)",
+      "Morning Mini Coffee Machine + 20 Capsules Bundle (worth S$425)",
+      "Samsonite Straren Spinner 67/24 (worth S$600)",
+      "Dyson V8 Cyclone Vacuum Cleaner (worth S$559, top up S$150)",
+      "Dyson Airstrait™ hair straightener (worth S$799) (Top up S$200)",
+      "Sony WH-1000XM6 Headphones (worth S$649) (top up S$200)",
+      "Apple iPad (A16) 11\" 128GB WiFi (worth S$649) (Top up S$350)"
+     ],
      "value": {
       "amount": 288.0,
       "currency": "SGD"
      },
+     "min_spend": {
+      "amount": 500.0,
+      "currency": "SGD"
+     },
+     "spend_within_days": 30,
+     "new_to_bank_only": true,
+     "stackable": false,
+     "terms": "SingSaver Exclusive Offer promotion is valid from 17 September 2026 to 30 September 2026 Promotion is valid for new DBS / POSB credit cardmembers only. Apply for selected credit cards from DBS and POSB within the promo period using the promo code \" SINGSAVER \" during the application and make a min. spend of S$500 within 30 days from card approval date to be eligible for reward. Have a valid DBS PayLah! account by the end of the Qualifying Spend period to be eligible for the reward, Some rewards will require additional top-up to claim. Promotion does not stack with other welcome offers from DBS / POSB. Terms and Conditions apply.",
      "valid_from": "2026-09-16",
      "valid_to": "2026-09-30",
      "url": "https://www.singsaver.com.sg/credit-card/products/dbs-altitude-visa-signature-card",
@@ -7795,7 +8352,18 @@
     },
     {
      "offered_by": "moneysmart",
-     "description": "Choice of: Samsonite MINTER 80/30 Luggage; Up to 38,000 miles. Terms: Valid for New Customers only\nUse promo code \nMINTER\n when applying\nCharge a min. of S$800 within 60 days from the date of card approval\nHave a valid DBS PayLah! account by the end of the Qualifying Spend period",
+     "description": "Choice of: Samsonite MINTER 80/30 Luggage; Up to 38,000 miles",
+     "options": [
+      "Samsonite MINTER 80/30 Luggage",
+      "Up to 38,000 miles"
+     ],
+     "min_spend": {
+      "amount": 800.0,
+      "currency": "SGD"
+     },
+     "spend_within_days": 60,
+     "new_to_bank_only": true,
+     "terms": "Valid for New Customers only Use promo code MINTER when applying Charge a min. of S$800 within 60 days from the date of card approval Have a valid DBS PayLah! account by the end of the Qualifying Spend period",
      "url": "https://www.moneysmart.sg/credit-cards/dbs-altitude-visa-signature-card",
      "sources": [
       "moneysmart:fbcf8e7229a3"
@@ -7991,6 +8559,8 @@
      ]
     }
    ],
+   "spend_cycle": "calendar_month",
+   "spend_cycle_sources": [],
    "general_exclusions": {
     "tags": [],
     "include_mcc": [],
@@ -8007,10 +8577,16 @@
     {
      "offered_by": "singsaver",
      "description": "Stackable Welcome Offer: choice of Up to S$200 Cashback on Cashline",
+     "options": [
+      "Up to S$200 Cashback on Cashline"
+     ],
      "value": {
       "amount": 200.0,
       "currency": "SGD"
      },
+     "new_to_bank_only": true,
+     "stackable": true,
+     "terms": "Stackable Welcome Offer promotion is valid from 1 September 2026 to 30 September 2026. Promotion is valid for new DBS / POSB credit cardmembers only. Apply and get approved for selected credit cards from DBS and POSB during the promo period and select “Cashline” in your application on the DBS/POSB website (except foreigners) to be eligible for S$100 cash reward. Receive an additional S$100 cash with a minimum S$188 closing balance accumulated for Cashline withdrawals in the first two statement months upon account opening. Terms and Conditions apply.",
      "valid_from": "2026-08-31",
      "valid_to": "2026-09-30",
      "url": "https://www.singsaver.com.sg/credit-card/products/dbs-chromo-card",
@@ -8021,10 +8597,29 @@
     {
      "offered_by": "singsaver",
      "description": "SingSaver Exclusive Offer: choice of S$288 Cash via PayNow; S$310 Grab Voucher; 18,000 Max Miles by HeyMax (worth S$324); Samsung Galaxy Buds4 Pro (worth S$349); Samsonite Straren Spinner 67/24 (worth S$600); Dyson V8 Cyclone Vacuum Cleaner (worth S$559, top up S$150); Dyson Airstrait™ hair straightener (worth S$799) (Top up S$200); Sony WH-1000XM6 Headphones (worth S$649) (top up S$200); Apple iPad (A16) 11\" 128GB WiFi (worth S$649) (Top up S$350)",
+     "options": [
+      "S$288 Cash via PayNow",
+      "S$310 Grab Voucher",
+      "18,000 Max Miles by HeyMax (worth S$324)",
+      "Samsung Galaxy Buds4 Pro (worth S$349)",
+      "Samsonite Straren Spinner 67/24 (worth S$600)",
+      "Dyson V8 Cyclone Vacuum Cleaner (worth S$559, top up S$150)",
+      "Dyson Airstrait™ hair straightener (worth S$799) (Top up S$200)",
+      "Sony WH-1000XM6 Headphones (worth S$649) (top up S$200)",
+      "Apple iPad (A16) 11\" 128GB WiFi (worth S$649) (Top up S$350)"
+     ],
      "value": {
       "amount": 288.0,
       "currency": "SGD"
      },
+     "min_spend": {
+      "amount": 500.0,
+      "currency": "SGD"
+     },
+     "spend_within_days": 30,
+     "new_to_bank_only": true,
+     "stackable": false,
+     "terms": "SingSaver Exclusive Offer promotion is valid from 17 September 2026 to 30 September 2026. Promotion is valid for new DBS / POSB credit cardmembers only. Apply for selected credit cards from DBS and POSB within the promo period using the promo code \" SINGSAVER \" during the application and make a min. spend of S$500 within 30 days from card approval date to be eligible for reward. Have a valid DBS PayLah! account by the end of the Qualifying Spend period to be eligible for the reward, Some rewards will require additional top-up to claim. Promotion does not stack with other welcome offers from DBS / POSB. Terms and Conditions apply.",
      "valid_from": "2026-09-16",
      "valid_to": "2026-09-30",
      "url": "https://www.singsaver.com.sg/credit-card/products/dbs-chromo-card",
@@ -8034,7 +8629,22 @@
     },
     {
      "offered_by": "moneysmart",
-     "description": "Choice of: Samsonite MINTER 80/30 Luggage; S$288 Cashback. Terms: Valid for New Customers only\nUse promo code \nCSSAM\n when applying\nCharge a min. of S$500 within 60 days from the date of card approval\nHave a valid DBS PayLah! account by the end of the Qualifying Spend period",
+     "description": "Choice of: Samsonite MINTER 80/30 Luggage; S$288 Cashback",
+     "options": [
+      "Samsonite MINTER 80/30 Luggage",
+      "S$288 Cashback"
+     ],
+     "value": {
+      "amount": 288.0,
+      "currency": "SGD"
+     },
+     "min_spend": {
+      "amount": 500.0,
+      "currency": "SGD"
+     },
+     "spend_within_days": 60,
+     "new_to_bank_only": true,
+     "terms": "Valid for New Customers only Use promo code CSSAM when applying Charge a min. of S$500 within 60 days from the date of card approval Have a valid DBS PayLah! account by the end of the Qualifying Spend period",
      "url": "https://www.moneysmart.sg/credit-cards/dbs-chromo-card",
      "sources": [
       "moneysmart:42909b088c22"
@@ -8159,6 +8769,8 @@
      ]
     }
    ],
+   "spend_cycle": "calendar_month",
+   "spend_cycle_sources": [],
    "general_exclusions": {
     "tags": [],
     "include_mcc": [],
@@ -8267,7 +8879,7 @@
      "bonus_cap": {
       "amount": 15.0,
       "unit": "SGD_cashback",
-      "period": "calendar_month",
+      "period": "statement_month",
       "shared_with": [],
       "sources": [
        "singsaver:8256c549dc22"
@@ -8308,7 +8920,7 @@
      "bonus_cap": {
       "amount": 15.0,
       "unit": "SGD_cashback",
-      "period": "calendar_month",
+      "period": "statement_month",
       "shared_with": [],
       "sources": [
        "singsaver:8256c549dc22"
@@ -8372,6 +8984,8 @@
      ]
     }
    ],
+   "spend_cycle": "calendar_month",
+   "spend_cycle_sources": [],
    "general_exclusions": {
     "tags": [],
     "include_mcc": [],
@@ -8574,6 +9188,8 @@
      ]
     }
    ],
+   "spend_cycle": "calendar_month",
+   "spend_cycle_sources": [],
    "general_exclusions": {
     "tags": [],
     "include_mcc": [],
@@ -8804,6 +9420,8 @@
      ]
     }
    ],
+   "spend_cycle": "calendar_month",
+   "spend_cycle_sources": [],
    "general_exclusions": {
     "tags": [],
     "include_mcc": [],
@@ -8956,6 +9574,8 @@
      ]
     }
    ],
+   "spend_cycle": "calendar_month",
+   "spend_cycle_sources": [],
    "general_exclusions": {
     "tags": [],
     "include_mcc": [],
@@ -9125,6 +9745,8 @@
      ]
     }
    ],
+   "spend_cycle": "calendar_month",
+   "spend_cycle_sources": [],
    "general_exclusions": {
     "tags": [],
     "include_mcc": [],
@@ -9386,6 +10008,8 @@
      ]
     }
    ],
+   "spend_cycle": "calendar_month",
+   "spend_cycle_sources": [],
    "general_exclusions": {
     "tags": [],
     "include_mcc": [],
@@ -9617,6 +10241,8 @@
      ]
     }
    ],
+   "spend_cycle": "calendar_month",
+   "spend_cycle_sources": [],
    "general_exclusions": {
     "tags": [],
     "include_mcc": [],
@@ -9933,6 +10559,8 @@
      ]
     }
    ],
+   "spend_cycle": "calendar_month",
+   "spend_cycle_sources": [],
    "general_exclusions": {
     "tags": [],
     "include_mcc": [],
@@ -10130,6 +10758,8 @@
      ]
     }
    ],
+   "spend_cycle": "calendar_month",
+   "spend_cycle_sources": [],
    "general_exclusions": {
     "tags": [],
     "include_mcc": [],
@@ -10146,10 +10776,16 @@
     {
      "offered_by": "singsaver",
      "description": "Stackable Welcome Offer: choice of Up to S$200 Cashback on Cashline",
+     "options": [
+      "Up to S$200 Cashback on Cashline"
+     ],
      "value": {
       "amount": 200.0,
       "currency": "SGD"
      },
+     "new_to_bank_only": true,
+     "stackable": true,
+     "terms": "Stackable Welcome Offer promotion is valid from 1 September 2026 to 30 September 2026. Promotion is valid for new DBS / POSB credit cardmembers only. Apply and get approved for selected credit cards from DBS and POSB during the promo period and select “Cashline” in your application on the DBS/POSB website (except foreigners) to be eligible for S$100 cash reward. Receive an additional S$100 cash with a minimum S$188 closing balance accumulated for Cashline withdrawals in the first two statement months upon account opening. Terms and Conditions apply.",
      "valid_from": "2026-08-31",
      "valid_to": "2026-09-30",
      "url": "https://www.singsaver.com.sg/credit-card/products/dbs-yuu-american-express-card",
@@ -10160,10 +10796,29 @@
     {
      "offered_by": "singsaver",
      "description": "SingSaver Exclusive Offer: choice of S$288 Cash via PayNow; S$310 Grab Voucher; 18,000 Max Miles by HeyMax (worth S$324); Morning Mini Coffee Machine + 20 Capsules Bundle (worth S$425); Samsonite Straren Spinner 67/24 (worth S$600); Dyson V8 Cyclone Vacuum Cleaner (worth S$559, top up S$150); Dyson Airstrait™ hair straightener (worth S$799) (Top up S$200); Sony WH-1000XM6 Headphones (worth S$649) (top up S$200); Apple iPad (A16) 11\" 128GB WiFi (worth S$649) (Top up S$350)",
+     "options": [
+      "S$288 Cash via PayNow",
+      "S$310 Grab Voucher",
+      "18,000 Max Miles by HeyMax (worth S$324)",
+      "Morning Mini Coffee Machine + 20 Capsules Bundle (worth S$425)",
+      "Samsonite Straren Spinner 67/24 (worth S$600)",
+      "Dyson V8 Cyclone Vacuum Cleaner (worth S$559, top up S$150)",
+      "Dyson Airstrait™ hair straightener (worth S$799) (Top up S$200)",
+      "Sony WH-1000XM6 Headphones (worth S$649) (top up S$200)",
+      "Apple iPad (A16) 11\" 128GB WiFi (worth S$649) (Top up S$350)"
+     ],
      "value": {
       "amount": 288.0,
       "currency": "SGD"
      },
+     "min_spend": {
+      "amount": 500.0,
+      "currency": "SGD"
+     },
+     "spend_within_days": 30,
+     "new_to_bank_only": true,
+     "stackable": false,
+     "terms": "SingSaver Exclusive Offer promotion is valid from 17 September 2026 to 30 September 2026 Promotion is valid for new DBS / POSB credit cardmembers only. Apply for selected credit cards from DBS and POSB within the promo period using the promo code \" SINGSAVER \" during the application and make a min. spend of S$500 within 30 days from card approval date to be eligible for reward. Have a valid DBS PayLah! account by the end of the Qualifying Spend period to be eligible for the reward, Some rewards will require additional top-up to claim. Promotion does not stack with other welcome offers from DBS / POSB. Terms and Conditions apply.",
      "valid_from": "2026-09-16",
      "valid_to": "2026-09-30",
      "url": "https://www.singsaver.com.sg/credit-card/products/dbs-yuu-american-express-card",
@@ -10173,7 +10828,22 @@
     },
     {
      "offered_by": "moneysmart",
-     "description": "Choice of: Samsonite MINTER 80/30 Luggage; S$288 Cashback. Terms: Valid for New Customers only\nUse promo code \nMINTER\n when applying\nCharge a min. of S$800 within 60 days from the date of card approval\nHave a valid DBS PayLah! account by the end of the Qualifying Spend period",
+     "description": "Choice of: Samsonite MINTER 80/30 Luggage; S$288 Cashback",
+     "options": [
+      "Samsonite MINTER 80/30 Luggage",
+      "S$288 Cashback"
+     ],
+     "value": {
+      "amount": 288.0,
+      "currency": "SGD"
+     },
+     "min_spend": {
+      "amount": 800.0,
+      "currency": "SGD"
+     },
+     "spend_within_days": 60,
+     "new_to_bank_only": true,
+     "terms": "Valid for New Customers only Use promo code MINTER when applying Charge a min. of S$800 within 60 days from the date of card approval Have a valid DBS PayLah! account by the end of the Qualifying Spend period",
      "url": "https://www.moneysmart.sg/credit-cards/dbs-yuu-american-express-card",
      "sources": [
       "moneysmart:fbcf8e7229a3"
@@ -10308,6 +10978,8 @@
      ]
     }
    ],
+   "spend_cycle": "calendar_month",
+   "spend_cycle_sources": [],
    "general_exclusions": {
     "tags": [],
     "include_mcc": [],
@@ -10324,10 +10996,16 @@
     {
      "offered_by": "singsaver",
      "description": "Stackable Welcome Offer: choice of Up to S$200 Cashback on Cashline",
+     "options": [
+      "Up to S$200 Cashback on Cashline"
+     ],
      "value": {
       "amount": 200.0,
       "currency": "SGD"
      },
+     "new_to_bank_only": true,
+     "stackable": true,
+     "terms": "Stackable Welcome Offer promotion is valid from 1 September 2026 to 30 September 2026. Promotion is valid for new DBS / POSB credit cardmembers only. Apply and get approved for selected credit cards from DBS and POSB during the promo period and select “Cashline” in your application on the DBS/POSB website (except foreigners) to be eligible for S$100 cash reward. Receive an additional S$100 cash with a minimum S$188 closing balance accumulated for Cashline withdrawals in the first two statement months upon account opening. Terms and Conditions apply.",
      "valid_from": "2026-08-31",
      "valid_to": "2026-09-30",
      "url": "https://www.singsaver.com.sg/credit-card/products/dbs-yuu-visa-card",
@@ -10338,10 +11016,29 @@
     {
      "offered_by": "singsaver",
      "description": "SingSaver Exclusive Offer: choice of S$288 Cash via PayNow; S$310 Grab Voucher; 18,000 Max Miles by HeyMax (worth S$324); Morning Mini Coffee Machine + 20 Capsules Bundle (worth S$425); Samsonite Straren Spinner 67/24 (worth S$600); Dyson V8 Cyclone Vacuum Cleaner (worth S$559, top up S$150); Dyson Airstrait™ hair straightener (worth S$799) (Top up S$200); Sony WH-1000XM6 Headphones (worth S$649) (top up S$200); Apple iPad (A16) 11\" 128GB WiFi (worth S$649) (Top up S$350)",
+     "options": [
+      "S$288 Cash via PayNow",
+      "S$310 Grab Voucher",
+      "18,000 Max Miles by HeyMax (worth S$324)",
+      "Morning Mini Coffee Machine + 20 Capsules Bundle (worth S$425)",
+      "Samsonite Straren Spinner 67/24 (worth S$600)",
+      "Dyson V8 Cyclone Vacuum Cleaner (worth S$559, top up S$150)",
+      "Dyson Airstrait™ hair straightener (worth S$799) (Top up S$200)",
+      "Sony WH-1000XM6 Headphones (worth S$649) (top up S$200)",
+      "Apple iPad (A16) 11\" 128GB WiFi (worth S$649) (Top up S$350)"
+     ],
      "value": {
       "amount": 288.0,
       "currency": "SGD"
      },
+     "min_spend": {
+      "amount": 500.0,
+      "currency": "SGD"
+     },
+     "spend_within_days": 30,
+     "new_to_bank_only": true,
+     "stackable": false,
+     "terms": "SingSaver Exclusive Offer promotion is valid from 17 September 2026 to 30 September 2026 Promotion is valid for new DBS / POSB credit cardmembers only. Apply for selected credit cards from DBS and POSB within the promo period using the promo code \" SINGSAVER \" during the application and make a min. spend of S$500 within 30 days from card approval date to be eligible for reward. Have a valid DBS PayLah! account by the end of the Qualifying Spend period to be eligible for the reward, Some rewards will require additional top-up to claim. Promotion does not stack with other welcome offers from DBS / POSB. Terms and Conditions apply.",
      "valid_from": "2026-09-16",
      "valid_to": "2026-09-30",
      "url": "https://www.singsaver.com.sg/credit-card/products/dbs-yuu-visa-card",
@@ -10351,7 +11048,22 @@
     },
     {
      "offered_by": "moneysmart",
-     "description": "Choice of: Samsonite MINTER 80/30 Luggage; S$288 Cashback. Terms: Valid for New Customers only\nUse promo code \nMINTER\n when applying\nCharge a min. of S$800 within 60 days from the date of card approval\nHave a valid DBS PayLah! account by the end of the Qualifying Spend period",
+     "description": "Choice of: Samsonite MINTER 80/30 Luggage; S$288 Cashback",
+     "options": [
+      "Samsonite MINTER 80/30 Luggage",
+      "S$288 Cashback"
+     ],
+     "value": {
+      "amount": 288.0,
+      "currency": "SGD"
+     },
+     "min_spend": {
+      "amount": 800.0,
+      "currency": "SGD"
+     },
+     "spend_within_days": 60,
+     "new_to_bank_only": true,
+     "terms": "Valid for New Customers only Use promo code MINTER when applying Charge a min. of S$800 within 60 days from the date of card approval Have a valid DBS PayLah! account by the end of the Qualifying Spend period",
      "url": "https://www.moneysmart.sg/credit-cards/dbs-yuu-visa-card",
      "sources": [
       "moneysmart:42909b088c22"
@@ -10517,6 +11229,8 @@
      ]
     }
    ],
+   "spend_cycle": "calendar_month",
+   "spend_cycle_sources": [],
    "general_exclusions": {
     "tags": [],
     "include_mcc": [],
@@ -10646,6 +11360,8 @@
      ]
     }
    ],
+   "spend_cycle": "calendar_month",
+   "spend_cycle_sources": [],
    "general_exclusions": {
     "tags": [],
     "include_mcc": [],
@@ -10857,6 +11573,8 @@
      ]
     }
    ],
+   "spend_cycle": "calendar_month",
+   "spend_cycle_sources": [],
    "general_exclusions": {
     "tags": [],
     "include_mcc": [],
@@ -10873,6 +11591,17 @@
     {
      "offered_by": "singsaver",
      "description": "SingSaver Exclusive Welcome Offer: choice of 10,000 Miles or 24\" Caterpillar Trunk Luggage worth S$380",
+     "options": [
+      "10,000 Miles or 24\" Caterpillar Trunk Luggage worth S$380"
+     ],
+     "min_spend": {
+      "amount": 800.0,
+      "currency": "SGD"
+     },
+     "spend_within_days": 30,
+     "new_to_bank_only": true,
+     "stackable": true,
+     "terms": "SingSaver Exclusive Welcome Offer promotion is valid from 1 September 2026 to 31 December 2026. Promotion is valid for New-to-DCS customers only. Apply and get approved for the DCS Flex Visa Platinum Card and make the min. spend of S$800 within 30 days of card approval to be eligible for reward. Rewards are fulfilled by DCS. Promotion is stackable with other Welcome Offers from DCS where applicable (additional T&Cs apply). Terms and Conditions apply.",
      "valid_from": "2026-08-31",
      "valid_to": "2026-12-31",
      "url": "https://www.singsaver.com.sg/credit-card/products/dcs-flex-visa-platinum-card",
@@ -10882,7 +11611,17 @@
     },
     {
      "offered_by": "moneysmart",
-     "description": "Choice of: S$50 GrabGifts Voucher. Terms: - Valid for New-To-DCS Credit Card customers\n- Spend a min. of S$800 in Eligible Transactions within 30 days",
+     "description": "Choice of: S$50 GrabGifts Voucher",
+     "options": [
+      "S$50 GrabGifts Voucher"
+     ],
+     "min_spend": {
+      "amount": 800.0,
+      "currency": "SGD"
+     },
+     "spend_within_days": 30,
+     "new_to_bank_only": true,
+     "terms": "- Valid for New-To-DCS Credit Card customers - Spend a min. of S$800 in Eligible Transactions within 30 days",
      "url": "https://www.moneysmart.sg/credit-cards/dcs-flex-visa-platinum-card",
      "sources": [
       "moneysmart:42909b088c22"
@@ -11075,6 +11814,8 @@
      ]
     }
    ],
+   "spend_cycle": "calendar_month",
+   "spend_cycle_sources": [],
    "general_exclusions": {
     "tags": [],
     "include_mcc": [],
@@ -11091,6 +11832,16 @@
     {
      "offered_by": "singsaver",
      "description": "SingSaver Exclusive Welcome Offer: choice of Get up to a 24-inch GOTRIP Luggage + S$50 Gojek Voucher",
+     "options": [
+      "Get up to a 24-inch GOTRIP Luggage + S$50 Gojek Voucher"
+     ],
+     "min_spend": {
+      "amount": 500.0,
+      "currency": "SGD"
+     },
+     "spend_within_days": 30,
+     "new_to_bank_only": true,
+     "terms": "SingSaver Exclusive Welcome Offer promotion is valid from 1 September 2026 to 30 September 2026. Promotion is valid for new customers of DCS cards only. Apply and get approved for the DCS Ultimate Platinum Mastercard and meet the min. spend criteria within 30 days of card approval to be eligible for reward: Make a min. spend of S$500 within 30 days of card approval to be eligible for a 20-inch GOTRIP Luggage Bag . Make a min. spend of S$800 within 30 days of card approval to be eligible for a 24-inch GOTRIP Luggage Bag . You will only receive one of the above rewards. Additionally, accumulate a min. spend of S$1,000 in Qualifying Transactions within 30 days of the card approval date to be eligible for a S$50 Gojek Voucher on top of the above reward. All of the above rewards are fulfilled by DCS. Terms and Conditions apply.",
      "valid_from": "2026-08-31",
      "valid_to": "2026-09-30",
      "url": "https://www.singsaver.com.sg/credit-card/products/dcs-ultimate-platinum-mastercard",
@@ -11100,7 +11851,17 @@
     },
     {
      "offered_by": "moneysmart",
-     "description": "Choice of: S$50 Gojek Voucher. Terms: Valid for New-To-DCS Credit Card customers\nSpend a min. of S$1,000 in Eligible Transactions within 30 days",
+     "description": "Choice of: S$50 Gojek Voucher",
+     "options": [
+      "S$50 Gojek Voucher"
+     ],
+     "min_spend": {
+      "amount": 1000.0,
+      "currency": "SGD"
+     },
+     "spend_within_days": 30,
+     "new_to_bank_only": true,
+     "terms": "Valid for New-To-DCS Credit Card customers Spend a min. of S$1,000 in Eligible Transactions within 30 days",
      "url": "https://www.moneysmart.sg/credit-cards/dcs-ultimate-platinum-mastercard",
      "sources": [
       "moneysmart:eeee24fb93a9"
@@ -11293,6 +12054,8 @@
      ]
     }
    ],
+   "spend_cycle": "calendar_month",
+   "spend_cycle_sources": [],
    "general_exclusions": {
     "tags": [],
     "include_mcc": [],
@@ -11309,6 +12072,16 @@
     {
      "offered_by": "singsaver",
      "description": "SingSaver Exclusive Welcome Offer: choice of Get up to a 24-inch GOTRIP Luggage + S$50 Gojek Voucher",
+     "options": [
+      "Get up to a 24-inch GOTRIP Luggage + S$50 Gojek Voucher"
+     ],
+     "min_spend": {
+      "amount": 500.0,
+      "currency": "SGD"
+     },
+     "spend_within_days": 30,
+     "new_to_bank_only": true,
+     "terms": "SingSaver Exclusive Welcome Offer promotion is valid from 1 September 2026 to 30 September 2026. Promotion is valid for new customers of DCS cards only. Apply and get approved for the DCS Ultimate Platinum UnionPay Card and meet the min. spend criteria within 30 days of card approval to be eligible for reward: Make a min. spend of S$500 within 30 days of card approval to be eligible for a 20-inch GOTRIP Luggage Bag . Make a min. spend of S$800 within 30 days of card approval to be eligible for a 24-inch GOTRIP Luggage Bag . You will only receive one of the above rewards. Additionally, accumulate a min. spend of S$1,000 in Qualifying Transactions within 30 days of the card approval date to be eligible for a S$50 Gojek Voucher on top of the above reward. All of the above rewards are fulfilled by DCS. Terms and Conditions apply.",
      "valid_from": "2026-08-31",
      "valid_to": "2026-09-30",
      "url": "https://www.singsaver.com.sg/credit-card/products/dcs-ultimate-platinum-unionpay-card",
@@ -11318,7 +12091,17 @@
     },
     {
      "offered_by": "moneysmart",
-     "description": "Choice of: S$50 GrabGifts Voucher. Terms: - Valid for New-To-DCS Credit Card customers\n- Spend a min. of S$800 in Eligible Transactions within 30 days",
+     "description": "Choice of: S$50 GrabGifts Voucher",
+     "options": [
+      "S$50 GrabGifts Voucher"
+     ],
+     "min_spend": {
+      "amount": 800.0,
+      "currency": "SGD"
+     },
+     "spend_within_days": 30,
+     "new_to_bank_only": true,
+     "terms": "- Valid for New-To-DCS Credit Card customers - Spend a min. of S$800 in Eligible Transactions within 30 days",
      "url": "https://www.moneysmart.sg/credit-cards/dcs-ultimate-platinum-card",
      "sources": [
       "moneysmart:42909b088c22"
@@ -11469,6 +12252,8 @@
      ]
     }
    ],
+   "spend_cycle": "calendar_month",
+   "spend_cycle_sources": [],
    "general_exclusions": {
     "tags": [],
     "include_mcc": [],
@@ -11485,10 +12270,29 @@
     {
      "offered_by": "singsaver",
      "description": "SingSaver Exclusive Offer: choice of S$450 Upsized Cash via PayNow; ECOVACS DEEBOT mini 2 (worth S$499); Dyson Airstrait™ straightener (worth S$799); Dyson V8 Cyclone Vacuum Cleaner (worth S$559); 28,000 Max Miles by HeyMax (worth S$504); Dyson Airwrap™ multi-styler and dryer (worth S$799) (top up S$50); Dyson Clean+Wash Hygiene hard floor cleaner (worth S$729) (Top up S$150); Apple Watch Series 12 Aluminum 42mm GPS (worth S$599) (Top-up S$130); Apple iPad (A16) 11\" 128GB WiFi (worth S$649) (Top up S$150); Apple MacBook Neo (A18 Pro) 256GB w/ Magic Keyboard (worth S$999, top up S$540); Apple iPhone 18 Pro 256GB (worth S$1,899, top up S$1,300)",
+     "options": [
+      "S$450 Upsized Cash via PayNow",
+      "ECOVACS DEEBOT mini 2 (worth S$499)",
+      "Dyson Airstrait™ straightener (worth S$799)",
+      "Dyson V8 Cyclone Vacuum Cleaner (worth S$559)",
+      "28,000 Max Miles by HeyMax (worth S$504)",
+      "Dyson Airwrap™ multi-styler and dryer (worth S$799) (top up S$50)",
+      "Dyson Clean+Wash Hygiene hard floor cleaner (worth S$729) (Top up S$150)",
+      "Apple Watch Series 12 Aluminum 42mm GPS (worth S$599) (Top-up S$130)",
+      "Apple iPad (A16) 11\" 128GB WiFi (worth S$649) (Top up S$150)",
+      "Apple MacBook Neo (A18 Pro) 256GB w/ Magic Keyboard (worth S$999, top up S$540)",
+      "Apple iPhone 18 Pro 256GB (worth S$1,899, top up S$1,300)"
+     ],
      "value": {
       "amount": 450.0,
       "currency": "SGD"
      },
+     "min_spend": {
+      "amount": 500.0,
+      "currency": "SGD"
+     },
+     "new_to_bank_only": true,
+     "terms": "SingSaver Flash Deal promotion runs from 1 September 2026 to 30 September 2026. Promotion is valid for new HSBC credit cardmembers only. Apply for participating HSBC credit cards with provided marketing consent, then make a min. spend of S$500 by the end of the following calendar month from card approval date to be eligible for reward Terms and Conditions apply.",
      "valid_from": "2026-08-31",
      "valid_to": "2026-09-30",
      "url": "https://www.singsaver.com.sg/credit-card/products/hsbc-advance-credit-card",
@@ -11498,7 +12302,25 @@
     },
     {
      "offered_by": "moneysmart",
-     "description": "Choice of: S$400 Cash via PayNow; Shopee Voucher $450; Apple iPhone 18 Pro (256GB, Burgundy); Apple AirPods Pro 3; Apple Watch Series 12, 42mm (GPS, Black Aluminium Case with Black Sport Band); Sony WH-1000XM6 Wireless Noise Cancelling Headphones (Black). Terms: • Apply for a HSBC credit card by 30th Sept 2026\n• Spend a \nmin. of S$500 from Card Account Opening Date to end of the following calendar month.\n• Submit the Claim Form by 30th Oct 2026",
+     "description": "Choice of: S$400 Cash via PayNow; Shopee Voucher $450; Apple iPhone 18 Pro (256GB, Burgundy); Apple AirPods Pro 3; Apple Watch Series 12, 42mm (GPS, Black Aluminium Case with Black Sport Band); Sony WH-1000XM6 Wireless Noise Cancelling Headphones (Black)",
+     "options": [
+      "S$400 Cash via PayNow",
+      "Shopee Voucher $450",
+      "Apple iPhone 18 Pro (256GB, Burgundy)",
+      "Apple AirPods Pro 3",
+      "Apple Watch Series 12, 42mm (GPS, Black Aluminium Case with Black Sport Band)",
+      "Sony WH-1000XM6 Wireless Noise Cancelling Headphones (Black)"
+     ],
+     "value": {
+      "amount": 400.0,
+      "currency": "SGD"
+     },
+     "min_spend": {
+      "amount": 500.0,
+      "currency": "SGD"
+     },
+     "terms": "• Apply for a HSBC credit card by 30th Sept 2026 • Spend a min. of S$500 from Card Account Opening Date to end of the following calendar month. • Submit the Claim Form by 30th Oct 2026",
+     "valid_to": "2026-09-30",
      "url": "https://www.moneysmart.sg/credit-cards/hsbc-advance-credit-card",
      "sources": [
       "moneysmart:42909b088c22"
@@ -11703,6 +12525,8 @@
      ]
     }
    ],
+   "spend_cycle": "calendar_month",
+   "spend_cycle_sources": [],
    "general_exclusions": {
     "tags": [],
     "include_mcc": [],
@@ -11719,10 +12543,29 @@
     {
      "offered_by": "singsaver",
      "description": "SingSaver Exclusive Offer: choice of S$450 Upsized Cash via PayNow; ECOVACS DEEBOT mini 2 (worth S$499); Dyson Airstrait™ straightener (worth S$799); Dyson V8 Cyclone Vacuum Cleaner (worth S$559); 28,000 Max Miles by HeyMax (worth S$504); Dyson Airwrap™ multi-styler and dryer (worth S$799) (top up S$50); Dyson Clean+Wash Hygiene hard floor cleaner (worth S$729) (Top up S$150); Apple Watch Series 12 Aluminum 42mm GPS (worth S$599) (Top-up S$130); Apple iPad (A16) 11\" 128GB WiFi (worth S$649) (Top up S$150); Apple MacBook Neo (A18 Pro) 256GB w/ Magic Keyboard (worth S$999, top up S$540); Apple iPhone 18 Pro 256GB (worth S$1,899, top up S$1,300)",
+     "options": [
+      "S$450 Upsized Cash via PayNow",
+      "ECOVACS DEEBOT mini 2 (worth S$499)",
+      "Dyson Airstrait™ straightener (worth S$799)",
+      "Dyson V8 Cyclone Vacuum Cleaner (worth S$559)",
+      "28,000 Max Miles by HeyMax (worth S$504)",
+      "Dyson Airwrap™ multi-styler and dryer (worth S$799) (top up S$50)",
+      "Dyson Clean+Wash Hygiene hard floor cleaner (worth S$729) (Top up S$150)",
+      "Apple Watch Series 12 Aluminum 42mm GPS (worth S$599) (Top-up S$130)",
+      "Apple iPad (A16) 11\" 128GB WiFi (worth S$649) (Top up S$150)",
+      "Apple MacBook Neo (A18 Pro) 256GB w/ Magic Keyboard (worth S$999, top up S$540)",
+      "Apple iPhone 18 Pro 256GB (worth S$1,899, top up S$1,300)"
+     ],
      "value": {
       "amount": 450.0,
       "currency": "SGD"
      },
+     "min_spend": {
+      "amount": 500.0,
+      "currency": "SGD"
+     },
+     "new_to_bank_only": true,
+     "terms": "SingSaver Flash Deal promotion runs from 1 September 2026 to 30 September 2026. Promotion is valid for new HSBC credit cardmembers only. Apply for participating HSBC credit cards with provided marketing consent, then make a min. spend of S$500 by the end of the following calendar month from card approval date to be eligible for reward Terms and Conditions apply.",
      "valid_from": "2026-08-31",
      "valid_to": "2026-09-30",
      "url": "https://www.singsaver.com.sg/credit-card/products/hsbc-live-plus-credit-card",
@@ -11732,7 +12575,25 @@
     },
     {
      "offered_by": "moneysmart",
-     "description": "Choice of: S$400 Cash via PayNow; Shopee Voucher $450; Apple iPhone 18 Pro (256GB, Burgundy); Apple AirPods Pro 3; Apple Watch Series 12, 42mm (GPS, Black Aluminium Case with Black Sport Band); Sony WH-1000XM6 Wireless Noise Cancelling Headphones (Black). Terms: • Apply for a HSBC credit card by 30th Sept 2026\n• Spend a \nmin. of S$500 from Card Account Opening Date to end of the following calendar month.\n• Submit the Claim Form by 30th Oct 2026",
+     "description": "Choice of: S$400 Cash via PayNow; Shopee Voucher $450; Apple iPhone 18 Pro (256GB, Burgundy); Apple AirPods Pro 3; Apple Watch Series 12, 42mm (GPS, Black Aluminium Case with Black Sport Band); Sony WH-1000XM6 Wireless Noise Cancelling Headphones (Black)",
+     "options": [
+      "S$400 Cash via PayNow",
+      "Shopee Voucher $450",
+      "Apple iPhone 18 Pro (256GB, Burgundy)",
+      "Apple AirPods Pro 3",
+      "Apple Watch Series 12, 42mm (GPS, Black Aluminium Case with Black Sport Band)",
+      "Sony WH-1000XM6 Wireless Noise Cancelling Headphones (Black)"
+     ],
+     "value": {
+      "amount": 400.0,
+      "currency": "SGD"
+     },
+     "min_spend": {
+      "amount": 500.0,
+      "currency": "SGD"
+     },
+     "terms": "• Apply for a HSBC credit card by 30th Sept 2026 • Spend a min. of S$500 from Card Account Opening Date to end of the following calendar month. • Submit the Claim Form by 30th Oct 2026",
+     "valid_to": "2026-09-30",
      "url": "https://www.moneysmart.sg/credit-cards/hsbc-live-plus-card",
      "sources": [
       "moneysmart:eeee24fb93a9"
@@ -11942,7 +12803,7 @@
      "bonus_cap": {
       "amount": 5400.0,
       "unit": "miles",
-      "period": "calendar_month",
+      "period": "statement_month",
       "shared_with": [],
       "sources": [
        "singsaver:376bc02034d9"
@@ -11982,6 +12843,8 @@
      ]
     }
    ],
+   "spend_cycle": "calendar_month",
+   "spend_cycle_sources": [],
    "general_exclusions": {
     "tags": [],
     "include_mcc": [],
@@ -12049,10 +12912,29 @@
     {
      "offered_by": "singsaver",
      "description": "SingSaver Exclusive Offer: choice of S$450 Upsized Cash via PayNow; ECOVACS DEEBOT mini 2 (worth S$499); Dyson Airstrait™ straightener (worth S$799); Dyson V8 Cyclone Vacuum Cleaner (worth S$559); 28,000 Max Miles by HeyMax (worth S$504); Dyson Airwrap™ multi-styler and dryer (worth S$799) (top up S$50); Dyson Clean+Wash Hygiene hard floor cleaner (worth S$729) (Top up S$150); Apple Watch Series 12 Aluminum 42mm GPS (worth S$599) (Top-up S$130); Apple iPad (A16) 11\" 128GB WiFi (worth S$649) (Top up S$150); Apple MacBook Neo (A18 Pro) 256GB w/ Magic Keyboard (worth S$999, top up S$540); Apple iPhone 18 Pro 256GB (worth S$1,899, top up S$1,300)",
+     "options": [
+      "S$450 Upsized Cash via PayNow",
+      "ECOVACS DEEBOT mini 2 (worth S$499)",
+      "Dyson Airstrait™ straightener (worth S$799)",
+      "Dyson V8 Cyclone Vacuum Cleaner (worth S$559)",
+      "28,000 Max Miles by HeyMax (worth S$504)",
+      "Dyson Airwrap™ multi-styler and dryer (worth S$799) (top up S$50)",
+      "Dyson Clean+Wash Hygiene hard floor cleaner (worth S$729) (Top up S$150)",
+      "Apple Watch Series 12 Aluminum 42mm GPS (worth S$599) (Top-up S$130)",
+      "Apple iPad (A16) 11\" 128GB WiFi (worth S$649) (Top up S$150)",
+      "Apple MacBook Neo (A18 Pro) 256GB w/ Magic Keyboard (worth S$999, top up S$540)",
+      "Apple iPhone 18 Pro 256GB (worth S$1,899, top up S$1,300)"
+     ],
      "value": {
       "amount": 450.0,
       "currency": "SGD"
      },
+     "min_spend": {
+      "amount": 500.0,
+      "currency": "SGD"
+     },
+     "new_to_bank_only": true,
+     "terms": "SingSaver Flash Deal promotion runs from 1 September 2026 to 30 September 2026. Promotion is valid for new HSBC credit cardmembers only. Apply for participating HSBC credit cards with provided marketing consent, then make a min. spend of S$500 by the end of the following calendar month from card approval date to be eligible for reward Terms and Conditions apply.",
      "valid_from": "2026-08-31",
      "valid_to": "2026-09-30",
      "url": "https://www.singsaver.com.sg/credit-card/products/hsbc-revolution-credit-card",
@@ -12062,7 +12944,25 @@
     },
     {
      "offered_by": "moneysmart",
-     "description": "Choice of: S$400 Cash via PayNow; Shopee Voucher $450; Apple iPhone 18 Pro (256GB, Burgundy); Apple AirPods Pro 3; Apple Watch Series 12, 42mm (GPS, Black Aluminium Case with Black Sport Band); Sony WH-1000XM6 Wireless Noise Cancelling Headphones (Black). Terms: • Apply for a HSBC credit card by 30th Sept 2026\n• Spend a \nmin. of S$500 from Card Account Opening Date to end of the following calendar month.\n• Submit the Claim Form by 30th Oct 2026",
+     "description": "Choice of: S$400 Cash via PayNow; Shopee Voucher $450; Apple iPhone 18 Pro (256GB, Burgundy); Apple AirPods Pro 3; Apple Watch Series 12, 42mm (GPS, Black Aluminium Case with Black Sport Band); Sony WH-1000XM6 Wireless Noise Cancelling Headphones (Black)",
+     "options": [
+      "S$400 Cash via PayNow",
+      "Shopee Voucher $450",
+      "Apple iPhone 18 Pro (256GB, Burgundy)",
+      "Apple AirPods Pro 3",
+      "Apple Watch Series 12, 42mm (GPS, Black Aluminium Case with Black Sport Band)",
+      "Sony WH-1000XM6 Wireless Noise Cancelling Headphones (Black)"
+     ],
+     "value": {
+      "amount": 400.0,
+      "currency": "SGD"
+     },
+     "min_spend": {
+      "amount": 500.0,
+      "currency": "SGD"
+     },
+     "terms": "• Apply for a HSBC credit card by 30th Sept 2026 • Spend a min. of S$500 from Card Account Opening Date to end of the following calendar month. • Submit the Claim Form by 30th Oct 2026",
+     "valid_to": "2026-09-30",
      "url": "https://www.moneysmart.sg/credit-cards/hsbc-revolution-credit-card",
      "sources": [
       "moneysmart:eeee24fb93a9"
@@ -12422,6 +13322,8 @@
      ]
     }
    ],
+   "spend_cycle": "calendar_month",
+   "spend_cycle_sources": [],
    "general_exclusions": {
     "tags": [],
     "include_mcc": [],
@@ -12438,10 +13340,29 @@
     {
      "offered_by": "singsaver",
      "description": "SingSaver Exclusive Offer: choice of S$450 Upsized Cash via PayNow; ECOVACS DEEBOT mini 2 (worth S$499); Dyson Airstrait™ straightener (worth S$799); Dyson V8 Cyclone Vacuum Cleaner (worth S$559); 28,000 Max Miles by HeyMax (worth S$504); Dyson Airwrap™ multi-styler and dryer (worth S$799) (top up S$50); Dyson Clean+Wash Hygiene hard floor cleaner (worth S$729) (Top up S$150); Apple Watch Series 12 Aluminum 42mm GPS (worth S$599) (Top-up S$130); Apple iPad (A16) 11\" 128GB WiFi (worth S$649) (Top up S$150); Apple MacBook Neo (A18 Pro) 256GB w/ Magic Keyboard (worth S$999, top up S$540); Apple iPhone 18 Pro 256GB (worth S$1,899, top up S$1,300)",
+     "options": [
+      "S$450 Upsized Cash via PayNow",
+      "ECOVACS DEEBOT mini 2 (worth S$499)",
+      "Dyson Airstrait™ straightener (worth S$799)",
+      "Dyson V8 Cyclone Vacuum Cleaner (worth S$559)",
+      "28,000 Max Miles by HeyMax (worth S$504)",
+      "Dyson Airwrap™ multi-styler and dryer (worth S$799) (top up S$50)",
+      "Dyson Clean+Wash Hygiene hard floor cleaner (worth S$729) (Top up S$150)",
+      "Apple Watch Series 12 Aluminum 42mm GPS (worth S$599) (Top-up S$130)",
+      "Apple iPad (A16) 11\" 128GB WiFi (worth S$649) (Top up S$150)",
+      "Apple MacBook Neo (A18 Pro) 256GB w/ Magic Keyboard (worth S$999, top up S$540)",
+      "Apple iPhone 18 Pro 256GB (worth S$1,899, top up S$1,300)"
+     ],
      "value": {
       "amount": 450.0,
       "currency": "SGD"
      },
+     "min_spend": {
+      "amount": 500.0,
+      "currency": "SGD"
+     },
+     "new_to_bank_only": true,
+     "terms": "SingSaver Flash Deal promotion runs from 1 September 2026 to 30 September 2026. Promotion is valid for new HSBC credit cardmembers only. Apply for participating HSBC credit cards with provided marketing consent, then make a min. spend of S$500 by the end of the following calendar month from card approval date to be eligible for reward Terms and Conditions apply.",
      "valid_from": "2026-08-31",
      "valid_to": "2026-09-30",
      "url": "https://www.singsaver.com.sg/credit-card/products/hsbc-travelone-credit-card",
@@ -12451,7 +13372,25 @@
     },
     {
      "offered_by": "moneysmart",
-     "description": "Choice of: S$400 Cash via PayNow; Shopee Voucher $450; Apple iPhone 18 Pro (256GB, Burgundy); Apple AirPods Pro 3; Apple Watch Series 12, 42mm (GPS, Black Aluminium Case with Black Sport Band); Sony WH-1000XM6 Wireless Noise Cancelling Headphones (Black). Terms: • Apply for a HSBC credit card by 30th Sept 2026\n• Spend a \nmin. of S$500 from Card Account Opening Date to end of the following calendar month.\n• Submit the Claim Form by 30th Oct 2026",
+     "description": "Choice of: S$400 Cash via PayNow; Shopee Voucher $450; Apple iPhone 18 Pro (256GB, Burgundy); Apple AirPods Pro 3; Apple Watch Series 12, 42mm (GPS, Black Aluminium Case with Black Sport Band); Sony WH-1000XM6 Wireless Noise Cancelling Headphones (Black)",
+     "options": [
+      "S$400 Cash via PayNow",
+      "Shopee Voucher $450",
+      "Apple iPhone 18 Pro (256GB, Burgundy)",
+      "Apple AirPods Pro 3",
+      "Apple Watch Series 12, 42mm (GPS, Black Aluminium Case with Black Sport Band)",
+      "Sony WH-1000XM6 Wireless Noise Cancelling Headphones (Black)"
+     ],
+     "value": {
+      "amount": 400.0,
+      "currency": "SGD"
+     },
+     "min_spend": {
+      "amount": 500.0,
+      "currency": "SGD"
+     },
+     "terms": "• Apply for a HSBC credit card by 30th Sept 2026 • Spend a min. of S$500 from Card Account Opening Date to end of the following calendar month. • Submit the Claim Form by 30th Oct 2026",
+     "valid_to": "2026-09-30",
      "url": "https://www.moneysmart.sg/credit-cards/hsbc-travelone-card",
      "sources": [
       "moneysmart:eeee24fb93a9"
@@ -12609,6 +13548,8 @@
      ]
     }
    ],
+   "spend_cycle": "calendar_month",
+   "spend_cycle_sources": [],
    "general_exclusions": {
     "tags": [],
     "include_mcc": [],
@@ -12763,6 +13704,8 @@
      ]
     }
    ],
+   "spend_cycle": "calendar_month",
+   "spend_cycle_sources": [],
    "general_exclusions": {
     "tags": [],
     "include_mcc": [],
@@ -13096,6 +14039,8 @@
      ]
     }
    ],
+   "spend_cycle": "calendar_month",
+   "spend_cycle_sources": [],
    "general_exclusions": {
     "tags": [],
     "include_mcc": [],
@@ -13507,6 +14452,8 @@
      ]
     }
    ],
+   "spend_cycle": "calendar_month",
+   "spend_cycle_sources": [],
    "general_exclusions": {
     "tags": [],
     "include_mcc": [],
@@ -13567,6 +14514,16 @@
     {
      "offered_by": "singsaver",
      "description": "Welcome Offer: choice of S$100 Samsung Voucher",
+     "options": [
+      "S$100 Samsung Voucher"
+     ],
+     "min_spend": {
+      "amount": 1000.0,
+      "currency": "SGD"
+     },
+     "spend_within_days": 30,
+     "new_to_bank_only": true,
+     "terms": "Welcome Offer promotion is valid from 1 July 2026 to 30 September 2026. Promotion is valid for new-to-UOB credit card customers only. Successfully apply to be the principal cardholder for select UOB Credit Cards within the promo period and spend a min. of S$1,000 within 30 days of card approval to be eligible for S$100 Samsung Voucher reward. Plus, receive a 10% discount when you use your UOB Credit Card on Samsung Singapore transactions via the Samsung online store with min. spend of S$1,000. Samsung reserves the right to amend or withdraw the discount promotion without prior notice. Terms and Conditions apply.",
      "valid_from": "2026-06-30",
      "valid_to": "2026-09-29",
      "url": "https://www.singsaver.com.sg/credit-card/products/krisflyer-uob-credit-card",
@@ -13577,10 +14534,23 @@
     {
      "offered_by": "singsaver",
      "description": "SingSaver Flash Deal: choice of S$200 Cash via PayNow; Samsonite Straren Spinner 67/24 (worth S$600); S$90 Cash via PayNow",
+     "options": [
+      "S$200 Cash via PayNow",
+      "Samsonite Straren Spinner 67/24 (worth S$600)",
+      "S$90 Cash via PayNow"
+     ],
      "value": {
       "amount": 200.0,
       "currency": "SGD"
      },
+     "min_spend": {
+      "amount": 500.0,
+      "currency": "SGD"
+     },
+     "spend_within_days": 30,
+     "new_to_bank_only": true,
+     "stackable": true,
+     "terms": "SingSaver Flash Deal promotion is valid from 2 September 2026 to 30 September 2026. Promotion is valid for new-to-UOB credit cardmembers only. Be one of the first 2 applicants at 2 PM & 10PM every day during the flash deal period to apply for selected UOB credit cards and make a min. spend of S$500 within the first 30 days of card approval to be eligible for the Flash Deal reward: S$200 Cash via PayNow ; or a Samsonite Straren Spinner 67/24 (worth S$600) . Remaining applicants will receive S$90 Cash via PayNow . Promotion is stackable with UOB Welcome Offer (additional T&Cs apply). Terms and Conditions apply",
      "valid_from": "2026-09-01",
      "valid_to": "2026-09-30",
      "url": "https://www.singsaver.com.sg/credit-card/products/krisflyer-uob-credit-card",
@@ -13779,6 +14749,8 @@
     }
    },
    "earn_rules": [],
+   "spend_cycle": "calendar_month",
+   "spend_cycle_sources": [],
    "general_exclusions": {
     "tags": [],
     "include_mcc": [],
@@ -13983,6 +14955,8 @@
      ]
     }
    ],
+   "spend_cycle": "calendar_month",
+   "spend_cycle_sources": [],
    "general_exclusions": {
     "tags": [],
     "include_mcc": [],
@@ -14230,6 +15204,8 @@
      ]
     }
    ],
+   "spend_cycle": "calendar_month",
+   "spend_cycle_sources": [],
    "general_exclusions": {
     "tags": [],
     "include_mcc": [],
@@ -14407,6 +15383,8 @@
      ]
     }
    ],
+   "spend_cycle": "calendar_month",
+   "spend_cycle_sources": [],
    "general_exclusions": {
     "tags": [],
     "include_mcc": [],
@@ -14563,6 +15541,8 @@
      ]
     }
    ],
+   "spend_cycle": "calendar_month",
+   "spend_cycle_sources": [],
    "general_exclusions": {
     "tags": [],
     "include_mcc": [],
@@ -14716,6 +15696,8 @@
      ]
     }
    ],
+   "spend_cycle": "calendar_month",
+   "spend_cycle_sources": [],
    "general_exclusions": {
     "tags": [],
     "include_mcc": [],
@@ -15029,6 +16011,8 @@
      ]
     }
    ],
+   "spend_cycle": "calendar_month",
+   "spend_cycle_sources": [],
    "general_exclusions": {
     "tags": [],
     "include_mcc": [],
@@ -15189,6 +16173,8 @@
      ]
     }
    ],
+   "spend_cycle": "calendar_month",
+   "spend_cycle_sources": [],
    "general_exclusions": {
     "tags": [],
     "include_mcc": [],
@@ -15397,6 +16383,8 @@
      ]
     }
    ],
+   "spend_cycle": "calendar_month",
+   "spend_cycle_sources": [],
    "general_exclusions": {
     "tags": [],
     "include_mcc": [],
@@ -15413,6 +16401,11 @@
     {
      "offered_by": "singsaver",
      "description": "Maybank Welcome Offer: choice of Get an increased S$100 Cashback Cap",
+     "options": [
+      "Get an increased S$100 Cashback Cap"
+     ],
+     "new_to_bank_only": true,
+     "terms": "Welcome Offer promotion is valid from 1 July 2026 to 30 September 2026. Promotion is valid for new Maybank credit cardmembers only. Apply and get approved for the Maybank XL Cashback Card within the promo period and meet the min. monthly spend requirement to unlock an increased S$100 bonus cashback cap per calendar month (instead of S$80) for 3 months starting from the month of card approval. Terms and Conditions apply.",
      "valid_from": "2026-06-30",
      "valid_to": "2026-09-30",
      "url": "https://www.singsaver.com.sg/credit-card/products/maybank-xl-cashback-card",
@@ -15683,6 +16676,8 @@
      ]
     }
    ],
+   "spend_cycle": "calendar_month",
+   "spend_cycle_sources": [],
    "general_exclusions": {
     "tags": [],
     "include_mcc": [],
@@ -15699,6 +16694,11 @@
     {
      "offered_by": "singsaver",
      "description": "Maybank Welcome Offer: choice of Get an increased 15,000 TREATS Points Cap",
+     "options": [
+      "Get an increased 15,000 TREATS Points Cap"
+     ],
+     "new_to_bank_only": true,
+     "terms": "Welcome Offer promotion is valid from 1 July 2026 to 30 September 2026. Promotion is valid for new Maybank credit cardmembers only. Apply and get approved for the Maybank XL Rewards Card within the promo period and meet the min. monthly spend requirement to unlock an increased 15,000 TREATS Points cap (instead of 10,000 TREATS Points) per calendar month for 3 months starting from the month of card approval. Terms and Conditions apply.",
      "valid_from": "2026-06-30",
      "valid_to": "2026-09-30",
      "url": "https://www.singsaver.com.sg/credit-card/products/maybank-xl-rewards-card",
@@ -16017,6 +17017,8 @@
      ]
     }
    ],
+   "spend_cycle": "calendar_month",
+   "spend_cycle_sources": [],
    "general_exclusions": {
     "tags": [],
     "include_mcc": [],
@@ -16315,6 +17317,8 @@
      ]
     }
    ],
+   "spend_cycle": "calendar_month",
+   "spend_cycle_sources": [],
    "general_exclusions": {
     "tags": [],
     "include_mcc": [],
@@ -16368,6 +17372,16 @@
     {
      "offered_by": "singsaver",
      "description": "SingSaver Flash Deal: choice of Apple Watch Series 12 Aluminum 42mm GPS (worth S$599)",
+     "options": [
+      "Apple Watch Series 12 Aluminum 42mm GPS (worth S$599)"
+     ],
+     "min_spend": {
+      "amount": 400.0,
+      "currency": "SGD"
+     },
+     "spend_within_days": 30,
+     "new_to_bank_only": true,
+     "terms": "SingSaver Flash Deal campaign runs from 22 September 2026 to 27 September 2026. Promotion is valid for new OCBC credit card members only. Be one of the first 3 cardmembers at 2pm and 8pm every day during the flash deal period to apply for select OCBC credit cards via SingSaver and spend at least S$400 in qualifying transactions within 30 days of card approval to be eligible for the Flash Deal reward: Apple Watch Series 12 (Aluminum, 42mm, GPS) (worth S$599) Flash Deal reward will be received in place of your selected SingSaver Exclusive Offer reward. Remaining applicants will receive the SingSaver Exclusive Offer reward selected in your Rewards Redemption Form only. Terms and Conditions apply.",
      "valid_from": "2026-09-21",
      "valid_to": "2026-09-27",
      "url": "https://www.singsaver.com.sg/credit-card/products/ocbc-365-credit-card",
@@ -16378,10 +17392,30 @@
     {
      "offered_by": "singsaver",
      "description": "SingSaver Exclusive Offer: choice of S$400 Cash via PayNow; S$440 Grab Vouchers; 25,000 Max Miles by HeyMax (worth S$450); Dyson Airstrait™ straightener (worth S$799); Dyson V8 Cyclone Vacuum Cleaner (worth S$559); Dyson Airwrap™ multi-styler and dryer (worth S$799) (top up S$80); Dyson Clean+Wash Hygiene hard floor cleaner (worth S$729) (Top up S$150); Apple iPad (A16) 11\" 128GB WiFi (worth S$649) (Top up S$200); Apple Watch Series 12 Aluminum 42mm GPS (worth S$599) (Top-up S$150); Apple MacBook Neo (A18 Pro) 256GB w/ Magic Keyboard (worth S$999, top up S$570); Apple iPhone 18 Pro (worth S$1,899, top up S$1,350)",
+     "options": [
+      "S$400 Cash via PayNow",
+      "S$440 Grab Vouchers",
+      "25,000 Max Miles by HeyMax (worth S$450)",
+      "Dyson Airstrait™ straightener (worth S$799)",
+      "Dyson V8 Cyclone Vacuum Cleaner (worth S$559)",
+      "Dyson Airwrap™ multi-styler and dryer (worth S$799) (top up S$80)",
+      "Dyson Clean+Wash Hygiene hard floor cleaner (worth S$729) (Top up S$150)",
+      "Apple iPad (A16) 11\" 128GB WiFi (worth S$649) (Top up S$200)",
+      "Apple Watch Series 12 Aluminum 42mm GPS (worth S$599) (Top-up S$150)",
+      "Apple MacBook Neo (A18 Pro) 256GB w/ Magic Keyboard (worth S$999, top up S$570)",
+      "Apple iPhone 18 Pro (worth S$1,899, top up S$1,350)"
+     ],
      "value": {
       "amount": 400.0,
       "currency": "SGD"
      },
+     "min_spend": {
+      "amount": 400.0,
+      "currency": "SGD"
+     },
+     "spend_within_days": 30,
+     "new_to_bank_only": true,
+     "terms": "SingSaver Exclusive Offer promotion is valid from 16 September 2026 to 30 September 2026. Promotion is valid for new OCBC credit cardmembers only. Apply for participating OCBC credit cards via SingSaver and spend at least S$400 in qualifying transactions within 30 days of card approval to be eligible for reward. Terms and Conditions apply.",
      "valid_from": "2026-09-15",
      "valid_to": "2026-09-30",
      "url": "https://www.singsaver.com.sg/credit-card/products/ocbc-365-credit-card",
@@ -16391,7 +17425,25 @@
     },
     {
      "offered_by": "moneysmart",
-     "description": "Choice of: S$200 Cash via PayNow; Sennheiser Momentum True Wireless 4 Earbuds (Black Graphite); Omnidesk Essential Electric Height-Adjustable Desk (Black); TTRacing Swift X Pro Gaming Chair (Black); LEVEL8 Luminous Textured Collection 28-inch Luggage (Black). Terms: • Apply for an eligible OCBC Credit Card by 30th Sept 2026\n• Spend a min. of S$400 in eligible transactions within 30 days from card approval\n• Submit the Claim Form upon receiving the Unique Redemption Code from OCBC",
+     "description": "Choice of: S$200 Cash via PayNow; Sennheiser Momentum True Wireless 4 Earbuds (Black Graphite); Omnidesk Essential Electric Height-Adjustable Desk (Black); TTRacing Swift X Pro Gaming Chair (Black); LEVEL8 Luminous Textured Collection 28-inch Luggage (Black)",
+     "options": [
+      "S$200 Cash via PayNow",
+      "Sennheiser Momentum True Wireless 4 Earbuds (Black Graphite)",
+      "Omnidesk Essential Electric Height-Adjustable Desk (Black)",
+      "TTRacing Swift X Pro Gaming Chair (Black)",
+      "LEVEL8 Luminous Textured Collection 28-inch Luggage (Black)"
+     ],
+     "value": {
+      "amount": 200.0,
+      "currency": "SGD"
+     },
+     "min_spend": {
+      "amount": 400.0,
+      "currency": "SGD"
+     },
+     "spend_within_days": 30,
+     "terms": "• Apply for an eligible OCBC Credit Card by 30th Sept 2026 • Spend a min. of S$400 in eligible transactions within 30 days from card approval • Submit the Claim Form upon receiving the Unique Redemption Code from OCBC",
+     "valid_to": "2026-09-30",
      "url": "https://www.moneysmart.sg/credit-cards/ocbc-365-credit-card",
      "sources": [
       "moneysmart:eeee24fb93a9"
@@ -16651,6 +17703,8 @@
      ]
     }
    ],
+   "spend_cycle": "calendar_month",
+   "spend_cycle_sources": [],
    "general_exclusions": {
     "tags": [],
     "include_mcc": [],
@@ -16717,6 +17771,16 @@
     {
      "offered_by": "singsaver",
      "description": "SingSaver Flash Deal: choice of Apple Watch Series 12 Aluminum 42mm GPS (worth S$599)",
+     "options": [
+      "Apple Watch Series 12 Aluminum 42mm GPS (worth S$599)"
+     ],
+     "min_spend": {
+      "amount": 400.0,
+      "currency": "SGD"
+     },
+     "spend_within_days": 30,
+     "new_to_bank_only": true,
+     "terms": "SingSaver Flash Deal campaign runs from 22 September 2026 to 27 September 2026. Promotion is valid for new OCBC credit card members only. Be one of the first 3 cardmembers at 2pm and 8pm every day during the flash deal period to apply for select OCBC credit cards via SingSaver and spend at least S$400 in qualifying transactions within 30 days of card approval to be eligible for the Flash Deal reward: Apple Watch Series 12 (Aluminum, 42mm, GPS) (worth S$599) Flash Deal reward will be received in place of your selected SingSaver Exclusive Offer reward. Remaining applicants will receive the SingSaver Exclusive Offer reward selected in your Rewards Redemption Form only. Terms and Conditions apply.",
      "valid_from": "2026-09-21",
      "valid_to": "2026-09-27",
      "url": "https://www.singsaver.com.sg/credit-card/products/ocbc-90n-mastercard",
@@ -16727,10 +17791,30 @@
     {
      "offered_by": "singsaver",
      "description": "SingSaver Exclusive Offer: choice of S$400 Cash via PayNow; S$440 Grab Vouchers; 25,000 Max Miles by HeyMax (worth S$450); Dyson Airstrait™ straightener (worth S$799); Dyson V8 Cyclone Vacuum Cleaner (worth S$559); Dyson Airwrap™ multi-styler and dryer (worth S$799) (top up S$80); Dyson Clean+Wash Hygiene hard floor cleaner (worth S$729) (Top up S$150); Apple iPad (A16) 11\" 128GB WiFi (worth S$649) (Top up S$200); Apple Watch Series 12 Aluminum 42mm GPS (worth S$599) (Top-up S$150); Apple MacBook Neo (A18 Pro) 256GB w/ Magic Keyboard (worth S$999, top up S$570); Apple iPhone 18 Pro (worth S$1,899, top up S$1,350)",
+     "options": [
+      "S$400 Cash via PayNow",
+      "S$440 Grab Vouchers",
+      "25,000 Max Miles by HeyMax (worth S$450)",
+      "Dyson Airstrait™ straightener (worth S$799)",
+      "Dyson V8 Cyclone Vacuum Cleaner (worth S$559)",
+      "Dyson Airwrap™ multi-styler and dryer (worth S$799) (top up S$80)",
+      "Dyson Clean+Wash Hygiene hard floor cleaner (worth S$729) (Top up S$150)",
+      "Apple iPad (A16) 11\" 128GB WiFi (worth S$649) (Top up S$200)",
+      "Apple Watch Series 12 Aluminum 42mm GPS (worth S$599) (Top-up S$150)",
+      "Apple MacBook Neo (A18 Pro) 256GB w/ Magic Keyboard (worth S$999, top up S$570)",
+      "Apple iPhone 18 Pro (worth S$1,899, top up S$1,350)"
+     ],
      "value": {
       "amount": 400.0,
       "currency": "SGD"
      },
+     "min_spend": {
+      "amount": 400.0,
+      "currency": "SGD"
+     },
+     "spend_within_days": 30,
+     "new_to_bank_only": true,
+     "terms": "SingSaver Exclusive Offer promotion is valid from 16 September 2026 to 30 September 2026. Promotion is valid for new OCBC credit cardmembers only. Apply for participating OCBC credit cards via SingSaver and spend at least S$400 in qualifying transactions within 30 days of card approval to be eligible for reward. Terms and Conditions apply.",
      "valid_from": "2026-09-15",
      "valid_to": "2026-09-30",
      "url": "https://www.singsaver.com.sg/credit-card/products/ocbc-90n-mastercard",
@@ -16740,7 +17824,25 @@
     },
     {
      "offered_by": "moneysmart",
-     "description": "Choice of: S$200 Cash via PayNow; Sennheiser Momentum True Wireless 4 Earbuds (Black Graphite); Omnidesk Essential Electric Height-Adjustable Desk (Black); TTRacing Swift X Pro Gaming Chair (Black); LEVEL8 Luminous Textured Collection 28-inch Luggage (Black). Terms: • Apply for an eligible OCBC Credit Card by 30th Sept 2026\n• Spend a min. of S$400 in eligible transactions within 30 days from card approval\n• Submit the Claim Form upon receiving the Unique Redemption Code from OCBC",
+     "description": "Choice of: S$200 Cash via PayNow; Sennheiser Momentum True Wireless 4 Earbuds (Black Graphite); Omnidesk Essential Electric Height-Adjustable Desk (Black); TTRacing Swift X Pro Gaming Chair (Black); LEVEL8 Luminous Textured Collection 28-inch Luggage (Black)",
+     "options": [
+      "S$200 Cash via PayNow",
+      "Sennheiser Momentum True Wireless 4 Earbuds (Black Graphite)",
+      "Omnidesk Essential Electric Height-Adjustable Desk (Black)",
+      "TTRacing Swift X Pro Gaming Chair (Black)",
+      "LEVEL8 Luminous Textured Collection 28-inch Luggage (Black)"
+     ],
+     "value": {
+      "amount": 200.0,
+      "currency": "SGD"
+     },
+     "min_spend": {
+      "amount": 400.0,
+      "currency": "SGD"
+     },
+     "spend_within_days": 30,
+     "terms": "• Apply for an eligible OCBC Credit Card by 30th Sept 2026 • Spend a min. of S$400 in eligible transactions within 30 days from card approval • Submit the Claim Form upon receiving the Unique Redemption Code from OCBC",
+     "valid_to": "2026-09-30",
      "url": "https://www.moneysmart.sg/credit-cards/ocbc-90-n-card",
      "sources": [
       "moneysmart:42909b088c22"
@@ -17063,6 +18165,8 @@
      ]
     }
    ],
+   "spend_cycle": "calendar_month",
+   "spend_cycle_sources": [],
    "general_exclusions": {
     "tags": [],
     "include_mcc": [],
@@ -17129,6 +18233,16 @@
     {
      "offered_by": "singsaver",
      "description": "SingSaver Flash Deal: choice of Apple Watch Series 12 Aluminum 42mm GPS (worth S$599)",
+     "options": [
+      "Apple Watch Series 12 Aluminum 42mm GPS (worth S$599)"
+     ],
+     "min_spend": {
+      "amount": 400.0,
+      "currency": "SGD"
+     },
+     "spend_within_days": 30,
+     "new_to_bank_only": true,
+     "terms": "SingSaver Flash Deal campaign runs from 22 September 2026 to 27 September 2026. Promotion is valid for new OCBC credit card members only. Be one of the first 3 cardmembers at 2pm and 8pm every day during the flash deal period to apply for select OCBC credit cards via SingSaver and spend at least S$400 in qualifying transactions within 30 days of card approval to be eligible for the Flash Deal reward: Apple Watch Series 12 (Aluminum, 42mm, GPS) (worth S$599) Flash Deal reward will be received in place of your selected SingSaver Exclusive Offer reward. Remaining applicants will receive the SingSaver Exclusive Offer reward selected in your Rewards Redemption Form only. Terms and Conditions apply.",
      "valid_from": "2026-09-21",
      "valid_to": "2026-09-27",
      "url": "https://www.singsaver.com.sg/credit-card/products/ocbc-90n-visa-card",
@@ -17139,10 +18253,30 @@
     {
      "offered_by": "singsaver",
      "description": "SingSaver Exclusive Offer: choice of S$400 Cash via PayNow; S$440 Grab Vouchers; 25,000 Max Miles by HeyMax (worth S$450); Dyson Airstrait™ straightener (worth S$799); Dyson V8 Cyclone Vacuum Cleaner (worth S$559); Dyson Airwrap™ multi-styler and dryer (worth S$799) (top up S$80); Dyson Clean+Wash Hygiene hard floor cleaner (worth S$729) (Top up S$150); Apple iPad (A16) 11\" 128GB WiFi (worth S$649) (Top up S$200); Apple Watch Series 12 Aluminum 42mm GPS (worth S$599) (Top-up S$150); Apple MacBook Neo (A18 Pro) 256GB w/ Magic Keyboard (worth S$999, top up S$570); Apple iPhone 18 Pro (worth S$1,899, top up S$1,350)",
+     "options": [
+      "S$400 Cash via PayNow",
+      "S$440 Grab Vouchers",
+      "25,000 Max Miles by HeyMax (worth S$450)",
+      "Dyson Airstrait™ straightener (worth S$799)",
+      "Dyson V8 Cyclone Vacuum Cleaner (worth S$559)",
+      "Dyson Airwrap™ multi-styler and dryer (worth S$799) (top up S$80)",
+      "Dyson Clean+Wash Hygiene hard floor cleaner (worth S$729) (Top up S$150)",
+      "Apple iPad (A16) 11\" 128GB WiFi (worth S$649) (Top up S$200)",
+      "Apple Watch Series 12 Aluminum 42mm GPS (worth S$599) (Top-up S$150)",
+      "Apple MacBook Neo (A18 Pro) 256GB w/ Magic Keyboard (worth S$999, top up S$570)",
+      "Apple iPhone 18 Pro (worth S$1,899, top up S$1,350)"
+     ],
      "value": {
       "amount": 400.0,
       "currency": "SGD"
      },
+     "min_spend": {
+      "amount": 400.0,
+      "currency": "SGD"
+     },
+     "spend_within_days": 30,
+     "new_to_bank_only": true,
+     "terms": "SingSaver Exclusive Offer promotion is valid from 16 September 2026 to 30 September 2026. Promotion is valid for new OCBC credit cardmembers only. Apply for participating OCBC credit cards via SingSaver and spend at least S$400 in qualifying transactions within 30 days of card approval to be eligible for reward. Terms and Conditions apply.",
      "valid_from": "2026-09-15",
      "valid_to": "2026-09-30",
      "url": "https://www.singsaver.com.sg/credit-card/products/ocbc-90n-visa-card",
@@ -17152,7 +18286,25 @@
     },
     {
      "offered_by": "moneysmart",
-     "description": "Choice of: S$200 Cash via PayNow; Sennheiser Momentum True Wireless 4 Earbuds (Black Graphite); Omnidesk Essential Electric Height-Adjustable Desk (Black); TTRacing Swift X Pro Gaming Chair (Black); LEVEL8 Luminous Textured Collection 28-inch Luggage (Black). Terms: • Apply for an eligible OCBC Credit Card by 30th Sept 2026\n• Spend a min. of S$400 in eligible transactions within 30 days from card approval\n• Submit the Claim Form upon receiving the Unique Redemption Code from OCBC",
+     "description": "Choice of: S$200 Cash via PayNow; Sennheiser Momentum True Wireless 4 Earbuds (Black Graphite); Omnidesk Essential Electric Height-Adjustable Desk (Black); TTRacing Swift X Pro Gaming Chair (Black); LEVEL8 Luminous Textured Collection 28-inch Luggage (Black)",
+     "options": [
+      "S$200 Cash via PayNow",
+      "Sennheiser Momentum True Wireless 4 Earbuds (Black Graphite)",
+      "Omnidesk Essential Electric Height-Adjustable Desk (Black)",
+      "TTRacing Swift X Pro Gaming Chair (Black)",
+      "LEVEL8 Luminous Textured Collection 28-inch Luggage (Black)"
+     ],
+     "value": {
+      "amount": 200.0,
+      "currency": "SGD"
+     },
+     "min_spend": {
+      "amount": 400.0,
+      "currency": "SGD"
+     },
+     "spend_within_days": 30,
+     "terms": "• Apply for an eligible OCBC Credit Card by 30th Sept 2026 • Spend a min. of S$400 in eligible transactions within 30 days from card approval • Submit the Claim Form upon receiving the Unique Redemption Code from OCBC",
+     "valid_to": "2026-09-30",
      "url": "https://www.moneysmart.sg/credit-cards/ocbc-90n-visa-card",
      "sources": [
       "moneysmart:42909b088c22"
@@ -17471,6 +18623,8 @@
      ]
     }
    ],
+   "spend_cycle": "calendar_month",
+   "spend_cycle_sources": [],
    "general_exclusions": {
     "tags": [],
     "include_mcc": [],
@@ -17569,6 +18723,8 @@
     }
    },
    "earn_rules": [],
+   "spend_cycle": "calendar_month",
+   "spend_cycle_sources": [],
    "general_exclusions": {
     "tags": [],
     "include_mcc": [],
@@ -17703,6 +18859,8 @@
      ]
     }
    ],
+   "spend_cycle": "calendar_month",
+   "spend_cycle_sources": [],
    "general_exclusions": {
     "tags": [],
     "include_mcc": [],
@@ -17758,6 +18916,16 @@
     {
      "offered_by": "singsaver",
      "description": "SingSaver Flash Deal: choice of Apple Watch Series 12 Aluminum 42mm GPS (worth S$599)",
+     "options": [
+      "Apple Watch Series 12 Aluminum 42mm GPS (worth S$599)"
+     ],
+     "min_spend": {
+      "amount": 400.0,
+      "currency": "SGD"
+     },
+     "spend_within_days": 30,
+     "new_to_bank_only": true,
+     "terms": "SingSaver Flash Deal campaign runs from 22 September 2026 to 27 September 2026. Promotion is valid for new OCBC credit card members only. Be one of the first 3 cardmembers at 2pm and 8pm every day during the flash deal period to apply for select OCBC credit cards via SingSaver and spend at least S$400 in qualifying transactions within 30 days of card approval to be eligible for the Flash Deal reward: Apple Watch Series 12 (Aluminum, 42mm, GPS) (worth S$599) Flash Deal reward will be received in place of your selected SingSaver Exclusive Offer reward. Remaining applicants will receive the SingSaver Exclusive Offer reward selected in your Rewards Redemption Form only. Terms and Conditions apply.",
      "valid_from": "2026-09-21",
      "valid_to": "2026-09-27",
      "url": "https://www.singsaver.com.sg/credit-card/products/ocbc-infinity-card",
@@ -17768,10 +18936,30 @@
     {
      "offered_by": "singsaver",
      "description": "SingSaver Exclusive Offer: choice of S$400 Cash via PayNow; S$440 Grab Vouchers; 25,000 Max Miles by HeyMax (worth S$450); Dyson Airstrait™ straightener (worth S$799); Dyson V8 Cyclone Vacuum Cleaner (worth S$559); Dyson Airwrap™ multi-styler and dryer (worth S$799) (top up S$80); Dyson Clean+Wash Hygiene hard floor cleaner (worth S$729) (Top up S$150); Apple iPad (A16) 11\" 128GB WiFi (worth S$649) (Top up S$200); Apple Watch Series 12 Aluminum 42mm GPS (worth S$599) (Top-up S$150); Apple MacBook Neo (A18 Pro) 256GB w/ Magic Keyboard (worth S$999, top up S$570); Apple iPhone 18 Pro (worth S$1,899, top up S$1,350)",
+     "options": [
+      "S$400 Cash via PayNow",
+      "S$440 Grab Vouchers",
+      "25,000 Max Miles by HeyMax (worth S$450)",
+      "Dyson Airstrait™ straightener (worth S$799)",
+      "Dyson V8 Cyclone Vacuum Cleaner (worth S$559)",
+      "Dyson Airwrap™ multi-styler and dryer (worth S$799) (top up S$80)",
+      "Dyson Clean+Wash Hygiene hard floor cleaner (worth S$729) (Top up S$150)",
+      "Apple iPad (A16) 11\" 128GB WiFi (worth S$649) (Top up S$200)",
+      "Apple Watch Series 12 Aluminum 42mm GPS (worth S$599) (Top-up S$150)",
+      "Apple MacBook Neo (A18 Pro) 256GB w/ Magic Keyboard (worth S$999, top up S$570)",
+      "Apple iPhone 18 Pro (worth S$1,899, top up S$1,350)"
+     ],
      "value": {
       "amount": 400.0,
       "currency": "SGD"
      },
+     "min_spend": {
+      "amount": 400.0,
+      "currency": "SGD"
+     },
+     "spend_within_days": 30,
+     "new_to_bank_only": true,
+     "terms": "SingSaver Exclusive Offer promotion is valid from 16 September 2026 to 30 September 2026. Promotion is valid for new OCBC credit cardmembers only. Apply for participating OCBC credit cards via SingSaver and spend at least S$400 in qualifying transactions within 30 days of card approval to be eligible for reward. Terms and Conditions apply.",
      "valid_from": "2026-09-15",
      "valid_to": "2026-09-30",
      "url": "https://www.singsaver.com.sg/credit-card/products/ocbc-infinity-card",
@@ -17781,7 +18969,25 @@
     },
     {
      "offered_by": "moneysmart",
-     "description": "Choice of: S$200 Cash via PayNow; Sennheiser Momentum True Wireless 4 Earbuds (Black Graphite); Omnidesk Essential Electric Height-Adjustable Desk (Black); TTRacing Swift X Pro Gaming Chair (Black); LEVEL8 Luminous Textured Collection 28-inch Luggage (Black). Terms: • Apply for an eligible OCBC Credit Card by 30th Sept 2026\n• Spend a min. of S$400 in eligible transactions within 30 days from card approval\n• Submit the Claim Form upon receiving the Unique Redemption Code from OCBC",
+     "description": "Choice of: S$200 Cash via PayNow; Sennheiser Momentum True Wireless 4 Earbuds (Black Graphite); Omnidesk Essential Electric Height-Adjustable Desk (Black); TTRacing Swift X Pro Gaming Chair (Black); LEVEL8 Luminous Textured Collection 28-inch Luggage (Black)",
+     "options": [
+      "S$200 Cash via PayNow",
+      "Sennheiser Momentum True Wireless 4 Earbuds (Black Graphite)",
+      "Omnidesk Essential Electric Height-Adjustable Desk (Black)",
+      "TTRacing Swift X Pro Gaming Chair (Black)",
+      "LEVEL8 Luminous Textured Collection 28-inch Luggage (Black)"
+     ],
+     "value": {
+      "amount": 200.0,
+      "currency": "SGD"
+     },
+     "min_spend": {
+      "amount": 400.0,
+      "currency": "SGD"
+     },
+     "spend_within_days": 30,
+     "terms": "• Apply for an eligible OCBC Credit Card by 30th Sept 2026 • Spend a min. of S$400 in eligible transactions within 30 days from card approval • Submit the Claim Form upon receiving the Unique Redemption Code from OCBC",
+     "valid_to": "2026-09-30",
      "url": "https://www.moneysmart.sg/credit-cards/ocbc-infinity-cashback-card",
      "sources": [
       "moneysmart:42909b088c22"
@@ -18053,6 +19259,8 @@
      ]
     }
    ],
+   "spend_cycle": "calendar_month",
+   "spend_cycle_sources": [],
    "general_exclusions": {
     "tags": [],
     "include_mcc": [],
@@ -18299,6 +19507,8 @@
      ]
     }
    ],
+   "spend_cycle": "calendar_month",
+   "spend_cycle_sources": [],
    "general_exclusions": {
     "tags": [],
     "include_mcc": [],
@@ -18357,6 +19567,16 @@
     {
      "offered_by": "singsaver",
      "description": "SingSaver Flash Deal: choice of Apple Watch Series 12 Aluminum 42mm GPS (worth S$599)",
+     "options": [
+      "Apple Watch Series 12 Aluminum 42mm GPS (worth S$599)"
+     ],
+     "min_spend": {
+      "amount": 400.0,
+      "currency": "SGD"
+     },
+     "spend_within_days": 30,
+     "new_to_bank_only": true,
+     "terms": "SingSaver Flash Deal campaign runs from 22 September 2026 to 27 September 2026. Promotion is valid for new OCBC credit card members only. Be one of the first 3 cardmembers at 2pm and 8pm every day during the flash deal period to apply for select OCBC credit cards via SingSaver and spend at least S$400 in qualifying transactions within 30 days of card approval to be eligible for the Flash Deal reward: Apple Watch Series 12 (Aluminum, 42mm, GPS) (worth S$599) Flash Deal reward will be received in place of your selected SingSaver Exclusive Offer reward. Remaining applicants will receive the SingSaver Exclusive Offer reward selected in your Rewards Redemption Form only. Terms and Conditions apply.",
      "valid_from": "2026-09-21",
      "valid_to": "2026-09-27",
      "url": "https://www.singsaver.com.sg/credit-card/products/ocbc-rewards-credit-card",
@@ -18367,10 +19587,30 @@
     {
      "offered_by": "singsaver",
      "description": "SingSaver Exclusive Offer: choice of S$400 Cash via PayNow; S$440 Grab Vouchers; 25,000 Max Miles by HeyMax (worth S$450); Dyson Airstrait™ straightener (worth S$799); Dyson V8 Cyclone Vacuum Cleaner (worth S$559); Dyson Airwrap™ multi-styler and dryer (worth S$799) (top up S$80); Dyson Clean+Wash Hygiene hard floor cleaner (worth S$729) (Top up S$150); Apple iPad (A16) 11\" 128GB WiFi (worth S$649) (Top up S$200); Apple Watch Series 12 Aluminum 42mm GPS (worth S$599) (Top-up S$150); Apple MacBook Neo (A18 Pro) 256GB w/ Magic Keyboard (worth S$999, top up S$570); Apple iPhone 18 Pro (worth S$1,899, top up S$1,350)",
+     "options": [
+      "S$400 Cash via PayNow",
+      "S$440 Grab Vouchers",
+      "25,000 Max Miles by HeyMax (worth S$450)",
+      "Dyson Airstrait™ straightener (worth S$799)",
+      "Dyson V8 Cyclone Vacuum Cleaner (worth S$559)",
+      "Dyson Airwrap™ multi-styler and dryer (worth S$799) (top up S$80)",
+      "Dyson Clean+Wash Hygiene hard floor cleaner (worth S$729) (Top up S$150)",
+      "Apple iPad (A16) 11\" 128GB WiFi (worth S$649) (Top up S$200)",
+      "Apple Watch Series 12 Aluminum 42mm GPS (worth S$599) (Top-up S$150)",
+      "Apple MacBook Neo (A18 Pro) 256GB w/ Magic Keyboard (worth S$999, top up S$570)",
+      "Apple iPhone 18 Pro (worth S$1,899, top up S$1,350)"
+     ],
      "value": {
       "amount": 400.0,
       "currency": "SGD"
      },
+     "min_spend": {
+      "amount": 400.0,
+      "currency": "SGD"
+     },
+     "spend_within_days": 30,
+     "new_to_bank_only": true,
+     "terms": "SingSaver Exclusive Offer promotion is valid from 16 September 2026 to 30 September 2026. Promotion is valid for new OCBC credit cardmembers only. Apply for participating OCBC credit cards via SingSaver and spend at least S$400 in qualifying transactions within 30 days of card approval to be eligible for reward. Terms and Conditions apply.",
      "valid_from": "2026-09-15",
      "valid_to": "2026-09-30",
      "url": "https://www.singsaver.com.sg/credit-card/products/ocbc-rewards-credit-card",
@@ -18380,7 +19620,25 @@
     },
     {
      "offered_by": "moneysmart",
-     "description": "Choice of: S$200 Cash via PayNow; Sennheiser Momentum True Wireless 4 Earbuds (Black Graphite); Omnidesk Essential Electric Height-Adjustable Desk (Black); TTRacing Swift X Pro Gaming Chair (Black); LEVEL8 Luminous Textured Collection 28-inch Luggage (Black). Terms: • Apply for an eligible OCBC Credit Card by 30th Sept 2026\n• Spend a min. of S$400 in eligible transactions within 30 days from card approval\n• Submit the Claim Form upon receiving the Unique Redemption Code from OCBC",
+     "description": "Choice of: S$200 Cash via PayNow; Sennheiser Momentum True Wireless 4 Earbuds (Black Graphite); Omnidesk Essential Electric Height-Adjustable Desk (Black); TTRacing Swift X Pro Gaming Chair (Black); LEVEL8 Luminous Textured Collection 28-inch Luggage (Black)",
+     "options": [
+      "S$200 Cash via PayNow",
+      "Sennheiser Momentum True Wireless 4 Earbuds (Black Graphite)",
+      "Omnidesk Essential Electric Height-Adjustable Desk (Black)",
+      "TTRacing Swift X Pro Gaming Chair (Black)",
+      "LEVEL8 Luminous Textured Collection 28-inch Luggage (Black)"
+     ],
+     "value": {
+      "amount": 200.0,
+      "currency": "SGD"
+     },
+     "min_spend": {
+      "amount": 400.0,
+      "currency": "SGD"
+     },
+     "spend_within_days": 30,
+     "terms": "• Apply for an eligible OCBC Credit Card by 30th Sept 2026 • Spend a min. of S$400 in eligible transactions within 30 days from card approval • Submit the Claim Form upon receiving the Unique Redemption Code from OCBC",
+     "valid_to": "2026-09-30",
      "url": "https://www.moneysmart.sg/credit-cards/ocbc-rewards-credit-card",
      "sources": [
       "moneysmart:42909b088c22"
@@ -18556,6 +19814,8 @@
      ]
     }
    ],
+   "spend_cycle": "calendar_month",
+   "spend_cycle_sources": [],
    "general_exclusions": {
     "tags": [],
     "include_mcc": [],
@@ -18837,6 +20097,8 @@
      ]
     }
    ],
+   "spend_cycle": "calendar_month",
+   "spend_cycle_sources": [],
    "general_exclusions": {
     "tags": [],
     "include_mcc": [],
@@ -18853,10 +20115,16 @@
     {
      "offered_by": "singsaver",
      "description": "Stackable Welcome Offer: choice of Up to S$200 Cashback on Cashline",
+     "options": [
+      "Up to S$200 Cashback on Cashline"
+     ],
      "value": {
       "amount": 200.0,
       "currency": "SGD"
      },
+     "new_to_bank_only": true,
+     "stackable": true,
+     "terms": "Stackable Welcome Offer promotion is valid from 1 September 2026 to 30 September 2026. Promotion is valid for new DBS / POSB credit cardmembers only. Apply and get approved for selected credit cards from DBS and POSB during the promo period and select “Cashline” in your application on the DBS/POSB website (except foreigners) to be eligible for S$100 cash reward. Receive an additional S$100 cash with a minimum S$188 closing balance accumulated for Cashline withdrawals in the first two statement months upon account opening. Terms and Conditions apply.",
      "valid_from": "2026-08-31",
      "valid_to": "2026-09-30",
      "url": "https://www.singsaver.com.sg/credit-card/products/posb-everyday-card",
@@ -18867,10 +20135,29 @@
     {
      "offered_by": "singsaver",
      "description": "SingSaver Exclusive Offer: choice of S$288 Cash via PayNow; S$310 Grab Voucher; 18,000 Max Miles by HeyMax (worth S$324); Morning Mini Coffee Machine + 20 Capsules Bundle (worth S$425); Samsonite Straren Spinner 67/24 (worth S$600); Dyson V8 Cyclone Vacuum Cleaner (worth S$559, top up S$150); Dyson Airstrait™ hair straightener (worth S$799) (Top up S$200); Sony WH-1000XM6 Headphones (worth S$649) (top up S$200); Apple iPad (A16) 11\" 128GB WiFi (worth S$649) (Top up S$350)",
+     "options": [
+      "S$288 Cash via PayNow",
+      "S$310 Grab Voucher",
+      "18,000 Max Miles by HeyMax (worth S$324)",
+      "Morning Mini Coffee Machine + 20 Capsules Bundle (worth S$425)",
+      "Samsonite Straren Spinner 67/24 (worth S$600)",
+      "Dyson V8 Cyclone Vacuum Cleaner (worth S$559, top up S$150)",
+      "Dyson Airstrait™ hair straightener (worth S$799) (Top up S$200)",
+      "Sony WH-1000XM6 Headphones (worth S$649) (top up S$200)",
+      "Apple iPad (A16) 11\" 128GB WiFi (worth S$649) (Top up S$350)"
+     ],
      "value": {
       "amount": 288.0,
       "currency": "SGD"
      },
+     "min_spend": {
+      "amount": 500.0,
+      "currency": "SGD"
+     },
+     "spend_within_days": 30,
+     "new_to_bank_only": true,
+     "stackable": false,
+     "terms": "SingSaver Exclusive Offer promotion is valid from 17 September 2026 to 30 September 2026 Promotion is valid for new DBS / POSB credit cardmembers only. Apply for selected credit cards from DBS and POSB within the promo period using the promo code \" SINGSAVER \" during the application and make a min. spend of S$500 within 30 days from card approval date to be eligible for reward. Have a valid DBS PayLah! account by the end of the Qualifying Spend period to be eligible for the reward, Some rewards will require additional top-up to claim. Promotion does not stack with other welcome offers from DBS / POSB. Terms and Conditions apply.",
      "valid_from": "2026-09-16",
      "valid_to": "2026-09-30",
      "url": "https://www.singsaver.com.sg/credit-card/products/posb-everyday-card",
@@ -18880,7 +20167,22 @@
     },
     {
      "offered_by": "moneysmart",
-     "description": "Choice of: Samsonite MINTER 80/30 Luggage; S$288 Cashback. Terms: Valid for New Customers only\nUse promo code \nMINTER\n when applying\nCharge a min. of S$800 within 60 days from the date of card approval\nHave a valid DBS PayLah! account by the end of the Qualifying Spend period",
+     "description": "Choice of: Samsonite MINTER 80/30 Luggage; S$288 Cashback",
+     "options": [
+      "Samsonite MINTER 80/30 Luggage",
+      "S$288 Cashback"
+     ],
+     "value": {
+      "amount": 288.0,
+      "currency": "SGD"
+     },
+     "min_spend": {
+      "amount": 800.0,
+      "currency": "SGD"
+     },
+     "spend_within_days": 60,
+     "new_to_bank_only": true,
+     "terms": "Valid for New Customers only Use promo code MINTER when applying Charge a min. of S$800 within 60 days from the date of card approval Have a valid DBS PayLah! account by the end of the Qualifying Spend period",
      "url": "https://www.moneysmart.sg/credit-cards/posb-everyday-card",
      "sources": [
       "moneysmart:fbcf8e7229a3"
@@ -19144,6 +20446,8 @@
      ]
     }
    ],
+   "spend_cycle": "calendar_month",
+   "spend_cycle_sources": [],
    "general_exclusions": {
     "tags": [],
     "include_mcc": [],
@@ -19478,6 +20782,8 @@
      ]
     }
    ],
+   "spend_cycle": "calendar_month",
+   "spend_cycle_sources": [],
    "general_exclusions": {
     "tags": [],
     "include_mcc": [],
@@ -19494,10 +20800,24 @@
     {
      "offered_by": "singsaver",
      "description": "SingSaver Exclusive Offer: rewards applicable on applying for 2 products: choice of Samsonite Straren Spinner 67/24 (worth S$600); S$180 Cash via PayNow; Samsung Galaxy Buds4 Pro (worth S$349); 12,000 Max Miles by HeyMax (worth S$216)",
+     "options": [
+      "Samsonite Straren Spinner 67/24 (worth S$600)",
+      "S$180 Cash via PayNow",
+      "Samsung Galaxy Buds4 Pro (worth S$349)",
+      "12,000 Max Miles by HeyMax (worth S$216)"
+     ],
      "value": {
       "amount": 180.0,
       "currency": "SGD"
      },
+     "min_spend": {
+      "amount": 800.0,
+      "currency": "SGD"
+     },
+     "spend_within_days": 60,
+     "new_to_bank_only": true,
+     "stackable": true,
+     "terms": "SingSaver Exclusive Offer promotion is valid from 1 September 2026 to 30 September 2026. Promotion is valid for new Standard Chartered credit cardmembers only. Apply for the Standard Chartered Journey Card and make a min. spend of S$800 within 60 days of card approval date, plus any of the following SCB products to be eligible for reward: Apply for Standard Chartered EasyPay for at least 3 retail transactions on your credit card with min. amount of S$150 each and min. tenure of 12 months (within 60 days of card approval date); or Apply and open a Standard Chartered Bonus$aver Account with a min. deposit of S$3,000 (within 60 days of card approval date) (quick apply here ); or Apply and get approved for a Standard Chartered CashOne Personal Loan with min. amount of S$1,000 and min. tenure of 12 months (within 60 days of card approval date) (quick apply here ); or Apply and get approved for a Standard Chartered Credit Card Funds Transfer (CCFT) with min. amount of S$1,000 and min. tenure of 3 months (within 60 days of card approval date) (quick apply here ) Apply for at least 3 EasyPay retail transactions on your credit card, each with min. amount of S$150 and min. tenure of 12 months, within 60 days of card approval. Application must be made via the SCB App. Promotion is stackable with welcome offer from Standard Chartered ( T&Cs apply ): Receive up to 30,000 miles Receive 30,000 miles when you apply with annual fee payment (S$196.20 incl. GST) and make a min. spend of S$800 within 60 days of card approval. Receive 20,000 miles when you apply with annual fee waiver and make a min. spend of S$800 within 60 days of card approval. Terms and Conditions apply.",
      "valid_from": "2026-08-31",
      "valid_to": "2026-09-30",
      "url": "https://www.singsaver.com.sg/credit-card/products/standard-chartered-journey-credit-card",
@@ -19507,7 +20827,24 @@
     },
     {
      "offered_by": "moneysmart",
-     "description": "Choice of: S$180 Cash via PayNow; LEVEL8 Voyageur 20-inch Luggage (Matcha Green Colour); Hinomi Q1 Ergonomic Office Chair (Black); Samsung Galaxy Buds4 Pro (Black). Terms: • A\npply for the card by 30th Sept 2026\n• \nSpend a min. of S$800 in eligible transactions within 60 days from card approval date.\n• Apply and get approval for either: EasyPay, Bonus$aver Account, CashOne Loan, Funds Transfer\n• Submit your Claim Form by 30th Oct 2026",
+     "description": "Choice of: S$180 Cash via PayNow; LEVEL8 Voyageur 20-inch Luggage (Matcha Green Colour); Hinomi Q1 Ergonomic Office Chair (Black); Samsung Galaxy Buds4 Pro (Black)",
+     "options": [
+      "S$180 Cash via PayNow",
+      "LEVEL8 Voyageur 20-inch Luggage (Matcha Green Colour)",
+      "Hinomi Q1 Ergonomic Office Chair (Black)",
+      "Samsung Galaxy Buds4 Pro (Black)"
+     ],
+     "value": {
+      "amount": 180.0,
+      "currency": "SGD"
+     },
+     "min_spend": {
+      "amount": 800.0,
+      "currency": "SGD"
+     },
+     "spend_within_days": 60,
+     "terms": "• A pply for the card by 30th Sept 2026 • Spend a min. of S$800 in eligible transactions within 60 days from card approval date. • Apply and get approval for either: EasyPay, Bonus$aver Account, CashOne Loan, Funds Transfer • Submit your Claim Form by 30th Oct 2026",
+     "valid_to": "2026-09-30",
      "url": "https://www.moneysmart.sg/credit-cards/standard-chartered-journey-credit-card-annual-fee-payable",
      "sources": [
       "moneysmart:42909b088c22"
@@ -19864,6 +21201,8 @@
      ]
     }
    ],
+   "spend_cycle": "calendar_month",
+   "spend_cycle_sources": [],
    "general_exclusions": {
     "tags": [],
     "include_mcc": [],
@@ -19880,10 +21219,24 @@
     {
      "offered_by": "singsaver",
      "description": "SingSaver Exclusive Offer: rewards applicable on applying for 2 products: choice of Samsonite Straren Spinner 67/24 (worth S$600); S$180 Cash via PayNow; Samsung Galaxy Buds4 Pro (worth S$349); 12,000 Max Miles by HeyMax (worth S$216)",
+     "options": [
+      "Samsonite Straren Spinner 67/24 (worth S$600)",
+      "S$180 Cash via PayNow",
+      "Samsung Galaxy Buds4 Pro (worth S$349)",
+      "12,000 Max Miles by HeyMax (worth S$216)"
+     ],
      "value": {
       "amount": 180.0,
       "currency": "SGD"
      },
+     "min_spend": {
+      "amount": 800.0,
+      "currency": "SGD"
+     },
+     "spend_within_days": 60,
+     "new_to_bank_only": true,
+     "stackable": true,
+     "terms": "SingSaver Exclusive Offer promotion is valid from 1 September 2026 to 30 September 2026. Promotion is valid for new Standard Chartered credit cardmembers only. Apply for the Standard Chartered Journey Card and make a min. spend of S$800 within 60 days of card approval date, plus any of the following SCB products to be eligible for reward: Apply for Standard Chartered EasyPay for at least 3 retail transactions on your credit card with min. amount of S$150 each and min. tenure of 12 months (within 60 days of card approval date); or Apply and open a Standard Chartered Bonus$aver Account with a min. deposit of S$3,000 (within 60 days of card approval date) (quick apply here ); or Apply and get approved for a Standard Chartered CashOne Personal Loan with min. amount of S$1,000 and min. tenure of 12 months (within 60 days of card approval date) (quick apply here ); or Apply and get approved for a Standard Chartered Credit Card Funds Transfer (CCFT) with min. amount of S$1,000 and min. tenure of 3 months (within 60 days of card approval date) (quick apply here ) Apply for at least 3 EasyPay retail transactions on your credit card, each with min. amount of S$150 and min. tenure of 12 months, within 60 days of card approval. Application must be made via the SCB App. Promotion is stackable with welcome offer from Standard Chartered ( T&Cs apply ): Receive up to 30,000 miles Receive 30,000 miles when you apply with annual fee payment (S$196.20 incl. GST) and make a min. spend of S$800 within 60 days of card approval. Receive 20,000 miles when you apply with annual fee waiver and make a min. spend of S$800 within 60 days of card approval. Terms and Conditions apply.",
      "valid_from": "2026-08-31",
      "valid_to": "2026-09-30",
      "url": "https://www.singsaver.com.sg/credit-card/products/standard-chartered-journey-credit-card-waiver",
@@ -19893,7 +21246,24 @@
     },
     {
      "offered_by": "moneysmart",
-     "description": "Choice of: S$180 Cash; LEVEL8 Voyageur 20-inch Luggage (Matcha Green Colour); Hinomi Q1 Ergonomic Office Chair (Black); Samsung Galaxy Buds4 Pro (Black). Terms: • A\npply for the card by 30th Sept 2026\n• \nSpend a min. of S$800 in eligible transactions within 60 days from card approval date.\n• Apply and get approval for either: EasyPay, Bonus$aver Account, CashOne Loan, Funds Transfer\n• Submit your Claim Form by 30th Oct 2026",
+     "description": "Choice of: S$180 Cash; LEVEL8 Voyageur 20-inch Luggage (Matcha Green Colour); Hinomi Q1 Ergonomic Office Chair (Black); Samsung Galaxy Buds4 Pro (Black)",
+     "options": [
+      "S$180 Cash",
+      "LEVEL8 Voyageur 20-inch Luggage (Matcha Green Colour)",
+      "Hinomi Q1 Ergonomic Office Chair (Black)",
+      "Samsung Galaxy Buds4 Pro (Black)"
+     ],
+     "value": {
+      "amount": 180.0,
+      "currency": "SGD"
+     },
+     "min_spend": {
+      "amount": 800.0,
+      "currency": "SGD"
+     },
+     "spend_within_days": 60,
+     "terms": "• A pply for the card by 30th Sept 2026 • Spend a min. of S$800 in eligible transactions within 60 days from card approval date. • Apply and get approval for either: EasyPay, Bonus$aver Account, CashOne Loan, Funds Transfer • Submit your Claim Form by 30th Oct 2026",
+     "valid_to": "2026-09-30",
      "url": "https://www.moneysmart.sg/credit-cards/standard-chartered-journey-credit-card",
      "sources": [
       "moneysmart:42909b088c22"
@@ -20258,6 +21628,8 @@
      ]
     }
    ],
+   "spend_cycle": "calendar_month",
+   "spend_cycle_sources": [],
    "general_exclusions": {
     "tags": [],
     "include_mcc": [],
@@ -20479,6 +21851,8 @@
      ]
     }
    ],
+   "spend_cycle": "calendar_month",
+   "spend_cycle_sources": [],
    "general_exclusions": {
     "tags": [],
     "include_mcc": [],
@@ -20495,10 +21869,29 @@
     {
      "offered_by": "singsaver",
      "description": "SingSaver Exclusive Offer: rewards applicable on applying for 2 products: choice of Apple iPad Air (M4) 11\" 128GB WiFi (worth S$1,149) (Top up S$780); Apple MacBook Neo (A18 Pro) 256GB w/ Magic Keyboard (worth S$999, top up S$620); Apple iPad (A16) 11\" 128GB WiFi (worth S$649) (Top up S$300); Dyson Clean+Wash Hygiene hard floor cleaner (worth S$729) (Top up S$200); Dyson Airstrait™ straightener (worth S$799) (Top up S$100); Dyson V8 Cyclone Vacuum Cleaner (worth S$559, top up S$100); Dyson Cool™ AM07 Tower Fan (worth S$499); S$370 Grab Vouchers; S$350 Cash via PayNow",
+     "options": [
+      "Apple iPad Air (M4) 11\" 128GB WiFi (worth S$1,149) (Top up S$780)",
+      "Apple MacBook Neo (A18 Pro) 256GB w/ Magic Keyboard (worth S$999, top up S$620)",
+      "Apple iPad (A16) 11\" 128GB WiFi (worth S$649) (Top up S$300)",
+      "Dyson Clean+Wash Hygiene hard floor cleaner (worth S$729) (Top up S$200)",
+      "Dyson Airstrait™ straightener (worth S$799) (Top up S$100)",
+      "Dyson V8 Cyclone Vacuum Cleaner (worth S$559, top up S$100)",
+      "Dyson Cool™ AM07 Tower Fan (worth S$499)",
+      "S$370 Grab Vouchers",
+      "S$350 Cash via PayNow"
+     ],
      "value": {
       "amount": 350.0,
       "currency": "SGD"
      },
+     "min_spend": {
+      "amount": 800.0,
+      "currency": "SGD"
+     },
+     "spend_within_days": 30,
+     "new_to_bank_only": true,
+     "stackable": false,
+     "terms": "SingSaver Exclusive Offer promotion is valid from 1 September 2026 to 30 September 2026. Promotion is valid for new Standard Chartered credit cardmembers only. Apply for the Standard Chartered Simply Cash Credit Card and make a min. spend of S$800 within 30 days of card approval date, and apply for any of the following SCB products to be eligible for reward: Apply for Standard Chartered EasyPay for at least 3 retail transactions on your credit card with min. amount of S$150 each and min. tenure of 12 months (within 60 days of card approval date); or Apply and open a Standard Chartered Bonus$aver Account with a min. deposit of S$3,000 (within 60 days of card approval date) (quick apply here ); or Apply and get approved for a Standard Chartered CashOne Personal Loan with min. amount of S$1,000 and min. tenure of 12 months (within 60 days of card approval date) (quick apply here ); or Apply and get approved for a Standard Chartered Credit Card Funds Transfer (CCFT) with min. amount of S$1,000 and min. tenure of 3 months (within 60 days of card approval date) (quick apply here ) Promotion does not stack with other welcome offers from Standard Chartered. Terms and Conditions apply.",
      "valid_from": "2026-08-31",
      "valid_to": "2026-09-30",
      "url": "https://www.singsaver.com.sg/credit-card/products/standard-chartered-simply-cash-credit-card",
@@ -20508,7 +21901,25 @@
     },
     {
      "offered_by": "moneysmart",
-     "description": "Choice of: S$350 Cash via PayNow; Apple AirPods Pro 3; ErgoTune Joobie Lite (M); Sony WF-1000XM6 Wireless Noise Cancelling Headphones; Insta360 GO 3S Special Edition (64GB, Canvas White). Terms: • A\npply for the card by 30th Sept 2026\n• \nSpend a min. of S$800 in eligible transactions within 30 days from card approval date.\n• Apply and get approval for either: EasyPay, Bonus$aver Account, CashOne Loan, Funds Transfer\n• Submit your Claim Form by 30th Oct 2026",
+     "description": "Choice of: S$350 Cash via PayNow; Apple AirPods Pro 3; ErgoTune Joobie Lite (M); Sony WF-1000XM6 Wireless Noise Cancelling Headphones; Insta360 GO 3S Special Edition (64GB, Canvas White)",
+     "options": [
+      "S$350 Cash via PayNow",
+      "Apple AirPods Pro 3",
+      "ErgoTune Joobie Lite (M)",
+      "Sony WF-1000XM6 Wireless Noise Cancelling Headphones",
+      "Insta360 GO 3S Special Edition (64GB, Canvas White)"
+     ],
+     "value": {
+      "amount": 350.0,
+      "currency": "SGD"
+     },
+     "min_spend": {
+      "amount": 800.0,
+      "currency": "SGD"
+     },
+     "spend_within_days": 30,
+     "terms": "• A pply for the card by 30th Sept 2026 • Spend a min. of S$800 in eligible transactions within 30 days from card approval date. • Apply and get approval for either: EasyPay, Bonus$aver Account, CashOne Loan, Funds Transfer • Submit your Claim Form by 30th Oct 2026",
+     "valid_to": "2026-09-30",
      "url": "https://www.moneysmart.sg/credit-cards/standard-chartered-simply-cash-credit-card",
      "sources": [
       "moneysmart:eeee24fb93a9"
@@ -20689,6 +22100,8 @@
      ]
     }
    ],
+   "spend_cycle": "calendar_month",
+   "spend_cycle_sources": [],
    "general_exclusions": {
     "tags": [],
     "include_mcc": [],
@@ -20940,6 +22353,8 @@
      ]
     }
    ],
+   "spend_cycle": "calendar_month",
+   "spend_cycle_sources": [],
    "general_exclusions": {
     "tags": [],
     "include_mcc": [],
@@ -21079,6 +22494,8 @@
      ]
     }
    ],
+   "spend_cycle": "calendar_month",
+   "spend_cycle_sources": [],
    "general_exclusions": {
     "tags": [],
     "include_mcc": [],
@@ -21095,6 +22512,11 @@
     {
      "offered_by": "singsaver",
      "description": "Welcome Offer: choice of Win a sure-win stock gift worth up to USD 8,000!",
+     "options": [
+      "Win a sure-win stock gift worth up to USD 8,000!"
+     ],
+     "new_to_bank_only": true,
+     "terms": "Welcome Offer promotion is valid until 31 October 2026. Promotion is valid for new Trust credit cardmembers only. Sign up and get approved for the Trust Freedom Credit Card and choose Stockback as your reward category to be eligible for a sure-win stock gift worth up to USD 8,000 in stock! Terms and Conditions apply.",
      "valid_from": "2026-08-27",
      "valid_to": "2026-10-30",
      "url": "https://www.singsaver.com.sg/credit-card/products/trust-cashback-credit-card",
@@ -21105,6 +22527,15 @@
     {
      "offered_by": "singsaver",
      "description": "Welcome Offer: choice of Receive up to 100,000 Max Miles by HeyMax!",
+     "options": [
+      "Receive up to 100,000 Max Miles by HeyMax!"
+     ],
+     "min_spend": {
+      "amount": 1000.0,
+      "currency": "SGD"
+     },
+     "new_to_bank_only": true,
+     "terms": "Welcome Offer promotion is valid until 31 October 2026. Promotion is valid for new Trust credit cardmembers only. Sign up and get approved for the Trust Freedom Credit Card, choose Miles as your reward category and reach the minimum spend threshold to be eligible for reward: Reach S$1K spend to receive 20,000 Max Miles by HeyMax . Reach S$5K spend to receive 3 0,000 Max Miles by HeyMax . Reach S$15K spend to receive 50,000 Max Miles by HeyMax . Each of the above rewards are cumulative (i.e. if you reach S$15K spend, you will be eligible for 50K+30K+20K Max Miles by HeyMax) Terms and Conditions apply.",
      "valid_from": "2026-09-20",
      "valid_to": "2026-10-30",
      "url": "https://www.singsaver.com.sg/credit-card/products/trust-cashback-credit-card",
@@ -21114,7 +22545,13 @@
     },
     {
      "offered_by": "moneysmart",
-     "description": "Choice of: Sure-win stock gift of up to 8K USD stocks; Up to 100,000 miles. Terms: Apply for a Trust Credit Card\nOnly valid for New-To-Trust Customers",
+     "description": "Choice of: Sure-win stock gift of up to 8K USD stocks; Up to 100,000 miles",
+     "options": [
+      "Sure-win stock gift of up to 8K USD stocks",
+      "Up to 100,000 miles"
+     ],
+     "new_to_bank_only": true,
+     "terms": "Apply for a Trust Credit Card Only valid for New-To-Trust Customers",
      "url": "https://www.moneysmart.sg/credit-cards/trust-freedom-credit-card",
      "sources": [
       "moneysmart:eeee24fb93a9"
@@ -21507,6 +22944,8 @@
      ]
     }
    ],
+   "spend_cycle": "calendar_month",
+   "spend_cycle_sources": [],
    "general_exclusions": {
     "tags": [],
     "include_mcc": [],
@@ -21527,7 +22966,12 @@
    "sign_up_bonuses": [
     {
      "offered_by": "moneysmart",
-     "description": "Choice of: Sure-win stock gift of up to S$8K cashback. Terms: Apply for a Trust Credit Card\nOnly valid for New-To-Trust Customers",
+     "description": "Choice of: Sure-win stock gift of up to S$8K cashback",
+     "options": [
+      "Sure-win stock gift of up to S$8K cashback"
+     ],
+     "new_to_bank_only": true,
+     "terms": "Apply for a Trust Credit Card Only valid for New-To-Trust Customers",
      "url": "https://www.moneysmart.sg/credit-cards/ntuc-link-trust-card",
      "sources": [
       "moneysmart:42909b088c22"
@@ -21764,6 +23208,8 @@
      ]
     }
    ],
+   "spend_cycle": "calendar_month",
+   "spend_cycle_sources": [],
    "general_exclusions": {
     "tags": [],
     "include_mcc": [],
@@ -21792,6 +23238,16 @@
     {
      "offered_by": "singsaver",
      "description": "Welcome Offer: choice of S$100 Samsung Voucher",
+     "options": [
+      "S$100 Samsung Voucher"
+     ],
+     "min_spend": {
+      "amount": 1000.0,
+      "currency": "SGD"
+     },
+     "spend_within_days": 30,
+     "new_to_bank_only": true,
+     "terms": "Welcome Offer promotion is valid from 1 July 2026 to 30 September 2026. Promotion is valid for new-to-UOB credit card customers only. Successfully apply to be the principal cardholder for select UOB Credit Cards within the promo period and spend a min. of S$1,000 within 30 days of card approval to be eligible for S$100 Samsung Voucher reward. Plus, receive a 10% discount when you use your UOB Credit Card on Samsung Singapore transactions via the Samsung online store with min. spend of S$1,000. Samsung reserves the right to amend or withdraw the discount promotion without prior notice. Terms and Conditions apply.",
      "valid_from": "2026-06-30",
      "valid_to": "2026-09-29",
      "url": "https://www.singsaver.com.sg/credit-card/products/uob-absolute-cashback-card",
@@ -21802,10 +23258,23 @@
     {
      "offered_by": "singsaver",
      "description": "SingSaver Flash Deal: choice of S$200 Cash via PayNow; Samsonite Straren Spinner 67/24 (worth S$600); S$90 Cash via PayNow",
+     "options": [
+      "S$200 Cash via PayNow",
+      "Samsonite Straren Spinner 67/24 (worth S$600)",
+      "S$90 Cash via PayNow"
+     ],
      "value": {
       "amount": 200.0,
       "currency": "SGD"
      },
+     "min_spend": {
+      "amount": 500.0,
+      "currency": "SGD"
+     },
+     "spend_within_days": 30,
+     "new_to_bank_only": true,
+     "stackable": true,
+     "terms": "SingSaver Flash Deal promotion is valid from 2 September 2026 to 30 September 2026. Promotion is valid for new-to-UOB credit cardmembers only. Be one of the first 2 applicants at 2 PM & 10PM every day during the flash deal period to apply for selected UOB credit cards and make a min. spend of S$500 within the first 30 days of card approval to be eligible for the Flash Deal reward: S$200 Cash via PayNow ; or a Samsonite Straren Spinner 67/24 (worth S$600) . Remaining applicants will receive S$90 Cash via PayNow . Promotion is stackable with UOB Welcome Offer (additional T&Cs apply). Terms and Conditions apply",
      "valid_from": "2026-09-01",
      "valid_to": "2026-09-30",
      "url": "https://www.singsaver.com.sg/credit-card/products/uob-absolute-cashback-card",
@@ -22223,6 +23692,8 @@
      ]
     }
    ],
+   "spend_cycle": "calendar_month",
+   "spend_cycle_sources": [],
    "general_exclusions": {
     "tags": [],
     "include_mcc": [],
@@ -22304,6 +23775,16 @@
     {
      "offered_by": "singsaver",
      "description": "Welcome Offer: choice of S$100 Samsung Voucher",
+     "options": [
+      "S$100 Samsung Voucher"
+     ],
+     "min_spend": {
+      "amount": 1000.0,
+      "currency": "SGD"
+     },
+     "spend_within_days": 30,
+     "new_to_bank_only": true,
+     "terms": "Welcome Offer promotion is valid from 1 July 2026 to 30 September 2026. Promotion is valid for new-to-UOB credit card customers only. Successfully apply to be the principal cardholder for select UOB Credit Cards within the promo period and spend a min. of S$1,000 within 30 days of card approval to be eligible for S$100 Samsung Voucher reward. Plus, receive a 10% discount when you use your UOB Credit Card on Samsung Singapore transactions via the Samsung online store with min. spend of S$1,000. Samsung reserves the right to amend or withdraw the discount promotion without prior notice. Terms and Conditions apply.",
      "valid_from": "2026-06-30",
      "valid_to": "2026-09-29",
      "url": "https://www.singsaver.com.sg/credit-card/products/uob-evol-card",
@@ -22314,10 +23795,23 @@
     {
      "offered_by": "singsaver",
      "description": "SingSaver Flash Deal: choice of S$200 Cash via PayNow; Samsonite Straren Spinner 67/24 (worth S$600); S$90 Cash via PayNow",
+     "options": [
+      "S$200 Cash via PayNow",
+      "Samsonite Straren Spinner 67/24 (worth S$600)",
+      "S$90 Cash via PayNow"
+     ],
      "value": {
       "amount": 200.0,
       "currency": "SGD"
      },
+     "min_spend": {
+      "amount": 500.0,
+      "currency": "SGD"
+     },
+     "spend_within_days": 30,
+     "new_to_bank_only": true,
+     "stackable": true,
+     "terms": "SingSaver Flash Deal promotion is valid from 2 September 2026 to 30 September 2026. Promotion is valid for new-to-UOB credit cardmembers only. Be one of the first 2 applicants at 2 PM & 10PM every day during the flash deal period to apply for selected UOB credit cards and make a min. spend of S$500 within the first 30 days of card approval to be eligible for the Flash Deal reward: S$200 Cash via PayNow ; or a Samsonite Straren Spinner 67/24 (worth S$600) . Remaining applicants will receive S$90 Cash via PayNow . Promotion is stackable with UOB Welcome Offer (additional T&Cs apply). Terms and Conditions apply",
      "valid_from": "2026-09-01",
      "valid_to": "2026-09-30",
      "url": "https://www.singsaver.com.sg/credit-card/products/uob-evol-card",
@@ -22653,6 +24147,8 @@
      ]
     }
    ],
+   "spend_cycle": "calendar_month",
+   "spend_cycle_sources": [],
    "general_exclusions": {
     "tags": [],
     "include_mcc": [],
@@ -23125,6 +24621,8 @@
      ]
     }
    ],
+   "spend_cycle": "calendar_month",
+   "spend_cycle_sources": [],
    "general_exclusions": {
     "tags": [],
     "include_mcc": [],
@@ -23193,6 +24691,16 @@
     {
      "offered_by": "singsaver",
      "description": "Welcome Offer: choice of S$100 Samsung Voucher",
+     "options": [
+      "S$100 Samsung Voucher"
+     ],
+     "min_spend": {
+      "amount": 1000.0,
+      "currency": "SGD"
+     },
+     "spend_within_days": 30,
+     "new_to_bank_only": true,
+     "terms": "Welcome Offer promotion is valid from 1 July 2026 to 30 September 2026. Promotion is valid for new-to-UOB credit card customers only. Successfully apply to be the principal cardholder for select UOB Credit Cards within the promo period and spend a min. of S$1,000 within 30 days of card approval to be eligible for S$100 Samsung Voucher reward. Plus, receive a 10% discount when you use your UOB Credit Card on Samsung Singapore transactions via the Samsung online store with min. spend of S$1,000. Samsung reserves the right to amend or withdraw the discount promotion without prior notice. Terms and Conditions apply.",
      "valid_from": "2026-06-30",
      "valid_to": "2026-09-29",
      "url": "https://www.singsaver.com.sg/credit-card/products/uob-ladys-card",
@@ -23203,10 +24711,23 @@
     {
      "offered_by": "singsaver",
      "description": "SingSaver Flash Deal: choice of S$200 Cash via PayNow; Samsonite Straren Spinner 67/24 (worth S$600); S$90 Cash via PayNow",
+     "options": [
+      "S$200 Cash via PayNow",
+      "Samsonite Straren Spinner 67/24 (worth S$600)",
+      "S$90 Cash via PayNow"
+     ],
      "value": {
       "amount": 200.0,
       "currency": "SGD"
      },
+     "min_spend": {
+      "amount": 500.0,
+      "currency": "SGD"
+     },
+     "spend_within_days": 30,
+     "new_to_bank_only": true,
+     "stackable": true,
+     "terms": "SingSaver Flash Deal promotion is valid from 2 September 2026 to 30 September 2026. Promotion is valid for new-to-UOB credit cardmembers only. Be one of the first 2 applicants at 2 PM & 10PM every day during the flash deal period to apply for selected UOB credit cards and make a min. spend of S$500 within the first 30 days of card approval to be eligible for the Flash Deal reward: S$200 Cash via PayNow ; or a Samsonite Straren Spinner 67/24 (worth S$600) . Remaining applicants will receive S$90 Cash via PayNow . Promotion is stackable with UOB Welcome Offer (additional T&Cs apply). Terms and Conditions apply",
      "valid_from": "2026-09-01",
      "valid_to": "2026-09-30",
      "url": "https://www.singsaver.com.sg/credit-card/products/uob-ladys-card",
@@ -23668,6 +25189,8 @@
      ]
     }
    ],
+   "spend_cycle": "calendar_month",
+   "spend_cycle_sources": [],
    "general_exclusions": {
     "tags": [],
     "include_mcc": [],
@@ -23751,10 +25274,19 @@
     {
      "offered_by": "singsaver",
      "description": "Welcome Offer: choice of Enjoy up to 20% cashback on daily spend",
+     "options": [
+      "Enjoy up to 20% cashback on daily spend"
+     ],
      "value": {
       "amount": 200.0,
       "currency": "SGD"
      },
+     "min_spend": {
+      "amount": 600.0,
+      "currency": "SGD"
+     },
+     "new_to_bank_only": true,
+     "terms": "Welcome Offer promotion is valid from 15 May 2026 to 30 September 2026. Promotion is valid for new-to-UOB credit card customers only. Apply and get approved for the UOB One Credit Card during the promo period and make a min. spend of S$600 over 10 card transactions in each statement month to receive enhanced cashback. Terms and Conditions apply",
      "valid_from": "2026-05-14",
      "valid_to": "2026-09-30",
      "url": "https://www.uob.com.sg/assets/web-resources/personal/pdf/cards/cashback/one-card/one-credit-card-cmpg-tnc.pdf",
@@ -23765,6 +25297,16 @@
     {
      "offered_by": "singsaver",
      "description": "Welcome Offer: choice of S$100 Samsung Voucher",
+     "options": [
+      "S$100 Samsung Voucher"
+     ],
+     "min_spend": {
+      "amount": 1000.0,
+      "currency": "SGD"
+     },
+     "spend_within_days": 30,
+     "new_to_bank_only": true,
+     "terms": "Welcome Offer promotion is valid from 1 July 2026 to 30 September 2026. Promotion is valid for new-to-UOB credit card customers only. Successfully apply to be the principal cardholder for select UOB Credit Cards within the promo period and spend a min. of S$1,000 within 30 days of card approval to be eligible for S$100 Samsung Voucher reward. Plus, receive a 10% discount when you use your UOB Credit Card on Samsung Singapore transactions via the Samsung online store with min. spend of S$1,000. Samsung reserves the right to amend or withdraw the discount promotion without prior notice. Terms and Conditions apply.",
      "valid_from": "2026-06-30",
      "valid_to": "2026-09-29",
      "url": "https://www.singsaver.com.sg/credit-card/products/uob-one-card",
@@ -23775,10 +25317,23 @@
     {
      "offered_by": "singsaver",
      "description": "SingSaver Flash Deal: choice of S$200 Cash via PayNow; Samsonite Straren Spinner 67/24 (worth S$600); S$90 Cash via PayNow",
+     "options": [
+      "S$200 Cash via PayNow",
+      "Samsonite Straren Spinner 67/24 (worth S$600)",
+      "S$90 Cash via PayNow"
+     ],
      "value": {
       "amount": 200.0,
       "currency": "SGD"
      },
+     "min_spend": {
+      "amount": 500.0,
+      "currency": "SGD"
+     },
+     "spend_within_days": 30,
+     "new_to_bank_only": true,
+     "stackable": true,
+     "terms": "SingSaver Flash Deal promotion is valid from 2 September 2026 to 30 September 2026. Promotion is valid for new-to-UOB credit cardmembers only. Be one of the first 2 applicants at 2 PM & 10PM every day during the flash deal period to apply for selected UOB credit cards and make a min. spend of S$500 within the first 30 days of card approval to be eligible for the Flash Deal reward: S$200 Cash via PayNow ; or a Samsonite Straren Spinner 67/24 (worth S$600) . Remaining applicants will receive S$90 Cash via PayNow . Promotion is stackable with UOB Welcome Offer (additional T&Cs apply). Terms and Conditions apply",
      "valid_from": "2026-09-01",
      "valid_to": "2026-09-30",
      "url": "https://www.singsaver.com.sg/credit-card/products/uob-one-card",
@@ -23912,6 +25467,8 @@
     }
    },
    "earn_rules": [],
+   "spend_cycle": "calendar_month",
+   "spend_cycle_sources": [],
    "general_exclusions": {
     "tags": [],
     "include_mcc": [],
@@ -24249,6 +25806,8 @@
      ]
     }
    ],
+   "spend_cycle": "calendar_month",
+   "spend_cycle_sources": [],
    "general_exclusions": {
     "tags": [],
     "include_mcc": [],
@@ -24265,6 +25824,16 @@
     {
      "offered_by": "singsaver",
      "description": "Welcome Offer: choice of S$100 Samsung Voucher",
+     "options": [
+      "S$100 Samsung Voucher"
+     ],
+     "min_spend": {
+      "amount": 1000.0,
+      "currency": "SGD"
+     },
+     "spend_within_days": 30,
+     "new_to_bank_only": true,
+     "terms": "Welcome Offer promotion is valid from 1 July 2026 to 30 September 2026. Promotion is valid for new-to-UOB credit card customers only. Successfully apply to be the principal cardholder for select UOB Credit Cards within the promo period and spend a min. of S$1,000 within 30 days of card approval to be eligible for S$100 Samsung Voucher reward. Plus, receive a 10% discount when you use your UOB Credit Card on Samsung Singapore transactions via the Samsung online store with min. spend of S$1,000. Samsung reserves the right to amend or withdraw the discount promotion without prior notice. Terms and Conditions apply.",
      "valid_from": "2026-06-30",
      "valid_to": "2026-09-29",
      "url": "https://www.singsaver.com.sg/credit-card/products/uob-prvi-miles-american-express-card",
@@ -24275,10 +25844,23 @@
     {
      "offered_by": "singsaver",
      "description": "SingSaver Flash Deal: choice of S$200 Cash via PayNow; Samsonite Straren Spinner 67/24 (worth S$600); S$90 Cash via PayNow",
+     "options": [
+      "S$200 Cash via PayNow",
+      "Samsonite Straren Spinner 67/24 (worth S$600)",
+      "S$90 Cash via PayNow"
+     ],
      "value": {
       "amount": 200.0,
       "currency": "SGD"
      },
+     "min_spend": {
+      "amount": 500.0,
+      "currency": "SGD"
+     },
+     "spend_within_days": 30,
+     "new_to_bank_only": true,
+     "stackable": true,
+     "terms": "SingSaver Flash Deal promotion is valid from 2 September 2026 to 30 September 2026. Promotion is valid for new-to-UOB credit cardmembers only. Be one of the first 2 applicants at 2 PM & 10PM every day during the flash deal period to apply for selected UOB credit cards and make a min. spend of S$500 within the first 30 days of card approval to be eligible for the Flash Deal reward: S$200 Cash via PayNow ; or a Samsonite Straren Spinner 67/24 (worth S$600) . Remaining applicants will receive S$90 Cash via PayNow . Promotion is stackable with UOB Welcome Offer (additional T&Cs apply). Terms and Conditions apply",
      "valid_from": "2026-09-01",
      "valid_to": "2026-09-30",
      "url": "https://www.singsaver.com.sg/credit-card/products/uob-prvi-miles-american-express-card",
@@ -24641,6 +26223,8 @@
      ]
     }
    ],
+   "spend_cycle": "calendar_month",
+   "spend_cycle_sources": [],
    "general_exclusions": {
     "tags": [],
     "include_mcc": [],
@@ -24657,6 +26241,16 @@
     {
      "offered_by": "singsaver",
      "description": "Welcome Offer: choice of S$100 Samsung Voucher",
+     "options": [
+      "S$100 Samsung Voucher"
+     ],
+     "min_spend": {
+      "amount": 1000.0,
+      "currency": "SGD"
+     },
+     "spend_within_days": 30,
+     "new_to_bank_only": true,
+     "terms": "Welcome Offer promotion is valid from 1 July 2026 to 30 September 2026. Promotion is valid for new-to-UOB credit card customers only. Successfully apply to be the principal cardholder for select UOB Credit Cards within the promo period and spend a min. of S$1,000 within 30 days of card approval to be eligible for S$100 Samsung Voucher reward. Plus, receive a 10% discount when you use your UOB Credit Card on Samsung Singapore transactions via the Samsung online store with min. spend of S$1,000. Samsung reserves the right to amend or withdraw the discount promotion without prior notice. Terms and Conditions apply.",
      "valid_from": "2026-06-30",
      "valid_to": "2026-09-29",
      "url": "https://www.singsaver.com.sg/credit-card/products/uob-prvi-miles-visa-card",
@@ -24667,10 +26261,23 @@
     {
      "offered_by": "singsaver",
      "description": "SingSaver Flash Deal: choice of S$200 Cash via PayNow; Samsonite Straren Spinner 67/24 (worth S$600); S$90 Cash via PayNow",
+     "options": [
+      "S$200 Cash via PayNow",
+      "Samsonite Straren Spinner 67/24 (worth S$600)",
+      "S$90 Cash via PayNow"
+     ],
      "value": {
       "amount": 200.0,
       "currency": "SGD"
      },
+     "min_spend": {
+      "amount": 500.0,
+      "currency": "SGD"
+     },
+     "spend_within_days": 30,
+     "new_to_bank_only": true,
+     "stackable": true,
+     "terms": "SingSaver Flash Deal promotion is valid from 2 September 2026 to 30 September 2026. Promotion is valid for new-to-UOB credit cardmembers only. Be one of the first 2 applicants at 2 PM & 10PM every day during the flash deal period to apply for selected UOB credit cards and make a min. spend of S$500 within the first 30 days of card approval to be eligible for the Flash Deal reward: S$200 Cash via PayNow ; or a Samsonite Straren Spinner 67/24 (worth S$600) . Remaining applicants will receive S$90 Cash via PayNow . Promotion is stackable with UOB Welcome Offer (additional T&Cs apply). Terms and Conditions apply",
      "valid_from": "2026-09-01",
      "valid_to": "2026-09-30",
      "url": "https://www.singsaver.com.sg/credit-card/products/uob-prvi-miles-visa-card",
@@ -25008,6 +26615,8 @@
      ]
     }
    ],
+   "spend_cycle": "calendar_month",
+   "spend_cycle_sources": [],
    "general_exclusions": {
     "tags": [],
     "include_mcc": [],
@@ -25024,6 +26633,16 @@
     {
      "offered_by": "singsaver",
      "description": "Welcome Offer: choice of S$100 Samsung Voucher",
+     "options": [
+      "S$100 Samsung Voucher"
+     ],
+     "min_spend": {
+      "amount": 1000.0,
+      "currency": "SGD"
+     },
+     "spend_within_days": 30,
+     "new_to_bank_only": true,
+     "terms": "Welcome Offer promotion is valid from 1 July 2026 to 30 September 2026. Promotion is valid for new-to-UOB credit card customers only. Successfully apply to be the principal cardholder for select UOB Credit Cards within the promo period and spend a min. of S$1,000 within 30 days of card approval to be eligible for S$100 Samsung Voucher reward. Plus, receive a 10% discount when you use your UOB Credit Card on Samsung Singapore transactions via the Samsung online store with min. spend of S$1,000. Samsung reserves the right to amend or withdraw the discount promotion without prior notice. Terms and Conditions apply.",
      "valid_from": "2026-06-30",
      "valid_to": "2026-09-29",
      "url": "https://www.singsaver.com.sg/credit-card/products/uob-prvi-miles-world-mastercard",
@@ -25034,10 +26653,23 @@
     {
      "offered_by": "singsaver",
      "description": "SingSaver Flash Deal: choice of S$200 Cash via PayNow; Samsonite Straren Spinner 67/24 (worth S$600); S$90 Cash via PayNow",
+     "options": [
+      "S$200 Cash via PayNow",
+      "Samsonite Straren Spinner 67/24 (worth S$600)",
+      "S$90 Cash via PayNow"
+     ],
      "value": {
       "amount": 200.0,
       "currency": "SGD"
      },
+     "min_spend": {
+      "amount": 500.0,
+      "currency": "SGD"
+     },
+     "spend_within_days": 30,
+     "new_to_bank_only": true,
+     "stackable": true,
+     "terms": "SingSaver Flash Deal promotion is valid from 2 September 2026 to 30 September 2026. Promotion is valid for new-to-UOB credit cardmembers only. Be one of the first 2 applicants at 2 PM & 10PM every day during the flash deal period to apply for selected UOB credit cards and make a min. spend of S$500 within the first 30 days of card approval to be eligible for the Flash Deal reward: S$200 Cash via PayNow ; or a Samsonite Straren Spinner 67/24 (worth S$600) . Remaining applicants will receive S$90 Cash via PayNow . Promotion is stackable with UOB Welcome Offer (additional T&Cs apply). Terms and Conditions apply",
      "valid_from": "2026-09-01",
      "valid_to": "2026-09-30",
      "url": "https://www.singsaver.com.sg/credit-card/products/uob-prvi-miles-world-mastercard",
@@ -25271,6 +26903,8 @@
      ]
     }
    ],
+   "spend_cycle": "calendar_month",
+   "spend_cycle_sources": [],
    "general_exclusions": {
     "tags": [],
     "include_mcc": [],
@@ -25496,6 +27130,8 @@
      ]
     }
    ],
+   "spend_cycle": "calendar_month",
+   "spend_cycle_sources": [],
    "general_exclusions": {
     "tags": [],
     "include_mcc": [],
@@ -25734,6 +27370,8 @@
      ]
     }
    ],
+   "spend_cycle": "calendar_month",
+   "spend_cycle_sources": [],
    "general_exclusions": {
     "tags": [],
     "include_mcc": [],
@@ -25750,6 +27388,16 @@
     {
      "offered_by": "singsaver",
      "description": "Welcome Offer: choice of S$100 Samsung Voucher",
+     "options": [
+      "S$100 Samsung Voucher"
+     ],
+     "min_spend": {
+      "amount": 1000.0,
+      "currency": "SGD"
+     },
+     "spend_within_days": 30,
+     "new_to_bank_only": true,
+     "terms": "Welcome Offer promotion is valid from 1 July 2026 to 30 September 2026. Promotion is valid for new-to-UOB credit card customers only. Successfully apply to be the principal cardholder for select UOB Credit Cards within the promo period and spend a min. of S$1,000 within 30 days of card approval to be eligible for S$100 Samsung Voucher reward. Plus, receive a 10% discount when you use your UOB Credit Card on Samsung Singapore transactions via the Samsung online store with min. spend of S$1,000. Samsung reserves the right to amend or withdraw the discount promotion without prior notice. Terms and Conditions apply.",
      "valid_from": "2026-06-30",
      "valid_to": "2026-09-29",
      "url": "https://www.singsaver.com.sg/credit-card/products/uob-visa-signature-card",
@@ -25760,10 +27408,23 @@
     {
      "offered_by": "singsaver",
      "description": "SingSaver Flash Deal: choice of S$200 Cash via PayNow; Samsonite Straren Spinner 67/24 (worth S$600); S$90 Cash via PayNow",
+     "options": [
+      "S$200 Cash via PayNow",
+      "Samsonite Straren Spinner 67/24 (worth S$600)",
+      "S$90 Cash via PayNow"
+     ],
      "value": {
       "amount": 200.0,
       "currency": "SGD"
      },
+     "min_spend": {
+      "amount": 500.0,
+      "currency": "SGD"
+     },
+     "spend_within_days": 30,
+     "new_to_bank_only": true,
+     "stackable": true,
+     "terms": "SingSaver Flash Deal promotion is valid from 2 September 2026 to 30 September 2026. Promotion is valid for new-to-UOB credit cardmembers only. Be one of the first 2 applicants at 2 PM & 10PM every day during the flash deal period to apply for selected UOB credit cards and make a min. spend of S$500 within the first 30 days of card approval to be eligible for the Flash Deal reward: S$200 Cash via PayNow ; or a Samsonite Straren Spinner 67/24 (worth S$600) . Remaining applicants will receive S$90 Cash via PayNow . Promotion is stackable with UOB Welcome Offer (additional T&Cs apply). Terms and Conditions apply",
      "valid_from": "2026-09-01",
      "valid_to": "2026-09-30",
      "url": "https://www.singsaver.com.sg/credit-card/products/uob-visa-signature-card",

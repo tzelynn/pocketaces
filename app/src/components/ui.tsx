@@ -1,10 +1,17 @@
 import { useEffect, useRef, useState, type ReactNode } from "react";
 import {
-  Armchair, BedDouble, Bus, Car, CarTaxiFront, Clapperboard, Coffee, Coins, CreditCard, Fuel, Gem, Hammer,
-  HeartPulse, Laptop, Luggage, MonitorPlay, Plane, PlaneTakeoff, Ship, ShoppingBag, ShoppingBasket, Smartphone,
-  Sofa, Sparkles, TrainFront, Utensils, X, type LucideIcon,
+  AppWindow, ArrowLeftRight, Armchair, Banknote, BedDouble, Bus, Car, CarTaxiFront, Clapperboard, Coffee, Coins, CreditCard, Dices, Fuel, Gem,
+  Globe, GraduationCap, Hammer, HandHeart, HeartPulse, KeyRound, Landmark, Laptop, Luggage, MapPin, MonitorPlay,
+  MousePointerClick, Nfc, Plane, PlaneTakeoff, Repeat, Ship, ShieldCheck, ShoppingBag, ShoppingBasket, Smartphone,
+  SmartphoneNfc, Sofa, Sparkles, TrainFront, Utensils, X, Zap, type LucideIcon,
 } from "lucide-react";
 import type { RewardKind } from "../types";
+
+/** Transaction modes (config/categories.yaml `transaction_modes`), shown outlined beside categories. */
+export const MODE_ICONS: Record<string, LucideIcon> = {
+  online: MousePointerClick, in_app: AppWindow, contactless: Nfc, mobile_wallet: SmartphoneNfc, chip_pin: KeyRound,
+  recurring: Repeat, foreign_currency: Globe, local_currency: MapPin, overseas_in_sgd: ArrowLeftRight,
+};
 
 export const CATEGORY_ICONS: Record<string, LucideIcon> = {
   travel: Plane, flights: PlaneTakeoff, hotels: BedDouble, car_rental: Car, cruise: Ship,
@@ -12,13 +19,35 @@ export const CATEGORY_ICONS: Record<string, LucideIcon> = {
   petrol: Fuel, dining: Utensils, groceries: ShoppingBasket, shopping: ShoppingBag, entertainment: Clapperboard,
   streaming_digital: MonitorPlay, telco: Smartphone, healthcare: HeartPulse, day_to_day: Coffee,
   big_ticket: Sofa, renovation: Hammer, furniture: Armchair, electronics: Laptop, jewellery: Gem,
+  transaction_mode: CreditCard, ...MODE_ICONS,
 };
+
+export const EXCLUSION_ICONS: Record<string, LucideIcon> = {
+  education: GraduationCap, government: Landmark, insurance: ShieldCheck, utilities: Zap, charity: HandHeart,
+  financial: Banknote, gambling: Dices,
+};
+
+/** A row of small category icons, each labelled for hover and screen readers. */
+export function TagIcons({ keys, labels, tone }: { keys: string[]; labels: Record<string, string>; tone: "in" | "out" }) {
+  const icons = tone === "in" ? CATEGORY_ICONS : EXCLUSION_ICONS;
+  return (
+    <ul className={`tag-icons ${tone}`} aria-label={tone === "in" ? "Earns bonus on" : "Excluded from rewards"}>
+      {keys.map((k) => {
+        const Icon = icons[k] ?? CreditCard;
+        const label = labels[k] ?? k;
+        return <li key={k} title={label} className={k in MODE_ICONS ? "mode" : undefined}><Icon size={13} strokeWidth={2.2} aria-hidden /><span className="sr-only">{label}</span></li>;
+      })}
+    </ul>
+  );
+}
 
 export const REWARD_ICONS: Record<RewardKind, LucideIcon> = { miles: Plane, cashback: Coins, points: Sparkles };
 export const REWARD_LABEL: Record<RewardKind, string> = { miles: "Miles", cashback: "Cashback", points: "Points" };
 
-export function RewardBadge({ kind }: { kind: RewardKind }) {
+/** `hidden` keeps the badge's space (to line up follow-on rate rows) without showing it. */
+export function RewardBadge({ kind, hidden }: { kind: RewardKind; hidden?: boolean }) {
   const Icon = REWARD_ICONS[kind];
+  if (hidden) return <span className="reward-badge spacer" aria-hidden />;
   return (
     <span className={`reward-badge ${kind}`} title={REWARD_LABEL[kind]}>
       <Icon size={14} aria-hidden />
