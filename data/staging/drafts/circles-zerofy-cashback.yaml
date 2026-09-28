@@ -1,5 +1,5 @@
 # Curated card record. Auto-drafted from staged sources; verify every value against the
-# official T&Cs (citations below), then set review.status: reviewed.
+# official T&Cs (citations below), then set review.status: reviewed and review.reviewed_at.
 id: circles-zerofy-cashback
 bank: Circles.Life
 name: Circles Zerofy Visa Cashback Card
@@ -38,5 +38,5 @@ citations:
   snapshot: data/raw/bank/www-circles-life-sg-terms-conditions-zerofy-card-terms-conditions-1e201a51.html
 review:
   status: draft
-updated_at: '2026-09-27'
+updated_at: '2026-09-28'
 earn_rules: []

@@ -1,5 +1,5 @@
 # Curated card record. Auto-drafted from staged sources; verify every value against the
-# official T&Cs (citations below), then set review.status: reviewed.
+# official T&Cs (citations below), then set review.status: reviewed and review.reviewed_at.
 id: hsbc-travelone
 bank: HSBC
 name: HSBC TravelOne Credit Card
@@ -18,6 +18,21 @@ min_annual_income:
 reward_currency:
   kind: miles
   name: Miles
+  conversions:
+  - partner: KrisFlyer
+    points: 25000.0
+    partner_units: 10000.0
+    fee:
+      amount: 0.0
+      currency: SGD
+    min_block_points: 25000.0
+    note: 'The MileLion: min. transfer “25,000 points (10,000 miles)^”, transfer fee “Free” — confirm
+      the partner (the overview quotes KrisFlyer unless it says otherwise)'
+    sources: ['milelion:d641faf5a5d8']
+  expiry:
+    months: 37
+    note: 'The MileLion: points validity “37 months”'
+    sources: ['milelion:d641faf5a5d8']
 earn_rules:
 - id: overseas
   label: overseas (SingSaver — verify)
@@ -129,9 +144,9 @@ citations:
   url: https://milelion.com/2026/03/20/review-hsbc-travelone-card/
   title: 'Review: HSBC TravelOne Card'
   source_type: editorial
-  retrieved_at: '2026-09-27T05:28:56+00:00'
+  retrieved_at: '2026-09-28T13:29:00+00:00'
   sha256: d641faf5a5d8fcabd3eee16420d09302b571ecdee1d7d4a0bbd8946f90aee2fc
   snapshot: data/raw/milelion/post-146461-3179030e.json
 review:
   status: draft
-updated_at: '2026-09-27'
+updated_at: '2026-09-28'

@@ -1,5 +1,5 @@
 # Curated card record. Auto-drafted from staged sources; verify every value against the
-# official T&Cs (citations below), then set review.status: reviewed.
+# official T&Cs (citations below), then set review.status: reviewed and review.reviewed_at.
 id: uob-visa-infinite-metal
 bank: UOB
 name: UOB Visa Infinite Metal Card
@@ -17,6 +17,21 @@ min_annual_income:
 reward_currency:
   kind: miles
   name: Miles
+  conversions:
+  - partner: KrisFlyer
+    points: 5000.0
+    partner_units: 10000.0
+    fee:
+      amount: 0.0
+      currency: SGD
+    min_block_points: 5000.0
+    note: 'The MileLion: min. transfer “5,000 UNI$ (10,000 miles)”, transfer fee “Waived” — confirm the
+      partner (the overview quotes KrisFlyer unless it says otherwise)'
+    sources: ['milelion:8814bd4efaee']
+  expiry:
+    months: 24
+    note: 'The MileLion: points validity “2 years”'
+    sources: ['milelion:8814bd4efaee']
 earn_rules:
 - id: overseas
   label: overseas (SingSaver — verify)
@@ -101,9 +116,9 @@ citations:
   url: https://milelion.com/2026/06/09/review-uob-visa-infinite-metal-card/
   title: 'Review: UOB Visa Infinite Metal Card'
   source_type: editorial
-  retrieved_at: '2026-09-27T05:28:43+00:00'
+  retrieved_at: '2026-09-28T13:28:46+00:00'
   sha256: 8814bd4efaee242be180ea8e79a7a08b678cdb15f3ecb8e07d0fa8b474d5109b
   snapshot: data/raw/milelion/post-73191-c31fa440.json
 review:
   status: draft
-updated_at: '2026-09-27'
+updated_at: '2026-09-28'

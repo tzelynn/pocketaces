@@ -8,6 +8,10 @@ Companion to [data-collection.md](data-collection.md). Describes how the pipelin
    extracted value points back to the snapshot it came from.
 2. **Official sources win.** Aggregators (SingSaver, Moneysmart, Milelion) are used for *discovery*
    and *cross-checking*; bank T&Cs are the source of truth for earn rules and MCC restrictions.
+   Exception: The MileLion's review overview table and text are the *primary draft source* for points
+   expiry, the miles conversion (block, transfer fee) and the spend cycle (calendar vs statement
+   month). Drafts note where the official T&C evidence disagrees on the spend cycle, and the build
+   reports every curated value that disagrees with (or lacks) what the review states.
 3. **Machines draft, humans approve.** Scrapers write to `data/staging/`. Only human-reviewed
    records in `data/curated/` are treated as verified. The build flags every conflict and every
    unverified field instead of silently picking a value.
@@ -21,7 +25,7 @@ Companion to [data-collection.md](data-collection.md). Describes how the pipelin
 |---|---|---|
 | SingSaver | plain HTTP; Next.js RSC flight data in page | card list, earn rates by category, caps, fees, income, sign-up gifts |
 | Moneysmart | Playwright (Cloudflare); Nuxt `__NUXT_DATA__` payload | card list, highlights, key features, fees, promotions |
-| Milelion | WordPress REST API | card reviews (links + text) for cross-checking; MCC mentions mined as merchant→MCC candidates |
+| Milelion | WordPress REST API | card reviews: overview table (points validity, min transfer, transfer fee, fee, income, earn) and calendar/statement-month statements → primary for expiry, conversion and spend cycle, cross-check for the rest; MCC mentions mined as merchant→MCC candidates |
 | Bank sites | plain HTTP; product page → T&C PDF discovery | T&C PDFs (archived), MCC include/exclude lists, transaction-mode rules |
 | Singapore Airlines | plain HTTP; official award chart PDF | KrisFlyer Saver/Advantage miles by zone and cabin |
 | MCC reference | greggles/mcc-codes (ISO 18245 list) | code → description |
@@ -51,7 +55,8 @@ src/pocketaces/                    # the package (CLI: `pocketaces …`)
 ## Card data model (summary)
 
 `Card` → identity (bank, name, network, image), fees, income requirement, `reward_currency`
-(cashback / miles / points with conversion to KrisFlyer, redemption block and fee), `earn_rules[]`
+(cashback / miles / points with conversion to KrisFlyer — block and transfer fee — points `expiry`,
+redemption block and fee), `spend_cycle` (calendar vs statement month for min spend and caps), `earn_rules[]`
 (rate, unit, min/max spend, bonus cap, rounding block, eligibility: tags, include/exclude MCCs,
 transaction modes), `general_exclusions`, `sign_up_bonuses[]`, `notes[]`, `citations[]`, `review`.
 Every scalar that matters is stored with `sources: [citation_id]`. See `src/pocketaces/models.py`.
@@ -78,6 +83,8 @@ pocketaces refresh            # all of the above in order
   reported.
 - `categories.yaml` codes are validated against the MCC reference list.
 - A changed T&C hash marks the curated record `review.status: stale` until someone re-reviews it.
+  A review dated after the change was pulled (`review.reviewed_at`, a date or datetime; a date covers
+  the whole day) outranks it, so the record stays `reviewed`.
 - The build reports disagreements between sources, for example SingSaver and Moneysmart giving different
   annual fees.
 

@@ -29,7 +29,8 @@ export const EXCLUSION_ICONS: Record<string, LucideIcon> = {
 
 /** A row of small category icons, each labelled for hover and screen readers. */
 export function TagIcons({ keys, labels, tone }: { keys: string[]; labels: Record<string, string>; tone: "in" | "out" }) {
-  const icons = tone === "in" ? CATEGORY_ICONS : EXCLUSION_ICONS;
+  // excluded spend categories (travel, …) keep their usual icon
+  const icons = tone === "in" ? CATEGORY_ICONS : { ...CATEGORY_ICONS, ...EXCLUSION_ICONS };
   return (
     <ul className={`tag-icons ${tone}`} aria-label={tone === "in" ? "Earns bonus on" : "Excluded from rewards"}>
       {keys.map((k) => {

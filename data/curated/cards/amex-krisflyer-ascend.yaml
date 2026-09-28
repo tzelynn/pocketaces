@@ -1,5 +1,5 @@
 # Curated card record. Auto-drafted from staged sources; verify every value against the
-# official T&Cs (citations below), then set review.status: reviewed.
+# official T&Cs (citations below), then set review.status: reviewed and review.reviewed_at.
 id: amex-krisflyer-ascend
 bank: American Express
 name: American Express Singapore Airlines KrisFlyer Ascend Credit Card
@@ -15,6 +15,10 @@ annual_fee:
 reward_currency:
   kind: miles
   name: Miles
+  expiry:
+    months: 36
+    note: 'The MileLion: points validity “3 years”'
+    sources: ['milelion:4acb65a64466']
 earn_rules:
 - id: travel
   label: travel, flight booking (SingSaver — verify)
@@ -48,6 +52,8 @@ earn_rules:
     description: ''
     sources: ['singsaver:d48d6e6569f3']
   sources: ['singsaver:d48d6e6569f3']
+spend_cycle: calendar_month
+spend_cycle_sources: ['milelion:4acb65a64466']
 general_exclusions:
   description: Auto-extracted from official T&Cs — confirm each code applies to this card
 sign_up_bonuses:
@@ -72,6 +78,9 @@ sign_up_bonuses:
   url: https://www.americanexpress.com/content/dam/amex/sg/campaigns/pdfs/kfa-ntb-welcomeoffer-17jun26to31jan27.pdf
   sources: ['singsaver:d48d6e6569f3']
 notes:
+- spend_cycle calendar_month from The MileLion review (“2 mpd for Grab Singapore AMEX KrisFlyer Ascend
+  Cardholders earn 2 mpd on the first S$200 spent each calendar month on Grab Singapore transactions,
+  including Grab rides, GrabFood, GrabMart and Grab Exp”) — confirm it applies to min spend and caps
 - 'Editorial review for cross-checking: Review: AMEX KrisFlyer Ascend (https://milelion.com/2025/11/22/review-amex-krisflyer-ascend/,
   updated 2026-06-12)'
 - 'T&C mentions (check whether excluded): annual fee, balance transfer, bill payment, cash advance, charit,
@@ -114,9 +123,9 @@ citations:
   url: https://milelion.com/2025/11/22/review-amex-krisflyer-ascend/
   title: 'Review: AMEX KrisFlyer Ascend'
   source_type: editorial
-  retrieved_at: '2026-09-27T05:29:19+00:00'
+  retrieved_at: '2026-09-28T13:29:17+00:00'
   sha256: 4acb65a64466f551cbdba1fd3dca1897cdc9a37425fdf47281ff57a0d546334a
   snapshot: data/raw/milelion/post-73136-e6468708.json
 review:
   status: draft
-updated_at: '2026-09-27'
+updated_at: '2026-09-28'

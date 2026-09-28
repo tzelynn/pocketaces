@@ -17,13 +17,24 @@ min_annual_income:
   amount: 30000.0
   currency: SGD
 reward_currency:
-  kind: points
-  name: Points
+  kind: miles
+  name: miles
+  conversions:
+  - partner: KrisFlyer
+    points: 25000.0
+    partner_units: 10000.0
+    fee:
+      amount: 27.25
+      currency: SGD
+    min_block_points: 25000.0
+    note: "The MileLion: min. transfer \u201C25,000 TY points (10,000 miles)\u201D, transfer fee \u201CS$27.25\u201D"
+    sources:
+    - milelion:e97c3ffbbb86
 earn_rules:
 - id: local-spending
   label: local spending, online shopping, retail (SingSaver — verify)
-  rate: 10.0
-  unit: points_per_dollar
+  rate: 4.0
+  unit: mpd
   tier: bonus
   eligibility:
     include_mcc: ['4829', '4900', '5199', '5311', '5611', '5621', '5631', '5641', '5651', '5655', '5661',
@@ -41,24 +52,26 @@ earn_rules:
   sources: ['singsaver:b0789316dd55']
 - id: grocery
   label: grocery, dining, transport, taxi ride sharing, online food delivery (SingSaver — verify)
-  rate: 1.0
-  unit: points_per_dollar
+  rate: 0.4
+  unit: mpd
   tier: bonus
   eligibility:
     tags: [groceries, dining, transport, ride_hailing]
     description: ''
     sources: ['singsaver:b0789316dd55']
-  sources: ['singsaver:b0789316dd55']
+  conditions: ['1 point per S$1, converted to KrisFlyer miles at 25000:10000']
+  sources: ['singsaver:b0789316dd55', 'milelion:e97c3ffbbb86']
 - id: base
   label: baseline (SingSaver — verify)
-  rate: 1.0
-  unit: points_per_dollar
+  rate: 0.4
+  unit: mpd
   tier: base
   eligibility:
     all_spend: true
     description: ''
     sources: ['singsaver:b0789316dd55']
-  sources: ['singsaver:b0789316dd55']
+  conditions: ['1 point per S$1, converted to KrisFlyer miles at 25000:10000']
+  sources: ['singsaver:b0789316dd55', 'milelion:e97c3ffbbb86']
 general_exclusions:
   exclude_mcc: [3000-3350, 3351-3500, 3501-3999, '4111', '4112', '4411', '4511', '4722', 4722-4723, '4723',
     '4789', '5962', '7011', 7011-7012, '7012', '7512']
@@ -247,5 +260,6 @@ citations:
   sha256: e97c3ffbbb86c17682e52a3200d191f3bb9aa86da353b54c2d102219e9e7a89d
   snapshot: data/raw/milelion/post-72798-1714eaef.json
 review:
-  status: draft
+  status: reviewed
+  reviewed_at: 2026-09-27
 updated_at: '2026-09-27'

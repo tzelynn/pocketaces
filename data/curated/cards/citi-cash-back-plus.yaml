@@ -242,5 +242,6 @@ citations:
   sha256: afc808152e46eb1279131c558eea928bbba77f9e7ec1c31f62d02e5b3b09f2d3
   snapshot: data/raw/bank/www-citibank-com-sg-credit-cards-cashback-cashback-plus-card-pdf-bonus-cash-back-frequently-asked-questions-pdf-af06d61e.pdf
 review:
-  status: draft
+  status: reviewed
+  reviewed_at: 2026-09-27
 updated_at: '2026-09-27'

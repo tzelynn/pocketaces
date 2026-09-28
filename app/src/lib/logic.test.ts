@@ -3,7 +3,10 @@ import type { Bonus, CatalogCard, MyCard, Rule } from "../types";
 import { DEFAULT_SETTINGS } from "../types";
 import { billCycles, daysBetween, feeInstance, spendWindow, spentInWindow } from "./dates";
 import { remindersFor, unnotified } from "./reminders";
-import { activeBonuses, bonusHeadline, bonusValue, effectivePct, headlineRule, rateRules, spendCap, trackingDefaults } from "./catalog";
+import {
+  activeBonuses, bonusHeadline, bonusValue, effectivePct, fmtConversion, fmtExpiry, hasMonthlyLimits, headlineRule, rateRules, spendCap,
+  trackingDefaults,
+} from "./catalog";
 import { buildIcs } from "./ics";
 import { normalise } from "./storage";
 
@@ -14,7 +17,7 @@ const card = (p: Partial<MyCard> = {}): MyCard => ({
 const rule = (p: Partial<Rule> = {}): Rule => ({
   id: "r", label: "r", rate: 1, unit: "percent", tier: "bonus", allSpend: false, desc: null, minSpend: null,
   minSpendPeriod: null, maxSpend: null, maxSpendPeriod: null, cap: null, modes: [], conditions: [], includes: [],
-  tags: [], ...p,
+  tags: [], limit: null, ...p,
 });
 
 describe("bill cycles", () => {
@@ -145,6 +148,21 @@ describe("catalogue maths", () => {
     expect(headlineRule(cc, "dining")?.id).toBe("dining");
   });
 
+  it("doesn't headline or rank by a rate limited to named merchants", () => {
+    const one = {
+      rules: [
+        rule({ id: "merchants", rate: 20, tags: ["dining"], limit: { kind: "merchants", text: "at McDonald's and Grab" } }),
+        rule({ id: "groceries", rate: 8, tags: ["groceries"] }),
+        rule({ id: "base", rate: 3.33, tier: "base" }),
+      ],
+    } as unknown as CatalogCard;
+    expect(headlineRule(one, null)?.id).toBe("groceries");
+    // only a limited rate covers dining: the card earns its base rate on dining in general
+    expect(headlineRule(one, "dining")?.id).toBe("base");
+    // still listed, best first
+    expect(rateRules(one, null).map((r) => r.id)).toEqual(["merchants", "groceries", "base"]);
+  });
+
   it("lists every rule above 1% / 1 mpd as its own row", () => {
     expect(rateRules(cc, null).map((r) => r.id)).toEqual(["online", "dining"]);
     expect(rateRules(cc, "dining").map((r) => r.id)).toEqual(["dining"]);
@@ -215,5 +233,29 @@ describe("sign-up bonuses", () => {
     expect(activeBonuses(c, "2026-02-01", 1.5).map((b) => b.value)).toEqual([200, 50]);
     c.bonuses.push(bonus({ value: 500, title: "SingSaver Flash Deal" }));
     expect(activeBonuses(c, "2026-02-01", 1.5).map((b) => b.value)).toEqual([200, 50, 500]);
+  });
+});
+
+describe("points expiry and conversion", () => {
+  it("formats validity", () => {
+    expect(fmtExpiry(null)).toBeNull();
+    expect(fmtExpiry({ never: true, months: null, monthsMax: null })).toBe("No expiry");
+    expect(fmtExpiry({ never: false, months: 36, monthsMax: null })).toBe("3 yrs");
+    expect(fmtExpiry({ never: false, months: 37, monthsMax: null })).toBe("37 mo");
+    expect(fmtExpiry({ never: false, months: 12, monthsMax: 15 })).toBe("12–15 mo");
+    expect(fmtExpiry({ never: false, months: null, monthsMax: 60 })).toBe("Up to 5 yrs");
+  });
+
+  it("formats the transfer fee and block", () => {
+    expect(fmtConversion({ partner: "KrisFlyer", points: 25000, miles: 10000, fee: 27.25 }))
+      .toEqual({ fee: "S$27.25", block: "25,000 pts → 10,000 KrisFlyer miles" });
+    expect(fmtConversion({ partner: "KrisFlyer", points: 1, miles: 1, fee: 0 })).toEqual({ fee: "Free", block: null });
+  });
+
+  it("knows when the spend month matters", () => {
+    const monthly = { rules: [rule({ minSpend: 800, minSpendPeriod: "calendar_month" })] } as unknown as CatalogCard;
+    const none = { rules: [rule()] } as unknown as CatalogCard;
+    expect(hasMonthlyLimits(monthly)).toBe(true);
+    expect(hasMonthlyLimits(none)).toBe(false);
   });
 });

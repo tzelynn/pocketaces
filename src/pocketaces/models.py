@@ -6,11 +6,11 @@ Fields that carry facts have a `sources` list of citation ids (keys into `Card.c
 
 from __future__ import annotations
 
-from datetime import date
+from datetime import date, datetime
 from enum import Enum
 from typing import Literal
 
-from pydantic import BaseModel, ConfigDict, Field, model_validator
+from pydantic import BaseModel, ConfigDict, Field, field_validator, model_validator
 
 
 class Strict(BaseModel):
@@ -47,8 +47,14 @@ class ReviewStatus(str, Enum):
 class Review(Strict):
     status: ReviewStatus = ReviewStatus.draft
     reviewed_by: str | None = None
-    reviewed_at: date | None = None
+    reviewed_at: datetime | date | None = None  # a review dated after a T&C change outranks it
     notes: str | None = None
+
+    @field_validator("reviewed_at", mode="before")
+    @classmethod
+    def _date_only(cls, v):
+        # keep "2026-09-27" a date (the whole day), not midnight
+        return date.fromisoformat(v) if isinstance(v, str) and len(v) == 10 else v
 
 
 # -- money & rewards ---------------------------------------------------------------------------
@@ -153,13 +159,14 @@ class EarnRule(Strict):
 
 
 class Conversion(Strict):
-    """Conversion of bank points into a partner currency."""
+    """Conversion of bank points into a partner currency: `points` → `partner_units`."""
 
     partner: str  # e.g. "KrisFlyer"
     points: float
     partner_units: float
-    fee: Money | None = None
+    fee: Money | None = Field(None, description="charged per conversion; amount 0 = free")
     min_block_points: float | None = None
+    note: str | None = None
     sources: list[str] = Field(default_factory=list)
 
 
@@ -169,14 +176,34 @@ class Redemption(Strict):
     fee: Money | None = None
     fee_per: str | None = Field(None, description="e.g. 'conversion', 'redemption'")
     auto_redeemed: bool = False
-    expiry_months: int | None = Field(None, description="None = never expires")
     sources: list[str] = Field(default_factory=list)
+
+
+class PointsExpiry(Strict):
+    """How long earned points stay valid. Absent on a card = not known."""
+
+    never: bool = Field(False, description="points don't expire")
+    months: int | None = Field(None, description="validity from when points are earned (the minimum)")
+    months_max: int | None = Field(
+        None, description="upper end when validity varies, e.g. DBS 12–15 months (points expire at a "
+                          "quarter end); alone = 'up to'")
+    note: str | None = None
+    sources: list[str] = Field(default_factory=list)
+
+    @model_validator(mode="after")
+    def _one_meaning(self) -> PointsExpiry:
+        if self.never and (self.months or self.months_max):
+            raise ValueError("expiry: `never` excludes months")
+        if self.months and self.months_max and self.months_max < self.months:
+            raise ValueError("expiry: months_max < months")
+        return self
 
 
 class RewardCurrency(Strict):
     kind: Literal["cashback", "miles", "points"]
     name: str  # e.g. "Cashback", "KrisFlyer miles", "DBS Points"
     conversions: list[Conversion] = Field(default_factory=list)
+    expiry: PointsExpiry | None = None
     redemption: Redemption = Field(default_factory=Redemption)
 
 

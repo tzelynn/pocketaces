@@ -1,5 +1,5 @@
 # Curated card record. Auto-drafted from staged sources; verify every value against the
-# official T&Cs (citations below), then set review.status: reviewed.
+# official T&Cs (citations below), then set review.status: reviewed and review.reviewed_at.
 id: standard-chartered-visa-infinite
 bank: Standard Chartered
 name: Standard Chartered Visa Infinite Credit Card
@@ -17,6 +17,21 @@ min_annual_income:
 reward_currency:
   kind: miles
   name: Miles
+  conversions:
+  - partner: KrisFlyer
+    points: 25000.0
+    partner_units: 10000.0
+    fee:
+      amount: 27.25
+      currency: SGD
+    min_block_points: 25000.0
+    note: 'The MileLion: min. transfer “25,000 points (10,000 miles)”, transfer fee “S$27.25” — confirm
+      the partner (the overview quotes KrisFlyer unless it says otherwise)'
+    sources: ['milelion:25a59567425a']
+  expiry:
+    never: true
+    note: 'The MileLion: points validity “No expiry”'
+    sources: ['milelion:25a59567425a']
 earn_rules:
 - id: overseas-online-shopping
   label: overseas online shopping, overseas (SingSaver — verify)
@@ -68,6 +83,8 @@ earn_rules:
 general_exclusions:
   description: Auto-extracted from official T&Cs — confirm each code applies to this card
 notes:
+- The MileLion review mentions both calendar and statement months for caps / min spend (see spend_cycle
+  in data/staging/milelion/reviews.json)
 - 'Editorial review for cross-checking: Review: Standard Chartered Visa Infinite Card (https://milelion.com/2026/07/20/review-standard-chartered-visa-infinite-card/,
   updated 2026-08-25)'
 - 'T&C mentions (check whether excluded): annual fee, axs, bill payment, cash advance, charit, education,
@@ -104,9 +121,9 @@ citations:
   url: https://milelion.com/2026/07/20/review-standard-chartered-visa-infinite-card/
   title: 'Review: Standard Chartered Visa Infinite Card'
   source_type: editorial
-  retrieved_at: '2026-09-27T05:28:28+00:00'
+  retrieved_at: '2026-09-28T13:28:31+00:00'
   sha256: 25a59567425a39b9d78c0455af971538910ecd865e02da8badfadceba3b2ba0a
   snapshot: data/raw/milelion/post-149371-ae762223.json
 review:
   status: draft
-updated_at: '2026-09-27'
+updated_at: '2026-09-28'

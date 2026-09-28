@@ -1,5 +1,5 @@
 # Curated card record. Auto-drafted from staged sources; verify every value against the
-# official T&Cs (citations below), then set review.status: reviewed.
+# official T&Cs (citations below), then set review.status: reviewed and review.reviewed_at.
 id: metro-uob
 bank: UOB
 name: UOB Metro-UOB Card
@@ -101,4 +101,4 @@ citations:
   snapshot: data/raw/bank/www-uob-com-sg-assets-web-resources-personal-pdf-cards-rewards-ladys-card-metro-private-shopping-tnc-cmpg-pdf-30019be1.pdf
 review:
   status: draft
-updated_at: '2026-09-27'
+updated_at: '2026-09-28'

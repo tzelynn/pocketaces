@@ -1,5 +1,5 @@
 # Curated card record. Auto-drafted from staged sources; verify every value against the
-# official T&Cs (citations below), then set review.status: reviewed.
+# official T&Cs (citations below), then set review.status: reviewed and review.reviewed_at.
 id: hsbc-revolution
 bank: HSBC
 name: HSBC Revolution Credit Card
@@ -16,6 +16,21 @@ min_annual_income:
 reward_currency:
   kind: miles
   name: Miles
+  conversions:
+  - partner: KrisFlyer
+    points: 25000.0
+    partner_units: 10000.0
+    fee:
+      amount: 0.0
+      currency: SGD
+    min_block_points: 25000.0
+    note: 'The MileLion: min. transfer “25,000 HSBC points (10,000 miles)”, transfer fee “None” — confirm
+      the partner (the overview quotes KrisFlyer unless it says otherwise)'
+    sources: ['milelion:67aa6b7a98df']
+  expiry:
+    months: 37
+    note: 'The MileLion: points validity “37 months”'
+    sources: ['milelion:67aa6b7a98df']
 earn_rules:
 - id: local
   label: local, overseas, retail, local online shopping, department store, dining, supermarket, transport,
@@ -39,7 +54,7 @@ earn_rules:
   bonus_cap:
     amount: 5400.0
     unit: miles
-    period: statement_month
+    period: calendar_month
     sources: ['singsaver:376bc02034d9']
   conditions:
   - bonus_cap parsed from aggregator text “capped at 5,400 bonus miles per month” — confirm amount, unit
@@ -56,6 +71,8 @@ earn_rules:
     description: On all other transactions.
     sources: ['singsaver:376bc02034d9']
   sources: ['singsaver:376bc02034d9']
+spend_cycle: calendar_month
+spend_cycle_sources: ['milelion:67aa6b7a98df']
 general_exclusions:
   exclude_mcc: ['4829', '4900', '5199', '5960', '6010', '6011', '6012', '6050', '6051', '6211', '6300',
     '6513', '6529', '6530', '6532', '6533', '6534', '6536', '6537', '6538', '6540', '6555', '7299', '7349',
@@ -122,6 +139,9 @@ sign_up_bonuses:
   url: https://www.moneysmart.sg/credit-cards/hsbc-revolution-credit-card
   sources: ['moneysmart:eeee24fb93a9']
 notes:
+- spend_cycle calendar_month from The MileLion review (“A base reward of 1x HSBC points per S$1 (0.4 mpd)
+  A bonus reward of 9x HSBC points per S$1 (3.6 mpd) The bonus reward is capped at 9,000 points per calendar
+  month, equivalent to S$1,000 of spending.”) — confirm it applies to min spend and caps
 - 'Editorial review for cross-checking: Review: HSBC Revolution Card (https://milelion.com/2026/04/08/review-hsbc-revolution-card/,
   updated 2026-07-28)'
 - 'T&C mentions (check whether excluded): axs, balance transfer, cardup, cash advance, charit, e-wallet,
@@ -152,9 +172,9 @@ citations:
   url: https://milelion.com/2026/04/08/review-hsbc-revolution-card/
   title: 'Review: HSBC Revolution Card'
   source_type: editorial
-  retrieved_at: '2026-09-27T05:28:52+00:00'
+  retrieved_at: '2026-09-28T13:28:55+00:00'
   sha256: 67aa6b7a98df0a5ab34c12fef5069dda50698bd797f1785af80fa27b831ae027
   snapshot: data/raw/milelion/post-76421-e50fee02.json
 review:
   status: draft
-updated_at: '2026-09-27'
+updated_at: '2026-09-28'

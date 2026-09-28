@@ -1,4 +1,4 @@
-# Data build report — 2026-09-27
+# Data build report — 2026-09-28
 
 90 curated cards built.
 
@@ -6,11 +6,11 @@
 
 Unreviewed cards are marked; treat their figures as unverified.
 
-- **top_mpd**: citi-premiermiles (10.0 mpd, draft), dbs-altitude-visa-signature (10.0 mpd, draft), dbs-yuu-american-express (10.0 mpd, draft), dbs-yuu-visa (10.0 mpd, draft), uob-ladys (10.0 mpd, draft), uob-prvi-miles-american-express (8.0 mpd, draft), uob-prvi-miles-visa (8.0 mpd, draft), uob-prvi-miles-world-mastercard (8.0 mpd, draft), ocbc-90-n-mastercard (7.0 mpd, draft), ocbc-90-n-visa (7.0 mpd, draft), amex-platinum-charge (6.94 mpd, draft), dbs-vantage-visa-infinite (6.0 mpd, draft), ocbc-rewards (6.0 mpd, draft), standard-chartered-rewards-plus (6.0 mpd, draft), dbs-womans-world (4.0 mpd, draft)
+- **top_mpd**: citi-premiermiles (10.0 mpd, draft), dbs-altitude-visa-signature (10.0 mpd, draft), dbs-yuu-american-express (10.0 mpd, draft), dbs-yuu-visa (10.0 mpd, draft), uob-ladys (10.0 mpd, draft), standard-chartered-smart (9.28 mpd, draft), uob-prvi-miles-american-express (8.0 mpd, draft), uob-prvi-miles-visa (8.0 mpd, draft), uob-prvi-miles-world-mastercard (8.0 mpd, draft), ocbc-90-n-mastercard (7.0 mpd, draft), ocbc-90-n-visa (7.0 mpd, draft), amex-platinum-charge (6.94 mpd, draft), dbs-vantage-visa-infinite (6.0 mpd, draft), ocbc-rewards (6.0 mpd, draft), standard-chartered-rewards-plus (6.0 mpd, draft)
 - **top_percent**: uob-one (20.0 percent, draft), boc-sheng-siong (12.0 percent, draft), singtel-uob (12.0 percent, draft), boc-nvmo (10.0 percent, draft), cimb-visa-signature (10.0 percent, draft), dbs-live-fresh-student (10.0 percent, draft), metro-uob (10.0 percent, draft), ocbc-frank (10.0 percent, draft), posb-everyday (10.0 percent, draft), uob-evol (10.0 percent, draft), citi-cash-back (8.0 percent, draft), hsbc-live-plus (8.0 percent, draft), icbc-unionpay-dual-currency (8.0 percent, draft), icbc-visa-dual-currency (8.0 percent, draft), maybank-family-friends (8.0 percent, draft)
-- **no_min_spend**: amex-krisflyer-ascend (2.0 mpd, draft), amex-krisflyer (2.0 mpd, draft), amex-platinum-charge (6.94 mpd, draft), amex-platinum-credit (10.0 points_per_dollar, draft), amex-true-cashback (1.5 percent, draft), boc-elite-miles-world-mastercard (2.8 mpd, draft), boc-sheng-siong (12.0 percent, draft), boc-visa-infinite (3.0 percent, draft), cimb-visa-infinite (1.0 points_per_dollar, draft), citi-cash-back-plus (3.25 percent, draft), citi-clear (1.0 points_per_dollar, draft), citi-m1-platinum-visa (4.7 percent, draft), citi-premiermiles (10.0 mpd, draft), citi-prestige (5.0 points_per_dollar, draft), citi-rewards (10.0 points_per_dollar, draft), dbs-altitude-american-express (2.2 mpd, draft), dbs-altitude-visa-signature (10.0 mpd, draft), dbs-esso (1.0 points_per_dollar, draft), dbs-live-fresh-student (10.0 percent, draft), dbs-takashimaya-american-express (2.0 points_per_dollar, draft), dbs-takashimaya-visa (2.0 points_per_dollar, draft), dbs-womans-world (4.0 mpd, draft), dbs-womans (2.0 mpd, draft), dbs-yuu-american-express (10.0 mpd, draft), dbs-yuu-visa (10.0 mpd, draft), dcs-cashback (5.0 percent, draft), dcs-don-don-donki (0.22 mpd, draft), dcs-ultimate-platinum-mastercard (2.0 percent, draft), dcs-ultimate-platinum-unionpay (2.0 percent, draft), hsbc-live-plus (8.0 percent, draft), hsbc-revolution (4.0 mpd, draft), hsbc-travelone (2.4 mpd, draft), hsbc-visa-infinite (2.25 mpd, draft), icbc-visa-dual-currency (8.0 percent, draft), krisflyer-uob (3.0 mpd, draft), maybank-fc-barcelona-visa-signature (10.0 points_per_dollar, draft), maybank-manchester-united-platinum-visa (2.0 mpd, draft), maybank-visa-infinite (2.0 mpd, draft), maybank-world-mastercard (4.0 mpd, draft), maybank-xl-cashback (5.0 percent, draft), maybank-xl-rewards (4.0 mpd, draft), metro-uob (10.0 percent, draft), ocbc-90-n-mastercard (7.0 mpd, draft), ocbc-90-n-visa (7.0 mpd, draft), ocbc-infinity-cashback (1.6 percent, draft), ocbc-nxt (1.0 percent, draft), ocbc-rewards (6.0 mpd, draft), ocbc-voyage (2.2 mpd, draft), singtel-uob (12.0 percent, draft), standard-chartered-journey-annual-fee-paying (3.0 mpd, draft), standard-chartered-journey-annual-fee-waiver (3.0 mpd, draft), standard-chartered-rewards-plus (6.0 mpd, draft), standard-chartered-simply-cash (1.5 percent, draft), standard-chartered-smart (32.0 points_per_dollar, draft), trust-freedom (3.0 points_per_dollar, draft), trust-link (21.0 points_per_dollar, draft), uob-absolute-cashback (1.7 percent, draft), uob-ladys-solitaire (4.0 mpd, draft), uob-ladys (10.0 mpd, draft), uob-prvi-miles-american-express (8.0 mpd, draft), uob-prvi-miles-visa (8.0 mpd, draft), uob-prvi-miles-world-mastercard (8.0 mpd, draft), uob-unionpay-platinum (2.0 percent, draft), uob-visa-infinite-metal (2.4 mpd, draft)
-- **uncapped_bonus**: amex-krisflyer-ascend (2.0 mpd, draft), amex-krisflyer (2.0 mpd, draft), amex-platinum-charge (6.94 mpd, draft), amex-platinum-credit (10.0 points_per_dollar, draft), amex-true-cashback (1.5 percent, draft), boc-elite-miles-world-mastercard (2.8 mpd, draft), boc-nvmo (10.0 percent, draft), boc-sheng-siong (12.0 percent, draft), boc-visa-infinite (3.0 percent, draft), cimb-visa-infinite (1.0 points_per_dollar, draft), cimb-visa-signature (10.0 percent, draft), cimb-world-mastercard (3.0 percent, draft), citi-cash-back-plus (3.25 percent, draft), citi-cash-back (8.0 percent, draft), citi-clear (1.0 points_per_dollar, draft), citi-premiermiles (10.0 mpd, draft), citi-prestige (5.0 points_per_dollar, draft), citi-rewards (10.0 points_per_dollar, draft), citi-smrt (5.0 percent, draft), dbs-altitude-american-express (2.2 mpd, draft), dbs-altitude-visa-signature (10.0 mpd, draft), dbs-chromo (1.3 mpd, draft), dbs-esso (1.0 points_per_dollar, draft), dbs-safra (3.0 percent, draft), dbs-takashimaya-american-express (2.0 points_per_dollar, draft), dbs-takashimaya-visa (2.0 points_per_dollar, draft), dbs-vantage-visa-infinite (6.0 mpd, draft), dbs-womans-world (4.0 mpd, draft), dbs-womans (2.0 mpd, draft), dbs-yuu-american-express (10.0 mpd, draft), dbs-yuu-visa (10.0 mpd, draft), dcs-don-don-donki (0.22 mpd, draft), dcs-flex-visa-platinum (2.4 mpd, draft), hsbc-advance (2.5 percent, draft), hsbc-live-plus (8.0 percent, draft), hsbc-travelone (2.4 mpd, draft), hsbc-visa-infinite (2.25 mpd, draft), icbc-unionpay-dual-currency (8.0 percent, draft), icbc-visa-dual-currency (8.0 percent, draft), krisflyer-uob (3.0 mpd, draft), maybank-family-friends (8.0 percent, draft), maybank-fc-barcelona-visa-signature (10.0 points_per_dollar, draft), maybank-horizon-visa-signature (2.8 mpd, draft), maybank-manchester-united-platinum-visa (2.0 mpd, draft), maybank-visa-infinite (2.0 mpd, draft), maybank-world-mastercard (4.0 mpd, draft), maybank-xl-cashback (5.0 percent, draft), maybank-xl-rewards (4.0 mpd, draft), metro-uob (10.0 percent, draft), ocbc-365 (6.0 percent, draft), ocbc-90-n-mastercard (7.0 mpd, draft), ocbc-90-n-visa (7.0 mpd, draft), ocbc-frank (10.0 percent, draft), ocbc-infinity-cashback (1.6 percent, draft), ocbc-nxt (1.0 percent, draft), ocbc-rewards (6.0 mpd, draft), ocbc-voyage (2.2 mpd, draft), posb-everyday (10.0 percent, draft), standard-chartered-rewards-plus (6.0 mpd, draft), standard-chartered-simply-cash (1.5 percent, draft), standard-chartered-smart (32.0 points_per_dollar, draft), standard-chartered-visa-infinite (3.0 mpd, draft), trust-freedom (3.0 points_per_dollar, draft), trust-link (21.0 points_per_dollar, draft), uob-absolute-cashback (1.7 percent, draft), uob-ladys-solitaire (4.0 mpd, draft), uob-one (20.0 percent, draft), uob-prvi-miles-american-express (8.0 mpd, draft), uob-prvi-miles-visa (8.0 mpd, draft), uob-prvi-miles-world-mastercard (8.0 mpd, draft), uob-visa-infinite-metal (2.4 mpd, draft), uob-visa-signature (4.0 mpd, draft)
-- **uncapped_base**: amex-krisflyer-ascend (2.0 mpd, draft), amex-krisflyer (2.0 mpd, draft), amex-platinum-charge (6.94 mpd, draft), amex-platinum-credit (10.0 points_per_dollar, draft), amex-true-cashback (1.5 percent, draft), boc-elite-miles-world-mastercard (2.8 mpd, draft), boc-nvmo (10.0 percent, draft), boc-sheng-siong (12.0 percent, draft), boc-visa-infinite (3.0 percent, draft), cimb-visa-infinite (1.0 points_per_dollar, draft), cimb-visa-signature (10.0 percent, draft), cimb-world-mastercard (3.0 percent, draft), citi-cash-back-plus (3.25 percent, draft), citi-cash-back (8.0 percent, draft), citi-clear (1.0 points_per_dollar, draft), citi-m1-platinum-visa (4.7 percent, draft), citi-premiermiles (10.0 mpd, draft), citi-prestige (5.0 points_per_dollar, draft), citi-rewards (10.0 points_per_dollar, draft), citi-smrt (5.0 percent, draft), dbs-altitude-american-express (2.2 mpd, draft), dbs-altitude-visa-signature (10.0 mpd, draft), dbs-chromo (1.3 mpd, draft), dbs-esso (1.0 points_per_dollar, draft), dbs-live-fresh-student (10.0 percent, draft), dbs-live-fresh (6.0 percent, draft), dbs-safra (3.0 percent, draft), dbs-vantage-visa-infinite (6.0 mpd, draft), dbs-womans-world (4.0 mpd, draft), dbs-womans (2.0 mpd, draft), dbs-yuu-american-express (10.0 mpd, draft), dbs-yuu-visa (10.0 mpd, draft), dcs-cashback (5.0 percent, draft), dcs-don-don-donki (0.22 mpd, draft), dcs-flex-visa-platinum (2.4 mpd, draft), dcs-ultimate-platinum-mastercard (2.0 percent, draft), dcs-ultimate-platinum-unionpay (2.0 percent, draft), hsbc-advance (2.5 percent, draft), hsbc-live-plus (8.0 percent, draft), hsbc-revolution (4.0 mpd, draft), hsbc-travelone (2.4 mpd, draft), hsbc-visa-infinite (2.25 mpd, draft), icbc-unionpay-dual-currency (8.0 percent, draft), icbc-visa-dual-currency (8.0 percent, draft), krisflyer-uob (3.0 mpd, draft), maybank-family-friends (8.0 percent, draft), maybank-fc-barcelona-visa-signature (10.0 points_per_dollar, draft), maybank-horizon-visa-signature (2.8 mpd, draft), maybank-manchester-united-platinum-visa (2.0 mpd, draft), maybank-platinum-visa (3.33 percent, draft), maybank-visa-infinite (2.0 mpd, draft), maybank-world-mastercard (4.0 mpd, draft), maybank-xl-cashback (5.0 percent, draft), maybank-xl-rewards (4.0 mpd, draft), metro-uob (10.0 percent, draft), ocbc-365 (6.0 percent, draft), ocbc-90-n-mastercard (7.0 mpd, draft), ocbc-90-n-visa (7.0 mpd, draft), ocbc-frank (10.0 percent, draft), ocbc-infinity-cashback (1.6 percent, draft), ocbc-nxt (1.0 percent, draft), ocbc-rewards (6.0 mpd, draft), ocbc-voyage (2.2 mpd, draft), posb-everyday (10.0 percent, draft), singtel-uob (12.0 percent, draft), standard-chartered-journey-annual-fee-paying (3.0 mpd, draft), standard-chartered-journey-annual-fee-waiver (3.0 mpd, draft), standard-chartered-rewards-plus (6.0 mpd, draft), standard-chartered-simply-cash (1.5 percent, draft), standard-chartered-smart (32.0 points_per_dollar, draft), standard-chartered-visa-infinite (3.0 mpd, draft), trust-freedom (3.0 points_per_dollar, draft), trust-link (21.0 points_per_dollar, draft), uob-absolute-cashback (1.7 percent, draft), uob-evol (10.0 percent, draft), uob-ladys-solitaire (4.0 mpd, draft), uob-ladys (10.0 mpd, draft), uob-one (20.0 percent, draft), uob-prvi-miles-american-express (8.0 mpd, draft), uob-prvi-miles-visa (8.0 mpd, draft), uob-prvi-miles-world-mastercard (8.0 mpd, draft), uob-unionpay-platinum (2.0 percent, draft), uob-visa-infinite-metal (2.4 mpd, draft), uob-visa-signature (4.0 mpd, draft)
+- **no_min_spend**: amex-krisflyer-ascend (2.0 mpd, draft), amex-krisflyer (2.0 mpd, draft), amex-platinum-charge (6.94 mpd, draft), amex-platinum-credit (4.55 mpd, draft), amex-true-cashback (1.5 percent, draft), boc-elite-miles-world-mastercard (2.8 mpd, draft), boc-sheng-siong (12.0 percent, draft), boc-visa-infinite (3.0 percent, draft), cimb-visa-infinite (1.0 points_per_dollar, draft), citi-cash-back-plus (3.25 percent), citi-clear (1.0 points_per_dollar, draft), citi-m1-platinum-visa (4.7 percent, draft), citi-premiermiles (10.0 mpd, draft), citi-prestige (2.0 mpd, draft), citi-rewards (4.0 mpd), dbs-altitude-american-express (2.2 mpd, draft), dbs-altitude-visa-signature (10.0 mpd, draft), dbs-esso (1.0 points_per_dollar, draft), dbs-live-fresh-student (10.0 percent, draft), dbs-takashimaya-american-express (2.0 points_per_dollar, draft), dbs-takashimaya-visa (2.0 points_per_dollar, draft), dbs-womans-world (4.0 mpd, draft), dbs-womans (2.0 mpd, draft), dbs-yuu-american-express (10.0 mpd, draft), dbs-yuu-visa (10.0 mpd, draft), dcs-cashback (5.0 percent, draft), dcs-don-don-donki (0.22 mpd, draft), dcs-ultimate-platinum-mastercard (2.0 percent, draft), dcs-ultimate-platinum-unionpay (2.0 percent, draft), hsbc-live-plus (8.0 percent, draft), hsbc-revolution (4.0 mpd, draft), hsbc-travelone (2.4 mpd, draft), hsbc-visa-infinite (2.25 mpd, draft), icbc-visa-dual-currency (8.0 percent, draft), krisflyer-uob (3.0 mpd, draft), maybank-fc-barcelona-visa-signature (10.0 points_per_dollar, draft), maybank-manchester-united-platinum-visa (2.0 mpd, draft), maybank-visa-infinite (2.0 mpd, draft), maybank-world-mastercard (4.0 mpd, draft), maybank-xl-cashback (5.0 percent, draft), maybank-xl-rewards (4.0 mpd, draft), metro-uob (10.0 percent, draft), ocbc-90-n-mastercard (7.0 mpd, draft), ocbc-90-n-visa (7.0 mpd, draft), ocbc-infinity-cashback (1.6 percent, draft), ocbc-nxt (1.0 percent, draft), ocbc-rewards (6.0 mpd, draft), ocbc-voyage (2.2 mpd, draft), singtel-uob (12.0 percent, draft), standard-chartered-journey-annual-fee-paying (3.0 mpd, draft), standard-chartered-journey-annual-fee-waiver (3.0 mpd, draft), standard-chartered-rewards-plus (6.0 mpd, draft), standard-chartered-simply-cash (1.5 percent, draft), standard-chartered-smart (9.28 mpd, draft), trust-freedom (3.0 mpd, draft), trust-link (21.0 points_per_dollar, draft), uob-absolute-cashback (1.7 percent, draft), uob-ladys-solitaire (4.0 mpd, draft), uob-ladys (10.0 mpd, draft), uob-prvi-miles-american-express (8.0 mpd, draft), uob-prvi-miles-visa (8.0 mpd, draft), uob-prvi-miles-world-mastercard (8.0 mpd, draft), uob-unionpay-platinum (2.0 percent, draft), uob-visa-infinite-metal (2.4 mpd, draft)
+- **uncapped_bonus**: amex-krisflyer-ascend (2.0 mpd, draft), amex-krisflyer (2.0 mpd, draft), amex-platinum-charge (6.94 mpd, draft), amex-platinum-credit (4.55 mpd, draft), amex-true-cashback (1.5 percent, draft), boc-elite-miles-world-mastercard (2.8 mpd, draft), boc-nvmo (10.0 percent, draft), boc-sheng-siong (12.0 percent, draft), boc-visa-infinite (3.0 percent, draft), cimb-visa-infinite (1.0 points_per_dollar, draft), cimb-visa-signature (10.0 percent, draft), cimb-world-mastercard (3.0 percent, draft), citi-cash-back-plus (3.25 percent), citi-cash-back (8.0 percent, draft), citi-clear (1.0 points_per_dollar, draft), citi-premiermiles (10.0 mpd, draft), citi-prestige (2.0 mpd, draft), citi-rewards (4.0 mpd), citi-smrt (5.0 percent, draft), dbs-altitude-american-express (2.2 mpd, draft), dbs-altitude-visa-signature (10.0 mpd, draft), dbs-chromo (1.3 mpd, draft), dbs-esso (1.0 points_per_dollar, draft), dbs-safra (3.0 percent, draft), dbs-takashimaya-american-express (2.0 points_per_dollar, draft), dbs-takashimaya-visa (2.0 points_per_dollar, draft), dbs-vantage-visa-infinite (6.0 mpd, draft), dbs-womans-world (4.0 mpd, draft), dbs-womans (2.0 mpd, draft), dbs-yuu-american-express (10.0 mpd, draft), dbs-yuu-visa (10.0 mpd, draft), dcs-don-don-donki (0.22 mpd, draft), dcs-flex-visa-platinum (2.4 mpd, draft), hsbc-advance (2.5 percent, draft), hsbc-live-plus (8.0 percent, draft), hsbc-travelone (2.4 mpd, draft), hsbc-visa-infinite (2.25 mpd, draft), icbc-unionpay-dual-currency (8.0 percent, draft), icbc-visa-dual-currency (8.0 percent, draft), krisflyer-uob (3.0 mpd, draft), maybank-family-friends (8.0 percent, draft), maybank-fc-barcelona-visa-signature (10.0 points_per_dollar, draft), maybank-horizon-visa-signature (2.8 mpd, draft), maybank-manchester-united-platinum-visa (2.0 mpd, draft), maybank-visa-infinite (2.0 mpd, draft), maybank-world-mastercard (4.0 mpd, draft), maybank-xl-cashback (5.0 percent, draft), maybank-xl-rewards (4.0 mpd, draft), metro-uob (10.0 percent, draft), ocbc-365 (6.0 percent, draft), ocbc-90-n-mastercard (7.0 mpd, draft), ocbc-90-n-visa (7.0 mpd, draft), ocbc-frank (10.0 percent, draft), ocbc-infinity-cashback (1.6 percent, draft), ocbc-nxt (1.0 percent, draft), ocbc-rewards (6.0 mpd, draft), ocbc-voyage (2.2 mpd, draft), posb-everyday (10.0 percent, draft), standard-chartered-rewards-plus (6.0 mpd, draft), standard-chartered-simply-cash (1.5 percent, draft), standard-chartered-smart (9.28 mpd, draft), standard-chartered-visa-infinite (3.0 mpd, draft), trust-freedom (3.0 mpd, draft), trust-link (21.0 points_per_dollar, draft), uob-absolute-cashback (1.7 percent, draft), uob-ladys-solitaire (4.0 mpd, draft), uob-one (20.0 percent, draft), uob-prvi-miles-american-express (8.0 mpd, draft), uob-prvi-miles-visa (8.0 mpd, draft), uob-prvi-miles-world-mastercard (8.0 mpd, draft), uob-visa-infinite-metal (2.4 mpd, draft), uob-visa-signature (4.0 mpd, draft)
+- **uncapped_base**: amex-krisflyer-ascend (2.0 mpd, draft), amex-krisflyer (2.0 mpd, draft), amex-platinum-charge (6.94 mpd, draft), amex-platinum-credit (4.55 mpd, draft), amex-true-cashback (1.5 percent, draft), boc-elite-miles-world-mastercard (2.8 mpd, draft), boc-nvmo (10.0 percent, draft), boc-sheng-siong (12.0 percent, draft), boc-visa-infinite (3.0 percent, draft), cimb-visa-infinite (1.0 points_per_dollar, draft), cimb-visa-signature (10.0 percent, draft), cimb-world-mastercard (3.0 percent, draft), citi-cash-back-plus (3.25 percent), citi-cash-back (8.0 percent, draft), citi-clear (1.0 points_per_dollar, draft), citi-m1-platinum-visa (4.7 percent, draft), citi-premiermiles (10.0 mpd, draft), citi-prestige (2.0 mpd, draft), citi-rewards (4.0 mpd), citi-smrt (5.0 percent, draft), dbs-altitude-american-express (2.2 mpd, draft), dbs-altitude-visa-signature (10.0 mpd, draft), dbs-chromo (1.3 mpd, draft), dbs-esso (1.0 points_per_dollar, draft), dbs-live-fresh-student (10.0 percent, draft), dbs-live-fresh (6.0 percent, draft), dbs-safra (3.0 percent, draft), dbs-vantage-visa-infinite (6.0 mpd, draft), dbs-womans-world (4.0 mpd, draft), dbs-womans (2.0 mpd, draft), dbs-yuu-american-express (10.0 mpd, draft), dbs-yuu-visa (10.0 mpd, draft), dcs-cashback (5.0 percent, draft), dcs-don-don-donki (0.22 mpd, draft), dcs-flex-visa-platinum (2.4 mpd, draft), dcs-ultimate-platinum-mastercard (2.0 percent, draft), dcs-ultimate-platinum-unionpay (2.0 percent, draft), hsbc-advance (2.5 percent, draft), hsbc-live-plus (8.0 percent, draft), hsbc-revolution (4.0 mpd, draft), hsbc-travelone (2.4 mpd, draft), hsbc-visa-infinite (2.25 mpd, draft), icbc-unionpay-dual-currency (8.0 percent, draft), icbc-visa-dual-currency (8.0 percent, draft), krisflyer-uob (3.0 mpd, draft), maybank-family-friends (8.0 percent, draft), maybank-fc-barcelona-visa-signature (10.0 points_per_dollar, draft), maybank-horizon-visa-signature (2.8 mpd, draft), maybank-manchester-united-platinum-visa (2.0 mpd, draft), maybank-platinum-visa (3.33 percent, draft), maybank-visa-infinite (2.0 mpd, draft), maybank-world-mastercard (4.0 mpd, draft), maybank-xl-cashback (5.0 percent, draft), maybank-xl-rewards (4.0 mpd, draft), metro-uob (10.0 percent, draft), ocbc-365 (6.0 percent, draft), ocbc-90-n-mastercard (7.0 mpd, draft), ocbc-90-n-visa (7.0 mpd, draft), ocbc-frank (10.0 percent, draft), ocbc-infinity-cashback (1.6 percent, draft), ocbc-nxt (1.0 percent, draft), ocbc-rewards (6.0 mpd, draft), ocbc-voyage (2.2 mpd, draft), posb-everyday (10.0 percent, draft), singtel-uob (12.0 percent, draft), standard-chartered-journey-annual-fee-paying (3.0 mpd, draft), standard-chartered-journey-annual-fee-waiver (3.0 mpd, draft), standard-chartered-rewards-plus (6.0 mpd, draft), standard-chartered-simply-cash (1.5 percent, draft), standard-chartered-smart (9.28 mpd, draft), standard-chartered-visa-infinite (3.0 mpd, draft), trust-freedom (3.0 mpd, draft), trust-link (21.0 points_per_dollar, draft), uob-absolute-cashback (1.7 percent, draft), uob-evol (10.0 percent, draft), uob-ladys-solitaire (4.0 mpd, draft), uob-ladys (10.0 mpd, draft), uob-one (20.0 percent, draft), uob-prvi-miles-american-express (8.0 mpd, draft), uob-prvi-miles-visa (8.0 mpd, draft), uob-prvi-miles-world-mastercard (8.0 mpd, draft), uob-unionpay-platinum (2.0 percent, draft), uob-visa-infinite-metal (2.4 mpd, draft), uob-visa-signature (4.0 mpd, draft)
 
 ## Config problems (0)
 
@@ -24,19 +24,26 @@ None.
 
 None.
 
-## Reviewed cards whose sources changed (merge suggestions by hand, then delete them) (0)
+## Reviewed cards whose sources changed (merge suggestions by hand, then delete them) (1)
 
-None.
+- citi-rewards: data/staging/suggestions/citi-rewards.yaml (+ .diff)
 
-## Curated value disagrees with an aggregator (17)
+## Curated value disagrees with an aggregator (30)
 
+- amex-platinum-charge: best rate 6.94 mpd vs singsaver 10.0
 - citi-prestige: annual fee 651.82 vs moneysmart 535.0
+- dbs-vantage-visa-infinite: best rate 6.0 mpd vs singsaver 11.0
+- dbs-womans-world: best rate 4.0 mpd vs singsaver 20.0
+- dbs-yuu-american-express: best rate 10.0 mpd vs singsaver 10.08
+- dbs-yuu-visa: best rate 10.0 mpd vs singsaver 10.08
 - dcs-ultimate-platinum-mastercard: min income 30000.0 vs moneysmart 15000.0
 - dcs-ultimate-platinum-unionpay: min income 30000.0 vs moneysmart 15000.0
 - hsbc-advance: min income 65000.0 vs moneysmart 30000.0
 - hsbc-live-plus: min income 65000.0 vs moneysmart 30000.0
 - hsbc-revolution: min income 65000.0 vs moneysmart 30000.0
 - hsbc-travelone: min income 65000.0 vs moneysmart 30000.0
+- maybank-horizon-visa-signature: best rate 2.8 mpd vs singsaver 14.0
+- maybank-world-mastercard: best rate 4.0 mpd vs singsaver 20.0
 - ocbc-365: min income 30000.0 vs moneysmart 15000.0
 - ocbc-90-n-mastercard: min income 30000.0 vs moneysmart 15000.0
 - ocbc-90-n-visa: min income 30000.0 vs moneysmart 15000.0
@@ -47,10 +54,60 @@ None.
 - singtel-uob: annual fee 196.2 vs moneysmart 194.4
 - standard-chartered-journey-annual-fee-waiver: annual fee 196.2 vs moneysmart 0.0
 - standard-chartered-visa-infinite: min income 150000.0 vs moneysmart 30000.0
+- uob-ladys-solitaire: best rate 4.0 mpd vs singsaver 20.0
+- uob-ladys: best rate 10.0 mpd vs singsaver 50.0
+- uob-prvi-miles-american-express: best rate 8.0 mpd vs singsaver 30.0
+- uob-prvi-miles-visa: best rate 8.0 mpd vs singsaver 30.0
+- uob-prvi-miles-world-mastercard: best rate 8.0 mpd vs singsaver 30.0
+- uob-visa-signature: best rate 4.0 mpd vs singsaver 20.0
 
-## Expired sign-up offers in curated records (0)
+## Curated value disagrees with, or lacks, what The MileLion review states (7)
 
-None.
+- amex-platinum-charge: milelion local earn 0.63 mpd matches no earn rule (base 0.69 mpd)
+- amex-platinum-credit: milelion local earn 0.57 mpd matches no earn rule (base 0.91 mpd)
+- citi-rewards: no points expiry; milelion: Up to 5 yrs.
+- dbs-yuu-american-express: milelion local earn 0.14 mpd matches no earn rule (base 0.28 mpd)
+- dbs-yuu-visa: milelion local earn 0.14 mpd matches no earn rule (base 0.28 mpd)
+- ocbc-voyage: annual fee 497.06 vs milelion 498
+- trust-freedom: milelion local earn 1.3 mpd matches no earn rule (base 3.00 mpd)
+
+## Monthly min spend or caps, but no source states calendar vs statement month (27)
+
+- boc-nvmo
+- cimb-visa-signature
+- cimb-world-mastercard
+- citi-cash-back
+- citi-m1-platinum-visa
+- citi-smrt
+- dbs-chromo
+- dbs-live-fresh-student
+- dbs-live-fresh
+- dbs-safra
+- dbs-vantage-visa-infinite
+- dcs-cashback
+- dcs-flex-visa-platinum
+- dcs-ultimate-platinum-mastercard
+- dcs-ultimate-platinum-unionpay
+- hsbc-advance
+- icbc-unionpay-dual-currency
+- maybank-family-friends
+- maybank-platinum-visa
+- ocbc-365
+- ocbc-frank
+- posb-everyday
+- singtel-uob
+- standard-chartered-visa-infinite
+- uob-evol
+- uob-one
+- uob-unionpay-platinum
+
+## Expired sign-up offers in curated records (5)
+
+- ocbc-365: singsaver: SingSaver Flash Deal: choice of Apple Watch Series 12 Aluminum 42mm GPS (worth S (ended 2026-09-27)
+- ocbc-90-n-mastercard: singsaver: SingSaver Flash Deal: choice of Apple Watch Series 12 Aluminum 42mm GPS (worth S (ended 2026-09-27)
+- ocbc-90-n-visa: singsaver: SingSaver Flash Deal: choice of Apple Watch Series 12 Aluminum 42mm GPS (worth S (ended 2026-09-27)
+- ocbc-infinity-cashback: singsaver: SingSaver Flash Deal: choice of Apple Watch Series 12 Aluminum 42mm GPS (worth S (ended 2026-09-27)
+- ocbc-rewards: singsaver: SingSaver Flash Deal: choice of Apple Watch Series 12 Aluminum 42mm GPS (worth S (ended 2026-09-27)
 
 ## Aggregator text referring to past dates (likely outdated) (13)
 
@@ -144,7 +201,7 @@ None.
 - maybank-xl-rewards: https://www.maybank2u.com.sg/iwov-resources/sg/pdf/cards/xl-privileges-tp-tnc.pdf (skipping https://www.maybank2u.com.sg/iwov-resources/sg/pdf/cards/xl-privileges-tp-tnc.pdf: www.maybank2u.com.sg unreachable earlier in this run)
 - posb-everyday: https://www.posb.com.sg/iwov-resources/media/pdf/cards/posb-everyday-card-tncs.pdf (robots.txt disallows https://www.posb.com.sg/iwov-resources/media/pdf/cards/posb-everyday-card-tncs.pdf)
 
-## Not yet reviewed (90)
+## Not yet reviewed (88)
 
 - amex-krisflyer-ascend (draft)
 - amex-krisflyer (draft)
@@ -159,13 +216,11 @@ None.
 - cimb-visa-signature (draft)
 - cimb-world-mastercard (draft)
 - circles-zerofy-cashback (draft)
-- citi-cash-back-plus (draft)
 - citi-cash-back (draft)
 - citi-clear (draft)
 - citi-m1-platinum-visa (draft)
 - citi-premiermiles (draft)
 - citi-prestige (draft)
-- citi-rewards (draft)
 - citi-smrt (draft)
 - dbs-altitude-american-express (draft)
 - dbs-altitude-visa-signature (draft)

@@ -159,3 +159,7 @@ def test_moneysmart_offer_is_structured(monkeypatch):
     assert b.options == ["Samsonite Luggage", "S$288 Cashback"] and b.value.amount == 288
     assert b.min_spend.amount == 500 and b.spend_within_days == 60 and b.new_to_bank_only
     assert "Terms" not in b.description and b.terms.startswith("Valid for New Customers")
+
+
+def test_draft_date_alone_is_not_a_change():
+    assert curate._facts("id: x\nupdated_at: '2026-09-27'\n") == curate._facts("id: x\nupdated_at: '2026-09-28'\n")

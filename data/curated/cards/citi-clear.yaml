@@ -1,5 +1,5 @@
 # Curated card record. Auto-drafted from staged sources; verify every value against the
-# official T&Cs (citations below), then set review.status: reviewed.
+# official T&Cs (citations below), then set review.status: reviewed and review.reviewed_at.
 id: citi-clear
 bank: Citibank
 name: Citi Clear Card
@@ -76,4 +76,4 @@ citations:
   snapshot: data/raw/bank/www-citibank-com-sg-credit-cards-pdf-rewards-exclusion-list-pdf-c33f164e.pdf
 review:
   status: draft
-updated_at: '2026-09-27'
+updated_at: '2026-09-28'

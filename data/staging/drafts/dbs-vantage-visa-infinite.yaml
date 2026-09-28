@@ -1,5 +1,5 @@
 # Curated card record. Auto-drafted from staged sources; verify every value against the
-# official T&Cs (citations below), then set review.status: reviewed.
+# official T&Cs (citations below), then set review.status: reviewed and review.reviewed_at.
 id: dbs-vantage-visa-infinite
 bank: DBS
 name: DBS Vantage Visa Infinite Card
@@ -19,6 +19,22 @@ min_annual_income:
 reward_currency:
   kind: miles
   name: Miles
+  conversions:
+  - partner: KrisFlyer
+    points: 5000.0
+    partner_units: 10000.0
+    fee:
+      amount: 27.25
+      currency: SGD
+    min_block_points: 5000.0
+    note: 'The MileLion: min. transfer “5,000 DBS Points (10,000 miles)”, transfer fee “S$27.25” — confirm
+      the partner (the overview quotes KrisFlyer unless it says otherwise)'
+    sources: ['milelion:f3f89f11b3b4']
+  expiry:
+    months: 36
+    months_max: 39
+    note: 'The MileLion: points validity “36-39 months”'
+    sources: ['milelion:f3f89f11b3b4']
 earn_rules:
 - id: hotel-booking
   label: hotel booking, flight booking, travel (SingSaver — verify)
@@ -107,9 +123,9 @@ citations:
   url: https://milelion.com/2026/08/12/review-dbs-vantage-card/
   title: 'Review: DBS Vantage Card'
   source_type: editorial
-  retrieved_at: '2026-09-27T05:28:18+00:00'
+  retrieved_at: '2026-09-28T13:28:20+00:00'
   sha256: f3f89f11b3b4cd60eace129cfcdf60d7334e0e4ad39b7d6b52ae7422476fc4da
   snapshot: data/raw/milelion/post-125552-ef67cc4a.json
 review:
   status: draft
-updated_at: '2026-09-27'
+updated_at: '2026-09-28'

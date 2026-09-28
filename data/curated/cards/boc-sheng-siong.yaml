@@ -1,5 +1,5 @@
 # Curated card record. Auto-drafted from staged sources; verify every value against the
-# official T&Cs (citations below), then set review.status: reviewed.
+# official T&Cs (citations below), then set review.status: reviewed and review.reviewed_at.
 id: boc-sheng-siong
 bank: Bank of China
 name: BOC Sheng Siong Card
@@ -77,4 +77,4 @@ citations:
   snapshot: data/raw/bank/www-bankofchina-com-sg-bocinfo-bi5-201707-P020250618364198284675-pdf-228d6527.pdf
 review:
   status: draft
-updated_at: '2026-09-27'
+updated_at: '2026-09-28'

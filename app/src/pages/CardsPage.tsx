@@ -3,8 +3,8 @@ import { ArrowDown, ArrowUp, CircleHelp, Gift, Layers, Percent, Search, Star, St
 import type { Bonus, CatalogCard, RewardKind, Rule } from "../types";
 import { useUser } from "../lib/store";
 import {
-  activeBonuses, bonusHeadline, bonusValue, capPeriod, isFlashDeal, OFFERED_BY, effectivePct, fmtMoney, fmtRate, hasMinSpend, minSpend,
-  PERIOD_SHORT, rateRules, spendCap, withinLabel,
+  activeBonuses, bonusHeadline, bonusValue, capPeriod, isFlashDeal, OFFERED_BY, effectivePct, fmtMoney, fmtRate, hasMinSpend, headlineRule,
+  LIMIT_LABEL, minSpend, PERIOD_SHORT, rateRules, spendCap, withinLabel,
 } from "../lib/catalog";
 import { daysBetween, fmtDate, today } from "../lib/dates";
 import {
@@ -74,7 +74,12 @@ export function CardsPage() {
   const activeGroup = tag ? cats.find((c) => c.key === tag)?.parent ?? (cats.find((c) => c.key === tag)?.group ? tag : null) : null;
   const subCats = activeGroup ? cats.filter((c) => c.parent === activeGroup) : [];
   const catLabel = useMemo(() => Object.fromEntries(cats.map((c) => [c.key, c.label])), [cats]);
-  const exclLabel = useMemo(() => Object.fromEntries((catalog?.exclusions ?? []).map((c) => [c.key, c.label])), [catalog]);
+  const exclLabel = useMemo(() => ({ ...catLabel, ...Object.fromEntries((catalog?.exclusions ?? []).map((c) => [c.key, c.label])) }), [catalog, catLabel]);
+  // spend categories some card excludes, listed in the key ahead of the commonly-excluded ones
+  const keyExcludedCats = useMemo(() => {
+    const used = new Set(catalog?.cards.flatMap((c) => c.excludes));
+    return cats.filter((c) => used.has(c.key));
+  }, [catalog, cats]);
   // the key lists only icons that some card actually shows
   const keyIncludes = useMemo(() => {
     const used = new Set(catalog?.cards.flatMap((c) => c.rules.flatMap((r) => r.includes)));
@@ -108,8 +113,10 @@ export function CardsPage() {
       if (tag && !card.rules.some((r) => r.tags.includes(tag))) continue;
       const rules = rateRules(card, tag);
       const rule = rules[0] ?? null;
+      // ranked by the best rate that isn't limited to named merchants or countries
+      const head = headlineRule(card, tag);
       out.push({
-        card, rules, rule, offers: [], value: rule ? effectivePct(rule, cpm) : null,
+        card, rules, rule, offers: [], value: head ? effectivePct(head, cpm) : null,
         cap: rule ? spendCap(rule) : Infinity, min: minSpend(rule), ends: "",
       });
     }
@@ -241,6 +248,7 @@ export function CardsPage() {
                 {x.includes.length
                   ? <TagIcons keys={x.includes} labels={catLabel} tone="in" />
                   : <span className="muted">{x.tier === "base" || x.allSpend ? "All spend" : sentence(x.label) || "Not stated"}</span>}
+                {x.limit && <span className="pills"><span className="pill warn" title={x.limit.text}>{LIMIT_LABEL[x.limit.kind]}</span></span>}
               </div>
             </div>
           )) : <div className="rate-row"><div className="cell reward"><RewardBadge kind={card.kind} /><div className="big">—</div></div></div>}
@@ -381,6 +389,8 @@ export function CardsPage() {
         {bonusView && <>Sign-up offers come from SingSaver and Moneysmart listings, change often and are usually only
           for customers new to the bank. Bonus values are the best gift on offer: cash, a gift's stated worth (gifts
           needing a top-up aside) or miles. Open a card for the full terms. </>}
+        {!bonusView && <>Rates marked <em>select merchants</em> or <em>select countries</em> only apply there, so cards are
+          ranked by their best rate outside them. Limited-time promotional rates are left out. </>}
         Miles are valued at {cpm}¢ each (change it in Settings). Rates are headline “up to” figures from aggregators and
         bank T&Cs, and all cards are still <em>unverified</em>. Check the card's T&Cs before you apply. Data as of {new Date(catalog.builtAt).toLocaleDateString("en-SG", { day: "numeric", month: "short", year: "numeric" })}.
       </p>
@@ -404,8 +414,8 @@ export function CardsPage() {
         </ul>
         <h4>Excludes</h4>
         <ul>
-          {catalog.exclusions.map((c) => {
-            const Icon = EXCLUSION_ICONS[c.key];
+          {[...keyExcludedCats, ...catalog.exclusions].map((c) => {
+            const Icon = EXCLUSION_ICONS[c.key] ?? CATEGORY_ICONS[c.key];
             return <li key={c.key}><span className="tag-icon out">{Icon && <Icon size={13} strokeWidth={2.2} aria-hidden />}</span>{c.label}</li>;
           })}
         </ul>

@@ -32,6 +32,18 @@ export interface Rule {
   includes: string[];
   /** filter keys the rule counts for (categories, their groups, transaction modes) */
   tags: string[];
+  /** the rate only applies at named merchants or in select countries; `text` is where the terms say so */
+  limit: { kind: "merchants" | "countries"; text: string } | null;
+}
+
+/** A limited-time rate, left out of `rules`; `after` is the rate its rule was kept at once it ends. */
+export interface LimitedTimeRate {
+  label: string;
+  rate: number;
+  unit: RateUnit;
+  until: Ymd | null;
+  text: string;
+  after: number | null;
 }
 
 /** A sign-up offer: a gift (or choice of gifts) for new cardholders who meet a qualifying spend. */
@@ -59,6 +71,13 @@ export interface Bonus {
   url: string | null;
 }
 
+/** `months` is the minimum validity; `monthsMax` the upper end when it varies (alone: "up to"). */
+export interface PointsExpiry {
+  never: boolean;
+  months: number | null;
+  monthsMax: number | null;
+}
+
 export interface CatalogCard {
   id: string;
   bank: string;
@@ -72,8 +91,15 @@ export interface CatalogCard {
   income: number | null;
   /** whether the T&Cs count monthly min spend / caps per statement or per calendar month */
   spendCycle: SpendPeriod;
+  /** a source states `spendCycle`; otherwise it is the calendar-month default */
+  spendCycleStated: boolean;
+  /** how long points stay valid; null = not known (always null for cashback) */
+  expiry: PointsExpiry | null;
+  /** converting points to airline miles: `points` → `miles` per block; `fee` per conversion (0 = free, null = unknown) */
+  conversion: { partner: string; points: number; miles: number; fee: number | null } | null;
   rules: Rule[];
-  /** commonly-excluded categories the T&Cs explicitly exclude (exclusion keys) */
+  limitedTime: LimitedTimeRate[];
+  /** categories the T&Cs explicitly exclude: spend category keys, then commonly-excluded (exclusion) keys */
   excludes: string[];
   bonuses: Bonus[];
   notes: string[];

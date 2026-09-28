@@ -2,7 +2,8 @@ import { ExternalLink, Gift, Info, Star, StickyNote } from "lucide-react";
 import type { CatalogCard } from "../types";
 import { useUser } from "../lib/store";
 import {
-  activeBonuses, bonusHeadline, capPeriod, OFFERED_BY, effectivePct, fmtMoney, fmtRate, PERIOD_SHORT, spendCap, withinLabel,
+  activeBonuses, bonusHeadline, capPeriod, OFFERED_BY, effectivePct, fmtConversion, fmtExpiry, fmtMoney, fmtRate,
+  hasMonthlyLimits, LIMIT_LABEL, PERIOD_SHORT, spendCap, withinLabel,
 } from "../lib/catalog";
 import { fmtDate, today } from "../lib/dates";
 import { useWalletActions } from "../lib/wallet";
@@ -25,6 +26,8 @@ export function CardDetail({ card, onClose }: { card: CatalogCard | null; onClos
   const rules = [...card.rules].sort((a, b) => (a.tier === b.tier ? b.rate - a.rate : a.tier === "bonus" ? -1 : 1));
   const official = card.sources.filter((s) => s.type === "official");
   const note = state.notes[card.id] ?? "";
+  const expiry = fmtExpiry(card.expiry);
+  const conversion = fmtConversion(card.conversion);
 
   return (
     <Sheet open onClose={onClose} title={card.name} wide>
@@ -37,6 +40,16 @@ export function CardDetail({ card, onClose }: { card: CatalogCard | null; onClos
             <div><dt>Annual fee</dt><dd>{card.fee ? (card.fee.amount ? fmtMoney(card.fee.amount, 2) : "Free") : "—"}
               {card.fee?.firstYearWaived && <span className="sub">1st year waived</span>}</dd></div>
             <div><dt>Min income</dt><dd>{card.income ? `${fmtMoney(card.income)}/yr` : "—"}</dd></div>
+            {card.kind !== "cashback" && <>
+              <div><dt>Points expire</dt><dd>{expiry ?? "—"}</dd></div>
+              <div><dt>Transfer fee</dt><dd>{conversion?.fee ?? "—"}
+                {conversion?.block && <span className="sub">min {conversion.block}</span>}</dd></div>
+            </>}
+            {hasMonthlyLimits(card) && (
+              <div><dt>Min spend &amp; caps</dt><dd>{card.spendCycleStated
+                ? (card.spendCycle === "statement" ? "Per statement month" : "Per calendar month")
+                : <span className="muted">Month not stated</span>}</dd></div>
+            )}
           </dl>
           <div className="detail-actions">
             <button type="button" className={`btn ${isMine ? "" : "primary"}`}
@@ -70,6 +83,7 @@ export function CardDetail({ card, onClose }: { card: CatalogCard | null; onClos
                 <p className="rule-label">{r.tier === "base" ? "Everything else" : r.label}</p>
                 {r.desc && r.tier === "bonus" && <p className="rule-desc">{r.desc}</p>}
                 <p className="rule-meta">
+                  {r.limit && <span className="pill warn" title={r.limit.text}>{LIMIT_LABEL[r.limit.kind]}</span>}
                   {r.minSpend != null && <span>Min {fmtMoney(r.minSpend)}{r.minSpendPeriod ? PERIOD_SHORT[r.minSpendPeriod] : ""}</span>}
                   {Number.isFinite(cap)
                     ? <span>Bonus on first {fmtMoney(cap)}{period ? PERIOD_SHORT[period] : ""}</span>
@@ -131,6 +145,19 @@ export function CardDetail({ card, onClose }: { card: CatalogCard | null; onClos
         <details className="fine-print">
           <summary>Fine print & review notes</summary>
           <ul>{card.notes.map((n, i) => <li key={i}>{n}</li>)}</ul>
+        </details>
+      )}
+      {card.limitedTime.length > 0 && (
+        <details className="fine-print">
+          <summary>Limited-time rates left out ({card.limitedTime.length})</summary>
+          <ul>{card.limitedTime.map((p, i) => (
+            <li key={i}>
+              <strong>{fmtRate(p)}</strong> {p.label}
+              {p.until && <> · {p.until < on ? "ended" : "until"} {fmtDate(p.until, true)}</>}
+              {p.after != null && <> · shown above at {fmtRate({ ...p, rate: p.after })}, the rate after the promotion</>}
+              <br />“{p.text}”
+            </li>
+          ))}</ul>
         </details>
       )}
       {official.length > 0 && (

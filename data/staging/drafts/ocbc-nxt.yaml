@@ -1,5 +1,5 @@
 # Curated card record. Auto-drafted from staged sources; verify every value against the
-# official T&Cs (citations below), then set review.status: reviewed.
+# official T&Cs (citations below), then set review.status: reviewed and review.reviewed_at.
 id: ocbc-nxt
 bank: OCBC
 name: OCBC NXT Credit Card
@@ -92,4 +92,4 @@ citations:
   snapshot: data/raw/bank/www-ocbc-com-iwov-resources-sg-ocbc-personal-pdf-cards-tncs-governing-ocbc-nxt-cc-promo-pdf-c23295a3.pdf
 review:
   status: draft
-updated_at: '2026-09-27'
+updated_at: '2026-09-28'

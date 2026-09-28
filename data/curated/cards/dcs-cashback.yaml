@@ -1,5 +1,5 @@
 # Curated card record. Auto-drafted from staged sources; verify every value against the
-# official T&Cs (citations below), then set review.status: reviewed.
+# official T&Cs (citations below), then set review.status: reviewed and review.reviewed_at.
 id: dcs-cashback
 bank: DCS
 name: DCS CASHBACK Card
@@ -74,4 +74,4 @@ citations:
   snapshot: data/raw/bank/cards-dcscc-com-dcscc-v2-pdf-DCS-20Cashback-20Credit-20Card-20TCs-pdf-37c3fedb.pdf
 review:
   status: draft
-updated_at: '2026-09-27'
+updated_at: '2026-09-28'

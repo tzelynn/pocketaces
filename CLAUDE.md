@@ -48,12 +48,14 @@ Core principles (from `specs/data-collection-plan.md`) that shape the code:
 - **Every fact carries a citation.** Each fetch is snapshotted with URL/time/sha256 in `manifest.json`;
   fields in the model carry `sources: [citation_id]` keyed into `Card.citations`.
 - **Official T&Cs are truth; aggregators (SingSaver, Moneysmart, Milelion) are for discovery and
-  cross-checking.** The build reports disagreements rather than silently picking a value.
+  cross-checking.** The build reports disagreements rather than silently picking a value. Exception:
+  Milelion reviews (overview table + text, `sources/milelion.py`) are the primary draft source for points
+  expiry, miles conversion block/fee and `spend_cycle`; T&C spend-cycle evidence cross-checks it.
 - **Machines draft, humans approve.** `curate` overwrites `review.status: draft` files on every run but
   **never overwrites `reviewed` or `stale` records** — for those it writes
   `data/staging/suggestions/<card_id>.yaml` (+ `.diff` against the record) instead — only when the
   machine draft changed versus the baseline in `data/staging/drafts/`. Pending suggestions are listed in
-  `report.md`; the user merges by hand and deletes them. A changed T&C hash flips reviewed cards to `stale`.
+  `report.md`; the user merges by hand and deletes them. A changed T&C hash flips reviewed cards to `stale` unless `review.reviewed_at` is on/after when that change was pulled.
 - **Refresh keeps the last good copy on failure** at every stage (fetch, parse, T&C download, build).
   Failed build entries are kept and marked `carried_over`. Preserve this behaviour when editing steps;
   `tests/test_refresh_semantics.py` covers it.
@@ -77,7 +79,10 @@ Vite + React 19 + TypeScript PWA, no backend; all user data stays on the device.
 
 - **Catalogue**: `app/scripts/prepare-data.mjs` slims `data/build/cards.json` + `config/categories.yaml`
   into `app/public/catalog.json` (gitignored, generated). If the build schema changes, update this script
-  and `src/types.ts` together.
+  and `src/types.ts` together. `scripts/rule-limits.mjs` reads each earn rule's text: limited-time
+  promotional rates are dropped (listed in the card's fine print), and rates limited to named merchants or
+  select countries get a `limit` flag, a caution pill, and don't count toward ranking (`headlineRule`).
+  A curated `valid_to` / `eligibility.include_merchants` overrides the text.
 - **State**: `src/lib/store.tsx` (React context: catalog, `UserState`, reminders, SW update prompt).
   `src/lib/storage.ts` persists to IndexedDB (`idb-keyval`) mirrored to localStorage; `normalise()`
   back-fills fields for older/hand-edited backups — extend it when adding `UserState` fields.

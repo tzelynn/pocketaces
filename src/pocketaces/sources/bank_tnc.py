@@ -16,6 +16,7 @@ from __future__ import annotations
 import json
 import logging
 import re
+from datetime import datetime, timezone
 from pathlib import Path
 from urllib.parse import urljoin
 
@@ -134,6 +135,10 @@ def _previous(card_id: str) -> dict:
     return json.loads(p.read_text()) if p.exists() else {}
 
 
+def _seen_since(doc: dict) -> str | None:
+    return doc.get("seen_since") or doc.get("citation", {}).get("retrieved_at")
+
+
 def process_card(card: dict, f: Fetcher, *, use_llm: bool = False) -> dict:
     previous = _previous(card["id"])
     prev_docs = {d["url"]: d for d in previous.get("documents", [])}
@@ -188,6 +193,9 @@ def process_card(card: dict, f: Fetcher, *, use_llm: bool = False) -> dict:
             "sha256": snap.sha256,
             "changed": bool(prev and prev.get("sha256") and prev["sha256"] != snap.sha256),
             "new": prev is None,
+            # when this content was first pulled; a review dated after it outranks it (see build)
+            "seen_since": (_seen_since(prev) if prev and prev.get("sha256") == snap.sha256
+                           else None) or snap.retrieved_at,
             "no_text_layer": no_text,
             "effective_dates": sorted(set(re.findall(
                 r"(?:effective|with effect)\s+(?:from\s+)?(\d{1,2}\s+\w+\s+\d{4})", text, re.I))),
@@ -206,6 +214,8 @@ def process_card(card: dict, f: Fetcher, *, use_llm: bool = False) -> dict:
                    bool(set(prev_docs) - set(urls)),
         "removed_documents": sorted(set(prev_docs) - set(urls)),
     }
+    if result["removed_documents"]:
+        result["removed_at"] = datetime.now(timezone.utc).isoformat(timespec="seconds")
     if use_llm and all_text and not any(d.get("changed") or d.get("new") for d in documents) \
             and "llm" in previous and "error" not in previous["llm"]:
         result["llm"] = previous["llm"]  # documents unchanged: reuse, don't pay for a re-run

@@ -1,4 +1,4 @@
-import type { Bonus, CatalogCard, Period, Rule, Ymd } from "../types";
+import type { Bonus, CatalogCard, Period, PointsExpiry, Rule, Ymd } from "../types";
 
 /** Effective reward in % of spend, or null when it can't be valued (points: no conversion data). */
 export function effectivePct(rule: Rule, centsPerMile: number): number | null {
@@ -7,10 +7,16 @@ export function effectivePct(rule: Rule, centsPerMile: number): number | null {
   return null;
 }
 
-/** The rule to headline: the best one covering `tag` if given, else the best bonus rule. */
+/**
+ * The rule to headline and rank the card by: the best one covering `tag` if given, else the best bonus
+ * rule. Rates limited to named merchants or select countries don't count while the base rate is there,
+ * since it's what the card earns across the category.
+ */
 export function headlineRule(card: CatalogCard, tag: string | null): Rule | null {
   const pool = tag ? card.rules.filter((r) => r.tags.includes(tag)) : card.rules.filter((r) => r.tier === "bonus");
-  const rules = pool.length ? pool : card.rules;
+  const broad = pool.filter((r) => !r.limit);
+  const base = baseRule(card);
+  const rules = broad.length ? broad : base ? [base] : pool.length ? pool : card.rules;
   return rules.reduce<Rule | null>((best, r) => (!best || r.rate > best.rate ? r : best), null);
 }
 
@@ -30,6 +36,11 @@ export function rateRules(card: CatalogCard, tag: string | null): Rule[] {
   const head = headlineRule(card, tag);
   return head ? [head] : [];
 }
+
+export const LIMIT_LABEL: Record<NonNullable<Rule["limit"]>["kind"], string> = {
+  merchants: "Select merchants only",
+  countries: "Select countries only",
+};
 
 export const baseRule = (card: CatalogCard): Rule | null => card.rules.find((r) => r.tier === "base") ?? null;
 
@@ -69,7 +80,35 @@ export const PERIOD_SHORT: Record<Period, string> = {
 export const fmtMoney = (n: number, dp = 0) =>
   "S$" + n.toLocaleString("en-SG", { minimumFractionDigits: dp, maximumFractionDigits: dp });
 
-export const fmtRate = (rule: Rule) => {
+const fmtMonths = (m: number) => (m % 12 === 0 ? `${m / 12} yr${m === 12 ? "" : "s"}` : `${m} mo`);
+
+/** "No expiry", "3 yrs", "12–15 mo", "Up to 5 yrs"; null when not known. */
+export function fmtExpiry(e: PointsExpiry | null): string | null {
+  if (!e) return null;
+  if (e.never) return "No expiry";
+  if (e.months != null && e.monthsMax != null) {
+    const both = e.months % 12 === 0 && e.monthsMax % 12 === 0;
+    return both ? `${e.months / 12}–${e.monthsMax / 12} yrs` : `${e.months}–${e.monthsMax} mo`;
+  }
+  if (e.months != null) return fmtMonths(e.months);
+  return e.monthsMax != null ? `Up to ${fmtMonths(e.monthsMax)}` : null;
+}
+
+/** Transfer fee ("S$27.25", "Free") and minimum block ("25,000 pts → 10,000 miles"); null parts are unknown. */
+export function fmtConversion(c: CatalogCard["conversion"]): { fee: string | null; block: string | null } | null {
+  if (!c) return null;
+  const n = (x: number) => x.toLocaleString("en-SG");
+  return {
+    fee: c.fee == null ? null : c.fee === 0 ? "Free" : fmtMoney(c.fee, 2),
+    block: c.points > 1 ? `${n(c.points)} pts → ${n(c.miles)} ${c.partner} miles` : null,
+  };
+}
+
+/** Some earn rule has a monthly min spend or cap, so which month it counts over matters. */
+export const hasMonthlyLimits = (card: CatalogCard) =>
+  card.rules.some((r) => [r.minSpendPeriod, r.maxSpendPeriod, r.cap?.period].some((p) => p === "calendar_month" || p === "statement_month"));
+
+export const fmtRate = (rule: Pick<Rule, "rate" | "unit">) => {
   const r = +rule.rate.toFixed(2);
   return rule.unit === "percent" ? `${r}%` : rule.unit === "mpd" ? `${r} mpd` : `${r} pts/S$`;
 };

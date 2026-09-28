@@ -1,5 +1,5 @@
 # Curated card record. Auto-drafted from staged sources; verify every value against the
-# official T&Cs (citations below), then set review.status: reviewed.
+# official T&Cs (citations below), then set review.status: reviewed and review.reviewed_at.
 id: dcs-flex-visa-platinum
 bank: DCS
 name: DCS Flex Visa Platinum Card
@@ -130,4 +130,4 @@ citations:
   snapshot: data/raw/bank/df-cardapps-flex-Terms-20and-20Conditions-20Governing-20DCS-20Flex-20Card-20Reward-20Programme-20and-20Card-20Design-pdf-7a2f131c.pdf
 review:
   status: draft
-updated_at: '2026-09-27'
+updated_at: '2026-09-28'

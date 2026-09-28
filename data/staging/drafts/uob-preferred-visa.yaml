@@ -1,5 +1,5 @@
 # Curated card record. Auto-drafted from staged sources; verify every value against the
-# official T&Cs (citations below), then set review.status: reviewed.
+# official T&Cs (citations below), then set review.status: reviewed and review.reviewed_at.
 id: uob-preferred-visa
 bank: UOB
 name: UOB Preferred Visa Card
@@ -15,10 +15,15 @@ annual_fee:
 reward_currency:
   kind: cashback
   name: Cashback
+spend_cycle: calendar_month
+spend_cycle_sources: ['milelion:5cda0a3aca0f']
 general_exclusions:
   description: Auto-extracted from official T&Cs — confirm each code applies to this card
 notes:
 - 'No structured earn rates from aggregators: add earn_rules from the official T&C before review'
+- spend_cycle calendar_month from The MileLion review (“Bonus Cap (UNI$) 1,080 UNI$ 1,080 UNI$ Monthly
+  Bonus Cap (S$) S$600 S$600 Caps are based on calendar month The cap for each category is S$600 per calendar
+  month , and caps are strictly separate .”) — confirm it applies to min spend and caps
 - 'Editorial review for cross-checking: Review: UOB Preferred Visa Card (https://milelion.com/2026/03/29/review-uob-preferred-platinum-visa-card/,
   updated 2026-07-30)'
 - 'T&C mentions (check whether excluded): annual fee, axs, bill payment, cash advance, charit, education,
@@ -53,10 +58,10 @@ citations:
   url: https://milelion.com/2026/03/29/review-uob-preferred-platinum-visa-card/
   title: 'Review: UOB Preferred Visa Card'
   source_type: editorial
-  retrieved_at: '2026-09-27T05:28:54+00:00'
+  retrieved_at: '2026-09-28T13:28:57+00:00'
   sha256: 5cda0a3aca0f4901e2de1f51ad05b8ab0c1662bb46b61f4ec3f368964a3c19a6
   snapshot: data/raw/milelion/post-74608-c9ddf1df.json
 review:
   status: draft
-updated_at: '2026-09-27'
+updated_at: '2026-09-28'
 earn_rules: []

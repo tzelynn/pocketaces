@@ -1,5 +1,5 @@
 # Curated card record. Auto-drafted from staged sources; verify every value against the
-# official T&Cs (citations below), then set review.status: reviewed.
+# official T&Cs (citations below), then set review.status: reviewed and review.reviewed_at.
 id: trust-link
 bank: Trust Bank
 name: Trust Link / NTUC Link Credit Card
@@ -88,4 +88,4 @@ citations:
   snapshot: data/raw/bank/trustbank-sg-legal-key-facts-sheet-credit-card-d36eadb6.html
 review:
   status: draft
-updated_at: '2026-09-27'
+updated_at: '2026-09-28'

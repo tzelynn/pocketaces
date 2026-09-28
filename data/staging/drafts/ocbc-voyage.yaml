@@ -1,5 +1,5 @@
 # Curated card record. Auto-drafted from staged sources; verify every value against the
-# official T&Cs (citations below), then set review.status: reviewed.
+# official T&Cs (citations below), then set review.status: reviewed and review.reviewed_at.
 id: ocbc-voyage
 bank: OCBC
 name: OCBC Voyage Card
@@ -18,6 +18,21 @@ min_annual_income:
 reward_currency:
   kind: miles
   name: Miles
+  conversions:
+  - partner: KrisFlyer
+    points: 1.0
+    partner_units: 1.0
+    fee:
+      amount: 25.0
+      currency: SGD
+    min_block_points: 1.0
+    note: 'The MileLion: min. transfer “1 VOYAGE Mile (1 mile)”, transfer fee “S$25” — confirm the partner
+      (the overview quotes KrisFlyer unless it says otherwise)'
+    sources: ['milelion:27666b12efb8']
+  expiry:
+    never: true
+    note: 'The MileLion: points validity “No expiry”'
+    sources: ['milelion:27666b12efb8']
 earn_rules:
 - id: overseas
   label: overseas (SingSaver — verify)
@@ -73,9 +88,9 @@ citations:
   url: https://milelion.com/2025/11/26/review-ocbc-voyage-card/
   title: 'Review: OCBC VOYAGE Card'
   source_type: editorial
-  retrieved_at: '2026-09-27T05:29:17+00:00'
+  retrieved_at: '2026-09-28T13:29:16+00:00'
   sha256: 27666b12efb887822cf739ca9ffb716eeca6ace291a6204103c5b9ae28758694
   snapshot: data/raw/milelion/post-129826-cafaeb57.json
 review:
   status: draft
-updated_at: '2026-09-27'
+updated_at: '2026-09-28'

@@ -14,7 +14,8 @@ from datetime import date, datetime
 
 from . import config, paths, tagging
 from .curate import load_curated, pending_suggestions
-from .models import Card, ReviewStatus
+from .models import Card, Period, ReviewStatus
+from .sources import milelion
 from .sources.common import load_staging
 from .sources.mcc_reference import known_codes
 
@@ -55,21 +56,40 @@ def validate_config() -> list[str]:
     return problems
 
 
+def _reviewed_after(card: Card, pulled_at: str | None) -> bool:
+    """True if the human review is dated on/after the data pull — the review then outranks it.
+    A date-only `reviewed_at` counts as the whole day (reviews usually follow a same-day refresh)."""
+    reviewed = card.review.reviewed_at
+    if reviewed is None or not pulled_at:
+        return False
+    pulled = datetime.fromisoformat(pulled_at)
+    if isinstance(reviewed, datetime):
+        if reviewed.tzinfo is None:
+            reviewed = reviewed.astimezone()  # naive: the reviewer's local time
+        return reviewed >= pulled
+    return reviewed >= pulled.astimezone().date()
+
+
 def _stale_reason(card: Card) -> str | None:
-    """A reviewed card goes stale if an official document it cites has since changed."""
+    """A reviewed card goes stale if an official document it cites has since changed — unless the
+    review (`review.reviewed_at`) is dated after that change was pulled."""
     p = paths.STAGING / "tnc" / f"{card.id}.json"
     if not p.exists() or card.review.status != ReviewStatus.reviewed:
         return None
     tnc = json.loads(p.read_text())
     cited = {c.url: c.sha256 for c in card.citations if c.source_type.value == "official" and c.sha256}
     for d in tnc.get("documents", []):
-        if d["url"] in cited and d.get("sha256") and d["sha256"] != cited[d["url"]]:
+        if not d.get("sha256") or _reviewed_after(
+                card, d.get("seen_since") or d.get("citation", {}).get("retrieved_at")):
+            continue
+        if d["url"] in cited and d["sha256"] != cited[d["url"]]:
             return f"T&C changed since review: {d['url']}"
-        if d["url"] not in cited and d.get("sha256"):
+        if d["url"] not in cited:
             return f"new official document not cited in review: {d['url']}"
-    for url in tnc.get("removed_documents", []):
-        if url in cited:
-            return f"cited T&C no longer published: {url}"
+    if not _reviewed_after(card, tnc.get("removed_at")):
+        for url in tnc.get("removed_documents", []):
+            if url in cited:
+                return f"cited T&C no longer published: {url}"
     return None
 
 
@@ -86,13 +106,82 @@ def _compare(card: Card, staged: dict[str, list]) -> list[str]:
                 abs(card.min_annual_income.amount - s.min_annual_income) > 1:
             issues.append(f"min income {card.min_annual_income.amount} vs {source} {s.min_annual_income}")
         best = card.best_rule()
-        top = [v["value"] for k, v in s.earn_rates.items()
-               if best and k.startswith(best.unit.value + ":") and v.get("value") is not None]
-        top = [t["max"] if isinstance(t, dict) else t for t in top]
-        top = [t for t in top if t is not None]
+        top = []  # the source's rates in the best rule's unit (points → mpd for convertible points)
+        for k, v in s.earn_rates.items():
+            val = v.get("value")
+            val = val["max"] if isinstance(val, dict) else val
+            unit = k.split(":", 1)[0]
+            if best and val is not None:
+                rate = val if unit == best.unit.value else \
+                    _mpd(card, val, unit) if best.unit.value == "mpd" else None
+                if rate is not None:
+                    top.append(round(rate, 2))
         if best and top and abs(max(top) - best.rate) > 0.01:
             issues.append(f"best rate {best.rate} {best.unit.value} vs {source} {max(top)}")
     return issues
+
+
+def _mpd(card: Card, rate: float, unit: str) -> float | None:
+    """A rate in miles per dollar, converting bank points at the card's first conversion."""
+    if unit == "mpd":
+        return rate
+    conv = card.reward_currency.conversions
+    if unit == "points_per_dollar" and conv and conv[0].points:
+        return rate * conv[0].partner_units / conv[0].points
+    return None
+
+
+def _compare_milelion(card: Card, review: dict) -> list[str]:
+    """Where the curated record disagrees with (or lacks) what The MileLion review states."""
+    facts = review.get("facts") or {}
+    issues = []
+    fee = facts.get("annual_fee")
+    if fee and card.annual_fee and abs(card.annual_fee.amount.amount - fee["amount"]) > 0.01:
+        issues.append(f"annual fee {card.annual_fee.amount.amount:g} vs milelion {fee['amount']:g}")
+    if (inc := facts.get("income")) and card.min_annual_income and abs(card.min_annual_income.amount - inc) > 1:
+        issues.append(f"min income {card.min_annual_income.amount:g} vs milelion {inc:g}")
+    # the review's "Local Earn" is usually the base rate, sometimes a card's headline bonus rate
+    base = next((r for r in card.earn_rules if r.tier == "base"), None)
+    rates = [m for r in card.earn_rules if (m := _mpd(card, r.rate, r.unit.value)) is not None]
+    if base and rates and (local := facts.get("local_mpd")) is not None \
+            and all(abs(m - local) > 0.011 for m in rates):
+        mpd = _mpd(card, base.rate, base.unit.value)
+        issues.append(f"milelion local earn {local:g} mpd matches no earn rule"
+                      + (f" (base {mpd:.2f} mpd)" if mpd is not None else ""))
+    cycle, quotes = milelion.review_cycle(review)
+    monthly = {Period.calendar_month, Period.statement_month}
+    has_monthly = any(r.min_spend_period in monthly or r.max_spend_period in monthly
+                      or (r.bonus_cap and r.bonus_cap.period in monthly) for r in card.earn_rules)
+    if cycle and (card.spend_cycle_sources or has_monthly) and card.spend_cycle.value != cycle:
+        issues.append(f"spend cycle {card.spend_cycle.value} vs milelion {cycle} (“{quotes[0][:120]}”)")
+    if card.reward_currency.kind != "cashback":
+        exp, have = facts.get("points_expiry"), card.reward_currency.expiry
+        if exp and not have:
+            issues.append(f"no points expiry; milelion: {review['overview']['points_validity'][0]}")
+        elif exp and have and have.model_dump(include={"never", "months", "months_max"}) != \
+                {"never": False, "months": None, "months_max": None, **exp}:
+            issues.append(f"points expiry {have.model_dump(include={'never', 'months', 'months_max'}, exclude_defaults=True)} "
+                          f"vs milelion {exp}")
+        convs = card.reward_currency.conversions
+        mt, tf = facts.get("min_transfer"), facts.get("transfer_fee")
+        if mt and not convs:
+            issues.append(f"no conversions; milelion: min. transfer {review['overview']['min_transfer'][0]}, "
+                          f"fee {' / '.join(review['overview'].get('transfer_fee') or ['?'])}")
+        elif convs and tf is not None and convs[0].fee and abs(convs[0].fee.amount - tf) > 0.01:
+            issues.append(f"conversion fee {convs[0].fee.amount:g} vs milelion {tf:g}")
+        elif convs and mt and abs(convs[0].points / convs[0].partner_units - mt["points"] / mt["miles"]) > 1e-6:
+            issues.append(f"conversion {convs[0].points:g}:{convs[0].partner_units:g} vs milelion "
+                          f"{mt['points']:g}:{mt['miles']:g}")
+    return issues
+
+
+def _cycle_unstated(card: Card) -> bool:
+    """Monthly min spend or caps, but no source says whether the month is calendar or statement."""
+    monthly = {Period.calendar_month, Period.statement_month}
+    return not card.spend_cycle_sources and any(
+        r.min_spend is not None or r.max_spend is not None or r.bonus_cap is not None
+        for r in card.earn_rules if (r.min_spend_period in monthly or r.max_spend_period in monthly
+                                     or (r.bonus_cap and r.bonus_cap.period in monthly)))
 
 
 def _expired_claims(staged: dict[str, list]) -> list[str]:
@@ -118,6 +207,7 @@ def _expired_offers(card: Card) -> list[str]:
 
 def run() -> dict:
     staged = {s: load_staging(s) for s in ("singsaver", "moneysmart")}
+    reviews = milelion.load_reviews()
     cards_out = []
     report: dict[str, list] = {
         "config": validate_config(),
@@ -125,6 +215,8 @@ def run() -> dict:
         "stale": [],
         "suggestions": [],
         "conflicts": [],
+        "milelion_conflicts": [],
+        "cycle_unstated": [],
         "unverified": [],
         "expired_offers": [],
         "missing_tnc": [],
@@ -163,6 +255,10 @@ def run() -> dict:
                 elif d.get("error"):
                     report["unreadable_tnc"].append(f"{card.id}: {d['url']} ({d['error']})")
         report["conflicts"] += [f"{card.id}: {i}" for i in _compare(card, staged)]
+        if review := next(iter(milelion.reviews_for(card.id, reviews)), None):
+            report["milelion_conflicts"] += [f"{card.id}: {i}" for i in _compare_milelion(card, review)]
+        if _cycle_unstated(card):
+            report["cycle_unstated"].append(card.id)
         report["expired_offers"] += [f"{card.id}: {i}" for i in _expired_offers(card)]
         card.tags = tagging.card_tags(card)
         data = json.loads(card.model_dump_json(exclude_none=True))
@@ -218,6 +314,8 @@ SECTIONS = [
     ("stale", "Stale reviews (official T&C changed)"),
     ("suggestions", "Reviewed cards whose sources changed (merge suggestions by hand, then delete them)"),
     ("conflicts", "Curated value disagrees with an aggregator"),
+    ("milelion_conflicts", "Curated value disagrees with, or lacks, what The MileLion review states"),
+    ("cycle_unstated", "Monthly min spend or caps, but no source states calendar vs statement month"),
     ("expired_offers", "Expired sign-up offers in curated records"),
     ("expired_aggregator_claims", "Aggregator text referring to past dates (likely outdated)"),
     ("missing_tnc", "Curated cards without an official citation"),

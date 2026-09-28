@@ -1,5 +1,5 @@
 # Curated card record. Auto-drafted from staged sources; verify every value against the
-# official T&Cs (citations below), then set review.status: reviewed.
+# official T&Cs (citations below), then set review.status: reviewed and review.reviewed_at.
 id: dbs-womans-world
 bank: DBS
 name: DBS Woman's World Card
@@ -19,6 +19,22 @@ min_annual_income:
 reward_currency:
   kind: miles
   name: Miles
+  conversions:
+  - partner: KrisFlyer
+    points: 5000.0
+    partner_units: 10000.0
+    fee:
+      amount: 27.25
+      currency: SGD
+    min_block_points: 5000.0
+    note: 'The MileLion: min. transfer “5,000 DBS Points (10,000 miles)”, transfer fee “S$27.25” — confirm
+      the partner (the overview quotes KrisFlyer unless it says otherwise)'
+    sources: ['milelion:32616126a4a7']
+  expiry:
+    months: 12
+    months_max: 15
+    note: 'The MileLion: points validity “12-15 months”'
+    sources: ['milelion:32616126a4a7']
 earn_rules:
 - id: local
   label: local, retail, local online shopping, dining, hotel booking, flight booking, overseas online
@@ -55,9 +71,14 @@ earn_rules:
     description: 1X DBS Point per S$5
     sources: ['singsaver:5fff9a842eb7']
   sources: ['singsaver:5fff9a842eb7']
+spend_cycle: calendar_month
+spend_cycle_sources: ['milelion:32616126a4a7']
 general_exclusions:
   description: Auto-extracted from official T&Cs — confirm each code applies to this card
 notes:
+- spend_cycle calendar_month from The MileLion review (“for every S$5 spent online in Singapore Dollars
+  (4 mpd) 10 DBS Points for every S$5 spent online in FCY (4 mpd) The bonus cap used to be S$2,000 per
+  calendar month, but was cut to S$1,500 in March 202”) — confirm it applies to min spend and caps
 - 'Editorial review for cross-checking: Review: DBS Woman’s World Card (https://milelion.com/2026/08/11/review-dbs-womans-world-card/,
   updated 2026-08-11)'
 citations:
@@ -79,9 +100,9 @@ citations:
   url: https://milelion.com/2026/08/11/review-dbs-womans-world-card/
   title: 'Review: DBS Woman’s World Card'
   source_type: editorial
-  retrieved_at: '2026-09-27T05:28:19+00:00'
+  retrieved_at: '2026-09-28T13:28:23+00:00'
   sha256: 32616126a4a725ba23330243e1af4df31743764bd112935a6479d729b9582c20
   snapshot: data/raw/milelion/post-72765-a61d53a6.json
 review:
   status: draft
-updated_at: '2026-09-27'
+updated_at: '2026-09-28'
