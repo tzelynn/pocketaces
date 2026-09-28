@@ -1,5 +1,7 @@
 # pocketaces
 
+https://pocketaces.pocket-aces.workers.dev/
+
 pocket-aces helps you decide which Singapore credit card to apply for and which card to use for
 which spend, and tracks the bills, fees and spend on the cards you hold. The repo has two parts:
 
@@ -26,8 +28,22 @@ followed by a push to `main` is all that's needed: `.github/workflows/pages.yml`
 deploys to GitHub Pages. Set **Settings → Pages → Source** to *GitHub Actions* once. Installed apps
 pick up the new version from **Settings → Check for updates**, or when they next detect the update.
 
-User data (my cards, notes, bill/fee check-offs, spend logs) never leaves the device. It's kept in
-IndexedDB with a localStorage mirror, and can be exported as a JSON backup from Settings.
+User data (my cards, notes, bill/fee check-offs, spend logs) is kept on the device in IndexedDB
+with a localStorage mirror, and can be exported as a JSON backup from Settings.
+
+**Accounts and sync** (optional): when hosted on Cloudflare, you can sign in with a username and
+password, and your data syncs live between your devices. It's encrypted on the device with a key
+derived from your password, so the server only stores ciphertext. See
+[specs/app-hosting-cloudflare.md](specs/app-hosting-cloudflare.md) to deploy (free plan) and
+[specs/app-sync-plan.md](specs/app-sync-plan.md) for the design and security model. On GitHub Pages
+the app works as before, without accounts.
+
+```sh
+cd app
+npx wrangler login && npm run deploy                          # deploy app + sync API to Cloudflare
+openssl rand -base64 48 | npx wrangler secret put AUTH_PEPPER   # once, after the first deploy
+npm run dev:api    # local API for `npm run dev` (copy .dev.vars.example to .dev.vars first)
+```
 
 Reminders: the app shows due bills and fees when opened and can send system notifications.
 Background notifications only work in the installed app on Android/Chromium (Periodic Background
