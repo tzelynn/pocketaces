@@ -1,9 +1,10 @@
 import { useEffect, useRef, useState } from "react";
 import { Bell, CalendarPlus, Download, HardDrive, Plane, RefreshCw, Share, Smartphone, Upload } from "lucide-react";
-import { enableNotifications, registerPeriodicSync, useAppUpdate, useInstall, useUser } from "../lib/store";
+import { enableNotifications, registerPeriodicSync, useAppUpdate, useInstall, useSync, useUser } from "../lib/store";
 import { backupBlob, download, isPersisted, parseBackup, requestPersistence } from "../lib/storage";
 import { buildIcs } from "../lib/ics";
 import { emptyState } from "../types";
+import { AccountPanel } from "../components/AccountPanel";
 
 declare const __BUILT_AT__: string;
 
@@ -16,6 +17,7 @@ export function SettingsPage() {
   const { state, update, replace, catalog } = useUser();
   const upd = useAppUpdate();
   const inst = useInstall();
+  const synced = !!useSync().status.username;
   const [persisted, setPersisted] = useState<boolean | null>(null);
   const [notifMsg, setNotifMsg] = useState<string | null>(null);
   const [importMsg, setImportMsg] = useState<string | null>(null);
@@ -44,7 +46,7 @@ export function SettingsPage() {
   const importBackup = async (f: File) => {
     try {
       const next = parseBackup(await f.text());
-      if (!confirm(`Replace what's on this device with the backup (${next.myCards.length} cards)?`)) return;
+      if (!confirm(`Replace what's on this device${synced ? " and in your account" : ""} with the backup (${next.myCards.length} cards)?`)) return;
       replace(next);
       setImportMsg(`Restored ${next.myCards.length} cards and ${Object.keys(next.notes).length} notes.`);
     } catch (e) {
@@ -88,9 +90,11 @@ export function SettingsPage() {
           ) : (
             <p>Open your browser's menu and choose <strong>Install app</strong> or <strong>Add to Home screen</strong>.</p>
           )}
-          <p className="hint">It works offline once installed. Your data stays on this device.</p>
+          <p className="hint">It works offline once installed.</p>
         </section>
       )}
+
+      <AccountPanel />
 
       <section className="panel">
         <h3 className="section-title"><Bell size={16} aria-hidden /> Reminders</h3>
@@ -135,7 +139,7 @@ export function SettingsPage() {
       <section className="panel">
         <h3 className="section-title"><HardDrive size={16} aria-hidden /> Your data</h3>
         <p>
-          Everything is stored only on this device ({persisted ? "protected from automatic clean-up" : "the browser may clear it if storage runs low"}).
+          {synced ? "Stored on this device and, encrypted, in your account" : "Everything is stored only on this device"} ({persisted ? "protected from automatic clean-up" : "the browser may clear it if storage runs low"}).
           {!persisted && <> <button type="button" className="link" onClick={async () => setPersisted(await requestPersistence())}>Ask to keep it</button></>}
         </p>
         <p className={`sub ${backupAge > 30 && state.myCards.length ? "warn-text" : ""}`}>
@@ -150,8 +154,10 @@ export function SettingsPage() {
         </div>
         {importMsg && <p className="hint" role="status">{importMsg}</p>}
         <button type="button" className="link danger" onClick={() => {
-          if (confirm("Delete all your cards, notes and check-offs from this device? This can't be undone.")) replace(emptyState());
-        }}>Erase everything on this device</button>
+          if (confirm(synced
+            ? "Delete all your cards, notes and check-offs from this device and your account (and so your other devices)? This can't be undone."
+            : "Delete all your cards, notes and check-offs from this device? This can't be undone.")) replace(emptyState());
+        }}>{synced ? "Erase everything, on every device" : "Erase everything on this device"}</button>
       </section>
     </div>
   );

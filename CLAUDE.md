@@ -33,10 +33,13 @@ npm run dev        # regenerates public/catalog.json, then Vite on :5173 (servic
 npm test           # vitest; single test: npx vitest run -t "bill cycles"
 npm run build      # regenerates catalog, tsc -b, vite build → app/dist
 npm run preview    # serve dist with the service worker on
+npm run dev:api    # Worker (accounts/sync API) on :8787 via wrangler dev; needs .dev.vars (see .dev.vars.example)
+npm run deploy     # test + build + wrangler deploy to Cloudflare
 ```
 
 Pushing to `main` (touching `app/**`, `data/build/cards.json` or `config/categories.yaml`) triggers
-`.github/workflows/pages.yml`, which runs `npm test` + `npm run build` and deploys to GitHub Pages.
+`.github/workflows/pages.yml`, which runs `npm test` + `npm run build` and deploys to GitHub Pages
+(no accounts there). Cloudflare hosting with accounts: `specs/app-hosting-cloudflare.md`.
 
 ## Data pipeline architecture
 
@@ -75,7 +78,8 @@ fetching via robots.txt — use `pocketaces tnc import`.
 
 ## App architecture
 
-Vite + React 19 + TypeScript PWA, no backend; all user data stays on the device.
+Vite + React 19 + TypeScript PWA, local-first: every device keeps its full copy. Optional accounts sync
+it end-to-end encrypted through a Cloudflare Worker (design and security model: `specs/app-sync-plan.md`).
 
 - **Catalogue**: `app/scripts/prepare-data.mjs` slims `data/build/cards.json` + `config/categories.yaml`
   into `app/public/catalog.json` (gitignored, generated). If the build schema changes, update this script
@@ -94,3 +98,11 @@ Vite + React 19 + TypeScript PWA, no backend; all user data stays on the device.
 - `sw.ts` uses `injectManifest`; it has its own `tsconfig.sw.json`. `base: "./"` so the app works under
   a GitHub Pages project path.
 - All cards are currently `draft` (unreviewed); the UI badges them and links to sources.
+- **Accounts/sync**: `worker/index.ts` (Worker for `/api/*` + `Vault` Durable Object per account, own
+  `tsconfig.worker.json`; `wrangler.jsonc` serves `dist/` as static assets). Client: `src/lib/crypto.ts`
+  (PBKDF2 → auth key + key-encryption key; AES-GCM data key), `src/lib/merge.ts` (three-way merge
+  against the last synced copy), `src/lib/sync.ts` (`SyncEngine`: WebSocket protocol, account record in
+  IndexedDB key `account`), UI in `components/AccountPanel.tsx`. The server must never see plaintext
+  state or the password. When adding `UserState` fields, check they merge sensibly (arrays of records
+  need an `id`), and add per-device fields to `toShared`/`withDevice` in `sync.ts`. `USERNAME_RE` is
+  duplicated in `crypto.ts` and the worker. `sync.test.ts` covers crypto and merge.

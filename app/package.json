@@ -6,9 +6,11 @@
   "scripts": {
     "data": "node scripts/prepare-data.mjs",
     "dev": "npm run data && vite",
+    "dev:api": "node -e \"require('fs').mkdirSync('dist',{recursive:true})\" && wrangler dev --port 8787",
     "build": "npm run data && tsc -b && vite build",
     "preview": "vite preview",
-    "test": "vitest run"
+    "test": "vitest run",
+    "deploy": "npm test && npm run build && wrangler deploy"
   },
   "dependencies": {
     "idb-keyval": "^6.3.0",
@@ -17,6 +19,7 @@
     "react-dom": "^19.3.0"
   },
   "devDependencies": {
+    "@cloudflare/workers-types": "^5.20260927.1",
     "@types/react": "^19.3.0",
     "@types/react-dom": "^19.3.0",
     "@vitejs/plugin-react": "^6.1.1",
@@ -27,6 +30,7 @@
     "vitest": "^5.0.2",
     "workbox-core": "^7.4.1",
     "workbox-precaching": "^7.4.1",
+    "wrangler": "^4.141.0",
     "yaml": "^2.9.1"
   },
   "engines": {

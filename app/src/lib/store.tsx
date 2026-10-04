@@ -5,6 +5,7 @@ import type { Catalog, CatalogCard, UserState } from "../types";
 import { today } from "./dates";
 import { REMINDER_SYNC_TAG, remindersFor, unnotified, type Reminder } from "./reminders";
 import { loadState, NOTIFIED_KEY, requestPersistence, saveState } from "./storage";
+import { SyncEngine, type SyncStatus } from "./sync";
 
 interface Store {
   catalog: Catalog | null;
@@ -16,6 +17,8 @@ interface Store {
   saveError: string | null;
   reminders: Reminder[];
   on: string;
+  /** null until the local state has loaded */
+  sync: SyncEngine | null;
 }
 
 const Ctx = createContext<Store | null>(null);
@@ -39,13 +42,16 @@ export function StoreProvider({ children }: { children: ReactNode }) {
   const [saveError, setSaveError] = useState<string | null>(null);
   const [on, setOn] = useState(today);
   const saveTimer = useRef<number | undefined>(undefined);
+  // the latest state, updated synchronously so the sync engine never merges into a stale copy
+  const stateRef = useRef<UserState | null>(null);
+  const [sync, setSync] = useState<SyncEngine | null>(null);
 
   useEffect(() => {
     fetch("./catalog.json")
       .then((r) => (r.ok ? r.json() : Promise.reject(new Error(`HTTP ${r.status}`))))
       .then(setCatalog)
       .catch((e) => setCatalogError(String(e)));
-    loadState().then(setState);
+    loadState().then((s) => { stateRef.current = s; setState(s); });
   }, []);
 
   // keep "today" current for an app left open overnight or resumed from the background
@@ -56,6 +62,8 @@ export function StoreProvider({ children }: { children: ReactNode }) {
     return () => { clearInterval(id); document.removeEventListener("visibilitychange", tick); };
   }, []);
 
+  const syncRef = useRef<SyncEngine | null>(null);
+
   const persist = useCallback((s: UserState) => {
     clearTimeout(saveTimer.current);
     saveTimer.current = window.setTimeout(() => {
@@ -63,24 +71,49 @@ export function StoreProvider({ children }: { children: ReactNode }) {
     }, 250);
   }, []);
 
-  const update = useCallback((fn: (s: UserState) => UserState) => {
-    setState((prev) => {
-      if (!prev) return prev;
-      const next = fn(prev);
-      persist(next);
-      return next;
-    });
+  const commit = useCallback((next: UserState) => {
+    stateRef.current = next;
+    setState(next);
+    persist(next);
+    syncRef.current?.localChanged();
   }, [persist]);
 
-  const replace = useCallback((s: UserState) => { setState(s); persist(s); }, [persist]);
+  /** Synced changes are saved straight away: the engine records the new version only after this. */
+  const applyRemote = useCallback(async (next: UserState) => {
+    stateRef.current = next;
+    setState(next);
+    clearTimeout(saveTimer.current);
+    await saveState(next).then(() => setSaveError(null), (e) => setSaveError(String(e.message ?? e)));
+  }, []);
 
-  // flush a pending save when the page is hidden (app switched away / closed)
+  const update = useCallback((fn: (s: UserState) => UserState) => {
+    if (stateRef.current) commit(fn(stateRef.current));
+  }, [commit]);
+
+  const replace = useCallback((s: UserState) => commit(s), [commit]);
+
+  // accounts: start syncing once the device copy is loaded
+  const loaded = state !== null;
   useEffect(() => {
-    const flush = () => {
-      if (document.visibilityState === "hidden" && state) { clearTimeout(saveTimer.current); saveState(state).catch(() => {}); }
+    if (!loaded) return;
+    const engine = new SyncEngine({
+      getLocal: () => stateRef.current!,
+      applyRemote,
+    });
+    syncRef.current = engine;
+    setSync(engine);
+    engine.start();
+    return () => { engine.stop(); syncRef.current = null; };
+  }, [loaded, applyRemote]);
+
+  // flush a pending save when the page is hidden (app switched away / closed / reloaded)
+  useEffect(() => {
+    const flush = (e: Event) => {
+      if ((e.type === "pagehide" || document.visibilityState === "hidden") && state) { clearTimeout(saveTimer.current); saveState(state).catch(() => {}); }
     };
     document.addEventListener("visibilitychange", flush);
-    return () => document.removeEventListener("visibilitychange", flush);
+    window.addEventListener("pagehide", flush);
+    return () => { document.removeEventListener("visibilitychange", flush); window.removeEventListener("pagehide", flush); };
   }, [state]);
 
   // once there's something worth keeping, ask the browser not to evict it
@@ -112,10 +145,22 @@ export function StoreProvider({ children }: { children: ReactNode }) {
   const byId = useMemo(() => new Map((catalog?.cards ?? []).map((c) => [c.id, c])), [catalog]);
 
   const value = useMemo(
-    () => ({ catalog, catalogError, byId, state, update, replace, saveError, reminders, on }),
-    [catalog, catalogError, byId, state, update, replace, saveError, reminders, on],
+    () => ({ catalog, catalogError, byId, state, update, replace, saveError, reminders, on, sync }),
+    [catalog, catalogError, byId, state, update, replace, saveError, reminders, on, sync],
   );
   return <Ctx.Provider value={value}>{state ? children : null}</Ctx.Provider>;
+}
+
+/** Sync status, re-rendering on every change. */
+export function useSync(): { engine: SyncEngine | null; status: SyncStatus } {
+  const { sync } = useStore();
+  const [status, setStatus] = useState<SyncStatus>(sync?.status ?? { phase: "checking" });
+  useEffect(() => {
+    if (!sync) return;
+    setStatus(sync.status);
+    return sync.subscribe(setStatus);
+  }, [sync]);
+  return { engine: sync, status };
 }
 
 // -- notifications -----------------------------------------------------------------------------

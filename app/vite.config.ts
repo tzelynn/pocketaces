@@ -5,6 +5,8 @@ import { VitePWA } from "vite-plugin-pwa";
 export default defineConfig({
   // relative base: works at the domain root and under a GitHub Pages project path
   base: "./",
+  // `npm run dev:api` runs the Worker (accounts + sync) on :8787
+  server: { proxy: { "/api": { target: "http://localhost:8787", ws: true } } },
   define: { __BUILT_AT__: JSON.stringify(new Date().toISOString()) },
   plugins: [
     react(),

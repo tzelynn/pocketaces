@@ -6,8 +6,10 @@ Companion to [app-functionalities.md](app-functionalities.md). Describes how the
 
 - **Installable PWA** in `app/` (Vite + React + TypeScript, `vite-plugin-pwa`). One codebase serves the
   website and the Android/iOS "Add to Home Screen" app; no app-store builds.
-- **Static hosting** (GitHub Pages via `.github/workflows/pages.yml`). No backend, so no accounts and no
-  server-side copy of anyone's card data.
+- **Static hosting** (GitHub Pages via `.github/workflows/pages.yml`), or Cloudflare Workers with
+  optional accounts that sync an end-to-end encrypted copy between devices
+  ([app-sync-plan.md](app-sync-plan.md), [app-hosting-cloudflare.md](app-hosting-cloudflare.md)). The
+  server never holds a readable copy of anyone's card data.
 - **Data in**: `app/scripts/prepare-data.mjs` slims `data/build/cards.json` and `config/categories.yaml`
   into `app/public/catalog.json` at build time. The pipeline stays the single source of truth.
 
@@ -17,7 +19,7 @@ Companion to [app-functionalities.md](app-functionalities.md). Describes how the
 |---|---|
 | Cards | Catalogue: filter by reward type / min spend / spend category, sort by reward value / spend cap / min spend, star to add to *My cards* (pinned and highlighted at top), per-card notes (column on desktop, detail sheet on phone) |
 | Wallet | My cards: bill issue/due dates with a paid check-off per statement, annual fee date with waived/paid check-off per year, manual spend log with min-spend and cap progress, "use next" guidance |
-| Settings | Update button, install hint, reminders, reward valuation, backup/restore |
+| Settings | Update button, install hint, account & sync, reminders, reward valuation, backup/restore |
 
 ## Key decisions
 
