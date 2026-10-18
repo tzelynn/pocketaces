@@ -1,14 +1,10 @@
 import { useCallback, useMemo } from "react";
 import type { CatalogCard, MyCard, UserState } from "../types";
-import { trackingDefaults } from "./catalog";
+import { shortName, trackingDefaults } from "./catalog";
 import { useUser } from "./store";
 
 export const uid = () =>
   globalThis.crypto?.randomUUID?.() ?? `${Date.now().toString(36)}-${Math.random().toString(36).slice(2, 10)}`;
-
-/** Shorten "DBS Altitude Visa Signature Card" style names for tiles and notifications. */
-export const shortName = (card: CatalogCard) =>
-  card.name.replace(/\s+(credit|charge|debit)?\s*card$/i, "").replace(/^American Express/, "Amex");
 
 export function newMyCard(card?: CatalogCard, nickname?: string): MyCard {
   return {

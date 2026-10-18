@@ -1,13 +1,14 @@
 import { describe, expect, it } from "vitest";
 import type { Bonus, CatalogCard, MyCard, Rule } from "../types";
 import { DEFAULT_SETTINGS } from "../types";
-import { billCycles, daysBetween, feeInstance, spendWindow, spentInWindow } from "./dates";
+import { addDays, billCycles, daysBetween, feeInstance, spendWindow, spentInWindow } from "./dates";
 import { remindersFor, unnotified } from "./reminders";
 import {
   activeBonuses, bonusHeadline, bonusValue, effectivePct, fmtConversion, fmtExpiry, hasMonthlyLimits, headlineRule, rateRules, spendCap,
   trackingDefaults,
 } from "./catalog";
 import { buildIcs } from "./ics";
+import { demoState } from "./demo";
 import { normalise } from "./storage";
 
 const card = (p: Partial<MyCard> = {}): MyCard => ({
@@ -257,5 +258,32 @@ describe("points expiry and conversion", () => {
     const none = { rules: [rule()] } as unknown as CatalogCard;
     expect(hasMonthlyLimits(monthly)).toBe(true);
     expect(hasMonthlyLimits(none)).toBe(false);
+  });
+});
+
+describe("tour sample wallet", () => {
+  const cat = (p: Partial<CatalogCard>) => ({ rules: [], expiry: null, spendCycle: "calendar", ...p }) as unknown as CatalogCard;
+  const cards = [
+    cat({ id: "m", name: "Miles Card", kind: "miles", spendCycle: "statement", expiry: { never: false, months: 24, monthsMax: null } }),
+    cat({ id: "c", name: "Cash Card", kind: "cashback" }),
+  ];
+
+  it("has a bill due soon, a paid bill, a fee coming up and spend in the window, whatever the date", () => {
+    for (let n = 0; n < 2 * 366; n++) {
+      const on = addDays("2027-01-01", n);
+      const [a, b] = demoState(cards, on).myCards;
+      expect(a.catalogId, on).toBe("m");
+      expect(remindersFor([a, b], DEFAULT_SETTINGS, on).map((r) => `${r.kind}:${r.cardId}`), on)
+        .toEqual(["bill:demo-miles", "fee:demo-cashback"]);
+      const cur = billCycles(b, on).current!;
+      expect(b.bills[cur.statement], on).toBeDefined();
+      expect(spentInWindow(a, on, "statement"), on).toBeCloseTo(616.5);
+      expect(spentInWindow(b, on, "calendar"), on).toBeCloseTo(449.8);
+    }
+  });
+
+  it("falls back to custom cards with no catalogue", () => {
+    const [a, b] = demoState([], "2027-03-10").myCards;
+    expect([a.nickname, b.nickname, a.maxSpend, b.minSpend]).toEqual(["Miles card", "Cashback card", 1000, 800]);
   });
 });

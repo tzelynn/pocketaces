@@ -3,6 +3,7 @@ import { get, set } from "idb-keyval";
 import { registerSW } from "virtual:pwa-register";
 import type { Catalog, CatalogCard, UserState } from "../types";
 import { today } from "./dates";
+import { demoState } from "./demo";
 import { REMINDER_SYNC_TAG, remindersFor, unnotified, type Reminder } from "./reminders";
 import { loadState, NOTIFIED_KEY, requestPersistence, saveState } from "./storage";
 import { SyncEngine, type SyncStatus } from "./sync";
@@ -19,6 +20,8 @@ interface Store {
   on: string;
   /** null until the local state has loaded */
   sync: SyncEngine | null;
+  /** showing the tour's sample wallet (DemoStore): `state` is made up and changes are ignored */
+  demo?: boolean;
 }
 
 const Ctx = createContext<Store | null>(null);
@@ -149,6 +152,26 @@ export function StoreProvider({ children }: { children: ReactNode }) {
     [catalog, catalogError, byId, state, update, replace, saveError, reminders, on, sync],
   );
   return <Ctx.Provider value={value}>{state ? children : null}</Ctx.Provider>;
+}
+
+/**
+ * While `active`, children see a sample wallet instead of the real one, so the tour can show off the Wallet
+ * before any cards are added. It lives only in memory: updates are dropped, and nothing is saved or synced.
+ * Always rendered (rather than mounted when active) so toggling it doesn't remount the app underneath.
+ */
+export function DemoStore({ active, children }: { active: boolean; children: ReactNode }) {
+  const store = useStore();
+  const { catalog, on } = store;
+  const sample = useMemo(() => (active ? demoState(catalog?.cards ?? [], on) : null), [active, catalog, on]);
+  const value = useMemo((): Store => sample ? {
+    ...store,
+    state: sample,
+    update: () => {},
+    replace: () => {},
+    reminders: remindersFor(sample.myCards, sample.settings, on),
+    demo: true,
+  } : store, [store, sample, on]);
+  return <Ctx.Provider value={value}>{children}</Ctx.Provider>;
 }
 
 /** Sync status, re-rendering on every change. */

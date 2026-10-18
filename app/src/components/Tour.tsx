@@ -1,7 +1,8 @@
-import { useCallback, useEffect, useLayoutEffect, useMemo, useRef, useState } from "react";
+import { useCallback, useEffect, useLayoutEffect, useRef, useState } from "react";
 import { ArrowLeft, ArrowRight, X } from "lucide-react";
 
-// A short guided tour of the main screen. Shown once per device (a per-device convenience, so it lives in
+// A short guided tour, mostly of the Wallet: a quick look at picking cards, then what the app does with the ones
+// you hold. Steps switch tabs as they go. Shown once per device (a per-device convenience, so it lives in
 // localStorage rather than the synced UserState) and replayable from the help button in the top bar.
 
 const SEEN_KEY = "pocketaces:tour-seen";
@@ -16,49 +17,82 @@ function markSeen() {
 interface Step {
   title: string;
   body: string;
+  /** Tab to show for this step (via the URL hash, as the nav does). None leaves the current tab. */
+  tab?: "cards" | "wallet" | "settings";
   /** Comma-separated selectors; the first visible match is highlighted. None (or no match) centres the card. */
   target?: string;
   /** Used instead when `target` isn't on screen. */
   fallback?: { target: string; body: string };
 }
 
+// Most wallet steps point at a card tile, which a new user won't have yet: App then shows sample cards on the
+// Wallet for the length of the tour (DemoStore), so every step has something to point at.
 const STEPS: Step[] = [
   {
     title: "Welcome to pocket aces",
-    body: "Pick the right Singapore credit card, then keep on top of the ones you hold. Here's a 30-second tour.",
+    body: "Pick the right Singapore credit card, then keep on top of the ones you hold: bills, annual fees and spend. Here's a quick tour.",
   },
   {
-    title: "Compare cards",
-    body: "Switch between ongoing earn rates and sign-up bonuses, and narrow to miles, cashback or points.",
-    target: ".cards-page .filters",
-  },
-  {
-    title: "Rank by what you spend on",
-    body: "Pick a category, like dining or online, to see which cards earn the most there.",
+    title: "Find your next card",
+    body: "Rank cards by what you spend on, like dining or online. Tap one for its full rates, caps and the bank's terms.",
+    tab: "cards",
     target: ".cards-page .chips",
-  },
-  {
-    title: "See the details",
-    body: "Tap a card for its full rates, caps, exclusions and links to the bank's terms.",
-    target: ".cards-page .card-row .row-main",
     fallback: {
-      target: ".cards-page .switches",
-      body: "Turn off “Verified only” to list every card, then tap one for its full rates, caps, exclusions and links to the bank's terms.",
+      target: ".cards-page .filters",
+      body: "Compare ongoing earn rates or sign-up bonuses, then tap a card for its full rates, caps and the bank's terms.",
     },
   },
   {
     title: "Star the cards you hold",
-    body: "Starred cards move to the top and into your Wallet.",
+    body: "Starring a card adds it to your Wallet, where the rest of the app does its work.",
+    tab: "cards",
     target: ".cards-page .card-row .star",
   },
   {
     title: "Your Wallet",
-    body: "Track bill due dates, annual fee waivers and spend towards minimums and caps. It also suggests which card to use next.",
+    body: "Everything about the cards you hold lives here. The badge counts bills and fees that need you.",
+    tab: "wallet",
     target: ".topnav [data-tour=wallet], .bottomnav [data-tour=wallet]",
   },
   {
-    title: "Settings",
-    body: "Turn on reminders, install the app on your phone, back up your data or sync across devices.",
+    title: "Add your cards",
+    body: "Add cards from the catalogue, or as a custom card if yours isn't listed.",
+    tab: "wallet",
+    target: ".wallet-page .head-actions .btn.primary",
+  },
+  {
+    title: "Bills and annual fees",
+    body: "Tap the pencil on a card to set its statement, due and annual fee dates. Tick bills off as paid and fees as waived; they roll over to the next one by themselves. Miles cards also track when points expire.",
+    tab: "wallet",
+    target: ".wallet-page .tile",
+  },
+  {
+    title: "Heads up",
+    body: "Bills coming due and fees to get waived show up here, with one-tap Paid and Waived buttons.",
+    tab: "wallet",
+    target: ".wallet-page .heads-up",
+  },
+  {
+    title: "Track your spend",
+    body: "Log purchases as you go, or type in the running total from your banking app. The bar shows how close you are to a card's min spend and bonus cap, and resets each month or statement as its T&Cs say.",
+    tab: "wallet",
+    target: ".wallet-page .tile-row.spend",
+  },
+  {
+    title: "Which card next?",
+    body: "Once cards have a min spend or cap, they're ranked by which to use next: unlock a minimum first, and skip cards that are capped.",
+    tab: "wallet",
+    target: ".wallet-page .guide",
+  },
+  {
+    title: "Add to your calendar",
+    body: "Download bill and annual fee reminders as a calendar file for your phone or laptop.",
+    tab: "wallet",
+    target: ".wallet-page .head-actions .btn.ghost",
+  },
+  {
+    title: "Reminders and sync",
+    body: "In Settings, turn on notifications, install the app on your phone, back up your wallet or sync it across devices.",
     target: ".topnav [data-tour=settings], .bottomnav [data-tour=settings]",
   },
   {
@@ -67,6 +101,9 @@ const STEPS: Step[] = [
     target: "[data-tour=help]",
   },
 ];
+
+/** Frames to wait for a newly switched tab to render its target before giving up on it. */
+const TAB_FRAMES = 20;
 
 const PAD = 6;
 const GAP = 12;
@@ -86,17 +123,32 @@ type Rect = { top: number; left: number; width: number; height: number };
 /** Mount only while showing; unmounting resets it to the first step. */
 export function Tour({ onClose }: { onClose: () => void }) {
   const [i, setI] = useState(0);
+  const [shown, setShown] = useState<{ step: Step; target: HTMLElement | null }>({ step: STEPS[0], target: null });
   const [rect, setRect] = useState<Rect | null>(null);
   const [pos, setPos] = useState<{ top: number; left: number } | null>(null);
   const cardRef = useRef<HTMLDivElement>(null);
-  // Resolved per step, so a fallback can swap in when e.g. a filter leaves the card list empty.
-  const [step, target] = useMemo(() => {
-    const s = STEPS[i];
-    const el = findTarget(s.target);
-    if (el || !s.fallback) return [s, el] as const;
-    return [{ ...s, body: s.fallback.body }, findTarget(s.fallback.target)] as const;
-  }, [i]);
+  const { step, target } = shown;
   const last = i === STEPS.length - 1;
+
+  // Resolved per step, so a fallback can swap in when e.g. the wallet is still empty. A step on another tab
+  // switches to it first; that tab renders after the hashchange, so keep looking for a few frames.
+  useEffect(() => {
+    const s = STEPS[i];
+    let frames = 0;
+    if (s.tab && location.hash.slice(1) !== s.tab) {
+      location.hash = s.tab;
+      frames = TAB_FRAMES;
+    }
+    let raf = 0;
+    const resolve = () => {
+      const el = findTarget(s.target);
+      if (!el && frames-- > 0) { raf = requestAnimationFrame(resolve); return; }
+      if (el || !s.fallback) setShown({ step: s, target: el });
+      else setShown({ step: { ...s, body: s.fallback.body }, target: findTarget(s.fallback.target) });
+    };
+    raf = requestAnimationFrame(resolve);
+    return () => cancelAnimationFrame(raf);
+  }, [i]);
 
   const close = useCallback(() => { markSeen(); onClose(); }, [onClose]);
 
@@ -129,9 +181,9 @@ export function Tour({ onClose }: { onClose: () => void }) {
     const above = rect.top - GAP - ch;
     const top = below + ch <= vh - EDGE ? below : above >= EDGE ? above : vh - ch - EDGE;
     setPos({ top, left });
-  }, [rect, i]);
+  }, [rect, step]);
 
-  useEffect(() => { cardRef.current?.focus(); }, [i]);
+  useEffect(() => { cardRef.current?.focus(); }, [step]);
 
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
