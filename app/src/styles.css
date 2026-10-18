@@ -497,3 +497,33 @@ legend { padding: 0 6px; font-weight: 600; font-size: 0.9rem; }
 label.inline { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
 label.inline input { width: 80px; }
 .inline-icon { vertical-align: -2px; }
+
+/* -- tour -------------------------------------------------------------------------------------- */
+
+.topbar-end { display: flex; align-items: center; gap: 8px; }
+.tour { position: fixed; inset: 0; z-index: 100; }
+.tour-block { position: absolute; inset: 0; }
+.tour-block.dim { background: rgb(15 20 18 / 55%); }
+.tour-spot {
+  position: fixed; border-radius: 12px; pointer-events: none;
+  box-shadow: 0 0 0 2px var(--accent), 0 0 0 9999px rgb(15 20 18 / 55%);
+  transition: top 0.25s ease, left 0.25s ease, width 0.25s ease, height 0.25s ease;
+}
+.tour-card {
+  position: fixed; width: min(340px, calc(100vw - 24px)); padding: 12px 16px 14px;
+  display: flex; flex-direction: column; gap: 6px;
+  background: var(--surface); color: var(--ink); border-radius: var(--radius);
+  box-shadow: 0 8px 40px rgb(0 0 0 / 25%); animation: up 0.18s ease-out;
+}
+.tour-card:focus { outline: none; }
+.tour-head { display: flex; align-items: center; justify-content: space-between; margin-right: -8px; }
+.tour-head .icon-btn { width: 32px; height: 32px; }
+.tour-step { font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); }
+.tour-card h2 { font-family: var(--serif); font-size: 1.15rem; font-weight: 600; line-height: 1.25; }
+.tour-card p { font-size: 0.92rem; color: var(--muted); }
+.tour-foot { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-top: 8px; }
+.tour-dots { display: flex; gap: 5px; }
+.tour-dots span { width: 6px; height: 6px; border-radius: 50%; background: var(--line); }
+.tour-dots span.on { background: var(--accent); width: 16px; border-radius: 999px; }
+.tour-nav { display: flex; gap: 6px; }
+@media (prefers-reduced-motion: reduce) { .tour-spot { transition: none; } .tour-card { animation: none; } }
