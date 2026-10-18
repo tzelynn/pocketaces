@@ -31,11 +31,11 @@ export function App() {
   }, []);
   useEffect(() => { window.scrollTo(0, 0); }, [tab]);
 
-  // First visit: show the tour once the catalogue (and so the card list it points at) has loaded.
+  // First visit: show the tour once the catalogue (and so the card list its first steps point at) has loaded.
   useEffect(() => { if (catalog && !tourSeen()) startTour(); }, [catalog]);
 
   const go = (t: Tab) => { location.hash = t; };
-  const startTour = () => { go("cards"); setTouring(true); };
+  const startTour = () => setTouring(true);
   const badge = reminders.length;
 
   return (
