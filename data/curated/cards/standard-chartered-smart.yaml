@@ -6,12 +6,19 @@ name: Standard Chartered Smart Credit Card
 network: visa
 image_url: https://mhgprod.blob.core.windows.net/singsaver/strapi-uploads/xs_bltba8402d422c15304_55022c982c.webp
 official_url: https://www.sc.com/sg/credit-cards/smart-credit-card/
+annual_fee:
+  amount:
+    amount: 99.19
+    currency: SGD
+  first_year_waived: true
+  waiver_notes: First year waived; S$91 + GST thereafter
+  sources: ['bank:8e7cc31048e5', 'milelion:cd5042a3521e']
 min_annual_income:
   amount: 30000.0
   currency: SGD
 reward_currency:
   kind: points
-  name: Points
+  name: SC 360° Rewards Points
   conversions:
   - partner: KrisFlyer
     points: 34500.0
@@ -20,57 +27,106 @@ reward_currency:
       amount: 27.25
       currency: SGD
     min_block_points: 34500.0
-    note: 'The MileLion: min. transfer “34,500 points (10,000 miles)”, transfer fee “S$27.25” — confirm
-      the partner (the overview quotes KrisFlyer unless it says otherwise)'
+    note: Tier 2 SC card ratio; S$27.25 per conversion. Rates below are in miles at this ratio (3,200 points
+      also redeem for S$10 cashback, i.e. 32 points/S$1 = 10%)
     sources: ['milelion:cd5042a3521e']
   expiry:
     months_max: 36
-    note: 'The MileLion: points validity “Up to 3 years”'
-    sources: ['milelion:cd5042a3521e']
+    note: Points expire at the end of fixed 3-year windows counted from card account opening, so validity is up
+      to 3 years
+    sources: ['bank:8e7cc31048e5', 'milelion:cd5042a3521e']
+  redemption:
+    min_block: 3200
+    min_block_unit: points
+    sources: ['bank:8e7cc31048e5']
 earn_rules:
-- id: local-spending
-  label: local spending, overseas spending, dining, transport (SingSaver — verify)
+- id: bonus-merchants-1500
+  label: Bonus merchants (fast food, streaming, SimplyGo, EV charging) with S$1,500 spend
   rate: 9.28
   unit: mpd
   tier: bonus
   eligibility:
-    include_mcc: ['4829', '4900', '5047', '5199', '5552', '6012', '6050', '6051', '6211', '6513', '6529',
-      '6530', '6534', '6540', '7299', '7349', '7511', '7523', '8062', '8211', '8220', '8241', '8244',
-      '8249', '8299', '8398', '8651', '8661', '8999', '9211', '9222', '9223', '9311', '9399', '9402',
-      '9405']
-    description: Up to | Earn up to 32 points per S$1 for spends above S$1,500 on selected Bonus Merchants.
-      / Up to  | Earn up to 32 points per S$1 for spends above S$1,500 on selected Bonus Merchants. [include_mcc
-      auto-extracted from official T&C — check it belongs to this rule]
-    sources: ['singsaver:9ebec3120fb4', 'bank:8e7cc31048e5', 'bank:7e39de3721c8']
+    tags: [streaming_digital]
+    include_mcc: ['5552']
+    include_merchants: [Burger King, Domino's Pizza, KFC, McDonald's, Pizza Hut, Starbucks, Subway, The Coffee
+      Bean & Tea Leaf, Toast Box, Ya Kun Kaya Toast, Amazon Prime Video, Disney+, HBO GO, iQIYI, Netflix,
+      Spotify, Viu, YouTube, SimplyGo (bus/MRT)]
+    description: 32 points per S$1 (= 10% cashback) at the listed fast-food, streaming and SimplyGo bus/MRT
+      merchants and EV charging (MCC 5552, until 31 Dec 2026) when total eligible spend is at least S$1,500
+      in the statement month; uncapped
+    sources: ['bank:8e7cc31048e5']
+  min_spend:
+    amount: 1500.0
+    currency: SGD
+  min_spend_period: statement_month
   conditions:
-  - 'aggregator categories: dining, transport'
-  - 32 points per S$1, converted to KrisFlyer miles at 34500:10000
-  sources: ['singsaver:9ebec3120fb4', 'milelion:cd5042a3521e']
+  - EV charging (MCC 5552) bonus valid 6 Dec 2024 – 31 Dec 2026
+  sources: ['bank:8e7cc31048e5', 'milelion:cd5042a3521e']
+- id: bonus-merchants-800
+  label: Bonus merchants (fast food, streaming, SimplyGo, EV charging) with S$800 spend
+  rate: 7.42
+  unit: mpd
+  tier: bonus
+  eligibility:
+    tags: [streaming_digital]
+    include_mcc: ['5552']
+    include_merchants: [Burger King, Domino's Pizza, KFC, McDonald's, Pizza Hut, Starbucks, Subway, The Coffee
+      Bean & Tea Leaf, Toast Box, Ya Kun Kaya Toast, Amazon Prime Video, Disney+, HBO GO, iQIYI, Netflix,
+      Spotify, Viu, YouTube, SimplyGo (bus/MRT)]
+    description: 25.6 points per S$1 (= 8% cashback) at bonus merchants when total eligible spend is S$800 –
+      S$1,499 in the statement month; uncapped
+    sources: ['bank:8e7cc31048e5']
+  min_spend:
+    amount: 800.0
+    currency: SGD
+  min_spend_period: statement_month
+  sources: ['bank:8e7cc31048e5', 'milelion:cd5042a3521e']
+- id: other-spend-1500
+  label: All other spend with S$1,500 spend
+  rate: 0.93
+  unit: mpd
+  tier: bonus
+  eligibility:
+    all_spend: true
+    description: 3.2 points per S$1 (= 1% cashback) on all other eligible spend when total eligible spend is
+      at least S$1,500 in the statement month
+    sources: ['bank:8e7cc31048e5']
+  min_spend:
+    amount: 1500.0
+    currency: SGD
+  min_spend_period: statement_month
+  sources: ['bank:8e7cc31048e5']
 - id: base
-  label: baseline (SingSaver — verify)
+  label: All other spend
   rate: 0.46
   unit: mpd
   tier: base
   eligibility:
     all_spend: true
-    description: S$1 local spend = 1.6 point on qualifying spend. 3200 points redeemed = S$10 cash credit.
-    sources: ['singsaver:9ebec3120fb4']
-  conditions:
-  - 1.6 points per S$1, converted to KrisFlyer miles at 34500:10000
-  sources: ['singsaver:9ebec3120fb4', 'milelion:cd5042a3521e']
+    description: 1.6 points per S$1 (= 0.5% cashback) on all eligible spend below S$800 per statement month
+      (incl. bonus merchants), and on non-bonus spend at S$800 – S$1,499
+    sources: ['bank:8e7cc31048e5']
+  sources: ['bank:8e7cc31048e5', 'milelion:cd5042a3521e']
 spend_cycle: statement_month
-spend_cycle_sources: ['milelion:cd5042a3521e']
+spend_cycle_sources: ['bank:8e7cc31048e5', 'milelion:cd5042a3521e']
 general_exclusions:
-  description: Auto-extracted from official T&Cs — confirm each code applies to this card
+  exclude_mcc: ['4829', '4900', '5047', '5199', '6012', '6050', '6051', '6211', '6513', '6529', '6530',
+    '6534', '6540', '7299', '7349', '7511', '7523', '8062', '8211', '8220', '8241', '8244', '8249', '8299',
+    '8398', '8651', '8661', '8999', '9211', '9222', '9223', '9311', '9399', '9402', '9405']
+  exclude_merchants: [EZ-Link, SimplyGo top-up, FlashPay, Transit Link]
+  modes_excluded: [recurring]
+  description: SC Retail Transaction Exclusions — no points/cashback on these MCCs, cash advance, Credit Card
+    Funds Transfer, EasyPay instalments, AXS/SAM/ATM, insurance premiums, recurring payments and SC online
+    bill payments, fees/interest, betting, top-ups to prepaid cards/accounts (EZ-Link, FlashPay, some PayPal)
+  sources: ['bank:7e39de3721c8', 'bank:8e7cc31048e5']
 notes:
-- spend_cycle statement_month from The MileLion review (“The StanChart Smart Card has three different
-  earning tiers, based on total spend within a statement month.”) — confirm it applies to min spend and
-  caps
+- Spend tier is judged on total posted eligible spend per statement month (principal + supplementary);
+  bonus points are credited the day after the statement date. FCY fee 3.5%.
+- 'The SC product page (Oct 2026) still says EV charging is valid only until 31 Dec 2025 and mentions 4%
+  on bonus categories below S$800; the T&C (version 13 Nov 2025, unchanged Oct 2026) says EV until 31 Dec
+  2026 and base 1.6 points only below S$800 — T&C followed here.'
 - 'Editorial review for cross-checking: Review: Standard Chartered Smart Card (https://milelion.com/2026/02/06/review-standard-chartered-smart-card/,
   updated 2026-02-06)'
-- 'T&C mentions (check whether excluded): annual fee, axs, bill payment, cash advance, charit, education,
-  government, hospital, instalment, insurance premium, interest, late payment charge, tax, top-up, top-ups,
-  utilit'
 citations:
 - id: singsaver:9ebec3120fb4
   url: https://www.singsaver.com.sg/credit-card/products/standard-chartered-smart-credit-card
@@ -106,5 +162,8 @@ citations:
   sha256: cd5042a3521ed60824c2d938dd39d9d9365afc11fa06ea54a5727c13cd471b71
   snapshot: data/raw/milelion/post-157879-26cf36ff.json
 review:
-  status: draft
+  status: reviewed
+  reviewed_by: claude (web research)
+  reviewed_at: 2026-10-18
+  notes: Verified vs Smart T&C (13 Nov 2025 version, unchanged Oct 2026) and MileLion — tiers, merchants, fee, expiry; product page conflicts on sub-S$800 rate and EV end date (T&C followed); 34,500:10,000 conversion from MileLion only.
 updated_at: '2026-09-28'

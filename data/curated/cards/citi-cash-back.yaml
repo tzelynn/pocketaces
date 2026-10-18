@@ -19,87 +19,129 @@ min_annual_income:
 reward_currency:
   kind: cashback
   name: Cashback
+  expiry:
+    never: true
+    sources: ['web:citi-cash-back-page']
+  redemption:
+    min_block: 50.0
+    min_block_unit: SGD
+    auto_redeemed: true
+    sources: ['web:citi-cash-back-page']
 earn_rules:
-- id: local
-  label: local, overseas, taxi ride sharing, transport, petrol (SingSaver — verify)
+- id: private-commute
+  label: Private commute (taxis and ride-hailing)
   rate: 8.0
   unit: percent
   tier: bonus
   eligibility:
-    include_mcc: ['4829', '4900', '5199', '5960', '5993', '6012', '6050', '6051', '6211', '6300', '6513',
-      '6529', 6529-6540, '6530', '6534', '6540', '7349', '7511', '7523', '7800', '7995', '8062', '8211',
-      8211-8299, '8220', '8241', '8244', '8249', '8299', '8398', '8651', 8651-8661, '8661', 9000-9999,
-      '9211', '9222', '9223', '9311', '9399', '9402', '9405', '9754']
-    description: Up to | 8% cash back on private commute and petrol spend and 6% cash back on dining and
-      groceries spend. Minimum S$800 spend per statement month. S$80 combined cash back cap across all
-      categories. / 8% cashback on petrol and private commute. 6% cashback on dining and grocery. 0.20%
-      on all other retail spend. No minimum spend. S$80 combined cashback cap across all categories. /
-      Up to  | 8% cash back on private commute spend with min. S$800 spend per statement month. / Up to  |
-      8% cash back at all petrol stations with a min. monthly spend of S$800. [include_mcc auto-extracted
-      from official T&C — check it belongs to this rule]
-    sources: ['singsaver:d55c05f54417', 'bank:188bcaa8e33a', 'bank:d43f74d8ca64', 'bank:d5032b477a74',
-      'bank:a1653bcbce38', 'bank:472e40f873ba']
+    include_mcc: ['4121']
+    description: 8% (0.2% base + 7.8% bonus) for MCC 4121 taxis and private-hire rides worldwide, e.g. Grab,
+      ComfortDelGro/CityCab, Gojek, TADA, Ryde, Cabcharge, Transcab, Premier and Strides taxis.
+    sources: ['web:citi-cash-back-page']
   min_spend:
     amount: 800.0
     currency: SGD
   min_spend_period: statement_month
+  bonus_cap:
+    amount: 80.0
+    unit: SGD_cashback
+    period: statement_month
+    shared_with: [petrol, dining, groceries]
+    sources: ['web:citi-cash-back-page']
   conditions:
-  - 'aggregator categories: ride_hailing, transport, petrol'
-  - min spend S$800/month from singsaver — confirm the period (statement vs calendar month) and which
-    rules it unlocks
-  sources: ['singsaver:d55c05f54417']
+  - Bonus needs S$800 total qualifying retail spend in the statement month (any category); otherwise 0.2%
+  - S$80 total cash back per statement month, combined across all categories incl. base
+  sources: ['web:citi-cash-back-page']
+- id: petrol
+  label: Petrol (worldwide)
+  rate: 8.0
+  unit: percent
+  tier: bonus
+  eligibility:
+    include_mcc: ['5541', '5542']
+    description: 8% (0.2% base + 7.8% bonus) for service stations and automated fuel dispensers worldwide.
+    sources: ['web:citi-cash-back-page']
+  min_spend:
+    amount: 800.0
+    currency: SGD
+  min_spend_period: statement_month
+  bonus_cap:
+    amount: 80.0
+    unit: SGD_cashback
+    period: statement_month
+    shared_with: [private-commute, dining, groceries]
+    sources: ['web:citi-cash-back-page']
+  conditions:
+  - Bonus needs S$800 total qualifying retail spend in the statement month (any category); otherwise 0.2%
+  - S$80 total cash back per statement month, combined across all categories incl. base
+  sources: ['web:citi-cash-back-page']
 - id: dining
-  label: dining, supermarket (SingSaver — verify)
+  label: Dining (worldwide)
   rate: 6.0
   unit: percent
   tier: bonus
   eligibility:
-    tags: [dining, groceries]
-    description: 6% on any dining merchant worldwide with a min. monthly spend of S$800. Base cashback
-      0.2%. / Up to  | 6% cash back at all grocery stores worldwide with a min. monthly spend of S$800.
-      Base cashback 0.2%.
-    sources: ['singsaver:d55c05f54417']
+    include_mcc: ['5811', '5812', '5814']
+    description: 6% (0.2% base + 5.8% bonus) for caterers, restaurants and fast food worldwide.
+    sources: ['web:citi-cash-back-page']
   min_spend:
     amount: 800.0
     currency: SGD
   min_spend_period: statement_month
+  bonus_cap:
+    amount: 80.0
+    unit: SGD_cashback
+    period: statement_month
+    shared_with: [private-commute, petrol, groceries]
+    sources: ['web:citi-cash-back-page']
   conditions:
-  - min spend S$800/month from singsaver — confirm the period (statement vs calendar month) and which
-    rules it unlocks
-  sources: ['singsaver:d55c05f54417']
-- id: retail
-  label: retail, local online shopping (SingSaver — verify)
-  rate: 0.2
+  - Bonus needs S$800 total qualifying retail spend in the statement month (any category); otherwise 0.2%
+  - S$80 total cash back per statement month, combined across all categories incl. base
+  sources: ['web:citi-cash-back-page']
+- id: groceries
+  label: Groceries (worldwide)
+  rate: 6.0
   unit: percent
   tier: bonus
   eligibility:
-    tags: [shopping]
-    description: 0.20% on all other retail spend. No min. spend. S$80 combined cashback cap across all
-      categories.
-    sources: ['singsaver:d55c05f54417']
+    include_mcc: ['5411']
+    description: 6% (0.2% base + 5.8% bonus) for grocery stores and supermarkets worldwide.
+    sources: ['web:citi-cash-back-page']
   min_spend:
     amount: 800.0
     currency: SGD
   min_spend_period: statement_month
+  bonus_cap:
+    amount: 80.0
+    unit: SGD_cashback
+    period: statement_month
+    shared_with: [private-commute, petrol, dining]
+    sources: ['web:citi-cash-back-page']
   conditions:
-  - min spend S$800/month from singsaver — confirm the period (statement vs calendar month) and which
-    rules it unlocks
-  sources: ['singsaver:d55c05f54417']
+  - Bonus needs S$800 total qualifying retail spend in the statement month (any category); otherwise 0.2%
+  - S$80 total cash back per statement month, combined across all categories incl. base
+  sources: ['web:citi-cash-back-page']
 - id: base
-  label: baseline (SingSaver — verify)
+  label: All other retail spend
   rate: 0.2
   unit: percent
   tier: base
   eligibility:
     all_spend: true
-    description: 0.20% on all other retail spend. No minimum spend. S$80 combined cashback cap across
-      all categories.
-    sources: ['singsaver:d55c05f54417']
-  sources: ['singsaver:d55c05f54417']
+    description: 0.2% on all other qualifying retail spend, no minimum spend.
+    sources: ['web:citi-cash-back-page']
+  sources: ['web:citi-cash-back-page']
+spend_cycle: statement_month
+spend_cycle_sources: ['web:citi-cash-back-page']
 general_exclusions:
-  exclude_mcc: ['4111']
-  description: Auto-extracted from official T&Cs — confirm each code applies to this card
-  sources: ['bank:188bcaa8e33a', 'bank:d43f74d8ca64', 'bank:d5032b477a74', 'bank:a1653bcbce38', 'bank:472e40f873ba']
+  exclude_mcc: ['4829', '4900', '5199', '5960', '5993', '6012', '6050', '6051', '6211', '6300', '6513',
+    6529-6540, '7349', '7511', '7523', '7800', '7995', '8062', 8211-8299, '8398', 8651-8661, 9000-9999]
+  exclude_merchants: [AXS, BUS/MRT, EZ-Link, SimplyGo, Transit Link, TRANSIT, YouTrip, SAM, OANDA, Saxo, SKYFX]
+  description: Citi rewards exclusion list (updated Nov 2024, eff. 16 Dec 2024) — quasi-cash and stored-value
+    loads, utilities, insurance, financial services, real estate rentals, education, charity, hospitals,
+    political/religious organisations, government services, gambling, cigar stores, parking; plus the listed
+    merchants (incl. via Amaze).
+  sources: ['bank:d43f74d8ca64']
 sign_up_bonuses:
 - offered_by: singsaver
   description: 'SingSaver Flash Deal: choice of The latest smartphone (worth over S$1,8xx)'
@@ -260,6 +302,13 @@ citations:
   retrieved_at: '2026-09-27T07:31:07+00:00'
   sha256: 472e40f873baccd449fa577b73e5fad5cb7d75baccd88b038e0898bfeaf387f2
   snapshot: data/raw/bank/www-citibank-com-sg-credit-cards-pdf-chargeback-dispute-pdf-092d6126.pdf
+- id: web:citi-cash-back-page
+  url: https://www.citibank.com.sg/credit-cards/cashback/cash-back-card
+  title: Citi Cash Back Card (product page, incl. FAQ and MCC table)
+  source_type: official
+  retrieved_at: '2026-10-18'
 review:
-  status: draft
-updated_at: '2026-09-28'
+  status: reviewed
+  reviewed_by: claude (web research)
+  reviewed_at: 2026-10-18
+  notes: 'Verified vs Citi product page/FAQ (MCC table), info sheet and exclusion list: 8% commute/petrol, 6% dining/groceries, 0.2% base, S$800 min spend and S$80 combined cap per statement month, S$196.20 fee. First-year waiver only from SingSaver (not on official page).'

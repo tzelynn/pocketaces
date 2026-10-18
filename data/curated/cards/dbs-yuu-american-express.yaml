@@ -11,14 +11,14 @@ annual_fee:
     amount: 196.2
     currency: SGD
   first_year_waived: true
-  waiver_notes: S$ | First Year Waived
-  sources: ['singsaver:bfd746726f80']
+  waiver_notes: First year waived (no published spend-based waiver for later years).
+  sources: ['web:dbs-yuu-page', 'milelion:ae0327cea06a']
 min_annual_income:
   amount: 30000.0
   currency: SGD
 reward_currency:
   kind: miles
-  name: Miles
+  name: yuu Points
   conversions:
   - partner: KrisFlyer
     points: 200.0
@@ -27,39 +27,84 @@ reward_currency:
       amount: 0.0
       currency: SGD
     min_block_points: 200.0
-    note: 'The MileLion: min. transfer “200 yuu Points (56 miles)”, transfer fee “Free” — confirm the
-      partner (the overview quotes KrisFlyer unless it says otherwise)'
-    sources: ['milelion:ae0327cea06a']
+    note: 1 yuu Point = 0.28 miles or 0.5% cash rebate; transfer instantly and free in the yuu App (also to
+      HeyMax Max Miles). Rates below are in miles at 0.28 miles per yuu Point.
+    sources: ['web:dbs-yuu-tnc', 'web:dbs-yuu-page', 'milelion:ae0327cea06a']
   expiry:
     months: 24
     note: 'The MileLion: points validity “2 years”'
     sources: ['milelion:ae0327cea06a']
 earn_rules:
-- id: local
-  label: local (SingSaver — verify)
-  rate: 10.0
+- id: yuu-merchants-min-spend
+  label: yuu participating merchants & SimplyGo, with S$800 monthly spend at 4 merchants
+  rate: 10.08
   unit: mpd
   tier: bonus
   eligibility:
-    description: Up to  | Up to 36x yuu Points (up to 10 mpd) when you spend min. S$800 and at 4 Participating
-      Merchants per calendar month (incl. Cold Storage, Giant, Guardian, 7-Eleven, foodpanda, SimplyGo
-      and many more)
-    sources: ['singsaver:bfd746726f80']
-  sources: ['singsaver:bfd746726f80']
+    tags: [groceries, dining, public_transport, ride_hailing]
+    include_merchants: [Cold Storage, CS Fresh, Jasons Deli, Giant, Guardian, 7-Eleven, foodpanda, pandamart, Gojek, SimplyGo, CHAGEE, Singtel Shop]
+    description: 36 yuu Points per S$1 (18% rebate / ~10 mpd) at yuu merchants and SimplyGo = 1 base + 9
+      bonus + 26 bonus (SimplyGo 0.5 + 9.5 + 26), when the month's spend criteria are met.
+    sources: ['web:dbs-yuu-tnc']
+  min_spend:
+    amount: 800.0
+    currency: SGD
+  min_spend_period: calendar_month
+  bonus_cap:
+    amount: 8000.0
+    unit: miles
+    period: calendar_month
+    shared_with: [yuu-merchants]
+    sources: ['web:dbs-yuu-tnc']
+  conditions:
+  - Min. S$800 eligible spend AND transactions at 4 different Participating Merchants in the same calendar
+    month
+  - Total bonus capped at 28,800 yuu Points (S$144 rebate / 8,000 miles) per calendar month, per card;
+    base points uncapped
+  - No bonus at Cold Storage On The Go (Esso stations); merchant-specific product exclusions in Appendix 1
+  - 'AMEX: no yuu Points at Charge+; 7-Eleven bonus applies from 13 Aug 2026 (Appendix 1)'
+  sources: ['web:dbs-yuu-tnc', 'milelion:ae0327cea06a']
+- id: yuu-merchants
+  label: yuu participating merchants & SimplyGo, no minimum spend
+  rate: 2.8
+  unit: mpd
+  tier: bonus
+  eligibility:
+    tags: [groceries, dining, public_transport, ride_hailing]
+    include_merchants: [Cold Storage, CS Fresh, Jasons Deli, Giant, Guardian, 7-Eleven, foodpanda, pandamart, Gojek, SimplyGo, CHAGEE, Singtel Shop]
+    description: 10 yuu Points per S$1 (5% rebate / 2.8 mpd) at yuu merchants and SimplyGo = 1 base + 9
+      bonus (SimplyGo 0.5 + 9.5), no minimum spend.
+    sources: ['web:dbs-yuu-tnc']
+  bonus_cap:
+    amount: 8000.0
+    unit: miles
+    period: calendar_month
+    shared_with: [yuu-merchants-min-spend]
+    sources: ['web:dbs-yuu-tnc']
+  sources: ['web:dbs-yuu-tnc', 'milelion:ae0327cea06a']
 - id: base
-  label: baseline (SingSaver — verify)
-  rate: 0.28
+  label: all other spend
+  rate: 0.14
   unit: mpd
   tier: base
   eligibility:
     all_spend: true
-    description: 1x yuu Point per S$1
-    sources: ['singsaver:bfd746726f80']
-  sources: ['singsaver:bfd746726f80']
+    description: 0.5 yuu Point per S$1 (0.25% rebate / 0.14 mpd) at non-yuu merchants, SGD or FCY, uncapped.
+    sources: ['web:dbs-yuu-tnc']
+  sources: ['web:dbs-yuu-tnc', 'milelion:ae0327cea06a']
 spend_cycle: calendar_month
-spend_cycle_sources: ['milelion:ae0327cea06a']
+spend_cycle_sources: ['web:dbs-yuu-tnc', 'milelion:ae0327cea06a']
 general_exclusions:
-  description: Auto-extracted from official T&Cs — confirm each code applies to this card
+  exclude_mcc: ['4784', '4829', '4900', '5047', '5199', '5960', '5993', '6010', '6011', '6012', '6050', '6051',
+    '6211', '6300', '6381', '6399', '6513', '6529', '6530', '6534', '6540', '7349', '7511', '7523', '7995',
+    '8062', '8211', '8220', '8241', '8244', '8249', '8299', '8398', '8651', '8661', '8699', '8999', '9211',
+    '9222', '9223', '9311', '9399', '9402', '9405']
+  exclude_merchants: [AMAZE, AXS, AXS BizPay, BAGUS, CANTINE, EZLINK, EZ-LINK, PAYPAL AXS PTE LTD, RAZERPAY,
+    SAM PAYMENTS, SEDAP, SGEBIZ, SINGAPORE E-BUSINESS, SHOPEEPAY, SINGTEL DASH, SMOOVPAY, TRANSIT 3, YOUTRIP]
+  description: Not Eligible Spend (yuu T&C cl. 9) — the listed MCCs and merchant descriptors, plus refunds,
+    pre-authorisations, balance transfers, cash advances, MP3 and 0% IPP instalments, fees and internet-banking
+    bill payments.
+  sources: ['web:dbs-yuu-tnc']
 sign_up_bonuses:
 - offered_by: singsaver
   description: 'Stackable Welcome Offer: choice of Up to S$200 Cashback on Cashline'
@@ -132,10 +177,11 @@ sign_up_bonuses:
   url: https://www.moneysmart.sg/credit-cards/dbs-yuu-american-express-card
   sources: ['moneysmart:fbcf8e7229a3']
 notes:
-- spend_cycle calendar_month from The MileLion review (“Bonus Reward 2 requires that cardholders meet
-  a minimum spend of S$800 per calendar month.”) — confirm it applies to min spend and caps
 - 'Editorial review for cross-checking: Review: DBS yuu Card (https://milelion.com/2026/06/27/review-dbs-yuu-card/,
   updated 2026-09-19)'
+- Rates are shown in miles (0.28 miles per yuu Point); as cash rebates they are 18% / 5% / 0.25%.
+- Each card (Visa and AMEX) has its own 28,800-point monthly bonus cap (MileLion).
+- FCY transactions carry a 3.25% fee and earn only 0.14 mpd (MileLion).
 citations:
 - id: singsaver:bfd746726f80
   url: https://www.singsaver.com.sg/credit-card/products/dbs-yuu-american-express-card
@@ -158,6 +204,19 @@ citations:
   retrieved_at: '2026-09-28T13:28:41+00:00'
   sha256: ae0327cea06a36c4ee8c840cfbbad4432a197440f97146ba5d766edca6ae6028
   snapshot: data/raw/milelion/post-176991-cda8d936.json
+- id: web:dbs-yuu-tnc
+  url: https://www.dbs.com.sg/iwov-resources/media/pdf/cards/promotions/dbs-yuu-cards/dbs-yuu-card-promotion-tncs.pdf
+  title: DBS yuu Card Programme and Promotions T&Cs (updated 7 Aug 2026)
+  source_type: official
+  retrieved_at: '2026-10-18'
+- id: web:dbs-yuu-page
+  url: https://www.dbs.com.sg/personal/cards/credit-cards/dbs-yuu-cards
+  title: DBS yuu Card (product page, Eligibility & Fees)
+  source_type: official
+  retrieved_at: '2026-10-18'
 review:
-  status: draft
-updated_at: '2026-09-28'
+  status: reviewed
+  reviewed_by: claude (web research)
+  reviewed_at: 2026-10-18
+  notes: 'Verified fee, income, earn structure (36/10/0.5 yuu Points per S$1), S$800 + 4-merchant calendar-month requirement, 28,800-point bonus cap, merchant list and exclusions against DBS yuu T&C (7 Aug 2026) and product page; draft base rate 0.28 mpd was wrong (0.14) and the no-min-spend 2.8 mpd tier was missing. Not verified officially: 2-year yuu Points expiry (MileLion only).'
+updated_at: '2026-10-18'

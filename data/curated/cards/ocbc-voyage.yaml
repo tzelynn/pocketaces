@@ -8,10 +8,11 @@ image_url: https://mhgprod.blob.core.windows.net/singsaver/strapi-uploads/xs_blt
 official_url: https://www.ocbc.com/personal-banking/cards/voyage-credit-card.page
 annual_fee:
   amount:
-    amount: 497.06
+    amount: 498.0
     currency: SGD
-  waiver_notes: S$ | With 15,000 VOYAGE Miles or S$3,240 a year with 150,000 VOYAGE Miles.
-  sources: ['singsaver:b854c15f0133']
+  first_year_waived: false
+  waiver_notes: Not waivable; 15,000 VOYAGE Miles awarded on payment each year
+  sources: ['bank:e4747af6e262', 'web:ocbc-voyage']
 min_annual_income:
   amount: 120000.0
   currency: SGD
@@ -26,44 +27,60 @@ reward_currency:
       amount: 25.0
       currency: SGD
     min_block_points: 1.0
-    note: 'The MileLion: min. transfer “1 VOYAGE Mile (1 mile)”, transfer fee “S$25” — confirm the partner
-      (the overview quotes KrisFlyer unless it says otherwise)'
-    sources: ['milelion:27666b12efb8']
+    note: 'VOYAGE Miles convert 1:1 to KrisFlyer (also Flying Blue, BA, Asia Miles, Etihad, United, ALL, IHG,
+      Marriott); S$25 conversion fee'
+    sources: ['milelion:27666b12efb8', 'web:ocbc-voyage']
   expiry:
     never: true
-    note: 'The MileLion: points validity “No expiry”'
-    sources: ['milelion:27666b12efb8']
+    note: 'T&C cl. 1.2: VOYAGE Miles accrued have no expiration date'
+    sources: ['bank:e4747af6e262', 'milelion:27666b12efb8']
 earn_rules:
 - id: overseas
-  label: overseas (SingSaver — verify)
+  label: foreign currency spend
   rate: 2.2
   unit: mpd
   tier: bonus
   eligibility:
-    description: ''
-    sources: ['singsaver:b854c15f0133']
-  sources: ['singsaver:b854c15f0133']
+    modes_required: [foreign_currency]
+    description: 11 VOYAGE Miles per S$5 charged in foreign currency (2.2 mpd), uncapped; overseas spend charged
+      in SGD earns the local 1.3 mpd
+    sources: ['bank:e4747af6e262']
+  rounding:
+    amount: 5
+    per: transaction
+    rounding: down
+    sources: ['bank:e4747af6e262']
+  sources: ['bank:e4747af6e262', 'web:ocbc-voyage']
 - id: base
-  label: local (SingSaver — verify)
+  label: local spend
   rate: 1.3
   unit: mpd
   tier: base
   eligibility:
     all_spend: true
-    description: ''
-    sources: ['singsaver:b854c15f0133']
-  sources: ['singsaver:b854c15f0133']
+    description: 6.5 VOYAGE Miles per S$5 local spend (1.3 mpd), uncapped; AXS Pay + Earn 1 mpd
+    sources: ['bank:e4747af6e262']
+  rounding:
+    amount: 5
+    per: transaction
+    rounding: down
+    sources: ['bank:e4747af6e262']
+  sources: ['bank:e4747af6e262', 'web:ocbc-voyage']
+spend_cycle: calendar_month
 general_exclusions:
   exclude_mcc: ['4784', '4829', '4900', '5047', '5199', '5960', '5993', '6010', '6012', '6051', '6211',
     '6300', '6513', '6540', '7349', '7523', '7995', '8062', '8099', '8211', '8220', '8241', '8244', '8249',
     '8299', '8398', '8651', '8661', '8675', '8699', '9211', '9222', '9223', '9311', '9399', '9402', '9405']
-  description: Auto-extracted from official T&Cs — confirm each code applies to this card
-  sources: ['bank:e4747af6e262', 'bank:0a112e273295']
+  exclude_merchants: [EZ-Link, NETS FlashPay, eNETS, SAM, Transit Link, AXS, GrabPay, Youtrip, Shopee Pay,
+    Singtel Dash, Google Ads, Facebook Ads, Amazon Web Services, SingHealth]
+  description: T&C cl. 1.4 — also fees, instalments, cash advance, money transfers/brokerage, recurring utility
+    and telco payments, MCC 4111/4121/4131 except Grab Transport, Gojek and licensed taxis. Listed private
+    hospitals (Mount Elizabeth, Gleneagles, Raffles etc.) still earn despite MCC 8062.
+  sources: ['bank:e4747af6e262']
 notes:
 - 'Editorial review for cross-checking: Review: OCBC VOYAGE Card (https://milelion.com/2025/11/26/review-ocbc-voyage-card/,
   updated 2025-11-26)'
-- 'T&C mentions (check whether excluded): annual fee, axs, balance transfer, cash advance, charit, education,
-  government, grabpay, hospital, instalment, interest, late payment charge, tax, utilit, youtrip'
+- Premier / Bank of Singapore VOYAGE earn 2.3 mpd FCY and 1.6 mpd local; Premier Private Client also 2.3 mpd on local dining (separate cards, not modelled here).
 citations:
 - id: singsaver:b854c15f0133
   url: https://www.singsaver.com.sg/credit-card/products/ocbc-voyage-card
@@ -72,6 +89,11 @@ citations:
   retrieved_at: '2026-09-27T05:26:29+00:00'
   sha256: b854c15f01332ec12215ef5ca14396a042a132604f6a88be94ba92e71b31f55f
   snapshot: data/raw/singsaver/www-singsaver-com-sg-credit-card-products-ocbc-voyage-card-2309c620.html
+- id: web:ocbc-voyage
+  url: https://www.ocbc.com/personal-banking/cards/voyage-credit-card.page
+  title: OCBC VOYAGE Card (official product page)
+  source_type: official
+  retrieved_at: '2026-10-18'
 - id: bank:e4747af6e262
   url: https://www.ocbc.com/iwov-resources/sg/ocbc/personal/pdf/cards/tncs-governing-the-voyage-creditcard-programme.pdf
   source_type: official
@@ -92,5 +114,10 @@ citations:
   sha256: 27666b12efb887822cf739ca9ffb716eeca6ace291a6204103c5b9ae28758694
   snapshot: data/raw/milelion/post-129826-cafaeb57.json
 review:
-  status: draft
+  status: reviewed
+  reviewed_by: claude (web research)
+  reviewed_at: 2026-10-18
+  notes: Verified vs VOYAGE programme T&C (24 Nov 2025) + OCBC page - 2.2/1.3 mpd per S$5 block, no expiry,
+    fee S$498 non-waivable (was 497.06), S$120k income, exclusions. Unverified - KrisFlyer min conversion
+    block (MileLion says 1 mile).
 updated_at: '2026-09-28'

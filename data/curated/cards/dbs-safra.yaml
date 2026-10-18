@@ -6,62 +6,97 @@ name: DBS SAFRA Card
 network: mastercard
 image_url: https://mhgprod.blob.core.windows.net/singsaver/strapi-uploads/l_2026_01_SAFRA_DBS_CARD_97d10c6088.png
 official_url: https://www.dbs.com.sg/personal/cards/credit-cards/dbs-safra-credit-card
+annual_fee:
+  amount:
+    amount: 0.0
+    currency: SGD
+  waiver_notes: No annual fee while you remain a SAFRA member (SAFRA membership fee applies)
+  sources: ['web:dbs-safra-page']
 min_annual_income:
   amount: 30000.0
   currency: SGD
 reward_currency:
   kind: cashback
-  name: Cashback
+  name: SAFRA$
+  expiry:
+    months: 12
+    note: SAFRA$ expire 12 calendar months from the date earned (to the end of that month)
+    sources: ['web:dbs-safra-tnc']
 earn_rules:
-- id: local
-  label: local, transport, contactless spend, local online shopping (SingSaver — verify)
+- id: local-contactless
+  label: Local Mastercard contactless
   rate: 3.0
   unit: percent
   tier: bonus
   eligibility:
-    tags: [transport]
     modes_required: [contactless]
-    description: On local Mastercard contactless transactions with minimum spend of S$500. Earned in the
-      form of SAFRA$. Capped at SAFRA$50 per calendar month. / Including bus/train rides via SimplyGo  With
-      minimum spend of S$500  Earned in the form of SAFRA$  Capped at SAFRA$50 per calendar month. / With
-      minimum spend of S$500  Earned in the form of SAFRA$  Capped at SAFRA$50 per calendar month.
-    sources: ['singsaver:a2fa5d01829d']
+    modes_excluded: [foreign_currency]
+    description: 3% SAFRA$ on Mastercard contactless at terminals in Singapore (incl. SimplyGo bus/train)
+    sources: ['web:dbs-safra-tnc']
   min_spend:
     amount: 500.0
     currency: SGD
-  min_spend_period: statement_month
-  conditions:
-  - min spend S$500/month from singsaver — confirm the period (statement vs calendar month) and which
-    rules it unlocks
-  sources: ['singsaver:a2fa5d01829d']
-- id: overseas
-  label: overseas (SingSaver — verify)
-  rate: 0.3
+  min_spend_period: calendar_month
+  bonus_cap:
+    amount: 50.0
+    unit: SGD_cashback
+    period: calendar_month
+    shared_with: [local-contactless, online, base]
+    sources: ['web:dbs-safra-tnc']
+  sources: ['web:dbs-safra-tnc']
+- id: online
+  label: Online
+  rate: 3.0
   unit: percent
   tier: bonus
   eligibility:
-    description: Earned in the form of SAFRA$  Capped at SAFRA$50 per calendar month.
-    sources: ['singsaver:a2fa5d01829d']
+    modes_required: [online]
+    description: 3% SAFRA$ on online transactions processed as online via Mastercard (excludes telephone/mail
+      order and online banking)
+    sources: ['web:dbs-safra-tnc']
   min_spend:
     amount: 500.0
     currency: SGD
-  min_spend_period: statement_month
-  conditions:
-  - min spend S$500/month from singsaver — confirm the period (statement vs calendar month) and which
-    rules it unlocks
-  sources: ['singsaver:a2fa5d01829d']
+  min_spend_period: calendar_month
+  bonus_cap:
+    amount: 50.0
+    unit: SGD_cashback
+    period: calendar_month
+    shared_with: [local-contactless, online, base]
+    sources: ['web:dbs-safra-tnc']
+  sources: ['web:dbs-safra-tnc']
 - id: base
-  label: baseline (SingSaver — verify)
+  label: All other retail spend
   rate: 0.3
   unit: percent
   tier: base
   eligibility:
     all_spend: true
-    description: Earned in the form of SAFRA$  Capped at SAFRA$50 per calendar month.
-    sources: ['singsaver:a2fa5d01829d']
-  sources: ['singsaver:a2fa5d01829d']
+    description: 0.3% SAFRA$ on all other retail transactions
+    sources: ['web:dbs-safra-tnc']
+  min_spend:
+    amount: 500.0
+    currency: SGD
+  min_spend_period: calendar_month
+  bonus_cap:
+    amount: 50.0
+    unit: SGD_cashback
+    period: calendar_month
+    shared_with: [local-contactless, online, base]
+    sources: ['web:dbs-safra-tnc']
+  conditions:
+  - The S$500 calendar-month minimum spend applies to all rebates, including the 0.3%
+  sources: ['web:dbs-safra-tnc']
+spend_cycle: calendar_month
+spend_cycle_sources: ['web:dbs-safra-tnc']
 general_exclusions:
-  description: Auto-extracted from official T&Cs — confirm each code applies to this card
+  exclude_mcc: ['4784', '4829', '4900', '6010', '6011', '6012', '6051', '6211', '6300', '6381', '6399', '6540',
+    '7523', '7995', '8062', '8211', '8220', '8241', '8244', '8249', '8299', '8398', '8661', '9211', '9222',
+    '9223', '9311', '9399', '9402', '9405']
+  exclude_merchants: [AMAZE*, CARDUP*, EZLINK*, FAVEPAY*, IPAYMY*, SHOPEEPAY*, SINGTEL DASH*, TRANSIT*, YOUTRIP*]
+  description: T&C Table 1 MCCs and Table 2 descriptors (partial), plus instalments, interest, cash advance,
+    balance transfer, AXS/SAM/internet-banking bill payments and DBS fees; NETS not counted
+  sources: ['web:dbs-safra-tnc']
 citations:
 - id: singsaver:a2fa5d01829d
   url: https://www.singsaver.com.sg/credit-card/products/dbs-safra-card
@@ -77,6 +112,20 @@ citations:
   retrieved_at: '2026-09-27T05:27:18+00:00'
   sha256: fbcf8e7229a38611c3c767cd8447164e413b1306df1f54bebee269e3abf15202
   snapshot: data/raw/moneysmart/credit-cards-p3-707cb52c.html
+- id: web:dbs-safra-page
+  url: https://www.dbs.com.sg/personal/cards/credit-cards/dbs-safra-credit-card
+  title: SAFRA DBS Credit Card (product page)
+  source_type: official
+  retrieved_at: '2026-10-18'
+- id: web:dbs-safra-tnc
+  url: https://www.dbs.com.sg/iwov-resources/pdf/cards/safra-dbs-credit-card-cash-rebate-programme-tnc.pdf
+  title: Terms and Conditions Governing SAFRA DBS Credit Card Cash Rebate Programme
+  source_type: official
+  retrieved_at: '2026-10-18'
 review:
-  status: draft
-updated_at: '2026-09-28'
+  status: reviewed
+  reviewed_by: claude (web research)
+  reviewed_at: 2026-10-18
+  notes: Verified fee (none for SAFRA members), income, 3%/3%/0.3% rates, S$500 calendar-month min spend,
+    SAFRA$50 cap, 12-month expiry vs DBS page + rebate T&C; SAFRA$-to-KrisFlyer conversion not verified.
+updated_at: '2026-10-18'

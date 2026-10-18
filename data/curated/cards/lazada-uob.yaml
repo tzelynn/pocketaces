@@ -11,18 +11,137 @@ annual_fee:
   amount:
     amount: 196.2
     currency: SGD
-  sources: ['moneysmart:49fcb3586f25']
+  first_year_waived: true
+  waiver_notes: S$196.20 incl. GST; first year waived
+  sources: ['web:lazada-uob-page']
+min_annual_income:
+  amount: 30000.0
+  currency: SGD
 reward_currency:
   kind: cashback
-  name: Cashback
+  name: Lazada Gift Card (rebates)
+  expiry:
+    months: 6
+    note: Each Lazada Gift Card is valid 180 days from crediting
+    sources: ['bank:0a9012338318']
+earn_rules:
+- id: lazada
+  label: Lazada (excl. RedMart)
+  rate: 20.0
+  unit: percent
+  tier: bonus
+  eligibility:
+    include_mcc: ['5262', '5310', '5311', '5331', '5399', '5732', '5999']
+    include_merchants:
+    - Lazada Singapore (LAZADA*, AMAZE*LAZADA*, 2C2P*LAZADA)
+    exclude_merchants: [RedMart, Lazada Wallet top-ups]
+    sources: ['bank:0a9012338318']
+  min_spend:
+    amount: 500.0
+    currency: SGD
+  min_spend_period: calendar_month
+  bonus_cap:
+    amount: 20.0
+    unit: SGD_cashback
+    period: calendar_month
+    sources: ['bank:0a9012338318']
+  conditions:
+  - Card must be added as card-on-file in the Lazada Wallet; rebates credited as Lazada Gift Card on the
+    15th of the next month
+  - 'From 1 Feb 2027: min. spend S$700, Lazada 15%, RedMart 2% (per UOB product page)'
+  sources: ['bank:0a9012338318', 'web:lazada-uob-page']
+- id: redmart
+  label: RedMart
+  rate: 6.0
+  unit: percent
+  tier: bonus
+  eligibility:
+    include_mcc: ['5411']
+    include_merchants: [RedMart (on Lazada)]
+    sources: ['bank:0a9012338318']
+  min_spend:
+    amount: 500.0
+    currency: SGD
+  min_spend_period: calendar_month
+  bonus_cap:
+    amount: 20.0
+    unit: SGD_cashback
+    period: calendar_month
+    sources: ['bank:0a9012338318']
+  conditions:
+  - Card must be added as card-on-file in the Lazada Wallet; rebates credited as Lazada Gift Card on the
+    15th of the next month
+  - 'From 1 Feb 2027: min. spend S$700, Lazada 15%, RedMart 2% (per UOB product page)'
+  sources: ['bank:0a9012338318', 'web:lazada-uob-page']
+- id: dining-entertainment-transport
+  label: Dining, entertainment and transport
+  rate: 5.0
+  unit: percent
+  tier: bonus
+  eligibility:
+    tags: [dining, ride_hailing]
+    include_mcc: ['5462', '5811', '5812', '5813', '5814', '7829', '7841', '7911', '7922', '7929', '7932',
+      '7933', '7941', '7991', '7992', '7993', '7994', '7996', '7998', '7999', '4121']
+    description: Dining (incl. bakeries), entertainment MCCs, ride-hailing (MCC 4121) and SimplyGo bus/MRT
+      rides
+    sources: ['bank:0a9012338318']
+  min_spend:
+    amount: 500.0
+    currency: SGD
+  min_spend_period: calendar_month
+  bonus_cap:
+    amount: 25.0
+    unit: SGD_cashback
+    period: calendar_month
+    sources: ['bank:0a9012338318']
+  conditions:
+  - Card must be added as card-on-file in the Lazada Wallet; rebates credited as Lazada Gift Card on the
+    15th of the next month
+  sources: ['bank:0a9012338318', 'web:lazada-uob-page']
+- id: base
+  label: All other spend
+  rate: 0.3
+  unit: percent
+  tier: base
+  eligibility:
+    all_spend: true
+    description: Only when the S$500 calendar-month min. spend is met; otherwise no rebate
+    sources: ['bank:0a9012338318']
+  min_spend:
+    amount: 500.0
+    currency: SGD
+  min_spend_period: calendar_month
+  bonus_cap:
+    amount: 25.0
+    unit: SGD_cashback
+    period: calendar_month
+    sources: ['bank:0a9012338318']
+  sources: ['bank:0a9012338318']
+spend_cycle: calendar_month
+spend_cycle_sources: ['bank:0a9012338318']
 general_exclusions:
-  exclude_mcc: ['5262', '5310', '5311', '5331', '5399', '5411', '5732', '5999']
-  description: Auto-extracted from official T&Cs — confirm each code applies to this card
-  sources: ['bank:0a9012338318', 'bank:f96140a34d31', 'bank:42358e29d735']
-notes:
-- 'No structured earn rates from aggregators: add earn_rules from the official T&C before review'
-- 'T&C mentions (check whether excluded): annual fee, axs, cardup, cash advance, charit, e-wallet, education,
-  government, hospital, instalment, interest, ipaymy, late payment charge, tax, top-up'
+  exclude_mcc: ['4829', '5199', '5960', '5965', '5993', '6012', '6050', '6051', '6211', '6300', '6513',
+    '6529', '6530', '6534', '6540', '7349', '7511', '7523', '7995', '8062', '8211', '8220', '8241', '8244',
+    '8249', '8299', '8398', '8651', '8661', '8699', '8999', '9211', '9222', '9223', '9311', '9399', '9402',
+    '9405']
+  exclude_merchants:
+  - GrabPay wallet top-ups
+  - ShopeePay wallet top-ups
+  - AXS*
+  - EZ-LINK* / EZLINK* / TRANSIT*
+  - FLASHPAY* / NETSFLASHPAY*
+  - IPAYMY*
+  - CardUp*
+  - RWS-LEVY*
+  - SMOOVE PAY*
+  - SINGPOST-SAM*
+  - RazerPay*
+  - NORWDS*
+  - AMAZE*
+  - brokerage/FX (PLUS500, OANDA, Saxo, IG Markets, CITYINDEX, Skrill)
+  description: Cash advances, fees/interest, balance transfers, 0% IPP/SmartPay, wallet top-ups, listed
+    MCCs and descriptors (T&C clause 5)
+  sources: ['bank:0a9012338318']
 citations:
 - id: moneysmart:49fcb3586f25
   url: https://www.moneysmart.sg/credit-cards?page=4
@@ -49,7 +168,16 @@ citations:
   retrieved_at: '2026-09-27T08:37:46+00:00'
   sha256: 42358e29d7350a9750c477afebed16d22e101f969821263b9777733152bf0a95
   snapshot: data/raw/bank/www-uob-com-sg-assets-pdfs-add-on-card-terms-conditions-pdf-294d1c4b.pdf
+- id: web:lazada-uob-page
+  url: https://www.uob.com.sg/personal/cards/cashback/lazada-uob-card.page
+  title: Lazada-UOB Card (product page)
+  source_type: official
+  retrieved_at: '2026-10-18'
 review:
-  status: draft
-updated_at: '2026-09-28'
-earn_rules: []
+  status: reviewed
+  reviewed_by: claude (web research)
+  reviewed_at: '2026-10-18'
+  notes: 'Verified vs Lazada-UOB T&C v1.5 (1 Sep 2026) and product page: rates, caps, S$500 calendar-month
+    min spend, fee, income. Unverified: network (left as Mastercard); exact caps after the 1 Feb 2027
+    change.'
+updated_at: '2026-10-18'

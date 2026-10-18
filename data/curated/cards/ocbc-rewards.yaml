@@ -3,15 +3,17 @@
 id: ocbc-rewards
 bank: OCBC
 name: OCBC Rewards Credit Card
+network: mastercard
 image_url: https://mhgprod.blob.core.windows.net/singsaver/strapi-uploads/xl_bltf26783f85532678d_ae451c594c.png
 official_url: https://www.ocbc.com/personal-banking/cards/rewards-card
 annual_fee:
   amount:
     amount: 196.2
     currency: SGD
-  waiver_notes: S$ | First 2 Years Waived. Min. spend of S$10,000 per year for waiver of annual fee for
-    subsequent years.
-  sources: ['singsaver:2bc38b2794e0']
+  first_year_waived: true
+  waiver_notes: First 2 years waived. Min. spend of S$10,000 per year for waiver of annual fee for subsequent
+    years.
+  sources: ['singsaver:2bc38b2794e0', 'milelion:82d29c0d47a0']
 min_annual_income:
   amount: 30000.0
   currency: SGD
@@ -26,76 +28,87 @@ reward_currency:
       amount: 25.0
       currency: SGD
     min_block_points: 25000.0
-    note: 'The MileLion: min. transfer “25,000 OCBC$* (10,000 miles)”, transfer fee “S$25” — confirm the
-      partner (the overview quotes KrisFlyer unless it says otherwise)'
+    note: 'The MileLion: 25,000 OCBC$ = 10,000 KrisFlyer miles, min. 25,000 OCBC$ per transfer, S$25 fee
+      (other partners min. 10,000 OCBC$)'
     sources: ['milelion:82d29c0d47a0']
   expiry:
     months: 24
     note: 'The MileLion: points validity “2 years”'
     sources: ['milelion:82d29c0d47a0']
 earn_rules:
-- id: retail
-  label: retail (SingSaver — verify)
+- id: promo-ecommerce
+  label: Watsons, Shopee, Lazada, TikTok Shop, Taobao (promo)
   rate: 6.0
   unit: mpd
   tier: bonus
   eligibility:
-    include_mcc: ['5309', '5311', '5611', '5621', '5631', '5641', '5651', '5655', '5661', '5691', '5699',
-      '5941', '5948']
-    description: Up to | Now till 30 June 2025, earn 15 OCBC$ (6 miles) per S$1 spent at Watsons and department
-      stores (up from 4 miles). Get up to 5,000 extra OCBC$, on top of the usual 10,000 monthly bonus
-      OCBC$! [include_mcc auto-extracted from official T&C — check it belongs to this rule]
-    sources: ['singsaver:2bc38b2794e0', 'bank:28abb5c55e82', 'bank:ebd223c14c24']
-  conditions: ['aggregator categories: shopping']
-  sources: ['singsaver:2bc38b2794e0']
-- id: local
-  label: local, local online shopping (SingSaver — verify)
+    include_merchants: [Watsons, Shopee, Lazada, TikTok Shop, Taobao]
+    exclude_mcc: ['5262', '5411', '6540']
+    description: 15 OCBC$ per S$1 (6 mpd) = usual 10X plus bonus 5 OCBC$ per S$1, on up to S$1,000 per calendar
+      month (5,000 promo bonus OCBC$); then 4 mpd up to the regular S$1,110 cap
+    sources: ['bank:ebd223c14c24', 'web:mainlymiles-rewards-6mpd']
+  max_spend:
+    amount: 1000.0
+    currency: SGD
+  max_spend_period: calendar_month
+  rounding:
+    amount: 5
+    per: transaction
+    rounding: down
+    sources: ['bank:28abb5c55e82']
+  valid_from: 2026-07-01
+  valid_to: 2027-03-31
+  sources: ['bank:ebd223c14c24', 'web:mainlymiles-rewards-6mpd']
+- id: shopping
+  label: shopping (department stores, apparel, sporting goods, duty free, selected online platforms)
   rate: 4.0
   unit: mpd
   tier: bonus
   eligibility:
-    modes_required: [online]
-    description: Up to | 4 mpd on selected online and offline shopping capped at S$1,110 per calendar
-      month / 10X OCBC$ (equivalent to 4 air miles) per S$1 spent
-    sources: ['singsaver:2bc38b2794e0']
-  bonus_cap:
+    tags: [shopping]
+    include_mcc: ['5309', '5311', '5611', '5621', '5631', '5641', '5651', '5655', '5661', '5691', '5699',
+      '5941', '5948']
+    include_merchants: [Alibaba, AliExpress, Amazon, Ezbuy, Guardian, Lazada, Mustafa Centre, NTUC Unity, Shopee,
+      Taobao, TikTok Shop, Watsons]
+    exclude_mcc: ['5262', '5411']
+    description: 10 OCBC$ per S$1 (4 mpd) on the listed MCCs and merchants, local or overseas; bonus capped
+      at 10,000 OCBC$ per calendar month (about S$1,110 spend), then 0.4 mpd. MCC 5411 purchases earn no bonus.
+    sources: ['bank:28abb5c55e82']
+  max_spend:
     amount: 1110.0
-    unit: SGD_spend
-    period: calendar_month
-    sources: ['singsaver:2bc38b2794e0']
-  conditions:
-  - bonus_cap parsed from aggregator text “capped at S$1,110 per calendar month” — confirm amount, unit
-    and whether the period is calendar or statement month
-  sources: ['singsaver:2bc38b2794e0']
-- id: dining
-  label: dining, overseas (SingSaver — verify)
-  rate: 0.4
-  unit: mpd
-  tier: bonus
-  eligibility:
-    tags: [dining]
-    description: ''
-    sources: ['singsaver:2bc38b2794e0']
-  sources: ['singsaver:2bc38b2794e0']
+    currency: SGD
+  max_spend_period: calendar_month
+  rounding:
+    amount: 5
+    per: transaction
+    rounding: down
+    sources: ['bank:28abb5c55e82']
+  sources: ['bank:28abb5c55e82', 'milelion:82d29c0d47a0']
 - id: base
-  label: baseline (SingSaver — verify)
+  label: all other eligible spend
   rate: 0.4
   unit: mpd
   tier: base
   eligibility:
     all_spend: true
-    description: ''
-    sources: ['singsaver:2bc38b2794e0']
-  sources: ['singsaver:2bc38b2794e0']
+    description: 1 OCBC$ per S$1 (5 OCBC$ per S$5 block), i.e. 0.4 mpd
+    sources: ['bank:28abb5c55e82']
+  rounding:
+    amount: 5
+    per: transaction
+    rounding: down
+    sources: ['bank:28abb5c55e82']
+  sources: ['bank:28abb5c55e82']
 spend_cycle: calendar_month
-spend_cycle_sources: ['milelion:82d29c0d47a0']
+spend_cycle_sources: ['bank:28abb5c55e82', 'milelion:82d29c0d47a0']
 general_exclusions:
-  exclude_mcc: ['4784', '4829', '4900', '5047', '5199', '5262', '5411', '5960', '5993', '6010', '6012',
-    '6051', '6211', '6300', '6513', '6540', '7349', '7523', '7995', '8062', '8211', '8220', '8241', '8244',
-    '8249', '8299', '8398', '8651', '8661', '8675', '8699', '9211', '9222', '9223', '9311', '9399', '9402',
-    '9405']
-  description: Auto-extracted from official T&Cs — confirm each code applies to this card
-  sources: ['bank:28abb5c55e82', 'bank:ebd223c14c24']
+  exclude_mcc: ['4784', '4829', '4900', '5047', '5199', '5262', '5960', '5993', '6010', '6012', '6051',
+    '6211', '6300', '6513', '6540', '7349', '7523', '7995', '8062', '8211', '8220', '8241', '8244', '8249',
+    '8299', '8398', '8651', '8661', '8675', '8699', '9211', '9222', '9223', '9311', '9399', '9402', '9405']
+  exclude_merchants: [Shopee Pay, TransitLink General Ticketing Machines]
+  description: T&C cl. 3(h)-(i) — no OCBC$ on fees, instalments, PayLite, interest, tax, cash advance, balance
+    transfer, internet-banking/AXS bill payments; MCC 5262 only for Shopee Pay
+  sources: ['bank:28abb5c55e82']
 sign_up_bonuses:
 - offered_by: singsaver
   description: 'SingSaver Flash Deal: choice of Apple Watch Series 12 Aluminum 42mm GPS (worth S$599)'
@@ -178,13 +191,9 @@ sign_up_bonuses:
   url: https://www.moneysmart.sg/credit-cards/ocbc-rewards-credit-card
   sources: ['moneysmart:42909b088c22']
 notes:
-- spend_cycle calendar_month from The MileLion review (“This bonus rate is capped at 10,000 bonus OCBC$
-  per calendar month , equivalent to S$1,110 of spending.”) — confirm it applies to min spend and caps
+- 'Bonus cap: 10,000 bonus OCBC$ per calendar month by posting date, shared by principal and supplementary cards; OCBC$ from other campaigns may count towards it (T&C cl. 1).'
 - 'Editorial review for cross-checking: Review: OCBC Rewards Card (https://milelion.com/2026/05/29/review-ocbc-titanium-rewards-card/,
   updated 2026-09-04)'
-- 'T&C mentions (check whether excluded): axs, balance transfer, bill payment, cash advance, charit, education,
-  government, grabpay, hospital, instalment, interest, ipp, late payment charge, tax, top-up, top-ups,
-  utilit, youtrip'
 citations:
 - id: singsaver:2bc38b2794e0
   url: https://www.singsaver.com.sg/credit-card/products/ocbc-rewards-credit-card
@@ -212,6 +221,11 @@ citations:
   retrieved_at: '2026-09-27T08:41:45+00:00'
   sha256: ebd223c14c247642fe30cc96885f3e8ad159996e9b33bc379709295c1609ff80
   snapshot: data/raw/bank/www-ocbc-com-iwov-resources-sg-ocbc-personal-pdf-campaign-tncs-governing-ocbc-rewards-card-15x-ocbcdollar-campaign-pdf-ff448b94.pdf
+- id: web:mainlymiles-rewards-6mpd
+  url: https://mainlymiles.com/2026/08/25/ocbc-rewards-card-6-mpd-categories-extended-to-march-2027/
+  title: OCBC Rewards Card 6 mpd categories extended to March 2027
+  source_type: editorial
+  retrieved_at: '2026-10-18'
 - id: milelion:82d29c0d47a0
   url: https://milelion.com/2026/05/29/review-ocbc-titanium-rewards-card/
   title: 'Review: OCBC Rewards Card'
@@ -220,5 +234,10 @@ citations:
   sha256: 82d29c0d47a0440e6e28ff8e581b32faa62479fba202191ad001c2c31f09ad3a
   snapshot: data/raw/milelion/post-73410-e289e801.json
 review:
-  status: draft
+  status: reviewed
+  reviewed_by: claude (web research)
+  reviewed_at: 2026-10-18
+  notes: Verified vs Rewards programme T&C (updated 16 Sep 2026) + MileLion - 4 mpd MCC/merchant list, S$1,110
+    calendar-month cap, 0.4 base, S$5 blocks, Mastercard, KrisFlyer 25k:10k S$25; 6 mpd promo to 31 Mar 2027
+    (15X campaign T&C, 1 Jul 2026-31 Mar 2027, open to all cardmembers). Removed 5411 from general exclusions (bonus-only).
 updated_at: '2026-09-28'

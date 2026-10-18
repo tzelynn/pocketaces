@@ -11,8 +11,8 @@ annual_fee:
     amount: 261.6
     currency: SGD
   first_year_waived: true
-  waiver_notes: S$ | First Year Waived
-  sources: ['singsaver:b940243f5052']
+  waiver_notes: First year waived
+  sources: ['singsaver:b940243f5052', 'web:uob-prvi-page', 'milelion:5186c3fd83fc']
 min_annual_income:
   amount: 30000.0
   currency: SGD
@@ -27,84 +27,123 @@ reward_currency:
       amount: 27.0
       currency: SGD
     min_block_points: 5000.0
-    note: 'The MileLion: min. transfer “5,000 UNI$ (10,000 miles)”, transfer fee “S$27” — confirm the
-      partner (the overview quotes KrisFlyer unless it says otherwise)'
+    note: UNI$1 = 2 miles, min. 5,000 UNI$; S$27 per conversion (free if you also hold UOB Reserve / Visa
+      Infinite (Metal) / Privilege Banking card)
+    sources: ['milelion:5186c3fd83fc', 'bank:36e516775a1f']
+  - partner: Asia Miles
+    points: 5000.0
+    partner_units: 10000.0
+    fee:
+      amount: 27.0
+      currency: SGD
+    min_block_points: 5000.0
     sources: ['milelion:5186c3fd83fc']
   expiry:
     months: 24
-    note: 'The MileLion: points validity “2 years”'
+    months_max: 27
+    note: UNI$ expire 2 years from the end of the calendar quarter in which they were earned
     sources: ['milelion:5186c3fd83fc']
 earn_rules:
-- id: travel
-  label: travel (SingSaver — verify)
+- id: agoda
+  label: Agoda hotels via agoda.com/prvimiles
   rate: 8.0
   unit: mpd
   tier: bonus
   eligibility:
-    include_mcc: ['4829', '4900', '5199', '5960', '5965', '5993', '6012', '6050', '6051', '6211', '6300',
-      '6399', '6513', '6529', '6530', '6534', '6540', '7349', '7511', '7523', '7995', '8062', '8211',
-      '8220', '8241', '8244', '8249', '8299', '8398', '8651', '8661', '8699', '8999', '9211', '9222',
-      '9223', '9311', '9399', '9402', '9405']
-    description: Up to | (Up to UNI$20 per S$5 spend) on major airlines and hotels worldwide via Agoda
-      and Expedia [include_mcc auto-extracted from official T&C — check it belongs to this rule]
-    sources: ['singsaver:b940243f5052', 'bank:36e516775a1f', 'bank:c13cf48e44b4', 'bank:42358e29d735',
-      'bank:2c85a31ddb07', 'bank:36e516775a1f']
-  conditions: ['aggregator categories: travel']
-  sources: ['singsaver:b940243f5052']
-- id: hotel-booking
-  label: hotel booking, flight booking (SingSaver — verify)
-  rate: 6.0
+    include_merchants: [Agoda]
+    description: Prepaid hotel bookings via agoda.com/prvimiles (not Japan, not pay-at-hotel) — UNI$20 per
+      S$5 (8 mpd) when charged as overseas FCY spend; UNI$17.5 per S$5 (7 mpd) when charged as local spend.
+    sources: ['bank:36e516775a1f', 'milelion:5186c3fd83fc']
+  conditions:
+  - Booking period 15 Jan 2025 – 15 Aug 2027, stay by 15 Nov 2027; give your UOB-registered mobile number at
+    payment; bonus credited within 3 months after the stay
+  valid_to: 2027-08-15
+  sources: ['bank:36e516775a1f']
+- id: expedia-hotels
+  label: Expedia hotels, activities & car rental via expedia.com.sg/prvimiles
+  rate: 8.0
   unit: mpd
   tier: bonus
   eligibility:
-    tags: [hotels, flights]
-    description: (Up to UNI$15 per S$5 spend) on major airlines and hotels worldwide via Agoda, Expedia
-      and UOB Travel.
-    sources: ['singsaver:b940243f5052']
-  sources: ['singsaver:b940243f5052']
-- id: overseas
-  label: overseas (SingSaver — verify)
+    include_merchants: [Expedia]
+    description: Prepaid hotel-only bookings, activities and cars at expedia.com.sg/prvimiles — UNI$20 per
+      S$5 (8 mpd).
+    sources: ['bank:36e516775a1f', 'milelion:5186c3fd83fc']
+  valid_from: 2026-04-01
+  valid_to: 2027-03-31
+  sources: ['bank:36e516775a1f']
+- id: expedia-flights
+  label: Expedia flights on participating airlines via expedia.com.sg/prvimiles
   rate: 3.0
   unit: mpd
   tier: bonus
   eligibility:
-    modes_required: [online]
-    description: Up to | Earn up to 5 miles per S$1 on overseas spend on shopping and dining, and up to
-      3 miles on all other overseas spend, including online (based on UNI$12.5 per S$5).
-    sources: ['singsaver:b940243f5052']
-  sources: ['singsaver:b940243f5052']
-- id: overseas-online-shopping
-  label: overseas online shopping (SingSaver — verify)
+    include_merchants: [Expedia]
+    description: Flight-only bookings on Expedia participating airlines (e.g. Qatar, Turkish, THAI, EVA,
+      Korean Air, Finnair — not SIA/Cathay) — UNI$7.5 per S$5 (3 mpd).
+    sources: ['bank:36e516775a1f', 'milelion:5186c3fd83fc']
+  valid_from: 2026-04-01
+  valid_to: 2027-03-31
+  sources: ['bank:36e516775a1f']
+- id: regional-fcy
+  label: Regional FCY spend (IDR, MYR, THB, VND)
+  rate: 3.0
+  unit: mpd
+  tier: bonus
+  eligibility:
+    modes_required: [foreign_currency]
+    description: UNI$7.5 per S$5 on spend in IDR, MYR, THB or VND (in person or online) with merchants whose
+      payment gateway is in Indonesia, Malaysia, Thailand or Vietnam respectively. SGD-charged or
+      Singapore-gateway transactions earn the local rate.
+    sources: ['bank:36e516775a1f']
+  rounding:
+    amount: 5
+    rounding: down
+    sources: ['milelion:5186c3fd83fc']
+  sources: ['bank:36e516775a1f', 'web:uob-prvi-page']
+- id: overseas-fcy
+  label: Other overseas FCY spend
   rate: 2.4
   unit: mpd
   tier: bonus
   eligibility:
-    description: ''
-    sources: ['singsaver:b940243f5052']
-  sources: ['singsaver:b940243f5052']
-- id: transport
-  label: transport, petrol, retail, dining, department store, supermarket, local online shopping, local
-    (SingSaver — verify)
-  rate: 1.4
-  unit: mpd
-  tier: bonus
-  eligibility:
-    tags: [transport, petrol, shopping, dining, groceries]
-    description: ''
-    sources: ['singsaver:b940243f5052']
-  sources: ['singsaver:b940243f5052']
+    modes_required: [foreign_currency]
+    description: UNI$6 per S$5 on overseas spend in other foreign currencies. SGD-charged (DCC) or
+      Singapore-gateway online transactions earn the local rate.
+    sources: ['bank:36e516775a1f']
+  rounding:
+    amount: 5
+    rounding: down
+    sources: ['milelion:5186c3fd83fc']
+  sources: ['bank:36e516775a1f', 'web:uob-prvi-page']
 - id: base
-  label: baseline (SingSaver — verify)
+  label: Local spend (SGD)
   rate: 1.4
   unit: mpd
   tier: base
   eligibility:
     all_spend: true
-    description: ''
-    sources: ['singsaver:b940243f5052']
-  sources: ['singsaver:b940243f5052']
+    description: UNI$3.5 per S$5 spent in Singapore / SGD, incl. SimplyGo bus and train rides.
+    sources: ['bank:36e516775a1f']
+  rounding:
+    amount: 5
+    rounding: down
+    sources: ['milelion:5186c3fd83fc']
+  conditions:
+  - Each transaction rounds down to S$5, then UNI$ round down to a whole number (S$5–9.99 earns 3 UNI$)
+  - SimplyGo bus/MRT — UNI$ computed per batch posted every 5 days or S$15, whichever earlier
+  sources: ['bank:36e516775a1f', 'web:uob-prvi-page']
 general_exclusions:
-  description: Auto-extracted from official T&Cs — confirm each code applies to this card
+  exclude_mcc: ['4829', '4900', '5199', '5960', '5965', '5993', '6012', '6050', '6051', '6211', '6300',
+    '6513', '6529', '6530', '6534', '6540', '7349', '7511', '7523', '7995', '8062', '8211', '8220', '8241',
+    '8244', '8249', '8299', '8398', '8651', '8661', '8699', '8999', '9211', '9222', '9223', '9311', '9399',
+    '9402', '9405']
+  exclude_merchants: ['Shell', 'SPC']
+  description: No UNI$ for these MCCs, NETS, IPP, SmartPay, cash advance, fees/interest, bill payment, top-ups
+    / payments to payment service providers or prepaid accounts, nor AXS, Amaze, EZ-Link, ipaymy, PayPal
+    (some), SmoovePay, RazerPay etc.; SPC and Shell service stations excluded
+    (T&C clause 1(ii)). CardUp earns UNI$ (MileLion).
+  sources: ['bank:36e516775a1f', 'milelion:5186c3fd83fc']
 sign_up_bonuses:
 - offered_by: singsaver
   description: 'Welcome Offer: choice of S$100 Samsung Voucher'
@@ -153,12 +192,18 @@ sign_up_bonuses:
   url: https://www.singsaver.com.sg/credit-card/products/uob-prvi-miles-world-mastercard
   sources: ['singsaver:b940243f5052']
 notes:
+- 4 complimentary Priority Pass lounge visits per calendar year (principal only).
+- FCY fee 3.25%; 1% fee on SGD transactions processed overseas (Visa/Mastercard).
+- 'SingSaver also lists 1 mpd (UNI$2.5 per S$5) on bills paid via the UOB Payment Facility — a separate paid
+  service, not modelled as an earn rule.'
 - 'Editorial review for cross-checking: Review: UOB PRVI Miles Card (https://milelion.com/2026/07/08/review-uob-prvi-miles-card/,
   updated 2026-08-27)'
-- 'T&C mentions (check whether excluded): annual fee, axs, bill payment, cardup, cash advance, charit,
-  education, government, hospital, instalment, interest, ipaymy, late payment charge, tax, top-up, top-ups,
-  utilit'
 citations:
+- id: web:uob-prvi-page
+  url: https://www.uob.com.sg/personal/cards/travel/prvi-miles-card.page
+  title: UOB PRVI Miles Card (product page)
+  source_type: official
+  retrieved_at: '2026-10-18'
 - id: singsaver:b940243f5052
   url: https://www.singsaver.com.sg/credit-card/products/uob-prvi-miles-world-mastercard
   title: UOB PRVI Miles World MasterCard
@@ -205,5 +250,8 @@ citations:
   sha256: 5186c3fd83fcb24cc0dfbb8d9158021be3d0f0fed6ab789a4eec5cbbc8126958
   snapshot: data/raw/milelion/post-72937-ebb92233.json
 review:
-  status: draft
+  status: reviewed
+  reviewed_by: claude (web research)
+  reviewed_at: 2026-10-18
+  notes: Verified vs UOB PRVI Miles T&C (current, incl. Aug 2026 changes), product page and MileLion review — fee S$261.60 FYF, S$30k income, 1.4/2.4/3 mpd, Agoda/Expedia 8 mpd (Expedia flights 3), S$5 rounding, UNI$ 1:2 S$27, 2-yr+quarter expiry. Removed bogus 6 mpd/travel-MCC rules.
 updated_at: '2026-09-28'

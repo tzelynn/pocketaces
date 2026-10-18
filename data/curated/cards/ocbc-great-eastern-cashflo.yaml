@@ -11,19 +11,65 @@ annual_fee:
   amount:
     amount: 163.5
     currency: SGD
-  sources: ['moneysmart:49fcb3586f25']
+  first_year_waived: true
+  waiver_notes: First 2 years waived; auto-waived thereafter with S$5,000 spend in a card year
+  sources: ['moneysmart:49fcb3586f25', 'web:ocbc-gecashflo']
 min_annual_income:
   amount: 15000.0
   currency: SGD
 reward_currency:
   kind: cashback
   name: Cashback
+earn_rules:
+- id: bill-1000
+  label: all eligible spend when monthly bill is S$1,000+
+  rate: 1.2
+  unit: percent
+  tier: bonus
+  eligibility:
+    all_spend: true
+    description: 1.2% cash rebate on the whole billed eligible retail spend once it reaches S$1,000 in the
+      statement month (otherwise 0.3%), capped at S$100/month
+    sources: ['bank:7c2142532c98']
+  min_spend:
+    amount: 1000.0
+    currency: SGD
+  min_spend_period: statement_month
+  bonus_cap:
+    amount: 100
+    unit: SGD_cashback
+    period: statement_month
+    sources: ['bank:7c2142532c98']
+  sources: ['bank:7c2142532c98']
+- id: base
+  label: all eligible spend (bill under S$1,000)
+  rate: 0.3
+  unit: percent
+  tier: base
+  eligibility:
+    all_spend: true
+    description: 0.3% cash rebate when billed eligible retail spend is below S$1,000 (cap S$100/month)
+    sources: ['bank:7c2142532c98']
+  bonus_cap:
+    amount: 100
+    unit: SGD_cashback
+    period: statement_month
+    sources: ['bank:7c2142532c98']
+  sources: ['bank:7c2142532c98']
+spend_cycle: statement_month
+spend_cycle_sources: ['bank:7c2142532c98']
 general_exclusions:
-  description: Auto-extracted from official T&Cs — confirm each code applies to this card
+  exclude_mcc: ['4784', '4829', '4900', '5047', '5199', '5960', '5993', '6012', '6051', '6211', '6300',
+    '6513', '6540', '7349', '7523', '7995', '8062', '8211', '8220', '8241', '8244', '8249', '8299', '8398',
+    '8651', '8661', '8675', '8699', '9211', '9222', '9223', '9311', '9399', '9402', '9405']
+  exclude_merchants: [GrabPay, Youtrip, Shopee Pay, Singtel Dash, NETS FlashPay, EZ-Link, TransitLink]
+  description: T&C cl. 6.4 — also excludes fees, interest, tax, internet-banking/AXS bill payments, MCC 4111/4121/4131
+    except Grab Transport, Gojek and licensed taxis, instalments/PayLite, cash advance, balance transfer, club
+    membership fees, Great Eastern premiums (from 1 Oct 2020)
+  sources: ['bank:7c2142532c98']
 notes:
-- 'No structured earn rates from aggregators: add earn_rules from the official T&C before review'
-- 'T&C mentions (check whether excluded): axs, balance transfer, bill payment, cash advance, charit, education,
-  government, grabpay, hospital, instalment, interest, late payment charge, tax, top-ups, utilit, youtrip'
+- Interest-free instalments - purchases of S$100+ auto-split into 3 (under S$1,000) or 6 (S$1,000+) months;
+  Great Eastern premiums over 12 months with a 1% processing fee (T&C cl. 2-4).
 citations:
 - id: moneysmart:49fcb3586f25
   url: https://www.moneysmart.sg/credit-cards?page=4
@@ -32,6 +78,11 @@ citations:
   retrieved_at: '2026-09-27T05:27:20+00:00'
   sha256: 49fcb3586f252df0b2dacb9acecc465127e09c9defa7f151881c3db46d84649e
   snapshot: data/raw/moneysmart/credit-cards-p4-1a322210.html
+- id: web:ocbc-gecashflo
+  url: https://www.ocbc.com/personal-banking/cards/great-eastern-cashflo-credit-card.page
+  title: OCBC Great Eastern Cashflo Credit Card (official product page)
+  source_type: official
+  retrieved_at: '2026-10-18'
 - id: bank:7c2142532c98
   url: https://www.ocbc.com/iwov-resources/sg/ocbc/personal/pdf/cards/tncs-ge-cashflo-credit-card-wef1apr21.pdf
   source_type: official
@@ -39,6 +90,10 @@ citations:
   sha256: 7c2142532c98f847fa340d2117f4c96bf1efe53a64dd074f711ad33e7541bde7
   snapshot: data/raw/bank/www-ocbc-com-iwov-resources-sg-ocbc-personal-pdf-cards-tncs-ge-cashflo-credit-card-wef1apr21-pdf-7fa759c0.pdf
 review:
-  status: draft
+  status: reviewed
+  reviewed_by: claude (web research)
+  reviewed_at: 2026-10-18
+  notes: Added earn rules from T&C (wef 1 Apr 2021, still linked on OCBC page) - 1.2% if statement bill >= S$1,000
+    else 0.3%, cap S$100; fee S$163.50 2 yrs waived (S$5k waiver). Unverified - min income (S$15k from
+    Moneysmart; OCBC norm is S$30k under 55 / S$15k 55+).
 updated_at: '2026-09-28'
-earn_rules: []

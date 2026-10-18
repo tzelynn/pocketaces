@@ -3,6 +3,7 @@
 id: hsbc-advance
 bank: HSBC
 name: HSBC Advance Credit Card
+network: visa
 image_url: https://mhgprod.blob.core.windows.net/singsaver/strapi-uploads/xl_blt065199b578e94ff5_84f0b390a6.jpeg
 official_url: https://www.hsbc.com.sg/credit-cards/products/advance/
 annual_fee:
@@ -10,8 +11,9 @@ annual_fee:
     amount: 196.2
     currency: SGD
   first_year_waived: true
-  waiver_notes: S$ | First Year Fee Waived, Perpetual fee waiver for HSBC Advance banking customers.
-  sources: ['singsaver:2793872c3a42']
+  waiver_notes: First year waived; subsequent years waived with annual spend above S$12,500 (SingSaver also
+    cites a perpetual waiver for HSBC Advance banking customers)
+  sources: ['singsaver:2793872c3a42', 'web:hsbc-advance-page']
 min_annual_income:
   amount: 65000.0
   currency: SGD
@@ -20,36 +22,57 @@ reward_currency:
   name: Cashback
 earn_rules:
 - id: dining
-  label: dining, retail, insurance, local, overseas (SingSaver — verify)
+  label: All eligible spend when monthly spend exceeds S$2,000
   rate: 2.5
   unit: percent
   tier: bonus
   eligibility:
-    tags: [dining, shopping]
-    description: With minimum monthly spend of S$2,000. Receive additional 1% cashback for HSBC banking
-      customers. / With minimum monthly spend of S$2,000.  Receive additional 1% cashback for HSBC banking
-      customers.
-    sources: ['singsaver:2793872c3a42']
+    all_spend: true
+    description: 2.5% on all Eligible Purchases for the calendar month if total eligible spend that month is
+      more than S$2,000; otherwise 1.5%.
+    sources: ['web:hsbc-advance-tnc']
   min_spend:
     amount: 2000.0
     currency: SGD
-  min_spend_period: statement_month
+  min_spend_period: calendar_month
+  bonus_cap:
+    amount: 70.0
+    unit: SGD_cashback
+    period: calendar_month
+    shared_with: [base]
+    sources: ['web:hsbc-advance-tnc']
   conditions:
-  - min spend S$2000/month from singsaver — confirm the period (statement vs calendar month) and which
-    rules it unlocks
-  sources: ['singsaver:2793872c3a42']
+  - Spend must be more than S$2,000 (posted) in the calendar month; the 2.5% then applies to the whole month's
+    eligible spend
+  - Total cashback capped at S$70 per calendar month; credited by the end of the next calendar month
+  sources: ['web:hsbc-advance-tnc', 'web:hsbc-advance-page']
 - id: base
-  label: baseline (SingSaver — verify)
+  label: All eligible spend (no minimum)
   rate: 1.5
   unit: percent
   tier: base
   eligibility:
     all_spend: true
-    description: 'No minimum spend, capped at S$70 per calendar month. '
-    sources: ['singsaver:2793872c3a42']
-  sources: ['singsaver:2793872c3a42']
+    description: 1.5% on all Eligible Purchases when monthly spend is S$2,000 or less.
+    sources: ['web:hsbc-advance-tnc']
+  bonus_cap:
+    amount: 70.0
+    unit: SGD_cashback
+    period: calendar_month
+    shared_with: [dining]
+    sources: ['web:hsbc-advance-tnc']
+  sources: ['web:hsbc-advance-tnc']
+spend_cycle: calendar_month
+spend_cycle_sources: ['web:hsbc-advance-tnc']
 general_exclusions:
-  description: Auto-extracted from official T&Cs — confirm each code applies to this card
+  exclude_mcc: ['4829', '4900', '5199', '5960', '6010', '6011', '6012', '6050', '6051', '6211', '6300',
+    '6513', '6529', '6530', '6532', '6533', '6534', '6536', '6537', '6538', '6540', '6555', '7299', '7349',
+    '7399', '7511', '7523', '7801', '7995', '8062', '8211', '8220', '8241', '8244', '8249', '8299', '8398',
+    '8651', '8661', '8999', '9211', '9222', '9223', '9311', '9399', '9402', '9405', '9754']
+  description: Excluded MCCs per the Advance cashback T&C (effective 31 Mar 2025); also excludes AXS (incl.
+    AXS Pay+Earn), tax, e-wallet top-ups, CardUp/iPayMy/PayPal transfers, insurance, education, utilities,
+    government, charity
+  sources: ['web:hsbc-advance-tnc']
 sign_up_bonuses:
 - offered_by: singsaver
   description: 'SingSaver Exclusive Offer: choice of S$450 Upsized Cash via PayNow; ECOVACS DEEBOT mini
@@ -108,6 +131,11 @@ sign_up_bonuses:
   valid_to: '2026-09-30'
   url: https://www.moneysmart.sg/credit-cards/hsbc-advance-credit-card
   sources: ['moneysmart:42909b088c22']
+notes:
+- 'Min. income S$30,000 (S$40,000 self-employed) for existing customers with a Total Relationship Balance
+  of at least S$50,000; S$65,000 otherwise and for foreigners'
+- The "additional 1% cashback for HSBC banking customers" quoted by SingSaver is not in the current cashback
+  T&C (effective 31 Mar 2025) and has been dropped.
 citations:
 - id: singsaver:2793872c3a42
   url: https://www.singsaver.com.sg/credit-card/products/hsbc-advance-credit-card
@@ -123,6 +151,19 @@ citations:
   retrieved_at: '2026-09-27T05:27:14+00:00'
   sha256: 42909b088c22cb063c120b532d19af920cb3535c52f6bfc313193c6c6ea14746
   snapshot: data/raw/moneysmart/credit-cards-p2-5f055203.html
+- id: web:hsbc-advance-page
+  url: https://www.hsbc.com.sg/credit-cards/products/advance/
+  title: HSBC Advance Credit Card (product page)
+  source_type: official
+  retrieved_at: '2026-10-18'
+- id: web:hsbc-advance-tnc
+  url: https://www.hsbc.com.sg/content/dam/hsbc/sg/documents/credit-cards/terms-and-conditions-governing-advance-credit-card-cashback-programme.pdf
+  title: Terms and Conditions Governing HSBC Advance Credit Card Cashback Programme (effective 31 Mar 2025)
+  source_type: official
+  retrieved_at: '2026-10-18'
 review:
-  status: draft
+  status: reviewed
+  reviewed_by: claude (web research)
+  reviewed_at: 2026-10-18
+  notes: 'Verified vs Advance cashback T&C (eff. 31 Mar 2025) and product page: 2.5% on all spend if >S$2,000/calendar month else 1.5%, S$70/month cap, Visa. 2.5% rule was wrongly limited to dining/shopping; dropped unsourced +1% banking bonus. Annual fee amount S$196.20 from SingSaver only.'
 updated_at: '2026-09-28'

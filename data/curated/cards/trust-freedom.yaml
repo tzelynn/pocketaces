@@ -10,13 +10,14 @@ annual_fee:
   amount:
     amount: 0.0
     currency: SGD
-  sources: ['moneysmart:eeee24fb93a9']
+  waiver_notes: No annual fee; no FX fee
+  sources: ['moneysmart:eeee24fb93a9', 'web:trust-freedom-page', 'milelion:5d73ef99d444']
 min_annual_income:
   amount: 30000.0
   currency: SGD
 reward_currency:
-  kind: points
-  name: Points
+  kind: miles
+  name: Trust Miles (Miles mode)
   conversions:
   - partner: KrisFlyer
     points: 1.0
@@ -25,30 +26,51 @@ reward_currency:
       amount: 27.25
       currency: SGD
     min_block_points: 1.0
-    note: 'The MileLion: min. transfer “1 Trust Mile (1 mile)”, transfer fee “S$27.25” — confirm the partner
-      (the overview quotes KrisFlyer unless it says otherwise)'
+    note: 1 Trust Mile = 1 KrisFlyer mile, blocks of 1 mile, S$27.25 per conversion, instant
+    sources: ['milelion:5d73ef99d444']
+  - partner: HeyMax Max Miles
+    points: 1.0
+    partner_units: 1.0
+    fee:
+      amount: 27.25
+      currency: SGD
+    min_block_points: 1.0
+    note: 1:1 to Max Miles (then free transfers to 20+ partners), S$27.25 per conversion, instant
     sources: ['milelion:5d73ef99d444']
   expiry:
     months: 36
     months_max: 48
-    note: 'The MileLion: points validity “3-4 years”'
+    note: Trust Miles expire at the end of the third year after the year they were earned (e.g. 2026 → 31 Dec 2029)
     sources: ['milelion:5d73ef99d444']
 earn_rules:
 - id: base
-  label: baseline (SingSaver — verify)
-  rate: 3.0
+  label: All eligible spend (SGD and foreign currency), Miles mode
+  rate: 1.3
   unit: mpd
   tier: base
   eligibility:
     all_spend: true
-    description: Get 3% Stockback on your local and foreign spends. Stockback rewards accumulate until
-      it reaches S$10, then is automatically invested in your selected stock or ETF.
-    sources: ['singsaver:f3bf8b0b47ad']
+    description: In Miles mode, 6.5 Trust Miles per S$5 (1.3 mpd) on local and foreign currency spend; no min.
+      spend, no cap.
+    sources: ['milelion:5d73ef99d444']
+  rounding:
+    amount: 5.0
+    per: transaction
+    rounding: down
+    sources: ['milelion:5d73ef99d444']
   conditions:
-  - 3 points per S$1, converted to KrisFlyer miles at 1:1
-  sources: ['singsaver:f3bf8b0b47ad', 'milelion:5d73ef99d444']
+  - Reward mode is chosen at onboarding and can be switched each membership quarter (3 months from the approval
+    month); other modes are not modelled here (see notes)
+  sources: ['milelion:5d73ef99d444']
+spend_cycle: calendar_month
+spend_cycle_sources: ['bank:2de63627ab2f']
 general_exclusions:
-  description: Auto-extracted from official T&Cs — confirm each code applies to this card
+  exclude_mcc: ['4900', '6513', '7349', '4829', '5960', '6010', '6011', '6012', '6051', '6211', '6300', '6540',
+    '7995', '8211', '8220', '8241', '8244', '8249', '8299', '8398', '8651', '8661', '9211', '9222', '9223',
+    '9311', '9399', '9402', '9405', '7299', '7399', '8999']
+  description: Product terms "Exclusions from rewards" (v2, 21 Sep 2026); also cash advances, AXS/SAM/ATM,
+    insurance premiums, instalments, fees, top-ups and tax refunds
+  sources: ['web:trust-freedom-terms']
 sign_up_bonuses:
 - offered_by: singsaver
   description: 'Welcome Offer: choice of Win a sure-win stock gift worth up to USD 8,000!'
@@ -92,10 +114,14 @@ sign_up_bonuses:
   url: https://www.moneysmart.sg/credit-cards/trust-freedom-credit-card
   sources: ['moneysmart:eeee24fb93a9']
 notes:
+- 'Formerly the Trust Cashback Card (relaunched Aug 2026). Four reward modes, switchable each membership quarter.
+  This record models Miles mode. Other modes: Unlimited Cashback 1.5% SGD / 0.5% FCY; Stockback 3% on SGD and
+  FCY until 31 Dec 2026, then 2% SGD / 0.5% FCY, capped at S$500 stockback per quarter; Bonus Cashback 5% (min.
+  S$500/month, cap S$30/quarter) or 15% (min. S$2,000/month, cap S$250/quarter) on one chosen category, 1% other
+  SGD / 0.5% FCY'
+- Spend is tracked by posting date; Trust Miles are credited when transactions post.
 - 'Editorial review for cross-checking: Review: Trust Freedom Card (https://milelion.com/2026/09/24/review-trust-freedom-card/,
   updated 2026-09-26)'
-- 'T&C mentions (check whether excluded): annual fee, axs, balance transfer, cash advance, charit, education,
-  government, instalment, insurance premium, interest, late payment charge, tax, top-ups, utilit'
 citations:
 - id: singsaver:f3bf8b0b47ad
   url: https://www.singsaver.com.sg/credit-card/products/trust-cashback-credit-card
@@ -130,6 +156,19 @@ citations:
   retrieved_at: '2026-09-28T13:28:08+00:00'
   sha256: 5d73ef99d444d5d4d9a4110d342ecccafe6c40558a80dc8844f53ca7817299d5
   snapshot: data/raw/milelion/post-833462-801a9532.json
+- id: web:trust-freedom-page
+  url: https://trustbank.sg/freedom-credit-card/
+  title: Trust Freedom credit card (product page)
+  source_type: official
+  retrieved_at: '2026-10-18'
+- id: web:trust-freedom-terms
+  url: https://trustbank.sg/legal/trust-freedom-credit-card-product-terms/
+  title: Trust Freedom credit card product terms (v2, 21 Sep 2026)
+  source_type: official
+  retrieved_at: '2026-10-18'
 review:
-  status: draft
+  status: reviewed
+  reviewed_by: claude (web research)
+  reviewed_at: 2026-10-18
+  notes: 'Modelled Miles mode: 1.3 mpd SGD/FCY per S$5, KrisFlyer/Max Miles 1:1 with S$27.25 fee, no annual/FX fee (MileLion Sep 2026 + Trust page/terms); draft 3 mpd was the 3% Stockback rate mislabeled. Miles-mode earn rate not stated in official text (KFS mode tables are images) — relies on MileLion.'
 updated_at: '2026-09-28'

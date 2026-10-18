@@ -3,38 +3,48 @@
 id: hsbc-revolution
 bank: HSBC
 name: HSBC Revolution Credit Card
+network: visa
 image_url: https://mhgprod.blob.core.windows.net/singsaver/strapi-uploads/m_2026_04_HSBC_Revolution_0b18833683.png
 official_url: https://www.hsbc.com.sg/credit-cards/products/revolution/
 annual_fee:
   amount:
     amount: 0.0
     currency: SGD
-  sources: ['moneysmart:eeee24fb93a9']
+  waiver_notes: No annual fee (principal and supplementary cards free for life)
+  sources: ['moneysmart:eeee24fb93a9', 'web:hsbc-revolution-page', 'milelion:67aa6b7a98df']
 min_annual_income:
   amount: 65000.0
   currency: SGD
 reward_currency:
   kind: miles
-  name: Miles
+  name: HSBC Reward points
   conversions:
-  - partner: KrisFlyer
+  - partner: Asia Miles
     points: 25000.0
     partner_units: 10000.0
     fee:
       amount: 0.0
       currency: SGD
     min_block_points: 25000.0
-    note: 'The MileLion: min. transfer “25,000 HSBC points (10,000 miles)”, transfer fee “None” — confirm
-      the partner (the overview quotes KrisFlyer unless it says otherwise)'
-    sources: ['milelion:67aa6b7a98df']
+    note: 25,000 points = 10,000 miles (also British Airways Avios and other 25k:10k partners); min. first
+      transfer 10,000 miles, then blocks of 2 miles; conversion fees waived until further notice
+    sources: ['web:hsbc-rewards', 'milelion:67aa6b7a98df']
+  - partner: KrisFlyer
+    points: 30000.0
+    partner_units: 10000.0
+    fee:
+      amount: 0.0
+      currency: SGD
+    min_block_points: 30000.0
+    note: KrisFlyer ratio devalued to 30,000:10,000 on 16 Jan 2025 — 4/8 mpd becomes 3.33/6.67 mpd
+    sources: ['web:hsbc-rewards', 'milelion:67aa6b7a98df']
   expiry:
     months: 37
-    note: 'The MileLion: points validity “37 months”'
+    note: Points expire at the end of a 37-month period starting the month after they were earned
     sources: ['milelion:67aa6b7a98df']
 earn_rules:
 - id: local
-  label: local, overseas, retail, local online shopping, department store, dining, supermarket, transport,
-    travel, flight booking (SingSaver — verify)
+  label: Online & contactless at dining, shopping, travel, transport & membership clubs (whitelisted MCCs)
   rate: 4.0
   unit: mpd
   tier: bonus
@@ -44,41 +54,53 @@ earn_rules:
       '5661', '5691', '5699', '5732', '5733', '5734', '5735', '5811', '5812', '5813', '5912', '5942',
       '5944', '5945', '5946', '5947', '5948', '5949', '5964', '5965', '5966', '5967', '5968', '5969',
       '5970', '5992', '5999', '7011', '7997']
-    modes_required: [contactless, online]
-    description: Up to | 10X Points (equivalent to 4 mpd) on online and contactless spending, capped at
-      5,400 bonus miles per month. / 10X Points (equivalent to 4 mpd) on online and contactless spending,
-      capped at 5,400 bonus points per month. / 10X Points (equivalent to 4 mpd) on online and contactless
-      spending, capped at 5,400 bonus miles per month. [include_mcc auto-extracted from official T&C —
-      check it belongs to this rule]
-    sources: ['singsaver:376bc02034d9', 'bank:e3778406a7d0']
+    modes_required: [contactless, mobile_wallet, online]
+    description: 10X points (1 base + 9 bonus per S$1 = 4 mpd at a 25,000:10,000 partner) on Selected
+      Contactless Payments (Visa payWave, Apple/Google/Samsung Pay) and Selected Online Transactions at
+      the whitelisted MCCs. Excludes MCC 5814 fast food and 4722 travel agencies.
+    sources: ['bank:e3778406a7d0', 'milelion:67aa6b7a98df']
+  max_spend:
+    amount: 1000.0
+    currency: SGD
+  max_spend_period: calendar_month
   bonus_cap:
-    amount: 5400.0
-    unit: miles
+    amount: 9000.0
+    unit: points
     period: calendar_month
-    sources: ['singsaver:376bc02034d9']
+    sources: ['bank:e3778406a7d0']
+  rounding:
+    amount: 1.0
+    per: calendar_month
+    rounding: down
+    sources: ['bank:e3778406a7d0']
   conditions:
-  - bonus_cap parsed from aggregator text “capped at 5,400 bonus miles per month” — confirm amount, unit
-    and whether the period is calendar or statement month
-  - 'aggregator categories: shopping, dining, groceries, transport, travel, flights'
-  sources: ['singsaver:376bc02034d9']
+  - 9,000 bonus points cap per calendar month (S$1,000 of spend), by posting date; base 1X is uncapped
+  - With a Deposits ADB of at least S$50,000 in a sole HSBC Everyday Global Account (SGD) for the calendar
+    month, bonus is 19X (20X total = 8 mpd), capped at 22,800 bonus points (S$1,200 of spend)
+  - Bonus points are computed on the month's total eligible spend rounded down to S$1 and credited by the
+    end of the following calendar month
+  - Rates assume a 25,000:10,000 transfer partner (e.g. Asia Miles); KrisFlyer (30,000:10,000) gives 3.33
+    mpd
+  sources: ['bank:e3778406a7d0']
 - id: base
-  label: baseline (SingSaver — verify)
+  label: All other qualifying spend
   rate: 0.4
   unit: mpd
   tier: base
   eligibility:
     all_spend: true
-    description: On all other transactions.
-    sources: ['singsaver:376bc02034d9']
-  sources: ['singsaver:376bc02034d9']
+    description: 1 point per S$1 on all other Qualifying Transactions (local and foreign currency).
+    sources: ['bank:e3778406a7d0']
+  sources: ['bank:e3778406a7d0', 'milelion:67aa6b7a98df']
 spend_cycle: calendar_month
-spend_cycle_sources: ['milelion:67aa6b7a98df']
+spend_cycle_sources: ['bank:e3778406a7d0', 'milelion:67aa6b7a98df']
 general_exclusions:
   exclude_mcc: ['4829', '4900', '5199', '5960', '6010', '6011', '6012', '6050', '6051', '6211', '6300',
     '6513', '6529', '6530', '6532', '6533', '6534', '6536', '6537', '6538', '6540', '6555', '7299', '7349',
     '7399', '7511', '7523', '7801', '7995', '8062', '8211', '8220', '8241', '8244', '8249', '8299', '8398',
     '8651', '8661', '8999', '9211', '9222', '9223', '9311', '9399', '9402', '9405', '9754']
-  description: Auto-extracted from official T&Cs — confirm each code applies to this card
+  description: Excluded MCCs per T&C clause 4.2 (effective 1 Apr 2026); also excludes AXS, e-wallet top-ups
+    (EZ-Link, YouTrip), CardUp/iPayMy/PayPal transfers, insurance, education, utilities, government, charity
   sources: ['bank:e3778406a7d0']
 sign_up_bonuses:
 - offered_by: singsaver
@@ -139,14 +161,12 @@ sign_up_bonuses:
   url: https://www.moneysmart.sg/credit-cards/hsbc-revolution-credit-card
   sources: ['moneysmart:eeee24fb93a9']
 notes:
-- spend_cycle calendar_month from The MileLion review (“A base reward of 1x HSBC points per S$1 (0.4 mpd)
-  A bonus reward of 9x HSBC points per S$1 (3.6 mpd) The bonus reward is capped at 9,000 points per calendar
-  month, equivalent to S$1,000 of spending.”) — confirm it applies to min spend and caps
+- Upgraded from Visa Platinum to Visa Signature on 1 Apr 2026; reward structure in force from 1 Apr 2026.
+- 'Min. income S$30,000 (S$40,000 self-employed) for existing customers with a Total Relationship Balance
+  of at least S$50,000; S$65,000 otherwise and for foreigners'
+- Bonus cap is tracked by posting date, not transaction date.
 - 'Editorial review for cross-checking: Review: HSBC Revolution Card (https://milelion.com/2026/04/08/review-hsbc-revolution-card/,
   updated 2026-07-28)'
-- 'T&C mentions (check whether excluded): axs, balance transfer, cardup, cash advance, charit, e-wallet,
-  education, government, hospital, instalment, interest, ipaymy, late charge, revolut, tax, top-ups, utilit,
-  youtrip'
 citations:
 - id: singsaver:376bc02034d9
   url: https://www.singsaver.com.sg/credit-card/products/hsbc-revolution-credit-card
@@ -175,6 +195,19 @@ citations:
   retrieved_at: '2026-09-28T13:28:55+00:00'
   sha256: 67aa6b7a98df0a5ab34c12fef5069dda50698bd797f1785af80fa27b831ae027
   snapshot: data/raw/milelion/post-76421-e50fee02.json
+- id: web:hsbc-revolution-page
+  url: https://www.hsbc.com.sg/credit-cards/products/revolution/
+  title: HSBC Revolution Credit Card (product page)
+  source_type: official
+  retrieved_at: '2026-10-18'
+- id: web:hsbc-rewards
+  url: https://www.hsbc.com.sg/credit-cards/rewards/
+  title: HSBC Singapore credit card rewards — airline and hotel partners
+  source_type: official
+  retrieved_at: '2026-10-18'
 review:
-  status: draft
+  status: reviewed
+  reviewed_by: claude (web research)
+  reviewed_at: 2026-10-18
+  notes: 'Verified vs T&C (eff. 1 Apr 2026), HSBC product/rewards pages and MileLion: 4 mpd whitelist MCCs + online/contactless, S$1,000/month cap, no fee, Visa, KrisFlyer 30k:10k. Bonus cap moved to max_spend S$1,000 (aggregator 5,400 miles was wrong). 8 mpd EGA tier kept as a condition only.'
 updated_at: '2026-09-28'

@@ -10,60 +10,84 @@ annual_fee:
   amount:
     amount: 196.2
     currency: SGD
-  waiver_notes: S$
-  sources: ['singsaver:1d87a80ab2e0']
+  first_year_waived: false
+  waiver_notes: Payable in the first year; waived from year 2 with S$25,000 spend in the previous membership
+    year. Paying it from year 2 earns 30,000 points (12,000 miles)
+  sources: ['singsaver:1d87a80ab2e0', 'web:hsbc-travelone-page', 'milelion:d641faf5a5d8']
 min_annual_income:
   amount: 65000.0
   currency: SGD
 reward_currency:
   kind: miles
-  name: Miles
+  name: HSBC Reward points
   conversions:
-  - partner: KrisFlyer
+  - partner: Asia Miles
     points: 25000.0
     partner_units: 10000.0
     fee:
       amount: 0.0
       currency: SGD
     min_block_points: 25000.0
-    note: 'The MileLion: min. transfer “25,000 points (10,000 miles)^”, transfer fee “Free” — confirm
-      the partner (the overview quotes KrisFlyer unless it says otherwise)'
-    sources: ['milelion:d641faf5a5d8']
+    note: 25,000 points = 10,000 miles (also British Airways Avios and other 25k:10k partners); min. first
+      transfer 10,000 miles, then blocks of 2 miles; conversion fees waived until further notice
+    sources: ['web:hsbc-rewards', 'milelion:d641faf5a5d8']
+  - partner: KrisFlyer
+    points: 30000.0
+    partner_units: 10000.0
+    fee:
+      amount: 0.0
+      currency: SGD
+    min_block_points: 30000.0
+    note: KrisFlyer ratio devalued to 30,000:10,000 on 16 Jan 2025 (earn rates fall by 1/6)
+    sources: ['web:hsbc-rewards', 'milelion:d641faf5a5d8']
   expiry:
     months: 37
-    note: 'The MileLion: points validity “37 months”'
+    note: Points expire at the end of a 37-month period starting the month after they were earned
     sources: ['milelion:d641faf5a5d8']
 earn_rules:
 - id: overseas
-  label: overseas (SingSaver — verify)
+  label: Foreign currency spend
   rate: 2.4
   unit: mpd
   tier: bonus
   eligibility:
-    description: ''
-    sources: ['singsaver:1d87a80ab2e0']
-  sources: ['singsaver:1d87a80ab2e0']
-- id: local
-  label: local (SingSaver — verify)
-  rate: 1.2
-  unit: mpd
-  tier: bonus
-  eligibility:
-    description: ''
-    sources: ['singsaver:1d87a80ab2e0']
-  sources: ['singsaver:1d87a80ab2e0']
+    modes_required: [foreign_currency]
+    description: 6 points per S$1 (1 + 5) on Qualifying Transactions charged in a currency other than SGD
+      (2.4 mpd at a 25,000:10,000 partner).
+    sources: ['web:hsbc-travelone-tnc']
+  rounding:
+    amount: 1.0
+    per: transaction
+    rounding: nearest
+    sources: ['web:hsbc-travelone-tnc']
+  conditions:
+  - Rates assume a 25,000:10,000 transfer partner (e.g. Asia Miles); KrisFlyer (30,000:10,000) gives 2 mpd
+  sources: ['web:hsbc-travelone-tnc', 'web:hsbc-travelone-page']
 - id: base
-  label: baseline (SingSaver — verify)
+  label: Local (SGD) spend
   rate: 1.2
   unit: mpd
   tier: base
   eligibility:
     all_spend: true
-    description: ''
-    sources: ['singsaver:1d87a80ab2e0']
-  sources: ['singsaver:1d87a80ab2e0']
+    description: 3 points per S$1 (1 + 2) on Qualifying Transactions charged in SGD (1.2 mpd at a 25,000:10,000
+      partner; 1 mpd to KrisFlyer).
+    sources: ['web:hsbc-travelone-tnc']
+  rounding:
+    amount: 1.0
+    per: transaction
+    rounding: nearest
+    sources: ['web:hsbc-travelone-tnc']
+  sources: ['web:hsbc-travelone-tnc', 'web:hsbc-travelone-page']
+spend_cycle: calendar_month
 general_exclusions:
-  description: Auto-extracted from official T&Cs — confirm each code applies to this card
+  exclude_mcc: ['4829', '4900', '5199', '5960', '6010', '6011', '6012', '6050', '6051', '6211', '6300',
+    '6513', '6529', '6530', '6532', '6533', '6534', '6536', '6537', '6538', '6540', '6555', '7299', '7349',
+    '7399', '7511', '7523', '7801', '7995', '8062', '8211', '8220', '8241', '8244', '8249', '8299', '8398',
+    '8651', '8661', '8999', '9211', '9222', '9223', '9311', '9399', '9402', '9405', '9754']
+  description: Excluded MCCs per TravelOne Reward Points Programme T&C (effective 31 Mar 2025); MileLion notes
+    CardUp, iPayMy and RentHero are also excluded
+  sources: ['web:hsbc-travelone-tnc']
 sign_up_bonuses:
 - offered_by: singsaver
   description: 'SingSaver Exclusive Offer: choice of S$450 Upsized Cash via PayNow; ECOVACS DEEBOT mini
@@ -123,6 +147,9 @@ sign_up_bonuses:
   url: https://www.moneysmart.sg/credit-cards/hsbc-travelone-card
   sources: ['moneysmart:eeee24fb93a9']
 notes:
+- 'Min. income S$30,000 for existing customers with a Total Relationship Balance of at least S$50,000; S$65,000
+  otherwise'
+- No bonus categories and no monthly cap; points credited when the transaction posts (posting date).
 - 'Editorial review for cross-checking: Review: HSBC TravelOne Card (https://milelion.com/2026/03/20/review-hsbc-travelone-card/,
   updated 2026-04-21)'
 citations:
@@ -147,6 +174,24 @@ citations:
   retrieved_at: '2026-09-28T13:29:00+00:00'
   sha256: d641faf5a5d8fcabd3eee16420d09302b571ecdee1d7d4a0bbd8946f90aee2fc
   snapshot: data/raw/milelion/post-146461-3179030e.json
+- id: web:hsbc-travelone-page
+  url: https://www.hsbc.com.sg/credit-cards/products/travelone/
+  title: HSBC TravelOne Credit Card (product page)
+  source_type: official
+  retrieved_at: '2026-10-18'
+- id: web:hsbc-travelone-tnc
+  url: https://www.hsbc.com.sg/content/dam/hsbc/sg/documents/credit-cards/travelone/credit-card-reward-points-programme-terms-and-conditions.pdf
+  title: HSBC TravelOne Credit Card Reward Points Programme T&C (effective 31 Mar 2025)
+  source_type: official
+  retrieved_at: '2026-10-18'
+- id: web:hsbc-rewards
+  url: https://www.hsbc.com.sg/credit-cards/rewards/
+  title: HSBC Singapore credit card rewards — airline and hotel partners
+  source_type: official
+  retrieved_at: '2026-10-18'
 review:
-  status: draft
+  status: reviewed
+  reviewed_by: claude (web research)
+  reviewed_at: 2026-10-18
+  notes: 'Verified vs TravelOne points T&C (eff. 31 Mar 2025), product page, HSBC rewards page and MileLion: 1.2 mpd SGD / 2.4 mpd FCY (25k:10k partners), KrisFlyer 30k:10k, S$196.20 fee not waived in year 1, Mastercard. Removed duplicate local rule. spend_cycle irrelevant (no caps/min spend).'
 updated_at: '2026-09-28'

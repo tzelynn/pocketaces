@@ -11,8 +11,8 @@ annual_fee:
     amount: 196.2
     currency: SGD
   first_year_waived: true
-  waiver_notes: S$ | First Year Waived
-  sources: ['singsaver:c5e8e589f450']
+  waiver_notes: First year waived
+  sources: ['singsaver:c5e8e589f450', 'bank:81f35dee5222']
 min_annual_income:
   amount: 30000.0
   currency: SGD
@@ -27,9 +27,16 @@ reward_currency:
       amount: 27.0
       currency: SGD
     min_block_points: 5000.0
-    note: 'The MileLion: min. transfer “5,000 UNI$ (10,000 miles)”, transfer fee “S$27” — confirm the
-      partner (the overview quotes KrisFlyer unless it says otherwise)'
-    sources: ['milelion:b711b717fccc']
+    note: UNI$1 = 2 miles, in blocks of 10,000 miles; S$27 per conversion
+    sources: ['milelion:b711b717fccc', 'bank:81f35dee5222']
+  - partner: Asia Miles
+    points: 5000.0
+    partner_units: 10000.0
+    fee:
+      amount: 27.0
+      currency: SGD
+    min_block_points: 5000.0
+    sources: ['milelion:b711b717fccc', 'bank:81f35dee5222']
   expiry:
     months: 24
     months_max: 27
@@ -37,58 +44,62 @@ reward_currency:
     sources: ['milelion:b711b717fccc']
 earn_rules:
 - id: local
-  label: local, retail, dining, petrol, transport, overseas online shopping, local online shopping, department
-    store, supermarket, hotel booking, flight booking, overseas (SingSaver — verify)
-  rate: 10.0
+  label: Preferred Rewards Category (choose 1 of 7 each quarter)
+  rate: 4
   unit: mpd
   tier: bonus
   eligibility:
-    include_mcc: ['4111', '4121', '4789', '4829', '4900', '5199', '5311', '5411', '5499', '5541', '5542',
-      '5611', '5621', '5631', '5641', '5651', '5655', '5661', '5691', '5699', '5811', '5812', '5813',
-      '5814', '5912', '5948', '5960', '5965', '5977', '5993', '6010', '6012', '6050', '6051', '6211',
-      '6300', '6399', '6513', '6529', '6530', '6534', '6540', '7230', '7231', '7297', '7298', '7349',
-      '7511', '7523', '7800', '7801', '7802', '7832', '7922', '7995', '8062', '8211', '8220', '8241',
-      '8244', '8249', '8299', '8398', '8651', '8661', '8699', '8999', '9211', '9222', '9223', '9311',
-      '9399', '9402', '9405']
-    description: Up to | Up to 10 mpd on 1 rewards category out of 7; get 0.4 mpd on all other spend.
-      / Up to | Capped at S$1,000 spend per calendar month / Up to | Up to 10 mpd on 1 selected rewards
-      category (choose from Dining, Travel, Fashion, Beauty & Wellness, Family, Transport, and Entertainment
-      spend); get 0.4 mpd on all other spend. [include_mcc auto-extracted from official T&C — check it
-      belongs to this rule]
-    sources: ['singsaver:c5e8e589f450', 'bank:81f35dee5222', 'bank:71ea38bfb0c0', 'bank:bdae7266d2bd',
-      'bank:2c85a31ddb07', 'bank:48c9f45f29a0', 'bank:42358e29d735', 'bank:b9775b287c7c', 'bank:49cbf131fbb8',
-      'bank:3c5fb33c30de', 'bank:8288a588164b', 'bank:c13cf48e44b4']
+    include_mcc: ['5912', '5977', '7230', '7231', '7297', '7298', '5811', '5812', '5814', '5499', '5813',
+      '7832', '7922', '5411', '5641', '5311', '5611', '5621', '5631', '5651', '5655', '5661', '5691', '5699',
+      '5948', '4111', '4121', '4789', '5541', '5542', '3000-3299', '4511', '4582', '4411', '4722', '5309',
+      '3500-3999', '7011']
+    description: 10X UNI$ per S$5 (4 mpd) on ONE selected Preferred Rewards Category — Beauty & Wellness
+      (5912, 5977, 7230, 7231, 7297, 7298), Dining (5811, 5812, 5814, 5499), Entertainment (5813, 7832,
+      7922), Family (5411, 5641), Fashion (5311, 5611, 5621, 5631, 5651, 5655, 5661, 5691, 5699, 5948),
+      Transport (4111, 4121, 4789, 5541, 5542) or Travel (airlines & hotels; UOB publishes no MCC list —
+      codes per The MileLion). include_mcc is the union of all 7; only the chosen category earns 4 mpd.
+    sources: ['bank:81f35dee5222', 'milelion:b711b717fccc']
   bonus_cap:
     amount: 1000.0
     unit: SGD_spend
     period: calendar_month
-    sources: ['singsaver:c5e8e589f450']
+    sources: ['bank:81f35dee5222']
+  rounding:
+    amount: 5
+    per: calendar_month
+    rounding: down
+    sources: ['milelion:b711b717fccc']
   conditions:
-  - bonus_cap parsed from aggregator text “Capped at S$1,000 spend per calendar month” — confirm amount,
-    unit and whether the period is calendar or statement month
-  - 'aggregator categories: shopping, dining, petrol, transport, groceries, hotels, flights'
-  sources: ['singsaver:c5e8e589f450']
+  - Register at uob.com.sg/ladys-enrol and pick 1 category; changes take effect the following calendar
+    quarter
+  - Bonus 9X UNI$ capped at 1,800 UNI$ (S$1,000 spend) per calendar month, by posting date; base 1X
+    rounds down per S$5 per transaction, bonus 9X on the month's aggregated eligible spend
+  sources: ['bank:81f35dee5222']
 - id: base
-  label: baseline (SingSaver — verify)
+  label: baseline
   rate: 0.4
   unit: mpd
   tier: base
   eligibility:
     all_spend: true
-    description: Unlimited 0.4 miles per dollar on all other spend outside enrolled rewards category.
-    sources: ['singsaver:c5e8e589f450']
-  sources: ['singsaver:c5e8e589f450']
+    description: UNI$1 per S$5 (0.4 mpd) on all other eligible spend, SGD or FCY.
+    sources: ['bank:81f35dee5222']
+  rounding:
+    amount: 5
+    rounding: down
+    sources: ['bank:81f35dee5222']
+  sources: ['bank:81f35dee5222']
 spend_cycle: calendar_month
-spend_cycle_sources: ['milelion:b711b717fccc']
+spend_cycle_sources: ['bank:81f35dee5222', 'milelion:b711b717fccc']
 general_exclusions:
   exclude_mcc: ['4829', '4900', '5199', '5960', '5965', '5993', '6012', '6050', '6051', '6211', '6300',
     '6513', '6529', '6530', '6534', '6540', '7349', '7511', '7523', '7995', '8062', '8211', '8220', '8241',
     '8244', '8249', '8299', '8398', '8651', '8661', '8699', '8999', '9211', '9222', '9223', '9311', '9399',
     '9402', '9405']
-  description: Auto-extracted from official T&Cs — confirm each code applies to this card
-  sources: ['bank:81f35dee5222', 'bank:71ea38bfb0c0', 'bank:bdae7266d2bd', 'bank:2c85a31ddb07', 'bank:48c9f45f29a0',
-    'bank:42358e29d735', 'bank:b9775b287c7c', 'bank:49cbf131fbb8', 'bank:3c5fb33c30de', 'bank:8288a588164b',
-    'bank:c13cf48e44b4']
+  description: No UNI$ for these MCCs (Lady's T&C clause 34), nor bill payment, NETS, IPP, cash advance,
+    fees/interest, prepaid top-ups, gambling/trading; or AXS, Amaze, EZ-Link, YouTrip, ipaymy, PayPal etc.
+    (clause 35)
+  sources: ['bank:81f35dee5222']
 sign_up_bonuses:
 - offered_by: singsaver
   description: 'Welcome Offer: choice of S$100 Samsung Voucher'
@@ -234,5 +245,5 @@ citations:
   sha256: b711b717fccc59e79beba4b13fbbb25ca8d17471111cbcae8a4a64b97b6572aa
   snapshot: data/raw/milelion/post-74173-17e1b02f.json
 review:
-  status: draft
+  status: reviewed
 updated_at: '2026-09-28'

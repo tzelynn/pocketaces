@@ -13,7 +13,7 @@ annual_fee:
   first_year_waived: true
   waiver_notes: S$ | First Year Waived. Min. spend of S$10,000 per year for waiver of annual fee for subsequent
     years.
-  sources: ['singsaver:e22fe54563d2']
+  sources: ['singsaver:e22fe54563d2', 'web:ocbc-infinity']
 min_annual_income:
   amount: 30000.0
   currency: SGD
@@ -21,32 +21,26 @@ reward_currency:
   kind: cashback
   name: Cashback
 earn_rules:
-- id: local
-  label: local, dining, supermarket, retail, local online shopping, overseas online shopping, transport,
-    overseas, contactless spend (SingSaver — verify)
-  rate: 1.6
-  unit: percent
-  tier: bonus
-  eligibility:
-    tags: [dining, groceries, shopping, transport]
-    description: ''
-    sources: ['singsaver:e22fe54563d2']
-  sources: ['singsaver:e22fe54563d2']
 - id: base
-  label: baseline (SingSaver — verify)
+  label: all eligible spend
   rate: 1.6
   unit: percent
   tier: base
   eligibility:
     all_spend: true
-    description: On all spends
-    sources: ['singsaver:e22fe54563d2']
-  sources: ['singsaver:e22fe54563d2']
+    description: 1.6% unlimited cashback on all eligible spend, local and overseas, no minimum spend, no cap
+    sources: ['bank:f6fb29feb871']
+  sources: ['bank:f6fb29feb871', 'web:ocbc-infinity']
+spend_cycle: calendar_month
+spend_cycle_sources: ['bank:f6fb29feb871']
 general_exclusions:
   exclude_mcc: ['4784', '4829', '4900', '5047', '5199', '5960', '5993', '6010', '6012', '6051', '6211',
     '6300', '6513', '6540', '7349', '7523', '7995', '8062', '8211', '8220', '8241', '8244', '8249', '8299',
     '8398', '8651', '8661', '8675', '8699', '9211', '9222', '9223', '9311', '9399', '9402', '9405']
-  description: Auto-extracted from official T&Cs — confirm each code applies to this card
+  exclude_merchants: [EZ-Link, NETS FlashPay, eNETS, SAM, Transit Link, AXS, GrabPay, Youtrip, Shopee Pay,
+    Singtel Dash]
+  description: T&C cl. 1.4-1.5 — also no cashback on fees, instalments, income tax, interest, GST, cash advance,
+    balance transfer and internet-banking bill payments
   sources: ['bank:f6fb29feb871']
 sign_up_bonuses:
 - offered_by: singsaver
@@ -130,8 +124,7 @@ sign_up_bonuses:
   url: https://www.moneysmart.sg/credit-cards/ocbc-infinity-cashback-card
   sources: ['moneysmart:42909b088c22']
 notes:
-- 'T&C mentions (check whether excluded): annual fee, axs, balance transfer, bill payment, cash advance,
-  charit, education, government, grabpay, hospital, instalment, interest, tax, utilit, youtrip'
+- Cashback is computed on the sum of posted transactions in the calendar month and credited the following month.
 citations:
 - id: singsaver:e22fe54563d2
   url: https://www.singsaver.com.sg/credit-card/products/ocbc-infinity-card
@@ -147,6 +140,11 @@ citations:
   retrieved_at: '2026-09-27T05:27:14+00:00'
   sha256: 42909b088c22cb063c120b532d19af920cb3535c52f6bfc313193c6c6ea14746
   snapshot: data/raw/moneysmart/credit-cards-p2-5f055203.html
+- id: web:ocbc-infinity
+  url: https://www.ocbc.com/personal-banking/cards/infinity-unlimited-cashback-card.page
+  title: OCBC INFINITY Cashback Card (official product page)
+  source_type: official
+  retrieved_at: '2026-10-18'
 - id: bank:f6fb29feb871
   url: https://www.ocbc.com/iwov-resources/sg/ocbc/personal/pdf/cards/tncs-governing-ocbc-infinity-cashback-card-programme.pdf
   source_type: official
@@ -154,5 +152,9 @@ citations:
   sha256: f6fb29feb871a0e9cc0d6f8dfd25f20dcfde02bad303b371749bd71390709191
   snapshot: data/raw/bank/www-ocbc-com-iwov-resources-sg-ocbc-personal-pdf-cards-tncs-governing-ocbc-infinity-cashback-card-programme-pdf-1b72ad40.pdf
 review:
-  status: draft
+  status: reviewed
+  reviewed_by: claude (web research)
+  reviewed_at: 2026-10-18
+  notes: Verified vs INFINITY T&C (18 Aug 2023) + OCBC page - 1.6% uncapped, no min spend, Mastercard, fee
+    S$196.20 1st yr waived, income S$30k, exclusions. Removed duplicate 1.6% category rule.
 updated_at: '2026-09-28'

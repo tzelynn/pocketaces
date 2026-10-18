@@ -3,6 +3,7 @@
 id: dbs-altitude-visa-signature
 bank: DBS
 name: DBS Altitude Visa Signature Card
+network: visa
 image_url: https://mhgprod.blob.core.windows.net/singsaver/strapi-uploads/m_DBS_Altitude_Visa_2025_12_cd1dc27f77.webp
 official_url: https://www.dbs.com.sg/personal/cards/credit-cards/dbs-altitude-cards
 annual_fee:
@@ -10,8 +11,10 @@ annual_fee:
     amount: 196.2
     currency: SGD
   first_year_waived: true
-  waiver_notes: S$ | First Year Waived
-  sources: ['singsaver:dbbacc539bba']
+  waiver_notes: First year waived. The automatic waiver for S$25,000 retail spend per card year ceased
+    from 1 Aug 2026; 5,000 DBS Points (10,000 miles) are credited when the annual fee is charged (reversed
+    if the fee is later waived).
+  sources: ['web:dbs-altitude-tnc', 'web:dbs-altitude-page']
 min_annual_income:
   amount: 30000.0
   currency: SGD
@@ -26,58 +29,51 @@ reward_currency:
       amount: 27.25
       currency: SGD
     min_block_points: 5000.0
-    note: 'The MileLion: min. transfer “5,000 DBS Points (10,000 miles)”, transfer fee “S$27.25” — confirm
-      the partner (the overview quotes KrisFlyer unless it says otherwise)'
-    sources: ['milelion:4aa7234670bb']
+    note: 1 DBS Point = 2 miles; S$27.25 (incl. GST) admin fee per conversion. Asia Miles (same ratio), Qantas
+      and AirAsia (500 points = 1,500 AirAsia points) are also available.
+    sources: ['web:dbs-altitude-tnc', 'web:dbs-altitude-page', 'milelion:4aa7234670bb']
   expiry:
     never: true
-    note: 'The MileLion: points validity “No expiry”'
-    sources: ['milelion:4aa7234670bb']
+    note: DBS Points earned on the Altitude Card have no expiry (T&C cl. 17)
+    sources: ['web:dbs-altitude-tnc', 'web:dbs-rewards-tnc']
 earn_rules:
-- id: travel
-  label: travel (SingSaver — verify)
-  rate: 10.0
-  unit: mpd
-  tier: bonus
-  eligibility:
-    tags: [travel]
-    description: Up to | S$1 = 10 miles on hotel transactions on Kaligo; 6 miles per dollar on hotel bookings
-      on Expedia.
-    sources: ['singsaver:dbbacc539bba']
-  sources: ['singsaver:dbbacc539bba']
-- id: hotel-booking
-  label: hotel booking, flight booking, overseas online shopping, overseas (SingSaver — verify)
+- id: overseas
+  label: overseas spend in foreign currency
   rate: 2.2
   unit: mpd
   tier: bonus
   eligibility:
-    tags: [hotels, flights]
-    description: Up to  / Up to  | On overseas spend made in foreign currency.
-    sources: ['singsaver:dbbacc539bba']
-  sources: ['singsaver:dbbacc539bba']
-- id: local
-  label: local, retail, dining, local online shopping, department store, supermarket, transport, petrol
-    (SingSaver — verify)
-  rate: 1.3
-  unit: mpd
-  tier: bonus
-  eligibility:
-    tags: [shopping, dining, groceries, transport, petrol]
-    description: ''
-    sources: ['singsaver:dbbacc539bba']
-  sources: ['singsaver:dbbacc539bba']
+    modes_required: [foreign_currency]
+    description: 5.5 DBS Points per S$5 on transactions posted in foreign currency (2.2 mpd). Overseas
+      transactions converted to SGD via DCC count as local spend.
+    sources: ['web:dbs-altitude-tnc']
+  conditions:
+  - 'Points = amount / S$5 x 5.5, rounded down per transaction (not awarded in S$5 blocks)'
+  sources: ['web:dbs-altitude-tnc', 'web:dbs-rewards-tnc']
 - id: base
-  label: baseline (SingSaver — verify)
+  label: local spend (SGD)
   rate: 1.3
   unit: mpd
   tier: base
   eligibility:
     all_spend: true
-    description: ''
-    sources: ['singsaver:dbbacc539bba']
-  sources: ['singsaver:dbbacc539bba']
+    description: 3.25 DBS Points per S$5 on transactions posted in SGD (1.3 mpd), uncapped.
+    sources: ['web:dbs-altitude-tnc']
+  conditions:
+  - 'Points = amount / S$5 x 3.25, rounded down per transaction (not awarded in S$5 blocks)'
+  sources: ['web:dbs-altitude-tnc', 'web:dbs-rewards-tnc']
 general_exclusions:
-  description: Auto-extracted from official T&Cs — confirm each code applies to this card
+  exclude_mcc: ['4784', '4829', '4900', '5047', '5199', '5960', '5993', '6010', '6011', '6012', '6050', '6051',
+    '6211', '6300', '6381', '6399', '6513', '6529', '6530', '6534', '6540', '7349', '7511', '7523', '7995',
+    '8062', '8211', '8220', '8241', '8244', '8249', '8299', '8398', '8651', '8661', '8699', '8999', '9211',
+    '9222', '9223', '9311', '9399', '9402', '9405']
+  exclude_merchants: [AMAZE, AXS, AXS BizPay, AXS PTE LTD, BAGUS, CANTINE, EZLINK, EZ-LINK, PAYPAL *AXS PTE LTD,
+    RAZERPAY, SAM -, SAM PAYMENTS, SEDAP, SGEBIZ, SHOPEEPAY, SINGAPORE E-BUSINESS, SINGTEL DASH, SMOOVPAY,
+    TRANSIT 3, YOUTRIP]
+  description: No DBS Points for the MCCs and merchant descriptors in DBS Rewards T&C clause 2.8 (Tables
+    1 and 2), nor for posted 0% IPP / My Preferred Payment Plan instalments, interest, fees, cash advances,
+    balance transfers, AXS, SAM and internet-banking bill payments.
+  sources: ['web:dbs-rewards-tnc']
 sign_up_bonuses:
 - offered_by: singsaver
   description: 'Stackable Welcome Offer: choice of Up to S$200 Cashback on Cashline'
@@ -149,6 +145,10 @@ sign_up_bonuses:
 notes:
 - 'Editorial review for cross-checking: Review: DBS Altitude Card (https://milelion.com/2026/05/24/review-dbs-altitude-card/,
   updated 2026-07-25)'
+- The former 10 mpd (Kaligo hotels) and 6 mpd (Expedia) travel-portal rates ended in April 2024 (MileLion);
+  there is no bonus category, only 1.3 mpd local / 2.2 mpd FCY.
+- FCY transactions carry a 3.25% fee (MileLion).
+- 'Priority Pass: 2 complimentary lounge visits per membership year for the Altitude Visa Signature principal cardholder only (Altitude T&C cl. 23-28).'
 citations:
 - id: singsaver:dbbacc539bba
   url: https://www.singsaver.com.sg/credit-card/products/dbs-altitude-visa-signature-card
@@ -171,6 +171,25 @@ citations:
   retrieved_at: '2026-09-28T13:28:49+00:00'
   sha256: 4aa7234670bbf36a0b7738620d9ae319787e6880e572c2bda158b2efedc33420
   snapshot: data/raw/milelion/post-72991-0736e36f.json
+- id: web:dbs-altitude-tnc
+  url: https://www.dbs.com.sg/iwov-resources/pdf/cards/altitude-card-tnc.pdf
+  title: Terms and Conditions Governing the DBS Altitude Card Privileges and Rewards Programme (last updated
+    Sep 2026)
+  source_type: official
+  retrieved_at: '2026-10-18'
+- id: web:dbs-altitude-page
+  url: https://www.dbs.com.sg/personal/cards/credit-cards/dbs-altitude-cards
+  title: DBS Altitude Card (product page, Eligibility & Fees)
+  source_type: official
+  retrieved_at: '2026-10-18'
+- id: web:dbs-rewards-tnc
+  url: https://www.dbs.com.sg/iwov-resources/pdf/cards/rewards_programme_tnc.pdf
+  title: DBS Rewards Terms and Conditions (last updated Sep 2026)
+  source_type: official
+  retrieved_at: '2026-10-18'
 review:
-  status: draft
-updated_at: '2026-09-28'
+  status: reviewed
+  reviewed_by: claude (web research)
+  reviewed_at: 2026-10-18
+  notes: 'Verified fee, income, earn rates (1.3/2.2 mpd, no S$5 blocks), no expiry, KrisFlyer conversion/fee and exclusions against DBS Altitude T&C + DBS Rewards T&C (Sep 2026) and product page; removed expired Kaligo/Expedia rule and duplicate local rule. Not verified: exact min. conversion block beyond the 5,000-point table.'
+updated_at: '2026-10-18'

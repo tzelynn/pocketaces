@@ -5,12 +5,14 @@ bank: Maybank
 name: Maybank Platinum Visa Card
 image_url: https://mhgprod.blob.core.windows.net/singsaver/strapi-uploads/xs_bltd34ddb6a380578f1_b448907c99.png
 official_url: https://www.maybank2u.com.sg/en/personal/cards/credit/maybank-platinum-visa-card.page
+network: visa
 annual_fee:
   amount:
-    amount: 20.0
+    amount: 87.2
     currency: SGD
-  waiver_notes: S$ | First Three Year Waived
-  sources: ['singsaver:3103f3955f7a']
+  waiver_notes: Charged as a quarterly service fee of S$21.80 (S$87.20/yr), waived for the first 3 years; thereafter
+    waived for any quarter in which the card is used at least once
+  sources: ['web:mb-platvisa-page']
 min_annual_income:
   amount: 30000.0
   currency: SGD
@@ -18,48 +20,55 @@ reward_currency:
   kind: cashback
   name: Cashback
 earn_rules:
-- id: local
-  label: local, travel, dining, supermarket, petrol, retail, local online shopping, overseas online shopping,
-    health, department store, digital wallet, insurance, online bill payment spending, contactless spend,
-    transport, overseas (SingSaver — verify)
+- id: quarterly-cashback
+  label: Quarterly cashback (min. S$300 every month of the quarter)
   rate: 3.33
   unit: percent
   tier: bonus
   eligibility:
-    tags: [travel, dining, groceries, petrol, shopping, healthcare, transport]
-    description: Up to | Quarterly cashback capped at S$30 with a minimum monthly spend of S$300 per quarter,
-      and S$100 with a minimum monthly spend of S$1,000 per quarter. No quarterly cashback will be awarded
-      if monthly minimum spend isn't met.
-    sources: ['singsaver:3103f3955f7a']
+    all_spend: true
+    description: Fixed quarterly cashback of S$30 / S$100 / S$200 when at least S$300 / S$1,000 / S$2,000 of
+      eligible spend (SGD or FCY) posts in each of the 3 months of a calendar quarter — 3.33% only at exactly
+      the tier threshold, less above it.
+    sources: ['web:mb-platvisa-tnc', 'web:mb-platvisa-page']
   min_spend:
     amount: 300.0
     currency: SGD
-  min_spend_period: statement_month
+  min_spend_period: calendar_month
   bonus_cap:
-    amount: 30.0
+    amount: 200.0
     unit: SGD_cashback
     period: quarter
-    sources: ['singsaver:3103f3955f7a']
+    sources: ['web:mb-platvisa-tnc']
   conditions:
-  - bonus_cap parsed from aggregator text “capped at S$30 with a minimum monthly spend of S$300 per quarter”
-    — confirm amount, unit and whether the period is calendar or statement month
-  - min spend S$300/month from singsaver — confirm the period (statement vs calendar month) and which
-    rules it unlocks
-  sources: ['singsaver:3103f3955f7a']
+  - Tiers by minimum monthly spend in every month of the quarter — S$300 → S$30, S$1,000 → S$100, S$2,000 → S$200
+  - Quarters are fixed (Jan-Mar, Apr-Jun, Jul-Sep, Oct-Dec); spend counts by posting date; credited the month after
+    the quarter
+  - Selected Categories in SGD (insurance 6300, medical, education, rental 6513, professional services 7399) may
+    make up at most 30% of each month's minimum
+  - First quarter after issue is pro-rated (1/3 or 2/3 of the cashback if the minimum is met in 1 or 2 months)
+  sources: ['web:mb-platvisa-tnc']
 - id: base
-  label: baseline (SingSaver — verify)
-  rate: 3.33
+  label: Spend below the monthly minimum
+  rate: 0.0
   unit: percent
   tier: base
   eligibility:
     all_spend: true
-    description: Quarterly cashback capped at S$30 with a minimum monthly spend of S$300 per quarter,
-      and S$100 with a minimum monthly spend of S$1,000 per quarter. No quarterly cashback will be awarded
-      if monthly minimum spend isn't met.
-    sources: ['singsaver:3103f3955f7a']
-  sources: ['singsaver:3103f3955f7a']
+    description: No cashback for a quarter in which any month falls below the S$300 minimum.
+    sources: ['web:mb-platvisa-tnc']
+  sources: ['web:mb-platvisa-tnc']
+spend_cycle: calendar_month
+spend_cycle_sources: ['web:mb-platvisa-tnc']
 general_exclusions:
-  description: Auto-extracted from official T&Cs — confirm each code applies to this card
+  exclude_mcc: ['4829', '4900', '6010', '6011', '6012', '6050', '6051', '6529', '6530', '6534', '6540', '7349', '7511']
+  exclude_merchants: [EZ-Link, SimplyGo, TransitLink, YouTrip, Instarem, RazerPay, Singtel Dash]
+  description: Platinum Visa Cashback Programme T&C clause 14 — not eligible for these MCCs, NETS/eNETS,
+    government payments, gambling, brokerage, charities/religious/political organisations, utilities, cleaning
+    services, AXS/SAM, corporate transactions, instalment plans, fees/interest and listed top-up/prepaid merchants.
+  sources: ['web:mb-platvisa-tnc']
+notes:
+- SingSaver's S$20 annual fee is wrong — the card has a S$21.80 quarterly service fee.
 citations:
 - id: singsaver:3103f3955f7a
   url: https://www.singsaver.com.sg/credit-card/products/maybank-platinum-visa-card
@@ -75,6 +84,20 @@ citations:
   retrieved_at: '2026-09-27T05:27:20+00:00'
   sha256: 49fcb3586f252df0b2dacb9acecc465127e09c9defa7f151881c3db46d84649e
   snapshot: data/raw/moneysmart/credit-cards-p4-1a322210.html
+- id: web:mb-platvisa-tnc
+  url: https://www.maybank2u.com.sg/iwov-resources/sg/pdf/cards/platvisa-rebate-tnc.pdf
+  title: Terms and Conditions for Maybank Platinum Visa Card 3.33% Cashback Programme (effective 1 Dec 2025)
+  source_type: official
+  retrieved_at: '2026-10-18'
+- id: web:mb-platvisa-page
+  url: https://www.maybank2u.com.sg/en/personal/cards/credit/maybank-platinum-visa-card.page
+  title: Maybank Platinum Visa Card (product page)
+  source_type: official
+  retrieved_at: '2026-10-18'
 review:
-  status: draft
+  status: reviewed
+  reviewed_by: claude (web research)
+  reviewed_at: 2026-10-18
+  notes: Fee (quarterly S$21.80), income, quarterly cashback tiers/caps, 30% selected-category limit and exclusions
+    verified against official page + T&C (1 Dec 2025). Could not confirm a separate 0.3% FCY rebate (not in T&C).
 updated_at: '2026-09-28'

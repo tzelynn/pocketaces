@@ -3,14 +3,16 @@
 id: uob-visa-infinite-metal
 bank: UOB
 name: UOB Visa Infinite Metal Card
+network: visa
 image_url: https://mhgprod.blob.core.windows.net/singsaver/strapi-uploads/xs_bltdc61c357dc4eaff9_8ba3acd510.png
 official_url: https://www.uob.com.sg/personal/cards/privilege/visa-infinite-metal-card.page
 annual_fee:
   amount:
     amount: 654.0
     currency: SGD
-  waiver_notes: S$ | Non-waivable
-  sources: ['singsaver:c5a532b1acba']
+  first_year_waived: false
+  waiver_notes: Non-waivable; UNI$12,500 (25,000 miles) credited each year the fee is paid
+  sources: ['singsaver:c5a532b1acba', 'bank:0b0758141d84']
 min_annual_income:
   amount: 120000.0
   currency: SGD
@@ -25,49 +27,63 @@ reward_currency:
       amount: 0.0
       currency: SGD
     min_block_points: 5000.0
-    note: 'The MileLion: min. transfer “5,000 UNI$ (10,000 miles)”, transfer fee “Waived” — confirm the
-      partner (the overview quotes KrisFlyer unless it says otherwise)'
+    note: UNI$1 = 2 miles, min. 5,000 UNI$; conversion fee waived for Visa Infinite Metal cardholders
+    sources: ['milelion:8814bd4efaee', 'bank:0b0758141d84']
+  - partner: Asia Miles
+    points: 5000.0
+    partner_units: 10000.0
+    fee:
+      amount: 0.0
+      currency: SGD
+    min_block_points: 5000.0
     sources: ['milelion:8814bd4efaee']
   expiry:
     months: 24
-    note: 'The MileLion: points validity “2 years”'
+    months_max: 27
+    note: UNI$ expire 2 years from the end of the calendar quarter in which they were earned
     sources: ['milelion:8814bd4efaee']
 earn_rules:
-- id: overseas
-  label: overseas (SingSaver — verify)
+- id: overseas-fcy
+  label: Overseas spend in foreign currency
   rate: 2.4
   unit: mpd
   tier: bonus
   eligibility:
-    include_mcc: ['4829', '4900', '5199', '5960', '5965', '5993', '6012', '6050', '6051', '6211', '6300',
-      '6513', '6529', '6530', '6534', '6540', '7349', '7511', '7523', '7995', '8062', '8398', '8651',
-      '8661', '8699', '8999', '9211', '9222', '9223', '9311', '9399', '9402', '9405']
-    description: ' [include_mcc auto-extracted from official T&C — check it belongs to this rule]'
-    sources: ['singsaver:c5a532b1acba', 'bank:0b0758141d84', 'bank:cbea17cf3773', 'bank:faf9e5f3c30a',
-      'bank:0b0758141d84', 'bank:1f78781f6818']
-  sources: ['singsaver:c5a532b1acba']
-- id: local
-  label: local (SingSaver — verify)
-  rate: 1.4
-  unit: mpd
-  tier: bonus
-  eligibility:
-    description: ''
-    sources: ['singsaver:c5a532b1acba']
-  sources: ['singsaver:c5a532b1acba']
+    modes_required: [foreign_currency]
+    description: UNI$6 per S$5 on transactions processed outside Singapore in foreign currency. SGD-charged
+      overseas spend and Singapore-gateway online transactions count as local.
+    sources: ['bank:0b0758141d84']
+  rounding:
+    amount: 5
+    rounding: down
+    sources: ['milelion:8814bd4efaee']
+  sources: ['bank:0b0758141d84', 'milelion:8814bd4efaee']
 - id: base
-  label: baseline (SingSaver — verify)
+  label: Local spend (SGD)
   rate: 1.4
   unit: mpd
   tier: base
   eligibility:
     all_spend: true
-    description: ''
-    sources: ['singsaver:c5a532b1acba']
-  sources: ['singsaver:c5a532b1acba']
+    description: UNI$3.5 per S$5 on local transactions; UNI$ rounded down to a whole number per transaction.
+    sources: ['bank:0b0758141d84']
+  rounding:
+    amount: 5
+    rounding: down
+    sources: ['milelion:8814bd4efaee']
+  sources: ['bank:0b0758141d84', 'milelion:8814bd4efaee']
 general_exclusions:
-  description: Auto-extracted from official T&Cs — confirm each code applies to this card
+  exclude_mcc: ['4829', '4900', '5199', '5960', '5965', '5993', '6012', '6050', '6051', '6211', '6300',
+    '6513', '6529', '6530', '6534', '6540', '7349', '7511', '7523', '7995', '8062', '8398', '8651', '8661',
+    '8699', '8999', '9211', '9222', '9223', '9311', '9399', '9402', '9405']
+  exclude_merchants: [SPC, Shell]
+  description: No UNI$ for these MCCs, cash advance, bill payment, tax, government, insurance premiums,
+    donations, fees/interest, IPP, prepaid / mobile wallet top-ups (GrabPay, YouTrip, EZ-Link), Visa Infinite
+    Payment Facility, SPC and Shell, quasi-cash, AXS, Amaze, ipaymy etc. (T&C clause 1.5)
+  sources: ['bank:0b0758141d84']
 notes:
+- 'Loyalty bonus: UNI$7,500 (15,000 miles) on renewal after S$100,000 qualified spend in the membership year.'
+- 'DragonPass airport lounge programme for principal cardmember (see T&C clause 4.4).'
 - 'Editorial review for cross-checking: Review: UOB Visa Infinite Metal Card (https://milelion.com/2026/06/09/review-uob-visa-infinite-metal-card/,
   updated 2026-06-09)'
 - 'T&C mentions (check whether excluded): axs, bill payment, cash advance, charit, government, hospital,
@@ -120,5 +136,8 @@ citations:
   sha256: 8814bd4efaee242be180ea8e79a7a08b678cdb15f3ecb8e07d0fa8b474d5109b
   snapshot: data/raw/milelion/post-73191-c31fa440.json
 review:
-  status: draft
+  status: reviewed
+  reviewed_by: claude (web research)
+  reviewed_at: 2026-10-18
+  notes: Verified vs UOB Visa Infinite Metal T&C (May 2026) + MileLion review — S$654 non-waivable (25k miles yearly), 1.4 mpd local / 2.4 mpd FCY, free UNI$ conversions, S$5 blocks; removed exclusion-list-as-include MCCs. S$120k income per SingSaver + MileLion (not stated in T&C).
 updated_at: '2026-09-28'

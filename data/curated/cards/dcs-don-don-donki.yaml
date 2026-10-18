@@ -10,36 +10,55 @@ annual_fee:
     amount: 196.2
     currency: SGD
   first_year_waived: true
-  waiver_notes: S$ | First Year Waived
-  sources: ['singsaver:575f5c6f5971']
+  waiver_notes: S$180 + GST, first year free; auto-waived with S$2,000 annual spend. (S$500-limit variant -
+    S$28 + GST, waived with S$500 annual spend, 2% rebate capped on S$500 spend)
+  sources: ['web:dcs-donki-page', 'singsaver:575f5c6f5971']
 min_annual_income:
   amount: 30000.0
   currency: SGD
 reward_currency:
-  kind: miles
-  name: Miles
+  kind: cashback
+  name: REBATE$ (DON DON DONKI)
+  expiry:
+    months: 2
+    note: REBATE$ expire 60 days after being credited; redeemable only at DON DON DONKI outlets
+    sources: ['bank:dc07b29859df']
 earn_rules:
-- id: local
-  label: local, overseas (SingSaver — verify)
-  rate: 0.22
-  unit: mpd
+- id: don-don-donki
+  label: DON DON DONKI outlets
+  rate: 5.0
+  unit: percent
   tier: bonus
   eligibility:
-    description: ''
-    sources: ['singsaver:575f5c6f5971']
-  sources: ['singsaver:575f5c6f5971']
+    tags: [groceries, shopping]
+    include_merchants: [DON DON DONKI]
+    description: 5% in REBATE$ (1 REBATE$ = S$1) on the pre-GST amount at DON DON DONKI, credited next day
+    sources: ['bank:dc07b29859df', 'web:dcs-donki-page']
+  max_spend:
+    amount: 1000.0
+    currency: SGD
+  max_spend_period: calendar_month
+  bonus_cap:
+    amount: 50.0
+    unit: SGD_cashback
+    period: calendar_month
+    sources: ['bank:dc07b29859df']
+  conditions:
+  - Up to 5% of S$1,000 spent per month per card account (principal + supplementary)
+  sources: ['bank:dc07b29859df']
 - id: base
-  label: baseline (SingSaver — verify)
-  rate: 0.22
-  unit: mpd
+  label: Club Rewards Points on other spend
+  rate: 1.0
+  unit: points_per_dollar
   tier: base
   eligibility:
     all_spend: true
-    description: ''
-    sources: ['singsaver:575f5c6f5971']
-  sources: ['singsaver:575f5c6f5971']
-general_exclusions:
-  description: Auto-extracted from official T&Cs — confirm each code applies to this card
+    description: 1 Club Rewards Point per S$1 outside DON DON DONKI; points don't expire (redemption value not
+      verified)
+    sources: ['web:dcs-donki-page']
+  sources: ['web:dcs-donki-page']
+notes:
+- Network is Diners Club (not in the model's network list, so left blank).
 citations:
 - id: singsaver:575f5c6f5971
   url: https://www.singsaver.com.sg/credit-card/products/dcs-don-don-donki-card
@@ -54,6 +73,16 @@ citations:
   retrieved_at: '2026-09-27T08:37:04+00:00'
   sha256: dc07b29859dfea2fe754a846c512ace55a1472aa6d5e355d1ff1b0c8ae48d161
   snapshot: data/raw/bank/cards-dcscc-com-dcscc-v2-pdf-DON-20DON-20DONKI-20Rebate-24-20TCs-pdf-0c17a1ef.pdf
+  title: REBATE$ Terms and Conditions (scanned PDF; read 2026-10-18 via cards.dcscc.com/dondondonki-rebates-tnc)
+- id: web:dcs-donki-page
+  url: https://cards.dcscc.com/don-don-donki
+  title: DCS DON DON DONKI Credit Card (product page)
+  source_type: official
+  retrieved_at: '2026-10-18'
 review:
-  status: draft
-updated_at: '2026-09-28'
+  status: reviewed
+  reviewed_by: claude (web research)
+  reviewed_at: 2026-10-18
+  notes: Replaced bogus 0.22 mpd miles rules with 5% REBATE$ at DONKI (S$1,000 spend/month cap, 60-day expiry)
+    + 1 Club Rewards Point/S$1 per DCS page and REBATE$ T&C; Club Rewards point value not verified.
+updated_at: '2026-10-18'

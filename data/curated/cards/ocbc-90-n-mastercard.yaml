@@ -3,6 +3,7 @@
 id: ocbc-90-n-mastercard
 bank: OCBC
 name: OCBC 90°N Mastercard
+network: mastercard
 image_url: https://mhgprod.blob.core.windows.net/singsaver/strapi-uploads/s_blte3fc330777ae06af_162fcf6083.png
 official_url: https://www.ocbc.com/personal-banking/cards/90-degrees-travel-credit-card
 annual_fee:
@@ -12,7 +13,7 @@ annual_fee:
   first_year_waived: true
   waiver_notes: S$ | First Year Fee automatically waived. Min. spend of S$10,000 per year for waiver of
     annual fee for subsequent years.
-  sources: ['singsaver:aff3e0360120']
+  sources: ['singsaver:aff3e0360120', 'web:ocbc-90n']
 min_annual_income:
   amount: 30000.0
   currency: SGD
@@ -27,62 +28,55 @@ reward_currency:
       amount: 25.0
       currency: SGD
     min_block_points: 1000.0
-    note: 'The MileLion: min. transfer “1,000 90°N Miles* (Up to 1,000 miles)”, transfer fee “S$25” —
-      confirm the partner (the overview quotes KrisFlyer unless it says otherwise)'
+    note: '1 90°N Mile = 1 KrisFlyer mile, blocks of 1,000, S$25 per conversion. Other partners (Flying
+      Blue, Marriott, IHG 1:1; Asia Miles, Avios, Etihad, ALL, etc. at lower ratios) per MileLion. Also
+      1,000 miles = S$10 cash rebate.'
     sources: ['milelion:4e723e3504aa']
   expiry:
     never: true
-    note: 'The MileLion: points validity “No expiry”'
-    sources: ['milelion:4e723e3504aa']
+    note: 'T&C cl. 1.3: 90°N Miles accrued have no expiry date'
+    sources: ['bank:d59800a738d9', 'milelion:4e723e3504aa']
 earn_rules:
-- id: travel
-  label: travel, hotel booking (SingSaver — verify)
-  rate: 7.0
-  unit: mpd
-  tier: bonus
-  eligibility:
-    tags: [travel, hotels]
-    description: Up to | On Agoda bookings
-    sources: ['singsaver:aff3e0360120']
-  sources: ['singsaver:aff3e0360120']
 - id: overseas
-  label: overseas (SingSaver — verify)
+  label: foreign currency spend
   rate: 2.1
   unit: mpd
   tier: bonus
   eligibility:
-    description: Get up to
-    sources: ['singsaver:aff3e0360120']
-  sources: ['singsaver:aff3e0360120']
-- id: local
-  label: local (SingSaver — verify)
-  rate: 1.3
-  unit: mpd
-  tier: bonus
-  eligibility:
-    description: ''
-    sources: ['singsaver:aff3e0360120']
-  sources: ['singsaver:aff3e0360120']
+    modes_required: [foreign_currency]
+    description: 2.1 90°N Miles per S$1 on overseas (foreign currency) spend, uncapped
+    sources: ['bank:d59800a738d9']
+  rounding:
+    amount: 5
+    per: transaction
+    rounding: down
+    sources: ['bank:d59800a738d9']
+  sources: ['bank:d59800a738d9', 'web:ocbc-90n']
 - id: base
-  label: baseline (SingSaver — verify)
+  label: local spend
   rate: 1.3
   unit: mpd
   tier: base
   eligibility:
     all_spend: true
-    description: ''
-    sources: ['singsaver:aff3e0360120']
-  sources: ['singsaver:aff3e0360120']
+    description: 1.3 90°N Miles per S$1 on local spend, uncapped (AXS Pay + Earn earns 1 per S$1)
+    sources: ['bank:d59800a738d9']
+  rounding:
+    amount: 5
+    per: transaction
+    rounding: down
+    sources: ['bank:d59800a738d9']
+  sources: ['bank:d59800a738d9', 'web:ocbc-90n']
 spend_cycle: calendar_month
-spend_cycle_sources: ['milelion:4e723e3504aa']
+spend_cycle_sources: ['bank:d59800a738d9']
 general_exclusions:
   exclude_mcc: ['4784', '4829', '4900', '5047', '5199', '5960', '5993', '6010', '6012', '6051', '6211',
-    '6300', '6399', '6513', '6540', '7349', '7523', '7995', '8062', '8211', '8220', '8241', '8244', '8249',
-    '8299', '8398', '8651', '8661', '8675', '8699', '9211', '9222', '9223', '9311', '9399', '9402', '9405']
-  description: Auto-extracted from official T&Cs — confirm each code applies to this card
-  sources: ['bank:d59800a738d9', 'bank:8bd51daf86cf', 'bank:8d8e853051bb', 'bank:8480c7252890', 'bank:7ef2a5c25211',
-    'bank:8bd51daf86cf', 'bank:c63c13b1406a', 'bank:423ad0d56a95', 'bank:3e94bbe5ea3e', 'bank:5f17d79e0c6d',
-    'bank:8bd51daf86cf']
+    '6300', '6513', '6540', '7349', '7523', '7995', '8062', '8211', '8220', '8241', '8244', '8249', '8299',
+    '8398', '8651', '8661', '8675', '8699', '9211', '9222', '9223', '9311', '9399', '9402', '9405']
+  exclude_merchants: [EZ-Link, NETS FlashPay, eNETS, SAM, Transit Link, GrabPay, Youtrip, Shopee Pay, Singtel Dash]
+  description: T&C cl. 1.4-1.6 — also no miles on fees, instalments, income tax, cash advance, internet-banking
+    bill payments, and MCC 4111/4121/4131 except Grab Transport, Gojek and licensed taxis
+  sources: ['bank:d59800a738d9']
 sign_up_bonuses:
 - offered_by: singsaver
   description: 'SingSaver Flash Deal: choice of Apple Watch Series 12 Aluminum 42mm GPS (worth S$599)'
@@ -165,13 +159,10 @@ sign_up_bonuses:
   url: https://www.moneysmart.sg/credit-cards/ocbc-90-n-card
   sources: ['moneysmart:42909b088c22']
 notes:
-- spend_cycle calendar_month from The MileLion review (“OCBC 90°N Cardholders who spend at least S$500
-  per calendar month on their card are eligible to earn bonus interest of 0.25% p.a. on the first S$100,000
-  in their OCBC 360 account.”) — confirm it applies to min spend and caps
+- No min spend or cap on base earn. Agoda bonus (6 mpd SGD / 7 mpd FCY via agoda.com/90n) booking period ended 10 Oct 2026 (stays to 31 Dec 2026); removed.
+- Paying the annual fee earns a 10,000 90°N Miles renewal bonus (T&C cl. 1.12).
 - 'Editorial review for cross-checking: Review: OCBC 90°N Card (https://milelion.com/2026/09/13/review-ocbc-90n-card/,
   updated 2026-09-22)'
-- 'T&C mentions (check whether excluded): annual fee, axs, balance transfer, bill payment, cash advance,
-  charit, education, government, grabpay, hospital, instalment, interest, ipp, tax, top-up, utilit, youtrip'
 citations:
 - id: singsaver:aff3e0360120
   url: https://www.singsaver.com.sg/credit-card/products/ocbc-90n-mastercard
@@ -241,6 +232,11 @@ citations:
   retrieved_at: '2026-09-27T08:40:53+00:00'
   sha256: 5f17d79e0c6d4376a8edf1d7e2f8d79338e658b619d5366149b31249070989cb
   snapshot: data/raw/bank/www-ocbc-com-iwov-resources-sg-ocbc-personal-pdf-campaign-cards-tncs-90ncard-agoda-yearlong-promo-pdf-b6cef1f1.pdf
+- id: web:ocbc-90n
+  url: https://www.ocbc.com/personal-banking/cards/90-degrees-travel-credit-card
+  title: OCBC 90°N Card (official product page)
+  source_type: official
+  retrieved_at: '2026-10-18'
 - id: milelion:4e723e3504aa
   url: https://milelion.com/2026/09/13/review-ocbc-90n-card/
   title: 'Review: OCBC 90°N Card'
@@ -249,5 +245,10 @@ citations:
   sha256: 4e723e3504aad9cfacbcb3cc551da70e1ed23cd829abc5d0f390544d727f1ab5
   snapshot: data/raw/milelion/post-55469-c31fa035.json
 review:
-  status: draft
+  status: reviewed
+  reviewed_by: claude (web research)
+  reviewed_at: 2026-10-18
+  notes: Verified vs 90°N programme T&C (24 Nov 2025) + OCBC page - fee, income, 1.3/2.1 mpd per S$5 block,
+    no expiry, KrisFlyer 1:1 S$25 fee, exclusions; removed expired Agoda rule. Unverified - a page-listed
+    'select online/groceries 1.4/2.3 mpd first S$1,000' promo (no T&C found).
 updated_at: '2026-09-28'

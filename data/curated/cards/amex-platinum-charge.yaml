@@ -10,11 +10,12 @@ annual_fee:
   amount:
     amount: 1744.0
     currency: SGD
-  waiver_notes: S$
-  sources: ['singsaver:179a6c940486']
+  first_year_waived: false
+  waiver_notes: S$1,744 incl. 9% GST; non-waivable
+  sources: ['bank:458a33eecbc6', 'milelion:cc41405fe2e0']
 reward_currency:
-  kind: miles
-  name: Miles
+  kind: points
+  name: Membership Rewards points
   conversions:
   - partner: KrisFlyer
     points: 500.0
@@ -23,8 +24,7 @@ reward_currency:
       amount: 0.0
       currency: SGD
     min_block_points: 500.0
-    note: 'The MileLion: min. transfer “500 MR points (250 miles)”, transfer fee “None” — confirm the
-      partner (the overview quotes KrisFlyer unless it says otherwise)'
+    note: Ratio since the 23 Feb 2026 devaluation; free transfers
     sources: ['milelion:cc41405fe2e0']
   expiry:
     never: true
@@ -32,44 +32,82 @@ reward_currency:
     sources: ['milelion:cc41405fe2e0']
 earn_rules:
 - id: retail
-  label: retail, dining (SingSaver — verify)
-  rate: 6.94
+  label: 10Xcelerator partners (registered)
+  rate: 6.25
   unit: mpd
   tier: bonus
   eligibility:
     tags: [shopping, dining]
-    description: Up to | On 10Xcelerator merchants.
-    sources: ['singsaver:179a6c940486']
-  sources: ['singsaver:179a6c940486']
+    include_merchants: [Platinum 10Xcelerator partners]
+    description: 20 MR points per S$1.60 (10 base-10X + 10 bonus with registration) at 10Xcelerator partner
+      merchants; above the cap, 10 MR points per S$1.60 (3.13 mpd)
+    sources: ['web:amex-plat-charge', 'milelion:cc41405fe2e0']
+  max_spend:
+    amount: 16000.0
+    currency: SGD
+  max_spend_period: calendar_year
+  rounding:
+    amount: 1.6
+  conditions:
+  - Registration required for the bonus 10 MR points; cap shared with supplementary cards
+  - 'Converted at 500 MR points : 250 KrisFlyer miles'
+  sources: ['web:amex-plat-charge', 'milelion:cc41405fe2e0']
+- id: retail-base-10x
+  label: 10Xcelerator partners (no registration, or above the S$16,000 cap)
+  rate: 3.13
+  unit: mpd
+  tier: bonus
+  eligibility:
+    tags: [shopping, dining]
+    include_merchants: [Platinum 10Xcelerator partners]
+    description: 10 MR points per S$1.60 at 10Xcelerator partners, uncapped
+    sources: ['web:amex-plat-charge', 'milelion:cc41405fe2e0']
+  rounding:
+    amount: 1.6
+  sources: ['web:amex-plat-charge', 'milelion:cc41405fe2e0']
 - id: flight-booking
-  label: flight booking (SingSaver — verify)
-  rate: 1.73
+  label: Singapore Airlines & Scoot
+  rate: 1.56
   unit: mpd
   tier: bonus
   eligibility:
     tags: [flights]
-    description: Up to | With SIA and Scoot.
-    sources: ['singsaver:179a6c940486']
-  sources: ['singsaver:179a6c940486']
-- id: local
-  label: local (SingSaver — verify)
-  rate: 0.69
+    include_merchants: [Singapore Airlines, Scoot]
+    description: 5 MR points per S$1.60 on SIA and Scoot tickets bought directly (website/app), uncapped
+    sources: ['web:amex-plat-charge', 'milelion:cc41405fe2e0']
+  rounding:
+    amount: 1.6
+  sources: ['web:amex-plat-charge', 'milelion:cc41405fe2e0']
+- id: fcy-promo
+  label: foreign currency spend (registered promotion)
+  rate: 2.19
   unit: mpd
   tier: bonus
   eligibility:
-    description: ''
-    sources: ['singsaver:179a6c940486']
-  sources: ['singsaver:179a6c940486']
+    modes_required: [foreign_currency]
+    description: 7 MR points per S$1.60 (2 base + bonus 25 MR points per S$8) on FCY spend for registered
+      cardmembers
+    sources: ['web:amex-plat-charge', 'milelion:cc41405fe2e0']
+  max_spend:
+    amount: 15000.0
+    currency: SGD
+  conditions:
+  - Registration required; S$15,000 FCY spend cap for the whole promotion period
+  valid_from: '2026-02-23'
+  valid_to: '2027-02-22'
+  sources: ['web:amex-plat-charge', 'milelion:cc41405fe2e0']
 - id: base
-  label: baseline (SingSaver — verify)
-  rate: 0.69
+  label: base (local and FCY)
+  rate: 0.63
   unit: mpd
   tier: base
   eligibility:
     all_spend: true
-    description: ''
-    sources: ['singsaver:179a6c940486']
-  sources: ['singsaver:179a6c940486']
+    description: 2 MR points per S$1.60
+    sources: ['web:amex-plat-charge', 'milelion:cc41405fe2e0']
+  rounding:
+    amount: 1.6
+  sources: ['web:amex-plat-charge', 'milelion:cc41405fe2e0']
 general_exclusions:
   description: Auto-extracted from official T&Cs — confirm each code applies to this card
 notes:
@@ -79,6 +117,11 @@ notes:
   education, government, grabpay, hospital, instalment, interest, late payment charge, sam kiosk, tax,
   top-up, top-ups, utilit'
 citations:
+- id: web:amex-plat-charge
+  url: https://www.americanexpress.com/sg/charge-cards/platinum-card/
+  title: The Platinum Card (American Express Singapore product page)
+  source_type: official
+  retrieved_at: '2026-10-18'
 - id: singsaver:179a6c940486
   url: https://www.singsaver.com.sg/credit-card/products/american-express-platinum-card
   title: American Express Platinum Card
@@ -112,5 +155,10 @@ citations:
   sha256: cc41405fe2e0e8f14aab5255053cb83f3fb6c379fedd84e2fdda080132b8410b
   snapshot: data/raw/milelion/post-520639-1268b09c.json
 review:
-  status: draft
+  status: reviewed
+  reviewed_by: claude (web research)
+  reviewed_at: 2026-10-18
+  notes: Verified fee, base/SIA/10Xcelerator/FCY-promo rates and caps, 500:250 transfer ratio (Amex page,
+    T&C, MileLion Mar 2026); spend_cycle not applicable (cap is per calendar year); FCY promo cap
+    period is the whole promotion, not a calendar period
 updated_at: '2026-09-28'

@@ -3,6 +3,7 @@
 id: boc-visa-infinite
 bank: Bank of China
 name: BOC Visa Infinite Card
+network: visa
 image_url: https://mhgprod.blob.core.windows.net/singsaver/strapi-uploads/s_2026_06_BOC_Visa_Infinite_Card_a61dadcf73.png
 official_url: https://www.bankofchina.com/sg/bcservice/bc1/201603/t20160317_6758741.html
 annual_fee:
@@ -10,8 +11,8 @@ annual_fee:
     amount: 381.5
     currency: SGD
   first_year_waived: true
-  waiver_notes: S$ | First year annual fee waived for principal and supplementary cards.
-  sources: ['singsaver:8fdbc2346879']
+  waiver_notes: S$381.50 incl. GST (supplementary S$190.75); first year waived for principal and supplementary
+  sources: ['web:boc-fees', 'web:boc-visa-infinite', 'singsaver:8fdbc2346879']
 min_annual_income:
   amount: 72000.0
   currency: SGD
@@ -20,57 +21,77 @@ reward_currency:
   name: Cashback
 earn_rules:
 - id: petrol
-  label: petrol (SingSaver — verify)
+  label: EV charging (with S$2,500 total spend)
   rate: 3.0
   unit: percent
   tier: bonus
   eligibility:
-    include_mcc: ['4784', '4829', '4900', '5199', '5815', '5965', '5993', '6010', '6012', '6050', '6051',
-      '6211', '6513', '6529', '6530', '6534', '6540', '7273', '7372', '7399', '7511', '7523', '7995',
-      '8211', '8241', '8244', '8249', '8299', '8398', '8651', '8661', '8699', '8999', '9211', '9222',
-      '9223', '9311', '9399', '9402', '9405']
-    description: 3% cash rebate on electrical vehicle charging (subject to min. monthly spend of S$2,500
-      per billing cycle) [include_mcc auto-extracted from official T&C — check it belongs to this rule]
-    sources: ['singsaver:8fdbc2346879', 'bank:2c8c9f7f9059']
-  conditions: ['aggregator categories: petrol']
-  sources: ['singsaver:8fdbc2346879']
+    include_mcc: ['5552']
+    description: 3% cash rebate on electric vehicle charging (MCC 5552) with minimum total card spend of S$2,500
+      in the billing cycle; otherwise 0.3%
+    sources: ['bank:2c8c9f7f9059', 'web:boc-visa-infinite']
+  min_spend:
+    amount: 2500.0
+    currency: SGD
+  min_spend_period: statement_month
+  sources: ['bank:2c8c9f7f9059', 'web:boc-visa-infinite']
 - id: overseas
-  label: overseas (SingSaver — verify)
+  label: overseas spend
   rate: 2.4
   unit: percent
   tier: bonus
   eligibility:
-    description: 2.4% cash rebate on qualifying overseas spend, with no minimum spend and cap.
-    sources: ['singsaver:8fdbc2346879']
-  sources: ['singsaver:8fdbc2346879']
-- id: local
-  label: local (SingSaver — verify)
-  rate: 1.6
+    modes_required: [foreign_currency, overseas_in_sgd]
+    description: 2.4% on Overseas Spend — transactions charged overseas (incl. in SGD) and online at merchants
+      with payment gateways outside Singapore; no cap
+    sources: ['bank:2c8c9f7f9059', 'web:boc-visa-infinite']
+  sources: ['bank:2c8c9f7f9059', 'web:boc-visa-infinite']
+- id: insurance-education
+  label: insurance and education (reduced rate)
+  rate: 0.3
   unit: percent
   tier: bonus
   eligibility:
-    description: 1.6% cashback on qualifying local spend, with no minimum spend and cap.
-    sources: ['singsaver:8fdbc2346879']
-  sources: ['singsaver:8fdbc2346879']
+    tags: [insurance, education]
+    include_mcc: ['5960', '6300', '8220']
+    description: Only 0.3% on insurance (MCC 5960, 6300) and education (MCC 8220)
+    sources: ['bank:2c8c9f7f9059']
+  sources: ['bank:2c8c9f7f9059']
 - id: base
-  label: baseline (SingSaver — verify)
+  label: local spend
   rate: 1.6
   unit: percent
   tier: base
   eligibility:
     all_spend: true
-    description: 1.6% cashback on all other qualifying purchases in Singapore, no minimum spend and cap.
-    sources: ['singsaver:8fdbc2346879']
-  sources: ['singsaver:8fdbc2346879']
+    description: 1.6% cash rebate on Local Spend (charged in Singapore, or online at merchants with Singapore
+      payment gateways); no minimum spend and no cap
+    sources: ['bank:2c8c9f7f9059', 'web:boc-visa-infinite']
+  sources: ['bank:2c8c9f7f9059', 'web:boc-visa-infinite']
+spend_cycle: statement_month
+spend_cycle_sources: ['bank:2c8c9f7f9059']
 general_exclusions:
-  exclude_mcc: ['5552', '5960', '6300', '8220']
-  description: Auto-extracted from official T&Cs — confirm each code applies to this card
+  exclude_mcc: ['4784', '4829', '4900', '5199', '5815', '5965', '5993', '6010', '6012', '6050', '6051',
+    '6211', '6513', '6529', '6530', '6534', '6540', '7273', '7372', '7399', '7511', '7523', '7995', '8211',
+    '8241', '8244', '8249', '8299', '8398', '8651', '8661', '8699', '8999', '9211', '9222', '9223', '9311',
+    '9399', '9402', '9405']
+  description: Clause 3 MCC exclusions of the cash rebate T&C; also IPP/instalments, fees, cash advances
   sources: ['bank:2c8c9f7f9059']
 notes:
 - 'T&C mentions (check whether excluded): annual fee, axs, bill payment, cardup, cash advance, charit,
   education, government, grabpay, instalment, interest, ipaymy, ipp, late payment charge, tax, utilit,
   youtrip'
 citations:
+- id: web:boc-visa-infinite
+  url: https://www.bankofchina.com/sg/bcservice/bc1/201603/t20160317_6758741.html
+  title: BOC Visa Infinite Card (product page)
+  source_type: official
+  retrieved_at: '2026-10-18'
+- id: web:boc-fees
+  url: http://www.bankofchina.com/sg/bocinfo/bi4/201001/t20100120_955877.html
+  title: BOC Singapore credit card fees and charges (effective 15 June 2025)
+  source_type: official
+  retrieved_at: '2026-10-18'
 - id: singsaver:8fdbc2346879
   url: https://www.singsaver.com.sg/credit-card/products/boc-visa-infinite-card
   title: BOC Visa Infinite Card
@@ -85,5 +106,9 @@ citations:
   sha256: 2c8c9f7f9059b5cb5c59f4c14633bba4a033df913cd78e5456866669d93cc29d
   snapshot: data/raw/bank/www-bankofchina-com-sg-bocinfo-bi5-202506-P020250613354557074670-pdf-09b31896.pdf
 review:
-  status: draft
+  status: reviewed
+  reviewed_by: claude (web research)
+  reviewed_at: 2026-10-18
+  notes: Verified 1.6% local / 2.4% overseas uncapped, 3% EV (MCC 5552, S$2.5k/cycle), 0.3% insurance/education,
+    fee S$381.50 FYF, S$72k income (T&C eff. 15 Jun 2025, product page, BOC fee page); MCC list was the exclusion list
 updated_at: '2026-09-28'

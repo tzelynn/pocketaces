@@ -3,81 +3,87 @@
 id: dbs-live-fresh-student
 bank: DBS
 name: DBS Live Fresh Student Card
+network: visa
 image_url: https://mhgprod.blob.core.windows.net/singsaver/strapi-uploads/xs_blt68f2b08ef70e4ac6_bc50823e23.webp
 official_url: https://www.dbs.com.sg/personal/cards/credit-cards/live-fresh-dbs-visa-paywave-500-card
 annual_fee:
   amount:
     amount: 196.2
     currency: SGD
-  waiver_notes: S$ | First Five Years Waived
-  sources: ['singsaver:8256c549dc22']
+  first_year_waived: true
+  waiver_notes: S$196.20 incl. GST; waived for the first 5 years. Students aged 21-27 at listed local
+    universities/polytechnics, no income requirement, S$500 credit limit
+  sources: ['web:dbs-lfs-page', 'singsaver:8256c549dc22']
 reward_currency:
   kind: cashback
   name: Cashback
 earn_rules:
-- id: local
-  label: local, dining (SingSaver — verify)
-  rate: 10.0
-  unit: percent
-  tier: bonus
-  eligibility:
-    tags: [dining]
-    description: Up to | On McDonald's, Starbucks, Netflix, Spotify etc. Capped at S$15 per month, Additional
-      5% Green Cashback on selected eco-friendly merchants, Capped at $15 per month. / Up to | On McDonald's,
-      Starbucks, Netflix, Spotify etc.  Capped at S$15 per month  Additional 5% Green Cashback on selected
-      eco-friendly merchants  Capped at $15 per month.
-    sources: ['singsaver:8256c549dc22']
-  bonus_cap:
-    amount: 15.0
-    unit: SGD_cashback
-    period: statement_month
-    sources: ['singsaver:8256c549dc22']
-  conditions:
-  - bonus_cap parsed from aggregator text “Capped at S$15 per month” — confirm amount, unit and whether
-    the period is calendar or statement month
-  sources: ['singsaver:8256c549dc22']
-- id: retail
-  label: retail, supermarket, health, transport, contactless spend, local online shopping (SingSaver —
-    verify)
+- id: eligible-merchants
+  label: McDonald's, McDelivery, Starbucks, Golden Village, Netflix, Spotify
   rate: 5.0
   unit: percent
   tier: bonus
   eligibility:
-    tags: [shopping, groceries, healthcare, transport]
-    description: On selected eco-friendly merchants  Capped at $15 per month. / On McDonald's, Starbucks,
-      Netflix, Spotify etc.  Capped at S$15 per month  Additional 5% Green Cashback on selected eco-friendly
-      merchants  Capped at $15 per month.
-    sources: ['singsaver:8256c549dc22']
+    tags: [dining, entertainment, streaming_digital]
+    include_merchants: [Golden Village, McDonald's, McDelivery, Netflix, Spotify, Starbucks]
+    description: 5% on Eligible Merchant Spend (merchant descriptors listed in the T&C)
+    sources: ['web:dbs-lfs-tnc']
   bonus_cap:
     amount: 15.0
     unit: SGD_cashback
-    period: statement_month
-    sources: ['singsaver:8256c549dc22']
-  conditions:
-  - bonus_cap parsed from aggregator text “Capped at S$15 per month” — confirm amount, unit and whether
-    the period is calendar or statement month
-  sources: ['singsaver:8256c549dc22']
-- id: overseas
-  label: overseas (SingSaver — verify)
-  rate: 0.3
+    period: calendar_month
+    sources: ['web:dbs-lfs-tnc']
+  conditions: [No minimum spend]
+  sources: ['web:dbs-lfs-tnc']
+- id: sustainable
+  label: Sustainable spend (eco-eateries, eco-retailers, SimplyGo, BlueSG, EV charging)
+  rate: 5.0
   unit: percent
   tier: bonus
   eligibility:
-    description: Capped at S$20
-    sources: ['singsaver:8256c549dc22']
-  sources: ['singsaver:8256c549dc22']
+    tags: [public_transport]
+    include_mcc: ['5552']
+    include_merchants: [Just Dabao, Open Farm Community, Restaurant Labyrinth, Scaled by Ah Hua Kelong,
+      The Summerhouse, Bettr Coffee, Boxgreen, Little Farms, SimplyGood, Supernature, The Green Collective,
+      Scoop Wholefoods, Anywheel, BlueSG, Bus/Train rides via SimplyGo (BUS/MRT*), Greenlots, SG Bike]
+    modes_required: [local_currency]
+    description: Additional 5% on Sustainable Spend in local currency at listed eco merchants and EV charging
+      (MCC 5552); merchant list abridged — see T&C
+    sources: ['web:dbs-lfs-tnc']
+  bonus_cap:
+    amount: 15.0
+    unit: SGD_cashback
+    period: calendar_month
+    sources: ['web:dbs-lfs-tnc']
+  conditions:
+  - T&C calls this an "Additional 5%" (the 0.3% rate covers only All Other Spend), so treated as 5% total
+  sources: ['web:dbs-lfs-tnc']
 - id: base
-  label: baseline (SingSaver — verify)
+  label: Base cashback on all other spend
   rate: 0.3
   unit: percent
   tier: base
   eligibility:
     all_spend: true
-    description: Capped at S$20
-    sources: ['singsaver:8256c549dc22']
-  sources: ['singsaver:8256c549dc22']
+    description: 0.3% on All Other Spend
+    sources: ['web:dbs-lfs-tnc']
+  bonus_cap:
+    amount: 20.0
+    unit: SGD_cashback
+    period: calendar_month
+    sources: ['web:dbs-lfs-tnc']
+  sources: ['web:dbs-lfs-tnc']
+spend_cycle: calendar_month
+spend_cycle_sources: ['web:dbs-lfs-tnc']
 general_exclusions:
-  description: Auto-extracted from official T&Cs — confirm each code applies to this card
+  exclude_merchants: [AMAZE*]
+  tags: [education, financial, government, insurance, utilities, charity, gambling]
+  description: AXS (except Pay+Earn)/SAM/eNETS payments, education, financial institutions, government,
+    hospitals, insurance, non-profits, utilities, wallet/prepaid top-ups (EZ-Link, GrabPay, ShopeePay,
+    Singtel Dash etc.), betting, crypto, instalments, fees
+  sources: ['web:dbs-lfs-tnc']
+notes:
+- Total cashback is capped at S$50 per calendar month across all categories.
 citations:
 - id: singsaver:8256c549dc22
   url: https://www.singsaver.com.sg/credit-card/products/dbs-live-fresh-student-card
@@ -93,6 +99,20 @@ citations:
   retrieved_at: '2026-09-27T05:27:18+00:00'
   sha256: fbcf8e7229a38611c3c767cd8447164e413b1306df1f54bebee269e3abf15202
   snapshot: data/raw/moneysmart/credit-cards-p3-707cb52c.html
+- id: web:dbs-lfs-page
+  url: https://www.dbs.com.sg/personal/cards/credit-cards/live-fresh-dbs-visa-paywave-500-card
+  title: DBS Live Fresh Student Card (product page)
+  source_type: official
+  retrieved_at: '2026-10-18'
+- id: web:dbs-lfs-tnc
+  url: https://www.dbs.com.sg/iwov-resources/media/pdf/cards/live-fresh-student-cashback-tnc.pdf
+  title: Terms and Conditions Governing the DBS Live Fresh Student Card Cashback Programme (last updated 2 Jul 2025)
+  source_type: official
+  retrieved_at: '2026-10-18'
 review:
-  status: draft
-updated_at: '2026-09-28'
+  status: reviewed
+  reviewed_by: claude (web research)
+  reviewed_at: 2026-10-18
+  notes: Verified fee/waiver, eligibility, rates, per-category and S$50 overall caps vs DBS page + cashback
+    T&C (2 Jul 2025); unclear whether sustainable spend is 5% or 5.3% total (recorded 5%).
+updated_at: '2026-10-18'

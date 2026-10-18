@@ -11,40 +11,38 @@ annual_fee:
     amount: 30.52
     currency: SGD
   first_year_waived: true
-  waiver_notes: S$ | With First Year Fee Waiver
-  sources: ['singsaver:eae254c9ba18']
+  waiver_notes: First year waived
+  sources: ['web:citi-clear-page', 'singsaver:eae254c9ba18']
 reward_currency:
   kind: points
-  name: Points
+  name: Citi ThankYou Points
 earn_rules:
-- id: local-spending
-  label: local spending, overseas spending (SingSaver — verify)
-  rate: 1.0
-  unit: points_per_dollar
-  tier: bonus
-  eligibility:
-    include_mcc: ['4829', '4900', '5199', '5960', '5993', '6012', '6050', '6051', '6211', '6300', '6513',
-      '6529', 6529-6540, '6530', '6534', '6540', '7349', '7511', '7523', '7800', '7995', '8062', '8211',
-      8211-8299, '8220', '8241', '8244', '8249', '8299', '8398', '8651', 8651-8661, '8661', 9000-9999,
-      '9211', '9222', '9223', '9311', '9399', '9402', '9405', '9754']
-    description: ' [include_mcc auto-extracted from official T&C — check it belongs to this rule]'
-    sources: ['singsaver:eae254c9ba18', 'bank:edd8efd83efc', 'bank:92d7958181e4', 'bank:d43f74d8ca64']
-  sources: ['singsaver:eae254c9ba18']
 - id: base
-  label: baseline (SingSaver — verify)
+  label: All spend
   rate: 1.0
   unit: points_per_dollar
   tier: base
   eligibility:
     all_spend: true
-    description: ''
-    sources: ['singsaver:eae254c9ba18']
-  sources: ['singsaver:eae254c9ba18']
+    description: 1 ThankYou point per S$1 of qualifying spend.
+    sources: ['bank:92d7958181e4', 'web:citi-clear-page']
+  rounding:
+    amount: 1.0
+    rounding: down
+    sources: ['bank:92d7958181e4']
+  sources: ['bank:92d7958181e4', 'web:citi-clear-page']
 general_exclusions:
-  exclude_mcc: ['4111']
-  description: Auto-extracted from official T&Cs — confirm each code applies to this card
-  sources: ['bank:edd8efd83efc', 'bank:92d7958181e4', 'bank:d43f74d8ca64']
+  exclude_mcc: ['4829', '4900', '5199', '5960', '5993', '6012', '6050', '6051', '6211', '6300', '6513',
+    6529-6540, '7349', '7511', '7523', '7800', '7995', '8062', 8211-8299, '8398', 8651-8661, 9000-9999]
+  exclude_merchants: [AXS, BUS/MRT, EZ-Link, SimplyGo, Transit Link, TRANSIT, YouTrip, SAM, OANDA, Saxo, SKYFX]
+  description: Citi rewards exclusion list (updated Nov 2024, eff. 16 Dec 2024) — quasi-cash and stored-value
+    loads, utilities, insurance, financial services, real estate rentals, education, charity, hospitals,
+    political/religious organisations, government services, gambling, cigar stores, parking; plus the listed
+    merchants (incl. via Amaze).
+  sources: ['bank:d43f74d8ca64']
 notes:
+- Student card - no minimum income; for SG/PR students aged 18+ at listed universities and polytechnics,
+  not already holding a principal Citi card
 - 'T&C mentions (check whether excluded): annual fee, axs, balance transfer, bill payment, cash advance,
   charit, education, government, hospital, instalment, interest, late payment charge, tax, top-ups, utilit,
   youtrip'
@@ -74,6 +72,13 @@ citations:
   retrieved_at: '2026-09-27T08:04:12+00:00'
   sha256: d43f74d8ca64a96141c244ca5126179e77543ae82cebe4c177a0c029c73b1a68
   snapshot: data/raw/bank/www-citibank-com-sg-credit-cards-pdf-rewards-exclusion-list-pdf-c33f164e.pdf
+- id: web:citi-clear-page
+  url: https://www.citibank.com.sg/credit-cards/student/citi-clear-card
+  title: Citi Clear Card (product page)
+  source_type: official
+  retrieved_at: '2026-10-18'
 review:
-  status: draft
-updated_at: '2026-09-28'
+  status: reviewed
+  reviewed_by: claude (web research)
+  reviewed_at: 2026-10-18
+  notes: 'Verified vs Citi product page, Rewards T&C (Jul 2020) and exclusion list: 1 point per S$1, S$30.52 fee FY waived, no income requirement. Removed garbage MCC rule. Points expiry and conversion options not stated officially.'

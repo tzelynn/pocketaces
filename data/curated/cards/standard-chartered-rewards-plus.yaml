@@ -3,6 +3,7 @@
 id: standard-chartered-rewards-plus
 bank: Standard Chartered
 name: Standard Chartered Rewards+ Credit Card
+network: visa
 image_url: https://mhgprod.blob.core.windows.net/singsaver/strapi-uploads/s_bltc6253747c947df41_82b4199b04.png
 official_url: https://www.sc.com/sg/credit-cards/rewards-plus-credit-card/
 annual_fee:
@@ -10,73 +11,93 @@ annual_fee:
     amount: 196.2
     currency: SGD
   first_year_waived: true
-  waiver_notes: S$ | First Year Waived
-  sources: ['singsaver:8d864d4cf70a']
+  waiver_notes: First year waived; S$196.20 incl. GST thereafter
+  sources: ['singsaver:8d864d4cf70a', 'web:sc-rewards-plus-page']
 min_annual_income:
   amount: 30000.0
   currency: SGD
 reward_currency:
   kind: miles
-  name: Miles
+  name: SC 360° Rewards Points
+  conversions:
+  - partner: KrisFlyer
+    points: 34500.0
+    partner_units: 10000.0
+    fee:
+      amount: 27.25
+      currency: SGD
+    min_block_points: 34500.0
+    note: Tier 2 SC card ratio; S$27.25 per conversion. Rates below are in miles at this ratio (1/5/10 points
+      per S$1 = 0.29/1.45/2.9 mpd)
+    sources: ['web:milelion-sc-360', 'web:milelion-sc-two-tier']
+  expiry:
+    months_max: 36
+    note: Points expire at the end of fixed 3-year windows counted from card account opening, so validity is up
+      to 3 years
+    sources: ['web:milelion-sc-360']
 earn_rules:
-- id: travel
-  label: travel (SingSaver — verify)
-  rate: 6.0
-  unit: mpd
-  tier: bonus
-  eligibility:
-    include_mcc: ['4829', '4900', '5047', '5199', '5311', '5811', '5812', '5813', '5814', '6012', '6050',
-      '6051', '6211', '6513', '6529', '6530', '6534', '6540', '7299', '7349', '7511', '7523', '8062',
-      '8211', '8220', '8241', '8244', '8249', '8299', '8398', '8651', '8661', '8999', '9211', '9222',
-      '9223', '9311', '9399', '9402', '9405']
-    description: (Up to UNI$15 per S$5 spend) on major airlines and hotels worldwide via Agoda, Expedia
-      and UOB Travel. [include_mcc auto-extracted from official T&C — check it belongs to this rule]
-    sources: ['singsaver:8d864d4cf70a', 'bank:06ce66cdacfc', 'bank:d16aa0c6bbaf']
-  conditions: ['aggregator categories: travel']
-  sources: ['singsaver:8d864d4cf70a']
-- id: overseas
-  label: overseas (SingSaver — verify)
+- id: fcy
+  label: Foreign currency spend
   rate: 2.9
   unit: mpd
   tier: bonus
   eligibility:
-    description: 'Overseas retail, dining and travel. '
-    sources: ['singsaver:8d864d4cf70a']
-  sources: ['singsaver:8d864d4cf70a']
-- id: dining
-  label: dining (SingSaver — verify)
+    modes_required: [foreign_currency]
+    description: 10 points (1 base + 9 additional) per S$1 on foreign-currency spend (overseas retail, dining,
+      travel, online FCY). Additional points capped at 20,000 per card year (from approval date), shared with
+      local dining; beyond the cap 1 point per S$1.
+    sources: ['bank:06ce66cdacfc', 'web:sc-rewards-plus-page']
+  bonus_cap:
+    amount: 20000.0
+    unit: points
+    period: membership_year
+    shared_with: [local-dining]
+    sources: ['bank:06ce66cdacfc']
+  sources: ['bank:06ce66cdacfc', 'web:sc-rewards-plus-page']
+- id: local-dining
+  label: Local dining (SGD)
   rate: 1.45
   unit: mpd
   tier: bonus
   eligibility:
-    tags: [dining]
-    description: If you hold the Standard Chartered X Credit Card as well.
-    sources: ['singsaver:8d864d4cf70a']
-  sources: ['singsaver:8d864d4cf70a']
-- id: local
-  label: local (SingSaver — verify)
-  rate: 0.29
-  unit: mpd
-  tier: bonus
-  eligibility:
-    description: ''
-    sources: ['singsaver:8d864d4cf70a']
-  sources: ['singsaver:8d864d4cf70a']
+    include_mcc: ['5811', '5812', '5813', '5814']
+    modes_excluded: [foreign_currency]
+    description: 5 points (1 base + 4 additional) per S$1 on SGD dining in Singapore at MCC 5811/5812/5813/5814
+      (excludes hotel restaurants, banquets, bakeries, supermarkets not under these MCCs). Additional points
+      share the 20,000-point card-year cap.
+    sources: ['bank:06ce66cdacfc']
+  bonus_cap:
+    amount: 20000.0
+    unit: points
+    period: membership_year
+    shared_with: [fcy]
+    sources: ['bank:06ce66cdacfc']
+  sources: ['bank:06ce66cdacfc', 'web:sc-rewards-plus-page']
 - id: base
-  label: baseline (SingSaver — verify)
+  label: All other spend
   rate: 0.29
   unit: mpd
   tier: base
   eligibility:
     all_spend: true
-    description: ''
-    sources: ['singsaver:8d864d4cf70a']
-  sources: ['singsaver:8d864d4cf70a']
+    description: 1 point per S$1 (local or foreign currency)
+    sources: ['bank:06ce66cdacfc']
+  sources: ['bank:06ce66cdacfc', 'web:sc-rewards-plus-page']
 general_exclusions:
-  description: Auto-extracted from official T&Cs — confirm each code applies to this card
+  exclude_mcc: ['4829', '4900', '5047', '5199', '6012', '6050', '6051', '6211', '6513', '6529', '6530',
+    '6534', '6540', '7299', '7349', '7511', '7523', '8062', '8211', '8220', '8241', '8244', '8249', '8299',
+    '8398', '8651', '8661', '8999', '9211', '9222', '9223', '9311', '9399', '9402', '9405']
+  exclude_merchants: [EZ-Link, SimplyGo top-up, FlashPay, Transit Link]
+  modes_excluded: [recurring]
+  description: SC Retail Transaction Exclusions — no points/cashback on these MCCs, cash advance, Credit Card
+    Funds Transfer, EasyPay instalments, AXS/SAM/ATM, insurance premiums, recurring payments and SC online
+    bill payments, fees/interest, betting, top-ups to prepaid cards/accounts (EZ-Link, FlashPay, some PayPal)
+  sources: ['bank:d16aa0c6bbaf', 'bank:06ce66cdacfc']
 notes:
-- 'T&C mentions (check whether excluded): axs, bill payment, cash advance, charit, education, government,
-  hospital, instalment, insurance premium, interest, late payment charge, tax, top-up, top-ups, utilit'
+- The 20,000 additional-point cap (about 5,800 miles) resets on each anniversary of the card approval date. FCY
+  fee 3.5%.
+- Points transfer between SC cardholders ended 4 July 2026, so Rewards+ points can no longer be moved to a Tier 1
+  card for the 25,000:10,000 ratio.
 citations:
 - id: singsaver:8d864d4cf70a
   url: https://www.singsaver.com.sg/credit-card/products/standard-chartered-rewards-credit-card
@@ -104,6 +125,29 @@ citations:
   retrieved_at: '2026-09-27T08:42:24+00:00'
   sha256: d16aa0c6bbafa1e96f7e6ad6cedcd8c0bb4c58dc88e2bd6deda0ce92b0b748dd
   snapshot: data/raw/bank/www-sc-com-sg-terms-and-conditions-cc-retail-transaction-exclusions-8f7a8c14.html
+- id: web:sc-rewards-plus-page
+  url: https://www.sc.com/sg/credit-cards/rewards-plus-credit-card/
+  title: Standard Chartered Rewards+ Credit Card
+  source_type: official
+  retrieved_at: '2026-10-18'
+- id: web:milelion-sc-360
+  url: https://milelion.com/2023/07/13/standard-chartereds-360-rewards-easyrewards-a-hot-steaming-mess/
+  title: 'Standard Chartered’s 360° Rewards & EasyRewards: A hot steaming mess'
+  source_type: editorial
+  retrieved_at: '2026-10-18'
+- id: web:milelion-sc-two-tier
+  url: https://milelion.com/2026/02/06/review-standard-chartered-smart-card/
+  title: 'Review: Standard Chartered Smart Card (Tier 2 conversion table: 34,500 points = 10,000 miles, S$27.25)'
+  source_type: editorial
+  retrieved_at: '2026-10-18'
+- id: web:milelion-sc-transfer-end
+  url: https://milelion.com/2026/06/06/standard-chartered-ending-points-transfer-feature/
+  title: Standard Chartered ending points transfer feature
+  source_type: editorial
+  retrieved_at: '2026-10-18'
 review:
-  status: draft
+  status: reviewed
+  reviewed_by: claude (web research)
+  reviewed_at: 2026-10-18
+  notes: Verified vs Rewards+ T&C (unchanged Oct 2026) and SC product page — 1/5/10 points, 20k card-year cap, fee, income, Visa; miles ratio (34,500:10,000) and 3-yr expiry from MileLion, not an SC document.
 updated_at: '2026-09-28'

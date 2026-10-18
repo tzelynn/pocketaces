@@ -30,54 +30,86 @@ reward_currency:
     note: "The MileLion: min. transfer \u201C25,000 TY points (10,000 miles)\u201D, transfer fee \u201CS$27.25\u201D"
     sources:
     - milelion:e97c3ffbbb86
+  expiry:
+    months: 3
+    months_max: 63
+    note: Points expire in 60-month blocks from card approval (+3 months grace), not from when earned
+    sources: ['web:citi-rewards-page', 'milelion:e97c3ffbbb86']
 earn_rules:
-- id: local-spending
-  label: local spending, online shopping, retail (SingSaver — verify)
+- id: online
+  label: Online spend (excl. travel and in-app mobile wallet)
   rate: 4.0
   unit: mpd
   tier: bonus
   eligibility:
-    include_mcc: ['4829', '4900', '5199', '5311', '5611', '5621', '5631', '5641', '5651', '5655', '5661',
-      '5691', '5699', '5948', '5960', '5993', '6012', '6050', '6051', '6211', '6300', '6513', '6529',
-      6529-6540, '6530', '6534', '6540', '7349', '7511', '7523', '7800', '7995', '8062', '8211', 8211-8299,
-      '8220', '8241', '8244', '8249', '8299', '8398', '8651', 8651-8661, '8661', 9000-9999, '9211', '9222',
-      '9223', '9311', '9399', '9402', '9405', '9754']
-    modes_required: [online]
-    description: Up to | On Retail and Online spend, except mobile wallet and travel-related transactions.
-      / Up to | Excluding mobile wallet and travel-related transactions. / Up to | On in-store shopping
-      purchases only. [include_mcc auto-extracted from official T&C — check it belongs to this rule]
-    sources: ['singsaver:b0789316dd55', 'bank:345af828d568', 'bank:f7d5dfb84040', 'bank:d43f74d8ca64',
-      'bank:7aa60cc0bebc', 'bank:d43f74d8ca64', 'bank:1ed263a0b182', 'bank:eb779aeca1b4', 'bank:472e40f873ba']
-  conditions: ['aggregator categories: shopping']
-  sources: ['singsaver:b0789316dd55']
-- id: grocery
-  label: grocery, dining, transport, taxi ride sharing, online food delivery (SingSaver — verify)
-  rate: 0.4
+    exclude_mcc: [3000-3350, 3351-3500, 3501-3999, '4111', '4112', '4411', '4511', '4722', '4723', '4789',
+      '5962', '7011', '7012', '7512']
+    modes_required: [online, in_app]
+    modes_excluded: [mobile_wallet]
+    description: 10X points (1 base + 9 bonus per S$1) on online transactions, except in-app mobile wallet
+      (Apple/Google Pay) payments and travel-related MCCs (airlines, hotels, car rental, cruises, travel
+      agencies, passenger transport).
+    sources: ['bank:f7d5dfb84040', 'milelion:e97c3ffbbb86']
+  bonus_cap:
+    amount: 1000.0
+    unit: SGD_spend
+    period: statement_month
+    shared_with: [shopping]
+    sources: ['bank:f7d5dfb84040', 'milelion:e97c3ffbbb86']
+  rounding:
+    amount: 1.0
+    rounding: down
+    sources: ['bank:f7d5dfb84040']
+  conditions:
+  - 9,000 bonus points per statement month (S$1,000 of spend), shared with the shopping rule; base 1X is
+    uncapped
+  - 4 mpd assumes 25,000 points = 10,000 miles
+  sources: ['bank:f7d5dfb84040', 'milelion:e97c3ffbbb86']
+- id: shopping
+  label: Department stores, clothes, shoes and bags (in-store or online)
+  rate: 4.0
   unit: mpd
   tier: bonus
   eligibility:
-    tags: [groceries, dining, transport, ride_hailing]
-    description: ''
-    sources: ['singsaver:b0789316dd55']
-  conditions: ['1 point per S$1, converted to KrisFlyer miles at 25000:10000']
-  sources: ['singsaver:b0789316dd55', 'milelion:e97c3ffbbb86']
+    include_mcc: ['5311', '5611', '5621', '5631', '5641', '5651', '5655', '5661', '5691', '5699', '5948']
+    description: 10X points at department stores and shops selling clothes, shoes and bags, in-store
+      (incl. mobile wallet tap) or online.
+    sources: ['bank:f7d5dfb84040', 'milelion:e97c3ffbbb86']
+  bonus_cap:
+    amount: 1000.0
+    unit: SGD_spend
+    period: statement_month
+    shared_with: [online]
+    sources: ['bank:f7d5dfb84040', 'milelion:e97c3ffbbb86']
+  rounding:
+    amount: 1.0
+    rounding: down
+    sources: ['bank:f7d5dfb84040']
+  conditions:
+  - 9,000 bonus points per statement month (S$1,000 of spend), shared with the online rule
+  sources: ['bank:f7d5dfb84040', 'milelion:e97c3ffbbb86']
 - id: base
-  label: baseline (SingSaver — verify)
+  label: All other spend (local and foreign currency)
   rate: 0.4
   unit: mpd
   tier: base
   eligibility:
     all_spend: true
-    description: ''
-    sources: ['singsaver:b0789316dd55']
+    description: 1 point per S$1 on all other qualifying spend.
+    sources: ['bank:f7d5dfb84040', 'milelion:e97c3ffbbb86']
   conditions: ['1 point per S$1, converted to KrisFlyer miles at 25000:10000']
-  sources: ['singsaver:b0789316dd55', 'milelion:e97c3ffbbb86']
+  sources: ['bank:f7d5dfb84040', 'milelion:e97c3ffbbb86']
+spend_cycle: statement_month
+spend_cycle_sources: ['bank:f7d5dfb84040', 'milelion:e97c3ffbbb86']
 general_exclusions:
-  exclude_mcc: [3000-3350, 3351-3500, 3501-3999, '4111', '4112', '4411', '4511', '4722', 4722-4723, '4723',
-    '4789', '5962', '7011', 7011-7012, '7012', '7512']
-  description: Auto-extracted from official T&Cs — confirm each code applies to this card
-  sources: ['bank:345af828d568', 'bank:f7d5dfb84040', 'bank:d43f74d8ca64', 'bank:7aa60cc0bebc', 'bank:d43f74d8ca64',
-    'bank:1ed263a0b182', 'bank:eb779aeca1b4', 'bank:472e40f873ba']
+  exclude_mcc: ['4829', '4900', '5199', '5960', '5993', '6012', '6050', '6051', '6211', '6300', '6513',
+    6529-6540, '7349', '7511', '7523', '7800', '7995', '8062', 8211-8299, '8398', 8651-8661, 9000-9999]
+  exclude_merchants: [AXS, BUS/MRT, EZ-Link, SimplyGo, Transit Link, TRANSIT, YouTrip, SAM, OANDA, Saxo, SKYFX]
+  description: Citi rewards exclusion list (updated Nov 2024, eff. 16 Dec 2024) — quasi-cash and stored-value
+    loads, utilities, insurance, financial services, real estate rentals, education, charity, hospitals,
+    political/religious organisations, government services, gambling, cigar stores, parking; plus the listed
+    merchants (incl. via Amaze).
+  sources: ['bank:d43f74d8ca64']
 sign_up_bonuses:
 - offered_by: singsaver
   description: 'SingSaver Flash Deal: choice of The latest smartphone (worth over S$1,8xx)'
@@ -259,6 +291,11 @@ citations:
   retrieved_at: '2026-09-27T05:28:59+00:00'
   sha256: e97c3ffbbb86c17682e52a3200d191f3bb9aa86da353b54c2d102219e9e7a89d
   snapshot: data/raw/milelion/post-72798-1714eaef.json
+- id: web:citi-rewards-page
+  url: https://www.citibank.com.sg/credit-cards/points/rewards-card
+  title: Citi Rewards Card (product page)
+  source_type: official
+  retrieved_at: '2026-10-18'
 review:
   status: reviewed
   reviewed_at: 2026-09-27

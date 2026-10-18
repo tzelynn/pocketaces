@@ -11,63 +11,167 @@ annual_fee:
     amount: 196.2
     currency: SGD
   first_year_waived: true
-  waiver_notes: S$ | First Year Waived
-  sources: ['singsaver:5dea93f61d89']
+  waiver_notes: First year waived; 10,000 KrisFlyer miles awarded when the annual fee is paid
+  sources: ['singsaver:5dea93f61d89', 'milelion:8db2ce8000c9', 'bank:177cfca919e0']
 min_annual_income:
   amount: 30000.0
   currency: SGD
 reward_currency:
   kind: miles
-  name: Miles
+  name: KrisFlyer miles
   expiry:
     months: 36
-    note: 'The MileLion: points validity “3 years”'
+    note: Miles are credited monthly straight to KrisFlyer (no conversion fee) and follow KrisFlyer's 3-year
+      expiry
     sources: ['milelion:8db2ce8000c9']
 earn_rules:
-- id: overseas
-  label: overseas, local online shopping, travel, hotel booking, dining, transport, local, flight booking
-    (SingSaver — verify)
+- id: sia-group
+  label: Singapore Airlines, Scoot & KrisShop
   rate: 3.0
   unit: mpd
   tier: bonus
   eligibility:
-    include_mcc: ['4121', '4816', '4829', '4900', '5199', '5262', '5306', '5309', '5310', '5311', '5331',
-      '5399', '5611', '5621', '5631', '5641', '5651', '5661', '5691', '5699', '5732', '5733', '5734',
-      '5735', '5912', '5942', 5944-5949, '5960', 5964-5969, '5965', '5970', '5992', '5993', '5999', '6012',
-      '6050', '6051', '6211', '6300', '6399', '6513', '6529', '6530', '6534', '6540', '7278', '7349',
-      '7511', '7523', '7995', '8011', '8062', '8099', '8211', '8220', '8241', '8244', '8249', '8299',
-      '8398', '8651', '8661', '8699', '8999', '9211', '9222', '9223', '9311', '9399', '9402', '9405']
-    modes_required: [online]
-    description: 'Everyday spend categories: dining, food delivery, online shopping, travel and transport,
-      with at least S$800 annual spend on Singapore Airlines, Scoot, and/or KrisShop. / Everyday spend
-      categories: dining, food delivery, online shopping, travel and transport, with at least S$800 annual
-      spend on Singapore Airlines, Scoot, and/or KrisShop / Everyday spend categories: dining, food delivery,
-      online shopping, travel and transport, with at least S$800 annual SIA-related spend. / 3 miles per
-      dollar on flights under Singapore Airlines. Everyday spend categories: dining, food delivery, online
-      shopping, travel and transport, with at least S$800 annual spend on Singapore Airlines, Scoot, and/or
-      KrisShop. [include_mcc auto-extracted from official T&C — check it belongs to this rule]'
-    sources: ['singsaver:5dea93f61d89', 'bank:177cfca919e0', 'bank:1951b0cae71a', 'bank:177cfca919e0',
-      'bank:c13cf48e44b4', 'bank:177cfca919e0', 'bank:168b1d918c7c', 'bank:086a993a52a7']
+    include_merchants: [Singapore Airlines, Scoot, KrisShop]
+    description: 15 KrisFlyer miles per S$5 on Singapore Airlines Group Related Card Transactions. Uncapped.
+    sources: ['bank:177cfca919e0']
+  rounding:
+    amount: 5
+    rounding: down
+    sources: ['bank:177cfca919e0']
+  sources: ['bank:177cfca919e0', 'milelion:8db2ce8000c9']
+- id: kris-plus-pelago
+  label: Kris+ app & Pelago
+  rate: 3.0
+  unit: mpd
+  tier: bonus
+  eligibility:
+    include_merchants: [Kris+, Pelago]
+    description: 15 KrisFlyer miles per S$5 on Kris+ app transactions and Pelago. Uncapped.
+    sources: ['bank:177cfca919e0']
+  rounding:
+    amount: 5
+    rounding: down
+    sources: ['bank:177cfca919e0']
+  sources: ['bank:177cfca919e0', 'milelion:8db2ce8000c9']
+- id: dining
+  label: Dining & food delivery (Accelerated Miles)
+  rate: 2.4
+  unit: mpd
+  tier: bonus
+  eligibility:
+    include_mcc: ['5812', '5813', '5814', '4121']
+    include_merchants: [Deliveroo, Foodpanda, GrabFood]
+    description: Restaurants, bars, fast food (MCC 5812-5814) and online food delivery (Grab Food via 4121,
+      DELIVEROO*, FOODPANDA*). MCC 5811 caterers not listed.
+    sources: ['bank:177cfca919e0']
+  rounding:
+    amount: 5
+    rounding: down
+    sources: ['bank:177cfca919e0']
+  min_spend:
+    amount: 1000.0
+    currency: SGD
+  min_spend_period: membership_year
   conditions:
-  - 'aggregator categories: travel, hotels, dining, transport, flights'
-  sources: ['singsaver:5dea93f61d89']
+  - 1.2 mpd base + 1.2 mpd Accelerated Miles; the accelerated part is only paid (after the membership year
+    ends) if you spend S$1,000+ on Singapore Airlines, Scoot and KrisShop in that card membership year (Kris+ and
+    Pelago don't count)
+  sources: ['bank:177cfca919e0', 'milelion:8db2ce8000c9']
+- id: online-shopping
+  label: Online shopping (Accelerated Miles)
+  rate: 2.4
+  unit: mpd
+  tier: bonus
+  eligibility:
+    include_mcc: ['4816', '5262', '5306', '5309', '5310', '5311', '5331', '5399', '5611', '5621', '5631',
+      '5641', '5651', '5661', '5691', '5699', '5732', '5733', '5735', '5912', '5942', '5944-5949', '5999']
+    modes_required: [online]
+    description: Card-not-present transactions (SGD or FCY) at these MCCs; MCC 7278 only for Shopee, Lazada,
+      Qoo10. Online 5734, 5964-5969, 5970, 5992 are excluded.
+    sources: ['bank:177cfca919e0']
+  rounding:
+    amount: 5
+    rounding: down
+    sources: ['bank:177cfca919e0']
+  min_spend:
+    amount: 1000.0
+    currency: SGD
+  min_spend_period: membership_year
+  conditions:
+  - 1.2 mpd base + 1.2 mpd Accelerated Miles; the accelerated part is only paid (after the membership year
+    ends) if you spend S$1,000+ on Singapore Airlines, Scoot and KrisShop in that card membership year (Kris+ and
+    Pelago don't count)
+  sources: ['bank:177cfca919e0', 'milelion:8db2ce8000c9']
+- id: online-travel
+  label: Online travel (Accelerated Miles)
+  rate: 2.4
+  unit: mpd
+  tier: bonus
+  eligibility:
+    include_merchants: [Agoda, Airbnb, Booking.com, Expedia, Hotels.com, Kaligo, Traveloka, Trip.com]
+    modes_required: [online]
+    description: Bookings on these merchants' official websites/apps, matched by transaction description.
+    sources: ['bank:177cfca919e0']
+  rounding:
+    amount: 5
+    rounding: down
+    sources: ['bank:177cfca919e0']
+  min_spend:
+    amount: 1000.0
+    currency: SGD
+  min_spend_period: membership_year
+  conditions:
+  - 1.2 mpd base + 1.2 mpd Accelerated Miles; the accelerated part is only paid (after the membership year
+    ends) if you spend S$1,000+ on Singapore Airlines, Scoot and KrisShop in that card membership year (Kris+ and
+    Pelago don't count)
+  sources: ['bank:177cfca919e0', 'milelion:8db2ce8000c9']
+- id: transport
+  label: Transport (Accelerated Miles)
+  rate: 2.4
+  unit: mpd
+  tier: bonus
+  eligibility:
+    include_mcc: ['4121']
+    include_merchants: [SimplyGo (BUS/MRT)]
+    description: Taxis and ride hailing (MCC 4121) and local bus/train rides (BUS/MRT*).
+    sources: ['bank:177cfca919e0']
+  rounding:
+    amount: 5
+    rounding: down
+    sources: ['bank:177cfca919e0']
+  min_spend:
+    amount: 1000.0
+    currency: SGD
+  min_spend_period: membership_year
+  conditions:
+  - 1.2 mpd base + 1.2 mpd Accelerated Miles; the accelerated part is only paid (after the membership year
+    ends) if you spend S$1,000+ on Singapore Airlines, Scoot and KrisShop in that card membership year (Kris+ and
+    Pelago don't count)
+  sources: ['bank:177cfca919e0', 'milelion:8db2ce8000c9']
 - id: base
-  label: baseline (SingSaver — verify)
+  label: All other spend
   rate: 1.2
   unit: mpd
   tier: base
   eligibility:
     all_spend: true
-    description: ''
-    sources: ['singsaver:5dea93f61d89']
-  sources: ['singsaver:5dea93f61d89']
+    description: 6 KrisFlyer miles per S$5, per transaction; FCY spend earns the same rate.
+    sources: ['bank:177cfca919e0']
+  rounding:
+    amount: 5
+    rounding: down
+    sources: ['bank:177cfca919e0']
+  sources: ['bank:177cfca919e0', 'milelion:8db2ce8000c9']
 general_exclusions:
-  exclude_mcc: ['4121', '4829', '4900', '5199', '5812', '5813', '5814', '5965', '5993', '6012', '6050',
-    '6051', '6211', '6513', '6529', '6530', '6534', '6540', '7349', '7511', '7523', '7801', '7995', '8011',
-    '8062', '8099', '8211', '8220', '8241', '8244', '8249', '8299', '8651', '8699', '8999']
-  description: Auto-extracted from official T&Cs — confirm each code applies to this card
-  sources: ['bank:177cfca919e0', 'bank:1951b0cae71a', 'bank:177cfca919e0', 'bank:c13cf48e44b4', 'bank:177cfca919e0',
-    'bank:168b1d918c7c', 'bank:086a993a52a7']
+  exclude_mcc: ['4829', '4900', '5199', '5960', '5965', '5993', '6012', '6050', '6051', '6211', '6300',
+    '6399', '6513', '6529', '6530', '6534', '6540', '7349', '7511', '7523', '7995', '8011', '8062', '8099',
+    '8211', '8220', '8241', '8244', '8249', '8299', '8398', '8651', '8661', '8699', '8999', '9211', '9222',
+    '9223', '9311', '9399', '9402', '9405']
+  exclude_merchants: [UOB$ merchants, SPC]
+  description: No miles for these MCCs (T&C 1.10), NETS, IPP, SmartPay, cash advance, fees/interest, UOB
+    Payment Facility, prepaid top-ups, brokerage, gambling; UOB$ merchants and SPC (1.12); AXS, Amaze,
+    EZ-Link, YouTrip, ipaymy, SmoovePay, RazerPay etc. (1.13)
+  sources: ['bank:177cfca919e0']
 sign_up_bonuses:
 - offered_by: singsaver
   description: 'Welcome Offer: choice of S$100 Samsung Voucher'
@@ -116,6 +220,8 @@ sign_up_bonuses:
   url: https://www.singsaver.com.sg/credit-card/products/krisflyer-uob-credit-card
   sources: ['singsaver:5dea93f61d89']
 notes:
+- Pelago bonus 600 miles for S$300+/calendar month on pelago.com/app paid by card entry (1 Jul – 31 Dec 2026).
+- KrisFlyer Elite Silver fast track with S$5,000 SIA Group spend in the first membership year.
 - 'Editorial review for cross-checking: Review: KrisFlyer UOB Credit Card (https://milelion.com/2026/04/12/review-krisflyer-uob-credit-card/,
   updated 2026-08-23)'
 - 'T&C mentions (check whether excluded): annual fee, axs, cardup, cash advance, charit, education, government,
@@ -173,5 +279,8 @@ citations:
   sha256: 8db2ce8000c9acf213ccf99cde11b68a4b6238932143b163fe8ac504c158e5d8
   snapshot: data/raw/milelion/post-72939-f7a05b69.json
 review:
-  status: draft
+  status: reviewed
+  reviewed_by: claude (web research)
+  reviewed_at: 2026-10-18
+  notes: Verified vs KrisFlyer UOB T&C v1.4 (1 Jul 2026) + MileLion review — S$196.20 FYF, S$30k, 1.2 mpd base, 3 mpd SIA/Scoot/KrisShop/Kris+/Pelago, 2.4 mpd dining/online shopping/online travel/transport with S$1k SIA annual spend; replaced garbage MCC lists and exclusions.
 updated_at: '2026-09-28'

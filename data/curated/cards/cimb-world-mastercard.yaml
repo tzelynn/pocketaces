@@ -3,13 +3,16 @@
 id: cimb-world-mastercard
 bank: CIMB Bank
 name: CIMB World Mastercard
+network: mastercard
 image_url: https://mhgprod.blob.core.windows.net/singsaver/strapi-uploads/xs_blt877fcf76cc9256de_a4e635301b.png
 official_url: https://www.cimb.com.sg/en/personal/banking-with-us/cards/credit-cards/cimb-world-mastercard.html
 annual_fee:
   amount:
     amount: 0.0
     currency: SGD
-  sources: ['moneysmart:eeee24fb93a9']
+  first_year_waived: true
+  waiver_notes: No annual fee for life
+  sources: ['moneysmart:eeee24fb93a9', 'web:cimb-wmc-page']
 min_annual_income:
   amount: 30000.0
   currency: SGD
@@ -17,59 +20,66 @@ reward_currency:
   kind: cashback
   name: Cashback
 earn_rules:
-- id: overseas
-  label: overseas (SingSaver — verify)
-  rate: 3.0
-  unit: percent
-  tier: bonus
-  eligibility:
-    include_mcc: ['4121', '5013', '5094', '5511', '5521', '5531', '5532', '5533', '5592', '5811', '5812',
-      '5813', '5814', '5815', '5816', '5818', '5944', '5948', '7531', '7534', '7535', '7538', '7832']
-    description: Up to | For a limited time, earn 3% on overseas foreign currency spend (valid till 31
-      Jan 2025). Base rate 1%. [include_mcc auto-extracted from official T&C — check it belongs to this
-      rule]
-    sources: ['singsaver:a7dfa0682bc7', 'bank:7af607a42690']
-  min_spend:
-    amount: 1000.0
-    currency: SGD
-  min_spend_period: statement_month
-  conditions:
-  - min spend S$1000/month from singsaver — confirm the period (statement vs calendar month) and which
-    rules it unlocks
-  sources: ['singsaver:a7dfa0682bc7']
-- id: retail
-  label: retail, transport, department store, dining, local (SingSaver — verify)
+- id: categories-1000
+  label: Dining & food delivery, movies & digital entertainment, taxi & automobile, luxury goods (S$1,000 spend)
   rate: 2.0
   unit: percent
   tier: bonus
   eligibility:
-    tags: [shopping, transport, dining]
-    description: With $1,000 min. spend posted in the same statement month. No cap. / On Taxi and Automobile
-      with $1,000 min. spend posted in the same statement month. / With $500 min. spend posted in the
-      same statement month. Earn an addition 1% cashback on all spend with a min. spend of S$2,500 in
-      the same statement month. No cap. / 2% cashback on dining, entertainment, luxury goods and taxi
-      with $1,000 min. spend posted in the same statement month. No cap.
-    sources: ['singsaver:a7dfa0682bc7']
+    include_mcc: ['5811', '5812', '5813', '5814', '5815', '5816', '5818', '7832', '4121', '5013', '5511', '5521',
+      '5531', '5532', '5533', '5592', '7531', '7534', '7535', '7538', '5094', '5944', '5948']
+    description: 2% unlimited cashback on the four eligible categories (local and overseas) when at least S$1,000
+      of retail transactions post in the statement month; 1% if below S$1,000
+    sources: ['bank:7af607a42690', 'web:cimb-wmc-page']
   min_spend:
     amount: 1000.0
     currency: SGD
   min_spend_period: statement_month
   conditions:
-  - min spend S$1000/month from singsaver — confirm the period (statement vs calendar month) and which
-    rules it unlocks
-  sources: ['singsaver:a7dfa0682bc7']
+  - Dining excludes wedding banquets and restaurants/bars inside hotels; food delivery via Deliveroo, foodpanda,
+    WhyQ, AirAsia Food and GrabFood (MCC 5814 only) qualifies
+  - Digital entertainment also covers online YouTube, Vimeo, Apple, Viu, Netflix, Spotify, iTunes, Google Play,
+    Disney+ and Amazon Prime Video (not via StarHub/Singtel billing); GrabPay top-ups excluded
+  sources: ['bank:7af607a42690', 'web:cimb-wmc-page']
+- id: categories
+  label: Eligible categories (below S$1,000 spend)
+  rate: 1.0
+  unit: percent
+  tier: bonus
+  eligibility:
+    include_mcc: ['5811', '5812', '5813', '5814', '5815', '5816', '5818', '7832', '4121', '5013', '5511', '5521',
+      '5531', '5532', '5533', '5592', '7531', '7534', '7535', '7538', '5094', '5944', '5948']
+    description: 1% unlimited cashback on the eligible categories when monthly spend is below S$1,000 (no
+      minimum)
+    sources: ['bank:7af607a42690']
+  sources: ['bank:7af607a42690']
 - id: base
-  label: baseline (SingSaver — verify)
+  label: All other spend (S$500 spend)
   rate: 1.0
   unit: percent
   tier: base
   eligibility:
     all_spend: true
-    description: With $500 min. spend posted in the same statement month. No cap.
-    sources: ['singsaver:a7dfa0682bc7']
-  sources: ['singsaver:a7dfa0682bc7']
+    description: 1% unlimited cashback on all other retail transactions when at least S$500 posts in the statement
+      month; no cashback on non-category spend below S$500
+    sources: ['bank:7af607a42690', 'web:cimb-wmc-page']
+  min_spend:
+    amount: 500.0
+    currency: SGD
+  min_spend_period: statement_month
+  sources: ['bank:7af607a42690', 'web:cimb-wmc-page']
+spend_cycle: statement_month
+spend_cycle_sources: ['bank:7af607a42690']
 general_exclusions:
-  description: Auto-extracted from official T&Cs — confirm each code applies to this card
+  exclude_mcc: ['4829', '4900', '6050', '6051', '6211', '6300', '7995', '8398', '8661', '9211', '9222', '9223',
+    '9311', '9399', '9402']
+  exclude_merchants: [EZ-Link, Transit Link, CardUp, ipaymy, Mileslife, SmoovPay, YouTrip, GrabPay top-ups, Singtel
+      Dash, ShopeePay, Lazada top-ups, AXS, SAM]
+  description: No cashback on cash advances, gambling, quasi-cash, insurance, government (services, postal, court
+    costs, fines, bail, tax), donations/non-profits, utilities, AXS/SAM, fees/interest, balance/funds transfers,
+    top-ups to payment service providers, brokerages and crypto. MCCs are representative codes for these named
+    categories (the T&C names categories, not codes).
+  sources: ['bank:7af607a42690']
 sign_up_bonuses:
 - offered_by: singsaver
   description: 'Stackable Welcome Offer: choice of Samsonite Black Label Fanthom Spinner 69/25 EXP TSA
@@ -112,8 +122,9 @@ sign_up_bonuses:
   url: https://www.singsaver.com.sg/credit-card/products/cimb-world-mastercard
   sources: ['singsaver:a7dfa0682bc7']
 notes:
-- 'T&C mentions (check whether excluded): axs, bill payment, cardup, cash advance, charit, government,
-  grabpay, instalment, interest, ipaymy, late payment charge, tax, top-up, top-ups, utilit, youtrip'
+- Cashback is credited in the following statement month; minimum spend counts by posting date and includes
+  supplementary card spend.
+- The 3% overseas FCY promotion quoted by SingSaver ended 31 Jan 2025.
 citations:
 - id: singsaver:a7dfa0682bc7
   url: https://www.singsaver.com.sg/credit-card/products/cimb-world-mastercard
@@ -135,6 +146,14 @@ citations:
   retrieved_at: '2026-09-27T07:30:54+00:00'
   sha256: 7af607a42690205cbb80ea07e6562579c71914ec8a0940c29e8f3dcf74d290d4
   snapshot: data/raw/bank/www-cimb-com-sg-content-dam-cimbsg-personal-document-cards-terms-and-conditions-tnc-worldmastercard-wef-1nov22-pdf-a4e59451.pdf
+- id: web:cimb-wmc-page
+  url: https://www.cimb.com.sg/en/personal/banking-with-us/cards/credit-cards/cimb-world-mastercard.html
+  title: CIMB World Mastercard
+  source_type: official
+  retrieved_at: '2026-10-18'
 review:
-  status: draft
+  status: reviewed
+  reviewed_by: claude (web research)
+  reviewed_at: 2026-10-18
+  notes: Verified vs CIMB WMC cashback T&C (wef 1 Nov 2022, unchanged Oct 2026) and CIMB product page — 2%/1% tiers, S$500/S$1,000 statement-month thresholds, no fee, income; general_exclusions MCCs mapped from named categories.
 updated_at: '2026-09-28'

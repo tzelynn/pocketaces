@@ -3,16 +3,18 @@
 id: dbs-vantage-visa-infinite
 bank: DBS
 name: DBS Vantage Visa Infinite Card
+network: visa
 image_url: https://mhgprod.blob.core.windows.net/singsaver/strapi-uploads/xs_blt1396105454583551_773417666f.webp
 official_url: https://www.dbs.com.sg/personal/cards/credit-cards/dbs-vantage-visa-infinite-card
 annual_fee:
   amount:
     amount: 599.5
     currency: SGD
-  first_year_waived: true
-  waiver_notes: S$ | Non-waivable for first year. Waiver will be granted in subsequent years with a minimum
-    eligible spend of S$60,000 within in a calendar year.
-  sources: ['singsaver:669435333fe4']
+  first_year_waived: false
+  waiver_notes: Strictly non-waivable in the first year. 12,500 DBS Points (25,000 miles) are credited each
+    time the fee is charged (first year and renewals). The automatic waiver for S$60,000 retail spend per
+    card year ceased from 1 Aug 2026.
+  sources: ['web:dbs-vantage-tnc', 'web:dbs-vantage-page']
 min_annual_income:
   amount: 120000.0
   currency: SGD
@@ -27,83 +29,63 @@ reward_currency:
       amount: 27.25
       currency: SGD
     min_block_points: 5000.0
-    note: 'The MileLion: min. transfer “5,000 DBS Points (10,000 miles)”, transfer fee “S$27.25” — confirm
-      the partner (the overview quotes KrisFlyer unless it says otherwise)'
-    sources: ['milelion:f3f89f11b3b4']
+    note: 1 DBS Point = 2 miles; S$27.25 (incl. GST) admin fee per conversion. Asia Miles (same ratio) and
+      AirAsia (500 points = 1,500) also available. Points can instead be taken as cashback (1 point = S$0.02).
+    sources: ['web:dbs-vantage-tnc', 'web:dbs-vantage-page', 'milelion:f3f89f11b3b4']
   expiry:
     months: 36
     months_max: 39
-    note: 'The MileLion: points validity “36-39 months”'
-    sources: ['milelion:f3f89f11b3b4']
+    note: Points earned expire 3 years from the earned date (first-year points up to 36 months from account
+      opening); MileLion quotes 36-39 months
+    sources: ['web:dbs-vantage-tnc', 'web:dbs-rewards-tnc', 'milelion:f3f89f11b3b4']
 earn_rules:
-- id: hotel-booking
-  label: hotel booking, flight booking, travel (SingSaver — verify)
-  rate: 6.0
-  unit: mpd
-  tier: bonus
-  eligibility:
-    tags: [hotels, flights, travel]
-    description: 'When you book a flight ticket, hotel stay or travel package on Expedia at any participating
-      airline or hotel partners.  / 6 miles per dollar when you book a flight ticket, hotel stay or travel
-      package on Expedia at any participating airline or hotel partners. '
-    sources: ['singsaver:669435333fe4']
-  min_spend:
-    amount: 2000.0
-    currency: SGD
-  min_spend_period: statement_month
-  conditions:
-  - min spend S$2000/month from singsaver — confirm the period (statement vs calendar month) and which
-    rules it unlocks
-  sources: ['singsaver:669435333fe4']
 - id: overseas
-  label: overseas (SingSaver — verify)
+  label: overseas spend in foreign currency
   rate: 2.2
   unit: mpd
   tier: bonus
   eligibility:
-    description: S$1 overseas spend = 2.2 miles
-    sources: ['singsaver:669435333fe4']
-  min_spend:
-    amount: 2000.0
-    currency: SGD
-  min_spend_period: statement_month
+    modes_required: [foreign_currency]
+    description: 5.5 DBS Points per S$5 on transactions posted in foreign currency (2.2 mpd, or 2.2% if
+      cashback is chosen), uncapped, no minimum spend.
+    sources: ['web:dbs-vantage-tnc']
   conditions:
-  - min spend S$2000/month from singsaver — confirm the period (statement vs calendar month) and which
-    rules it unlocks
-  sources: ['singsaver:669435333fe4']
-- id: local
-  label: local, retail, dining, local online shopping, overseas online shopping, department store, supermarket,
-    transport, petrol (SingSaver — verify)
-  rate: 1.5
-  unit: mpd
-  tier: bonus
-  eligibility:
-    tags: [shopping, dining, groceries, transport, petrol]
-    description: S$1 local spend = 1.5 miles
-    sources: ['singsaver:669435333fe4']
-  min_spend:
-    amount: 2000.0
-    currency: SGD
-  min_spend_period: statement_month
-  conditions:
-  - min spend S$2000/month from singsaver — confirm the period (statement vs calendar month) and which
-    rules it unlocks
-  sources: ['singsaver:669435333fe4']
+  - 'Points = amount / S$5 x 5.5, rounded down per transaction (not awarded in S$5 blocks)'
+  sources: ['web:dbs-vantage-tnc', 'web:dbs-rewards-tnc']
 - id: base
-  label: baseline (SingSaver — verify)
-  rate: 1.5
+  label: local spend (SGD)
+  rate: 1.4
   unit: mpd
   tier: base
   eligibility:
     all_spend: true
-    description: S$1 local spend = 1.5 miles
-    sources: ['singsaver:669435333fe4']
-  sources: ['singsaver:669435333fe4']
+    description: 3.5 DBS Points per S$5 on transactions posted in SGD (1.4 mpd, or 1.4% cashback) from 2 Nov
+      2026, uncapped, no minimum spend.
+    sources: ['web:dbs-vantage-tnc']
+  conditions:
+  - 'Points = amount / S$5 x 3.5, rounded down per transaction (not awarded in S$5 blocks)'
+  - Until 1 Nov 2026 the local rate was 1.5 mpd (3.75 points per S$5)
+  sources: ['web:dbs-vantage-tnc', 'web:dbs-rewards-tnc']
 general_exclusions:
-  description: Auto-extracted from official T&Cs — confirm each code applies to this card
+  exclude_mcc: ['4784', '4829', '4900', '5047', '5199', '5960', '5993', '6010', '6011', '6012', '6050', '6051',
+    '6211', '6300', '6381', '6399', '6513', '6529', '6530', '6534', '6540', '7349', '7511', '7523', '7995',
+    '8062', '8211', '8220', '8241', '8244', '8249', '8299', '8398', '8651', '8661', '8699', '8999', '9211',
+    '9222', '9223', '9311', '9399', '9402', '9405']
+  exclude_merchants: [AMAZE, AXS, AXS BizPay, AXS PTE LTD, BAGUS, CANTINE, EZLINK, EZ-LINK, PAYPAL *AXS PTE LTD,
+    RAZERPAY, SAM -, SAM PAYMENTS, SEDAP, SGEBIZ, SHOPEEPAY, SINGAPORE E-BUSINESS, SINGTEL DASH, SMOOVPAY,
+    TRANSIT 3, YOUTRIP]
+  description: No DBS Points for the MCCs and merchant descriptors in DBS Rewards T&C clause 2.8 (Tables
+    1 and 2), nor for posted 0% IPP / My Preferred Payment Plan instalments, interest, fees, cash advances,
+    balance transfers, AXS, SAM and internet-banking bill payments.
+  sources: ['web:dbs-rewards-tnc']
 notes:
 - 'Editorial review for cross-checking: Review: DBS Vantage Card (https://milelion.com/2026/08/12/review-dbs-vantage-card/,
   updated 2026-08-12)'
+- 'LOCAL RATE CHANGE: from 2 Nov 2026 local spend earns 1.4 mpd / 1.4% (1.5 before then) — Vantage T&C cl. 13. Record shows the post-change rate.'
+- Rewards can be switched between miles and cashback (1 DBS Point = S$0.02) once per calendar month in the
+  digibank app.
+- 'Benefits: 10 Priority Pass visits per card year and ALL Accor+ Explorer membership (Vantage T&C).'
+- The former 6 mpd Expedia rate ended 31 Mar 2024 (MileLion); there is no S$2,000 minimum spend.
 citations:
 - id: singsaver:669435333fe4
   url: https://www.singsaver.com.sg/credit-card/products/dbs-vantage-visa-infinite-card
@@ -126,6 +108,24 @@ citations:
   retrieved_at: '2026-09-28T13:28:20+00:00'
   sha256: f3f89f11b3b4cd60eace129cfcdf60d7334e0e4ad39b7d6b52ae7422476fc4da
   snapshot: data/raw/milelion/post-125552-ef67cc4a.json
+- id: web:dbs-vantage-tnc
+  url: https://www.dbs.com.sg/iwov-resources/pdf/cards/vantage-card-T&Cs.pdf
+  title: DBS Vantage Visa Infinite Card Promotions & Programmes T&Cs (last updated 25 Sep 2026)
+  source_type: official
+  retrieved_at: '2026-10-18'
+- id: web:dbs-vantage-page
+  url: https://www.dbs.com.sg/personal/cards/credit-cards/dbs-vantage-visa-infinite-card
+  title: DBS Vantage Visa Infinite Card (product page, Eligibility & Fees)
+  source_type: official
+  retrieved_at: '2026-10-18'
+- id: web:dbs-rewards-tnc
+  url: https://www.dbs.com.sg/iwov-resources/pdf/cards/rewards_programme_tnc.pdf
+  title: DBS Rewards Terms and Conditions (last updated Sep 2026)
+  source_type: official
+  retrieved_at: '2026-10-18'
 review:
-  status: draft
-updated_at: '2026-09-28'
+  status: reviewed
+  reviewed_by: claude (web research)
+  reviewed_at: 2026-10-18
+  notes: 'Verified fee (S$599.50, NOT first-year waived — draft was wrong), income, 1.5/2.2 mpd with no min spend (draft''s S$2,000 min spend and 6 mpd Expedia rule were wrong/expired), expiry, conversion fee, exclusions against Vantage T&C (25 Sep 2026), DBS Rewards T&C and product page. Local rule set to the 2 Nov 2026 rate of 1.4 mpd (1.5 until then).'
+updated_at: '2026-10-18'

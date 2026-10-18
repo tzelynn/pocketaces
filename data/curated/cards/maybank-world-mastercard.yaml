@@ -3,6 +3,7 @@
 id: maybank-world-mastercard
 bank: Maybank
 name: Maybank World Mastercard
+network: mastercard
 image_url: https://mhgprod.blob.core.windows.net/singsaver/strapi-uploads/xs_blt1c5e6c91278bfb82_a67efe23e2.png
 official_url: https://www.maybank2u.com.sg/en/personal/cards/credit/maybank-world-mastercard.page
 annual_fee:
@@ -10,8 +11,8 @@ annual_fee:
     amount: 261.6
     currency: SGD
   first_year_waived: true
-  waiver_notes: S$ | First Year Waived
-  sources: ['singsaver:a58c880e425d']
+  waiver_notes: First year waived; thereafter auto-waived with S$24,000 spend in the year before the fee is due
+  sources: ['singsaver:a58c880e425d', 'web:mb-wmc-page']
 min_annual_income:
   amount: 80000.0
   currency: SGD
@@ -26,51 +27,109 @@ reward_currency:
       amount: 27.25
       currency: SGD
     min_block_points: 25000.0
-    note: 'The MileLion: min. transfer “25,000 points (10,000 miles)*”, transfer fee “S$27.25” — confirm
-      the partner (the overview quotes KrisFlyer unless it says otherwise)'
-    sources: ['milelion:a66187e7cbf3']
+    note: 2.5 TREATS Points = 1 KrisFlyer mile, blocks of 25,000 points; S$27.25 per conversion (no longer
+      waived since April 2025). Also Asia Miles / Enrich 12,500:5,000, AirAsia 4,000:2,000.
+    sources: ['milelion:a66187e7cbf3', 'web:mb-treats-tnc']
   expiry:
     never: true
-    note: 'The MileLion: points validity “No expiry”'
-    sources: ['milelion:a66187e7cbf3']
+    note: Automatic Rewards Infinite membership — TREATS Points don't expire while it lasts
+    sources: ['web:mb-treats-tnc', 'web:mb-wmc-page', 'milelion:a66187e7cbf3']
 earn_rules:
-- id: retail
-  label: retail, petrol, dining (SingSaver — verify)
+- id: petrol
+  label: Petrol stations in Singapore (in person)
   rate: 4.0
   unit: mpd
   tier: bonus
   eligibility:
-    tags: [shopping, petrol, dining]
-    description: At select merchants on TREATS SG app.
-    sources: ['singsaver:a58c880e425d']
-  sources: ['singsaver:a58c880e425d']
-- id: local
-  label: local, overseas (SingSaver — verify)
-  rate: 0.4
+    include_mcc: ['5541']
+    modes_required: [local_currency]
+    modes_excluded: [online]
+    description: 10X TREATS Points at petrol stations in Singapore, uncapped, no minimum spend. Not for online
+      / in-app payments (e.g. Kris+, CaltexGo).
+    sources: ['web:mb-wmc-page', 'web:mb-wmc-tnc', 'milelion:a66187e7cbf3']
+  rounding:
+    amount: 5
+    rounding: down
+    sources: ['milelion:a66187e7cbf3']
+  sources: ['web:mb-wmc-page', 'web:mb-wmc-tnc']
+- id: specialty-merchants
+  label: Specialty retail & dining merchants (in person)
+  rate: 4.0
   unit: mpd
   tier: bonus
   eligibility:
-    description: ''
-    sources: ['singsaver:a58c880e425d']
-  sources: ['singsaver:a58c880e425d']
+    include_merchants: [Imperial Treasure, Les Amis Group, Valiram Group, Luxury Galleria (RWS), Leonian, IMM]
+    modes_excluded: [online]
+    description: 10X TREATS Points at the 10X merchants listed at maybank.sg/wmc (Imperial Treasure, Les Amis
+      group restaurants, Valiram brands, Luxury Galleria at RWS, golf clubs and more), uncapped except Luxury
+      Galleria (50,000 points/month). Not for online transactions.
+    sources: ['web:mb-wmc-page', 'web:mb-wmc-tnc', 'milelion:a66187e7cbf3']
+  rounding:
+    amount: 5
+    rounding: down
+    sources: ['milelion:a66187e7cbf3']
+  sources: ['web:mb-wmc-page', 'web:mb-wmc-tnc']
+- id: fcy-4k
+  label: Foreign currency spend (min. S$4,000/month)
+  rate: 3.2
+  unit: mpd
+  tier: bonus
+  eligibility:
+    modes_required: [foreign_currency]
+    description: 8X TREATS Points on foreign currency spend, uncapped, when retail spend in the calendar month
+      is at least S$4,000 (SGD + FCY). Applies from the first dollar.
+    sources: ['web:mb-wmc-tnc']
+  min_spend:
+    amount: 4000.0
+    currency: SGD
+  min_spend_period: calendar_month
+  sources: ['web:mb-wmc-tnc', 'web:mb-wmc-page']
+- id: fcy-800
+  label: Foreign currency spend (min. S$800/month)
+  rate: 2.8
+  unit: mpd
+  tier: bonus
+  eligibility:
+    modes_required: [foreign_currency]
+    description: 7X TREATS Points on foreign currency spend, uncapped, when retail spend in the calendar month
+      is at least S$800. Below S$800, FCY earns the 0.4 mpd base.
+    sources: ['web:mb-wmc-tnc']
+  min_spend:
+    amount: 800.0
+    currency: SGD
+  min_spend_period: calendar_month
+  sources: ['web:mb-wmc-tnc', 'web:mb-wmc-page']
 - id: base
-  label: baseline (SingSaver — verify)
+  label: All other spend
   rate: 0.4
   unit: mpd
   tier: base
   eligibility:
     all_spend: true
-    description: ''
-    sources: ['singsaver:a58c880e425d']
-  sources: ['singsaver:a58c880e425d']
+    description: 1X TREATS Point per S$1 (5 points per S$5 block) on local spend, incl. education and hospitals.
+    sources: ['web:mb-wmc-tnc', 'web:mb-treats-tnc']
+  rounding:
+    amount: 5
+    rounding: down
+    sources: ['web:mb-treats-tnc']
+  sources: ['web:mb-wmc-tnc']
 spend_cycle: calendar_month
-spend_cycle_sources: ['milelion:a66187e7cbf3']
+spend_cycle_sources: ['web:mb-wmc-tnc', 'milelion:a66187e7cbf3']
 general_exclusions:
-  description: Auto-extracted from official T&Cs — confirm each code applies to this card
+  exclude_mcc: ['4829', '4900', '5960', '6010', '6011', '6012', '6050', '6051', '6211', '6300', '6381', '6399',
+    '6529', '6530', '6534', '6540', '7349', '7511', '7523', '7995', '8398', '8651', '8661', '9211', '9222',
+    '9223', '9311', '9399', '9402', '9405']
+  exclude_merchants: [EZ-Link, SimplyGo, TransitLink, YouTrip, Instarem, RazerPay, Singtel Dash]
+  description: World Mastercard T&C + TREATS T&C clause 2.2 — no points or min-spend credit for these MCCs,
+    insurance, NETS/eNETS, AXS/SAM, government, gambling, brokerage, charities, instalment plans, fees/interest
+    and listed top-up/prepaid merchants.
+  sources: ['web:mb-wmc-tnc', 'web:mb-treats-tnc']
 notes:
-- 'spend_cycle calendar_month from The MileLion review (“The overseas earn rate is usually 0.4 mpd, but:
-  Cardholders who spend at least S$800 per calendar month earn 2.8 mpd Cardholders who spend at least
-  S$4,000 per calendar month earn 3.2 mpd Upsized earn”) — confirm it applies to min spend and caps'
+- Min spend tracked by posting date; transactions posted by the 7th of the next month count toward the month
+  they were made.
+- FCY bonus (6X/7X) is computed on the month's total eligible FCY spend without S$5 rounding; base 1X per
+  S$5 block per transaction.
+- FCY fee 3.25%.
 - 'Editorial review for cross-checking: Review: Maybank World Mastercard (https://milelion.com/2026/09/27/review-maybank-world-mastercard/,
   updated 2026-09-27)'
 citations:
@@ -95,6 +154,25 @@ citations:
   retrieved_at: '2026-09-28T13:28:07+00:00'
   sha256: a66187e7cbf32df3d49f2b1b7a2a69d4f58daf7bb103a70f4360d52b07485d21
   snapshot: data/raw/milelion/post-183960-21e730a2.json
+- id: web:mb-wmc-tnc
+  url: https://www.maybank2u.com.sg/iwov-resources/sg/pdf/cards/maybank-world-mastercard-tnc.pdf
+  title: Maybank World Mastercard Privileges T&Cs (effective 1 Dec 2025)
+  source_type: official
+  retrieved_at: '2026-10-18'
+- id: web:mb-wmc-page
+  url: https://www.maybank2u.com.sg/en/personal/cards/credit/maybank-world-mastercard.page
+  title: Maybank World Mastercard (product page)
+  source_type: official
+  retrieved_at: '2026-10-18'
+- id: web:mb-treats-tnc
+  url: https://www.maybank2u.com.sg/iwov-resources/sg/pdf/cards/terms_and_conditions.pdf
+  title: Maybank TREATS Points Rewards Programme T&Cs (effective 9 Oct 2026)
+  source_type: official
+  retrieved_at: '2026-10-18'
 review:
-  status: draft
+  status: reviewed
+  reviewed_by: claude (web research)
+  reviewed_at: 2026-10-18
+  notes: Fee, income, FCY 2.8/3.2 mpd tiers, 4 mpd petrol/10X merchants, conversion fee and expiry verified against
+    official page + T&Cs. Petrol MCC (5541 only) from MileLion; 10X merchant list is partial.
 updated_at: '2026-09-28'

@@ -14,14 +14,31 @@ annual_fee:
   sources: ['moneysmart:49fcb3586f25']
 reward_currency:
   kind: cashback
-  name: Cashback
+  name: Cashback (Zerofy balance)
+earn_rules:
+- id: base
+  label: Baseline cashback on all eligible spend
+  rate: 1.0
+  unit: percent
+  tier: base
+  eligibility:
+    all_spend: true
+    description: 1% instant cashback on all eligible spend, credited to the Circles Zerofy balance; no min. spend
+      and no cap. Up to 27% "upsized" cashback at select Zerofy partners when paying through the Circles.Life app
+      (partner-specific, not modelled).
+    sources: ['bank:937aa787e116', 'web:circles-zerofy-launch']
+  sources: ['bank:937aa787e116', 'web:circles-zerofy-launch']
 general_exclusions:
-  exclude_mcc: ['1000']
-  description: Auto-extracted from official T&Cs — confirm each code applies to this card
+  tags: [government, charity, utilities, insurance]
+  description: 'No baseline cashback on property management, property rental, government services/fines/taxes,
+    parking, charities, utilities, EV charging, insurance, gift cards and stored-value reloads; e-wallet top-ups
+    are declined (T&C clause 4.3, no MCC list given)'
   sources: ['bank:937aa787e116']
 notes:
-- 'No structured earn rates from aggregators: add earn_rules from the official T&C before review'
-- 'T&C mentions (check whether excluded): charit, e-wallet, government, tax, top-ups, utilit'
+- 'Not a credit card: a Visa payment card issued by Circles.Life with Airwallex, run on a card balance (limit up
+  to S$20,000), only for active Circles.Life mobile subscribers. Cancelling the card or the mobile line forfeits
+  the balance and accrued cashback.'
+- No min. income requirement published.
 citations:
 - id: moneysmart:49fcb3586f25
   url: https://www.moneysmart.sg/credit-cards?page=4
@@ -36,7 +53,14 @@ citations:
   retrieved_at: '2026-09-27T07:30:56+00:00'
   sha256: 937aa787e1164e494203bf05e63df1a8382b3b79ad2c067487acd1645058537b
   snapshot: data/raw/bank/www-circles-life-sg-terms-conditions-zerofy-card-terms-conditions-1e201a51.html
+- id: web:circles-zerofy-launch
+  url: https://circles.co/in-the-loop/cashback-card-no-fx-fees-zerofy-airwallex-visa-circles-life
+  title: Circles Zerofy cashback card launch (Airwallex, Visa) — 1% unlimited cashback, no min. spend or caps
+  source_type: official
+  retrieved_at: '2026-10-18'
 review:
-  status: draft
+  status: reviewed
+  reviewed_by: claude (web research)
+  reviewed_at: 2026-10-18
+  notes: 'Added 1% baseline cashback rule (no min/cap) from Circles T&C + launch post; replaced garbage exclude_mcc 1000 with T&C category exclusions. Prepaid-style Airwallex card for Circles subscribers, not credit. Could not verify FX fee or partner upsized rates (product page renders client-side).'
 updated_at: '2026-09-28'
-earn_rules: []

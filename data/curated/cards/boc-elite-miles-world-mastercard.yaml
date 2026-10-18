@@ -3,6 +3,7 @@
 id: boc-elite-miles-world-mastercard
 bank: Bank of China
 name: BOC Elite Miles World Mastercard
+network: mastercard
 image_url: https://mhgprod.blob.core.windows.net/singsaver/strapi-uploads/s_2026_06_BOC_Elite_Miles_World_Mastercard_fe27d2d6aa.png
 official_url: https://www.bankofchina.com/sg/bcservice/bc1/201909/t20190903_16537165.html
 annual_fee:
@@ -10,14 +11,14 @@ annual_fee:
     amount: 207.1
     currency: SGD
   first_year_waived: true
-  waiver_notes: S$ | First year annual fee waived for principal and supplementary cards.
-  sources: ['singsaver:5158f5d05b2f']
+  waiver_notes: S$207.10 incl. GST (supplementary S$103.55); first year waived for principal and supplementary cards
+  sources: ['singsaver:5158f5d05b2f', 'milelion:64f87053376f']
 min_annual_income:
   amount: 30000.0
   currency: SGD
 reward_currency:
-  kind: miles
-  name: Miles
+  kind: points
+  name: BOC Bonus Points
   conversions:
   - partner: KrisFlyer
     points: 50000.0
@@ -26,8 +27,8 @@ reward_currency:
       amount: 30.56
       currency: SGD
     min_block_points: 50000.0
-    note: 'The MileLion: min. transfer “50,000 pts (10,000 miles)”, transfer fee “S$30.56” — confirm the
-      partner (the overview quotes KrisFlyer unless it says otherwise)'
+    note: 5:1 since 1 Jul 2025; S$30.56 per conversion, max 10 blocks (100,000 miles) per conversion; points
+      don't pool across BOC cards; manual form, 14–21 working days
     sources: ['milelion:64f87053376f']
   expiry:
     months: 12
@@ -36,39 +37,38 @@ reward_currency:
     sources: ['milelion:64f87053376f']
 earn_rules:
 - id: overseas
-  label: overseas (SingSaver — verify)
+  label: overseas spend (foreign currency)
   rate: 2.8
   unit: mpd
   tier: bonus
   eligibility:
-    description: Earn 2.8 miles per S$1 overseas spend (awarded as 14 BOC Bonus Points per S$1).
-    sources: ['singsaver:5158f5d05b2f']
-  sources: ['singsaver:5158f5d05b2f']
-- id: local
-  label: local (SingSaver — verify)
-  rate: 1.4
-  unit: mpd
-  tier: bonus
-  eligibility:
-    description: Earn 1.4 miles per S$1 local spend (awarded as 7 BOC Bonus Points per S$1).
-    sources: ['singsaver:5158f5d05b2f']
-  sources: ['singsaver:5158f5d05b2f']
+    modes_required: [foreign_currency]
+    description: 14 BOC Bonus Points (2.8 miles) per S$1 Overseas Spend — FCY transactions charged overseas,
+      incl. online FCY at merchants with payment gateways outside Singapore; uncapped
+    sources: ['bank:fbd063643506', 'milelion:64f87053376f']
+  rounding:
+    amount: 1.0
+  sources: ['bank:fbd063643506', 'milelion:64f87053376f']
 - id: base
-  label: baseline (SingSaver — verify)
+  label: local spend
   rate: 1.4
   unit: mpd
   tier: base
   eligibility:
     all_spend: true
-    description: Earn 1.4 miles per S$1 local spend (awarded as 7 BOC Bonus Points per S$1).
-    sources: ['singsaver:5158f5d05b2f']
-  sources: ['singsaver:5158f5d05b2f']
+    description: 7 BOC Bonus Points (1.4 miles) per S$1 Local Spend (SGD, incl. FCY online at merchants with
+      Singapore payment gateways); uncapped
+    sources: ['bank:fbd063643506']
+  rounding:
+    amount: 1.0
+  sources: ['bank:fbd063643506', 'milelion:64f87053376f']
 general_exclusions:
   exclude_mcc: ['4829', '4900', '5199', '5960', '5965', '5993', '6010', '6011', '6012', '6050', '6051',
     '6211', '6300', '6381', '6399', '6513', '6529', '6530', '6534', '6540', '7349', '7511', '7523', '7995',
     '8062', '8211', '8220', '8241', '8244', '8249', '8299', '8398', '8651', '8661', '8699', '8999', '9211',
     '9222', '9223', '9311', '9399', '9402', '9405']
-  description: Auto-extracted from official T&Cs — confirm each code applies to this card
+  exclude_merchants: [CardUp, ipaymy, AXS, SAM, YouTrip, Revolut, GrabPay top-ups, ShopeePay top-ups, EZ-Link]
+  description: Clause 2.2 MCC exclusions (verified against the T&C); also IPP/instalments, fees, cash advances
   sources: ['bank:fbd063643506']
 notes:
 - 'Editorial review for cross-checking: Review: BOC Elite Miles World Mastercard (https://milelion.com/2026/07/14/review-boc-elite-miles-world-mastercard/,
@@ -97,5 +97,9 @@ citations:
   sha256: 64f87053376fe852e5496d3c27e5f23e79865b4ac05cc77aaec3b8e351941b6a
   snapshot: data/raw/milelion/post-72871-95594480.json
 review:
-  status: draft
+  status: reviewed
+  reviewed_by: claude (web research)
+  reviewed_at: 2026-10-18
+  notes: Verified 1.4/2.8 mpd uncapped, fee S$207.10 FYF, 50k:10k KrisFlyer at S$30.56, MCC exclusions (T&C eff.
+    1 Jul 2025, MileLion Jul 2026, SingSaver); exact rounding and points validity (12–24 mo) only editorial
 updated_at: '2026-09-28'

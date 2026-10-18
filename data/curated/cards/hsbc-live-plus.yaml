@@ -3,6 +3,7 @@
 id: hsbc-live-plus
 bank: HSBC
 name: HSBC Live+ Credit Card
+network: visa
 image_url: https://mhgprod.blob.core.windows.net/singsaver/strapi-uploads/s_bltb244f4aac0ce625f_5805a164bc.png
 official_url: https://www.hsbc.com.sg/credit-cards/products/liveplus/
 annual_fee:
@@ -10,8 +11,8 @@ annual_fee:
     amount: 196.2
     currency: SGD
   first_year_waived: true
-  waiver_notes: S$ | First Year Waived
-  sources: ['singsaver:05349b728ee8']
+  waiver_notes: First year waived; subsequent years waived with annual spend above S$12,500
+  sources: ['singsaver:05349b728ee8', 'web:hsbc-liveplus-page']
 min_annual_income:
   amount: 65000.0
   currency: SGD
@@ -20,42 +21,80 @@ reward_currency:
   name: Cashback
 earn_rules:
 - id: retail
-  label: retail, dining, local online shopping, petrol, overseas, overseas online shopping (SingSaver
-    — verify)
-  rate: 8.0
+  label: Dining, shopping & entertainment
+  rate: 5.0
   unit: percent
   tier: bonus
   eligibility:
-    tags: [shopping, dining, petrol]
-    description: Up to  | With min. spend of S$600 per calendar month per calendar quarter. / Up to  |
-      Get up to 8% cashback (5% base + 3% bonus) on dining, shopping, and entertainment with S$1,000/month
-      spend for the first 2 calendar quarters. Thereafter, earn 5% cashback with S$600/month spend. /
-      Up to  | On dining, entertainment, and shopping spend with a min. spend of S$600 per calendar month
-      per calendar quarter.
-    sources: ['singsaver:05349b728ee8']
-  sources: ['singsaver:05349b728ee8']
-- id: supermarket
-  label: supermarket (SingSaver — verify)
-  rate: 0.3
+    tags: [dining, shopping, entertainment]
+    include_mcc: ['5811', '5812', '5462', '5814', '5262', '5309', '5310', '5311', '5331', '5611', '5621',
+      '5631', '5641', '5651', '5655', '5661', '5691', '5699', '5941', '5948', '4899', '5735', '5815', '7832']
+    description: 5% cashback at Dining (excl. hotel dining), Shopping and Entertainment Merchants (MCC lists
+      in T&C) when the quarterly minimum spend is met; otherwise 0.3%.
+    sources: ['web:hsbc-liveplus-tnc']
+  min_spend:
+    amount: 600.0
+    currency: SGD
+  min_spend_period: calendar_month
+  bonus_cap:
+    amount: 250.0
+    unit: SGD_cashback
+    period: quarter
+    shared_with: [petrol, base]
+    sources: ['web:hsbc-liveplus-tnc']
+  conditions:
+  - Min. S$600 eligible spend in each of the 3 calendar months of a calendar quarter (S$1,000 for the whole
+    quarter in which the card is issued)
+  - All cashback under the programme is capped at S$250 per calendar quarter; credited within two months
+    after the quarter ends
+  - Cards issued 1 Apr 2025–31 Mar 2027 get an extra 3% (8% total) on dining, shopping and entertainment for
+    the first two calendar quarters
+  sources: ['web:hsbc-liveplus-tnc', 'web:hsbc-liveplus-page']
+- id: petrol
+  label: Petrol at Caltex & Shell (Singapore)
+  rate: 5.0
   unit: percent
   tier: bonus
   eligibility:
-    tags: [groceries]
-    description: ''
-    sources: ['singsaver:05349b728ee8']
-  sources: ['singsaver:05349b728ee8']
+    tags: [petrol]
+    include_mcc: ['5541', '5542']
+    include_merchants: [Caltex, Shell]
+    description: 5% at Caltex and Shell service stations in Singapore (MCC 5541/5542) when the quarterly
+      minimum spend is met; otherwise 0.3%.
+    sources: ['web:hsbc-liveplus-tnc']
+  min_spend:
+    amount: 600.0
+    currency: SGD
+  min_spend_period: calendar_month
+  bonus_cap:
+    amount: 250.0
+    unit: SGD_cashback
+    period: quarter
+    shared_with: [retail, base]
+    sources: ['web:hsbc-liveplus-tnc']
+  conditions:
+  - Same S$600-per-month-for-all-3-months quarterly minimum spend and S$250 quarterly cap as dining/shopping/entertainment
+  sources: ['web:hsbc-liveplus-tnc']
 - id: base
-  label: baseline (SingSaver — verify)
+  label: All other eligible purchases
   rate: 0.3
   unit: percent
   tier: base
   eligibility:
     all_spend: true
-    description: On all qualifying spend after cash back cap
-    sources: ['singsaver:05349b728ee8']
-  sources: ['singsaver:05349b728ee8']
+    description: 0.3% on eligible purchases outside the dining, shopping, entertainment and petrol merchants.
+    sources: ['web:hsbc-liveplus-tnc']
+  sources: ['web:hsbc-liveplus-tnc']
+spend_cycle: calendar_month
+spend_cycle_sources: ['web:hsbc-liveplus-tnc']
 general_exclusions:
-  description: Auto-extracted from official T&Cs — confirm each code applies to this card
+  exclude_mcc: ['4829', '4900', '5199', '5960', '6010', '6011', '6012', '6050', '6051', '6211', '6300',
+    '6513', '6529', '6530', '6532', '6533', '6534', '6536', '6537', '6538', '6540', '6555', '7299', '7349',
+    '7399', '7511', '7523', '7801', '7995', '8062', '8211', '8220', '8241', '8244', '8249', '8299', '8398',
+    '8651', '8661', '8999', '9211', '9222', '9223', '9311', '9399', '9402', '9405', '9754']
+  description: Excluded MCCs per the Live+ cashback T&C (effective 13 Mar 2026); also excludes AXS, e-wallet
+    top-ups, CardUp/iPayMy/PayPal transfers, insurance, education, utilities, government, charity
+  sources: ['web:hsbc-liveplus-tnc']
 sign_up_bonuses:
 - offered_by: singsaver
   description: 'SingSaver Exclusive Offer: choice of S$450 Upsized Cash via PayNow; ECOVACS DEEBOT mini
@@ -114,6 +153,9 @@ sign_up_bonuses:
   valid_to: '2026-09-30'
   url: https://www.moneysmart.sg/credit-cards/hsbc-live-plus-card
   sources: ['moneysmart:eeee24fb93a9']
+notes:
+- 'Min. income S$30,000 (S$40,000 self-employed) for existing customers with a Total Relationship Balance
+  of at least S$50,000; S$65,000 otherwise'
 citations:
 - id: singsaver:05349b728ee8
   url: https://www.singsaver.com.sg/credit-card/products/hsbc-live-plus-credit-card
@@ -129,6 +171,19 @@ citations:
   retrieved_at: '2026-09-27T05:27:12+00:00'
   sha256: eeee24fb93a9d85ef8b9194c11bda960b5b99ee30b3689cdc59fb650badebce7
   snapshot: data/raw/moneysmart/credit-cards-p1-b55034ef.html
+- id: web:hsbc-liveplus-page
+  url: https://www.hsbc.com.sg/credit-cards/products/liveplus/
+  title: HSBC Live+ Credit Card (product page)
+  source_type: official
+  retrieved_at: '2026-10-18'
+- id: web:hsbc-liveplus-tnc
+  url: https://www.hsbc.com.sg/content/dam/hsbc/sg/documents/credit-cards/liveplus/terms-and-conditions-cashback.pdf
+  title: HSBC Live+ Credit Card Quarterly Cashback Programme T&C (effective 13 Mar 2026)
+  source_type: official
+  retrieved_at: '2026-10-18'
 review:
-  status: draft
+  status: reviewed
+  reviewed_by: claude (web research)
+  reviewed_at: 2026-10-18
+  notes: 'Verified vs Live+ cashback T&C (eff. 13 Mar 2026) and product page: 5% dining/shopping/entertainment/petrol (Caltex, Shell) with S$600 every month of the quarter, S$250/quarter cap, 0.3% otherwise; 8% is a new-cardholder first-2-quarters boost (kept as condition). Annual fee amount S$196.20 from SingSaver only (not shown on HSBC page).'
 updated_at: '2026-09-28'

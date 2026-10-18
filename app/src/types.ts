@@ -144,6 +144,8 @@ export interface MyCard {
   dueDay?: number;
   /** annual fee billing date, 'MM-DD' */
   feeDate?: string;
+  /** when the earliest unredeemed points expire (miles cards) */
+  pointsExpiry?: Ymd;
   minSpend?: number;
   maxSpend?: number;
   /** user override: spend tracking resets on the statement date, or on the 1st; unset = follow the catalogue card */

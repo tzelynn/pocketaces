@@ -3,6 +3,7 @@
 id: uob-ladys-solitaire
 bank: UOB
 name: UOB Lady's Solitaire Card
+network: mastercard
 image_url: https://mhgprod.blob.core.windows.net/singsaver/strapi-uploads/xs_blta5d1b9cd0c5a5375_f468897b7e.png
 official_url: https://www.uob.com.sg/personal/cards/rewards/ladys-card/index.page
 annual_fee:
@@ -10,8 +11,8 @@ annual_fee:
     amount: 414.2
     currency: SGD
   first_year_waived: true
-  waiver_notes: S$ | First Year Waived
-  sources: ['singsaver:09b24b14939c']
+  waiver_notes: First year waived
+  sources: ['singsaver:09b24b14939c', 'bank:81f35dee5222', 'milelion:b711b717fccc']
 min_annual_income:
   amount: 120000.0
   currency: SGD
@@ -26,59 +27,215 @@ reward_currency:
       amount: 27.0
       currency: SGD
     min_block_points: 5000.0
-    note: 'The MileLion: min. transfer “5,000 UNI$ (10,000 miles)”, transfer fee “S$27” — confirm the
-      partner (the overview quotes KrisFlyer unless it says otherwise)'
-    sources: ['milelion:b711b717fccc']
+    note: UNI$1 = 2 miles, in blocks of 10,000 miles; S$27 per conversion
+    sources: ['milelion:b711b717fccc', 'bank:81f35dee5222']
+  - partner: Asia Miles
+    points: 5000.0
+    partner_units: 10000.0
+    fee:
+      amount: 27.0
+      currency: SGD
+    min_block_points: 5000.0
+    sources: ['milelion:b711b717fccc', 'bank:81f35dee5222']
   expiry:
     months: 24
     months_max: 27
     note: 'The MileLion: points validity “24-27 months”'
     sources: ['milelion:b711b717fccc']
 earn_rules:
-- id: retail
-  label: retail, dining, local online shopping, overseas online shopping, department store, supermarket,
-    hotel booking, flight booking, transport, petrol, local, overseas (SingSaver — verify)
+- id: beauty_wellness
+  label: Beauty & Wellness (if chosen as 1 of 2 Preferred Rewards Categories)
   rate: 4.0
   unit: mpd
   tier: bonus
   eligibility:
-    include_mcc: ['4111', '4121', '4789', '4829', '4900', '5199', '5311', '5411', '5499', '5541', '5542',
-      '5611', '5621', '5631', '5641', '5651', '5655', '5661', '5691', '5699', '5811', '5812', '5813',
-      '5814', '5912', '5948', '5960', '5965', '5977', '5993', '6010', '6012', '6050', '6051', '6211',
-      '6300', '6399', '6513', '6529', '6530', '6534', '6540', '7230', '7231', '7297', '7298', '7349',
-      '7511', '7523', '7800', '7801', '7802', '7832', '7922', '7995', '8062', '8211', '8220', '8241',
-      '8244', '8249', '8299', '8398', '8651', '8661', '8699', '8999', '9211', '9222', '9223', '9311',
-      '9399', '9402', '9405']
-    description: Get up to 4 miles per dollar on up to 2 rewards categories out of 7; get 0.4 miles per
-      dollar on all other spend. [include_mcc auto-extracted from official T&C — check it belongs to this
-      rule]
-    sources: ['singsaver:09b24b14939c', 'bank:81f35dee5222', 'bank:71ea38bfb0c0', 'bank:bdae7266d2bd',
-      'bank:2c85a31ddb07', 'bank:48c9f45f29a0', 'bank:42358e29d735', 'bank:b9775b287c7c', 'bank:49cbf131fbb8',
-      'bank:3c5fb33c30de', 'bank:8288a588164b', 'bank:c13cf48e44b4']
+    include_mcc: ['5912', '5977', '7230', '7231', '7297', '7298']
+    description: Beauty & Wellness MCCs per Lady's T&C Schedule 1.
+    sources: ['bank:81f35dee5222']
+  bonus_cap:
+    amount: 750.0
+    unit: SGD_spend
+    period: calendar_month
+    sources: ['bank:81f35dee5222']
+  rounding:
+    amount: 5
+    per: calendar_month
+    rounding: down
+    sources: ['milelion:b711b717fccc']
   conditions:
-  - 'aggregator categories: shopping, dining, groceries, hotels, flights, transport, petrol'
-  sources: ['singsaver:09b24b14939c']
+  - Only the 2 categories selected at uob.com.sg/ladys-enrol earn 10X UNI$ per S$5; selection changes apply
+    from the next calendar quarter
+  - Each category capped at S$750 spend (1,350 bonus UNI$) per calendar month by posting date — S$1,500 total
+  sources: ['bank:81f35dee5222']
+- id: dining
+  label: Dining (if chosen as 1 of 2 Preferred Rewards Categories)
+  rate: 4.0
+  unit: mpd
+  tier: bonus
+  eligibility:
+    include_mcc: ['5811', '5812', '5814', '5499']
+    description: Dining MCCs per Lady's T&C Schedule 1.
+    sources: ['bank:81f35dee5222']
+  bonus_cap:
+    amount: 750.0
+    unit: SGD_spend
+    period: calendar_month
+    sources: ['bank:81f35dee5222']
+  rounding:
+    amount: 5
+    per: calendar_month
+    rounding: down
+    sources: ['milelion:b711b717fccc']
+  conditions:
+  - Only the 2 categories selected at uob.com.sg/ladys-enrol earn 10X UNI$ per S$5; selection changes apply
+    from the next calendar quarter
+  - Each category capped at S$750 spend (1,350 bonus UNI$) per calendar month by posting date — S$1,500 total
+  sources: ['bank:81f35dee5222']
+- id: entertainment
+  label: Entertainment (if chosen as 1 of 2 Preferred Rewards Categories)
+  rate: 4.0
+  unit: mpd
+  tier: bonus
+  eligibility:
+    include_mcc: ['5813', '7832', '7922']
+    description: Entertainment MCCs per Lady's T&C Schedule 1.
+    sources: ['bank:81f35dee5222']
+  bonus_cap:
+    amount: 750.0
+    unit: SGD_spend
+    period: calendar_month
+    sources: ['bank:81f35dee5222']
+  rounding:
+    amount: 5
+    per: calendar_month
+    rounding: down
+    sources: ['milelion:b711b717fccc']
+  conditions:
+  - Only the 2 categories selected at uob.com.sg/ladys-enrol earn 10X UNI$ per S$5; selection changes apply
+    from the next calendar quarter
+  - Each category capped at S$750 spend (1,350 bonus UNI$) per calendar month by posting date — S$1,500 total
+  sources: ['bank:81f35dee5222']
+- id: family
+  label: Family (if chosen as 1 of 2 Preferred Rewards Categories)
+  rate: 4.0
+  unit: mpd
+  tier: bonus
+  eligibility:
+    include_mcc: ['5411', '5641']
+    description: Family MCCs per Lady's T&C Schedule 1.
+    sources: ['bank:81f35dee5222']
+  bonus_cap:
+    amount: 750.0
+    unit: SGD_spend
+    period: calendar_month
+    sources: ['bank:81f35dee5222']
+  rounding:
+    amount: 5
+    per: calendar_month
+    rounding: down
+    sources: ['milelion:b711b717fccc']
+  conditions:
+  - Only the 2 categories selected at uob.com.sg/ladys-enrol earn 10X UNI$ per S$5; selection changes apply
+    from the next calendar quarter
+  - Each category capped at S$750 spend (1,350 bonus UNI$) per calendar month by posting date — S$1,500 total
+  sources: ['bank:81f35dee5222']
+- id: fashion
+  label: Fashion (if chosen as 1 of 2 Preferred Rewards Categories)
+  rate: 4.0
+  unit: mpd
+  tier: bonus
+  eligibility:
+    include_mcc: ['5311', '5611', '5621', '5631', '5651', '5655', '5661', '5691', '5699', '5948']
+    description: Fashion MCCs per Lady's T&C Schedule 1.
+    sources: ['bank:81f35dee5222']
+  bonus_cap:
+    amount: 750.0
+    unit: SGD_spend
+    period: calendar_month
+    sources: ['bank:81f35dee5222']
+  rounding:
+    amount: 5
+    per: calendar_month
+    rounding: down
+    sources: ['milelion:b711b717fccc']
+  conditions:
+  - Only the 2 categories selected at uob.com.sg/ladys-enrol earn 10X UNI$ per S$5; selection changes apply
+    from the next calendar quarter
+  - Each category capped at S$750 spend (1,350 bonus UNI$) per calendar month by posting date — S$1,500 total
+  sources: ['bank:81f35dee5222']
+- id: transport
+  label: Transport (if chosen as 1 of 2 Preferred Rewards Categories)
+  rate: 4.0
+  unit: mpd
+  tier: bonus
+  eligibility:
+    include_mcc: ['4111', '4121', '4789', '5541', '5542']
+    description: Transport MCCs per Lady's T&C Schedule 1.
+    sources: ['bank:81f35dee5222']
+  bonus_cap:
+    amount: 750.0
+    unit: SGD_spend
+    period: calendar_month
+    sources: ['bank:81f35dee5222']
+  rounding:
+    amount: 5
+    per: calendar_month
+    rounding: down
+    sources: ['milelion:b711b717fccc']
+  conditions:
+  - Only the 2 categories selected at uob.com.sg/ladys-enrol earn 10X UNI$ per S$5; selection changes apply
+    from the next calendar quarter
+  - Each category capped at S$750 spend (1,350 bonus UNI$) per calendar month by posting date — S$1,500 total
+  sources: ['bank:81f35dee5222']
+- id: travel
+  label: Travel (if chosen as 1 of 2 Preferred Rewards Categories)
+  rate: 4.0
+  unit: mpd
+  tier: bonus
+  eligibility:
+    include_mcc: ['3000-3299', '4511', '4582', '4411', '4722', '5309', '3500-3999', '7011']
+    description: Travel — airlines and hotels (incl. online). UOB publishes no MCC list — codes per The MileLion (most, not all, of 3000-3299 / 3500-3999).
+    sources: ['bank:81f35dee5222', 'milelion:b711b717fccc']
+  bonus_cap:
+    amount: 750.0
+    unit: SGD_spend
+    period: calendar_month
+    sources: ['bank:81f35dee5222']
+  rounding:
+    amount: 5
+    per: calendar_month
+    rounding: down
+    sources: ['milelion:b711b717fccc']
+  conditions:
+  - Only the 2 categories selected at uob.com.sg/ladys-enrol earn 10X UNI$ per S$5; selection changes apply
+    from the next calendar quarter
+  - Each category capped at S$750 spend (1,350 bonus UNI$) per calendar month by posting date — S$1,500 total
+  sources: ['bank:81f35dee5222']
 - id: base
-  label: baseline (SingSaver — verify)
+  label: baseline
   rate: 0.4
   unit: mpd
   tier: base
   eligibility:
     all_spend: true
-    description: Unlimited 0.4 miles per dollar on all other spend outside enrolled rewards category.
-    sources: ['singsaver:09b24b14939c']
-  sources: ['singsaver:09b24b14939c']
+    description: UNI$1 per S$5 (0.4 mpd) on all other eligible spend, SGD or FCY.
+    sources: ['bank:81f35dee5222']
+  rounding:
+    amount: 5
+    rounding: down
+    sources: ['bank:81f35dee5222']
+  sources: ['bank:81f35dee5222']
 spend_cycle: calendar_month
-spend_cycle_sources: ['milelion:b711b717fccc']
+spend_cycle_sources: ['bank:81f35dee5222', 'milelion:b711b717fccc']
 general_exclusions:
   exclude_mcc: ['4829', '4900', '5199', '5960', '5965', '5993', '6012', '6050', '6051', '6211', '6300',
     '6513', '6529', '6530', '6534', '6540', '7349', '7511', '7523', '7995', '8062', '8211', '8220', '8241',
     '8244', '8249', '8299', '8398', '8651', '8661', '8699', '8999', '9211', '9222', '9223', '9311', '9399',
     '9402', '9405']
-  description: Auto-extracted from official T&Cs — confirm each code applies to this card
-  sources: ['bank:81f35dee5222', 'bank:71ea38bfb0c0', 'bank:bdae7266d2bd', 'bank:2c85a31ddb07', 'bank:48c9f45f29a0',
-    'bank:42358e29d735', 'bank:b9775b287c7c', 'bank:49cbf131fbb8', 'bank:3c5fb33c30de', 'bank:8288a588164b',
-    'bank:c13cf48e44b4']
+  description: No UNI$ for these MCCs (Lady's T&C clause 34), nor bill payment, NETS, IPP, cash advance,
+    fees/interest, prepaid top-ups, gambling/trading; or AXS, Amaze, EZ-Link, YouTrip, ipaymy, PayPal etc.
+    (clause 35)
+  sources: ['bank:81f35dee5222']
 notes:
 - spend_cycle calendar_month from The MileLion review (“For example, if a UOB Lady’s Cardholder upgrades
   to the UOB Lady’s Solitaire and holds both cards, their bonus cap will still be S$1,500 per calendar
@@ -177,5 +334,8 @@ citations:
   sha256: b711b717fccc59e79beba4b13fbbb25ca8d17471111cbcae8a4a64b97b6572aa
   snapshot: data/raw/milelion/post-74173-17e1b02f.json
 review:
-  status: draft
+  status: reviewed
+  reviewed_by: claude (web research)
+  reviewed_at: 2026-10-18
+  notes: Verified vs UOB Lady's T&C (Aug 2025 v1.1, still current) + MileLion Aug 2026 review — fee S$414.20 FYF, S$120k income, 4 mpd on 2 of 7 categories split into per-category rules with S$750/month sub-caps, 0.4 mpd base, UNI$ 1:2 KF/Asia Miles S$27, 24-27 mo expiry. Travel MCCs are MileLion's (UOB publishes none).
 updated_at: '2026-09-28'

@@ -10,8 +10,9 @@ annual_fee:
   amount:
     amount: 30.0
     currency: SGD
-  waiver_notes: S$ | First Three Years Waived
-  sources: ['singsaver:eccd48c19a58']
+  first_year_waived: true
+  waiver_notes: S$30 incl. GST (Classic; supplementary S$15); waived for the first 3 years
+  sources: ['web:icbc-fees', 'singsaver:eccd48c19a58']
 min_annual_income:
   amount: 30000.0
   currency: SGD
@@ -20,46 +21,58 @@ reward_currency:
   name: Cashback
 earn_rules:
 - id: overseas
-  label: overseas, local, travel, dining, supermarket, petrol, retail, local online shopping, overseas
-    online shopping, department store, online bill payment spending, contactless spend, transport (SingSaver
-    — verify)
+  label: spend above S$500 (3rd consecutive S$500+ month)
   rate: 8.0
   unit: percent
   tier: bonus
   eligibility:
-    tags: [travel, dining, groceries, petrol, shopping, transport]
-    description: Up to  | For all qualifying spend S$500 and above for three consecutive months in a quarter,
-      monthly cashback capped at S$60. / Up to | For all qualifying spend above S$500. / Up to | For all
-      qualifying spend S$500 and above for three consecutive months in a quarter, monthly cashback capped
-      at S$60.
-    sources: ['singsaver:eccd48c19a58']
+    all_spend: true
+    description: Spend above S$500 in a calendar month earns 2% in the first S$500+ month, 5% in the second
+      consecutive one and 8% in the third; the first S$500 always earns 0.5%. Each 3 consecutive months form a
+      Qualifying Quarter, after which the ladder restarts
+    sources: ['bank:1e7fc70513b7']
   min_spend:
     amount: 500.0
     currency: SGD
-  min_spend_period: statement_month
+  min_spend_period: calendar_month
+  bonus_cap:
+    amount: 80.0
+    unit: SGD_cashback
+    period: calendar_month
+    sources: ['bank:1e7fc70513b7']
   conditions:
-  - min spend S$500/month from singsaver — confirm the period (statement vs calendar month) and which
-    rules it unlocks
-  sources: ['singsaver:eccd48c19a58']
+  - 'Ladder: 2% / 5% / 8% on the portion above S$500, max total cashback per month S$50 / S$60 / S$80'
+  - Transactions rounded to the nearest S$1; cashback credited within 30 business days of month end and must
+    be used within 12 months
+  sources: ['bank:1e7fc70513b7']
 - id: base
-  label: baseline (SingSaver — verify)
+  label: first S$500 each month
   rate: 0.5
   unit: percent
   tier: base
   eligibility:
     all_spend: true
-    description: For all qualifying spend up to S$500 monthly per quarter.
-    sources: ['singsaver:eccd48c19a58']
-  sources: ['singsaver:eccd48c19a58']
+    description: 0.5% Cashback on qualifying spend up to S$500 in a calendar month
+    sources: ['bank:1e7fc70513b7']
+  sources: ['bank:1e7fc70513b7']
+spend_cycle: calendar_month
+spend_cycle_sources: ['bank:1e7fc70513b7']
 general_exclusions:
   exclude_mcc: ['4829', '4900', '5199', '5960', '6012', '6050', '6051', '6211', '6300', '6513', '6529',
     '6530', '6540', '7523', '7995', '8062', '8211', '8220', '8241', '8244', '8249', '8299', '8398', '8651',
     '8661', '8699', '9211', '9222', '9223', '9311', '9399', '9402', '9405', '9498']
-  description: Auto-extracted from official T&Cs — confirm each code applies to this card
+  exclude_merchants: [EZ-Link top-ups, TransitLink, FlashPay, GrabPay top-up, AXS]
+  description: Clause 1.4 exclusions incl. insurance premiums, real estate, education, tax, AXS and prepaid
+    top-ups (T&C as at Oct 2025)
   sources: ['bank:1e7fc70513b7']
 notes:
 - 'T&C mentions (check whether excluded): axs, government, grabpay, interest, ipp, tax, top-up'
 citations:
+- id: web:icbc-fees
+  url: https://v.icbc.com.cn/userfiles/resources/icbc/haiwai/singapore/download/2023/icbc_fee_schedule_2023.pdf
+  title: Fee Schedule of ICBC Singapore Credit Card
+  source_type: official
+  retrieved_at: '2026-10-18'
 - id: singsaver:eccd48c19a58
   url: https://www.singsaver.com.sg/credit-card/products/icbc-unionpay-dual-currency-credit-card
   title: ICBC UnionPay Dual Currency Credit Card
@@ -74,5 +87,9 @@ citations:
   sha256: 1e7fc70513b7f1a4c03c8d91fb1a3d6625b608adf05e470ca8ea17253e7c3034
   snapshot: data/raw/bank/v-icbc-com-cn-userfiles-resources-icbc-haiwai-singapore-download-2025-dualcurrency-tc-pdf-e0ab8ee0.pdf
 review:
-  status: draft
+  status: reviewed
+  reviewed_by: claude (web research)
+  reviewed_at: 2026-10-18
+  notes: Rebuilt from the Dual Currency cashback T&C (as at Oct 2025) — 0.5% first S$500, 2/5/8% ladder above
+    S$500 over consecutive calendar months, monthly cap S$50 / S$60 / S$80; fee from 2023 fee schedule (Classic tier assumed)
 updated_at: '2026-09-28'

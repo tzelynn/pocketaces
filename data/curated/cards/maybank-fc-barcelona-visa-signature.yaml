@@ -5,40 +5,46 @@ bank: Maybank
 name: Maybank FC Barcelona Visa Signature Card
 image_url: https://mhgprod.blob.core.windows.net/singsaver/strapi-uploads/xs_bltff79ab274a856fe5_9678a80d1f.png
 official_url: https://www.maybank2u.com.sg/en/personal/cards/credit/maybank-fc-barcelona-visa-signature-card.page
+network: visa
 annual_fee:
   amount:
     amount: 130.8
     currency: SGD
-  waiver_notes: S$ | First 2 Years Waived, thereafter can be waived if min spend of $10K is hit per annum
-  sources: ['singsaver:c585ac636d7d']
+  waiver_notes: First 2 years waived; thereafter auto-waived with S$10,000 total spend in the year before the
+    fee is due
+  sources: ['singsaver:c585ac636d7d', 'web:mb-fcb-page']
 min_annual_income:
   amount: 30000.0
   currency: SGD
 reward_currency:
-  kind: points
-  name: Points
+  kind: cashback
+  name: Cashback
 earn_rules:
-- id: overseas-spending
-  label: overseas spending (SingSaver — verify)
-  rate: 10.0
-  unit: points_per_dollar
-  tier: bonus
-  eligibility:
-    description: Spent in foreign currency.
-    sources: ['singsaver:c585ac636d7d']
-  sources: ['singsaver:c585ac636d7d']
 - id: base
-  label: baseline (SingSaver — verify)
-  rate: 10.0
-  unit: points_per_dollar
+  label: Local and overseas spend
+  rate: 1.6
+  unit: percent
   tier: base
   eligibility:
     all_spend: true
-    description: For foreign currency spend only.
-    sources: ['singsaver:c585ac636d7d']
-  sources: ['singsaver:c585ac636d7d']
+    description: 1.6% unlimited cashback on SGD and overseas retail spend, no minimum spend, no cap.
+    sources: ['web:mb-fcb-tnc', 'web:mb-fcb-page']
+  conditions:
+  - Selected Local Card Transactions earn only 0.3% (uncapped) — SGD spend under MCC 6513 (rentals), 7399
+    (business services), medical (4119, 5047, 5122, 5912, 5975, 5976, 8011-8099) and education (8211, 8220,
+    8241, 8244, 8249, 8299)
+  - Cashback computed per transaction to 2 decimal places; credited the month after posting
+  sources: ['web:mb-fcb-tnc']
 general_exclusions:
-  description: Auto-extracted from official T&Cs — confirm each code applies to this card
+  exclude_mcc: ['4829', '4900', '6010', '6011', '6012', '6050', '6051', '6300', '6529', '6530', '6534', '6540',
+    '7349', '7511', '7523', '8398', '8651', '8661']
+  exclude_merchants: [EZ-Link, SimplyGo, TransitLink, YouTrip, Instarem, RazerPay, Singtel Dash]
+  description: FC Barcelona Cashback Programme T&C clause 2ix — no cashback for these MCCs, NETS/eNETS,
+    government payments, gambling, brokerage, insurance, AXS/SAM, instalment plans, fees/interest and listed
+    top-up/prepaid merchants.
+  sources: ['web:mb-fcb-tnc']
+notes:
+- Earns cashback, not TREATS Points (the SingSaver "10 points per S$1" figures were wrong).
 citations:
 - id: singsaver:c585ac636d7d
   url: https://www.singsaver.com.sg/credit-card/products/maybank-fc-barcelona-visa-signature-card
@@ -54,6 +60,20 @@ citations:
   retrieved_at: '2026-09-27T05:27:20+00:00'
   sha256: 49fcb3586f252df0b2dacb9acecc465127e09c9defa7f151881c3db46d84649e
   snapshot: data/raw/moneysmart/credit-cards-p4-1a322210.html
+- id: web:mb-fcb-tnc
+  url: https://www.maybank2u.com.sg/iwov-resources/sg/pdf/cards/fc-barcelona-visa-signature-tnc.pdf
+  title: Maybank FC Barcelona Visa Signature Card Cashback Programme T&Cs (effective March 2026)
+  source_type: official
+  retrieved_at: '2026-10-18'
+- id: web:mb-fcb-page
+  url: https://www.maybank2u.com.sg/en/personal/cards/credit/maybank-fc-barcelona-visa-signature-card.page
+  title: Maybank FC Barcelona Visa Signature Card (product page)
+  source_type: official
+  retrieved_at: '2026-10-18'
 review:
-  status: draft
+  status: reviewed
+  reviewed_by: claude (web research)
+  reviewed_at: 2026-10-18
+  notes: Fee, waiver, income, 1.6%/0.3% cashback structure and exclusions verified against official product page
+    + T&C (March 2026). Nothing left unverified.
 updated_at: '2026-09-28'

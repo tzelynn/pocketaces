@@ -11,39 +11,76 @@ annual_fee:
     amount: 196.2
     currency: SGD
   first_year_waived: true
-  waiver_notes: S$ | First Year Waived
-  sources: ['singsaver:fa2c25ac592d']
+  waiver_notes: First year waived.
+  sources: ['web:dbs-esso-page', 'singsaver:fa2c25ac592d']
 min_annual_income:
   amount: 30000.0
   currency: SGD
 reward_currency:
   kind: points
-  name: Points
+  name: Esso Smiles Points
+  expiry:
+    months: 12
+    note: Smiles Points expire if no Smiles Points are earned at an Esso station in Singapore within 12 months
+      of the last award
+    sources: ['web:dbs-esso-smiles-tnc']
+  redemption:
+    min_block: 300.0
+    min_block_unit: points
+    sources: ['web:dbs-esso-page']
 earn_rules:
 - id: petrol
-  label: petrol (SingSaver — verify)
-  rate: 1.0
-  unit: points_per_dollar
+  label: Synergy fuel at Esso (card discount)
+  rate: 8.0
+  unit: percent
   tier: bonus
   eligibility:
     tags: [petrol]
-    description: For every 1 Litre of Synergy fuel  Get S$10/S$30 worth of Synergy fuel with 300/750 Smiles
-      Points.
-    sources: ['singsaver:fa2c25ac592d']
-  sources: ['singsaver:fa2c25ac592d']
+    include_merchants: [Esso]
+    description: 8% card discount (10% on Synergy Supreme+) counted here; total 18% instant savings on Synergy fuels (20% on Synergy Supreme+) at Esso stations in Singapore
+      = 5% on-site discount + 5% Smiles loyalty discount + 8% (10% on Supreme+) card discount; needs an active
+      Smiles account and payment with the DBS Esso Card.
+    sources: ['web:dbs-esso-fuel-tnc', 'web:dbs-esso-page']
+  conditions:
+  - Rate counts only the 8% card discount (10% on Synergy Supreme+); the 5% on-site and 5% Smiles discounts
+    are Esso's own and available without this card
+  - Extra S$10 rebate (credited 3-5 months later) with min. S$160 nett fuel spend per calendar month at Esso
+    (mobile wallet payments don't count), about 5%
+  - 1 Smiles Point per litre of Synergy fuel (about 1.2% in fuel-voucher value)
+  - Fuel programme T&C runs till 31 Dec 2026 (DBS rolls it forward periodically)
+  sources: ['web:dbs-esso-fuel-tnc', 'web:dbs-esso-page']
 - id: base
-  label: baseline (SingSaver — verify)
-  rate: 1.0
+  label: all spend outside Esso stations
+  rate: 0.1
   unit: points_per_dollar
   tier: base
   eligibility:
     all_spend: true
-    description: For every S$10 charged outside of Esso  Get S$10/S$30 worth of Synergy fuel with 300/750
-      Smiles Points.
-    sources: ['singsaver:fa2c25ac592d']
-  sources: ['singsaver:fa2c25ac592d']
+    exclude_merchants: [Esso]
+    description: 1 Smiles Point per S$10 charged outside Esso service stations (local and foreign), per transaction,
+      rounded down. 300 Smiles Points = S$10 fuel (about 0.33% back).
+    sources: ['web:dbs-esso-smiles-tnc', 'web:dbs-esso-page']
+  rounding:
+    amount: 10.0
+    per: transaction
+    rounding: down
+    sources: ['web:dbs-esso-smiles-tnc']
+  conditions:
+  - Marked as a limited-time programme valid till 31 Dec 2026; non-fuel purchases at Esso stations earn nothing
+  sources: ['web:dbs-esso-smiles-tnc']
+spend_cycle: calendar_month
+spend_cycle_sources: ['web:dbs-esso-fuel-tnc']
 general_exclusions:
-  description: Auto-extracted from official T&Cs — confirm each code applies to this card
+  description: 'No Smiles Points for: interest/fees, cash withdrawal, balance transfer, smart cash, association/membership
+    fees, financial institutions and brokerages, payment service providers and professional services, AXS
+    (except Pay+Earn), SAM and internet-banking bill payments, EZReload, eNets, education, government (fines,
+    tax, parking, postal), insurance, non-profits, top-ups of prepaid accounts/wallets (EZ-Link, GrabPay,
+    FlashPay, Razer Pay, ShopeePay, Singtel Dash), betting, and AMAZE* transactions.'
+  exclude_merchants: [AMAZE, EZLINK, EZ-LINK, GRABPAY, RAZERPAY, SHOPEEPAY, SINGTEL DASH]
+  sources: ['web:dbs-esso-smiles-tnc']
+notes:
+- 'Headline "up to 26.2%" on Synergy Supreme+ = 20% instant + S$10 rebate on S$160 nett/month (~5%) + ~1.2%
+  Smiles value; 24.2% on other Synergy fuels.'
 citations:
 - id: singsaver:fa2c25ac592d
   url: https://www.singsaver.com.sg/credit-card/products/dbs-esso-card
@@ -59,6 +96,24 @@ citations:
   retrieved_at: '2026-09-27T05:27:18+00:00'
   sha256: fbcf8e7229a38611c3c767cd8447164e413b1306df1f54bebee269e3abf15202
   snapshot: data/raw/moneysmart/credit-cards-p3-707cb52c.html
+- id: web:dbs-esso-fuel-tnc
+  url: https://www.dbs.com.sg/iwov-resources/media/pdf/cards/promotions/esso/esso-fuel-tnc-26.pdf
+  title: DBS Esso Card – Up to 26.2% Fuel Savings T&Cs (valid till 31 Dec 2026)
+  source_type: official
+  retrieved_at: '2026-10-18'
+- id: web:dbs-esso-smiles-tnc
+  url: https://www.dbs.com.sg/iwov-resources/pdf/cards/credit-cards/dbs-esso-card-smiles-campaign-tnc.pdf
+  title: DBS Esso Card Smiles Loyalty Rewards Programme T&Cs (valid till 31 Dec 2026)
+  source_type: official
+  retrieved_at: '2026-10-18'
+- id: web:dbs-esso-page
+  url: https://www.dbs.com.sg/personal/cards/credit-cards/dbs-esso-platinum-card
+  title: DBS Esso Card (product page, Eligibility & Fees)
+  source_type: official
+  retrieved_at: '2026-10-18'
 review:
-  status: draft
-updated_at: '2026-09-28'
+  status: reviewed
+  reviewed_by: claude (web research)
+  reviewed_at: 2026-10-18
+  notes: 'Verified fee S$196.20 FYF, income, 18%/20% instant fuel savings + S$10 rebate on S$160 nett/month, Smiles earn (1/litre fuel, 1 per S$10 elsewhere — draft said 1 per S$1) and exclusions against DBS Esso fuel + Smiles T&Cs (till 31 Dec 2026) and product page. Petrol rate is the card-only 8% discount (10% on Supreme+); Esso''s own 10% is excluded.'
+updated_at: '2026-10-18'
