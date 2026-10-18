@@ -25,8 +25,8 @@ interface Step {
   fallback?: { target: string; body: string };
 }
 
-// Most wallet steps point at a card tile, which a new user won't have yet: their bodies have to read fine
-// centred over the empty wallet too.
+// Most wallet steps point at a card tile, which a new user won't have yet: App then shows sample cards on the
+// Wallet for the length of the tour (DemoStore), so every step has something to point at.
 const STEPS: Step[] = [
   {
     title: "Welcome to pocket aces",
@@ -58,7 +58,7 @@ const STEPS: Step[] = [
     title: "Add your cards",
     body: "Add cards from the catalogue, or as a custom card if yours isn't listed.",
     tab: "wallet",
-    target: ".wallet-page .head-actions .btn.primary, .page .empty .btn.primary",
+    target: ".wallet-page .head-actions .btn.primary",
   },
   {
     title: "Bills and annual fees",

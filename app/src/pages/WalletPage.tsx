@@ -30,7 +30,7 @@ function guidance(cards: MyCard[], on: string, byId: Map<string, CatalogCard>): 
 }
 
 export function WalletPage() {
-  const { state, update, reminders, on, byId } = useUser();
+  const { state, update, reminders, on, byId, demo } = useUser();
   const [editing, setEditing] = useState<string | null>(null);
   const [adding, setAdding] = useState(false);
   const cards = state.myCards;
@@ -76,7 +76,7 @@ export function WalletPage() {
   return (
     <div className="page wallet-page">
       <div className="page-head">
-        <h2>Your hand <span className="count">{cards.length}</span></h2>
+        <h2>Your hand <span className="count">{cards.length}</span> {demo && <span className="pill warn">Sample cards</span>}</h2>
         <div className="head-actions">
           <button type="button" className="btn ghost" onClick={exportCalendar} title="Download reminders for your calendar app">
             <CalendarPlus size={16} /> <span className="hide-sm">Add to calendar</span>

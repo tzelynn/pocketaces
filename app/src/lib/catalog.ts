@@ -114,6 +114,10 @@ export const fmtRate = (rule: Pick<Rule, "rate" | "unit">) => {
 };
 
 /** Suggested monthly tracking targets for a new wallet card, taken from its catalogue entry. */
+/** Shorten "DBS Altitude Visa Signature Card" style names for tiles and notifications. */
+export const shortName = (card: CatalogCard) =>
+  card.name.replace(/\s+(credit|charge|debit)?\s*card$/i, "").replace(/^American Express/, "Amex");
+
 export function trackingDefaults(card: CatalogCard): { minSpend?: number; maxSpend?: number } {
   const bonus = card.rules.filter((r) => r.tier === "bonus");
   const mins = bonus.map((r) => r.minSpend).filter((n): n is number => n != null);
