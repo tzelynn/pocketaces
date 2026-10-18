@@ -4,6 +4,7 @@ import { readFileSync, writeFileSync, mkdirSync } from "node:fs";
 import { dirname, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 import YAML from "yaml";
+import { limitedTime, narrowScope } from "./rule-limits.mjs";
 
 const here = dirname(fileURLToPath(import.meta.url));
 const repo = resolve(here, "../..");
@@ -38,13 +39,15 @@ const cats = Object.entries(categories)
 // rule fully covers (partial overlaps are inference, not a statement). A group's children fold into
 // it, and aggregates are dropped since their children are already listed.
 const order = Object.keys(categories);
-const codesOf = (tag) => {
-  const c = categories[tag];
-  const own = (c.mcc ?? []).flatMap((m) => {
+// MCC list entries are single codes or inclusive ranges ("3000-3350")
+const codesOfList = (list) =>
+  new Set((list ?? []).flatMap((m) => {
     const [a, b = a] = String(m).split("-").map(Number);
     return Array.from({ length: b - a + 1 }, (_, i) => a + i);
-  });
-  return new Set([...own, ...(c.children ?? []).flatMap((ch) => [...codesOf(ch)])]);
+  }));
+const codesOf = (tag) => {
+  const c = categories[tag];
+  return new Set([...codesOfList(c.mcc), ...(c.children ?? []).flatMap((ch) => [...codesOf(ch)])]);
 };
 // a tag whose codes all sit inside another listed tag (jewellery ⊂ retail shopping) adds nothing
 const subsumed = (t, tags) => [...tags].some((u) => u !== t && [...codesOf(t)].every((m) => codesOf(u).has(m)));
@@ -79,9 +82,31 @@ function ruleTags(c, r, modes) {
   if (modes.length) tags.add(MODE_GROUP);
   return [...tags, ...modes].filter((t) => !excluded.has(t));
 }
-// Explicitly stated exclusions: commonly-excluded categories the card's general exclusions hit.
-const excludes = (c) =>
-  [...new Set([...(c.excluded_categories ?? []), ...c.general_exclusions.tags])].filter((t) => excluded.has(t)).sort(byOrder);
+// Explicitly stated exclusions: commonly-excluded categories the card's general exclusions hit, plus
+// spend categories they mostly take away (Citi Rewards excludes airlines, hotels …). One stray code
+// (hospitals 8062 in healthcare) doesn't count. A group whose children are all hit folds into it; a
+// partly-hit group lists just the children hit.
+const EXCLUDED_SHARE = 0.5;
+const spendLeaves = Object.entries(categories)
+  .filter(([key, c]) => c.mcc && !excluded.has(key) && !aggregates.has(key))
+  .map(([key]) => key);
+function excludes(c) {
+  const codes = codesOfList(c.general_exclusions.exclude_mcc);
+  const hit = new Set(spendLeaves.filter((t) => {
+    const own = [...codesOf(t)];
+    return own.filter((m) => codes.has(m)).length >= EXCLUDED_SHARE * own.length;
+  }));
+  for (const [key, cat] of Object.entries(categories)) {
+    if (aggregates.has(key) || excluded.has(key) || !cat.children?.length) continue;
+    if (cat.children.every((ch) => hit.has(ch))) {
+      cat.children.forEach((ch) => hit.delete(ch));
+      hit.add(key);
+    }
+  }
+  const spend = [...hit].filter((t) => !subsumed(t, hit));
+  const common = [...(c.excluded_categories ?? []), ...c.general_exclusions.tags].filter((t) => excluded.has(t));
+  return [...new Set([...spend, ...common])].sort(byOrder);
+}
 
 // Commonly-excluded categories, labelled for the exclusions icon key.
 const exclusions = (categories.commonly_excluded?.children ?? []).map((key) => ({
@@ -121,7 +146,24 @@ function slimRule(c, r) {
     // what the rule earns on, for display: spend categories, then transaction modes
     includes: [...ruleIncludes(c, r), ...modes],
     tags: ruleTags(c, r, modes),
+    // named merchants or select countries only: flagged, and left out of the card's ranking
+    limit: narrowScope(r),
   };
+}
+
+// Limited-time rates stay out of the catalogue: a promotion's rate is no guide to the card, and the
+// aggregators keep listing them well after they end. Where the text says what the rate drops to
+// ("… for the first 2 quarters. Thereafter, earn 5%"), the rule stays at that rate instead.
+function splitRules(c) {
+  const rules = [], promos = [];
+  for (const r of c.earn_rules) {
+    const t = limitedTime(r);
+    if (t) promos.push({ label: cleanLabel(r.label), rate: r.rate, unit: r.unit, until: t.until, text: t.text, after: t.after });
+    if (!t) rules.push(slimRule(c, r));
+    else if (t.after != null && t.after > 0)
+      rules.push({ ...slimRule(c, r), rate: t.after, desc: cleanDesc((r.eligibility.description ?? "").replace(t.text, "")) });
+  }
+  return { rules, promos };
 }
 
 // Sign-up offers: the headline ("SingSaver Exclusive Offer: choice of …" → "SingSaver Exclusive Offer"),
@@ -157,7 +199,10 @@ function slimBonus(b) {
   };
 }
 
-const cards = build.cards.map((c) => ({
+const slimConversion = (v) =>
+  v ? { partner: v.partner, points: v.points, miles: v.partner_units, fee: v.fee?.amount ?? null } : null;
+
+const cards = build.cards.map((c) => ({ c, ...splitRules(c) })).map(({ c, rules, promos }) => ({
   id: c.id,
   bank: c.bank,
   name: c.name,
@@ -175,7 +220,17 @@ const cards = build.cards.map((c) => ({
   income: money(c.min_annual_income),
   // absent from older builds; the model defaults to the calendar month
   spendCycle: c.spend_cycle === "statement_month" ? "statement" : "calendar",
-  rules: c.earn_rules.map((r) => slimRule(c, r)),
+  spendCycleStated: (c.spend_cycle_sources ?? []).length > 0,
+  expiry: c.reward_currency.expiry
+    ? {
+        never: c.reward_currency.expiry.never ?? false,
+        months: c.reward_currency.expiry.months ?? null,
+        monthsMax: c.reward_currency.expiry.months_max ?? null,
+      }
+    : null,
+  conversion: slimConversion(c.reward_currency.conversions?.[0]),
+  rules,
+  limitedTime: promos,
   excludes: excludes(c),
   bonuses: c.sign_up_bonuses.map(slimBonus),
   notes: c.notes,

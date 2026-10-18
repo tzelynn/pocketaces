@@ -21,9 +21,10 @@ import yaml
 
 from . import paths, registry
 from .models import (
-    AnnualFee, Cap, Card, Citation, EarnRule, Eligibility, Money, Period, RewardCurrency, SignUpBonus,
-    SpendCycle, StagedCard,
+    AnnualFee, Cap, Card, Citation, Conversion, EarnRule, Eligibility, Money, Period, PointsExpiry,
+    RateUnit, RewardCurrency, SignUpBonus, SpendCycle, StagedCard,
 )
+from .sources import milelion
 from .sources.common import load_staging
 
 log = logging.getLogger(__name__)
@@ -127,12 +128,88 @@ def _spend_cycle(tnc: dict) -> tuple[SpendCycle | None, list[str], list[str]]:
 
 
 def _reviews(card_id: str) -> list[dict]:
-    """Milelion reviews of this card (editorial cross-check links)."""
-    p = paths.STAGING / "milelion" / "reviews.json"
-    if not p.exists():
-        return []
-    return [r for r in json.loads(p.read_text())
-            if r.get("card_id") == card_id or card_id in registry.match_name(r["card_name"])]
+    """The MileLion reviews of this card, newest first."""
+    return milelion.reviews_for(card_id)
+
+
+def _cycle(tnc: dict, review: dict | None) -> tuple[SpendCycle | None, list[str], list[str]]:
+    """The spend cycle, its citations and review notes. The MileLion review is the primary source;
+    the official T&C evidence (`_spend_cycle`) cross-checks it and fills in where the review is
+    silent or mixed."""
+    tnc_cycle, tnc_cites, tnc_notes = _spend_cycle(tnc)
+    ml_cycle, quotes = milelion.review_cycle(review) if review else (None, [])
+    if not ml_cycle:
+        mixed = ["The MileLion review mentions both calendar and statement months for caps / min "
+                 "spend (see spend_cycle in data/staging/milelion/reviews.json)"] \
+            if review and review.get("spend_cycle") else []
+        return tnc_cycle, tnc_cites, mixed + tnc_notes
+    cycle = SpendCycle(ml_cycle)
+    note = f"spend_cycle {ml_cycle} from The MileLion review (“{quotes[0][:200]}”)"
+    if tnc_cycle == cycle:
+        return cycle, [review["citation"]["id"], *tnc_cites], [note + " — the official T&C agrees"]
+    if tnc_cycle:
+        return cycle, [review["citation"]["id"]], [
+            note + f" — but the official T&C evidence says {tnc_cycle.value} ({tnc_notes[0]}): check "
+            "which applies to min spend and caps"]
+    return cycle, [review["citation"]["id"]], [note + " — confirm it applies to min spend and caps"]
+
+
+def _points(review: dict | None, kind: str) -> tuple[dict, list[str]]:
+    """Points expiry and the airline-miles conversion (block, fee) from The MileLion review's
+    overview table, as RewardCurrency fields, plus review notes."""
+    if not review or kind == "cashback":
+        return {}, []
+    facts, table = review.get("facts") or {}, review.get("overview") or {}
+    cite = [review["citation"]["id"]]
+    out: dict = {}
+    notes: list[str] = []
+    if exp := facts.get("points_expiry"):
+        out["expiry"] = PointsExpiry(**exp, note=f"The MileLion: points validity “{table['points_validity'][0]}”",
+                                     sources=cite)
+    elif table.get("points_validity"):
+        notes.append(f"The MileLion gives points validity as “{' / '.join(table['points_validity'])}” — "
+                     "set reward_currency.expiry by hand")
+    raw_fee = " / ".join(table.get("transfer_fee") or [])
+    if mt := facts.get("min_transfer"):
+        fee = facts.get("transfer_fee")
+        out["conversions"] = [Conversion(
+            partner="KrisFlyer", points=mt["points"], partner_units=mt["miles"],
+            min_block_points=mt["points"], fee=Money(amount=fee) if fee is not None else None,
+            note=f"The MileLion: min. transfer “{table['min_transfer'][0]}”"
+                 + (f", transfer fee “{raw_fee}”" if raw_fee else "")
+                 + " — confirm the partner (the overview quotes KrisFlyer unless it says otherwise)",
+            sources=cite)]
+        if fee is None and raw_fee:
+            notes.append(f"The MileLion gives the transfer fee as “{raw_fee}” — set conversions[].fee by hand")
+    elif table.get("min_transfer") and facts.get("converts") is not False:
+        notes.append(f"The MileLion gives min. transfer as “{' / '.join(table['min_transfer'])}”"
+                     + (f" and transfer fee “{raw_fee}”" if raw_fee else "")
+                     + " — add reward_currency.conversions by hand")
+    return out, notes
+
+
+def _as_miles(rules: list[EarnRule], conversions: list[Conversion]) -> list[EarnRule]:
+    """Points convertible to miles are stated in mpd, at the card's first conversion, so they can
+    be compared with (and valued like) miles cards."""
+    conv = next((c for c in conversions if c.points and c.partner_units), None)
+    if not conv:
+        return rules
+    ratio = conv.partner_units / conv.points
+    out = []
+    for r in rules:
+        if r.unit != RateUnit.points_per_dollar:
+            out.append(r)
+            continue
+        cap = r.bonus_cap
+        if cap and cap.unit == "points":
+            cap = cap.model_copy(update={"amount": round(cap.amount * ratio), "unit": "miles"})
+        out.append(r.model_copy(update={
+            "rate": round(r.rate * ratio, 2), "unit": RateUnit.mpd, "bonus_cap": cap,
+            "conditions": r.conditions + [f"{r.rate:g} points per S$1, converted to {conv.partner} miles at "
+                                          f"{conv.points:g}:{conv.partner_units:g}"],
+            "sources": r.sources + [c for c in conv.sources if c not in r.sources],
+        }))
+    return out
 
 
 # Sign-up offer terms: the qualifying spend ("make a min. spend of S$800 within 60 days", "spend at
@@ -224,13 +301,15 @@ def build_draft(card_id: str) -> Card:
             tnc_cites.append(c.id)
 
     review_notes = []
-    for r in _reviews(card_id):
+    reviews = _reviews(card_id)
+    for r in reviews:
         c = Citation(**r["citation"])
         citations[c.id] = c
         review_notes.append(f"Editorial review for cross-checking: {r['title']} ({r['url']}, "
                             f"updated {r['modified'][:10]})")
+    review = reviews[0] if reviews else None  # the newest review is the primary editorial source
 
-    cycle, cycle_cites, cycle_notes = _spend_cycle(tnc)
+    cycle, cycle_cites, cycle_notes = _cycle(tnc, review)
     # an aggregator's "per month" means the T&C spend cycle when one is known
     month = Period(cycle.value) if cycle else Period.statement_month
 
@@ -356,7 +435,9 @@ def build_draft(card_id: str) -> Card:
             sources=[ms.citation.id],
         ))
 
-    notes = cycle_notes + review_notes
+    points, points_notes = _points(review, kind)
+    rules = _as_miles(rules, points.get("conversions", []))
+    notes = cycle_notes + points_notes + review_notes
     if not rules:
         notes.insert(0, "No structured earn rates from aggregators: add earn_rules from the "
                         "official T&C before review")
@@ -380,7 +461,8 @@ def build_draft(card_id: str) -> Card:
         official_url=(reg.get("official") or {}).get("product_page"),
         annual_fee=fee,
         min_annual_income=Money(amount=income_src.min_annual_income) if income_src else None,
-        reward_currency=RewardCurrency(kind=kind, name=reg.get("reward_currency_name") or kind.title()),
+        reward_currency=RewardCurrency(kind=kind, name=reg.get("reward_currency_name") or kind.title(),
+                                       **points),
         earn_rules=rules,
         **({"spend_cycle": cycle, "spend_cycle_sources": cycle_cites} if cycle else {}),
         general_exclusions=general,
@@ -427,7 +509,7 @@ def _dump(card: Card) -> str:
         data.pop("spend_cycle", None)  # the model's default, not something a source stated
     header = (
         "# Curated card record. Auto-drafted from staged sources; verify every value against the\n"
-        "# official T&Cs (citations below), then set review.status: reviewed.\n"
+        "# official T&Cs (citations below), then set review.status: reviewed and review.reviewed_at.\n"
     )
     return header + yaml.dump(data, Dumper=_Dumper, sort_keys=False, allow_unicode=True, width=100)
 
@@ -436,6 +518,7 @@ def _facts(text: str) -> dict:
     """A record's content minus what changes without the facts changing (review state, fetch times)."""
     data = yaml.safe_load(text) or {}
     data.pop("review", None)
+    data.pop("updated_at", None)  # the draft's build date
     for c in data.get("citations", []):
         c.pop("retrieved_at", None)
         c.pop("snapshot", None)

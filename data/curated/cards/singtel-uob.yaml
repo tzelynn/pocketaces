@@ -1,80 +1,136 @@
 # Curated card record. Auto-drafted from staged sources; verify every value against the
-# official T&Cs (citations below), then set review.status: reviewed.
+# official T&Cs (citations below), then set review.status: reviewed and review.reviewed_at.
 id: singtel-uob
 bank: UOB
 name: Singtel-UOB Card
+network: visa
 image_url: https://mhgprod.blob.core.windows.net/singsaver/strapi-uploads/s_UOB_Singtel_Card_2025_08_a5dba2d103.png
 official_url: https://www.uob.com.sg/personal/cards/cashback/singtel-card.page
 annual_fee:
   amount:
-    amount: 196.2
+    amount: 0.0
     currency: SGD
-  first_year_waived: true
-  waiver_notes: S$ | First Year Fee waived. Subsequent years waived with 12-month recurring Singtel/GOMO
-    bills.
-  sources: ['singsaver:426a3007bd31']
+  waiver_notes: No annual fee from 1 July 2026 (previously S$196.20, waived with 12 months of recurring
+    Singtel bills)
+  sources: ['web:singtel-uob-page']
 min_annual_income:
   amount: 30000.0
   currency: SGD
 reward_currency:
   kind: cashback
   name: Cashback
+  expiry:
+    months: 24
+    note: Forfeited 2 calendar years after the statement month awarded, or on card cancellation
+    sources: ['bank:c6743d102dcb']
 earn_rules:
-- id: local
-  label: local, utilities (SingSaver — verify)
+- id: singtel
+  label: Singtel / GOMO spend
   rate: 12.0
   unit: percent
   tier: bonus
   eligibility:
-    include_mcc: ['4829', '4900', '5199', '5960', '5965', '5993', '6012', '6050', '6051', '6211', '6300',
-      '6399', '6513', '6529', '6530', '6534', '6540', '7349', '7511', '7523', '7995', '8062', '8211',
-      '8220', '8241', '8244', '8249', '8299', '8398', '8651', '8661', '8699', '8999', '9211', '9222',
-      '9223', '9311', '9399', '9402', '9405']
-    modes_required: [online]
-    description: Up to  | Enjoy 12% cashback on your Singtel/GOMO spend, 10% cashback on online/mobile
-      spend. Cashback capped at S$80 monthly (S$30 Singtel spend, S$30 online/mobile spend, S$20 other
-      spend). Plus, get 0% FX fees on overseas foreign currency spend with no min spend. / 12% cashback
-      on your Singtel/GOMO spend, capped at S$30 per statement month.  [include_mcc auto-extracted from
-      official T&C — check it belongs to this rule]
-    sources: ['singsaver:426a3007bd31', 'bank:6c9c788f739c', 'bank:1c28d08fc29c', 'bank:42358e29d735',
-      'bank:5d19b920ad6a', 'bank:c6743d102dcb', 'bank:c13cf48e44b4', 'bank:3ae179a3cc5e', 'bank:a5f6ac2acc8d']
+    include_mcc: ['4812', '4814', '5999']
+    include_merchants:
+    - Singtel (SINGTEL*, STBILL*, SINGTELSHOP*, MYSINGTELAPP*)
+    - GOMO (GOMO MOBILE PLAN*)
+    - Singtel prepaid top-ups
+    description: Singtel and related companies with the listed MCCs and descriptors, processed in Singapore
+    sources: ['bank:c6743d102dcb']
+  min_spend:
+    amount: 800.0
+    currency: SGD
+  min_spend_period: statement_month
   bonus_cap:
     amount: 30.0
     unit: SGD_cashback
     period: statement_month
-    sources: ['singsaver:426a3007bd31']
+    sources: ['bank:c6743d102dcb']
   conditions:
-  - bonus_cap parsed from aggregator text “capped at S$30 per statement month” — confirm amount, unit
-    and whether the period is calendar or statement month
-  sources: ['singsaver:426a3007bd31']
-- id: overseas
-  label: overseas (SingSaver — verify)
-  rate: 0.3
+  - Total cashback capped at S$80 per statement month
+  sources: ['bank:c6743d102dcb', 'web:singtel-uob-page']
+- id: online-mobile-contactless
+  label: Local online and mobile-wallet contactless spend
+  rate: 10.0
   unit: percent
   tier: bonus
   eligibility:
-    description: No FX fees on foreign currency spend.
-    sources: ['singsaver:426a3007bd31']
-  sources: ['singsaver:426a3007bd31']
+    modes_required: [online, mobile_wallet]
+    modes_excluded: [foreign_currency]
+    description: Local Online Spend, and in-store Apple Pay / Google Pay / Samsung Pay processed in Singapore.
+      Physical card tap does not qualify
+    sources: ['bank:c6743d102dcb']
+  min_spend:
+    amount: 800.0
+    currency: SGD
+  min_spend_period: statement_month
+  bonus_cap:
+    amount: 30.0
+    unit: SGD_cashback
+    period: statement_month
+    sources: ['bank:c6743d102dcb']
+  conditions:
+  - Total cashback capped at S$80 per statement month
+  sources: ['bank:c6743d102dcb', 'web:singtel-uob-page']
+- id: overseas-fx
+  label: Overseas foreign-currency spend (promotion)
+  rate: 1.0
+  unit: percent
+  tier: bonus
+  eligibility:
+    modes_required: [foreign_currency]
+    description: 1% bonus on FX spend (0.5% in China and Europe), no min. spend, no cap. 0% FX fee
+    sources: ['bank:1c28d08fc29c', 'web:singtel-uob-page']
+  valid_from: '2026-04-29'
+  valid_to: '2026-12-31'
+  sources: ['bank:1c28d08fc29c', 'web:singtel-uob-page']
 - id: base
-  label: baseline (SingSaver — verify)
+  label: All other spend
   rate: 0.3
   unit: percent
   tier: base
   eligibility:
     all_spend: true
-    description: On all other spend, capped at S$20 per statement month
-    sources: ['singsaver:426a3007bd31']
-  sources: ['singsaver:426a3007bd31']
+    description: 0.3% on Other Spend; below S$800 in a statement month everything earns 0.3%
+    sources: ['bank:c6743d102dcb']
+  bonus_cap:
+    amount: 20.0
+    unit: SGD_cashback
+    period: statement_month
+    sources: ['bank:c6743d102dcb']
+  conditions:
+  - Total cashback capped at S$80 per statement month
+  sources: ['bank:c6743d102dcb']
+spend_cycle: statement_month
+spend_cycle_sources: ['bank:c6743d102dcb']
 general_exclusions:
-  exclude_mcc: ['4812', '4814', '5999']
-  description: Auto-extracted from official T&Cs — confirm each code applies to this card
-  sources: ['bank:6c9c788f739c', 'bank:1c28d08fc29c', 'bank:42358e29d735', 'bank:5d19b920ad6a', 'bank:c6743d102dcb',
-    'bank:c13cf48e44b4', 'bank:3ae179a3cc5e', 'bank:a5f6ac2acc8d']
+  exclude_mcc: ['4829', '4900', '5199', '5960', '5965', '5993', '6012', '6050', '6051', '6211', '6300',
+    '6513', '6529', '6530', '6534', '6540', '7349', '7511', '7523', '7995', '8062', '8211', '8220', '8241',
+    '8244', '8249', '8299', '8398', '8651', '8661', '8699', '8999', '9211', '9222', '9223', '9311', '9399',
+    '9402', '9405']
+  exclude_merchants:
+  - Shell
+  - SPC
+  - SP Digital*
+  - SP Services*
+  - AXS*
+  - EZ-LINK* / EZLINK* / TRANSIT*
+  - FLASHPAY* / NETSFLASHPAY*
+  - IPAYMY*
+  - CardUp*
+  - RWS-LEVY*
+  - SMOOVE PAY*
+  - SINGPOST-SAM*
+  - RazerPay*
+  - NORWDS*
+  - AMAZE*
+  - brokerage/FX (PLUS500, OANDA, Saxo, IG Markets, CITYINDEX, Skrill)
+  description: Cash advances, balance transfers, NETS, 0% IPP/SmartPay, UOB Payment Facility, Shell/SPC,
+    fees/interest, top-ups to payment providers/prepaid accounts, listed MCCs and descriptors
+  sources: ['bank:c6743d102dcb']
 notes:
-- 'T&C mentions (check whether excluded): annual fee, axs, bill payment, cardup, cash advance, charit,
-  education, government, hospital, instalment, interest, ipaymy, late payment charge, tax, top-up, top-ups,
-  utilit'
+- 'Singtel vouchers: S$100 (S$12k–<S$24k local spend) or S$300 (S$24k+) per 12-statement period with a
+  recurring postpaid Singtel bill on the card.'
 citations:
 - id: singsaver:426a3007bd31
   url: https://www.singsaver.com.sg/credit-card/products/uob-singtel-uob-card
@@ -138,6 +194,16 @@ citations:
   retrieved_at: '2026-09-27T08:42:07+00:00'
   sha256: a5f6ac2acc8d9073d9054bcf4707bba872ac37cca348dd29574d72a40c7e42fe
   snapshot: data/raw/bank/www-uob-com-sg-assets-web-resources-personal-pdf-cards-cashback-singtel-card-singtel-shop-campaign-pdf-952d44fc.pdf
+- id: web:singtel-uob-page
+  url: https://www.uob.com.sg/personal/cards/cashback/singtel-card.page
+  title: Singtel-UOB Card (product page)
+  source_type: official
+  retrieved_at: '2026-10-18'
 review:
-  status: draft
-updated_at: '2026-09-27'
+  status: reviewed
+  reviewed_by: claude (web research)
+  reviewed_at: '2026-10-18'
+  notes: 'Verified vs Singtel-UOB governing T&C (eff. 27 Aug 2025), FX promo T&C (29 Apr 2026) and product
+    page: rates, caps, S$800 statement-month min spend, exclusions; fee now S$0 from 1 Jul 2026 (product
+    page only — no updated T&C PDF seen).'
+updated_at: '2026-10-18'

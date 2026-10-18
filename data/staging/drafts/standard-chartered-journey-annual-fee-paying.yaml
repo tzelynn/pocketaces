@@ -1,5 +1,5 @@
 # Curated card record. Auto-drafted from staged sources; verify every value against the
-# official T&Cs (citations below), then set review.status: reviewed.
+# official T&Cs (citations below), then set review.status: reviewed and review.reviewed_at.
 id: standard-chartered-journey-annual-fee-paying
 bank: Standard Chartered
 name: Standard Chartered Journey Credit Card (Annual Fee Paying)
@@ -19,6 +19,17 @@ min_annual_income:
 reward_currency:
   kind: miles
   name: Miles
+  conversions:
+  - partner: KrisFlyer
+    points: 25000.0
+    partner_units: 10000.0
+    fee:
+      amount: 27.25
+      currency: SGD
+    min_block_points: 25000.0
+    note: 'The MileLion: min. transfer “25,000 points (10,000 miles)*”, transfer fee “S$27.25” — confirm
+      the partner (the overview quotes KrisFlyer unless it says otherwise)'
+    sources: ['milelion:9721894f0381']
 earn_rules:
 - id: supermarket
   label: supermarket, dining, hotel booking, transport, online food delivery, local online shopping (SingSaver
@@ -78,6 +89,8 @@ earn_rules:
     description: On local spend.
     sources: ['singsaver:fcbd9a457a48']
   sources: ['singsaver:fcbd9a457a48']
+spend_cycle: statement_month
+spend_cycle_sources: ['milelion:9721894f0381']
 general_exclusions:
   description: Auto-extracted from official T&Cs — confirm each code applies to this card
 sign_up_bonuses:
@@ -142,6 +155,9 @@ sign_up_bonuses:
   url: https://www.moneysmart.sg/credit-cards/standard-chartered-journey-credit-card-annual-fee-payable
   sources: ['moneysmart:42909b088c22']
 notes:
+- 'spend_cycle statement_month from The MileLion review (“but the bonus is subject to the following conditions:
+  the transaction must be made online the transaction must be made in SGD a cap of S$1,000 per statement
+  month applies; any spending beyond the cap ”) — confirm it applies to min spend and caps'
 - 'Editorial review for cross-checking: Review: Standard Chartered Journey Card (https://milelion.com/2026/08/30/review-standard-chartered-journey-card/,
   updated 2026-09-01)'
 - 'T&C mentions (check whether excluded): annual fee, axs, bill payment, cash advance, charit, education,
@@ -178,9 +194,9 @@ citations:
   url: https://milelion.com/2026/08/30/review-standard-chartered-journey-card/
   title: 'Review: Standard Chartered Journey Card'
   source_type: editorial
-  retrieved_at: '2026-09-27T05:28:10+00:00'
+  retrieved_at: '2026-09-28T13:28:14+00:00'
   sha256: 9721894f03813071f78582e954ad493df806e05a5c2510ba5c10e6d6d29df4eb
   snapshot: data/raw/milelion/post-146312-95d3bb09.json
 review:
   status: draft
-updated_at: '2026-09-27'
+updated_at: '2026-09-28'

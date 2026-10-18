@@ -1,5 +1,5 @@
 # Curated card record. Auto-drafted from staged sources; verify every value against the
-# official T&Cs (citations below), then set review.status: reviewed.
+# official T&Cs (citations below), then set review.status: reviewed and review.reviewed_at.
 id: citi-premiermiles
 bank: Citibank
 name: Citi PremierMiles Card
@@ -19,6 +19,21 @@ min_annual_income:
 reward_currency:
   kind: miles
   name: Miles
+  conversions:
+  - partner: KrisFlyer
+    points: 10000.0
+    partner_units: 10000.0
+    fee:
+      amount: 27.25
+      currency: SGD
+    min_block_points: 10000.0
+    note: 'The MileLion: min. transfer “10,000 Citi Miles (10,000 miles)”, transfer fee “S$27.25” — confirm
+      the partner (the overview quotes KrisFlyer unless it says otherwise)'
+    sources: ['milelion:c234b0a13d34']
+  expiry:
+    never: true
+    note: 'The MileLion: points validity “No Expiry”'
+    sources: ['milelion:c234b0a13d34']
 earn_rules:
 - id: travel
   label: travel (SingSaver — verify)
@@ -255,9 +270,9 @@ citations:
   url: https://milelion.com/2026/05/16/review-citi-premiermiles-card/
   title: 'Review: Citi PremierMiles Card'
   source_type: editorial
-  retrieved_at: '2026-09-27T05:28:48+00:00'
+  retrieved_at: '2026-09-28T13:28:50+00:00'
   sha256: c234b0a13d34b5d29f3f815938f703758bf5bd59aede2640e1937945cada80b5
   snapshot: data/raw/milelion/post-72800-cec127a6.json
 review:
   status: draft
-updated_at: '2026-09-27'
+updated_at: '2026-09-28'

@@ -1,5 +1,5 @@
 # Curated card record. Auto-drafted from staged sources; verify every value against the
-# official T&Cs (citations below), then set review.status: reviewed.
+# official T&Cs (citations below), then set review.status: reviewed and review.reviewed_at.
 id: dbs-womans
 bank: DBS
 name: DBS Woman's Card
@@ -11,49 +11,90 @@ annual_fee:
     amount: 163.5
     currency: SGD
   first_year_waived: true
-  waiver_notes: S$ | First Year Waived
-  sources: ['singsaver:96481af53ee9']
+  waiver_notes: First year waived; product page says charging at least S$15,000 a year waives the following
+    year's fee.
+  sources: ['web:dbs-woman-page']
 min_annual_income:
   amount: 30000.0
   currency: SGD
 reward_currency:
   kind: miles
   name: Miles
+  conversions:
+  - partner: KrisFlyer
+    points: 5000.0
+    partner_units: 10000.0
+    fee:
+      amount: 27.25
+      currency: SGD
+    min_block_points: 5000.0
+    note: 1 DBS Point = 2 miles; S$27.25 (incl. GST) admin fee per conversion. Asia Miles (same ratio) and AirAsia
+      (500 points = 1,500) also available.
+    sources: ['web:dbs-woman-page']
+  expiry:
+    months: 12
+    note: DBS Points expire 1 year from the earned date (first-year points up to 12 months from account opening)
+      — DBS Rewards T&C cl. 2.12
+    sources: ['web:dbs-rewards-tnc']
 earn_rules:
-- id: local
-  label: local, hotel booking, flight booking, local online shopping, travel (SingSaver — verify)
+- id: online
+  label: online spend (local or FCY)
   rate: 2.0
   unit: mpd
   tier: bonus
   eligibility:
-    tags: [hotels, flights, travel]
+    tags: [shopping, dining, hotels, flights, groceries, travel]
+    exclude_mcc: ['0763', '7261', '7276', '7311', '7322', '7339', '7372', '7375', '7393', '7399', '8111', '8911',
+      '8931']
+    exclude_merchants: [CARDUP, IPAYMY, FAVE ECARD, FAVEPAY, FLASHPAY ATU, MATCHMOVE PAY, KASHMI, COINBASE,
+      SAXO CAP MKTS PTS LTD, OANDA ASIA PAC, WWW.IGMARKETS.COM.SG]
     modes_required: [online]
-    description: Up to | 5X DBS Points per S$5 / 5X DBS Points per S$5, online only. / 5X DBS Points per
-      S$5 / Up to 5X DBS Points per S$5, online only.
-    sources: ['singsaver:96481af53ee9']
-  sources: ['singsaver:96481af53ee9']
-- id: retail
-  label: retail, dining, overseas (SingSaver — verify)
-  rate: 0.4
-  unit: mpd
-  tier: bonus
-  eligibility:
-    tags: [shopping, dining]
-    description: 1X DBS Point per S$5
-    sources: ['singsaver:96481af53ee9']
-  sources: ['singsaver:96481af53ee9']
+    description: Base 1 + bonus 4 DBS Points per S$5 of online spend (2 mpd), bonus capped at the first S$1,000 of online spend per calendar month. Online = processed as an internet transaction via Mastercard;
+      online-banking, telephone and mail-order payments excluded. The extra MCCs/descriptors listed here
+      (Woman's T&C Table 1-2, which also lists crypto exchanges) don't earn the online bonus.
+    sources: ['web:dbs-womans-tnc']
+  max_spend:
+    amount: 1000.0
+    currency: SGD
+  max_spend_period: calendar_month
+  rounding:
+    amount: 5.0
+    per: calendar_month
+    rounding: down
+    sources: ['web:dbs-womans-tnc']
+  conditions:
+  - Bonus points are computed on the calendar month's total online spend (per S$5, rounded down) and credited
+    by the end of the following month; spend above S$1,000/month earns the base rate
+  sources: ['web:dbs-womans-tnc', 'web:dbs-rewards-tnc']
 - id: base
-  label: baseline (SingSaver — verify)
+  label: all other spend
   rate: 0.4
   unit: mpd
   tier: base
   eligibility:
     all_spend: true
-    description: 1X DBS Point per S$5
-    sources: ['singsaver:96481af53ee9']
-  sources: ['singsaver:96481af53ee9']
+    description: 1 DBS Point per S$5 (0.4 mpd), per transaction, rounded down.
+    sources: ['web:dbs-womans-tnc']
+  rounding:
+    amount: 5.0
+    per: transaction
+    rounding: down
+    sources: ['web:dbs-womans-tnc']
+  sources: ['web:dbs-womans-tnc', 'web:dbs-rewards-tnc']
+spend_cycle: calendar_month
+spend_cycle_sources: ['web:dbs-womans-tnc']
 general_exclusions:
-  description: Auto-extracted from official T&Cs — confirm each code applies to this card
+  exclude_mcc: ['4784', '4829', '4900', '5047', '5199', '5960', '5993', '6010', '6011', '6012', '6050', '6051',
+    '6211', '6300', '6381', '6399', '6513', '6529', '6530', '6534', '6540', '7349', '7511', '7523', '7995',
+    '8062', '8211', '8220', '8241', '8244', '8249', '8299', '8398', '8651', '8661', '8699', '8999', '9211',
+    '9222', '9223', '9311', '9399', '9402', '9405']
+  exclude_merchants: [AMAZE, AXS, AXS BizPay, AXS PTE LTD, BAGUS, CANTINE, EZLINK, EZ-LINK, PAYPAL *AXS PTE LTD,
+    RAZERPAY, SAM -, SAM PAYMENTS, SEDAP, SGEBIZ, SHOPEEPAY, SINGAPORE E-BUSINESS, SINGTEL DASH, SMOOVPAY,
+    TRANSIT 3, YOUTRIP]
+  description: No DBS Points for the MCCs and merchant descriptors in DBS Rewards T&C clause 2.8 (Tables
+    1 and 2), nor for posted 0% IPP / My Preferred Payment Plan instalments, interest, fees, cash advances,
+    balance transfers, AXS, SAM and internet-banking bill payments.
+  sources: ['web:dbs-rewards-tnc']
 citations:
 - id: singsaver:96481af53ee9
   url: https://www.singsaver.com.sg/credit-card/products/dbs-womans-card
@@ -69,6 +110,24 @@ citations:
   retrieved_at: '2026-09-27T05:27:18+00:00'
   sha256: fbcf8e7229a38611c3c767cd8447164e413b1306df1f54bebee269e3abf15202
   snapshot: data/raw/moneysmart/credit-cards-p3-707cb52c.html
+- id: web:dbs-womans-tnc
+  url: https://www.dbs.com.sg/iwov-resources/media/pdf/cards/dbs-womans-card-tnc.pdf
+  title: Terms and Conditions Governing the DBS Woman's Card Promotions and Programmes (updated 27 Jul 2026)
+  source_type: official
+  retrieved_at: '2026-10-18'
+- id: web:dbs-woman-page
+  url: https://www.dbs.com.sg/personal/cards/credit-cards/dbs-woman-mastercard-card
+  title: DBS Woman's Card / Woman's World Card (product page)
+  source_type: official
+  retrieved_at: '2026-10-18'
+- id: web:dbs-rewards-tnc
+  url: https://www.dbs.com.sg/iwov-resources/pdf/cards/rewards_programme_tnc.pdf
+  title: DBS Rewards Terms and Conditions (last updated Sep 2026)
+  source_type: official
+  retrieved_at: '2026-10-18'
 review:
-  status: draft
-updated_at: '2026-09-27'
+  status: reviewed
+  reviewed_by: claude (web research)
+  reviewed_at: 2026-10-18
+  notes: 'Verified fee S$163.50 FYF, income, earn rates (2 mpd online capped at S$1,000/calendar month, 0.4 mpd base), rounding, exclusions and conversion against DBS Woman''s T&C (27 Jul 2026), DBS Rewards T&C and product page; removed duplicate 0.4 mpd ''retail'' rule, added cap/conversion/expiry. Not verified: whether the S$15k fee-waiver on the product page still applies after DBS''s Aug 2026 waiver changes.'
+updated_at: '2026-10-18'

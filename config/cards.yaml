@@ -1219,6 +1219,8 @@ cards:
       dedicated page for the plain Lady's Card. TnC PDF 'Terms and Conditions for the UOB Lady's Cards'
       explicitly covers all Lady's Card variants with Base/Bonus UNI$ and MCC-based earn-rate clauses
       (shared T&C).
+  aliases:
+  - UOB Lady’s Card & UOB Lady’s Solitaire Card  # The MileLion reviews both in one article
 - id: uob-ladys-solitaire
   bank: UOB
   bank_key: uob

@@ -1,5 +1,5 @@
 # Curated card record. Auto-drafted from staged sources; verify every value against the
-# official T&Cs (citations below), then set review.status: reviewed.
+# official T&Cs (citations below), then set review.status: reviewed and review.reviewed_at.
 id: cimb-world-mastercard
 bank: CIMB Bank
 name: CIMB World Mastercard
@@ -137,4 +137,4 @@ citations:
   snapshot: data/raw/bank/www-cimb-com-sg-content-dam-cimbsg-personal-document-cards-terms-and-conditions-tnc-worldmastercard-wef-1nov22-pdf-a4e59451.pdf
 review:
   status: draft
-updated_at: '2026-09-27'
+updated_at: '2026-09-28'

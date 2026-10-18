@@ -1,5 +1,5 @@
 # Curated card record. Auto-drafted from staged sources; verify every value against the
-# official T&Cs (citations below), then set review.status: reviewed.
+# official T&Cs (citations below), then set review.status: reviewed and review.reviewed_at.
 id: dcs-cashback
 bank: DCS
 name: DCS CASHBACK Card
@@ -9,9 +9,10 @@ annual_fee:
   amount:
     amount: 196.2
     currency: SGD
-  waiver_notes: S$ | Annual fee waivers after second year are subject to minimum annual spend of S$10,000
-    per annum.
-  sources: ['singsaver:c48166be9844']
+  first_year_waived: true
+  waiver_notes: S$180 + GST; first year free (supplementary S$80 + GST); subsequent years auto-waived with
+    S$2,000 annual spend
+  sources: ['web:dcs-cashback-page']
 min_annual_income:
   amount: 30000.0
   currency: SGD
@@ -19,45 +20,41 @@ reward_currency:
   kind: cashback
   name: Cashback
 earn_rules:
-- id: travel
-  label: travel, dining, supermarket, petrol, retail, local online shopping, overseas online shopping,
-    health, department store, digital wallet, contactless spend, transport, overseas, local (SingSaver
-    — verify)
+- id: all-spend
+  label: All eligible spend (with S$500 monthly spend)
   rate: 5.0
   unit: percent
   tier: bonus
   eligibility:
-    include_mcc: ['4829', '5199', '5960', '6012', '6050', '6051', '6211', '6300', '6529', '6530', '6534',
-      '6540', '7995', '9222', '9223', '9311', '9399', '9402', '9405']
-    description: Capped at S$50 each statement month. / Capped at S$50 each statement month. Except for
-      Buy-Now-Pay-Later platforms. [include_mcc auto-extracted from official T&C — check it belongs to
-      this rule]
-    sources: ['singsaver:c48166be9844', 'bank:b65f2e85fe41']
+    all_spend: true
+    description: 5% cash rebate on all eligible transactions when at least S$500 is charged in the calendar
+      month; computed per transaction to 2 d.p. without rounding
+    sources: ['bank:b65f2e85fe41']
+  min_spend:
+    amount: 500.0
+    currency: SGD
+  min_spend_period: calendar_month
   bonus_cap:
     amount: 50.0
     unit: SGD_cashback
-    period: statement_month
-    sources: ['singsaver:c48166be9844']
+    period: calendar_month
+    sources: ['bank:b65f2e85fe41']
   conditions:
-  - bonus_cap parsed from aggregator text “Capped at S$50 each statement month” — confirm amount, unit
-    and whether the period is calendar or statement month
-  - 'aggregator categories: travel, dining, groceries, petrol, shopping, healthcare, transport'
-  sources: ['singsaver:c48166be9844']
-- id: base
-  label: baseline (SingSaver — verify)
-  rate: 5.0
-  unit: percent
-  tier: base
-  eligibility:
-    all_spend: true
-    description: Capped at S$50 each statement month.
-    sources: ['singsaver:c48166be9844']
-  sources: ['singsaver:c48166be9844']
+  - T&C caps cash rebate at S$50 "for each statement month" but computes it over the calendar month (1st to
+    last day); the product page says "up to S$100" — the T&C (updated 2 Jul 2026) is used here
+  - T&C states no rebate below the S$500 minimum spend
+  sources: ['bank:b65f2e85fe41']
+spend_cycle: calendar_month
+spend_cycle_sources: ['bank:b65f2e85fe41']
 general_exclusions:
-  description: Auto-extracted from official T&Cs — confirm each code applies to this card
+  exclude_mcc: ['4829', '5199', '5960', '6012', '6050', '6051', '6211', '6300', '6529', '6530', '6534', '6540',
+    '7995', '9222', '9223', '9311', '9399', '9402', '9405']
+  tags: [government]
+  description: 'T&C clause 6: fees, AXS bill payments, road tax, LTA, Singapore Post, 0% instalments/BNPL,
+    ReadyCA$H, DCA$H, balance transfer, Esso Fleet Card, cash advance, plus the listed MCCs'
+  sources: ['bank:b65f2e85fe41']
 notes:
-- 'T&C mentions (check whether excluded): axs, balance transfer, bill payment, cash advance, government,
-  instalment, interest, late payment charge, tax'
+- Network is Diners Club (not in the model's network list, so left blank).
 citations:
 - id: singsaver:c48166be9844
   url: https://www.singsaver.com.sg/credit-card/products/dcs-cashback-card
@@ -72,6 +69,15 @@ citations:
   retrieved_at: '2026-09-27T08:37:00+00:00'
   sha256: b65f2e85fe416d68bd06607e25efe383e17a5079d200dd3c0ba9031cc687e62a
   snapshot: data/raw/bank/cards-dcscc-com-dcscc-v2-pdf-DCS-20Cashback-20Credit-20Card-20TCs-pdf-37c3fedb.pdf
+- id: web:dcs-cashback-page
+  url: https://cards.dcscc.com/cashback
+  title: DCS CASHBACK Credit Card (product page)
+  source_type: official
+  retrieved_at: '2026-10-18'
 review:
-  status: draft
-updated_at: '2026-09-27'
+  status: reviewed
+  reviewed_by: claude (web research)
+  reviewed_at: 2026-10-18
+  notes: Verified fee/waiver, income, 5% with S$500 calendar-month min, exclusions vs DCS page + cash rebate
+    T&C (2 Jul 2026, unchanged hash); cap conflict S$50 (T&C) vs "up to S$100" (page) unresolved.
+updated_at: '2026-10-18'

@@ -1,5 +1,5 @@
 # Curated card record. Auto-drafted from staged sources; verify every value against the
-# official T&Cs (citations below), then set review.status: reviewed.
+# official T&Cs (citations below), then set review.status: reviewed and review.reviewed_at.
 id: dbs-yuu-american-express
 bank: DBS
 name: DBS yuu American Express Card
@@ -19,6 +19,21 @@ min_annual_income:
 reward_currency:
   kind: miles
   name: Miles
+  conversions:
+  - partner: KrisFlyer
+    points: 200.0
+    partner_units: 56.0
+    fee:
+      amount: 0.0
+      currency: SGD
+    min_block_points: 200.0
+    note: 'The MileLion: min. transfer “200 yuu Points (56 miles)”, transfer fee “Free” — confirm the
+      partner (the overview quotes KrisFlyer unless it says otherwise)'
+    sources: ['milelion:ae0327cea06a']
+  expiry:
+    months: 24
+    note: 'The MileLion: points validity “2 years”'
+    sources: ['milelion:ae0327cea06a']
 earn_rules:
 - id: local
   label: local (SingSaver — verify)
@@ -41,6 +56,8 @@ earn_rules:
     description: 1x yuu Point per S$1
     sources: ['singsaver:bfd746726f80']
   sources: ['singsaver:bfd746726f80']
+spend_cycle: calendar_month
+spend_cycle_sources: ['milelion:ae0327cea06a']
 general_exclusions:
   description: Auto-extracted from official T&Cs — confirm each code applies to this card
 sign_up_bonuses:
@@ -115,6 +132,8 @@ sign_up_bonuses:
   url: https://www.moneysmart.sg/credit-cards/dbs-yuu-american-express-card
   sources: ['moneysmart:fbcf8e7229a3']
 notes:
+- spend_cycle calendar_month from The MileLion review (“Bonus Reward 2 requires that cardholders meet
+  a minimum spend of S$800 per calendar month.”) — confirm it applies to min spend and caps
 - 'Editorial review for cross-checking: Review: DBS yuu Card (https://milelion.com/2026/06/27/review-dbs-yuu-card/,
   updated 2026-09-19)'
 citations:
@@ -136,9 +155,9 @@ citations:
   url: https://milelion.com/2026/06/27/review-dbs-yuu-card/
   title: 'Review: DBS yuu Card'
   source_type: editorial
-  retrieved_at: '2026-09-27T05:28:39+00:00'
+  retrieved_at: '2026-09-28T13:28:41+00:00'
   sha256: ae0327cea06a36c4ee8c840cfbbad4432a197440f97146ba5d766edca6ae6028
   snapshot: data/raw/milelion/post-176991-cda8d936.json
 review:
   status: draft
-updated_at: '2026-09-27'
+updated_at: '2026-09-28'

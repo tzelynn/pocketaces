@@ -1,5 +1,5 @@
 # Curated card record. Auto-drafted from staged sources; verify every value against the
-# official T&Cs (citations below), then set review.status: reviewed.
+# official T&Cs (citations below), then set review.status: reviewed and review.reviewed_at.
 id: dcs-ultimate-platinum-mastercard
 bank: DCS
 name: DCS Ultimate Platinum Mastercard
@@ -8,11 +8,12 @@ image_url: https://mhgprod.blob.core.windows.net/singsaver/strapi-uploads/m_DCS_
 official_url: https://cards.dcscc.com/ultimate
 annual_fee:
   amount:
-    amount: 196.2
+    amount: 130.8
     currency: SGD
   first_year_waived: true
-  waiver_notes: S$ | First Year Waived
-  sources: ['singsaver:967114965bb9']
+  waiver_notes: Monthly service fee S$10 + GST (S$10.90; S$130.80 a year), first year free; waived in any
+    month with 8 retail transactions or S$800 spend. Supplementary S$5 + GST monthly
+  sources: ['web:dcs-ultimatemc-page']
 min_annual_income:
   amount: 30000.0
   currency: SGD
@@ -20,81 +21,59 @@ reward_currency:
   kind: cashback
   name: Cashback
 earn_rules:
-- id: local
-  label: local, overseas (SingSaver — verify)
-  rate: 2.0
+- id: travel-promo
+  label: Airlines & hotels (promotion)
+  rate: 4.0
   unit: percent
   tier: bonus
   eligibility:
-    include_mcc: ['4784', '4829', '4900', '5199', '5960', '6010', '6011', '6012', '6050', '6051', '6211',
-      '6300', '6513', '6540', '7349', '7523', '7800', '7801', '7802', '7995', '8062', '8211', '8220',
-      '8241', '8244', '8249', '8299', '8398', '8651', '8661', '9211', '9222', '9223', '9311', '9399',
-      '9402', '9405', '9406']
-    description: No minimum spend; cashback is capped at S$200 per calendar month. / Card transactions
-      made in foreign currencies will be converted to Singapore Dollars based on a retail rate by DCS
-      plus a conversion commission. [include_mcc auto-extracted from official T&C — check it belongs to
-      this rule]
-    sources: ['singsaver:967114965bb9', 'bank:450ee3eff44f']
+    tags: [flights, hotels]
+    include_mcc: [3000-3299, '3300', '3301', '3303', '3308', '4511', 3501-3999, '7011']
+    description: 2% base + additional 2% Bonus Cashback on airline and hotel transactions (online and offline)
+    sources: ['web:dcs-ultimatemc-travel-tnc']
   bonus_cap:
     amount: 200.0
     unit: SGD_cashback
     period: calendar_month
-    sources: ['singsaver:967114965bb9']
+    shared_with: [base]
+    sources: ['web:dcs-ultimatemc-travel-tnc']
   conditions:
-  - bonus_cap parsed from aggregator text “capped at S$200 per calendar month” — confirm amount, unit
-    and whether the period is calendar or statement month
-  sources: ['singsaver:967114965bb9']
+  - S$200 monthly cap is shared with the 2% base cashback
+  valid_from: '2026-09-01'
+  valid_to: '2026-12-31'
+  sources: ['web:dcs-ultimatemc-travel-tnc']
 - id: base
-  label: baseline (SingSaver — verify)
+  label: All eligible spend
   rate: 2.0
   unit: percent
   tier: base
   eligibility:
     all_spend: true
-    description: No minimum spend; cashback is capped at S$200 per calendar month.
-    sources: ['singsaver:967114965bb9']
-  sources: ['singsaver:967114965bb9']
+    description: 2% cashback on every Card Transaction up to S$10,000 spend a month, no minimum spend
+    sources: ['bank:450ee3eff44f']
+  max_spend:
+    amount: 10000.0
+    currency: SGD
+  max_spend_period: calendar_month
+  bonus_cap:
+    amount: 200.0
+    unit: SGD_cashback
+    period: calendar_month
+    sources: ['bank:450ee3eff44f']
+  sources: ['bank:450ee3eff44f']
+spend_cycle: calendar_month
+spend_cycle_sources: ['bank:450ee3eff44f']
 general_exclusions:
-  description: Auto-extracted from official T&Cs — confirm each code applies to this card
-sign_up_bonuses:
-- offered_by: singsaver
-  description: 'SingSaver Exclusive Welcome Offer: choice of Get up to a 24-inch GOTRIP Luggage + S$50
-    Gojek Voucher'
-  options:
-  - Get up to a 24-inch GOTRIP Luggage + S$50 Gojek Voucher
-  min_spend:
-    amount: 500.0
-    currency: SGD
-  spend_within_days: 30
-  new_to_bank_only: true
-  terms: 'SingSaver Exclusive Welcome Offer promotion is valid from 1 September 2026 to 30 September 2026.
-    Promotion is valid for new customers of DCS cards only. Apply and get approved for the DCS Ultimate
-    Platinum Mastercard and meet the min. spend criteria within 30 days of card approval to be eligible
-    for reward: Make a min. spend of S$500 within 30 days of card approval to be eligible for a 20-inch
-    GOTRIP Luggage Bag . Make a min. spend of S$800 within 30 days of card approval to be eligible for
-    a 24-inch GOTRIP Luggage Bag . You will only receive one of the above rewards. Additionally, accumulate
-    a min. spend of S$1,000 in Qualifying Transactions within 30 days of the card approval date to be
-    eligible for a S$50 Gojek Voucher on top of the above reward. All of the above rewards are fulfilled
-    by DCS. Terms and Conditions apply.'
-  valid_from: '2026-08-31'
-  valid_to: '2026-09-30'
-  url: https://www.singsaver.com.sg/credit-card/products/dcs-ultimate-platinum-mastercard
-  sources: ['singsaver:967114965bb9']
-- offered_by: moneysmart
-  description: 'Choice of: S$50 Gojek Voucher'
-  options: [S$50 Gojek Voucher]
-  min_spend:
-    amount: 1000.0
-    currency: SGD
-  spend_within_days: 30
-  new_to_bank_only: true
-  terms: Valid for New-To-DCS Credit Card customers Spend a min. of S$1,000 in Eligible Transactions within
-    30 days
-  url: https://www.moneysmart.sg/credit-cards/dcs-ultimate-platinum-mastercard
-  sources: ['moneysmart:eeee24fb93a9']
+  exclude_mcc: ['4784', '4829', '4900', '5199', '5960', '6010', '6011', '6012', '6050', '6051', '6211', '6300',
+    '6513', '6540', '7349', '7523', '7800', '7801', '7802', '7995', '8062', '8211', '8220', '8241', '8244',
+    '8249', '8299', '8398', '8651', '8661', '9211', '9222', '9223', '9311', '9399', '9402', '9405', '9406']
+  exclude_merchants: [AMAZE*, EZ-LINK*, IPAYMY*, SIMPLYGO*, skrill.com*, TRANSIT*]
+  description: 'T&C clause 9: annual fees, charges, AXS bill payments, road tax, LTA, Singapore Post, 0% instalments/BNPL,
+    ReadyCA$H, DCA$H, balance transfer, Esso Fleet Card, cash advance, corporate transactions, the listed descriptors
+    and MCCs'
+  sources: ['bank:450ee3eff44f']
 notes:
-- 'T&C mentions (check whether excluded): annual fee, axs, balance transfer, bill payment, cash advance,
-  charit, education, government, hospital, instalment, interest, ipaymy, late payment charge, tax, utilit'
+- 'FX: 3.25% admin fee on foreign-currency transactions; 1% on SGD transactions processed overseas.'
 citations:
 - id: singsaver:967114965bb9
   url: https://www.singsaver.com.sg/credit-card/products/dcs-ultimate-platinum-mastercard
@@ -116,6 +95,19 @@ citations:
   retrieved_at: '2026-09-27T08:37:08+00:00'
   sha256: 450ee3eff44faa873223d977d8b17f8351318009922e2a4b1a67df4eb900d7a3
   snapshot: data/raw/bank/static-dcscc-com-pdf-dcscc-legal-DCS-20Ultimate-20Platinum-20Card-20Terms-20and-20Conditions-20-1-20June-202025-pdf-3583d9d5.pdf
+- id: web:dcs-ultimatemc-page
+  url: https://cards.dcscc.com/ultimate
+  title: DCS Ultimate Platinum Mastercard (product page)
+  source_type: official
+  retrieved_at: '2026-10-18'
+- id: web:dcs-ultimatemc-travel-tnc
+  url: https://static.dcscc.com/cms/T_and_Cs_Ultimate_MC_Travel_Cashback_Promotion_57f8de49e8.pdf
+  title: DCS Ultimate Platinum Mastercard Travel Cashback Promotion T&Cs (1 Sep - 31 Dec 2026)
+  source_type: official
+  retrieved_at: '2026-10-18'
 review:
-  status: draft
-updated_at: '2026-09-27'
+  status: reviewed
+  reviewed_by: claude (web research)
+  reviewed_at: 2026-10-18
+  notes: Verified fee (S$10+GST monthly, was S$196.20 annual), income, 2% up to S$10k/S$200 calendar-month cap, travel promo, exclusions (were mislabelled as include_mcc) vs DCS page + card T&C (1 Jun 2025) + promo T&C.
+updated_at: '2026-10-18'

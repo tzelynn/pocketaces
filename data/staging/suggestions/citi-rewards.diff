@@ -1,0 +1,68 @@
+--- curated/cards/citi-rewards.yaml
++++ suggestions/citi-rewards.yaml
+@@ -15,13 +15,28 @@
+   amount: 30000.0
+   currency: SGD
+ reward_currency:
+-  kind: miles
+-  name: miles
++  kind: points
++  name: Points
++  conversions:
++  - partner: KrisFlyer
++    points: 25000.0
++    partner_units: 10000.0
++    fee:
++      amount: 27.25
++      currency: SGD
++    min_block_points: 25000.0
++    note: 'The MileLion: min. transfer “25,000 TY points (10,000 miles)”, transfer fee “S$27.25” — confirm
++      the partner (the overview quotes KrisFlyer unless it says otherwise)'
++    sources: ['milelion:e97c3ffbbb86']
++  expiry:
++    months_max: 60
++    note: 'The MileLion: points validity “Up to 5 yrs.”'
++    sources: ['milelion:e97c3ffbbb86']
+ earn_rules:
+ - id: local-spending
+   label: local spending, online shopping, retail (SingSaver — verify)
+-  rate: 4.0
+-  unit: mpd
++  rate: 10.0
++  unit: points_per_dollar
+   tier: bonus
+   eligibility:
+     include_mcc: ['4829', '4900', '5199', '5311', '5611', '5621', '5631', '5641', '5651', '5655', '5661',
+@@ -57,6 +72,8 @@
+     description: ''
+     sources: ['singsaver:b0789316dd55']
+   sources: ['singsaver:b0789316dd55']
++spend_cycle: statement_month
++spend_cycle_sources: ['milelion:e97c3ffbbb86']
+ general_exclusions:
+   exclude_mcc: [3000-3350, 3351-3500, 3501-3999, '4111', '4112', '4411', '4511', '4722', 4722-4723, '4723',
+     '4789', '5962', '7011', 7011-7012, '7012', '7512']
+@@ -175,6 +192,9 @@
+   url: https://www.moneysmart.sg/credit-cards/citibank-rewards-card
+   sources: ['moneysmart:eeee24fb93a9']
+ notes:
++- spend_cycle statement_month from The MileLion review (“Online (except travel and in-app mobile wallet
++  payments) At department stores, or shops selling bags, shoes and clothes An overall cap of S$1,000 per
++  statement month applies, shared between (1) and (2”) — confirm it applies to min spend and caps
+ - 'Editorial review for cross-checking: Review: Citi Rewards Credit Card (https://milelion.com/2026/02/27/review-citi-rewards-credit-card/,
+   updated 2026-08-21)'
+ - 'T&C mentions (check whether excluded): annual fee, axs, balance transfer, bill payment, cash advance,
+@@ -241,10 +261,9 @@
+   url: https://milelion.com/2026/02/27/review-citi-rewards-credit-card/
+   title: 'Review: Citi Rewards Credit Card'
+   source_type: editorial
+-  retrieved_at: '2026-09-27T05:28:59+00:00'
++  retrieved_at: '2026-09-28T13:29:05+00:00'
+   sha256: e97c3ffbbb86c17682e52a3200d191f3bb9aa86da353b54c2d102219e9e7a89d
+   snapshot: data/raw/milelion/post-72798-1714eaef.json
+ review:
+-  status: reviewed
+-  reviewed_at: 2026-09-27
+-updated_at: '2026-09-27'
++  status: draft
++updated_at: '2026-09-28'

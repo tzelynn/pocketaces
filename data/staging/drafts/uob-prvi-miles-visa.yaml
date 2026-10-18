@@ -1,5 +1,5 @@
 # Curated card record. Auto-drafted from staged sources; verify every value against the
-# official T&Cs (citations below), then set review.status: reviewed.
+# official T&Cs (citations below), then set review.status: reviewed and review.reviewed_at.
 id: uob-prvi-miles-visa
 bank: UOB
 name: UOB PRVI Miles Visa Card
@@ -19,6 +19,21 @@ min_annual_income:
 reward_currency:
   kind: miles
   name: Miles
+  conversions:
+  - partner: KrisFlyer
+    points: 5000.0
+    partner_units: 10000.0
+    fee:
+      amount: 27.0
+      currency: SGD
+    min_block_points: 5000.0
+    note: 'The MileLion: min. transfer “5,000 UNI$ (10,000 miles)”, transfer fee “S$27” — confirm the
+      partner (the overview quotes KrisFlyer unless it says otherwise)'
+    sources: ['milelion:5186c3fd83fc']
+  expiry:
+    months: 24
+    note: 'The MileLion: points validity “2 years”'
+    sources: ['milelion:5186c3fd83fc']
 earn_rules:
 - id: travel
   label: travel (SingSaver — verify)
@@ -195,9 +210,9 @@ citations:
   url: https://milelion.com/2026/07/08/review-uob-prvi-miles-card/
   title: 'Review: UOB PRVI Miles Card'
   source_type: editorial
-  retrieved_at: '2026-09-27T05:28:34+00:00'
+  retrieved_at: '2026-09-28T13:28:37+00:00'
   sha256: 5186c3fd83fcb24cc0dfbb8d9158021be3d0f0fed6ab789a4eec5cbbc8126958
   snapshot: data/raw/milelion/post-72937-ebb92233.json
 review:
   status: draft
-updated_at: '2026-09-27'
+updated_at: '2026-09-28'

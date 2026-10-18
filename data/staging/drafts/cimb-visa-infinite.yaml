@@ -1,5 +1,5 @@
 # Curated card record. Auto-drafted from staged sources; verify every value against the
-# official T&Cs (citations below), then set review.status: reviewed.
+# official T&Cs (citations below), then set review.status: reviewed and review.reviewed_at.
 id: cimb-visa-infinite
 bank: CIMB Bank
 name: CIMB Visa Infinite Card
@@ -96,4 +96,4 @@ citations:
   snapshot: data/raw/bank/www-cimb-com-sg-content-dam-cimbsg-personal-document-tnc-cards-cards-tnc-vi-card-pdf-a2cd10fe.pdf
 review:
   status: draft
-updated_at: '2026-09-27'
+updated_at: '2026-09-28'

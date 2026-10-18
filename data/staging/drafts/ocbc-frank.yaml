@@ -1,5 +1,5 @@
 # Curated card record. Auto-drafted from staged sources; verify every value against the
-# official T&Cs (citations below), then set review.status: reviewed.
+# official T&Cs (citations below), then set review.status: reviewed and review.reviewed_at.
 id: ocbc-frank
 bank: OCBC
 name: OCBC Frank Card
@@ -106,4 +106,4 @@ citations:
   snapshot: data/raw/bank/www-ocbc-com-iwov-resources-sg-ocbc-personal-pdf-cards-terms-and-conditions-governing-ocbc-frank-credit-card-pdf-a466cae8.pdf
 review:
   status: draft
-updated_at: '2026-09-27'
+updated_at: '2026-09-28'

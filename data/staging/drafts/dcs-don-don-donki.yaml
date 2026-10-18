@@ -1,5 +1,5 @@
 # Curated card record. Auto-drafted from staged sources; verify every value against the
-# official T&Cs (citations below), then set review.status: reviewed.
+# official T&Cs (citations below), then set review.status: reviewed and review.reviewed_at.
 id: dcs-don-don-donki
 bank: DCS
 name: DCS DON DON DONKI Card
@@ -56,4 +56,4 @@ citations:
   snapshot: data/raw/bank/cards-dcscc-com-dcscc-v2-pdf-DON-20DON-20DONKI-20Rebate-24-20TCs-pdf-0c17a1ef.pdf
 review:
   status: draft
-updated_at: '2026-09-27'
+updated_at: '2026-09-28'

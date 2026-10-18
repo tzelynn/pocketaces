@@ -1,5 +1,5 @@
 # Curated card record. Auto-drafted from staged sources; verify every value against the
-# official T&Cs (citations below), then set review.status: reviewed.
+# official T&Cs (citations below), then set review.status: reviewed and review.reviewed_at.
 id: uob-visa-signature
 bank: UOB
 name: UOB Visa Signature Card
@@ -18,6 +18,22 @@ min_annual_income:
 reward_currency:
   kind: miles
   name: Miles
+  conversions:
+  - partner: KrisFlyer
+    points: 5000.0
+    partner_units: 10000.0
+    fee:
+      amount: 27.0
+      currency: SGD
+    min_block_points: 5000.0
+    note: 'The MileLion: min. transfer “5,000 UNI$ (10,000 miles)”, transfer fee “S$27” — confirm the
+      partner (the overview quotes KrisFlyer unless it says otherwise)'
+    sources: ['milelion:ccdde960944c']
+  expiry:
+    months: 24
+    months_max: 27
+    note: 'The MileLion: points validity “24-27 months”'
+    sources: ['milelion:ccdde960944c']
 earn_rules:
 - id: local
   label: local, overseas, overseas online shopping, contactless spend, petrol (SingSaver — verify)
@@ -48,8 +64,7 @@ earn_rules:
   min_spend_period: statement_month
   conditions:
   - 'aggregator categories: petrol'
-  - min spend S$1000/month from singsaver — confirm the period (statement vs calendar month) and which
-    rules it unlocks
+  - min spend S$1000/month from singsaver — confirm which rules it unlocks
   sources: ['singsaver:eea43cb0180c']
 - id: base
   label: baseline (SingSaver — verify)
@@ -61,6 +76,8 @@ earn_rules:
     description: Earn UNI$1 per S$5 spend (equivalent to 0.4 mpd) on all other categories.
     sources: ['singsaver:eea43cb0180c']
   sources: ['singsaver:eea43cb0180c']
+spend_cycle: statement_month
+spend_cycle_sources: ['milelion:ccdde960944c']
 general_exclusions:
   description: Auto-extracted from official T&Cs — confirm each code applies to this card
 sign_up_bonuses:
@@ -111,6 +128,9 @@ sign_up_bonuses:
   url: https://www.singsaver.com.sg/credit-card/products/uob-visa-signature-card
   sources: ['singsaver:eea43cb0180c']
 notes:
+- 'spend_cycle statement_month from The MileLion review (“UNI$ 2,160 UNI$ Monthly Cap (S$) S$1,200 S$1,200
+  Caps are based on statement month Category 1 (Overseas Spend): A minimum spend of S$1,000 in FCY in
+  a statement month, capped at S$1,200 per statement ”) — confirm it applies to min spend and caps'
 - 'Editorial review for cross-checking: Review: UOB Visa Signature Card (https://milelion.com/2026/08/10/review-uob-visa-signature-card/,
   updated 2026-08-17)'
 - 'T&C mentions (check whether excluded): annual fee, axs, bill payment, cardup, cash advance, charit,
@@ -159,9 +179,9 @@ citations:
   url: https://milelion.com/2026/08/10/review-uob-visa-signature-card/
   title: 'Review: UOB Visa Signature Card'
   source_type: editorial
-  retrieved_at: '2026-09-27T05:28:21+00:00'
+  retrieved_at: '2026-09-28T13:28:23+00:00'
   sha256: ccdde960944c9d5931345009185d0965690da538dee6e3079c1f51362c6142fd
   snapshot: data/raw/milelion/post-125998-b208437b.json
 review:
   status: draft
-updated_at: '2026-09-27'
+updated_at: '2026-09-28'

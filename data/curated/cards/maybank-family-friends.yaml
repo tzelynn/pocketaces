@@ -1,17 +1,18 @@
 # Curated card record. Auto-drafted from staged sources; verify every value against the
-# official T&Cs (citations below), then set review.status: reviewed.
+# official T&Cs (citations below), then set review.status: reviewed and review.reviewed_at.
 id: maybank-family-friends
 bank: Maybank
 name: Maybank Family & Friends Card
 network: mastercard
 image_url: https://mhgprod.blob.core.windows.net/singsaver/strapi-uploads/s_2026_04_Maybank_Family_and_Friends_c4c102405d.png
 official_url: https://www.maybank2u.com.sg/en/personal/cards/credit/maybank-family-and-friends-mastercard.page
+network: mastercard
 annual_fee:
   amount:
     amount: 196.2
     currency: SGD
-  waiver_notes: S$ | First Three Years Waived
-  sources: ['singsaver:e68ba5463cc4']
+  waiver_notes: First 3 years waived; thereafter auto-waived with S$12,000 spend a year
+  sources: ['singsaver:e68ba5463cc4', 'web:mb-fnf-page']
 min_annual_income:
   amount: 30000.0
   currency: SGD
@@ -19,64 +20,276 @@ reward_currency:
   kind: cashback
   name: Cashback
 earn_rules:
-- id: local
-  label: local, overseas, dining, supermarket, retail, local online shopping, overseas online shopping,
-    health, department store, digital wallet, contactless spend, transport (SingSaver — verify)
+- id: dining
+  label: Dining & Food Delivery
   rate: 8.0
   unit: percent
   tier: bonus
   eligibility:
-    tags: [dining, groceries, shopping, healthcare, transport]
-    modes_required: [contactless]
-    description: 'Up to  | On 5 Preferred Categories (local & overseas) and all Malaysian Ringgit and
-      Indonesian Rupiah spend. Monthly up to S$30 cap per category. / 8% on restaurants, Foodpanda, and
-      Deliveroo with min. monthly spend of S$800 per month. S$25 monthly cashback cap per category. /
-      NTUC FairPrice/Finest/X-tra, Cold Storage, Giant, Market Place, Jasons, Sheng Siong, DON DON DONKI,
-      HAO Mart, RedMart, Amazon Fresh, and all other grocery stores and supermarkets globally, with min.
-      spend of S$800 per month. S$25 monthly cashback cap per category. / 8% on selected pet and retail
-      merchants with min. monthly spend of S$800. S$25 monthly cashback cap per category. / 8% on apparels,
-      shoes, accessories, leather goods, luggage, and other fashion purchases globally with min. monthly
-      spend of S$800. S$25 monthly cashback cap per category. / Massage parlors, Health & beauty spas
-      and Barber shops globally. S$25 monthly cashback cap. / S$25 monthly cashback cap / Petrol stations,
-      contactless bus and train rides, limousines, taxis, Grab/GOJEK rides, other passenger transportation
-      services and automotive related services globally. S$25 monthly cashback cap. '
-    sources: ['singsaver:e68ba5463cc4']
+    include_mcc: ['5812', '5814']
+    include_merchants: [Foodpanda, Deliveroo]
+    description: Restaurants, fast food and food delivery (Foodpanda, Deliveroo, GrabFood) globally.
+    sources: ['web:mb-fnf-page', 'web:mb-fnf-tnc']
   min_spend:
-    amount: 800.0
+    amount: 1600.0
     currency: SGD
-  min_spend_period: statement_month
+  min_spend_period: calendar_month
+  bonus_cap:
+    amount: 30.0
+    unit: SGD_cashback
+    period: calendar_month
+    sources: ['web:mb-fnf-page']
   conditions:
-  - min spend S$800/month from singsaver — confirm the period (statement vs calendar month) and which
-    rules it unlocks
-  sources: ['singsaver:e68ba5463cc4']
-- id: online-bill-payment-spending
-  label: online bill payment spending (SingSaver — verify)
-  rate: 0.3
+  - One of 5 chosen categories (locked in for 3 months, changed via the TREATS SG app)
+  - 'Tier 1: 6% (S$20 cap per category) with S$800-1,599 monthly spend'
+  sources: ['web:mb-fnf-page', 'web:mb-fnf-tnc']
+- id: groceries
+  label: Groceries
+  rate: 6.0
   unit: percent
   tier: bonus
   eligibility:
-    description: 0.3% cashback on AXS bill payments. Cashback is capped at S$50 per transaction.
-    sources: ['singsaver:e68ba5463cc4']
+    include_mcc: ['5411']
+    description: Supermarkets and grocery stores globally — 6% at both tiers.
+    sources: ['web:mb-fnf-page', 'web:mb-fnf-tnc']
   min_spend:
     amount: 800.0
     currency: SGD
-  min_spend_period: statement_month
+  min_spend_period: calendar_month
+  bonus_cap:
+    amount: 20.0
+    unit: SGD_cashback
+    period: calendar_month
+    sources: ['web:mb-fnf-page']
   conditions:
-  - min spend S$800/month from singsaver — confirm the period (statement vs calendar month) and which
-    rules it unlocks
-  sources: ['singsaver:e68ba5463cc4']
+  - One of 5 chosen categories (locked in for 3 months, changed via the TREATS SG app)
+  - Cap S$20 at Tier 1 (S$800+), S$30 at Tier 2 (S$1,600+)
+  sources: ['web:mb-fnf-page', 'web:mb-fnf-tnc']
+- id: commute
+  label: Commute
+  rate: 8.0
+  unit: percent
+  tier: bonus
+  eligibility:
+    include_mcc: ['4111', '4112', '4121', '4131', '4789']
+    description: Contactless bus/train rides, taxis, Grab/Gojek and other passenger transport globally.
+    sources: ['web:mb-fnf-page', 'web:mb-fnf-tnc']
+  min_spend:
+    amount: 1600.0
+    currency: SGD
+  min_spend_period: calendar_month
+  bonus_cap:
+    amount: 30.0
+    unit: SGD_cashback
+    period: calendar_month
+    sources: ['web:mb-fnf-page']
+  conditions:
+  - One of 5 chosen categories (locked in for 3 months, changed via the TREATS SG app)
+  - 'Tier 1: 6% (S$20 cap per category) with S$800-1,599 monthly spend'
+  sources: ['web:mb-fnf-page', 'web:mb-fnf-tnc']
+- id: automobile
+  label: Automobile (petrol & car services)
+  rate: 8.0
+  unit: percent
+  tier: bonus
+  eligibility:
+    include_mcc: ['5541', '5542', '5532', '5533', '5599', '7531', '7535', '7538']
+    description: Petrol stations, EV charging (MCC 5552) and automotive services globally.
+    sources: ['web:mb-fnf-page', 'web:mb-fnf-tnc']
+  min_spend:
+    amount: 1600.0
+    currency: SGD
+  min_spend_period: calendar_month
+  bonus_cap:
+    amount: 30.0
+    unit: SGD_cashback
+    period: calendar_month
+    sources: ['web:mb-fnf-page']
+  conditions:
+  - One of 5 chosen categories (locked in for 3 months, changed via the TREATS SG app)
+  - 'Tier 1: 6% (S$20 cap per category) with S$800-1,599 monthly spend'
+  sources: ['web:mb-fnf-page', 'web:mb-fnf-tnc']
+- id: telco-streaming
+  label: Telco & Streaming
+  rate: 8.0
+  unit: percent
+  tier: bonus
+  eligibility:
+    include_mcc: ['4812', '4814', '4899']
+    description: Telco, pay TV, streaming (e.g. Netflix, Disney+), cable and radio services globally.
+    sources: ['web:mb-fnf-page', 'web:mb-fnf-tnc']
+  min_spend:
+    amount: 1600.0
+    currency: SGD
+  min_spend_period: calendar_month
+  bonus_cap:
+    amount: 30.0
+    unit: SGD_cashback
+    period: calendar_month
+    sources: ['web:mb-fnf-page']
+  conditions:
+  - One of 5 chosen categories (locked in for 3 months, changed via the TREATS SG app)
+  - 'Tier 1: 6% (S$20 cap per category) with S$800-1,599 monthly spend'
+  sources: ['web:mb-fnf-page', 'web:mb-fnf-tnc']
+- id: entertainment
+  label: Entertainment
+  rate: 8.0
+  unit: percent
+  tier: bonus
+  eligibility:
+    include_mcc: ['5813', '7832', '7922', '7929']
+    description: Bars, cinemas, theatrical producers and ticketing agencies globally.
+    sources: ['web:mb-fnf-page', 'web:mb-fnf-tnc']
+  min_spend:
+    amount: 1600.0
+    currency: SGD
+  min_spend_period: calendar_month
+  bonus_cap:
+    amount: 30.0
+    unit: SGD_cashback
+    period: calendar_month
+    sources: ['web:mb-fnf-page']
+  conditions:
+  - One of 5 chosen categories (locked in for 3 months, changed via the TREATS SG app)
+  - 'Tier 1: 6% (S$20 cap per category) with S$800-1,599 monthly spend'
+  sources: ['web:mb-fnf-page', 'web:mb-fnf-tnc']
+- id: online-shopping
+  label: Online Shopping
+  rate: 8.0
+  unit: percent
+  tier: bonus
+  eligibility:
+    include_mcc: ['5262', '5309', '5310', '5311', '5331', '5399', '5611', '5621', '5631', '5641', '5651', '5661', '5691', '5699', '5948']
+    modes_required: [online]
+    description: Online purchases of apparel, shoes, accessories, luggage and on marketplaces (Lazada, Shopee, Taobao).
+    sources: ['web:mb-fnf-page', 'web:mb-fnf-tnc']
+  min_spend:
+    amount: 1600.0
+    currency: SGD
+  min_spend_period: calendar_month
+  bonus_cap:
+    amount: 30.0
+    unit: SGD_cashback
+    period: calendar_month
+    sources: ['web:mb-fnf-page']
+  conditions:
+  - One of 5 chosen categories (locked in for 3 months, changed via the TREATS SG app)
+  - 'Tier 1: 6% (S$20 cap per category) with S$800-1,599 monthly spend'
+  sources: ['web:mb-fnf-page', 'web:mb-fnf-tnc']
+- id: kids-pets
+  label: Kids & Pets
+  rate: 8.0
+  unit: percent
+  tier: bonus
+  eligibility:
+    include_mcc: ['0742', '5995']
+    include_merchants: [POPULAR, Toys R Us, Yamaha Music, Mothercare, Kiddy Palace]
+    description: Pets and vets globally, plus POPULAR, Toys "R" Us, Yamaha Music, Mothercare and Kiddy Palace.
+    sources: ['web:mb-fnf-page', 'web:mb-fnf-tnc']
+  min_spend:
+    amount: 1600.0
+    currency: SGD
+  min_spend_period: calendar_month
+  bonus_cap:
+    amount: 30.0
+    unit: SGD_cashback
+    period: calendar_month
+    sources: ['web:mb-fnf-page']
+  conditions:
+  - One of 5 chosen categories (locked in for 3 months, changed via the TREATS SG app)
+  - 'Tier 1: 6% (S$20 cap per category) with S$800-1,599 monthly spend'
+  sources: ['web:mb-fnf-page', 'web:mb-fnf-tnc']
+- id: sports
+  label: Sports & Sports Apparels
+  rate: 8.0
+  unit: percent
+  tier: bonus
+  eligibility:
+    include_mcc: ['5655', '5940', '5941', '7032', '7941', '7992', '7997']
+    description: Sports apparel and goods, bicycle shops, sports clubs, golf courses, country clubs and gyms globally.
+    sources: ['web:mb-fnf-page', 'web:mb-fnf-tnc']
+  min_spend:
+    amount: 1600.0
+    currency: SGD
+  min_spend_period: calendar_month
+  bonus_cap:
+    amount: 30.0
+    unit: SGD_cashback
+    period: calendar_month
+    sources: ['web:mb-fnf-page']
+  conditions:
+  - One of 5 chosen categories (locked in for 3 months, changed via the TREATS SG app)
+  - 'Tier 1: 6% (S$20 cap per category) with S$800-1,599 monthly spend'
+  sources: ['web:mb-fnf-page', 'web:mb-fnf-tnc']
+- id: beauty-wellness
+  label: Beauty & Wellness
+  rate: 8.0
+  unit: percent
+  tier: bonus
+  eligibility:
+    include_mcc: ['7230', '7297', '7298']
+    description: Massage parlours, health & beauty spas, hair salons and barbers globally.
+    sources: ['web:mb-fnf-page', 'web:mb-fnf-tnc']
+  min_spend:
+    amount: 1600.0
+    currency: SGD
+  min_spend_period: calendar_month
+  bonus_cap:
+    amount: 30.0
+    unit: SGD_cashback
+    period: calendar_month
+    sources: ['web:mb-fnf-page']
+  conditions:
+  - One of 5 chosen categories (locked in for 3 months, changed via the TREATS SG app)
+  - 'Tier 1: 6% (S$20 cap per category) with S$800-1,599 monthly spend'
+  sources: ['web:mb-fnf-page', 'web:mb-fnf-tnc']
+- id: myr-idr
+  label: MYR & IDR spend (automatic bonus category)
+  rate: 8.0
+  unit: percent
+  tier: bonus
+  eligibility:
+    modes_required: [foreign_currency]
+    description: Retail spend in Malaysian Ringgit or Indonesian Rupiah — counts as an extra bonus category on
+      top of the 5 chosen ones (incl. chosen-category spend after that category's cap).
+    sources: ['web:mb-fnf-page']
+  min_spend:
+    amount: 1600.0
+    currency: SGD
+  min_spend_period: calendar_month
+  bonus_cap:
+    amount: 30.0
+    unit: SGD_cashback
+    period: calendar_month
+    sources: ['web:mb-fnf-page']
+  conditions:
+  - 'Tier 1: 6% (S$20 cap) with S$800-1,599 monthly spend'
+  sources: ['web:mb-fnf-page']
 - id: base
-  label: baseline (SingSaver — verify)
+  label: All other spend
   rate: 0.22
   unit: percent
   tier: base
   eligibility:
     all_spend: true
-    description: 0.22% on all other categories & all spend if monthly spend falls below S$800.
-    sources: ['singsaver:e68ba5463cc4']
-  sources: ['singsaver:e68ba5463cc4']
+    description: 0.22% on all other spend, on all spend in months under S$800, and on category spend past its cap.
+    sources: ['web:mb-fnf-page']
+  sources: ['web:mb-fnf-page']
+spend_cycle: calendar_month
+spend_cycle_sources: ['web:mb-fnf-tnc', 'web:mb-fnf-page']
 general_exclusions:
-  description: Auto-extracted from official T&Cs — confirm each code applies to this card
+  exclude_mcc: ['4829', '4900', '5960', '6010', '6011', '6012', '6050', '6051', '6300', '6381', '6399', '6529',
+    '6530', '6534', '6540', '7349', '7511']
+  exclude_merchants: [EZ-Link, SimplyGo, YouTrip, Instarem, RazerPay, Singtel Dash]
+  description: No cashback or min-spend credit for government payments, gambling, brokerage, insurance, AXS/SAM,
+    instalment plans, fees/interest, top-ups and the MCCs above (programme T&C clause 33 + Maybank-wide exclusions
+    from 1 Dec 2025).
+  sources: ['web:mb-fnf-tnc', 'web:mb-fnf-page']
+notes:
+- 'Tiers from 1 Jan 2026: S$1,600+/month → up to 8% (S$30 per category, S$180 total across 5 categories + MYR & IDR);
+  S$800-1,599 → up to 6% (S$20 per category, S$120 total); under S$800 → 0.22% on everything.'
+- Default categories apply until you choose; choices take effect the 1st of the next month for a 3-month lock-in.
+- Min spend counted by posting date in the calendar month.
 citations:
 - id: singsaver:e68ba5463cc4
   url: https://www.singsaver.com.sg/credit-card/products/maybank-family-friends-card
@@ -92,6 +305,20 @@ citations:
   retrieved_at: '2026-09-27T05:27:20+00:00'
   sha256: 49fcb3586f252df0b2dacb9acecc465127e09c9defa7f151881c3db46d84649e
   snapshot: data/raw/moneysmart/credit-cards-p4-1a322210.html
+- id: web:mb-fnf-page
+  url: https://www.maybank2u.com.sg/en/personal/cards/credit/maybank-family-and-friends-mastercard.page
+  title: Maybank Family & Friends Card (product page, incl. 1 Jan 2026 programme revisions)
+  source_type: official
+  retrieved_at: '2026-10-18'
+- id: web:mb-fnf-tnc
+  url: https://www.maybank2u.com.sg/iwov-resources/sg/pdf/cards/fnf-cashback-programme-tnc.pdf
+  title: Family & Friends Card Cashback Programme T&Cs (pre-2026 version; category MCCs)
+  source_type: official
+  retrieved_at: '2026-10-18'
 review:
-  status: draft
-updated_at: '2026-09-27'
+  status: reviewed
+  reviewed_by: claude (web research)
+  reviewed_at: 2026-10-18
+  notes: Fee/waiver/income, 2026 tiers (6%/8%, S$20/S$30 caps), 0.22% base and Commute/Automobile MCCs from official
+    page; other category MCCs from the older programme T&C + page — the updated 2026 T&C PDF couldn't be fetched.
+updated_at: '2026-09-28'

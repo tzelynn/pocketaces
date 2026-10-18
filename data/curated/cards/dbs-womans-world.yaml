@@ -1,5 +1,5 @@
 # Curated card record. Auto-drafted from staged sources; verify every value against the
-# official T&Cs (citations below), then set review.status: reviewed.
+# official T&Cs (citations below), then set review.status: reviewed and review.reviewed_at.
 id: dbs-womans-world
 bank: DBS
 name: DBS Woman's World Card
@@ -11,55 +11,110 @@ annual_fee:
     amount: 196.2
     currency: SGD
   first_year_waived: true
-  waiver_notes: S$ | First Year Waived
-  sources: ['singsaver:5fff9a842eb7']
+  waiver_notes: First year waived. The automatic waiver for S$25,000 annual spend was removed on 1 Aug 2026.
+  sources: ['singsaver:5fff9a842eb7', 'milelion:32616126a4a7']
 min_annual_income:
   amount: 80000.0
   currency: SGD
 reward_currency:
   kind: miles
   name: Miles
+  conversions:
+  - partner: KrisFlyer
+    points: 5000.0
+    partner_units: 10000.0
+    fee:
+      amount: 27.25
+      currency: SGD
+    min_block_points: 5000.0
+    note: 1 DBS Point = 2 miles; S$27.25 (incl. GST) admin fee per conversion. Asia Miles (same ratio) and AirAsia
+      (500 points = 1,500) also available.
+    sources: ['web:dbs-woman-page', 'milelion:32616126a4a7']
+  expiry:
+    months: 12
+    months_max: 15
+    note: DBS Points expire 1 year from the earned date (DBS Rewards T&C cl. 2.12); MileLion quotes 12-15 months
+    sources: ['web:dbs-rewards-tnc', 'milelion:32616126a4a7']
 earn_rules:
-- id: local
-  label: local, retail, local online shopping, dining, hotel booking, flight booking, overseas online
-    shopping, supermarket, travel, online food delivery (SingSaver — verify)
+- id: online
+  label: online spend (local or FCY)
   rate: 4.0
   unit: mpd
   tier: bonus
   eligibility:
     tags: [shopping, dining, hotels, flights, groceries, travel]
+    exclude_mcc: ['0763', '7261', '7276', '7311', '7322', '7339', '7372', '7375', '7393', '7399', '8111', '8911',
+      '8931']
+    exclude_merchants: [CARDUP, IPAYMY, FAVE ECARD, FAVEPAY, FLASHPAY ATU, MATCHMOVE PAY, KASHMI, COINBASE,
+      SAXO CAP MKTS PTS LTD, OANDA ASIA PAC, WWW.IGMARKETS.COM.SG]
     modes_required: [online]
-    description: 10X DBS Points per S$5 / 10X DBS Points per S$5, online only. / Or 10X DBS Points per
-      S$5 / 10 X DBS Points per S$5, online only. / 10X DBS Points per S$5 on online transactions; otherwise
-      1.2 miles per dollar. (or 3X DBS Points). / 10X DBS Points per S$5 for online transactions; otherwise
-      1.2 miles per dollar. (or 3X DBS Points).
-    sources: ['singsaver:5fff9a842eb7']
-  sources: ['singsaver:5fff9a842eb7']
-- id: department-store
-  label: department store (SingSaver — verify)
-  rate: 0.4
+    description: Base 1 + bonus 9 (local) or base 1 + overseas 2 + bonus 7 (FCY) DBS Points per S$5 of online spend = 10X (4 mpd), bonus capped at the first S$1,000 of online spend per calendar month. Online = processed as an internet transaction via Mastercard;
+      online-banking, telephone and mail-order payments excluded. The extra MCCs/descriptors listed here
+      (Woman's T&C Table 1-2, which also lists crypto exchanges) don't earn the online bonus.
+    sources: ['web:dbs-womans-tnc']
+  max_spend:
+    amount: 1000.0
+    currency: SGD
+  max_spend_period: calendar_month
+  rounding:
+    amount: 5.0
+    per: calendar_month
+    rounding: down
+    sources: ['web:dbs-womans-tnc']
+  conditions:
+  - Bonus points are computed on the calendar month's total online spend (per S$5, rounded down) and credited
+    by the end of the following month; spend above S$1,000/month earns the base rate
+  sources: ['web:dbs-womans-tnc', 'web:dbs-rewards-tnc']
+- id: overseas
+  label: offline overseas spend in foreign currency
+  rate: 1.2
   unit: mpd
   tier: bonus
   eligibility:
-    tags: [shopping]
-    description: 1X DBS Point per S$5
-    sources: ['singsaver:5fff9a842eb7']
-  sources: ['singsaver:5fff9a842eb7']
+    modes_required: [foreign_currency]
+    description: Base 1 + bonus 2 DBS Points per S$5 posted in foreign currency (3X, 1.2 mpd), uncapped.
+    sources: ['web:dbs-womans-tnc']
+  rounding:
+    amount: 5.0
+    per: transaction
+    rounding: down
+    sources: ['web:dbs-womans-tnc']
+  sources: ['web:dbs-womans-tnc', 'web:dbs-rewards-tnc']
 - id: base
-  label: baseline (SingSaver — verify)
+  label: all other spend
   rate: 0.4
   unit: mpd
   tier: base
   eligibility:
     all_spend: true
-    description: 1X DBS Point per S$5
-    sources: ['singsaver:5fff9a842eb7']
-  sources: ['singsaver:5fff9a842eb7']
+    description: 1 DBS Point per S$5 (0.4 mpd), per transaction, rounded down.
+    sources: ['web:dbs-womans-tnc']
+  rounding:
+    amount: 5.0
+    per: transaction
+    rounding: down
+    sources: ['web:dbs-womans-tnc']
+  sources: ['web:dbs-womans-tnc', 'web:dbs-rewards-tnc']
+spend_cycle: calendar_month
+spend_cycle_sources: ['web:dbs-womans-tnc', 'milelion:32616126a4a7']
 general_exclusions:
-  description: Auto-extracted from official T&Cs — confirm each code applies to this card
+  exclude_mcc: ['4784', '4829', '4900', '5047', '5199', '5960', '5993', '6010', '6011', '6012', '6050', '6051',
+    '6211', '6300', '6381', '6399', '6513', '6529', '6530', '6534', '6540', '7349', '7511', '7523', '7995',
+    '8062', '8211', '8220', '8241', '8244', '8249', '8299', '8398', '8651', '8661', '8699', '8999', '9211',
+    '9222', '9223', '9311', '9399', '9402', '9405']
+  exclude_merchants: [AMAZE, AXS, AXS BizPay, AXS PTE LTD, BAGUS, CANTINE, EZLINK, EZ-LINK, PAYPAL *AXS PTE LTD,
+    RAZERPAY, SAM -, SAM PAYMENTS, SEDAP, SGEBIZ, SHOPEEPAY, SINGAPORE E-BUSINESS, SINGTEL DASH, SMOOVPAY,
+    TRANSIT 3, YOUTRIP]
+  description: No DBS Points for the MCCs and merchant descriptors in DBS Rewards T&C clause 2.8 (Tables
+    1 and 2), nor for posted 0% IPP / My Preferred Payment Plan instalments, interest, fees, cash advances,
+    balance transfers, AXS, SAM and internet-banking bill payments.
+  sources: ['web:dbs-rewards-tnc']
 notes:
 - 'Editorial review for cross-checking: Review: DBS Woman’s World Card (https://milelion.com/2026/08/11/review-dbs-womans-world-card/,
   updated 2026-08-11)'
+- Online bonus cap is S$1,000 per calendar month (cut from S$1,500 in Aug 2025); spend beyond earns 0.4 mpd.
+- Annual fee and S$80,000 income are not on the shared DBS product page (which shows the Woman's Card); taken
+  from SingSaver/MileLion.
 citations:
 - id: singsaver:5fff9a842eb7
   url: https://www.singsaver.com.sg/credit-card/products/dbs-womans-world-card
@@ -79,9 +134,27 @@ citations:
   url: https://milelion.com/2026/08/11/review-dbs-womans-world-card/
   title: 'Review: DBS Woman’s World Card'
   source_type: editorial
-  retrieved_at: '2026-09-27T05:28:19+00:00'
+  retrieved_at: '2026-09-28T13:28:23+00:00'
   sha256: 32616126a4a725ba23330243e1af4df31743764bd112935a6479d729b9582c20
   snapshot: data/raw/milelion/post-72765-a61d53a6.json
+- id: web:dbs-womans-tnc
+  url: https://www.dbs.com.sg/iwov-resources/media/pdf/cards/dbs-womans-card-tnc.pdf
+  title: Terms and Conditions Governing the DBS Woman's Card Promotions and Programmes (updated 27 Jul 2026)
+  source_type: official
+  retrieved_at: '2026-10-18'
+- id: web:dbs-woman-page
+  url: https://www.dbs.com.sg/personal/cards/credit-cards/dbs-woman-mastercard-card
+  title: DBS Woman's Card / Woman's World Card (product page)
+  source_type: official
+  retrieved_at: '2026-10-18'
+- id: web:dbs-rewards-tnc
+  url: https://www.dbs.com.sg/iwov-resources/pdf/cards/rewards_programme_tnc.pdf
+  title: DBS Rewards Terms and Conditions (last updated Sep 2026)
+  source_type: official
+  retrieved_at: '2026-10-18'
 review:
-  status: draft
-updated_at: '2026-09-27'
+  status: reviewed
+  reviewed_by: claude (web research)
+  reviewed_at: 2026-10-18
+  notes: 'Verified earn rates (4 mpd online cap S$1,000/calendar month, 1.2 mpd FCY, 0.4 mpd base), rounding, exclusions and conversion against DBS Woman''s T&C (27 Jul 2026), DBS Rewards T&C and product page; removed junk ''department store'' rule, added the missing 1.2 mpd FCY rule. Fee S$196.20 FYF and S$80k income from SingSaver/MileLion only (not on official page).'
+updated_at: '2026-10-18'

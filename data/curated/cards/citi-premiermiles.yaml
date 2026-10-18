@@ -1,5 +1,5 @@
 # Curated card record. Auto-drafted from staged sources; verify every value against the
-# official T&Cs (citations below), then set review.status: reviewed.
+# official T&Cs (citations below), then set review.status: reviewed and review.reviewed_at.
 id: citi-premiermiles
 bank: Citibank
 name: Citi PremierMiles Card
@@ -11,66 +11,111 @@ annual_fee:
     amount: 196.2
     currency: SGD
   first_year_waived: true
-  waiver_notes: S$ | First Year Waived
-  sources: ['singsaver:23484d8fec06']
+  waiver_notes: Year 1 fee waivable (new-to-bank customers who waive get the smaller 8,000-mile welcome bonus;
+    existing Citi cardholders are waived automatically); paying the renewal fee earns 10,000 Citi Miles
+  sources: ['web:citi-premiermiles-page', 'milelion:c234b0a13d34']
 min_annual_income:
   amount: 30000.0
   currency: SGD
 reward_currency:
   kind: miles
   name: Miles
+  conversions:
+  - partner: KrisFlyer
+    points: 10000.0
+    partner_units: 10000.0
+    fee:
+      amount: 27.25
+      currency: SGD
+    min_block_points: 10000.0
+    note: 'The MileLion: min. transfer “10,000 Citi Miles (10,000 miles)”, transfer fee “S$27.25” — confirm
+      the partner (the overview quotes KrisFlyer unless it says otherwise)'
+    sources: ['milelion:c234b0a13d34']
+  expiry:
+    never: true
+    note: 'The MileLion: points validity “No Expiry”'
+    sources: ['milelion:c234b0a13d34']
 earn_rules:
-- id: travel
-  label: travel (SingSaver — verify)
+- id: kaligo
+  label: Kaligo hotel bookings
   rate: 10.0
   unit: mpd
   tier: bonus
   eligibility:
-    include_mcc: ['4829', '4900', '5199', '5960', '5993', '6012', '6050', '6051', '6211', '6300', '6513',
-      '6529', 6529-6540, '6530', '6534', '6540', '7349', '7511', '7523', '7800', '7995', '8062', '8211',
-      8211-8299, '8220', '8241', '8244', '8249', '8299', '8398', '8651', 8651-8661, '8661', 9000-9999,
-      '9211', '9222', '9223', '9311', '9399', '9402', '9405', '9754']
-    description: Up to | Up to 10 Miles per S$1 on Kaligo, valid till 31 December 2025. Up to 7.2 Miles
-      per S$1 on Agoda, valid for bookings made now till 31 December 2025 and for stays until 30 April
-      2026. T&Cs apply. [include_mcc auto-extracted from official T&C — check it belongs to this rule]
-    sources: ['singsaver:23484d8fec06', 'bank:a7b75de60ccb', 'bank:d43f74d8ca64', 'bank:4adeded2dc36',
-      'bank:115ed1049c2d', 'bank:293374db88e5', 'bank:efcc2d6c75d8', 'bank:07786d997fbc', 'bank:18ee2dc125da']
-  conditions: ['aggregator categories: travel']
-  sources: ['singsaver:23484d8fec06']
+    include_merchants: [Kaligo (kaligo.com/bonus-miles)]
+    description: 10 Citi Miles per S$1 (1.2/2.2 base plus 8.8/7.8 bonus) for bookings made 1 Jan - 31 Dec 2026.
+    sources: ['bank:4adeded2dc36']
+  conditions:
+  - Bonus miles credited within 2 calendar months after the month of check-out; uncapped
+  valid_from: '2026-01-01'
+  valid_to: '2026-12-31'
+  sources: ['bank:4adeded2dc36', 'milelion:c234b0a13d34']
+- id: agoda-fcy
+  label: Agoda hotel bookings (foreign currency)
+  rate: 7.2
+  unit: mpd
+  tier: bonus
+  eligibility:
+    include_merchants: [Agoda (agoda.com/bonusmiles)]
+    modes_required: [foreign_currency]
+    description: 2.2 base + 5 bonus Citi Miles per S$1 for prepaid hotel bookings made by 31 Dec 2026 (stays
+      until 30 Apr 2027).
+    sources: ['bank:115ed1049c2d']
+  conditions:
+  - Bonus miles credited within 2 calendar months after the month of check-out; accommodation component
+    only
+  valid_to: '2026-12-31'
+  sources: ['bank:115ed1049c2d', 'milelion:c234b0a13d34']
+- id: agoda-local
+  label: Agoda hotel bookings (SGD)
+  rate: 6.2
+  unit: mpd
+  tier: bonus
+  eligibility:
+    include_merchants: [Agoda (agoda.com/bonusmiles)]
+    modes_required: [local_currency]
+    description: 1.2 base + 5 bonus Citi Miles per S$1 for prepaid hotel bookings made by 31 Dec 2026 (stays
+      until 30 Apr 2027).
+    sources: ['bank:115ed1049c2d']
+  valid_to: '2026-12-31'
+  sources: ['bank:115ed1049c2d', 'milelion:c234b0a13d34']
 - id: overseas
-  label: overseas (SingSaver — verify)
+  label: Foreign currency spend
   rate: 2.2
   unit: mpd
   tier: bonus
   eligibility:
-    description: ''
-    sources: ['singsaver:23484d8fec06']
-  sources: ['singsaver:23484d8fec06']
-- id: hotel-booking
-  label: hotel booking, local (SingSaver — verify)
-  rate: 1.2
-  unit: mpd
-  tier: bonus
-  eligibility:
-    tags: [hotels]
-    description: ''
-    sources: ['singsaver:23484d8fec06']
-  sources: ['singsaver:23484d8fec06']
+    modes_required: [foreign_currency]
+    description: 2.2 Citi Miles per S$1 of foreign currency spend, uncapped.
+    sources: ['web:citi-premiermiles-page', 'bank:115ed1049c2d']
+  rounding:
+    amount: 1.0
+    rounding: down
+    sources: ['milelion:c234b0a13d34']
+  sources: ['web:citi-premiermiles-page', 'milelion:c234b0a13d34']
 - id: base
-  label: baseline (SingSaver — verify)
+  label: Local spend
   rate: 1.2
   unit: mpd
   tier: base
   eligibility:
     all_spend: true
-    description: ''
-    sources: ['singsaver:23484d8fec06']
-  sources: ['singsaver:23484d8fec06']
+    description: 1.2 Citi Miles per S$1 of local spend, uncapped.
+    sources: ['web:citi-premiermiles-page', 'bank:115ed1049c2d']
+  rounding:
+    amount: 1.0
+    rounding: down
+    sources: ['milelion:c234b0a13d34']
+  sources: ['web:citi-premiermiles-page', 'milelion:c234b0a13d34']
 general_exclusions:
-  exclude_mcc: ['4111']
-  description: Auto-extracted from official T&Cs — confirm each code applies to this card
-  sources: ['bank:a7b75de60ccb', 'bank:d43f74d8ca64', 'bank:4adeded2dc36', 'bank:115ed1049c2d', 'bank:293374db88e5',
-    'bank:efcc2d6c75d8', 'bank:07786d997fbc', 'bank:18ee2dc125da']
+  exclude_mcc: ['4829', '4900', '5199', '5960', '5993', '6012', '6050', '6051', '6211', '6300', '6513',
+    6529-6540, '7349', '7511', '7523', '7800', '7995', '8062', 8211-8299, '8398', 8651-8661, 9000-9999]
+  exclude_merchants: [AXS, BUS/MRT, EZ-Link, SimplyGo, Transit Link, TRANSIT, YouTrip, SAM, OANDA, Saxo, SKYFX]
+  description: Citi rewards exclusion list (updated Nov 2024, eff. 16 Dec 2024) — quasi-cash and stored-value
+    loads, utilities, insurance, financial services, real estate rentals, education, charity, hospitals,
+    political/religious organisations, government services, gambling, cigar stores, parking; plus the listed
+    merchants (incl. via Amaze).
+  sources: ['bank:d43f74d8ca64']
 sign_up_bonuses:
 - offered_by: singsaver
   description: 'SingSaver Flash Deal: choice of The latest smartphone (worth over S$1,8xx)'
@@ -255,9 +300,16 @@ citations:
   url: https://milelion.com/2026/05/16/review-citi-premiermiles-card/
   title: 'Review: Citi PremierMiles Card'
   source_type: editorial
-  retrieved_at: '2026-09-27T05:28:48+00:00'
+  retrieved_at: '2026-09-28T13:28:50+00:00'
   sha256: c234b0a13d34b5d29f3f815938f703758bf5bd59aede2640e1937945cada80b5
   snapshot: data/raw/milelion/post-72800-cec127a6.json
+- id: web:citi-premiermiles-page
+  url: https://www.citibank.com.sg/credit-cards/travel/premiermiles-card
+  title: Citi PremierMiles Card (product page)
+  source_type: official
+  retrieved_at: '2026-10-18'
 review:
-  status: draft
-updated_at: '2026-09-27'
+  status: reviewed
+  reviewed_by: claude (web research)
+  reviewed_at: 2026-10-18
+  notes: 'Verified vs Citi product page, Kaligo/Agoda T&Cs (Nov 2025, valid to 31 Dec 2026), exclusion list and MileLion (May 2026): 1.2/2.2 mpd, 10 mpd Kaligo, 6.2/7.2 mpd Agoda, S$196.20 fee, no expiry, 10k:10k S$27.25. Removed garbage MCC list and fake 1.2 mpd hotel rule.'

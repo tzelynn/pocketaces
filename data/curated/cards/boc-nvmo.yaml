@@ -1,5 +1,5 @@
 # Curated card record. Auto-drafted from staged sources; verify every value against the
-# official T&Cs (citations below), then set review.status: reviewed.
+# official T&Cs (citations below), then set review.status: reviewed and review.reviewed_at.
 id: boc-nvmo
 bank: Bank of China
 name: BOC NVMO Card
@@ -10,9 +10,8 @@ annual_fee:
     amount: 207.1
     currency: SGD
   first_year_waived: true
-  waiver_notes: S$ | Enjoy first year annual fee waiver (S$207.10 incl. GST) for both principal and supplementary
-    cards.
-  sources: ['singsaver:814a8c9370be']
+  waiver_notes: S$207.10 incl. GST (supplementary S$103.55); first year waived for principal and supplementary
+  sources: ['singsaver:814a8c9370be', 'web:boc-fees', 'web:boc-nvmo']
 min_annual_income:
   amount: 30000.0
   currency: SGD
@@ -21,90 +20,194 @@ reward_currency:
   name: Cashback
 earn_rules:
 - id: local
-  label: local, overseas, dining (SingSaver — verify)
+  label: dining & online food delivery
   rate: 10.0
   unit: percent
   tier: bonus
   eligibility:
-    include_mcc: ['8062']
-    description: Up to  | Get up to 10% cashback with minimum monthly spend of S$800, capped at S$25.
-      Base rate 0.3%. / Get 10% cashback on dining & food delivery spend globally with S$800 min. monthly
-      spend, capped at S$25. [include_mcc auto-extracted from official T&C — check it belongs to this
-      rule]
-    sources: ['singsaver:814a8c9370be', 'bank:81b5fb4d086e']
+    tags: [dining]
+    include_mcc: ['5812', '5814']
+    description: 10% on restaurants, cafes, fast food and food delivery (MCC 5812/5814), Singapore and overseas;
+      excludes F&B within hotels and hotel wedding banquets
+    sources: ['bank:81b5fb4d086e']
   min_spend:
     amount: 800.0
     currency: SGD
   min_spend_period: statement_month
-  conditions:
-  - 'aggregator categories: dining'
-  - min spend S$800/month from singsaver — confirm the period (statement vs calendar month) and which
-    rules it unlocks
-  sources: ['singsaver:814a8c9370be']
+  bonus_cap:
+    amount: 25.0
+    unit: SGD_cashback
+    period: statement_month
+    sources: ['bank:81b5fb4d086e']
+  sources: ['bank:81b5fb4d086e', 'web:boc-nvmo']
 - id: travel
-  label: travel, entertainment (SingSaver — verify)
+  label: online travel agencies & entertainment
   rate: 8.0
   unit: percent
   tier: bonus
   eligibility:
-    tags: [travel, entertainment]
-    description: Get 8% cashback on travel & entertainment spend with S$800 min. monthly spend, capped
-      at S$25. Base rate 0.3%.
-    sources: ['singsaver:814a8c9370be']
+    tags: [travel_agencies, streaming_digital, entertainment]
+    include_mcc: ['4722', '4899', '5815', '7922']
+    description: 8% on online travel agencies (MCC 4722, online only), streaming/pay TV (4899), digital goods
+      (5815) and ticket agencies (7922)
+    sources: ['bank:81b5fb4d086e']
   min_spend:
     amount: 800.0
     currency: SGD
   min_spend_period: statement_month
+  bonus_cap:
+    amount: 25.0
+    unit: SGD_cashback
+    period: statement_month
+    shared_with: [my-id-instore]
+    sources: ['bank:81b5fb4d086e']
+  sources: ['bank:81b5fb4d086e', 'web:boc-nvmo']
+- id: my-id-instore
+  label: in-store spend in Malaysia & Indonesia (MYR/IDR)
+  rate: 8.0
+  unit: percent
+  tier: bonus
+  eligibility:
+    modes_required: [foreign_currency]
+    modes_excluded: [online, mobile_wallet, overseas_in_sgd]
+    description: 8% on physical card transactions in Malaysia and Indonesia charged in MYR or IDR; excludes
+      DCC, online FCY and mobile wallet / app-based payments
+    sources: ['bank:81b5fb4d086e']
+  min_spend:
+    amount: 800.0
+    currency: SGD
+  min_spend_period: statement_month
+  bonus_cap:
+    amount: 25.0
+    unit: SGD_cashback
+    period: statement_month
+    shared_with: [travel]
+    sources: ['bank:81b5fb4d086e']
   conditions:
-  - min spend S$800/month from singsaver — confirm the period (statement vs calendar month) and which
-    rules it unlocks
-  sources: ['singsaver:814a8c9370be']
+  - Only transactions in Malaysia or Indonesia charged in MYR/IDR qualify
+  sources: ['bank:81b5fb4d086e']
 - id: transport
-  label: transport, retail, local online shopping, overseas online shopping, supermarket, health (SingSaver
-    — verify)
+  label: transport & supermarkets
   rate: 3.0
   unit: percent
   tier: bonus
   eligibility:
-    tags: [transport, shopping, groceries, healthcare]
-    modes_required: [contactless]
-    description: Get 3% cashback on ride hailing and contactless bus & train rides with S$800 min. monthly
-      spend, capped at S$25. / Get 3% cashback on shopping & lifestyle spend with S$800 min. monthly spend,
-      capped at S$25. Base rate 0.3%. / Up to  | Get up to 3% cashback on health & wellness spend with
-      S$800 min. monthly spend, capped at S$25. Base rate 0.3%.
-    sources: ['singsaver:814a8c9370be']
+    tags: [public_transport, ride_hailing, groceries]
+    include_mcc: ['4111', '4121', '5411']
+    description: 3% on SimplyGo contactless bus/MRT (MCC 4111, excl. top-ups), taxis/limousines/ride-hailing
+      (4121) and supermarkets (5411)
+    sources: ['bank:81b5fb4d086e']
   min_spend:
     amount: 800.0
     currency: SGD
   min_spend_period: statement_month
-  conditions:
-  - min spend S$800/month from singsaver — confirm the period (statement vs calendar month) and which
-    rules it unlocks
-  sources: ['singsaver:814a8c9370be']
+  bonus_cap:
+    amount: 25.0
+    unit: SGD_cashback
+    period: statement_month
+    shared_with: [online]
+    sources: ['bank:81b5fb4d086e']
+  sources: ['bank:81b5fb4d086e', 'web:boc-nvmo']
+- id: online
+  label: online purchases
+  rate: 3.0
+  unit: percent
+  tier: bonus
+  eligibility:
+    tags: [shopping]
+    modes_required: [online]
+    description: 3% on online transactions (shares the Shopping & Lifestyle cap)
+    sources: ['bank:81b5fb4d086e']
+  min_spend:
+    amount: 800.0
+    currency: SGD
+  min_spend_period: statement_month
+  bonus_cap:
+    amount: 25.0
+    unit: SGD_cashback
+    period: statement_month
+    shared_with: [transport]
+    sources: ['bank:81b5fb4d086e']
+  sources: ['bank:81b5fb4d086e']
+- id: health
+  label: hospitals, vets & pet shops (Singapore)
+  rate: 3.0
+  unit: percent
+  tier: bonus
+  eligibility:
+    tags: [healthcare]
+    include_mcc: ['8062', '0742', '5995']
+    description: 3% on on-site hospital spend in Singapore (MCC 8062), veterinary (0742) and pet shops (5995)
+    sources: ['bank:81b5fb4d086e']
+  min_spend:
+    amount: 800.0
+    currency: SGD
+  min_spend_period: statement_month
+  bonus_cap:
+    amount: 25.0
+    unit: SGD_cashback
+    period: statement_month
+    shared_with: [insurance]
+    sources: ['bank:81b5fb4d086e']
+  sources: ['bank:81b5fb4d086e']
+- id: insurance
+  label: insurance (Singapore)
+  rate: 1.0
+  unit: percent
+  tier: bonus
+  eligibility:
+    tags: [insurance]
+    include_mcc: ['5960', '6300', '6381', '6399']
+    description: 1% on insurance (MCC 5960, 6300, 6381, 6399); shares the Health & Wellness cap
+    sources: ['bank:81b5fb4d086e']
+  min_spend:
+    amount: 800.0
+    currency: SGD
+  min_spend_period: statement_month
+  bonus_cap:
+    amount: 25.0
+    unit: SGD_cashback
+    period: statement_month
+    shared_with: [health]
+    sources: ['bank:81b5fb4d086e']
+  sources: ['bank:81b5fb4d086e']
 - id: base
-  label: baseline (SingSaver — verify)
+  label: all other spend (or all spend below S$800 per cycle)
   rate: 0.3
   unit: percent
   tier: base
   eligibility:
     all_spend: true
-    description: 0.3% cash rebate will be awarded on all other spend categories (or all categories if
-      monthly spend is less than S$800).
-    sources: ['singsaver:814a8c9370be']
-  sources: ['singsaver:814a8c9370be']
+    description: 0.3% cash rebate on all other spend, or on all spend if less than S$800 is charged in the
+      billing cycle
+    sources: ['bank:81b5fb4d086e']
+  sources: ['bank:81b5fb4d086e', 'web:boc-nvmo']
+spend_cycle: statement_month
+spend_cycle_sources: ['bank:81b5fb4d086e']
 general_exclusions:
-  exclude_mcc: ['0742', '4111', '4121', '4722', '4784', '4814', '4829', '4899', '4900', '5047', '5199',
-    '5262', '5411', '5812', '5814', '5815', '5960', '5965', '5993', '5995', '6010', '6011', '6012', '6050',
-    '6051', '6211', '6300', '6381', '6399', '6513', '6529', '6530', '6534', '6540', '7273', '7349', '7372',
-    '7399', '7511', '7523', '7922', '7995', '8062', '8211', '8220', '8241', '8244', '8249', '8299', '8398',
-    '8651', '8661', '8699', '8999', '9211', '9222', '9223', '9311', '9399', '9402', '9405']
-  description: Auto-extracted from official T&Cs — confirm each code applies to this card
+  exclude_mcc: ['4784', '4814', '4829', '4900', '5047', '5199', '5965', '5993', '6010', '6011', '6012',
+    '6050', '6051', '6211', '6513', '6529', '6530', '6534', '6540', '7273', '7349', '7372', '7399', '7511',
+    '7523', '7995', '8211', '8220', '8241', '8244', '8249', '8299', '8398', '8651', '8661', '8699', '8999',
+    '9211', '9222', '9223', '9311', '9399', '9402', '9405']
+  exclude_merchants: [SimplyGo top-up, ShopeePay (MCC 5262), GrabPay top-up, CardUp, ipaymy, AXS, SAM, YouTrip,
+    Lazada wallet top-up, Amaze wallet top-up]
+  description: Clause 3 exclusions (T&C eff. 13 Jun 2026); excluded spend doesn't count toward the S$800 minimum
   sources: ['bank:81b5fb4d086e']
 notes:
 - 'T&C mentions (check whether excluded): annual fee, axs, bill payment, cardup, charit, education, government,
   grabpay, hospital, instalment, insurance premium, interest, ipaymy, ipp, late payment charge, tax, top-up,
   utilit, youtrip'
 citations:
+- id: web:boc-nvmo
+  url: https://www.bankofchina.com/sg/bcservice/bc1/201605/t20160503_6891836.html
+  title: BOC NVMO Card (product page)
+  source_type: official
+  retrieved_at: '2026-10-18'
+- id: web:boc-fees
+  url: http://www.bankofchina.com/sg/bocinfo/bi4/201001/t20100120_955877.html
+  title: BOC Singapore credit card fees and charges (effective 15 June 2025)
+  source_type: official
+  retrieved_at: '2026-10-18'
 - id: singsaver:814a8c9370be
   url: https://www.singsaver.com.sg/credit-card/products/boc-family-card
   title: BOC NVMO Card
@@ -119,5 +222,9 @@ citations:
   sha256: 81b5fb4d086e8a99f64e6e04e4a58b2e704a36698820760dcc836d0805c623f2
   snapshot: data/raw/bank/pic-bankofchina-com-bocappd-singapore-202606-P020260611353473424295-pdf-fe37401d.pdf
 review:
-  status: draft
-updated_at: '2026-09-27'
+  status: reviewed
+  reviewed_by: claude (web research)
+  reviewed_at: 2026-10-18
+  notes: Rebuilt rules from the cashback T&C eff. 13 Jun 2026 (10/8/3/3/1/0.3%, S$800 per billing cycle, S$25
+    cap per category group) and fixed the exclusion list; network not stated on the official page
+updated_at: '2026-09-28'

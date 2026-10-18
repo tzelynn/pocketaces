@@ -1,5 +1,5 @@
 # Curated card record. Auto-drafted from staged sources; verify every value against the
-# official T&Cs (citations below), then set review.status: reviewed.
+# official T&Cs (citations below), then set review.status: reviewed and review.reviewed_at.
 id: posb-everyday
 bank: POSB
 name: POSB Everyday Card
@@ -11,92 +11,218 @@ annual_fee:
     amount: 196.2
     currency: SGD
   first_year_waived: true
-  waiver_notes: S$ | First Year Waived
-  sources: ['singsaver:07b052cd3085']
+  waiver_notes: S$196.20 incl. GST; first year waived (supplementary S$98.10)
+  sources: ['web:posb-everyday-page', 'singsaver:07b052cd3085']
 min_annual_income:
   amount: 30000.0
   currency: SGD
 reward_currency:
   kind: cashback
-  name: Cashback
+  name: Daily$
+  expiry:
+    never: true
+    sources: ['web:posb-everyday-page']
 earn_rules:
-- id: local
-  label: local, overseas, dining, transport (SingSaver — verify)
+- id: online-food-delivery
+  label: Online food delivery (foodpanda, GrabFood)
   rate: 10.0
   unit: percent
   tier: bonus
   eligibility:
-    tags: [dining, transport]
+    tags: [dining]
+    include_mcc: ['5811', '5812', '5813', '5814']
+    include_merchants: [foodpanda, GrabFood]
     modes_required: [online]
-    description: Up to | On shopping, fuel, dining, and SimplyGo. Minimum spend of S$800 required. / Up
-      to  | Up to 10% cash rebates on in-store spend in Malaysian Ringgit (MYR), capped at Daily$20 cash
-      rebates per calendar month.. / Up to  | 10% on online food delivery from Foodpanda and Deliveroo.
-      In-person dining spend earns 5% cash rebates. Cashback rewarded in Daily$, capped at Daily$20 per
-      calendar month. Minimum spend of S$800 required. / Up to  | Up to 10% cashback on SimplyGo, capped
-      at Daily$20 per calendar month.
-    sources: ['singsaver:07b052cd3085']
+    description: 0.3% base + 9.7% bonus on foodpanda / GrabFood under MCC 5811-5814
+    sources: ['web:posb-everyday-tnc']
   min_spend:
     amount: 800.0
     currency: SGD
-  min_spend_period: statement_month
+  min_spend_period: calendar_month
+  bonus_cap:
+    amount: 20.0
+    unit: SGD_cashback
+    period: calendar_month
+    shared_with: [dining-out]
+    sources: ['web:posb-everyday-tnc']
   conditions:
-  - min spend S$800/month from singsaver — confirm the period (statement vs calendar month) and which
-    rules it unlocks
-  sources: ['singsaver:07b052cd3085']
-- id: petrol
-  label: petrol (SingSaver — verify)
+  - Daily$20 cap applies to the bonus portion; without S$800 calendar-month spend, 0.3% applies; Dining cap shared with offline dining
+  sources: ['web:posb-everyday-tnc']
+- id: dining-out
+  label: Dining (restaurants, cafes, bars)
+  rate: 5.0
+  unit: percent
+  tier: bonus
+  eligibility:
+    tags: [dining]
+    include_mcc: ['5811', '5812', '5813']
+    description: 0.3% base + 4.7% bonus on dining under MCC 5811-5813
+    sources: ['web:posb-everyday-tnc']
+  min_spend:
+    amount: 800.0
+    currency: SGD
+  min_spend_period: calendar_month
+  bonus_cap:
+    amount: 20.0
+    unit: SGD_cashback
+    period: calendar_month
+    shared_with: [online-food-delivery]
+    sources: ['web:posb-everyday-tnc']
+  conditions:
+  - Daily$20 cap applies to the bonus portion; without S$800 calendar-month spend, 0.3% applies
+  sources: ['web:posb-everyday-tnc']
+- id: simplygo
+  label: SimplyGo bus/MRT rides
+  rate: 10.0
+  unit: percent
+  tier: bonus
+  eligibility:
+    tags: [public_transport]
+    include_merchants: [SimplyGo]
+    description: 0.3% base + 9.7% bonus on SimplyGo rides (excludes top-ups)
+    sources: ['web:posb-everyday-tnc']
+  min_spend:
+    amount: 800.0
+    currency: SGD
+  min_spend_period: calendar_month
+  bonus_cap:
+    amount: 20.0
+    unit: SGD_cashback
+    period: calendar_month
+    sources: ['web:posb-everyday-tnc']
+  conditions:
+  - Daily$20 cap applies to the bonus portion; without S$800 calendar-month spend, 0.3% applies
+  sources: ['web:posb-everyday-tnc']
+- id: myr-instore
+  label: In-store spend in Malaysian Ringgit
+  rate: 10.0
+  unit: percent
+  tier: bonus
+  eligibility:
+    modes_required: [foreign_currency]
+    modes_excluded: [online]
+    description: 0.3% base + 9.7% bonus on in-store MYR spend; offline dining in MYR instead earns 5% here
+      plus 5% under Dining
+    sources: ['web:posb-everyday-tnc']
+  min_spend:
+    amount: 800.0
+    currency: SGD
+  min_spend_period: calendar_month
+  bonus_cap:
+    amount: 20.0
+    unit: SGD_cashback
+    period: calendar_month
+    sources: ['web:posb-everyday-tnc']
+  conditions:
+  - Daily$20 cap applies to the bonus portion; without S$800 calendar-month spend, 0.3% applies
+  sources: ['web:posb-everyday-tnc']
+- id: online-marketplaces
+  label: Amazon.sg, Lazada, Shopee, RedMart, Taobao, TikTok Shop
+  rate: 5.0
+  unit: percent
+  tier: bonus
+  eligibility:
+    tags: [shopping]
+    include_merchants: [Amazon.sg, Lazada, Shopee, RedMart, Taobao, TikTok Shop]
+    description: 0.3% base + 4.7% bonus
+    sources: ['web:posb-everyday-tnc']
+  min_spend:
+    amount: 800.0
+    currency: SGD
+  min_spend_period: calendar_month
+  bonus_cap:
+    amount: 20.0
+    unit: SGD_cashback
+    period: calendar_month
+    sources: ['web:posb-everyday-tnc']
+  conditions:
+  - Daily$20 cap applies to the bonus portion; without S$800 calendar-month spend, 0.3% applies
+  sources: ['web:posb-everyday-tnc']
+- id: popular
+  label: POPULAR bookstores
+  rate: 5.0
+  unit: percent
+  tier: bonus
+  eligibility:
+    tags: [shopping]
+    include_merchants: [POPULAR]
+    description: 0.3% base + 4.7% bonus
+    sources: ['web:posb-everyday-tnc']
+  min_spend:
+    amount: 800.0
+    currency: SGD
+  min_spend_period: calendar_month
+  bonus_cap:
+    amount: 20.0
+    unit: SGD_cashback
+    period: calendar_month
+    sources: ['web:posb-everyday-tnc']
+  conditions:
+  - Daily$20 cap applies to the bonus portion; without S$800 calendar-month spend, 0.3% applies
+  sources: ['web:posb-everyday-tnc']
+- id: sheng-siong
+  label: Sheng Siong
+  rate: 5.0
+  unit: percent
+  tier: bonus
+  eligibility:
+    tags: [groceries]
+    include_merchants: [Sheng Siong]
+    description: 5% at Sheng Siong, no minimum spend
+    sources: ['web:posb-everyday-tnc']
+  bonus_cap:
+    amount: 20.0
+    unit: SGD_cashback
+    period: calendar_month
+    sources: ['web:posb-everyday-tnc']
+  sources: ['web:posb-everyday-tnc']
+- id: spc
+  label: SPC petrol
   rate: 6.0
   unit: percent
   tier: bonus
   eligibility:
     tags: [petrol]
-    description: Up to  | Up to 6% fuel savings at SPC.
-    sources: ['singsaver:07b052cd3085']
-  min_spend:
-    amount: 800.0
-    currency: SGD
-  min_spend_period: statement_month
+    include_merchants: [SPC]
+    description: 6% cash rebate on the final charged amount at SPC, no minimum spend, no cap
+    sources: ['web:posb-everyday-tnc']
   conditions:
-  - min spend S$800/month from singsaver — confirm the period (statement vs calendar month) and which
-    rules it unlocks
-  sources: ['singsaver:07b052cd3085']
-- id: supermarket
-  label: supermarket, retail, local online shopping, overseas online shopping (SingSaver — verify)
-  rate: 5.0
+  - Stacks with SPC's own 5% DBS/POSB card discount (+ SPC&U member discount) on the pump price
+  sources: ['web:posb-everyday-tnc']
+- id: pet-lovers-centre
+  label: Pet Lovers Centre
+  rate: 3.0
   unit: percent
   tier: bonus
   eligibility:
-    tags: [groceries, shopping]
-    modes_required: [online]
-    description: Cash rebates at Sheng Siong. Capped at Daily$30 per calendar month. No minimum spend.
-      / Up to  | 3% cash rebate at Pet Lovers Centre (no cap); 5% cash rebates on Amazon.sg, Lazada, Qoo10,
-      Shopee; 5% cash rebate at POPULAR and POPULAR online store, capped at Daily$20 cash rebates per
-      calendar month. / Up to   | 5% cash rebates on Amazon.sg, Lazada, Shopee, RedMart, Taobao and TikTok
-      Shop, capped at Daily$20 cash rebates per calendar month. Requires min. spend of S$800 per calendar
-      month; otherwise receive 0.3% baseline cashback. / 5% cash rebates on Amazon.sg, Lazada, Shopee,
-      RedMart, Taobao and TikTok Shop, capped at Daily$20 cash rebates per calendar month. Requires min.
-      spend of S$800 per calendar month; otherwise receive 0.3% baseline cashback.
-    sources: ['singsaver:07b052cd3085']
-  min_spend:
-    amount: 800.0
-    currency: SGD
-  min_spend_period: statement_month
-  conditions:
-  - min spend S$800/month from singsaver — confirm the period (statement vs calendar month) and which
-    rules it unlocks
-  sources: ['singsaver:07b052cd3085']
+    tags: [shopping]
+    include_merchants: [Pet Lovers Centre]
+    description: 3% on regular-priced items with min. S$15 spend per transaction, no cap; excludes vet,
+      grooming, delivery, online, live animals and gift vouchers
+    sources: ['web:posb-everyday-tnc']
+  sources: ['web:posb-everyday-tnc']
 - id: base
-  label: baseline (SingSaver — verify)
+  label: All other eligible spend
   rate: 0.3
   unit: percent
   tier: base
   eligibility:
     all_spend: true
-    description: No minimum spend or cashback cap. Cashback awarded in Daily$.
-    sources: ['singsaver:07b052cd3085']
-  sources: ['singsaver:07b052cd3085']
+    description: 0.3% Daily$ with no minimum spend and no cap (Daily$1 = S$1)
+    sources: ['web:posb-everyday-tnc']
+  sources: ['web:posb-everyday-tnc']
+spend_cycle: calendar_month
+spend_cycle_sources: ['web:posb-everyday-tnc']
 general_exclusions:
-  description: Auto-extracted from official T&Cs — confirm each code applies to this card
+  exclude_mcc: ['4784', '4829', '4900', '5047', '5199', '5960', '5993', '6010', '6011', '6012', '6050', '6051',
+    '6211', '6300', '6381', '6399', '6513', '6529', '6530', '6534', '6540', '7349', '7511', '7523', '7995',
+    '8062', '8211', '8220', '8241', '8244', '8249', '8299', '8398', '8651', '8661', '8699', '8999', '9211',
+    '9222', '9223', '9311', '9399', '9402', '9405']
+  exclude_merchants: [AMAZE, AXS*, EZLINK, EZ-LINK, RAZERPAY, SAM PAYMENTS, SHOPEEPAY, SINGTEL DASH, SmoovPay*,
+    TRANSIT 3, YOUTRIP]
+  description: T&C Table 1 MCCs and Table 2 descriptors (abridged), plus pre-authorisations, instalments,
+    interest, cash advance, balance transfer, AXS/SAM/internet-banking bill payments and DBS fees
+  sources: ['web:posb-everyday-tnc']
 sign_up_bonuses:
 - offered_by: singsaver
   description: 'Stackable Welcome Offer: choice of Up to S$200 Cashback on Cashline'
@@ -183,6 +309,20 @@ citations:
   retrieved_at: '2026-09-27T05:27:18+00:00'
   sha256: fbcf8e7229a38611c3c767cd8447164e413b1306df1f54bebee269e3abf15202
   snapshot: data/raw/moneysmart/credit-cards-p3-707cb52c.html
+- id: web:posb-everyday-page
+  url: https://www.posb.com.sg/personal/cards/credit-cards/posb-everyday-card
+  title: POSB Everyday Card (product page)
+  source_type: official
+  retrieved_at: '2026-10-18'
+- id: web:posb-everyday-tnc
+  url: https://www.posb.com.sg/iwov-resources/media/pdf/cards/posb-everyday-card-tncs.pdf
+  title: POSB Everyday Card Cash Rebates Programme Terms and Conditions (updated 4 Mar 2026)
+  source_type: official
+  retrieved_at: '2026-10-18'
 review:
-  status: draft
-updated_at: '2026-09-27'
+  status: reviewed
+  reviewed_by: claude (web research)
+  reviewed_at: 2026-10-18
+  notes: Verified fee, income, all category rates/caps, S$800 calendar-month min spend, Daily$ no expiry vs
+    POSB page + rebate T&C (4 Mar 2026); per-category caps are on the bonus portion only.
+updated_at: '2026-10-18'

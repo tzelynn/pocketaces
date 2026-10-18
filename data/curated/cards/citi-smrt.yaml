@@ -1,76 +1,179 @@
 # Curated card record. Auto-drafted from staged sources; verify every value against the
-# official T&Cs (citations below), then set review.status: reviewed.
+# official T&Cs (citations below), then set review.status: reviewed and review.reviewed_at.
 id: citi-smrt
 bank: Citibank
 name: Citi SMRT Card
+network: visa
 image_url: https://mhgprod.blob.core.windows.net/singsaver/strapi-uploads/l_bltaabea223ec9fda7c_6862b5474b.png
 official_url: https://www.citibank.com.sg/credit-cards/cashback/smrt-credit-card
 annual_fee:
   amount:
     amount: 196.2
     currency: SGD
-  waiver_notes: S$ | First Two Years Waived
-  sources: ['singsaver:9c6affbada2c']
+  first_year_waived: true
+  waiver_notes: First two years waived
+  sources: ['web:citi-smrt-page', 'singsaver:9c6affbada2c']
 min_annual_income:
   amount: 30000.0
   currency: SGD
 reward_currency:
   kind: cashback
-  name: Cashback
+  name: SMRT$
+  expiry:
+    months: 3
+    months_max: 15
+    note: SMRT$ earned in each 12-month card-year are valid until 15 months from the start of that year
+    sources: ['bank:c190661d8a48']
+  redemption:
+    min_block: 10.0
+    min_block_unit: SGD
+    sources: ['bank:c190661d8a48']
 earn_rules:
-- id: local-online-shopping
-  label: local online shopping, overseas online shopping, taxi ride sharing, supermarket, transport (SingSaver
-    — verify)
+- id: groceries
+  label: Groceries and supermarkets
   rate: 5.0
   unit: percent
   tier: bonus
   eligibility:
     include_mcc: ['5411']
-    description: With a minimum total spend of S$500 per statement month. [include_mcc auto-extracted
-      from official T&C — check it belongs to this rule]
-    sources: ['singsaver:9c6affbada2c', 'bank:c190661d8a48', 'bank:b81a08ff9609', 'bank:c190661d8a48',
-      'bank:472e40f873ba']
+    description: 5% (0.3% base + 4.7% bonus) for grocery stores and supermarkets.
+    sources: ['bank:c190661d8a48']
   min_spend:
     amount: 500.0
     currency: SGD
   min_spend_period: statement_month
+  bonus_cap:
+    amount: 600.0
+    unit: SGD_cashback
+    period: membership_year
+    shared_with: [online, simplygo, taxis, ringgit]
+    sources: ['bank:c190661d8a48']
   conditions:
-  - 'aggregator categories: ride_hailing, groceries, transport'
-  - min spend S$500/month from singsaver — confirm the period (statement vs calendar month) and which
-    rules it unlocks
-  sources: ['singsaver:9c6affbada2c']
-- id: retail
-  label: retail, local, overseas (SingSaver — verify)
-  rate: 0.3
+  - Bonus needs S$500 total qualifying retail spend in the statement month; otherwise 0.3%
+  - Max SMRT$600 per 12-month card-year
+  sources: ['bank:c190661d8a48', 'web:citi-smrt-page']
+- id: online
+  label: Online spend (excl. travel and mobile wallet)
+  rate: 5.0
   unit: percent
   tier: bonus
   eligibility:
-    tags: [shopping]
-    description: Excluding accelerated cashback categories
-    sources: ['singsaver:9c6affbada2c']
+    exclude_mcc: [3000-3350, 3351-3500, 3501-3999, '4112', '4131', '4411', '4511', '4722', '4789', '5962',
+      '7011', '7512']
+    modes_required: [online, in_app]
+    modes_excluded: [mobile_wallet]
+    description: 5% (0.3% base + 4.7% bonus) for online transactions, excluding mobile wallet and
+      travel-related MCCs.
+    sources: ['bank:c190661d8a48']
   min_spend:
     amount: 500.0
     currency: SGD
   min_spend_period: statement_month
+  bonus_cap:
+    amount: 600.0
+    unit: SGD_cashback
+    period: membership_year
+    shared_with: [groceries, simplygo, taxis, ringgit]
+    sources: ['bank:c190661d8a48']
   conditions:
-  - min spend S$500/month from singsaver — confirm the period (statement vs calendar month) and which
-    rules it unlocks
-  sources: ['singsaver:9c6affbada2c']
+  - Bonus needs S$500 total qualifying retail spend in the statement month; otherwise 0.3%
+  - Max SMRT$600 per 12-month card-year
+  sources: ['bank:c190661d8a48', 'web:citi-smrt-page']
+- id: simplygo
+  label: SimplyGo bus and MRT fares (tap to pay)
+  rate: 5.0
+  unit: percent
+  tier: bonus
+  eligibility:
+    include_mcc: ['4111']
+    modes_required: [contactless, mobile_wallet]
+    description: 5% (0.3% base + 4.7% bonus) for public bus/train rides paid by SimplyGo tap-to-pay (MCC 4111,
+      description BUS/MRT).
+    sources: ['bank:c190661d8a48']
+  min_spend:
+    amount: 500.0
+    currency: SGD
+  min_spend_period: statement_month
+  bonus_cap:
+    amount: 600.0
+    unit: SGD_cashback
+    period: membership_year
+    shared_with: [groceries, online, taxis, ringgit]
+    sources: ['bank:c190661d8a48']
+  conditions:
+  - Bonus needs S$500 total qualifying retail spend in the statement month; otherwise 0.3%
+  - Max SMRT$600 per 12-month card-year
+  sources: ['bank:c190661d8a48', 'web:citi-smrt-page']
+- id: taxis
+  label: Taxis and ride-hailing
+  rate: 5.0
+  unit: percent
+  tier: bonus
+  eligibility:
+    include_mcc: ['4121']
+    description: 5% (0.3% base + 4.7% bonus) for taxis and private-hire rides (MCC 4121); Grab rides paid via
+      GrabPay wallet don't earn the bonus.
+    sources: ['bank:c190661d8a48']
+  min_spend:
+    amount: 500.0
+    currency: SGD
+  min_spend_period: statement_month
+  bonus_cap:
+    amount: 600.0
+    unit: SGD_cashback
+    period: membership_year
+    shared_with: [groceries, online, simplygo, ringgit]
+    sources: ['bank:c190661d8a48']
+  conditions:
+  - Bonus needs S$500 total qualifying retail spend in the statement month; otherwise 0.3%
+  - Max SMRT$600 per 12-month card-year
+  sources: ['bank:c190661d8a48', 'web:citi-smrt-page']
+- id: ringgit
+  label: Malaysian Ringgit spend (promotion)
+  rate: 5.0
+  unit: percent
+  tier: bonus
+  eligibility:
+    modes_required: [foreign_currency]
+    description: 5% (0.3% base + 4.7% bonus) for spend in Malaysian Ringgit (DCC excluded), 1 Sep 2025 - 28 Feb 2027.
+    sources: ['bank:b81a08ff9609']
+  min_spend:
+    amount: 500.0
+    currency: SGD
+  min_spend_period: statement_month
+  bonus_cap:
+    amount: 600.0
+    unit: SGD_cashback
+    period: membership_year
+    shared_with: [groceries, online, simplygo, taxis]
+    sources: ['bank:c190661d8a48']
+  conditions:
+  - Bonus needs S$500 total qualifying retail spend in the statement month; otherwise 0.3%
+  - Max SMRT$600 per 12-month card-year
+  valid_from: '2025-09-01'
+  valid_to: '2027-02-28'
+  sources: ['bank:b81a08ff9609', 'web:citi-smrt-page']
 - id: base
-  label: baseline (SingSaver — verify)
+  label: All other retail spend
   rate: 0.3
   unit: percent
   tier: base
   eligibility:
     all_spend: true
-    description: ''
-    sources: ['singsaver:9c6affbada2c']
-  sources: ['singsaver:9c6affbada2c']
+    description: 0.3% SMRT$ on all qualifying retail spend.
+    sources: ['bank:c190661d8a48']
+  sources: ['bank:c190661d8a48']
+spend_cycle: statement_month
+spend_cycle_sources: ['bank:c190661d8a48']
 general_exclusions:
-  exclude_mcc: [3000-3350, 3351-3500, 3501-3999, '4111', '4112', '4121', '4131', '4411', '4511', '4722',
-    '4789', '5962', '7011', '7512']
-  description: Auto-extracted from official T&Cs — confirm each code applies to this card
-  sources: ['bank:c190661d8a48', 'bank:b81a08ff9609', 'bank:c190661d8a48', 'bank:472e40f873ba']
+  exclude_mcc: ['4829', '4900', '5199', '5960', '5993', '6012', '6050', '6051', '6211', '6300', '6513',
+    6529-6540, '7349', '7511', '7523', '7800', '7995', '8062', 8211-8299, '8398', 8651-8661, 9000-9999]
+  exclude_merchants: [AXS, EZ-Link, SimplyGo, Transit Link, TRANSIT, YouTrip, SAM, OANDA, Saxo, SKYFX]
+  description: Citi rewards exclusion list (updated Nov 2024, eff. 16 Dec 2024) — quasi-cash and stored-value
+    loads, utilities, insurance, financial services, real estate rentals, education, charity, hospitals,
+    political/religious organisations, government services, gambling, cigar stores, parking; plus the listed
+    merchants (incl. via Amaze). BUS/MRT (MCC 4111) is excluded for other Citi cards but earns SMRT$ on this card.
+  sources: ['bank:d43f74d8ca64']
 sign_up_bonuses:
 - offered_by: singsaver
   description: 'SingSaver Flash Deal: choice of The latest smartphone (worth over S$1,8xx)'
@@ -218,6 +321,19 @@ citations:
   retrieved_at: '2026-09-27T08:36:33+00:00'
   sha256: 472e40f873baccd449fa577b73e5fad5cb7d75baccd88b038e0898bfeaf387f2
   snapshot: data/raw/bank/www-citibank-com-sg-credit-cards-pdf-chargeback-dispute-pdf-092d6126.pdf
+- id: bank:d43f74d8ca64
+  url: https://www.citibank.com.sg/credit-cards/pdf/rewards-exclusion-list.pdf
+  source_type: official
+  retrieved_at: '2026-10-18'
+  sha256: d43f74d8ca64a96141c244ca5126179e77543ae82cebe4c177a0c029c73b1a68
+  snapshot: data/raw/bank/www-citibank-com-sg-credit-cards-pdf-rewards-exclusion-list-pdf-cea07829.pdf
+- id: web:citi-smrt-page
+  url: https://www.citibank.com.sg/credit-cards/cashback/smrt-credit-card
+  title: Citi SMRT Card (product page)
+  source_type: official
+  retrieved_at: '2026-10-18'
 review:
-  status: draft
-updated_at: '2026-09-27'
+  status: reviewed
+  reviewed_by: claude (web research)
+  reviewed_at: 2026-10-18
+  notes: 'Verified vs Citi SMRT product page, SMRT$ Rewards T&C (Nov 2024), Ringgit promo T&C and exclusion list: 5% groceries/online/SimplyGo/taxis with S$500 min per statement month, SMRT$600 cap per card-year, 0.3% base, Visa, fee waived 2 yrs. Travel MCCs moved from general exclusions to the online rule.'

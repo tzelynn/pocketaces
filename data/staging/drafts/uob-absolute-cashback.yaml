@@ -1,5 +1,5 @@
 # Curated card record. Auto-drafted from staged sources; verify every value against the
-# official T&Cs (citations below), then set review.status: reviewed.
+# official T&Cs (citations below), then set review.status: reviewed and review.reviewed_at.
 id: uob-absolute-cashback
 bank: UOB
 name: UOB Absolute Cashback Card
@@ -167,4 +167,4 @@ citations:
   snapshot: data/raw/bank/-resources-personal-pdf-cards-cashback-absolute-cashback-card-absolute-amex-card-contactless-campaign-tnc-cmpg202507-pdf-341adc42.pdf
 review:
   status: draft
-updated_at: '2026-09-27'
+updated_at: '2026-09-28'

@@ -1,5 +1,5 @@
 # Curated card record. Auto-drafted from staged sources; verify every value against the
-# official T&Cs (citations below), then set review.status: reviewed.
+# official T&Cs (citations below), then set review.status: reviewed and review.reviewed_at.
 id: maybank-xl-cashback
 bank: Maybank
 name: Maybank XL Cashback Card
@@ -10,9 +10,8 @@ annual_fee:
   amount:
     amount: 87.2
     currency: SGD
-  waiver_notes: S$ | First 2 Years Waived; Subsequent annual fee will be automatically waived with a minimum
-    spend of S$6,000 yearly.
-  sources: ['singsaver:46ec5be2e413']
+  waiver_notes: First 2 years waived; thereafter auto-waived with S$6,000 spend per membership year
+  sources: ['singsaver:46ec5be2e413', 'milelion:4caa28e3958a']
 min_annual_income:
   amount: 30000.0
   currency: SGD
@@ -20,34 +19,73 @@ reward_currency:
   kind: cashback
   name: Cashback
 earn_rules:
-- id: local
-  label: local, overseas, forex, dining, retail, travel, entertainment (SingSaver — verify)
+- id: bonus-categories
+  label: Dine, Shop, Travel & Play in SGD (min. S$500/month)
   rate: 5.0
   unit: percent
   tier: bonus
   eligibility:
-    tags: [dining, shopping, travel, entertainment]
-    modes_required: [online]
-    description: 5% cashback (10X TREATS Points) on eligible spend categories (Dine, Shop, Travel, Play)
-      with min. S$500 spend per calendar month. Bonus cashback capped at S$80. Base rate 0.2%. / 5% cashback
-      (10X TREATS Points) on foreign currency spend overseas with min. S$500 spend per calendar month.
-      Bonus cashback capped at S$80. Base rate 0.2%. / 5% cashback (10X TREATS Points) on foreign currency
-      spend (overseas or online) with min. S$500 spend per calendar month. Bonus cashback capped at S$80.
-      Base rate 0.2%.
-    sources: ['singsaver:46ec5be2e413']
-  sources: ['singsaver:46ec5be2e413']
+    include_mcc: ['5811', '5812', '5814', '5462', '5262', '5310', '5311', '5331', '5399', '5621', '5631', '5651',
+      '5655', '5661', '5691', '5699', '5941', '3000-3299', '3300-3308', '4511', '4722', '7011', '4899', '5813',
+      '5815', '7832', '7993', '7994']
+    description: 5% cashback on Dine (caterers, restaurants, fast food, bakeries), Shop (marketplaces,
+      department/discount stores, apparel, shoes, sporting goods), Travel (airlines, travel agencies, MCC 7011
+      hotels) and Play (bars, streaming/pay TV, digital goods, cinemas, arcades), online or offline.
+    sources: ['web:mb-xlc-tnc']
+  min_spend:
+    amount: 500.0
+    currency: SGD
+  min_spend_period: calendar_month
+  bonus_cap:
+    amount: 80.0
+    unit: SGD_cashback
+    period: calendar_month
+    shared_with: [fcy]
+    sources: ['web:mb-xlc-tnc', 'web:mb-xl-page']
+  conditions:
+  - The S$500 minimum counts all eligible spend (bonus and non-bonus categories)
+  sources: ['web:mb-xlc-tnc', 'web:mb-xl-page']
+- id: fcy
+  label: Foreign currency spend (min. S$500/month)
+  rate: 5.0
+  unit: percent
+  tier: bonus
+  eligibility:
+    modes_required: [foreign_currency]
+    description: 5% cashback on all retail spend in foreign currency, overseas or online.
+    sources: ['web:mb-xlc-tnc']
+  min_spend:
+    amount: 500.0
+    currency: SGD
+  min_spend_period: calendar_month
+  bonus_cap:
+    amount: 80.0
+    unit: SGD_cashback
+    period: calendar_month
+    shared_with: [bonus-categories]
+    sources: ['web:mb-xlc-tnc', 'web:mb-xl-page']
+  sources: ['web:mb-xlc-tnc', 'web:mb-xl-page']
 - id: base
-  label: baseline (SingSaver — verify)
-  rate: 0.4
+  label: All other spend
+  rate: 0.2
   unit: percent
   tier: base
   eligibility:
     all_spend: true
-    description: 0.2% unlimited cashback (1x TREATS Points) for all other spend.
-    sources: ['singsaver:46ec5be2e413']
-  sources: ['singsaver:46ec5be2e413']
+    description: 0.2% unlimited cashback on other eligible spend (incl. Etiqa insurance), on bonus categories
+      when the S$500 minimum isn't met, and after the S$80 cap.
+    sources: ['web:mb-xlc-tnc', 'web:mb-xl-page']
+  sources: ['web:mb-xlc-tnc']
+spend_cycle: calendar_month
+spend_cycle_sources: ['web:mb-xlc-tnc']
 general_exclusions:
-  description: Auto-extracted from official T&Cs — confirm each code applies to this card
+  exclude_mcc: ['4829', '4900', '5960', '6010', '6011', '6012', '6050', '6051', '6300', '6381', '6399', '6529',
+    '6530', '6534', '6540', '7349', '7511']
+  exclude_merchants: [EZ-Link, SimplyGo, TransitLink, YouTrip, Instarem, RazerPay, Singtel Dash]
+  description: XL Cashback T&C 5.6 — no cashback or min-spend credit for these MCCs, insurance (except Etiqa,
+    base only), NETS/eNETS, AXS/SAM, government, gambling, brokerage, charities/religious/political
+    organisations, instalment plans, fees/interest and listed top-up/prepaid merchants.
+  sources: ['web:mb-xlc-tnc']
 sign_up_bonuses:
 - offered_by: singsaver
   description: 'Maybank Welcome Offer: choice of Get an increased S$100 Cashback Cap'
@@ -62,6 +100,12 @@ sign_up_bonuses:
   valid_to: '2026-09-30'
   url: https://www.singsaver.com.sg/credit-card/products/maybank-xl-cashback-card
   sources: ['singsaver:46ec5be2e413']
+notes:
+- Only for applicants aged 21-39. Successor to the Maybank DUO Platinum Mastercard (ex-DUO cardholders from
+  before 1 Aug 2025 also get 5% on petrol in Singapore/Malaysia with no minimum spend).
+- Min spend tracked by posting date; transactions posted by the 10th of the next month count toward the month
+  they were made. Cashback is credited by the end of the next calendar month.
+- FCY fee 3.25%.
 citations:
 - id: singsaver:46ec5be2e413
   url: https://www.singsaver.com.sg/credit-card/products/maybank-xl-cashback-card
@@ -77,6 +121,27 @@ citations:
   retrieved_at: '2026-09-27T05:27:12+00:00'
   sha256: eeee24fb93a9d85ef8b9194c11bda960b5b99ee30b3689cdc59fb650badebce7
   snapshot: data/raw/moneysmart/credit-cards-p1-b55034ef.html
+- id: milelion:4caa28e3958a
+  url: https://milelion.com/2026/07/05/review-maybank-xl-rewards-card/
+  title: 'Review: Maybank XL Rewards Card (covers the XL Cashback variant)'
+  source_type: editorial
+  retrieved_at: '2026-09-28T13:28:38+00:00'
+  sha256: 4caa28e3958a2d1aefc34066d93538ed01a2be17cf561e87ff1b3cac81b23b18
+  snapshot: data/raw/milelion/post-362981-856beacc.json
+- id: web:mb-xlc-tnc
+  url: https://www.maybank2u.com.sg/iwov-resources/sg/pdf/cards/xl-cashback-card-tnc.pdf
+  title: Maybank XL Cashback Card Cashback Programme T&Cs (effective 1 Dec 2025)
+  source_type: official
+  retrieved_at: '2026-10-18'
+- id: web:mb-xl-page
+  url: https://www.maybank2u.com.sg/en/personal/cards/credit/maybank-xl-card.page
+  title: Maybank XL Cards (product page)
+  source_type: official
+  retrieved_at: '2026-10-18'
 review:
-  status: draft
-updated_at: '2026-09-27'
+  status: reviewed
+  reviewed_by: claude (web research)
+  reviewed_at: 2026-10-18
+  notes: 5% rate, bonus MCCs, S$500 min spend, S$80 cap, 0.2% base verified against official T&C (1 Dec 2025)
+    + product page; fee/waiver/income from MileLion + SingSaver (not on captured product page).
+updated_at: '2026-09-28'

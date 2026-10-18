@@ -1,5 +1,5 @@
 # Curated card record. Auto-drafted from staged sources; verify every value against the
-# official T&Cs (citations below), then set review.status: reviewed.
+# official T&Cs (citations below), then set review.status: reviewed and review.reviewed_at.
 id: krisflyer-uob
 bank: UOB
 name: KrisFlyer UOB Credit Card
@@ -19,6 +19,10 @@ min_annual_income:
 reward_currency:
   kind: miles
   name: Miles
+  expiry:
+    months: 36
+    note: 'The MileLion: points validity “3 years”'
+    sources: ['milelion:8db2ce8000c9']
 earn_rules:
 - id: overseas
   label: overseas, local online shopping, travel, hotel booking, dining, transport, local, flight booking
@@ -161,13 +165,13 @@ citations:
   retrieved_at: '2026-09-27T08:37:38+00:00'
   sha256: 086a993a52a74bab49a1eaad3f06d1913943c435a87206f30eaa87df48242267
   snapshot: data/raw/bank/www-uob-com-sg-assets-pdfs-personal-krisflyer-uob-debit-krisflyer-account-tnc-pdf-506dc3ad.pdf
-- id: milelion:f5a7a64cc161
+- id: milelion:8db2ce8000c9
   url: https://milelion.com/2026/04/12/review-krisflyer-uob-credit-card/
   title: 'Review: KrisFlyer UOB Credit Card'
   source_type: editorial
-  retrieved_at: '2026-09-27T05:28:51+00:00'
-  sha256: f5a7a64cc16186321dbd72d1ece882ddb3a3c278b93227aaaf5a70b084defd6f
+  retrieved_at: '2026-09-28T13:28:53+00:00'
+  sha256: 8db2ce8000c9acf213ccf99cde11b68a4b6238932143b163fe8ac504c158e5d8
   snapshot: data/raw/milelion/post-72939-f7a05b69.json
 review:
   status: draft
-updated_at: '2026-09-27'
+updated_at: '2026-09-28'

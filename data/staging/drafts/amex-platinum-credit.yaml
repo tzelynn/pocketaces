@@ -1,5 +1,5 @@
 # Curated card record. Auto-drafted from staged sources; verify every value against the
-# official T&Cs (citations below), then set review.status: reviewed.
+# official T&Cs (citations below), then set review.status: reviewed and review.reviewed_at.
 id: amex-platinum-credit
 bank: American Express
 name: American Express Platinum Credit Card
@@ -15,28 +15,47 @@ annual_fee:
 reward_currency:
   kind: points
   name: Points
+  conversions:
+  - partner: KrisFlyer
+    points: 550.0
+    partner_units: 250.0
+    fee:
+      amount: 0.0
+      currency: SGD
+    min_block_points: 550.0
+    note: 'The MileLion: min. transfer “550 MR points (250 miles)”, transfer fee “None” — confirm the
+      partner (the overview quotes KrisFlyer unless it says otherwise)'
+    sources: ['milelion:d58d215327a3']
+  expiry:
+    never: true
+    note: 'The MileLion: points validity “No expiry”'
+    sources: ['milelion:d58d215327a3']
 earn_rules:
 - id: dining
   label: dining, retail (SingSaver — verify)
-  rate: 10.0
-  unit: points_per_dollar
+  rate: 4.55
+  unit: mpd
   tier: bonus
   eligibility:
     tags: [dining, shopping]
     description: Earn 10 Membership Rewards® points for every full S$1.60 spent at Platinum 10Xcelerator
       Partners.
     sources: ['singsaver:5bd629bc2fad']
-  sources: ['singsaver:5bd629bc2fad']
+  conditions:
+  - 10 points per S$1, converted to KrisFlyer miles at 550:250
+  sources: ['singsaver:5bd629bc2fad', 'milelion:d58d215327a3']
 - id: base
   label: baseline (SingSaver — verify)
-  rate: 2.0
-  unit: points_per_dollar
+  rate: 0.91
+  unit: mpd
   tier: base
   eligibility:
     all_spend: true
     description: Earn 2 Membership Rewards® points for every S$1.60 spent.
     sources: ['singsaver:5bd629bc2fad']
-  sources: ['singsaver:5bd629bc2fad']
+  conditions:
+  - 2 points per S$1, converted to KrisFlyer miles at 550:250
+  sources: ['singsaver:5bd629bc2fad', 'milelion:d58d215327a3']
 general_exclusions:
   description: Auto-extracted from official T&Cs — confirm each code applies to this card
 sign_up_bonuses:
@@ -101,9 +120,9 @@ citations:
   url: https://milelion.com/2026/02/24/review-american-express-platinum-credit-card/
   title: 'Review: American Express Platinum Credit Card'
   source_type: editorial
-  retrieved_at: '2026-09-27T05:29:02+00:00'
+  retrieved_at: '2026-09-28T13:29:07+00:00'
   sha256: d58d215327a323d4ccdc4095e4fba03fe47af88027e4b2c4ba9d00c37715551f
   snapshot: data/raw/milelion/post-129074-15ec673b.json
 review:
   status: draft
-updated_at: '2026-09-27'
+updated_at: '2026-09-28'

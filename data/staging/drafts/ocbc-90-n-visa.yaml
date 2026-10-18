@@ -1,5 +1,5 @@
 # Curated card record. Auto-drafted from staged sources; verify every value against the
-# official T&Cs (citations below), then set review.status: reviewed.
+# official T&Cs (citations below), then set review.status: reviewed and review.reviewed_at.
 id: ocbc-90-n-visa
 bank: OCBC
 name: OCBC 90°N Visa Card
@@ -20,6 +20,21 @@ min_annual_income:
 reward_currency:
   kind: miles
   name: Miles
+  conversions:
+  - partner: KrisFlyer
+    points: 1000.0
+    partner_units: 1000.0
+    fee:
+      amount: 25.0
+      currency: SGD
+    min_block_points: 1000.0
+    note: 'The MileLion: min. transfer “1,000 90°N Miles* (Up to 1,000 miles)”, transfer fee “S$25” —
+      confirm the partner (the overview quotes KrisFlyer unless it says otherwise)'
+    sources: ['milelion:4e723e3504aa']
+  expiry:
+    never: true
+    note: 'The MileLion: points validity “No expiry”'
+    sources: ['milelion:4e723e3504aa']
 earn_rules:
 - id: hotel-booking
   label: hotel booking (SingSaver — verify)
@@ -59,6 +74,8 @@ earn_rules:
     description: ''
     sources: ['singsaver:72c61c239af1']
   sources: ['singsaver:72c61c239af1']
+spend_cycle: calendar_month
+spend_cycle_sources: ['milelion:4e723e3504aa']
 general_exclusions:
   exclude_mcc: ['4784', '4829', '4900', '5047', '5199', '5960', '5993', '6010', '6012', '6051', '6211',
     '6300', '6399', '6513', '6540', '7349', '7523', '7995', '8062', '8211', '8220', '8241', '8244', '8249',
@@ -149,6 +166,9 @@ sign_up_bonuses:
   url: https://www.moneysmart.sg/credit-cards/ocbc-90n-visa-card
   sources: ['moneysmart:42909b088c22']
 notes:
+- spend_cycle calendar_month from The MileLion review (“OCBC 90°N Cardholders who spend at least S$500
+  per calendar month on their card are eligible to earn bonus interest of 0.25% p.a. on the first S$100,000
+  in their OCBC 360 account.”) — confirm it applies to min spend and caps
 - 'Editorial review for cross-checking: Review: OCBC 90°N Card (https://milelion.com/2026/09/13/review-ocbc-90n-card/,
   updated 2026-09-22)'
 - 'T&C mentions (check whether excluded): annual fee, axs, balance transfer, bill payment, cash advance,
@@ -226,9 +246,9 @@ citations:
   url: https://milelion.com/2026/09/13/review-ocbc-90n-card/
   title: 'Review: OCBC 90°N Card'
   source_type: editorial
-  retrieved_at: '2026-09-27T05:28:09+00:00'
+  retrieved_at: '2026-09-28T13:28:11+00:00'
   sha256: 4e723e3504aad9cfacbcb3cc551da70e1ed23cd829abc5d0f390544d727f1ab5
   snapshot: data/raw/milelion/post-55469-c31fa035.json
 review:
   status: draft
-updated_at: '2026-09-27'
+updated_at: '2026-09-28'

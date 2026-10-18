@@ -1,44 +1,39 @@
 # Curated card record. Auto-drafted from staged sources; verify every value against the
-# official T&Cs (citations below), then set review.status: reviewed.
+# official T&Cs (citations below), then set review.status: reviewed and review.reviewed_at.
 id: uob-evol
 bank: UOB
 name: UOB EVOL Card
+network: visa
 image_url: https://mhgprod.blob.core.windows.net/singsaver/strapi-uploads/s_blt4d4b9601180f137e_b23ad712d4.webp
 official_url: https://www.uob.com.sg/personal/cards/cashback/evol-card/index.page
 annual_fee:
   amount:
     amount: 0.0
     currency: SGD
-  waiver_notes: S$ | No annual fees on your card, effective 1 July 2026
-  sources: ['singsaver:2d8a6fa00b39']
+  waiver_notes: No annual fee for principal and supplementary cards w.e.f. 1 July 2026
+  sources: ['bank:8c8b4db1d31d', 'web:uob-evol-page']
 min_annual_income:
   amount: 30000.0
   currency: SGD
 reward_currency:
   kind: cashback
   name: Cashback
+  expiry:
+    months: 24
+    note: Forfeited 2 calendar years after the statement month awarded, or on card cancellation
+    sources: ['bank:8c8b4db1d31d']
 earn_rules:
-- id: online-mobile-contactless-spend
-  label: online mobile contactless spend, contactless spend, digital wallet, local, overseas online shopping,
-    dining, supermarket, retail, health, department store, local online shopping, streaming service, utilities
-    (SingSaver — verify)
+- id: online-mobile-contactless
+  label: Local online and mobile-wallet contactless spend
   rate: 10.0
   unit: percent
   tier: bonus
   eligibility:
-    include_mcc: ['4812', '4814', '4829', '4899', '4900', '5199', '5734', '5815', '5960', '5965', '5993',
-      '6012', '6050', '6051', '6211', '6300', '6399', '6513', '6529', '6530', '6534', '6540', '7298',
-      '7349', '7511', '7523', '7995', '7997', '8062', '8211', '8220', '8241', '8244', '8249', '8299',
-      '8398', '8651', '8661', '8699', '8999', '9211', '9222', '9223', '9311', '9399', '9402', '9405']
-    modes_required: [contactless, online]
-    description: Capped at S$30 per statement month with a min. spend of S$800. / On online and mobile
-      contactless spend, capped at S$30 per statement month. / Up to  | On online and mobile contactless
-      spend, capped at S$30 per statement month. / Get 10% on selected Gym spend, capped at S$20 per statement
-      month. / Get 10% on selected Streaming spend, capped at S$20 per statement month. / Get 10% on selected
-      Telco spend, capped at S$20 per statement month. [include_mcc auto-extracted from official T&C —
-      check it belongs to this rule]
-    sources: ['singsaver:2d8a6fa00b39', 'bank:8c8b4db1d31d', 'bank:c58647465439', 'bank:3da0b3b24423',
-      'bank:42358e29d735', 'bank:c13cf48e44b4', 'bank:799ed3a9a4fa']
+    modes_required: [online, mobile_wallet]
+    modes_excluded: [foreign_currency]
+    description: Local Online Spend, and in-store Apple Pay / Google Pay / Samsung Pay processed in Singapore.
+      Physical card tap does not qualify
+    sources: ['bank:8c8b4db1d31d']
   min_spend:
     amount: 800.0
     currency: SGD
@@ -47,74 +42,93 @@ earn_rules:
     amount: 30.0
     unit: SGD_cashback
     period: statement_month
-    sources: ['singsaver:2d8a6fa00b39']
+    sources: ['bank:8c8b4db1d31d']
   conditions:
-  - bonus_cap parsed from aggregator text “Capped at S$30 per statement month” — confirm amount, unit
-    and whether the period is calendar or statement month
-  - 'aggregator categories: dining, groceries, shopping, healthcare'
-  - min spend S$800/month from singsaver — confirm the period (statement vs calendar month) and which
-    rules it unlocks
-  sources: ['singsaver:2d8a6fa00b39']
-- id: overseas
-  label: overseas (SingSaver — verify)
+  - Total cashback capped at S$80 per statement month
+  sources: ['bank:8c8b4db1d31d', 'web:uob-evol-page']
+- id: gym-telco-streaming
+  label: Selected gym, telco and streaming merchants
+  rate: 10.0
+  unit: percent
+  tier: bonus
+  eligibility:
+    include_mcc: ['5734', '7298', '7997', '4812', '4814', '4899', '5815']
+    include_merchants: [Anytime Fitness, ClassPass, Virgin Active, Fitness First, Body Fit Training, True
+        Fitness, 247 Fitness, Pure Yoga, True Yoga, Revolution SG, StarHub, Singtel, M1, GOMO, MyRepublic,
+      Giga, CirclesLife, Netflix, Spotify, Disney+]
+    description: Listed merchant descriptors with the listed MCCs, processed in Singapore
+    sources: ['bank:8c8b4db1d31d']
+  min_spend:
+    amount: 800.0
+    currency: SGD
+  min_spend_period: statement_month
+  bonus_cap:
+    amount: 20.0
+    unit: SGD_cashback
+    period: statement_month
+    sources: ['bank:8c8b4db1d31d']
+  conditions:
+  - Total cashback capped at S$80 per statement month
+  sources: ['bank:8c8b4db1d31d', 'web:uob-evol-page']
+- id: overseas-fx
+  label: Overseas foreign-currency spend (promotion)
   rate: 1.0
   unit: percent
   tier: bonus
   eligibility:
-    description: Up to 1% cashback on overseas foreign currency spend with no min. spend and no cap, valid
-      till 31 Dec 2026.
-    sources: ['singsaver:2d8a6fa00b39']
-  min_spend:
-    amount: 800.0
-    currency: SGD
-  min_spend_period: statement_month
+    modes_required: [foreign_currency]
+    description: 1% on FX spend (0.5% in China and Europe; Australia also 0.5% from 1 Jan 2027), no min.
+      spend, no cap. 0% FX fee on FX spend
+    sources: ['bank:c58647465439', 'web:uob-evol-page']
   conditions:
-  - min spend S$800/month from singsaver — confirm the period (statement vs calendar month) and which
-    rules it unlocks
-  sources: ['singsaver:2d8a6fa00b39']
-- id: transport
-  label: transport (SingSaver — verify)
-  rate: 0.3
-  unit: percent
-  tier: bonus
-  eligibility:
-    tags: [transport]
-    description: Capped at S$30 per statement month.
-    sources: ['singsaver:2d8a6fa00b39']
-  min_spend:
-    amount: 800.0
-    currency: SGD
-  min_spend_period: statement_month
-  bonus_cap:
-    amount: 30.0
-    unit: SGD_cashback
-    period: statement_month
-    sources: ['singsaver:2d8a6fa00b39']
-  conditions:
-  - bonus_cap parsed from aggregator text “Capped at S$30 per statement month” — confirm amount, unit
-    and whether the period is calendar or statement month
-  - min spend S$800/month from singsaver — confirm the period (statement vs calendar month) and which
-    rules it unlocks
-  sources: ['singsaver:2d8a6fa00b39']
+  - FX spend is not “Other Spend”, so it earns only this bonus
+  valid_from: '2026-03-26'
+  valid_to: '2027-12-31'
+  sources: ['bank:c58647465439', 'web:uob-evol-page']
 - id: base
-  label: baseline (SingSaver — verify)
+  label: All other spend
   rate: 0.3
   unit: percent
   tier: base
   eligibility:
     all_spend: true
-    description: On all other spend, capped at S$30 per statement month.
-    sources: ['singsaver:2d8a6fa00b39']
-  sources: ['singsaver:2d8a6fa00b39']
+    description: 0.3% on Other Spend; below S$800 in a statement month everything earns 0.3%
+    sources: ['bank:8c8b4db1d31d']
+  bonus_cap:
+    amount: 30.0
+    unit: SGD_cashback
+    period: statement_month
+    sources: ['bank:8c8b4db1d31d']
+  conditions:
+  - Total cashback capped at S$80 per statement month
+  sources: ['bank:8c8b4db1d31d']
+spend_cycle: statement_month
+spend_cycle_sources: ['bank:8c8b4db1d31d']
 general_exclusions:
-  exclude_mcc: ['4119', '4814', '4816', '4821', '4829', '4899', '4900', '5199', '5960', '5965', '5993',
-    '6010', '6011', '6012', '6050', '6051', '6211', '6300', '6381', '6513', '6529', '6530', '6534', '6535',
-    '6536', '6537', '6538', '6539', '6540', '6611', '6760', '7280', '7349', '7511', '7523', '7800', '7801',
-    '7802', '7995', '8062', '8211', '8220', '8241', '8244', '8249', '8299', '8398', '8651', '8661', '8999',
-    '9211', '9222', '9223', '9311', '9399', '9402', '9405']
-  description: Auto-extracted from official T&Cs — confirm each code applies to this card
-  sources: ['bank:8c8b4db1d31d', 'bank:c58647465439', 'bank:3da0b3b24423', 'bank:42358e29d735', 'bank:c13cf48e44b4',
-    'bank:799ed3a9a4fa']
+  exclude_mcc: ['4829', '4900', '5199', '5960', '5965', '5993', '6012', '6050', '6051', '6211', '6300',
+    '6513', '6529', '6530', '6534', '6540', '7349', '7511', '7523', '7995', '8062', '8211', '8220', '8241',
+    '8244', '8249', '8299', '8398', '8651', '8661', '8699', '8999', '9211', '9222', '9223', '9311', '9399',
+    '9402', '9405']
+  exclude_merchants:
+  - Shell
+  - SPC
+  - SP Digital*
+  - SP Services*
+  - AXS*
+  - EZ-LINK* / EZLINK* / TRANSIT*
+  - FLASHPAY* / NETSFLASHPAY*
+  - IPAYMY*
+  - CardUp*
+  - RWS-LEVY*
+  - SMOOVE PAY*
+  - SINGPOST-SAM*
+  - RazerPay*
+  - NORWDS*
+  - AMAZE*
+  - brokerage/FX (PLUS500, OANDA, Saxo, IG Markets, CITYINDEX, Skrill)
+  description: Cash advances, balance transfers, NETS, 0% IPP/SmartPay, UOB Payment Facility, Shell/SPC,
+    fees/interest, top-ups to payment providers/prepaid accounts, listed MCCs and descriptors
+  sources: ['bank:8c8b4db1d31d']
 sign_up_bonuses:
 - offered_by: singsaver
   description: 'Welcome Offer: choice of S$100 Samsung Voucher'
@@ -163,9 +177,8 @@ sign_up_bonuses:
   url: https://www.singsaver.com.sg/credit-card/products/uob-evol-card
   sources: ['singsaver:2d8a6fa00b39']
 notes:
-- 'T&C mentions (check whether excluded): annual fee, axs, bill payment, cardup, cash advance, charit,
-  education, government, grabpay, hospital, instalment, insurance premium, interest, ipaymy, ipp, late
-  payment charge, revolut, tax, top-up, top-ups, utilit, youtrip'
+- No FX admin fee on foreign-currency spend; the 1% International Processing Fee still applies to SGD
+  transactions processed overseas.
 citations:
 - id: singsaver:2d8a6fa00b39
   url: https://www.singsaver.com.sg/credit-card/products/uob-evol-card
@@ -217,6 +230,15 @@ citations:
   retrieved_at: '2026-09-27T08:43:22+00:00'
   sha256: 799ed3a9a4face2a55df065e9c6b4007d852216ee1a9580e9ff49a2bd4d04a21
   snapshot: data/raw/bank/s-web-resources-personal-pdf-promotions-cards-deals-disney-adventure-terms-and-conditions-uob-year-end-campaign-2024-pdf-bbcbe8f3.pdf
+- id: web:uob-evol-page
+  url: https://www.uob.com.sg/personal/cards/cashback/evol-card/index.page
+  title: UOB EVOL Card (product page)
+  source_type: official
+  retrieved_at: '2026-10-18'
 review:
-  status: draft
-updated_at: '2026-09-27'
+  status: reviewed
+  reviewed_by: claude (web research)
+  reviewed_at: '2026-10-18'
+  notes: 'Verified vs EVOL T&C Ver 2.2 (1 Jul 2026), FX promo T&C and product page (promo extended to
+    31 Dec 2027): fee, rates, caps, S$800 statement-month min spend, exclusions.'
+updated_at: '2026-10-18'

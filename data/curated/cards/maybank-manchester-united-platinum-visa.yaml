@@ -1,46 +1,71 @@
 # Curated card record. Auto-drafted from staged sources; verify every value against the
-# official T&Cs (citations below), then set review.status: reviewed.
+# official T&Cs (citations below), then set review.status: reviewed and review.reviewed_at.
 id: maybank-manchester-united-platinum-visa
 bank: Maybank
 name: Maybank Manchester United Platinum Visa Credit Card
 image_url: https://mhgprod.blob.core.windows.net/singsaver/strapi-uploads/xs_blt300db20118a1c8ab_db039f1a0e.png
 official_url: https://www.maybank2u.com.sg/en/personal/cards/credit/maybank-manchester-united-credit-debit.page
+network: visa
 annual_fee:
   amount:
     amount: 87.2
     currency: SGD
-  waiver_notes: S$ | First 2 Years Waived, thereafter can be waived if min spend of $3.6K is met per annum
-  sources: ['singsaver:d571031efa15']
+  waiver_notes: First 2 years waived; thereafter auto-waived with S$3,600 total spend in the year before the
+    fee is due
+  sources: ['singsaver:d571031efa15', 'web:mb-mu-page']
 min_annual_income:
   amount: 30000.0
   currency: SGD
 reward_currency:
   kind: miles
   name: Miles
+  conversions:
+  - partner: KrisFlyer
+    points: 25000.0
+    partner_units: 10000.0
+    fee:
+      amount: 27.25
+      currency: SGD
+    min_block_points: 25000.0
+    note: TREATS Points — 2.5 points = 1 KrisFlyer mile, blocks of 25,000 points; S$27.25 per conversion
+    sources: ['web:mb-treats-tnc', 'milelion:972594901b95']
+  expiry:
+    months: 12
+    months_max: 15
+    note: TREATS Points expire one year from the end of the quarter earned; never expire with Rewards Infinite
+      (S$24,000 spend in 12 months across eligible Maybank cards, incl. this one)
+    sources: ['web:mb-treats-tnc', 'milelion:972594901b95']
 earn_rules:
-- id: local
-  label: local, overseas (SingSaver — verify)
-  rate: 2.0
-  unit: mpd
-  tier: bonus
-  eligibility:
-    description: Up to | When Manchester United Wins a Premier Leage Match, otherwise earn 0.4 miles per
-      dollar.
-    sources: ['singsaver:d571031efa15']
-  sources: ['singsaver:d571031efa15']
 - id: base
-  label: baseline (SingSaver — verify)
-  rate: 2.0
+  label: Local and overseas spend
+  rate: 1.12
   unit: mpd
   tier: base
   eligibility:
     all_spend: true
-    description: Up to | When Manchester United Wins a Premier Leage Match, otherwise earn 0.4 miles per
-      dollar.
-    sources: ['singsaver:d571031efa15']
-  sources: ['singsaver:d571031efa15']
+    description: 14 TREATS Points per S$5 (2.8X, 1.12 mpd) on local and foreign currency retail spend.
+    sources: ['web:mb-mu-tnc', 'web:mb-mu-page']
+  rounding:
+    amount: 5
+    rounding: down
+    sources: ['web:mb-mu-tnc']
+  conditions:
+  - Selected Categories in SGD (rentals 6513, business services 7399, telco 4812/4814, medical and education
+    MCCs) earn only 5 TREATS Points per S$5 (0.4 mpd)
+  sources: ['web:mb-mu-tnc']
 general_exclusions:
-  description: Auto-extracted from official T&Cs — confirm each code applies to this card
+  exclude_mcc: ['4829', '4900', '6010', '6011', '6012', '6050', '6051', '6300', '6529', '6530', '6534', '6540',
+    '7349', '7511', '7523', '8398', '8651', '8661']
+  exclude_merchants: [EZ-Link, SimplyGo, TransitLink, YouTrip, Instarem, RazerPay, Singtel Dash]
+  description: MU card T&C clause 16 — no points for these MCCs, NETS/eNETS, government payments, gambling,
+    brokerage, insurance, AXS/SAM, instalment plans, fees/interest and listed top-up/prepaid merchants.
+  sources: ['web:mb-mu-tnc']
+notes:
+- 'Match-day bonus: on the (UK) day Manchester United win an English Premier League match, all retail spend that
+  Singapore day earns an extra 21 points per S$5 — 2.8 mpd in total — on up to S$2,000 of spend; credited within
+  45 working days. Not on Selected Categories. A draw bonus (+6 points per S$5, 1.6 mpd, 1 draw/month) applied
+  to the 2025/26 season only.'
+- The SingSaver figures (2 mpd headline, 0.4 mpd otherwise) are outdated; the March 2026 T&C gives 1.12 mpd base.
 citations:
 - id: singsaver:d571031efa15
   url: https://www.singsaver.com.sg/credit-card/products/maybank-manchester-united-platinum-visa-card
@@ -56,6 +81,32 @@ citations:
   retrieved_at: '2026-09-27T05:27:20+00:00'
   sha256: 49fcb3586f252df0b2dacb9acecc465127e09c9defa7f151881c3db46d84649e
   snapshot: data/raw/moneysmart/credit-cards-p4-1a322210.html
+- id: milelion:972594901b95
+  url: https://milelion.com/2026/08/24/review-maybank-horizon-visa-signature-card/
+  title: 'Review: Maybank Horizon Visa Signature Card (TREATS Points conversion and Rewards Infinite details)'
+  source_type: editorial
+  retrieved_at: '2026-09-28T13:28:14+00:00'
+  sha256: 972594901b95451329fa27a7f6e52cc7c08cdf05a87c4ccc47932dfa2ad596cf
+  snapshot: data/raw/milelion/post-151653-ae02919f.json
+- id: web:mb-mu-tnc
+  url: https://www.maybank2u.com.sg/iwov-resources/sg/pdf/cards/mucc-promo-tnc.pdf
+  title: Maybank Manchester United Platinum Visa Credit Card T&Cs (March 2026)
+  source_type: official
+  retrieved_at: '2026-10-18'
+- id: web:mb-mu-page
+  url: https://www.maybank2u.com.sg/en/personal/cards/credit/maybank-manchester-united-credit-debit.page
+  title: Maybank Manchester United Cards (product page)
+  source_type: official
+  retrieved_at: '2026-10-18'
+- id: web:mb-treats-tnc
+  url: https://www.maybank2u.com.sg/iwov-resources/sg/pdf/cards/terms_and_conditions.pdf
+  title: Maybank TREATS Points Rewards Programme T&Cs (effective 9 Oct 2026)
+  source_type: official
+  retrieved_at: '2026-10-18'
 review:
-  status: draft
-updated_at: '2026-09-27'
+  status: reviewed
+  reviewed_by: claude (web research)
+  reviewed_at: 2026-10-18
+  notes: Fee, waiver, income, 1.12 mpd base, selected-category and match-day mechanics verified against official
+    page + T&C (Mar 2026). Match-day bonus kept in notes (not an earn rule) since it only applies on win days.
+updated_at: '2026-09-28'

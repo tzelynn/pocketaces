@@ -1,5 +1,5 @@
 # Curated card record. Auto-drafted from staged sources; verify every value against the
-# official T&Cs (citations below), then set review.status: reviewed.
+# official T&Cs (citations below), then set review.status: reviewed and review.reviewed_at.
 id: uob-unionpay-platinum
 bank: UOB
 name: UOB UnionPay Platinum Card
@@ -93,4 +93,4 @@ citations:
   snapshot: data/raw/bank/www-uob-com-sg-credit-cards-pdf-online-cards-campaign-pdf-a28f442a.pdf
 review:
   status: draft
-updated_at: '2026-09-27'
+updated_at: '2026-09-28'

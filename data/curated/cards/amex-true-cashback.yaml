@@ -1,5 +1,5 @@
 # Curated card record. Auto-drafted from staged sources; verify every value against the
-# official T&Cs (citations below), then set review.status: reviewed.
+# official T&Cs (citations below), then set review.status: reviewed and review.reviewed_at.
 id: amex-true-cashback
 bank: American Express
 name: American Express True Cashback Card
@@ -11,35 +11,25 @@ annual_fee:
     amount: 174.4
     currency: SGD
   first_year_waived: true
-  waiver_notes: S$ | First Year Waived
-  sources: ['singsaver:c040761bd6a9']
+  waiver_notes: S$174.40 incl. 9% GST; first year waived
+  sources: ['web:amex-true-cashback', 'singsaver:c040761bd6a9']
 reward_currency:
   kind: cashback
   name: Cashback
 earn_rules:
-- id: local
-  label: local, overseas, dining, supermarket, retail, local online shopping, insurance, overseas online
-    shopping, petrol, health, department store, contactless spend, transport (SingSaver — verify)
-  rate: 1.5
-  unit: percent
-  tier: bonus
-  eligibility:
-    tags: [dining, groceries, shopping, petrol, healthcare, transport]
-    description: For new Card Members, enjoy 3% Cashback on all eligible purchases, up to S$5,000 spend
-      in the first 6 months. Earn 1.5% Cashback on all subsequent eligible purchases with no minimum spending.
-    sources: ['singsaver:c040761bd6a9']
-  sources: ['singsaver:c040761bd6a9']
 - id: base
-  label: baseline (SingSaver — verify)
+  label: all eligible spend
   rate: 1.5
   unit: percent
   tier: base
   eligibility:
     all_spend: true
-    description: For new Card Members, enjoy 3% Cashback on all eligible purchases, up to S$5,000 spend
-      in the first 6 months. Earn 1.5% Cashback on all subsequent eligible purchases with no minimum spending.
-    sources: ['singsaver:c040761bd6a9']
-  sources: ['singsaver:c040761bd6a9']
+    description: 1.5% Cashback on all eligible purchases, no minimum spend and no cap (new Card Members get 3%
+      on the first S$5,000 in the first 6 months)
+    sources: ['bank:1b5a328881b4', 'web:amex-true-cashback']
+  conditions:
+  - Each purchase is rounded to the nearest S$1 before cashback is calculated; credited in the monthly statement
+  sources: ['bank:1b5a328881b4', 'web:amex-true-cashback']
 general_exclusions:
   description: Auto-extracted from official T&Cs — confirm each code applies to this card
 notes:
@@ -47,6 +37,11 @@ notes:
   education, government, grabpay, hospital, instalment, interest, late payment charge, sam kiosk, tax,
   top-up, top-ups, utilit'
 citations:
+- id: web:amex-true-cashback
+  url: https://www.americanexpress.com/sg/credit-cards/true-cashback-card/
+  title: American Express True Cashback Card (product page)
+  source_type: official
+  retrieved_at: '2026-10-18'
 - id: singsaver:c040761bd6a9
   url: https://www.singsaver.com.sg/credit-card/products/american-express-true-cashback-card
   title: American Express True Cashback Card
@@ -74,5 +69,9 @@ citations:
   sha256: c228cd1bc86a7cef6ff37d92bd1a91bc42d2446a7c0f7dae38349c35d69e42f1
   snapshot: data/raw/bank/www-americanexpress-com-content-dam-amex-sg-benefits-amex-sg-exclusions-pdf-a83329a0.pdf
 review:
-  status: draft
-updated_at: '2026-09-27'
+  status: reviewed
+  reviewed_by: claude (web research)
+  reviewed_at: 2026-10-18
+  notes: Verified fee S$174.40 FYF and uncapped 1.5% (T&C, Amex page); removed duplicate category rule;
+    3% welcome rate (first S$5k / 6 months) not modelled as an earn rule
+updated_at: '2026-09-28'

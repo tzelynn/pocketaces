@@ -1,5 +1,5 @@
 # Curated card record. Auto-drafted from staged sources; verify every value against the
-# official T&Cs (citations below), then set review.status: reviewed.
+# official T&Cs (citations below), then set review.status: reviewed and review.reviewed_at.
 id: maybank-xl-rewards
 bank: Maybank
 name: Maybank XL Rewards Card
@@ -10,40 +10,114 @@ annual_fee:
   amount:
     amount: 87.2
     currency: SGD
-  waiver_notes: S$ | First 2 Years Waived; Subsequent annual fee will be automatically waived with a minimum
-    spend of S$6,000 yearly.
-  sources: ['singsaver:c7ca3ef02e44']
+  waiver_notes: First 2 years waived; thereafter auto-waived with S$6,000 spend per membership year
+  sources: ['singsaver:c7ca3ef02e44', 'milelion:4caa28e3958a']
 min_annual_income:
   amount: 30000.0
   currency: SGD
 reward_currency:
   kind: miles
   name: Miles
+  conversions:
+  - partner: KrisFlyer
+    points: 25000.0
+    partner_units: 10000.0
+    fee:
+      amount: 27.25
+      currency: SGD
+    min_block_points: 25000.0
+    note: 2.5 TREATS Points = 1 KrisFlyer mile, blocks of 25,000 points; S$27.25 per conversion. Also Asia
+      Miles / Enrich 12,500:5,000, AirAsia 4,000:2,000.
+    sources: ['milelion:4caa28e3958a', 'web:mb-treats-tnc']
+  expiry:
+    months: 12
+    months_max: 15
+    note: TREATS Points expire one year from the end of the quarter earned; never expire with Rewards Infinite
+      (S$24,000 spend in 12 months, or holding a Maybank Visa Infinite / World Mastercard)
+    sources: ['milelion:4caa28e3958a', 'web:mb-treats-tnc']
 earn_rules:
-- id: local
-  label: local, forex, dining, retail, travel, entertainment (SingSaver — verify)
+- id: bonus-categories
+  label: Dine, Shop, Travel & Play in SGD (min. S$500/month)
   rate: 4.0
   unit: mpd
   tier: bonus
   eligibility:
-    tags: [dining, shopping, travel, entertainment]
-    description: 4 miles per dollar (10X TREATS Points) on eligible spend categories (Dine, Shop, Travel,
-      Play) with min. S$500 spend per calendar month. Capped at 10,000 bonus TREATS Points monthly (~4,000
-      miles). Base rate 0.4 mpd.
-    sources: ['singsaver:c7ca3ef02e44']
-  sources: ['singsaver:c7ca3ef02e44']
+    include_mcc: ['5811', '5812', '5814', '5462', '5262', '5310', '5311', '5331', '5399', '5621', '5631', '5651',
+      '5655', '5661', '5691', '5699', '5941', '3000-3299', '3300-3308', '4511', '4722', '7011', '4899', '5813',
+      '5815', '7832', '7993', '7994']
+    description: 10X TREATS Points per S$1 on Dine (caterers, restaurants, fast food, bakeries), Shop (marketplaces,
+      department/discount stores, apparel, shoes, sporting goods), Travel (airlines, travel agencies, MCC 7011
+      hotels — not 3501-3999 chains) and Play (bars, streaming/pay TV, digital goods, cinemas, arcades), online
+      or offline.
+    sources: ['web:mb-xlr-tnc']
+  min_spend:
+    amount: 500.0
+    currency: SGD
+  min_spend_period: calendar_month
+  bonus_cap:
+    amount: 1000.0
+    unit: SGD_spend
+    period: calendar_month
+    shared_with: [fcy]
+    sources: ['web:mb-xlr-tnc', 'milelion:4caa28e3958a']
+  rounding:
+    amount: 5
+    rounding: down
+    sources: ['web:mb-xlr-tnc']
+  conditions:
+  - Bonus capped at 10,000 bonus TREATS Points per calendar month (≈S$1,000 of bonus spend), shared with FCY spend
+  - The S$500 minimum counts all eligible spend (bonus and non-bonus categories)
+  sources: ['web:mb-xlr-tnc', 'web:mb-xl-page']
+- id: fcy
+  label: Foreign currency spend (min. S$500/month)
+  rate: 4.0
+  unit: mpd
+  tier: bonus
+  eligibility:
+    modes_required: [foreign_currency]
+    description: 10X TREATS Points per S$1 on all retail spend in foreign currency, overseas or online — incl.
+      education and hospitals.
+    sources: ['web:mb-xlr-tnc']
+  min_spend:
+    amount: 500.0
+    currency: SGD
+  min_spend_period: calendar_month
+  bonus_cap:
+    amount: 1000.0
+    unit: SGD_spend
+    period: calendar_month
+    shared_with: [bonus-categories]
+    sources: ['web:mb-xlr-tnc', 'milelion:4caa28e3958a']
+  rounding:
+    amount: 5
+    rounding: down
+    sources: ['web:mb-xlr-tnc']
+  sources: ['web:mb-xlr-tnc', 'web:mb-xl-page']
 - id: base
-  label: baseline (SingSaver — verify)
+  label: All other spend
   rate: 0.4
   unit: mpd
   tier: base
   eligibility:
     all_spend: true
-    description: 0.4 miles per dollar (1X TREATS Points) on all other spend.
-    sources: ['singsaver:c7ca3ef02e44']
-  sources: ['singsaver:c7ca3ef02e44']
+    description: 1X TREATS Point per S$1 (5 points per S$5 block) on other eligible spend, incl. Etiqa insurance.
+    sources: ['web:mb-xlr-tnc', 'web:mb-xl-page']
+  rounding:
+    amount: 5
+    rounding: down
+    sources: ['web:mb-xlr-tnc']
+  sources: ['web:mb-xlr-tnc']
+spend_cycle: calendar_month
+spend_cycle_sources: ['web:mb-xlr-tnc', 'milelion:4caa28e3958a']
 general_exclusions:
-  description: Auto-extracted from official T&Cs — confirm each code applies to this card
+  exclude_mcc: ['4829', '4900', '5960', '6010', '6011', '6012', '6050', '6051', '6211', '6300', '6381', '6399',
+    '6529', '6530', '6534', '6540', '7349', '7511', '7523', '7995', '8398', '8651', '8661', '9211', '9222',
+    '9223', '9311', '9399', '9402', '9405']
+  exclude_merchants: [EZ-Link, SimplyGo, TransitLink, YouTrip, Instarem, RazerPay, Singtel Dash]
+  description: XL Rewards T&C 4.6 + TREATS T&C 2.2 — no points or min-spend credit for these MCCs, insurance
+    (except Etiqa, base only), NETS/eNETS, AXS/SAM, government, gambling, brokerage, charities, instalment
+    plans, fees/interest and listed top-up/prepaid merchants.
+  sources: ['web:mb-xlr-tnc', 'web:mb-treats-tnc']
 sign_up_bonuses:
 - offered_by: singsaver
   description: 'Maybank Welcome Offer: choice of Get an increased 15,000 TREATS Points Cap'
@@ -60,6 +134,10 @@ sign_up_bonuses:
   url: https://www.singsaver.com.sg/credit-card/products/maybank-xl-rewards-card
   sources: ['singsaver:c7ca3ef02e44']
 notes:
+- Only for applicants aged 21-39; the card can be kept after turning 40.
+- Min spend tracked by posting date; transactions posted by the 10th of the next month count toward the month
+  they were made. Points (base + bonus) are credited the following month.
+- FCY fee 3.25%.
 - 'Editorial review for cross-checking: Review: Maybank XL Rewards Card (https://milelion.com/2026/07/05/review-maybank-xl-rewards-card/,
   updated 2026-08-23)'
 citations:
@@ -81,9 +159,28 @@ citations:
   url: https://milelion.com/2026/07/05/review-maybank-xl-rewards-card/
   title: 'Review: Maybank XL Rewards Card'
   source_type: editorial
-  retrieved_at: '2026-09-27T05:28:36+00:00'
+  retrieved_at: '2026-09-28T13:28:38+00:00'
   sha256: 4caa28e3958a2d1aefc34066d93538ed01a2be17cf561e87ff1b3cac81b23b18
   snapshot: data/raw/milelion/post-362981-856beacc.json
+- id: web:mb-xlr-tnc
+  url: https://www.maybank2u.com.sg/iwov-resources/sg/pdf/cards/xl-privileges-tp-tnc.pdf
+  title: Maybank XL Rewards Card TREATS Points Programme T&Cs (effective 1 Dec 2025)
+  source_type: official
+  retrieved_at: '2026-10-18'
+- id: web:mb-xl-page
+  url: https://www.maybank2u.com.sg/en/personal/cards/credit/maybank-xl-card.page
+  title: Maybank XL Cards (product page)
+  source_type: official
+  retrieved_at: '2026-10-18'
+- id: web:mb-treats-tnc
+  url: https://www.maybank2u.com.sg/iwov-resources/sg/pdf/cards/terms_and_conditions.pdf
+  title: Maybank TREATS Points Rewards Programme T&Cs (effective 9 Oct 2026)
+  source_type: official
+  retrieved_at: '2026-10-18'
 review:
-  status: draft
-updated_at: '2026-09-27'
+  status: reviewed
+  reviewed_by: claude (web research)
+  reviewed_at: 2026-10-18
+  notes: Rates, bonus MCCs, S$500 min spend, 10,000-point cap, base 0.4 mpd verified against official T&C
+    (1 Dec 2025) + product page; fee/waiver/income from MileLion + SingSaver (not on captured product page).
+updated_at: '2026-09-28'

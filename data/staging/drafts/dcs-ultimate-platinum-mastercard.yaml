@@ -1,5 +1,5 @@
 # Curated card record. Auto-drafted from staged sources; verify every value against the
-# official T&Cs (citations below), then set review.status: reviewed.
+# official T&Cs (citations below), then set review.status: reviewed and review.reviewed_at.
 id: dcs-ultimate-platinum-mastercard
 bank: DCS
 name: DCS Ultimate Platinum Mastercard
@@ -118,4 +118,4 @@ citations:
   snapshot: data/raw/bank/static-dcscc-com-pdf-dcscc-legal-DCS-20Ultimate-20Platinum-20Card-20Terms-20and-20Conditions-20-1-20June-202025-pdf-3583d9d5.pdf
 review:
   status: draft
-updated_at: '2026-09-27'
+updated_at: '2026-09-28'

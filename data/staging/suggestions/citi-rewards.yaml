@@ -1,0 +1,271 @@
+# Curated card record. Auto-drafted from staged sources; verify every value against the
+# official T&Cs (citations below), then set review.status: reviewed and review.reviewed_at.
+id: citi-rewards
+bank: Citibank
+name: Citi Rewards Card
+network: mastercard
+image_url: https://mhgprod.blob.core.windows.net/singsaver/strapi-uploads/l_bltea3680481263edcb_492d0be83f.png
+official_url: https://www.citibank.com.sg/credit-cards/rewards/citi-rewards-card
+annual_fee:
+  amount:
+    amount: 196.2
+    currency: SGD
+  first_year_waived: true
+  waiver_notes: S$ | First Year Waived
+  sources: ['singsaver:b0789316dd55']
+min_annual_income:
+  amount: 30000.0
+  currency: SGD
+reward_currency:
+  kind: points
+  name: Points
+  conversions:
+  - partner: KrisFlyer
+    points: 25000.0
+    partner_units: 10000.0
+    fee:
+      amount: 27.25
+      currency: SGD
+    min_block_points: 25000.0
+    note: 'The MileLion: min. transfer “25,000 TY points (10,000 miles)”, transfer fee “S$27.25” — confirm
+      the partner (the overview quotes KrisFlyer unless it says otherwise)'
+    sources: ['milelion:e97c3ffbbb86']
+  expiry:
+    months_max: 60
+    note: 'The MileLion: points validity “Up to 5 yrs.”'
+    sources: ['milelion:e97c3ffbbb86']
+earn_rules:
+- id: local-spending
+  label: local spending, online shopping, retail (SingSaver — verify)
+  rate: 10.0
+  unit: points_per_dollar
+  tier: bonus
+  eligibility:
+    include_mcc: ['4829', '4900', '5199', '5311', '5611', '5621', '5631', '5641', '5651', '5655', '5661',
+      '5691', '5699', '5948', '5960', '5993', '6012', '6050', '6051', '6211', '6300', '6513', '6529',
+      6529-6540, '6530', '6534', '6540', '7349', '7511', '7523', '7800', '7995', '8062', '8211', 8211-8299,
+      '8220', '8241', '8244', '8249', '8299', '8398', '8651', 8651-8661, '8661', 9000-9999, '9211', '9222',
+      '9223', '9311', '9399', '9402', '9405', '9754']
+    modes_required: [online]
+    description: Up to | On Retail and Online spend, except mobile wallet and travel-related transactions.
+      / Up to | Excluding mobile wallet and travel-related transactions. / Up to | On in-store shopping
+      purchases only. [include_mcc auto-extracted from official T&C — check it belongs to this rule]
+    sources: ['singsaver:b0789316dd55', 'bank:345af828d568', 'bank:f7d5dfb84040', 'bank:d43f74d8ca64',
+      'bank:7aa60cc0bebc', 'bank:d43f74d8ca64', 'bank:1ed263a0b182', 'bank:eb779aeca1b4', 'bank:472e40f873ba']
+  conditions: ['aggregator categories: shopping']
+  sources: ['singsaver:b0789316dd55']
+- id: grocery
+  label: grocery, dining, transport, taxi ride sharing, online food delivery (SingSaver — verify)
+  rate: 1.0
+  unit: points_per_dollar
+  tier: bonus
+  eligibility:
+    tags: [groceries, dining, transport, ride_hailing]
+    description: ''
+    sources: ['singsaver:b0789316dd55']
+  sources: ['singsaver:b0789316dd55']
+- id: base
+  label: baseline (SingSaver — verify)
+  rate: 1.0
+  unit: points_per_dollar
+  tier: base
+  eligibility:
+    all_spend: true
+    description: ''
+    sources: ['singsaver:b0789316dd55']
+  sources: ['singsaver:b0789316dd55']
+spend_cycle: statement_month
+spend_cycle_sources: ['milelion:e97c3ffbbb86']
+general_exclusions:
+  exclude_mcc: [3000-3350, 3351-3500, 3501-3999, '4111', '4112', '4411', '4511', '4722', 4722-4723, '4723',
+    '4789', '5962', '7011', 7011-7012, '7012', '7512']
+  description: Auto-extracted from official T&Cs — confirm each code applies to this card
+  sources: ['bank:345af828d568', 'bank:f7d5dfb84040', 'bank:d43f74d8ca64', 'bank:7aa60cc0bebc', 'bank:d43f74d8ca64',
+    'bank:1ed263a0b182', 'bank:eb779aeca1b4', 'bank:472e40f873ba']
+sign_up_bonuses:
+- offered_by: singsaver
+  description: 'SingSaver Flash Deal: choice of The latest smartphone (worth over S$1,8xx)'
+  options:
+  - The latest smartphone (worth over S$1,8xx)
+  min_spend:
+    amount: 500.0
+    currency: SGD
+  spend_within_days: 30
+  new_to_bank_only: true
+  terms: 'SingSaver Flash Deal promotion runs from 24 September 2026 to 28 September 2026. Promotion is
+    valid for new Citi credit cardmembers only. Be the first eligible applicant at 3pm and 9pm every day
+    during the flash deal period (2 total winners daily) to apply for select Citi credit cards via SingSaver
+    and meet the min. spend criteria (S$500 within 30 days of card approval) to be eligible for the Flash
+    Deal reward: latest smartphone (worth over S$1,800) Flash Deal reward will be received in place of
+    your selected SingSaver Exclusive Offer reward. Remaining applicants will receive the SingSaver Exclusive
+    Offer reward selected in your Rewards Redemption Form. Terms and Conditions apply.'
+  valid_from: '2026-09-23'
+  valid_to: '2026-09-28'
+  url: https://www.singsaver.com.sg/credit-card/products/citi-rewards-card
+  sources: ['singsaver:b0789316dd55']
+- offered_by: singsaver
+  description: 'SingSaver Exclusive Offer: choice of S$400 Cash via PayNow; The Morning Coffee Machine
+    + 20 Capsules Bundle (worth S$660); 25,000 Max Miles by HeyMax (worth S$450); Dyson Airstrait™ straightener
+    (worth S$799); Dyson V8 Cyclone Vacuum Cleaner (worth S$559); Dyson Airwrap™ multi-styler and dryer
+    (worth S$799) (top up S$100); Dyson Clean+Wash Hygiene hard floor cleaner (worth S$729) (Top up S$150);
+    Apple iPad (A16) 11" 128GB WiFi (worth S$649) (Top up S$200); Apple Watch Series 12 Aluminum 42mm
+    GPS (worth S$599) (Top-up S$140); Apple MacBook Neo (A18 Pro) 256GB w/ Magic Keyboard (worth S$999,
+    top up S$580); Apple iPhone 18 Pro 256GB (worth S$1,899, top up S$1,330)'
+  options:
+  - S$400 Cash via PayNow
+  - The Morning Coffee Machine + 20 Capsules Bundle (worth S$660)
+  - 25,000 Max Miles by HeyMax (worth S$450)
+  - Dyson Airstrait™ straightener (worth S$799)
+  - Dyson V8 Cyclone Vacuum Cleaner (worth S$559)
+  - Dyson Airwrap™ multi-styler and dryer (worth S$799) (top up S$100)
+  - Dyson Clean+Wash Hygiene hard floor cleaner (worth S$729) (Top up S$150)
+  - Apple iPad (A16) 11" 128GB WiFi (worth S$649) (Top up S$200)
+  - Apple Watch Series 12 Aluminum 42mm GPS (worth S$599) (Top-up S$140)
+  - Apple MacBook Neo (A18 Pro) 256GB w/ Magic Keyboard (worth S$999, top up S$580)
+  - Apple iPhone 18 Pro 256GB (worth S$1,899, top up S$1,330)
+  value:
+    amount: 400.0
+    currency: SGD
+  min_spend:
+    amount: 500.0
+    currency: SGD
+  spend_within_days: 30
+  new_to_bank_only: true
+  terms: 'SingSaver Exclusive Offer promotion runs from 1 September 2026 to 30 September 2026. Promotion
+    is valid for new Citi credit cardmembers only. Apply for participating Citi credit cards and make
+    a min. spend of S$500 within 30 days of card approval to be eligible for reward. Fastest Reward Fulfilment:
+    Receive your reward in as little as 4 weeks ! Terms and Conditions apply.'
+  valid_from: '2026-09-24'
+  valid_to: '2026-09-30'
+  url: https://singsaver.link/cc-rewards-campaign
+  sources: ['singsaver:b0789316dd55']
+- offered_by: singsaver
+  description: 'SingSaver Card + Banking Bundle Offer: choice of S$500 Cash via PayNow'
+  options: [S$500 Cash via PayNow]
+  value:
+    amount: 500.0
+    currency: SGD
+  min_spend:
+    amount: 500.0
+    currency: SGD
+  spend_within_days: 30
+  new_to_bank_only: true
+  terms: 'This promotion runs from 9 September 2026 to 30 September 2026. Eligible applicants must not
+    hold an existing Citi credit card, or have closed one within the past 12 months from card account
+    opening date. To qualify for the S$500 Cash reward, applicants must: Apply for a participating Citi
+    credit card via SingSaver; Make a minimum spend of S$500 within 30 days of card approval; and Hold
+    a valid Citi banking account (existing or newly opened) by the end of the month following card approval.
+    The S$500 Cash reward replaces the standard SingSaver exclusive reward for your card—you receive one
+    or the other, not the both. The S$500 Cash amount is the same regardless of which card you apply for.
+    Participating Citi banking account types are: Existing Citi banking relationship includes Citigold
+    , Citigold Private Client , Citi Plus , Citi Priority , Citibanking New Citi banking relationship
+    is applicable for Citigold , Citigold Private Client , Citi Plus New banking customers who open a
+    Citigold account through SingSaver may qualify for an additional SingSaver Exclusive welcome gift
+    (worth up to S$1,500 Cash or Apple iPhone 17)—this is a separate offer from the credit card reward
+    (additional T&Cs apply). In case you choose the S$500 cash reward option and there is no banking relationship
+    by the last day of the following month from your card application date but you meet the criteria for
+    the credit card only reward, you will get the default cash reward available for your chosen card on
+    application date. Terms and Conditions apply.'
+  valid_from: '2026-09-08'
+  valid_to: '2026-09-30'
+  url: https://www.singsaver.com.sg/credit-card/products/citi-rewards-card
+  sources: ['singsaver:b0789316dd55']
+- offered_by: moneysmart
+  description: 'Choice of: S$400 Cash via PayNow; Shopee Voucher $450; Apple iPhone 18 Pro (256GB, Burgundy);
+    Apple AirPods Pro 3; Apple Watch Series 12, 42mm (GPS, Black Aluminium Case with Black Sport Band);
+    Sony WH-1000XM6 Wireless Noise Cancelling Headphones (Black)'
+  options:
+  - S$400 Cash via PayNow
+  - Shopee Voucher $450
+  - Apple iPhone 18 Pro (256GB, Burgundy)
+  - Apple AirPods Pro 3
+  - Apple Watch Series 12, 42mm (GPS, Black Aluminium Case with Black Sport Band)
+  - Sony WH-1000XM6 Wireless Noise Cancelling Headphones (Black)
+  value:
+    amount: 400.0
+    currency: SGD
+  min_spend:
+    amount: 500.0
+    currency: SGD
+  spend_within_days: 30
+  terms: • Apply for a Citi Card by 30th Sept 2026 • Spend a min. of S$500 within 30 days • Submit the
+    Claim Form by 30th Oct 2026
+  valid_to: '2026-09-30'
+  url: https://www.moneysmart.sg/credit-cards/citibank-rewards-card
+  sources: ['moneysmart:eeee24fb93a9']
+notes:
+- spend_cycle statement_month from The MileLion review (“Online (except travel and in-app mobile wallet
+  payments) At department stores, or shops selling bags, shoes and clothes An overall cap of S$1,000 per
+  statement month applies, shared between (1) and (2”) — confirm it applies to min spend and caps
+- 'Editorial review for cross-checking: Review: Citi Rewards Credit Card (https://milelion.com/2026/02/27/review-citi-rewards-credit-card/,
+  updated 2026-08-21)'
+- 'T&C mentions (check whether excluded): annual fee, axs, balance transfer, bill payment, cash advance,
+  charit, education, government, hospital, instalment, interest, ipp, late payment charge, tax, top-ups,
+  utilit, youtrip'
+citations:
+- id: singsaver:b0789316dd55
+  url: https://www.singsaver.com.sg/credit-card/products/citi-rewards-card
+  title: Citi Rewards Card
+  source_type: aggregator
+  retrieved_at: '2026-09-27T05:25:13+00:00'
+  sha256: b0789316dd559638f190611945b0bc735044e08e02014feb04ca2a10dec396ba
+  snapshot: data/raw/singsaver/www-singsaver-com-sg-credit-card-products-citi-rewards-card-3b64dfaf.html
+- id: moneysmart:eeee24fb93a9
+  url: https://www.moneysmart.sg/credit-cards
+  title: Citi Rewards Card
+  source_type: aggregator
+  retrieved_at: '2026-09-27T05:27:12+00:00'
+  sha256: eeee24fb93a9d85ef8b9194c11bda960b5b99ee30b3689cdc59fb650badebce7
+  snapshot: data/raw/moneysmart/credit-cards-p1-b55034ef.html
+- id: bank:345af828d568
+  url: https://www.citibank.com.sg/credit-cards/rewards/citi-rewards-card/pdf/card-members-agreement.pdf
+  source_type: official
+  retrieved_at: '2026-09-27T08:32:29+00:00'
+  sha256: 345af828d5680405b9df547704a56f690a41e44c4c366af2cf088dbfc917557f
+  snapshot: data/raw/bank/www-citibank-com-sg-credit-cards-rewards-citi-rewards-card-pdf-card-members-agreement-pdf-5ba883e4.pdf
+- id: bank:f7d5dfb84040
+  url: https://www.citibank.com.sg/credit-cards/rewards/citi-rewards-card/pdf/10x-rewards-promotion-terms-and-conditions-2020.pdf
+  source_type: official
+  retrieved_at: '2026-09-27T08:36:11+00:00'
+  sha256: f7d5dfb840409f92c51f203005bba40f8ab7434f440f9d56b9c6b17337cf9f10
+  snapshot: data/raw/bank/www-citibank-com-sg-credit-cards-rewards-citi-rewards-card-pdf-10x-rewards-promotion-terms-and-conditions-2020-pdf-35cded5a.pdf
+- id: bank:d43f74d8ca64
+  url: https://www.citibank.com.sg/credit-cards/pdf/rewards-exclusion-list.pdf
+  source_type: official
+  retrieved_at: '2026-09-27T08:36:17+00:00'
+  sha256: d43f74d8ca64a96141c244ca5126179e77543ae82cebe4c177a0c029c73b1a68
+  snapshot: data/raw/bank/www-citibank-com-sg-credit-cards-pdf-rewards-exclusion-list-pdf-cea07829.pdf
+- id: bank:7aa60cc0bebc
+  url: https://www.citibank.com.sg/credit-cards/rewards/citi-rewards-card/pdf/online-product-led-acquisition-promotion-terms-and-conditions.pdf
+  source_type: official
+  retrieved_at: '2026-09-27T08:36:15+00:00'
+  sha256: 7aa60cc0bebcdfcf4ac581ffba40d4efdae91008101247150db899d9969910f4
+  snapshot: data/raw/bank/bank-com-sg-credit-cards-rewards-citi-rewards-card-pdf-online-product-led-acquisition-promotion-terms-and-conditions-pdf-7c3f56f0.pdf
+- id: bank:1ed263a0b182
+  url: https://www.citibank.com.sg/credit-cards/rewards/citi-rewards-card/pdf/10x-rewards-promotion-frequently-asked-questions.pdf
+  source_type: official
+  retrieved_at: '2026-09-27T08:36:19+00:00'
+  sha256: 1ed263a0b1826bbcf1198143039dca0082c7f16fedabf18db4a12c47579019c1
+  snapshot: data/raw/bank/www-citibank-com-sg-credit-cards-rewards-citi-rewards-card-pdf-10x-rewards-promotion-frequently-asked-questions-pdf-8a2c14bc.pdf
+- id: bank:eb779aeca1b4
+  url: https://www.citibank.com.sg/credit-cards/rewards/pdf/citibank-rewards-info.pdf
+  source_type: official
+  retrieved_at: '2026-09-27T08:36:21+00:00'
+  sha256: eb779aeca1b49d66e9f1c4785b19f8331017ad3fc89e29e8fe2e3bc1562c6bcd
+  snapshot: data/raw/bank/www-citibank-com-sg-credit-cards-rewards-pdf-citibank-rewards-info-pdf-441f6183.pdf
+- id: bank:472e40f873ba
+  url: https://www.citibank.com.sg/credit-cards/pdf/chargeback-dispute.pdf
+  source_type: official
+  retrieved_at: '2026-09-27T08:36:23+00:00'
+  sha256: 472e40f873baccd449fa577b73e5fad5cb7d75baccd88b038e0898bfeaf387f2
+  snapshot: data/raw/bank/www-citibank-com-sg-credit-cards-pdf-chargeback-dispute-pdf-092d6126.pdf
+- id: milelion:e97c3ffbbb86
+  url: https://milelion.com/2026/02/27/review-citi-rewards-credit-card/
+  title: 'Review: Citi Rewards Credit Card'
+  source_type: editorial
+  retrieved_at: '2026-09-28T13:29:05+00:00'
+  sha256: e97c3ffbbb86c17682e52a3200d191f3bb9aa86da353b54c2d102219e9e7a89d
+  snapshot: data/raw/milelion/post-72798-1714eaef.json
+review:
+  status: draft
+updated_at: '2026-09-28'

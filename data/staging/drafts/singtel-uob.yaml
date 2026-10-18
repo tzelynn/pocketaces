@@ -1,5 +1,5 @@
 # Curated card record. Auto-drafted from staged sources; verify every value against the
-# official T&Cs (citations below), then set review.status: reviewed.
+# official T&Cs (citations below), then set review.status: reviewed and review.reviewed_at.
 id: singtel-uob
 bank: UOB
 name: Singtel-UOB Card
@@ -140,4 +140,4 @@ citations:
   snapshot: data/raw/bank/www-uob-com-sg-assets-web-resources-personal-pdf-cards-cashback-singtel-card-singtel-shop-campaign-pdf-952d44fc.pdf
 review:
   status: draft
-updated_at: '2026-09-27'
+updated_at: '2026-09-28'

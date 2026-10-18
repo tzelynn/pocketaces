@@ -1,5 +1,5 @@
 # Curated card record. Auto-drafted from staged sources; verify every value against the
-# official T&Cs (citations below), then set review.status: reviewed.
+# official T&Cs (citations below), then set review.status: reviewed and review.reviewed_at.
 id: citi-m1-platinum-visa
 bank: Citibank
 name: Citi M1 Platinum Visa Card
@@ -18,65 +18,80 @@ min_annual_income:
   currency: SGD
 reward_currency:
   kind: cashback
-  name: Cashback
+  name: Citi M1 Rebate
+  conversions:
+  - partner: KrisFlyer
+    points: 1.0
+    partner_units: 55.0
+    note: S$1 Citi M1 Rebate = 55 KrisFlyer miles, min. 500 miles per conversion, admin fee applies
+    sources: ['bank:89d80fa88214']
+  expiry:
+    never: true
+    sources: ['bank:89d80fa88214']
 earn_rules:
-- id: retail
-  label: retail (SingSaver — verify)
-  rate: 4.7
+- id: entertainment
+  label: Entertainment (cinemas, ticketing, streaming, pay TV)
+  rate: 5.0
   unit: percent
   tier: bonus
   eligibility:
-    include_mcc: ['2222', '4814', '4829', '4899', '4900', '5199', '5815', '5960', '5993', '6012', '6050',
-      '6051', '6211', '6300', '6513', '6529', 6529-6540, '6530', '6534', '6540', '7349', '7511', '7523',
-      '7800', '7829', '7832', '7922', '7995', '8062', '8211', 8211-8299, '8220', '8241', '8244', '8249',
-      '8299', '8398', '8651', 8651-8661, '8661', 9000-9999, '9211', '9222', '9223', '9311', '9399', '9402',
-      '9405', '9754']
-    description: Capped at S$60 Bonus Citi M1 Rebate per statement month. [include_mcc auto-extracted
-      from official T&C — check it belongs to this rule]
-    sources: ['singsaver:213443be48c1', 'bank:89d80fa88214', 'bank:d43f74d8ca64', 'bank:ffc9383c1c9f']
+    include_mcc: ['4899', '5815', '7829', '7832', '7922']
+    description: 5% (0.3% base + 4.7% bonus) for cable/satellite TV, digital goods, film distribution,
+      cinemas and theatrical producers / ticket agencies.
+    sources: ['bank:89d80fa88214', 'web:citi-m1-page']
   bonus_cap:
     amount: 60.0
     unit: SGD_cashback
     period: statement_month
-    sources: ['singsaver:213443be48c1']
+    sources: ['bank:89d80fa88214', 'web:citi-m1-page']
   conditions:
-  - bonus_cap parsed from aggregator text “Capped at S$60 Bonus Citi M1 Rebate per statement month” —
-    confirm amount, unit and whether the period is calendar or statement month
-  - 'aggregator categories: shopping'
-  sources: ['singsaver:213443be48c1']
-- id: department-store
-  label: department store, online bill payment spending (SingSaver — verify)
-  rate: 2.7
+  - The S$60 cap applies to the 4.7% bonus only (about S$1,277 of spend per statement month)
+  sources: ['bank:89d80fa88214', 'web:citi-m1-page']
+- id: m1-bill
+  label: M1 telco bill
+  rate: 3.0
   unit: percent
   tier: bonus
   eligibility:
-    tags: [shopping]
-    description: Up to / Capped at first S$300 worth of M1 Telco Bill Charges
-    sources: ['singsaver:213443be48c1']
-  sources: ['singsaver:213443be48c1']
-- id: overseas
-  label: overseas, local (SingSaver — verify)
-  rate: 0.3
+    include_merchants: [M1 (recurring and MAXX bill charges)]
+    description: 3% (0.3% base + 2.7% bonus) for M1 telco bill charges (MCC 4814).
+    sources: ['bank:89d80fa88214']
+  max_spend:
+    amount: 300.0
+    currency: SGD
+  max_spend_period: statement_month
+  sources: ['bank:89d80fa88214', 'web:citi-m1-page']
+- id: m1-shop
+  label: M1 Shop purchases (in-store)
+  rate: 3.0
   unit: percent
   tier: bonus
   eligibility:
-    description: 0.3% Citi Rebate on All Local Retual Purchases. 1 Citi Rebate = 1 SGD
-    sources: ['singsaver:213443be48c1']
-  sources: ['singsaver:213443be48c1']
+    include_merchants: [M1 Shops (physical outlets)]
+    description: 3% (0.3% base + 2.7% bonus) for retail purchases at physical M1 Shops.
+    sources: ['bank:89d80fa88214']
+  sources: ['bank:89d80fa88214', 'web:citi-m1-page']
 - id: base
-  label: baseline (SingSaver — verify)
+  label: All other retail spend (local and foreign currency)
   rate: 0.3
   unit: percent
   tier: base
   eligibility:
     all_spend: true
-    description: 0.3% Citi Rebate on All Local Retual Purchases. 1 Citi Rebate = 1 SGD
-    sources: ['singsaver:213443be48c1']
-  sources: ['singsaver:213443be48c1']
+    description: 0.3% on all retail purchases.
+    sources: ['bank:89d80fa88214']
+  sources: ['bank:89d80fa88214']
+spend_cycle: statement_month
+spend_cycle_sources: ['bank:89d80fa88214']
 general_exclusions:
-  exclude_mcc: ['2222', '4111']
-  description: Auto-extracted from official T&Cs — confirm each code applies to this card
-  sources: ['bank:89d80fa88214', 'bank:d43f74d8ca64', 'bank:ffc9383c1c9f']
+  exclude_mcc: ['4829', '4900', '5199', '5960', '5993', '6012', '6050', '6051', '6211', '6300', '6513',
+    6529-6540, '7349', '7511', '7523', '7800', '7995', '8062', 8211-8299, '8398', 8651-8661, 9000-9999]
+  exclude_merchants: [AXS, BUS/MRT, EZ-Link, SimplyGo, Transit Link, TRANSIT, YouTrip, SAM, OANDA, Saxo, SKYFX]
+  description: Citi rewards exclusion list (updated Nov 2024, eff. 16 Dec 2024) — quasi-cash and stored-value
+    loads, utilities, insurance, financial services, real estate rentals, education, charity, hospitals,
+    political/religious organisations, government services, gambling, cigar stores, parking; plus the listed
+    merchants (incl. via Amaze). Rebates can offset M1 bills or be redeemed as cash rebate.
+  sources: ['bank:d43f74d8ca64']
 sign_up_bonuses:
 - offered_by: singsaver
   description: 'SingSaver Flash Deal: choice of The latest smartphone (worth over S$1,8xx)'
@@ -225,6 +240,13 @@ citations:
   retrieved_at: '2026-09-27T08:31:48+00:00'
   sha256: ffc9383c1c9f6aed17966632ed46ac80bddd13a500a47de0fb8e4ab274cafb5a
   snapshot: data/raw/bank/www-citibank-com-sg-credit-cards-cashback-m1-platinum-visa-credit-card-pdf-information-sheet-pdf-aff0b9f5.pdf
+- id: web:citi-m1-page
+  url: https://www.citibank.com.sg/gcb/credit_cards/m1-platinum-visa-credit-card
+  title: Citi M1 Card (product page)
+  source_type: official
+  retrieved_at: '2026-10-18'
 review:
-  status: draft
-updated_at: '2026-09-27'
+  status: reviewed
+  reviewed_by: claude (web research)
+  reviewed_at: 2026-10-18
+  notes: 'Verified vs Citi M1 product page, M1 Rebate program T&C (in cardmember agreement) and exclusion list: 0.3% base, 5% entertainment (S$60 bonus cap/statement month), 3% M1 bill (first S$300) and M1 Shop, S$196.20 FY waived, S$30k income. Removed garbage MCC list and fake department-store rule.'

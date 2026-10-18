@@ -1,5 +1,5 @@
 # Curated card record. Auto-drafted from staged sources; verify every value against the
-# official T&Cs (citations below), then set review.status: reviewed.
+# official T&Cs (citations below), then set review.status: reviewed and review.reviewed_at.
 id: dbs-womans
 bank: DBS
 name: DBS Woman's Card
@@ -71,4 +71,4 @@ citations:
   snapshot: data/raw/moneysmart/credit-cards-p3-707cb52c.html
 review:
   status: draft
-updated_at: '2026-09-27'
+updated_at: '2026-09-28'

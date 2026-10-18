@@ -1,56 +1,86 @@
 # Curated card record. Auto-drafted from staged sources; verify every value against the
-# official T&Cs (citations below), then set review.status: reviewed.
+# official T&Cs (citations below), then set review.status: reviewed and review.reviewed_at.
 id: hsbc-visa-infinite
 bank: HSBC
 name: HSBC Visa Infinite Credit Card
+network: visa
 image_url: https://mhgprod.blob.core.windows.net/singsaver/strapi-uploads/xs_bltb9a9a34f37da3dda_4bea15bcbf.webp
 official_url: https://www.hsbc.com.sg/credit-cards/products/visa-infinite/
 annual_fee:
   amount:
     amount: 662.15
     currency: SGD
-  waiver_notes: S$ | S$497.06 for HSBC Premier customers
-  sources: ['singsaver:4cf0c4cafdb1']
+  first_year_waived: false
+  waiver_notes: Strictly no waiver; charged on approval. Reduced fee (about S$497) for HSBC Premier customers
+  sources: ['web:hsbc-vi-page', 'singsaver:4cf0c4cafdb1', 'milelion:9a2f732a8649']
 min_annual_income:
   amount: 120000.0
   currency: SGD
 reward_currency:
   kind: miles
-  name: Miles
+  name: HSBC Reward points
+  conversions:
+  - partner: Asia Miles
+    points: 25000.0
+    partner_units: 10000.0
+    fee:
+      amount: 0.0
+      currency: SGD
+    min_block_points: 25000.0
+    note: 25,000 points = 10,000 miles (also British Airways Avios and other 25k:10k partners); min. first
+      transfer 10,000 miles, then blocks of 2 miles; conversion fees waived until further notice
+    sources: ['web:hsbc-rewards', 'milelion:9a2f732a8649']
+  - partner: KrisFlyer
+    points: 30000.0
+    partner_units: 10000.0
+    fee:
+      amount: 0.0
+      currency: SGD
+    min_block_points: 30000.0
+    note: KrisFlyer ratio devalued to 30,000:10,000 on 16 Jan 2025 (earn rates fall by 1/6)
+    sources: ['web:hsbc-rewards']
+  expiry:
+    months: 37
+    note: Points expire at the end of a 37-month period starting the month after they were earned
+    sources: ['milelion:9a2f732a8649']
 earn_rules:
 - id: overseas
-  label: overseas (SingSaver — verify)
-  rate: 2.25
+  label: Overseas (foreign currency) spend
+  rate: 2.0
   unit: mpd
   tier: bonus
   eligibility:
-    description: Up to | Minimum S$50,000 eligible spend in first 12 months of card issuance date to qualify
-      for Step Up Earn Rate.
-    sources: ['singsaver:4cf0c4cafdb1']
-  sources: ['singsaver:4cf0c4cafdb1']
-- id: local
-  label: local (SingSaver — verify)
-  rate: 1.25
-  unit: mpd
-  tier: bonus
-  eligibility:
-    description: Up to | Minimum S$50,000 eligible spend in first 12 months of card issuance date to qualify
-      for Step Up Earn Rate.
-    sources: ['singsaver:4cf0c4cafdb1']
-  sources: ['singsaver:4cf0c4cafdb1']
+    modes_required: [foreign_currency]
+    description: Up to 2 miles (5X Reward points) per S$1 on overseas spending.
+    sources: ['web:hsbc-vi-page']
+  conditions:
+  - Rates assume a 25,000:10,000 transfer partner; KrisFlyer (30,000:10,000) gives 1.67 mpd
+  sources: ['web:hsbc-vi-page', 'milelion:9a2f732a8649']
 - id: base
-  label: baseline (SingSaver — verify)
+  label: Local spend
   rate: 1.0
   unit: mpd
   tier: base
   eligibility:
     all_spend: true
-    description: ''
-    sources: ['singsaver:4cf0c4cafdb1']
-  sources: ['singsaver:4cf0c4cafdb1']
+    description: Up to 1 mile (2.5X Reward points) per S$1 on local spending.
+    sources: ['web:hsbc-vi-page']
+  sources: ['web:hsbc-vi-page', 'milelion:9a2f732a8649']
+spend_cycle: calendar_month
+spend_cycle_sources: ['milelion:9a2f732a8649']
 general_exclusions:
-  description: Auto-extracted from official T&Cs — confirm each code applies to this card
+  exclude_mcc: ['4829', '4900', '5199', '5960', '6010', '6011', '6012', '6050', '6051', '6211', '6300',
+    '6513', '6529', '6530', '6532', '6533', '6534', '6536', '6537', '6538', '6540', '6555', '7299', '7349',
+    '7399', '7511', '7523', '7801', '7995', '8062', '8211', '8220', '8241', '8244', '8249', '8299', '8398',
+    '8651', '8661', '8999', '9211', '9222', '9223', '9311', '9399', '9402', '9405', '9754']
+  description: HSBC's standard rewards exclusion MCC list, as given in the Visa Infinite Step-up Programme T&C
+    (effective 31 Mar 2025)
+  sources: ['web:hsbc-vi-stepup']
 notes:
+- 'APPLICATIONS PAUSED: HSBC has temporarily paused new applications for this card (since Sep 2024; still paused
+  as of Oct 2026). Existing cards remain active.'
+- The Step-up Programme (1.25/2.25 mpd after S$50,000 spend in a membership year) terminated on 31 May 2025;
+  SingSaver still quotes it.
 - 'Editorial review for cross-checking: Review: HSBC Visa Infinite Card (https://milelion.com/2024/08/27/review-hsbc-visa-infinite-card/,
   updated 2024-12-07)'
 citations:
@@ -72,9 +102,27 @@ citations:
   url: https://milelion.com/2024/08/27/review-hsbc-visa-infinite-card/
   title: 'Review: HSBC Visa Infinite Card'
   source_type: editorial
-  retrieved_at: '2026-09-27T05:29:28+00:00'
+  retrieved_at: '2026-09-28T13:29:26+00:00'
   sha256: 9a2f732a8649750fe677266f533ecf7210616e0504d73a799f21302f45d0b153
   snapshot: data/raw/milelion/post-128324-a69d8680.json
+- id: web:hsbc-vi-page
+  url: https://www.hsbc.com.sg/credit-cards/products/visa-infinite/
+  title: HSBC Visa Infinite Credit Card (product page)
+  source_type: official
+  retrieved_at: '2026-10-18'
+- id: web:hsbc-vi-stepup
+  url: https://www.hsbc.com.sg/content/dam/hsbc/sg/documents/credit-cards/visa-infinite/step-up-terms-and-conditions.pdf
+  title: HSBC Visa Infinite Credit Card Step-up Programme T&C (terminated 31 May 2025)
+  source_type: official
+  retrieved_at: '2026-10-18'
+- id: web:hsbc-rewards
+  url: https://www.hsbc.com.sg/credit-cards/rewards/
+  title: HSBC Singapore credit card rewards — airline and hotel partners
+  source_type: official
+  retrieved_at: '2026-10-18'
 review:
-  status: draft
-updated_at: '2026-09-27'
+  status: reviewed
+  reviewed_by: claude (web research)
+  reviewed_at: 2026-10-18
+  notes: 'Verified vs product page, step-up T&C and HSBC rewards page: 1 mpd local / 2 mpd FCY, S$662.15 no waiver, S$120k income; step-up 1.25/2.25 ended 31 May 2025 (removed). Applications paused. Could not read the main VI T&C PDF (image-only); Premier fee (~S$497) and exclusion list taken from MileLion/step-up T&C.'
+updated_at: '2026-09-28'

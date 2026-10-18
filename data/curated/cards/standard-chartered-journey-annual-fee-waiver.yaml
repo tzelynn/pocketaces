@@ -1,5 +1,5 @@
 # Curated card record. Auto-drafted from staged sources; verify every value against the
-# official T&Cs (citations below), then set review.status: reviewed.
+# official T&Cs (citations below), then set review.status: reviewed and review.reviewed_at.
 id: standard-chartered-journey-annual-fee-waiver
 bank: Standard Chartered
 name: Standard Chartered Journey Credit Card (Annual Fee Waiver)
@@ -11,72 +11,89 @@ annual_fee:
     amount: 196.2
     currency: SGD
   first_year_waived: true
-  waiver_notes: S$ | First Year Waived (Optional)
-  sources: ['singsaver:1fbc27185c89']
+  waiver_notes: First year waived (this sign-up option gets the smaller welcome bonus); S$196.20 incl. GST thereafter,
+    with a 25,000-point (10,000 KrisFlyer miles) renewal bonus when the fee is paid
+  sources: ['bank:f6d46f8480b0', 'web:sc-journey-page', 'milelion:9721894f0381']
 min_annual_income:
   amount: 30000.0
   currency: SGD
 reward_currency:
   kind: miles
-  name: Miles
+  name: SC 360° Rewards Points
+  conversions:
+  - partner: KrisFlyer
+    points: 25000.0
+    partner_units: 10000.0
+    fee:
+      amount: 27.25
+      currency: SGD
+    min_block_points: 25000.0
+    note: Tier 1 (Beyond/Journey/Visa Infinite) ratio 2.5 points = 1 mile; S$27.25 per conversion
+    sources: ['milelion:9721894f0381', 'bank:f6d46f8480b0', 'web:sc-journey-page']
+  - partner: Asia Miles
+    points: 25000.0
+    partner_units: 10000.0
+    fee:
+      amount: 27.25
+      currency: SGD
+    min_block_points: 25000.0
+    sources: ['milelion:9721894f0381']
+  expiry:
+    never: true
+    note: Points don't expire while the card account is active
+    sources: ['milelion:9721894f0381', 'web:sc-journey-page']
 earn_rules:
-- id: supermarket
-  label: supermarket, travel, dining, hotel booking, transport, online food delivery, local online shopping
-    (SingSaver — verify)
+- id: online-transport-food-groceries
+  label: Online transport, food delivery & groceries (SGD)
   rate: 3.0
   unit: mpd
   tier: bonus
   eligibility:
-    include_mcc: ['4111', '4121', '4411', '4789', '4829', '4900', '5047', '5199', '5411', '5462', '5499',
-      '5811', '5812', '5814', '5921', '6012', '6050', '6051', '6211', '6513', '6529', '6530', '6534',
-      '6540', '7299', '7349', '7511', '7523', '8062', '8211', '8220', '8241', '8244', '8249', '8299',
-      '8398', '8651', '8661', '8999', '9211', '9222', '9223', '9311', '9399', '9402', '9405']
+    include_mcc: ['4111', '4121', '4411', '4789', '5811', '5812', '5814', '5411', '5462', '5499', '5921']
     modes_required: [online]
-    description: On Online Grocery merchants, capped at S$1,000 spend per statement month / Cruises /
-      Capped at S$1,000 spend per statement month / For ride-hailing, cruises, and others. Capped at S$1,000
-      spend per statement month. / On food delivery merchants. [include_mcc auto-extracted from official
-      T&C — check it belongs to this rule]
-    sources: ['singsaver:1fbc27185c89', 'bank:f6d46f8480b0', 'bank:2ea177e821f6']
-  bonus_cap:
+    modes_excluded: [foreign_currency]
+    description: 7.5 points (3 mpd) per S$1 on online SGD transactions classified by Visa as online at
+      transportation (4111, 4121, 4411, 4789 — Grab, Gojek, Tada, Ryde, cruises), food delivery (5811, 5812,
+      5814 — GrabFood, foodpanda, Deliveroo) and groceries/food stores (5411, 5462, 5499, 5921 — FairPrice
+      Online). Bonus 4.5 points capped at S$1,000 spend per statement month; beyond that 1.2 mpd.
+    sources: ['bank:f6d46f8480b0']
+  max_spend:
     amount: 1000.0
-    unit: SGD_spend
-    period: statement_month
-    sources: ['singsaver:1fbc27185c89']
-  conditions:
-  - bonus_cap parsed from aggregator text “capped at S$1,000 spend per statement month” — confirm amount,
-    unit and whether the period is calendar or statement month
-  - 'aggregator categories: groceries, travel, dining, hotels, transport'
-  sources: ['singsaver:1fbc27185c89']
-- id: overseas-online-shopping
-  label: overseas online shopping, overseas (SingSaver — verify)
+    currency: SGD
+  max_spend_period: statement_month
+  sources: ['bank:f6d46f8480b0', 'milelion:9721894f0381']
+- id: fcy
+  label: Foreign currency spend
   rate: 2.0
   unit: mpd
   tier: bonus
   eligibility:
-    description: ''
-    sources: ['singsaver:1fbc27185c89']
-  sources: ['singsaver:1fbc27185c89']
-- id: local
-  label: local (SingSaver — verify)
-  rate: 1.2
-  unit: mpd
-  tier: bonus
-  eligibility:
-    description: ''
-    sources: ['singsaver:1fbc27185c89']
-  sources: ['singsaver:1fbc27185c89']
+    modes_required: [foreign_currency]
+    description: 5 points (2 mpd) per S$1 on foreign-currency spend; uncapped
+    sources: ['bank:f6d46f8480b0']
+  sources: ['bank:f6d46f8480b0', 'milelion:9721894f0381']
 - id: base
-  label: baseline (SingSaver — verify)
+  label: Local spend (SGD)
   rate: 1.2
   unit: mpd
   tier: base
   eligibility:
     all_spend: true
-    description: ''
-    sources: ['singsaver:1fbc27185c89']
-  sources: ['singsaver:1fbc27185c89']
+    description: 3 points (1.2 mpd) per S$1 spent in SGD; uncapped
+    sources: ['bank:f6d46f8480b0']
+  sources: ['bank:f6d46f8480b0', 'milelion:9721894f0381']
+spend_cycle: statement_month
+spend_cycle_sources: ['bank:f6d46f8480b0', 'milelion:9721894f0381']
 general_exclusions:
-  description: Auto-extracted from official T&Cs — confirm each code applies to this card
+  exclude_mcc: ['4829', '4900', '5047', '5199', '6012', '6050', '6051', '6211', '6513', '6529', '6530',
+    '6534', '6540', '7299', '7349', '7511', '7523', '8062', '8211', '8220', '8241', '8244', '8249', '8299',
+    '8398', '8651', '8661', '8999', '9211', '9222', '9223', '9311', '9399', '9402', '9405']
+  exclude_merchants: [EZ-Link, SimplyGo top-up, FlashPay, Transit Link]
+  modes_excluded: [recurring]
+  description: SC Retail Transaction Exclusions — no points/cashback on these MCCs, cash advance, Credit Card
+    Funds Transfer, EasyPay instalments, AXS/SAM/ATM, insurance premiums, recurring payments and SC online
+    bill payments, fees/interest, betting, top-ups to prepaid cards/accounts (EZ-Link, FlashPay, some PayPal)
+  sources: ['bank:2ea177e821f6', 'bank:f6d46f8480b0']
 sign_up_bonuses:
 - offered_by: singsaver
   description: 'SingSaver Exclusive Offer: rewards applicable on applying for 2 products: choice of Samsonite
@@ -139,11 +156,11 @@ sign_up_bonuses:
   url: https://www.moneysmart.sg/credit-cards/standard-chartered-journey-credit-card
   sources: ['moneysmart:42909b088c22']
 notes:
+- Bonus is based on posting date; additional 4.5 points are credited on the statement date. Supplementary
+  card spend is aggregated with the principal's.
+- FCY transaction fee 3.5%. 2 complimentary Priority Pass lounge visits per year (principal only).
 - 'Editorial review for cross-checking: Review: Standard Chartered Journey Card (https://milelion.com/2026/08/30/review-standard-chartered-journey-card/,
   updated 2026-09-01)'
-- 'T&C mentions (check whether excluded): annual fee, axs, bill payment, cash advance, charit, education,
-  government, hospital, instalment, insurance premium, interest, late payment charge, tax, top-up, top-ups,
-  utilit'
 citations:
 - id: singsaver:1fbc27185c89
   url: https://www.singsaver.com.sg/credit-card/products/standard-chartered-journey-credit-card-waiver
@@ -175,9 +192,17 @@ citations:
   url: https://milelion.com/2026/08/30/review-standard-chartered-journey-card/
   title: 'Review: Standard Chartered Journey Card'
   source_type: editorial
-  retrieved_at: '2026-09-27T05:28:10+00:00'
+  retrieved_at: '2026-09-28T13:28:14+00:00'
   sha256: 9721894f03813071f78582e954ad493df806e05a5c2510ba5c10e6d6d29df4eb
   snapshot: data/raw/milelion/post-146312-95d3bb09.json
+- id: web:sc-journey-page
+  url: https://www.sc.com/sg/credit-cards/journey-credit-card/
+  title: Standard Chartered Journey Credit Card
+  source_type: official
+  retrieved_at: '2026-10-18'
 review:
-  status: draft
-updated_at: '2026-09-27'
+  status: reviewed
+  reviewed_by: claude (web research)
+  reviewed_at: 2026-10-18
+  notes: Verified vs Journey T&C V.062025 (unchanged Oct 2026), SC product page and MileLion — rates, S$1k statement-month cap, fee, income, conversion, no expiry; Asia Miles block/fee from MileLion only.
+updated_at: '2026-09-28'

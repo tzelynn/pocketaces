@@ -1,6 +1,7 @@
 [
  {
   "card_id": null,
+  "card_ids": [],
   "card_name": "American Express Singapore Airlines Business Credit Card",
   "title": "Review: American Express Singapore Airlines Business Credit Card",
   "url": "https://milelion.com/2019/08/01/review-american-express-singapore-airlines-business-credit-card/",
@@ -16,18 +17,22 @@
    "1 TREATS point per S$1 (0.4 mpd)"
   ],
   "mcc_mentions": [],
+  "overview": {},
+  "facts": {},
+  "spend_cycle": {},
   "citation": {
    "id": "milelion:7e1c5f00662f",
    "url": "https://milelion.com/2019/08/01/review-american-express-singapore-airlines-business-credit-card/",
    "title": "Review: American Express Singapore Airlines Business Credit Card",
    "source_type": "editorial",
-   "retrieved_at": "2026-09-27T05:29:50+00:00",
+   "retrieved_at": "2026-09-28T13:29:49+00:00",
    "sha256": "7e1c5f00662fbcfa7e66cac24dcc711ede4ccd578dad925c6eca980376d819d6",
    "snapshot": "data/raw/milelion/post-54509-137fa769.json"
   }
  },
  {
   "card_id": null,
+  "card_ids": [],
   "card_name": "GrabPay Mastercard",
   "title": "Review: GrabPay Mastercard",
   "url": "https://milelion.com/2019/12/07/review-grabpay-card/",
@@ -47,18 +52,26 @@
    "Until 31 Dec 2019, 2.3 mpd after"
   ],
   "mcc_mentions": [],
+  "overview": {
+   "annual_fee": [
+    "Other Fees"
+   ]
+  },
+  "facts": {},
+  "spend_cycle": {},
   "citation": {
    "id": "milelion:092000530611",
    "url": "https://milelion.com/2019/12/07/review-grabpay-card/",
    "title": "Review: GrabPay Mastercard",
    "source_type": "editorial",
-   "retrieved_at": "2026-09-27T05:29:49+00:00",
+   "retrieved_at": "2026-09-28T13:29:47+00:00",
    "sha256": "0920005306114b544e8e7400ae77f48a7dd1fbe0f014a075e23f8f6d906de706",
    "snapshot": "data/raw/milelion/post-60425-6c4a9bd9.json"
   }
  },
  {
   "card_id": null,
+  "card_ids": [],
   "card_name": "Citi Lazada Credit Card",
   "title": "Review: Citi Lazada Credit Card",
   "url": "https://milelion.com/2019/12/09/review-citi-lazada-credit-card/",
@@ -126,18 +139,30 @@
    "7832",
    "7922"
   ],
+  "overview": {
+   "annual_fee": [
+    "Miles from Annual Fee"
+   ]
+  },
+  "facts": {},
+  "spend_cycle": {
+   "statement_month": [
+    "Dining 2 mpd 4 mpd (if online, 0.4 mpd otherwise) Cap S$833 on Lazada OR S$2,000 on dining/ entertainment/ travel/ commute S$1,000 online spending per statement month Alternatively, you could use the DBS Woman\u2019s World Card (it doesn\u2019t require you to be a woman nor earn S$80K a year ), which would give you a higher"
+   ]
+  },
   "citation": {
    "id": "milelion:16f5195b7a50",
    "url": "https://milelion.com/2019/12/09/review-citi-lazada-credit-card/",
    "title": "Review: Citi Lazada Credit Card",
    "source_type": "editorial",
-   "retrieved_at": "2026-09-27T05:29:47+00:00",
+   "retrieved_at": "2026-09-28T13:29:46+00:00",
    "sha256": "16f5195b7a50b4aec1351b276c0cf0798e5d36d8a1c75c114c43d9d3abb5b010",
    "snapshot": "data/raw/milelion/post-60732-aa2ca2e9.json"
   }
  },
  {
   "card_id": null,
+  "card_ids": [],
   "card_name": "NOOK by Platinum",
   "title": "Review: NOOK by Platinum",
   "url": "https://milelion.com/2019/12/11/review-nook-by-platinum/",
@@ -146,18 +171,22 @@
   "modified": "2020-06-15T21:25:35",
   "earn_claims": [],
   "mcc_mentions": [],
+  "overview": {},
+  "facts": {},
+  "spend_cycle": {},
   "citation": {
    "id": "milelion:fe3c30320b03",
    "url": "https://milelion.com/2019/12/11/review-nook-by-platinum/",
    "title": "Review: NOOK by Platinum",
    "source_type": "editorial",
-   "retrieved_at": "2026-09-27T05:29:46+00:00",
+   "retrieved_at": "2026-09-28T13:29:44+00:00",
    "sha256": "fe3c30320b034de4630b3afaee3b47c269199167d73bd0fe0a93911f7c5558a6",
    "snapshot": "data/raw/milelion/post-60709-8d8c8ca5.json"
   }
  },
  {
   "card_id": null,
+  "card_ids": [],
   "card_name": "American Express Centurion Card (Singapore)",
   "title": "Review: American Express Centurion Card (Singapore)",
   "url": "https://milelion.com/2020/03/24/review-american-express-centurion-card-singapore-version/",
@@ -173,18 +202,26 @@
    "This represents an incremental 0.25 mpd, assuming you spend S$250,000 on the dot."
   ],
   "mcc_mentions": [],
+  "overview": {
+   "annual_fee": [
+    "Miles from Annual Fee"
+   ]
+  },
+  "facts": {},
+  "spend_cycle": {},
   "citation": {
    "id": "milelion:27c861391dcc",
    "url": "https://milelion.com/2020/03/24/review-american-express-centurion-card-singapore-version/",
    "title": "Review: American Express Centurion Card (Singapore)",
    "source_type": "editorial",
-   "retrieved_at": "2026-09-27T05:29:44+00:00",
+   "retrieved_at": "2026-09-28T13:29:43+00:00",
    "sha256": "27c861391dcc7993d70d1e144287fea7f37a1643678786a370cb6cc7f0cda3dd",
    "snapshot": "data/raw/milelion/post-65068-99640cf0.json"
   }
  },
  {
   "card_id": null,
+  "card_ids": [],
   "card_name": "Platinum at Basque Kitchen",
   "title": "Review: Platinum at Basque Kitchen",
   "url": "https://milelion.com/2021/04/28/review-platinum-at-basque-kitchen/",
@@ -193,18 +230,22 @@
   "modified": "2021-05-06T21:55:54",
   "earn_claims": [],
   "mcc_mentions": [],
+  "overview": {},
+  "facts": {},
+  "spend_cycle": {},
   "citation": {
    "id": "milelion:3b5d587b0e4d",
    "url": "https://milelion.com/2021/04/28/review-platinum-at-basque-kitchen/",
    "title": "Review: Platinum at Basque Kitchen",
    "source_type": "editorial",
-   "retrieved_at": "2026-09-27T05:29:40+00:00",
+   "retrieved_at": "2026-09-28T13:29:38+00:00",
    "sha256": "3b5d587b0e4da29de872a4ee6d351f95918c4e77a67a131f3596199e8803e845",
    "snapshot": "data/raw/milelion/post-93161-8a3bacdc.json"
   }
  },
  {
   "card_id": null,
+  "card_ids": [],
   "card_name": "Standard Chartered X Card",
   "title": "Review: Standard Chartered X Card",
   "url": "https://milelion.com/2022/08/28/review-standard-chartered-x-card/",
@@ -246,18 +287,76 @@
    "2.5 mpd promotion"
   ],
   "mcc_mentions": [],
+  "overview": {
+   "income": [
+    "S$80,000 p.a."
+   ],
+   "points_validity": [
+    "No expiry"
+   ],
+   "min_transfer": [
+    "2,500 points (1,000 miles)"
+   ],
+   "transfer_partners": [
+    "SIA Emirates Etihad EVA Air Flying Blue IHG One Accor Qatar Qantas United"
+   ],
+   "fcy_fee": [
+    "3.5%"
+   ],
+   "transfer_fee": [
+    "S$26.75"
+   ],
+   "local_earn": [
+    "1.2 mpd"
+   ],
+   "points_pool": [
+    "Yes"
+   ],
+   "fcy_earn": [
+    "2.0 mpd"
+   ],
+   "lounge_access": [
+    "Yes"
+   ],
+   "special_earn": [
+    "N/A"
+   ],
+   "airport_limo": [
+    "No"
+   ]
+  },
+  "facts": {
+   "points_expiry": {
+    "never": true
+   },
+   "transfer_fee": 26.75,
+   "min_transfer": {
+    "points": 2500.0,
+    "points_name": "points",
+    "miles": 1000.0
+   },
+   "income": 80000.0,
+   "local_mpd": 1.2,
+   "fcy_mpd": 2.0
+  },
+  "spend_cycle": {
+   "statement_month": [
+    "S$2,000 spend per statement month To add insult to injury, Standard Chartered has the highest foreign currency transaction fee in the market at 3.5% (other banks max out at 3.25%)."
+   ]
+  },
   "citation": {
    "id": "milelion:1c9b50861388",
    "url": "https://milelion.com/2022/08/28/review-standard-chartered-x-card/",
    "title": "Review: Standard Chartered X Card",
    "source_type": "editorial",
-   "retrieved_at": "2026-09-27T05:29:38+00:00",
+   "retrieved_at": "2026-09-28T13:29:37+00:00",
    "sha256": "1c9b5086138872d0635a4a8cd39cc9c04baa714f186d40f2e8a651872e28f415",
    "snapshot": "data/raw/milelion/post-129245-3836eec0.json"
   }
  },
  {
   "card_id": null,
+  "card_ids": [],
   "card_name": "Citi ULTIMA Card",
   "title": "Review: Citi ULTIMA Card",
   "url": "https://milelion.com/2023/08/24/review-citi-ultima-credit-card/",
@@ -296,18 +395,82 @@
    "8651",
    "9000"
   ],
+  "overview": {
+   "income": [
+    "S$500K p.a."
+   ],
+   "points_validity": [
+    "No Expiry"
+   ],
+   "annual_fee": [
+    "S$4,199"
+   ],
+   "min_transfer": [
+    "25,000 TY points (10,000 miles)"
+   ],
+   "miles_with_fee": [
+    "150,000"
+   ],
+   "transfer_partners": [
+    "SIA British Airways Cathay Etihad EVA Air Flying Blue Qantas Qatar THAI Turkish IHG"
+   ],
+   "fcy_fee": [
+    "3.25%"
+   ],
+   "transfer_fee": [
+    "N/A"
+   ],
+   "local_earn": [
+    "1.6 mpd"
+   ],
+   "points_pool": [
+    "No"
+   ],
+   "fcy_earn": [
+    "2 mpd"
+   ],
+   "lounge_access": [
+    "Yes"
+   ],
+   "special_earn": [
+    "N/A"
+   ],
+   "airport_limo": [
+    "Yes"
+   ]
+  },
+  "facts": {
+   "points_expiry": {
+    "never": true
+   },
+   "min_transfer": {
+    "points": 25000.0,
+    "points_name": "TY points",
+    "miles": 10000.0
+   },
+   "annual_fee": {
+    "amount": 4199.0
+   },
+   "income": 500000.0,
+   "local_mpd": 1.6,
+   "fcy_mpd": 2.0
+  },
+  "spend_cycle": {},
   "citation": {
    "id": "milelion:c75886ba2583",
    "url": "https://milelion.com/2023/08/24/review-citi-ultima-credit-card/",
    "title": "Review: Citi ULTIMA Card",
    "source_type": "editorial",
-   "retrieved_at": "2026-09-27T05:29:34+00:00",
+   "retrieved_at": "2026-09-28T13:29:32+00:00",
    "sha256": "c75886ba2583713902443bdb75ff612a21965d257ed8660c78383a721191d99f",
    "snapshot": "data/raw/milelion/post-64838-7fbb6616.json"
   }
  },
  {
-  "card_id": null,
+  "card_id": "hsbc-visa-infinite",
+  "card_ids": [
+   "hsbc-visa-infinite"
+  ],
   "card_name": "HSBC Visa Infinite Card",
   "title": "Review: HSBC Visa Infinite Card",
   "url": "https://milelion.com/2024/08/27/review-hsbc-visa-infinite-card/",
@@ -357,18 +520,80 @@
    "1.43 mpd"
   ],
   "mcc_mentions": [],
+  "overview": {
+   "income": [
+    "S$120,000 p.a."
+   ],
+   "points_validity": [
+    "37 months"
+   ],
+   "annual_fee": [
+    "S$497.12 (HSBC Premier) S$662.15 (Regular)"
+   ],
+   "min_transfer": [
+    "25,000 points (10,000 miles)^"
+   ],
+   "transfer_partners": [
+    "21"
+   ],
+   "fcy_fee": [
+    "3.25%"
+   ],
+   "transfer_fee": [
+    "Free till 31 Jan 25"
+   ],
+   "local_earn": [
+    "1 mpd"
+   ],
+   "points_pool": [
+    "Yes"
+   ],
+   "fcy_earn": [
+    "2 mpd"
+   ],
+   "lounge_access": [
+    "Yes"
+   ],
+   "special_earn": [
+    "N/A"
+   ],
+   "airport_limo": [
+    "Yes"
+   ]
+  },
+  "facts": {
+   "points_expiry": {
+    "months": 37
+   },
+   "min_transfer": {
+    "points": 25000.0,
+    "points_name": "points",
+    "miles": 10000.0
+   },
+   "income": 120000.0,
+   "local_mpd": 1.0,
+   "fcy_mpd": 2.0
+  },
+  "spend_cycle": {
+   "calendar_month": [
+    "transfers and expedited immigration clearances per calendar year One additional ride and expedited clearance can be unlocked by spending S$2,000 per calendar month, capped at 24 per calendar year (including the complimentary entitlements)."
+   ]
+  },
   "citation": {
    "id": "milelion:9a2f732a8649",
    "url": "https://milelion.com/2024/08/27/review-hsbc-visa-infinite-card/",
    "title": "Review: HSBC Visa Infinite Card",
    "source_type": "editorial",
-   "retrieved_at": "2026-09-27T05:29:28+00:00",
+   "retrieved_at": "2026-09-28T13:29:26+00:00",
    "sha256": "9a2f732a8649750fe677266f533ecf7210616e0504d73a799f21302f45d0b153",
    "snapshot": "data/raw/milelion/post-128324-a69d8680.json"
   }
  },
  {
-  "card_id": null,
+  "card_id": "amex-krisflyer",
+  "card_ids": [
+   "amex-krisflyer"
+  ],
   "card_name": "AMEX KrisFlyer Credit Card",
   "title": "Review: AMEX KrisFlyer Credit Card",
   "url": "https://milelion.com/2025/11/18/review-amex-krisflyer-credit-card/",
@@ -418,18 +643,82 @@
    "bonus 2 mpd on Deliveroo and foodpanda."
   ],
   "mcc_mentions": [],
+  "overview": {
+   "income": [
+    "N/A*"
+   ],
+   "points_validity": [
+    "3 years"
+   ],
+   "annual_fee": [
+    "S$179.85 (FYF)"
+   ],
+   "min_transfer": [
+    "N/A"
+   ],
+   "miles_with_fee": [
+    "N/A"
+   ],
+   "transfer_partners": [
+    "1"
+   ],
+   "fcy_fee": [
+    "3.25%"
+   ],
+   "transfer_fee": [
+    "N/A"
+   ],
+   "local_earn": [
+    "1.1 mpd"
+   ],
+   "points_pool": [
+    "Yes"
+   ],
+   "fcy_earn": [
+    "1.1 mpd"
+   ],
+   "lounge_access": [
+    "No"
+   ],
+   "special_earn": [
+    "2 mpd on SIA, Scoot, KrisShop, Grab, Pelago"
+   ],
+   "airport_limo": [
+    "No"
+   ]
+  },
+  "facts": {
+   "points_expiry": {
+    "months": 36
+   },
+   "annual_fee": {
+    "amount": 179.85,
+    "first_year_free": true
+   },
+   "local_mpd": 1.1,
+   "fcy_mpd": 1.1,
+   "converts": false
+  },
+  "spend_cycle": {
+   "calendar_month": [
+    "2 mpd for Grab Singapore AMEX KrisFlyer Credit Cardholders will earn 2 mpd on the first S$200 spent each calendar month on Grab Singapore transactions, including Grab rides, GrabFood, GrabMart and Grab Express."
+   ]
+  },
   "citation": {
    "id": "milelion:7babae5b4d4a",
    "url": "https://milelion.com/2025/11/18/review-amex-krisflyer-credit-card/",
    "title": "Review: AMEX KrisFlyer Credit Card",
    "source_type": "editorial",
-   "retrieved_at": "2026-09-27T05:29:22+00:00",
+   "retrieved_at": "2026-09-28T13:29:20+00:00",
    "sha256": "7babae5b4d4a84ac85916a0749cd57155b7b009e2839855c8a876a4d84013fb4",
    "snapshot": "data/raw/milelion/post-127446-60354dfc.json"
   }
  },
  {
-  "card_id": null,
+  "card_id": "maybank-visa-infinite",
+  "card_ids": [
+   "maybank-visa-infinite"
+  ],
   "card_name": "Maybank Visa Infinite Card",
   "title": "Review: Maybank Visa Infinite Card",
   "url": "https://milelion.com/2025/11/20/review-maybank-visa-infinite-card/",
@@ -479,18 +768,90 @@
    "3.2 mpd"
   ],
   "mcc_mentions": [],
+  "overview": {
+   "income": [
+    "S$150,000 p.a."
+   ],
+   "points_validity": [
+    "No expiry"
+   ],
+   "annual_fee": [
+    "S$654 (FYF)"
+   ],
+   "min_transfer": [
+    "25,000 points (10,000 miles)*"
+   ],
+   "miles_with_fee": [
+    "N/A"
+   ],
+   "transfer_partners": [
+    "4"
+   ],
+   "fcy_fee": [
+    "3.25%"
+   ],
+   "transfer_fee": [
+    "N/A"
+   ],
+   "local_earn": [
+    "1.2 mpd"
+   ],
+   "points_pool": [
+    "Yes"
+   ],
+   "fcy_earn": [
+    "Up to 3.2 mpd"
+   ],
+   "lounge_access": [
+    "Yes"
+   ],
+   "special_earn": [
+    "N/A"
+   ],
+   "airport_limo": [
+    "Yes"
+   ]
+  },
+  "facts": {
+   "points_expiry": {
+    "never": true
+   },
+   "min_transfer": {
+    "points": 25000.0,
+    "points_name": "points",
+    "miles": 10000.0
+   },
+   "annual_fee": {
+    "amount": 654.0,
+    "first_year_free": true
+   },
+   "income": 150000.0,
+   "local_mpd": 1.2
+  },
+  "spend_cycle": {
+   "calendar_month": [
+    "Spend (per calendar month) SGD FCY S$3,999 or less 1.2 mpd 2 mpd \u2265S$4,000 1.2 mpd 3.2 mpd The local earn rate is fixed at 1.2 mpd.",
+    "The overseas earn rate is usually 2 mpd, but is increased to 3.2 mpd for cardholders who spend at least S$4,000 in a calendar month.",
+    "spend Spend <S$4,000 per calendar month Base Points (5X) Round down transaction to the nearest S$5, divide by 5, then multiply by 25 Spend \u2265S$4,000 per calendar month Base Points (5X) Round down transaction to the nearest S$5, divide by 5, then multiply by 25 Bonus Points (3X) Sum up all eligible transactions.",
+    "X= Amount Spent For FCY spend Spend <S$4,000 per calendar month Base Points (5X) =ROUND (ROUNDDOWN(X/5,0)*25,0) Where X= Amount Spent Spend \u2265S$4,000 per calendar month Base Points (5X) =ROUND (ROUNDDOWN(X/5,0)*25,0) Bonus Points (3X) =ROUND(Y/5*15,0) Where X= Amount Spent, Y= Sum of Eligible Trxns For the full list",
+    "Maybank Visa Infinite will earn points on commonly-excluded categories such as hospitals and education, and even up to S$3,000 of insurance premiums per calendar month."
+   ]
+  },
   "citation": {
    "id": "milelion:8e22e180cb61",
    "url": "https://milelion.com/2025/11/20/review-maybank-visa-infinite-card/",
    "title": "Review: Maybank Visa Infinite Card",
    "source_type": "editorial",
-   "retrieved_at": "2026-09-27T05:29:20+00:00",
+   "retrieved_at": "2026-09-28T13:29:19+00:00",
    "sha256": "8e22e180cb61c474a46047793e9db3b4dd086c42cc0e5d1c507fdebeabfdb43b",
    "snapshot": "data/raw/milelion/post-149633-e03349d6.json"
   }
  },
  {
-  "card_id": null,
+  "card_id": "amex-krisflyer-ascend",
+  "card_ids": [
+   "amex-krisflyer-ascend"
+  ],
   "card_name": "AMEX KrisFlyer Ascend",
   "title": "Review: AMEX KrisFlyer Ascend",
   "url": "https://milelion.com/2025/11/22/review-amex-krisflyer-ascend/",
@@ -540,18 +901,81 @@
    "Earn rate: 1.4 mpd"
   ],
   "mcc_mentions": [],
+  "overview": {
+   "income": [
+    "N/A*"
+   ],
+   "points_validity": [
+    "3 years"
+   ],
+   "annual_fee": [
+    "S$397.85"
+   ],
+   "min_transfer": [
+    "N/A"
+   ],
+   "miles_with_fee": [
+    "10,000^"
+   ],
+   "transfer_partners": [
+    "1"
+   ],
+   "fcy_fee": [
+    "3.25%"
+   ],
+   "transfer_fee": [
+    "N/A"
+   ],
+   "local_earn": [
+    "1.2 mpd"
+   ],
+   "points_pool": [
+    "Yes"
+   ],
+   "fcy_earn": [
+    "1.2 mpd"
+   ],
+   "lounge_access": [
+    "No"
+   ],
+   "special_earn": [
+    "2 mpd on SIA, Scoot, KrisShop, Grab, Pelago"
+   ],
+   "airport_limo": [
+    "No"
+   ]
+  },
+  "facts": {
+   "points_expiry": {
+    "months": 36
+   },
+   "annual_fee": {
+    "amount": 397.85
+   },
+   "local_mpd": 1.2,
+   "fcy_mpd": 1.2,
+   "converts": false
+  },
+  "spend_cycle": {
+   "calendar_month": [
+    "2 mpd for Grab Singapore AMEX KrisFlyer Ascend Cardholders earn 2 mpd on the first S$200 spent each calendar month on Grab Singapore transactions, including Grab rides, GrabFood, GrabMart and Grab Express."
+   ]
+  },
   "citation": {
    "id": "milelion:4acb65a64466",
    "url": "https://milelion.com/2025/11/22/review-amex-krisflyer-ascend/",
    "title": "Review: AMEX KrisFlyer Ascend",
    "source_type": "editorial",
-   "retrieved_at": "2026-09-27T05:29:19+00:00",
+   "retrieved_at": "2026-09-28T13:29:17+00:00",
    "sha256": "4acb65a64466f551cbdba1fd3dca1897cdc9a37425fdf47281ff57a0d546334a",
    "snapshot": "data/raw/milelion/post-73136-e6468708.json"
   }
  },
  {
-  "card_id": null,
+  "card_id": "ocbc-voyage",
+  "card_ids": [
+   "ocbc-voyage"
+  ],
   "card_name": "OCBC VOYAGE Card",
   "title": "Review: OCBC VOYAGE Card",
   "url": "https://milelion.com/2025/11/26/review-ocbc-voyage-card/",
@@ -601,18 +1025,83 @@
    "1.6 mpd"
   ],
   "mcc_mentions": [],
+  "overview": {
+   "income": [
+    "S$120,000 p.a."
+   ],
+   "points_validity": [
+    "No expiry"
+   ],
+   "annual_fee": [
+    "S$498"
+   ],
+   "min_transfer": [
+    "1 VOYAGE Mile (1 mile)"
+   ],
+   "miles_with_fee": [
+    "15,000"
+   ],
+   "transfer_partners": [
+    "9"
+   ],
+   "fcy_fee": [
+    "3.25%"
+   ],
+   "transfer_fee": [
+    "S$25"
+   ],
+   "local_earn": [
+    "1.3 mpd"
+   ],
+   "points_pool": [
+    "No"
+   ],
+   "fcy_earn": [
+    "2.2 mpd"
+   ],
+   "lounge_access": [
+    "Yes"
+   ],
+   "special_earn": [
+    "N/A"
+   ],
+   "airport_limo": [
+    "Yes"
+   ]
+  },
+  "facts": {
+   "points_expiry": {
+    "never": true
+   },
+   "transfer_fee": 25.0,
+   "min_transfer": {
+    "points": 1.0,
+    "points_name": "VOYAGE Mile",
+    "miles": 1.0
+   },
+   "annual_fee": {
+    "amount": 498.0
+   },
+   "income": 120000.0,
+   "local_mpd": 1.3,
+   "fcy_mpd": 2.2
+  },
+  "spend_cycle": {},
   "citation": {
    "id": "milelion:27666b12efb8",
    "url": "https://milelion.com/2025/11/26/review-ocbc-voyage-card/",
    "title": "Review: OCBC VOYAGE Card",
    "source_type": "editorial",
-   "retrieved_at": "2026-09-27T05:29:17+00:00",
+   "retrieved_at": "2026-09-28T13:29:16+00:00",
    "sha256": "27666b12efb887822cf739ca9ffb716eeca6ace291a6204103c5b9ae28758694",
    "snapshot": "data/raw/milelion/post-129826-cafaeb57.json"
   }
  },
  {
-  "card_id": null,
+  "card_id": "standard-chartered-smart",
+  "card_ids": [
+   "standard-chartered-smart"
+  ],
   "card_name": "Standard Chartered Smart Card",
   "title": "Review: Standard Chartered Smart Card",
   "url": "https://milelion.com/2026/02/06/review-standard-chartered-smart-card/",
@@ -664,18 +1153,84 @@
   "mcc_mentions": [
    "5552"
   ],
+  "overview": {
+   "income": [
+    "S$30,000 p.a."
+   ],
+   "points_validity": [
+    "Up to 3 years"
+   ],
+   "annual_fee": [
+    "S$99.19 (FYF)"
+   ],
+   "min_transfer": [
+    "34,500 points (10,000 miles)"
+   ],
+   "fcy_fee": [
+    "3.5%"
+   ],
+   "transfer_fee": [
+    "S$27.25"
+   ],
+   "local_earn": [
+    "0.46 mpd"
+   ],
+   "points_pool": [
+    "No"
+   ],
+   "fcy_earn": [
+    "0.46 mpd"
+   ],
+   "lounge_access": [
+    "No"
+   ],
+   "special_earn": [
+    "Up to 9.28 mpd on fast food, streaming, SimplyGo & EV charging"
+   ],
+   "airport_limo": [
+    "No"
+   ]
+  },
+  "facts": {
+   "points_expiry": {
+    "months_max": 36
+   },
+   "transfer_fee": 27.25,
+   "min_transfer": {
+    "points": 34500.0,
+    "points_name": "points",
+    "miles": 10000.0
+   },
+   "annual_fee": {
+    "amount": 99.19,
+    "first_year_free": true
+   },
+   "income": 30000.0,
+   "local_mpd": 0.46,
+   "fcy_mpd": 0.46
+  },
+  "spend_cycle": {
+   "statement_month": [
+    "The StanChart Smart Card has three different earning tiers, based on total spend within a statement month.",
+    "Card Spend (per statement month) Bonus Categories Non-Bonus Categories Less than S$800 Tier 0 1.6 pts/S$1 0.5% 0.46 mpd 1.6 pts/S$1 0.5% 0.46 mpd S$800 to S$1,499 Tier 1 25.6",
+    "based on conversion rate of 3,200 points = S$10 statement credit When spending on bonus categories: Cardholders who spend less than S$800 per statement month will earn 0.5% cashback or 0.46 mpd Cardholders who spend at least S$800 but less than S$1,500 per statement month will earn 8% cashback or 7.42 mpd",
+    "who spend less than S$800 per statement month will earn 0.5% cashback or 0.46 mpd Cardholders who spend at least S$800 but less than S$1,500 per statement month will earn 8% cashback or 7.42 mpd Cardholders who spend at least S$1,500 per statement month will earn 10% cashback or 9.28 mpd There is no cap on",
+    "who spend at least S$800 but less than S$1,500 per statement month will earn 8% cashback or 7.42 mpd Cardholders who spend at least S$1,500 per statement month will earn 10% cashback or 9.28 mpd There is no cap on the miles that can be earned, which sounds fantastic on first glance\u2014 who wouldn\u2019t want an"
+   ]
+  },
   "citation": {
    "id": "milelion:cd5042a3521e",
    "url": "https://milelion.com/2026/02/06/review-standard-chartered-smart-card/",
    "title": "Review: Standard Chartered Smart Card",
    "source_type": "editorial",
-   "retrieved_at": "2026-09-27T05:29:13+00:00",
+   "retrieved_at": "2026-09-28T13:29:11+00:00",
    "sha256": "cd5042a3521ed60824c2d938dd39d9d9365afc11fa06ea54a5727c13cd471b71",
    "snapshot": "data/raw/milelion/post-157879-26cf36ff.json"
   }
  },
  {
   "card_id": null,
+  "card_ids": [],
   "card_name": "Standard Chartered Beyond Card",
   "title": "Review: Standard Chartered Beyond Card",
   "url": "https://milelion.com/2026/02/08/review-standard-chartered-beyond-card/",
@@ -727,18 +1282,81 @@
   "mcc_mentions": [
    "5811"
   ],
+  "overview": {
+   "income": [
+    "S$200,000 p.a."
+   ],
+   "points_validity": [
+    "No expiry"
+   ],
+   "annual_fee": [
+    "S$1,635"
+   ],
+   "min_transfer": [
+    "10,000 miles"
+   ],
+   "miles_with_fee": [
+    "N/A"
+   ],
+   "transfer_partners": [
+    "2"
+   ],
+   "fcy_fee": [
+    "3.5%"
+   ],
+   "transfer_fee": [
+    "S$27.25"
+   ],
+   "local_earn": [
+    "1.5-2 mpd"
+   ],
+   "points_pool": [
+    "Yes"
+   ],
+   "fcy_earn": [
+    "3-4 mpd"
+   ],
+   "lounge_access": [
+    "Yes"
+   ],
+   "special_earn": [
+    "PP only: 8 mpd on FCY dining"
+   ],
+   "airport_limo": [
+    "Yes"
+   ]
+  },
+  "facts": {
+   "points_expiry": {
+    "never": true
+   },
+   "transfer_fee": 27.25,
+   "annual_fee": {
+    "amount": 1635.0
+   },
+   "income": 200000.0
+  },
+  "spend_cycle": {
+   "calendar_month": [
+    "Maybank has been stepping up their game too: The Maybank World Mastercard earns 3.2 mpd on all FCY spend, subject to a minimum spend of S$4,000 per calendar month (or 2.8 mpd with a minimum spend of S$800 per calendar month) The Maybank Visa Infinite earns 3.2 mpd on all FCY spend, subject to a minimum spend",
+    "World Mastercard earns 3.2 mpd on all FCY spend, subject to a minimum spend of S$4,000 per calendar month (or 2.8 mpd with a minimum spend of S$800 per calendar month) The Maybank Visa Infinite earns 3.2 mpd on all FCY spend, subject to a minimum spend of S$4,000 per calendar month The Maybank Horizon Visa",
+    "with a minimum spend of S$800 per calendar month) The Maybank Visa Infinite earns 3.2 mpd on all FCY spend, subject to a minimum spend of S$4,000 per calendar month The Maybank Horizon Visa Signature earns 2.8 mpd on all FCY spend, subject to a minimum spend of S$800 per calendar month Those minimum spends are a",
+    "a minimum spend of S$4,000 per calendar month The Maybank Horizon Visa Signature earns 2.8 mpd on all FCY spend, subject to a minimum spend of S$800 per calendar month Those minimum spends are a hurdle to be crossed, but if an uncapped earn rate is what attracts you, then it\u2019s unlikely a minimum spend requirement"
+   ]
+  },
   "citation": {
    "id": "milelion:a8a7e683ec74",
    "url": "https://milelion.com/2026/02/08/review-standard-chartered-beyond-card/",
    "title": "Review: Standard Chartered Beyond Card",
    "source_type": "editorial",
-   "retrieved_at": "2026-09-27T05:29:12+00:00",
+   "retrieved_at": "2026-09-28T13:29:10+00:00",
    "sha256": "a8a7e683ec74b5cfc681575dc4083f7708c93802d078a3404f15aa0b37a09908",
    "snapshot": "data/raw/milelion/post-212524-a496595d.json"
   }
  },
  {
   "card_id": null,
+  "card_ids": [],
   "card_name": "AMEX HighFlyer Card",
   "title": "Review: AMEX HighFlyer Card",
   "url": "https://milelion.com/2026/02/17/review-amex-highflyer-card/",
@@ -788,18 +1406,79 @@
    "5-2% cashback"
   ],
   "mcc_mentions": [],
+  "overview": {
+   "income": [
+    "S$30,000 p.a."
+   ],
+   "points_validity": [
+    "3 years"
+   ],
+   "annual_fee": [
+    "S$400"
+   ],
+   "min_transfer": [
+    "N/A"
+   ],
+   "miles_with_fee": [
+    "6,000"
+   ],
+   "transfer_partners": [
+    "1"
+   ],
+   "fcy_fee": [
+    "3.25%"
+   ],
+   "transfer_fee": [
+    "None"
+   ],
+   "local_earn": [
+    "1.2 mpd"
+   ],
+   "points_pool": [
+    "N/A"
+   ],
+   "fcy_earn": [
+    "1.2 mpd"
+   ],
+   "lounge_access": [
+    "N/A"
+   ],
+   "special_earn": [
+    "2 mpd on SIA Group*"
+   ],
+   "airport_limo": [
+    "No"
+   ]
+  },
+  "facts": {
+   "points_expiry": {
+    "months": 36
+   },
+   "transfer_fee": 0.0,
+   "annual_fee": {
+    "amount": 400.0
+   },
+   "income": 30000.0,
+   "local_mpd": 1.2,
+   "fcy_mpd": 1.2,
+   "converts": false
+  },
+  "spend_cycle": {},
   "citation": {
    "id": "milelion:13a7963a317c",
    "url": "https://milelion.com/2026/02/17/review-amex-highflyer-card/",
    "title": "Review: AMEX HighFlyer Card",
    "source_type": "editorial",
-   "retrieved_at": "2026-09-27T05:29:09+00:00",
+   "retrieved_at": "2026-09-28T13:29:08+00:00",
    "sha256": "13a7963a317ccd13c77c23355df0671f6a3271c0bac63529258791bb10d61a2b",
    "snapshot": "data/raw/milelion/post-138503-abbb6a83.json"
   }
  },
  {
-  "card_id": null,
+  "card_id": "amex-platinum-credit",
+  "card_ids": [
+   "amex-platinum-credit"
+  ],
   "card_name": "American Express Platinum Credit Card",
   "title": "Review: American Express Platinum Credit Card",
   "url": "https://milelion.com/2026/02/24/review-american-express-platinum-credit-card/",
@@ -848,18 +1527,82 @@
    "bonus 2 mpd on Deliveroo and foodpanda."
   ],
   "mcc_mentions": [],
+  "overview": {
+   "income": [
+    "Not stated*"
+   ],
+   "points_validity": [
+    "No expiry"
+   ],
+   "annual_fee": [
+    "S$327"
+   ],
+   "min_transfer": [
+    "550 MR points (250 miles)"
+   ],
+   "miles_with_fee": [
+    "\u2013"
+   ],
+   "transfer_partners": [
+    "10"
+   ],
+   "fcy_fee": [
+    "3.25%"
+   ],
+   "transfer_fee": [
+    "None"
+   ],
+   "local_earn": [
+    "0.57 mpd"
+   ],
+   "points_pool": [
+    "Yes"
+   ],
+   "fcy_earn": [
+    "0.57 mpd"
+   ],
+   "lounge_access": [
+    "No"
+   ],
+   "special_earn": [
+    "2.84 mpd on 10Xcelerator merchants"
+   ],
+   "airport_limo": [
+    "No"
+   ]
+  },
+  "facts": {
+   "points_expiry": {
+    "never": true
+   },
+   "transfer_fee": 0.0,
+   "min_transfer": {
+    "points": 550.0,
+    "points_name": "MR points",
+    "miles": 250.0
+   },
+   "annual_fee": {
+    "amount": 327.0
+   },
+   "local_mpd": 0.57,
+   "fcy_mpd": 0.57
+  },
+  "spend_cycle": {},
   "citation": {
    "id": "milelion:d58d215327a3",
    "url": "https://milelion.com/2026/02/24/review-american-express-platinum-credit-card/",
    "title": "Review: American Express Platinum Credit Card",
    "source_type": "editorial",
-   "retrieved_at": "2026-09-27T05:29:02+00:00",
+   "retrieved_at": "2026-09-28T13:29:07+00:00",
    "sha256": "d58d215327a323d4ccdc4095e4fba03fe47af88027e4b2c4ba9d00c37715551f",
    "snapshot": "data/raw/milelion/post-129074-15ec673b.json"
   }
  },
  {
-  "card_id": null,
+  "card_id": "citi-rewards",
+  "card_ids": [
+   "citi-rewards"
+  ],
   "card_name": "Citi Rewards Credit Card",
   "title": "Review: Citi Rewards Credit Card",
   "url": "https://milelion.com/2026/02/27/review-citi-rewards-credit-card/",
@@ -930,18 +1673,89 @@
    "8651",
    "9000"
   ],
+  "overview": {
+   "income": [
+    "S$30,000 p.a."
+   ],
+   "points_validity": [
+    "Up to 5 yrs."
+   ],
+   "annual_fee": [
+    "S$196.20 (FYF)"
+   ],
+   "min_transfer": [
+    "25,000 TY points (10,000 miles)"
+   ],
+   "miles_with_fee": [
+    "N/A"
+   ],
+   "transfer_partners": [
+    "11"
+   ],
+   "fcy_fee": [
+    "3.25%"
+   ],
+   "transfer_fee": [
+    "S$27.25"
+   ],
+   "local_earn": [
+    "0.4 mpd"
+   ],
+   "points_pool": [
+    "No"
+   ],
+   "fcy_earn": [
+    "0.4 mpd"
+   ],
+   "lounge_access": [
+    "No"
+   ],
+   "special_earn": [
+    "4 mpd on online trxns. (except travel & in-app mobile wallet)"
+   ],
+   "airport_limo": [
+    "No"
+   ]
+  },
+  "facts": {
+   "points_expiry": {
+    "months_max": 60
+   },
+   "transfer_fee": 27.25,
+   "min_transfer": {
+    "points": 25000.0,
+    "points_name": "TY points",
+    "miles": 10000.0
+   },
+   "annual_fee": {
+    "amount": 196.2,
+    "first_year_free": true
+   },
+   "income": 30000.0,
+   "local_mpd": 0.4,
+   "fcy_mpd": 0.4
+  },
+  "spend_cycle": {
+   "statement_month": [
+    "Online (except travel and in-app mobile wallet payments) At department stores, or shops selling bags, shoes and clothes An overall cap of S$1,000 per statement month applies, shared between (1) and (2).",
+    "The Citi Rewards Mastercard and Citi Rewards Visa each have their own bonus cap, so if you have both cards, you can earn 4 mpd on up to S$2,000 per statement month. \u26a0\ufe0f Calendar Month vs Statement Month Calendar month is straightforward (e.g."
+   ]
+  },
   "citation": {
    "id": "milelion:e97c3ffbbb86",
    "url": "https://milelion.com/2026/02/27/review-citi-rewards-credit-card/",
    "title": "Review: Citi Rewards Credit Card",
    "source_type": "editorial",
-   "retrieved_at": "2026-09-27T05:28:59+00:00",
+   "retrieved_at": "2026-09-28T13:29:05+00:00",
    "sha256": "e97c3ffbbb86c17682e52a3200d191f3bb9aa86da353b54c2d102219e9e7a89d",
    "snapshot": "data/raw/milelion/post-72798-1714eaef.json"
   }
  },
  {
-  "card_id": null,
+  "card_id": "amex-platinum-charge",
+  "card_ids": [
+   "amex-platinum-charge"
+  ],
   "card_name": "American Express Platinum Charge",
   "title": "Review: American Express Platinum Charge",
   "url": "https://milelion.com/2026/03/07/review-american-express-platinum-charge/",
@@ -991,18 +1805,82 @@
    "bonus 2 mpd on Deliveroo and foodpanda."
   ],
   "mcc_mentions": [],
+  "overview": {
+   "income": [
+    "Not stated*"
+   ],
+   "points_validity": [
+    "No expiry"
+   ],
+   "annual_fee": [
+    "S$1,744"
+   ],
+   "min_transfer": [
+    "500 MR points (250 miles)"
+   ],
+   "miles_with_fee": [
+    "\u2013"
+   ],
+   "transfer_partners": [
+    "10"
+   ],
+   "fcy_fee": [
+    "3.25%"
+   ],
+   "transfer_fee": [
+    "None"
+   ],
+   "local_earn": [
+    "0.63 mpd"
+   ],
+   "points_pool": [
+    "Yes"
+   ],
+   "fcy_earn": [
+    "2.2 mpd"
+   ],
+   "lounge_access": [
+    "Yes"
+   ],
+   "special_earn": [
+    "6.25 mpd on 10Xcelerator merchants"
+   ],
+   "airport_limo": [
+    "No"
+   ]
+  },
+  "facts": {
+   "points_expiry": {
+    "never": true
+   },
+   "transfer_fee": 0.0,
+   "min_transfer": {
+    "points": 500.0,
+    "points_name": "MR points",
+    "miles": 250.0
+   },
+   "annual_fee": {
+    "amount": 1744.0
+   },
+   "local_mpd": 0.63,
+   "fcy_mpd": 2.2
+  },
+  "spend_cycle": {},
   "citation": {
    "id": "milelion:cc41405fe2e0",
    "url": "https://milelion.com/2026/03/07/review-american-express-platinum-charge/",
    "title": "Review: American Express Platinum Charge",
    "source_type": "editorial",
-   "retrieved_at": "2026-09-27T05:28:57+00:00",
+   "retrieved_at": "2026-09-28T13:29:05+00:00",
    "sha256": "cc41405fe2e0e8f14aab5255053cb83f3fb6c379fedd84e2fdda080132b8410b",
    "snapshot": "data/raw/milelion/post-520639-1268b09c.json"
   }
  },
  {
-  "card_id": null,
+  "card_id": "hsbc-travelone",
+  "card_ids": [
+   "hsbc-travelone"
+  ],
   "card_name": "HSBC TravelOne Card",
   "title": "Review: HSBC TravelOne Card",
   "url": "https://milelion.com/2026/03/20/review-hsbc-travelone-card/",
@@ -1052,18 +1930,82 @@
    "1.4 mpd"
   ],
   "mcc_mentions": [],
+  "overview": {
+   "income": [
+    "S$30,000 p.a. (with S$50K TRB) S$65,000 p.a. (otherwise)"
+   ],
+   "points_validity": [
+    "37 months"
+   ],
+   "annual_fee": [
+    "S$196.20"
+   ],
+   "min_transfer": [
+    "25,000 points (10,000 miles)^"
+   ],
+   "miles_with_fee": [
+    "12,000"
+   ],
+   "transfer_partners": [
+    "20"
+   ],
+   "fcy_fee": [
+    "3.25%"
+   ],
+   "transfer_fee": [
+    "Free"
+   ],
+   "local_earn": [
+    "1.2 mpd"
+   ],
+   "points_pool": [
+    "Yes"
+   ],
+   "fcy_earn": [
+    "2.4 mpd"
+   ],
+   "lounge_access": [
+    "Yes (4X)"
+   ],
+   "special_earn": [
+    "N/A"
+   ],
+   "airport_limo": [
+    "No"
+   ]
+  },
+  "facts": {
+   "points_expiry": {
+    "months": 37
+   },
+   "transfer_fee": 0.0,
+   "min_transfer": {
+    "points": 25000.0,
+    "points_name": "points",
+    "miles": 10000.0
+   },
+   "annual_fee": {
+    "amount": 196.2
+   },
+   "local_mpd": 1.2,
+   "fcy_mpd": 2.4
+  },
+  "spend_cycle": {},
   "citation": {
    "id": "milelion:d641faf5a5d8",
    "url": "https://milelion.com/2026/03/20/review-hsbc-travelone-card/",
    "title": "Review: HSBC TravelOne Card",
    "source_type": "editorial",
-   "retrieved_at": "2026-09-27T05:28:56+00:00",
+   "retrieved_at": "2026-09-28T13:29:00+00:00",
    "sha256": "d641faf5a5d8fcabd3eee16420d09302b571ecdee1d7d4a0bbd8946f90aee2fc",
    "snapshot": "data/raw/milelion/post-146461-3179030e.json"
   }
  },
  {
-  "card_id": null,
+  "card_id": "uob-preferred-visa",
+  "card_ids": [
+   "uob-preferred-visa"
+  ],
   "card_name": "UOB Preferred Visa Card",
   "title": "Review: UOB Preferred Visa Card",
   "url": "https://milelion.com/2026/03/29/review-uob-preferred-platinum-visa-card/",
@@ -1099,18 +2041,82 @@
   "mcc_mentions": [
    "5311"
   ],
+  "overview": {
+   "income": [
+    "S$30,000 p.a."
+   ],
+   "points_validity": [
+    "2 years"
+   ],
+   "annual_fee": [
+    "S$196.20 (First Year Free)"
+   ],
+   "min_transfer": [
+    "5,000 UNI$ (10,000 miles)"
+   ],
+   "fcy_fee": [
+    "3.25%"
+   ],
+   "transfer_fee": [
+    "S$27"
+   ],
+   "local_earn": [
+    "0.4 mpd"
+   ],
+   "points_pool": [
+    "Yes"
+   ],
+   "fcy_earn": [
+    "0.4 mpd"
+   ],
+   "lounge_access": [
+    "No"
+   ],
+   "special_earn": [
+    "4 mpd on mobile contactless and selected online transactions"
+   ],
+   "airport_limo": [
+    "No"
+   ]
+  },
+  "facts": {
+   "points_expiry": {
+    "months": 24
+   },
+   "transfer_fee": 27.0,
+   "min_transfer": {
+    "points": 5000.0,
+    "points_name": "UNI$",
+    "miles": 10000.0
+   },
+   "annual_fee": {
+    "amount": 196.2,
+    "first_year_free": true
+   },
+   "income": 30000.0,
+   "local_mpd": 0.4,
+   "fcy_mpd": 0.4
+  },
+  "spend_cycle": {
+   "calendar_month": [
+    "Bonus Cap (UNI$) 1,080 UNI$ 1,080 UNI$ Monthly Bonus Cap (S$) S$600 S$600 Caps are based on calendar month The cap for each category is S$600 per calendar month , and caps are strictly separate ."
+   ]
+  },
   "citation": {
    "id": "milelion:5cda0a3aca0f",
    "url": "https://milelion.com/2026/03/29/review-uob-preferred-platinum-visa-card/",
    "title": "Review: UOB Preferred Visa Card",
    "source_type": "editorial",
-   "retrieved_at": "2026-09-27T05:28:54+00:00",
+   "retrieved_at": "2026-09-28T13:28:57+00:00",
    "sha256": "5cda0a3aca0f4901e2de1f51ad05b8ab0c1662bb46b61f4ec3f368964a3c19a6",
    "snapshot": "data/raw/milelion/post-74608-c9ddf1df.json"
   }
  },
  {
-  "card_id": null,
+  "card_id": "hsbc-revolution",
+  "card_ids": [
+   "hsbc-revolution"
+  ],
   "card_name": "HSBC Revolution Card",
   "title": "Review: HSBC Revolution Card",
   "url": "https://milelion.com/2026/04/08/review-hsbc-revolution-card/",
@@ -1172,18 +2178,87 @@
    "5999",
    "7512"
   ],
+  "overview": {
+   "income": [
+    "S$30,000 p.a. (with S$50K TRB) S$65,000 p.a. (otherwise)"
+   ],
+   "points_validity": [
+    "37 months"
+   ],
+   "annual_fee": [
+    "None"
+   ],
+   "min_transfer": [
+    "25,000 HSBC points (10,000 miles)"
+   ],
+   "miles_with_fee": [
+    "None"
+   ],
+   "transfer_partners": [
+    "20"
+   ],
+   "fcy_fee": [
+    "3.25%"
+   ],
+   "transfer_fee": [
+    "None"
+   ],
+   "local_earn": [
+    "0.4 mpd"
+   ],
+   "points_pool": [
+    "Yes"
+   ],
+   "fcy_earn": [
+    "0.4 mpd"
+   ],
+   "lounge_access": [
+    "No"
+   ],
+   "special_earn": [
+    "4 -8 mpd on dining, shopping, transport & membership clubs, travel"
+   ],
+   "airport_limo": [
+    "No"
+   ]
+  },
+  "facts": {
+   "points_expiry": {
+    "months": 37
+   },
+   "transfer_fee": 0.0,
+   "min_transfer": {
+    "points": 25000.0,
+    "points_name": "HSBC points",
+    "miles": 10000.0
+   },
+   "annual_fee": {
+    "amount": 0.0
+   },
+   "local_mpd": 0.4,
+   "fcy_mpd": 0.4
+  },
+  "spend_cycle": {
+   "calendar_month": [
+    "A base reward of 1x HSBC points per S$1 (0.4 mpd) A bonus reward of 9x HSBC points per S$1 (3.6 mpd) The bonus reward is capped at 9,000 points per calendar month, equivalent to S$1,000 of spending.",
+    "A base reward of 1x HSBC points per S$1 (0.4 mpd) A bonus reward of 19x HSBC points per S$1 (7.6 mpd) The bonus reward is capped at 22,800 points per calendar month, equivalent to S$1,200 of spending."
+   ]
+  },
   "citation": {
    "id": "milelion:67aa6b7a98df",
    "url": "https://milelion.com/2026/04/08/review-hsbc-revolution-card/",
    "title": "Review: HSBC Revolution Card",
    "source_type": "editorial",
-   "retrieved_at": "2026-09-27T05:28:52+00:00",
+   "retrieved_at": "2026-09-28T13:28:55+00:00",
    "sha256": "67aa6b7a98df0a5ab34c12fef5069dda50698bd797f1785af80fa27b831ae027",
    "snapshot": "data/raw/milelion/post-76421-e50fee02.json"
   }
  },
  {
-  "card_id": null,
+  "card_id": "krisflyer-uob",
+  "card_ids": [
+   "krisflyer-uob"
+  ],
   "card_name": "KrisFlyer UOB Credit Card",
   "title": "Review: KrisFlyer UOB Credit Card",
   "url": "https://milelion.com/2026/04/12/review-krisflyer-uob-credit-card/",
@@ -1241,18 +2316,77 @@
    "5947",
    "5999"
   ],
+  "overview": {
+   "income": [
+    "S$30,000 p.a."
+   ],
+   "points_validity": [
+    "3 years"
+   ],
+   "annual_fee": [
+    "S$196.20 (FYF)"
+   ],
+   "min_transfer": [
+    "N/A"
+   ],
+   "miles_with_fee": [
+    "10,000"
+   ],
+   "transfer_partners": [
+    "1"
+   ],
+   "fcy_fee": [
+    "3.25%"
+   ],
+   "transfer_fee": [
+    "N/A"
+   ],
+   "local_earn": [
+    "1.2 mpd"
+   ],
+   "points_pool": [
+    "N/A"
+   ],
+   "fcy_earn": [
+    "1.2 mpd"
+   ],
+   "lounge_access": [
+    "No"
+   ],
+   "special_earn": [
+    "3 mpd (SIA Group, Kris+, Pelago) 2.4 mpd (dining, online shopping & travel, transport)"
+   ],
+   "airport_limo": [
+    "No"
+   ]
+  },
+  "facts": {
+   "points_expiry": {
+    "months": 36
+   },
+   "annual_fee": {
+    "amount": 196.2,
+    "first_year_free": true
+   },
+   "income": 30000.0,
+   "local_mpd": 1.2,
+   "fcy_mpd": 1.2,
+   "converts": false
+  },
+  "spend_cycle": {},
   "citation": {
-   "id": "milelion:f5a7a64cc161",
+   "id": "milelion:8db2ce8000c9",
    "url": "https://milelion.com/2026/04/12/review-krisflyer-uob-credit-card/",
    "title": "Review: KrisFlyer UOB Credit Card",
    "source_type": "editorial",
-   "retrieved_at": "2026-09-27T05:28:51+00:00",
-   "sha256": "f5a7a64cc16186321dbd72d1ece882ddb3a3c278b93227aaaf5a70b084defd6f",
+   "retrieved_at": "2026-09-28T13:28:53+00:00",
+   "sha256": "8db2ce8000c9acf213ccf99cde11b68a4b6238932143b163fe8ac504c158e5d8",
    "snapshot": "data/raw/milelion/post-72939-f7a05b69.json"
   }
  },
  {
   "card_id": null,
+  "card_ids": [],
   "card_name": "DBS Insignia",
   "title": "Review: DBS Insignia",
   "url": "https://milelion.com/2026/04/25/review-dbs-insignia-credit-card/",
@@ -1280,18 +2414,83 @@
    "Here\u2019s where the Insignia\u2019s lacklustre FCY earn rate really counts against it, and I reckon you\u2019d be better off using the StanChart Beyond Card (uncapped 4 mpd for Priority Private customers) instead."
   ],
   "mcc_mentions": [],
+  "overview": {
+   "income": [
+    "S$500,000 p.a."
+   ],
+   "points_validity": [
+    "No expiry"
+   ],
+   "annual_fee": [
+    "S$3,270"
+   ],
+   "min_transfer": [
+    "5,000 DBS Points (10,000 miles)"
+   ],
+   "miles_with_fee": [
+    "100,000"
+   ],
+   "transfer_partners": [
+    "4"
+   ],
+   "fcy_fee": [
+    "3.25%"
+   ],
+   "transfer_fee": [
+    "Waived"
+   ],
+   "local_earn": [
+    "1.6 mpd"
+   ],
+   "points_pool": [
+    "Yes"
+   ],
+   "fcy_earn": [
+    "2 mpd"
+   ],
+   "lounge_access": [
+    "Yes"
+   ],
+   "special_earn": [
+    "N/A"
+   ],
+   "airport_limo": [
+    "No"
+   ]
+  },
+  "facts": {
+   "points_expiry": {
+    "never": true
+   },
+   "transfer_fee": 0.0,
+   "min_transfer": {
+    "points": 5000.0,
+    "points_name": "DBS Points",
+    "miles": 10000.0
+   },
+   "annual_fee": {
+    "amount": 3270.0
+   },
+   "income": 500000.0,
+   "local_mpd": 1.6,
+   "fcy_mpd": 2.0
+  },
+  "spend_cycle": {},
   "citation": {
    "id": "milelion:29889833edd7",
    "url": "https://milelion.com/2026/04/25/review-dbs-insignia-credit-card/",
    "title": "Review: DBS Insignia",
    "source_type": "editorial",
-   "retrieved_at": "2026-09-27T05:28:49+00:00",
+   "retrieved_at": "2026-09-28T13:28:52+00:00",
    "sha256": "29889833edd79618957e072cdf8649ef4ef859e4c9dad88863e6df708ec2a710",
    "snapshot": "data/raw/milelion/post-65007-e4929652.json"
   }
  },
  {
-  "card_id": null,
+  "card_id": "citi-premiermiles",
+  "card_ids": [
+   "citi-premiermiles"
+  ],
   "card_name": "Citi PremierMiles Card",
   "title": "Review: Citi PremierMiles Card",
   "url": "https://milelion.com/2026/05/16/review-citi-premiermiles-card/",
@@ -1341,18 +2540,85 @@
    ", but since Amaze converts all transactions to SGD, miles will be awarded at the local rate of 1.2 mpd."
   ],
   "mcc_mentions": [],
+  "overview": {
+   "income": [
+    "S$30,000 p.a."
+   ],
+   "points_validity": [
+    "No Expiry"
+   ],
+   "annual_fee": [
+    "S$196.20 (First Year Free)"
+   ],
+   "min_transfer": [
+    "10,000 Citi Miles (10,000 miles)"
+   ],
+   "miles_with_fee": [
+    "10,000"
+   ],
+   "transfer_partners": [
+    "11"
+   ],
+   "fcy_fee": [
+    "3.25%"
+   ],
+   "transfer_fee": [
+    "S$27.25"
+   ],
+   "local_earn": [
+    "1.2 mpd"
+   ],
+   "points_pool": [
+    "No"
+   ],
+   "fcy_earn": [
+    "2.2 mpd"
+   ],
+   "lounge_access": [
+    "2x Priority Pass"
+   ],
+   "special_earn": [
+    "7.2 mpd on Agoda 10 mpd on Kaligo"
+   ],
+   "airport_limo": [
+    "No"
+   ]
+  },
+  "facts": {
+   "points_expiry": {
+    "never": true
+   },
+   "transfer_fee": 27.25,
+   "min_transfer": {
+    "points": 10000.0,
+    "points_name": "Citi Miles",
+    "miles": 10000.0
+   },
+   "annual_fee": {
+    "amount": 196.2,
+    "first_year_free": true
+   },
+   "income": 30000.0,
+   "local_mpd": 1.2,
+   "fcy_mpd": 2.2
+  },
+  "spend_cycle": {},
   "citation": {
    "id": "milelion:c234b0a13d34",
    "url": "https://milelion.com/2026/05/16/review-citi-premiermiles-card/",
    "title": "Review: Citi PremierMiles Card",
    "source_type": "editorial",
-   "retrieved_at": "2026-09-27T05:28:48+00:00",
+   "retrieved_at": "2026-09-28T13:28:50+00:00",
    "sha256": "c234b0a13d34b5d29f3f815938f703758bf5bd59aede2640e1937945cada80b5",
    "snapshot": "data/raw/milelion/post-72800-cec127a6.json"
   }
  },
  {
   "card_id": null,
+  "card_ids": [
+   "dbs-altitude-american-express",
+   "dbs-altitude-visa-signature"
+  ],
   "card_name": "DBS Altitude Card",
   "title": "Review: DBS Altitude Card",
   "url": "https://milelion.com/2026/05/24/review-dbs-altitude-card/",
@@ -1400,18 +2666,84 @@
    "but otherwise there isn\u2019t much to get excited about \u2014 it doesn\u2019t help that the bi-annual 5 mpd overseas spending promotions have dried up!"
   ],
   "mcc_mentions": [],
+  "overview": {
+   "income": [
+    "S$30,000 p.a."
+   ],
+   "points_validity": [
+    "No expiry"
+   ],
+   "annual_fee": [
+    "S$196.20 (First Year Free)"
+   ],
+   "min_transfer": [
+    "5,000 DBS Points (10,000 miles)"
+   ],
+   "miles_with_fee": [
+    "10,000"
+   ],
+   "transfer_partners": [
+    "4"
+   ],
+   "fcy_fee": [
+    "3.25%"
+   ],
+   "transfer_fee": [
+    "S$27.25"
+   ],
+   "local_earn": [
+    "1.3 mpd"
+   ],
+   "points_pool": [
+    "Yes"
+   ],
+   "fcy_earn": [
+    "2.2 mpd"
+   ],
+   "lounge_access": [
+    "Yes (Visa)"
+   ],
+   "special_earn": [
+    "N/A"
+   ],
+   "airport_limo": [
+    "No"
+   ]
+  },
+  "facts": {
+   "points_expiry": {
+    "never": true
+   },
+   "transfer_fee": 27.25,
+   "min_transfer": {
+    "points": 5000.0,
+    "points_name": "DBS Points",
+    "miles": 10000.0
+   },
+   "annual_fee": {
+    "amount": 196.2,
+    "first_year_free": true
+   },
+   "income": 30000.0,
+   "local_mpd": 1.3,
+   "fcy_mpd": 2.2
+  },
+  "spend_cycle": {},
   "citation": {
    "id": "milelion:4aa7234670bb",
    "url": "https://milelion.com/2026/05/24/review-dbs-altitude-card/",
    "title": "Review: DBS Altitude Card",
    "source_type": "editorial",
-   "retrieved_at": "2026-09-27T05:28:46+00:00",
+   "retrieved_at": "2026-09-28T13:28:49+00:00",
    "sha256": "4aa7234670bbf36a0b7738620d9ae319787e6880e572c2bda158b2efedc33420",
    "snapshot": "data/raw/milelion/post-72991-0736e36f.json"
   }
  },
  {
-  "card_id": null,
+  "card_id": "ocbc-rewards",
+  "card_ids": [
+   "ocbc-rewards"
+  ],
   "card_name": "OCBC Rewards Card",
   "title": "Review: OCBC Rewards Card",
   "url": "https://milelion.com/2026/05/29/review-ocbc-titanium-rewards-card/",
@@ -1477,18 +2809,89 @@
    "5941",
    "5948"
   ],
+  "overview": {
+   "income": [
+    "S$30,000 p.a."
+   ],
+   "points_validity": [
+    "2 years"
+   ],
+   "annual_fee": [
+    "S$196.20 (2 Years Free)"
+   ],
+   "min_transfer": [
+    "25,000 OCBC$* (10,000 miles)"
+   ],
+   "miles_with_fee": [
+    "None"
+   ],
+   "transfer_partners": [
+    "9"
+   ],
+   "fcy_fee": [
+    "3.25%"
+   ],
+   "transfer_fee": [
+    "S$25"
+   ],
+   "local_earn": [
+    "0.4 mpd"
+   ],
+   "points_pool": [
+    "Yes"
+   ],
+   "fcy_earn": [
+    "0.4 mpd"
+   ],
+   "lounge_access": [
+    "No"
+   ],
+   "special_earn": [
+    "4 mpd on online and offline shopping"
+   ],
+   "airport_limo": [
+    "No"
+   ]
+  },
+  "facts": {
+   "points_expiry": {
+    "months": 24
+   },
+   "transfer_fee": 25.0,
+   "min_transfer": {
+    "points": 25000.0,
+    "points_name": "OCBC$",
+    "miles": 10000.0
+   },
+   "annual_fee": {
+    "amount": 196.2,
+    "first_year_free": true
+   },
+   "income": 30000.0,
+   "local_mpd": 0.4,
+   "fcy_mpd": 0.4
+  },
+  "spend_cycle": {
+   "calendar_month": [
+    "This bonus rate is capped at 10,000 bonus OCBC$ per calendar month , equivalent to S$1,110 of spending.",
+    "Watsons Q3 2025 to date: Shopee, Lazada, TikTok Shop, Taobao and Watsons No registration is required, and the 6 mpd earn rate is capped at S$1,000 per calendar month."
+   ]
+  },
   "citation": {
    "id": "milelion:82d29c0d47a0",
    "url": "https://milelion.com/2026/05/29/review-ocbc-titanium-rewards-card/",
    "title": "Review: OCBC Rewards Card",
    "source_type": "editorial",
-   "retrieved_at": "2026-09-27T05:28:45+00:00",
+   "retrieved_at": "2026-09-28T13:28:47+00:00",
    "sha256": "82d29c0d47a0440e6e28ff8e581b32faa62479fba202191ad001c2c31f09ad3a",
    "snapshot": "data/raw/milelion/post-73410-e289e801.json"
   }
  },
  {
-  "card_id": null,
+  "card_id": "uob-visa-infinite-metal",
+  "card_ids": [
+   "uob-visa-infinite-metal"
+  ],
   "card_name": "UOB Visa Infinite Metal Card",
   "title": "Review: UOB Visa Infinite Metal Card",
   "url": "https://milelion.com/2026/06/09/review-uob-visa-infinite-metal-card/",
@@ -1538,18 +2941,81 @@
    "7.4 mpd"
   ],
   "mcc_mentions": [],
+  "overview": {
+   "income": [
+    "S$120,000 p.a."
+   ],
+   "points_validity": [
+    "2 years"
+   ],
+   "annual_fee": [
+    "S$654"
+   ],
+   "min_transfer": [
+    "5,000 UNI$ (10,000 miles)"
+   ],
+   "miles_with_fee": [
+    "25,000"
+   ],
+   "transfer_partners": [
+    "3"
+   ],
+   "fcy_fee": [
+    "3.25%"
+   ],
+   "transfer_fee": [
+    "Waived"
+   ],
+   "local_earn": [
+    "1.4 mpd"
+   ],
+   "points_pool": [
+    "Yes"
+   ],
+   "fcy_earn": [
+    "2.4 mpd"
+   ],
+   "lounge_access": [
+    "Yes"
+   ],
+   "special_earn": [
+    "N/A"
+   ],
+   "airport_limo": [
+    "No"
+   ]
+  },
+  "facts": {
+   "points_expiry": {
+    "months": 24
+   },
+   "transfer_fee": 0.0,
+   "min_transfer": {
+    "points": 5000.0,
+    "points_name": "UNI$",
+    "miles": 10000.0
+   },
+   "annual_fee": {
+    "amount": 654.0
+   },
+   "income": 120000.0,
+   "local_mpd": 1.4,
+   "fcy_mpd": 2.4
+  },
+  "spend_cycle": {},
   "citation": {
    "id": "milelion:8814bd4efaee",
    "url": "https://milelion.com/2026/06/09/review-uob-visa-infinite-metal-card/",
    "title": "Review: UOB Visa Infinite Metal Card",
    "source_type": "editorial",
-   "retrieved_at": "2026-09-27T05:28:43+00:00",
+   "retrieved_at": "2026-09-28T13:28:46+00:00",
    "sha256": "8814bd4efaee242be180ea8e79a7a08b678cdb15f3ecb8e07d0fa8b474d5109b",
    "snapshot": "data/raw/milelion/post-73191-c31fa440.json"
   }
  },
  {
   "card_id": null,
+  "card_ids": [],
   "card_name": "UOB Reserve Card",
   "title": "Review: UOB Reserve Card",
   "url": "https://milelion.com/2026/06/14/review-uob-reserve-visa-infinite/",
@@ -1590,18 +3056,88 @@
    "Sure, there\u2019d be a lot of opportunity cost in putting so much spending on a general spending card, but again, the typical customer profile for this card has better things to do than min-max 4 mpd cards each month (not to mention their bonus caps would be a distant memory at such levels of spending)."
   ],
   "mcc_mentions": [],
+  "overview": {
+   "income": [
+    "S$500,000 p.a."
+   ],
+   "points_validity": [
+    "2 years"
+   ],
+   "annual_fee": [
+    "S$3,924"
+   ],
+   "min_transfer": [
+    "5,000 UNI$ (10,000 miles)"
+   ],
+   "miles_with_fee": [
+    "100,000"
+   ],
+   "transfer_partners": [
+    "3"
+   ],
+   "fcy_fee": [
+    "3.25%"
+   ],
+   "transfer_fee": [
+    "Waived"
+   ],
+   "local_earn": [
+    "1.6 mpd"
+   ],
+   "points_pool": [
+    "Yes"
+   ],
+   "fcy_earn": [
+    "2.4 mpd"
+   ],
+   "lounge_access": [
+    "Yes"
+   ],
+   "special_earn": [
+    "2 mpd on local luxury spend"
+   ],
+   "airport_limo": [
+    "Yes"
+   ]
+  },
+  "facts": {
+   "points_expiry": {
+    "months": 24
+   },
+   "transfer_fee": 0.0,
+   "min_transfer": {
+    "points": 5000.0,
+    "points_name": "UNI$",
+    "miles": 10000.0
+   },
+   "annual_fee": {
+    "amount": 3924.0
+   },
+   "income": 500000.0,
+   "local_mpd": 1.6,
+   "fcy_mpd": 2.4
+  },
+  "spend_cycle": {
+   "calendar_month": [
+    "Fine Jewellery Zenith This is capped at the first S$20,000 per calendar month, and any spend above this amount will earn the usual 1.6 mpd."
+   ]
+  },
   "citation": {
    "id": "milelion:ef98312aa679",
    "url": "https://milelion.com/2026/06/14/review-uob-reserve-visa-infinite/",
    "title": "Review: UOB Reserve Card",
    "source_type": "editorial",
-   "retrieved_at": "2026-09-27T05:28:42+00:00",
+   "retrieved_at": "2026-09-28T13:28:44+00:00",
    "sha256": "ef98312aa679315d15b2760998414daf6343a73d736891649027f2e1acc1a448",
    "snapshot": "data/raw/milelion/post-64750-6cd3a2f0.json"
   }
  },
  {
   "card_id": null,
+  "card_ids": [
+   "dbs-yuu-american-express",
+   "dbs-yuu-visa"
+  ],
   "card_name": "DBS yuu Card",
   "title": "Review: DBS yuu Card",
   "url": "https://milelion.com/2026/06/27/review-dbs-yuu-card/",
@@ -1631,18 +3167,89 @@
    "The DBS yuu Card offers an unbeatable 18% rebate or 10 mpd at yuu merchants, which makes it simply unthinkable to use any other card for such transactions."
   ],
   "mcc_mentions": [],
+  "overview": {
+   "income": [
+    "S$30,000 p.a."
+   ],
+   "points_validity": [
+    "2 years"
+   ],
+   "annual_fee": [
+    "S$196.20 (First Year Free)"
+   ],
+   "min_transfer": [
+    "200 yuu Points (56 miles)"
+   ],
+   "miles_with_fee": [
+    "N/A"
+   ],
+   "transfer_partners": [
+    "2"
+   ],
+   "fcy_fee": [
+    "3.25%"
+   ],
+   "transfer_fee": [
+    "Free"
+   ],
+   "local_earn": [
+    "0.14 mpd"
+   ],
+   "points_pool": [
+    "Yes"
+   ],
+   "fcy_earn": [
+    "0.14 mpd"
+   ],
+   "lounge_access": [
+    "No"
+   ],
+   "special_earn": [
+    "10 mpd at yuu merchants & SimplyGo"
+   ],
+   "airport_limo": [
+    "No"
+   ]
+  },
+  "facts": {
+   "points_expiry": {
+    "months": 24
+   },
+   "transfer_fee": 0.0,
+   "min_transfer": {
+    "points": 200.0,
+    "points_name": "yuu Points",
+    "miles": 56.0
+   },
+   "annual_fee": {
+    "amount": 196.2,
+    "first_year_free": true
+   },
+   "income": 30000.0,
+   "local_mpd": 0.14,
+   "fcy_mpd": 0.14
+  },
+  "spend_cycle": {
+   "calendar_month": [
+    "Bonus Reward 2 requires that cardholders meet a minimum spend of S$800 per calendar month.",
+    "4x merchant requirement Bonus Reward 2 also requires that cardholders spend at four different Participating Merchants per calendar month.",
+    "Bonus cap Bonus Reward 1 and Bonus Reward 2 have a combined cap of 28,800 points per calendar month, equivalent to S$822.86 of spending.",
+    "If you have a DBS yuu AMEX and DBS yuu Visa, you can earn 10 mpd on up to S$1,645.72 per calendar month, subject to meeting a minimum spend of S$800 on each card. \u2753 Isn\u2019t the Bonus Reward supposed to end on XXX?"
+   ]
+  },
   "citation": {
    "id": "milelion:ae0327cea06a",
    "url": "https://milelion.com/2026/06/27/review-dbs-yuu-card/",
    "title": "Review: DBS yuu Card",
    "source_type": "editorial",
-   "retrieved_at": "2026-09-27T05:28:39+00:00",
+   "retrieved_at": "2026-09-28T13:28:41+00:00",
    "sha256": "ae0327cea06a36c4ee8c840cfbbad4432a197440f97146ba5d766edca6ae6028",
    "snapshot": "data/raw/milelion/post-176991-cda8d936.json"
   }
  },
  {
   "card_id": null,
+  "card_ids": [],
   "card_name": "AMEX Solitaire PPS Credit Card",
   "title": "Review: AMEX Solitaire PPS Credit Card",
   "url": "https://milelion.com/2026/06/28/review-amex-solitaire-pps-credit-card/",
@@ -1692,18 +3299,81 @@
    "1.2 mpd"
   ],
   "mcc_mentions": [],
+  "overview": {
+   "income": [
+    "N/A*"
+   ],
+   "points_validity": [
+    "3 years"
+   ],
+   "annual_fee": [
+    "S$561.35 (FYF)"
+   ],
+   "min_transfer": [
+    "N/A"
+   ],
+   "miles_with_fee": [
+    "N/A"
+   ],
+   "transfer_partners": [
+    "1"
+   ],
+   "fcy_fee": [
+    "3.25%"
+   ],
+   "transfer_fee": [
+    "N/A"
+   ],
+   "local_earn": [
+    "\u2264S$3.8K: 1.3 mpd >S$3.8K: 1.5 mpd"
+   ],
+   "points_pool": [
+    "N/A"
+   ],
+   "fcy_earn": [
+    "\u2264S$3.8K: 1.3 mpd >S$3.8K: 2.4 mpd"
+   ],
+   "lounge_access": [
+    "No"
+   ],
+   "special_earn": [
+    "2 mpd on SIA, Scoot, KrisShop, Pelago"
+   ],
+   "airport_limo": [
+    "No"
+   ]
+  },
+  "facts": {
+   "points_expiry": {
+    "months": 36
+   },
+   "annual_fee": {
+    "amount": 561.35,
+    "first_year_free": true
+   },
+   "converts": false
+  },
+  "spend_cycle": {
+   "calendar_month": [
+    "First S$3,800 S$3,801 and more SGD 1.3 mpd 1.5 mpd FCY 1.3 mpd 2.4 mpd For spending up to S$3,800 per calendar month, both SGD and FCY spend earns 1.3 mpd For spending above S$3,800 per calendar month , SGD and FCY spend earns 1.5 mpd and 2.4 mpd respectively On",
+    "1.3 mpd 1.5 mpd FCY 1.3 mpd 2.4 mpd For spending up to S$3,800 per calendar month, both SGD and FCY spend earns 1.3 mpd For spending above S$3,800 per calendar month , SGD and FCY spend earns 1.5 mpd and 2.4 mpd respectively On the surface, these sound like competitive rates compared to other general spending"
+   ]
+  },
   "citation": {
    "id": "milelion:9660b7b7e773",
    "url": "https://milelion.com/2026/06/28/review-amex-solitaire-pps-credit-card/",
    "title": "Review: AMEX Solitaire PPS Credit Card",
    "source_type": "editorial",
-   "retrieved_at": "2026-09-27T05:28:37+00:00",
+   "retrieved_at": "2026-09-28T13:28:40+00:00",
    "sha256": "9660b7b7e77306ed9b3a1695b8b44186166c07c9bfbdd12da2f95a986d1e9095",
    "snapshot": "data/raw/milelion/post-692789-b6ab567c.json"
   }
  },
  {
-  "card_id": null,
+  "card_id": "maybank-xl-rewards",
+  "card_ids": [
+   "maybank-xl-rewards"
+  ],
   "card_name": "Maybank XL Rewards Card",
   "title": "Review: Maybank XL Rewards Card",
   "url": "https://milelion.com/2026/07/05/review-maybank-xl-rewards-card/",
@@ -1746,18 +3416,92 @@
    "5499",
    "7011"
   ],
+  "overview": {
+   "income": [
+    "S$30,000 p.a."
+   ],
+   "points_validity": [
+    "12-15 months"
+   ],
+   "annual_fee": [
+    "S$87.20 (F2YF)"
+   ],
+   "min_transfer": [
+    "25,000 points (10,000 miles)*"
+   ],
+   "miles_with_fee": [
+    "N/A"
+   ],
+   "transfer_partners": [
+    "4"
+   ],
+   "fcy_fee": [
+    "3.25%"
+   ],
+   "transfer_fee": [
+    "S$27.25"
+   ],
+   "local_earn": [
+    "0.4 mpd"
+   ],
+   "points_pool": [
+    "Yes"
+   ],
+   "fcy_earn": [
+    "4 mpd"
+   ],
+   "lounge_access": [
+    "No"
+   ],
+   "special_earn": [
+    "4 mpd on dining, shopping, travel, entertainment"
+   ],
+   "airport_limo": [
+    "No"
+   ]
+  },
+  "facts": {
+   "points_expiry": {
+    "months": 12,
+    "months_max": 15
+   },
+   "transfer_fee": 27.25,
+   "min_transfer": {
+    "points": 25000.0,
+    "points_name": "points",
+    "miles": 10000.0
+   },
+   "annual_fee": {
+    "amount": 87.2,
+    "first_year_free": true
+   },
+   "income": 30000.0,
+   "local_mpd": 0.4,
+   "fcy_mpd": 4.0
+  },
+  "spend_cycle": {
+   "calendar_month": [
+    "online and offline) SGD spending on dining, shopping, travel and entertainment (both online and offline) This is subject to a minimum spend of S$500 per calendar month, and capped at S$1,000 per calendar month.",
+    "shopping, travel and entertainment (both online and offline) This is subject to a minimum spend of S$500 per calendar month, and capped at S$1,000 per calendar month."
+   ]
+  },
   "citation": {
    "id": "milelion:4caa28e3958a",
    "url": "https://milelion.com/2026/07/05/review-maybank-xl-rewards-card/",
    "title": "Review: Maybank XL Rewards Card",
    "source_type": "editorial",
-   "retrieved_at": "2026-09-27T05:28:36+00:00",
+   "retrieved_at": "2026-09-28T13:28:38+00:00",
    "sha256": "4caa28e3958a2d1aefc34066d93538ed01a2be17cf561e87ff1b3cac81b23b18",
    "snapshot": "data/raw/milelion/post-362981-856beacc.json"
   }
  },
  {
   "card_id": null,
+  "card_ids": [
+   "uob-prvi-miles-american-express",
+   "uob-prvi-miles-visa",
+   "uob-prvi-miles-world-mastercard"
+  ],
   "card_name": "UOB PRVI Miles Card",
   "title": "Review: UOB PRVI Miles Card",
   "url": "https://milelion.com/2026/07/08/review-uob-prvi-miles-card/",
@@ -1807,18 +3551,83 @@
    "8 mpd"
   ],
   "mcc_mentions": [],
+  "overview": {
+   "income": [
+    "S$30,000 p.a."
+   ],
+   "points_validity": [
+    "2 years"
+   ],
+   "annual_fee": [
+    "S$261.60 (FYF)"
+   ],
+   "min_transfer": [
+    "5,000 UNI$ (10,000 miles)"
+   ],
+   "miles_with_fee": [
+    "N/A"
+   ],
+   "transfer_partners": [
+    "3"
+   ],
+   "fcy_fee": [
+    "3.25%"
+   ],
+   "transfer_fee": [
+    "S$27"
+   ],
+   "local_earn": [
+    "1.4 mpd"
+   ],
+   "points_pool": [
+    "Yes"
+   ],
+   "fcy_earn": [
+    "2.4 mpd (3 mpd for IDR, MYR, THB, VND)"
+   ],
+   "lounge_access": [
+    "4x Priority Pass"
+   ],
+   "special_earn": [
+    "8 mpd on Agoda, Up to 8 mpd on Expedia"
+   ],
+   "airport_limo": [
+    "No"
+   ]
+  },
+  "facts": {
+   "points_expiry": {
+    "months": 24
+   },
+   "transfer_fee": 27.0,
+   "min_transfer": {
+    "points": 5000.0,
+    "points_name": "UNI$",
+    "miles": 10000.0
+   },
+   "annual_fee": {
+    "amount": 261.6,
+    "first_year_free": true
+   },
+   "income": 30000.0,
+   "local_mpd": 1.4
+  },
+  "spend_cycle": {},
   "citation": {
    "id": "milelion:5186c3fd83fc",
    "url": "https://milelion.com/2026/07/08/review-uob-prvi-miles-card/",
    "title": "Review: UOB PRVI Miles Card",
    "source_type": "editorial",
-   "retrieved_at": "2026-09-27T05:28:34+00:00",
+   "retrieved_at": "2026-09-28T13:28:37+00:00",
    "sha256": "5186c3fd83fcb24cc0dfbb8d9158021be3d0f0fed6ab789a4eec5cbbc8126958",
    "snapshot": "data/raw/milelion/post-72937-ebb92233.json"
   }
  },
  {
-  "card_id": null,
+  "card_id": "boc-elite-miles-world-mastercard",
+  "card_ids": [
+   "boc-elite-miles-world-mastercard"
+  ],
   "card_name": "BOC Elite Miles World Mastercard",
   "title": "Review: BOC Elite Miles World Mastercard",
   "url": "https://milelion.com/2026/07/14/review-boc-elite-miles-world-mastercard/",
@@ -1868,18 +3677,83 @@
    "4-8.8 mpd"
   ],
   "mcc_mentions": [],
+  "overview": {
+   "income": [
+    "S$30,000 p.a."
+   ],
+   "points_validity": [
+    "12-24 months"
+   ],
+   "annual_fee": [
+    "S$207.10 (FYF)"
+   ],
+   "min_transfer": [
+    "50,000 pts (10,000 miles)"
+   ],
+   "miles_with_fee": [
+    "N/A"
+   ],
+   "transfer_partners": [
+    "1"
+   ],
+   "fcy_fee": [
+    "3%"
+   ],
+   "transfer_fee": [
+    "S$30.56"
+   ],
+   "local_earn": [
+    "1.4 mpd"
+   ],
+   "points_pool": [
+    "No"
+   ],
+   "fcy_earn": [
+    "2.8 mpd"
+   ],
+   "lounge_access": [
+    "No"
+   ],
+   "special_earn": [
+    "N/A"
+   ],
+   "airport_limo": [
+    "No"
+   ]
+  },
+  "facts": {
+   "points_expiry": {
+    "months": 12,
+    "months_max": 24
+   },
+   "transfer_fee": 30.56,
+   "min_transfer": {
+    "points": 50000.0,
+    "points_name": "pts",
+    "miles": 10000.0
+   },
+   "annual_fee": {
+    "amount": 207.1,
+    "first_year_free": true
+   },
+   "income": 30000.0,
+   "local_mpd": 1.4,
+   "fcy_mpd": 2.8
+  },
+  "spend_cycle": {},
   "citation": {
    "id": "milelion:64f87053376f",
    "url": "https://milelion.com/2026/07/14/review-boc-elite-miles-world-mastercard/",
    "title": "Review: BOC Elite Miles World Mastercard",
    "source_type": "editorial",
-   "retrieved_at": "2026-09-27T05:28:33+00:00",
+   "retrieved_at": "2026-09-28T13:28:35+00:00",
    "sha256": "64f87053376fe852e5496d3c27e5f23e79865b4ac05cc77aaec3b8e351941b6a",
    "snapshot": "data/raw/milelion/post-72871-95594480.json"
   }
  },
  {
   "card_id": null,
+  "card_ids": [],
   "card_name": "AMEX PPS Credit Card",
   "title": "Review: AMEX PPS Credit Card",
   "url": "https://milelion.com/2026/07/19/review-amex-pps-credit-card/",
@@ -1929,18 +3803,81 @@
    "1.2 mpd"
   ],
   "mcc_mentions": [],
+  "overview": {
+   "income": [
+    "N/A*"
+   ],
+   "points_validity": [
+    "3 years"
+   ],
+   "annual_fee": [
+    "S$561.35 (FYF)"
+   ],
+   "min_transfer": [
+    "N/A"
+   ],
+   "miles_with_fee": [
+    "N/A"
+   ],
+   "transfer_partners": [
+    "1"
+   ],
+   "fcy_fee": [
+    "3.25%"
+   ],
+   "transfer_fee": [
+    "N/A"
+   ],
+   "local_earn": [
+    "\u2264S$3.8K: 1.3 mpd >S$3.8K: 1.4 mpd"
+   ],
+   "points_pool": [
+    "N/A"
+   ],
+   "fcy_earn": [
+    "\u2264S$3.8K: 1.3 mpd >S$3.8K: 2 mpd"
+   ],
+   "lounge_access": [
+    "No"
+   ],
+   "special_earn": [
+    "2 mpd on SIA, Scoot, KrisShop, Pelago"
+   ],
+   "airport_limo": [
+    "No"
+   ]
+  },
+  "facts": {
+   "points_expiry": {
+    "months": 36
+   },
+   "annual_fee": {
+    "amount": 561.35,
+    "first_year_free": true
+   },
+   "converts": false
+  },
+  "spend_cycle": {
+   "calendar_month": [
+    "First S$3,800 S$3,801 and more SGD 1.3 mpd 1.4 mpd FCY 1.3 mpd 2 mpd For spending up to S$3,800 per calendar month, both SGD and FCY spend earns 1.3 mpd For spending above S$3,800 per calendar month , SGD and FCY spend earns 1.4 mpd and 2 mpd respectively On the",
+    "SGD 1.3 mpd 1.4 mpd FCY 1.3 mpd 2 mpd For spending up to S$3,800 per calendar month, both SGD and FCY spend earns 1.3 mpd For spending above S$3,800 per calendar month , SGD and FCY spend earns 1.4 mpd and 2 mpd respectively On the surface, these sound like competitive rates \u2014 but they\u2019re not."
+   ]
+  },
   "citation": {
    "id": "milelion:46d161c69c6a",
    "url": "https://milelion.com/2026/07/19/review-amex-pps-credit-card/",
    "title": "Review: AMEX PPS Credit Card",
    "source_type": "editorial",
-   "retrieved_at": "2026-09-27T05:28:30+00:00",
+   "retrieved_at": "2026-09-28T13:28:32+00:00",
    "sha256": "46d161c69c6ab715a391d46a9a15828a06e4da281aad73dee2b196530ebcf4cf",
    "snapshot": "data/raw/milelion/post-740184-c52a95f1.json"
   }
  },
  {
-  "card_id": null,
+  "card_id": "standard-chartered-visa-infinite",
+  "card_ids": [
+   "standard-chartered-visa-infinite"
+  ],
   "card_name": "Standard Chartered Visa Infinite Card",
   "title": "Review: Standard Chartered Visa Infinite Card",
   "url": "https://milelion.com/2026/07/20/review-standard-chartered-visa-infinite-card/",
@@ -1990,18 +3927,90 @@
    "uncapped 2.8 mpd"
   ],
   "mcc_mentions": [],
+  "overview": {
+   "income": [
+    "S$150,000 p.a."
+   ],
+   "points_validity": [
+    "No expiry"
+   ],
+   "annual_fee": [
+    "S$599.50"
+   ],
+   "min_transfer": [
+    "25,000 points (10,000 miles)"
+   ],
+   "miles_with_fee": [
+    "20,000 (second year onwards)"
+   ],
+   "transfer_partners": [
+    "2"
+   ],
+   "fcy_fee": [
+    "3.5%"
+   ],
+   "transfer_fee": [
+    "S$27.25"
+   ],
+   "local_earn": [
+    "Up to 1.4 mpd"
+   ],
+   "points_pool": [
+    "Yes"
+   ],
+   "fcy_earn": [
+    "Up to 3 mpd"
+   ],
+   "lounge_access": [
+    "Yes"
+   ],
+   "special_earn": [
+    "N/A"
+   ],
+   "airport_limo": [
+    "No"
+   ]
+  },
+  "facts": {
+   "points_expiry": {
+    "never": true
+   },
+   "transfer_fee": 27.25,
+   "min_transfer": {
+    "points": 25000.0,
+    "points_name": "points",
+    "miles": 10000.0
+   },
+   "annual_fee": {
+    "amount": 599.5
+   },
+   "income": 150000.0
+  },
+  "spend_cycle": {
+   "statement_month": [
+    "S$2K spend per statement month, otherwise 1 mpd The Visa Infinite offers better earn rates, but the Priority Visa Infinite waives its annual fee and offers the same number of",
+    "for spending in Singapore Dollars (2.5 SC points per S$1) 1 mpd for spending in FCY (2.5 SC points per S$1) However, if they spend at least $2,000 per statement month, they will unlock step-up earn rates of: 1.4 mpd for spending in Singapore Dollars (3.5 SC points per S$1) 3 mpd for spending in FCY (7.5 SC points",
+    "For example, if you spend S$3,000 per statement month, all in SGD, you\u2019ll earn 4,200 miles (S$3,000 @ 1.4 mpd)."
+   ],
+   "calendar_month": [
+    "FCY Fee 3.5% 3.25% Cost Per Mile 1.17\u00a2 1.16\u00a2 Maybank Horizon Cardholders earn an uncapped 2.8 mpd on FCY spend provided they spend at least S$800 per calendar month, without the hefty annual fee of the Standard Chartered Visa Infinite.",
+    "And if you\u2019re able to meet a minimum spend of S$4,000 per calendar month instead, then the Maybank World Mastercard offers an uncapped 3.2 mpd on FCY spend , again without the mandatory annual fee of the Standard",
+    "per s. month S$4,000 per c. month FCY Fee 3.5% 3.25% Cost Per Mile 1.17\u00a2 1.02\u00a2 ^2.8 mpd if cardholder spends at least S$800 but less than S$4,000 per calendar month Therefore, the FCY earn rate \u2014 once the standout feature of the Standard Chartered Visa Infinite \u2014 now seems far less compelling, given that other"
+   ]
+  },
   "citation": {
    "id": "milelion:25a59567425a",
    "url": "https://milelion.com/2026/07/20/review-standard-chartered-visa-infinite-card/",
    "title": "Review: Standard Chartered Visa Infinite Card",
    "source_type": "editorial",
-   "retrieved_at": "2026-09-27T05:28:28+00:00",
+   "retrieved_at": "2026-09-28T13:28:31+00:00",
    "sha256": "25a59567425a39b9d78c0455af971538910ecd865e02da8badfadceba3b2ba0a",
    "snapshot": "data/raw/milelion/post-149371-ae762223.json"
   }
  },
  {
   "card_id": null,
+  "card_ids": [],
   "card_name": "HSBC Premier Mastercard",
   "title": "Review: HSBC Premier Mastercard",
   "url": "https://milelion.com/2026/07/22/review-hsbc-premier-mastercard/",
@@ -2051,18 +4060,81 @@
    "2.76 mpd"
   ],
   "mcc_mentions": [],
+  "overview": {
+   "income": [
+    "S$30,000 p.a."
+   ],
+   "points_validity": [
+    "37 months"
+   ],
+   "annual_fee": [
+    "S$708.50 (waivable)"
+   ],
+   "min_transfer": [
+    "25,000 HSBC Points (10,000 miles)"
+   ],
+   "miles_with_fee": [
+    "\u2013"
+   ],
+   "transfer_partners": [
+    "20"
+   ],
+   "fcy_fee": [
+    "3.25%"
+   ],
+   "transfer_fee": [
+    "Free"
+   ],
+   "local_earn": [
+    "1.68 mpd"
+   ],
+   "points_pool": [
+    "Yes"
+   ],
+   "fcy_earn": [
+    "2.76 mpd"
+   ],
+   "lounge_access": [
+    "Yes"
+   ],
+   "special_earn": [
+    "\u2013"
+   ],
+   "airport_limo": [
+    "Yes"
+   ]
+  },
+  "facts": {
+   "points_expiry": {
+    "months": 37
+   },
+   "transfer_fee": 0.0,
+   "min_transfer": {
+    "points": 25000.0,
+    "points_name": "HSBC Points",
+    "miles": 10000.0
+   },
+   "annual_fee": {
+    "amount": 708.5
+   },
+   "income": 30000.0,
+   "local_mpd": 1.68,
+   "fcy_mpd": 2.76
+  },
+  "spend_cycle": {},
   "citation": {
    "id": "milelion:05989c898dc0",
    "url": "https://milelion.com/2026/07/22/review-hsbc-premier-mastercard/",
    "title": "Review: HSBC Premier Mastercard",
    "source_type": "editorial",
-   "retrieved_at": "2026-09-27T05:28:27+00:00",
+   "retrieved_at": "2026-09-28T13:28:29+00:00",
    "sha256": "05989c898dc0a3d14d10291447b91ca9f0a5d610f72b8ad9e80d71099e262fc6",
    "snapshot": "data/raw/milelion/post-407619-f2340dfe.json"
   }
  },
  {
   "card_id": null,
+  "card_ids": [],
   "card_name": "OCBC Premier Visa Infinite",
   "title": "Review: OCBC Premier Visa Infinite",
   "url": "https://milelion.com/2026/07/26/review-ocbc-premier-visa-infinite/",
@@ -2112,18 +4184,81 @@
    "1.28mpd"
   ],
   "mcc_mentions": [],
+  "overview": {
+   "income": [
+    "S$30,000 p.a."
+   ],
+   "points_validity": [
+    "2 years"
+   ],
+   "annual_fee": [
+    "None"
+   ],
+   "min_transfer": [
+    "25,000 OCBC$* (10,000 miles)"
+   ],
+   "miles_with_fee": [
+    "None"
+   ],
+   "transfer_partners": [
+    "9"
+   ],
+   "fcy_fee": [
+    "3.25%"
+   ],
+   "transfer_fee": [
+    "S$25"
+   ],
+   "local_earn": [
+    "1.28 mpd"
+   ],
+   "points_pool": [
+    "Yes"
+   ],
+   "fcy_earn": [
+    "2.24 mpd"
+   ],
+   "lounge_access": [
+    "No"
+   ],
+   "special_earn": [
+    "N/A"
+   ],
+   "airport_limo": [
+    "No"
+   ]
+  },
+  "facts": {
+   "points_expiry": {
+    "months": 24
+   },
+   "transfer_fee": 25.0,
+   "min_transfer": {
+    "points": 25000.0,
+    "points_name": "OCBC$",
+    "miles": 10000.0
+   },
+   "annual_fee": {
+    "amount": 0.0
+   },
+   "income": 30000.0,
+   "local_mpd": 1.28,
+   "fcy_mpd": 2.24
+  },
+  "spend_cycle": {},
   "citation": {
    "id": "milelion:172fcfd8bab4",
    "url": "https://milelion.com/2026/07/26/review-ocbc-premier-visa-infinite/",
    "title": "Review: OCBC Premier Visa Infinite",
    "source_type": "editorial",
-   "retrieved_at": "2026-09-27T05:28:25+00:00",
+   "retrieved_at": "2026-09-28T13:28:28+00:00",
    "sha256": "172fcfd8bab45bd9f7c6d944bc3113a10db3e62a98d10a977017f12f3435af0d",
    "snapshot": "data/raw/milelion/post-763389-84ccf89f.json"
   }
  },
  {
   "card_id": null,
+  "card_ids": [],
   "card_name": "DCS Imperium Card",
   "title": "Review: DCS Imperium Card",
   "url": "https://milelion.com/2026/07/30/review-dcs-imperium-card/",
@@ -2155,18 +4290,81 @@
    "4 mpd for FCY) when the transaction initially posts, and an additional bonus (1.6 mpd for FCY) at the end of the month, if you meet the minimum monthly spend."
   ],
   "mcc_mentions": [],
+  "overview": {
+   "income": [
+    "By invitation only"
+   ],
+   "points_validity": [
+    "No expiry"
+   ],
+   "annual_fee": [
+    "S$1,294.92"
+   ],
+   "min_transfer": [
+    "Unknown"
+   ],
+   "miles_with_fee": [
+    "40,000"
+   ],
+   "transfer_partners": [
+    "1"
+   ],
+   "fcy_fee": [
+    "3.25%"
+   ],
+   "transfer_fee": [
+    "Unknown"
+   ],
+   "local_earn": [
+    "1.6 mpd"
+   ],
+   "points_pool": [
+    "N/A"
+   ],
+   "fcy_earn": [
+    "Up to 4 mpd"
+   ],
+   "lounge_access": [
+    "Yes"
+   ],
+   "special_earn": [
+    "N/A"
+   ],
+   "airport_limo": [
+    "Yes"
+   ]
+  },
+  "facts": {
+   "points_expiry": {
+    "never": true
+   },
+   "annual_fee": {
+    "amount": 1294.92
+   },
+   "local_mpd": 1.6
+  },
+  "spend_cycle": {
+   "calendar_month": [
+    "Imperium Points for every S$1 spent in FCY (2.4 mpd) 10 Imperium Points for every S$1 spent in FCY (4 mpd) , with a minimum spend of S$4,000 in FCY per calendar month For the avoidance of doubt, if you spend at least S$4,000 in FCY during a calendar month, you will earn 4 mpd from the very first S$1 of spend.",
+    "in FCY (4 mpd) , with a minimum spend of S$4,000 in FCY per calendar month For the avoidance of doubt, if you spend at least S$4,000 in FCY during a calendar month, you will earn 4 mpd from the very first S$1 of spend.",
+    "That\u2019s an attractive price, though remember, you must spend at least S$4,000 in FCY per calendar month to qualify."
+   ]
+  },
   "citation": {
    "id": "milelion:aeb276705c68",
    "url": "https://milelion.com/2026/07/30/review-dcs-imperium-card/",
    "title": "Review: DCS Imperium Card",
    "source_type": "editorial",
-   "retrieved_at": "2026-09-27T05:28:22+00:00",
+   "retrieved_at": "2026-09-28T13:28:25+00:00",
    "sha256": "aeb276705c68c09b0d754e996128343a4ae02efb268ec7b7987be5d59da2cff2",
    "snapshot": "data/raw/milelion/post-308501-abbde308.json"
   }
  },
  {
-  "card_id": null,
+  "card_id": "uob-visa-signature",
+  "card_ids": [
+   "uob-visa-signature"
+  ],
   "card_name": "UOB Visa Signature Card",
   "title": "Review: UOB Visa Signature Card",
   "url": "https://milelion.com/2026/08/10/review-uob-visa-signature-card/",
@@ -2218,18 +4416,92 @@
   "mcc_mentions": [
    "5541"
   ],
+  "overview": {
+   "income": [
+    "S$30,000 p.a."
+   ],
+   "points_validity": [
+    "24-27 months"
+   ],
+   "annual_fee": [
+    "S$218 (First Year Free)"
+   ],
+   "min_transfer": [
+    "5,000 UNI$ (10,000 miles)"
+   ],
+   "miles_with_fee": [
+    "N/A"
+   ],
+   "transfer_partners": [
+    "4"
+   ],
+   "fcy_fee": [
+    "3.25%"
+   ],
+   "transfer_fee": [
+    "S$27"
+   ],
+   "local_earn": [
+    "4 mpd"
+   ],
+   "points_pool": [
+    "Yes"
+   ],
+   "fcy_earn": [
+    "4 mpd"
+   ],
+   "lounge_access": [
+    "No"
+   ],
+   "special_earn": [
+    "4 mpd on petrol and SimplyGo"
+   ],
+   "airport_limo": [
+    "No"
+   ]
+  },
+  "facts": {
+   "points_expiry": {
+    "months": 24,
+    "months_max": 27
+   },
+   "transfer_fee": 27.0,
+   "min_transfer": {
+    "points": 5000.0,
+    "points_name": "UNI$",
+    "miles": 10000.0
+   },
+   "annual_fee": {
+    "amount": 218.0,
+    "first_year_free": true
+   },
+   "income": 30000.0,
+   "local_mpd": 4.0,
+   "fcy_mpd": 4.0
+  },
+  "spend_cycle": {
+   "statement_month": [
+    "UNI$ 2,160 UNI$ Monthly Cap (S$) S$1,200 S$1,200 Caps are based on statement month Category 1 (Overseas Spend): A minimum spend of S$1,000 in FCY in a statement month, capped at S$1,200 per statement month Category 2 (Petrol and Contactless): Spend at least S$1,000 in SGD in a statement month, capped at S$1,200",
+    "S$1,200 Caps are based on statement month Category 1 (Overseas Spend): A minimum spend of S$1,000 in FCY in a statement month, capped at S$1,200 per statement month Category 2 (Petrol and Contactless): Spend at least S$1,000 in SGD in a statement month, capped at S$1,200 per statement month Category 1 and 2 can",
+    "of S$1,000 in FCY in a statement month, capped at S$1,200 per statement month Category 2 (Petrol and Contactless): Spend at least S$1,000 in SGD in a statement month, capped at S$1,200 per statement month Category 1 and 2 can be mutually exclusive.",
+    "capped at S$1,200 per statement month Category 2 (Petrol and Contactless): Spend at least S$1,000 in SGD in a statement month, capped at S$1,200 per statement month Category 1 and 2 can be mutually exclusive."
+   ]
+  },
   "citation": {
    "id": "milelion:ccdde960944c",
    "url": "https://milelion.com/2026/08/10/review-uob-visa-signature-card/",
    "title": "Review: UOB Visa Signature Card",
    "source_type": "editorial",
-   "retrieved_at": "2026-09-27T05:28:21+00:00",
+   "retrieved_at": "2026-09-28T13:28:23+00:00",
    "sha256": "ccdde960944c9d5931345009185d0965690da538dee6e3079c1f51362c6142fd",
    "snapshot": "data/raw/milelion/post-125998-b208437b.json"
   }
  },
  {
-  "card_id": null,
+  "card_id": "dbs-womans-world",
+  "card_ids": [
+   "dbs-womans-world"
+  ],
   "card_name": "DBS Woman\u2019s World Card",
   "title": "Review: DBS Woman\u2019s World Card",
   "url": "https://milelion.com/2026/08/11/review-dbs-womans-world-card/",
@@ -2273,18 +4545,89 @@
   "mcc_mentions": [
    "7399"
   ],
+  "overview": {
+   "income": [
+    "S$80,000 p.a."
+   ],
+   "points_validity": [
+    "12-15 months"
+   ],
+   "annual_fee": [
+    "S$196.20 (First Year Free)"
+   ],
+   "min_transfer": [
+    "5,000 DBS Points (10,000 miles)"
+   ],
+   "miles_with_fee": [
+    "None"
+   ],
+   "transfer_partners": [
+    "4"
+   ],
+   "fcy_fee": [
+    "3.25%"
+   ],
+   "transfer_fee": [
+    "S$27.25"
+   ],
+   "local_earn": [
+    "0.4 mpd"
+   ],
+   "points_pool": [
+    "Yes"
+   ],
+   "fcy_earn": [
+    "1.2 mpd"
+   ],
+   "lounge_access": [
+    "No"
+   ],
+   "special_earn": [
+    "4 mpd on online spending"
+   ],
+   "airport_limo": [
+    "No"
+   ]
+  },
+  "facts": {
+   "points_expiry": {
+    "months": 12,
+    "months_max": 15
+   },
+   "transfer_fee": 27.25,
+   "min_transfer": {
+    "points": 5000.0,
+    "points_name": "DBS Points",
+    "miles": 10000.0
+   },
+   "annual_fee": {
+    "amount": 196.2,
+    "first_year_free": true
+   },
+   "income": 80000.0,
+   "local_mpd": 0.4,
+   "fcy_mpd": 1.2
+  },
+  "spend_cycle": {
+   "calendar_month": [
+    "for every S$5 spent online in Singapore Dollars (4 mpd) 10 DBS Points for every S$5 spent online in FCY (4 mpd) The bonus cap used to be S$2,000 per calendar month, but was cut to S$1,500 in March 2024 , and then further to S$1,000 in August 2025."
+   ]
+  },
   "citation": {
    "id": "milelion:32616126a4a7",
    "url": "https://milelion.com/2026/08/11/review-dbs-womans-world-card/",
    "title": "Review: DBS Woman\u2019s World Card",
    "source_type": "editorial",
-   "retrieved_at": "2026-09-27T05:28:19+00:00",
+   "retrieved_at": "2026-09-28T13:28:23+00:00",
    "sha256": "32616126a4a725ba23330243e1af4df31743764bd112935a6479d729b9582c20",
    "snapshot": "data/raw/milelion/post-72765-a61d53a6.json"
   }
  },
  {
-  "card_id": null,
+  "card_id": "dbs-vantage-visa-infinite",
+  "card_ids": [
+   "dbs-vantage-visa-infinite"
+  ],
   "card_name": "DBS Vantage Card",
   "title": "Review: DBS Vantage Card",
   "url": "https://milelion.com/2026/08/12/review-dbs-vantage-card/",
@@ -2323,18 +4666,82 @@
    "With a 2.2 mpd earn rate and a 3."
   ],
   "mcc_mentions": [],
+  "overview": {
+   "income": [
+    "S$120,000 p.a."
+   ],
+   "points_validity": [
+    "36-39 months"
+   ],
+   "annual_fee": [
+    "S$599.50"
+   ],
+   "min_transfer": [
+    "5,000 DBS Points (10,000 miles)"
+   ],
+   "miles_with_fee": [
+    "25,000"
+   ],
+   "transfer_partners": [
+    "4"
+   ],
+   "fcy_fee": [
+    "3.25%"
+   ],
+   "transfer_fee": [
+    "S$27.25"
+   ],
+   "local_earn": [
+    "1.5 mpd"
+   ],
+   "points_pool": [
+    "Yes"
+   ],
+   "fcy_earn": [
+    "2.2 mpd"
+   ],
+   "lounge_access": [
+    "10x"
+   ],
+   "special_earn": [
+    "N/A"
+   ],
+   "airport_limo": [
+    "No"
+   ]
+  },
+  "facts": {
+   "points_expiry": {
+    "months": 36,
+    "months_max": 39
+   },
+   "transfer_fee": 27.25,
+   "min_transfer": {
+    "points": 5000.0,
+    "points_name": "DBS Points",
+    "miles": 10000.0
+   },
+   "annual_fee": {
+    "amount": 599.5
+   },
+   "income": 120000.0,
+   "local_mpd": 1.5,
+   "fcy_mpd": 2.2
+  },
+  "spend_cycle": {},
   "citation": {
    "id": "milelion:f3f89f11b3b4",
    "url": "https://milelion.com/2026/08/12/review-dbs-vantage-card/",
    "title": "Review: DBS Vantage Card",
    "source_type": "editorial",
-   "retrieved_at": "2026-09-27T05:28:18+00:00",
+   "retrieved_at": "2026-09-28T13:28:20+00:00",
    "sha256": "f3f89f11b3b4cd60eace129cfcdf60d7334e0e4ad39b7d6b52ae7422476fc4da",
    "snapshot": "data/raw/milelion/post-125552-ef67cc4a.json"
   }
  },
  {
   "card_id": null,
+  "card_ids": [],
   "card_name": "Instarem Amaze Card",
   "title": "Review: Instarem Amaze Card",
   "url": "https://milelion.com/2026/08/15/instarem-amaze-card-review/",
@@ -2360,18 +4767,60 @@
    "first, which offers 1 mpd on up to S$1,000 of monthly spend"
   ],
   "mcc_mentions": [],
+  "overview": {
+   "income": [
+    "None"
+   ],
+   "points_validity": [
+    "12 months"
+   ],
+   "annual_fee": [
+    "None"
+   ],
+   "min_transfer": [
+    "1,200 points (400 miles)"
+   ],
+   "fcy_fee": [
+    "None"
+   ],
+   "transfer_partners": [
+    "1"
+   ],
+   "transfer_fee": [
+    "None"
+   ]
+  },
+  "facts": {
+   "points_expiry": {
+    "months": 12
+   },
+   "transfer_fee": 0.0,
+   "min_transfer": {
+    "points": 1200.0,
+    "points_name": "points",
+    "miles": 400.0
+   },
+   "annual_fee": {
+    "amount": 0.0
+   }
+  },
+  "spend_cycle": {},
   "citation": {
    "id": "milelion:a105df63bc75",
    "url": "https://milelion.com/2026/08/15/instarem-amaze-card-review/",
    "title": "Review: Instarem Amaze Card",
    "source_type": "editorial",
-   "retrieved_at": "2026-09-27T05:28:16+00:00",
+   "retrieved_at": "2026-09-28T13:28:19+00:00",
    "sha256": "a105df63bc756160fd23548048691d3da1a08de59cd5f84d59aab1d1688b80fa",
    "snapshot": "data/raw/milelion/post-98001-0daf3bb8.json"
   }
  },
  {
   "card_id": null,
+  "card_ids": [
+   "uob-ladys",
+   "uob-ladys-solitaire"
+  ],
   "card_name": "UOB Lady\u2019s Card & UOB Lady\u2019s Solitaire Card",
   "title": "Review: UOB Lady\u2019s Card & UOB Lady\u2019s Solitaire Card",
   "url": "https://milelion.com/2026/08/18/review-uob-ladys-card-ladys-solitaire/",
@@ -2431,18 +4880,81 @@
    "5309",
    "5311"
   ],
+  "overview": {
+   "income": [
+    "S$30,000 p.a. Lady\u2019s",
+    "S$120,000 p.a. Solitaire"
+   ],
+   "points_validity": [
+    "24-27 months"
+   ],
+   "annual_fee": [
+    "S$196.20 (FYF) Lady\u2019s",
+    "S$414.20 (FYF) Solitaire"
+   ],
+   "min_transfer": [
+    "5,000 UNI$ (10,000 miles)"
+   ],
+   "fcy_fee": [
+    "3.25%"
+   ],
+   "transfer_fee": [
+    "S$27"
+   ],
+   "local_earn": [
+    "0.4 mpd"
+   ],
+   "points_pool": [
+    "Yes"
+   ],
+   "fcy_earn": [
+    "0.4 mpd"
+   ],
+   "lounge_access": [
+    "No"
+   ],
+   "special_earn": [
+    "4 mpd on 1 or 2 bonus categories"
+   ],
+   "airport_limo": [
+    "No"
+   ]
+  },
+  "facts": {
+   "points_expiry": {
+    "months": 24,
+    "months_max": 27
+   },
+   "transfer_fee": 27.0,
+   "min_transfer": {
+    "points": 5000.0,
+    "points_name": "UNI$",
+    "miles": 10000.0
+   },
+   "local_mpd": 0.4,
+   "fcy_mpd": 0.4
+  },
+  "spend_cycle": {
+   "calendar_month": [
+    "For example, if a UOB Lady\u2019s Cardholder upgrades to the UOB Lady\u2019s Solitaire and holds both cards, their bonus cap will still be S$1,500 per calendar month, for two bonus categories.",
+    "Likewise, if a UOB Lady\u2019s Solitaire Cardholder downgrades to the UOB Lady\u2019s Card and holds both cards, their bonus cap will still be S$1,000 per calendar month, for one bonus category."
+   ]
+  },
   "citation": {
    "id": "milelion:b711b717fccc",
    "url": "https://milelion.com/2026/08/18/review-uob-ladys-card-ladys-solitaire/",
    "title": "Review: UOB Lady\u2019s Card & UOB Lady\u2019s Solitaire Card",
    "source_type": "editorial",
-   "retrieved_at": "2026-09-27T05:28:15+00:00",
+   "retrieved_at": "2026-09-28T13:28:17+00:00",
    "sha256": "b711b717fccc59e79beba4b13fbbb25ca8d17471111cbcae8a4a64b97b6572aa",
    "snapshot": "data/raw/milelion/post-74173-17e1b02f.json"
   }
  },
  {
-  "card_id": null,
+  "card_id": "citi-prestige",
+  "card_ids": [
+   "citi-prestige"
+  ],
   "card_name": "Citi Prestige Card",
   "title": "Review: Citi Prestige Card",
   "url": "https://milelion.com/2026/08/22/review-citi-prestige-card/",
@@ -2492,18 +5004,83 @@
    "Otherwise 2 mpd"
   ],
   "mcc_mentions": [],
+  "overview": {
+   "income": [
+    "S$120,000 p.a."
+   ],
+   "points_validity": [
+    "No expiry"
+   ],
+   "annual_fee": [
+    "S$651.82"
+   ],
+   "min_transfer": [
+    "25,000 TY points (10,000 miles)"
+   ],
+   "miles_with_fee": [
+    "32,000"
+   ],
+   "transfer_partners": [
+    "11"
+   ],
+   "fcy_fee": [
+    "3.25%"
+   ],
+   "transfer_fee": [
+    "S$27.25"
+   ],
+   "local_earn": [
+    "1.3 mpd"
+   ],
+   "points_pool": [
+    "No"
+   ],
+   "fcy_earn": [
+    "2 mpd"
+   ],
+   "lounge_access": [
+    "Yes"
+   ],
+   "special_earn": [
+    "N/A"
+   ],
+   "airport_limo": [
+    "Yes"
+   ]
+  },
+  "facts": {
+   "points_expiry": {
+    "never": true
+   },
+   "transfer_fee": 27.25,
+   "min_transfer": {
+    "points": 25000.0,
+    "points_name": "TY points",
+    "miles": 10000.0
+   },
+   "annual_fee": {
+    "amount": 651.82
+   },
+   "income": 120000.0,
+   "local_mpd": 1.3,
+   "fcy_mpd": 2.0
+  },
+  "spend_cycle": {},
   "citation": {
    "id": "milelion:9468b762c7cc",
    "url": "https://milelion.com/2026/08/22/review-citi-prestige-card/",
    "title": "Review: Citi Prestige Card",
    "source_type": "editorial",
-   "retrieved_at": "2026-09-27T05:28:13+00:00",
+   "retrieved_at": "2026-09-28T13:28:16+00:00",
    "sha256": "9468b762c7ccba008d123fe7146607f7521bbd8b87a3bd95bcccedaa55eeaceb",
    "snapshot": "data/raw/milelion/post-73847-a6e63c85.json"
   }
  },
  {
-  "card_id": null,
+  "card_id": "maybank-horizon-visa-signature",
+  "card_ids": [
+   "maybank-horizon-visa-signature"
+  ],
   "card_name": "Maybank Horizon Visa Signature Card",
   "title": "Review: Maybank Horizon Visa Signature Card",
   "url": "https://milelion.com/2026/08/24/review-maybank-horizon-visa-signature-card/",
@@ -2555,18 +5132,99 @@
   "mcc_mentions": [
    "3000"
   ],
+  "overview": {
+   "income": [
+    "S$30,000 p.a."
+   ],
+   "points_validity": [
+    "12-15 months"
+   ],
+   "annual_fee": [
+    "S$196.20 (3 yrs free)"
+   ],
+   "min_transfer": [
+    "25,000 points (10,000 miles)*"
+   ],
+   "miles_with_fee": [
+    "N/A"
+   ],
+   "transfer_partners": [
+    "4"
+   ],
+   "fcy_fee": [
+    "3.25%"
+   ],
+   "transfer_fee": [
+    "S$27.25"
+   ],
+   "local_earn": [
+    "0.16 to 1.2 mpd"
+   ],
+   "points_pool": [
+    "Yes"
+   ],
+   "fcy_earn": [
+    "2.8 mpd"
+   ],
+   "lounge_access": [
+    "No"
+   ],
+   "special_earn": [
+    "2.8 mpd on air tickets"
+   ],
+   "airport_limo": [
+    "No"
+   ]
+  },
+  "facts": {
+   "points_expiry": {
+    "months": 12,
+    "months_max": 15
+   },
+   "transfer_fee": 27.25,
+   "min_transfer": {
+    "points": 25000.0,
+    "points_name": "points",
+    "miles": 10000.0
+   },
+   "annual_fee": {
+    "amount": 196.2,
+    "first_year_free": true
+   },
+   "income": 30000.0,
+   "fcy_mpd": 2.8
+  },
+  "spend_cycle": {
+   "calendar_month": [
+    "structure is rather complicated, with four possible earn rates (0.16 mpd, 0.4 mpd, 1.2 mpd, 2.8 mpd) depending on category of spend, and total spend per calendar month.",
+    "If you spend <S$800 per calendar month Currency Category Earn Rate Local Education Insurance Medical Rentals Professional Services 0.16 mpd Dining Food Delivery Supermarkets Transport",
+    "This is capped at S$3,000 per calendar month , or 480 miles.",
+    "For the avoidance of doubt, FCY spend on Selected Categories will earn either 1.2 mpd (<S$800 per calendar month) or 2.8 mpd (\u2265S$800 per calendar month), with no cap, as the FCY spending bonus takes precedence.",
+    "If you spend \u2265S$800 per calendar month Currency Category Earn Rate Local Education Insurance Medical Rentals Professional Services 0.16 mpd Dining Food Delivery Supermarkets Transport",
+    "Travel Packages Car Rental 1.2 mpd All Other SGD Spend 0.4 mpd Local or FCY Air Tickets 2.8 mpd* FCY All FCY Spend 2.8 mpd *Capped at S$10,000 per calendar month for air tickets in SGD, no cap for FCY air tickets Selected Categories (0.16 mpd) No changes here.",
+    "Air tickets (2.8 mpd) If you spend at least S$800 per calendar month, the Maybank Horizon Visa Signature Card will earn 35 TREATS Points per S$5 spent (2.8 mpd) on air tickets, capped at S$10,000 per calendar month.",
+    "per calendar month, the Maybank Horizon Visa Signature Card will earn 35 TREATS Points per S$5 spent (2.8 mpd) on air tickets, capped at S$10,000 per calendar month.",
+    "FCY spend (2.8 mpd) If you spend at least S$800 per calendar month, the Maybank Horizon Visa Signature Card will earn 35 TREATS Points per S$5 spent (2.8 mpd) on FCY spend, without any cap.",
+    "tickets Spend <S$800 per calendar month Base Points (3X) Round down transaction to the nearest S$5, divide by 5, then multiply by 15 Spend \u2265S$800 per calendar month Base Points (3X) Round down transaction to the nearest S$5, divide by 5, then multiply by 15 Bonus Points (4X) Sum up all eligible transactions.",
+    "For FCY spend & air tickets Spend <S$800 per calendar month Base Points (3X) =ROUND (ROUNDDOWN(X/5,0)*15,0) Where X= Amount Spent Spend \u2265S$800 per calendar month Base Points (3X) =ROUND (ROUNDDOWN(X/5,0)*15,0) Bonus Points (4X) =ROUND(Y/5*20,0) Where X= Amount Spent, Y= Sum of all eligible transactions For"
+   ]
+  },
   "citation": {
    "id": "milelion:972594901b95",
    "url": "https://milelion.com/2026/08/24/review-maybank-horizon-visa-signature-card/",
    "title": "Review: Maybank Horizon Visa Signature Card",
    "source_type": "editorial",
-   "retrieved_at": "2026-09-27T05:28:12+00:00",
+   "retrieved_at": "2026-09-28T13:28:14+00:00",
    "sha256": "972594901b95451329fa27a7f6e52cc7c08cdf05a87c4ccc47932dfa2ad596cf",
    "snapshot": "data/raw/milelion/post-151653-ae02919f.json"
   }
  },
  {
   "card_id": null,
+  "card_ids": [
+   "standard-chartered-journey-annual-fee-paying",
+   "standard-chartered-journey-annual-fee-waiver"
+  ],
   "card_name": "Standard Chartered Journey Card",
   "title": "Review: Standard Chartered Journey Card",
   "url": "https://milelion.com/2026/08/30/review-standard-chartered-journey-card/",
@@ -2628,18 +5286,78 @@
    "5814",
    "5921"
   ],
+  "overview": {
+   "annual_fee": [
+    "S$196.20"
+   ],
+   "min_transfer": [
+    "25,000 points (10,000 miles)*"
+   ],
+   "miles_with_fee": [
+    "10,000"
+   ],
+   "transfer_partners": [
+    "2"
+   ],
+   "fcy_fee": [
+    "3.5%"
+   ],
+   "transfer_fee": [
+    "S$27.25"
+   ],
+   "local_earn": [
+    "1.2 mpd"
+   ],
+   "points_pool": [
+    "Yes"
+   ],
+   "fcy_earn": [
+    "2 mpd"
+   ],
+   "lounge_access": [
+    "Yes"
+   ],
+   "special_earn": [
+    "3 mpd on online groceries, food delivery, transport (SGD)"
+   ],
+   "airport_limo": [
+    "No"
+   ]
+  },
+  "facts": {
+   "transfer_fee": 27.25,
+   "min_transfer": {
+    "points": 25000.0,
+    "points_name": "points",
+    "miles": 10000.0
+   },
+   "annual_fee": {
+    "amount": 196.2
+   },
+   "local_mpd": 1.2,
+   "fcy_mpd": 2.0
+  },
+  "spend_cycle": {
+   "statement_month": [
+    "but the bonus is subject to the following conditions: the transaction must be made online the transaction must be made in SGD a cap of S$1,000 per statement month applies; any spending beyond the cap will earn the regular base rate of 1.2 mpd A few important things to note: While Standard Chartered uses the"
+   ]
+  },
   "citation": {
    "id": "milelion:9721894f0381",
    "url": "https://milelion.com/2026/08/30/review-standard-chartered-journey-card/",
    "title": "Review: Standard Chartered Journey Card",
    "source_type": "editorial",
-   "retrieved_at": "2026-09-27T05:28:10+00:00",
+   "retrieved_at": "2026-09-28T13:28:14+00:00",
    "sha256": "9721894f03813071f78582e954ad493df806e05a5c2510ba5c10e6d6d29df4eb",
    "snapshot": "data/raw/milelion/post-146312-95d3bb09.json"
   }
  },
  {
   "card_id": null,
+  "card_ids": [
+   "ocbc-90-n-mastercard",
+   "ocbc-90-n-visa"
+  ],
   "card_name": "OCBC 90\u00b0N Card",
   "title": "Review: OCBC 90\u00b0N Card",
   "url": "https://milelion.com/2026/09/13/review-ocbc-90n-card/",
@@ -2699,18 +5417,86 @@
    "8398",
    "9399"
   ],
+  "overview": {
+   "income": [
+    "S$30,000 p.a."
+   ],
+   "points_validity": [
+    "No expiry"
+   ],
+   "annual_fee": [
+    "S$196.20 (FYF)"
+   ],
+   "min_transfer": [
+    "1,000 90\u00b0N Miles* (Up to 1,000 miles)"
+   ],
+   "miles_with_fee": [
+    "10,000"
+   ],
+   "transfer_partners": [
+    "9"
+   ],
+   "fcy_fee": [
+    "3.25%"
+   ],
+   "transfer_fee": [
+    "S$25"
+   ],
+   "local_earn": [
+    "1.3 mpd"
+   ],
+   "points_pool": [
+    "Yes"
+   ],
+   "fcy_earn": [
+    "2.1 mpd"
+   ],
+   "lounge_access": [
+    "No"
+   ],
+   "special_earn": [
+    "7 mpd on Agoda"
+   ],
+   "airport_limo": [
+    "No"
+   ]
+  },
+  "facts": {
+   "points_expiry": {
+    "never": true
+   },
+   "transfer_fee": 25.0,
+   "min_transfer": {
+    "points": 1000.0,
+    "points_name": "90\u00b0N Miles",
+    "miles": 1000.0
+   },
+   "annual_fee": {
+    "amount": 196.2,
+    "first_year_free": true
+   },
+   "income": 30000.0,
+   "local_mpd": 1.3,
+   "fcy_mpd": 2.1
+  },
+  "spend_cycle": {
+   "calendar_month": [
+    "OCBC 90\u00b0N Cardholders who spend at least S$500 per calendar month on their card are eligible to earn bonus interest of 0.25% p.a. on the first S$100,000 in their OCBC 360 account."
+   ]
+  },
   "citation": {
    "id": "milelion:4e723e3504aa",
    "url": "https://milelion.com/2026/09/13/review-ocbc-90n-card/",
    "title": "Review: OCBC 90\u00b0N Card",
    "source_type": "editorial",
-   "retrieved_at": "2026-09-27T05:28:09+00:00",
+   "retrieved_at": "2026-09-28T13:28:11+00:00",
    "sha256": "4e723e3504aad9cfacbcb3cc551da70e1ed23cd829abc5d0f390544d727f1ab5",
    "snapshot": "data/raw/milelion/post-55469-c31fa035.json"
   }
  },
  {
   "card_id": null,
+  "card_ids": [],
   "card_name": "Chocolate Visa Card",
   "title": "Review: Chocolate Visa Card",
   "url": "https://milelion.com/2026/09/23/review-chocolate-visa-card/",
@@ -2760,18 +5546,78 @@
    "8011",
    "9311"
   ],
+  "overview": {
+   "income": [
+    "N/A"
+   ],
+   "points_validity": [
+    "No expiry"
+   ],
+   "annual_fee": [
+    "None"
+   ],
+   "min_transfer": [
+    "1,000 miles"
+   ],
+   "miles_with_fee": [
+    "None"
+   ],
+   "transfer_partners": [
+    "1 (Max Miles, which in turn has 20+ partners)"
+   ],
+   "fcy_fee": [
+    "None"
+   ],
+   "transfer_fee": [
+    "None"
+   ],
+   "local_earn": [
+    "1 mpd on first S$2K, 0.4 mpd after"
+   ],
+   "points_pool": [
+    "N/A"
+   ],
+   "lounge_access": [
+    "N/A"
+   ],
+   "special_earn": [
+    "N/A"
+   ],
+   "airport_limo": [
+    "N/A"
+   ]
+  },
+  "facts": {
+   "points_expiry": {
+    "never": true
+   },
+   "transfer_fee": 0.0,
+   "annual_fee": {
+    "amount": 0.0
+   }
+  },
+  "spend_cycle": {
+   "calendar_month": [
+    "How many miles do I earn? \ud83c\uddf8\ud83c\uddec SGD Spend \ud83c\udf0e FCY Spend \u2b50 Bonus Spend 1 mpd on first S$2K, 0.4 mpd after N/A The Chocolate Visa Card earns: First S$2,000 per calendar month: 1 Max Mile per S$1 Above S$2,000 per calendar month: 0.4 Max Miles per S$1 There is no cap on the miles that can be earned, though obviously the",
+    "Bonus Spend 1 mpd on first S$2K, 0.4 mpd after N/A The Chocolate Visa Card earns: First S$2,000 per calendar month: 1 Max Mile per S$1 Above S$2,000 per calendar month: 0.4 Max Miles per S$1 There is no cap on the miles that can be earned, though obviously the earn rate is a lot less lucrative after the first",
+    "Cap on miles for bill payments Cardholders are capped at earning a maximum of 300 Max Miles per calendar month from so-called \u201cbill payments\u201d."
+   ]
+  },
   "citation": {
    "id": "milelion:c554fc1aaa5e",
    "url": "https://milelion.com/2026/09/23/review-chocolate-visa-card/",
    "title": "Review: Chocolate Visa Card",
    "source_type": "editorial",
-   "retrieved_at": "2026-09-27T05:28:07+00:00",
+   "retrieved_at": "2026-09-28T13:28:10+00:00",
    "sha256": "c554fc1aaa5ebac3e7d77bcd221181086502bb35e55c12883adc0d50ffa95f12",
    "snapshot": "data/raw/milelion/post-752519-84550fa2.json"
   }
  },
  {
-  "card_id": null,
+  "card_id": "trust-freedom",
+  "card_ids": [
+   "trust-freedom"
+  ],
   "card_name": "Trust Freedom Card",
   "title": "Review: Trust Freedom Card",
   "url": "https://milelion.com/2026/09/24/review-trust-freedom-card/",
@@ -2834,18 +5680,84 @@
    "8999",
    "9211"
   ],
+  "overview": {
+   "income": [
+    "S$30,000 p.a."
+   ],
+   "points_validity": [
+    "3-4 years"
+   ],
+   "annual_fee": [
+    "None"
+   ],
+   "min_transfer": [
+    "1 Trust Mile (1 mile)"
+   ],
+   "miles_with_fee": [
+    "N/A"
+   ],
+   "transfer_partners": [
+    "2"
+   ],
+   "fcy_fee": [
+    "None"
+   ],
+   "transfer_fee": [
+    "S$27.25"
+   ],
+   "local_earn": [
+    "1.3 mpd"
+   ],
+   "points_pool": [
+    "No"
+   ],
+   "fcy_earn": [
+    "1.3 mpd"
+   ],
+   "lounge_access": [
+    "No"
+   ],
+   "special_earn": [
+    "N/A"
+   ],
+   "airport_limo": [
+    "No"
+   ]
+  },
+  "facts": {
+   "points_expiry": {
+    "months": 36,
+    "months_max": 48
+   },
+   "transfer_fee": 27.25,
+   "min_transfer": {
+    "points": 1.0,
+    "points_name": "Trust Mile",
+    "miles": 1.0
+   },
+   "annual_fee": {
+    "amount": 0.0
+   },
+   "income": 30000.0,
+   "local_mpd": 1.3,
+   "fcy_mpd": 1.3
+  },
+  "spend_cycle": {},
   "citation": {
    "id": "milelion:5d73ef99d444",
    "url": "https://milelion.com/2026/09/24/review-trust-freedom-card/",
    "title": "Review: Trust Freedom Card",
    "source_type": "editorial",
-   "retrieved_at": "2026-09-27T05:28:06+00:00",
+   "retrieved_at": "2026-09-28T13:28:08+00:00",
    "sha256": "5d73ef99d444d5d4d9a4110d342ecccafe6c40558a80dc8844f53ca7817299d5",
    "snapshot": "data/raw/milelion/post-833462-801a9532.json"
   }
  },
  {
-  "card_id": null,
+  "card_id": "maybank-world-mastercard",
+  "card_ids": [
+   "maybank-world-mastercard"
+  ],
   "card_name": "Maybank World Mastercard",
   "title": "Review: Maybank World Mastercard",
   "url": "https://milelion.com/2026/09/27/review-maybank-world-mastercard/",
@@ -2897,12 +5809,85 @@
   "mcc_mentions": [
    "5541"
   ],
+  "overview": {
+   "income": [
+    "S$80,000 p.a."
+   ],
+   "points_validity": [
+    "No expiry"
+   ],
+   "annual_fee": [
+    "S$261.60 (FYF)"
+   ],
+   "min_transfer": [
+    "25,000 points (10,000 miles)*"
+   ],
+   "miles_with_fee": [
+    "N/A"
+   ],
+   "transfer_partners": [
+    "4"
+   ],
+   "fcy_fee": [
+    "3.25%"
+   ],
+   "transfer_fee": [
+    "S$27.25"
+   ],
+   "local_earn": [
+    "0.4 mpd"
+   ],
+   "points_pool": [
+    "Yes"
+   ],
+   "fcy_earn": [
+    "Up to 3.2 mpd"
+   ],
+   "lounge_access": [
+    "No"
+   ],
+   "special_earn": [
+    "4 mpd on petrol and specialty retail & dining"
+   ],
+   "airport_limo": [
+    "No"
+   ]
+  },
+  "facts": {
+   "points_expiry": {
+    "never": true
+   },
+   "transfer_fee": 27.25,
+   "min_transfer": {
+    "points": 25000.0,
+    "points_name": "points",
+    "miles": 10000.0
+   },
+   "annual_fee": {
+    "amount": 261.6,
+    "first_year_free": true
+   },
+   "income": 80000.0,
+   "local_mpd": 0.4
+  },
+  "spend_cycle": {
+   "calendar_month": [
+    "The overseas earn rate is usually 0.4 mpd, but: Cardholders who spend at least S$800 per calendar month earn 2.8 mpd Cardholders who spend at least S$4,000 per calendar month earn 3.2 mpd Upsized earn rates apply from the very first S$1 of spend , and",
+    "earn rate is usually 0.4 mpd, but: Cardholders who spend at least S$800 per calendar month earn 2.8 mpd Cardholders who spend at least S$4,000 per calendar month earn 3.2 mpd Upsized earn rates apply from the very first S$1 of spend , and not just the incremental spending.",
+    "for the opportunity cost, the cost per mile with the Maybank World Mastercard increases to 1.62 cents \u2014 provided you can spend at least S$4,000 per calendar month.",
+    "City, VivoCity Victoria\u2019s Secret: Mandarin Gallery, VivoCity, ION Orchard Luxury Galleria at Resorts World Sentosa (capped at 50,000 TREATS Points per calendar month) Beauty Love Coach Furla Hugo Boss Longchamp Michael Kors Montblanc Omega Panerai Polo Ralph Lauren Salvatore Ferragamo Swarovski Swiss Watch",
+    "<S$800 per calendar month Base Points (1X) Round down transaction to the nearest S$5, divide by 5, then multiply by 5 Spend \u2265S$800 and <S$4,000 per calendar month Base Points (1X) Round down transaction to the nearest S$5, divide by 5, then multiply by 5 Bonus Points (6X) Sum up all eligible transactions.",
+    "Round to the nearest whole number Spend \u2265S$4,000 per calendar month Base Points (1X) Round down transaction to the nearest S$5, divide by 5, then multiply by 5 Bonus Points (7X) Sum up all eligible transactions.",
+    "points: For FCY spend Spend <S$800 per calendar month Base Points (1X) =ROUND (ROUNDDOWN(X/5,0)*5,0) Where X= Amount Spent Spend \u2265S$800 and <S$4,000 per calendar month Base Points (1X) =ROUND (ROUNDDOWN(X/5,0)*5,0) Bonus Points (6X) =ROUND(Y/5*30,0) Where X= Amount Spent, Y= Sum of all eligible transactions Spend",
+    "(1X) =ROUND (ROUNDDOWN(X/5,0)*5,0) Bonus Points (6X) =ROUND(Y/5*30,0) Where X= Amount Spent, Y= Sum of all eligible transactions Spend \u2265S$4,000 per calendar month Base Points (1X) =ROUND (ROUNDDOWN(X/5,0)*5,0) Bonus Points (7X) =ROUND(Y/5*35,0) Where X= Amount Spent, Y= Sum of all eligible transactions For"
+   ]
+  },
   "citation": {
    "id": "milelion:a66187e7cbf3",
    "url": "https://milelion.com/2026/09/27/review-maybank-world-mastercard/",
    "title": "Review: Maybank World Mastercard",
    "source_type": "editorial",
-   "retrieved_at": "2026-09-27T05:28:04+00:00",
+   "retrieved_at": "2026-09-28T13:28:07+00:00",
    "sha256": "a66187e7cbf32df3d49f2b1b7a2a69d4f58daf7bb103a70f4360d52b07485d21",
    "snapshot": "data/raw/milelion/post-183960-21e730a2.json"
   }

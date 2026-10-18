@@ -1,12 +1,12 @@
 import { useMemo, useState } from "react";
 import {
-  CalendarPlus, Check, CircleCheck, HandCoins, Pencil, Plus, Receipt, Search, Spade, Target, Trash2, Undo2, Wallet,
+  CalendarPlus, Check, CircleCheck, HandCoins, Hourglass, Pencil, Plus, Receipt, Search, Spade, Target, Trash2, Undo2, Wallet,
 } from "lucide-react";
 import type { CatalogCard, MyCard, SpendPeriod } from "../types";
 import { useUser } from "../lib/store";
 import { billCycles, daysBetween, feeInstance, fmtDate, relDays, spendWindow, spentInWindow, toYmd } from "../lib/dates";
 import { FEE_GRACE_DAYS, type Reminder } from "../lib/reminders";
-import { fmtMoney, fmtRate, headlineRule } from "../lib/catalog";
+import { fmtExpiry, fmtMoney, fmtRate, headlineRule } from "../lib/catalog";
 import { buildIcs } from "../lib/ics";
 import { download } from "../lib/storage";
 import { patchCard, uid, useWalletActions } from "../lib/wallet";
@@ -180,6 +180,8 @@ function CardTile({ card, onEdit, onBill, onFee }: {
   const feeDone = fee ? card.fees[fee] : undefined;
   const feeIn = fee ? daysBetween(on, fee) : 0;
   const billSoon = state.settings.billReminderDays;
+  const tracksExpiry = cat?.kind === "miles" && !cat.expiry?.never;
+  const expiryIn = card.pointsExpiry ? daysBetween(on, card.pointsExpiry) : 0;
 
   return (
     <article className="tile">
@@ -245,6 +247,20 @@ function CardTile({ card, onEdit, onBill, onFee }: {
           <button type="button" className="link" onClick={onEdit}>Add annual fee date</button>
         )}
       </div>
+
+      {tracksExpiry && (
+        <div className="tile-row">
+          <Hourglass size={18} className="row-icon" aria-hidden />
+          {card.pointsExpiry ? (
+            <div className="row-text">
+              <p>Points expire <strong>{fmtDate(card.pointsExpiry, true)}</strong></p>
+              <p className={`sub ${expiryIn < 0 ? "warn-text" : ""}`}>{expiryIn < 0 ? `Expired ${relDays(expiryIn)}` : relDays(expiryIn)}</p>
+            </div>
+          ) : (
+            <button type="button" className="link" onClick={onEdit}>Add points expiry date</button>
+          )}
+        </div>
+      )}
 
       <div className="tile-row spend">
         <Target size={18} className="row-icon" aria-hidden />
@@ -380,6 +396,20 @@ function EditCardSheet({ card, onClose }: { card: MyCard | null; onClose: () => 
           </div>
           <p className="hint">Usually the month you were approved. It shows on the statement where the fee first appeared.</p>
         </fieldset>
+
+        {cat?.kind === "miles" && !cat.expiry?.never && (
+          <fieldset>
+            <legend>Points expiry</legend>
+            <div className="grid2">
+              <label>Expiry date<input type="date" value={card.pointsExpiry ?? ""}
+                onChange={(e) => set({ pointsExpiry: e.target.value || undefined })} /></label>
+            </div>
+            <p className="hint">
+              When your earliest unredeemed points expire, as shown in your bank's rewards page.
+              {fmtExpiry(cat.expiry) && <> Points validity per the T&Cs: {fmtExpiry(cat.expiry)}.</>}
+            </p>
+          </fieldset>
+        )}
 
         <fieldset>
           <legend>Spend targets</legend>

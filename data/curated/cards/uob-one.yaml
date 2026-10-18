@@ -1,5 +1,5 @@
 # Curated card record. Auto-drafted from staged sources; verify every value against the
-# official T&Cs (citations below), then set review.status: reviewed.
+# official T&Cs (citations below), then set review.status: reviewed and review.reviewed_at.
 id: uob-one
 bank: UOB
 name: UOB One Card
@@ -10,111 +10,181 @@ annual_fee:
     amount: 196.2
     currency: SGD
   first_year_waived: true
-  waiver_notes: S$ | First Year Waived
-  sources: ['singsaver:b75574a4d371']
+  waiver_notes: S$196.20 incl. GST; first year waived. 1st supplementary card free.
+  sources: ['web:uob-one-page']
 min_annual_income:
   amount: 30000.0
   currency: SGD
 reward_currency:
   kind: cashback
   name: Cashback
+  expiry:
+    months: 24
+    note: Forfeited 2 calendar years after the quarter it was awarded, or on card cancellation
+    sources: ['bank:2ed33269412e']
 earn_rules:
-- id: local
-  label: local (SingSaver — verify)
-  rate: 20.0
+- id: quarterly
+  label: Quarterly cashback on all eligible spend (S$60/S$100/S$200 per quarter)
+  rate: 3.33
   unit: percent
   tier: bonus
   eligibility:
-    include_mcc: ['4829', '5199', '5960', '5965', '5993', '6012', '6050', '6051', '6211', '6300', '6399',
-      '6513', '6529', '6530', '6534', '6540', '7349', '7511', '7523', '7995', '8062', '8211', '8220',
-      '8241', '8244', '8249', '8299', '8398', '8651', '8661', '8699', '8999', '9211', '9222', '9223',
-      '9311', '9399', '9402', '9405']
-    description: Up to | Up to 20% cashback on daily spend at McDonald’s, Grab, SimplyGo (bus/train rides)
-      and Shopee; up to 18% cashback on all grocery spend; and up to 4.33% on SP Group and more.  [include_mcc
-      auto-extracted from official T&C — check it belongs to this rule]
-    sources: ['singsaver:b75574a4d371', 'bank:2ed33269412e', 'bank:8876b22d62f2', 'bank:799ed3a9a4fa',
-      'bank:3dd0f7414dc4', 'bank:42358e29d735', 'bank:c13cf48e44b4', 'bank:bed290b5b010']
+    all_spend: true
+    description: Fixed S$60 (Tier 1, S$600/month), S$100 (Tier 2, S$1,000/month) or S$200 (Tier 3, S$2,000/month)
+      per quarter — 3.33% at each tier threshold; spend between thresholds earns nothing extra
+    sources: ['bank:2ed33269412e']
   min_spend:
     amount: 600.0
     currency: SGD
   min_spend_period: statement_month
+  bonus_cap:
+    amount: 200.0
+    unit: SGD_cashback
+    period: quarter
+    sources: ['bank:2ed33269412e']
   conditions:
-  - min spend S$600/month from singsaver — confirm the period (statement vs calendar month) and which
-    rules it unlocks
-  sources: ['singsaver:b75574a4d371']
-- id: local-online-shopping
-  label: local online shopping, retail, transport, dining (SingSaver — verify)
+  - 'Quarterly: every statement month in the quarter needs S$600/S$1,000/S$2,000 (Tier 1/2/3) with min.
+    10 transactions; miss any month and no quarterly cashback for that quarter'
+  - Credited the statement month after the quarter ends
+  sources: ['bank:2ed33269412e', 'web:uob-one-page']
+- id: grab-mcdonalds-shopee-simplygo
+  label: Grab, McDonald’s, Shopee, SimplyGo (bus/MRT)
   rate: 10.0
   unit: percent
   tier: bonus
   eligibility:
-    tags: [shopping, transport, dining]
-    description: Up to / Up to  | Up to 10% cashback on Shopee / Up to  | Up to 10% cashback on daily
-      spend at Grab and SimplyGo (bus/train rides) / Up to  | Up to 10% cashback on daily spend at McDonald's,
-      GrabFood and Grab Dine Out
-    sources: ['singsaver:b75574a4d371']
+    include_merchants:
+    - Grab (GRAB*)
+    - McDonald’s
+    - Shopee Singapore (incl. Shopee Supermarket)
+    - SimplyGo (bus/MRT)
+    description: 3.33% quarterly + additional 6.67% at Tier 3 (S$2,000/month) = 10%; additional 5% at
+      Tier 1/2 = 8.33%. Excludes GrabPay / ShopeePay wallet top-ups
+    sources: ['bank:2ed33269412e']
   min_spend:
-    amount: 600.0
+    amount: 2000.0
     currency: SGD
   min_spend_period: statement_month
+  bonus_cap:
+    amount: 120.0
+    unit: SGD_cashback
+    period: statement_month
+    shared_with: [groceries, shell, sp-utilities]
+    sources: ['bank:2ed33269412e']
   conditions:
-  - min spend S$600/month from singsaver — confirm the period (statement vs calendar month) and which
-    rules it unlocks
-  sources: ['singsaver:b75574a4d371']
-- id: supermarket
-  label: supermarket (SingSaver — verify)
+  - 'Quarterly: every statement month in the quarter needs S$600/S$1,000/S$2,000 (Tier 1/2/3) with min.
+    10 transactions; miss any month and no quarterly cashback for that quarter'
+  - 8.33% total at Tier 1/2 (S$600 / S$1,000 per month)
+  sources: ['bank:2ed33269412e', 'web:uob-one-page']
+- id: groceries
+  label: Groceries / supermarkets (MCC 5411)
   rate: 8.0
   unit: percent
   tier: bonus
   eligibility:
-    tags: [groceries]
-    description: Up to | Up to 8% cashback on all grocery spend
-    sources: ['singsaver:b75574a4d371']
+    include_mcc: ['5411']
+    description: 3.33% quarterly + additional 4.67% at Tier 3 = 8%; additional 2.67% at Tier 2 = 6%; none
+      at Tier 1
+    sources: ['bank:2ed33269412e']
   min_spend:
-    amount: 600.0
+    amount: 2000.0
     currency: SGD
   min_spend_period: statement_month
+  bonus_cap:
+    amount: 120.0
+    unit: SGD_cashback
+    period: statement_month
+    shared_with: [grab-mcdonalds-shopee-simplygo, shell, sp-utilities]
+    sources: ['bank:2ed33269412e']
   conditions:
-  - min spend S$600/month from singsaver — confirm the period (statement vs calendar month) and which
-    rules it unlocks
-  sources: ['singsaver:b75574a4d371']
-- id: overseas
-  label: overseas (SingSaver — verify)
-  rate: 3.33
+  - 'Quarterly: every statement month in the quarter needs S$600/S$1,000/S$2,000 (Tier 1/2/3) with min.
+    10 transactions; miss any month and no quarterly cashback for that quarter'
+  - 6% total at Tier 2 (S$1,000/month); Tier 1 earns only the 3.33%
+  sources: ['bank:2ed33269412e', 'web:uob-one-page']
+- id: shell
+  label: Shell
+  rate: 5.0
   unit: percent
   tier: bonus
   eligibility:
-    description: Up to | Min. spend of S$600 / S$1,000 / S$2,000 per month (min. 10 transactions) for
-      qualifying quarter
-    sources: ['singsaver:b75574a4d371']
+    include_merchants: [Shell]
+    description: 3.33% quarterly + additional 1.67% at Tier 3 only = 5% (before pump discounts)
+    sources: ['bank:2ed33269412e']
+  min_spend:
+    amount: 2000.0
+    currency: SGD
+  min_spend_period: statement_month
+  bonus_cap:
+    amount: 120.0
+    unit: SGD_cashback
+    period: statement_month
+    shared_with: [grab-mcdonalds-shopee-simplygo, groceries, sp-utilities]
+    sources: ['bank:2ed33269412e']
+  conditions:
+  - 'Quarterly: every statement month in the quarter needs S$600/S$1,000/S$2,000 (Tier 1/2/3) with min.
+    10 transactions; miss any month and no quarterly cashback for that quarter'
+  sources: ['bank:2ed33269412e', 'web:uob-one-page']
+- id: sp-utilities
+  label: Singapore Power (SP Group) utilities
+  rate: 4.33
+  unit: percent
+  tier: bonus
+  eligibility:
+    include_merchants: [Singapore Power]
+    description: 3.33% quarterly + additional 1% at every tier = 4.33%
+    sources: ['bank:2ed33269412e']
   min_spend:
     amount: 600.0
     currency: SGD
   min_spend_period: statement_month
+  bonus_cap:
+    amount: 120.0
+    unit: SGD_cashback
+    period: statement_month
+    shared_with: [grab-mcdonalds-shopee-simplygo, groceries, shell]
+    sources: ['bank:2ed33269412e']
   conditions:
-  - min spend S$600/month from singsaver — confirm the period (statement vs calendar month) and which
-    rules it unlocks
-  sources: ['singsaver:b75574a4d371']
+  - 'Quarterly: every statement month in the quarter needs S$600/S$1,000/S$2,000 (Tier 1/2/3) with min.
+    10 transactions; miss any month and no quarterly cashback for that quarter'
+  sources: ['bank:2ed33269412e', 'web:uob-one-page']
 - id: base
-  label: baseline (SingSaver — verify)
-  rate: 3.33
+  label: Base cashback (quarterly minimum spend not met)
+  rate: 0.3
   unit: percent
   tier: base
   eligibility:
     all_spend: true
-    description: Up to | Min. spend of S$600 / S$1,000 / S$2,000 per month (min. 10 transactions) for
-      qualifying quarter
-    sources: ['singsaver:b75574a4d371']
-  sources: ['singsaver:b75574a4d371']
+    description: Base Cashback, credited in February of the next year, only if no quarterly cashback was
+      awarded that year
+    sources: ['bank:2ed33269412e', 'web:ms-uob-one-base']
+  conditions:
+  - The official T&C text reads “0.03%”; UOB marketing and aggregators state 0.3% — unconfirmed
+  sources: ['bank:2ed33269412e', 'web:ms-uob-one-base']
+spend_cycle: statement_month
+spend_cycle_sources: ['bank:2ed33269412e']
 general_exclusions:
-  exclude_mcc: ['4119', '4814', '4816', '4821', '4829', '4899', '4900', '5199', '5411', '5960', '5965',
-    '5993', '6010', '6011', '6012', '6050', '6051', '6211', '6300', '6381', '6513', '6529', '6530', '6534',
-    '6535', '6536', '6537', '6538', '6539', '6540', '6611', '6760', '7280', '7349', '7511', '7523', '7800',
-    '7801', '7802', '7995', '8062', '8211', '8220', '8241', '8244', '8249', '8299', '8398', '8651', '8661',
-    '8999', '9211', '9222', '9223', '9311', '9399', '9402', '9405']
-  description: Auto-extracted from official T&Cs — confirm each code applies to this card
-  sources: ['bank:2ed33269412e', 'bank:8876b22d62f2', 'bank:799ed3a9a4fa', 'bank:3dd0f7414dc4', 'bank:42358e29d735',
-    'bank:c13cf48e44b4', 'bank:bed290b5b010']
+  exclude_mcc: ['4829', '5199', '5960', '5965', '5993', '6012', '6050', '6051', '6211', '6300', '6513',
+    '6529', '6530', '6534', '6540', '7349', '7511', '7523', '7995', '8062', '8211', '8220', '8241', '8244',
+    '8249', '8299', '8398', '8651', '8661', '8699', '8999', '9211', '9222', '9223', '9311', '9399', '9402',
+    '9405']
+  exclude_merchants:
+  - GrabPay wallet top-ups
+  - ShopeePay wallet top-ups
+  - AXS*
+  - EZ-LINK* / EZLINK* / TRANSIT*
+  - FLASHPAY* / NETSFLASHPAY*
+  - IPAYMY*
+  - CardUp*
+  - RWS-LEVY*
+  - SMOOVE PAY*
+  - SINGPOST-SAM*
+  - RazerPay*
+  - NORWDS*
+  - AMAZE*
+  - brokerage/FX (PLUS500, OANDA, Saxo, IG Markets, CITYINDEX, Skrill)
+  description: Cash advances, fees/interest, balance transfers, 0% IPP/SmartPay, UOB Payment Facility,
+    Grab/ShopeePay top-ups, the listed MCCs and transaction descriptors (T&C clause 6)
+  sources: ['bank:2ed33269412e']
 sign_up_bonuses:
 - offered_by: singsaver
   description: 'Welcome Offer: choice of Enjoy up to 20% cashback on daily spend'
@@ -181,9 +251,8 @@ sign_up_bonuses:
   url: https://www.singsaver.com.sg/credit-card/products/uob-one-card
   sources: ['singsaver:b75574a4d371']
 notes:
-- 'T&C mentions (check whether excluded): annual fee, axs, bill payment, cardup, cash advance, charit,
-  education, government, grabpay, hospital, instalment, insurance premium, interest, ipaymy, ipp, late
-  payment charge, tax, top-up, top-ups, utilit, youtrip'
+- 20% / 18% headline rates were a new-to-UOB welcome promotion (approved 15 May–30 Sep 2026), not the
+  standing card rates.
 citations:
 - id: singsaver:b75574a4d371
   url: https://www.singsaver.com.sg/credit-card/products/uob-one-card
@@ -241,6 +310,21 @@ citations:
   retrieved_at: '2026-09-27T08:44:27+00:00'
   sha256: bed290b5b01046ecfa40ba068549db6245aabab31deee9ae65bd570af5895427
   snapshot: data/raw/bank/www-uob-com-sg-assets-pdfs-uob-one-credit-card-faq-pdf-3c803008.pdf
+- id: web:uob-one-page
+  url: https://www.uob.com.sg/personal/cards/cashback/one-card.page
+  title: UOB One Card (product page)
+  source_type: official
+  retrieved_at: '2026-10-18'
+- id: web:ms-uob-one-base
+  url: https://blog.moneysmart.sg/credit-cards/uob-evol-vs-uob-one/
+  title: 'Moneysmart: UOB EVOL vs UOB One'
+  source_type: aggregator
+  retrieved_at: '2026-10-18'
 review:
-  status: draft
-updated_at: '2026-09-27'
+  status: reviewed
+  reviewed_by: claude (web research)
+  reviewed_at: '2026-10-18'
+  notes: 'Verified vs UOB One T&C Ver 2.1 (live PDF hash unchanged) and product page: fee, tiers, additional-cashback
+    merchants/cap, exclusions, statement-month quarters. Unverified: base rate (T&C says 0.03%, others
+    0.3%), network (Visa/Mastercard variants).'
+updated_at: '2026-10-18'

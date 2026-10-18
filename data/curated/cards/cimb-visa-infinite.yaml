@@ -1,34 +1,75 @@
 # Curated card record. Auto-drafted from staged sources; verify every value against the
-# official T&Cs (citations below), then set review.status: reviewed.
+# official T&Cs (citations below), then set review.status: reviewed and review.reviewed_at.
 id: cimb-visa-infinite
 bank: CIMB Bank
 name: CIMB Visa Infinite Card
+network: visa
 image_url: https://mhgprod.blob.core.windows.net/singsaver/strapi-uploads/xs_blt02b529abf50c5818_f0cff49a30.png
 official_url: https://www.cimb.com.sg/en/personal/banking-with-us/cards/credit-cards/cimb-visa-infinite.html
 annual_fee:
   amount:
     amount: 0.0
     currency: SGD
-  sources: ['moneysmart:42909b088c22']
+  first_year_waived: true
+  waiver_notes: No annual fee for life
+  sources: ['moneysmart:42909b088c22', 'web:cimb-vi-page']
 min_annual_income:
   amount: 120000.0
   currency: SGD
 reward_currency:
-  kind: points
-  name: Points
+  kind: cashback
+  name: Cashback
 earn_rules:
+- id: overseas-fcy-2000
+  label: Overseas & foreign currency spend (S$2,000 spend)
+  rate: 2.0
+  unit: percent
+  tier: bonus
+  eligibility:
+    modes_required: [foreign_currency, overseas_in_sgd]
+    description: 1% base + 1% additional cashback on transactions made and processed overseas (SGD or FCY) or in
+      foreign currency (online or offline), when at least S$2,000 posts in the statement month; uncapped
+    sources: ['bank:b8cfe8d00350', 'web:cimb-vi-page']
+  min_spend:
+    amount: 2000.0
+    currency: SGD
+  min_spend_period: statement_month
+  sources: ['bank:b8cfe8d00350', 'web:cimb-vi-page']
+- id: travel-2000
+  label: Travel bookings — airlines, hotels, travel agencies (S$2,000 spend)
+  rate: 2.0
+  unit: percent
+  tier: bonus
+  eligibility:
+    tags: [flights, hotels, travel_agencies]
+    description: 2% on travel-related spend (Visa merchant codes for airlines, hotels, travel agencies and tour
+      operators) when at least S$2,000 posts in the statement month; uncapped
+    sources: ['bank:b8cfe8d00350']
+  min_spend:
+    amount: 2000.0
+    currency: SGD
+  min_spend_period: statement_month
+  sources: ['bank:b8cfe8d00350']
 - id: base
-  label: baseline (SingSaver — verify)
+  label: All spend
   rate: 1.0
-  unit: points_per_dollar
+  unit: percent
   tier: base
   eligibility:
     all_spend: true
-    description: Per dollar
-    sources: ['singsaver:82b7b8366d9e']
-  sources: ['singsaver:82b7b8366d9e']
+    description: 1% base cashback on all retail spend, uncapped (transactions under S$1 excluded)
+    sources: ['bank:b8cfe8d00350', 'web:cimb-vi-page']
+  sources: ['bank:b8cfe8d00350', 'web:cimb-vi-page']
+spend_cycle: statement_month
+spend_cycle_sources: ['bank:b8cfe8d00350']
 general_exclusions:
-  description: Auto-extracted from official T&Cs — confirm each code applies to this card
+  exclude_mcc: ['4900', '6050', '6051', '6300', '7995', '8398', '8661', '9211', '9222', '9223', '9311', '9399',
+    '9402']
+  exclude_merchants: [AXS]
+  description: No cashback on cash advances, gambling, quasi-cash, insurance, government (services, postal, court
+    costs, fines, bail, tax), donations/non-profits, utilities, AXS, fees/interest and balance/funds transfers.
+    MCCs are representative codes for these named categories (the T&C names categories, not codes).
+  sources: ['bank:b8cfe8d00350']
 sign_up_bonuses:
 - offered_by: singsaver
   description: 'Stackable Welcome Offer: choice of Samsonite Black Label Fanthom Spinner 69/25 EXP TSA
@@ -71,8 +112,8 @@ sign_up_bonuses:
   url: https://www.singsaver.com.sg/credit-card/products/cimb-visa-infinite-card
   sources: ['singsaver:82b7b8366d9e']
 notes:
-- 'T&C mentions (check whether excluded): axs, bill payment, cash advance, charit, government, instalment,
-  interest, late payment charge, tax, utilit'
+- Income alternative — S$50,000 fixed deposit as collateral. Base cashback credited in the same statement month;
+  the additional 1% in the following one. Minimum spend counts by posting date.
 citations:
 - id: singsaver:82b7b8366d9e
   url: https://www.singsaver.com.sg/credit-card/products/cimb-visa-infinite-card
@@ -94,6 +135,14 @@ citations:
   retrieved_at: '2026-09-27T07:30:46+00:00'
   sha256: b8cfe8d0035066cde12ec48e2199280e736229f368ac6a697e032227e6ff057f
   snapshot: data/raw/bank/www-cimb-com-sg-content-dam-cimbsg-personal-document-tnc-cards-cards-tnc-vi-card-pdf-a2cd10fe.pdf
+- id: web:cimb-vi-page
+  url: https://www.cimb.com.sg/en/personal/banking-with-us/cards/credit-cards/cimb-visa-infinite.html
+  title: CIMB Visa Infinite
+  source_type: official
+  retrieved_at: '2026-10-18'
 review:
-  status: draft
-updated_at: '2026-09-27'
+  status: reviewed
+  reviewed_by: claude (web research)
+  reviewed_at: 2026-10-18
+  notes: Verified vs CIMB VI cashback T&C (unchanged Oct 2026) and CIMB product page — cashback card (not points), 1% base / 2% overseas-FCY-travel with S$2k statement-month spend, no fee, S$120k income.
+updated_at: '2026-09-28'

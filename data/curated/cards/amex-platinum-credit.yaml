@@ -1,5 +1,5 @@
 # Curated card record. Auto-drafted from staged sources; verify every value against the
-# official T&Cs (citations below), then set review.status: reviewed.
+# official T&Cs (citations below), then set review.status: reviewed and review.reviewed_at.
 id: amex-platinum-credit
 bank: American Express
 name: American Express Platinum Credit Card
@@ -10,33 +10,57 @@ annual_fee:
   amount:
     amount: 327.0
     currency: SGD
-  waiver_notes: S$
-  sources: ['singsaver:5bd629bc2fad']
+  first_year_waived: false
+  waiver_notes: S$327 incl. GST; first 2 supplementary cards free
+  sources: ['bank:ccd448733454']
 reward_currency:
   kind: points
-  name: Points
+  name: Membership Rewards points
+  conversions:
+  - partner: KrisFlyer
+    points: 550.0
+    partner_units: 250.0
+    fee:
+      amount: 0.0
+      currency: SGD
+    min_block_points: 550.0
+    note: Ratio since the 23 Feb 2026 devaluation (500:250 if pooled with a Platinum Charge); free transfers
+    sources: ['milelion:d58d215327a3']
+  expiry:
+    never: true
+    note: 'The MileLion: points validity “No expiry”'
+    sources: ['milelion:d58d215327a3']
 earn_rules:
 - id: dining
-  label: dining, retail (SingSaver — verify)
-  rate: 10.0
-  unit: points_per_dollar
+  label: 10Xcelerator partners
+  rate: 2.84
+  unit: mpd
   tier: bonus
   eligibility:
     tags: [dining, shopping]
-    description: Earn 10 Membership Rewards® points for every full S$1.60 spent at Platinum 10Xcelerator
-      Partners.
-    sources: ['singsaver:5bd629bc2fad']
-  sources: ['singsaver:5bd629bc2fad']
+    include_merchants: [Platinum 10Xcelerator partners]
+    description: 10 Membership Rewards points (2 base + 8 bonus) for every full S$1.60 spent at Platinum
+      10Xcelerator Partners in Singapore; no cap
+    sources: ['bank:ccd448733454', 'milelion:d58d215327a3']
+  rounding:
+    amount: 1.6
+  conditions:
+  - 10 MR points per S$1.60, converted to KrisFlyer miles at 550:250
+  sources: ['bank:ccd448733454', 'milelion:d58d215327a3']
 - id: base
-  label: baseline (SingSaver — verify)
-  rate: 2.0
-  unit: points_per_dollar
+  label: base (local and FCY)
+  rate: 0.57
+  unit: mpd
   tier: base
   eligibility:
     all_spend: true
-    description: Earn 2 Membership Rewards® points for every S$1.60 spent.
-    sources: ['singsaver:5bd629bc2fad']
-  sources: ['singsaver:5bd629bc2fad']
+    description: Earn 2 Membership Rewards points for every full S$1.60 spent.
+    sources: ['bank:ccd448733454']
+  rounding:
+    amount: 1.6
+  conditions:
+  - 2 MR points per S$1.60, converted to KrisFlyer miles at 550:250
+  sources: ['bank:ccd448733454', 'milelion:d58d215327a3']
 general_exclusions:
   description: Auto-extracted from official T&Cs — confirm each code applies to this card
 sign_up_bonuses:
@@ -101,9 +125,13 @@ citations:
   url: https://milelion.com/2026/02/24/review-american-express-platinum-credit-card/
   title: 'Review: American Express Platinum Credit Card'
   source_type: editorial
-  retrieved_at: '2026-09-27T05:29:02+00:00'
+  retrieved_at: '2026-09-28T13:29:07+00:00'
   sha256: d58d215327a323d4ccdc4095e4fba03fe47af88027e4b2c4ba9d00c37715551f
   snapshot: data/raw/milelion/post-129074-15ec673b.json
 review:
-  status: draft
-updated_at: '2026-09-27'
+  status: reviewed
+  reviewed_by: claude (web research)
+  reviewed_at: 2026-10-18
+  notes: Verified fee, base 2 MR/S$1.60 and uncapped 10Xcelerator 10 MR/S$1.60, 550:250 transfer ratio, no expiry
+    (T&C, Amex page, MileLion); rates were computed at the pre-2026 450:250 ratio
+updated_at: '2026-09-28'

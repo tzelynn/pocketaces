@@ -1,5 +1,5 @@
 # Curated card record. Auto-drafted from staged sources; verify every value against the
-# official T&Cs (citations below), then set review.status: reviewed.
+# official T&Cs (citations below), then set review.status: reviewed and review.reviewed_at.
 id: boc-visa-infinite
 bank: Bank of China
 name: BOC Visa Infinite Card
@@ -86,4 +86,4 @@ citations:
   snapshot: data/raw/bank/www-bankofchina-com-sg-bocinfo-bi5-202506-P020250613354557074670-pdf-09b31896.pdf
 review:
   status: draft
-updated_at: '2026-09-27'
+updated_at: '2026-09-28'

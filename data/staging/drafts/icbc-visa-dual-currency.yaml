@@ -1,5 +1,5 @@
 # Curated card record. Auto-drafted from staged sources; verify every value against the
-# official T&Cs (citations below), then set review.status: reviewed.
+# official T&Cs (citations below), then set review.status: reviewed and review.reviewed_at.
 id: icbc-visa-dual-currency
 bank: ICBC
 name: ICBC Visa Dual Currency Credit Card
@@ -66,4 +66,4 @@ citations:
   snapshot: data/raw/bank/v-icbc-com-cn-userfiles-resources-icbc-haiwai-singapore-download-2025-dualcurrency-tc-pdf-e0ab8ee0.pdf
 review:
   status: draft
-updated_at: '2026-09-27'
+updated_at: '2026-09-28'

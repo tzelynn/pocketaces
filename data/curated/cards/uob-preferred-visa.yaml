@@ -1,5 +1,5 @@
 # Curated card record. Auto-drafted from staged sources; verify every value against the
-# official T&Cs (citations below), then set review.status: reviewed.
+# official T&Cs (citations below), then set review.status: reviewed and review.reviewed_at.
 id: uob-preferred-visa
 bank: UOB
 name: UOB Preferred Visa Card
@@ -11,14 +11,121 @@ annual_fee:
   amount:
     amount: 196.2
     currency: SGD
-  sources: ['moneysmart:49fcb3586f25']
+  first_year_waived: true
+  waiver_notes: First year waived
+  sources: ['moneysmart:49fcb3586f25', 'milelion:5cda0a3aca0f']
+min_annual_income:
+  amount: 30000.0
+  currency: SGD
 reward_currency:
-  kind: cashback
-  name: Cashback
+  kind: miles
+  name: Miles
+  conversions:
+  - partner: KrisFlyer
+    points: 5000.0
+    partner_units: 10000.0
+    fee:
+      amount: 27.0
+      currency: SGD
+    min_block_points: 5000.0
+    note: UNI$1 = 2 miles, min. 5,000 UNI$; S$27 per conversion
+    sources: ['milelion:5cda0a3aca0f']
+  - partner: Asia Miles
+    points: 5000.0
+    partner_units: 10000.0
+    fee:
+      amount: 27.0
+      currency: SGD
+    min_block_points: 5000.0
+    sources: ['milelion:5cda0a3aca0f']
+  expiry:
+    months: 24
+    months_max: 27
+    note: UNI$ expire 2 years from the end of the calendar quarter in which they were earned
+    sources: ['milelion:5cda0a3aca0f']
+earn_rules:
+- id: mobile-contactless
+  label: Mobile contactless (Apple/Google/Samsung Pay in store) incl. SimplyGo
+  rate: 4.0
+  unit: mpd
+  tier: bonus
+  eligibility:
+    modes_required: [mobile_wallet]
+    description: In-store Apple Pay / Google Pay / Samsung Pay taps at Visa payWave readers, SGD or FCY, plus
+      SimplyGo bus/MRT fares (from 28 Aug 2025, summed per calendar month). Tapping the physical card and
+      in-app wallet payments earn only 0.4 mpd.
+    sources: ['bank:611f5770008e', 'milelion:5cda0a3aca0f']
+  bonus_cap:
+    amount: 600.0
+    unit: SGD_spend
+    period: calendar_month
+    sources: ['bank:611f5770008e', 'milelion:5cda0a3aca0f']
+  rounding:
+    amount: 5
+    rounding: down
+    sources: ['milelion:5cda0a3aca0f']
+  conditions:
+  - Bonus 9X UNI$ capped at UNI$1,080 (S$600 spend) per calendar month, separate from the online cap; no min
+    spend
+  sources: ['bank:611f5770008e', 'milelion:5cda0a3aca0f']
+- id: selected-online
+  label: Selected online transactions (shopping, dining & groceries, entertainment)
+  rate: 4.0
+  unit: mpd
+  tier: bonus
+  eligibility:
+    include_mcc: ['4816', '5262', '5306', '5309', '5310', '5311', '5331', '5399', '5611', '5621', '5631',
+      '5641', '5651', '5661', '5691', '5699', '5732-5735', '5912', '5942', '5944-5949', '5964', '5966-5970',
+      '5992', '5999', '5811', '5812', '5814', '5333', '5411', '5441', '5462', '5499', '8012', '9751', '7278',
+      '7832', '7841', '7922', '7991', '7996', '7998-7999']
+    modes_required: [online, in_app]
+    modes_excluded: [recurring]
+    description: Online retail transactions (local or overseas) at these MCCs, not under a recurring payment
+      arrangement.
+    sources: ['bank:611f5770008e']
+  bonus_cap:
+    amount: 600.0
+    unit: SGD_spend
+    period: calendar_month
+    sources: ['bank:611f5770008e', 'milelion:5cda0a3aca0f']
+  rounding:
+    amount: 5
+    rounding: down
+    sources: ['milelion:5cda0a3aca0f']
+  conditions:
+  - Bonus 9X UNI$ capped at UNI$1,080 (S$600 spend) per calendar month, separate from the mobile contactless cap;
+    no min spend
+  sources: ['bank:611f5770008e', 'milelion:5cda0a3aca0f']
+- id: base
+  label: baseline (incl. physical card taps)
+  rate: 0.4
+  unit: mpd
+  tier: base
+  eligibility:
+    all_spend: true
+    description: UNI$1 per S$5 on all other retail transactions, SGD or FCY.
+    sources: ['bank:611f5770008e']
+  rounding:
+    amount: 5
+    rounding: down
+    sources: ['milelion:5cda0a3aca0f']
+  sources: ['bank:611f5770008e']
+spend_cycle: calendar_month
+spend_cycle_sources: ['bank:611f5770008e', 'milelion:5cda0a3aca0f']
 general_exclusions:
-  description: Auto-extracted from official T&Cs — confirm each code applies to this card
+  exclude_mcc: ['4829', '4900', '5199', '5960', '5965', '5993', '6012', '6050', '6051', '6211', '6300',
+    '6513', '6529', '6530', '6534', '6540', '7349', '7511', '7523', '7995', '8062', '8211', '8220', '8241',
+    '8244', '8249', '8299', '8398', '8651', '8661', '8699', '8999', '9211', '9222', '9223', '9311', '9399',
+    '9402', '9405']
+  exclude_merchants: [SPC, Shell]
+  description: No UNI$ for these MCCs, NETS, IPP, SmartPay, cash advance, fees/interest, SPC and Shell, bill
+    payment, top-ups / payment service providers, or AXS, Amaze, EZ-Link, ipaymy, SmoovePay, RazerPay etc.
+    (T&C clause 2(f))
+  sources: ['bank:611f5770008e']
 notes:
-- 'No structured earn rates from aggregators: add earn_rules from the official T&C before review'
+- spend_cycle calendar_month from The MileLion review (“Bonus Cap (UNI$) 1,080 UNI$ 1,080 UNI$ Monthly
+  Bonus Cap (S$) S$600 S$600 Caps are based on calendar month The cap for each category is S$600 per calendar
+  month , and caps are strictly separate .”) — confirm it applies to min spend and caps
 - 'Editorial review for cross-checking: Review: UOB Preferred Visa Card (https://milelion.com/2026/03/29/review-uob-preferred-platinum-visa-card/,
   updated 2026-07-30)'
 - 'T&C mentions (check whether excluded): annual fee, axs, bill payment, cash advance, charit, education,
@@ -53,10 +160,12 @@ citations:
   url: https://milelion.com/2026/03/29/review-uob-preferred-platinum-visa-card/
   title: 'Review: UOB Preferred Visa Card'
   source_type: editorial
-  retrieved_at: '2026-09-27T05:28:54+00:00'
+  retrieved_at: '2026-09-28T13:28:57+00:00'
   sha256: 5cda0a3aca0f4901e2de1f51ad05b8ab0c1662bb46b61f4ec3f368964a3c19a6
   snapshot: data/raw/milelion/post-74608-c9ddf1df.json
 review:
-  status: draft
-updated_at: '2026-09-27'
-earn_rules: []
+  status: reviewed
+  reviewed_by: claude (web research)
+  reviewed_at: 2026-10-18
+  notes: Built from UOB Preferred Visa T&C (Ver 3.0, 10 Mar 2026) + MileLion review — was mislabeled cashback with no earn rules; now 4 mpd mobile contactless and 4 mpd selected online, each S$600/calendar-month cap, 0.4 mpd base, S$196.20 FYF, S$30k income, UNI$ 1:2 S$27.
+updated_at: '2026-09-28'

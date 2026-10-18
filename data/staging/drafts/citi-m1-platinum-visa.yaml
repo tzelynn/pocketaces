@@ -1,5 +1,5 @@
 # Curated card record. Auto-drafted from staged sources; verify every value against the
-# official T&Cs (citations below), then set review.status: reviewed.
+# official T&Cs (citations below), then set review.status: reviewed and review.reviewed_at.
 id: citi-m1-platinum-visa
 bank: Citibank
 name: Citi M1 Platinum Visa Card
@@ -227,4 +227,4 @@ citations:
   snapshot: data/raw/bank/www-citibank-com-sg-credit-cards-cashback-m1-platinum-visa-credit-card-pdf-information-sheet-pdf-aff0b9f5.pdf
 review:
   status: draft
-updated_at: '2026-09-27'
+updated_at: '2026-09-28'

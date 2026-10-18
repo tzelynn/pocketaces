@@ -1,5 +1,5 @@
 # Curated card record. Auto-drafted from staged sources; verify every value against the
-# official T&Cs (citations below), then set review.status: reviewed.
+# official T&Cs (citations below), then set review.status: reviewed and review.reviewed_at.
 id: dbs-takashimaya-american-express
 bank: DBS
 name: DBS Takashimaya American Express Card
@@ -11,27 +11,64 @@ annual_fee:
     amount: 196.2
     currency: SGD
   first_year_waived: true
-  waiver_notes: S$ | First Year Waived
-  sources: ['singsaver:23923a307220']
+  waiver_notes: S$196.20 incl. GST; first year waived (supplementary S$98.10); next year waived with S$25,000 annual spend
+  sources: ['web:dbs-taka-page', 'singsaver:23923a307220']
 min_annual_income:
   amount: 30000.0
   currency: SGD
 reward_currency:
   kind: points
-  name: Points
+  name: Takashimaya Bonus Points
+  expiry:
+    note: Bonus points must be redeemed before the card expires; forfeited on card expiry/replacement
+    sources: ['web:dbs-taka-tnc']
+  redemption:
+    min_block: 100.0
+    min_block_unit: points
+    sources: ['web:dbs-taka-page']
 earn_rules:
-- id: retail
-  label: retail, dining, grocery (SingSaver — verify)
-  rate: 2.0
+- id: takashimaya-department-store
+  label: Takashimaya Department Store (in-store & online)
+  rate: 0.2
   unit: points_per_dollar
   tier: bonus
   eligibility:
-    tags: [shopping, dining, groceries]
-    description: With every S$10 charged in Takashima Department Store.
-    sources: ['singsaver:23923a307220']
-  sources: ['singsaver:23923a307220']
+    tags: [shopping]
+    include_merchants: [Takashimaya Department Store]
+    description: 2 Takashimaya Bonus Points per S$10 charged (about 6% in Takashimaya vouchers at
+      100 points = S$30); excludes Cold Storage, Food Village, selected Food Hall merchants, services, gift
+      vouchers and third-party app payments
+    sources: ['web:dbs-taka-tnc', 'web:dbs-taka-page']
+  rounding:
+    amount: 10.0
+    sources: ['web:dbs-taka-tnc']
+  conditions:
+  - 100 Takashimaya Bonus Points redeem for S$30 of Takashimaya vouchers
+  - Extra 10 bonus points for S$400+ charged at Takashimaya Department Store on Mon-Thu (excl. online store)
+  sources: ['web:dbs-taka-tnc', 'web:dbs-taka-page']
+- id: takashimaya-shopping-centre
+  label: Specialty stores in Takashimaya Shopping Centre (B2-L4)
+  rate: 0.0333
+  unit: points_per_dollar
+  tier: bonus
+  eligibility:
+    tags: [shopping]
+    include_merchants: [Takashimaya Shopping Centre participating specialty stores]
+    modes_excluded: [online, in_app]
+    description: 1% voucher rebate (1 bonus point) per S$30 charged at participating specialty stores via
+      in-store terminals
+    sources: ['web:dbs-taka-tnc']
+  rounding:
+    amount: 30.0
+    sources: ['web:dbs-taka-tnc']
+  sources: ['web:dbs-taka-tnc']
 general_exclusions:
-  description: Auto-extracted from official T&Cs — confirm each code applies to this card
+  description: No rewards outside Takashimaya — the card does not earn DBS Points
+  sources: ['web:dbs-points-faq']
+notes:
+- The T&C's additional 1% voucher rebate per S$30 at Takashimaya Shopping Centre for the Amex ran till 30 June
+  2026; the DBS page still shows 2 points per S$30 — check whether it was extended.
+- 'Amex only: next year''s annual fee waived with S$25,000 annual spend.'
 citations:
 - id: singsaver:23923a307220
   url: https://www.singsaver.com.sg/credit-card/products/dbs-takashimaya-american-express-card
@@ -47,6 +84,25 @@ citations:
   retrieved_at: '2026-09-27T05:27:18+00:00'
   sha256: fbcf8e7229a38611c3c767cd8447164e413b1306df1f54bebee269e3abf15202
   snapshot: data/raw/moneysmart/credit-cards-p3-707cb52c.html
+- id: web:dbs-taka-page
+  url: https://www.dbs.com.sg/personal/cards/credit-cards/dbs-takashimaya-card
+  title: DBS Takashimaya Cards (product page)
+  source_type: official
+  retrieved_at: '2026-10-18'
+- id: web:dbs-taka-tnc
+  url: https://www.dbs.com.sg/iwov-resources/media/pdf/cards/dbs-takashimya-cc-tnc.pdf
+  title: DBS Takashimaya Credit Cards Terms and Conditions
+  source_type: official
+  retrieved_at: '2026-10-18'
+- id: web:dbs-points-faq
+  url: https://www.dbs.com.sg/private-banking/deposits/help-guidance/faqs-cards-rewards.page
+  title: FAQs – DBS Rewards Points (lists DBS Takashimaya Card as not participating)
+  source_type: official
+  retrieved_at: '2026-10-18'
 review:
-  status: draft
-updated_at: '2026-09-27'
+  status: reviewed
+  reviewed_by: claude (web research)
+  reviewed_at: 2026-10-18
+  notes: Verified fee, income, Takashimaya bonus-point earn (no DBS Points elsewhere) vs DBS page + Takashimaya
+    card T&C; 100 pts = S$30 voucher value from DBS page/SingSaver; points expiry only "before card expires".
+updated_at: '2026-10-18'

@@ -1,8 +1,9 @@
 # Curated card record. Auto-drafted from staged sources; verify every value against the
-# official T&Cs (citations below), then set review.status: reviewed.
+# official T&Cs (citations below), then set review.status: reviewed and review.reviewed_at.
 id: dbs-live-fresh
 bank: DBS
 name: DBS Live Fresh Card
+network: visa
 image_url: https://mhgprod.blob.core.windows.net/singsaver/strapi-uploads/l_blt4210178ed3fd5c99_5d24be21b1.png
 official_url: https://www.dbs.com.sg/personal/cards/credit-cards/live-fresh-dbs-visa-paywave-platinum-card
 annual_fee:
@@ -10,8 +11,8 @@ annual_fee:
     amount: 196.2
     currency: SGD
   first_year_waived: true
-  waiver_notes: S$ | First Year Waived
-  sources: ['singsaver:8a7535ff6b3a']
+  waiver_notes: S$196.20 incl. GST; first year waived (supplementary S$98.10)
+  sources: ['web:dbs-livefresh-page', 'singsaver:8a7535ff6b3a']
 min_annual_income:
   amount: 30000.0
   currency: SGD
@@ -19,63 +20,102 @@ reward_currency:
   kind: cashback
   name: Cashback
 earn_rules:
-- id: transport
-  label: transport, local, retail, local online shopping, overseas online shopping, overseas, contactless
-    spend (SingSaver — verify)
+- id: shopping
+  label: Shopping (in-store & online, SG and overseas)
   rate: 6.0
   unit: percent
   tier: bonus
   eligibility:
-    tags: [transport, shopping]
-    description: Up to | On Transport spend. Capped at S$20 per calendar month. / Up to | On Shopping
-      and Transport spend. Capped at S$50 for Shopping spend and S$20 for Transport spend per calendar
-      month. / Up to  | On Shopping spend. Capped at S$50 per calendar month. / Up to | On Shopping spend.
-      Capped at S$50 per calendar month.
-    sources: ['singsaver:8a7535ff6b3a']
+    tags: [shopping]
+    include_mcc: ['4225', '5021', '5045', '5065', '5094', '5111', '5137', '5139', '5193', '5200', '5262', '5309', '5310', '5311', '5331', '5399', '5531', '5611', '5621', '5631', '5641', '5651', '5655', '5661', '5681', '5691', '5697', '5698', '5699', '5712', '5713', '5714', '5718', '5719', '5722', '5732', '5734', '5931', '5932', '5933', '5937', '5943', '5944', '5947', '5948', '5950', '5973', '5977', '5978', '5992', '5996', '5997', '5999', '7230', '7251', '7273', '7277', '7278', '7297', '7298', '7299', '7321', '7361', '7392', '8351', '9751']
+    description: 0.3% base + additional 5.7% on Shopping Spend (apparel, department stores, electronics,
+      home furnishing, personal services, specialty retail, watches & jewellery; MCCs in T&C Table 3)
+    sources: ['web:dbs-livefresh-tnc']
   min_spend:
     amount: 800.0
     currency: SGD
-  min_spend_period: statement_month
+  min_spend_period: calendar_month
+  bonus_cap:
+    amount: 50.0
+    unit: SGD_cashback
+    period: calendar_month
+    sources: ['web:dbs-livefresh-tnc']
+  conditions:
+  - Bonus 5.7% needs S$800 retail spend on the card in the same calendar month; S$50 cap applies to the
+    bonus cashback
+  sources: ['web:dbs-livefresh-tnc']
+- id: transport
+  label: Transport (public transport, ride-hailing, taxis)
+  rate: 6.0
+  unit: percent
+  tier: bonus
+  eligibility:
+    tags: [transport, public_transport, ride_hailing]
+    include_mcc: ['4011', '4111', '4112', '4121', '4131', '4214', '4215', '4789']
+    exclude_merchants: [EZ-LINK*, TRANSIT*, SHOPEEPAY*]
+    description: 0.3% base + additional 5.7% on Transport Spend (MCCs in T&C Table 4)
+    sources: ['web:dbs-livefresh-tnc']
+  min_spend:
+    amount: 800.0
+    currency: SGD
+  min_spend_period: calendar_month
   bonus_cap:
     amount: 20.0
     unit: SGD_cashback
     period: calendar_month
-    sources: ['singsaver:8a7535ff6b3a']
+    sources: ['web:dbs-livefresh-tnc']
   conditions:
-  - bonus_cap parsed from aggregator text “Capped at S$20 per calendar month” — confirm amount, unit and
-    whether the period is calendar or statement month
-  - min spend S$800/month from singsaver — confirm the period (statement vs calendar month) and which
-    rules it unlocks
-  sources: ['singsaver:8a7535ff6b3a']
-- id: travel
-  label: travel, dining, supermarket (SingSaver — verify)
-  rate: 0.3
+  - Bonus 5.7% needs S$800 retail spend on the card in the same calendar month; S$20 cap applies to the
+    bonus cashback
+  sources: ['web:dbs-livefresh-tnc']
+- id: overseas-asia-instore
+  label: In-store overseas spend in selected Asia currencies (offsets FX fees)
+  rate: 3.55
   unit: percent
   tier: bonus
   eligibility:
-    tags: [travel, dining, groceries]
-    description: Unlimited base cashback on All spend.
-    sources: ['singsaver:8a7535ff6b3a']
+    modes_required: [foreign_currency]
+    modes_excluded: [online, mobile_wallet, overseas_in_sgd]
+    description: 0.3% base + extra 3.25% on physical in-store spend in BND, KHR, RMB, HKD, IDR, JPY, LAK,
+      MYR, MNT, MMK, PHP, KRW, TWD, THB, VND; the extra 3.25% offsets the 1% Visa + 2.25% DBS FX fees
+    sources: ['web:dbs-livefresh-fx-tnc']
   min_spend:
     amount: 800.0
     currency: SGD
-  min_spend_period: statement_month
+  min_spend_period: calendar_month
+  bonus_cap:
+    amount: 50.0
+    unit: SGD_cashback
+    period: calendar_month
+    sources: ['web:dbs-livefresh-fx-tnc']
   conditions:
-  - min spend S$800/month from singsaver — confirm the period (statement vs calendar month) and which
-    rules it unlocks
-  sources: ['singsaver:8a7535ff6b3a']
+  - Zero FX Fees promotion, running since 1 April 2025 with no stated end date
+  valid_from: '2025-04-01'
+  sources: ['web:dbs-livefresh-fx-tnc']
 - id: base
-  label: baseline (SingSaver — verify)
+  label: Base cashback on all eligible spend
   rate: 0.3
   unit: percent
   tier: base
   eligibility:
     all_spend: true
-    description: Unlimited base cashback on All spend.
-    sources: ['singsaver:8a7535ff6b3a']
-  sources: ['singsaver:8a7535ff6b3a']
+    description: Unlimited 0.3% on all eligible spend, no minimum spend
+    sources: ['web:dbs-livefresh-tnc']
+  sources: ['web:dbs-livefresh-tnc']
+spend_cycle: calendar_month
+spend_cycle_sources: ['web:dbs-livefresh-tnc']
 general_exclusions:
-  description: Auto-extracted from official T&Cs — confirm each code applies to this card
+  exclude_mcc: ['4784', '4829', '4900', '5047', '5199', '5960', '5993', '6010', '6011', '6012', '6050', '6051',
+    '6211', '6300', '6381', '6399', '6513', '6529', '6530', '6534', '6540', '7349', '7511', '7523', '7995',
+    '8062', '8211', '8220', '8241', '8244', '8249', '8299', '8398', '8651', '8661', '8699', '8999', '9211',
+    '9222', '9223', '9311', '9399', '9402', '9405']
+  exclude_merchants: [AMAZE*, AXS*, EZLINK*, EZ-LINK*, SAM PAYMENTS*, SHOPEEPAY*, SINGTEL DASH*, TRANSIT 3*,
+    YOUTRIP*]
+  description: T&C Table 1 MCCs and Table 2 descriptors (partial), plus IPP/MP3 instalments, interest, cash
+    advance, balance transfer, AXS/SAM/internet-banking bill payments and DBS fees
+  sources: ['web:dbs-livefresh-tnc']
+notes:
+- Cashback is credited by the end of the following calendar month and offsets the card bill.
 citations:
 - id: singsaver:8a7535ff6b3a
   url: https://www.singsaver.com.sg/credit-card/products/dbs-live-fresh-card
@@ -91,6 +131,25 @@ citations:
   retrieved_at: '2026-09-27T05:27:20+00:00'
   sha256: 49fcb3586f252df0b2dacb9acecc465127e09c9defa7f151881c3db46d84649e
   snapshot: data/raw/moneysmart/credit-cards-p4-1a322210.html
+- id: web:dbs-livefresh-page
+  url: https://www.dbs.com.sg/personal/cards/credit-cards/live-fresh-dbs-visa-paywave-platinum-card
+  title: DBS Live Fresh Card (product page)
+  source_type: official
+  retrieved_at: '2026-10-18'
+- id: web:dbs-livefresh-tnc
+  url: https://www.dbs.com.sg/iwov-resources/media/pdf/cards/live-fresh-cashback-tnc.pdf
+  title: Terms and Conditions Governing the DBS Live Fresh Card Cashback Programme (last updated 16 Jan 2026)
+  source_type: official
+  retrieved_at: '2026-10-18'
+- id: web:dbs-livefresh-fx-tnc
+  url: https://www.dbs.com.sg/iwov-resources/media/pdf/cards/promotions/livefresh-325fx/dbs-livefresh-325fx-tncs.pdf
+  title: DBS Live Fresh Card Zero FX Fees on In-store Overseas Spend Promotion T&Cs (last updated 30 Apr 2025)
+  source_type: official
+  retrieved_at: '2026-10-18'
 review:
-  status: draft
-updated_at: '2026-09-27'
+  status: reviewed
+  reviewed_by: claude (web research)
+  reviewed_at: 2026-10-18
+  notes: Verified fee, income, rates, MCC lists, caps, calendar-month min spend vs DBS product page + cashback
+    T&C (16 Jan 2026) and Zero-FX promo T&C; Table 2/5 descriptor exclusions only partially transcribed.
+updated_at: '2026-10-18'

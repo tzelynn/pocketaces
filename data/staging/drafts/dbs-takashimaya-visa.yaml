@@ -1,5 +1,5 @@
 # Curated card record. Auto-drafted from staged sources; verify every value against the
-# official T&Cs (citations below), then set review.status: reviewed.
+# official T&Cs (citations below), then set review.status: reviewed and review.reviewed_at.
 id: dbs-takashimaya-visa
 bank: DBS
 name: DBS Takashimaya Visa Card
@@ -42,4 +42,4 @@ citations:
   snapshot: data/raw/singsaver/www-singsaver-com-sg-credit-card-products-dbs-takashimaya-visa-card-7eca27b6.html
 review:
   status: draft
-updated_at: '2026-09-27'
+updated_at: '2026-09-28'

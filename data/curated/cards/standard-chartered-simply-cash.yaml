@@ -1,5 +1,5 @@
 # Curated card record. Auto-drafted from staged sources; verify every value against the
-# official T&Cs (citations below), then set review.status: reviewed.
+# official T&Cs (citations below), then set review.status: reviewed and review.reviewed_at.
 id: standard-chartered-simply-cash
 bank: Standard Chartered
 name: Standard Chartered Simply Cash Credit Card
@@ -10,8 +10,8 @@ annual_fee:
     amount: 196.2
     currency: SGD
   first_year_waived: true
-  waiver_notes: S$ | First Year Waived
-  sources: ['singsaver:539a5fd39984']
+  waiver_notes: First year waived; S$196.20 incl. GST thereafter
+  sources: ['singsaver:539a5fd39984', 'web:sc-simply-cash-page']
 min_annual_income:
   amount: 30000.0
   currency: SGD
@@ -19,35 +19,29 @@ reward_currency:
   kind: cashback
   name: Cashback
 earn_rules:
-- id: local
-  label: local, overseas, dining, supermarket, retail, petrol, health, travel, department store, local
-    online shopping, overseas online shopping, online bill payment spending, contactless spend, transport
-    (SingSaver — verify)
-  rate: 1.5
-  unit: percent
-  tier: bonus
-  eligibility:
-    include_mcc: ['4829', '4900', '5047', '5199', '6012', '6050', '6051', '6211', '6513', '6529', '6530',
-      '6534', '6540', '7299', '7349', '7511', '7523', '8062', '8211', '8220', '8241', '8244', '8249',
-      '8299', '8398', '8651', '8661', '8999', '9211', '9222', '9223', '9311', '9399', '9402', '9405']
-    description: 1.5% unlimited cashback with no min. spend. [include_mcc auto-extracted from official
-      T&C — check it belongs to this rule]
-    sources: ['singsaver:539a5fd39984', 'bank:7ff8e332cb5e', 'bank:2c6123a41433']
-  conditions:
-  - 'aggregator categories: dining, groceries, shopping, petrol, healthcare, travel, transport'
-  sources: ['singsaver:539a5fd39984']
 - id: base
-  label: baseline (SingSaver — verify)
+  label: All eligible spend
   rate: 1.5
   unit: percent
   tier: base
   eligibility:
     all_spend: true
-    description: 1.5% unlimited cashback with no min. spend.
-    sources: ['singsaver:539a5fd39984']
-  sources: ['singsaver:539a5fd39984']
+    description: 1.5% cashback on all eligible retail transactions (local and overseas), no minimum spend, no
+      cap; computed per transaction to 2 d.p. and offset against the next statement
+    sources: ['bank:7ff8e332cb5e', 'web:sc-simply-cash-page']
+  sources: ['bank:7ff8e332cb5e', 'web:sc-simply-cash-page']
+spend_cycle: statement_month
+spend_cycle_sources: ['bank:7ff8e332cb5e']
 general_exclusions:
-  description: Auto-extracted from official T&Cs — confirm each code applies to this card
+  exclude_mcc: ['4829', '4900', '5047', '5199', '6012', '6050', '6051', '6211', '6513', '6529', '6530',
+    '6534', '6540', '7299', '7349', '7511', '7523', '8062', '8211', '8220', '8241', '8244', '8249', '8299',
+    '8398', '8651', '8661', '8999', '9211', '9222', '9223', '9311', '9399', '9402', '9405']
+  exclude_merchants: [EZ-Link, SimplyGo top-up, FlashPay, Transit Link]
+  modes_excluded: [recurring]
+  description: SC Retail Transaction Exclusions — no points/cashback on these MCCs, cash advance, Credit Card
+    Funds Transfer, EasyPay instalments, AXS/SAM/ATM, insurance premiums, recurring payments and SC online
+    bill payments, fees/interest, betting, top-ups to prepaid cards/accounts (EZ-Link, FlashPay, some PayPal)
+  sources: ['bank:2c6123a41433', 'bank:7ff8e332cb5e']
 sign_up_bonuses:
 - offered_by: singsaver
   description: 'SingSaver Exclusive Offer: rewards applicable on applying for 2 products: choice of Apple
@@ -114,8 +108,7 @@ sign_up_bonuses:
   url: https://www.moneysmart.sg/credit-cards/standard-chartered-simply-cash-credit-card
   sources: ['moneysmart:eeee24fb93a9']
 notes:
-- 'T&C mentions (check whether excluded): axs, bill payment, cash advance, charit, education, government,
-  hospital, instalment, insurance premium, interest, late payment charge, tax, top-up, top-ups, utilit'
+- Cashback is credited in the following statement cycle; the card does not earn 360° Rewards Points.
 citations:
 - id: singsaver:539a5fd39984
   url: https://www.singsaver.com.sg/credit-card/products/standard-chartered-simply-cash-credit-card
@@ -143,6 +136,14 @@ citations:
   retrieved_at: '2026-09-27T08:42:30+00:00'
   sha256: 2c6123a41433e3eb416cbb9cad5877c38d36aad2df7b0760b09d2f8324e5284a
   snapshot: data/raw/bank/www-sc-com-sg-terms-and-conditions-cc-retail-transaction-exclusions-8f7a8c14.html
+- id: web:sc-simply-cash-page
+  url: https://www.sc.com/sg/credit-cards/simply-cash-credit-card/
+  title: Standard Chartered Simply Cash Credit Card
+  source_type: official
+  retrieved_at: '2026-10-18'
 review:
-  status: draft
-updated_at: '2026-09-27'
+  status: reviewed
+  reviewed_by: claude (web research)
+  reviewed_at: 2026-10-18
+  notes: Verified vs Simply Cash T&C V.062025 (unchanged Oct 2026) and SC product page — 1.5% uncapped, fee, income; network (Visa vs Mastercard) not confirmed for SG.
+updated_at: '2026-09-28'

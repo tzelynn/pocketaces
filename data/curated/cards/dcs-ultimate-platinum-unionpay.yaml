@@ -1,9 +1,9 @@
 # Curated card record. Auto-drafted from staged sources; verify every value against the
-# official T&Cs (citations below), then set review.status: reviewed.
+# official T&Cs (citations below), then set review.status: reviewed and review.reviewed_at.
 id: dcs-ultimate-platinum-unionpay
 bank: DCS
 name: DCS Ultimate Platinum UnionPay Card
-network: mastercard
+network: unionpay
 image_url: https://mhgprod.blob.core.windows.net/singsaver/strapi-uploads/xs_bltfbfba35ef8e39663_ef4eb22a2a.png
 official_url: https://cards.dcscc.com/ultimateupi
 annual_fee:
@@ -11,8 +11,9 @@ annual_fee:
     amount: 196.2
     currency: SGD
   first_year_waived: true
-  waiver_notes: S$ | First Year Waived
-  sources: ['singsaver:153e53660e6e']
+  waiver_notes: S$180 + GST, first year free (supplementary S$90 + GST); auto-waived with S$12,000 annual
+    spend
+  sources: ['web:dcs-ultimateupi-page', 'singsaver:153e53660e6e']
 min_annual_income:
   amount: 30000.0
   currency: SGD
@@ -20,79 +21,39 @@ reward_currency:
   kind: cashback
   name: Cashback
 earn_rules:
-- id: overseas
-  label: overseas, local (SingSaver — verify)
-  rate: 2.0
-  unit: percent
-  tier: bonus
-  eligibility:
-    include_mcc: ['4784', '4829', '4900', '5199', '5960', '6010', '6011', '6012', '6050', '6051', '6211',
-      '6300', '6513', '6540', '7349', '7523', '7800', '7801', '7802', '7995', '8062', '8211', '8220',
-      '8241', '8244', '8249', '8299', '8398', '8651', '8661', '9211', '9222', '9223', '9311', '9399',
-      '9402', '9405', '9406']
-    description: No minimum spend; cashback is capped at S$200 per calendar month. [include_mcc auto-extracted
-      from official T&C — check it belongs to this rule]
-    sources: ['singsaver:153e53660e6e', 'bank:450ee3eff44f']
-  bonus_cap:
-    amount: 200.0
-    unit: SGD_cashback
-    period: calendar_month
-    sources: ['singsaver:153e53660e6e']
-  conditions:
-  - bonus_cap parsed from aggregator text “capped at S$200 per calendar month” — confirm amount, unit
-    and whether the period is calendar or statement month
-  sources: ['singsaver:153e53660e6e']
 - id: base
-  label: baseline (SingSaver — verify)
+  label: All eligible spend
   rate: 2.0
   unit: percent
   tier: base
   eligibility:
     all_spend: true
-    description: No minimum spend; cashback is capped at S$200 per calendar month.
-    sources: ['singsaver:153e53660e6e']
-  sources: ['singsaver:153e53660e6e']
+    description: 2% cashback on every Card Transaction up to S$10,000 spend a month, no minimum spend
+    sources: ['bank:450ee3eff44f']
+  max_spend:
+    amount: 10000.0
+    currency: SGD
+  max_spend_period: calendar_month
+  bonus_cap:
+    amount: 200.0
+    unit: SGD_cashback
+    period: calendar_month
+    sources: ['bank:450ee3eff44f']
+  sources: ['bank:450ee3eff44f']
+spend_cycle: calendar_month
+spend_cycle_sources: ['bank:450ee3eff44f']
 general_exclusions:
-  description: Auto-extracted from official T&Cs — confirm each code applies to this card
-sign_up_bonuses:
-- offered_by: singsaver
-  description: 'SingSaver Exclusive Welcome Offer: choice of Get up to a 24-inch GOTRIP Luggage + S$50
-    Gojek Voucher'
-  options:
-  - Get up to a 24-inch GOTRIP Luggage + S$50 Gojek Voucher
-  min_spend:
-    amount: 500.0
-    currency: SGD
-  spend_within_days: 30
-  new_to_bank_only: true
-  terms: 'SingSaver Exclusive Welcome Offer promotion is valid from 1 September 2026 to 30 September 2026.
-    Promotion is valid for new customers of DCS cards only. Apply and get approved for the DCS Ultimate
-    Platinum UnionPay Card and meet the min. spend criteria within 30 days of card approval to be eligible
-    for reward: Make a min. spend of S$500 within 30 days of card approval to be eligible for a 20-inch
-    GOTRIP Luggage Bag . Make a min. spend of S$800 within 30 days of card approval to be eligible for
-    a 24-inch GOTRIP Luggage Bag . You will only receive one of the above rewards. Additionally, accumulate
-    a min. spend of S$1,000 in Qualifying Transactions within 30 days of the card approval date to be
-    eligible for a S$50 Gojek Voucher on top of the above reward. All of the above rewards are fulfilled
-    by DCS. Terms and Conditions apply.'
-  valid_from: '2026-08-31'
-  valid_to: '2026-09-30'
-  url: https://www.singsaver.com.sg/credit-card/products/dcs-ultimate-platinum-unionpay-card
-  sources: ['singsaver:153e53660e6e']
-- offered_by: moneysmart
-  description: 'Choice of: S$50 GrabGifts Voucher'
-  options: [S$50 GrabGifts Voucher]
-  min_spend:
-    amount: 800.0
-    currency: SGD
-  spend_within_days: 30
-  new_to_bank_only: true
-  terms: '- Valid for New-To-DCS Credit Card customers - Spend a min. of S$800 in Eligible Transactions
-    within 30 days'
-  url: https://www.moneysmart.sg/credit-cards/dcs-ultimate-platinum-card
-  sources: ['moneysmart:42909b088c22']
+  exclude_mcc: ['4784', '4829', '4900', '5199', '5960', '6010', '6011', '6012', '6050', '6051', '6211', '6300',
+    '6513', '6540', '7349', '7523', '7800', '7801', '7802', '7995', '8062', '8211', '8220', '8241', '8244',
+    '8249', '8299', '8398', '8651', '8661', '9211', '9222', '9223', '9311', '9399', '9402', '9405', '9406']
+  exclude_merchants: [AMAZE*, EZ-LINK*, IPAYMY*, SIMPLYGO*, skrill.com*, TRANSIT*]
+  description: 'T&C clause 9: annual fees, charges, AXS bill payments, road tax, LTA, Singapore Post, 0% instalments/BNPL,
+    ReadyCA$H, DCA$H, balance transfer, Esso Fleet Card, cash advance, corporate transactions, the listed descriptors
+    and MCCs'
+  sources: ['bank:450ee3eff44f']
 notes:
-- 'T&C mentions (check whether excluded): annual fee, axs, balance transfer, bill payment, cash advance,
-  charit, education, government, hospital, instalment, interest, ipaymy, late payment charge, tax, utilit'
+- 'FX: 3.25% admin fee on foreign-currency transactions; 1% on SGD transactions processed overseas. DCS
+  advertises 0% transaction fees in Mainland China via Alipay / WeChat Pay.'
 citations:
 - id: singsaver:153e53660e6e
   url: https://www.singsaver.com.sg/credit-card/products/dcs-ultimate-platinum-unionpay-card
@@ -114,6 +75,14 @@ citations:
   retrieved_at: '2026-09-27T08:37:10+00:00'
   sha256: 450ee3eff44faa873223d977d8b17f8351318009922e2a4b1a67df4eb900d7a3
   snapshot: data/raw/bank/static-dcscc-com-pdf-dcscc-legal-DCS-20Ultimate-20Platinum-20Card-20Terms-20and-20Conditions-20-1-20June-202025-pdf-3583d9d5.pdf
+- id: web:dcs-ultimateupi-page
+  url: https://cards.dcscc.com/ultimateupi
+  title: DCS Ultimate Platinum UnionPay Card (product page)
+  source_type: official
+  retrieved_at: '2026-10-18'
 review:
-  status: draft
-updated_at: '2026-09-27'
+  status: reviewed
+  reviewed_by: claude (web research)
+  reviewed_at: 2026-10-18
+  notes: Verified network (UnionPay, was mastercard), fee/waiver, income, 2% up to S$10k/S$200 calendar-month cap, exclusions (were mislabelled as include_mcc) vs DCS page + card T&C (1 Jun 2025, still current).
+updated_at: '2026-10-18'

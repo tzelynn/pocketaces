@@ -1,5 +1,5 @@
 # Curated card record. Auto-drafted from staged sources; verify every value against the
-# official T&Cs (citations below), then set review.status: reviewed.
+# official T&Cs (citations below), then set review.status: reviewed and review.reviewed_at.
 id: amex-platinum-charge
 bank: American Express
 name: American Express Platinum Card (charge card)
@@ -15,6 +15,21 @@ annual_fee:
 reward_currency:
   kind: miles
   name: Miles
+  conversions:
+  - partner: KrisFlyer
+    points: 500.0
+    partner_units: 250.0
+    fee:
+      amount: 0.0
+      currency: SGD
+    min_block_points: 500.0
+    note: 'The MileLion: min. transfer “500 MR points (250 miles)”, transfer fee “None” — confirm the
+      partner (the overview quotes KrisFlyer unless it says otherwise)'
+    sources: ['milelion:cc41405fe2e0']
+  expiry:
+    never: true
+    note: 'The MileLion: points validity “No expiry”'
+    sources: ['milelion:cc41405fe2e0']
 earn_rules:
 - id: retail
   label: retail, dining (SingSaver — verify)
@@ -93,9 +108,9 @@ citations:
   url: https://milelion.com/2026/03/07/review-american-express-platinum-charge/
   title: 'Review: American Express Platinum Charge'
   source_type: editorial
-  retrieved_at: '2026-09-27T05:28:57+00:00'
+  retrieved_at: '2026-09-28T13:29:05+00:00'
   sha256: cc41405fe2e0e8f14aab5255053cb83f3fb6c379fedd84e2fdda080132b8410b
   snapshot: data/raw/milelion/post-520639-1268b09c.json
 review:
   status: draft
-updated_at: '2026-09-27'
+updated_at: '2026-09-28'

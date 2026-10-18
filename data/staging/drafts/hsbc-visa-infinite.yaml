@@ -1,5 +1,5 @@
 # Curated card record. Auto-drafted from staged sources; verify every value against the
-# official T&Cs (citations below), then set review.status: reviewed.
+# official T&Cs (citations below), then set review.status: reviewed and review.reviewed_at.
 id: hsbc-visa-infinite
 bank: HSBC
 name: HSBC Visa Infinite Credit Card
@@ -17,6 +17,18 @@ min_annual_income:
 reward_currency:
   kind: miles
   name: Miles
+  conversions:
+  - partner: KrisFlyer
+    points: 25000.0
+    partner_units: 10000.0
+    min_block_points: 25000.0
+    note: 'The MileLion: min. transfer “25,000 points (10,000 miles)^”, transfer fee “Free till 31 Jan
+      25” — confirm the partner (the overview quotes KrisFlyer unless it says otherwise)'
+    sources: ['milelion:9a2f732a8649']
+  expiry:
+    months: 37
+    note: 'The MileLion: points validity “37 months”'
+    sources: ['milelion:9a2f732a8649']
 earn_rules:
 - id: overseas
   label: overseas (SingSaver — verify)
@@ -48,9 +60,15 @@ earn_rules:
     description: ''
     sources: ['singsaver:4cf0c4cafdb1']
   sources: ['singsaver:4cf0c4cafdb1']
+spend_cycle: calendar_month
+spend_cycle_sources: ['milelion:9a2f732a8649']
 general_exclusions:
   description: Auto-extracted from official T&Cs — confirm each code applies to this card
 notes:
+- spend_cycle calendar_month from The MileLion review (“transfers and expedited immigration clearances
+  per calendar year One additional ride and expedited clearance can be unlocked by spending S$2,000 per
+  calendar month, capped at 24 per calendar year (inc”) — confirm it applies to min spend and caps
+- The MileLion gives the transfer fee as “Free till 31 Jan 25” — set conversions[].fee by hand
 - 'Editorial review for cross-checking: Review: HSBC Visa Infinite Card (https://milelion.com/2024/08/27/review-hsbc-visa-infinite-card/,
   updated 2024-12-07)'
 citations:
@@ -72,9 +90,9 @@ citations:
   url: https://milelion.com/2024/08/27/review-hsbc-visa-infinite-card/
   title: 'Review: HSBC Visa Infinite Card'
   source_type: editorial
-  retrieved_at: '2026-09-27T05:29:28+00:00'
+  retrieved_at: '2026-09-28T13:29:26+00:00'
   sha256: 9a2f732a8649750fe677266f533ecf7210616e0504d73a799f21302f45d0b153
   snapshot: data/raw/milelion/post-128324-a69d8680.json
 review:
   status: draft
-updated_at: '2026-09-27'
+updated_at: '2026-09-28'

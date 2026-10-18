@@ -1,5 +1,5 @@
 # Curated card record. Auto-drafted from staged sources; verify every value against the
-# official T&Cs (citations below), then set review.status: reviewed.
+# official T&Cs (citations below), then set review.status: reviewed and review.reviewed_at.
 id: ocbc-nxt
 bank: OCBC
 name: OCBC NXT Credit Card
@@ -10,9 +10,9 @@ annual_fee:
   amount:
     amount: 163.5
     currency: SGD
-  waiver_notes: S$ | First 2 Years Waived. Min. spend of S$10,000 per year for waiver of annual fee for
-    subsequent years.
-  sources: ['singsaver:c824f2e0bb8c']
+  first_year_waived: true
+  waiver_notes: First 2 years waived; auto-waived thereafter with S$10,000 spend in a card year
+  sources: ['singsaver:c824f2e0bb8c', 'web:ocbc-nxt']
 min_annual_income:
   amount: 30000.0
   currency: SGD
@@ -20,43 +20,51 @@ reward_currency:
   kind: cashback
   name: Cashback
 earn_rules:
-- id: overseas
-  label: overseas, travel, dining, supermarket, petrol, retail, local online shopping, overseas online
-    shopping, health, department store, digital wallet, contactless spend, transport, local (SingSaver
-    — verify)
+- id: bill-1000
+  label: all eligible spend when monthly bill is S$1,000+
   rate: 1.0
   unit: percent
   tier: bonus
   eligibility:
-    include_mcc: ['4784', '4829', '4900', '5047', '5199', '5960', '5993', '6010', '6012', '6051', '6211',
-      '6300', '6513', '6540', '7349', '7523', '7995', '8062', '8211', '8220', '8241', '8244', '8249',
-      '8299', '8398', '8651', '8661', '8675', '8699', '9211', '9222', '9223', '9311', '9399', '9402',
-      '9405']
-    description: Up to | With a minimum spend of $1,000 and above per calendar month, otherwise 0.5% cashback.
-      / Up to | With a minimum spend of $1,000 and above per calendar month, otherwise 0.5% cashback.  /
-      Up to | With a minimum spend of $1,000 and above per calendar month, otherwise 0.5% cashback.   Except
-      Grab, Gojek, and taxis. [include_mcc auto-extracted from official T&C — check it belongs to this
-      rule]
-    sources: ['singsaver:c824f2e0bb8c', 'bank:71e50d4a7373', 'bank:9b28d7dc4d9a', 'bank:c83007f1777e']
-  conditions:
-  - 'aggregator categories: travel, dining, groceries, petrol, shopping, healthcare, transport'
-  sources: ['singsaver:c824f2e0bb8c']
+    all_spend: true
+    description: 1% cash rebate on the whole billed eligible retail spend once it reaches S$1,000 in the statement
+      month (otherwise 0.5%), capped at S$100/month
+    sources: ['bank:71e50d4a7373']
+  min_spend:
+    amount: 1000.0
+    currency: SGD
+  min_spend_period: statement_month
+  bonus_cap:
+    amount: 100
+    unit: SGD_cashback
+    period: statement_month
+    sources: ['bank:71e50d4a7373']
+  sources: ['bank:71e50d4a7373']
 - id: base
-  label: baseline (SingSaver — verify)
+  label: all eligible spend (bill under S$1,000)
   rate: 0.5
   unit: percent
   tier: base
   eligibility:
     all_spend: true
-    description: 0.5% on all eligible retail spend below S$1,000 per calendar month. Max Cashback = S$100/month.
-    sources: ['singsaver:c824f2e0bb8c']
-  sources: ['singsaver:c824f2e0bb8c']
+    description: 0.5% cash rebate when billed eligible retail spend is below S$1,000
+    sources: ['bank:71e50d4a7373']
+  sources: ['bank:71e50d4a7373']
+spend_cycle: statement_month
+spend_cycle_sources: ['bank:71e50d4a7373', 'web:ocbc-nxt']
 general_exclusions:
-  description: Auto-extracted from official T&Cs — confirm each code applies to this card
+  exclude_mcc: ['4784', '4829', '4900', '5047', '5199', '5960', '5993', '6012', '6051', '6211', '6300',
+    '6513', '6540', '7349', '7523', '7995', '8062', '8211', '8220', '8241', '8244', '8249', '8299', '8398',
+    '8651', '8661', '8675', '8699', '9211', '9222', '9223', '9311', '9399', '9402', '9405']
+  exclude_merchants: [GrabPay, Youtrip, Shopee Pay, Singtel Dash, NETS FlashPay, EZ-Link, TransitLink]
+  description: T&C cl. 6.4 — also excludes fees, interest, tax, internet-banking/AXS bill payments, MCC 4111/4121/4131
+    except Grab Transport, Gojek and licensed taxis, instalments/PayLite, cash advance, balance transfer, club
+    membership fees, Great Eastern premiums (from 1 Oct 2020)
+  sources: ['bank:71e50d4a7373']
 notes:
-- 'T&C mentions (check whether excluded): axs, balance transfer, bill payment, cash advance, charit, education,
-  government, grabpay, hospital, instalment, insurance premium, interest, ipp, late payment charge, tax,
-  top-up, top-ups, utilit, youtrip'
+- Interest-free instalments - purchases of S$100+ (configurable trigger) are auto-split into 3 (under S$1,000)
+  or 6 (S$1,000+) monthly instalments (T&C cl. 2, 4).
+- Cash rebate is computed on the monthly Billing Statement and offset against that month's bill.
 citations:
 - id: singsaver:c824f2e0bb8c
   url: https://www.singsaver.com.sg/credit-card/products/ocbc-nxt-credit-card
@@ -72,6 +80,11 @@ citations:
   retrieved_at: '2026-09-27T05:27:20+00:00'
   sha256: 49fcb3586f252df0b2dacb9acecc465127e09c9defa7f151881c3db46d84649e
   snapshot: data/raw/moneysmart/credit-cards-p4-1a322210.html
+- id: web:ocbc-nxt
+  url: https://www.ocbc.com/personal-banking/cards/bnpl-nxt-card.page
+  title: OCBC NXT Credit Card (official product page)
+  source_type: official
+  retrieved_at: '2026-10-18'
 - id: bank:71e50d4a7373
   url: https://www.ocbc.com/iwov-resources/sg/ocbc/personal/pdf/cards/tncs-nxtcard.pdf
   source_type: official
@@ -91,5 +104,10 @@ citations:
   sha256: c83007f1777eddeaebe35725ed0e81048c21e38b217e99b5ba5d106b988b2680
   snapshot: data/raw/bank/www-ocbc-com-iwov-resources-sg-ocbc-personal-pdf-cards-tncs-governing-ocbc-nxt-cc-promo-pdf-c23295a3.pdf
 review:
-  status: draft
-updated_at: '2026-09-27'
+  status: reviewed
+  reviewed_by: claude (web research)
+  reviewed_at: 2026-10-18
+  notes: Verified vs NXT T&C + OCBC page - 1% on all spend if statement bill >= S$1,000 (cap S$100) else 0.5%,
+    statement-month basis, fee S$163.50 (2 yrs waived), income, exclusions. Removed exclusion MCCs misfiled
+    as include_mcc. Network Mastercard per T&C cl. 1.
+updated_at: '2026-09-28'

@@ -1,8 +1,9 @@
 # Curated card record. Auto-drafted from staged sources; verify every value against the
-# official T&Cs (citations below), then set review.status: reviewed.
+# official T&Cs (citations below), then set review.status: reviewed and review.reviewed_at.
 id: uob-visa-signature
 bank: UOB
 name: UOB Visa Signature Card
+network: visa
 image_url: https://mhgprod.blob.core.windows.net/singsaver/strapi-uploads/m_UOB_Visa_Signature_c4f87fbf6f.png
 official_url: https://www.uob.com.sg/personal/cards/rewards/visa-signature-card.page
 annual_fee:
@@ -10,59 +11,154 @@ annual_fee:
     amount: 218.0
     currency: SGD
   first_year_waived: true
-  waiver_notes: S$ | First Year Waived
-  sources: ['singsaver:eea43cb0180c']
+  waiver_notes: First year waived
+  sources: ['singsaver:eea43cb0180c', 'milelion:ccdde960944c']
 min_annual_income:
   amount: 30000.0
   currency: SGD
 reward_currency:
   kind: miles
   name: Miles
+  conversions:
+  - partner: KrisFlyer
+    points: 5000.0
+    partner_units: 10000.0
+    fee:
+      amount: 27.0
+      currency: SGD
+    min_block_points: 5000.0
+    note: UNI$1 = 2 miles, min. 5,000 UNI$; S$27 per conversion
+    sources: ['milelion:ccdde960944c']
+  - partner: Asia Miles
+    points: 5000.0
+    partner_units: 10000.0
+    fee:
+      amount: 27.0
+      currency: SGD
+    min_block_points: 5000.0
+    sources: ['milelion:ccdde960944c']
+  expiry:
+    months: 24
+    months_max: 27
+    note: 'The MileLion: points validity “24-27 months”'
+    sources: ['milelion:ccdde960944c']
 earn_rules:
-- id: local
-  label: local, overseas, overseas online shopping, contactless spend, petrol (SingSaver — verify)
+- id: overseas-fcy
+  label: Overseas spend in foreign currency (Category 1)
   rate: 4.0
   unit: mpd
   tier: bonus
   eligibility:
-    include_mcc: ['4829', '4900', '5199', '5960', '5965', '5993', '6012', '6050', '6051', '6211', '6300',
-      '6399', '6513', '6529', '6530', '6534', '6540', '7349', '7511', '7523', '7995', '8062', '8211',
-      '8220', '8241', '8244', '8249', '8299', '8398', '8651', '8661', '8699', '8999', '9211', '9222',
-      '9223', '9311', '9399', '9402', '9405']
-    modes_required: [contactless]
-    description: Up to  | Receive 10X UNI$ per S$5 (equivalent to 4 mpd) on Local Petrol & Contactless
-      spend including SimplyGo (Category 2). Capped at UNI$2,400 per statement month. Otherwise, earn
-      1X UNI$ for every S$5 spent (equivalent to 0.4 mpd). / Up to  | Receive 10X UNI$ per S$5 (equivalent
-      to 4 mpd) on Overseas spend in foreign currency (Category 1). Capped at UNI$2,400 per statement
-      month. Otherwise, earn 1X UNI$ for every S$5 spent (equivalent to 0.4 mpd). / Receive 10X UNI$ per
-      S$5 (equivalent to 4 mpd) on Overseas spend in foreign currency (Category 1). Capped at UNI$2,400
-      per statement month. Otherwise, earn 1X UNI$ for every S$5 spent (equivalent to 0.4 mpd). / Receive
-      10X UNI$ per S$5 (equivalent to 4 mpd) on Local Petrol & Contactless spend including SimplyGo (Category
-      2). Capped at UNI$2,400 per statement month. Otherwise, earn 1X UNI$ for every S$5 spent (equivalent
-      to 0.4 mpd). [include_mcc auto-extracted from official T&C — check it belongs to this rule]
-    sources: ['singsaver:eea43cb0180c', 'bank:0d166f4ab1ad', 'bank:c13cf48e44b4', 'bank:52d9be91844e',
-      'bank:0d166f4ab1ad', 'bank:42358e29d735']
+    modes_required: [foreign_currency]
+    description: Spend overseas or online in foreign currency. SGD-charged overseas transactions and online
+      transactions with a Singapore payment gateway earn the base rate.
+    sources: ['bank:0d166f4ab1ad']
   min_spend:
     amount: 1000.0
     currency: SGD
   min_spend_period: statement_month
+  bonus_cap:
+    amount: 1200.0
+    unit: SGD_spend
+    period: statement_month
+    sources: ['bank:0d166f4ab1ad', 'milelion:ccdde960944c']
+  rounding:
+    amount: 5
+    per: statement_month
+    rounding: down
+    sources: ['milelion:ccdde960944c']
   conditions:
-  - 'aggregator categories: petrol'
-  - min spend S$1000/month from singsaver — confirm the period (statement vs calendar month) and which
-    rules it unlocks
-  sources: ['singsaver:eea43cb0180c']
+  - Needs S$1,000 of FCY spend in the statement period; below that, all FCY spend earns 0.4 mpd
+  - 10X UNI$ per S$5 (1X base + 9X bonus); bonus capped at UNI$2,400 (S$1,200 spend) per statement period for this
+    category alone, credited the following statement period
+  sources: ['bank:0d166f4ab1ad', 'milelion:ccdde960944c']
+- id: petrol
+  label: Petrol (Category 2)
+  rate: 4.0
+  unit: mpd
+  tier: bonus
+  eligibility:
+    include_mcc: ['5541', '5542']
+    exclude_merchants: [SPC, Shell]
+    description: Petrol stations MCC 5541/5542, excluding SPC and Shell (MileLion reports Shell still earns in
+      practice).
+    sources: ['bank:0d166f4ab1ad', 'milelion:ccdde960944c']
+  min_spend:
+    amount: 1000.0
+    currency: SGD
+  min_spend_period: statement_month
+  bonus_cap:
+    amount: 1200.0
+    unit: SGD_spend
+    period: statement_month
+    shared_with: [contactless]
+    sources: ['bank:0d166f4ab1ad', 'milelion:ccdde960944c']
+  rounding:
+    amount: 5
+    per: statement_month
+    rounding: down
+    sources: ['milelion:ccdde960944c']
+  conditions:
+  - Needs S$1,000 combined SGD petrol + contactless spend in the statement period; shares the S$1,200 cap with contactless
+  - 10X UNI$ per S$5 (1X base + 9X bonus); bonus capped at UNI$2,400 (S$1,200 spend) per statement period for this
+    category alone, credited the following statement period
+  sources: ['bank:0d166f4ab1ad', 'milelion:ccdde960944c']
+- id: contactless
+  label: Contactless & mobile wallet incl. SimplyGo (Category 2)
+  rate: 4.0
+  unit: mpd
+  tier: bonus
+  eligibility:
+    modes_required: [contactless, mobile_wallet]
+    description: Visa payWave taps and Apple/Google/Samsung Pay at payWave readers (not MST, not SPC), plus
+      SimplyGo bus/MRT fares (accumulated monthly).
+    sources: ['bank:0d166f4ab1ad']
+  min_spend:
+    amount: 1000.0
+    currency: SGD
+  min_spend_period: statement_month
+  bonus_cap:
+    amount: 1200.0
+    unit: SGD_spend
+    period: statement_month
+    shared_with: [petrol]
+    sources: ['bank:0d166f4ab1ad', 'milelion:ccdde960944c']
+  rounding:
+    amount: 5
+    per: statement_month
+    rounding: down
+    sources: ['milelion:ccdde960944c']
+  conditions:
+  - Needs S$1,000 combined SGD petrol + contactless spend in the statement period; shares the S$1,200 cap with petrol
+  - 10X UNI$ per S$5 (1X base + 9X bonus); bonus capped at UNI$2,400 (S$1,200 spend) per statement period for this
+    category alone, credited the following statement period
+  sources: ['bank:0d166f4ab1ad', 'milelion:ccdde960944c']
 - id: base
-  label: baseline (SingSaver — verify)
+  label: baseline
   rate: 0.4
   unit: mpd
   tier: base
   eligibility:
     all_spend: true
-    description: Earn UNI$1 per S$5 spend (equivalent to 0.4 mpd) on all other categories.
-    sources: ['singsaver:eea43cb0180c']
-  sources: ['singsaver:eea43cb0180c']
+    description: UNI$1 per S$5 on all other eligible spend, uncapped.
+    sources: ['bank:0d166f4ab1ad']
+  rounding:
+    amount: 5
+    rounding: down
+    sources: ['milelion:ccdde960944c']
+  sources: ['bank:0d166f4ab1ad']
+spend_cycle: statement_month
+spend_cycle_sources: ['bank:0d166f4ab1ad', 'milelion:ccdde960944c']
 general_exclusions:
-  description: Auto-extracted from official T&Cs — confirm each code applies to this card
+  exclude_mcc: ['4829', '4900', '5199', '5960', '5965', '5993', '6012', '6050', '6051', '6211', '6300',
+    '6513', '6529', '6530', '6534', '6540', '7349', '7511', '7523', '7995', '8062', '8211', '8220', '8241',
+    '8244', '8249', '8299', '8398', '8651', '8661', '8699', '8999', '9211', '9222', '9223', '9311', '9399',
+    '9402', '9405']
+  exclude_merchants: [SPC, Shell]
+  description: No UNI$ for these MCCs, NETS, IPP, SmartPay, cash advance, fees/interest, bill payment, prepaid
+    top-ups / payment service providers, SPC and Shell, or AXS, Amaze, EZ-Link, ipaymy, SmoovePay, RazerPay
+    etc. (T&C clause 1(iv))
+  sources: ['bank:0d166f4ab1ad']
 sign_up_bonuses:
 - offered_by: singsaver
   description: 'Welcome Offer: choice of S$100 Samsung Voucher'
@@ -111,6 +207,9 @@ sign_up_bonuses:
   url: https://www.singsaver.com.sg/credit-card/products/uob-visa-signature-card
   sources: ['singsaver:eea43cb0180c']
 notes:
+- 'spend_cycle statement_month from The MileLion review (“UNI$ 2,160 UNI$ Monthly Cap (S$) S$1,200 S$1,200
+  Caps are based on statement month Category 1 (Overseas Spend): A minimum spend of S$1,000 in FCY in
+  a statement month, capped at S$1,200 per statement ”) — confirm it applies to min spend and caps'
 - 'Editorial review for cross-checking: Review: UOB Visa Signature Card (https://milelion.com/2026/08/10/review-uob-visa-signature-card/,
   updated 2026-08-17)'
 - 'T&C mentions (check whether excluded): annual fee, axs, bill payment, cardup, cash advance, charit,
@@ -159,9 +258,12 @@ citations:
   url: https://milelion.com/2026/08/10/review-uob-visa-signature-card/
   title: 'Review: UOB Visa Signature Card'
   source_type: editorial
-  retrieved_at: '2026-09-27T05:28:21+00:00'
+  retrieved_at: '2026-09-28T13:28:23+00:00'
   sha256: ccdde960944c9d5931345009185d0965690da538dee6e3079c1f51362c6142fd
   snapshot: data/raw/milelion/post-125998-b208437b.json
 review:
-  status: draft
-updated_at: '2026-09-27'
+  status: reviewed
+  reviewed_by: claude (web research)
+  reviewed_at: 2026-10-18
+  notes: Verified vs UOB Visa Signature T&C (Ver 2.1, 28 Oct 2025) + MileLion Aug 2026 review — S$218 FYF, S$30k, 4 mpd FCY (Cat 1) and petrol+contactless (Cat 2), each S$1,000 min and S$1,200 cap per statement month, 0.4 mpd base; replaced exclusion-list-as-include MCCs.
+updated_at: '2026-09-28'

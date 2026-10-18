@@ -1,5 +1,5 @@
 # Curated card record. Auto-drafted from staged sources; verify every value against the
-# official T&Cs (citations below), then set review.status: reviewed.
+# official T&Cs (citations below), then set review.status: reviewed and review.reviewed_at.
 id: dbs-altitude-american-express
 bank: DBS
 name: DBS Altitude American Express Card
@@ -19,6 +19,21 @@ min_annual_income:
 reward_currency:
   kind: miles
   name: Miles
+  conversions:
+  - partner: KrisFlyer
+    points: 5000.0
+    partner_units: 10000.0
+    fee:
+      amount: 27.25
+      currency: SGD
+    min_block_points: 5000.0
+    note: 'The MileLion: min. transfer “5,000 DBS Points (10,000 miles)”, transfer fee “S$27.25” — confirm
+      the partner (the overview quotes KrisFlyer unless it says otherwise)'
+    sources: ['milelion:4aa7234670bb']
+  expiry:
+    never: true
+    note: 'The MileLion: points validity “No expiry”'
+    sources: ['milelion:4aa7234670bb']
 earn_rules:
 - id: flight-booking
   label: flight booking, overseas online shopping, travel, overseas, hotel booking (SingSaver — verify)
@@ -144,9 +159,9 @@ citations:
   url: https://milelion.com/2026/05/24/review-dbs-altitude-card/
   title: 'Review: DBS Altitude Card'
   source_type: editorial
-  retrieved_at: '2026-09-27T05:28:46+00:00'
+  retrieved_at: '2026-09-28T13:28:49+00:00'
   sha256: 4aa7234670bbf36a0b7738620d9ae319787e6880e572c2bda158b2efedc33420
   snapshot: data/raw/milelion/post-72991-0736e36f.json
 review:
   status: draft
-updated_at: '2026-09-27'
+updated_at: '2026-09-28'

@@ -1,74 +1,155 @@
 # Curated card record. Auto-drafted from staged sources; verify every value against the
-# official T&Cs (citations below), then set review.status: reviewed.
+# official T&Cs (citations below), then set review.status: reviewed and review.reviewed_at.
 id: maybank-horizon-visa-signature
 bank: Maybank
 name: Maybank Horizon Visa Signature Card
+network: visa
 image_url: https://mhgprod.blob.core.windows.net/singsaver/strapi-uploads/l_2026_04_Maybank_Horizon_db0f820b1f.png
 official_url: https://www.maybank2u.com.sg/en/personal/cards/credit/maybank-horizon-visa-signature-card.page
 annual_fee:
   amount:
     amount: 196.2
     currency: SGD
-  waiver_notes: S$ | First Three Years Waived
-  sources: ['singsaver:9466faaac725']
+  waiver_notes: First 3 years waived; thereafter auto-waived with S$18,000 spend per membership year
+  sources: ['singsaver:9466faaac725', 'milelion:972594901b95']
 min_annual_income:
   amount: 30000.0
   currency: SGD
 reward_currency:
   kind: miles
   name: Miles
+  conversions:
+  - partner: KrisFlyer
+    points: 25000.0
+    partner_units: 10000.0
+    fee:
+      amount: 27.25
+      currency: SGD
+    min_block_points: 25000.0
+    note: 2.5 TREATS Points = 1 KrisFlyer mile, blocks of 25,000 points; S$27.25 per conversion. Also Asia
+      Miles / Enrich 12,500:5,000 and AirAsia 4,000:2,000 (via PDF form).
+    sources: ['milelion:972594901b95', 'web:mb-treats-tnc']
+  expiry:
+    months: 12
+    months_max: 15
+    note: TREATS Points expire one year from the end of the quarter earned; never expire with Rewards Infinite
+      (S$24,000 spend in 12 months across Maybank cards, or holding a Visa Infinite / World Mastercard)
+    sources: ['web:mb-treats-tnc', 'milelion:972594901b95']
 earn_rules:
-- id: flight-booking
-  label: flight booking, overseas, overseas online shopping (SingSaver — verify)
+- id: air-tickets
+  label: Air tickets in SGD (min. S$800/month)
   rate: 2.8
   unit: mpd
   tier: bonus
   eligibility:
-    tags: [flights]
-    description: On air tickets. 7X TREATS Points per S$1 spent, equivalent to 2.8 miles per dollar /
-      On foreign spend. 7X TREATS Points per S$1 spent, equivalent to 2.8 miles per dollar / On foreign
-      spend. 7X TREATS Points per S$1 spent, equivalent to 2.8 miles per dollar.
-    sources: ['singsaver:9466faaac725']
+    include_mcc: ['3000-3350', '4511']
+    modes_required: [local_currency]
+    description: 7X TREATS Points (3X + 4X bonus) per S$1 on SGD air tickets (MCC 4511, 3000-3350) when total
+      retail spend in the calendar month is at least S$800. Below S$800 they earn 3X (1.2 mpd).
+    sources: ['web:mb-horizon-tnc']
   min_spend:
     amount: 800.0
     currency: SGD
-  min_spend_period: statement_month
+  min_spend_period: calendar_month
+  max_spend:
+    amount: 10000.0
+    currency: SGD
+  max_spend_period: calendar_month
+  bonus_cap:
+    amount: 40000.0
+    unit: points
+    period: calendar_month
+    sources: ['web:mb-horizon-tnc']
   conditions:
-  - min spend S$800/month from singsaver — confirm the period (statement vs calendar month) and which
-    rules it unlocks
-  sources: ['singsaver:9466faaac725']
-- id: dining
-  label: dining, petrol, transport, local, hotel booking, travel (SingSaver — verify)
+  - Spend on Selected Categories (insurance, medical, education, rental, professional services in SGD) does
+    not count toward the S$800
+  sources: ['web:mb-horizon-tnc', 'web:mb-horizon-page']
+- id: fcy
+  label: Foreign currency spend (min. S$800/month)
+  rate: 2.8
+  unit: mpd
+  tier: bonus
+  eligibility:
+    modes_required: [foreign_currency]
+    description: 7X TREATS Points per S$1 on all retail spend posted in foreign currency, uncapped, when total
+      retail spend in the calendar month is at least S$800.
+    sources: ['web:mb-horizon-tnc']
+  min_spend:
+    amount: 800.0
+    currency: SGD
+  min_spend_period: calendar_month
+  conditions:
+  - Bonus 4X is computed on the month's total eligible spend; base 3X per S$5 block per transaction
+  sources: ['web:mb-horizon-tnc', 'milelion:972594901b95']
+- id: fcy-under-min
+  label: Foreign currency spend (month under S$800)
   rate: 1.2
   unit: mpd
   tier: bonus
   eligibility:
-    tags: [dining, petrol, transport, hotels, travel]
-    modes_required: [contactless]
-    description: For Taxi and ContactlessBus/Train rides. / On dining, petrol, Grab or taxi rides and
-      Agoda hotel bookings. / On Agoda bookings. / On cruise and travel packages.
-    sources: ['singsaver:9466faaac725']
-  min_spend:
-    amount: 800.0
-    currency: SGD
-  min_spend_period: statement_month
-  conditions:
-  - min spend S$800/month from singsaver — confirm the period (statement vs calendar month) and which
-    rules it unlocks
-  sources: ['singsaver:9466faaac725']
+    modes_required: [foreign_currency]
+    description: 3X TREATS Points per S$1 on foreign currency spend when the S$800 monthly minimum isn't met.
+    sources: ['web:mb-horizon-tnc']
+  rounding:
+    amount: 5
+    rounding: down
+    sources: ['web:mb-treats-tnc']
+  sources: ['web:mb-horizon-tnc']
+- id: local-retail
+  label: Local retail spend in SGD (dining, groceries, transport, petrol, retail, travel)
+  rate: 1.2
+  unit: mpd
+  tier: bonus
+  eligibility:
+    include_mcc: ['5411', '5441', '5462', '5499', '5811', '5812', '5813', '5814', '4011', '4111', '4112',
+      '4121', '4131', '4214', '4215', '4789', '5172', '5541', '5542', '4816', '5045', '5262', '5309-5311',
+      '5331', '5399', '5611', '5621', '5631', '5641', '5651', '5655', '5661', '5691', '5699', '5732-5735',
+      '5912', '5942', '5944-5949', '5964-5970', '5977', '5992', '5999', '4511', '3000-3350', '7011', '3501-3999',
+      '3351-3500', '4411', '4722']
+    modes_required: [local_currency]
+    description: 3X TREATS Points per S$1 (no minimum spend) on SGD spend at supermarkets, dining & food delivery,
+      transport & petrol, department & retail stores, air tickets, hotels, cruises, travel packages and car
+      rental. Also MCC 5552 (EV charging) and fuel bought with a linked Diamond Sky Fuel Card (MCC 8699).
+    sources: ['web:mb-horizon-tnc']
+  rounding:
+    amount: 5
+    rounding: down
+    sources: ['web:mb-treats-tnc']
+  sources: ['web:mb-horizon-tnc', 'web:mb-horizon-page']
 - id: base
-  label: baseline (SingSaver — verify)
+  label: All other spend
   rate: 0.4
   unit: mpd
   tier: base
   eligibility:
     all_spend: true
-    description: ''
-    sources: ['singsaver:9466faaac725']
-  sources: ['singsaver:9466faaac725']
+    description: 1X TREATS Point per S$1 (5 points per S$5 block) on other eligible retail spend.
+    sources: ['web:mb-horizon-tnc', 'web:mb-treats-tnc']
+  rounding:
+    amount: 5
+    rounding: down
+    sources: ['web:mb-treats-tnc']
+  conditions:
+  - Selected Categories in SGD (insurance, medical, education, rental e.g. RentHero, professional services e.g.
+    CardUp) earn only 2 TREATS Points per S$5 (0.16 mpd), capped at 1,200 points (S$3,000 spend) per calendar
+    month
+  sources: ['web:mb-horizon-tnc']
+spend_cycle: calendar_month
+spend_cycle_sources: ['web:mb-horizon-tnc', 'milelion:972594901b95']
 general_exclusions:
-  description: Auto-extracted from official T&Cs — confirm each code applies to this card
+  exclude_mcc: ['4829', '4900', '6010', '6011', '6012', '6050', '6051', '6211', '6529', '6530', '6534', '6540',
+    '7349', '7511', '7523', '7995', '8398', '8651', '8661', '9211', '9222', '9223', '9311', '9399', '9402',
+    '9405']
+  exclude_merchants: [EZ-Link, SimplyGo, TransitLink, YouTrip, Instarem, RazerPay, Singtel Dash]
+  description: TREATS Points T&C clause 2.2 — no points for these MCCs, NETS/eNETS, AXS/SAM, instalment plans,
+    fees/interest, and listed top-up/prepaid merchants. Insurance (5960/6300/6381/6399) is NOT excluded on
+    this card (earns the Selected Categories rate).
+  sources: ['web:mb-treats-tnc', 'web:mb-horizon-tnc']
 notes:
+- Min spend and caps are tracked by posting date, but transactions posted by the 6th of the next month count
+  toward the month they were made (T&C clause 10).
+- Complimentary lounge visit (1/month) after a single S$1,000 retail transaction in the prior 3 months.
+- FCY fee 3.25%.
 - 'Editorial review for cross-checking: Review: Maybank Horizon Visa Signature Card (https://milelion.com/2026/08/24/review-maybank-horizon-visa-signature-card/,
   updated 2026-09-27)'
 citations:
@@ -90,9 +171,28 @@ citations:
   url: https://milelion.com/2026/08/24/review-maybank-horizon-visa-signature-card/
   title: 'Review: Maybank Horizon Visa Signature Card'
   source_type: editorial
-  retrieved_at: '2026-09-27T05:28:12+00:00'
+  retrieved_at: '2026-09-28T13:28:14+00:00'
   sha256: 972594901b95451329fa27a7f6e52cc7c08cdf05a87c4ccc47932dfa2ad596cf
   snapshot: data/raw/milelion/post-151653-ae02919f.json
+- id: web:mb-horizon-tnc
+  url: https://www.maybank2u.com.sg/iwov-resources/sg/pdf/cards/horizon-visa-signature-card-benefits-tnc.pdf
+  title: Maybank Horizon Visa Signature Card Privileges T&Cs (effective 1 Dec 2025)
+  source_type: official
+  retrieved_at: '2026-10-18'
+- id: web:mb-horizon-page
+  url: https://www.maybank2u.com.sg/en/personal/cards/credit/maybank-horizon-visa-signature-card.page
+  title: Maybank Horizon Visa Signature Card (product page)
+  source_type: official
+  retrieved_at: '2026-10-18'
+- id: web:mb-treats-tnc
+  url: https://www.maybank2u.com.sg/iwov-resources/sg/pdf/cards/terms_and_conditions.pdf
+  title: Maybank TREATS Points Rewards Programme T&Cs (effective 9 Oct 2026)
+  source_type: official
+  retrieved_at: '2026-10-18'
 review:
-  status: draft
-updated_at: '2026-09-27'
+  status: reviewed
+  reviewed_by: claude (web research)
+  reviewed_at: 2026-10-18
+  notes: Rates/MCCs/caps/min spend from official T&C (1 Dec 2025) + TREATS T&C (9 Oct 2026); fee/income/waiver
+    from MileLion + SingSaver (fee section of product page not captured).
+updated_at: '2026-09-28'

@@ -1,8 +1,9 @@
 # Curated card record. Auto-drafted from staged sources; verify every value against the
-# official T&Cs (citations below), then set review.status: reviewed.
+# official T&Cs (citations below), then set review.status: reviewed and review.reviewed_at.
 id: maybank-visa-infinite
 bank: Maybank
 name: Maybank Visa Infinite Card
+network: visa
 image_url: https://mhgprod.blob.core.windows.net/singsaver/strapi-uploads/s_blt75f3d989c7d20c6d_1a0751f9bc.png
 official_url: https://www.maybank2u.com.sg/en/personal/cards/credit/maybank-visa-infinite-card.page
 annual_fee:
@@ -10,46 +11,93 @@ annual_fee:
     amount: 654.0
     currency: SGD
   first_year_waived: true
-  waiver_notes: S$ | First Year Waived
-  sources: ['singsaver:f5553f2fbad3']
+  waiver_notes: First year waived; thereafter auto-waived with S$60,000 spend in the year before the fee is due
+  sources: ['singsaver:f5553f2fbad3', 'web:mb-vi-page']
 min_annual_income:
   amount: 150000.0
   currency: SGD
 reward_currency:
   kind: miles
   name: Miles
+  conversions:
+  - partner: KrisFlyer
+    points: 25000.0
+    partner_units: 10000.0
+    fee:
+      amount: 27.25
+      currency: SGD
+    min_block_points: 25000.0
+    note: 2.5 TREATS Points = 1 KrisFlyer mile, blocks of 25,000 points. S$27.25 per conversion — the fee waiver
+      for Visa Infinite ended April 2025 (now waived only for Diamanté cards). Also Asia Miles / Enrich
+      12,500:5,000, AirAsia 4,000:2,000.
+    sources: ['milelion:8e22e180cb61', 'web:mb-treats-tnc']
+  expiry:
+    never: true
+    note: Automatic Rewards Infinite membership — TREATS Points don't expire while it lasts
+    sources: ['web:mb-treats-tnc', 'milelion:8e22e180cb61']
 earn_rules:
-- id: overseas
-  label: overseas (SingSaver — verify)
+- id: fcy-4k
+  label: Foreign currency spend (min. S$4,000/month)
+  rate: 3.2
+  unit: mpd
+  tier: bonus
+  eligibility:
+    modes_required: [foreign_currency]
+    description: 8X TREATS Points (40 per S$5) on foreign currency spend, uncapped, when retail spend in the
+      calendar month is at least S$4,000 (SGD + FCY combined). Applies from the first dollar.
+    sources: ['web:mb-vi-tnc']
+  min_spend:
+    amount: 4000.0
+    currency: SGD
+  min_spend_period: calendar_month
+  rounding:
+    amount: 5
+    rounding: down
+    sources: ['web:mb-vi-tnc']
+  sources: ['web:mb-vi-tnc', 'web:mb-vi-page']
+- id: fcy
+  label: Foreign currency spend
   rate: 2.0
   unit: mpd
   tier: bonus
   eligibility:
-    description: ''
-    sources: ['singsaver:f5553f2fbad3']
-  sources: ['singsaver:f5553f2fbad3']
-- id: local
-  label: local, insurance (SingSaver — verify)
-  rate: 1.2
-  unit: mpd
-  tier: bonus
-  eligibility:
-    description: ''
-    sources: ['singsaver:f5553f2fbad3']
-  sources: ['singsaver:f5553f2fbad3']
+    modes_required: [foreign_currency]
+    description: 5X TREATS Points (25 per S$5) on foreign currency spend, uncapped, no minimum spend.
+    sources: ['web:mb-vi-tnc']
+  rounding:
+    amount: 5
+    rounding: down
+    sources: ['web:mb-vi-tnc']
+  sources: ['web:mb-vi-tnc', 'web:mb-vi-page']
 - id: base
-  label: baseline (SingSaver — verify)
+  label: Local spend (SGD)
   rate: 1.2
   unit: mpd
   tier: base
   eligibility:
     all_spend: true
-    description: ''
-    sources: ['singsaver:f5553f2fbad3']
-  sources: ['singsaver:f5553f2fbad3']
+    description: 3X TREATS Points (15 per S$5) on SGD spend, incl. education and hospitals; insurance premiums
+      also earn this up to S$3,000 per calendar month.
+    sources: ['web:mb-vi-tnc']
+  rounding:
+    amount: 5
+    rounding: down
+    sources: ['web:mb-vi-tnc']
+  sources: ['web:mb-vi-tnc', 'web:mb-vi-page']
+spend_cycle: calendar_month
+spend_cycle_sources: ['web:mb-vi-tnc', 'milelion:8e22e180cb61']
 general_exclusions:
-  description: Auto-extracted from official T&Cs — confirm each code applies to this card
+  exclude_mcc: ['4829', '4900', '6010', '6011', '6012', '6050', '6051', '6211', '6529', '6530', '6534', '6540',
+    '7349', '7511', '7523', '7995', '8398', '8651', '8661', '9211', '9222', '9223', '9311', '9399', '9402',
+    '9405']
+  exclude_merchants: [EZ-Link, SimplyGo, TransitLink, YouTrip, Instarem, RazerPay, Singtel Dash]
+  description: TREATS Points T&C clause 2.2 — no points for these MCCs, NETS/eNETS, AXS/SAM, instalment plans,
+    fees/interest and listed top-up/prepaid merchants. Insurance earns 1.2 mpd up to S$3,000/month on this card.
+  sources: ['web:mb-treats-tnc', 'web:mb-vi-tnc']
 notes:
+- 4 Priority Pass visits a year (principal only); 1 airport limo transfer per month with S$3,000 spend in the
+  previous calendar month (insurance excluded), max 8 per year.
+- FCY fee 3.25%.
 - 'Editorial review for cross-checking: Review: Maybank Visa Infinite Card (https://milelion.com/2025/11/20/review-maybank-visa-infinite-card/,
   updated 2025-11-20)'
 citations:
@@ -64,9 +112,28 @@ citations:
   url: https://milelion.com/2025/11/20/review-maybank-visa-infinite-card/
   title: 'Review: Maybank Visa Infinite Card'
   source_type: editorial
-  retrieved_at: '2026-09-27T05:29:20+00:00'
+  retrieved_at: '2026-09-28T13:29:19+00:00'
   sha256: 8e22e180cb61c474a46047793e9db3b4dd086c42cc0e5d1c507fdebeabfdb43b
   snapshot: data/raw/milelion/post-149633-e03349d6.json
+- id: web:mb-vi-tnc
+  url: https://www.maybank2u.com.sg/iwov-resources/sg/pdf/cards/vi-privilege-tnc.pdf
+  title: Terms and Conditions Governing Privileges of Maybank Visa Infinite Credit Card (updated 9 Oct 2026)
+  source_type: official
+  retrieved_at: '2026-10-18'
+- id: web:mb-vi-page
+  url: https://www.maybank2u.com.sg/en/personal/cards/credit/maybank-visa-infinite-card.page
+  title: Maybank Visa Infinite Card (product page)
+  source_type: official
+  retrieved_at: '2026-10-18'
+- id: web:mb-treats-tnc
+  url: https://www.maybank2u.com.sg/iwov-resources/sg/pdf/cards/terms_and_conditions.pdf
+  title: Maybank TREATS Points Rewards Programme T&Cs (effective 9 Oct 2026)
+  source_type: official
+  retrieved_at: '2026-10-18'
 review:
-  status: draft
-updated_at: '2026-09-27'
+  status: reviewed
+  reviewed_by: claude (web research)
+  reviewed_at: 2026-10-18
+  notes: Fee, income, rates (3.2/2/1.2 mpd), S$4k min spend, insurance cap, conversion fee and expiry verified
+    against official product page + T&Cs (9 Oct 2026). Nothing left unverified.
+updated_at: '2026-09-28'

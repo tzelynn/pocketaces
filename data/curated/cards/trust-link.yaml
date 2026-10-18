@@ -1,5 +1,5 @@
 # Curated card record. Auto-drafted from staged sources; verify every value against the
-# official T&Cs (citations below), then set review.status: reviewed.
+# official T&Cs (citations below), then set review.status: reviewed and review.reviewed_at.
 id: trust-link
 bank: Trust Bank
 name: Trust Link / NTUC Link Credit Card
@@ -10,43 +10,76 @@ annual_fee:
   amount:
     amount: 0.0
     currency: SGD
-  sources: ['moneysmart:42909b088c22']
+  waiver_notes: No annual fee for main and supplementary cards
+  sources: ['moneysmart:42909b088c22', 'bank:fdf0a4026f11']
 min_annual_income:
   amount: 30000.0
   currency: SGD
 reward_currency:
-  kind: points
-  name: Points
+  kind: cashback
+  name: Linkpoints (100 Linkpoints = S$1 at FairPrice)
 earn_rules:
 - id: local-spending
-  label: local spending, overseas spending, grocery (SingSaver — verify)
-  rate: 21.0
-  unit: points_per_dollar
+  label: FairPrice Group groceries & food (Trust Link, non-union, all bonuses)
+  rate: 15.0
+  unit: percent
   tier: bonus
   eligibility:
-    include_mcc: ['4829', '4900', '5960', '6010', '6011', '6012', '6051', '6211', '6300', '6513', '6540',
-      '7349', '7399', '7995', '8211', '8220', '8241', '8244', '8249', '8299', '8398', '8651', '8661',
-      '9211', '9222', '9223', '9311', '9399', '9402', '9405']
-    description: Up to  | Up to 21 Linkpoints / dollar when you meet the minimum spend requirement anywhere
-      outside FairPrice Group. Base rate 0.22 Linkpoints / dollar. [include_mcc auto-extracted from official
-      T&C — check it belongs to this rule]
-    sources: ['singsaver:4493e1800a14', 'bank:f7be83d6cefe', 'bank:fdf0a4026f11']
-  conditions: ['aggregator categories: groceries']
-  sources: ['singsaver:4493e1800a14']
+    tags: [groceries]
+    include_merchants: [FairPrice, FairPrice Finest, FairPrice Xtra, FairPrice Xpress, FairPrice Online, Warehouse
+        Club, Unity, Cheers, Kopitiam]
+    description: 'FPG spend earns 0.5% base + 4% monthly bonus (min. S$550 Eligible Spend outside FPG in the
+      calendar month) + quarterly bonus 5.5% (S$550 outside FPG in each of 3 consecutive months) + 5% (S$800
+      outside FPG) = up to 15% in Linkpoints. NTUC Union members (NTUC Link): 2.5% base + 4% (min. S$450) + 6.5%
+      (S$450) + 6% (S$800) = up to 21% incl. the 2% FairPrice member base (FairPrice members only).'
+    sources: ['web:trust-link-kfs']
+  min_spend:
+    amount: 800.0
+    currency: SGD
+  min_spend_period: calendar_month
+  bonus_cap:
+    amount: 10000.0
+    unit: points
+    period: quarter
+    sources: ['web:trust-link-kfs']
+  conditions:
+  - Min. spend is Eligible Spend outside FairPrice Group, per calendar month (waived in the month the card is
+    approved); the quarterly bonus needs it for 3 consecutive months
+  - 'Caps on bonus Linkpoints: monthly bonus 5,500 Linkpoints/month (S$55); quarterly bonus 5,000 Linkpoints
+    (S$550 tier) + 5,000 (S$800 tier) per quarter'
+  - Rates stated for 1 Nov 2025 – 31 Jan 2027
+  - FairPrice member 2% base (union) capped at 12,000 Linkpoints a year
+  sources: ['web:trust-link-kfs', 'bank:fdf0a4026f11']
+- id: overseas
+  label: Foreign currency / overseas-processed spend
+  rate: 0.05
+  unit: percent
+  tier: bonus
+  eligibility:
+    modes_required: [foreign_currency, overseas_in_sgd]
+    description: 0.05% Linkpoints on Foreign Eligible Spend (non-SGD or processed outside Singapore, incl. DCC),
+      no cap. No FX fee from Trust.
+    sources: ['bank:fdf0a4026f11']
+  sources: ['bank:fdf0a4026f11']
 - id: base
-  label: baseline (SingSaver — verify)
+  label: Local eligible spend
   rate: 0.22
-  unit: points_per_dollar
+  unit: percent
   tier: base
   eligibility:
     all_spend: true
-    description: ''
-    sources: ['singsaver:4493e1800a14']
-  sources: ['singsaver:4493e1800a14']
+    description: 0.22% Linkpoints on Local Eligible Spend (SGD, processed in Singapore, excl. FPG), no cap.
+    sources: ['bank:fdf0a4026f11']
+  sources: ['bank:fdf0a4026f11']
+spend_cycle: calendar_month
+spend_cycle_sources: ['bank:fdf0a4026f11']
 general_exclusions:
-  exclude_mcc: ['7399']
-  description: Auto-extracted from official T&Cs — confirm each code applies to this card
-  sources: ['bank:f7be83d6cefe', 'bank:fdf0a4026f11']
+  exclude_mcc: ['4900', '6513', '7349', '4829', '5960', '6010', '6011', '6012', '6051', '6211', '6300', '6540',
+    '7995', '8211', '8220', '8241', '8244', '8249', '8299', '8398', '8651', '8661', '9211', '9222', '9223',
+    '9311', '9399', '9402', '9405', '7399']
+  description: Product terms "Exclusions from rewards" (MCC 7399 excluded from 15 May 2026); also cash advances,
+    AXS/SAM/ATM, insurance premiums, fees, and top-ups (except Kopitiam top-up cards)
+  sources: ['bank:f7be83d6cefe']
 sign_up_bonuses:
 - offered_by: moneysmart
   description: 'Choice of: Sure-win stock gift of up to S$8K cashback'
@@ -57,8 +90,9 @@ sign_up_bonuses:
   url: https://www.moneysmart.sg/credit-cards/ntuc-link-trust-card
   sources: ['moneysmart:42909b088c22']
 notes:
-- 'T&C mentions (check whether excluded): annual fee, axs, balance transfer, cash advance, charit, education,
-  government, instalment, insurance premium, interest, late payment charge, tax, top-up, top-ups, utilit'
+- Linkpoints are shown as % (1 Linkpoint per S$1 = 1%; 100 Linkpoints = S$1 off at FairPrice). The draft's
+  "21 Linkpoints/dollar" headline is the NTUC Union member maximum; Trust Link (non-union) tops out at 15%.
+- Trust also advertises up to 20% savings on fuel at Caltex (mostly Caltex's own discounts) — not modelled.
 citations:
 - id: singsaver:4493e1800a14
   url: https://www.singsaver.com.sg/credit-card/products/trust-bank-link-credit-card
@@ -86,6 +120,15 @@ citations:
   retrieved_at: '2026-09-27T08:42:52+00:00'
   sha256: fdf0a4026f1128a99e3644488ef9ede114f111bd7316f4266e2f7b8fb09e7d7c
   snapshot: data/raw/bank/trustbank-sg-legal-key-facts-sheet-credit-card-d36eadb6.html
+- id: web:trust-link-kfs
+  url: https://trustbank.sg/legal/key-facts-sheet-credit-card/
+  title: Trust Link / NTUC Link Credit Card Key Facts Sheet v35 (1 Oct 2026) — Linkpoints rate tables (union /
+    non-union images, 1 Nov 2025 – 31 Jan 2027)
+  source_type: official
+  retrieved_at: '2026-10-18'
 review:
-  status: draft
-updated_at: '2026-09-27'
+  status: reviewed
+  reviewed_by: claude (web research)
+  reviewed_at: 2026-10-18
+  notes: 'Verified vs Trust KFS v35 (incl. rate-table images) and product terms: FPG up to 15% non-union / 21% union with min. spend outside FPG and Linkpoint caps, 0.22% local, 0.05% FCY, no fee. Draft bonus rule had the exclusion MCC list as include_mcc (removed). Min. income S$30k from aggregators only.'
+updated_at: '2026-09-28'
