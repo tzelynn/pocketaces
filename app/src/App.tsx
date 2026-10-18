@@ -1,9 +1,10 @@
 import { useEffect, useState } from "react";
-import { Layers, RefreshCw, Settings, Spade, TriangleAlert, Wallet, type LucideIcon } from "lucide-react";
+import { CircleHelp, Layers, RefreshCw, Settings, Spade, TriangleAlert, Wallet, type LucideIcon } from "lucide-react";
 import { useAppUpdate, useUser } from "./lib/store";
 import { CardsPage } from "./pages/CardsPage";
 import { WalletPage } from "./pages/WalletPage";
 import { SettingsPage } from "./pages/SettingsPage";
+import { Tour, tourSeen } from "./components/Tour";
 
 type Tab = "cards" | "wallet" | "settings";
 const TABS: { key: Tab; label: string; icon: LucideIcon }[] = [
@@ -19,7 +20,8 @@ const fromHash = (): Tab => {
 
 export function App() {
   const [tab, setTab] = useState<Tab>(fromHash);
-  const { reminders, saveError } = useUser();
+  const { catalog, reminders, saveError } = useUser();
+  const [touring, setTouring] = useState(false);
   const upd = useAppUpdate();
 
   useEffect(() => {
@@ -29,7 +31,11 @@ export function App() {
   }, []);
   useEffect(() => { window.scrollTo(0, 0); }, [tab]);
 
+  // First visit: show the tour once the catalogue (and so the card list it points at) has loaded.
+  useEffect(() => { if (catalog && !tourSeen()) startTour(); }, [catalog]);
+
   const go = (t: Tab) => { location.hash = t; };
+  const startTour = () => { go("cards"); setTouring(true); };
   const badge = reminders.length;
 
   return (
@@ -39,14 +45,19 @@ export function App() {
           <span className="brand-mark"><Spade size={18} fill="currentColor" aria-hidden /></span>
           <span className="brand-name">pocket aces</span>
         </a>
+        <div className="topbar-end">
         <nav className="topnav" aria-label="Main">
           {TABS.map((t) => (
-            <button key={t.key} type="button" className={tab === t.key ? "on" : ""} aria-current={tab === t.key ? "page" : undefined} onClick={() => go(t.key)}>
+            <button key={t.key} type="button" data-tour={t.key} className={tab === t.key ? "on" : ""} aria-current={tab === t.key ? "page" : undefined} onClick={() => go(t.key)}>
               <t.icon size={16} aria-hidden /> {t.label}
               {t.key === "wallet" && badge > 0 && <span className="badge" aria-label={`${badge} reminders`}>{badge}</span>}
             </button>
           ))}
         </nav>
+        <button type="button" className="icon-btn" data-tour="help" onClick={startTour} aria-label="Show app tour" title="Show app tour">
+          <CircleHelp size={20} />
+        </button>
+        </div>
       </header>
 
       {upd.status === "available" && (
@@ -70,7 +81,7 @@ export function App() {
 
       <nav className="bottomnav" aria-label="Main">
         {TABS.map((t) => (
-          <button key={t.key} type="button" className={tab === t.key ? "on" : ""} aria-current={tab === t.key ? "page" : undefined} onClick={() => go(t.key)}>
+          <button key={t.key} type="button" data-tour={t.key} className={tab === t.key ? "on" : ""} aria-current={tab === t.key ? "page" : undefined} onClick={() => go(t.key)}>
             <span className="bn-icon">
               <t.icon size={22} aria-hidden />
               {t.key === "wallet" && badge > 0 && <span className="badge">{badge}</span>}
@@ -79,6 +90,8 @@ export function App() {
           </button>
         ))}
       </nav>
+
+      {touring && <Tour onClose={() => setTouring(false)} />}
     </div>
   );
 }
