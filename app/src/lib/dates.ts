@@ -76,17 +76,19 @@ export function billCycles(card: MyCard, on: Ymd): { current: BillCycle | null; 
   return { current, next };
 }
 
-/** This membership year's fee date: the most recent one within `graceDays`, else the next one. */
+/**
+ * This membership year's fee date: the most recent one within `graceDays`, else the next one.
+ * Dates already checked off (waived or paid) roll over to the following year.
+ */
 export function feeInstance(card: MyCard, on: Ymd, graceDays = 30): Ymd | null {
   if (!card.feeDate) return null;
   const [mm, dd] = card.feeDate.split("-").map(Number);
-  const y = parseYmd(on).getFullYear();
-  const thisYear = toYmd(dayInMonth(y, mm - 1, dd));
-  if (thisYear >= on) {
-    const lastYear = toYmd(dayInMonth(y - 1, mm - 1, dd));
-    return daysBetween(lastYear, on) <= graceDays ? lastYear : thisYear;
-  }
-  return daysBetween(thisYear, on) <= graceDays ? thisYear : toYmd(dayInMonth(y + 1, mm - 1, dd));
+  const at = (y: number) => toYmd(dayInMonth(y, mm - 1, dd));
+  let y = parseYmd(on).getFullYear();
+  if (at(y) >= on) y--;
+  if (daysBetween(at(y), on) > graceDays) y++;
+  while (card.fees[at(y)]) y++;
+  return at(y);
 }
 
 /**

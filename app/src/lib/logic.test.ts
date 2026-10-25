@@ -61,6 +61,11 @@ describe("annual fee instance", () => {
   it("handles a fee date just before new year", () => {
     expect(feeInstance(card({ feeDate: "12-20" }), "2027-01-05")).toBe("2026-12-20");
   });
+  it("rolls over to next year once checked off", () => {
+    const done = { status: "waived" as const, at: "2026-10-06T00:00:00.000Z" };
+    expect(feeInstance(card({ feeDate: "10-05", fees: { "2026-10-05": done } }), "2026-10-20")).toBe("2027-10-05");
+    expect(feeInstance(card({ feeDate: "10-05", fees: { "2026-10-05": done } }), "2026-09-27")).toBe("2027-10-05");
+  });
 });
 
 describe("spend window", () => {

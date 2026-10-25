@@ -33,6 +33,8 @@ export function WalletPage() {
   const { state, update, reminders, on, byId, demo } = useUser();
   const [editing, setEditing] = useState<string | null>(null);
   const [adding, setAdding] = useState(false);
+  // Fees checked off while this page is open, so they keep an Undo until the user leaves.
+  const [justChecked, setJustChecked] = useState<Record<string, string>>({});
   const cards = state.myCards;
   const guide = useMemo(() => guidance(cards.filter((c) => c.minSpend || c.maxSpend), on, byId), [cards, on, byId]);
 
@@ -42,12 +44,17 @@ export function WalletPage() {
       if (paid) bills[statement] = { paidAt: new Date().toISOString() }; else delete bills[statement];
       return { ...c, bills };
     }));
-  const checkFee = (card: MyCard, date: string, status: "waived" | "paid" | null) =>
+  const checkFee = (card: MyCard, date: string, status: "waived" | "paid" | null) => {
+    setJustChecked((j) => {
+      const { [card.id]: _, ...rest } = j;
+      return status ? { ...rest, [card.id]: date } : rest;
+    });
     update((s) => patchCard(s, card.id, (c) => {
       const fees = { ...c.fees };
       if (status) fees[date] = { status, at: new Date().toISOString() }; else delete fees[date];
       return { ...c, fees };
     }));
+  };
   const act = (r: Reminder, what: "paid" | "waived") => {
     const card = cards.find((c) => c.id === r.cardId)!;
     if (r.kind === "bill") checkBill(card, r.instance, true); else checkFee(card, r.instance, what);
@@ -132,7 +139,7 @@ export function WalletPage() {
 
       <div className="tiles">
         {cards.map((c) => (
-          <CardTile key={c.id} card={c} onEdit={() => setEditing(c.id)} onBill={checkBill} onFee={checkFee} />
+          <CardTile key={c.id} card={c} justChecked={justChecked[c.id]} onEdit={() => setEditing(c.id)} onBill={checkBill} onFee={checkFee} />
         ))}
       </div>
 
@@ -147,8 +154,9 @@ export function WalletPage() {
   );
 }
 
-function CardTile({ card, onEdit, onBill, onFee }: {
+function CardTile({ card, justChecked, onEdit, onBill, onFee }: {
   card: MyCard;
+  justChecked?: string;
   onEdit: () => void;
   onBill: (c: MyCard, statement: string, paid: boolean) => void;
   onFee: (c: MyCard, date: string, status: "waived" | "paid" | null) => void;
@@ -156,7 +164,7 @@ function CardTile({ card, onEdit, onBill, onFee }: {
   const { update, on, byId, state } = useUser();
   const cat = card.catalogId ? byId.get(card.catalogId) : undefined;
   const { current, next } = billCycles(card, on);
-  const fee = feeInstance(card, on, FEE_GRACE_DAYS);
+  const fee = justChecked && card.fees[justChecked] ? justChecked : feeInstance(card, on, FEE_GRACE_DAYS);
   const win = spendWindow(card, on, cat?.spendCycle);
   const spent = spentInWindow(card, on, cat?.spendCycle);
   const entries = card.spends.filter((s) => s.date >= win.start && s.date <= win.end).sort((a, b) => b.date.localeCompare(a.date));
